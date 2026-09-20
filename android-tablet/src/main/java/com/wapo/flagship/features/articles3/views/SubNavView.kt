@@ -80,7 +80,12 @@ fun SubNavView(
     // same default rather than to an unrelated chip.
     var selectedTabId by rememberSaveable(uiModel.tabsUrl) { mutableStateOf<String?>(null) }
 
-    val selectedTab = strip.tabs.firstOrNull { it.id == selectedTabId }
+    // Search dropdown children too: picking "Arizona" stores that child's id, which is not in
+    // strip.tabs, so a top-level-only lookup would miss it and fall back to the default embed.
+    val selectedTab = strip.tabs.firstNotNullOfOrNull { tab ->
+        tab.takeIf { it.id == selectedTabId }
+            ?: tab.children.firstOrNull { it.id == selectedTabId }
+    }
     val contentUrl = selectedTab?.contentUrl ?: uiModel.defaultContentUrl
 
     Column(modifier = Modifier.fillMaxWidth()) {
@@ -223,14 +228,20 @@ private fun SubNavDropdownChip(
             },
         )
 
-        DropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
+        DropdownMenu(
+            expanded = expanded,
+            onDismissRequest = { expanded = false },
+            // Material3 tints its menu surface from the theme's primary, which reads as lavender
+            // here. Painting the modifier background overrides that without touching the theme.
+            modifier = Modifier.background(SUB_NAV_MENU_BACKGROUND),
+        ) {
             tab.children.forEach { child ->
                 DropdownMenuItem(
                     text = {
                         Text(
                             text = child.label,
                             style = tabStyle(child.id == selectedTabId),
-                            color = wpdsColors.primary,
+                            color = SUB_NAV_MENU_TEXT,
                         )
                     },
                     onClick = {
@@ -281,6 +292,11 @@ private fun SubNavIcon(iconName: String?) {
 /** Shared by the section label and the chips; they differed by 0.1sp only because the old
  *  item_sub_nav.xml did, which was not a deliberate distinction. */
 private val SUB_NAV_TEXT_SIZE = 16.sp
+
+/** Deliberately fixed rather than theme-derived: the menu is meant to read as a light surface
+ *  in both themes. Swap for wpdsColors.surface / onSurface if it should follow dark mode. */
+private val SUB_NAV_MENU_BACKGROUND = Color(0xFFF7F7F7)
+private val SUB_NAV_MENU_TEXT = Color(0xFF1A1A1A)
 
 @Composable
 private fun sectionLabelStyle(): TextStyle = TextStyle(
