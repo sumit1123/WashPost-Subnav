@@ -5,6 +5,7 @@ import com.wapo.flagship.features.articles2.models.QuestionSet
 import com.wapo.flagship.features.articles2.models.deserialized.ContextBoxAlignment
 import com.wapo.flagship.features.articles2.models.deserialized.Position
 import com.wapo.flagship.features.articles3.views.PdfUiStyle
+import com.wapo.flagship.features.articles3.views.SubNavUiStyle
 import com.wapo.flagship.features.articles3.views.AdUiStyle
 import com.wapo.flagship.features.articles3.views.AudioPlaybackState
 import com.wapo.flagship.features.articles3.views.AudioUiStyle
@@ -314,6 +315,36 @@ data class SanitizedHtmlUiModel(
         val end: Int
     )
 }
+
+/**
+ * One chip in the [SubNavUiModel] strip. Selecting it swaps the panel below the strip
+ * to [contentUrl]; a tab with a null [contentUrl] is a label only and is not selectable.
+ */
+data class SubNavTabUiModel(
+    val id: String,
+    val label: String,
+    val contentUrl: String?,
+    val subtype: String? = null,
+    val behavior: String? = null,
+    /** Feed icon name, e.g. "election-default". Resolved against drawables by IconUtils. */
+    val iconName: String? = null,
+)
+
+/**
+ * Horizontally scrolling nav strip with a content panel beneath it.
+ *
+ * The article element supplies only [tabsUrl] and [defaultContentUrl]; the chips themselves
+ * are fetched at render time from [tabsUrl], so the newsroom can change them without an app
+ * release. Until a chip is selected the panel shows [defaultContentUrl] (the element's own
+ * embed).
+ */
+data class SubNavUiModel(
+    val tabsUrl: String?,
+    val defaultContentUrl: String?,
+    val subtype: String?,
+    val widthFactor: WidthFactor?,
+    override val uiStyle: SubNavUiStyle = SubNavUiStyle.DEFAULT
+) : ArticleItemUiModel(uiStyle)
 
 data class TitleUiModel(
     val text: String,

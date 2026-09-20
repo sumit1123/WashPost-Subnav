@@ -1535,6 +1535,22 @@ class Articles2ViewModel @Inject constructor(
                         uiStyle = WebEmbedUiStyle.DEFAULT
                     )
                 }
+                is SubNav -> {
+                    // The chips themselves are not in the payload -- `siteMap` is the endpoint
+                    // SubNavView fetches them from. `item` is the embed shown before a chip is
+                    // picked. Drop the element entirely if it carries neither.
+                    if (it.siteMap.isNullOrBlank() && it.subItem?.url.isNullOrBlank()) {
+                        null
+                    } else {
+                        SubNavUiModel(
+                            tabsUrl = it.siteMap,
+                            defaultContentUrl = it.subItem?.url,
+                            subtype = it.subItem?.subtype,
+                            widthFactor = parseWidthFactor(it.subItem?.widthFactor),
+                            uiStyle = SubNavUiStyle.DEFAULT
+                        )
+                    }
+                }
                 is Pdf -> {
                     PdfUiModel(
                         url = it.url ?: "",

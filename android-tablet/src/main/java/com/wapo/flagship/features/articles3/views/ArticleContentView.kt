@@ -69,6 +69,7 @@ import com.wapo.flagship.features.articles3.models.ui.PdfUiModel
 import com.wapo.flagship.features.articles3.models.ui.PinUiModel
 import com.wapo.flagship.features.articles3.models.ui.PullQuoteUiModel
 import com.wapo.flagship.features.articles3.models.ui.SanitizedHtmlUiModel
+import com.wapo.flagship.features.articles3.models.ui.SubNavUiModel
 import com.wapo.flagship.features.articles3.models.ui.SourceCommentUiModel
 import com.wapo.flagship.features.articles3.models.ui.TableUiModel
 import com.wapo.flagship.features.articles3.models.ui.TaglineUiModel
@@ -478,6 +479,13 @@ private fun Content(
                         webEmbedSettings = webEmbedSettings,
                     )
 
+                    is SubNavUiModel -> SubNavView(
+                        index = index,
+                        uiModel = item,
+                        onArticleInteractionEvent = articlesInteractionHelper::onEventFired,
+                        webEmbedSettings = webEmbedSettings,
+                    )
+
                     is PdfUiModel -> PdfView(item)
                 }
             }
@@ -574,6 +582,9 @@ private fun getItemSpacing(item: ArticleItemUiModel, config: Configuration): Art
         is AdUiModel,
         is VideoUiModel,
         is CarouselUiModel,
+        // Edge-to-edge: the strip supplies its own content padding and the rule below it
+        // is meant to span the full width.
+        is SubNavUiModel,
         is PdfUiModel -> 0.dp
 
         is ImageUiModel -> when (item.widthFactor) {
