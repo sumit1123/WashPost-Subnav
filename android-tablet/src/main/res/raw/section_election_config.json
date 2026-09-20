@@ -53,7 +53,41 @@
           "subtype": "results",
           "name": "Results by State",
           "path": "https://www.washingtonpost.com/elections/results/2026/11/03/",
-          "behavior": "sn_elections_results_by_state"
+          "behavior": "sn_elections_results_by_state",
+          "children": [
+            {
+              "id": "link-elections-2026-arizona",
+              "type": "link",
+              "subtype": "results",
+              "name": "Arizona",
+              "path": "https://www.washingtonpost.com/elections/results/2026/11/03/arizona/",
+              "behavior": "sn_elections_state_arizona"
+            },
+            {
+              "id": "link-elections-2026-georgia",
+              "type": "link",
+              "subtype": "results",
+              "name": "Georgia",
+              "path": "https://www.washingtonpost.com/elections/results/2026/11/03/georgia/",
+              "behavior": "sn_elections_state_georgia"
+            },
+            {
+              "id": "link-elections-2026-michigan",
+              "type": "link",
+              "subtype": "results",
+              "name": "Michigan",
+              "path": "https://www.washingtonpost.com/elections/results/2026/11/03/michigan/",
+              "behavior": "sn_elections_state_michigan"
+            },
+            {
+              "id": "link-elections-2026-pennsylvania",
+              "type": "link",
+              "subtype": "results",
+              "name": "Pennsylvania",
+              "path": "https://www.washingtonpost.com/elections/results/2026/11/03/pennsylvania/",
+              "behavior": "sn_elections_state_pennsylvania"
+            }
+          ]
         }
       ]
     }

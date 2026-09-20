@@ -328,7 +328,14 @@ data class SubNavTabUiModel(
     val behavior: String? = null,
     /** Feed icon name, e.g. "election-default". Resolved against drawables by IconUtils. */
     val iconName: String? = null,
-)
+    /**
+     * Nested entries from the feed. A chip that has them renders as a dropdown — the design's
+     * "Results by State ⌄" — and selecting one of these swaps the panel instead of the parent.
+     */
+    val children: List<SubNavTabUiModel> = emptyList(),
+) {
+    val isDropdown: Boolean get() = children.isNotEmpty()
+}
 
 /**
  * Horizontally scrolling nav strip with a content panel beneath it.

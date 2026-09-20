@@ -1536,9 +1536,6 @@ class Articles2ViewModel @Inject constructor(
                     )
                 }
                 is SubNav -> {
-                    // The chips themselves are not in the payload -- `siteMap` is the endpoint
-                    // SubNavView fetches them from. `item` is the embed shown before a chip is
-                    // picked. Drop the element entirely if it carries neither.
                     if (it.siteMap.isNullOrBlank() && it.subItem?.url.isNullOrBlank()) {
                         null
                     } else {

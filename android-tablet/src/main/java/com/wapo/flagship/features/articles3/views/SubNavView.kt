@@ -13,8 +13,12 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -24,6 +28,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
@@ -46,30 +51,11 @@ import com.wpds.theme.FranklinItcStandardFontFamily
 import com.wpds.theme.wpdsColors
 import com.wpds.utils.IconUtils
 
-// ============================================================================
-// STYLE ENUM
-// ============================================================================
-
 enum class SubNavUiStyle {
     DEFAULT
 }
 
-// ============================================================================
-// VIEW
-// ============================================================================
 
-/**
- * Horizontally scrolling nav strip with a content panel underneath.
- *
- * The chips are not in the article payload — they are fetched from [SubNavUiModel.tabsUrl] the
- * first time the element composes, so the newsroom controls them without an app release. Until a
- * chip is picked the panel shows [SubNavUiModel.defaultContentUrl]; picking one swaps the panel to
- * that chip's own url.
- *
- * Both states render through [WebEmbedView], so the tab content reuses the existing WebView pool,
- * height-reporting and theming rather than introducing a second embed path. Each url gets its own
- * pool key, so switching tabs back and forth does not reload.
- */
 @Composable
 fun SubNavView(
     index: Int,
@@ -104,7 +90,6 @@ fun SubNavView(
                 strip = strip,
                 selectedTabId = selectedTabId,
                 onTabSelected = { tab ->
-                    // Selecting is local state only — the panel below swaps, we do not navigate.
                     selectedTabId = if (selectedTabId == tab.id) null else tab.id
                     tab.behavior?.let { Measurement.trackSubNavItemClick(it) }
                 },
@@ -164,19 +149,94 @@ private fun SubNavStripRow(
         }
 
         items(items = strip.tabs, key = { it.id }) { tab ->
-            val isSelected = tab.id == selectedTabId
-            Row(
-                verticalAlignment = Alignment.CenterVertically,
-                modifier = Modifier
-                    .clickable(enabled = tab.contentUrl != null) { onTabSelected(tab) }
-                    .padding(vertical = 4.dp),
-            ) {
-                SubNavIcon(iconName = tab.iconName)
-                Text(
-                    text = tab.label,
-                    style = tabStyle(isSelected),
-                    // Design shows unselected chips in the same near-black as the label, not grey.
-                    color = wpdsColors.primary,
+            if (tab.isDropdown) {
+                SubNavDropdownChip(
+                    tab = tab,
+                    selectedTabId = selectedTabId,
+                    onTabSelected = onTabSelected,
+                )
+            } else {
+                SubNavChip(
+                    tab = tab,
+                    isSelected = tab.id == selectedTabId,
+                    onClick = { onTabSelected(tab) },
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun SubNavChip(
+    tab: SubNavTabUiModel,
+    isSelected: Boolean,
+    onClick: () -> Unit,
+    trailing: @Composable () -> Unit = {},
+) {
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        modifier = Modifier
+            .clickable(enabled = tab.contentUrl != null || tab.isDropdown) { onClick() }
+            .padding(vertical = 4.dp),
+    ) {
+        SubNavIcon(iconName = tab.iconName)
+        Text(
+            text = tab.label,
+            style = tabStyle(isSelected),
+            color = wpdsColors.primary,
+        )
+        trailing()
+    }
+}
+
+/**
+ * A chip whose feed entry has nested children — the design's "Results by State ⌄". Tapping opens
+ * a menu of the children; picking one swaps the panel to that child, so the parent itself is
+ * never the selection.
+ */
+@Composable
+private fun SubNavDropdownChip(
+    tab: SubNavTabUiModel,
+    selectedTabId: String?,
+    onTabSelected: (SubNavTabUiModel) -> Unit,
+) {
+    var expanded by remember { mutableStateOf(false) }
+    // The parent reads as selected while any of its children is the current panel.
+    val isSelected = tab.children.any { it.id == selectedTabId }
+
+    Box {
+        SubNavChip(
+            tab = tab,
+            isSelected = isSelected,
+            onClick = { expanded = true },
+            trailing = {
+                // ArrowDropUp lives in material-icons-extended, which this module does not
+                // pull in; rotating the down caret avoids adding the dependency for one glyph.
+                Icon(
+                    imageVector = Icons.Filled.ArrowDropDown,
+                    contentDescription = null,
+                    tint = wpdsColors.primary,
+                    modifier = Modifier
+                        .size(20.dp)
+                        .rotate(if (expanded) 180f else 0f),
+                )
+            },
+        )
+
+        DropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
+            tab.children.forEach { child ->
+                DropdownMenuItem(
+                    text = {
+                        Text(
+                            text = child.label,
+                            style = tabStyle(child.id == selectedTabId),
+                            color = wpdsColors.primary,
+                        )
+                    },
+                    onClick = {
+                        expanded = false
+                        onTabSelected(child)
+                    },
                 )
             }
         }
@@ -211,7 +271,6 @@ private fun SubNavIcon(iconName: String?) {
     Icon(
         painter = painterResource(id = drawableId),
         contentDescription = null,
-        // Unspecified keeps the flag's own red/blue instead of flattening it to the text colour.
         tint = Color.Unspecified,
         modifier = Modifier
             .size(16.dp)
@@ -219,22 +278,22 @@ private fun SubNavIcon(iconName: String?) {
     )
 }
 
-// ============================================================================
-// TEXT STYLES
-// ============================================================================
+/** Shared by the section label and the chips; they differed by 0.1sp only because the old
+ *  item_sub_nav.xml did, which was not a deliberate distinction. */
+private val SUB_NAV_TEXT_SIZE = 16.sp
 
 @Composable
 private fun sectionLabelStyle(): TextStyle = TextStyle(
     fontFamily = FranklinItcStandardFontFamily,
     fontWeight = FontWeight.Bold,
-    fontSize = 13.4.sp,
+    fontSize = SUB_NAV_TEXT_SIZE,
 )
 
 @Composable
 private fun tabStyle(isSelected: Boolean): TextStyle = TextStyle(
     fontFamily = FranklinItcStandardFontFamily,
     fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal,
-    fontSize = 13.5.sp,
+    fontSize = SUB_NAV_TEXT_SIZE,
     textDecoration = if (isSelected) TextDecoration.Underline else TextDecoration.None,
 )
 
