@@ -12,7 +12,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyRow
-import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -76,15 +76,28 @@ fun SubNavView(
     onArticleInteractionEvent: (ArticleInteractionEvent) -> Unit,
     webEmbedSettings: WebEmbedSettings,
 ) {
+    val context = LocalContext.current
+
+    // Two phases, mirroring the old ConfigManager path: paint from the bundled copy of the
+    // site-service tree straight away, then upgrade to the remote one. A failed or empty fetch
+    // leaves the bundled chips on screen rather than blanking the strip.
     val strip by produceState(initialValue = SubNavStrip.EMPTY, key1 = uiModel.tabsUrl) {
+        value = SubNavTabsLoader.loadBundled(context)
+
         val url = uiModel.tabsUrl
-        value = if (url.isNullOrBlank()) SubNavStrip.EMPTY else SubNavTabsLoader.load(url)
+        if (!url.isNullOrBlank()) {
+            val remote = SubNavTabsLoader.load(url)
+            if (!remote.isEmpty) value = remote
+        }
     }
 
-    // -1 means "nothing picked yet" -> show the element's own embed.
-    var selectedIndex by rememberSaveable(uiModel.tabsUrl) { mutableStateOf(-1) }
+    // Tracked by id, not index: the chip list is replaced when the remote strip arrives, and an
+    // index would then silently point at a different chip. null means "nothing picked yet" ->
+    // show the element's own embed. A selection that the remote strip drops falls back to that
+    // same default rather than to an unrelated chip.
+    var selectedTabId by rememberSaveable(uiModel.tabsUrl) { mutableStateOf<String?>(null) }
 
-    val selectedTab = strip.tabs.getOrNull(selectedIndex)
+    val selectedTab = strip.tabs.firstOrNull { it.id == selectedTabId }
     val contentUrl = selectedTab?.contentUrl ?: uiModel.defaultContentUrl
 
     Column(modifier = Modifier.fillMaxWidth()) {
@@ -92,10 +105,10 @@ fun SubNavView(
         if (!strip.isEmpty) {
             SubNavStripRow(
                 strip = strip,
-                selectedIndex = selectedIndex,
-                onTabSelected = { tappedIndex, tab ->
+                selectedTabId = selectedTabId,
+                onTabSelected = { tab ->
                     // Selecting is local state only — the panel below swaps, we do not navigate.
-                    selectedIndex = if (selectedIndex == tappedIndex) -1 else tappedIndex
+                    selectedTabId = if (selectedTabId == tab.id) null else tab.id
                     tab.behavior?.let { Measurement.trackSubNavItemClick(it) }
                 },
             )
@@ -131,8 +144,8 @@ fun SubNavView(
 @Composable
 private fun SubNavStripRow(
     strip: SubNavStrip,
-    selectedIndex: Int,
-    onTabSelected: (Int, SubNavTabUiModel) -> Unit,
+    selectedTabId: String?,
+    onTabSelected: (SubNavTabUiModel) -> Unit,
 ) {
     LazyRow(
         modifier = Modifier.fillMaxWidth(),
@@ -153,12 +166,12 @@ private fun SubNavStripRow(
             }
         }
 
-        itemsIndexed(items = strip.tabs, key = { _, tab -> tab.id }) { tabIndex, tab ->
-            val isSelected = tabIndex == selectedIndex
+        items(items = strip.tabs, key = { it.id }) { tab ->
+            val isSelected = tab.id == selectedTabId
             Row(
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier
-                    .clickable(enabled = tab.contentUrl != null) { onTabSelected(tabIndex, tab) }
+                    .clickable(enabled = tab.contentUrl != null) { onTabSelected(tab) }
                     .padding(vertical = 4.dp),
             ) {
                 SubNavIcon(iconName = tab.iconName)
@@ -245,8 +258,8 @@ private fun SubNavStripRowPreview() {
                     SubNavTabUiModel("3", "Balance of power", "https://example.com/c"),
                 ),
             ),
-            selectedIndex = 1,
-            onTabSelected = { _, _ -> },
+            selectedTabId = "2",
+            onTabSelected = { },
         )
     }
 }

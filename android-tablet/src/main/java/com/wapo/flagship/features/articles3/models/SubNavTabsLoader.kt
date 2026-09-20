@@ -1,7 +1,9 @@
 package com.wapo.flagship.features.articles3.models
 
+import android.content.Context
 import com.wapo.android.commons.util.Logger
 import com.wapo.flagship.features.articles3.models.ui.SubNavTabUiModel
+import com.washingtonpost.android.R
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import okhttp3.OkHttpClient
@@ -37,6 +39,35 @@ object SubNavTabsLoader {
 
     /** In-memory cache so scrolling the element in and out doesn't re-hit the network. */
     private val cache = mutableMapOf<String, SubNavStrip>()
+
+    /** Parsed once — the bundled resource cannot change at runtime. */
+    private var bundled: SubNavStrip? = null
+
+    /**
+     * Chips from the app's bundled copy of the site-service tree
+     * (`R.raw.section_election_config`), so the strip paints immediately instead of waiting on
+     * the network — the same instant-paint the old `ConfigManager.loadLocalConfig` path gave.
+     *
+     * Returns [SubNavStrip.EMPTY] if the resource is missing or unparseable, so a bad bundled
+     * file costs the fallback only, never the article.
+     */
+    suspend fun loadBundled(context: Context): SubNavStrip = withContext(Dispatchers.IO) {
+        bundled?.let { return@withContext it }
+
+        val strip = try {
+            val json = context.resources
+                .openRawResource(R.raw.section_election_config)
+                .reader()
+                .use { it.readText() }
+            parse(json)
+        } catch (t: Throwable) {
+            Logger.e(TAG, "SubNav bundled fallback parse error", t)
+            SubNavStrip.EMPTY
+        }
+
+        bundled = strip
+        strip
+    }
 
     suspend fun load(url: String): SubNavStrip = withContext(Dispatchers.IO) {
         cache[url]?.let { return@withContext it }
