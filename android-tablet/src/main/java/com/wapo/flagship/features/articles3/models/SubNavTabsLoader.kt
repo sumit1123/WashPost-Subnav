@@ -1,9 +1,10 @@
 package com.wapo.flagship.features.articles3.models
 
 import android.content.Context
+import com.wapo.android.commons.config.ConfigHelper
+import com.wapo.android.commons.config.Constants
 import com.wapo.android.commons.util.Logger
 import com.wapo.flagship.features.articles3.models.ui.SubNavTabUiModel
-import com.washingtonpost.android.BuildConfig
 import com.washingtonpost.android.R
 import dagger.hilt.EntryPoint
 import dagger.hilt.InstallIn
@@ -15,7 +16,6 @@ import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONObject
 import java.io.File
-import java.security.MessageDigest
 
 /**
  * Supplies the chips for a `sub_nav` element, in the same three tiers the old
@@ -41,7 +41,7 @@ import java.security.MessageDigest
 object SubNavTabsLoader {
 
     private const val TAG = "SubNavTabsLoader"
-    private const val CACHE_DIR = "subnav_config"
+    private val CONFIG_TYPE = Constants.ConfigType.ELECTION_SUB_NAV_CONFIG
 
     /** Hilt does not inject into objects, so reach the app's configured client the way the
      *  widget factories do. Building a bare OkHttpClient here would skip
@@ -58,26 +58,34 @@ object SubNavTabsLoader {
             .fromApplication(context.applicationContext, NetworkEntryPoint::class.java)
             .okHttpClient()
 
-    /** Parsed once — a bundled resource cannot change at runtime. */
-    private var bundled: SubNavStrip? = null
-
     /** Survives scrolling the element in and out; the disk copy survives process death. */
     private val memory = mutableMapOf<String, SubNavStrip>()
 
     /**
-     * Best strip available without touching the network: the last good download if we have one,
-     * otherwise the bundled copy. Used for the first paint.
+     * Best strip available without touching the network. Delegates to
+     * [ConfigHelper.updateAndLoadConfig], which is the same call the old `loadLocalConfig` path
+     * used: it returns the last good download from `filesDir`, falls back to the bundled raw
+     * resource when there is no file, and clears the file when the app version code has changed
+     * so an upgrade picks up that build's bundled copy.
      */
     suspend fun loadCachedOrBundled(context: Context, url: String?): SubNavStrip =
         withContext(Dispatchers.IO) {
-            if (url != null) {
-                memory[url]?.let { return@withContext it }
-                readFromDisk(context, url)?.let { cached ->
-                    memory[url] = cached
-                    return@withContext cached
+            if (url != null) memory[url]?.let { return@withContext it }
+
+            try {
+                val json = ConfigHelper.updateAndLoadConfig(
+                    context,
+                    R.raw.section_election_config,
+                    CONFIG_TYPE,
+                ) ?: return@withContext SubNavStrip.EMPTY
+
+                parse(json.toString()).also { strip ->
+                    if (url != null && !strip.isEmpty) memory[url] = strip
                 }
+            } catch (t: Throwable) {
+                Logger.e(TAG, "SubNav local config load error", t)
+                SubNavStrip.EMPTY
             }
-            loadBundled(context)
         }
 
     /**
@@ -96,7 +104,7 @@ object SubNavTabsLoader {
                 val strip = parse(body)
                 if (!strip.isEmpty) {
                     memory[url] = strip
-                    writeToDisk(context, url, body)
+                    writeToDisk(context, body)
                 }
                 strip
             }
@@ -106,62 +114,20 @@ object SubNavTabsLoader {
         }
     }
 
-    /** Chips from the app's bundled copy of the site-service tree. */
-    private fun loadBundled(context: Context): SubNavStrip {
-        bundled?.let { return it }
-
-        val strip = try {
-            val json = context.resources
-                .openRawResource(R.raw.section_election_config)
-                .reader()
-                .use { it.readText() }
-            parse(json)
-        } catch (t: Throwable) {
-            Logger.e(TAG, "SubNav bundled fallback parse error", t)
-            SubNavStrip.EMPTY
-        }
-
-        bundled = strip
-        return strip
-    }
-
     // ------------------------------------------------------------------------
     // DISK CACHE
     // ------------------------------------------------------------------------
 
     /**
-     * The app's version code is part of the filename, so an upgrade misses every previously
-     * cached file and falls back to that build's bundled copy — the same invalidation
-     * `ConfigHelper.updateAndLoadConfig` did by comparing stored and current version codes.
-     * Stale files from older versions are swept on the next successful write.
+     * Writes the downloaded payload to the same file [ConfigHelper] reads from, so the next
+     * launch picks it up as tier 1. Reading, version invalidation and the raw-resource fallback
+     * all stay in ConfigHelper rather than being reimplemented here.
      */
-    private fun cacheFile(context: Context, url: String): File {
-        val digest = MessageDigest.getInstance("SHA-256")
-            .digest(url.toByteArray())
-            .joinToString("") { "%02x".format(it) }
-            .take(32)
-        val dir = File(context.filesDir, CACHE_DIR).apply { mkdirs() }
-        return File(dir, "${BuildConfig.VERSION_CODE}_$digest.json")
-    }
-
-    private fun readFromDisk(context: Context, url: String): SubNavStrip? = try {
-        val file = cacheFile(context, url)
-        if (file.exists()) parse(file.readText()).takeIf { !it.isEmpty } else null
-    } catch (t: Throwable) {
-        Logger.e(TAG, "SubNav disk cache read error", t)
-        null
-    }
-
-    private fun writeToDisk(context: Context, url: String, json: String) {
+    private fun writeToDisk(context: Context, json: String) {
         try {
-            val file = cacheFile(context, url)
-            file.writeText(json)
-            // Drop entries written by earlier app versions.
-            file.parentFile
-                ?.listFiles { f -> !f.name.startsWith("${BuildConfig.VERSION_CODE}_") }
-                ?.forEach { it.delete() }
+            File(context.filesDir, ConfigHelper.getFileName(CONFIG_TYPE)).writeText(json)
         } catch (t: Throwable) {
-            Logger.e(TAG, "SubNav disk cache write error", t)
+            Logger.e(TAG, "SubNav local config write error", t)
         }
     }
 
