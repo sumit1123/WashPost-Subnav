@@ -2,36 +2,58 @@
   "id": "/",
   "children": [
     {
-      "id": "/elections/election-2024",
+      "id": "/elections/election-2026",
       "type": "section",
-      "path": "/elections/election-2024",
-      "path_fusion": "/elections/election-2024/",
-      "name": "Election\n2024",
-      "nav_name": "Election\n2024",
+      "path": "/elections/election-2026",
+      "path_fusion": "/elections/election-2026/",
+      "name": "Elections 2026",
+      "nav_name": "Elections 2026",
       "aliases": [
-        "/elections/election-2024",
-        "/election-2024"
+        "/elections/election-2026",
+        "/election-2026"
       ],
       "icon": "election-default",
       "behavior": "sn_elections_lo",
       "children": [
         {
-          "id": "link-KJ6R7H8VDN47DBD9A5VRTU64K8",
-          "type": "link",
-          "subtype": "search",
-          "name": "Find results",
-          "path": "https://www.washingtonpost.com/electionsearch/",
-          "icon": "search",
-          "behavior": "search_sn_elections"
-        },
-        {
-          "id": "link-KJ6R7H8VDN47DBD9A5VRTU64K9",
+          "id": "link-elections-2026-live-updates",
           "type": "link",
           "subtype": "luf",
-          "name": "Live updates",
-          "path": "https://www.washingtonpost.com/elections/2024/08/02/2024-election-campaign-updates-harris-trump/",
-          "display_date": "2024-09-09T22:16:40.488Z",
+          "name": "Live Updates",
+          "path": "https://www.washingtonpost.com/elections/2026/11/03/election-updates/",
           "behavior": "sn_elections_luf"
+        },
+        {
+          "id": "link-elections-2026-house",
+          "type": "link",
+          "subtype": "results",
+          "name": "House",
+          "path": "https://www.washingtonpost.com/elections/results/2026/11/03/house/",
+          "behavior": "sn_elections_house"
+        },
+        {
+          "id": "link-elections-2026-senate",
+          "type": "link",
+          "subtype": "results",
+          "name": "Senate",
+          "path": "https://www.washingtonpost.com/elections/results/2026/11/03/senate/",
+          "behavior": "sn_elections_senate"
+        },
+        {
+          "id": "link-elections-2026-state-control",
+          "type": "link",
+          "subtype": "results",
+          "name": "State Control",
+          "path": "https://www.washingtonpost.com/elections/results/2026/11/03/state-control/",
+          "behavior": "sn_elections_state_control"
+        },
+        {
+          "id": "link-elections-2026-results-by-state",
+          "type": "link",
+          "subtype": "results",
+          "name": "Results by State",
+          "path": "https://www.washingtonpost.com/elections/results/2026/11/03/",
+          "behavior": "sn_elections_results_by_state"
         }
       ]
     }
