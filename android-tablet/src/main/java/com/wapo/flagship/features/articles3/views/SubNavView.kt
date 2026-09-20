@@ -78,15 +78,15 @@ fun SubNavView(
 ) {
     val context = LocalContext.current
 
-    // Two phases, mirroring the old ConfigManager path: paint from the bundled copy of the
-    // site-service tree straight away, then upgrade to the remote one. A failed or empty fetch
-    // leaves the bundled chips on screen rather than blanking the strip.
+    // Two phases, mirroring the old ConfigManager path: paint from the last good download (or
+    // the bundled copy if there isn't one) straight away, then upgrade from the network. A
+    // failed or empty fetch leaves the first-phase chips on screen rather than blanking them.
     val strip by produceState(initialValue = SubNavStrip.EMPTY, key1 = uiModel.tabsUrl) {
-        value = SubNavTabsLoader.loadBundled(context)
+        value = SubNavTabsLoader.loadCachedOrBundled(context, uiModel.tabsUrl)
 
         val url = uiModel.tabsUrl
         if (!url.isNullOrBlank()) {
-            val remote = SubNavTabsLoader.load(url)
+            val remote = SubNavTabsLoader.loadRemote(context, url)
             if (!remote.isEmpty) value = remote
         }
     }

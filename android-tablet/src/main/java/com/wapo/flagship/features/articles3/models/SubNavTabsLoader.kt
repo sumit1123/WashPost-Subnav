@@ -3,56 +3,112 @@ package com.wapo.flagship.features.articles3.models
 import android.content.Context
 import com.wapo.android.commons.util.Logger
 import com.wapo.flagship.features.articles3.models.ui.SubNavTabUiModel
+import com.washingtonpost.android.BuildConfig
 import com.washingtonpost.android.R
+import dagger.hilt.EntryPoint
+import dagger.hilt.InstallIn
+import dagger.hilt.android.EntryPointAccessors
+import dagger.hilt.components.SingletonComponent
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONObject
-import java.util.concurrent.TimeUnit
+import java.io.File
+import java.security.MessageDigest
 
 /**
- * Fetches the chips for a `sub_nav` element from the endpoint named by its `siteMap`.
+ * Supplies the chips for a `sub_nav` element, in the same three tiers the old
+ * `ConfigManager` path used:
+ *
+ * 1. **Disk** — the last payload that downloaded successfully, so a returning reader gets the
+ *    real chips instantly and offline.
+ * 2. **Bundled** — `R.raw.section_election_config`, for a first run or after an app upgrade.
+ * 3. **Remote** — the `siteMap` endpoint, which refreshes both of the above.
  *
  * The payload is a site-service tree whose first child is the section and whose grandchildren
  * are the chips:
  * ```
- * { "children": [ { "name": "Election 2024",
- *                   "children": [ { "name": "Find results", "path": "…" }, … ] } ] }
+ * { "children": [ { "name": "Elections 2026",
+ *                   "children": [ { "name": "House", "path": "…" }, … ] } ] }
  * ```
  *
  * Parsed with [JSONObject] rather than a generated adapter on purpose: the contract is still in
  * flux, and only `name` + `path` are load-bearing. Unknown fields are ignored and a malformed
- * payload yields an empty list instead of throwing, so a bad response degrades to "no chips"
- * rather than an article that fails to render.
+ * payload yields an empty strip instead of throwing, so a bad response costs the chips rather
+ * than the whole article.
  */
 object SubNavTabsLoader {
 
     private const val TAG = "SubNavTabsLoader"
+    private const val CACHE_DIR = "subnav_config"
 
-    private val client: OkHttpClient by lazy {
-        OkHttpClient.Builder()
-            .connectTimeout(10, TimeUnit.SECONDS)
-            .readTimeout(10, TimeUnit.SECONDS)
-            .build()
+    /** Hilt does not inject into objects, so reach the app's configured client the way the
+     *  widget factories do. Building a bare OkHttpClient here would skip
+     *  [com.wapo.android.commons.retrofit.DefaultHeadersInterceptor] (CLIENT-APP, User-Agent),
+     *  the app's TLS setup, timeouts, and debug logging/mocking. */
+    @EntryPoint
+    @InstallIn(SingletonComponent::class)
+    interface NetworkEntryPoint {
+        fun okHttpClient(): OkHttpClient
     }
 
-    /** In-memory cache so scrolling the element in and out doesn't re-hit the network. */
-    private val cache = mutableMapOf<String, SubNavStrip>()
+    private fun client(context: Context): OkHttpClient =
+        EntryPointAccessors
+            .fromApplication(context.applicationContext, NetworkEntryPoint::class.java)
+            .okHttpClient()
 
-    /** Parsed once — the bundled resource cannot change at runtime. */
+    /** Parsed once — a bundled resource cannot change at runtime. */
     private var bundled: SubNavStrip? = null
 
+    /** Survives scrolling the element in and out; the disk copy survives process death. */
+    private val memory = mutableMapOf<String, SubNavStrip>()
+
     /**
-     * Chips from the app's bundled copy of the site-service tree
-     * (`R.raw.section_election_config`), so the strip paints immediately instead of waiting on
-     * the network — the same instant-paint the old `ConfigManager.loadLocalConfig` path gave.
-     *
-     * Returns [SubNavStrip.EMPTY] if the resource is missing or unparseable, so a bad bundled
-     * file costs the fallback only, never the article.
+     * Best strip available without touching the network: the last good download if we have one,
+     * otherwise the bundled copy. Used for the first paint.
      */
-    suspend fun loadBundled(context: Context): SubNavStrip = withContext(Dispatchers.IO) {
-        bundled?.let { return@withContext it }
+    suspend fun loadCachedOrBundled(context: Context, url: String?): SubNavStrip =
+        withContext(Dispatchers.IO) {
+            if (url != null) {
+                memory[url]?.let { return@withContext it }
+                readFromDisk(context, url)?.let { cached ->
+                    memory[url] = cached
+                    return@withContext cached
+                }
+            }
+            loadBundled(context)
+        }
+
+    /**
+     * Fetches the strip from [url] and, on success, writes it to disk for the next launch.
+     * Returns [SubNavStrip.EMPTY] on any failure so the caller can keep showing tier 1 or 2.
+     */
+    suspend fun loadRemote(context: Context, url: String): SubNavStrip = withContext(Dispatchers.IO) {
+        try {
+            val request = Request.Builder().url(url).build()
+            client(context).newCall(request).execute().use { response ->
+                if (!response.isSuccessful) {
+                    Logger.d(TAG, "SubNav tabs fetch failed, code=${response.code}, url=$url")
+                    return@use SubNavStrip.EMPTY
+                }
+                val body = response.body.string()
+                val strip = parse(body)
+                if (!strip.isEmpty) {
+                    memory[url] = strip
+                    writeToDisk(context, url, body)
+                }
+                strip
+            }
+        } catch (t: Throwable) {
+            Logger.e(TAG, "SubNav tabs fetch error for $url", t)
+            SubNavStrip.EMPTY
+        }
+    }
+
+    /** Chips from the app's bundled copy of the site-service tree. */
+    private fun loadBundled(context: Context): SubNavStrip {
+        bundled?.let { return it }
 
         val strip = try {
             val json = context.resources
@@ -66,29 +122,52 @@ object SubNavTabsLoader {
         }
 
         bundled = strip
-        strip
+        return strip
     }
 
-    suspend fun load(url: String): SubNavStrip = withContext(Dispatchers.IO) {
-        cache[url]?.let { return@withContext it }
+    // ------------------------------------------------------------------------
+    // DISK CACHE
+    // ------------------------------------------------------------------------
 
-        val strip = try {
-            val request = Request.Builder().url(url).build()
-            client.newCall(request).execute().use { response ->
-                if (!response.isSuccessful) {
-                    Logger.d(TAG, "SubNav tabs fetch failed, code=${response.code}, url=$url")
-                    return@use SubNavStrip.EMPTY
-                }
-                parse(response.body.string())
-            }
+    /**
+     * The app's version code is part of the filename, so an upgrade misses every previously
+     * cached file and falls back to that build's bundled copy — the same invalidation
+     * `ConfigHelper.updateAndLoadConfig` did by comparing stored and current version codes.
+     * Stale files from older versions are swept on the next successful write.
+     */
+    private fun cacheFile(context: Context, url: String): File {
+        val digest = MessageDigest.getInstance("SHA-256")
+            .digest(url.toByteArray())
+            .joinToString("") { "%02x".format(it) }
+            .take(32)
+        val dir = File(context.filesDir, CACHE_DIR).apply { mkdirs() }
+        return File(dir, "${BuildConfig.VERSION_CODE}_$digest.json")
+    }
+
+    private fun readFromDisk(context: Context, url: String): SubNavStrip? = try {
+        val file = cacheFile(context, url)
+        if (file.exists()) parse(file.readText()).takeIf { !it.isEmpty } else null
+    } catch (t: Throwable) {
+        Logger.e(TAG, "SubNav disk cache read error", t)
+        null
+    }
+
+    private fun writeToDisk(context: Context, url: String, json: String) {
+        try {
+            val file = cacheFile(context, url)
+            file.writeText(json)
+            // Drop entries written by earlier app versions.
+            file.parentFile
+                ?.listFiles { f -> !f.name.startsWith("${BuildConfig.VERSION_CODE}_") }
+                ?.forEach { it.delete() }
         } catch (t: Throwable) {
-            Logger.e(TAG, "SubNav tabs fetch error for $url", t)
-            SubNavStrip.EMPTY
+            Logger.e(TAG, "SubNav disk cache write error", t)
         }
-
-        if (strip.tabs.isNotEmpty()) cache[url] = strip
-        strip
     }
+
+    // ------------------------------------------------------------------------
+    // PARSING
+    // ------------------------------------------------------------------------
 
     internal fun parse(json: String): SubNavStrip {
         if (json.isBlank()) return SubNavStrip.EMPTY
@@ -133,7 +212,7 @@ object SubNavTabsLoader {
 }
 
 /**
- * [sectionLabel] is the strip's leading title ("Election 2024"); [tabs] are the selectable chips.
+ * [sectionLabel] is the strip's leading title ("Elections 2026"); [tabs] are the selectable chips.
  */
 data class SubNavStrip(
     val sectionLabel: String?,
