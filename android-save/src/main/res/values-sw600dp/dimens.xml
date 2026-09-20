@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- My Post Spacing -->
+    <dimen name="my_post_toolbar_settings_margin">8dp</dimen>
+    <dimen name="my_post_toolbar_settings_padding">16dp</dimen>
+    <dimen name="my_post_toolbar_settings_bottom_padding">0dp</dimen>
+    <dimen name="my_post_toolbar_label_left_margin">30dp</dimen>
+    <dimen name="my_post_card_divider_height">12dp</dimen>
+    <dimen name="my_post_card_left_margin">15dp</dimen>
+    <dimen name="my_post_card_content_left_margin">30dp</dimen>
+    <dimen name="my_post_card_hero_content_left_margin">24dp</dimen>
+    <dimen name="my_post_card_detail_content_left_margin">12dp</dimen>
+    <dimen name="my_post_card_detail_content_right_margin">12dp</dimen>
+    <dimen name="my_post_tablet_detail_gutter_width">12dp</dimen>
+    <dimen name="my_post_tablet_fixed_width_column">250dp</dimen>
+    <dimen name="my_post_utility_menu_right_margin">@dimen/my_post_card_content_left_margin</dimen>
+    <dimen name="my_post_topic_detail_list_horizontal_padding">47dp</dimen>
+    <!-- My Post Sizes -->
+    <dimen name="my_post_carousel_card_size">330dp</dimen>
+    <dimen name="my_post_chip_text_size">14sp</dimen>
+    <dimen name="my_post_chip_min_height">26dp</dimen>
+    <dimen name="my_post_preview_label_text_size">28sp</dimen>
+    <dimen name="my_post_preview_desc_text_size">14sp</dimen>
+    <dimen name="my_post_preview_headline_text_size">24sp</dimen>
+    <dimen name="my_post_banner_title_text_size">20sp</dimen>
+    <dimen name="my_post_banner_text_size">16sp</dimen>
+</resources>

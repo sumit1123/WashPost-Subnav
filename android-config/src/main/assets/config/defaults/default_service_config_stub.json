@@ -1,0 +1,112 @@
+{
+  "paywallConfigV2": {
+    "on": true,
+    "limit": 5,
+    "maxRollingDays": 5,
+    "maxRollingArticleLimit": 3,
+    "groupLimits": [
+      {
+        "groupId": 0,
+        "sectionIds": [
+          "politics",
+          "opinions",
+          "powerpost"
+        ],
+        "limit": 3
+      }
+    ],
+    "omitPwSectionsList": [
+      "Top-Stories"
+    ],
+    "validSKUs": [
+      "monthly_all_access",
+      "MONTHLY_ALL_ACCESS",
+      "wp.classic.basic"
+    ],
+    "SKU": "monthly_all_access",
+    "playLicense": "fnX1xuQrzDgqC59Wpr2MFO8lZMIZ7Z5O01wwQwUGH88WhjPgyBHGXkpKJZi9jzCKMD4UGVsN4EXSZAKwa1ljzdBf2K8HVfwb7A0YNICyy9elhoIuOhgsz/5EVcjz2nxqMSBcHxbDR/VMPJFgiviSW0jDHvJvNBHfj6KvrMc0+lfbuGRx2N5Qz++xO8cGwETZ5qT5xzzox9dHd5RC7fP1tSlA6YSaUD90hoi/KPyiefW2J22zaTkSGEcW7GqPMCIdiVWMD2rgXsUVhPDwxwkyQDQTC3l5m8igQSEqJIf+mHWN7Ihp4+f4KGupTeJsE5//MlI20QLdUDWyAEqe240VUskW2AOKVrvIUmEaPysY+cgg7eondR74aLCClH3Uqwpv9xBJUPJci/yQH+iTw7fNJ44TdU+tilo2r69aIJaQGEyG1IDhroGDM7cHLFOw6bbTtB0HXh7q9gjIef8EA6GPNbY4X1VyqXnKyilK9U1z5DdN1eXRZRDJALOb0AUzpjnXrLuJ9uLijMjoXLS+RNsW9Q==",
+    "paywallBaseUrl": "https://subscribe.washingtonpost.com/%s/rest/",
+    "oAuthConfigStub": {
+      "authorizationUrl": "https://subscribe.washingtonpost.com/loginregistration/index.html#/na-login",
+      "authorizationScope": "scope1",
+      "authorizationState": "state1",
+      "tokenUrl": "https://login.washingtonpost.com/identity/oauth/token",
+      "profileUrl": "https://login.washingtonpost.com/identity/oauth/profile",
+      "revokeUrl": "https://login.washingtonpost.com/identity/oauth/revoke",
+      "migrateUrl": "https://login.washingtonpost.com/identity/oauth/migrate",
+      "appType": "classic"
+    },
+    "nativePaywallModelUnauthenticated" : {
+      "message" : "Get access to every story in our apps and on the web when you subscribe.",
+      "heading" : "We're glad you're enjoying\n The Washington Post.",
+      "offer1Label" : "CORE",
+      "offer1Price" : "$9.99/month",
+      "offer1Summary" : "Unlimited web and app access.",
+      "offer1ButtonText" : "Try 1 month free",
+      "offer1ButtonColor" : "#1955a5",
+      "offer1SKU" : "wp.classic.basic",
+      "offer2Label" : "PREMIUM",
+      "offer2Price" : "$14.99/month",
+      "offer2Summary" : "Basic Digital plus a bonus subscription, unlimited ebook downloads, and free 30-day passes to share with your friends.",
+      "offer2ButtonText" : "Try 1 month free",
+      "offer2ButtonColor" : "#1955a5",
+      "offer2SKU" : "monthly_all_access",
+      "signInText" : "Subscriber sign in",
+      "finePrint" : "By subscribing to The Washington Post, you agree to our\nTerms of Service and Privacy Policy."
+    },
+    "nativePaywallModelAuthenticatedNoSubscription" : {
+      "message" : "It looks like there’s no subscription associated with",
+      "heading" : "We're glad you're enjoying\n The Washington Post.",
+      "offer1Label" : "CORE",
+      "offer1Price" : "$9.99/month",
+      "offer1Summary" : "Unlimited web and app access.",
+      "offer1ButtonText" : "Try 1 month free",
+      "offer1ButtonColor" : "#1955a5",
+      "offer1SKU" : "wp.classic.basic",
+      "offer2Label" : "PREMIUM",
+      "offer2Price" : "$14.99/month",
+      "offer2Summary" : "Basic Digital plus a bonus subscription, unlimited ebook downloads, and free 30-day passes to share with your friends.",
+      "offer2ButtonText" : "Try 1 month free",
+      "offer2ButtonColor" : "#1955a5",
+      "offer2SKU" : "monthly_all_access",
+      "signInText" : "Sign in with a different account",
+      "finePrint" : "By subscribing to The Washington Post, you agree to our Terms of Service and Privacy Policy."
+    },
+    "nativePaywallModelSubscriberOnlyContent" : {
+      "message" : "This content is available for subscribers only.",
+      "heading" : "We're glad you're enjoying\n The Washington Post.",
+      "offer1Label" : "CORE",
+      "offer1Price" : "$9.99/month",
+      "offer1Summary" : "Unlimited web and app access.",
+      "offer1ButtonText" : "Try 1 month free",
+      "offer1ButtonColor" : "#1955a5",
+      "offer1SKU" : "wp.classic.basic",
+      "offer2Label" : "PREMIUM",
+      "offer2Price" : "$14.99/month",
+      "offer2Summary" : "Basic Digital plus a bonus subscription, unlimited ebook downloads, and free 30-day passes to share with your friends.",
+      "offer2ButtonText" : "Try 1 month free",
+      "offer2ButtonColor" : "#1955a5",
+      "offer2SKU" : "monthly_all_access",
+      "signInText" : "Subscriber sign in",
+      "finePrint" : "By subscribing to The Washington Post, you agree to our Terms of Service and Privacy Policy."
+    },
+    "nativePaywallModelSubscriberOnlyFeature" : {
+      "message" : "This feature is available for subscribers only.",
+      "heading" : "We're glad you're enjoying\n The Washington Post.",
+      "offer1Label" : "CORE",
+      "offer1Price" : "$9.99/month",
+      "offer1Summary" : "Unlimited web and app access.",
+      "offer1ButtonText" : "Try 1 month free",
+      "offer1ButtonColor" : "#1955a5",
+      "offer1SKU" : "wp.classic.basic",
+      "offer2Label" : "PREMIUM",
+      "offer2Price" : "$14.99/month",
+      "offer2Summary" : "Basic Digital plus a bonus subscription, unlimited ebook downloads, and free 30-day passes to share with your friends.",
+      "offer2ButtonText" : "Try 1 month free",
+      "offer2ButtonColor" : "#1955a5",
+      "offer2SKU" : "monthly_all_access",
+      "signInText" : "Subscriber sign in",
+      "finePrint" : "By subscribing to The Washington Post, you agree to our Terms of Service and Privacy Policy."
+    }
+  }
+}

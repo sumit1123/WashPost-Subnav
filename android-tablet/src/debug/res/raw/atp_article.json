@@ -1,0 +1,696 @@
+{
+  "id": "b5d76de3254fd625a430ea6b5efa375d",
+  "type": "blog",
+  "subtype": "default",
+  "renderer": "native",
+  "arcId": "O4KRCVYUGFGWLOJXCKL4Q2JMKY",
+  "title": "A big Pacific Northwest quake could cause land to sink in minutes",
+  "blurb": "A big quake in the Pacific Northwest today could cause coastal land to sink rapidly — up to seven feet, a new study finds. ",
+  "contenturl": "https://www.washingtonpost.com/climate-environment/2025/04/30/cascadia-earthquake-flooding-study/",
+  "content_type": "article",
+  "shareurl": "https://www.washingtonpost.com/climate-environment/2025/04/30/cascadia-earthquake-flooding-study/",
+  "source": "the-washington-post",
+  "section": "Climate-environment",
+  "sourcesection": "climate",
+  "sourcesubsection": "climate",
+  "sourcecategory": "Climate-environment",
+  "lmt": 1746115435319,
+  "published": 1746115435319,
+  "first_published": 1746032831347,
+  "display_date": 1746032830719,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GQE2HVV74MI6TKFQP3MKBVO4LU.jpg",
+  "sourceslug": "cascadiaearthquake",
+  "commercialnode": "/climate-environment/environment",
+  "omniture": {
+    "title": "Major earthquake in Pacific Northwest could cause deadly flooding, study finds - The Washington Post",
+    "pageName": "cascadia-earthquake-flooding-study",
+    "channel": "climate",
+    "contentId": "nullO4KRCVYUGFGWLOJXCKL4Q2JMKY",
+    "contentType": "story - default",
+    "contentSource": "the-washington-post",
+    "contentTopics": "Environment;Climate",
+    "newsroomDesk": "(not set)",
+    "newsroomSubdesk": "(not set)",
+    "contentAuthor": "angie orellana hernandez",
+    "authorId": "orellanahernandez",
+    "authorType": "staff writer",
+    "subSection": "climate",
+    "arcId": "O4KRCVYUGFGWLOJXCKL4Q2JMKY",
+    "trackingTags": "story-has-edit-branch;created from template id euoyhjbqm5ghxpxztpa3nal2sy;created-in-spaces;methode-draft;ce-environment;ai-takeaways;audio-article"
+  },
+  "version": 2,
+  "tags": "story-has-edit-branch,created from template id euoyhjbqm5ghxpxztpa3nal2sy,created-in-spaces,methode-draft,ce-environment,ai-takeaways,audio-article",
+  "items": [
+    {
+      "content": "Climate",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Environment",
+      "path": "/climate-environment/environment"
+    },
+    {
+      "content": "A big Pacific Northwest quake could cause land to sink in minutes",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "Scientists say the region is overdue for a major tremor, and a new study predicts serious flooding would result along with shaking and a tsunami.",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "content": 1746032830719,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/O4KRCVYUGFGWLOJXCKL4Q2JMKY/20250501-120354.548/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/O4KRCVYUGFGWLOJXCKL4Q2JMKY/20250501-120354.548/current.mp3?awCollectionId=/climate-environment&awEpisodeId=O4KRCVYUGFGWLOJXCKL4Q2JMKY&tags=ce-environment%7Cai-takeaways%7Caudio-article",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/O4KRCVYUGFGWLOJXCKL4Q2JMKY/20250501-120354.548/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GQE2HVV74MI6TKFQP3MKBVO4LU.jpg",
+        "imageWidth": 2822,
+        "imageHeight": 1972,
+        "fullcaption": "(Andrew Selsky/AP)"
+      },
+      "title": {
+        "content": "A big Pacific Northwest quake could cause land to sink in minutes",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "Climate",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "Environment",
+        "path": "/climate-environment/environment"
+      },
+      "date": {
+        "content": 1746032830719,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      },
+      "duration": 186000
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GQE2HVV74MI6TKFQP3MKBVO4LU.jpg",
+      "imageWidth": 2822,
+      "imageHeight": 1972,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "A “ghost forest” of Sitka spruces juts up from the beach in Neskowin, Oregon, in 2019. The trees were probably buried by tsunami debris 2,000 years ago and partially uncovered by storms in 1997. (Andrew Selsky/AP)",
+      "blurb": "A “ghost forest” of Sitka spruces juts up from the beach in Neskowin, Oregon, in 2019. The trees were probably buried by tsunami debris 2,000 years ago and partially uncovered by storms in 1997."
+    },
+    {
+      "content": "By Angie Orellana Hernandez",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "orellanahernandez",
+          "url": "https://www.washingtonpost.com/people/angie-orellana-hernandez/",
+          "name": "Angie Orellana Hernandez",
+          "bio": "Angie Orellana Hernandez is a general assignment reporter for The Washington Post, where she covers breaking news and writes quick-turn enterprise. Reach her securely on Signal at angie.202.",
+          "expertise": "General Assignment Reporter",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/a754fed2-ad24-4e89-8406-d351685d5f3b.jpg"
+        }
+      ]
+    },
+    {
+      "arcId": "KK66FA4IRNGETLHOOGZYASN4OA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The Pacific Northwest is ripe for a major earthquake — and shaking and tsunamis wouldn’t be the only threats from such an event, according to new research. Coastal land would also sink nearly seven feet, meaning people who survive the initial catastrophe would face severe flooding."
+    },
+    {
+      "type": "toggle",
+      "subtype": "offer",
+      "mime": "text/plain",
+      "key": "article"
+    },
+    {
+      "arcId": "VSBYRF7AGNB4TLF66DA74LGVCA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "An earthquake in the <a href=\"https://www.washingtonpost.com/science/2024/12/02/pacific-northwest-earthquake-tsunami-risk-research/\">Cascadia Subduction Zone</a> with a magnitude greater than 8.0 could cause a sudden subsidence — the sinking of land — that, paired with rising sea levels, would enlarge floodplains expanding up to 115 square miles, found the study, published Monday in the <a href=\"https://www.pnas.org/doi/10.1073/pnas.2424659122\">Proceedings of the National Academy of Sciences</a>."
+    },
+    {
+      "arcId": "WU5IBLYRPZGXTETG2VCSI7X7G4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "“We could have a disaster on the scale of <a href=\"https://www.washingtonpost.com/lifestyle/magazine/recalling-the-devastating-2011-earthquake-and-tsunami-in-japan/2017/03/07/64089a56-f209-11e6-b9c9-e83fce42fb61_story.html\">Japan 2011</a> or <a href=\"https://www.washingtonpost.com/archive/politics/2004/12/27/sea-surges-from-massive-quake-kill-over-13000-across-south-asia/b4130277-3c25-4746-a13e-9afaa03faf47/\">Sumatra 2004</a>,” said Tina Dura, the study’s lead author and an associate professor of natural hazards at Virginia Tech. “It’s the same kind of fault. It has the same capability of making a huge earthquake, tsunami and coastal subsidence.”"
+    },
+    {
+      "type": "toggle",
+      "subtype": "topic-follow",
+      "key": "CP-10"
+    },
+    {
+      "arcId": "WSFNEA4V5VB27GXQSLIN624RZI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The sudden sinking of land could permanently alter coastal communities, which experience flooding during king tides or storm surges but could become more frequently inundated, Dura said."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "tall",
+      "adPath": "/climate-environment/environment",
+      "primarySectionID": "/climate-environment",
+      "position": {
+        "small": "incontent_1"
+      }
+    },
+    {
+      "arcId": "MV5X7DT26ZBH7GZWLFK7IVESHI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The Cascadia Subduction Zone, where one plate of Earth’s crust dives beneath another, stretches from Northern California to Canada’s Vancouver Island. It<b> </b>has been <a href=\"https://www.washingtonpost.com/science/2024/06/07/earthquake-tsunami-cascadia/\">building up stresses </a>for centuries<b> </b>that will eventually release in a catastrophic quake, scientists predict."
+    },
+    {
+      "arcId": "HXGOFXIKOVERRGI6FKYJLLEHPM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "But they can’t say exactly<b> </b>when the Pacific Northwest’s “Big One” could strike. The last great earthquake along the Cascadia Subduction Zone occurred in January 1700, and big events are typically separated by 450 to 500 years, Dura said. However, earthquakes are not “evenly spaced” every time, she noted."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/climate-environment/environment",
+      "primarySectionID": "/climate-environment",
+      "position": {
+        "large": "incontent_1"
+      }
+    },
+    {
+      "arcId": "NXJ4P4NTXFDNJM23ZE7A2LT4Z4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“It could happen any day, but it might not happen till 2100,” Dura said. “We want to look at that because by that time, the climate-driven sea-level rise is expected to become a bigger problem along Cascadia.”"
+    },
+    {
+      "arcId": "N5DXGX4NFZEXPFZIGBW47KWJRA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<a href='ATP_N5DXGX4NFZEXPFZIGBW47KWJRA' target='atp'>Taking predicted sea-level rise into account, the flood risk from a great earthquake in 2100 could be more than triple the risk that exists today, the study said.</a>"
+    },
+    {
+      "arcId": "CVVYK2W4LNH45BU7Y3JZF23XR4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<a href='ATP_CVVYK2W4LNH45BU7Y3JZF23XR4' target='atp'>Dura said coastal residents she’s spoken to often have not entirely grasped the ramifications of a great Pacific Northwest earthquake, which could generate a tsunami with waves up to 40 feet high, The Washington Post has reported.</a> Researchers and local authorities need to do more to raise public awareness and to prepare for a major quake, she added."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/climate-environment/environment",
+      "primarySectionID": "/climate-environment",
+      "position": {
+        "small": "incontent_2"
+      }
+    },
+    {
+      "arcId": "NWLG7AB24ZCTFOA4QM43QZW7EA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“You have the tsunami evacuation signs, but they seem more like a novelty than any like serious thing,” Dura said. “People need to worry about it.”"
+    },
+    {
+      "arcId": "PBQDSMMFCZDNLCAZL4EVNOKWIU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<a href='ATP_PBQDSMMFCZDNLCAZL4EVNOKWIU' target='atp'>One way to prepare is taking future risks into account when building infrastructure, a method called “resilience planning,” said Andrew Meigs, a professor of geology at Oregon State University who was not an author of the study.</a>"
+    },
+    {
+      "arcId": "DNE5GMWGKFCI3I3PFO2BWHUGFM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "If officials and residents in the Cascadia region ignore the threats, “the impact that it has on you will be substantially larger than if you elect to acknowledge that there’s the background sea-level change and the hazard is always going to be there,” Meigs said."
+    },
+    {
+      "arcId": "GIXLTD65GBHU5OL5QKKNDMVEVU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "In the Pacific Northwest, Dura said, that would include rethinking locations of airports, wastewater treatment and agricultural lands as well as evacuation routes."
+    },
+    {
+      "arcId": "A7OFOKK7OVD3FPB5K3L2A3QD7M",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“My hope is just to get the word out there more so people can be prepared,” she said. “And we can have less impact, less loss of life and property.”"
+    },
+    {
+      "arcId": "GCR3ACSIENCV5JTHRB6O6I2AGU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i>Carolyn Y. Johnson contributed to this report.</i>"
+    },
+    {
+      "type": "link",
+      "subtype": "comments"
+    },
+    {
+      "type": "author_info",
+      "id": "orellanahernandez",
+      "name": "Angie Orellana Hernandez",
+      "bio": "Angie Orellana Hernandez is a general assignment reporter for The Washington Post, where she covers breaking news and writes quick-turn enterprise. Reach her securely on Signal at angie.202.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/a754fed2-ad24-4e89-8406-d351685d5f3b.jpg",
+      "role": "General Assignment Reporter"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "show_summary": true,
+  "blogname": "Climate",
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/O4KRCVYUGFGWLOJXCKL4Q2JMKY/20250501-120354.548/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/O4KRCVYUGFGWLOJXCKL4Q2JMKY/20250501-120354.548/current.mp3?awCollectionId=/climate-environment&awEpisodeId=O4KRCVYUGFGWLOJXCKL4Q2JMKY&tags=ce-environment%7Cai-takeaways%7Caudio-article",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/O4KRCVYUGFGWLOJXCKL4Q2JMKY/20250501-120354.548/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GQE2HVV74MI6TKFQP3MKBVO4LU.jpg",
+      "imageWidth": 2822,
+      "imageHeight": 1972,
+      "fullcaption": "(Andrew Selsky/AP)"
+    },
+    "title": {
+      "content": "A big Pacific Northwest quake could cause land to sink in minutes",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "Climate",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Environment",
+      "path": "/climate-environment/environment"
+    },
+    "date": {
+      "content": 1746032830719,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    },
+    "duration": 186000
+  },
+  "first_display_date": 1746032830719,
+  "targeting": {
+    "adcall": [
+      {
+        "key": "ca",
+        "values": [
+          "rcisc",
+          "r1zb8",
+          "r5zn0",
+          "rjqr5",
+          "r71iv",
+          "rnfyo",
+          "rddr6",
+          "r71he",
+          "rqlce",
+          "r63ky",
+          "r8kl5",
+          "r1djc",
+          "rj98c",
+          "r0yv2",
+          "r2ztd",
+          "ralq3",
+          "r2ob4",
+          "rh5hz",
+          "rsvk8",
+          "rvt6h",
+          "rxvfu",
+          "rqy2y",
+          "rcvrb",
+          "rpkxx",
+          "rohf5",
+          "reest",
+          "rqqn2",
+          "rqltv",
+          "ru0hj",
+          "rk4hi",
+          "r2x7m",
+          "rjls7",
+          "rpsbt",
+          "rihsc",
+          "rojxy",
+          "rmmp3",
+          "ren01",
+          "rpnzx",
+          "r8pmm",
+          "r6iq7",
+          "r4fvv",
+          "rw76f",
+          "rh22v",
+          "r5bpj",
+          "rhwg4",
+          "r82mu",
+          "r35cx",
+          "rsqg7",
+          "rl43b",
+          "rt96h",
+          "r6jbe",
+          "ryx8n",
+          "rkgjf",
+          "raw34",
+          "r6g4r",
+          "rf299",
+          "rkpsc",
+          "rzhau",
+          "r3vky",
+          "rxa9g",
+          "rtdlb",
+          "rjuyh",
+          "r35ap",
+          "rz25l",
+          "r3hdp",
+          "rynal",
+          "rrytf",
+          "r7d9r",
+          "rl7yb",
+          "rsmxd",
+          "rt5dp",
+          "r7tmu",
+          "rzqdp",
+          "r3t9e",
+          "r4avn",
+          "rva7x",
+          "r3bxp",
+          "rwsk4",
+          "rfhup",
+          "rlugb",
+          "r3ykj",
+          "rsjjy",
+          "rra4x",
+          "rhfzk",
+          "r4t4y",
+          "rfpua",
+          "r35lh",
+          "r2x21",
+          "rz457",
+          "rxvz3",
+          "rj2ns",
+          "rfz4c",
+          "rk7m0",
+          "rh5xk",
+          "rd7vl",
+          "r8hz2",
+          "rgepe",
+          "r2qxu",
+          "ra7me",
+          "r1fne",
+          "rayex",
+          "r5hej",
+          "ratb5",
+          "rhll0",
+          "rtbcp",
+          "rgpk6",
+          "r3es4",
+          "rd270",
+          "r8x1i",
+          "rx8m9",
+          "rjya1",
+          "rd18m",
+          "rsesv",
+          "r2hzw",
+          "rggwa",
+          "r1ysy",
+          "r1jfj",
+          "rx4px",
+          "rf3q1",
+          "rbgqk",
+          "rs7c2",
+          "rjvyd",
+          "rv80f",
+          "rsl4v",
+          "rlz8o",
+          "rle1y",
+          "rzofg",
+          "rwlm1",
+          "r46n5",
+          "rlw2t",
+          "r5lck",
+          "rvhux",
+          "rvywr",
+          "rdlnx",
+          "rkxir",
+          "rmcp7",
+          "rg1ny",
+          "rdstm",
+          "rc6uk",
+          "riklp",
+          "r301t",
+          "rf0ll",
+          "ridxr",
+          "r3k9v",
+          "rgn4c",
+          "rlv7a",
+          "rh5p3",
+          "rvn0g",
+          "r54xz",
+          "romxp",
+          "rybe7",
+          "rehh9",
+          "rmk71",
+          "r3mmv",
+          "r0kbr",
+          "rqyhw",
+          "rer82",
+          "rrqij",
+          "rloxr",
+          "r78zx",
+          "rk0qi",
+          "r6cbf",
+          "rgywb",
+          "rkkqd",
+          "r0hej",
+          "r44lb",
+          "rdrh1",
+          "r1nqd",
+          "r05in",
+          "rnknt",
+          "ra7ai",
+          "rtppi",
+          "rgjgs",
+          "r1a2g",
+          "ru20c",
+          "r8218",
+          "rqvzr",
+          "r7e5f",
+          "ruk1b",
+          "r6h78",
+          "r0yto",
+          "rzla5",
+          "rv05p",
+          "rrofe",
+          "ru14c",
+          "r9mfh",
+          "r50pl",
+          "rtc0b",
+          "r5enu_l",
+          "ri474",
+          "r1waw",
+          "ribdm",
+          "rlc5f",
+          "rn1ry",
+          "rd1zm",
+          "r6f4o",
+          "rjr56",
+          "rmjrh",
+          "rdj29"
+        ]
+      },
+      {
+        "key": "wapoTopics",
+        "values": [
+          "xweg",
+          "x7wf",
+          "cld1",
+          "naf4",
+          "earn",
+          "sciw"
+        ]
+      },
+      {
+        "key": "wapoTopicNextVer",
+        "values": [
+          "acdq",
+          "naf4",
+          "earn",
+          "xweg",
+          "x7wf",
+          "cld1",
+          "sciw",
+          "eask"
+        ]
+      },
+      {
+        "key": "se",
+        "values": [
+          "i7kn"
+        ]
+      },
+      {
+        "key": "bs",
+        "values": [
+          "garm_low",
+          "garm_safe",
+          "wapo_rsk_low"
+        ]
+      }
+    ],
+    "permutive_dict": {
+      "article": {
+        "customTopics": [
+          "[r6cbf] Samsung back to school",
+          "[rgjgs] Women's Beauty",
+          "[r1a2g] Labor",
+          "[ru20c] Disasters, Accidents, Tragedies",
+          "[r8218] Construction, Engineering",
+          "[r0yto] Inspiring",
+          "[rv05p] Graduate Education",
+          "[rrofe] Luxury Travel",
+          "[ru14c] Affluent",
+          "[r1waw] Hospital, Clinic",
+          "[rn1ry] Civil Engineering"
+        ],
+        "wapoTopics": [
+          "[1:xweg] /climate_and_environment",
+          "[2:x7wf] /climate_and_environment/climate",
+          "[2:cld1] /climate_and_environment/climate_change",
+          "[1:naf4] /natural_disasters",
+          "[2:earn] /natural_disasters/earthquakes",
+          "[1:sciw] /science"
+        ],
+        "wapoTopicNextVer": [
+          "[1:acdq] /accidents_and_disasters",
+          "[2:naf4] /accidents_and_disasters/natural_disasters",
+          "[3:earn] /accidents_and_disasters/natural_disasters/earthquakes",
+          "[1:xweg] /climate_change_and_environment_",
+          "[2:x7wf] /climate_change_and_environment_/climate",
+          "[3:cld1] /climate_change_and_environment_/climate/climate_change",
+          "[1:sciw] /science",
+          "[2:eask] /science/earth_science"
+        ],
+        "sentiment": [
+          "[i7kn] negative"
+        ],
+        "publishDate": "2025-04-29T15:53:59.837Z",
+        "lastUpdateDate": "2025-05-01T16:03:55.271Z",
+        "authorName": [
+          "angie orellana hernandez"
+        ],
+        "authorType": [
+          "author"
+        ],
+        "contentType": "story - default",
+        "language": "en",
+        "wordCount": 556
+      },
+      "canonicalUrl": "/climate-environment/2025/04/30/cascadia-earthquake-flooding-study/",
+      "section": "climate",
+      "subsection": "climate",
+      "commercialNode": "/climate-environment/environment"
+    }
+  },
+  "summary": {
+    "id": "HGLETUQI6FCFFGEOLJN26YCCPA",
+    "url": "https://www.washingtonpost.com/climate-environment/2025/04/30/cascadia-earthquake-flooding-study/",
+    "items": [
+      "A major earthquake threatens the Pacific Northwest with severe flooding.",
+      "Coastal land could sink nearly seven feet, increasing flood risks.",
+      "Sea-level rise could triple flood risk by 2100.",
+      "Resilience planning is crucial for infrastructure and evacuation routes."
+    ]
+  },
+  "comments": "https://www.washingtonpost.com/climate-environment/2025/04/30/cascadia-earthquake-flooding-study/?outputType=comment",
+  "atp_questions": {
+    "question_set": [
+      {
+        "id": "ATP_N5DXGX4NFZEXPFZIGBW47KWJRA",
+        "questions": [
+          {
+            "label": "OUT",
+            "text": "How might climate change exacerbate the effects of a major earthquake in the Pacific Northwest?"
+          },
+          {
+            "label": "IN",
+            "text": "What are the potential long-term consequences of increased flood risk in the region?"
+          }
+        ]
+      },
+      {
+        "id": "ATP_CVVYK2W4LNH45BU7Y3JZF23XR4",
+        "questions": [
+          {
+            "label": "OUT",
+            "text": "What are the barriers to public awareness and understanding of earthquake risk in the Pacific Northwest?"
+          },
+          {
+            "label": "IN",
+            "text": "How can emergency preparedness efforts be tailored to address the specific needs of coastal communities?"
+          }
+        ]
+      },
+      {
+        "id": "ATP_PBQDSMMFCZDNLCAZL4EVNOKWIU",
+        "questions": [
+          {
+            "label": "OUT",
+            "text": "What strategies can be employed to make infrastructure more resilient to natural disasters?"
+          },
+          {
+            "label": "IN",
+            "text": "How can resilience planning be integrated into urban planning and development in the Pacific Northwest?"
+          }
+        ]
+      }
+    ]
+  }
+}

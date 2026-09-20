@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="saved_panel" type="id"/>
+    <item name="menu_empty_text_view" type="id"/>
+    <item name="menu_recycler_view" type="id"/>
+    <item name="saved_articles_label_color_night" type="color"/>
+
+    <!-- GALLERY -->
+    <item name="gallery_loading_progress" type="layout"/>
+    <item name="gallery_loading_failed" type="layout"/>
+    <item name="loading_failed_curtain_message" type="id"/>
+</resources>

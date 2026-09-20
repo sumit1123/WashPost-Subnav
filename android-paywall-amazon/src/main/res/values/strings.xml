@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">android-paywall-amazon</string>
+    <string name="billing_platform_title">BUY NOW WITH AMAZON</string>
+    <string name="fragment_text_freeTrialExpired">Support journalism that matters. Get 6 months of access for only $1.</string>
+    <string name="fragment_text_freeTrialExpired_andUserAlreadySubscribed">Support journalism that matters. Exclusive offer for Fire Tablet users: $3.99/month.</string>
+    <string name="store_context_root">amazonservice</string>
+</resources>

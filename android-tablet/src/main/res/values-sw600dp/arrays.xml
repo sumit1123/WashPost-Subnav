@@ -1,0 +1,25 @@
+<resources>
+    <string-array name="widget_sections_list">
+        <item>Top Stories</item>
+        <item>Politics</item>
+        <item>Opinions</item>
+        <item>Technology</item>
+        <item>World</item>
+        <item>Local</item>
+        <item>Sports</item>
+        <item>LifeStyle</item>
+
+    </string-array>
+
+    <string-array name="widget_sections_bundle_list">
+        <item>tablet-app-topstories</item>
+        <item>tablet-app-politics</item>
+        <item>tablet-app-opinions</item>
+        <item>business/technology</item>
+        <item>tablet-app-world</item>
+        <item>tablet-app-local</item>
+        <item>tablet-app-sports</item>
+        <item>tablet-app-lifestyle</item>
+    </string-array>
+
+</resources>

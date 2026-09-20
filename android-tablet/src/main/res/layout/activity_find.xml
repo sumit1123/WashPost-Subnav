@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="?attr/app_bar_day_night_style"
+        app:navigationIcon="?attr/app_bar_nav_arrow_icon"
+        app:contentInsetStartWithNavigation="0dp">
+
+        <TextView
+            android:id="@+id/tvToolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:text="@string/search"
+            android:fontFamily="@font/wp_franklinitcstd_font_family"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/gray0"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/surface"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/navigation_find" />
+
+
+</LinearLayout>

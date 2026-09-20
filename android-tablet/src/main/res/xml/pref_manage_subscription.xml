@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.preference.PreferenceCategory
+        android:layout="@layout/preference_category_layout"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="cancel_ad_free"
+            android:title="@string/cancel_ad_free_title"
+            android:summary="@string/cancel_ad_free_summary"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="manage_or_cancel_subscription"
+            android:title="@string/manage_or_cancel_subscription_title"
+            android:summary="@string/manage_subscription_summary"
+            app:iconSpaceReserved="false" />
+
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

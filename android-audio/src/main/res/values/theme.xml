@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="NativeAudio">
+        <item name="android:background">@color/podcast_background</item>
+        <item name="android:textColor">@color/podcast_text_color</item>
+        <item name="buffered_color">@color/podcast_time_bar_buffered_color</item>
+        <item name="played_color">@color/podcast_time_bar_played_color</item>
+        <item name="unplayed_color">@color/podcast_time_bar_unplayed_color</item>
+    </style>
+
+    <style name="PopupWindow">
+        <item name="android:popupBackground">@color/transparent</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="NativeAudioActivityTheme" parent="Theme.AppCompat.Translucent">
+        <item name="android:layout_gravity">bottom|right</item>
+        <item name="android:background">#40000000</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">#99000000</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ads_divider_color">#E9E9E9</color>
+    <color name="ads_divider_color_dark_mode">#666666</color>
+    <color name="ads_background">@color/gray600</color>
+    <color name="ad_label_text">@color/gray80</color>
+</resources>

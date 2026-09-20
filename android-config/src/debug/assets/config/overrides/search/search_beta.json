@@ -1,0 +1,8 @@
+{
+  "search2Config": {
+    "askThePost": {
+      "questionsBaseUrl": "https://beta.washingtonpost.com/aipod/wapo-qa-api/",
+      "converseBaseUrl": "https://beta.washingtonpost.com/aipod/wapo-qa-api/api/v2/"
+    }
+  }
+}

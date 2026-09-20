@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:a="http://schemas.android.com/apk/res/android"
+                a:id="@+id/root"
+                a:clickable="true"
+                a:layout_width="match_parent"
+                a:layout_height="match_parent">
+
+    <com.wapo.view.SwipeRefreshLayoutExt
+        a:id="@+id/str"
+        a:layout_width="match_parent" a:layout_height="match_parent">
+
+        <com.wapo.flagship.features.pagebuilder.SectionLayoutView a:id="@+id/section_layout"
+            a:background="@color/section_front_background"
+            a:layout_width="match_parent" a:layout_height="match_parent" />
+
+    </com.wapo.view.SwipeRefreshLayoutExt>
+
+</FrameLayout>

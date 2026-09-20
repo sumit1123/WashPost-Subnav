@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/onboarding_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingBottom="@dimen/onboarding_xlarge_space"
+    android:paddingStart="40dp"
+    android:paddingEnd="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/wp_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wp_mark" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wp_logo">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/illustration_welcome" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/personalize_main_title"
+            style="@style/onboarding_primary_title" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/onboarding_large_space"
+            android:text="@string/personalize_secondary_title"
+            style="@style/onboarding_secondary_title" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/get_started"
+            android:layout_marginTop="@dimen/onboarding_xlarge_space"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Get started"
+            style="@style/primary_button"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/maybe_later"
+            android:layout_marginTop="@dimen/onboarding_medium_space"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Maybe later"
+            style="@style/secondary_button"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

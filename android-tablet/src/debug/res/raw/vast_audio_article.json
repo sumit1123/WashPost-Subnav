@@ -1,0 +1,719 @@
+{
+  "id": "b2a6670c56d85568b9d7f25a846c4139",
+  "type": "blog",
+  "subtype": "default",
+  "renderer": "native",
+  "arcId": "NF4AYMUA5RDCHP3GCCFEROL6W4",
+  "title": "As oil prices soar, G-7 decides against tapping emergency stockpiles",
+  "blurb": "Rising oil prices, part of the fallout of the conflict with Iran, are shaking global stock markets and pushing gas prices toward $4 a gallon.",
+  "contenturl": "https://www.washingtonpost.com/business/2026/03/09/iran-war-stock-markets-oil-prices-gas/",
+  "content_type": "article",
+  "shareurl": "https://www.washingtonpost.com/business/2026/03/09/iran-war-stock-markets-oil-prices-gas/",
+  "source": "the-washington-post",
+  "section": "Business",
+  "sourcesection": "business",
+  "sourcesubsection": "business",
+  "sourcecategory": "Business",
+  "lmt": 1773081665573,
+  "published": 1773081665573,
+  "first_published": 1773062638146,
+  "display_date": 1773081174944,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YV52N6RAFQ4VMALMRL4EURT7EU.jpg",
+  "sourceslug": "IRANECON",
+  "commercialnode": "/business",
+  "omniture": {
+    "title": "Markets drop over oil price fears as analysts warn of $4-a-gallon gas - The Washington Post",
+    "pageName": "iran-war-stock-markets-oil-prices-gas",
+    "channel": "business",
+    "contentId": "nullNF4AYMUA5RDCHP3GCCFEROL6W4",
+    "contentType": "story - default",
+    "contentSource": "the-washington-post",
+    "contentTopics": "Business",
+    "newsroomDesk": "climate;climate",
+    "newsroomSubdesk": "futures - corporate accountability;futures - corporate accountability",
+    "contentAuthor": "evan halper;todd c. frankel",
+    "authorId": "halpere;frankeltc",
+    "authorType": "staff writer;staff writer",
+    "subSection": "business",
+    "arcId": "NF4AYMUA5RDCHP3GCCFEROL6W4",
+    "trackingTags": "methode-draft;story-has-edit-branch;created from template id wryd6iv5cnhjjcpu2h3r3heacm;audio-article"
+  },
+  "version": 2,
+  "tags": "methode-draft,story-has-edit-branch,created from template id wryd6iv5cnhjjcpu2h3r3heacm,audio-article",
+  "items": [
+    {
+      "content": "Business",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Business",
+      "path": "/business"
+    },
+    {
+      "content": "As oil prices soar, G-7 decides against tapping emergency stockpiles",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "Rising oil prices, part of the fallout of the conflict with Iran, are shaking global stock markets and pushing gas prices toward $4 a gallon.",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "content": 1773081174944,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/NF4AYMUA5RDCHP3GCCFEROL6W4/20260309-144111.118/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/NF4AYMUA5RDCHP3GCCFEROL6W4/20260309-144111.118/current.mp3?awCollectionId=/business&awEpisodeId=NF4AYMUA5RDCHP3GCCFEROL6W4&tags=audio-article",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/NF4AYMUA5RDCHP3GCCFEROL6W4/20260309-144111.118/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YV52N6RAFQ4VMALMRL4EURT7EU.jpg",
+        "imageWidth": 8640,
+        "imageHeight": 5760,
+        "fullcaption": "(Aaron Favila/AP)"
+      },
+      "title": {
+        "content": "As oil prices soar, G-7 decides against tapping emergency stockpiles",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "Business",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "Business",
+        "path": "/business"
+      },
+      "date": {
+        "content": 1773081174944,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      },
+      "adconfig": {
+        "adSetUrl": "https://cmod-world.live.streamtheworld.com/ondemand/ars?&type=[break-type]&maxAds=[max-ads]&delivery-method=progressive&ttag=[triton-ttag]&us_privacy=[us-privacy]&gdpr=[gdpr]&gdpr_consent=[gdpr-consent]&feed-type=txt2speech&content-language=en&site-url=https%3A%2F%2Fwww.washingtonpost.com&bundle-id=[bundle-id]&store-id=[store-id]&store-url=[store-url]&break-number=[break-number]&ext_stid=wp-1407653",
+        "primarySectionID": "/business"
+      },
+      "duration": 292000
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YV52N6RAFQ4VMALMRL4EURT7EU_size-normalized.jpg",
+      "imageWidth": 8640,
+      "imageHeight": 5760,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Motorists line up for gas in anticipation of a global price hike in Quezon City, Philippines. (Aaron Favila/AP)",
+      "blurb": "Motorists line up for gas in anticipation of a global price hike in Quezon City, Philippines."
+    },
+    {
+      "content": "By Evan Halper and Todd C. Frankel",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "halpere",
+          "url": "https://www.washingtonpost.com/people/evan-halper/",
+          "name": "Evan Halper",
+          "bio": "Evan Halper is a business reporter for The Washington Post, covering the energy transition. His work focuses on the tensions between energy demands and decarbonizing the economy. He came to The Post from the Los Angeles Times, where he spent two decades, most recently covering domestic policy and presidential politics from its Washington bureau.",
+          "expertise": "Business reporter covering the energy transition",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/2c17522a-fa2b-45f6-919e-fab15fdeda9f.png"
+        },
+        {
+          "id": "FRANKELTC",
+          "url": "https://www.washingtonpost.com/people/todd-c-frankel/",
+          "name": "Todd C. Frankel",
+          "bio": "Todd C. Frankel is a Pulitzer Prize-winning reporter on The Washington Post's Financial desk.",
+          "expertise": "Enterprise reporter on The Washington Post's Financial desk",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/60040007-d392-4076-8227-cf3ae237ea10.png"
+        }
+      ]
+    },
+    {
+      "arcId": "CAQOBOB5HBBKJI47KJKQQ2SLOE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Group of Seven leaders fell short of reaching an agreement to contain soaring oil prices that are shaking global stock markets and pushing up prices at the pump, as the U.S.-Israeli war with Iran marks its 10th day."
+    },
+    {
+      "type": "toggle",
+      "subtype": "offer",
+      "mime": "text/plain",
+      "key": "article"
+    },
+    {
+      "arcId": "M5SA7MLORVH73LLRURCFZWEBKQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "G-7 leaders opted to hold off on tapping emergency oil reserves but signaled they may soon release that crude into the marketplace. Their meeting appeared to help calm stock markets, which by Monday afternoon recovered some of their early losses."
+    },
+    {
+      "arcId": "D6NYI3ZMWNBL5NO2D45YTZSL6E",
+      "type": "sanitized_html",
+      "mime": "text/html",
+      "content": "“We’re not there yet,” said French Finance Minister <a href=\"FTS_Roland_Lescure\" target=\"fts\">Roland Lescure</a>, speaking to reporters in Brussels after the meeting. “We’ve agreed to monitor the situation very closely.”"
+    },
+    {
+      "type": "toggle",
+      "subtype": "topic-follow",
+      "key": "CP-34"
+    },
+    {
+      "arcId": "UHDKNS2FQZBANG5LM7LSKQEOCE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "World leaders are growing increasingly concerned<b> </b>that oil prices will continue to climb. Further increases<b> </b>could trigger broader inflation at a time when many U.S. consumers are already concerned about affordability."
+    },
+    {
+      "arcId": "XGCDAT53LRADJBZH3AEUJN2DVU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Oil prices shot overnight to heights not seen since the aftermath of Russia’s February 2022 invasion of Ukraine. The price for a barrel of Brent crude, the global oil benchmark, spiked to just shy of $120 before settling down at close to $100.<b> </b>That’s still nearly 50 percent higher than the prewar price."
+    },
+    {
+      "type": "image",
+      "imageURL": "https://datawrapper.dwcdn.net/9Aawr/fallback.png",
+      "imageHeight": 866,
+      "imageWidth": 736,
+      "isLive": true,
+      "widthFactor": "default"
+    },
+    {
+      "arcId": "MOULF6JBJFDCBMMG2CNTLRJOPM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Monday’s spike in oil prices led to a drop in global stock markets. The Dow Jones Industrial Average was still down about 1 percent after oil prices had settled. Nasdaq and S&P 500 losses were narrower by midday. Earlier, Japan’s Nikkei index plunged about 5 percent. European stock markets shed 1 to 2 percent."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "tall",
+      "adPath": "/business",
+      "primarySectionID": "/business",
+      "position": {
+        "small": "incontent-mob_1"
+      }
+    },
+    {
+      "arcId": "AMHGOWZEG5HUFFMPH43XQ4A2SQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The fallout goes well beyond oil traders and big investors."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/business",
+      "primarySectionID": "/business",
+      "position": {
+        "large": "incontent_1"
+      }
+    },
+    {
+      "arcId": "OHPJWQD6LRF3NHAXP3XXBBO5GM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "A price of $100 per barrel often translates into an average of <a href=\"https://www.washingtonpost.com/business/2026/03/07/gas-prices-iran-war/\">$4 a gallon</a> at U.S. gas pumps, according to analysts, an important psychological barrier that, unlike most economic numbers, is broadcast from nearly every street corner."
+    },
+    {
+      "arcId": "7JNXZ74ILRDF7IG2UYAR2TQMVE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Prices at the pump in the U.S. are 47 cents higher than a week ago, <a href=\"https://gasprices.aaa.com/jump-at-the-pump-as-national-average-goes-up-nearly-27-cents/\">according to AAA</a>, averaging $3.48 for a gallon of regular."
+    },
+    {
+      "arcId": "V5QHMQLYPZFDLKJKREN63INTKE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The problem is that the missiles flying into and out of Iran have compromised the safety of the Strait of Hormuz, a choke point for roughly one-fifth of the world’s oil supply. Tankers aren’t confident that they can sail through, which leaves Persian Gulf states without a ready way to ship their oil."
+    },
+    {
+      "arcId": "BTJBR6B5E5GBXEDIY27VOM7RWU",
+      "type": "sanitized_html",
+      "mime": "text/html",
+      "content": "“Exports will not resume until ship owners, operators, and insurers feel sufficiently safe from the threat environment posed by Iranian warships and aircraft, missiles, drones, speedboats, and naval mines,” said an email from <a href=\"FTS_Clayton_Seigle\" target=\"fts\">Clayton Seigle</a>, an energy and geopolitics scholar at the Center for Strategic and International Studies."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/business",
+      "primarySectionID": "/business",
+      "position": {
+        "small": "incontent-mob_2"
+      }
+    },
+    {
+      "arcId": "GLZ6HBVQLZH5TLEVYS2IUIMXHE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "While most of the oil through the strait goes to Asia, it is a commodity sold on the global market. That means prices for oil produced in the U.S. are surging alongside the oil shipped from the Persian Gulf, leaving American motorists exposed to price shocks."
+    },
+    {
+      "arcId": "7OBC3VQGO5HYBMXVOTKU6B6ZH4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "After President Donald Trump had made affordability and lowering energy prices a cornerstone of his political message, analysts had assumed he would seek a diplomatic compromise with Iran that gets oil flowing again. But the president has given no indication that he intends to broker such a deal.<a href='ATP_7OBC3VQGO5HYBMXVOTKU6B6ZH4' target='atp'>​</a>"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/business",
+      "primarySectionID": "/business",
+      "position": {
+        "large": "incontent_2"
+      }
+    },
+    {
+      "arcId": "FE3IRESON5GTJDN4HP53ECD3J4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "On Sunday night, as oil prices soared toward $120 per barrel, he wrote in a social media post that the spike in prices “is a very small price to pay for U.S.A., and World, Safety and Peace. ONLY FOOLS WOULD THINK DIFFERENTLY!”"
+    },
+    {
+      "arcId": "WKJ34QTITJDBBIUPO2UBMLXVFM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Trump has separately suggested that oil tankers in the gulf could be protected with government-backed risk insurance and military escorts."
+    },
+    {
+      "arcId": "PXE6PNYTL5G4VPEBJZYK2LFQQQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "His administration has also sought to tamp down oil prices by easing some sanctions on Russia. It provided a waiver that allows India to purchase Russian oil for 30 days, and Treasury Secretary Scott Bessent has said further sanctions relief is possible.<a href='ATP_PXE6PNYTL5G4VPEBJZYK2LFQQQ' target='atp'>​</a>"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/business",
+      "primarySectionID": "/business",
+      "position": {
+        "small": "incontent-mob_3"
+      }
+    },
+    {
+      "arcId": "RIFV4UCN35AZJEMYPUN5VZG3DA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "If the Iran conflict becomes protracted, even tapping into oil reserves would provide only temporary relief."
+    },
+    {
+      "arcId": "PIFVEQBSX5EI3L3QLCH7OWKFAU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The entire U.S. Strategic Petroleum Reserve holds about 415 million barrels of oil. It is enough to cover less than four days of global oil demand, or just a few weeks of the supply choked at the strait. Federal officials and lawmakers will be reluctant to draw down more than a third of that amount, as replenishing it typically cannot be done quickly."
+    },
+    {
+      "arcId": "ANHV4WXVJZCTHA2E7HOYKX323Q",
+      "type": "sanitized_html",
+      "mime": "text/html",
+      "content": "“There is simply no substitute for restoring access through the Strait of Hormuz,” said an email from <a href=\"FTS_Angie_Gildea\" target=\"fts\">Angie Gildea</a>, global head of oil and gas at KPMG. “The tools at our disposal, including strategic reserves, rerouting some exports and floating inventories, can provide some relief at the margins, but they are not structural solutions. We are in uncharted waters.”"
+    },
+    {
+      "arcId": "UNS2LMXQ4VEYZO26EVKZMP6CTM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Diesel prices are surging even faster than gasoline, spelling more trouble for the economy."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/business",
+      "primarySectionID": "/business",
+      "position": {
+        "large": "incontent_3"
+      }
+    },
+    {
+      "arcId": "GAQDJIHPUVHQLO3QITGSY4YAME",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Diesel hit $4.66 a gallon Monday, up nearly 90 cents from a week ago. Analysts widely expect it to spike past $5 within weeks. It is already nearly $6 in California."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/business",
+      "primarySectionID": "/business",
+      "position": {
+        "small": "incontent-mob_4"
+      }
+    },
+    {
+      "arcId": "JP5RM2QDEBH3DDCMDR3DWRLCYE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Diesel is used in the shipping of almost every consumer product, so the rocketing cost of the fuel is certain to make goods more expensive."
+    },
+    {
+      "arcId": "XN7EUXFRFZA4PCDCTGKU6CWCBA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "UPS, the largest shipping company in the U.S., has already tacked on a weekly fuel surcharge."
+    },
+    {
+      "arcId": "AH642Z4VORAGBIYGB23L43CTZU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Container shipping companies are starting to do the same. And farmers also may soon be raising their prices, as they rely on diesel to power their industrial equipment."
+    },
+    {
+      "arcId": "R6K7DV23W5COLFOOXALSWNVHL4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i>Ellen Francis in Brussels contributed to this report.</i>"
+    },
+    {
+      "type": "fts_carousel",
+      "label": "What sources are saying"
+    },
+    {
+      "type": "link",
+      "subtype": "comments"
+    },
+    {
+      "type": "author_info",
+      "id": "halpere",
+      "name": "Evan Halper",
+      "bio": "Evan Halper is a business reporter for The Washington Post, covering the energy transition. His work focuses on the tensions between energy demands and decarbonizing the economy. He came to The Post from the Los Angeles Times, where he spent two decades, most recently covering domestic policy and presidential politics from its Washington bureau.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/2c17522a-fa2b-45f6-919e-fab15fdeda9f.png",
+      "role": "Staff writer"
+    },
+    {
+      "type": "author_info",
+      "id": "FRANKELTC",
+      "name": "Todd C. Frankel",
+      "bio": "Todd C. Frankel is a Pulitzer Prize-winning reporter on The Washington Post's Financial desk.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/60040007-d392-4076-8227-cf3ae237ea10.png",
+      "role": "Staff writer"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "show_summary": true,
+  "blogname": "Business",
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/NF4AYMUA5RDCHP3GCCFEROL6W4/20260309-144111.118/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/NF4AYMUA5RDCHP3GCCFEROL6W4/20260309-144111.118/current.mp3?awCollectionId=/business&awEpisodeId=NF4AYMUA5RDCHP3GCCFEROL6W4&tags=audio-article",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/NF4AYMUA5RDCHP3GCCFEROL6W4/20260309-144111.118/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YV52N6RAFQ4VMALMRL4EURT7EU.jpg",
+      "imageWidth": 8640,
+      "imageHeight": 5760,
+      "fullcaption": "(Aaron Favila/AP)"
+    },
+    "title": {
+      "content": "As oil prices soar, G-7 decides against tapping emergency stockpiles",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "Business",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Business",
+      "path": "/business"
+    },
+    "date": {
+      "content": 1773081174944,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    },
+    "adconfig": {
+      "adSetUrl": "https://cmod-world.live.streamtheworld.com/ondemand/ars?&type=[break-type]&maxAds=[max-ads]&delivery-method=progressive&ttag=[triton-ttag]&us_privacy=[us-privacy]&gdpr=[gdpr]&gdpr_consent=[gdpr-consent]&feed-type=txt2speech&content-language=en&site-url=https%3A%2F%2Fwww.washingtonpost.com&bundle-id=[bundle-id]&store-id=[store-id]&store-url=[store-url]&break-number=[break-number]&ext_stid=wp-1407653",
+      "primarySectionID": "/business"
+    },
+    "duration": 292000
+  },
+  "first_display_date": 1773062637539,
+  "targeting": {
+    "adcall": [
+      {
+        "key": "ca",
+        "values": [
+          "rw3gg",
+          "rk4hi",
+          "ren01",
+          "r03o4",
+          "rqpy3",
+          "r02mg",
+          "rxa9g",
+          "rwsk4",
+          "rfhup",
+          "rz457",
+          "rrhwk",
+          "rgpk6",
+          "rggwa",
+          "rx4px",
+          "rlw2t",
+          "rh5p3",
+          "rvn0g",
+          "r54xz",
+          "romxp",
+          "rloc3",
+          "rlyaf",
+          "r3mmv",
+          "r0kbr",
+          "rqyhw",
+          "rqnkl",
+          "rloxr",
+          "rkqfd",
+          "rgywb",
+          "rkkqd",
+          "r0hej",
+          "r44lb",
+          "rdrh1",
+          "r1nqd",
+          "rtppi",
+          "r8pbs",
+          "r6frk",
+          "rrelx",
+          "rgsjg",
+          "ra1qq",
+          "r365r",
+          "r8218",
+          "rypnm",
+          "rdluz",
+          "r7e5f",
+          "r9d8g",
+          "ruk1b",
+          "r6h78",
+          "rt9p2",
+          "r0yto",
+          "rtsg3",
+          "rzla5",
+          "ru14c",
+          "radub",
+          "r50pl",
+          "rg5cq",
+          "rtc0b",
+          "ri474",
+          "rdj29",
+          "r6txy",
+          "ry0uc",
+          "ribdm",
+          "rlc5f",
+          "r1r06",
+          "rt992",
+          "rjkt0",
+          "rjr56",
+          "rtyhm",
+          "r44uv",
+          "rpi83",
+          "rd9wl",
+          "r05in",
+          "r4hly",
+          "rofif",
+          "rao0o",
+          "r7xp7",
+          "rfpdz",
+          "r3voq",
+          "rksyw"
+        ]
+      },
+      {
+        "key": "wapoTopics",
+        "values": [
+          "buse",
+          "coys",
+          "dotx",
+          "ecpe",
+          "eco2",
+          "enig",
+          "enmx",
+          "fiml",
+          "indl",
+          "info",
+          "irah",
+          "miqc",
+          "ogj0",
+          "prie",
+          "stvo"
+        ]
+      },
+      {
+        "key": "se",
+        "values": [
+          "i7kn"
+        ]
+      },
+      {
+        "key": "bs",
+        "values": [
+          "garm_safe",
+          "bgrt42",
+          "wapo_rsk_low"
+        ]
+      }
+    ],
+    "iab": {
+      "sectioncat": [
+        "IAB3"
+      ],
+      "pagecat": [
+        "IAB3"
+      ]
+    },
+    "permutive_dict": {
+      "article": {
+        "customTopics": [
+          "[rqpy3] B2_Election 2016_legacyaux_WC9",
+          "[r8pbs] Loans",
+          "[r6frk] Career Development",
+          "[rrelx] ESG (Environmental, Social, and Governance)",
+          "[rgsjg] Consulting",
+          "[ra1qq] Insurance Industry",
+          "[r365r] Manufacturing",
+          "[r8218] Construction, Engineering",
+          "[rypnm] Republicans",
+          "[rdluz] Health Care Policy",
+          "[rt9p2] Pop Culture",
+          "[r0yto] Inspiring",
+          "[ru14c] Affluent"
+        ],
+        "wapoTopics": [
+          "buse",
+          "coys",
+          "dotx",
+          "ecpe",
+          "eco2",
+          "enig",
+          "enmx",
+          "fiml",
+          "indl",
+          "info",
+          "irah",
+          "miqc",
+          "ogj0",
+          "prie",
+          "stvo"
+        ],
+        "sentiment": [
+          "[i7kn] negative"
+        ],
+        "publishDate": "2026-03-09T11:41:13.793Z",
+        "lastUpdateDate": "2026-03-09T18:41:21.948Z",
+        "authorName": [
+          "evan halper",
+          "todd frankel"
+        ],
+        "authorType": [
+          "author",
+          "author"
+        ],
+        "newsroomDesk": [
+          "climate",
+          "climate"
+        ],
+        "contentType": "story - default",
+        "language": "en",
+        "wordCount": 874
+      },
+      "canonicalUrl": "/business/2026/03/09/iran-war-stock-markets-oil-prices-gas/"
+    }
+  },
+  "comments": "https://www.washingtonpost.com/business/2026/03/09/iran-war-stock-markets-oil-prices-gas/?outputType=comment",
+  "atp_questions": {
+    "question_set": [
+      {
+        "id": "ATP_7OBC3VQGO5HYBMXVOTKU6B6ZH4",
+        "questions": [
+          {
+            "type": "OUT",
+            "label": null,
+            "text": "What are the potential diplomatic solutions to the U.S.-Iran conflict affecting oil prices?"
+          },
+          {
+            "type": "IN",
+            "label": null,
+            "text": "What are the challenges in negotiating a diplomatic solution with Iran under Trump's administration?"
+          }
+        ]
+      },
+      {
+        "id": "ATP_PXE6PNYTL5G4VPEBJZYK2LFQQQ",
+        "questions": [
+          {
+            "type": "OUT",
+            "label": null,
+            "text": "What impact does easing sanctions on Russia have on global oil prices?"
+          },
+          {
+            "type": "IN",
+            "label": null,
+            "text": "How effective is easing sanctions on Russia in controlling oil prices?"
+          }
+        ]
+      }
+    ]
+  }
+}

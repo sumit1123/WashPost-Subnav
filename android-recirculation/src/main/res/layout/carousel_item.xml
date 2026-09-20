@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/carousel_card_view"
+    android:layout_width="@dimen/carousel_article_style_card_width"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:orientation="horizontal"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="0dp"
+    card_view:cardUseCompatPadding="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/item_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/story_carousel_background_color">
+
+    <TextView
+        android:id="@+id/section_topic"
+        style="@style/article_style_carousel_item_kicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Section"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+        <!-- Image on the left -->
+        <ImageView
+            android:id="@+id/carousel_image"
+            android:layout_width="@dimen/carousel_image_height"
+            android:layout_height="@dimen/carousel_image_height"
+            android:layout_marginTop="@dimen/carousel_image_top_margin"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/section_topic"/>
+
+        <TextView
+            android:id="@+id/article_title"
+            style="@style/article_style_carousel_item_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/carousel_title_left_margin"
+            android:layout_marginTop="@dimen/carousel_image_top_margin"
+            android:text="The NFL long has known what it has in Daniel Snyder. The league owns this scandal too. The league owns this scandal too."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/carousel_image"
+            app:layout_constraintTop_toBottomOf="@id/section_topic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

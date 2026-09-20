@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/top_label_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/label_rectangle_frame">
+    <TextView
+        android:id="@+id/main_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPECIAL OFFER"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        style="@style/top_label_primary_style"/>
+
+        <ImageView
+            android:id="@+id/separator"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/top_label_text"/>
+
+    <TextView
+        android:id="@+id/secondary_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:text="2 DAYS ONLY"
+        style="@style/top_label_secondary_style"
+        />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_label_group"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Get Unlimited Access Today"
+        style="@style/top_title_style"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

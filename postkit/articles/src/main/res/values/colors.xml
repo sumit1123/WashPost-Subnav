@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bg">#FFFFFF</color>
+    <color name="articles_bg">@color/app_bg</color>
+    <color name="articles_bg_cardified">#f7f7f7</color>
+    <color name="articles_card_shadow_dark">#F7F7F7</color>
+    <color name="articles_card_shadow_light">#00F7F7F7</color>
+    <color name="article_cardification_card_bg">#ffffff</color>
+    <color name="article_cardification_no_card_bg">#f7f7f7</color>
+    <color name="article_cardification_card_shadow">#CAEFEFEF</color>
+    <color name="articles_main_text_color">#000</color>
+    <color name="articles_main_text_color_night_mode">#DDDDDD</color>
+    <color name="article_by_line_color">#c2c2c2</color>
+    <color name="section_fronts_border">#AAAAAA</color>
+    <color name="instagram_divider_grey">#e3e3e3</color>
+    <color name="tweet_grey">#565558</color>
+    <color name="articles_background_night_mode">#111111</color>
+    <color name="article_text_blockquote_margin_color">#E08C53</color>
+    <color name="article_pull_quote_caption_text_color">#6E6E6E</color>
+    <color name="article_pull_quote_rule_line_color">#999999</color>
+    <color name="article_block_quote_rule_line_color">#999999</color>
+    <color name="article_correction_background">#F7F7F7</color>
+    <color name="article_correction_background_night">#111111</color>
+    <color name="articles_headline_text_color">#111111</color>
+    <color name="article_image_caption_color">@color/gray80</color>
+    <color name="article_date_text_color">#666666</color>
+
+    <color name="context_box_body_text">@color/gray80</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="action_bar_background_color">#000000</color>
+
+    <color name="toolbar_title_textColor">#FFFFFF</color>
+    <color name="color_dot">#aeaeae</color>
+    <color name="gallery_background">#A5000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dialog_blue_bg">#076C9C</color>
+    <color name="circle_phone_bg_shadow_color">#FFE0E0E0</color>
+    <color name="article_media_graphic_text_color">#ffffff</color>
+
+    <color name="article_rating_bar_title">#595959</color>
+    <color name="article_rating_bar_inactive">#939393</color>
+    <color name="article_rating_bar_active">#595959</color>
+    <color name="article_rating_bar_bg">#F4F3F1</color>
+
+    <color name="kicker">#111111</color>
+    <color name="kicker_night">#F0F0F0</color>
+    <color name="kicker_display_transparency">#666666</color>
+    <color name="kicker_story_type">#666</color>
+    <color name="kicker_story_type_night">#DDDDDD</color>
+
+    <color name="web_view_progress">#1e88e5</color>
+    <color name="web_view_progress_bg">#e3f2fd</color>
+    <color name="retry_text">#5894E6</color>
+
+    <color name="kicker_pill_live">#FFFFFF</color>
+    <color name="kicker_pill_exclusive">#FFFFFF</color>
+    <color name="kicker_pill_live_bg_color">#D8070E</color>
+    <color name="kicker_pill_exclusive_bg_color">#000000</color>
+
+    <color name="post_dsm_blue_normal">#1955A5</color>
+    <color name="post_dsm_blue_bright">#3D73D5</color>
+
+    <color name="element_group_bg_night_mode">#2A2A2A</color>
+    <color name="articles_link_box_main_text_color">#000</color>
+    <color name="articles_link_box_main_text_color_night_mode">#F7F7F7</color>
+    <color name="articles_link_box_dateline_text_color">#2A2A2A</color>
+    <color name="articles_link_box_dateline_text_color_night_mode">#F7F7F7</color>
+    <color name="articles_link_box_gradient_start_color">#47ffffff</color>
+    <color name="articles_link_box_gradient_end_color">#ffffffff</color>
+    <color name="articles_link_box_gradient_start_color_night">#002A2A2A</color>
+    <color name="articles_link_box_gradient_end_color_night">#ff2A2A2A</color>
+    <color name="article_link_box_subheadline_text_color">#666666</color>
+
+    <color name="articles_legacy_text_link_color">#018786</color>
+
+    <color name="divider_color">#D5D5D5</color>
+    <color name="divider_color_night">#484B4E</color>
+    <color name="background_black">#202020</color>
+    <color name="section_front_background">#FFFFFF</color>
+    <color name="article_preceding_by_line">#666666</color>
+    <color name="article_by_line">#111111</color>
+    <color name="article_byline_link_color">#AAAAAA</color>
+    <color name="appbar_bottom_border">#e9e9e9</color>
+    <color name="card_article_border">#e9e9e9</color>
+    <color name="article_byline_opinion_link_color">#B16E00</color>
+
+    <!--    Rounded corner button-->
+    <color name="rounder_corner_button_border">#2A2A2A</color>
+    <color name="rounder_corner_button_text">#2A2A2A</color>
+    <color name="rounded_corner_button_arrow">#000000</color>
+    <color name="rounder_corner_button_text_theme_independent">#F0F0F0</color>
+    <color name="rounder_corner_button_background">#F0F0F0</color>
+    <color name="rounded_corner_button_pressed_background">#33CCCCCC</color>
+    <color name="rounded_corner_background_theme_independent">#323333</color>
+    <color name="rounded_corner_wp_logo_background">#111111</color>
+    <color name="rounded_corner_button_inverted_background">#111111</color>
+    <color name="rounded_corner_button_inverted_text">#ffffff</color>
+    <color name="rounded_corner_button_inverted_pressed_background">#CCCCCCCC</color>
+    <color name="rounded_button_border_1">#d4d4d4</color>
+    <color name="rounded_button_pressed_background_1">#33CCCCCC</color>
+    <color name="tweet_text_color">#565558</color>
+    <color name="tweet_border_color">#ffffff</color>
+    <color name="tweet_stroke_color">#626262</color>
+    <color name="element_group_bg">#FFFFFF</color>
+    <color name="deck_text">#111111</color>
+    <color name="progress_loading">#AAAAAA</color>
+    <color name="toolbar_icons_color">#333333</color>
+
+    <color name="article_briefs_single_number">#ffffff</color>
+
+    <color name="briefs_exclusive_text_color">#000000</color>
+
+    <color name="meta_text_color">#111111</color>
+
+    <color name="unification_rounded_corner_button_background">#F0F0F0</color>
+</resources>

@@ -1,0 +1,10 @@
+{
+  "kmp": {
+    "logger": {
+      "uploaderURL" : "https://http-inputs-washpost.splunkcloud.com/services/collector/raw?source=rainbow_android_dev&sourcetype=rainbow_android_dev"
+    }
+  },
+  "loggerConfig": {
+    "splunkHttpURL": "https://http-inputs-washpost.splunkcloud.com/services/collector/raw?source=rainbow_android_dev&sourcetype=rainbow_android_dev"
+  }
+}

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/paywall_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_background"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingStart="@dimen/paywall_sheet_side_margin"
+    android:paddingEnd="@dimen/paywall_sheet_side_margin"
+    android:paddingTop="@dimen/paywall_margin_large"
+    android:paddingBottom="@dimen/paywall_margin">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical">
+
+        <com.washingtonpost.android.paywall.bottomsheet.ui.component.old.TopLabelView
+            android:id="@+id/top_label"
+            android:layout_marginBottom="@dimen/paywall_margin_large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/period_toggle"
+            android:layout_width="@dimen/paywall_container_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/paywall_margin_large"
+            android:gravity="center"
+            app:checkedButton="@id/monthly"
+            app:selectionRequired="true"
+            app:singleSelection="true">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/monthly"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                app:shapeAppearance="@style/rounded"
+                app:strokeColor="@color/toggle_group_color"
+                app:backgroundTint="@color/toggle_button_states"
+                android:textAllCaps="false"
+                app:strokeWidth="4dp"
+                android:text="@string/monthly" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/yearly"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:strokeColor="@color/toggle_group_color"
+                app:strokeWidth="4dp"
+                app:shapeAppearance="@style/rounded"
+                android:textAllCaps="false"
+                app:backgroundTint="@color/toggle_button_states"
+                android:text="Yearly" />
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="@dimen/paywall_container_width"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/product_a_title"
+                    style="@style/product_title_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:text="Core" />
+
+                <LinearLayout
+                    android:id="@+id/product_a_features"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    app:layout_constraintTop_toBottomOf="@id/product_a_title"
+                    android:layout_marginBottom="4dp"
+                    android:orientation="vertical">
+
+                    <com.washingtonpost.android.paywall.bottomsheet.ui.component.old.ProductCheckTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/product_a_subscribe_text"
+                    style="@style/subscribe_button_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_background"
+                    android:gravity="center"
+                    android:lineHeight="@dimen/subscribe_button_line_height"
+                    android:maxWidth="@dimen/subscribe_button_width"
+                    android:text="Try 1 month free\nthen $9.99/month"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:paddingTop="@dimen/paywall_margin_small"
+                    android:paddingBottom="@dimen/paywall_margin_small"
+                    android:textSize="@dimen/acquisition_button_text_size"
+                    tools:ignore="UnusedAttribute" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/product_separator" />
+
+            <LinearLayout
+                android:layout_width="@dimen/paywall_container_width"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/product_b_title"
+                    style="@style/product_title_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="12dp"
+                    android:text="Premium" />
+
+                <LinearLayout
+                    android:id="@+id/product_b_features"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:orientation="vertical">
+
+                    <com.washingtonpost.android.paywall.bottomsheet.ui.component.old.ProductCheckTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/product_b_subscribe_text"
+                    style="@style/subscribe_button_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_background"
+                    android:gravity="center"
+                    android:lineHeight="@dimen/subscribe_button_line_height"
+                    android:maxWidth="@dimen/subscribe_button_width"
+                    android:text="Try 1 month free\nthen $9.99/month"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:paddingTop="@dimen/paywall_margin_small"
+                    android:paddingBottom="@dimen/paywall_margin_small"
+                    android:textSize="@dimen/acquisition_button_text_size"
+                    tools:ignore="UnusedAttribute" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <com.washingtonpost.android.paywall.bottomsheet.ui.component.old.SubTextView
+            android:id="@+id/sub_text"
+            android:layout_width="@dimen/paywall_container_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/paywall_margin_large"
+            android:layout_marginEnd="@dimen/paywall_margin_large"/>
+    </LinearLayout>
+</ScrollView>

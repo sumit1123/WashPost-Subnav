@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:installLocation="internalOnly"
+    android:targetSandboxVersion="1"
+    android:versionCode="1">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.compass"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.DETECT_SCREEN_CAPTURE"
+        android:minSdkVersion="34"/>
+
+
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        tools:node="remove" />
+    <!--This is needed because A9 adds these permissions in their library-->
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:node="remove" />
+    <!-- Whenever a new permission is added please check whether the permission is a dangerous permission. If
+    it is one, please add it in the RequestPermissions.java class so that the app requests the user to
+    grant access to this permission. The details about dangerous permissions can be found at the following link:
+     https://developer.android.com/guide/topics/security/permissions.html#normal-dangerous -->
+
+    <uses-permission android:name="com.washingtonpost.rainbow.providers.WapoSubscriptionProvider.READ_PERMISSION" />
+
+    <queries>
+        <provider android:authorities="com.washingtonpost.rainbow.providers.WapoSubscriptionProvider" />
+    </queries>
+
+    <uses-permission android:name="com.wapo.flagship.providers.AmazonClassicSubscriptionProvider.READ_PERMISSION_UNIFIED" />
+
+    <queries>
+        <provider android:authorities="com.wapo.flagship.providers.AmazonClassicSubscriptionProvider" />
+    </queries>
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.SENDTO" />
+            <data android:scheme="mailto" />
+        </intent>
+    </queries>
+
+    <uses-sdk tools:overrideLibrary="com.amazon.device.ads, net.openid.appauth, androidx.browser.customtabs, com.google.firebase.perf, com.google.firebase.remoteconfig, com.google.firebase.iid, com.google.firebase.icing, com.google.firebase.firebase_analytics, com.google.android.gms.measurement.api, com.google.firebase.measurement, com.google.android.gms.measurement.sdk, com.google.firebase.measurement_impl, com.google.android.gms.measurement.sdk.api, com.google.android.gms.measurement_base, com.urbanairship.push.fcm, com.urbanairship.automation, com.urbanairship, com.urbanairship.push.adm, com.urbanairship.android.layout, com.permutive.android, com.permutive.android.common, com.google.android.play.agesignals, com.google.android.gms.common" />
+
+    <application
+        android:name="com.wapo.flagship.FlagshipApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/WaPo"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon,android:theme,android:label,android:allowBackup"
+        tools:targetApi="m">
+
+        <!-- remove this block when https://issuetracker.google.com/issues/327696048?pli=1 is fixed -->
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/gma_ad_services_config"
+            tools:replace="android:resource" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="false" />
+
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/gms_ads_application_id" />
+
+        <!-- Bypass APPLICATION_ID check for WebView API for Ads -->
+        <meta-data
+            android:name="com.google.android.gms.ads.INTEGRATION_MANAGER"
+            android:value="webview" />
+
+        <!-- Disable the automatic firing of screen_view events per analytics request -->
+        <meta-data android:name="google_analytics_automatic_screen_reporting_enabled" android:value="false" />
+
+        <!-- Iterable - Pushes -->
+        <meta-data
+            android:name="iterable_notification_channel_name"
+            android:resource="@string/iterable_notification_channel_name" />
+        <meta-data
+            android:name="iterable_notification_icon"
+            android:resource="@drawable/wp_logo_white" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.wapo.flagship.wapomain.MainActivity"
+            android:windowSoftInputMode="adjustNothing"
+            android:configChanges="screenSize|orientation"
+            android:exported="true"
+            android:taskAffinity="com.wapo.flagship"
+            android:hardwareAccelerated="true"
+            android:theme="@style/SplashTheme"
+            android:resizeableActivity="true">
+
+            <layout
+                android:gravity="top|start"
+                android:minWidth="@dimen/free_form_min_width"
+                android:minHeight="@dimen/free_form_min_height" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+
+        <activity
+            android:name="com.wapo.flagship.DeepLinkSingleTaskActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.wapo.flagship"
+            android:theme="@style/Theme.AppCompat.NoActionBar.Translucent">
+            <intent-filter android:label="@string/filter_title_viewwp">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.washingtonpost.com"
+                    android:scheme="wp-android" />
+                <data
+                    android:host="subscribe.washingtonpost.com"
+                    android:scheme="wp-android" />
+            </intent-filter>
+            <intent-filter android:label="@string/filter_title_viewwp_ar">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.washingtonpost.com"
+                    android:scheme="washpost" />
+            </intent-filter>
+            <intent-filter android:label="@string/filter_title_viewwp">
+                <!-- Accepts URIs that begin with "washpost://” -->
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="washpost" />
+            </intent-filter>
+            <intent-filter
+                android:autoVerify="true"
+                android:label="@string/filter_title_viewwp">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="https" />
+                <data android:scheme="http" />
+                <data android:host="${universalLinkHost}" />
+                <data android:host="www.${universalLinkHost}" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="${authRedirectPath}"
+                    android:path="/magiclink"
+                    android:scheme="${authScheme}" />
+                <data
+                    android:host="${authRedirectPath}"
+                    android:path="/social-redirect"
+                    android:scheme="${authScheme}" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="${authRedirectPath}"
+                    android:scheme="${authScheme}" />
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="${iterableLinkHost}"
+                    android:pathPrefix="/a"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.wapo.flagship.features.account.AccountActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.wapo.flagship.features.video.VideoActivity"
+            android:configChanges="screenSize|smallestScreenSize|keyboardHidden|screenLayout|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="true"
+            android:taskAffinity="com.wapo.flagship.features.video.VideoActivity"
+            android:theme="@style/WaPo.NoActionBar.PIP"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.wapo.flagship.features.video.VerticalVideosActivity"
+            android:configChanges="screenSize|smallestScreenSize|keyboardHidden|screenLayout|orientation"
+            android:launchMode="singleTop"
+            android:supportsPictureInPicture="false" />
+        <activity
+            android:name="com.wapo.flagship.features.video.FullScreenVideoActivity"
+            android:configChanges="screenSize|smallestScreenSize|keyboardHidden|screenLayout|orientation"
+            android:launchMode="singleTop"
+            android:supportsPictureInPicture="true" />
+        <activity
+            android:name="com.wapo.flagship.features.print.PdfActivity"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:theme="@style/WaPo"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.wapo.flagship.features.print.Pdf2Activity"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:theme="@style/WaPo"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.wapo.flagship.features.print.InlinePdfActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.wapo.flagship.features.print.EditionsActivity"
+            android:label=""
+            android:launchMode="singleTop"
+            android:theme="@style/WaPo"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.wapo.flagship.features.onboarding2.activity.Onboarding2Activity"
+            android:allowTaskReparenting="false"
+            android:label="@string/app_name"
+            android:taskAffinity=""
+            android:theme="@style/ArticlesActivityTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.wapo.flagship.features.shared.activities.SearchableArticlesActivity"
+            android:configChanges="orientation|screenSize"
+            android:label=""
+            android:resizeableActivity="true"
+            android:theme="@style/WaPo"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.wapo.flagship.features.comics.ComicsActivity"
+            android:hardwareAccelerated="true"
+            android:label="@string/comics_page"
+            android:launchMode="singleTop"
+            android:theme="@style/WaPo"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.wapo.flagship.features.search2.ui.Search2Activity"
+            android:exported="false"
+            android:label="@string/search_page"
+            android:launchMode="singleTop"
+            android:theme="@style/WaPo"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.wapo.flagship.features.shared.activities.SimpleWebViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:windowSoftInputMode="stateUnchanged|adjustResize"
+            android:theme="@style/WaPo" />
+        <activity
+            android:name="com.wapo.flagship.features.shared.activities.WebViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.wapo.flagship.features.settings.SettingsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/settings_wp"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="com.wapo.flagship.features.mypost.MyPostActivity" />
+        <activity
+            android:name="com.wapo.flagship.features.mypost.MyPostActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/my_post"
+            android:parentActivityName="com.wapo.flagship.wapomain.MainActivity" />
+        <activity
+            android:name="com.wapo.flagship.external.ListWidgetConfigurationActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:theme="@style/WaPo.NoActionBar">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.wapo.flagship.external.WidgetConfigurationActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:theme="@style/WaPo.NoActionBar">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.wapo.flagship.features.video.SimpleVideoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/WaPo.NoActionBar" />
+        <activity
+            android:name="com.wapo.flagship.features.video.YouTubeVideoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/WaPo.NoActionBar" />
+        <activity
+            android:name="com.wapo.flagship.features.photos.NativePhotoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_native_photo" />
+        <activity
+            android:name="com.wapo.flagship.features.alerts.AlertsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/alerts"
+            android:parentActivityName="com.wapo.flagship.wapomain.MainActivity" />
+        <activity
+            android:name="com.wapo.flagship.features.print.PrintActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/print_edition"
+            android:parentActivityName="com.wapo.flagship.wapomain.MainActivity" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent"
+            tools:replace="android:theme" />
+        <activity
+            android:name="com.wapo.flagship.features.scoreboard.ScoreboardDialogActivity"
+            android:configChanges="screenSize|orientation"
+            android:launchMode="singleTop"
+            android:theme="@style/ScoreboardTheme" />
+        <activity
+            android:name="com.amazon.device.ads.DTBActivity"
+            android:exported="false"
+            tools:ignore="AppLinkUrlError">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="intent"
+                    android:scheme="amazonmobile" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.wapo.flagship.features.shared.NativePaywallActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.Transparent" />
+
+        <activity
+            android:name="com.washingtonpost.android.paywall.auth.PaywallLoginActivity"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+
+        <activity
+            android:name="com.wapo.flagship.features.onboarding2.activity.PostLoginActivity"
+            android:theme="@style/Theme.AppCompat.Transparent"/>
+
+        <activity
+            android:name="com.wapo.flagship.features.mypost.MyPostAuthorPageActivity"
+            android:configChanges="screenSize|orientation"
+            android:launchMode="singleTop"
+            android:theme="@style/WaPo"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.wapo.flagship.features.articles2.activities.Articles2Activity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="com.wapo.flagship.features.settings.contactus.ContactUsActivity"
+            android:exported="false" />
+
+        <activity android:name="com.wapo.flagship.features.unification.activity.UnificationOnboardingActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.wapo.flagship.features.amazonunification.activity.UnificationAmazonOnboardingActivity"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            />
+        <activity
+            android:name="com.wapo.flagship.features.amazonunification.activity.AmazonUnifiedOnboardingActivity"
+            android:exported="true"
+            android:theme="@style/Sections"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wapo.flagship.features.amazonunification.activity.DuplicateSubscriptionActivity"
+            android:exported="true"
+            android:theme="@style/Sections"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.washingtonpost.customnav.CustomNavActivity"
+            android:theme="@style/BaseWaPo.Phone"
+            android:label="Menu Preferences"/>
+        <!-- Adding taskAffinity to Iterable's IterableTrampolineActivity to handle or launch push
+             deep link in the same task. Otherwise Iterable is handling this activity in a separate
+             task as part of opening the app.
+             Note: Always maintain same IterableTrampolineActivity configuration (from https://github.com/Iterable/iterable-android-sdk/blob/master/iterableapi/src/main/AndroidManifest.xml)
+                   here whenever Iterable version is updated -->
+        <activity
+            android:name="com.iterable.iterableapi.IterableTrampolineActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.wapo.flagship"
+            android:theme="@style/TrampolineActivity.Transparent" />
+        <activity
+            android:name="com.wapo.flagship.features.find.FindActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/find"/>
+
+        <activity
+            android:name="com.wapo.flagship.agerestriction.AgeRestrictionActivity"
+            android:exported="false" />
+
+        <service
+            android:name="com.wapo.flagship.external.ListWidgetService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <service
+            android:name="com.wapo.flagship.external.ViewFlipperWidgetService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <provider
+            android:name="com.wapo.flagship.providers.SearchSuggestionProvider"
+            android:authorities="${applicationId}.providers.searchSuggestions.unified" />
+
+        <receiver
+            android:name="com.amazon.device.iap.ResponseReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="com.amazon.inapp.purchasing.NOTIFY"
+                    android:permission="com.amazon.inapp.purchasing.Permission.NOTIFY" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.wapo.flagship.external.foryouwidget.ForYouWidgetReceiver"
+            android:exported="true"
+            android:label="@string/for_you_widget_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/for_you_widget_info" />
+        </receiver>
+        <receiver
+            android:name="com.wapo.flagship.external.TabletWidget"
+            android:exported="true"
+            android:label="@string/tablet_widget_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/tablet_widget" />
+        </receiver>
+        <receiver
+            android:name="com.wapo.flagship.external.Widget"
+            android:exported="true"
+            android:label="@string/small_widget_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget" />
+        </receiver>
+        <receiver
+            android:name="com.wapo.flagship.push.DeleteNotificationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.wapo.flagship.action.ACTION_DELETE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.wapo.flagship.features.print.PrintSyncReceiver" />
+
+        <receiver android:name="com.wapo.flagship.push.TabSelectReceiver" />
+
+        <receiver android:name="com.wapo.flagship.receivers.ShareBroadcastReceiver" />
+        <receiver android:name="com.wapo.android.commons.util.ShareBroadcastReceiver" />
+
+
+        <!-- Register AnalyticsReceiver and AnalyticsService to support background dispatching on non-Google Play devices. -->
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+        <provider
+            android:authorities="${applicationId}.cacheprovider"
+            android:name="com.wapo.flagship.WPCacheProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START"/>
+        </intent>
+    </queries>
+
+</manifest>

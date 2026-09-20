@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+              a:layout_width="match_parent" a:layout_height="wrap_content" a:orientation="vertical"
+              a:padding="7dp">
+
+    <RelativeLayout a:layout_width="match_parent" a:layout_height="wrap_content" a:orientation="horizontal"
+              a:padding="7dp">
+
+        <TextView a:id="@+id/larger_font_label"
+                  a:layout_width="wrap_content" a:layout_height="wrap_content"
+                  a:contentDescription="@string/font_size_bigger"
+                  a:layout_alignParentRight="true"
+                  a:text="+ A"
+                  style="@style/FontSizeLabelStyle.Large"/>
+
+        <TextView a:id="@+id/smaller_font_label"
+                    a:layout_width="wrap_content" a:layout_height="wrap_content"
+                    a:contentDescription="@string/font_size_smaller"
+                    a:layout_alignParentLeft="true"
+                    a:layout_alignBaseline="@id/larger_font_label"
+                    a:text="A -"
+                    style="@style/FontSizeLabelStyle.Small" />
+
+    </RelativeLayout>
+
+    <SeekBar a:id="@+id/font_size_bar" a:layout_width="match_parent" a:layout_height="wrap_content" a:max="3" />
+
+</LinearLayout>

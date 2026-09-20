@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 209. The Washington Post
+  ~ Created by Jayesh Elamgodil on 4/22/19
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_carousel_item_root_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/rv_carousel_item_margin_padding"
+    android:layout_marginRight="@dimen/rv_carousel_item_margin_padding"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cv_carousel_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:cardCornerRadius="@dimen/carousel_card_corner_radius"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_carousel_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/ll_carousel_kicker_layout"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:id="@+id/ll_carousel_kicker_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/tv_carousel_title"
+                android:layout_marginLeft="@dimen/carousel_card_text_margin_large"
+                android:layout_marginTop="@dimen/carousel_card_text_margin_medium"
+                android:layout_marginRight="@dimen/carousel_card_text_margin_large"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_carousel_kicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/carousel_kicker_font_size" />
+
+                <TextView
+                    android:id="@+id/tv_carousel_story_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/carousel_kicker_font_size" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_carousel_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/tv_carousel_byline"
+                android:layout_marginLeft="@dimen/carousel_card_text_margin_large"
+                android:layout_marginTop="@dimen/carousel_card_text_margin_small"
+                android:layout_marginRight="@dimen/carousel_card_text_margin_medium"
+                android:maxLines="3"
+                android:textSize="@dimen/carousel_title_font_size"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_carousel_byline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:maxLines="2"
+                android:layout_marginLeft="@dimen/carousel_card_text_margin_large"
+                android:layout_marginTop="@dimen/carousel_card_text_margin_medium"
+                android:layout_marginRight="@dimen/carousel_card_text_margin_large"
+                android:paddingBottom="20dp"
+                android:textSize="@dimen/carousel_byline_font_size" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

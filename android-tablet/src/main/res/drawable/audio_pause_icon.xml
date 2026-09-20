@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1000dp"
+    android:height="1000dp"
+    android:viewportWidth="1000"
+    android:viewportHeight="1000">
+  <path
+      android:fillColor="@color/wp_logo"
+      android:pathData="M500,10C230.5,10 10,230.5 10,500s220.5,490 490,490s490,-220.5 490,-490S769.5,10 500,10zM500,947.1C255,947.1 52.9,745 52.9,500S255,52.9 500,52.9S947.1,255 947.1,500S745,947.1 500,947.1z"/>
+  <path
+      android:fillColor="@color/wp_logo"
+      android:pathData="M561.3,316.3h122.5v367.5H316.3V316.3z"/>
+</vector>

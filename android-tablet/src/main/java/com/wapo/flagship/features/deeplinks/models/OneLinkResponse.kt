@@ -1,0 +1,10 @@
+package com.wapo.flagship.features.deeplinks.models
+
+import com.squareup.moshi.Json
+import com.squareup.moshi.JsonClass
+
+@JsonClass(generateAdapter = true)
+data class OneLinkResponse(
+    @Json(name = "url")
+    val oneLink: String
+)

@@ -1,0 +1,116 @@
+<resources>
+    <dimen name="pw_close_height">25dp</dimen>
+    <dimen name="pw_close_width">25dp</dimen>
+    <dimen name="success_padding">10dp</dimen>
+    <dimen name="success_txt">20dp</dimen>
+    <dimen name="pw_top_margin_logo">20dp</dimen>
+    <dimen name="pw_top_margin_toast">50dp</dimen>
+    <dimen name="pw_top_margin_toast_message">40dp</dimen>
+    <dimen name="rw_icon_max_width">96dp</dimen>
+
+    <!-- Reminder Screen -->
+    <dimen name="reminder_close_icon_margin_top">8dp</dimen>
+    <dimen name="reminder_close_icon_margin_right">8dp</dimen>
+    <dimen name="reminder_text_views_horizontal_margin">60dp</dimen>
+    <dimen name="reminder_buttons_horizontal_margin">32dp</dimen>
+    <dimen name="reminder_buttons_min_width">320dp</dimen>
+    <dimen name="reminder_buttons_min_height">60dp</dimen>
+    <dimen name="reminder_vertical_margin_small">8dp</dimen>
+    <dimen name="reminder_vertical_margin_medium">16dp</dimen>
+    <dimen name="reminder_vertical_margin_large">24dp</dimen>
+    <dimen name="reminder_vertical_margin_very_large">32dp</dimen>
+    <dimen name="reminder_vertical_margin_x_large">64dp</dimen>
+    <dimen name="reminder_vertical_margin_x2_large">82dp</dimen>
+    <dimen name="reminder_vertical_margin_xx_large">128dp</dimen>
+    <dimen name="reminder_bottom_screen_margin">8dp</dimen>
+
+    <dimen name="reminder_screen_text_h1_font_size">32sp</dimen>
+    <dimen name="reminder_screen_text_h21_font_size">14sp</dimen>
+    <dimen name="reminder_screen_text_h22_font_size">18sp</dimen>
+    <dimen name="reminder_screen_text_h3_font_size">14sp</dimen>
+    <dimen name="reminder_screen_button_font_size">14sp</dimen>
+    <dimen name="fineprint_text_size">12sp</dimen>
+
+    <!-- Acquisition Reminder Screen -->
+    <dimen name="acquisition_horizontal_margin">24dp</dimen>
+    <dimen name="acquisition_vertical_margin_small">8dp</dimen>
+    <dimen name="acquisition_vertical_margin">16dp</dimen>
+
+    <dimen name="acquisition_vertical_margin_large">20dp</dimen>
+    <dimen name="acquisition_text_vertical_margin">24dp</dimen>
+    <dimen name="acquisition_text_variant_vertical_margin">8dp</dimen>
+    <dimen name="acquisition_heading_text_size">26sp</dimen>
+    <dimen name="acquisition_heading_variant_text_size">28sp</dimen>
+    <dimen name="acquisition_description_text_size">15sp</dimen>
+    <dimen name="acquisition_description_variant_text_size">16sp</dimen>
+    <dimen name="acquisition_button_text_size">16sp</dimen>
+    <dimen name="acquisition_button_bottom_margin">16dp</dimen>
+    <dimen name="acquisition_tab_layout_height">24dp</dimen>
+    <dimen name="bottom_sheet_height">60dp</dimen>
+    <dimen name="bottom_sheet_padding_top">4dp</dimen>
+    <dimen name="bottom_sheet_padding_bottom">4dp</dimen>
+    <dimen name="badge_text_size">12sp</dimen>
+
+    <!--    Bottom Sheet Paywall -->
+    <dimen name="bottom_sheet_title1_textsize">12sp</dimen>
+    <dimen name="bottom_sheet_title2_textsize">14sp</dimen>
+    <dimen name="viewpager_next_item_visible">12dp</dimen>
+    <dimen name="paywall_sheet_side_margin">45dp</dimen>
+    <dimen name="paywall_sheet_bottom_margin">36dp</dimen>
+    <dimen name="check_text_size">14sp</dimen>
+    <dimen name="offer_page_margin">15dp</dimen>
+    <dimen name="check_text_start_margin">7dp</dimen>
+    <dimen name="billing_period_label">12sp</dimen>
+    <dimen name="intro_offer_text">16sp</dimen>
+    <dimen name="regular_offer_text">14sp</dimen>
+    <dimen name="top_label">12sp</dimen>
+    <dimen name="top_title">24sp</dimen>
+    <dimen name="savings_pill">12sp</dimen>
+    <dimen name="paywall_margin_large">20dp</dimen>
+    <dimen name="paywall_margin">16dp</dimen>
+    <dimen name="paywall_margin_medium">12dp</dimen>
+    <dimen name="paywall_margin_small">8dp</dimen>
+    <dimen name="paywall_margin_very_small">4dp</dimen>
+    <dimen name="paywall_container_width">300dp</dimen>
+    <dimen name="paywall_container_min_width">169dp</dimen>
+    <dimen name="subscribe_button_line_height">24dp</dimen>
+    <dimen name="subscribe_button_line_space_height">4dp</dimen>
+    <dimen name="product_title_text">20sp</dimen>
+    <dimen name="view_pager_margin">65dp</dimen>
+    <dimen name="subscribe_button_width">-1px</dimen>
+    <dimen name="subscribe_button_height">56dp</dimen>
+    <dimen name="check_text_bottom_margin">10dp</dimen>
+    <dimen name="check_separator_text_size">12sp</dimen>
+    <dimen name="fine_print_margin">20dp</dimen>
+    <dimen name="sign_in_text">14sp</dimen>
+    <dimen name="period_toggle_seporater">12sp</dimen>
+    <dimen name="period_toggle_text">12sp</dimen>
+    <integer name="acquisition_weight_sum">10</integer>
+    <integer name="acquisition_text_weight">8</integer>
+    <integer name="acquisition_controls_weight">2</integer>
+
+
+    <!-- AccountHold -->
+    <dimen name="accounthold_logo_vertical_margin">24dp</dimen>
+    <dimen name="accounthold_logo_width">150dp</dimen>
+    <dimen name="accounthold_logo_height">44dp</dimen>
+    <dimen name="accounthold_close">18dp</dimen>
+    <dimen name="accounthold_text_size_header">24sp</dimen>
+    <dimen name="accounthold_text_size_h2">14sp</dimen>
+    <dimen name="accounthold_button_min_width">150dp</dimen>
+    <dimen name="accounthold_vertical_margin">12dp</dimen>
+    <dimen name="accounthold_vertical_margin_x2_large">24dp</dimen>
+    <dimen name="contact_us_text_size">14sp</dimen>
+    <dimen name="accounthold_core_text_size">18sp</dimen>
+
+    <dimen name="accounthold_vertical_margin_top">91dp</dimen>
+    <dimen name="accounthold_vertical_margin_bottom">76dp</dimen>
+    <dimen name="account_update_payment_button_width">242dp</dimen>
+    <dimen name="account_update_payment_button_height">40dp</dimen>
+    <dimen name="account_hold_corner_radius">20dp</dimen>
+    <dimen name="accounthold_button_text_size">16sp</dimen>
+    <dimen name="accounthold_contactus_margin">80dp</dimen>
+    <dimen name="paywall_subtitle_text">14sp</dimen>
+
+    <dimen name="sign_out_button_height">40dp</dimen>
+</resources>

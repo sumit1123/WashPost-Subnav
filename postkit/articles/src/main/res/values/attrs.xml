@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="article_rating_bar_style"/>
+    <attr name="article_rating_bar_cell_style"/>
+</resources>

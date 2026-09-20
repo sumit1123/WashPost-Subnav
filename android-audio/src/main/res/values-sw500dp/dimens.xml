@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018. The Washington Post
+  -->
+
+<resources>
+    <dimen name="podcast_article_view_outer_padding_horizontal">16dp</dimen>
+    <dimen name="podcast_article_view_outer_padding_vertical">20dp</dimen>
+    <dimen name="podcast_article_view_outer_margin">20dp</dimen>
+    <dimen name="podcast_article_view_title_bottom_margin">16dp</dimen>
+    <dimen name="podcast_article_view_center_margin">16dp</dimen>
+    <dimen name="podcast_article_view_image_size">160dp</dimen>
+    <dimen name="podcast_article_view_control_size">48dp</dimen>
+    <dimen name="podcast_article_view_text_size">21sp</dimen>
+    <dimen name="podcast_article_view_episode_title_text_size">24sp</dimen>
+</resources>

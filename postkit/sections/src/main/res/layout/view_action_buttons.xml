@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.wapo.flagship.features.pagebuilder.CellBylineView
+        android:id="@+id/signature"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="?attr/homepage_story_byline_cell_style"
+        android:layout_gravity="start|center_vertical"
+        android:layout_weight="1"
+        android:importantForAccessibility="noHideDescendants"/>
+
+    <LinearLayout
+        android:id="@+id/action_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="-10dp"
+        android:layout_gravity="end|center_vertical"
+        android:gravity="end|center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="12dp"
+            android:visibility="visible"
+            android:importantForAccessibility="yes">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_comment"
+                android:importantForAccessibility="no"
+                app:tint="@color/onSurface_subtle" />
+
+            <TextView
+                android:id="@+id/comments_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:fontFamily="@font/wp_franklinitcstd_font_family"
+                android:textColor="@color/onSurface_subtle"
+                android:textSize="14sp"
+                android:importantForAccessibility="no"
+                tools:text="1k" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/listen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/action_audio_description"
+            android:paddingStart="10dp"
+            android:paddingEnd="12dp"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            app:srcCompat="@drawable/ic_ab_headphones"/>
+
+        <ProgressBar
+            android:id="@+id/loading_spinner"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="start"
+            android:background="@color/transparent"
+            android:foregroundGravity="center"
+            android:visibility="gone"
+       />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            app:srcCompat="@drawable/ic_ab_share"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:contentDescription="@string/action_share_description"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/action_save_description"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            app:srcCompat="@drawable/overflow"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:contentDescription="@string/action_menu_description"/>
+    </LinearLayout>
+
+
+</LinearLayout>

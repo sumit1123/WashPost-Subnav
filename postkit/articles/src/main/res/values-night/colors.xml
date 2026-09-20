@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <color name="article_preceding_by_line">#D5D5D5</color>
+    <color name="article_by_line">#F0F0F0</color>
+    <color name="article_byline_link_color">#666666</color>
+    <color name="app_bg">#111111</color>
+    <color name="articles_bg">@color/app_bg</color>
+    <color name="articles_bg_cardified">#111111</color>
+    <color name="article_cardification_card_bg">#141414</color>
+    <color name="article_cardification_no_card_bg">@android:color/transparent</color>
+    <color name="article_cardification_card_shadow">@color/articles_bg</color>
+    <color name="articles_card_shadow_dark">#111111</color>
+    <color name="articles_card_shadow_light">#111111</color>
+    <color name="appbar_bottom_border">#666666</color>
+    <color name="card_article_border">#111111</color>
+    <color name="section_front_background">#111111</color>
+    <color name="article_link_box_subheadline_text_color">#F7F7F7</color>
+    <color name="kicker_pill_exclusive">#111111</color>
+    <color name="kicker_pill_exclusive_bg_color">#FFFFFF</color>
+    <color name="article_image_caption_color">#F0F0F0</color>
+    <color name="articles_headline_text_color">#F3F3F3</color>
+    <color name="article_date_text_color">#D5D5D5</color>
+    <color name="article_correction_background">#111111</color>
+    <color name="divider_color">#484B4E</color>
+    <color name="articles_main_text_color">@color/gray200</color>
+    <color name="article_pull_quote_caption_text_color">@color/articles_main_text_color</color>
+
+    <color name="gray200">#494949</color>
+    <color name="context_box_body_text">#DDDDDD</color>
+    <!--    Rounded corner button-->
+    <color name="rounder_corner_button_border">#F0F0F0</color>
+    <color name="rounder_corner_button_text">#F0F0F0</color>
+    <color name="rounded_corner_button_arrow">#F0F0F0</color>
+    <color name="rounder_corner_button_background">#2A2A2A</color>
+    <color name="rounded_corner_button_pressed_background">#33FFFFFF</color>
+    <color name="rounded_corner_button_inverted_background">#F0F0F0</color>
+    <color name="rounded_corner_button_inverted_text">#111111</color>
+    <color name="rounded_corner_button_inverted_pressed_background">#CCFFFFFF</color>
+    <color name="rounded_button_border_1">#F0F0F0</color>
+    <color name="rounded_button_pressed_background_1">#33FFFFFF</color>
+    <color name="tweet_text_color">#DDDDDD</color>
+    <color name="tweet_border_color">#000000</color>
+    <color name="tweet_stroke_color">#626262</color>
+    <color name="element_group_bg">#2A2A2A</color>
+    <color name="kicker">#F3F3F3</color>
+    <color name="kicker_display_transparency">#DDDDDD</color>
+    <color name="deck_text">#F3F3F3</color>
+    <color name="articles_link_box_gradient_start_color">#002A2A2A</color>
+    <color name="articles_link_box_gradient_end_color">#ff2A2A2A</color>
+    <color name="toolbar_icons_color">#ffffff</color>
+
+    <color name="article_briefs_single_number">#111111</color>
+
+    <color name="meta_text_color">#F0F0F0</color>
+
+    <color name="briefs_exclusive_text_color">#FFFFFF</color>
+
+</resources>

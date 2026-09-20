@@ -1,0 +1,1391 @@
+{
+  "layout": "homepage",
+  "output_type": "jsonapp",
+  "tracking": {
+    "page_name": "front - homepage",
+    "section": "homepage",
+    "channel": "front - homepage",
+    "subsection": "homepage",
+    "hierarchy": "homepage"
+  },
+  "regions": [
+    {
+      "location": "content",
+      "items": [
+        {
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "hp-deck",
+          "layout_name": "full-span",
+          "label": {
+            "type": "section-large-with-explainer",
+            "alignment": "left",
+            "icon": "none",
+            "label": {
+              "text": "Deck"
+            },
+            "label_secondary": {
+              "text": "Come to test the deck? Have a look."
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "allcontent",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "deck",
+                  "wrap_text": true,
+                  "text_alignment": "center",
+                  "last_picked_preset": "Banner head",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/09/11/plasma-coronavirus-blood-industry-data/",
+                    "type": "article",
+                    "last_modified": "2020-09-11T18:49:03.137Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "Blood plasma looked like a promising covid-19 treatment. Then Trump got involved.",
+                    "deck": "The president’s politicized rollout of a plasma authorization triggered a backlash, disrupting a business coalition’s carefully honed message.",
+                    "size": "huge",
+                    "font_style": "bold",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        },
+        {
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "live-tickers",
+          "layout_name": "tiling",
+          "label": {
+            "type": "package",
+            "alignment": "center",
+            "icon": "none",
+            "label": {
+              "text": "Live Tickers"
+            },
+            "label_secondary": {
+              "text": "Race Calls possible"
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "allcontent",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "vertical": [
+                    {
+                      "col": 5,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 10,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 15,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "large": {
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 8,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 12,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    {
+                      "row": 1,
+                      "col": 6,
+                      "colspan": 6
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 6,
+                      "row": 0,
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    {
+                      "row": 1,
+                      "col": 5,
+                      "colspan": 5
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 5,
+                      "row": 0,
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Live ticker",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/utils",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/utils/2020/06/10/live-blog-v2/",
+                    "type": "article",
+                    "last_modified": "2020-09-22T13:51:02.025Z"
+                  },
+                  "source": "the-washington-post",
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "label": {
+                      "text": "LIVE UPDATES"
+                    }
+                  },
+                  "headline": {
+                    "text": "Untouched legacy",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://d1i4t8bqe7zgj6.cloudfront.net/10-31-2019/t_6c1c17c324d94863afbed54cb01cf727_name_katherinefrey_scaled.jpg",
+                    "aspect_ratio": 1.78,
+                    "media_type": "image",
+                    "art_position": "art-left",
+                    "art_width": "full-width"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/utils/2020/06/10/live-blog-v2/",
+                    "num_to_show": 8,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Live ticker",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/utils",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/utils/2020/06/10/live-blog-v2/",
+                    "type": "article",
+                    "last_modified": "2020-09-22T13:51:02.025Z"
+                  },
+                  "source": "the-washington-post",
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "label": {
+                      "text": "LIVE UPDATES"
+                    }
+                  },
+                  "headline": {
+                    "text": "update only",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/utils/2020/06/10/live-blog-v2/",
+                    "num_to_show": 8,
+                    "subtypes": [
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 4,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Live ticker",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/utils",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/utils/2020/06/10/live-blog-v2/",
+                    "type": "article",
+                    "last_modified": "2020-09-22T13:51:02.025Z"
+                  },
+                  "source": "the-washington-post",
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "label": {
+                      "text": "LIVE UPDATES"
+                    }
+                  },
+                  "headline": {
+                    "text": "race-call only",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/utils/2020/06/10/live-blog-v2/",
+                    "num_to_show": 8,
+                    "subtypes": [
+                      "live-race-call"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 10,
+                      "colspan": 5
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 8,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Live ticker",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/utils",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/utils/2020/06/10/live-blog-v2/",
+                    "type": "article",
+                    "last_modified": "2020-09-22T13:51:02.025Z"
+                  },
+                  "source": "the-washington-post",
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "label": {
+                      "text": "LIVE UPDATES"
+                    }
+                  },
+                  "headline": {
+                    "text": "update and race-call",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/utils/2020/06/10/live-blog-v2/",
+                    "num_to_show": 8,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 15,
+                      "colspan": 5
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 12,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        },
+        {
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "election-testing",
+          "layout_name": "wide-center-3-col-table-at-left",
+          "dividers": {
+            "xlarge": {
+              "vertical": [
+                {
+                  "col": 16,
+                  "row": 0,
+                  "rowspan": 1
+                }
+              ]
+            },
+            "large": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 16
+                }
+              ]
+            },
+            "medium": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 12
+                }
+              ]
+            },
+            "small": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 10
+                }
+              ]
+            },
+            "xsmall": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              ]
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "table1",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 1,
+                      "col": 4,
+                      "colspan": 8
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 2
+                    },
+                    {
+                      "col": 12,
+                      "row": 0,
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                "large": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 1,
+                      "col": 4,
+                      "colspan": 8
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 2
+                    },
+                    {
+                      "col": 12,
+                      "row": 0,
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 1,
+                      "col": 4,
+                      "colspan": 8
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "label": {
+                "type": "package",
+                "alignment": "center",
+                "icon": "election-star",
+                "label": {
+                  "text": "Election Testing"
+                },
+                "link": {
+                  "url": "https://www.washingtonpost.com/sports/",
+                  "type": "unknown"
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + blurb",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline",
+                          "blurbs",
+                          "signature",
+                          "related_links"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/sports/olympics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/sports/2020/06/22/paralymics-gold-medalist-alex-zanardi-medically-induced-coma-after-horrific-crash/",
+                    "type": "article",
+                    "last_modified": "2020-06-22T19:51:09.113Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "Paralympics gold medalist Alex Zanardi is in medically induced coma after horrific crash",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "“All of Italy is fighting with you,” the country’s prime minister says of the former Formula One and CART racer.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Cindy Boren"
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Michigan",
+                        "url": "https://www.washingtonpost.com/elections/#michigan"
+                      },
+                      {
+                        "text": "North Dakota",
+                        "url": "https://www.washingtonpost.com/elections/#north-dakota"
+                      },
+                      {
+                        "text": "North Carolina",
+                        "url": "https://www.washingtonpost.com/elections/#north-carolina"
+                      },
+                      {
+                        "text": "Connecticut",
+                        "url": "https://www.washingtonpost.com/elections/#connecticut"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "side-by-side"
+                    },
+                    "label": {
+                      "type": "mini-all-caps",
+                      "alignment": "left",
+                      "label": {
+                        "text": "ARBITRARY LIST OF WORDS"
+                      }
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/politics/the-fix",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/2020/09/18/gop-senators-who-will-decide-ginsburgs-vacancy/",
+                    "type": "article",
+                    "last_modified": "2020-09-19T15:44:18.249Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "The GOP senators who will decide on Ginsburg’s vacancy",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Aaron Blake"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "– Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/politics/the-fix",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/2020/09/18/gop-senators-who-will-decide-ginsburgs-vacancy/",
+                    "type": "article",
+                    "last_modified": "2020-09-19T15:44:18.249Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "The GOP senators who will decide on Ginsburg’s vacancy",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Aaron Blake"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Art only",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media"
+                        ]
+                      }
+                    }
+                  },
+                  "media": {
+                    "url": null,
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 4,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 4,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 4,
+                      "colspan": 8
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/local/obituaries",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/local/obituaries/ruth-bader-ginsburg-dies/2020/09/18/3cedc314-fa08-11ea-a275-1a2c2d36e1f1_story.html",
+                    "type": "article",
+                    "last_modified": "2020-09-19T04:23:02.425Z"
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "text": "Ruth Bader Ginsburg, Supreme Court justice and legal pioneer for gender equality, dies at 87",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Robert Barnes and Michael A. Fletcher"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 4,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 4,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 4,
+                      "colspan": 8
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "– Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/local/obituaries",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/local/obituaries/ruth-bader-ginsburg-dies/2020/09/18/3cedc314-fa08-11ea-a275-1a2c2d36e1f1_story.html",
+                    "type": "article",
+                    "last_modified": "2020-09-19T04:23:02.425Z"
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "text": "Ruth Bader Ginsburg, Supreme Court justice and legal pioneer for gender equality, dies at 87",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Robert Barnes and Michael A. Fletcher"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "elections/voting-guide",
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 2,
+                      "col": 12,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 2,
+                      "col": 12,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table9",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 16,
+                  "colspan": 4
+                },
+                "large": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + blurb",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline",
+                          "blurbs",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/sports/nba",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/sports/2020/06/22/wizards-forward-davis-bertans-sit-out-nba-restart-planned-disney-bubble/",
+                    "type": "article",
+                    "last_modified": "2020-06-22T20:24:46.866Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "Wizards forward Davis Bertans to sit out NBA restart planned for Disney World bubble",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "After three months off the court because of the novel coronavirus outbreak, the soon-to-be free agent passes on the NBA's comeback plans.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Candace Buckner"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        }
+      ]
+    }
+  ],
+  "checksum": "lkol3izir66latyn3g3c16r83"
+}

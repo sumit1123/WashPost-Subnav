@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wapo.flagship.features.shared.activities.SimpleWebViewActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="?attr/app_bar_day_night_style"
+        app:navigationIcon="@drawable/ic_back_arrow" />
+
+    <android.webkit.WebView
+        android:id="@+id/simple_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize" />
+
+    <FrameLayout
+        android:id="@+id/persistent_player_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="5dp"
+        android:visibility="gone"
+        app:layout_anchorGravity="top|start|left" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

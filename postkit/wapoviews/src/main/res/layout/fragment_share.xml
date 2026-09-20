@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+        a:layout_width="match_parent" a:layout_height="match_parent"
+        a:padding="10dp" >
+
+    <GridView
+            a:id="@+id/grid" a:layout_width="wrap_content" a:layout_height="wrap_content"
+            a:layout_centerHorizontal="true" a:columnWidth="100dp" a:numColumns="auto_fit"
+            a:stretchMode="none" a:verticalSpacing="18dp" a:horizontalSpacing="10dp" />
+
+</RelativeLayout>

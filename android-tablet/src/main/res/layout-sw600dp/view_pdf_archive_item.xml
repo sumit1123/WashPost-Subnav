@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    a:layout_gravity="center"
+    a:layout_centerHorizontal="true"
+    a:layout_width="match_parent"
+    a:layout_height="500dp"
+    a:padding="10dp">
+
+    <TextView a:id="@+id/sectionLabel"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        style="@style/PrintEdition.Label"
+        a:layout_marginTop="5dp"
+        a:layout_alignParentBottom="true"
+        a:layout_centerHorizontal="true" />
+
+    <com.wapo.view.ProportionalLayout a:id="@+id/image_frame"
+        a:layout_centerHorizontal="true"
+        a:layout_above="@id/sectionLabel"
+        app:aspectRatio=".565827969"
+        a:layout_height="wrap_content"
+        a:layout_width="match_parent">
+        <RelativeLayout
+            a:layout_gravity="center"
+            a:layout_width="match_parent"
+            a:layout_height="match_parent">
+            <ImageView a:id="@+id/image"
+                a:layout_centerInParent="true"
+                a:background="@drawable/print_edition_paper_border"
+                a:layout_width="match_parent"
+                a:adjustViewBounds="true"
+                a:src="@drawable/archives_placeholder"
+                a:scaleType="fitXY"
+                a:layout_height="match_parent" />
+            <ImageView a:id="@+id/download_status"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_alignTop="@id/image"
+                a:layout_alignEnd="@id/image"
+                a:background="@drawable/blue_cloud"/>
+        </RelativeLayout>
+        <RelativeLayout
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:layout_gravity="center">
+            <Button
+                a:id="@+id/downloadButton"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_centerInParent="true"
+                a:background="@color/print_edition_download_button"
+                style="@style/PrintEdition.Button"
+                a:visibility="invisible"
+                a:text="@string/archive_download_button"/>
+            <Button
+                a:id="@+id/openButton"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_centerHorizontal="true"
+                a:layout_above="@id/downloadButton"
+                a:layout_marginBottom="@dimen/print_button_margin"
+                a:background="@color/print_edition_open_button"
+                style="@style/PrintEdition.Button"
+                a:visibility="invisible"
+                a:text="@string/archive_open_button"/>
+            <Button
+                a:id="@+id/cancelButton"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_centerHorizontal="true"
+                a:layout_below="@id/downloadButton"
+                a:layout_marginTop="@dimen/print_button_margin"
+                a:background="@color/print_edition_cancel_button"
+                style="@style/PrintEdition.Button"
+                a:visibility="invisible"
+                a:text="@string/archive_cancel_button"/>
+        </RelativeLayout>
+        <FrameLayout
+            a:layout_width="match_parent"
+            a:layout_height="@dimen/print_download_bar_height"
+            a:layout_gravity="top|center">
+            <ProgressBar a:id="@+id/download_progress"
+                a:layout_gravity="center"
+                style="?android:attr/progressBarStyleHorizontal"
+                a:max="100"
+                a:layout_marginTop="@dimen/print_download_bar_margin"
+                a:indeterminate="false"
+                a:visibility="invisible"
+                a:layout_height="wrap_content"
+                a:layout_width="match_parent" />
+        </FrameLayout>
+    </com.wapo.view.ProportionalLayout>
+</RelativeLayout>

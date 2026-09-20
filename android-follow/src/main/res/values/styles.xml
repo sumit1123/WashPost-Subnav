@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="author_bottom_sheet" parent="Theme.MaterialComponents.BottomSheetDialog">
+        <item name="android:background">@color/bottom_sheet_background</item>
+        <item name="android:padding">24dp</item>
+        <item name="behavior_hideable">true</item>
+    </style>
+
+    <style name="author_bottom_sheet_name">
+        <item name="android:textColor">@color/bottom_sheet_author_name</item>
+        <item name="android:fontFamily">@font/franklin_std_bold</item>
+        <item name="fontFamily">@font/franklin_std_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">18dp</item>
+    </style>
+
+    <style name="author_bottom_sheet_bio">
+        <item name="android:textColor">@color/bottom_sheet_author_bio</item>
+        <item name="android:fontFamily">@font/franklin_std_light</item>
+        <item name="fontFamily">@font/franklin_std_light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">19dp</item>
+    </style>
+
+    <style name="author_bottom_sheet_button">
+        <item name="android:background">@drawable/author_bottom_sheet_button</item>
+        <item name="android:textColor">@color/author_button_sheet_button</item>
+        <item name="android:fontFamily">@font/franklinitcstd_light</item>
+        <item name="fontFamily">@font/franklinitcstd_light</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="empty_state_title">
+        <item name="android:textColor">@color/author_empty_state_text</item>
+        <item name="android:fontFamily">@font/postoniwide_regular</item>
+        <item name="fontFamily">@font/postoniwide_regular</item>
+        <item name="android:textSize">20sp</item>
+        <item name="lineHeight">22dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="empty_state_description">
+        <item name="android:textColor">@color/author_empty_state_text</item>
+        <item name="android:fontFamily">@font/franklinitcstd_light</item>
+        <item name="fontFamily">@font/franklinitcstd_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">20dp</item>
+    </style>
+
+    <style name="author_list_name">
+        <item name="android:textColor">@color/author_list_name</item>
+        <item name="android:fontFamily">@font/franklin_std_light</item>
+        <item name="fontFamily">@font/franklin_std_light</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="author_list_name_selected" parent="author_list_name">
+        <item name="android:textColor">@color/author_list_name_selected</item>
+        <item name="android:fontFamily">@font/franklin_std_bold</item>
+        <item name="fontFamily">@font/franklin_std_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="author_article_name">
+        <item name="android:textColor">@color/bottom_sheet_author_name</item>
+        <item name="android:fontFamily">@font/franklin_std_bold</item>
+        <item name="fontFamily">@font/franklin_std_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">22dp</item>
+    </style>
+
+    <style name="author_article_bio">
+        <item name="android:textColor">@color/bottom_sheet_author_bio</item>
+        <item name="android:fontFamily">@font/franklin_std_light</item>
+        <item name="fontFamily">@font/franklin_std_light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">20sp</item>
+    </style>
+
+    <style name="dialog_style" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:background">@color/alert_dialog_background</item>
+        <item name="colorAccent">@color/alert_dialog_button</item>
+    </style>
+
+    <style name="author_archive_name">
+        <item name="android:textColor">@color/author_archive_name</item>
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:lineSpacingExtra">25dp</item>
+    </style>
+</resources>

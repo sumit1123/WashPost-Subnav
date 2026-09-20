@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tag="material_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/grid_bottom_card">
+
+    <com.wapo.flagship.features.grid.views.CompoundLabelView xmlns:a="http://schemas.android.com/apk/res/android"
+        a:id="@+id/compound_label"
+        style="?attr/homepage_story_compound_label_style"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:paddingStart="@dimen/grid_cell_card_homepagestory_horizontal_padding"
+        a:paddingEnd="@dimen/grid_cell_card_homepagestory_horizontal_padding">
+
+    </com.wapo.flagship.features.grid.views.CompoundLabelView>
+
+</com.google.android.material.card.MaterialCardView>

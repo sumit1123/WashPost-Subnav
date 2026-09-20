@@ -1,0 +1,787 @@
+{
+    "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X6IFC46L2RHFLHZDZIKWWBHR5Y.jpg",
+    "section": "Politics",
+    "source": "the-washington-post",
+    "published": 1570036850385,
+    "taxonomy": {
+        "topics": [
+            {
+                "_id": "534576fbe4b02fdfdb579d38",
+                "name": "President and Administration",
+                "uid": "lf",
+                "score": 0.5465266585804949
+            },
+            {
+                "_id": "washpost-20000606-executivegove-t1xn6ocrm0",
+                "name": "iptc-media/politics/government/executive_(government)",
+                "uid": "aajrt",
+                "score": 0
+            },
+            {
+                "_id": "washpost-20000649-politicalproce-6zgzr49u76",
+                "name": "iptc-media/politics/political_process",
+                "uid": "avede",
+                "score": 0
+            },
+            {
+                "_id": "washpost-20000121-law-7e9c8pd1ci",
+                "name": "iptc-media/crime_law_and_justice/law",
+                "uid": "abxfo",
+                "score": 0
+            },
+            {
+                "_id": "washpost-11000000-politics-12w1riawfr",
+                "name": "iptc-media/politics",
+                "uid": "a7uxb",
+                "score": 0
+            },
+            {
+                "_id": "washpost-20000129-lawenforcement-a1q1oqphxm",
+                "name": "iptc-media/crime_law_and_justice/law_enforcement",
+                "uid": "azyhj",
+                "score": 0
+            },
+            {
+                "_id": "washpost-16000000-conflictwara-hqu4ndr6kv",
+                "name": "iptc-media/conflict_war_and_peace",
+                "uid": "ay6pk",
+                "score": 0
+            },
+            {
+                "_id": "washpost-20000593-government-uoni0z84vd",
+                "name": "iptc-media/politics/government",
+                "uid": "aewws",
+                "score": 0
+            },
+            {
+                "_id": "washpost-02000000-crimelawand-zrecudqiv4",
+                "name": "iptc-media/crime_law_and_justice",
+                "uid": "aodep",
+                "score": 0
+            },
+            {
+                "_id": "washpost-20000610-headsofstate-dxros7siyw",
+                "name": "iptc-media/politics/government/heads_of_state",
+                "uid": "ag14e",
+                "score": 0
+            },
+            {
+                "_id": "washpost-20000604-nationalsecuri-eanzcye58i",
+                "name": "iptc-media/politics/government/defence/security_measures_(defence)/national_security",
+                "uid": "acu1m",
+                "score": 0
+            },
+            {
+                "_id": "washpost-20000609-governmentdepa-bfs3pu6rcc",
+                "name": "iptc-media/politics/government/government_department",
+                "uid": "akzcq",
+                "score": 0
+            },
+            {
+                "_id": "washpost-14000000-society-f1bw8672if",
+                "name": "iptc-media/society",
+                "uid": "af191",
+                "score": 0
+            },
+            {
+                "_id": "washpost-20000603-securitymeasur-173vzew2t7",
+                "name": "iptc-media/politics/government/defence/security_measures_(defence)",
+                "uid": "aqwsf",
+                "score": 0
+            },
+            {
+                "_id": "washpost-20000638-internationalr-9birfqvut8",
+                "name": "iptc-media/politics/international_relations",
+                "uid": "a3890",
+                "score": 0
+            },
+            {
+                "_id": "washpost-20000598-defence-t5xuxv7nyb",
+                "name": "iptc-media/politics/government/defence",
+                "uid": "azq8t"
+            }
+        ],
+        "auxiliaries": [
+            {
+                "_id": "591b959bc9e77c00010e537c",
+                "name": "ibm kws2",
+                "uid": "uf8"
+            },
+            {
+                "_id": "569e60c2e4b066d59a91e421",
+                "name": "food safety neg",
+                "uid": "xyt"
+            },
+            {
+                "_id": "2542",
+                "name": "shell kws",
+                "uid": "238"
+            },
+            {
+                "_id": "5851a3ca52faff0001551a30",
+                "name": "jb kws",
+                "uid": "r6u"
+            },
+            {
+                "_id": "55bf7a20e4b0815b4876f7b0",
+                "name": "Copy of Politically Active - DO NOT REMOVE",
+                "uid": "7ae"
+            },
+            {
+                "_id": "2971",
+                "name": "apple kws",
+                "uid": "1nw"
+            },
+            {
+                "_id": "55c0c9d8e4b0450a60c5d1f2",
+                "name": "Sensitive 2",
+                "uid": "7aq"
+            },
+            {
+                "_id": "3466",
+                "name": "ikea kws",
+                "uid": "cmd"
+            },
+            {
+                "_id": "3863",
+                "name": "bsf_kw",
+                "uid": "99w"
+            },
+            {
+                "_id": "1849",
+                "name": "William Sonoma KWs",
+                "uid": "zck"
+            },
+            {
+                "_id": "59d55ef452faff0001c5d873",
+                "name": "cit kws",
+                "uid": "XHB"
+            },
+            {
+                "_id": "58064e5f4cedfd0001fbc11f",
+                "name": "Election 2016",
+                "uid": "WC9"
+            },
+            {
+                "_id": "55c102cce4b0450a60c5d20a",
+                "name": "President and Administration",
+                "uid": "kxq"
+            },
+            {
+                "_id": "59c972b146e0fb0001835412",
+                "name": "Geico kws",
+                "uid": "7nl"
+            },
+            {
+                "_id": "56ab864ae4b044d7ce640c28",
+                "name": "Icahn neg",
+                "uid": "7rl"
+            },
+            {
+                "_id": "3631",
+                "name": "Mikes Hard Lemonade Negative Kws",
+                "uid": "10t"
+            },
+            {
+                "_id": "1519",
+                "name": "sprnt kws",
+                "uid": "dus"
+            },
+            {
+                "_id": "1156",
+                "name": "Embassy, Ambassador, & Diplomat Content",
+                "uid": "1ho"
+            },
+            {
+                "_id": "58a5be394cedfd000157de01",
+                "name": "Citi Segment - Driven",
+                "uid": "13v"
+            },
+            {
+                "_id": "57054ce0e4b051bca04e6b0d",
+                "name": "Disaster-natural",
+                "uid": "wmp"
+            },
+            {
+                "_id": "59a5e536c9e77c0001f1ad21",
+                "name": "citi kws",
+                "uid": "11S"
+            },
+            {
+                "_id": "3433",
+                "name": "tmbl kws",
+                "uid": "t46"
+            },
+            {
+                "_id": "56157725e4b048b53cb1fbed",
+                "name": "Emissions",
+                "uid": "zhn"
+            },
+            {
+                "_id": "4390",
+                "name": "titos kws",
+                "uid": "wym"
+            },
+            {
+                "_id": "5989f74246e0fb0001b0e61d",
+                "name": "WstnKw",
+                "uid": "qt4"
+            },
+            {
+                "_id": "5a78da1ec9e77c00012cc3bd",
+                "name": "fdlty kws",
+                "uid": "HGV"
+            },
+            {
+                "_id": "59d3d0a24cedfd0001743b8d",
+                "name": "Facebook kw",
+                "uid": "WKH"
+            },
+            {
+                "_id": "5859ac7746e0fb0001452cac",
+                "name": "MS kws",
+                "uid": "eiz"
+            },
+            {
+                "_id": "5858183e46e0fb0001989e7f",
+                "name": "gldmn kws",
+                "uid": "w4t"
+            },
+            {
+                "_id": "4391",
+                "name": "Marriott Keywords for Anti-Targeting",
+                "uid": "dlc"
+            },
+            {
+                "_id": "3864",
+                "name": "hpe_kw",
+                "uid": "7eb"
+            },
+            {
+                "_id": "57054db9e4b051bca04e6b0f",
+                "name": "Disaster-human",
+                "uid": "5tv"
+            },
+            {
+                "_id": "2806",
+                "name": "vrzn kws",
+                "uid": "r2f"
+            },
+            {
+                "_id": "2410",
+                "name": "amex kws",
+                "uid": "bmc"
+            },
+            {
+                "_id": "4555",
+                "name": "kpmg kws",
+                "uid": "b9u"
+            },
+            {
+                "_id": "1420",
+                "name": "hpe kws",
+                "uid": "6nj"
+            },
+            {
+                "_id": "1289",
+                "name": "Europe Content",
+                "uid": "nwm"
+            },
+            {
+                "_id": "5a04dbf046e0fb00016fd910",
+                "name": "att",
+                "uid": "CFL"
+            },
+            {
+                "_id": "58a49df84cedfd00014af676",
+                "name": "ibm kws",
+                "uid": "713"
+            },
+            {
+                "_id": "57ea9b8746e0fb000156f357",
+                "name": "Boa-kws",
+                "uid": "m42"
+            },
+            {
+                "_id": "55b10edbe4b0ce5ef775c750",
+                "name": "Politically Active - DO NOT REMOVE",
+                "uid": "lmp"
+            },
+            {
+                "_id": "2212",
+                "name": "Facebook kws and topics",
+                "uid": "yug"
+            },
+            {
+                "_id": "59caa7e246e0fb0001852e74",
+                "name": "bp kws",
+                "uid": "PKT"
+            },
+            {
+                "_id": "5433f1a7e4b0e3961e436a7b",
+                "name": "Sensitive1",
+                "uid": "8z8"
+            },
+            {
+                "_id": "2839",
+                "name": "cisco kws",
+                "uid": "aty"
+            },
+            {
+                "_id": "58dd45bacff47e00011af377",
+                "name": "Sub: Political (2)",
+                "uid": "BAG"
+            },
+            {
+                "_id": "548b3b9be4b009dcd4eea6d6",
+                "name": "China_HongKong Exclusion 12-12-14",
+                "uid": "5k4"
+            },
+            {
+                "_id": "5a9468234cedfd00010eebe4",
+                "name": "Cyber Security & Intelligence Community",
+                "uid": "E8X"
+            },
+            {
+                "_id": "59d3a6b452faff0001c2f763",
+                "name": "Audi kw list",
+                "uid": "IAJ"
+            },
+            {
+                "_id": "2576",
+                "name": "mrcds kws",
+                "uid": "emu"
+            },
+            {
+                "_id": "59a5e120c9e77c00018a863c",
+                "name": "api kws",
+                "uid": "BUM"
+            },
+            {
+                "_id": "58581c3946e0fb000198a1d9",
+                "name": "smsg kws",
+                "uid": "81f"
+            },
+            {
+                "_id": "589cd0244cedfd0001bd1adc",
+                "name": "Travel TG",
+                "uid": "97K"
+            },
+            {
+                "_id": "3565",
+                "name": "mrrtt kws",
+                "uid": "6xh"
+            },
+            {
+                "_id": "3598",
+                "name": "Choice Hotels Negative Keyword",
+                "uid": "v99"
+            },
+            {
+                "_id": "58deb0704cedfd0001d66644",
+                "name": "IC - Test Julien",
+                "uid": "ko1"
+            },
+            {
+                "_id": "563cedc8e4b03cec236c127a",
+                "name": "IC - JPMC - Decisive Action",
+                "uid": "xzm"
+            },
+            {
+                "_id": "59f3aaf0cff47e00016208cf",
+                "name": "intel kw",
+                "uid": "GQP"
+            },
+            {
+                "_id": "5745e4f0e4b07301ff75245a",
+                "name": "emails - pos",
+                "uid": "02c"
+            },
+            {
+                "_id": "5873b5dbc9e77c0001f5c8a5",
+                "name": "Cvy kws",
+                "uid": "4y6"
+            },
+            {
+                "_id": "55b69ccde4b0ce5ef775c75c",
+                "name": "Government & Policy",
+                "uid": "mza"
+            },
+            {
+                "_id": "5acf964a52faff0001eb6a7d",
+                "name": "boeing kw",
+                "uid": "2m0"
+            },
+            {
+                "_id": "55b68d74e4b0a3236f4d6df5",
+                "name": "ConocoPhillips(test)",
+                "uid": "5ex"
+            },
+            {
+                "_id": "56376500e4b0cdebeb04791e",
+                "name": "Murdoch neg",
+                "uid": "zwn"
+            },
+            {
+                "_id": "5679c3dae4b0cf4e62c8fc59",
+                "name": "Exn neg",
+                "uid": "9xx"
+            },
+            {
+                "_id": "1288",
+                "name": "Middle East Content",
+                "uid": "tde"
+            },
+            {
+                "_id": "5a0b379dcff47e0001beeb20",
+                "name": "aig kws",
+                "uid": "IAM"
+            },
+            {
+                "_id": "2708",
+                "name": "New Auxiliary 561",
+                "uid": "3uh"
+            },
+            {
+                "_id": "washpost-20000606-executivegove-t1xn6ocrm0",
+                "name": "iptc-media/politics/government/executive_(government)",
+                "uid": "aajrt"
+            },
+            {
+                "_id": "washpost-20000649-politicalproce-6zgzr49u76",
+                "name": "iptc-media/politics/political_process",
+                "uid": "avede"
+            },
+            {
+                "_id": "washpost-20000121-law-7e9c8pd1ci",
+                "name": "iptc-media/crime_law_and_justice/law",
+                "uid": "abxfo"
+            },
+            {
+                "_id": "washpost-11000000-politics-12w1riawfr",
+                "name": "iptc-media/politics",
+                "uid": "a7uxb"
+            },
+            {
+                "_id": "washpost-20000129-lawenforcement-a1q1oqphxm",
+                "name": "iptc-media/crime_law_and_justice/law_enforcement",
+                "uid": "azyhj"
+            },
+            {
+                "_id": "washpost-16000000-conflictwara-hqu4ndr6kv",
+                "name": "iptc-media/conflict_war_and_peace",
+                "uid": "ay6pk"
+            },
+            {
+                "_id": "washpost-20000593-government-uoni0z84vd",
+                "name": "iptc-media/politics/government",
+                "uid": "aewws"
+            },
+            {
+                "_id": "washpost-02000000-crimelawand-zrecudqiv4",
+                "name": "iptc-media/crime_law_and_justice",
+                "uid": "aodep"
+            },
+            {
+                "_id": "washpost-20000610-headsofstate-dxros7siyw",
+                "name": "iptc-media/politics/government/heads_of_state",
+                "uid": "ag14e"
+            },
+            {
+                "_id": "washpost-20000604-nationalsecuri-eanzcye58i",
+                "name": "iptc-media/politics/government/defence/security_measures_(defence)/national_security",
+                "uid": "acu1m"
+            },
+            {
+                "_id": "washpost-20000609-governmentdepa-bfs3pu6rcc",
+                "name": "iptc-media/politics/government/government_department",
+                "uid": "akzcq"
+            },
+            {
+                "_id": "washpost-14000000-society-f1bw8672if",
+                "name": "iptc-media/society",
+                "uid": "af191"
+            },
+            {
+                "_id": "washpost-20000603-securitymeasur-173vzew2t7",
+                "name": "iptc-media/politics/government/defence/security_measures_(defence)",
+                "uid": "aqwsf"
+            },
+            {
+                "_id": "washpost-20000638-internationalr-9birfqvut8",
+                "name": "iptc-media/politics/international_relations",
+                "uid": "a3890"
+            },
+            {
+                "_id": "washpost-20000598-defence-t5xuxv7nyb",
+                "name": "iptc-media/politics/government/defence",
+                "uid": "azq8t"
+            },
+            {
+                "_id": "washpost-b2aigkwslega-r64hh",
+                "name": "client-keywords/B2_aig kws_legacyaux_IAM",
+                "uid": "r64hh"
+            },
+            {
+                "_id": "washpost-b2williamsono-ry9oz",
+                "name": "client-keywords/B2_William Sonoma KWs_legacyaux_zck",
+                "uid": "ry9oz"
+            },
+            {
+                "_id": "washpost-b2citkwslega-rb02e",
+                "name": "client-keywords/B2_cit kws_legacyaux_XHB",
+                "uid": "rb02e"
+            },
+            {
+                "_id": "washpost-b2bpkwslegac-rxfwg",
+                "name": "client-keywords/B2_bp kws_legacyaux_PKT",
+                "uid": "rxfwg"
+            },
+            {
+                "_id": "washpost-b2bsfkwlegac-r1uk9",
+                "name": "client-keywords/B2_bsf_kw_legacyaux_99w",
+                "uid": "r1uk9"
+            },
+            {
+                "_id": "washpost-b2fdltykwsle-r85f6",
+                "name": "client-keywords/B2_fdlty kws_legacyaux_HGV",
+                "uid": "r85f6"
+            },
+            {
+                "_id": "washpost-b2choicehotel-rjt7o",
+                "name": "client-keywords/B2_Choice Hotels Negative Keyword_legacyaux_v99",
+                "uid": "rjt7o"
+            },
+            {
+                "_id": "washpost-b2chinahongko-ripbh",
+                "name": "client-keywords/B2_China_HongKong Exclusion 12-12-14_legacyaux_5k4",
+                "uid": "ripbh"
+            },
+            {
+                "_id": "washpost-b2amexkwsleg-rnhj8",
+                "name": "client-keywords/B2_amex kws_legacyaux_bmc",
+                "uid": "rnhj8"
+            },
+            {
+                "_id": "washpost-b2applekwsle-rttc8",
+                "name": "client-keywords/B2_apple kws_legacyaux_1nw",
+                "uid": "rttc8"
+            },
+            {
+                "_id": "washpost-b2citikwsleg-rf299",
+                "name": "client-keywords/B2_citi kws_legacyaux_11S",
+                "uid": "rf299"
+            },
+            {
+                "_id": "washpost-b2facebookkw-r1fd0",
+                "name": "client-keywords/B2_Facebook kw_legacyaux_WKH",
+                "uid": "r1fd0"
+            },
+            {
+                "_id": "washpost-b2cvykwslega-rimsk",
+                "name": "client-keywords/B2_Cvy kws_legacyaux_4y6",
+                "uid": "rimsk"
+            },
+            {
+                "_id": "washpost-b2disasterhum-r0pml",
+                "name": "client-keywords/B2_Disaster-human_legacyaux_5tv",
+                "uid": "r0pml"
+            },
+            {
+                "_id": "washpost-b2emailsneg-rknoy",
+                "name": "client-keywords/B2_emails - neg_legacyaux_7nc",
+                "uid": "rknoy"
+            },
+            {
+                "_id": "washpost-b2embassyamb-rqu0i",
+                "name": "advertising/B2_Embassy, Ambassador, & Diplomat Content_legacyaux_1ho",
+                "uid": "rqu0i"
+            },
+            {
+                "_id": "washpost-b2exnneglega-r8hez",
+                "name": "client-keywords/B2_Exn neg_legacyaux_9xx",
+                "uid": "r8hez"
+            },
+            {
+                "_id": "washpost-b2boakwslega-r6zk8",
+                "name": "client-keywords/B2_Boa-kws_legacyaux_m42",
+                "uid": "r6zk8"
+            },
+            {
+                "_id": "washpost-b2geicokwsle-r6ie3",
+                "name": "client-keywords/B2_Geico kws_legacyaux_7nl",
+                "uid": "r6ie3"
+            },
+            {
+                "_id": "washpost-b2gldmnkwsle-rkz2e",
+                "name": "client-keywords/B2_gldmn kws_legacyaux_w4t",
+                "uid": "rkz2e"
+            },
+            {
+                "_id": "washpost-b2hpekwlegac-r1k9k",
+                "name": "client-keywords/B2_hpe_kw_legacyaux_7eb",
+                "uid": "r1k9k"
+            },
+            {
+                "_id": "washpost-b2hpekwslega-rvzmv",
+                "name": "client-keywords/B2_hpe kws_legacyaux_6nj",
+                "uid": "rvzmv"
+            },
+            {
+                "_id": "washpost-b2icahnnegle-rbgpj",
+                "name": "client-keywords/B2_Icahn neg_legacyaux_7rl",
+                "uid": "rbgpj"
+            },
+            {
+                "_id": "washpost-b2apikwslega-rn3ji",
+                "name": "client-keywords/B2_api kws_legacyaux_BUM",
+                "uid": "rn3ji"
+            },
+            {
+                "_id": "washpost-b2newauxiliar-r0mpx",
+                "name": "client-keywords/B2_New Auxiliary 460_legacyaux_IAJ",
+                "uid": "r0mpx"
+            },
+            {
+                "_id": "washpost-b2intelkwleg-rehft",
+                "name": "client-keywords/B2_intel kw_legacyaux_GQP",
+                "uid": "rehft"
+            },
+            {
+                "_id": "washpost-b2attlegacyau-r8wct",
+                "name": "client-keywords/B2_att_legacyaux_CFL",
+                "uid": "r8wct"
+            },
+            {
+                "_id": "washpost-b2mrcdskwsle-rin1c",
+                "name": "client-keywords/B2_mrcds kws_legacyaux_emu",
+                "uid": "rin1c"
+            },
+            {
+                "_id": "washpost-b2foodsafety-r0aew",
+                "name": "client-keywords/B2_food safety neg_legacyaux_xyt",
+                "uid": "r0aew"
+            },
+            {
+                "_id": "washpost-b2ikeakwsleg-r8enq",
+                "name": "client-keywords/B2_ikea kws_legacyaux_cmd",
+                "uid": "r8enq"
+            },
+            {
+                "_id": "washpost-b2ibmkws2leg-rjfys",
+                "name": "client-keywords/B2_ibm kws2_legacyaux_uf8",
+                "uid": "rjfys"
+            },
+            {
+                "_id": "washpost-b2ibmkwslega-rbcnv",
+                "name": "client-keywords/B2_ibm kws_legacyaux_713",
+                "uid": "rbcnv"
+            },
+            {
+                "_id": "washpost-b2europeconte-rpkre",
+                "name": "advertising/B2_Europe Content_legacyaux_nwm",
+                "uid": "rpkre"
+            },
+            {
+                "_id": "washpost-b2jbkwslegac-rb4zz",
+                "name": "client-keywords/B2_jb kws_legacyaux_r6u",
+                "uid": "rb4zz"
+            },
+            {
+                "_id": "washpost-b2marriottkey-rzght",
+                "name": "client-keywords/B2_Marriott Keywords for Anti-Targeting_legacyaux_dlc",
+                "uid": "rzght"
+            },
+            {
+                "_id": "washpost-b2mikeshardl-r1sbl",
+                "name": "client-keywords/B2_Mikes Hard Lemonade Negative Kws_legacyaux_10t",
+                "uid": "r1sbl"
+            },
+            {
+                "_id": "washpost-b2mrrttkwsle-r0mag",
+                "name": "client-keywords/B2_mrrtt kws_legacyaux_6xh",
+                "uid": "r0mag"
+            },
+            {
+                "_id": "washpost-b2mskwslegac-rdhwy",
+                "name": "client-keywords/B2_MS kws_legacyaux_eiz",
+                "uid": "rdhwy"
+            },
+            {
+                "_id": "washpost-b2murdochneg-rittl",
+                "name": "client-keywords/B2_Murdoch neg_legacyaux_zwn",
+                "uid": "rittl"
+            },
+            {
+                "_id": "washpost-b2sensitive1l-rynap",
+                "name": "client-keywords/B2_Sensitive1_legacyaux_8z8",
+                "uid": "rynap"
+            },
+            {
+                "_id": "washpost-b2sensitive2-rnj7c",
+                "name": "client-keywords/B2_Sensitive 2_legacyaux_7aq",
+                "uid": "rnj7c"
+            },
+            {
+                "_id": "washpost-b2shellkwsle-r03s4",
+                "name": "client-keywords/B2_shell kws_legacyaux_238",
+                "uid": "r03s4"
+            },
+            {
+                "_id": "washpost-b2sprntkwsle-rtq7g",
+                "name": "client-keywords/B2_sprnt kws_legacyaux_dus",
+                "uid": "rtq7g"
+            },
+            {
+                "_id": "washpost-b2titoskwsle-ryn91",
+                "name": "client-keywords/B2_titos kws_legacyaux_wym",
+                "uid": "ryn91"
+            },
+            {
+                "_id": "washpost-b2tmblkwsleg-rrk1j",
+                "name": "client-keywords/B2_tmbl kws_legacyaux_t46",
+                "uid": "rrk1j"
+            },
+            {
+                "_id": "washpost-b2vrznkwsleg-r66ta",
+                "name": "client-keywords/B2_vrzn kws_legacyaux_r2f",
+                "uid": "r66ta"
+            },
+            {
+                "_id": "washpost-b2wstnkwlegac-rfa3b",
+                "name": "client-keywords/B2_WstnKw_legacyaux_qt4",
+                "uid": "rfa3b"
+            },
+            {
+                "_id": "washpost-b2middleeast-rfbpa",
+                "name": "advertising/B2_Middle East Content_legacyaux_tde",
+                "uid": "rfbpa"
+            }
+        ]
+    },
+    "type": "blog",
+    "title": "The inspector general offering ‘urgent’ Ukraine briefing called out politicization of Trump’s State Department this summer",
+    "blurb": "He's an Obama appointee with a history of calling out overly political machinations in President Trump's State Department.",
+    "first_published": 1570026858734,
+    "blogname": "The Fix",
+    "omniture": {
+        "pageName": "politics:null - e048fd87453590682074f4c1c4cd0707 - 20191002 - fix-steve-linick-1002",
+        "channel": "politics",
+        "contentId": "nullTH3BEDVXONFDJJKRKN4KUOXJSA",
+        "contentType": "blog",
+        "contentSource": "the-washington-post",
+        "contentAuthor": "Aaron Blake",
+        "subSection": "politics - the-fix",
+        "arcId": "TH3BEDVXONFDJJKRKN4KUOXJSA"
+    },
+    "lmt": 1570036850385,
+    "contenturl": "https://www.washingtonpost.com/politics/2019/10/02/ig-giving-an-urgent-briefing-hill-called-out-politicization-harassment-state-this-summer/",
+    "sourcesection": "politics",
+    "sourcesubsection": "politics - the-fix",
+    "commercialnode": "/politics/the-fix",
+    "id": "e048fd87453590682074f4c1c4cd0707",
+    "shareurl": "https://www.washingtonpost.com/politics/2019/10/02/ig-giving-an-urgent-briefing-hill-called-out-politicization-harassment-state-this-summer/",
+    "sourcecategory": "Politics",
+    "content_restriction_code": "default",
+    "dataServiceAdaptor": "Arc"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.balysv.materialripple.MaterialRippleLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    style="@style/Menu.Item.Ripple">
+
+    <FrameLayout a:layout_width="match_parent" a:layout_height="@dimen/header_menu_item_height">
+
+        <TextView a:id="@+id/menu_item_name"
+            a:layout_width="wrap_content" a:layout_height="wrap_content"
+            a:layout_gravity="bottom|left"
+            a:layout_marginBottom="@dimen/menu_header_bottom_margin"
+            a:layout_marginLeft="@dimen/menu_header_left_margin"
+            style="@style/Menu.Header.Text" />
+
+    </FrameLayout>
+</com.balysv.materialripple.MaterialRippleLayout>

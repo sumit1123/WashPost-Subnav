@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2018. The Washington Post
+  ~ Created by adkinsj on 5/4/18.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/privacy_policy_wall_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="@integer/privacy_policy_wall_weight_sum">
+
+    <ImageView
+        android:id="@+id/iv_privay_policy_logo"
+        style="@style/privact_policy_wall_logo_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/tv_privacy_policy_wall_logo_underline"
+        style="@style/privacy_policy_wall_logo_underline_style"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="@integer/privacy_policy_wall_text_weight">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll_privacy_policy_wall_header"
+                style="@style/privacy_policy_wall_header_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_privacy_policy_wall_header"
+                    style="@style/privacy_policy_wall_header_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:id="@+id/tv_privacy_policy_wall_header_underline"
+                    style="@style/privacy_policy_wall_header_underline_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_privacy_policy_wall_description"
+                style="@style/privacy_policy_wall_description_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="@dimen/privacy_policy_wall_text_line_spacing_multiplier" />
+
+            <TextView
+                android:id="@+id/tv_privacy_policy_wall_main_text"
+                style="@style/privacy_policy_wall_main_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="@dimen/privacy_policy_wall_text_line_spacing_multiplier" />
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        style="@style/privacy_policy_wall_controls_layout"
+        android:layout_gravity="center"
+        android:layout_weight="@integer/privacy_policy_wall_controls_weight">
+
+        <View
+            android:id="@+id/tv_privacy_policy_wall_main_text_underline"
+            style="@style/privacy_policy_wall_main_text_underline_style"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:id="@+id/ll_privacy_policy_controls_layout"
+            style="@style/privacy_policy_wall_switch_and_button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/sw_privacy_policy_wall_switch"
+                style="@style/privacy_policy_wall_switch_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:switchMinWidth="0dp"
+                android:textOff=""
+                android:textOn="" />
+
+            <Button
+                android:id="@+id/btn_privacy_policy_wall_button"
+                style="@style/privacy_policy_wall_button_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_privacy_policy_bottom_buttons_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_privacy_policy_wall_bottom_button_left"
+                style="@style/privacy_policy_wall_bottom_buttons_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_policy_wall_privacy_policy" />
+
+            <TextView
+                style="@style/privacy_policy_wall_bottom_buttons_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/privacy_policy_wall_bottom_button_separator" />
+
+            <TextView
+                android:id="@+id/tv_privacy_policy_wall_bottom_button_middle"
+                style="@style/privacy_policy_wall_bottom_buttons_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_policy_wall_terms_of_service" />
+
+            <TextView
+                style="@style/privacy_policy_wall_bottom_buttons_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/privacy_policy_wall_bottom_button_separator" />
+
+            <TextView
+                android:id="@+id/tv_privacy_policy_wall_third_bottom_button_right"
+                style="@style/privacy_policy_wall_bottom_buttons_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_policy_wall_third_party_partners" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

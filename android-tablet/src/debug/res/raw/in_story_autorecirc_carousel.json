@@ -1,0 +1,856 @@
+{
+  "id": "d7ea2446fbb8bac09e75f6e527e3cb9f",
+  "type": "blog",
+  "subtype": "default",
+  "renderer": "native",
+  "arcId": "Q62MHQRIGRAPJEU6T3NR6IYCRM",
+  "title": "A journalist reported a missile strike. Then came the death threats.",
+  "blurb": "An Israeli war reporter says online gamblers demanded he change a published story so they could win a payout on prediction market Polymarket.",
+  "contenturl": "https://www.washingtonpost.com/technology/2026/03/17/israel-journalist-polymarket-iran-strike/",
+  "content_type": "article",
+  "shareurl": "https://www.washingtonpost.com/technology/2026/03/17/israel-journalist-polymarket-iran-strike/",
+  "source": "the-washington-post",
+  "section": "Technology",
+  "sourcesection": "technology",
+  "sourcesubsection": "technology",
+  "sourcecategory": "Technology",
+  "lmt": 1773761166923,
+  "published": 1773761166923,
+  "first_published": 1773738000273,
+  "display_date": 1773738000000,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RIXQ5R4N7JG2SWLWTGVK77JCLQ.JPG",
+  "sourceslug": "ISRAELPOLYMARKET",
+  "commercialnode": "/technology",
+  "omniture": {
+    "title": "War reporter says Polymarket bettors pressured him to change article - The Washington Post",
+    "pageName": "israel-journalist-polymarket-iran-strike",
+    "channel": "technology",
+    "contentId": "nullQ62MHQRIGRAPJEU6T3NR6IYCRM",
+    "contentType": "story - default",
+    "contentSource": "the-washington-post",
+    "contentTopics": "Technology",
+    "newsroomDesk": "climate;data reporting",
+    "newsroomSubdesk": "business - technology policy;news operations - data reporting",
+    "contentAuthor": "will oremus;jeremy b. merrill",
+    "authorId": "oremusw;merrillj",
+    "authorType": "staff writer;(not set)",
+    "subSection": "technology",
+    "arcId": "Q62MHQRIGRAPJEU6T3NR6IYCRM",
+    "trackingTags": "story-has-edit-branch;created from template id n7hd53bpmvaqxpvsarvww4wnha;methode-draft;audio-article"
+  },
+  "version": 2,
+  "tags": "story-has-edit-branch,created from template id n7hd53bpmvaqxpvsarvww4wnha,methode-draft,audio-article",
+  "items": [
+    {
+      "content": "Technology",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Tech",
+      "path": "/business/technology"
+    },
+    {
+      "content": "A journalist reported a missile strike. Then came the death threats.",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "A Times of Israel reporter says online gamblers pressured him to change his story about an Iranian missile strike so they could win a payout.",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "content": 1773738000000,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/Q62MHQRIGRAPJEU6T3NR6IYCRM/20260317-082610.105/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/Q62MHQRIGRAPJEU6T3NR6IYCRM/20260317-082610.105/current.mp3?awCollectionId=/technology&awEpisodeId=Q62MHQRIGRAPJEU6T3NR6IYCRM&tags=audio-article",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/Q62MHQRIGRAPJEU6T3NR6IYCRM/20260317-082610.105/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RIXQ5R4N7JG2SWLWTGVK77JCLQ.JPG",
+        "imageWidth": 1864,
+        "imageHeight": 1243,
+        "fullcaption": "(Mussa Qawasma/Reuters)"
+      },
+      "title": {
+        "content": "A journalist reported a missile strike. Then came the death threats.",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "Technology",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "Tech",
+        "path": "/business/technology"
+      },
+      "date": {
+        "content": 1773738000000,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      },
+      "adconfig": {
+        "adSetUrl": "https://cmod-world.live.streamtheworld.com/ondemand/ars?type=[break-type]&maxAds=[max-ads]&delivery-method=progressive&ttag=[triton-ttag]&us_privacy=[us-privacy]&gdpr=[gdpr]&gdpr_consent=[gdpr-consent]&feed-type=txt2speech&content-language=en&site-url=https%3A%2F%2Fwww.washingtonpost.com&bundle-id=[bundle-id]&store-id=[store-id]&store-url=[store-url]&break-number=[break-number]&ext_stid=wp-1407653",
+        "primarySectionID": "/technology"
+      },
+      "duration": 569000
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RIXQ5R4N7JG2SWLWTGVK77JCLQ.JPG",
+      "imageWidth": 1864,
+      "imageHeight": 1243,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "An Israeli air defense system intercepts an Iranian missile flying toward Israel on Monday. (Mussa Qawasma/Reuters)",
+      "blurb": "An Israeli air defense system intercepts an Iranian missile flying toward Israel on Monday."
+    },
+    {
+      "content": "By Will Oremus and Jeremy B. Merrill",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "oremusw",
+          "url": "https://www.washingtonpost.com/people/will-oremus/",
+          "name": "Will Oremus",
+          "bio": "Will Oremus is a technology reporter covering the collision of social media, AI and democracy.",
+          "expertise": "Technology reporter; send him secure tips on Signal at willoremus.24",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/89ebdd6c-a27a-40b6-9b15-1605fd2e493e.png"
+        },
+        {
+          "id": "merrillj",
+          "url": "https://www.washingtonpost.com/people/jeremy-b-merrill/",
+          "name": "Jeremy B. Merrill",
+          "bio": "Jeremy B. Merrill is a data reporter on the technology desk at The Washington Post, gathering and analyzing data to understand how technology, the internet and AI affect business, society and politics.",
+          "expertise": "Data reporter focusing on technology",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/6cfc26ec-09bb-4926-82a1-132debc39236.png"
+        }
+      ]
+    },
+    {
+      "arcId": "W6P8XFB53T7QK3GV2546QD7H5W",
+      "type": "sanitized_html",
+      "mime": "text/html",
+      "content": "The message appeared in English on <a href=\"FTS_Emanuel_Fabian\" target=\"fts\">Emanuel Fabian</a>’s phone."
+    },
+    {
+      "arcId": "YWHD2K6ZAVFCFDN3IFEQLDEEXI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“You have 90 minutes left to update the lie,” said a WhatsApp message reviewed by The Washington Post. “If you do this — you solve in a minute the most serious problem you have caused yourself in life. And you won’t remember me anymore in a week.”"
+    },
+    {
+      "type": "toggle",
+      "subtype": "offer",
+      "mime": "text/plain",
+      "key": "article"
+    },
+    {
+      "arcId": "UKIF6LQIDNDXRGJJRSPZL7NJ44",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Five days earlier, Fabian, a 28-year-old war correspondent at the Times of Israel newspaper, had published a short blog post reporting that an Iranian missile had struck an open area outside a Jerusalem suburb, harming no one."
+    },
+    {
+      "type": "toggle",
+      "subtype": "topic-follow",
+      "key": "CP-6"
+    },
+    {
+      "arcId": "ZYZRKB5EWBCTBEHDORSP7TCO3Q",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Until he began to receive messages that threatened his life and family, Fabian didn’t know his brief report had triggered a dispute over bets on the prediction market Polymarket on whether an Iranian missile would strike Israel on March 10. For those with money down, millions of dollars were potentially riding on his blog post."
+    },
+    {
+      "arcId": "34TU9XZECN5YF40VUUJZJDNEYW",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Fabian was spooked enough by the threats to at least entertain the idea of revising his published reporting, he told The Post in a phone interview Monday. That could score a win for Polymarket users who had bet against a missile strike occurring that day — and at least one had offered to send Fabian a share of the profits."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "tall",
+      "adPath": "/technology",
+      "primarySectionID": "/technology",
+      "position": {
+        "small": "incontent-mob_1"
+      }
+    },
+    {
+      "arcId": "V7AW3KMMP57TZ2HMQ1H8PD17CG",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Instead, he stood by his post, reported the threats to the police and <a href=\"https://www.timesofisrael.com/gamblers-trying-to-win-a-bet-on-polymarket-are-vowing-to-kill-me-if-i-dont-rewrite-an-iran-missile-story/\">wrote an article</a> for the Times of Israel chronicling the harrowing experience. Fabian said he decided to publicize the story in the hope that “anyone who’s ever thinking about threatening a journalist will maybe think twice.”"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QYIHPOVTLGBXCLIOE75COWBJCA.jpg",
+      "imageWidth": 1006,
+      "imageHeight": 720,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Polymarket users could bet on whether an Iranian missile would strike Israel on March 10. (Polymarket)",
+      "blurb": "Polymarket users could bet on whether an Iranian missile would strike Israel on March 10."
+    },
+    {
+      "arcId": "6AZ6HD86DX4DKDRFC3Z5N77EJM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Fabian’s run-in with disgruntled bettors<b> </b>follows a string of recent controversies triggered by prediction markets, fast-growing online platforms that host markets where people can<a href=\"https://www.washingtonpost.com/technology/2026/01/28/polymarket-kalshi-trump-prediction-markets/\"> bet on the outcome of future events</a> such as <a href=\"https://www.washingtonpost.com/technology/2024/11/09/election-betting-trump-polymarket-kalshi/\">elections</a> or the Academy Awards."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/technology",
+      "primarySectionID": "/technology",
+      "position": {
+        "large": "incontent_1"
+      }
+    },
+    {
+      "arcId": "G1XZ4QKKGX6A924JWP46YRZBG8",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "In January, an anonymous user on Polymarket, which <a href=\"https://help.polymarket.com/en/articles/13364163-geographic-restrictions\">bars</a> U.S. users, <a href=\"https://www.washingtonpost.com/politics/2026/01/07/maduro-prediction-market-scrutiny/\">won $400,000</a> betting on the ouster of Venezuelan leader Nicolás Maduro just hours before U.S. forces took him into custody. In February, Fabian <a href=\"https://www.timesofisrael.com/liveblog_entry/idf-reservist-and-civilian-indicted-for-using-classified-info-to-place-bets-on-polymarket/\">reported</a> that an Israel Defense Forces reservist was indicted along with a civilian for using classified information to place bets on Polymarket."
+    },
+    {
+      "type": "autorecirc_carousel",
+      "carouselId": 0
+    },
+    {
+      "arcId": "JYU52XHQ8T1QH4MHUAYZD32RRR",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "This month, users of rival Kalshi, which is approved to serve U.S. bettors, complained after the site <a href=\"https://www.washingtonpost.com/technology/2026/03/04/kalshi-khamenei-bet-controversy/\">declined to pay out</a> on bets that Iran’s Ayatollah Ali Khamenei would be ousted, citing a policy of not allowing bets on a person’s death."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/technology",
+      "primarySectionID": "/technology",
+      "position": {
+        "small": "incontent-mob_2"
+      }
+    },
+    {
+      "arcId": "66T2EC3FP52QDC7T399JBMQAZW",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Polymarket and Kalshi say they monitor their platforms for insider trading and improper activity, but U.S. lawmakers have raised concern about the harmful incentives prediction markets create."
+    },
+    {
+      "type": "autorecirc_carousel",
+      "carouselId": 1
+    },
+    {
+      "arcId": "ZDSOYAQZZNBUZGZHNS7HOZI5M4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“Polymarket condemns the harassment and threats directed at Emanuel Fabian, or anyone else for that matter,” a company spokesperson told The Post. “This behavior violates our terms of service and has no place on our platform or anywhere else. Prediction markets depend on the integrity of independent reporting. Attempts to pressure journalists to alter their reporting undermine that integrity and undermine the markets themselves.”"
+    },
+    {
+      "arcId": "FSQUPPX6IBAETAFI7AXIPHJQ24",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The company added in a post on X that it had “banned the accounts for all involved” and would pass on their information to authorities."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "twitter",
+      "mime": "text/html",
+      "content": "[<a href=\"https://twitter.com/manniefabian/status/2031393558733688930\">View Tweet on Twitter</a>]",
+      "oembed": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">No injuries are reported in Iran&#39;s latest ballistic missile attack on Israel, the fourth today.<br><br>One missile struck an open area just outside Beit Shemesh, first responders say and footage shows.<br><br>Sirens had sounded across the Jerusalem area, the West Bank, and parts of southern… <a href=\"https://t.co/j6sovAsDwz\">pic.twitter.com/j6sovAsDwz</a></p>&mdash; Emanuel (Mannie) Fabian (@manniefabian) <a href=\"https://twitter.com/manniefabian/status/2031393558733688930?ref_src=twsrc%5Etfw\">March 10, 2026</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n\n"
+    },
+    {
+      "arcId": "QKLR2X57FZB6LETTEBQFDDMNHQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The bet that would turn into a nightmare for Fabian hinged on whether at least one Iranian missile would strike Israel on March 10."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/technology",
+      "primarySectionID": "/technology",
+      "position": {
+        "large": "incontent_2"
+      }
+    },
+    {
+      "arcId": "AXOREXC6JFHP3CKKUJDT7CK2IE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "As sirens sounded across Jerusalem and the West Bank that day, indicating ballistic missiles in flight from Iran, Fabian began contacting authorities to see whether anything had landed or been intercepted. Within minutes, he <a href=\"https://www.timesofisrael.com/liveblog_entry/no-injuries-in-latest-iranian-salvo-missile-hits-open-area-outside-beit-shemesh/\">published a brief post</a> noting that medics were responding to reports of an impact near Beit Shemesh, a city about 20 miles west of Jerusalem. Soon after, he posted on X a dashcam video provided by a witness that showed a fiery explosion in a forested area not far from a residential complex."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/technology",
+      "primarySectionID": "/technology",
+      "position": {
+        "small": "incontent-mob_3"
+      }
+    },
+    {
+      "arcId": "QKIMZKL2DFEBJNBHPTUGYBFSIM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“One missile struck an open area just outside Beit Shemesh, first responders say and footage shows,” Fabian wrote, noting that no injuries were reported."
+    },
+    {
+      "arcId": "7XVI2CPAPZFTZDEHRIWO6NG57A",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Fabian moved on with his day, but on Polymarket, controversy was brewing. At the end of March 10, about $200,000 was at stake, according to a Post analysis of Polymarket data from crypto analytics data platform Dune and the website Polymarket Analytics."
+    },
+    {
+      "arcId": "POYWWNOZMZE35NQNNOZF54AJV4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "His blog post<b> </b>appeared to seal a win for users who had put money on at least one Iranian missile striking Israel that day. But in a group chat on the messaging platform Discord, a user pointed out that a daily report from the Israel Defense Forces did not mention any missile strikes on March 10. That user and others suggested the explosion may have been shrapnel from an intercepted missile."
+    },
+    {
+      "arcId": "TPCTF5M5W5FV3CRYZF3PZGYD24",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Under the terms of the bet on Polymarket, intercepted missiles did not count as strikes. And the terms said that if confirmation of a strike could not be provided within 48 hours, those who bet “no” would be declared the winners."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/technology",
+      "primarySectionID": "/technology",
+      "position": {
+        "small": "incontent-mob_4"
+      }
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/technology",
+      "primarySectionID": "/technology",
+      "position": {
+        "large": "incontent_3"
+      }
+    },
+    {
+      "arcId": "NOWADPPWERDXTCHT2W6L3K6R5I",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Polymarket<b> </b>determines the “truth” used to resolve bets on its platform via a complex system of voting by users who have bought a particular cryptocurrency token.<b> </b>As those users debated who should win the bet over missile strikes on March 10<b> </b>in the days following the blast,<b> </b>more Polymarket bettors piled in, wagering another $7 million, with some individuals standing to win more than $1 million if the market resolved to “yes.” And Fabian began to receive messages from strangers encouraging him to revisit his reporting."
+    },
+    {
+      "arcId": "7XU6TK3KENF27HDNELXE47MHT4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "At first the messages were polite. “I’d appreciate it if you could update your article, as in its current form it does not reflect reality,” one correspondent told Fabian, according to his Times of Israel article. “Alternatively, if you have information that it was indeed a full missile that was not intercepted, I would be glad to be corrected.”"
+    },
+    {
+      "arcId": "U6HQQTBURFC7NASWJIZCMHZ3GA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Fabian said he didn’t know at the time why the person was so interested in what seemed to be a minor detail, given that the blast had not caused serious damage. His confusion grew<b> </b>as he<b> </b>began to receive similar messages from other strangers."
+    },
+    {
+      "arcId": "BVDV54YUZNB27GRTB5PEWCK3Q4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“I started getting all these replies on Twitter, or X, where people asked me, ‘Hey, why aren’t you updating this story from the 10th of March?’,” he recounted. “I was so confused. Then I looked at the profiles, and I realized they’re all Polymarket bettors. That’s when it kind of clicked.”"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/R2WYKW2TKDTISOLLRT3BNB5GGM.jpg",
+      "imageWidth": 1906,
+      "imageHeight": 877,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "A screenshot from a Polymarket prediction market on whether an Iranian missile would strike Israel on March 10. (Polymarket)",
+      "blurb": "A screenshot from a Polymarket prediction market on whether an Iranian missile would strike Israel on March 10."
+    },
+    {
+      "arcId": "XTK4XIQU7RGGVNYJE7G34PAZQA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "By Sunday morning one person’s messages to Fabian had grown menacing."
+    },
+    {
+      "arcId": "YW46SGOMIFECPMNCFZALLEMCO4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "In messages written in Hebrew on WhatsApp, which Fabian quoted in his published reporting and also shared with The Post,<b> </b>a user who called themselves “Haim” said if Fabian caused him to lose his $900,000 bet, “we will invest no less than that to finish you.” Alternatively, the message said, Fabian could change the article, “end this with money in your pocket, and also earn back the life you had until now.”"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/technology",
+      "primarySectionID": "/technology",
+      "position": {
+        "small": "incontent-mob_5"
+      }
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/technology",
+      "primarySectionID": "/technology",
+      "position": {
+        "large": "incontent_4"
+      }
+    },
+    {
+      "arcId": "WJSAEIISERHHTNVYASOSMLNXTQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "When Fabian didn’t respond, Haim began sending messages counting down the minutes, and claimed that he knew exactly where Fabian lived and who his family members were. Eventually, Haim switched<b> </b>from Hebrew to English, telling Fabian he had “90 minutes to update the lie.”"
+    },
+    {
+      "arcId": "TYCK7SRQSNDQVLB3ZZX66L6X6I",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Fabian told The Post that he considered conceding to Haim’s demands."
+    },
+    {
+      "arcId": "EJBMECXQ3VG7NMB7O2ELGB4NPQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“I thought, ‘Do I just change it? Because it doesn’t really matter,’” he said. “But then I thought, ‘You know, if I do this now, they’re going to come back to me again and asked for other things to be changed.’ They would have probably never stopped doing that if they knew they could make money this way.”"
+    },
+    {
+      "arcId": "6HMSOXOLFNHUVONE6XUBX6TKOM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Instead, Fabian filed a police report, he said, and began working with his editor at the Times of Israel to publish a first-person account of the attempted shakedown. He said he hopes that the publicity will deter bettors from threatening other journalists in the future. But Fabian<b> </b>said he worries he won’t be the last — and that other journalists might respond differently."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/technology",
+      "primarySectionID": "/technology",
+      "position": {
+        "small": "incontent-mob_6"
+      }
+    },
+    {
+      "arcId": "4ZBAJQ9RWN57F9D586HQ5FU6AW",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Asked whether it’s possible the bettors were right and the explosion was from the remains an intercepted missile, Fabian said he was confident it was a warhead, due to the size of the blast and verbal confirmation from the IDF. But he added that it’s not something he’d usually follow up on after a minor blast, given that it doesn’t matter to most people — unless they have money riding on the answer."
+    },
+    {
+      "arcId": "7MXGE8CNZH36FFZEY1YTVVX4CM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Asked late Monday if they had any more information on the March 10 blast, an IDF spokesperson said they did not have any on hand but would look into it."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/technology",
+      "primarySectionID": "/technology",
+      "position": {
+        "large": "incontent_5"
+      }
+    },
+    {
+      "arcId": "KZOGAFZAJJDQPAJDH247PEADZQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "As of Monday, Polymarket was still accepting bets on the March 10 missile strike, nearly a week after something struck the ground near Beit Shemesh. “No” bets were far cheaper than “yes” bets, because bettors appeared to judge that the odds heavily favored “yes.”"
+    },
+    {
+      "arcId": "JIA7MYXQ4NEILDPFJA2EO3MUMY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Latecomers to the market were effectively betting not on what hit the ground in Israel but on how the mostly-anonymous voters in Polymarket’s system will ultimately<b> </b>settle the dispute. One trader with the username “poorsob” would win $1.6 million if the market resolved to “yes.” BenzoateOstylezeneBicarbonate would win $1.3 million. But, if the bet ended up as a “no,” Sofia1 and AAAAGAAaA65 would win about $400,000 each."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/technology",
+      "primarySectionID": "/technology",
+      "position": {
+        "small": "incontent-mob_7"
+      }
+    },
+    {
+      "arcId": "MZ4O4FWCQNA3LLX2D7NDTTN6RI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Sen. Chris Murphy (D-Connecticut) and Rep. Greg Casar (D-Texas) are expected to introduce draft legislation on Tuesday called the BETS OFF Act, for “Banning Event Trading on Sensitive Operations and Federal Functions.” They were inspired in part by predictions market bets on Maduro’s ouster and the Iran strikes."
+    },
+    {
+      "arcId": "P4NG5OBMZFBUPDO5RYXISDBHIY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The bill “would put a stop to these corrupt wagers, crack down on prediction markets that flout the law with offshore platforms, and reject the idea that we should commodify every part of our lives,” Murphy’s office said in a statement."
+    },
+    {
+      "arcId": "UFU6MRXZKRCP5BN7YUB54R63DU",
+      "type": "sanitized_html",
+      "mime": "text/html",
+      "content": "<a href=\"FTS_Amanda_Fischer\" target=\"fts\">Amanda Fischer</a>, policy director at the financial advocacy group Better Markets, said the “chilling” threats against Fabian underscore the need for stronger oversight of prediction markets."
+    },
+    {
+      "arcId": "2MVFW3KN2BG6DHB3KMBPEIEAL4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Fabian’s choice to go public rather than change his story “speaks to his integrity,” said Fischer, a former chief of staff at the Securities and Exchange Commission. But she added that pressure like he experienced could add to the risks faced by war reporters."
+    },
+    {
+      "arcId": "1KK2N8QD557TBFW6EFCVAYMB40",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“The last thing they need now,” she said, “is folks with a gambling position on life or death harassing them and trying to coerce them to change their reporting so they can get a payout.”"
+    },
+    {
+      "type": "fts_carousel",
+      "label": "What sources are saying"
+    },
+    {
+      "type": "link",
+      "subtype": "comments"
+    },
+    {
+      "type": "author_info",
+      "id": "oremusw",
+      "name": "Will Oremus",
+      "bio": "Will Oremus is a technology reporter covering the collision of social media, AI and democracy.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/89ebdd6c-a27a-40b6-9b15-1605fd2e493e.png",
+      "role": "Staff writer"
+    },
+    {
+      "type": "author_info",
+      "id": "merrillj",
+      "name": "Jeremy B. Merrill",
+      "bio": "Jeremy B. Merrill is a data reporter on the technology desk at The Washington Post, gathering and analyzing data to understand how technology, the internet and AI affect business, society and politics.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/6cfc26ec-09bb-4926-82a1-132debc39236.png",
+      "role": "Data reporter"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "show_summary": true,
+  "blogname": "Technology",
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/Q62MHQRIGRAPJEU6T3NR6IYCRM/20260317-082610.105/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/Q62MHQRIGRAPJEU6T3NR6IYCRM/20260317-082610.105/current.mp3?awCollectionId=/technology&awEpisodeId=Q62MHQRIGRAPJEU6T3NR6IYCRM&tags=audio-article",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/Q62MHQRIGRAPJEU6T3NR6IYCRM/20260317-082610.105/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RIXQ5R4N7JG2SWLWTGVK77JCLQ.JPG",
+      "imageWidth": 1864,
+      "imageHeight": 1243,
+      "fullcaption": "(Mussa Qawasma/Reuters)"
+    },
+    "title": {
+      "content": "A journalist reported a missile strike. Then came the death threats.",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "Technology",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Tech",
+      "path": "/business/technology"
+    },
+    "date": {
+      "content": 1773738000000,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    },
+    "adconfig": {
+      "adSetUrl": "https://cmod-world.live.streamtheworld.com/ondemand/ars?type=[break-type]&maxAds=[max-ads]&delivery-method=progressive&ttag=[triton-ttag]&us_privacy=[us-privacy]&gdpr=[gdpr]&gdpr_consent=[gdpr-consent]&feed-type=txt2speech&content-language=en&site-url=https%3A%2F%2Fwww.washingtonpost.com&bundle-id=[bundle-id]&store-id=[store-id]&store-url=[store-url]&break-number=[break-number]&ext_stid=wp-1407653",
+      "primarySectionID": "/technology"
+    },
+    "duration": 569000
+  },
+  "first_display_date": 1773738000000,
+  "targeting": {
+    "adcall": [
+      {
+        "key": "ca",
+        "values": [
+          "rsk_m",
+          "rk4hi",
+          "ren01",
+          "rqpy3",
+          "rxa9g",
+          "rwsk4",
+          "rfhup",
+          "rz457",
+          "rgpk6",
+          "rggwa",
+          "rx4px",
+          "rlw2t",
+          "rvn0g",
+          "r54xz",
+          "ria5c",
+          "rybe7",
+          "rlyaf",
+          "r3mmv",
+          "r0kbr",
+          "rqyhw",
+          "rqnkl",
+          "rloxr",
+          "rkqfd",
+          "rk0qi",
+          "rgywb",
+          "rkkqd",
+          "r0hej",
+          "r44lb",
+          "rdrh1",
+          "r1nqd",
+          "ra7ai",
+          "rtppi",
+          "rgjgs",
+          "r1a2g",
+          "rdluz",
+          "r7e5f",
+          "r9d8g",
+          "ruk1b",
+          "rw7py",
+          "rt9p2",
+          "r0yto",
+          "rtsg3",
+          "r9hok",
+          "rzla5",
+          "ry017",
+          "rv05p",
+          "rrofe",
+          "ru14c",
+          "r2vtq",
+          "rtc0b",
+          "ri474",
+          "rdj29",
+          "r6txy",
+          "ry0uc",
+          "ribdm",
+          "rlc5f",
+          "rt992",
+          "rjkt0",
+          "rjr56",
+          "rtyhm",
+          "r44uv",
+          "rmjrh",
+          "r1k1d",
+          "r05in",
+          "r4hly",
+          "rhf94",
+          "rz5hb",
+          "rofif",
+          "r7xp7",
+          "rfpdz",
+          "r3voq",
+          "rksyw"
+        ]
+      },
+      {
+        "key": "wapoTopics",
+        "values": [
+          "buse",
+          "chvm",
+          "cryd",
+          "fiml",
+          "govg",
+          "irah",
+          "isrw",
+          "idfo",
+          "jf2q",
+          "joul",
+          "mee3",
+          "miqc",
+          "2mwb",
+          "miqg",
+          "waug",
+          "wars"
+        ]
+      },
+      {
+        "key": "se",
+        "values": [
+          "i7kn"
+        ]
+      },
+      {
+        "key": "bs",
+        "values": [
+          "garm_medium",
+          "bgrt100",
+          "wapo_rsk_medium"
+        ]
+      }
+    ],
+    "iab": {
+      "sectioncat": [
+        "IAB19"
+      ],
+      "pagecat": [
+        "IAB19"
+      ]
+    },
+    "permutive_dict": {
+      "article": {
+        "customTopics": [
+          "[rqpy3] B2_Election 2016_legacyaux_WC9",
+          "[rgjgs] Women's Beauty",
+          "[r1a2g] Labor",
+          "[rdluz] Health Care Policy",
+          "[rt9p2] Pop Culture",
+          "[r0yto] Inspiring",
+          "[rv05p] Graduate Education",
+          "[rrofe] Luxury Travel",
+          "[ru14c] Affluent"
+        ],
+        "wapoTopics": [
+          "buse",
+          "chvm",
+          "cryd",
+          "fiml",
+          "govg",
+          "irah",
+          "isrw",
+          "idfo",
+          "jf2q",
+          "joul",
+          "mee3",
+          "miqc",
+          "2mwb",
+          "miqg",
+          "waug",
+          "wars"
+        ],
+        "sentiment": [
+          "[i7kn] negative"
+        ],
+        "publishDate": "2026-03-16T20:14:48.489Z",
+        "lastUpdateDate": "2026-03-17T15:26:28.276Z",
+        "authorName": [
+          "will oremus",
+          "jeremy b. merrill"
+        ],
+        "authorType": [
+          "author",
+          "author"
+        ],
+        "newsroomDesk": [
+          "climate",
+          "data reporting"
+        ],
+        "contentType": "story - default",
+        "language": "en",
+        "wordCount": 1705
+      },
+      "canonicalUrl": "/technology/2026/03/17/israel-journalist-polymarket-iran-strike/"
+    }
+  },
+  "comments": "https://www.washingtonpost.com/technology/2026/03/17/israel-journalist-polymarket-iran-strike/?outputType=comment"
+}

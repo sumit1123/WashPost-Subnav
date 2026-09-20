@@ -1,0 +1,380 @@
+{
+  "id": "/",
+  "children": [
+    {
+      "id": "/topics/abortion",
+      "type": "section",
+      "path": "/topics/abortion/",
+      "path_fusion": "/topics/abortion",
+      "name": "Abortion",
+      "nav_name": "Abortion",
+      "aliases": [
+        "/abortion",
+        "/topics/abortion"
+      ]
+    },
+    {
+      "id": "/lifestyle/advice",
+      "type": "section",
+      "path": "/lifestyle/advice/",
+      "path_fusion": "/lifestyle/advice/",
+      "name": "Advice",
+      "nav_name": "Advice",
+      "aliases": [
+        "/lifestyle/advice"
+      ]
+    },
+    {
+      "id": "/entertainment",
+      "type": "section",
+      "path": "/entertainment/",
+      "path_fusion": "/entertainment/",
+      "name": "Arts & Entertainment",
+      "nav_name": "Arts & Entertainment",
+      "aliases": [
+        "/entertainment",
+        "/lifestyle/style/style-blog",
+        "/lifestyle/reliable-source"
+      ]
+    },
+    {
+      "id": "/entertainment/books",
+      "type": "section",
+      "path": "/entertainment/books/",
+      "path_fusion": "/entertainment/books",
+      "name": "Books",
+      "nav_name": "Books",
+      "aliases": [
+        "/entertainment/books",
+        "/opinions/book-party"
+      ]
+    },
+    {
+      "id": "/business",
+      "type": "section",
+      "path": "/business/",
+      "path_fusion": "/business/",
+      "name": "Business",
+      "nav_name": "Business",
+      "aliases": [
+        "/business",
+        "/business/capital-business",
+        "/business/on-small-business",
+        "/cars",
+        "/business/keystone",
+        "/business/markets"
+      ]
+    },
+    {
+      "id": "/lifestyle/carolyn-hax",
+      "type": "section",
+      "path": "/lifestyle/carolyn-hax/",
+      "path_fusion": "/lifestyle/carolyn-hax",
+      "name": "Carolyn Hax",
+      "nav_name": "Carolyn Hax",
+      "aliases": [
+        "/lifestyle/carolyn-hax"
+      ]
+    },
+    {
+      "id": "/climate-environment/climate-solutions",
+      "type": "section",
+      "path": "/climate-environment/climate-solutions/",
+      "path_fusion": "/climate-solutions/",
+      "name": "Climate Solutions",
+      "nav_name": "Climate Solutions",
+      "aliases": [
+        "/climate-environment/climate-solutions",
+        "/climate-solutions"
+      ]
+    },
+    {
+      "id": "/entertainment/comics",
+      "type": "section",
+      "path": "/entertainment/comics/",
+      "path_comics": "/",
+      "name": "Comics",
+      "nav_name": "Comics",
+      "aliases": [
+        "/entertainment/comics",
+        "/comics"
+      ]
+    },
+    {
+      "id": "/games",
+      "type": "section",
+      "path": "/games/",
+      "path_fusion": "/games/",
+      "name": "Crosswords & Games",
+      "nav_name": "Crosswords & Games",
+      "aliases": [
+        "/games"
+      ]
+    },
+    {
+      "id": "/politics/fact-checker",
+      "type": "section",
+      "path": "/politics/fact-checker/",
+      "path_fusion": "/politics/fact-checker",
+      "name": "Fact Checker",
+      "nav_name": "Fact Checker",
+      "aliases": [
+        "/politics/fact-checker",
+        "/news/fact-checker",
+        "/factchecker",
+        "/blogs/fact-checker"
+      ]
+    },
+    {
+      "id": "/education",
+      "type": "section",
+      "path": "/education/",
+      "path_fusion": "/education",
+      "name": "Education",
+      "nav_name": "Education",
+      "aliases": [
+        "/education"
+      ]
+    },
+    {
+      "id": "/lifestyle/food",
+      "type": "section",
+      "path": "/lifestyle/food/",
+      "path_fusion": "/lifestyle/food",
+      "name": "Food",
+      "nav_name": "Food",
+      "aliases": [
+        "/lifestyle/food",
+        "/food",
+        "/lifestyle/food/voraciously"
+      ]
+    },
+    {
+      "id": "/gender-identity",
+      "type": "section",
+      "path": "/gender-identity/",
+      "path_fusion": "/gender-identity",
+      "name": "Gender & Identity",
+      "nav_name": "Gender & Identity",
+      "aliases": [
+        "/gender-identity",
+        "/the-lily"
+      ]
+    },
+    {
+      "id": "/health",
+      "type": "section",
+      "path": "/health/",
+      "path_fusion": "/health",
+      "name": "Health",
+      "nav_name": "Health",
+      "aliases": [
+        "/health",
+        "/national/health-science"
+      ]
+    },
+    {
+      "id": "/history",
+      "type": "section",
+      "path": "/history/",
+      "path_fusion": "/history",
+      "name": "History",
+      "nav_name": "History",
+      "aliases": [
+        "/history"
+      ]
+    },
+    {
+      "id": "/lifestyle/home-garden",
+      "type": "section",
+      "path": "/lifestyle/home-garden/",
+      "path_fusion": "/lifestyle/home-garden",
+      "name": "Home & Design",
+      "nav_name": "Home & Design",
+      "aliases": [
+        "/lifestyle/home-garden",
+        "/lifestyle/home",
+        "/home",
+        "/lifestyle/home_garden",
+        "/lifestyle/home-and-garden",
+        "/lifestyle/ho_garden",
+        "/home_garden",
+        "/lifestyle/home-design"
+      ]
+    },
+    {
+      "id": "/immigration",
+      "type": "section",
+      "path": "/immigration/",
+      "path_fusion": "/immigration",
+      "name": "Immigration",
+      "nav_name": "Immigration",
+      "aliases": [
+        "/immigration",
+        "/local/immigration"
+      ]
+    },
+    {
+      "id": "/entertainment/movies",
+      "type": "section",
+      "path": "/entertainment/movies/",
+      "path_fusion": "/entertainment/movies/",
+      "name": "Movies",
+      "nav_name": "Movies",
+      "aliases": [
+        "/entertainment/movies"
+      ]
+    },
+    {
+      "id": "/entertainment/music",
+      "type": "section",
+      "path": "/entertainment/music/",
+      "path_fusion": "/entertainment/music/",
+      "name": "Music",
+      "nav_name": "Music",
+      "aliases": [
+        "/entertainment/music"
+      ]
+    },
+    {
+      "id": "/national",
+      "type": "section",
+      "path": "/national/",
+      "path_fusion": "/national",
+      "name": "National",
+      "nav_name": "National",
+      "aliases": [
+        "/national",
+        "/national/morning-mix"
+      ]
+    },
+    {
+      "id": "/national-security",
+      "type": "section",
+      "path": "/national-security/",
+      "path_fusion": "/national-security",
+      "name": "National Security",
+      "nav_name": "National Security",
+      "aliases": [
+        "/national-security",
+        "/world/national-security"
+      ]
+    },
+    {
+      "id": "/lifestyle/inspired-life",
+      "type": "section",
+      "path": "/lifestyle/inspired-life/",
+      "path_fusion": "/lifestyle/inspired-life",
+      "name": "The Optimist",
+      "nav_name": "The Optimist",
+      "aliases": [
+        "/local/inspired-life",
+        "/news/inspired-life",
+        "/inspired-life",
+        "/lifestyle/inspired-life",
+        "/optimist"
+      ]
+    },
+    {
+      "id": "/lifestyle/on-parenting",
+      "type": "section",
+      "path": "/lifestyle/on-parenting/",
+      "path_fusion": "/lifestyle/on-parenting",
+      "name": "Parenting",
+      "nav_name": "Parenting",
+      "aliases": [
+        "/lifestyle/on-parenting"
+      ]
+    },
+    {
+      "id": "/science",
+      "type": "section",
+      "path": "/science/",
+      "path_fusion": "/science",
+      "name": "Science",
+      "nav_name": "Science",
+      "aliases": [
+        "/science",
+        "/news/speaking-of-science",
+        "/national/health-science/speaking-of-science",
+        "/national/science"
+      ]
+    },
+    {
+      "id": "/business/personal-finance",
+      "type": "section",
+      "path": "/business/personal-finance/",
+      "path_fusion": "/business/personal-finance",
+      "name": "Personal Finance",
+      "nav_name": "Personal Finance",
+      "aliases": [
+        "/business/personal-finance",
+        "/personal-finance",
+        "/news/get-there",
+        "/business/get-there"
+      ]
+    },
+    {
+      "id": "/technology/space",
+      "type": "section",
+      "path": "/technology/space/",
+      "path_fusion": "/technology/space",
+      "name": "Space",
+      "nav_name": "Space",
+      "aliases": [
+        "/space",
+        "/technology/space"
+      ]
+    },
+    {
+      "id": "/travel",
+      "type": "section",
+      "path": "/travel/",
+      "path_fusion": "/travel/",
+      "name": "Travel",
+      "nav_name": "Travel",
+      "aliases": [
+        "/travel",
+        "/lifestyle/travel"
+      ]
+    },
+    {
+      "id": "/entertainment/tv",
+      "type": "section",
+      "path": "/entertainment/tv/",
+      "path_fusion": "/entertainment/tv/",
+      "name": "Television",
+      "nav_name": "TV",
+      "aliases": [
+        "/entertainment/tv"
+      ]
+    },
+    {
+      "id": "/religion",
+      "type": "section",
+      "path": "/religion/",
+      "path_fusion": "/religion",
+      "name": "Religion",
+      "nav_name": "Religion",
+      "aliases": [
+        "/religion",
+        "/national/religion",
+        "/local/acts-of-faith",
+        "/news/acts-of-faith",
+        "/national/on-faith",
+        "/local/on-faith-local"
+      ]
+    },
+    {
+      "id": "/weather",
+      "type": "section",
+      "path": "/weather/",
+      "path_fusion": "/weather",
+      "name": "Weather",
+      "nav_name": "Weather",
+      "aliases": [
+        "/weather"
+      ]
+    }
+  ]
+}

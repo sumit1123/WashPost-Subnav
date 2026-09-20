@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scrollbars="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/iv_article_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                app:layout_constraintBottom_toTopOf="@id/tv_by_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/bottom_gradient"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/bottom_gradient"
+                app:layout_constraintBottom_toBottomOf="@id/iv_article_image"
+                app:layout_constraintEnd_toEndOf="@id/iv_article_image"
+                app:layout_constraintStart_toStartOf="@id/iv_article_image"
+                app:layout_constraintTop_toTopOf="@id/iv_article_image" />
+
+            <com.wapo.flagship.views.ExpandableTextView
+                android:id="@+id/article_headline"
+                style="@style/TextAppearance.WearWapo.Headline"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp"
+                android:paddingBottom="18dp"
+                android:textSize="18sp"
+                app:animation_duration="750"
+                app:layout_constraintBottom_toBottomOf="@id/iv_article_image"
+                app:layout_constraintEnd_toEndOf="@id/iv_article_image"
+                app:layout_constraintStart_toStartOf="@id/iv_article_image" />
+
+            <TextView
+                android:id="@+id/tv_by_line"
+                style="@style/TextAppearance.WearWapo.ByLine"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@id/tv_text"
+                app:layout_constraintEnd_toEndOf="@id/iv_article_image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_article_image" />
+
+            <TextView
+                android:id="@+id/tv_text"
+                style="@style/TextAppearance.WearWapo.Text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@id/btn_listen_to_article"
+                app:layout_constraintEnd_toEndOf="@id/iv_article_image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_listen_to_article" />
+
+            <Button
+                android:id="@+id/btn_listen_to_article"
+                style="@style/Widget.WearWapo.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:padding="10dp"
+                android:text="@string/listen"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/btn_next"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_text" />
+
+            <Button
+                android:id="@+id/btn_next"
+                style="@style/Widget.WearWapo.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:padding="10dp"
+                android:text="@string/next"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_listen_to_article" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

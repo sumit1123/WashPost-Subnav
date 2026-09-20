@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <application
+        android:name="com.wapo.flagship.DebugApp"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:replace="android:name"
+        >
+
+        <activity
+            android:name="com.wapo.flagship.DeepLinkSingleTaskActivity"
+            android:configChanges="screenSize|orientation"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.wapo.flagship"
+            android:theme="@style/Theme.AppCompat.NoActionBar.Translucent">
+            <intent-filter
+                android:autoVerify="true"
+                android:label="@string/filter_title_viewwp">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" />
+                <data android:scheme="http" />
+                <data android:host="subs-stage.washingtonpost.com" />
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name="com.wapo.flagship.TestActivity"
+                android:enabled="true"
+                android:exported="true"
+                android:label="TestActivity"/>
+        <activity
+                android:name="com.wapo.flagship.TabActivity"
+                android:enabled="true"
+                android:exported="true"
+                android:label="TabActivity"/>
+        <activity
+                android:name="com.wapo.flagship.DebugActivity"
+                android:enabled="true"
+                android:exported="true"
+                android:label="DebugActivity"/>
+        <activity
+                android:name="com.wapo.flagship.ImageTestActivity"
+                android:enabled="true"
+                android:exported="true"
+                android:label="ImageTestActivity"/>
+
+        <receiver android:name="com.wapo.flagship.DebugReceiver"
+                android:enabled="true" android:exported="true">
+            <intent-filter>
+                <!-- adb shell 'am broadcast -a push' -->
+                <action android:name="push" />
+                <action android:name="dump" />
+                <!-- adb shell 'am broadcast -a replace.section -e page page' -->
+                <action android:name="replace.section" />
+                <!-- adb shell 'am broadcast -a sync' -->
+                <action android:name="sync" />
+                <!-- adb shell 'am broadcast -a display.metrics' -->
+                <action android:name="display.metrics" />
+                <!-- adb shell 'am broadcast -a add.garbage' -->
+                <action android:name="add.garbage" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.wapo.flagship.PaywallDebugActivity"
+            android:enabled="true"
+            android:exported="true"/>
+        <activity
+            android:name="com.wapo.flagship.PushNotificationDebugActivity"
+            android:enabled="true"
+            android:exported="true"/>
+        <activity
+            android:name="com.wapo.flagship.DatabaseDebugActivity"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <activity android:name="com.wapo.flagship.TestPaywallActivity" android:enabled="true" android:exported="true" />
+
+        <activity android:name="com.wapo.flagship.VideoDebugActivity"
+            android:enabled="true"
+            android:exported="true"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="true"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.wapo.flagship.features.video.VideoActivity"
+            android:configChanges=
+                "screenSize|smallestScreenSize|keyboardHidden|screenLayout|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/WaPo.NoActionBar.PIP"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name="com.wapo.flagship.GridDebugActivity"
+            android:theme="@style/Sections"
+            android:label="Grid Debug"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <activity
+            android:name="com.wapo.flagship.TestAirshipActivity"
+            android:exported="true" />
+
+        <activity
+            android:name="com.wapo.flagship.TestStorageActivity"
+            android:exported="true" />
+
+        <activity
+            android:name="com.wapo.flagship.TestPostTvPlayer2Activity"
+            android:exported="true" />
+
+        <activity
+            android:name="com.wapo.flagship.TestAdsActivity"
+            android:exported="true" />
+
+        <provider
+            android:authorities="com.washingtonpost.android.fileprovider"
+            android:name="com.wapo.flagship.debug.WPFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <provider
+            android:name="com.wapo.android.commons.util.TestContentProvider"
+            android:authorities="amzn_test_appstore"
+            android:exported="true" />
+    </application>
+
+</manifest>

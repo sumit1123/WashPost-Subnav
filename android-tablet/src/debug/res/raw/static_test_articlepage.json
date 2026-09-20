@@ -1,0 +1,962 @@
+{
+  "id": "a51d0664-947f-11ea-87a3-22d324235636",
+  "type": "article",
+  "subtype": "",
+  "renderer": "native",
+  "arcId": "UUOQMZEUP4I6VB5DELJSII2WGY",
+  "title": "Haiti, spared a major coronavirus outbreak so far, now a \u2018tinderbox\u2019 set to \u2018explode\u2019",
+  "blurb": "Tens of thousands of migrant workers are returning from the hard-hit Dominican Republic; many carry the disease.",
+  "contenturl": "https://www.washingtonpost.com/world/the_americas/coronavirus-haiti-dominican-republic-hispaniola/2020/05/14/a51d0664-947f-11ea-87a3-22d324235636_story.html",
+  "content_type": "article",
+  "shareurl": "https://wapo.st/2yPROhs",
+  "source": "The Washington Post",
+  "section": "World",
+  "sourcesection": "world",
+  "sourcesubsection": "the_americas",
+  "sourcecategory": "World",
+  "lmt": 1589897575000,
+  "published": 1589897575000,
+  "first_published": 1589509331000,
+  "display_date": 1589540400000,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4RPDGHEWE4I6VEOXZ5CCHVDWQM.jpg",
+  "sourceslug": "virushaiti",
+  "commercialnode": "/world",
+  "omniture": {
+    "title": "Haiti braces for coronavirus as workers return from Dominican Republic - The Washington Post",
+    "pageName": "coronavirus-haiti-dominican-republic-hispaniola",
+    "channel": "world",
+    "contentId": "a51d0664-947f-11ea-87a3-22d324235636",
+    "contentType": "story",
+    "contentSource": "The Washington Post",
+    "contentTopics": "Americas;World;Coronavirus",
+    "newsroomDesk": "foreign",
+    "newsroomSubdesk": "international - investigative",
+    "contentAuthor": "kevin sieff",
+    "authorId": "sieffk",
+    "authorType": "staff writer",
+    "subSection": "the_americas",
+    "arcId": "UUOQMZEUP4I6VB5DELJSII2WGY",
+    "trackingTags": "magnet-coronavirus;recirculation-rf65il3vfrdhngfsf7yfe2pbsi"
+  },
+  "version": 2,
+  "tags": "magnet-coronavirus,recirculation-rf65il3vfrdhngfsf7yfe2pbsi",
+  "items": [
+    {
+      "content": "Americas",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "The Americas",
+      "path": "/world/americas"
+    },
+    {
+      "content": "Haiti, spared a major coronavirus outbreak so far, now a \u2018tinderbox\u2019 set to \u2018explode\u2019",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": 1589540400000,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4RPDGHEWE4I6VEOXZ5CCHVDWQM.jpg",
+      "imageWidth": 4896,
+      "imageHeight": 3264,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "People stock up on food at a street market in the P\u00e9tion-Ville neighborhood of Port-au-Prince, Haiti, despite recommendations from authorities to maintain social distance to prevent the spread of the coronavirus. (Jean Marc Herve Abelard/EPA-EFE/Shutterstock)",
+      "blurb": "People stock up on food at a street market in the P\u00e9tion-Ville neighborhood of Port-au-Prince, Haiti, despite recommendations from authorities to maintain social distance to prevent the spread of the coronavirus."
+    },
+    {
+      "content": "By Kevin Sieff",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "sieffk",
+          "url": "https://www.washingtonpost.com/people/kevin-sieff/",
+          "name": "Kevin Sieff",
+          "bio": "Kevin Sieff is an international investigative correspondent at The Washington Post focusing on the places where sports intersects with politics, crime and culture. He served previously as the paper's Mexico bureau chief, Africa bureau chief and Afghanistan bureau chief. ",
+          "expertise": "International Investigative Correspondent - Sports",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/0afb76ea-5254-4919-8097-88a27677ed1e.png"
+        }
+      ]
+    },
+    {
+      "arcId": "4STJFFYZLNBQ5FCYYLKEXB5NME",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "For a while, the land border that separates Haiti and the Dominican Republic was also the demarcation point between two very different coronavirus outbreaks."
+    },
+    {
+      "arcId": "Y3LPYQPQ7RA73DFXU6CF6754BA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "In the Dominican Republic, which draws tourists from around the world, cases surged to the highest level in the Caribbean. In Haiti, which had grown more isolated during a year of political violence, the <a href=\"https://www.washingtonpost.com/world/the_americas/haiti-has-a-tragic-history-of-disasters-will-covid-19-be-next/2020/04/24/d7b5320a-849d-11ea-81a3-9690c9881111_story.html\">population appeared to have been largely spared</a>."
+    },
+    {
+      "arcId": "MEWPJGUPWZA5TGFNNBHX5RDMNI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "But over the last few weeks, that has begun to change, as tens of thousands of Haitian workers have returned from the Dominican Republic to their own country, many bringing the virus with them. That flow of returnees is expected to spark an outbreak that the poorest country in the Western Hemisphere will be unable to fight."
+    },
+    {
+      "type": "toggle",
+      "subtype": "topic-follow",
+      "key": "CP-4"
+    },
+    {
+      "arcId": "24OPMOUFJZCXVI2JG3SUOT3JGI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cThis epidemic is a tinderbox in the process of burning and will explode in the coming weeks,\u201d said Jean William Pape, a doctor who is the co-director of Haiti\u2019s presidential commission on the novel coronavirus."
+    },
+    {
+      "arcId": "GI373YP4TNH3FGXB2UD4DGMP24",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Haiti and the Dominican Republic each have populations of around 11 million, but few neighboring countries are as unequal. The average Haitian is almost 10 times poorer than the average Dominican. Haiti\u2019s infant mortality rate is twice as high. At least 500,000 Haitians work in the Dominican Republic; remittances sent home by all Haitians abroad make up a third of Haiti\u2019s GDP."
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZHVLZGUWZMI6VB5DELJSII2WGY.jpg",
+      "imageWidth": 2300,
+      "imageHeight": 1531,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "",
+      "blurb": "Map of coronavirus numbers in Haiti and the Dominican Republic"
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.washingtonpost.com/world/the_americas/haiti-has-a-tragic-history-of-disasters-will-covid-19-be-next/2020/04/24/d7b5320a-849d-11ea-81a3-9690c9881111_story.html",
+      "content": "Haiti has a tragic history of disasters. Will covid-19 be next?"
+    },
+    {
+      "arcId": "N3AKHWZS7BFD3C5TXQYOIUSUL4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "As the Dominican Republic closed down in response to its coronavirus outbreak, it suspended the temporary legal status of more than 150,000 of those Haitian workers. Undocumented Haitians also lost jobs. Around 27,000 Haitians have returned home since March 17, according to the International Organization for Migration."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "tall",
+      "adPath": "/world",
+      "primarySectionID": "/world/americas"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "primarySectionID": "/world/americas"
+    },
+    {
+      "arcId": "PYTGRUYSVFFOFBUBK4NYP2HVRQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cThis is now the main vector of the disease,\u201d said Sandra Lamarque, the head of mission for Doctors Without Borders in Haiti."
+    },
+    {
+      "arcId": "5OJBHKHIGFCAPPVMEW6FNGKO4M",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The Haitian government and international NGOs rushed to set up facilities along the border to screen returnees. But most entered the country through informal crossing points, and even some of those who showed symptoms at official crossings quietly continued into the interior of the country."
+    },
+    {
+      "arcId": "D4T4IIUR6VBYLGQE6E6DSSDXWU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cHaitian people are being forced out of the Dominican Republic and also running from the virus there,\u201d Pape said. \u201cBorder crossings and the inability to practice social distancing and refusal by large parts of the population to wear masks in public make this epidemic undeniable.\u201d"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/577PS7EWE4I6VEOXZ5CCHVDWQM.jpg",
+      "imageWidth": 5507,
+      "imageHeight": 3679,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Health Ministry workers arrive to check on a group of Haitians who were deported from the United States at a hotel in Tabarre, where they were quarantined. (Dieu Nalio Chery/AP)",
+      "blurb": "Health Ministry workers arrive to check on a group of Haitians who were deported from the United States at a hotel in Tabarre, where they were quarantined."
+    },
+    {
+      "arcId": "NXDL5GIE35FCBBW6BTXJ6F5UO4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Jhonny Jean Baptiste, 22, was working at a call center in the Dominican city of San Francisco last month when his bosses told him the center was closing and that he should return to Haiti."
+    },
+    {
+      "arcId": "TRKY2H4IVVDIROO3FQIZN3GZ7Y",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cI had no choice,\u201d he said. \u201cThe Dominican government wanted us out.\u201d"
+    },
+    {
+      "arcId": "S44NBUKRCRGA5LMXQMN5KSG35A",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Baptiste took a minibus to the border, where he saw hundreds more Haitians also heading home."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "primarySectionID": "/world/americas"
+    },
+    {
+      "arcId": "Y7PRGYKDPBDBFPVY6IYEBLVTRQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cI thought, \u2018Haiti isn\u2019t infected like the DR,\u2019\u2009\u201d he said. \u201cBut now we\u2019ll see what happens.\u201d"
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.washingtonpost.com/world/the_americas/coronavirus-cuba-doctors-trump-ecuador-brazil-bolivia/2020/04/10/d062c06e-79c4-11ea-a311-adb1344719a9_story.html",
+      "content": "U.S. allies, encouraged by Washington, said goodbye to their Cuban doctors. As coronavirus surges, some are arguing for their return."
+    },
+    {
+      "arcId": "XXMYCOEDIFEXHOFTRZFAYNCLJA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Haiti has four medical centers with a total of 200 beds treating patients with covid-19, the illness caused by the coronavirus. The government and NGOs are planning to set up more facilities, but several communities have opposed the construction of such centers, which they worry could spread the virus in their neighborhoods."
+    },
+    {
+      "arcId": "HX4YF7DUHFB6HJTK5L7KW4PXQM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cThere are 200 beds, and models predict that we will need up to 9,000 beds at the peak,\u201d Pape said. \u201cThe number of predicted cases is as high as 313,000. Haiti is not prepared \u2014 many hospitals are refusing to work to diagnose and treat covid patients due to lack of [personal protective equipment], stigma and no preparation.\u201d"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4SXCHQEWFYI6VBFWUE57EE6SPI.jpg",
+      "imageWidth": 3500,
+      "imageHeight": 2333,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Haitian security forces outside a hotel in Port-au-Prince designated as a quarantine facility. (Andres Martinez Casares/Reuters)",
+      "blurb": "Haitian security forces outside a hotel in Port-au-Prince designated as a quarantine facility."
+    },
+    {
+      "arcId": "FXRUMCRPIZFJVGK46SFGI4QSOE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Haiti has tested about 1,300 people and confirmed 234 cases. For the first time this week, the virus registered exponential growth. The Dominican Republic has confirmed 11,320 cases."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "primarySectionID": "/world/americas"
+    },
+    {
+      "arcId": "WNDVBF2CBRHDBCIATGHZYMR5ME",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The United States, meanwhile, has continued to deport Haitians, including at least three who tested positive for the virus after arriving. Of those three, one man escaped from a quarantine facility in Port-au-Prince last month, raising concerns about yet another vector of community transmission."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "primarySectionID": "/world/americas"
+    },
+    {
+      "arcId": "YLVYTLCUEBCDPMT7IRY4EVW2PU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cThere\u2019s virtually no intensive care unit for covid, and yet they still maintain deportations,\u201d Lamarque said. \u201cWe think it\u2019s irresponsible.\u201d"
+    },
+    {
+      "arcId": "3MPYWF5FMZCUJOYKONC3DTYKSY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "U.S. Immigration and Customs Enforcement says it <a href=\"https://www.washingtonpost.com/world/the_americas/us-is-deporting-infected-migrants-back-to-vulnerable-countries/2020/04/21/5ec3dcfe-8351-11ea-81a3-9690c9881111_story.html\">conducts medical screenings of deportees</a> before the flights take off."
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.washingtonpost.com/world/the_americas/us-is-deporting-infected-migrants-back-to-vulnerable-countries/2020/04/21/5ec3dcfe-8351-11ea-81a3-9690c9881111_story.html",
+      "content": "U.S. is deporting infected migrants back to vulnerable countries"
+    },
+    {
+      "arcId": "BNJNEZIXABACJMSJVTDAXFLG7E",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Haiti\u2019s public health infrastructure has been eroded over the last decade by a succession of crises: the <a href=\"https://www.washingtonpost.com/wp-dyn/content/article/2010/03/12/AR2010031202050.html\">2010 earthquake</a> that killed at least 200,000 people, a subsequent <a href=\"https://www.washingtonpost.com/world/un-accepts-role-in-deadly-haiti-cholera-outbreak-for-first-time/2016/08/18/a3c9d05c-62bd-4c7a-be4a-6f44f333fa17_story.html\">cholera outbreak</a> that killed another 10,000, and <a href=\"https://www.washingtonpost.com/world/the_americas/daily-protests-are-paralyzing-haiti-heres-why/2019/10/14/aba02aba-ee9f-11e9-bb7e-d2026ee0c199_story.html\">political clashes last year</a> that caused violence to surge."
+    },
+    {
+      "arcId": "IAE5AUTFVJGDHELQSG222MXGUY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "In January, before the coronavirus had arrived in the Western Hemisphere, Doctors Without Borders assessed Haiti\u2019s health-care sector a decade after the earthquake."
+    },
+    {
+      "arcId": "34GEZF4WV5EX5PMZ2RWO552KYI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cMost medical humanitarian organizations have left the country,\u201d the organization reported, \u201cand Haiti\u2019s medical system is once again on the brink of collapse amid an escalating political and economic crisis.\u201d"
+    },
+    {
+      "arcId": "4OQHD3B36VBJZH5XJJPE72IAMI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Haiti this week received several shipments of medical supplies, including personal protective equipment, from China. The United Nations said it has struggled to raise foreign donations to prepare for the impending disaster."
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4TE6GYUWFYI6VBFWUE57EE6SPI.jpg",
+      "imageWidth": 5355,
+      "imageHeight": 3570,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Haitian President Jovenel Mo\u00efse, center, his wife, Martine, left, and Prime Minister Joseph Jouthe appear at Toussaint Louverture International Airport in Port-au-Prince on May 7 to receive coronavirus aid from China. (Pierre Michel Jean/AFP/Getty Images)",
+      "blurb": "Haitian President Jovenel Mo\u00efse, center, his wife, Martine, left, and Prime Minister Joseph Jouthe appear at Toussaint Louverture International Airport in Port-au-Prince on May 7 to receive coronavirus aid from China."
+    },
+    {
+      "arcId": "5GIA3GQBBVFEVHUOSASQAHCC74",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Francky Cledanor, 46, has lived in the Vall\u00e9e de Bourdon, a slum in Port-au-Prince, since 2000. His house was destroyed in the 2010 earthquake; he rebuilt it with wood and sheet metal. In recent days, he and his neighbors had been trying to decide what they would do if one of them became ill."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "primarySectionID": "/world/americas"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "primarySectionID": "/world/americas"
+    },
+    {
+      "arcId": "NWFPQBH72VB3VALW2C4OLHXWVQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cHaiti is not ready,\u201d he said. \u201cWe do not have a health center in our neighborhood. We do not know which hospital receives people who are sick with corona. For cholera, we knew where to go, but now no. We do not have enough information.\u201d"
+    },
+    {
+      "arcId": "D2OKDZJYHJGBLK5BHULS25NCOE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "As Haitians pour back into the country from the Dominican Republic, the IOM has helped the government set up the border screenings. Returnees with fevers are asked to stay overnight and receive medical attention. But the medical teams on the border do not currently have access to coronavirus tests."
+    },
+    {
+      "arcId": "6I4VKHZ3CFHX3B5H5NSNVTYTYI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Because of the stigma attached to the disease, many people with symptoms have resisted quarantine. Those with fevers are referred to local hospitals, but not all choose to go."
+    },
+    {
+      "arcId": "BYSTIHL4YFEGFAWLQ6YWBT6M2Q",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cThere have been instances where people have threatened to burn down the houses of people suspected of having covid-19,\u201d Pape said. \u201cThe disease is not well understood by the general population.\u201d"
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.washingtonpost.com/world/the_americas/coronavirus-developing-world-brazil-egypt-india-kenya-venezuela/2020/03/31/d52fe238-6d4f-11ea-a156-0048b62cdb51_story.html",
+      "content": "Public health experts: Coronavirus could overwhelm the developing world"
+    },
+    {
+      "arcId": "G7PB2BO2KNAM3BLXX5V7DPCZZE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Haitian officials and aid workers worry about the next phase in cross-border migration \u2014 when Haiti\u2019s coronavirus cases peak and the cases in the Dominican Republic begin to decline. At that point, thousands of Haitians are likely to attempt to cross back into the country next door."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "primarySectionID": "/world/americas"
+    },
+    {
+      "arcId": "OFBQVHKW25HOVH4XOMUA6M44EI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Dominican Health Minister Rafael S\u00e1nchez C\u00e1rdenas last week called Haiti \u201ca major threat to the Dominican Republic from a health point of view\u201d and promised tighter border controls."
+    },
+    {
+      "arcId": "3JETRL4WTRFXVF6BM6MEJ5ZUWI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Baptiste, the call center worker, said he would most likely wait in Haiti for three months before returning to the Dominican Republic."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "primarySectionID": "/world/americas"
+    },
+    {
+      "arcId": "WXPODXM3RZCXFDTPSR6GAT2GY4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cThere\u2019s no way to make money in Haiti,\u201d he said. \u201cI\u2019ll need to go back.\u201d"
+    },
+    {
+      "arcId": "PABEQMK6UBDPJFMZKBTHMVWBHU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Bruno Lemarquis, the deputy special representative of the United Nations integrated office in Haiti, predicted a \u201creverse flow.\u201d"
+    },
+    {
+      "arcId": "ENRNSPVDDZHE7KQE7PRC3VSU5E",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cThe Caribbean is only as solid as its weakest health system, which is in Haiti,\u201d Lemarquis said. \u201cIf it doesn\u2019t go well here, we know what will happen. People will leave.\u201d"
+    },
+    {
+      "arcId": "ELEE72VYNJCLNJWJACXNEESHYM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i> <b>Correction: An earlier version of this article inaccurately described the impact of remittances sent to Haiti by its citizens in the Dominican Republic and misstated the number of Haitians who have returned from the Dominican Republic. Remittances from all Haitians abroad, not just those in the Dominican Republic, make up a third of the country\u2019s GDP, according to data from the World Bank. Around 27,000 Haitians have returned from the Dominican Republic since March 17, not 22,000 per week, according to the International Organization for Migration.</b> </i>"
+    },
+    {
+      "arcId": "DLVB5ELGMZBXLPIZ7B5F76Y4AQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Sieff reported from Mexico City. Andr\u00e9 Paultre in Port-au-Prince contributed to this report."
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.washingtonpost.com/world/the_americas/daily-protests-are-paralyzing-haiti-heres-why/2019/10/14/aba02aba-ee9f-11e9-bb7e-d2026ee0c199_story.html",
+      "content": "Daily protests are paralyzing Haiti. Here\u2019s why."
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.washingtonpost.com/world/the_americas/brazil-coronavirus-rio-favela/2020/03/20/2522b49e-6889-11ea-b199-3a9799c54512_story.html",
+      "content": "Brazil\u2019s densely packed favelas brace for coronavirus: \u2018It will kill a lot of people\u2019"
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.washingtonpost.com/world/the_americas/for-the-dominican-republic-six-us-tourist-deaths-the-shooting-of-a-beloved-ballplayer-and-a-new-image-problem/2019/06/11/8e31af1a-8c4a-11e9-b6f4-033356502dce_story.html",
+      "content": "For the Dominican Republic, seven U.S. tourist deaths, the shooting of David Ortiz and a new image problem"
+    },
+    {
+      "type": "interstitial_link",
+      "url": "http://www.washingtonpost.com/world",
+      "content": "Today\u2019s coverage from Post correspondents around the world"
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.facebook.com/washingtonpostworld/",
+      "content": "Like Washington Post World on Facebook and stay updated on foreign news"
+    },
+    {
+      "type": "link",
+      "subtype": "comments"
+    },
+    {
+      "type": "author_info",
+      "id": "sieffk",
+      "name": "Kevin Sieff",
+      "bio": "Kevin Sieff is an international investigative correspondent at The Washington Post focusing on the places where sports intersects with politics, crime and culture. He served previously as the paper's Mexico bureau chief, Africa bureau chief and Afghanistan bureau chief.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/0afb76ea-5254-4919-8097-88a27677ed1e.png",
+      "role": "Staff writer"
+    },
+    {
+      "type": "element_group",
+      "subtype": "link_box",
+      "content_elements": [
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<b>The latest:</b> The <a href=\"https://www.washingtonpost.com/health/2025/01/25/covid-flu-winter-virus/\">covid wave this winter is less severe</a> compared with previous years, with hospitalization rates down and wastewater levels lower."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<b>Combined coronavirus and flu vaccine:</b> A <a href=\"https://www.washingtonpost.com/health/2024/06/10/covid-flu-combined-vaccine-moderna/\">combined coronavirus-influenza vaccine may be on the horizon</a> after Moderna\u2019s shot produced a higher immune response in older adults than separate vaccines for those viruses administered together. Moderna officials say the earliest that the combined vaccine could hit the market is the fall of 2025, pending regulatory approval."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<b>Covid isolation guidelines: </b><a href=\"https://www.washingtonpost.com/health/2024/03/01/new-cdc-covid-isolation-guidelines/\">Americans who test positive for the coronavirus no longer need to routinely stay home</a> from work and school for five days under new guidance<b> </b>from the Centers for Disease Control and Prevention. Here are the <a href=\"https://www.washingtonpost.com/health/2024/07/18/biden-covid-guidelines-symptoms/\">latest guidelines</a>."
+        }
+      ],
+      "additional_properties": {
+        "link_box_title": "Coronavirus: What you need to know",
+        "link_box_byline": null,
+        "link_box_display_date": 1727356670725,
+        "link_box_subheadline": null
+      }
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "show_summary": true,
+  "related_content": {
+    "magnet": [
+      {
+        "embed": {
+          "id": "coronavirus",
+          "url": "https://www.washingtonpost.com/magnet/coronavirus/"
+        },
+        "subtype": "magnet",
+        "type": "custom_embed"
+      }
+    ]
+  },
+  "editorpicks": [
+    {
+      "type": "recirculation-link",
+      "mime": "text/html",
+      "content": "<i>[Haiti has a tragic history of disasters. Will covid-19 be next?]</i>",
+      "url": "https://www.washingtonpost.com/world/the_americas/haiti-has-a-tragic-history-of-disasters-will-covid-19-be-next/2020/04/24/d7b5320a-849d-11ea-81a3-9690c9881111_story.html"
+    },
+    {
+      "type": "recirculation-link",
+      "mime": "text/html",
+      "content": "<i>[U.S. allies, encouraged by Washington, said goodbye to their Cuban doctors. As coronavirus surges, some are arguing for their return.]</i>",
+      "url": "https://www.washingtonpost.com/world/the_americas/coronavirus-cuba-doctors-trump-ecuador-brazil-bolivia/2020/04/10/d062c06e-79c4-11ea-a311-adb1344719a9_story.html"
+    },
+    {
+      "type": "recirculation-link",
+      "mime": "text/html",
+      "content": "<i>[U.S. is deporting infected migrants back to vulnerable countries]</i>",
+      "url": "https://www.washingtonpost.com/world/the_americas/us-is-deporting-infected-migrants-back-to-vulnerable-countries/2020/04/21/5ec3dcfe-8351-11ea-81a3-9690c9881111_story.html"
+    },
+    {
+      "type": "recirculation-link",
+      "mime": "text/html",
+      "content": "<i>[Public health experts: Coronavirus could overwhelm the developing world]</i>",
+      "url": "https://www.washingtonpost.com/world/the_americas/coronavirus-developing-world-brazil-egypt-india-kenya-venezuela/2020/03/31/d52fe238-6d4f-11ea-a156-0048b62cdb51_story.html"
+    },
+    {
+      "type": "recirculation-link",
+      "mime": "text/plain",
+      "content": "Daily protests are paralyzing Haiti. Here\u2019s why.",
+      "url": "https://www.washingtonpost.com/world/the_americas/daily-protests-are-paralyzing-haiti-heres-why/2019/10/14/aba02aba-ee9f-11e9-bb7e-d2026ee0c199_story.html"
+    },
+    {
+      "type": "recirculation-link",
+      "mime": "text/plain",
+      "content": "Brazil\u2019s densely packed favelas brace for coronavirus: \u2018It will kill a lot of people\u2019",
+      "url": "https://www.washingtonpost.com/world/the_americas/brazil-coronavirus-rio-favela/2020/03/20/2522b49e-6889-11ea-b199-3a9799c54512_story.html"
+    },
+    {
+      "type": "recirculation-link",
+      "mime": "text/plain",
+      "content": "For the Dominican Republic, seven U.S. tourist deaths, the shooting of David Ortiz and a new image problem",
+      "url": "https://www.washingtonpost.com/world/the_americas/for-the-dominican-republic-six-us-tourist-deaths-the-shooting-of-a-beloved-ballplayer-and-a-new-image-problem/2019/06/11/8e31af1a-8c4a-11e9-b6f4-033356502dce_story.html"
+    },
+    {
+      "type": "recirculation-link",
+      "mime": "text/plain",
+      "content": "Today\u2019s coverage from Post correspondents around the world",
+      "url": "http://www.washingtonpost.com/world"
+    },
+    {
+      "type": "recirculation-link",
+      "mime": "text/plain",
+      "content": "Like Washington Post World on Facebook and stay updated on foreign news",
+      "url": "https://www.facebook.com/washingtonpostworld/"
+    }
+  ],
+  "content_restriction_code": "default",
+  "targeting": {
+    "adcall": [
+      {
+        "key": "ca",
+        "values": [
+          "rcisc",
+          "r1zb8",
+          "r5zn0",
+          "rjqr5",
+          "rnfyo",
+          "rddr6",
+          "r71he",
+          "rqlce",
+          "r63ky",
+          "rq0bc",
+          "r8kl5",
+          "r1djc",
+          "rj98c",
+          "r0yv2",
+          "r2ztd",
+          "ralq3",
+          "r6x7c",
+          "rh5hz",
+          "rvt6h",
+          "rxvfu",
+          "rcvrb",
+          "rpkxx",
+          "rohf5",
+          "reest",
+          "r8paa",
+          "rqltv",
+          "r6ovq",
+          "ru0hj",
+          "rk4hi",
+          "riure",
+          "r2x7m",
+          "rjls7",
+          "rnryg",
+          "rihsc",
+          "rh065",
+          "r4qca",
+          "ren01",
+          "r6iq7",
+          "rbxhu",
+          "r30iy",
+          "rw76f",
+          "rh22v",
+          "rhwg4",
+          "r82mu",
+          "r35cx",
+          "rl43b",
+          "ru1jm",
+          "r6jbe",
+          "ryx8n",
+          "rkgjf",
+          "r1yqm",
+          "raw34",
+          "r6g4r",
+          "rf299",
+          "rvqcm",
+          "rzhau",
+          "r3vky",
+          "rzd33",
+          "rvy90",
+          "rtdlb",
+          "rjuyh",
+          "rzfmu",
+          "rz25l",
+          "r9kyn",
+          "r3hdp",
+          "rynal",
+          "rrytf",
+          "r7d9r",
+          "rl7yb",
+          "rsmxd",
+          "rt5dp",
+          "r7tmu",
+          "rzqdp",
+          "r3t9e",
+          "r4avn",
+          "rva7x",
+          "r3bxp",
+          "rwsk4",
+          "rfhup",
+          "r3ykj",
+          "rsjjy",
+          "rhfzk",
+          "rqs5o",
+          "r4t4y",
+          "rfpua",
+          "r35lh",
+          "rz457",
+          "rr25v",
+          "rj2ns",
+          "rfz4c",
+          "rk7m0",
+          "rh5xk",
+          "rtv19",
+          "rj67t",
+          "r8hz2",
+          "r2qxu",
+          "raoi5",
+          "rrlor",
+          "ratb5",
+          "rhll0",
+          "rdnyf",
+          "rrhwk",
+          "rtbcp",
+          "rgpk6",
+          "r3es4",
+          "rd270",
+          "r8x1i",
+          "rx8m9",
+          "rl3n6",
+          "rd18m",
+          "rsesv",
+          "rjbi9",
+          "rggwa",
+          "r1ysy",
+          "r8ig8",
+          "rx4px",
+          "rf3q1",
+          "rs7c2",
+          "rsoqi",
+          "rjvyd",
+          "rxeck",
+          "rsl4v",
+          "rlz8o",
+          "rle1y",
+          "rzofg",
+          "rwlm1",
+          "r46n5",
+          "rlw2t",
+          "r5lck",
+          "rvhux",
+          "rvywr",
+          "rdlnx",
+          "r1fsz",
+          "rg1ny",
+          "rc6uk",
+          "riklp",
+          "r301t",
+          "rf0ll",
+          "rbjys",
+          "rh52g",
+          "rgn4c",
+          "rlv7a",
+          "rvn0g",
+          "r54xz",
+          "romxp",
+          "rybe7",
+          "rlyaf",
+          "r3mmv",
+          "r0kbr",
+          "rqyhw",
+          "rer82",
+          "r2com_l",
+          "rloxr",
+          "r3mmr",
+          "r78zx",
+          "rkqfd",
+          "rk0qi",
+          "rem29_l",
+          "rgywb",
+          "rkkqd",
+          "r0hej",
+          "r44lb",
+          "rdu47",
+          "r1nqd",
+          "r05in",
+          "rnknt",
+          "rgjgs",
+          "r1a2g",
+          "r8e60",
+          "ru20c",
+          "rjrvp",
+          "r8218",
+          "rqvzr",
+          "rdluz",
+          "r7e5f",
+          "r2dwe",
+          "r6h78",
+          "r0yto",
+          "rtsg3",
+          "rv05p",
+          "ru14c",
+          "rh7z0",
+          "r50pl",
+          "r169f",
+          "r5enu_l",
+          "ri474",
+          "r1waw",
+          "ribdm",
+          "rlc5f",
+          "rn1ry",
+          "rt992",
+          "r6f4o"
+        ]
+      },
+      {
+        "key": "wapoTopics",
+        "values": [
+          "x5wz",
+          "cifu",
+          "x1j3",
+          "xvax",
+          "meur",
+          "xrp2",
+          "pavs",
+          "immc",
+          "naf4",
+          "earn",
+          "soax",
+          "soig",
+          "tee3"
+        ]
+      },
+      {
+        "key": "wapoTopicNextVer",
+        "values": [
+          "acdq",
+          "naf4",
+          "earn",
+          "x5wz",
+          "x1j3",
+          "xvax",
+          "x5h3",
+          "cifu",
+          "xrp2",
+          "epig",
+          "pavs",
+          "soax",
+          "soig",
+          "immc",
+          "tee3",
+          "tseg",
+          "meur"
+        ]
+      },
+      {
+        "key": "bs",
+        "values": [
+          "garm_medium",
+          "wapo_rsk_medium"
+        ]
+      }
+    ],
+    "permutive_dict": {
+      "article": {
+        "customTopics": [
+          "[rgjgs] Women's Beauty",
+          "[r1a2g] Labor",
+          "[r8e60] Community Service",
+          "[ru20c] Disasters, Accidents, Tragedies",
+          "[rjrvp] POTUS",
+          "[r8218] Construction, Engineering",
+          "[rdluz] Health Care Policy",
+          "[r0yto] Inspiring",
+          "[rv05p] Graduate Education",
+          "[ru14c] Affluent",
+          "[rh7z0] Senior Living",
+          "[r1waw] Hospital, Clinic",
+          "[rn1ry] Civil Engineering"
+        ],
+        "wapoTopics": [
+          "[1:x5wz] /health",
+          "[2:cifu] /health/cholera",
+          "[2:x1j3] /health/coronavirus",
+          "[2:xvax] /health/diseases_and_conditions",
+          "[2:meur] /health/medical_technology",
+          "[2:xrp2] /health/public_health",
+          "[3:pavs] /health/public_health/pandemics",
+          "[1:immc] /immigration",
+          "[1:naf4] /natural_disasters",
+          "[2:earn] /natural_disasters/earthquakes",
+          "[1:soax] /social_affairs",
+          "[2:soig] /social_affairs/social_issues",
+          "[1:tee3] /technology"
+        ],
+        "wapoTopicNextVer": [
+          "[1:acdq] /accidents_and_disasters",
+          "[2:naf4] /accidents_and_disasters/natural_disasters",
+          "[3:earn] /accidents_and_disasters/natural_disasters/earthquakes",
+          "[1:x5wz] /health",
+          "[2:x1j3] /health/coronavirus",
+          "[2:xvax] /health/diseases_and_conditions",
+          "[3:x5h3] /health/diseases_and_conditions/infectious_diseases",
+          "[4:cifu] /health/diseases_and_conditions/infectious_diseases/cholera",
+          "[2:xrp2] /health/public_health",
+          "[3:epig] /health/public_health/epidemics",
+          "[4:pavs] /health/public_health/epidemics/pandemics",
+          "[1:soax] /social_affairs",
+          "[2:soig] /social_affairs/social_issues",
+          "[3:immc] /social_affairs/social_issues/immigration",
+          "[1:tee3] /technology",
+          "[2:tseg] /technology/technology_sectors",
+          "[3:meur] /technology/technology_sectors/medical_technology"
+        ],
+        "publishDate": "2020-05-12T18:37:38.822Z",
+        "lastUpdateDate": "2020-05-19T14:13:05.184Z",
+        "authorName": [
+          "kevin sieff"
+        ],
+        "authorType": [
+          "author"
+        ],
+        "newsroomDesk": [
+          "foreign"
+        ],
+        "newsroomSubdesk": [
+          "foreign - americas"
+        ],
+        "contentType": "story",
+        "language": "en",
+        "wordCount": 1522
+      },
+      "canonicalUrl": "/world/the_americas/coronavirus-haiti-dominican-republic-hispaniola/2020/05/14/a51d0664-947f-11ea-87a3-22d324235636_story.html",
+      "section": "world",
+      "subsection": "the_americas",
+      "commercialNode": "/world"
+    }
+  },
+  "comments": "https://www.washingtonpost.com/world/the_americas/coronavirus-haiti-dominican-republic-hispaniola/2020/05/14/a51d0664-947f-11ea-87a3-22d324235636_story.html?outputType=comment"
+}

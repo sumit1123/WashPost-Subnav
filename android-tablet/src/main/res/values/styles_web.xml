@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="mc_webViewProgressBar" />
+    <attr name="mc_web_section_style" format="reference" />
+
+    <color name="web_view_progress">#1e88e5</color>
+    <color name="web_view_progress_bg">#e3f2fd</color>
+
+    <style name="MCWebViewProgress" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="colorAccent">@color/web_view_progress</item>
+        <item name="android:progressBackgroundTint">@color/web_view_progress_bg</item>
+    </style>
+
+    <style name="MCWebSection">
+        <item name="android:paddingBottom">@dimen/phone_bottom_bar_height</item>
+    </style>
+
+</resources>

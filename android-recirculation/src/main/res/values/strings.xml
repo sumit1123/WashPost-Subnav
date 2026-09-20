@@ -1,0 +1,24 @@
+<!--
+  ~ Copyright (c) 2018. The Washington Post
+  ~ Created by adkinsj on 6/21/18
+  -->
+
+<resources>
+    <string name="app_name">android-recirculation</string>
+    <string name="explore_more_in">Explore more in</string>
+    <string name="section_title">section title</string>
+    <string name="kicker_separator">\u2022</string>
+    <string name="kicker_font_file">FranklinITCStd-Bold.otf</string>
+    <string name="story_type_font_file">FranklinITCStd-Light.otf</string>
+    <string name="title_font_file">PostoniWide-Bold.otf</string>
+    <string name="by_line_font_file">FranklinITCStd-Light.otf</string>
+    <string name="because_you_read">FranklinITCStd-Bold.otf</string>
+    <string name="media_image_content_desc" translatable="false">thumbnail</string>
+    <string name="audio_item_art" translatable="false">Audio item art</string>
+    <string name="immersion_item_art" translatable="false">Immersion item art</string>
+    <string name="recipe_item_art" translatable="false">Recipe item art</string>
+    <string name="recipe_bookmark_art" translatable="false">Bookmark item</string>
+
+    <string name="pick_up_where_you_left_off_percentage_completed">%d%% Completed</string>
+    <string name="new_podcast">NEW</string>
+</resources>

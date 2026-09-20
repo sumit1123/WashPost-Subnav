@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="section_fronts_tag" type="id"></item>
+    <item name="section_fronts_tag_border" type="id"></item>
+    <item name="article_position_tag" type="id"></item>
+    <item name="article_object_tag" type="id"></item>
+    <item name="section_position_tag" type="id"></item>
+    <item name="print_page_tag" type="id"></item>
+    <item name="bottom_tabs_main_container" type="id"/>
+</resources>

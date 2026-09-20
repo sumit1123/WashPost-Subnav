@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/menu_divider_container"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content">
+
+    <View
+        a:id="@+id/menu_divider"
+        style="@style/Menu.Divider"
+        a:layout_width="match_parent" />
+</FrameLayout>

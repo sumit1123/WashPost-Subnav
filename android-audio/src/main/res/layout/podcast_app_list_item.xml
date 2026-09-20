@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/tv_podcast_app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/podcast_app_dialog_margin_medium"
+        android:paddingRight="@dimen/podcast_app_dialog_margin_medium"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textColor="@color/podcast_add_series_text_color"
+        android:textSize="@dimen/podcast_title_text_size"
+        android:duplicateParentState="true"
+        android:background="@color/transparent"/>
+</LinearLayout>

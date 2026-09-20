@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/unification_onboarding_dark">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/main_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_marginLeft="@dimen/amazon_uni_side_margin"
+        android:layout_marginRight="@dimen/amazon_uni_side_margin"
+        app:layout_constraintBottom_toTopOf="@+id/ll_cta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:orientation="vertical"
+            android:paddingVertical="120dp">
+
+            <TextView
+                android:id="@+id/tvWelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/amazon_uni_spacing"
+                android:lineSpacingExtra="3sp"
+                android:text="@string/welcome_redesigned"
+                android:textColor="@color/unification_onboarding_light_primary"
+                android:textStyle="bold"
+                android:textSize="@dimen/amazon_uni_main_title"
+                app:fontFamily="@font/postoniwide_bold" />
+
+            <TextView
+                android:id="@+id/tv_welcome_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/franklinitcstd_light"
+                android:layout_marginBottom="@dimen/amazon_uni_spacing"
+                android:text="@string/unification_onboarding_amazon_subtitle"
+                android:textColor="@color/unification_onboarding_light_secondary"
+                android:textSize="@dimen/amazon_uni_secondary_text" />
+
+            <TextView
+                android:id="@+id/tvMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="36dp"
+                android:fontFamily="@font/franklin_std_light"
+                android:textAlignment="textStart"
+                android:textColor="@color/unification_onboarding_light_secondary"
+                android:textSize="@dimen/amazon_uni_secondary_text"
+                tools:text="You're now signed in as \n abcdefghijklmnop@qrstuvwxyz.com" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp">
+
+                <ImageView
+                    android:layout_width="@dimen/amazon_uni_icon_size"
+                    android:layout_height="@dimen/amazon_uni_icon_size"
+                    android:contentDescription="@string/saved_stories"
+                    app:srcCompat="@drawable/ic_glyph" />
+
+                <TextView
+                    android:id="@+id/tvFeature1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/franklinitcstd_light"
+                    android:lineSpacingExtra="2.5sp"
+                    android:paddingHorizontal="11dp"
+                    android:text="@string/check_saved_stories"
+                    android:textColor="@color/unification_onboarding_light_primary"
+                    android:textSize="@dimen/amazon_uni_secondary_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp">
+
+                <ImageView
+                    android:layout_width="@dimen/amazon_uni_icon_size"
+                    android:layout_height="@dimen/amazon_uni_icon_size"
+                    android:contentDescription="@string/sparkle_icon"
+                    app:srcCompat="@drawable/ic_sparkle" />
+
+                <TextView
+                    android:id="@+id/tvFeature3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/franklinitcstd_light"
+                    android:lineSpacingExtra="2.5sp"
+                    android:paddingHorizontal="11dp"
+                    android:text="@string/discover_top_stories"
+                    android:textColor="@color/unification_onboarding_light_primary"
+                    android:textSize="@dimen/amazon_uni_secondary_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp">
+
+                <ImageView
+                    android:layout_width="@dimen/amazon_uni_icon_size"
+                    android:layout_height="@dimen/amazon_uni_icon_size"
+                    android:contentDescription="@string/alerts_icon"
+                    app:srcCompat="@drawable/ic_alert_outline" />
+
+                <TextView
+                    android:id="@+id/tvFeature2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/franklinitcstd_light"
+                    android:lineSpacingExtra="2.5sp"
+                    android:paddingHorizontal="11dp"
+                    android:text="@string/customize_alerts"
+                    android:textColor="@color/unification_onboarding_light_primary"
+                    android:textSize="@dimen/amazon_uni_secondary_text" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_cta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="@dimen/amazon_uni_bottom_margin"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/main_content"
+        app:layout_constraintStart_toStartOf="@id/main_content">
+
+        <LinearLayout
+            android:id="@+id/btn_get_started"
+            android:layout_width="@dimen/amazon_uni_button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/amazon_uni_button_spacing"
+            android:background="@drawable/amazon_unification_rounded_corner_button"
+            android:gravity="center"
+            android:maxWidth="300dp"
+            android:minHeight="@dimen/amazon_uni_button_vert_padding"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/get_started"
+                android:textColor="@color/unification_onboarding_dark"
+                android:textSize="@dimen/amazon_uni_button_text"
+                android:textStyle="bold"
+                app:fontFamily="@font/franklin_std_bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_sign_in"
+            style="@style/paywall_sheet_sub_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:text="@string/sign_in_as_someone_else"
+            android:textColor="@color/unification_onboarding_text"
+            android:textColorLink="@color/unification_onboarding_text"
+            android:textSize="@dimen/amazon_uni_secondary_text" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

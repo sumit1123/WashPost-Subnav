@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="false">
+
+    <TextView
+        android:id="@id/live_blog_bullet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/drawable_solid_circle_red"
+        android:drawablePadding="5dp" />
+
+    <TextView
+        android:id="@id/live_blog_time"
+        style="@style/liveblog_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/live_blog_item_date_color"
+        android:textSize="@dimen/sf_live_blog_list_item"
+        tools:text="date" />
+
+    <com.wapo.view.FlowableTextView
+        android:id="@id/live_blog_headline"
+        style="@style/liveblog_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/live_blog_time"
+        android:layout_marginLeft="12dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingBottom="11dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/sf_live_blog_list_item"
+        android:textStyle="bold"
+        tools:text="headline" />
+
+    <View
+        android:id="@+id/blog_decor_line"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@id/live_blog_headline"
+        android:layout_below="@id/live_blog_bullet"
+        android:layout_marginLeft="2dp"
+        android:background="@color/live_blog_separator" />
+
+</RelativeLayout>

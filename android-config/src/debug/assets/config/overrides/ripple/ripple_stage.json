@@ -1,0 +1,13 @@
+{
+  "ripple": {
+    "enabled": true,
+    "rippleKey": "RPL",
+    "testGroups": ["1", "2"],
+    "topStoriesUrl": "https://www.wapodev.com/jsonapp/sandbox/ripple.B?key=577bfd726c9f451f87ffd7d280219671",
+    "findHighlightItem": {
+      "title": "Ripple: Outside Voices",
+      "link": "https://beta.washingtonpost.com/ripple/",
+      "isNewLabelVisible": false
+    }
+  }
+}

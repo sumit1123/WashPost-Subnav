@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="beta_aggregator_url" translatable="false">https://beta.washingtonpost.com/aggregator/</string>
+    <string name="beta_ask_the_post_ai_url" translatable="false">https://beta.washingtonpost.com/ask-the-post-ai/</string>
+    <string name="beta_climate_bot_url" translatable="false">https://beta.washingtonpost.com/climate-environment/climate-answers/</string>
+    <string name="post_llm_url" translatable="false">https://beta.washingtonpost.com/aipod/post-llm/</string>
+
+    <!-- Airship (This is specific to Beta Project Keys //Commenting it for now to use the Prod for testing Push Features -->
+    <!--    <string name="notification_channel_id" translatable="false">news_alerts</string>-->
+    <!--    <string name="airship_development_app_key" translatable="false">r2c4KZkc7HWifBE34JNQh0a9lmBKm4w2q/2v/5gO1GXT0/lhf3CF4y7aR5rzKVZJPlOf0Q</string>-->
+    <!--    <string name="airship_development_app_secret" translatable="false">mZLp2hGpeM2tpj8rI2nRZvxTYa4zP9tIDgBkfwZWJsEwgZfm+4VqSKYiO00Yuw5g/J/06Q</string>-->
+    <!--    <string name="airship_production_app_key" translatable="false">A2CF05F9244CF79A3E1C3ACFC6A79A14110CD59EF011306A7B79238A934D9145</string>-->
+    <!--    <string name="airship_production_app_secret" translatable="false">8075CFB2274821D138B92CDB23559430D8F588A28AC34B235220629C820B3E1E</string>-->
+
+    <!--Paywall static data-->
+    <string name="resubscribe_for_11_99_month">Resubscribe \n for $11.99/month</string>
+    <string name="resubscribe_for_12_99_year">Resubscribe \n for $12.99/year</string>
+    <string name="resubscribe_for_13_99_month">Resubscribe \n for $13.99/month</string>
+    <string name="resubscribe_for_14_99_year">Resubscribe \n for $14.99/year</string>
+
+</resources>

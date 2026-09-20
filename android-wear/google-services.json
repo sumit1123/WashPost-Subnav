@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "790760606928",
+    "firebase_url": "https://divine-voice-825.firebaseio.com",
+    "project_id": "divine-voice-825",
+    "storage_bucket": "divine-voice-825.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790760606928:android:541dded8a6e6bea5",
+        "android_client_info": {
+          "package_name": "com.washingtonpost.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790760606928-dfh0l1ttpkuuu14e9pddfhamamdv87v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXO96FZqM4h1xI_iuJAMIg6lPEcckPads"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790760606928-dfh0l1ttpkuuu14e9pddfhamamdv87v9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1570 @@
+{
+  "id": "6cae587cebd432c504b0d3277b928794",
+  "type": "blog",
+  "subtype": "default",
+  "renderer": "native",
+  "arcId": "2R43IFJVAVHEBINWPUZU7XXKSY",
+  "title": "Man charged with murder in UnitedHealthcare killing in New York",
+  "blurb": "Luigi Mangione faces a murder charge in New York. He was arraigned in a courthouse near Altoona, Pennsylvania, and denied bail, a court official said. ",
+  "contenturl": "https://www.washingtonpost.com/national-security/2024/12/09/luigi-mangione-altoona-arrest-unitedhealthcare-suspect/",
+  "content_type": "article",
+  "shareurl": "https://www.washingtonpost.com/national-security/2024/12/09/luigi-mangione-altoona-arrest-unitedhealthcare-suspect/",
+  "source": "the-washington-post",
+  "section": "National-security",
+  "sourcesection": "national-security",
+  "sourcesubsection": "national-security - justice",
+  "sourcecategory": "National-security",
+  "lmt": 1733838248564,
+  "published": 1733838248564,
+  "first_published": 1733793920299,
+  "display_date": 1733832916991,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DSYYOQBCLHKT2KHJWK7CEEZO3E.jpg",
+  "sourceslug": "UHCSHOOTER1210",
+  "commercialnode": "/national-security/justice",
+  "omniture": {
+    "title": "Luigi Mangione arrested in Pa., charged in New York in UnitedHealthcare shooting - The Washington Post",
+    "pageName": "luigi-mangione-altoona-arrest-unitedhealthcare-suspect",
+    "channel": "national-security",
+    "contentId": "null2R43IFJVAVHEBINWPUZU7XXKSY",
+    "contentType": "story - default",
+    "contentSource": "the-washington-post",
+    "contentTopics": "Justice;National Security",
+    "newsroomDesk": "national;national",
+    "newsroomSubdesk": "national - justice & immigration;national - justice & immigration",
+    "contentAuthor": "mark berman;shayna jacobs",
+    "authorId": "bermanmj;jacobss",
+    "authorType": "(not set);(not set)",
+    "subSection": "national-security - justice",
+    "arcId": "2R43IFJVAVHEBINWPUZU7XXKSY",
+    "trackingTags": "story-has-edit-branch;created from template id ddl3jbg6zjgg5cjxyvupaqke74;methode-draft;ai-takeaways;audio-article"
+  },
+  "version": 2,
+  "tags": "story-has-edit-branch,created from template id ddl3jbg6zjgg5cjxyvupaqke74,methode-draft,ai-takeaways,audio-article",
+  "items": [
+    {
+      "content": "Justice",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Justice",
+      "path": "/justice"
+    },
+    {
+      "content": "Man charged with murder in UnitedHealthcare killing in New York",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "Luigi Mangione faces a murder charge in New York. He was arraigned in a courthouse near Altoona, Pennsylvania, and denied bail, a court official said.",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "content": 1733832916991,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/2R43IFJVAVHEBINWPUZU7XXKSY/20241210-084446.463/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/2R43IFJVAVHEBINWPUZU7XXKSY/20241210-084446.463/current.mp3?awCollectionId=/national-security/justice&awEpisodeId=2R43IFJVAVHEBINWPUZU7XXKSY&tags=ai-takeaways%7Caudio-article",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/2R43IFJVAVHEBINWPUZU7XXKSY/20241210-084446.463/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DSYYOQBCLHKT2KHJWK7CEEZO3E.jpg",
+        "imageWidth": 6192,
+        "imageHeight": 4128,
+        "fullcaption": "(Benjamin B. Braun/AP)"
+      },
+      "title": {
+        "content": "Man charged with murder in UnitedHealthcare killing in New York",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "Justice",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "Justice",
+        "path": "/justice"
+      },
+      "date": {
+        "content": 1733832916991,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      },
+      "duration": 476000
+    },
+    {
+      "id": "0e872882-9c37-4da8-b1f6-aa1b9904d4af",
+      "published": 1733823488000,
+      "isLive": false,
+      "lmt": 1733857062000,
+      "blurb": "Authorities took Luigi Mangione, 26, into custody Dec. 9 in connection with the fatal shooting of UnitedHealthcare CEO Brian Thompson last week in Manhattan.",
+      "vertical": false,
+      "embedCode": "6757c4bd0bcc94239c59241a",
+      "shareurl": "https://wapo.st/4f8oTDd",
+      "type": "video",
+      "host": "posttv",
+      "url": "false",
+      "placement": null,
+      "widthFactor": "full-bleed",
+      "contenturl": "https://www.washingtonpost.com/video/national/unitedhealthcare-shooting-suspect-arrives-at-court/2024/12/09/0e872882-9c37-4da8-b1f6-aa1b9904d4af_video.html",
+      "credits": "FOX News",
+      "fullcaption": "Authorities took Luigi Mangione, 26, into custody Dec. 9 in connection with the fatal shooting of UnitedHealthcare CEO Brian Thompson last week in Manhattan. (FOX News)",
+      "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/12-10-2024/t_1e063b7208a8440dabecb497e5203490_name_Luigi_Mangione.png",
+      "imageHeight": 1080,
+      "imageWidth": 1920,
+      "omniture": {
+        "source": "FOX News",
+        "contentType": "video",
+        "contentId": "0e872882-9c37-4da8-b1f6-aa1b9904d4af",
+        "channel": "national",
+        "contentSubsection": "national",
+        "pageName": "national:video - aa1b9904d4af - 20241210 - unitedhealthcare-shooting-suspect-arrives-at-court"
+      },
+      "adconfig": {
+        "adSetUrls": {
+          "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+        },
+        "allowPrerollOnDomain": false,
+        "autoPlayPreroll": false,
+        "commercialAdNode": "/national",
+        "enableAdInsertion": false,
+        "enableAutoPreview": false,
+        "enableServerSideFallback": false,
+        "forceAd": false,
+        "playAds": false,
+        "playVideoAds": false,
+        "videoAdZone": "wpni.video.national",
+        "adSetConfig": {
+          "adSetZone": "wpni.video.national",
+          "adSetUrls": {
+            "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+          }
+        }
+      },
+      "mediaURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/FOX_News/20241210/6757c4bd0bcc94239c59241a/6757c4c05007d061115405bf/file_640x360-600-v3.mp4",
+      "streamURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/FOX_News/20241210/6757c4bd0bcc94239c59241a/6757c4c05007d061115405bf/mobile.m3u8",
+      "subtitlesURL": "https://closedcaptions.posttv.com/2024/12/10/0e872882-9c37-4da8-b1f6-aa1b9904d4af/3_1733834138054/0e872882-9c37-4da8-b1f6-aa1b9904d4af_6757bf882e1b30793d2b3947.vtt",
+      "streams": {
+        "ts": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/FOX_News/20241210/6757c4bd0bcc94239c59241a/6757c4c05007d061115405bf/mobile.m3u8",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/FOX_News/20241210/6757c4bd0bcc94239c59241a/6757c4c05007d061115405bf/master.m3u8",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/FOX_News/20241210/6757c4bd0bcc94239c59241a/6757c4c05007d061115405bf/hd.m3u8",
+            "bitrate": 4500
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/FOX_News/20241210/6757c4bd0bcc94239c59241a/6757c4c05007d061115405bf/hlsv4_master.m3u8",
+            "bitrate": 5400
+          }
+        ],
+        "mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/FOX_News/20241210/6757c4bd0bcc94239c59241a/6757c4c05007d061115405bf/file_320x180-160-v3.mp4",
+            "bitrate": 160
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/FOX_News/20241210/6757c4bd0bcc94239c59241a/6757c4c05007d061115405bf/file_640x360-600-v3.mp4",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/FOX_News/20241210/6757c4bd0bcc94239c59241a/6757c4c05007d061115405bf/file_854x480-1200-v3_1.mp4",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/FOX_News/20241210/6757c4bd0bcc94239c59241a/6757c4c05007d061115405bf/file_1280x720-2000-v3_1.mp4",
+            "bitrate": 2000
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/FOX_News/20241210/6757c4bd0bcc94239c59241a/6757c4c05007d061115405bf/file_1920x1080-5400-v4.mp4",
+            "bitrate": 5400
+          }
+        ],
+        "gif-mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/FOX_News/20241210/6757c4bd0bcc94239c59241a/6757c4c05007d061115405be/file_1280x720-2000-v3_1.mp4",
+            "bitrate": 2000
+          }
+        ]
+      },
+      "isLooping": false,
+      "autoplay": false,
+      "fallback": null,
+      "title": "UnitedHealthcare shooting suspect arrives at court",
+      "duration": 14272,
+      "promo": {
+        "isLooping": true,
+        "url": "https://videos.posttv.com/washpost-production/FOX_News/20241210/6757c4bd0bcc94239c59241a/6757c4c05007d061115405be/file_1280x720-2000-v3_1.mp4"
+      }
+    },
+    {
+      "content": "By Mark Berman and Shayna Jacobs",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "bermanmj",
+          "url": "https://www.washingtonpost.com/people/mark-berman/",
+          "name": "Mark Berman",
+          "bio": "Mark Berman is a national reporter for The Washington Post who covers law enforcement and criminal justice issues. ",
+          "expertise": "National reporter covering law enforcement and criminal justice",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/08cfb702-ed4c-42db-82a3-c2f8bdb31d23.png"
+        },
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ]
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "float",
+      "size": "tall",
+      "adPath": "/national-security/justice",
+      "primarySectionID": "/national-security/justice/test"
+    },
+    {
+      "arcId": "YBM2WHBVW5D5TELC666NBDPNUU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "A 26-year-old man is facing murder and other charges in New York in connection with last week’s <a href=\"https://www.washingtonpost.com/business/2024/12/05/united-healthcare-ceo-killed-shooter-police/?itid=lk_inline_manual_2\">killing of Brian Thompson</a>, a health insurance executive gunned down on a Manhattan sidewalk."
+    },
+    {
+      "arcId": "VPE74CAOBVC6VPAYROSHDRFDZ4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The shooting sparked a sprawling five-day manhunt that ended in Altoona, Pennsylvania, where police said Luigi Mangione, a Maryland native, was spotted eating at a McDonald’s. Mangione was charged with five counts in Pennsylvania, including possessing an instrument of a crime, providing false identification to law enforcement and carrying a firearm without a license."
+    },
+    {
+      "arcId": "RWEGOR3NFFB5ZOPSBM2BVID6BA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Police said Mangione had a ghost gun, along with a lengthy handwritten document indicating anger toward “corporate America.”"
+    },
+    {
+      "arcId": "4MFMU3BRE5DABHHRCMP343VXUY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Late Monday, the New York state courts’ website said Mangione has been charged there with murder, illegal gun possession and possessing a forged instrument. The Manhattan district attorney’s office said the originating court document containing those charges — known as a criminal complaint — was sealed."
+    },
+    {
+      "arcId": "GG4O5JYTHBH47PR55JXO7XF4CI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Mangione will have to be extradited to New York to face the second set of charges, a process that — if he challenges it — could stretch on for weeks."
+    },
+    {
+      "type": "toggle",
+      "subtype": "alerts",
+      "key": "us",
+      "mime": "text/html"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "tall",
+      "adPath": "/national-security/justice",
+      "primarySectionID": "/national-security/justice/test"
+    },
+    {
+      "arcId": "JI4DU75NJVAKLKELGMX5CJINCE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Thompson, 50, the chief executive of UnitedHealthcare, was shot and killed early Wednesday outside a Hilton hotel in Midtown Manhattan, a <a href=\"https://www.washingtonpost.com/business/2024/12/06/unitedhealth-brian-thompson-shooting-executive-security-measures/\">stunning act of violence</a> in one of New York’s busiest areas."
+    },
+    {
+      "id": "75cc58cb-8c47-4d17-813f-faa3a88166c3",
+      "published": 1733801173000,
+      "isLive": false,
+      "lmt": 1733806604000,
+      "blurb": "Police announced on Dec. 9 that a person of interest was in custody in connection to the fatal shooting of a health insurance CEO. Here's what you need to know.",
+      "vertical": true,
+      "embedCode": "67575c812e1b30793d2b2093",
+      "shareurl": "https://wapo.st/3VwjBdA",
+      "type": "video",
+      "host": "posttv",
+      "url": "false",
+      "placement": "center",
+      "widthFactor": "default",
+      "contenturl": "https://www.washingtonpost.com/video/national/what-police-have-revealed-about-ceo-shooting-arrest/2024/12/09/75cc58cb-8c47-4d17-813f-faa3a88166c3_video.html",
+      "credits": "Drea Cornejo/The Washington Post",
+      "fullcaption": "Police announced on Dec. 9 that a person of interest was in custody in connection to the fatal shooting of a health insurance CEO. Here's what you need to know. (Drea Cornejo/The Washington Post)",
+      "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/12-09-2024/t_78c51d651c064055a26c1ff54fa11995_name_3___Vertical_Video_00_01_01_19_Still010.jpg",
+      "imageHeight": 1920,
+      "imageWidth": 1080,
+      "omniture": {
+        "source": "The Washington Post",
+        "contentType": "video",
+        "contentId": "75cc58cb-8c47-4d17-813f-faa3a88166c3",
+        "channel": "national",
+        "contentSubsection": "national",
+        "pageName": "national:video - faa3a88166c3 - 20241210 - what-police-have-revealed-about-ceo-shooting-arrest"
+      },
+      "adconfig": {
+        "adSetUrls": {
+          "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+        },
+        "allowPrerollOnDomain": false,
+        "autoPlayPreroll": false,
+        "commercialAdNode": "/national",
+        "enableAdInsertion": false,
+        "enableAutoPreview": true,
+        "enableServerSideFallback": false,
+        "forceAd": false,
+        "playAds": true,
+        "playVideoAds": true,
+        "videoAdZone": "wpni.video.national",
+        "adSetConfig": {
+          "adSetZone": "wpni.video.national",
+          "adSetUrls": {
+            "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+          }
+        }
+      },
+      "mediaURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20241209/67575c812e1b30793d2b2093/675771e9b711eb5ff5a1a7b0/file_360x640-600.mp4",
+      "streamURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20241209/67575c812e1b30793d2b2093/675771e9b711eb5ff5a1a7b0/mobile.m3u8",
+      "subtitlesURL": "https://closedcaptions.posttv.com/2024/12/09/75cc58cb-8c47-4d17-813f-faa3a88166c3/3_1733789102377/75cc58cb-8c47-4d17-813f-faa3a88166c3_675771792e1b30793d2b2830.vtt",
+      "streams": {
+        "ts": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20241209/67575c812e1b30793d2b2093/675771e9b711eb5ff5a1a7b0/mobile.m3u8",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20241209/67575c812e1b30793d2b2093/675771e9b711eb5ff5a1a7b0/master.m3u8",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20241209/67575c812e1b30793d2b2093/675771e9b711eb5ff5a1a7b0/hd.m3u8",
+            "bitrate": 4500
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20241209/67575c812e1b30793d2b2093/675771e9b711eb5ff5a1a7b0/hlsv4_master.m3u8",
+            "bitrate": 5400
+          }
+        ],
+        "mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20241209/67575c812e1b30793d2b2093/675771e9b711eb5ff5a1a7b0/file_180x320-160.mp4",
+            "bitrate": 160
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20241209/67575c812e1b30793d2b2093/675771e9b711eb5ff5a1a7b0/file_360x640-600.mp4",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20241209/67575c812e1b30793d2b2093/675771e9b711eb5ff5a1a7b0/file_480x854-1200.mp4",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20241209/67575c812e1b30793d2b2093/675771e9b711eb5ff5a1a7b0/file_720x1280-2000.mp4",
+            "bitrate": 2000
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20241209/67575c812e1b30793d2b2093/675771e9b711eb5ff5a1a7b0/file_1080x1920-5400.mp4",
+            "bitrate": 5400
+          }
+        ]
+      },
+      "isLooping": false,
+      "autoplay": false,
+      "fallback": null,
+      "duration": 75456
+    },
+    {
+      "arcId": "QTRTJMBHZVFI3GR4VQJAOR5G2U",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Police said it appeared that the suspect they were seeking escaped the city shortly after the shooting. Law enforcement officials said they were scouring reams of video footage and tips, but they<b> </b>pleaded with the public for more help, sharing <a href=\"https://www.washingtonpost.com/investigations/2024/12/05/unitedhealthcare-ceo-shooting-timeline/\">several images</a> of a person they said was wanted in connection with the killing."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/national-security/justice",
+      "primarySectionID": "/national-security/justice/test"
+    },
+    {
+      "arcId": "A5IF3BLM4VEKJJKLYIOXN3I46Y",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "That search continued until Monday morning, when someone in a McDonald’s in Altoona — a small city about 290 miles west of the Hilton where Thompson was killed — recognized Mangione and contacted authorities shortly after 9 a.m."
+    },
+    {
+      "arcId": "4JTKGDWTBNAJJLFBV5EOOO2EHU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "According to <a href=\"https://www.washingtonpost.com/documents/0d1590cc-5217-4139-974a-184ea0fb03c5.pdf\">court papers</a> released Monday, police in Altoona arrived at the McDonald’s and found Mangione sitting at a table toward the back. Police described him as wearing a blue medical mask and looking at a laptop on the table, with a backpack nearby."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/national-security/justice",
+      "primarySectionID": "/national-security/justice/test"
+    },
+    {
+      "arcId": "FQ6YOEOLRBDJ7C7U4OHRBC3ZHA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The two officers approached and asked him to pull his mask down, and when he did so, both “immediately recognized him” from the images circulating of the person wanted in connection with the New York shooting, they wrote in the criminal complaint."
+    },
+    {
+      "arcId": "NPTUJQJSBVBLVDFZM42OS2PDQI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Soon after,<b> </b>the officers wrote, they asked “if he had been to New York recently and the male became quiet and started to shake.”"
+    },
+    {
+      "arcId": "X5IMGY7EIRFELKFSUOWUWHKPNI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The officers asked him for identification, and he handed over a New Jersey driver’s license that police said later turned out to be fake, the complaint stated. When officers told him he would get arrested for lying about his identity, he said his name was Luigi Mangione, according to the complaint."
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/6ATKWPNZ2U7OAQSRTKZEIHPFLU.JPG",
+      "imageWidth": 480,
+      "imageHeight": 360,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "In this photo released by the Altoona Police Department, Luigi Mangione is seen in a holding cell after being taken into custody on Monday. (Altoona Police Department/Getty Images)",
+      "blurb": "In this photo released by the Altoona Police Department, Luigi Mangione is seen in a holding cell after being taken into custody on Monday."
+    },
+    {
+      "arcId": "NP5IB5CJUZCTHAPOUL4HQ2CG2Q",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Mangione was placed into custody, handcuffed and searched at the McDonalds, the complaint said. His backpack was searched at the police station, where officers said they found a black pistol and silencer that appeared to be 3D-printed, along with a loaded Glock magazine with six 9mm rounds."
+    },
+    {
+      "arcId": "U2EQ3DPG5VCCNHWA5WJANSCXIY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Mangione was arraigned Monday evening in a courthouse near Altoona and denied bail, according to a court official. It was not immediately clear whether he had an attorney."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/national-security/justice",
+      "primarySectionID": "/national-security/justice/test"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/national-security/justice",
+      "primarySectionID": "/national-security/justice/test"
+    },
+    {
+      "arcId": "PIJEAFXFL5HNJH4J2JUNEZSHCE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Officials from the Manhattan district attorney’s office and the New York police force traveled to Altoona on Monday as part of the investigation."
+    },
+    {
+      "arcId": "EFTCELPDOZHGJD6R6LGSTIO5RY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Peter J. Weeks, the Blair County district attorney, said that if Mangione challenges his extradition, the process could take up to 45 days."
+    },
+    {
+      "arcId": "O5HNS3W5MBFNTEP232WXRSE4JQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Joseph Kenny, chief of detectives in the New York Police Department, said Mangione had a three-page handwritten document expressing “some ill will toward corporate America.” That document spoke to his “motivation and mindset,” said Jessica Tisch, the New York City police commissioner. Officials did not elaborate."
+    },
+    {
+      "type": "inline_carousel",
+      "subtype": "stories",
+      "headline": "UnitedHealthcare CEO shooting",
+      "items": [
+        {
+          "contenturl": "https://www.washingtonpost.com/national-security/2024/12/10/who-is-luigi-mangione-shooting-unitedhealthcare-ceo/",
+          "image": {
+            "imageWidth": 1920,
+            "imageHeight": 1080,
+            "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/12-10-2024/t_1e063b7208a8440dabecb497e5203490_name_Luigi_Mangione.png"
+          },
+          "title": {
+            "content": "Who is Luigi Mangione? Suspect arrested in UnitedHealthcare CEO killing."
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "Justice"
+          },
+          "byline": {
+            "content": "By Niha Masih"
+          },
+          "lmt": 1733840661127
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/nation/2024/12/10/ghost-gun-unitedhealthcare-suspect-luigi-mangione/",
+          "image": {
+            "imageWidth": 4500,
+            "imageHeight": 3000,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NWM3CWHBBMI6ZPSHZPIBAINHXM.jpg"
+          },
+          "title": {
+            "content": "What is a ghost gun? UnitedHealthcare suspect’s gun may have been 3D-printed."
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "National"
+          },
+          "byline": {
+            "content": "By Leo Sands"
+          },
+          "lmt": 1733843919571
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/national-security/2024/12/09/luigi-mangione-altoona-arrest-unitedhealthcare-suspect/",
+          "image": {
+            "imageWidth": 6192,
+            "imageHeight": 4128,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DSYYOQBCLHKT2KHJWK7CEEZO3E.jpg"
+          },
+          "title": {
+            "content": "Man charged with murder in UnitedHealthcare killing in New York"
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "Justice"
+          },
+          "byline": {
+            "content": "By Mark Berman and Shayna Jacobs"
+          },
+          "lmt": 1733838248564
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/technology/2024/12/09/amazon-deny-defend-depose-merchandise/",
+          "image": {
+            "imageWidth": 1800,
+            "imageHeight": 1200,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/F273ZPFBCBL53NY2VUJSDK76QM.jpg"
+          },
+          "title": {
+            "content": "Mugs, hats, holiday sweaters: CEO shooting merch is for sale online"
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "Tech"
+          },
+          "byline": {
+            "content": "By Caroline O'Donovan"
+          },
+          "lmt": 1733838470315
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/national-security/2024/12/09/unitedhealthcare-ceo-shooting-investigation-brian-thompson/",
+          "image": {
+            "imageWidth": 3500,
+            "imageHeight": 2334,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QT53UHRLK252OWZ2WF3C3WRB6M.JPG"
+          },
+          "title": {
+            "content": "Luigi Mangione charged with murder in United Healthcare killing "
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "Justice"
+          },
+          "byline": {
+            "content": "By Shayna Jacobs and Mark Berman"
+          },
+          "lmt": 1733843777640
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/national-security/2024/12/06/unitedhealthcare-ceo-shooter-nyc-backpack-gun-brian-thompson/",
+          "image": {
+            "imageWidth": 3500,
+            "imageHeight": 2334,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CF3XWUWZRCNJ2P5GQJGYHMW6NM.JPG"
+          },
+          "title": {
+            "content": "UnitedHealthcare CEO’s killer was at bus station within hour of crime; ditched backpack in park "
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "Justice"
+          },
+          "byline": {
+            "content": "By Shayna Jacobs"
+          },
+          "lmt": 1733603118413
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/nation/2024/12/06/unitedhealthcare-ceo-brian-thompson-threats-court-battles/",
+          "image": {
+            "imageWidth": 3500,
+            "imageHeight": 2333,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GXIXDRO7WYGHUVLL6LFHBCZWWY.JPG"
+          },
+          "title": {
+            "content": "Slain UnitedHealth CEO faced ongoing court battles, threats"
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "National"
+          },
+          "byline": {
+            "content": "By Annie Gowen, Yeganeh Torbati and Dan Diamond"
+          },
+          "lmt": 1733534112341
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/business/2024/12/06/unitedhealth-brian-thompson-shooting-executive-security-measures/",
+          "image": {
+            "imageWidth": 995,
+            "imageHeight": 784,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SBZLQ6VATQXAE5L52MJ2MXUHZE.jpg"
+          },
+          "title": {
+            "content": "Targeted killing of UnitedHealth CEO sends a chill among executives"
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "Business"
+          },
+          "byline": {
+            "content": "By Daniel Gilbert and Shannon Najmabadi"
+          },
+          "lmt": 1733523042687
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/national-security/2024/12/05/unitedhealthcare-ceo-shooting-suspect-manhunt-photos/",
+          "image": {
+            "imageWidth": 2000,
+            "imageHeight": 1125,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4BZLM46SJ5M3X2CCSUAUOH4CFQ.jpg"
+          },
+          "title": {
+            "content": "Search continues for gunman who killed UnitedHealthcare CEO in New York"
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "Justice"
+          },
+          "byline": {
+            "content": "By Shayna Jacobs, Daniel Gilbert, Mark Berman and Samuel Oakford"
+          },
+          "lmt": 1733451013845
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/investigations/2024/12/05/unitedhealthcare-ceo-shooting-timeline/",
+          "image": {
+            "imageWidth": 1791,
+            "imageHeight": 876,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/F74N25UNQLKYMA34U6Z4IWPLEU.JPG"
+          },
+          "title": {
+            "content": "Images show suspect making stops in NYC before and after shooting of health insurance CEO "
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "Visual Forensics"
+          },
+          "byline": {
+            "content": "By Jarrett Ley and Samuel Oakford"
+          },
+          "lmt": 1733515412130
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/health/2024/12/05/reaction-unitedhealth-ceo-shooting-brian-thompson-insurance/",
+          "image": {
+            "imageWidth": 3300,
+            "imageHeight": 2200,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/PVVCSORWWY3R635H5JYWCCFSOI.jpg"
+          },
+          "title": {
+            "content": "The UnitedHealthcare CEO was killed. Why did some people celebrate?"
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "Health"
+          },
+          "byline": {
+            "content": "By Dan Diamond"
+          },
+          "lmt": 1733452366916
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/business/2024/12/05/united-healthcare-ceo-killed-shooter-police/",
+          "image": {
+            "imageWidth": 7854,
+            "imageHeight": 5240,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/P2ZVBQLPVQEZ626YA4PU45IBYM.jpg"
+          },
+          "title": {
+            "content": "What we know about UnitedHealthcare CEO Brian Thompson’s killing"
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "Business"
+          },
+          "byline": {
+            "content": "By Kelly Kasulis Cho"
+          },
+          "lmt": 1733442430137
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/technology/2024/12/05/social-media-united-heathcare-ceo-shooter/",
+          "image": {
+            "imageWidth": 6628,
+            "imageHeight": 4421,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5UWG67TGAVUAOTNV6LK5GQ7VAA.jpg"
+          },
+          "title": {
+            "content": "Online sleuths are racing to catch the UnitedHealthcare CEO’s killer"
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "Tech"
+          },
+          "byline": {
+            "content": "By Drew Harwell, Caitlin Gilbert and Douglas MacMillan"
+          },
+          "lmt": 1733444124492
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/business/2024/12/05/brian-thompson-unitedhealthcare-ceo-shooting-latest-news/",
+          "image": {
+            "imageWidth": 903,
+            "imageHeight": 720,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DZOHKDNDGFCXFJD5F3VZBVFGGM.gif"
+          },
+          "title": {
+            "content": "Police release photos as manhunt for the UnitedHealthcare CEO shooter continues"
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "Business"
+          },
+          "byline": {
+            "content": "By Shayna Jacobs and Daniel Gilbert"
+          },
+          "lmt": 1733443651290
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/politics/2024/12/05/unitedhealthcare-shooting-fox-news-immigration/",
+          "image": {
+            "imageWidth": 5008,
+            "imageHeight": 3339,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HFNHLW7GLCLR2GIJRVQAL3EEWU.jpg"
+          },
+          "title": {
+            "content": "Fox News figures out how to loop immigrants in to the UnitedHealthcare killing"
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "Politics",
+            "displayTransparency": "Column"
+          },
+          "byline": {
+            "content": "By Philip Bump"
+          },
+          "lmt": 1733425346378
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/business/2024/12/04/brian-thompson-unitedhealthcare-ceo-killed/",
+          "image": {
+            "imageWidth": 2224,
+            "imageHeight": 1480,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X2T4VGMZQPPSNJCXV7SU3YAHCY.jpg"
+          },
+          "title": {
+            "content": "Who was Brian Thompson, the UnitedHealthcare CEO fatally shot in New York?"
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "business"
+          },
+          "byline": {
+            "content": "By Daniel Gilbert and Dan Diamond"
+          },
+          "lmt": 1733412825555
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/business/2024/12/04/unitedhealthcare-ceo-shooting-new-york/",
+          "image": {
+            "imageWidth": 7216,
+            "imageHeight": 4813,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/AULUO5PL6QEQWWDAXO43Q6QEKU.jpg"
+          },
+          "title": {
+            "content": "UnitedHealthcare CEO Brian Thompson shot and killed outside NYC hotel"
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "Business"
+          },
+          "byline": {
+            "content": "By Shayna Jacobs, Daniel Gilbert, Trisha Thadani, Aaron Gregg and Jarrett Ley"
+          },
+          "lmt": 1733414318606
+        }
+      ]
+    },
+    {
+      "arcId": "VEBFONICVZDEHK7QYQRPPBE2SM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Mangione was born and raised in Maryland, had unspecified ties to San Francisco and was last known to be living in Honolulu, Kenny said."
+    },
+    {
+      "arcId": "4WOBWMPQLVF6ZKJT5P26NK35J4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Police said they were working to untangle Mangione’s movements before he arrived in Altoona and to scour his accounts and postings across social media. Kenny said officials were “leaning toward” believing the attacker in the shooting was acting alone, adding that the investigation was ongoing."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/national-security/justice",
+      "primarySectionID": "/national-security/justice/test"
+    },
+    {
+      "arcId": "XIGUXYHO65CXHP2ZHJ7REMRBBA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Officials said Mangione was very careful about trying to avoid cameras and stay low-profile. Pennsylvania Gov. Josh Shapiro (D) said during a briefing Monday evening that Mangione had traveled across the state. Shapiro described him as moving between Philadelphia and Pittsburgh with stops in-between, including in Altoona."
+    },
+    {
+      "arcId": "OQE5XYYFXND2NADBPULCTFPWRY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The governor praised the person who summoned police to the McDonald’s, calling the individual a hero. He urged other people who might have information on Mangione’s movements in Pennsylvania to contact authorities."
+    },
+    {
+      "id": "dbe64cfb-1b14-44aa-8360-7e17bc285a94",
+      "published": 1733809496000,
+      "isLive": false,
+      "lmt": 1733844343000,
+      "blurb": "The police officer who arrested Luigi Mangione in Altoona, Pennsylvania, described the moment of the arrest during a news conference on Dec. 9.",
+      "vertical": false,
+      "embedCode": "67578e8939c9420668d23f8a",
+      "shareurl": "https://wapo.st/4gpifcQ",
+      "type": "video",
+      "host": "posttv",
+      "url": "false",
+      "placement": null,
+      "widthFactor": "full-bleed",
+      "contenturl": "https://www.washingtonpost.com/video/national/authorities-describe-arrest-of-mangione/2024/12/09/dbe64cfb-1b14-44aa-8360-7e17bc285a94_video.html",
+      "credits": "AP",
+      "fullcaption": "The police officer who arrested Luigi Mangione in Altoona, Pennsylvania, described the moment of the arrest during a news conference on Dec. 9. (AP)",
+      "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/12-10-2024/t_76734717fd1b458dbe07873de6ebdf4f_name_CEOPresser.jpg",
+      "imageHeight": 1080,
+      "imageWidth": 1920,
+      "omniture": {
+        "source": "AP",
+        "contentType": "video",
+        "contentId": "dbe64cfb-1b14-44aa-8360-7e17bc285a94",
+        "channel": "national",
+        "contentSubsection": "national",
+        "pageName": "national:video - 7e17bc285a94 - 20241210 - authorities-describe-arrest-of-mangione"
+      },
+      "adconfig": {
+        "adSetUrls": {
+          "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+        },
+        "allowPrerollOnDomain": false,
+        "autoPlayPreroll": false,
+        "commercialAdNode": "/national",
+        "enableAdInsertion": false,
+        "enableAutoPreview": true,
+        "enableServerSideFallback": false,
+        "forceAd": false,
+        "playAds": true,
+        "playVideoAds": true,
+        "videoAdZone": "wpni.video.national",
+        "adSetConfig": {
+          "adSetZone": "wpni.video.national",
+          "adSetUrls": {
+            "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+          }
+        }
+      },
+      "mediaURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/AP/20241210/67578e8939c9420668d23f8a/67578e8eb711eb5ff5a1a7c2/file_640x360-600-v3.mp4",
+      "streamURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/AP/20241210/67578e8939c9420668d23f8a/67578e8eb711eb5ff5a1a7c2/mobile.m3u8",
+      "subtitlesURL": "https://closedcaptions.posttv.com/2024/12/10/dbe64cfb-1b14-44aa-8360-7e17bc285a94/3_1733795402130/dbe64cfb-1b14-44aa-8360-7e17bc285a94_67578e7b0bcc94239c591a13.vtt",
+      "streams": {
+        "ts": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/AP/20241210/67578e8939c9420668d23f8a/67578e8eb711eb5ff5a1a7c2/mobile.m3u8",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/AP/20241210/67578e8939c9420668d23f8a/67578e8eb711eb5ff5a1a7c2/master.m3u8",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/AP/20241210/67578e8939c9420668d23f8a/67578e8eb711eb5ff5a1a7c2/hd.m3u8",
+            "bitrate": 4500
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/AP/20241210/67578e8939c9420668d23f8a/67578e8eb711eb5ff5a1a7c2/hlsv4_master.m3u8",
+            "bitrate": 5400
+          }
+        ],
+        "mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/AP/20241210/67578e8939c9420668d23f8a/67578e8eb711eb5ff5a1a7c2/file_320x180-160-v3.mp4",
+            "bitrate": 160
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/AP/20241210/67578e8939c9420668d23f8a/67578e8eb711eb5ff5a1a7c2/file_640x360-600-v3.mp4",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/AP/20241210/67578e8939c9420668d23f8a/67578e8eb711eb5ff5a1a7c2/file_854x480-1200-v3_1.mp4",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/AP/20241210/67578e8939c9420668d23f8a/67578e8eb711eb5ff5a1a7c2/file_1280x720-2000-v3_1.mp4",
+            "bitrate": 2000
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/AP/20241210/67578e8939c9420668d23f8a/67578e8eb711eb5ff5a1a7c2/file_1920x1080-5400-v4.mp4",
+            "bitrate": 5400
+          }
+        ]
+      },
+      "isLooping": false,
+      "autoplay": false,
+      "fallback": null,
+      "title": "Authorities describe arrest of Mangione",
+      "duration": 114602
+    },
+    {
+      "arcId": "YTDV4ODN3ZGSVF5EBC5FITUSTU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "UnitedHealth Group, the parent company of Thompson’s health insurance firm, pledged to continue working with law enforcement officials."
+    },
+    {
+      "arcId": "MS46NONC3VBHXE7XV2HTULA57A",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“Our hope is that today’s apprehension brings some relief to Brian’s family, friends, colleagues and the many others affected by this unspeakable tragedy,” a spokesperson for the company said in a statement."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/national-security/justice",
+      "primarySectionID": "/national-security/justice/test"
+    },
+    {
+      "arcId": "QQXF5NK2HJDFLMUCPIGCSN5C34",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Mangione appears to have numerous ties to the Baltimore area. His address listed in the criminal complaint is in Towson, Maryland. Hours after his arrest, traffic cones blocked the entrance to the street in Baltimore County, where Mangione’s parents are believed to live, and journalists lingered outside a nearby barrier."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/national-security/justice",
+      "primarySectionID": "/national-security/justice/test"
+    },
+    {
+      "arcId": "FAIFO2D7VJCTPD3MPTCVKVCMIE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“Our family is shocked and devastated by Luigi’s arrest,” the family said in a statement shared by Del. Nino Mangione, a member of the Maryland House of Delegates representing Baltimore County. “We offer our prayers to the family of Brian Thompson, and we ask people to pray for all involved.”"
+    },
+    {
+      "arcId": "67QQV4LYZNDEFKJS6P6RC5OJAQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Mangione graduated from the Gilman School, an all-boys school in Baltimore, in 2016 as the high school valedictorian, headmaster Henry P.A. Smyth confirmed to the school community."
+    },
+    {
+      "arcId": "Q57BBRRXGFCMLI6REM5MTNEYIU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“We recently became aware that the person arrested in connection with the killing of the UnitedHealthcare CEO is a Gilman alumnus,” Smyth wrote in an email to people affiliated with the school. “This is deeply distressing news on top of an already awful situation. Our hearts go out to everyone affected.”"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DSYYOQBCLHKT2KHJWK7CEEZO3E_size-normalized.jpg",
+      "imageWidth": 6192,
+      "imageHeight": 4128,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Members of a joint task force with the FBI and the NYPD exit the Altoona Police Department, where 26-year old Luigi Mangione, a person of interest in the UnitedHealthcare CEO killing, was being held Monday in Altoona, Pennsylvania. (Benjamin B. Braun/AP)",
+      "blurb": "Members of a joint task force with the FBI and the NYPD exit the Altoona Police Department, where 26-year old Luigi Mangione, a person of interest in the UnitedHealthcare CEO killing, was being held Monday in Altoona, Pennsylvania."
+    },
+    {
+      "arcId": "D37IM7AWV5FABJX2JZSUEI53CU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Former classmates and teachers at Gilman recalled him as well-liked and smart."
+    },
+    {
+      "arcId": "SBQTFPYJD5FPNJI6MW5QY5OXPA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“He was a good spirit,” said a former teacher, who spoke on the condition of anonymity to avoid being publicly linked to Mangione or the shooting of Thompson. “He was very bright, vivacious and full of life. … I’m gut-punched because it just doesn’t fit the boy that I knew those years ago.”"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/national-security/justice",
+      "primarySectionID": "/national-security/justice/test"
+    },
+    {
+      "arcId": "2LG65J2AKJG4RIS4Q36KLGQOLA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Others who knew him at Gilman, who similarly spoke on the condition of not being identified, recalled him as someone with leadership abilities and technical savvy. As a leader of a student robotics club, Mangione helped design a robot that advanced to the Maryland state finals and a regional competition in Pennsylvania in 2016."
+    },
+    {
+      "arcId": "WSMC2P6AGBEXFIYEJPRMPIY7FA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "In a 2016 high school yearbook reviewed by The Washington Post, Mangione wrote that he “hated” being sent to Gilman as a sixth-grader, but it became “the best thing that’s ever happened to me.” In his valedictory speech, which was posted by Gilman, Mangione said he and his classmates had “the fearlessness to explore new things and the obvious ability to excel.”"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YDX4GWY4PUC7BAUE5ILGTZHIZE.JPG",
+      "imageWidth": 3500,
+      "imageHeight": 2360,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "A person holds a sign criticizing health-care executives while standing on the roadside near the McDonald's restaurant where Mangione was arrested Monday. (Matthew Hatcher/Reuters)",
+      "blurb": "A person holds a sign criticizing health-care executives while standing on the roadside near the McDonald's restaurant where Mangione was arrested Monday."
+    },
+    {
+      "arcId": "7NUW4ST7VRGCXCOP4BVBD6PMBU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Social media profiles that appeared to belong to Mangione offered glimmers of his life and background. One social media account that seemed to match his name and photograph posted about topics ranging from artificial intelligence to the societal effects of using social media. An image posted atop that profile showed an X-ray of what appeared to be a spine with four screws inserted."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/national-security/justice",
+      "primarySectionID": "/national-security/justice/test"
+    },
+    {
+      "arcId": "TWPPU3Y7HBAUDFGEWTOOEC2NM4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Mangione had worked for the online car marketplace TrueCar until sometime in 2023, a company spokesperson said. A LinkedIn page with Mangione’s name and photo said he started working for the company as a data engineer in 2020, helping the company expand its sources for pricing and loan-payment data."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/national-security/justice",
+      "primarySectionID": "/national-security/justice/test"
+    },
+    {
+      "arcId": "W74YZ5UD4JBEXCNCB3OPST4RKI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "In the summer of 2019, Mangione worked as a head counselor at a Stanford University precollegiate studies program, according to a university representative. A fellow counselor, who spoke on the condition of anonymity to avoid being publicly associated with the killing, said Mangione was smart, social and liked by all, organizing volleyball games and other group bonding activities."
+    },
+    {
+      "arcId": "UAGYFCFV6JFBFMDL74S4AMOH2I",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Mangione also attended the University of Pennsylvania, where he was a member of the Phi Kappa Psi fraternity from 2017 to 2020, said Ron Ransom, the fraternity’s executive director. The university did not respond to requests for comment Monday."
+    },
+    {
+      "arcId": "SQKUDPG7Y5HPXD5HQ5THRRCYDQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i>Berman reported from Washington. Ben Brasch, Dan Diamond, Emily Davies, Olivia George, Daniel Gilbert, Annie Gowen, Drew Harwell, Tom Jackman, Anumita Kaur, Alice Crites and Aaron Schaffer contributed to this report.</i>"
+    },
+    {
+      "type": "link",
+      "subtype": "comments"
+    },
+    {
+      "type": "author_info",
+      "id": "bermanmj",
+      "name": "Mark Berman",
+      "bio": "Mark Berman is a national reporter for The Washington Post who covers law enforcement and criminal justice issues.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/08cfb702-ed4c-42db-82a3-c2f8bdb31d23.png",
+      "role": "Staff writer"
+    },
+    {
+      "type": "author_info",
+      "id": "jacobss",
+      "name": "Shayna Jacobs",
+      "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png",
+      "role": "Staff writer"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "blogname": "Justice",
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/2R43IFJVAVHEBINWPUZU7XXKSY/20241210-084446.463/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/2R43IFJVAVHEBINWPUZU7XXKSY/20241210-084446.463/current.mp3?awCollectionId=/national-security/justice&awEpisodeId=2R43IFJVAVHEBINWPUZU7XXKSY&tags=ai-takeaways%7Caudio-article",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/2R43IFJVAVHEBINWPUZU7XXKSY/20241210-084446.463/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DSYYOQBCLHKT2KHJWK7CEEZO3E.jpg",
+      "imageWidth": 6192,
+      "imageHeight": 4128,
+      "fullcaption": "(Benjamin B. Braun/AP)"
+    },
+    "title": {
+      "content": "Man charged with murder in UnitedHealthcare killing in New York",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "Justice",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Justice",
+      "path": "/justice"
+    },
+    "date": {
+      "content": 1733832916991,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    },
+    "duration": 476000
+  },
+  "first_display_date": 1733793918169,
+  "targeting": {
+    "adcall": [
+      {
+        "key": "ca",
+        "values": [
+          "rcisc",
+          "r1zb8",
+          "rjqr5",
+          "r71iv",
+          "rnfyo",
+          "rdisi",
+          "rqlce",
+          "rqrfm",
+          "rjba6",
+          "r63ky",
+          "r1djc",
+          "rj98c",
+          "rrcyg",
+          "r0yv2",
+          "r2ztd",
+          "ralq3",
+          "rh5hz",
+          "rsvk8",
+          "r2lez",
+          "rvt6h",
+          "rcvrb",
+          "rpkxx",
+          "rohf5",
+          "reest",
+          "r8paa",
+          "rqltv",
+          "r6ovq",
+          "ra4e3",
+          "ru0hj",
+          "rk4hi",
+          "r2x7m",
+          "rjls7",
+          "rpsbt",
+          "rnryg",
+          "rihsc",
+          "rh065",
+          "ry4ek",
+          "r6iq7",
+          "rbxhu",
+          "r30iy",
+          "rw76f",
+          "rh22v",
+          "rhwg4",
+          "r82mu",
+          "r35cx",
+          "rsqg7",
+          "rl43b",
+          "ru1jm",
+          "r6jbe",
+          "ryx8n",
+          "rkgjf",
+          "raw34",
+          "r6g4r",
+          "rf299",
+          "rkpsc",
+          "rzhau",
+          "r3vky",
+          "rxa9g",
+          "rvy90",
+          "rtdlb",
+          "rjuyh",
+          "rzfmu",
+          "r9kyn",
+          "r3hdp",
+          "rynal",
+          "reerp",
+          "rrytf",
+          "r7d9r",
+          "rl7yb",
+          "rsmxd",
+          "rt5dp",
+          "r7tmu",
+          "rzqdp",
+          "r3t9e",
+          "r4avn",
+          "rva7x",
+          "r3bxp",
+          "rwsk4",
+          "rfhup",
+          "r3ykj",
+          "rsjjy",
+          "rzxsf",
+          "rhfzk",
+          "r35lh",
+          "rz457",
+          "rr25v",
+          "r48wg",
+          "rj2ns",
+          "rfz4c",
+          "rh5xk",
+          "rtv19",
+          "rj67t",
+          "r8hz2",
+          "r2qxu",
+          "raoi5",
+          "r5hej",
+          "ratb5",
+          "rhll0",
+          "rdnyf",
+          "rrhwk",
+          "rtbcp",
+          "rgpk6",
+          "r3es4",
+          "rd270",
+          "r8x1i",
+          "rx8m9",
+          "rl3n6",
+          "rd18m",
+          "rsesv",
+          "rjbi9",
+          "rggwa",
+          "r1ysy",
+          "r8ig8",
+          "rx4px",
+          "r2qu2",
+          "rs7c2",
+          "rsoqi",
+          "rjvyd",
+          "rxeck",
+          "rcase",
+          "rlz8o",
+          "rle1y",
+          "rzofg",
+          "rwlm1",
+          "r46n5",
+          "rlw2t",
+          "r5lck",
+          "rvhux",
+          "rvywr",
+          "rdlnx",
+          "r1fsz",
+          "rg1ny",
+          "rc6uk",
+          "rs1ox",
+          "r301t",
+          "rf0ll",
+          "rbjys",
+          "rh52g",
+          "rgn4c",
+          "rlv7a",
+          "rvn0g",
+          "r54xz",
+          "romxp",
+          "rybe7",
+          "rlyaf",
+          "r3mmv",
+          "r0kbr",
+          "rqyhw",
+          "rer82",
+          "r82vf_l",
+          "rsz3v_l",
+          "r2com_l",
+          "rloxr",
+          "r78zx",
+          "rkqfd",
+          "rk0qi",
+          "r0new",
+          "rkkqd",
+          "r0hej",
+          "r44lb",
+          "rdu47",
+          "r1nqd",
+          "r05in",
+          "rnknt",
+          "rfs3s",
+          "rh3py",
+          "r93fz",
+          "ru20c",
+          "ra1qq",
+          "r8218",
+          "regs1",
+          "rhe18",
+          "rqvzr",
+          "rdluz",
+          "ruk1b",
+          "rw7py",
+          "rjkt0",
+          "rg8so",
+          "rt9p2",
+          "r0yto",
+          "rtsg3",
+          "ryxlf",
+          "rv05p",
+          "rrofe",
+          "ru14c",
+          "rh7z0",
+          "r50pl",
+          "rtc0b",
+          "ribdm"
+        ]
+      },
+      {
+        "key": "wapoTopics",
+        "values": [
+          "xd21",
+          "homu",
+          "shoy",
+          "vidb",
+          "xqc3",
+          "leat"
+        ]
+      },
+      {
+        "key": "wapoTopicNextVer",
+        "values": [
+          "xd21",
+          "vidb",
+          "homu",
+          "shoy",
+          "govg",
+          "leat"
+        ]
+      },
+      {
+        "key": "se",
+        "values": [
+          "i7kn"
+        ]
+      },
+      {
+        "key": "bs",
+        "values": [
+          "wapo_rsk_medium",
+          "garm_medium"
+        ]
+      }
+    ],
+    "permutive_dict": {
+      "article": {
+        "customTopics": [
+          "[rfs3s] Digital Transformation",
+          "[rh3py] Strategy, Management",
+          "[r93fz] Fortune 500",
+          "[ru20c] Disasters, Accidents, Tragedies",
+          "[ra1qq] Insurance Industry",
+          "[r8218] Construction, Engineering",
+          "[regs1] Beauty",
+          "[rhe18] STEM Enthusiasts",
+          "[rdluz] Health Care Policy",
+          "[rt9p2] Pop Culture",
+          "[r0yto] Inspiring",
+          "[ryxlf] K-12 Education",
+          "[rv05p] Graduate Education",
+          "[rrofe] Luxury Travel",
+          "[ru14c] Affluent",
+          "[rh7z0] Senior Living"
+        ],
+        "wapoTopics": [
+          "[1:xd21] /crime",
+          "[2:homu] /crime/homicide",
+          "[2:shoy] /crime/shootings",
+          "[2:vidb] /crime/violent_crime",
+          "[1:xqc3] /law_and_order",
+          "[2:leat] /law_and_order/law_enforcement"
+        ],
+        "wapoTopicNextVer": [
+          "[1:xd21] /crime",
+          "[2:vidb] /crime/violent_crime",
+          "[3:homu] /crime/violent_crime/homicide",
+          "[3:shoy] /crime/violent_crime/shootings",
+          "[1:govg] /government",
+          "[2:leat] /government/law_enforcement"
+        ],
+        "sentiment": [
+          "[i7kn] negative"
+        ],
+        "publishDate": "2024-12-09T17:59:21.484Z",
+        "lastUpdateDate": "2024-12-09T17:59:21.484Z",
+        "authorName": [
+          "mark berman",
+          "shayna jacobs"
+        ],
+        "authorType": [
+          "author",
+          "author"
+        ],
+        "newsroomDesk": [
+          "national",
+          "national"
+        ],
+        "newsroomSubdesk": [
+          "national - justice & immigration",
+          "national - justice & immigration"
+        ],
+        "contentType": "story - default",
+        "language": "en",
+        "wordCount": 1428
+      },
+      "canonicalUrl": "/national-security/2024/12/09/luigi-mangione-altoona-arrest-unitedhealthcare-suspect/",
+      "section": "national-security",
+      "subsection": "national-security - justice",
+      "commercialNode": "/national-security/justice"
+    }
+  },
+  "summary": {
+    "id": "MPFWSTMNIBCYXPZDN2DDNT2ZNE",
+    "url": "https://www.washingtonpost.com/national-security/2024/12/09/luigi-mangione-altoona-arrest-unitedhealthcare-suspect/",
+    "items": [
+      "Luigi Mangione was arrested in Pennsylvania after a five-day manhunt.",
+      "Mangione is a person of interest in the killing of UnitedHealthcare CEO Brian Thompson in New York.",
+      "His charges include providing false ID to police and carrying a firearm without a license."
+    ]
+  },
+  "comments": "https://www.washingtonpost.com/national-security/2024/12/09/luigi-mangione-altoona-arrest-unitedhealthcare-suspect/?outputType=comment"
+}

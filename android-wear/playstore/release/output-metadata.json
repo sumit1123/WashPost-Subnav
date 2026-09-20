@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.washingtonpost.android",
+  "variantName": "processPlaystoreReleaseResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 1,
+      "versionName": "wear",
+      "outputFile": "android-wear-playstore-release.apk"
+    }
+  ]
+}

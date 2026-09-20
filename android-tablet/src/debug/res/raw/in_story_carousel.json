@@ -1,0 +1,1501 @@
+{
+  "id": "4008e7cb591003eebc693d33d6cb4dca",
+  "type": "blog",
+  "renderer": "native",
+  "arcId": "4APDUEMZ2NGPRPIE6GTSPANKBY",
+  "title": "A loneliness cure — make one friend a year",
+  "blurb": "Feeling lonely? Work on making one close friend this year, and it could be someone you already know.",
+  "contenturl": "https://www.washingtonpost.com/wellness/2024/02/16/how-to-make-close-friends-tips/",
+  "shareurl": "https://www.washingtonpost.com/wellness/2024/02/16/how-to-make-close-friends-tips/",
+  "source": "the-washington-post",
+  "section": "Wellbeing",
+  "sourcesection": "wellbeing",
+  "sourcesubsection": "mind",
+  "sourcecategory": "Wellbeing",
+  "lmt": 1708541160267,
+  "published": 1708541160267,
+  "first_published": 1708084843915,
+  "display_date": 1708084843867,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7EGO4TORERG2NKXB3DRIL4LUFQ.jpg",
+  "sourceslug": "wb-onyourmind-friendship",
+  "commercialnode": "/well-being/mind",
+  "omniture": {
+    "title": "Feeling lonely? Five ways to build one close friendship this year. - The Washington Post",
+    "pageName": "how-to-make-close-friends-tips",
+    "channel": "wellbeing",
+    "contentId": "null4APDUEMZ2NGPRPIE6GTSPANKBY",
+    "contentType": "story - default",
+    "contentSource": "the-washington-post",
+    "contentTopics": "Well+Being;Mind",
+    "newsroomDesk": "(not set)",
+    "newsroomSubdesk": "(not set)",
+    "contentAuthor": "emma nadler",
+    "authorId": "(not set)",
+    "authorType": "",
+    "subSection": "mind",
+    "arcId": "4APDUEMZ2NGPRPIE6GTSPANKBY",
+    "trackingTags": "story-has-edit-branch;created from template id mrcfgbruezdm5jwrlevmkhwhuq;wb-onyourmind;wb-mind;collections-wb-mind;methode-draft;v_m_hw_pass;collections-wb;methode-print-health;evergreen;has-bright;audio-article"
+  },
+  "version": 1,
+  "tags": "story-has-edit-branch,created from template id mrcfgbruezdm5jwrlevmkhwhuq,wb-onyourmind,wb-mind,collections-wb-mind,methode-draft,v_m_hw_pass,collections-wb,methode-print-health,evergreen,has-bright,audio-article",
+  "items": [
+    {
+      "content": "Mind",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "On Your Mind",
+      "displayTransparency": "Advice",
+      "path": "/wellbeing/mind",
+      "storyType": "Advice"
+    },
+    {
+      "content": "A loneliness cure — make one friend a year",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "Five ways to build or enhance one close friendship this year",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/4APDUEMZ2NGPRPIE6GTSPANKBY/20240215-184723.230/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/4APDUEMZ2NGPRPIE6GTSPANKBY/20240215-184723.230/current.mp3?awCollectionId=/wellbeing/mind&awEpisodeId=4APDUEMZ2NGPRPIE6GTSPANKBY&tags=wb-onyourmind%7Cwb-mind%7Ccollections-wb-mind%7Cv_m_hw_pass%7Ccollections-wb%7Caudio-article",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/4APDUEMZ2NGPRPIE6GTSPANKBY/20240215-184723.230/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7EGO4TORERG2NKXB3DRIL4LUFQ.jpg",
+        "imageWidth": 2048,
+        "imageHeight": 1365,
+        "fullcaption": "(Celia Jacobs for The Washington Post)"
+      },
+      "title": {
+        "content": "A loneliness cure — make one friend a year",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "Mind",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "On Your Mind",
+        "displayTransparency": "Advice",
+        "path": "/wellbeing/mind",
+        "storyType": "Advice"
+      },
+      "date": {
+        "content": 1708084843867,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      }
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7EGO4TORERG2NKXB3DRIL4LUFQ.jpg",
+      "imageWidth": 2048,
+      "imageHeight": 1365,
+      "image_type": "illustration",
+      "widthFactor": "full-bleed",
+      "fullcaption": "(Celia Jacobs for The Washington Post)",
+      "blurb": ""
+    },
+    {
+      "content": "By Emma Nadler",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "name": "Emma Nadler"
+        }
+      ]
+    },
+    {
+      "content": 1708084843867,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "float",
+      "size": "tall",
+      "adPath": "/well-being/mind"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "In my psychotherapy practice, when someone is feeling lonely and craving more from their friendships, I encourage them to work on making one dear friend that year who could be someone they already know."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The landmark Harvard <a href=\"https://www.hsph.harvard.edu/health-happiness/2023/02/27/the-good-life-a-discussion-with-dr-robert-waldinger/#:~:text=The%20Harvard%20Study%20of%20Adult%20Development,-So%20what%20do&text=Waldinger%20was%20ideally%20placed%20to,younger%20group%20of%20juvenile%20delinquents.\">Study of Adult Development</a> suggests that close relationships are the most significant factor in personal well-being — yet it is not the number of relationships, but the quality of the connection that matters. Gaining one closer friend in 2024 may significantly boost your life satisfaction, as <a href=\"https://www.apa.org/monitor/2023/06/cover-story-science-friendship\">friendship</a> is known to protect against stress and improve mental health. And one friend a year is manageable, yet could lead to three friends in three years and a handful of friends in five."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The one friend per year idea came from my friend and colleague, Barb Adelman Herstig, as we talked about our psychotherapy work over tea in my office near Minneapolis. This is another thing that friends provide: a fresh perspective. Our offhand conversation stayed with me and has informed the way I approach the subject of connection."
+    },
+    {
+      "type": "toggle",
+      "subtype": "alerts",
+      "key": "health",
+      "mime": "text/html"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "As the parent and caregiver of an 8-year-old child whose disabilities require around-the-clock care, I know how hard it can be to maintain close friendships. For several years, I refused most invitations until the invitations slowed down. Way down. To avoid guilty feelings of leaving my daughter, I hunkered down with my two young children and husband, eschewing any gathering that I deemed “unnecessary.” This left me resentful and lonely."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "tall",
+      "adPath": "/well-being/mind"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Once I realized how deeply this isolation affected me, I changed course. It helped to have extra support to usher me through — as a therapist myself, my stance is that every good therapist needs a good therapist. So I found one and began working on my frayed friendships. I have not landed in a place of perfect friendships, but I do know it is possible to have strong relationships, even with notable life constraints. And if I can do it, you can do it, too. Here are five ways to build or enhance one close friendship this year."
+    },
+    {
+      "type": "inline_carousel",
+      "subtype": "stories",
+      "headline": "Relationships",
+      "items": [
+        {
+          "lmt": 1708541160267,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/02/16/how-to-make-close-friends-tips/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7EGO4TORERG2NKXB3DRIL4LUFQ.jpg"
+          },
+          "title": {
+            "content": "A loneliness cure — make one friend a year",
+            "prefix": "Opinion",
+            "separator": "|"
+          },
+          "byline": {
+            "content": "By Emma Nadler"
+          },
+          "analytics": {
+            "title": "Feeling lonely? Five ways to build one close friendship this year. - The Washington Post",
+            "pageName": "how-to-make-close-friends-tips",
+            "channel": "wellbeing",
+            "contentId": "null4APDUEMZ2NGPRPIE6GTSPANKBY",
+            "contentType": "story - default",
+            "contentSource": "the-washington-post",
+            "contentTopics": "Well+Being;Mind",
+            "newsroomDesk": "(not set)",
+            "newsroomSubdesk": "(not set)",
+            "contentAuthor": "emma nadler",
+            "authorId": "(not set)",
+            "authorType": "",
+            "subSection": "mind",
+            "arcId": "4APDUEMZ2NGPRPIE6GTSPANKBY",
+            "trackingTags": "story-has-edit-branch;created from template id mrcfgbruezdm5jwrlevmkhwhuq;wb-onyourmind;wb-mind;collections-wb-mind;methode-draft;v_m_hw_pass;collections-wb;methode-print-health;evergreen;has-bright;audio-article"
+          }
+        },
+        {
+          "lmt": 1707911373241,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/02/14/relationship-tips-science-gottman/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CF5CSN2H3NHSFDQT3LZVTCO6SM.jpg"
+          },
+          "title": {
+            "content": "These 5 science-based tips can improve your relationship",
+            "prefix": "Opinion",
+            "separator": "|"
+          },
+          "label": {
+            "content": "Live Update",
+            "coverageActive": true
+          },
+          "byline": {
+            "content": "By Richard Sima"
+          }
+        },
+        {
+          "lmt": 1706306458645,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/01/15/love-languages-lack-of-research/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MIODKTMJXVHI3CNDFRE6PVLOIA.jpg"
+          },
+          "title": {
+            "content": "Does your ‘love language’ really matter? Scientists are skeptical."
+          },
+          "label": {
+            "content": "Life",
+            "displayTransparency": "Perspective",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Richard Sima"
+          },
+          "analytics": {
+            "title": "Love language advice for couples isn’t backed by science, new research shows - The Washington Post",
+            "pageName": "love-languages-lack-of-research",
+            "channel": "wellbeing",
+            "contentId": "null7T3MMXYXDFBCHMWBSR7MCJDZPU",
+            "contentType": "story - default",
+            "contentSource": "the-washington-post",
+            "contentTopics": "Well+Being;Life",
+            "newsroomDesk": "well+being",
+            "newsroomSubdesk": "news well+being",
+            "contentAuthor": "richard sima",
+            "authorId": "simar",
+            "authorType": "staff writer",
+            "subSection": "life",
+            "arcId": "7T3MMXYXDFBCHMWBSR7MCJDZPU",
+            "trackingTags": "story-has-edit-branch;wb-brainmatters;wb-mind;collections-wb-mind;methode-draft;v_m_hw_pass;collections-wb;created from template id yhfrtc2khnh5fc7ch552wosxoi;explanatory;evergreen;has-bright;audio-article"
+          }
+        },
+        {
+          "lmt": 1707772707500,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/02/09/boyfriend-sickness-romance-dating/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OIWUEGVLSNG3ZHTEVHN3SBHXZY.gif"
+          },
+          "title": {
+            "content": "Are you suffering from ‘boyfriend sickness’? It’s more common than you think."
+          },
+          "label": {
+            "content": "Well+Being",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Rebecca Fishbein"
+          }
+        },
+        {
+          "lmt": 1707656433278,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/02/09/relationship-closeness-communication-bias-strategies/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NUZUDGER2VAF7CW7DEWENQX7RM.jpg"
+          },
+          "title": {
+            "content": "How well do you really know your partner? "
+          },
+          "label": {
+            "content": "Mind",
+            "displayTransparency": "Advice",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Yael Schonbrun"
+          }
+        },
+        {
+          "lmt": 1707762373482,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/02/12/women-long-friendships/",
+          "image": {
+            "imageWidth": 3000,
+            "imageHeight": 2000,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TB4PHRAWMZCWY6C3ZFGWDGYUZU.jpg"
+          },
+          "title": {
+            "content": "How to stay friends for 50 years? Ask the women of Sugar Hill. "
+          },
+          "label": {
+            "content": "Well+Being",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Kelyn Soong and Maya Valentine "
+          }
+        },
+        {
+          "lmt": 1707831990175,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/02/13/long-covid-intimacy-sex-relationships/",
+          "image": {
+            "imageWidth": 2500,
+            "imageHeight": 1667,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FA2PXPCP75NGY2KNQJXCHYFIZY.jpg"
+          },
+          "title": {
+            "content": "How long covid takes a toll on relationships and intimacy"
+          },
+          "label": {
+            "content": "Well+Being",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Amanda Morris"
+          }
+        },
+        {
+          "lmt": 1707822001305,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/02/13/pet-rabbits-bonding-love/",
+          "image": {
+            "imageWidth": 5400,
+            "imageHeight": 3600,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/R7OCDNB6UZAXRFIBW3SY3A4SKE.jpg"
+          },
+          "title": {
+            "content": "Bunny love turned out to be the balm my anxious soul needed"
+          },
+          "label": {
+            "content": "Well+Being",
+            "displayTransparency": "Perspective",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Rona Kobell "
+          }
+        },
+        {
+          "lmt": 1707761680451,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/02/10/humor-couples-relationships-laughter-love/",
+          "image": {
+            "imageWidth": 3600,
+            "imageHeight": 2400,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4VFZB7BTAZCJ3LPOOMB2NSVU6Y.jpg"
+          },
+          "title": {
+            "content": "My funny valentine: How humor can sweeten — or sour — a relationship"
+          },
+          "label": {
+            "content": "Well+Being",
+            "displayTransparency": "Perspective",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Bob Brody"
+          }
+        },
+        {
+          "lmt": 1707927419898,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/02/13/chocolate-health-benefits/",
+          "image": {
+            "imageWidth": 1500,
+            "imageHeight": 1000,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MCFBIA3XT5D2BBG7TYXVQ6TW44.gif"
+          },
+          "title": {
+            "content": "Can chocolate be a health food? What to look for in your favorite candy."
+          },
+          "label": {
+            "content": "Food & Nutrition",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Marlene Cimons"
+          }
+        },
+        {
+          "lmt": 1707769375443,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/02/11/dogs-cats-pets-attachment-love/",
+          "image": {
+            "imageWidth": 5400,
+            "imageHeight": 3600,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YLT66NORNNCN7CDPNDJ5Z33CBA.jpg"
+          },
+          "title": {
+            "content": "My pets have stolen my heart again and again. I know I’m not alone."
+          },
+          "label": {
+            "content": "Well+Being",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Marlene Cimons"
+          }
+        },
+        {
+          "lmt": 1707415212207,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/01/22/older-adults-sex-stds-rising/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZYOV2ALBTFDL3G7RTC3EDMMSVI.gif"
+          },
+          "title": {
+            "content": "The sexual health checkup older adults didn’t know they needed"
+          },
+          "label": {
+            "content": "Body",
+            "displayTransparency": "Advice",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Trisha Pasricha, MD"
+          }
+        }
+      ]
+    },
+    {
+      "type": "inline_carousel",
+      "subtype": "stories",
+      "headline": "Get Caught Up",
+      "items": [
+        {
+          "contenturl": "https://www.washingtonpost.com/nation/2024/06/11/florida-lgbtq-trans-health/",
+          "image": {
+            "imageWidth": 4000,
+            "imageHeight": 2666,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LSYL2TE4ME4ZWZ62J6UVF4ZO4A.jpg"
+          },
+          "title": {
+            "content": "Judge calls DeSantis ban on transgender care unconstitutional"
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "National"
+          },
+          "byline": {
+            "content": "By Lori Rozsa"
+          },
+          "lmt": 1718206846736,
+          "summary": {
+            "id": "7CEQPAH3U5HFXOL23LICGY4HZI",
+            "url": "https://www.washingtonpost.com/nation/2024/06/11/florida-lgbtq-trans-health/",
+            "items": [
+              "Law, mostly overturned, banned treatment for minors, restricted adult care.",
+              "Judge compares transgender bias to discrimination based on racism, misogyny.",
+              "Victory celebrated by LGBTQ community; DeSantis administration will appeal."
+            ]
+          },
+          "analytics": {
+            "title": "Judge calls DeSantis ban on transgender care unconstitutional - The Washington Post",
+            "pageName": "florida-lgbtq-trans-health",
+            "channel": "national",
+            "contentId": "nullPHRHUQM4BNGK7FHUZN5WAL2W54",
+            "contentType": "story - default",
+            "contentSource": "the-washington-post",
+            "contentTopics": "National",
+            "newsroomDesk": "national",
+            "newsroomSubdesk": "national - america",
+            "contentAuthor": "lori rozsa",
+            "authorId": "lrozsa",
+            "authorType": "(not set)",
+            "subSection": "national",
+            "arcId": "PHRHUQM4BNGK7FHUZN5WAL2W54",
+            "trackingTags": "story-has-edit-branch;created from template id cpxdc2p3lfhmvbylarbbiwnbra;methode-draft;ai-takeaways;audio-article"
+          }
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/obituaries/2024/06/12/jerry-west-coach-lakers-dead/",
+          "image": {
+            "imageWidth": 1235,
+            "imageHeight": 823,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YKYHX6QNPBH6RIPXRKXVWCMSXI.jpg"
+          },
+          "title": {
+            "content": "Jerry West, NBA legend who helped the Lakers dominate, dies at 86"
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "Obituaries"
+          },
+          "byline": {
+            "content": "By John Otis"
+          },
+          "lmt": 1718235701558,
+          "summary": {
+            "id": "Q44IEQ7ZRRAOLEZM3H4C4FHCX4",
+            "url": "https://www.washingtonpost.com/obituaries/2024/06/12/jerry-west-coach-lakers-dead/",
+            "items": [
+              "Known as “Mr. Clutch,” inspired NBA logo silhouette.",
+              "As player and then manager, saw more than a dozen Finals with Lakers.",
+              "His 27 points per game average remains fourth-highest in league history."
+            ]
+          },
+          "analytics": {
+            "title": "Jerry West, NBA legend who helped the Lakers dominate, dies at 86 - The Washington Post",
+            "pageName": "jerry-west-coach-lakers-dead",
+            "channel": "local",
+            "contentId": "nullMJWVHRDQ7VAM3NDD54IXUCUZYQ",
+            "contentType": "story - centered-layout",
+            "contentSource": "the-washington-post",
+            "contentTopics": "Obituaries;National Basketball Association;Sports",
+            "newsroomDesk": "(not set)",
+            "newsroomSubdesk": "(not set)",
+            "contentAuthor": "john otis",
+            "authorId": "(not set)",
+            "authorType": "",
+            "subSection": "obituaries",
+            "arcId": "MJWVHRDQ7VAM3NDD54IXUCUZYQ",
+            "trackingTags": "story-has-edit-branch;created from template id aysefmop6zaxhgqg3mqp73fqv4;methode-draft;ai-takeaways;audio-article"
+          }
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/education/2024/06/11/shenandoah-county-school-board-confederate-school-names-lawsuit/",
+          "image": {
+            "imageWidth": 3376,
+            "imageHeight": 2400,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/K55IUVQ7VYI6ZKGZBAT2FJFZCU.jpg"
+          },
+          "title": {
+            "content": "Virginia school board sued after reinstating Confederate school names"
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "Local Education"
+          },
+          "byline": {
+            "content": "By Karina Elwood"
+          },
+          "lmt": 1718208021134,
+          "summary": {
+            "id": "LR2CGW7QGZEOXCUOUR5TR6I6SQ",
+            "url": "https://www.washingtonpost.com/education/2024/06/11/shenandoah-county-school-board-confederate-school-names-lawsuit/",
+            "items": [
+              "Shenandoah County reverts two schools to names of Confederate leaders.",
+              "Virginia NAACP, five students say decision discriminates against Black students.",
+              "About 60 districts in U.S. have removed Confederate names since 2020."
+            ]
+          },
+          "analytics": {
+            "title": "Students sue Virginia school board over restoring Confederate names to schools - The Washington Post",
+            "pageName": "shenandoah-county-school-board-confederate-school-names-lawsuit",
+            "channel": "education",
+            "contentId": "nullTP5BJRPHINESHHH6XH6KYFM22E",
+            "contentType": "story - default",
+            "contentSource": "the-washington-post",
+            "contentTopics": "Local Education;D.C., Md. & Va.;Virginia",
+            "newsroomDesk": "metro",
+            "newsroomSubdesk": "local - education",
+            "contentAuthor": "karina elwood",
+            "authorId": "elwoodk",
+            "authorType": "staff writer",
+            "subSection": "education - education",
+            "arcId": "TP5BJRPHINESHHH6XH6KYFM22E",
+            "trackingTags": "story-has-edit-branch;created from template id nfvl5quvkbdd3b7juokzhgfolu;methode-draft;ai-takeaways;audio-article"
+          }
+        },
+        {
+          "contenturl": "https://www.washingtonpost.com/home/2024/06/12/first-time-renovating-remodeling-advice/",
+          "image": {
+            "imageWidth": 2600,
+            "imageHeight": 1733,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WCKN3UDLXNCFZKWHUGNCLQ7PGI.jpg"
+          },
+          "title": {
+            "content": "8 things to know before you renovate your home for the first time"
+          },
+          "label": {
+            "coverageActive": false,
+            "displayLabel": "The Home You Own"
+          },
+          "byline": {
+            "content": "By Natalie Delgadillo"
+          },
+          "lmt": 1718210160359,
+          "summary": {
+            "id": "SD6INK7TGJEOXEMKD5MGW4TTBE",
+            "url": "https://www.washingtonpost.com/home/2024/06/12/first-time-renovating-remodeling-advice/",
+            "items": [
+              "Renovations cause anxiety over cost, timeframe and disruption.",
+              "Ensure contractors are licensed and insured, and check at least five references for each.",
+              "Budget for unexpected costs and verify the allowances for materials in contracts."
+            ]
+          },
+          "analytics": {
+            "title": "8 things to know before you renovate your home for the first time - The Washington Post",
+            "pageName": "first-time-renovating-remodeling-advice",
+            "channel": "lifestyle",
+            "contentId": "nullG2HAQZBSB5GATCXAKS3MDJ5FYY",
+            "contentType": "story - article-list",
+            "contentSource": "the-washington-post",
+            "contentTopics": "Home & Garden;Lifestyle",
+            "newsroomDesk": "(not set)",
+            "newsroomSubdesk": "(not set)",
+            "contentAuthor": "natalie delgadillo",
+            "authorId": "(not set)",
+            "authorType": "",
+            "subSection": "lifestyle - home-garden",
+            "arcId": "G2HAQZBSB5GATCXAKS3MDJ5FYY",
+            "trackingTags": "story-has-edit-branch;created from template id bgmixgt3jfbddbsqfxrmadydb4;explanatory;evergreen;thyo;magnet-homeyouown;list-nonumbers;ai-takeaways;audio-article"
+          }
+        }
+      ]
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "1. Get back in touch",
+      "subhead_level": 2
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Going through a season of disconnection is common, especially given the demands of modern life and the years of pandemic restrictions. Instead of berating yourself for past mistakes, focus on how you want to show up now."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Call, send a text, write a letter, mail a postcard. Do something to let your friend know that you care. Nina Badzin, host of the podcast “Dear Nina: Conversations About Friendship,” recommends the voice memo. Use the voice memo app on your phone to record a message and share it. This is a great alternative for those who are skittish about phone calls."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/well-being/mind"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "2. Make a specific request to connect",
+      "subhead_level": 2
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“Let’s hang out sometime” does not lead to a closer friendship. But, “Hey, are you free any Sunday this month for a coffee or brunch” could. Being more explicit about plans works. And if you are willing to be the one to extend an invitation, that’s going to move things along. What I have found from my therapy practice (and from being alive) is that most people want someone else to initiate because of the vulnerability involved in making the ask. Yet, if you want meaningful rapport, you need to reach out, as scary or uncomfortable as that might be."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Be the kind of friend that marks an occasion in a unique way by doing something novel, such as inviting a friend to tour a new museum, visit a park or, as relationship psychotherapist Esther Perel suggests on the “Ten Percent Happier” podcast: “When you buy tickets for a concert, buy two.” This provides extra incentive to invite someone along."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "3. Pursue a friendship with someone who is available",
+      "subhead_level": 2
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Identify and engage a friend who is truly seeking a closer relationship, too. Just like in a romantic partnership, pouring energy into an emotionally unavailable person will lead to disconnection. Find someone who demonstrates that they have the time, energy, interest and capacity."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/well-being/mind"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "When you contact them to make plans, do they accept or suggest an alternate date, or do they defer your meeting until a far-out time? Does this pal seem to value friendship in general, or are they consumed with the other roles in their life? Try not to take it personally, but also don’t try too hard with someone who can’t follow through."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "4. Find a regular time to hang out with a friend",
+      "subhead_level": 2
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "It could come in the form of a weekly fitness routine, a creative endeavor or interest (such as taking a class together), or a religious service. Beginning last summer, my friend Katrin, whom I had known for more than a decade, and I decided to commit to a weekly Friday morning walk, no matter the weather — which takes dedication in the northern climate where we live. Our increased time together has brought us much closer, which is <a href=\"https://journals.sagepub.com/doi/10.1177/0265407518761225\">positively correlated in research about friendship</a>."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "I’ve heard clients and friends rave about how much these regular meetings — even if they are less often, such as monthly — add to a sense of well-being, structure and belonging. And when you create something recurring, you reduce the mental load of coordination, which frees up time and energy for your relationships."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/well-being/mind"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "5. Engage fully in the present and offer appreciation",
+      "subhead_level": 2
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "You can really lean into a friendship when you put away your phone and practice being in the moment, which is a rare offering in today’s world. Be curious about your companion’s life and experiences. What most humans crave is to be seen and heard. If you can also open up about your inner world in a reciprocal way, this will probably develop further intimacy."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "float",
+      "size": "medium",
+      "adPath": "/well-being/mind"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Don’t be shy about expressing your care for your friend and why the relationship matters to you. When your buddy gives you helpful advice or listens patiently to your latest challenge at work or home, let them know how their efforts help you. This gratitude builds your bond and has been shown to deepen the connection and spark further interest in the relationship."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i>Emma Nadler is a psychotherapist and the author of “The Unlikely Village of Eden: A Memoir.</i>”"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i>We welcome your comments on this column at </i><a href=\"mailto:OnYourMind@washpost.com\"><i>OnYourMind@washpost.com</i></a>."
+    },
+    {
+      "type": "inline_carousel",
+      "subtype": "stories",
+      "headline": "More from On Your Mind",
+      "carousel_items": [
+        {
+          "lmt": 1709899200089,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/03/08/grief-brain-healing-coping-strategies/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZIC3DR46FVEITA72SHSO7KO664.jpg"
+          },
+          "title": {
+            "content": "What grief does to your brain, and how to cope with it"
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Christopher W.T. Miller, MD"
+          }
+        },
+        {
+          "lmt": 1709294952570,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/03/01/quitting-smart-strategies-benefits/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/KZN2SU4R4RHFFH3FNJFXWP6NLQ.jpg"
+          },
+          "title": {
+            "content": "Why quitting can be a superpower that helps your mental health"
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Gregory Scott Brown, MD"
+          }
+        },
+        {
+          "lmt": 1708689610639,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/02/23/reduce-stress-body-strategies-for-calm/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SVONAGJFTFFJXKNSSFGW6YURNM.jpg"
+          },
+          "title": {
+            "content": "5 ways to reduce stress in your body"
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Jenny Taitz"
+          }
+        },
+        {
+          "lmt": 1708976455625,
+          "contenturl": "https://www.washingtonpost.com/wellness/2023/02/08/microdosing-mushrooms-anxiety-depression-moms/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MPAPQWQDGJGGZGBJYOIIIWRGNI.jpg"
+          },
+          "title": {
+            "content": "Some moms are microdosing mushrooms for anxiety and depression"
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Melissa Whippo"
+          }
+        },
+        {
+          "lmt": 1708541160267,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/02/16/how-to-make-close-friends-tips/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7EGO4TORERG2NKXB3DRIL4LUFQ.jpg"
+          },
+          "title": {
+            "content": "A loneliness cure — make one friend a year"
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Emma Nadler"
+          }
+        },
+        {
+          "lmt": 1707772538814,
+          "contenturl": "https://www.washingtonpost.com/wellness/2023/02/13/projection-relationships-conflict-management/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TMNRMCQO3RATPFW2RZQASBDIFU.jpg"
+          },
+          "title": {
+            "content": "Complaining about your partner? It might be you."
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Orna Guralnik"
+          }
+        },
+        {
+          "lmt": 1707656433278,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/02/09/relationship-closeness-communication-bias-strategies/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NUZUDGER2VAF7CW7DEWENQX7RM.jpg"
+          },
+          "title": {
+            "content": "How well do you really know your partner? "
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Yael Schonbrun"
+          }
+        },
+        {
+          "lmt": 1706876115413,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/02/02/therapy-lying-shame-strategies/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ADUCPJ3XY5G6ZC5UD3YTCQ5FN4.jpg"
+          },
+          "title": {
+            "content": "Yes, we know you lie to your therapist. Here’s what to do instead."
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Juli Fraga"
+          }
+        },
+        {
+          "lmt": 1706279320106,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/01/26/financial-stress-mental-health-coping-tips/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VTOM7TZZIVH57KRIA6ZIKQJ5EY.jpg"
+          },
+          "title": {
+            "content": "How to cope with financial stress affecting your mental health"
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Traci S. Williams"
+          }
+        },
+        {
+          "lmt": 1705667201663,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/01/19/ozempic-weight-loss-drugs-eating-disorders-mental-health/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GKSV5H5SRJFDNKOFBECKZLMOFI.jpg"
+          },
+          "title": {
+            "content": "Weight-loss drugs are challenging for people with eating disorders"
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Pamela Ramos, MD"
+          }
+        },
+        {
+          "lmt": 1705504587625,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/01/11/sleep-better-new-year-tips/",
+          "image": {
+            "imageWidth": 2000,
+            "imageHeight": 1500,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/Y7TEMR7LQDB54GKUXP3G3YMSTU.jpg"
+          },
+          "title": {
+            "content": "5 simple tips to help you sleep better in the new year"
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Lisa Strauss"
+          }
+        },
+        {
+          "lmt": 1704988142461,
+          "contenturl": "https://www.washingtonpost.com/wellness/2024/01/06/self-compassion-tips-empathy-gratitude-brain/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/R6YETPMW7VA2NKBUGSC7G6UDGY.jpg"
+          },
+          "title": {
+            "content": "Your toughest mental health goal? Being kinder to yourself."
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Christopher W.T. Miller, MD"
+          }
+        },
+        {
+          "lmt": 1704909630505,
+          "contenturl": "https://www.washingtonpost.com/wellness/2023/12/22/mental-health-tips-experts/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QMOXDVCGNBHYRGQBO2VPPHR3I4.jpg"
+          },
+          "title": {
+            "content": "Want to improve your mental health? Experts offer their best advice."
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Washington Post staff"
+          }
+        },
+        {
+          "lmt": 1702645233342,
+          "contenturl": "https://www.washingtonpost.com/wellness/2023/12/15/holiday-gatherings-gaslighting-emotional-abuse/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/6DU6JRJI2BAIPMKKNFE4JYEZN4.jpg"
+          },
+          "title": {
+            "content": "7 ways to make your family holiday gatherings free from gaslighting"
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Robin Stern"
+          }
+        },
+        {
+          "lmt": 1701802359713,
+          "contenturl": "https://www.washingtonpost.com/wellness/2023/12/05/holidays-conversations-deeper-connections/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IU4KVVEAUZCFRBZPZDVESEV4EU.jpg"
+          },
+          "title": {
+            "content": "Six tips to turn light chats into deep talks at holiday gatherings"
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Juli Fraga"
+          }
+        },
+        {
+          "lmt": 1701173195781,
+          "contenturl": "https://www.washingtonpost.com/wellness/2023/10/13/affair-infidelity-disclosure/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WYGJX3NF4FC2PKG2SDKMJUV2IE.jpg"
+          },
+          "title": {
+            "content": "Should an affair be disclosed? Risks of hiding or revealing infidelity."
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Yael Schonbrun"
+          }
+        },
+        {
+          "lmt": 1699991897602,
+          "contenturl": "https://www.washingtonpost.com/wellness/2023/11/10/people-pleasing-tips-change/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YVZZ5HYO2RBTLPTISNFMPDIOJY.jpg"
+          },
+          "title": {
+            "content": "Are you a chronic people-pleaser? Here’s how to be kinder to yourself."
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Juli Fraga"
+          }
+        },
+        {
+          "lmt": 1699299598955,
+          "contenturl": "https://www.washingtonpost.com/wellness/2023/11/03/psychedelics-therapy-climate-change-eco-anxiety/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SNBRMCWGSVHITDPS6SV4G5MS3E.jpg"
+          },
+          "title": {
+            "content": "How psychedelic therapy may help with climate change anxiety"
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Emily Willow, MD"
+          }
+        },
+        {
+          "lmt": 1698400813877,
+          "contenturl": "https://www.washingtonpost.com/wellness/2023/10/27/healthy-fear-anxiety-brain-help-benefit/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7B2Q6DYKMBG2JANAMARVONOWJQ.jpg"
+          },
+          "title": {
+            "content": "Fear and anxiety can help. Here’s how to use them to your advantage."
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Arash Javanbakht, MD"
+          }
+        },
+        {
+          "lmt": 1698512477266,
+          "contenturl": "https://www.washingtonpost.com/wellness/2023/10/20/snoring-noise-sleep-disturbances-strategies/",
+          "image": {
+            "imageWidth": 2048,
+            "imageHeight": 1365,
+            "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/PTXEGAB7WND5DLM6OPO6HU6BWU.jpg"
+          },
+          "title": {
+            "content": "When a partner’s snoring wrecks your sleep, these tips can help"
+          },
+          "label": {
+            "content": "Mind",
+            "coverageActive": false
+          },
+          "byline": {
+            "content": "By Lisa Strauss"
+          }
+        }
+      ]
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.washingtonpost.com/newsletters/well-being/",
+      "content": "Sign up for the Well+Being newsletter, your source of expert advice and simple tips to help you live well every day"
+    },
+    {
+      "type": "link",
+      "subtype": "comments"
+    },
+    {
+      "type": "element_group",
+      "subtype": "link_box",
+      "content_elements": [
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "Well+Being shares news and advice for living well every day. <a href=\"https://www.washingtonpost.com/newsletters/well-being/\">Sign up for our newsletter to get tips directly in your inbox.</a>"
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<a href=\"https://www.washingtonpost.com/wellness/2023/12/04/vitamin-b12-supplements-energy-fatigue/\">Vitamin B12 for fatigue</a> has no proven benefit unless you have a deficiency that causes anemia."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "Flashes, shimmers and blind spots: Here’s what <a href=\"https://www.washingtonpost.com/wellness/interactive/2023/flashes-shimmers-blind-spots-heres-what-migraine-aura-looks-like/\">migraine aura</a> looks like."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<a href=\"https://www.washingtonpost.com/wellness/2023/12/01/sparkling-water-dental-enamel/\">Sparkling water</a> is a better choice for your teeth than most popular beverages."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "You can help your <a href=\"https://www.washingtonpost.com/wellness/2023/12/21/habit-formation-practice-tips-brain/\">brain form healthy habits</a> and break the bad ones."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "Our 7 best tips to build an <a href=\"https://www.washingtonpost.com/wellness/2023/12/12/easy-exercise-habits/\">exercise habit</a>."
+        }
+      ],
+      "additional_properties": {
+        "link_box_title": "Read more from Well+Being",
+        "link_box_byline": null,
+        "link_box_display_date": 1709328184462,
+        "link_box_subheadline": null
+      }
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "blogname": "Well+Being Mind",
+  "editorpicks": [
+    {
+      "type": "recirculation-link",
+      "mime": "text/plain",
+      "content": "Sign up for the Well+Being newsletter, your source of expert advice and simple tips to help you live well every day",
+      "url": "https://www.washingtonpost.com/newsletters/well-being/"
+    }
+  ],
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/4APDUEMZ2NGPRPIE6GTSPANKBY/20240215-184723.230/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/4APDUEMZ2NGPRPIE6GTSPANKBY/20240215-184723.230/current.mp3?awCollectionId=/wellbeing/mind&awEpisodeId=4APDUEMZ2NGPRPIE6GTSPANKBY&tags=wb-onyourmind%7Cwb-mind%7Ccollections-wb-mind%7Cv_m_hw_pass%7Ccollections-wb%7Caudio-article",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/4APDUEMZ2NGPRPIE6GTSPANKBY/20240215-184723.230/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7EGO4TORERG2NKXB3DRIL4LUFQ.jpg",
+      "imageWidth": 2048,
+      "imageHeight": 1365,
+      "fullcaption": "(Celia Jacobs for The Washington Post)"
+    },
+    "title": {
+      "content": "A loneliness cure — make one friend a year",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "Mind",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "On Your Mind",
+      "displayTransparency": "Advice",
+      "path": "/wellbeing/mind",
+      "storyType": "Advice"
+    },
+    "date": {
+      "content": 1708084843867,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    }
+  },
+  "first_display_date": 1708084843867,
+  "targeting": {
+    "adcall": [
+      {
+        "key": "ca",
+        "values": [
+          "rcisc",
+          "r1zb8",
+          "r66hu",
+          "r5zn0",
+          "r71iv",
+          "rnfyo",
+          "rddr6",
+          "rdisi",
+          "r2qkj",
+          "ryiid",
+          "rjba6",
+          "r1djc",
+          "rj98c",
+          "r7q72",
+          "riv2l",
+          "rfrmj",
+          "r6x7c",
+          "rzhm0",
+          "r2lez",
+          "r0yv2",
+          "rtrxk",
+          "rqy2y",
+          "reddk",
+          "rpkxx",
+          "reest",
+          "rqqn2",
+          "rycv4",
+          "rysqo",
+          "ryq7t",
+          "ru0hj",
+          "rjls7",
+          "rpsbt",
+          "rnryg",
+          "rihsc",
+          "rh065",
+          "rojxy",
+          "ry4ek",
+          "r4fvv",
+          "r30iy",
+          "rw76f",
+          "r6iq7",
+          "rh22v",
+          "r5bpj",
+          "rhwg4",
+          "rc28c",
+          "r82mu",
+          "rsqg7",
+          "rl43b",
+          "ru1jm",
+          "r6jbe",
+          "ryx8n",
+          "rkgjf",
+          "r1yqm",
+          "raw34",
+          "r03o4",
+          "rjl3v",
+          "rkpsc",
+          "rvqcm",
+          "r02mg",
+          "rm3lz",
+          "r785o",
+          "rvy90",
+          "rjuyh",
+          "r35ap",
+          "rz25l",
+          "r3hdp",
+          "rynal",
+          "rayu0",
+          "r7d9r",
+          "rl7yb",
+          "rsmxd",
+          "rix28",
+          "rt5dp",
+          "r7tmu",
+          "rzqdp",
+          "rva7x",
+          "rw037",
+          "r3bxp",
+          "rwsk4",
+          "r95gm",
+          "rra4x",
+          "rhfzk",
+          "rqs5o",
+          "rmikf",
+          "r4t4y",
+          "r35lh",
+          "rr25v",
+          "r48wg",
+          "rj2ns",
+          "rfz4c",
+          "rq574",
+          "rfxvv",
+          "raoi5",
+          "rk7m0",
+          "rh5xk",
+          "ra7me",
+          "r1fne",
+          "rjev2",
+          "rayex",
+          "rrlor",
+          "ratb5",
+          "rhll0",
+          "rtbcp",
+          "r3es4",
+          "rd270",
+          "r8x1i",
+          "rg5cq",
+          "rx8m9",
+          "rl3n6",
+          "rxpwi",
+          "rjya1",
+          "r2hzw",
+          "r2g8j",
+          "r1ysy",
+          "r8ig8",
+          "rx4px",
+          "r2qu2",
+          "rs7c2",
+          "rjvyd",
+          "rsesv",
+          "rxeck",
+          "rsl4v",
+          "rlz8o",
+          "rle1y",
+          "rzofg",
+          "r0227",
+          "r5lck",
+          "rvhux",
+          "rvywr",
+          "rdlnx",
+          "rmcp7",
+          "rg1ny",
+          "rnp2g",
+          "rdstm",
+          "rp4yw",
+          "rc6uk",
+          "rs1ox",
+          "r301t",
+          "r86qe",
+          "rf0ll",
+          "rbjys",
+          "rh52g",
+          "r1fsz",
+          "rapws",
+          "rotmq",
+          "rlv7a",
+          "rh5p3",
+          "rem29_l",
+          "rmk71",
+          "r3mmv",
+          "r0kbr",
+          "rqyhw",
+          "rer82",
+          "rrqij",
+          "rtdzb",
+          "r78zx"
+        ]
+      },
+      {
+        "key": "bs",
+        "values": [
+          "garm_low"
+        ]
+      },
+      {
+        "key": "wapoTopics",
+        "values": [
+          "x5wz",
+          "ditk",
+          "meii",
+          "psyi",
+          "rele",
+          "soax"
+        ]
+      },
+      {
+        "key": "se",
+        "values": [
+          "3zbe"
+        ]
+      }
+    ],
+    "permutive_dict": {
+      "article": {
+        "customTopics": [],
+        "wapoTopics": [
+          "[1:x5wz] /health",
+          "[2:ditk] /health/diagnosis_and_treatment",
+          "[2:meii] /health/mental_health",
+          "[2:psyi] /health/psychotherapy",
+          "[2:rele] /lifestyle/relationships",
+          "[1:soax] /social_affairs"
+        ],
+        "sentiment": [
+          "[3zbe] positive"
+        ],
+        "publishDate": "2024-01-23T15:19:45.329Z",
+        "lastUpdateDate": "2024-01-23T15:19:45.329Z",
+        "authorName": [
+          "emma nadler"
+        ],
+        "authorType": [
+          "author"
+        ],
+        "contentType": "story - default",
+        "language": "en",
+        "wordCount": 1040
+      },
+      "canonicalUrl": "/wellness/2024/02/16/how-to-make-close-friends-tips/",
+      "section": "wellbeing",
+      "subsection": "mind",
+      "commercialNode": "/well-being/mind"
+    }
+  }
+}

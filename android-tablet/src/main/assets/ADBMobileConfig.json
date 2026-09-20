@@ -1,0 +1,21 @@
+{
+    "version" : "1.0",
+    "analytics" : {
+        "rsids" : "wpniandroidresponsiveprod",
+        "server" : "wpni.112.207.net",
+        "charset" : "UTF-8",
+        "ssl" : false,
+		"offlineEnabled" : true,
+        "lifecycleTimeout" : 300,
+        "batchLimit" : 0,
+        "privacyDefault" : "optedin",
+		"poi" : [
+		    ["Washington, DC",38.89934,-77.01456,17700],
+            ["Seattle, WA",47.60621,-122.33207,2000],
+        	["San Jose, CA",37.33939,-121.89496,2000],
+        	["New York City, NY",40.71435,-74.00597,2000],
+        	["Dallas, TX",32.78014,-96.80045,2000],
+        	["Miami, FL",25.78897,-80.22644,2000]
+        ]
+    }
+}

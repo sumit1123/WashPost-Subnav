@@ -1,0 +1,5 @@
+/build
+
+# Intellij/AndroidStudio project files
+.idea/
+*.iml

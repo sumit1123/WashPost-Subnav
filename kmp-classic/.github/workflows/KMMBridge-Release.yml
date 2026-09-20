@@ -1,0 +1,13 @@
+# Publish a build for release.
+name: KMMBridge-Release
+on:
+  workflow_dispatch:
+
+jobs:
+  call-publish:
+    uses: ./.github/workflows/Base-Publish.yml
+    with:
+      build-debug: false
+#      delete publish-tasks to publish both Android and iOS artifacts. Currently, only the iOS framework is publised for release builds
+      publish-tasks: ":KMPShared:kmmBridgePublish"
+

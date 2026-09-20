@@ -1,0 +1,471 @@
+{
+    "version": 1,
+    "comicsConfig": [
+        {
+            "url": "http://www.creators.com/washpost/comics/15.rss",
+            "title": "Agnes",
+            "author": "Tony Cochran",
+            "imageURL": "bundle://agnes.png"
+        },
+        {
+            "url": "http://www.creators.com/washpost/comics/28.rss",
+            "title": "Andy Capp",
+            "author": "Reg Smythe",
+            "imageURL": "bundle://andy_capp.png"
+        },
+        {
+            "url": "http://www.creators.com/washpost/comics/1.rss",
+            "title": "B.C.",
+            "author": "Mastroianni and Hart",
+            "imageURL": "bundle://bc.jpg"
+        },
+        {
+            "url": "http://www.creators.com/washpost/comics/2.rss",
+            "title": "Speed Bump",
+            "imageURL": "bundle://speedbump.jpg",
+            "author": "Dave Coverly"
+        },
+        {
+            "url": "http://www.creators.com/washpost/comics/3.rss",
+            "title": "Wizard of Id",
+            "imageURL": "bundle://wizard.jpg",
+            "author": "Parker and Hart"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=22&wt=0&fs=0&null=0",
+            "imageURL": "bundle://baby_blues_logo_120x120.png",
+            "author": "Rick Kirkman and Jerry Scott ",
+            "title": "Baby Blues",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=42&wt=0&fs=0&null=0",
+            "imageURL": "bundle://beetle_bailey_logo_120x120.png",
+            "author": "Mort Walker",
+            "title": "Beetle Bailey",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=82&wt=0&fs=0&null=0",
+            "imageURL": "bundle://blondie_logo_120x120.png",
+            "author": "Dean Young & John Marshall",
+            "title": "Blondie",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=112&wt=0&fs=0&null=0",
+            "imageURL": "bundle://Fox-Trot.jpg",
+            "author": "Bob Weber Jr",
+            "title": "Slylock Fox",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=132&wt=0&fs=0&null=0",
+            "imageURL": "bundle://curtis_logo_120x120.png",
+            "author": "Ray Billingsley",
+            "title": "Curtis",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=282&wt=0&fs=0&null=0",
+            "imageURL": "bundle://judge_parker_logo_120x120.png",
+            "author": "Woody Wilson & Eduardo Barreto",
+            "title": "Judge Parker",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=332&wt=2&fs=0&null=0",
+            "imageURL": "bundle://mark_trail_logo_120x120.png",
+            "author": "Jack Elrod",
+            "title": "Mark Trail",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=2162&wt=2&fs=0&null=0",
+            "imageURL": "bundle://dustin_logo_120x120.png",
+            "author": "Steve Kelley & Jeff Parker",
+            "title": "Dustin",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "http://cartoonistgroup.com/templates/rsswpwg.php?id=171",
+            "imageURL": "bundle://MikeDuJour.jpg",
+            "author": "Mike Lester",
+            "title": "Mike du Jour"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=452&wt=2&fs=0&null=0",
+            "imageURL": "bundle://prince_valiant_logo_120x120.png",
+            "author": "Schultz and Yeates",
+            "title": "Prince Valiant",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=462&wt=0&fs=0&null=0",
+            "imageURL": "bundle://rhymes_w_orange_logo_120x120.png",
+            "author": "Hilary B. Price",
+            "title": "Rhymes with Orange",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=482&wt=0&fs=0&null=0",
+            "imageURL": "bundle://sally_forth_logo_120x120.png",
+            "author": "Francesco Marciuliano",
+            "title": "Sally Forth",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=522&wt=0&fs=0&null=0",
+            "imageURL": "bundle://spiderman_logo_120x120.png",
+            "author": "Stan Lee",
+            "title": "The Amazing Spider-Man",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=642&wt=0&fs=0&null=0",
+            "imageURL": "bundle://zits_logo_120x120.png",
+            "author": "Jerry Scott & Jim Borgman",
+            "title": "Zits",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=1032&wt=0&fs=0&null=0",
+            "imageURL": "bundle://dennis_menace_logo_120x120.png",
+            "author": "Hank Ketcham",
+            "title": "Dennis the Menace",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=1112&wt=0&fs=0&null=0",
+            "imageURL": "bundle://family_circus_logo_120x120.png",
+            "author": "Bil Keane",
+            "title": "The Family Circus",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=1212&wt=0&fs=0&null=0",
+            "imageURL": "bundle://fastrack_logo_120x120.png",
+            "author": "Bill Holbrook",
+            "title": "On The Fastrack",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=1292&wt=0&fs=0&null=0",
+            "imageURL": "bundle://mother_goose_grimm_logo_120x120.png",
+            "author": "Mike Peters",
+            "title": "Mother Goose & Grimm",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=1302&wt=0&fs=0&null=0",
+            "imageURL": "bundle://hagar_logo_120x120.png",
+            "author": "Dik Browne",
+            "title": "Hagar the Horrible",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=1442&wt=0&fs=0&null=0",
+            "imageURL": "bundle://shermans_lagoon_logo_120x120.png",
+            "author": "Jim Toomey",
+            "title": "Sherman's Lagoon",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "https://safr.kingfeatures.com/idn/zone/xml/index.php?cn=92&fn=1572&wt=0&fs=0&null=0",
+            "imageURL": "bundle://mutts_logo_120x120.png",
+            "author": "Patrick McDonnell",
+            "title": "Mutts",
+            "provider": "kingfeatures"
+        },
+        {
+            "url": "http://cartoonistgroup.com/templates/rsswpwg.php?id=94",
+            "imageURL": "bundle://Pickles-120.jpg",
+            "author": "Brian Crane",
+            "title": "Pickles"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/tas.rss",
+            "imageURL": "bundle://The-Argyle-Sweater.jpg",
+            "author": "Scott Hilburn",
+            "title": "The Argyle Sweater",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/ba.rss",
+            "imageURL": "bundle://Baldo.jpg",
+            "author": "Hector D. Cantu and Carlos Castellanos",
+            "title": "Baldo",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "http://cartoonistgroup.com/templates/rsswpwg.php?id=155",
+            "imageURL": "bundle://BarneyAndClyde.jpg",
+            "author": "Gene Weingarten",
+            "title": "Barney and Clyde"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/bn.rss",
+            "imageURL": "bundle://Big-Nate.jpg",
+            "author": "Lincoln Peirce",
+            "title": "Big Nate",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/tmrkt.rss",
+            "imageURL": "bundle://Brewster-Rocket-Space-Guy.jpg",
+            "author": "Tim Rickard",
+            "title": "Brewster Rockit: Space Guy!",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/dt.rss",
+            "imageURL": "bundle://Dilbert.jpg",
+            "author": "Scott Adams",
+            "title": "Dilbert",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/db.rss",
+            "imageURL": "bundle://Doonesbury.jpg",
+            "author": "Garry Trudeau",
+            "title": "Doonesbury",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/fb.rss",
+            "imageURL": "bundle://ForBetter.png",
+            "author": "Lynn Johnston",
+            "title": "For Better or for Worse",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/ftcl.rss",
+            "imageURL": "bundle://Fox-Trot.jpg",
+            "author": "Bill Amend",
+            "title": "FoxTrot",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/fk.rss",
+            "imageURL": "bundle://Frank-and-Ernest.jpg",
+            "author": "Thaves",
+            "title": "Frank and Ernest",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/fz.rss",
+            "imageURL": "bundle://Frazz.jpg",
+            "author": "Jef Mallett",
+            "title": "Frazz",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/ga.rss",
+            "imageURL": "bundle://Garfield.jpg",
+            "author": "Jim Davis",
+            "title": "Garfield",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/gz.rss",
+            "imageURL": "bundle://Get-Fuzzy.jpg",
+            "author": "Darby Conley",
+            "title": "Get Fuzzy",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/kl.rss",
+            "imageURL": "bundle://Knight-Life.jpg",
+            "author": "Keith Knight",
+            "title": "The Knight Life",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/lio.rss",
+            "imageURL": "bundle://Lio.jpg",
+            "author": "Mark Tatulli",
+            "title": "Lio",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/nq.rss",
+            "imageURL": "bundle://Non-Sequitur.jpg",
+            "author": "Wiley Miller",
+            "title": "Non Sequitur",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/pb.rss",
+            "imageURL": "bundle://Pearls-Before-Swine.jpg",
+            "author": "Stephan Pastis",
+            "title": "Pearls Before Swine",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/pe.rss",
+            "imageURL": "bundle://Classic-Peanuts.jpg",
+            "author": "Charles Schulz",
+            "title": "Peanuts",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/prc.rss",
+            "imageURL": "bundle://Prickly-City.jpg",
+            "author": "Scott Stantis",
+            "title": "Prickly City",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "https://feedsservice.amuniversal.com/feeds/feature/wpred.rss",
+            "imageURL": "bundle://Red-and-Rover.jpg",
+            "author": "Brian Basset",
+            "title": "Red and Rover",
+            "provider": "amuniversal"
+        },
+        {
+            "url": "http://cartoonistgroup.com/templates/rsswpwg.php?id=157",
+            "imageURL": "bundle://ReplyAll.png",
+            "author": "Donna Lewis",
+            "title": "Reply All"
+        },
+        {
+            "url": "http://cartoonistgroup.com/templates/rsswpwg.php?id=83",
+            "imageURL": "bundle://Candorville-120.jpg",
+            "author": "Darrin Bell",
+            "title": "Candorville"
+        }
+    ],
+    "searchURL": "http://md1.washingtonpost.com/wpost-content-api/content/v1/search.json?query=%@&startingrow=%i&offset=%i&fields=systemid,contenttype,contenturl,redirecturl,headline,webheadline,displaydatetime,smallthumburl,bylinetext",
+    "maxCacheSizeMB":"300",
+    "animationDuration": 0.3,
+    "recipesURL": "http://md1.washingtonpost.com/wp-srv/ipad/food-v2/modules/m4v-recipe-finder.html",
+    "recipesMenuWidth": 321,
+    "menuWidth": 325,
+    "menuShadowWidth": 5,
+    "menuRightPadding": 21,
+    "scoresURL": "http://apps.washingtonpost.com/sports/mobile/modules/",
+    "marketsURL": "http://google.com",
+    "S3baseURL": "http://wpmobiledevipad2.0.s3.amazonaws.com",
+    "baseURL": "http://atab-test.washingtonpost.com",
+    "contentBaseURL": "$baseURL/__tablet",
+    "webRootURL": "http://www.washingtonpost.com/",
+    "superManifestJSON": "$S3baseURL/super-1.json",
+    "homePageURL": "$contentBaseURL/fragment/stage/section-front#sections/all",
+    "shareBaseURL": "http://www.washingtonpost.com",
+    "pageBuilderBaseUrl": "https://jsonapp.washingtonpost.com/api/prod/v1/",
+    "newsstandFeedURL": "$S3baseURL/ns-atom-feed.xml",
+    "newsstandPCBundleURLTemplate": "$S3baseURL/pc-%@.zip",
+    "newsstandArticleBundleURL": "$S3baseURL/newsstand-1.zip",
+    "newsstandStorageDays": 14,
+    "singleNativeContentRainbowTemplate": "https://rainbowapi-a.wpdigital.net/rainbow-data-service/rainbow/content-by-url.json?followLinks=false&platform=iphoneclassic&url=%@",
+    "sectionsFrontBlogJsonUrlTemplate": "$baseURL/__tablet/blogs/%@",
+    "sectionsFrontJsonUrlTemplate": "$baseURL/__tablet/%@.json",
+    "blogManifestUrlTemplate": "$S3baseURL/tablet/blogs_%@-%@.json",
+    "subscriptionBaseURL": "http://wpbeta.washingtonpost.com/ipad2paywall",
+    "paywallIsActive": 1,
+    "freeContentPerMonth": 5,
+    "freeContentTimeThresholdSec" : 5,
+    "freeContentWarningLimits": "3,4",
+    "contentNoRefreshIntervalHours": 1,
+    "complimentarySubscriptionHTML": "<body style='font-family:helvetica; margin:0; font-size:12pt'>We hope you enjoy The Washington Post for iPad. Thanks to our sponsors, we are offering complimentary access through summer 2013. This month’s sponsor is Norfolk Southern.<br/><br/>Print subscribers will always receive full access to this app at no additional charge.<br/><br/><a href='twp://faq'>Read FAQ</a><br><br><span style='font-family:helvetica; vertical-align:top; margin:0; font-size:7pt; text-color:#cccccc'>Sponsored By: <img style='margin:0px auto;' height=40 src='$S3baseURL/welcome/NorfolkSouthernSponsorLogo.png'></span></body>",
+    "complimentarySubscriptionHTMLThankYou":"We hope you enjoy your complimentary subscription to The Washington Post iPad app, brought to you for a limited time by Norfolk Southern. To manage your subscription, please visit Settings under MyPost in the bottom navigation bar.",
+    "subscriptionURLPaths": {
+        "verifyAccount": "/service/verifyAccount/%@",
+        "welcomeGeneric": "/welcome?welcome=generic",
+        "welcomePlan": "/welcome?welcome=plan",
+        "welcomeSub": "/welcome?welcome=sub",
+        "welcomeLimit": "/welcome?welcome=limit",
+        "welcomePrint": "/welcome?welcome=print",
+        "welcomePrintNoMonth": "/welcome?welcome=print-nomonth",
+        "welcomePrintNo20": "/welcome?welcome=print-no20",
+        "welcomePrintNoMonthNo20": "/welcome?welcome=print-nomonth_no20",
+        "link": "/link",
+        "thanksComplimentary": "/thanks?thanks=complimentary",
+        "thanksBuy": "/thanks?thanks=buy",
+        "enjoy": "/enjoy",
+        "errorVerify": "/error?error=verify",
+        "errorConnection": "/error?error=connection",
+        "errorRestoration": "/error?error=restoration",
+        "restore": "/restore",
+        "register": "/register?deviceId=$DEVICE_ID",
+        "login": "/login?deviceId=$DEVICE_ID",
+        "forgotPassword": "/forgotPassword",
+        "migrate": "/autologin"
+    },
+    "subscriptionWideSize": "634x400",
+    "subscriptionNarrowSize": "395x380",
+    "preCacheBlogs": [
+        "ezra-klein",
+        "the-fix",
+        "capital-weather-gang",
+        "plum-line",
+        "right-turn",
+        "dc-sports-bog",
+        "soccer-insider",
+        "fact-checker-feed",
+        "post-partisan"
+    ],
+    "cacheDomains": [
+        "android.washingtonpost.com",
+        "bullpen.digitalink.com",
+        "$S3baseURL",
+        "apps.washingtonpost.com",
+        "weather.wdtinc.com",
+        "md1.washingtonpost.com",
+        "feedsservice.amuniversal.com",
+        "cartoonistgroup.com",
+        "safr.kingfeatures.com",
+        "assets.gocomics.com",
+        "assets.amuniversal.com"
+    ],
+    "superRefreshIntervalMin": "3",
+    "defaultBackgroundColor": "#F7F7F7",
+    "editorsEmail": "ipadeditors@washingtonpost.com",
+    "privacyPolicyUrl": "http://www.washingtonpost.com/privacy-policy/2011/11/18/gIQASIiaiN_story.html",
+    "findAndSaveUrl": "http://findnsave.washingtonpost.com/stores/",
+    "termsOfServiceUrl": "http://www.washingtonpost.com/terms-of-service/2011/11/18/gIQAldiYiN_story.html",
+    "appReviewUrl": "itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=401284198",
+    "theForumUrl": "http://politistream-stg.washingtonpost.com",
+    "politicsForumId":"50eee041a87933db68000002",
+    "sportsForumId":"50f042d8973ff94f22000005",
+    "faqHtmlString": "<!DOCTYPE html> <head> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width\" /> <style type='text/css'> html, body {   font-size: 16px; } body {   background: #fafafa;   color: #1f1f1f;   padding: 15px;   margin: 0;   font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;   font-weight: normal;   font-style: normal;   line-height: 1;   position: relative;   -webkit-font-smoothing: antialiased; } a {   color: #2e6d9d; font-weight: bold;   text-decoration: none;   line-height: inherit; }   a:hover, a:focus {     color: #285f89; }   a img {     border: none; } p,li {   font-family: inherit;   font-weight: normal; font-size: 14px; line-height: 20px; margin-top: 0.4em;   margin-bottom: 0.4em; } li {    margin-bottom:0.2em; } h1,h2 {   font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;   font-weight: bold;   font-style: normal;  color: #0b0b0b;   text-rendering: optimizeLegibility;   margin-top: 0;   margin-bottom: 0; font-size: 14px;   line-height: 22px; text-shadow:0 1px 0 #fff; } h1 { font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;  font-style:normal; font-weight:normal; font-weight: 100; font-size:34px; line-height:44px; text-shadow:0 0 0 none; color:#aaa; } h2 { margin-top:12px; } hr {   border: solid #dddddd;   border-width: 1px 0 0;   clear: both;   margin: 9px 0 10px;   height: 0; } </style> </head> <body> <h1>Frequently asked questions</h1> <hr> <p>Welcome to The Washington Post for iPad. This app allows you to:</p> <ul> <li>Catch up on the latest news and explore rich multimedia in our digital edition.</li> <li>Get the print edition automatically delivered to your iPad each morning.</li> <li>Browse more than 40 comic strips.</li> <li>See hot topics on Twitter using The Forum.</li> <li>Find the latest posts from our blogs.</li> <li>Read on the go &mdash; whether or not you have an Internet connection.</li> </ul> <h1>Digital edition</h1> <hr> <p><strong>How do I navigate between sections in the digital edition?</strong></p> <p>In the digital section of the app, you can either swipe to see news from each section or tap on sections button to navigate to a specific section.</p> <p><strong>Can I rearrange sections in the app’s digital edition?</strong></p> <p>Yes, you can reorder the sections however you like. Tap on the sections button and hit Edit. Tap and hold the three horizontal lines next to a section’s name and drag it up or down to change the order. An Internet connection is required to reorder.</p> <p><strong>How do I change font sizes in the app?</strong></p> <p>On an article or blog page, tap on the <img src=\"Type.png\"/ width=12 height=12> to adjust the font size.</p> <p><strong>What happens when I go offline or lose my Internet connection?</strong></p> <p>You can still read the news. An Internet connection is required to update the print and digital editions, but once they’re updated, you can still read the news even if you are offline.</p> <p><strong>How do I sign up for or unsubscribe from breaking news alerts via push notifications?</strong></p> <p>To manage alerts for this app, go to your iPad’s Settings and navigate to the Notifications page.</p> <p><strong>What is MyPost?</strong></p> <p>MyPost is a hub for making the Washington Post’s app work for you. There you can:</p> <ul> <li>Get one-click access to comics and blogs you’ve marked as favorites.</li> <li>Access and read saved stories, whether or not you have an Internet connection.</li> <li>Tweak the app’s settings to make it right for you.</li> </ul> <p><strong>Can I save stories for reading offline?</strong></p> <p>Yes. Tap the <img src=\"Save.png\"/ width=16 height=16> to save an article to MyPost. You’ll find MyPost on the bottom bar of the app, and you can read articles saved there whether or not you have a connection to the Internet. <p><strong>How do I share stories?</strong></p> <p>You can share articles, photo galleries and videos through Facebook, Twitter and e-mail. Just tap on the <img src=\"Share.png\"/ width=16 height=16> and select your service. <p><strong>I like a particular blog from The Post. Where can I find it?</strong></p> <p>Tap on Blogs on the bottom bar. Pick the section and select a  blog to see the latest posts. Want easier access to your favorite blog? Tap the <img src=\"menuFavActive.png\"/ width=12 height=12> next to the blog’s title in the menu. That will save the blog to your MyPost so you can access it with just one click.</p> <p><strong>How can I see today’s comics?</strong></p> <p>Tap on Comics on the bottom bar. Pick your favorite to start with and swipe up or down to see a different comic. Land on your favorite? Scroll to the right to see the past seven days’ worth of strips.</p> <p><strong>I like a particular comic strip. Can I favorite it?</strong></p> <p>Yes. After tapping on the Comics menu in the bottom bar and selecting the comic you want, you’ll see a <img src=\"menuFavActive.png\"/ width=12 height=12> next to the comic’s name. Tap it and your favorite strip will be added to your MyPost so you can access it with just one click.</p> <p><strong>Where can I find the latest weather forecast?</strong></p> <p>Tap on the Weather icon on the bottom bar for the latest weather information. If you’re in the Washington region, you’ll also find news from the Capital Weather Gang below the forecast.</p> <p><strong>What is The Forum?</strong></p> <p>You can find The Forum in the bottom bar on the app. We’ve brought together lists of Twitterati on politics and Washington sports to bring you the latest conversation, including a trending bar that shows you what people are retweeting and favoriting. On Twitter? Retweet and favorite right from The Forum.</p> <p><strong>Can I search for a story?</strong></p> <p>Yes. Tap on the sections button and you’ll see a search bar. The app will automatically save your most recent searches for easy access. Saved searches will appear every time you tap the search bar.</p> <h1>Print edition</h1> <hr> <p><strong>Where do I go to see today’s print edition?</strong></p> <p>Tap on <img src=\"printEditionFaq.png\"/ width=60 height=18> in the top right corner of the app. You can then tap on each page to open it and swipe to turn to the next page. Want to read an article? Tap on the article’s text and it’ll open in an easy-to-read window.</p> <p><strong>I no longer want the print edition of the paper to be automatically delivered to my iPad. Where can I turn this off?</strong></p> <p>Tap on MyPost and go to the Settings page. Tap on the Print Edition Download button to turn delivery on or off.</p> <p><strong>How do I see yesterday’s paper?</strong></p> <p>Inside the Print Edition section, tap on the date in the upper right corner of the app. You can access the past two weeks’ worth of newspapers: Just pick a date to download the issue. You must have an Internet connection to download an archived edition.</p> <h1>Subscriptions</h1> <hr> <p><strong>When will the complimentary period end?</strong></p> <p>The complimentary period will end during the summer of 2013. Users will be prompted to subscribe for a monthly fee at that time. No users will be charged unless and until they provide their consent.</p> <p><strong>Will print subscribers have to pay extra for iPad app?</strong></p> <p>No, all print subscribers, including Sunday-only, will receive this app complimentary as part of their subscription.</p> <p><strong>Can I still read The Washington Post on the web and iPhone app for free?</strong></p> <p>Yes, for a limited time. The Washington Post will introduce paid digital subscriptions for all of its products in summer 2013.</p> <h1>Miscellaneous</h1> <hr> <p><strong>What do you do with my stored information?</strong></p> <p>We treat your information in accordance with our <a href=\"http://www.washingtonpost.com/wp-srv/interact/longterm/talk/members.htm?#privacy\">privacy policy</a>.</p> <p><strong>How can I subscribe to the print edition of the Post?</strong></p> <p>Visit <a href=\"http://washingtonpost.com/subscriberservices\">washingtonpost.com/subscriberservices</a>.</p> <p><strong>Where do I go with further questions?</strong></p> <p>Call The Washington Post’s customer service department at (202) 334-6100 or e-mail <a href=\"mailto:ipadeditors@washingtonpost.com\">ipadeditors@washingtonpost.com</a>.</p> </body> </html>",
+    "dynamicSplashHtmlString": "<html><body style='color:#FFFFFF; font-size:12; text-shadow: 0 1px 0 rgba(0,0,0,0.3); align:center font-family:Franklin ITC Std'><div style='position:absolute; bottom:0;'><img style='margin:0px auto;display:block' height=46 src='$S3baseURL/splash/NorfolkSouthernLogo@2x.png'><br/>has provided your complimentary subscription this month.</div></body></html>",
+    "dynamicSplashDuration": 3,
+    "sponsorName":"NorfolkSouthern",
+    "numberOfViewsBeforeAdRefreshForSection":{
+        "front": 3
+    },
+    "defaultNumberOfViewsBeforeAdRefresh": 2,
+    "sectionFronts": ["top-stories","politics","opinions","local","sports","world","business","lifestyle","multimedia"],
+    "bundleConfigs": [
+        {
+            "id": "0",
+            "imgHeight": 900,
+            "imgWidth": 1200
+        },
+        {
+            "id": "1",
+            "imgHeight": 1200,
+            "imgWidth" : 1600
+        },
+        {
+            "id": "2",
+            "imgHeight": 1600,
+            "imgWidth": 2134
+        }
+    ],
+    "audioConfig": {
+        "fullWidth": {
+            "imgHeight": 1020,
+            "imgWidth": 1020
+        },
+        "thumbnail": {
+            "imgHeight": 144,
+            "imgWidth": 144
+        }
+    },
+    "chartbeatConfig": {
+        "accountId": "19624",
+        "domain": "dev.washingtonpost.com"
+    }
+}

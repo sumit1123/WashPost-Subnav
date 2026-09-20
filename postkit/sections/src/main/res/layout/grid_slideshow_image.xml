@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slide_show_image_box"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <com.wapo.flagship.features.grid.views.SlideShowViewPager
+       android:id="@+id/slide_show_image_pager"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintLeft_toLeftOf="parent" />
+
+   <TextView
+       android:id="@+id/slide_show_overlay"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:ellipsize="end"
+       android:maxLines="1"
+       android:paddingTop="@dimen/slide_show_overlay_vertical_padding"
+       android:paddingBottom="@dimen/slide_show_overlay_vertical_padding"
+       android:paddingStart="@dimen/slide_show_overlay_horizontal_padding"
+       android:paddingEnd="@dimen/slide_show_overlay_horizontal_padding"
+       android:layout_marginBottom="17dp"
+       android:layout_marginStart="10dp"
+       android:textAppearance="@style/slideshow_overlay_text"
+       android:background="@drawable/overlay_button_background"
+       android:visibility="gone"
+       app:layout_constraintLeft_toLeftOf="@id/slide_show_image_pager"
+       app:layout_constraintBottom_toBottomOf="@id/slide_show_image_pager" />
+
+    <TextView
+        android:id="@+id/slide_show_caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/slide_show_caption_vertical_margin"
+        style="@style/slideshow_caption_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/slide_show_image_pager"/>
+
+   <com.google.android.material.tabs.TabLayout
+       android:id="@+id/slide_show_image_carousel"
+       android:layout_width="match_parent"
+       android:layout_height="20dp"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/slide_show_caption"
+       style="?attr/homepage_story_live_image_carousel_style"
+       android:visibility="gone">
+   </com.google.android.material.tabs.TabLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout >

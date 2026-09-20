@@ -1,0 +1,1373 @@
+{
+  "id": "c6b910de606c0c0d7f1860b2e33358c6",
+  "type": "blog",
+  "subtype": "centered-layout",
+  "renderer": "native",
+  "arcId": "A6O425FXUNH4TA5JLEVNSXIABE",
+  "title": "The ICE agent’s cellphone video: Five key moments ",
+  "blurb": "Cellphone footage shows what happened in the moments before and after an ICE agent Jonathan Ross fatally shot Renée Good in Minneapolis.",
+  "contenturl": "https://www.washingtonpost.com/investigations/2026/01/09/moments-before-ice-shooting-minneapolis/",
+  "content_type": "article",
+  "shareurl": "https://www.washingtonpost.com/investigations/2026/01/09/moments-before-ice-shooting-minneapolis/",
+  "source": "the-washington-post",
+  "section": "National",
+  "sourcesection": "investigations",
+  "sourcesubsection": "investigations - investigations",
+  "sourcecategory": "National",
+  "lmt": 1768243044623,
+  "published": 1768243044623,
+  "first_published": 1768011545263,
+  "display_date": 1768011543766,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4TCGOPQU6VH2NEGW5DM4URWGYM.png",
+  "sourceslug": "rossvideo",
+  "commercialnode": "/national/investigations",
+  "omniture": {
+    "title": "New video shows 5 key moments in Minneapolis ICE shooting of Renée Good - The Washington Post",
+    "pageName": "moments-before-ice-shooting-minneapolis",
+    "channel": "investigations",
+    "contentId": "nullA6O425FXUNH4TA5JLEVNSXIABE",
+    "contentType": "story - centered-layout",
+    "contentSource": "the-washington-post",
+    "contentTopics": "Visual Forensics;Investigations;National",
+    "newsroomDesk": "investigative;investigative;investigative",
+    "newsroomSubdesk": "video - visual forensics;investigative – rapid;video - visual forensics",
+    "contentAuthor": "jonathan baran;aaron c. davis;jarrett ley",
+    "authorId": "baranj;davisac;leyj",
+    "authorType": "staff writer;(not set);(not set)",
+    "subSection": "investigations - investigations",
+    "arcId": "A6O425FXUNH4TA5JLEVNSXIABE",
+    "trackingTags": "story-has-edit-branch;created from template id fwalwo7pb5dgbc7a7bxgzvbttm;visual;video-investigations;video-interactive;collections-minneapolisice;priorities;audio-article"
+  },
+  "version": 2,
+  "tags": "story-has-edit-branch,created from template id fwalwo7pb5dgbc7a7bxgzvbttm,visual,video-investigations,video-interactive,collections-minneapolisice,priorities,audio-article",
+  "items": [
+    {
+      "content": "Visual Forensics",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Visual Forensics",
+      "path": "/visual-forensics"
+    },
+    {
+      "content": "The ICE agent’s cellphone video: Five key moments",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "New footage sheds light on fatal shooting of Renée Good in Minneapolis.",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "content": 1768011543766,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/A6O425FXUNH4TA5JLEVNSXIABE/20260111-142260.604/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/A6O425FXUNH4TA5JLEVNSXIABE/20260111-142260.604/current.mp3?awCollectionId=/national/investigations/visual-forensics&awEpisodeId=A6O425FXUNH4TA5JLEVNSXIABE&tags=video-investigations%7Cvideo-interactive%7Ccollections-minneapolisice%7Caudio-article",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/A6O425FXUNH4TA5JLEVNSXIABE/20260111-142260.604/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4TCGOPQU6VH2NEGW5DM4URWGYM.png",
+        "imageWidth": 1920,
+        "imageHeight": 1080,
+        "fullcaption": "(Obtained by Alpha News)"
+      },
+      "title": {
+        "content": "The ICE agent’s cellphone video: Five key moments",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "Visual Forensics",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "Visual Forensics",
+        "path": "/visual-forensics"
+      },
+      "date": {
+        "content": 1768011543766,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      },
+      "duration": 192000
+    },
+    {
+      "type": "image",
+      "mime": "image/png",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4TCGOPQU6VH2NEGW5DM4URWGYM.png",
+      "imageWidth": 1920,
+      "imageHeight": 1080,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Video shows 37-year-old Renée Good and her wife talking to ICE officers in the seconds before the fatal shooting. (Obtained by Alpha News)",
+      "blurb": "Video shows 37-year-old Renée Good and her wife talking to ICE officers in the seconds before the fatal shooting."
+    },
+    {
+      "content": "By Jonathan Baran, Aaron C. Davis and Jarrett Ley",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "baranj",
+          "url": "https://www.washingtonpost.com/people/jonathan-baran/",
+          "name": "Jonathan Baran",
+          "bio": "Jonathan Baran is a reporter for The Washington Post's Visual Forensics team. He joined the VF team in 2024 and came to The Post in 2019, covering technology and business from San Francisco. Jonathan shared in a Pulitzer Prize for coverage of the assassination attempt on President Donald Trump. He served in the U.S. Army from 2003 to 2008.",
+          "expertise": "Visual Forensics reporter",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/03f3320e-f5cb-4ecb-bd92-77e510c6ecc3.png"
+        },
+        {
+          "id": "davisac",
+          "url": "https://www.washingtonpost.com/people/aaron-c-davis/",
+          "name": "Aaron C. Davis",
+          "bio": "Aaron C. Davis is an investigative reporter who has shared in winning the Pulitzer Prize twice and been a finalist three times. He is the co-author of \"Injustice: How Politics and Fear Vanquished America's Justice Department.\" He can be reached on Signal at acdavis.77 ",
+          "expertise": "Investigative reporter",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/fa9fa98b-e3df-45e9-9413-d782cf962e4b.png"
+        },
+        {
+          "id": "leyj",
+          "url": "https://www.washingtonpost.com/people/jarrett-ley/",
+          "name": "Jarrett Ley",
+          "bio": "Jarrett Ley is a visual forensics reporter at The Washington Post. His reporting mobilizes open-source investigation methods alongside spatial analysis techniques honed through his prior training in architecture. His reporting was featured in the Post's 2024 Pulitzer Prize-winning coverage of the attempted assassination of Donald Trump. ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/17da6dd6-02bb-44b2-8233-9156e2c04158.png"
+        }
+      ]
+    },
+    {
+      "arcId": "ZR6ACBII75AL5G4DECA2FK3DFI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Cellphone video recorded by an Immigration and Customs Enforcement agent as he <a href=\"https://www.washingtonpost.com/immigration/2026/01/07/ice-shooting-minneapolis-immigration/\">fatally shot a woman in Minneapolis</a> surfaced online Friday, revealing new details about the <a href=\"https://www.washingtonpost.com/nation/2026/01/09/minnesota-ice-shooting-investigation-fbi/\">hotly disputed incident</a> from a perspective rarely seen."
+    },
+    {
+      "arcId": "5JXPGJOYGRHDBO2RRGH4SQUYNE",
+      "type": "sanitized_html",
+      "mime": "text/html",
+      "content": "The 47-second recording, published by the Minnesota website Alpha News, shows for the first time that <a href=\"https://www.washingtonpost.com/nation/2026/01/09/ice-shooting-victim-minneapolis/\"><a href=\"FTS_Renée_Good\" target=\"fts\">Renée Good</a></a> spoke to the <a href=\"https://www.washingtonpost.com/immigration/2026/01/08/ice-jonathan-ross-dragged/\">ICE officer, Jonathan Ross</a>, before he shot her. It reveals that, a split second before the gunfire, Good’s wife urged her to drive away from the scene."
+    },
+    {
+      "arcId": "WJEFELHUXZC4XGBURH4DNJKXT4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "It does not show whether Good’s SUV came into contact with<b> </b>Ross, as the Trump administration contends. Vice President JD Vance said Friday that the video exonerated Ross. “The reality is that his life was endangered and he fired in self defense,” Vance <a href=\"https://x.com/JDVance/status/2009688858036986310?s=20\">wrote</a> on X."
+    },
+    {
+      "type": "toggle",
+      "subtype": "alerts",
+      "key": "special_report",
+      "mime": "text/html"
+    },
+    {
+      "arcId": "UHSKT6GOPRAZVHZ6M4RKGHO6IU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The <a href=\"https://www.washingtonpost.com/investigations/2026/01/08/video-ice-shooting-minneapolis/\">Washington Post previously reported</a> that Good’s SUV did move toward Ross as he stood in front of it, according to a frame-by-frame analysis of different video footage. But Ross was able to move out of the way and fire at least two of three shots from the side of the vehicle as it veered past him, according to The Post’s analysis."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "tall",
+      "adPath": "/national/investigations",
+      "primarySectionID": "/national/investigations/visual-forensics",
+      "position": {
+        "small": "incontent-mob_1"
+      }
+    },
+    {
+      "arcId": "P4VOQAPEZNEJ3DUARW2E5LM3CA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Neither Ross nor a spokesperson for the Department of Homeland Security returned messages seeking comment. Good’s wife also declined to comment."
+    },
+    {
+      "arcId": "DJ57H6OEDVC4XOT75WQ47F5ZZM",
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "1. Good speaks to Ross",
+      "subhead_level": 2
+    },
+    {
+      "id": "25c708a2-464f-4d82-b247-bcecda592c6d",
+      "published": 1768017477000,
+      "isLive": false,
+      "lmt": 1768104206000,
+      "blurb": null,
+      "vertical": true,
+      "embedCode": "69617387c122482885446757",
+      "shareurl": "https://wapo.st/4sxv3EV",
+      "type": "video",
+      "host": "posttv",
+      "url": "false",
+      "placement": "center",
+      "widthFactor": "default",
+      "contenturl": "https://www.washingtonpost.com/video/national/good-speaks-to-ice-agent-seconds-before-being-shot/2026/01/09/25c708a2-464f-4d82-b247-bcecda592c6d_video.html",
+      "credits": "Obtained by Alpha News",
+      "fullcaption": " (Obtained by Alpha News)",
+      "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/01-09-2026/t_7757e905cc624ed09c28fe7ba039a3b6_name_clip_1_ross_thumb0.jpg",
+      "imageHeight": 1920,
+      "imageWidth": 1080,
+      "omniture": {
+        "source": "Obtained by Alpha News",
+        "contentType": "video",
+        "contentId": "25c708a2-464f-4d82-b247-bcecda592c6d",
+        "channel": "national",
+        "contentSubsection": "national",
+        "pageName": "national:video - bcecda592c6d - 20260110 - good-speaks-to-ice-agent-seconds-before-being-shot"
+      },
+      "adconfig": {
+        "adSetUrls": {
+          "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+        },
+        "allowPrerollOnDomain": true,
+        "autoPlayPreroll": true,
+        "commercialAdNode": "/national",
+        "enableAdInsertion": false,
+        "enableAutoPreview": false,
+        "enableServerSideFallback": false,
+        "forceAd": false,
+        "playAds": false,
+        "playVideoAds": false,
+        "videoAdZone": "wpni.video.national",
+        "adSetConfig": {
+          "adSetZone": "wpni.video.national",
+          "adSetUrls": {
+            "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+          }
+        },
+        "primarySectionID": "/national"
+      },
+      "mediaURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/69617387c122482885446757/696196d4d9dfd01cdcfce42d/file_360x640-600.mp4",
+      "streamURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/69617387c122482885446757/696196d4d9dfd01cdcfce42d/mobile.m3u8",
+      "subtitlesURL": null,
+      "streams": {
+        "ts": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/69617387c122482885446757/696196d4d9dfd01cdcfce42d/mobile.m3u8",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/69617387c122482885446757/696196d4d9dfd01cdcfce42d/master.m3u8",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/69617387c122482885446757/696196d4d9dfd01cdcfce42d/hd.m3u8",
+            "bitrate": 4500
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/69617387c122482885446757/696196d4d9dfd01cdcfce42d/hlsv4_master.m3u8",
+            "bitrate": 5400
+          }
+        ],
+        "mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/69617387c122482885446757/696196d4d9dfd01cdcfce42d/file_180x320-160.mp4",
+            "bitrate": 160
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/69617387c122482885446757/696196d4d9dfd01cdcfce42d/file_360x640-600.mp4",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/69617387c122482885446757/696196d4d9dfd01cdcfce42d/file_480x854-1200.mp4",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/69617387c122482885446757/696196d4d9dfd01cdcfce42d/file_720x1280-2000.mp4",
+            "bitrate": 2000
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/69617387c122482885446757/696196d4d9dfd01cdcfce42d/file_1080x1920-5400.mp4",
+            "bitrate": 5400
+          }
+        ]
+      },
+      "isLooping": false,
+
+      "autoplay": true,
+      "fallback": null,
+      "title": "Good speaks to ICE agent seconds before being shot",
+      "duration": 5760
+    },
+    {
+      "arcId": "ZJ27ZTX4ZVDS3BMVQRYHSDFJBI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "On Wednesday morning, less than a minute before the gunfire, Ross walks around Good’s vehicle."
+    },
+    {
+      "arcId": "PZX3MAAJC5HJFFCWQABPVOV2ZM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "As he passes the driver’s side door, she speaks to him through her open window. “That’s fine dude, I’m not mad at you,” Good, 37, says."
+    },
+    {
+      "arcId": "T5PRXKOXXBDIDGI63T2HR7TNBY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "It’s not clear what elicited her comment. In the footage, Ross does not speak before the shooting."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/national/investigations",
+      "primarySectionID": "/national/investigations/visual-forensics",
+      "position": {
+        "large": "incontent_1"
+      }
+    },
+    {
+      "arcId": "YDKHOQLJVNAPNKDCLYX5HWFYYI",
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "2. Good’s wife confronts Ross",
+      "subhead_level": 2
+    },
+    {
+      "id": "af74b7bc-2f94-4182-8662-f3928f5ba7a3",
+      "published": 1768017469000,
+      "isLive": false,
+      "lmt": 1768104272000,
+      "blurb": null,
+      "vertical": true,
+      "embedCode": "696173a8d9a21a3b8d3bd6c5",
+      "shareurl": "https://wapo.st/4qH7CHl",
+      "type": "video",
+      "host": "posttv",
+      "url": "false",
+      "placement": "center",
+      "widthFactor": "default",
+      "contenturl": "https://www.washingtonpost.com/video/national/goods-wife-confronts-ice-agent/2026/01/09/af74b7bc-2f94-4182-8662-f3928f5ba7a3_video.html",
+      "credits": "Obtained by Alpha News",
+      "fullcaption": " (Obtained by Alpha News)",
+      "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/01-09-2026/t_0c76fd479d194b59a4a535da44d6a548_name_clip_2_ross_thumb0.jpg",
+      "imageHeight": 1920,
+      "imageWidth": 1080,
+      "omniture": {
+        "source": "Obtained by Alpha News",
+        "contentType": "video",
+        "contentId": "af74b7bc-2f94-4182-8662-f3928f5ba7a3",
+        "channel": "national",
+        "contentSubsection": "national",
+        "pageName": "national:video - f3928f5ba7a3 - 20260110 - goods-wife-confronts-ice-agent"
+      },
+      "adconfig": {
+        "adSetUrls": {
+          "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+        },
+        "allowPrerollOnDomain": true,
+        "autoPlayPreroll": true,
+        "commercialAdNode": "/national",
+        "enableAdInsertion": false,
+        "enableAutoPreview": false,
+        "enableServerSideFallback": false,
+        "forceAd": false,
+        "playAds": false,
+        "playVideoAds": false,
+        "videoAdZone": "wpni.video.national",
+        "adSetConfig": {
+          "adSetZone": "wpni.video.national",
+          "adSetUrls": {
+            "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+          }
+        },
+        "primarySectionID": "/national"
+      },
+      "mediaURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173a8d9a21a3b8d3bd6c5/6961970dd9dfd01cdcfce436/file_360x640-600.mp4",
+      "streamURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173a8d9a21a3b8d3bd6c5/6961970dd9dfd01cdcfce436/mobile.m3u8",
+      "subtitlesURL": null,
+      "streams": {
+        "ts": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173a8d9a21a3b8d3bd6c5/6961970dd9dfd01cdcfce436/mobile.m3u8",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173a8d9a21a3b8d3bd6c5/6961970dd9dfd01cdcfce436/master.m3u8",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173a8d9a21a3b8d3bd6c5/6961970dd9dfd01cdcfce436/hd.m3u8",
+            "bitrate": 4500
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173a8d9a21a3b8d3bd6c5/6961970dd9dfd01cdcfce436/hlsv4_master.m3u8",
+            "bitrate": 5400
+          }
+        ],
+        "mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173a8d9a21a3b8d3bd6c5/6961970dd9dfd01cdcfce436/file_180x320-160.mp4",
+            "bitrate": 160
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173a8d9a21a3b8d3bd6c5/6961970dd9dfd01cdcfce436/file_360x640-600.mp4",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173a8d9a21a3b8d3bd6c5/6961970dd9dfd01cdcfce436/file_480x854-1200.mp4",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173a8d9a21a3b8d3bd6c5/6961970dd9dfd01cdcfce436/file_720x1280-2000.mp4",
+            "bitrate": 2000
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173a8d9a21a3b8d3bd6c5/6961970dd9dfd01cdcfce436/file_1080x1920-5400.mp4",
+            "bitrate": 5400
+          }
+        ]
+      },
+      "isLooping": false,
+      "autoplay": true,
+      "fallback": null,
+      "title": "Good's wife confronts ICE agent",
+      "duration": 14741
+    },
+    {
+      "arcId": "JOMNCWF2CFCXREAY2LLR4P6YXU",
+      "type": "sanitized_html",
+      "mime": "text/html",
+      "content": "Good’s wife, <a href=\"FTS_Rebecca_Good\" target=\"fts\">Rebecca Good</a>, confronts Ross as he walks behind the SUV."
+    },
+    {
+      "arcId": "R6J2XCR6JZGLHCRUFA75A5T644",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“We don’t change our plates every morning,” she said, an apparent reference to criticism that ICE agents have swapped license plates on agency vehicles amid immigration sweeps. “Want to come at us? I say go get yourself some lunch, big boy,” she says."
+    },
+    {
+      "arcId": "SUFCCFW2ENADFKHYJ6SOL3GY3Q",
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "3. Good’s wife tells her to drive",
+      "subhead_level": 2
+    },
+    {
+      "id": "5d3f9292-5d41-4e18-8fd5-1c7fef56fc49",
+      "published": 1768017463000,
+      "isLive": false,
+      "lmt": 1768104239000,
+      "blurb": null,
+      "vertical": true,
+      "embedCode": "696173d15f886829d03b9ee2",
+      "shareurl": "https://wapo.st/4qgrC3W",
+      "type": "video",
+      "host": "posttv",
+      "url": "false",
+      "placement": "center",
+      "widthFactor": "default",
+      "contenturl": "https://www.washingtonpost.com/video/national/goods-wife-drive-baby-drive/2026/01/09/5d3f9292-5d41-4e18-8fd5-1c7fef56fc49_video.html",
+      "credits": "Obtained by Alpha News",
+      "fullcaption": " (Obtained by Alpha News)",
+      "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/01-09-2026/t_a223291ccde3446e8a35742e98ecbc08_name_clip_3_ross_thumb0.jpg",
+      "imageHeight": 1920,
+      "imageWidth": 1080,
+      "omniture": {
+        "source": "Obtained by Alpha News",
+        "contentType": "video",
+        "contentId": "5d3f9292-5d41-4e18-8fd5-1c7fef56fc49",
+        "channel": "national",
+        "contentSubsection": "national",
+        "pageName": "national:video - 1c7fef56fc49 - 20260110 - goods-wife-drive-baby-drive"
+      },
+      "adconfig": {
+        "adSetUrls": {
+          "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+        },
+        "allowPrerollOnDomain": true,
+        "autoPlayPreroll": true,
+        "commercialAdNode": "/national",
+        "enableAdInsertion": false,
+        "enableAutoPreview": false,
+        "enableServerSideFallback": false,
+        "forceAd": false,
+        "playAds": false,
+        "playVideoAds": false,
+        "videoAdZone": "wpni.video.national",
+        "adSetConfig": {
+          "adSetZone": "wpni.video.national",
+          "adSetUrls": {
+            "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+          }
+        },
+        "primarySectionID": "/national"
+      },
+      "mediaURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173d15f886829d03b9ee2/696177d0d9dfd01cdcfce3af/file_360x640-600.mp4",
+      "streamURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173d15f886829d03b9ee2/696177d0d9dfd01cdcfce3af/mobile.m3u8",
+      "subtitlesURL": null,
+      "streams": {
+        "ts": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173d15f886829d03b9ee2/696177d0d9dfd01cdcfce3af/mobile.m3u8",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173d15f886829d03b9ee2/696177d0d9dfd01cdcfce3af/master.m3u8",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173d15f886829d03b9ee2/696177d0d9dfd01cdcfce3af/hd.m3u8",
+            "bitrate": 4500
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173d15f886829d03b9ee2/696177d0d9dfd01cdcfce3af/hlsv4_master.m3u8",
+            "bitrate": 5400
+          }
+        ],
+        "mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173d15f886829d03b9ee2/696177d0d9dfd01cdcfce3af/file_180x320-160.mp4",
+            "bitrate": 160
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173d15f886829d03b9ee2/696177d0d9dfd01cdcfce3af/file_360x640-600.mp4",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173d15f886829d03b9ee2/696177d0d9dfd01cdcfce3af/file_480x854-1200.mp4",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173d15f886829d03b9ee2/696177d0d9dfd01cdcfce3af/file_720x1280-2000.mp4",
+            "bitrate": 2000
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173d15f886829d03b9ee2/696177d0d9dfd01cdcfce3af/file_1080x1920-5400.mp4",
+            "bitrate": 5400
+          }
+        ]
+      },
+      "isLooping": false,
+
+      "autoplay": true,
+      "fallback": null,
+      "title": "Good’s wife: ‘Drive, baby, drive!’",
+      "duration": 6293
+    },
+    {
+      "arcId": "SDZ3FWEEVBGVVBDMF5CJIZRVKE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "As additional agents arrive and instruct Renée Good to get out of her vehicle, Rebecca Good attempts to open the front passenger side door, the video shows. The door does not open. A dog is visible in the back seat."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/national/investigations",
+      "primarySectionID": "/national/investigations/visual-forensics",
+      "position": {
+        "small": "incontent-mob_2"
+      }
+    },
+    {
+      "arcId": "7TZZFQKTRRDU3FUUEO7YZ2HYLI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "One of the additional agents attempts to open Renée Good’s door. She puts the vehicle in reverse and her wife appears to encourage her to flee."
+    },
+    {
+      "arcId": "QJ6HAWHUTFER7EY27QICJOSAAQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“Drive, baby, drive,” says Rebecca Good."
+    },
+    {
+      "arcId": "DKG3BPWUMBABPIO7HZBPUGWTJE",
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "4. Good looks toward Ross",
+      "subhead_level": 2
+    },
+    {
+      "id": "223205ec-04b7-4cf9-8516-5f1155511925",
+      "published": 1768017507000,
+      "isLive": false,
+      "lmt": 1768104227000,
+      "blurb": null,
+      "vertical": true,
+      "embedCode": "696173f15f886829d03b9f16",
+      "shareurl": "https://wapo.st/3NbHTsg",
+      "type": "video",
+      "host": "posttv",
+      "url": "false",
+      "placement": "center",
+      "widthFactor": "default",
+      "contenturl": "https://www.washingtonpost.com/video/national/good-looks-toward-ross-and-turns-wheels-to-the-right/2026/01/09/223205ec-04b7-4cf9-8516-5f1155511925_video.html",
+      "credits": "Obtained by Alpha News",
+      "fullcaption": " (Obtained by Alpha News)",
+      "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/01-09-2026/t_6539f9aa46da48538f50e41557b6bddc_name_clip_4_ross_2.jpg",
+      "imageHeight": 1920,
+      "imageWidth": 1080,
+      "omniture": {
+        "source": "Obtained by Alpha News",
+        "contentType": "video",
+        "contentId": "223205ec-04b7-4cf9-8516-5f1155511925",
+        "channel": "national",
+        "contentSubsection": "national",
+        "pageName": "national:video - 5f1155511925 - 20260110 - good-looks-toward-ross-and-turns-wheels-to-the-right"
+      },
+      "adconfig": {
+        "adSetUrls": {
+          "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+        },
+        "allowPrerollOnDomain": true,
+        "autoPlayPreroll": true,
+        "commercialAdNode": "/national",
+        "enableAdInsertion": false,
+        "enableAutoPreview": false,
+        "enableServerSideFallback": false,
+        "forceAd": false,
+        "playAds": false,
+        "playVideoAds": false,
+        "videoAdZone": "wpni.video.national",
+        "adSetConfig": {
+          "adSetZone": "wpni.video.national",
+          "adSetUrls": {
+            "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+          }
+        },
+        "primarySectionID": "/national"
+      },
+      "mediaURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173f15f886829d03b9f16/69618e60d9dfd01cdcfce400/file_360x640-600.mp4",
+      "streamURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173f15f886829d03b9f16/69618e60d9dfd01cdcfce400/mobile.m3u8",
+      "subtitlesURL": null,
+      "streams": {
+        "ts": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173f15f886829d03b9f16/69618e60d9dfd01cdcfce400/mobile.m3u8",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173f15f886829d03b9f16/69618e60d9dfd01cdcfce400/master.m3u8",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173f15f886829d03b9f16/69618e60d9dfd01cdcfce400/hd.m3u8",
+            "bitrate": 4500
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173f15f886829d03b9f16/69618e60d9dfd01cdcfce400/hlsv4_master.m3u8",
+            "bitrate": 5400
+          }
+        ],
+        "mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173f15f886829d03b9f16/69618e60d9dfd01cdcfce400/file_180x320-160.mp4",
+            "bitrate": 160
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173f15f886829d03b9f16/69618e60d9dfd01cdcfce400/file_360x640-600.mp4",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173f15f886829d03b9f16/69618e60d9dfd01cdcfce400/file_480x854-1200.mp4",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173f15f886829d03b9f16/69618e60d9dfd01cdcfce400/file_720x1280-2000.mp4",
+            "bitrate": 2000
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/696173f15f886829d03b9f16/69618e60d9dfd01cdcfce400/file_1080x1920-5400.mp4",
+            "bitrate": 5400
+          }
+        ]
+      },
+      "isLooping": false,
+
+      "autoplay": true,
+      "fallback": null,
+      "title": "Good looks toward Ross and turns wheels to the right",
+      "duration": 5802
+    },
+    {
+      "arcId": "77PFSD7N45AEPEAGPMKXMEVBZ4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Ross crosses in front of the vehicle as it moves in reverse."
+    },
+    {
+      "arcId": "AMTBDBQ7ZRD5BH7Z7N5GDX5EWU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The camera briefly captures Renée Good, who had been talking with the agents at her side window, turning her gaze to look ahead through the windshield."
+    },
+    {
+      "arcId": "J6IZ7O4YKZDKLLZUE7GSP2V2RM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "She then looks down as she shifts the vehicle into drive. She looks up again as she turns the steering wheel to the right, away from Ross."
+    },
+    {
+      "arcId": "LFH2EHXWFBFIBMSLY7WN4LAA6E",
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "5. An insult after the shooting",
+      "subhead_level": 2
+    },
+    {
+      "id": "41594c58-b959-4280-8bdf-d2a2975d9594",
+      "published": 1768017523000,
+      "isLive": false,
+      "lmt": 1768104215000,
+      "blurb": null,
+      "vertical": true,
+      "embedCode": "6961742ec12248288544683e",
+      "shareurl": "https://wapo.st/45xzeGQ",
+      "type": "video",
+      "host": "posttv",
+      "url": "false",
+      "placement": "center",
+      "widthFactor": "default",
+      "contenturl": "https://www.washingtonpost.com/video/national/video-shows-moment-of-shooting/2026/01/09/41594c58-b959-4280-8bdf-d2a2975d9594_video.html",
+      "credits": "Obtained by Alpha News",
+      "fullcaption": " (Obtained by Alpha News)",
+      "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/01-09-2026/t_8ac9a52ba946419785596215cbcf5c8d_name_clip_5_ross_1.jpg",
+      "imageHeight": 1920,
+      "imageWidth": 1080,
+      "omniture": {
+        "source": "Obtained by Alpha News",
+        "contentType": "video",
+        "contentId": "41594c58-b959-4280-8bdf-d2a2975d9594",
+        "channel": "national",
+        "contentSubsection": "national",
+        "pageName": "national:video - d2a2975d9594 - 20260110 - video-shows-moment-of-shooting"
+      },
+      "adconfig": {
+        "adSetUrls": {
+          "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+        },
+        "allowPrerollOnDomain": true,
+        "autoPlayPreroll": true,
+        "commercialAdNode": "/national",
+        "enableAdInsertion": false,
+        "enableAutoPreview": false,
+        "enableServerSideFallback": false,
+        "forceAd": false,
+        "playAds": false,
+        "playVideoAds": false,
+        "videoAdZone": "wpni.video.national",
+        "adSetConfig": {
+          "adSetZone": "wpni.video.national",
+          "adSetUrls": {
+            "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+          }
+        },
+        "primarySectionID": "/national"
+      },
+      "mediaURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961742ec12248288544683e/696195a4d9dfd01cdcfce424/file_360x640-600.mp4",
+      "streamURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961742ec12248288544683e/696195a4d9dfd01cdcfce424/mobile.m3u8",
+      "subtitlesURL": null,
+      "streams": {
+        "ts": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961742ec12248288544683e/696195a4d9dfd01cdcfce424/mobile.m3u8",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961742ec12248288544683e/696195a4d9dfd01cdcfce424/master.m3u8",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961742ec12248288544683e/696195a4d9dfd01cdcfce424/hd.m3u8",
+            "bitrate": 4500
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961742ec12248288544683e/696195a4d9dfd01cdcfce424/hlsv4_master.m3u8",
+            "bitrate": 5400
+          }
+        ],
+        "mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961742ec12248288544683e/696195a4d9dfd01cdcfce424/file_180x320-160.mp4",
+            "bitrate": 160
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961742ec12248288544683e/696195a4d9dfd01cdcfce424/file_360x640-600.mp4",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961742ec12248288544683e/696195a4d9dfd01cdcfce424/file_480x854-1200.mp4",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961742ec12248288544683e/696195a4d9dfd01cdcfce424/file_720x1280-2000.mp4",
+            "bitrate": 2000
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961742ec12248288544683e/696195a4d9dfd01cdcfce424/file_1080x1920-5400.mp4",
+            "bitrate": 5400
+          }
+        ]
+      },
+      "isLooping": false,
+
+      "autoplay": true,
+      "fallback": null,
+      "title": "Video shows moment of shooting",
+      "duration": 6997
+    },
+    {
+      "arcId": "AAOJ3234UFG4NEXJ44GWKDUU2U",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "As the vehicle moves forward, Ross is standing near the front driver’s side corner of the vehicle. Someone yells, “Whoa.”"
+    },
+    {
+      "arcId": "6S4XMXRVQVDOVBDMC6QIZRCVBQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Ross’s camera pans skyward but does not fall to the ground."
+    },
+    {
+      "arcId": "PYMQEDJYXJESNNXSGWLJMTYOLQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "One shot can be heard, then two more can be heard in rapid succession. Ross appears to refocus his camera on the SUV almost immediately, before it crashes nearby."
+    },
+    {
+      "arcId": "AI5BKNBMDZF5JLVH54RVL2Z5CA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "A male voice — it is not clear whose — can be heard uttering two expletives: “Fucking bitch.”"
+    },
+    {
+      "arcId": "YBHNID5ZYNHZPNTGEACMEWILUY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The full video, uninterrupted, can be seen here:"
+    },
+    {
+      "id": "813a4ca6-f441-4b8e-b7f5-a1e72d67e0f1",
+      "published": 1768013855000,
+      "isLive": false,
+      "lmt": 1768033451000,
+      "blurb": "Video made public Friday shows the 37-year-old and her wife exchanging words with ICE officers in the seconds before the shooting.",
+      "vertical": true,
+      "embedCode": "6961757a5f886829d03ba07a",
+      "shareurl": "https://wapo.st/3LtF2dx",
+      "type": "video",
+      "host": "posttv",
+      "url": "false",
+      "placement": "center",
+      "widthFactor": "default",
+      "contenturl": "https://www.washingtonpost.com/video/national/from-the-ice-agents-phone-video-of-renee-good-shooting/2026/01/09/813a4ca6-f441-4b8e-b7f5-a1e72d67e0f1_video.html",
+      "credits": "Obtained by Alpha News",
+      "fullcaption": "Video made public Friday shows the 37-year-old and her wife exchanging words with ICE officers in the seconds before the shooting. (Obtained by Alpha News)",
+      "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/01-09-2026/t_4e0fd0596b1541a9b7de34bee5173263_name_32f0c450_7515_469a_9b51_ca75719f0a18_00_03_11_12_Still005.jpg",
+      "imageHeight": 1920,
+      "imageWidth": 1080,
+      "omniture": {
+        "source": "Obtained by Alpha News",
+        "contentType": "video",
+        "contentId": "813a4ca6-f441-4b8e-b7f5-a1e72d67e0f1",
+        "channel": "national",
+        "contentSubsection": "national",
+        "pageName": "national:video - a1e72d67e0f1 - 20260110 - from-the-ice-agents-phone-video-of-renee-good-shooting"
+      },
+      "adconfig": {
+        "adSetUrls": {
+          "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+        },
+        "allowPrerollOnDomain": true,
+        "autoPlayPreroll": true,
+        "commercialAdNode": "/national",
+        "enableAdInsertion": false,
+        "enableAutoPreview": false,
+        "enableServerSideFallback": false,
+        "forceAd": false,
+        "playAds": false,
+        "playVideoAds": false,
+        "videoAdZone": "wpni.video.national",
+        "adSetConfig": {
+          "adSetZone": "wpni.video.national",
+          "adSetUrls": {
+            "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.national_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.national_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+          }
+        },
+        "primarySectionID": "/national"
+      },
+      "mediaURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961757a5f886829d03ba07a/6961c5e3d9dfd01cdcfce475/file_360x640-600.mp4",
+      "streamURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961757a5f886829d03ba07a/6961c5e3d9dfd01cdcfce475/mobile.m3u8",
+      "subtitlesURL": "https://closedcaptions.posttv.com/2026/01/09/813a4ca6-f441-4b8e-b7f5-a1e72d67e0f1/3_1768017209531/813a4ca6-f441-4b8e-b7f5-a1e72d67e0f1_6961c57ac122482885447e89.vtt",
+      "streams": {
+        "ts": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961757a5f886829d03ba07a/6961c5e3d9dfd01cdcfce475/mobile.m3u8",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961757a5f886829d03ba07a/6961c5e3d9dfd01cdcfce475/master.m3u8",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961757a5f886829d03ba07a/6961c5e3d9dfd01cdcfce475/hd.m3u8",
+            "bitrate": 4500
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961757a5f886829d03ba07a/6961c5e3d9dfd01cdcfce475/hlsv4_master.m3u8",
+            "bitrate": 5400
+          }
+        ],
+        "mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961757a5f886829d03ba07a/6961c5e3d9dfd01cdcfce475/file_180x320-160.mp4",
+            "bitrate": 160
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961757a5f886829d03ba07a/6961c5e3d9dfd01cdcfce475/file_360x640-600.mp4",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961757a5f886829d03ba07a/6961c5e3d9dfd01cdcfce475/file_480x854-1200.mp4",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961757a5f886829d03ba07a/6961c5e3d9dfd01cdcfce475/file_720x1280-2000.mp4",
+            "bitrate": 2000
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Alpha_News/20260109/6961757a5f886829d03ba07a/6961c5e3d9dfd01cdcfce475/file_1080x1920-5400.mp4",
+            "bitrate": 5400
+          }
+        ]
+      },
+      "isLooping": false,
+      "autoplay": true,
+      "fallback": null,
+      "duration": 47274
+    },
+    {
+      "type": "fts_carousel",
+      "label": "What sources are saying"
+    },
+    {
+      "type": "link",
+      "subtype": "comments"
+    },
+    {
+      "type": "author_info",
+      "id": "baranj",
+      "name": "Jonathan Baran",
+      "bio": "Jonathan Baran is a reporter for The Washington Post's Visual Forensics team. He joined the VF team in 2024 and came to The Post in 2019, covering technology and business from San Francisco. Jonathan shared in a Pulitzer Prize for coverage of the assassination attempt on President Donald Trump. He served in the U.S. Army from 2003 to 2008.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/03f3320e-f5cb-4ecb-bd92-77e510c6ecc3.png",
+      "role": "Visual Forensics reporter"
+    },
+    {
+      "type": "author_info",
+      "id": "davisac",
+      "name": "Aaron C. Davis",
+      "bio": "Aaron C. Davis is an investigative reporter who has shared in winning the Pulitzer Prize twice and been a finalist three times. He is the co-author of \"Injustice: How Politics and Fear Vanquished America's Justice Department.\" He can be reached on Signal at acdavis.77",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/fa9fa98b-e3df-45e9-9413-d782cf962e4b.png",
+      "role": "Reporter"
+    },
+    {
+      "type": "author_info",
+      "id": "leyj",
+      "name": "Jarrett Ley",
+      "bio": "Jarrett Ley is a visual forensics reporter at The Washington Post. His reporting mobilizes open-source investigation methods alongside spatial analysis techniques honed through his prior training in architecture. His reporting was featured in the Post's 2024 Pulitzer Prize-winning coverage of the attempted assassination of Donald Trump.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/17da6dd6-02bb-44b2-8233-9156e2c04158.png",
+      "role": "Visual Forensics Reporter"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "show_summary": true,
+  "blogname": "Visual Forensics",
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/A6O425FXUNH4TA5JLEVNSXIABE/20260111-142260.604/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/A6O425FXUNH4TA5JLEVNSXIABE/20260111-142260.604/current.mp3?awCollectionId=/national/investigations/visual-forensics&awEpisodeId=A6O425FXUNH4TA5JLEVNSXIABE&tags=video-investigations%7Cvideo-interactive%7Ccollections-minneapolisice%7Caudio-article",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/A6O425FXUNH4TA5JLEVNSXIABE/20260111-142260.604/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4TCGOPQU6VH2NEGW5DM4URWGYM.png",
+      "imageWidth": 1920,
+      "imageHeight": 1080,
+      "fullcaption": "(Obtained by Alpha News)"
+    },
+    "title": {
+      "content": "The ICE agent’s cellphone video: Five key moments",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "Visual Forensics",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Visual Forensics",
+      "path": "/visual-forensics"
+    },
+    "date": {
+      "content": 1768011543766,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    },
+    "duration": 192000
+  },
+  "first_display_date": 1768011543766,
+  "targeting": {
+    "adcall": [
+      {
+        "key": "ca",
+        "values": [
+          "rsk_m",
+          "rcisc",
+          "r1zb8",
+          "r5zn0",
+          "rjqr5",
+          "r71iv",
+          "rnfyo",
+          "r71he",
+          "rqlce",
+          "rqrfm",
+          "r63ky",
+          "r8kl5",
+          "r1djc",
+          "rj98c",
+          "r0yv2",
+          "r2ztd",
+          "ralq3",
+          "rh5hz",
+          "rsvk8",
+          "rvt6h",
+          "rxvfu",
+          "rcvrb",
+          "rpkxx",
+          "rohf5",
+          "reest",
+          "r8paa",
+          "rqltv",
+          "r6ovq",
+          "ru0hj",
+          "rk4hi",
+          "r2x7m",
+          "rjls7",
+          "rpsbt",
+          "rnryg",
+          "rihsc",
+          "rh065",
+          "ren01",
+          "r8pmm",
+          "r6iq7",
+          "r4fvv",
+          "r30iy",
+          "rw76f",
+          "rh22v",
+          "rhwg4",
+          "r82mu",
+          "r35cx",
+          "rsqg7",
+          "rl43b",
+          "ru1jm",
+          "r6jbe",
+          "ryx8n",
+          "rkgjf",
+          "raw34",
+          "r6g4r",
+          "rf299",
+          "rkpsc",
+          "rqpy3",
+          "rzhau",
+          "r3vky",
+          "rxa9g",
+          "rtdlb",
+          "rjuyh",
+          "rzfmu",
+          "rz25l",
+          "r9kyn",
+          "r3hdp",
+          "rynal",
+          "rrytf",
+          "r7d9r",
+          "rl7yb",
+          "rsmxd",
+          "rt5dp",
+          "r7tmu",
+          "rzqdp",
+          "r3t9e",
+          "r4avn",
+          "rva7x",
+          "r3bxp",
+          "rwsk4",
+          "rfhup",
+          "r3ykj",
+          "rsjjy",
+          "rhfzk",
+          "r4t4y",
+          "rfpua",
+          "r35lh",
+          "rz457",
+          "rr25v",
+          "rj2ns",
+          "rfz4c",
+          "rh5xk",
+          "rtv19",
+          "rj67t",
+          "r8hz2",
+          "r2qxu",
+          "raoi5",
+          "r5hej",
+          "ratb5",
+          "rhll0",
+          "rdnyf",
+          "rrhwk",
+          "rtbcp",
+          "rgpk6",
+          "r3es4",
+          "rd270",
+          "r8x1i",
+          "rx8m9",
+          "rl3n6",
+          "rjya1",
+          "rd18m",
+          "rsesv",
+          "r2hzw",
+          "rggwa",
+          "r1ysy",
+          "r8ig8",
+          "rx4px",
+          "r2qu2",
+          "rs7c2",
+          "rjvyd",
+          "rxeck",
+          "rcase",
+          "rlz8o",
+          "rle1y",
+          "rzofg",
+          "rwlm1",
+          "r46n5",
+          "rlw2t",
+          "r5lck",
+          "rvhux",
+          "rvywr",
+          "rdlnx",
+          "r1fsz",
+          "rmcp7",
+          "rg1ny",
+          "rc6uk",
+          "riklp",
+          "r301t",
+          "rf0ll",
+          "rbjys",
+          "rh52g",
+          "rgn4c",
+          "rlv7a",
+          "rvn0g",
+          "r54xz",
+          "romxp",
+          "rloc3",
+          "rmk71",
+          "r3mmv",
+          "r0kbr",
+          "rqyhw",
+          "rer82",
+          "rrqij",
+          "rloxr",
+          "r78zx",
+          "rk0qi",
+          "rgywb",
+          "rkkqd",
+          "r0hej",
+          "r44lb",
+          "rdrh1",
+          "r1nqd",
+          "rtppi",
+          "rgjgs",
+          "r2wa4",
+          "rypnm",
+          "rqvzr",
+          "r7e5f",
+          "r9d8g",
+          "ruk1b",
+          "rw7py",
+          "rtsg3",
+          "rzla5",
+          "r6eks",
+          "radub",
+          "r50pl",
+          "rtc0b",
+          "rdj29",
+          "r6txy",
+          "rktca",
+          "ribdm",
+          "rd1zm",
+          "rjkt0",
+          "ro9sc",
+          "rtyhm",
+          "r44uv",
+          "rmjrh",
+          "r1k1d",
+          "r05in",
+          "r4hly",
+          "rwbzi",
+          "rz5hb",
+          "rcnxg",
+          "rofif",
+          "r7xp7",
+          "rfpdz",
+          "r3voq",
+          "rksyw"
+        ]
+      },
+      {
+        "key": "wapoTopics",
+        "values": [
+          "xqc3"
+        ]
+      },
+      {
+        "key": "se",
+        "values": [
+          "i7kn"
+        ]
+      },
+      {
+        "key": "bs",
+        "values": [
+          "garm_medium",
+          "bgrt100",
+          "wapo_rsk_medium"
+        ]
+      }
+    ],
+    "iab": {
+      "sectioncat": [
+        "IAB12"
+      ],
+      "pagecat": [
+        "IAB12-2"
+      ]
+    },
+    "permutive_dict": {
+      "article": {
+        "customTopics": [
+          "[rqpy3] B2_Election 2016_legacyaux_WC9",
+          "[rgjgs] Women's Beauty",
+          "[r2wa4] Pets",
+          "[rypnm] Republicans"
+        ],
+        "wapoTopics": [
+          "xqc3"
+        ],
+        "sentiment": [
+          "[i7kn] negative"
+        ],
+        "publishDate": "2026-01-09T18:45:49.083Z",
+        "lastUpdateDate": "2026-01-12T18:37:54.431Z",
+        "authorName": [
+          "jonathan baran",
+          "aaron davis",
+          "jarrett ley"
+        ],
+        "authorType": [
+          "author",
+          "author",
+          "author"
+        ],
+        "newsroomDesk": [
+          "investigative",
+          "investigative",
+          "investigative"
+        ],
+        "taxonomyTags": [
+          "attribute-visual"
+        ],
+        "contentType": "story - centered-layout",
+        "language": "en",
+        "wordCount": 575
+      },
+      "canonicalUrl": "/investigations/2026/01/09/moments-before-ice-shooting-minneapolis/"
+    }
+  },
+  "comments": "https://www.washingtonpost.com/investigations/2026/01/09/moments-before-ice-shooting-minneapolis/?outputType=comment"
+}

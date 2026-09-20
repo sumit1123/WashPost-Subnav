@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/widget_small_article_body_container"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:background="@drawable/widget_background">
+
+    <include
+        a:id="@+id/empty_view"
+        layout="@layout/widget_loading"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_gravity="center" />
+
+    <AdapterViewFlipper
+        a:id="@+id/widget_small_article_body_view_flipper"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:autoStart="true"
+        a:flipInterval="5000"
+        a:loopViews="true" />
+</FrameLayout>

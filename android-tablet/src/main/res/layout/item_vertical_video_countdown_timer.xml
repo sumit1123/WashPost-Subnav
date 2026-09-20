@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/play_next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/vertical_videos_play_next_button"
+        android:paddingStart="50dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="14dp"
+        android:paddingBottom="5dp"
+        android:text="@string/vertical_video_play_next"
+        android:textAppearance="@style/vertical_videos_play_next_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/timer_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:elevation="10dp"
+        android:indeterminate="false"
+        app:indicatorColor="@color/black"
+        app:indicatorSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/play_next_button"
+        app:layout_constraintStart_toStartOf="@id/play_next_button"
+        app:layout_constraintTop_toTopOf="@id/play_next_button"
+        app:trackCornerRadius="2dp"
+        app:trackThickness="3dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/timer_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:fontFamily="@font/franklinitcstd_bold"
+        android:text="5"
+        android:textColor="@color/black"
+        android:textSize="8sp"
+        app:fontFamily="@font/franklinitcstd_bold"
+        app:layout_constraintBottom_toBottomOf="@id/timer_indicator"
+        app:layout_constraintEnd_toEndOf="@id/timer_indicator"
+        app:layout_constraintStart_toStartOf="@id/timer_indicator"
+        app:layout_constraintTop_toTopOf="@id/timer_indicator" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

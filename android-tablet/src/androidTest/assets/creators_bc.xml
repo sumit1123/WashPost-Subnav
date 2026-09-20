@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>B.C.</title>
+		<author>Mastroianni and Hart</author>
+		<link>http://www.creators.com/comics/bc.html</link>
+		<lastBuildDate>Tue, 01 Oct 2013 08:52:35 PDT</lastBuildDate>
+		<copyright>Copyright 2013 Creators.com</copyright>
+		<!-- googd item -->
+		<item>
+			<title>B.C. for Oct 01, 2013</title>
+			<enclosure url="http://www.creators.com/comics/1/111392_image.gif" length="66870" type="image/gif" />
+			<link>http://www.creators.com/comics/bc/111392.html</link>
+			<pubDate>Tue, 01 Oct 2013 00:00:00 PDT</pubDate>
+		</item>
+		<!-- invalid link format -->
+		<item>
+			<title>B.C. for Sep 30, 2013</title>
+			<enclosure url="-=broken=-:://www.creators.com/comics/1/111393_image.gif" length="79998" type="image/gif" />
+			<link>-=broken=-://www.creators.com/comics/bc/111393.html</link>
+			<pubDate>Mon, 30 Sep 2013 00:00:00 PDT</pubDate>
+		</item>
+		<!-- invalid date format -->
+		<item>
+			<title>B.C. for Sep 29, 2013</title>
+			<enclosure url="http://www.creators.com/comics/1/110866_image.gif" length="185968" type="image/gif" />
+			<link>http://www.creators.com/comics/bc/110866.html</link>
+			<pubDate>Sun, 9_2 Sep 2013 00:00:00 PDT</pubDate>
+		</item>
+		<!-- empty date -->
+		<item>
+			<title>B.C. for Sep 28, 2013</title>
+			<enclosure url="http://www.creators.com/comics/1/111163_image.gif" length="67932" type="image/gif" />
+			<link>http://www.creators.com/comics/bc/111163.html</link>
+			<pubDate></pubDate>
+		</item>
+		<!-- empty link -->
+		<item>
+			<title>B.C. for Sep 27, 2013</title>
+			<enclosure url="" length="85157" type="image/gif" />
+			<link></link>
+			<pubDate>Fri, 27 Sep 2013 00:00:00 PDT</pubDate>
+		</item>
+		<!-- missing enclosure tag -->
+		<item>
+			<title>B.C. for Sep 26, 2013</title>
+			<pubDate>Thu, 26 Sep 2013 00:00:00 PDT</pubDate>
+		</item>
+		<!-- missing pubDate tag -->
+		<item>
+			<title>B.C. for Sep 25, 2013</title>
+			<enclosure url="http://www.creators.com/comics/1/111160_image.gif" length="104901" type="image/gif" />
+			<link>http://www.creators.com/comics/bc/111160.html</link>
+		</item>
+	</channel>
+</rss>

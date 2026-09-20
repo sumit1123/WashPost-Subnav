@@ -1,0 +1,13 @@
+package com.washingtonpost.android.save.models
+
+enum class EmptyState {
+    SAVED_STORIES_SIGN_IN,
+    SAVED_STORIES_SIGNED_IN,
+
+    FOLLOWING_SIGN_IN,
+    FOLLOWING_SIGNED_IN,
+
+    READING_HISTORY_SIGN_IN,
+    READING_HISTORY_CONSENT_MISSING,
+    READING_HISTORY_SIGNED_IN,
+}

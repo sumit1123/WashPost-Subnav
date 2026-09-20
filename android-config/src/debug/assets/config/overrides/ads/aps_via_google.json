@@ -1,0 +1,15 @@
+{
+  "ads": {
+    "bannersConfig": {
+      "defaultLoadConfig": [
+        {
+          "bidSources": ["aps", "gam"],
+          "loader": "google"
+        }
+      ],
+      "nimbus": {
+        "enabled": false
+      }
+    }
+  }
+}

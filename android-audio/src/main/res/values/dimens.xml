@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2017 Google Inc. All rights reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="media_item_height">72dp</dimen>
+    <dimen name="media_item_control_margin">4dp</dimen>
+    <dimen name="media_item_icon_margin_start">12dp</dimen>
+    <dimen name="media_item_text_margin_start">4dp</dimen>
+
+    <dimen name="media_item_art">72dp</dimen>
+
+    <dimen name="media_item_radius">4dp</dimen>
+    <dimen name="media_item_half_radius">2dp</dimen>
+    <dimen name="media_item_negative_half_radius">-2dp</dimen>
+
+    <dimen name="now_playing_album_art_margin">72dp</dimen>
+    <dimen name="now_playing_skip_top_margin">42dp</dimen>
+    <dimen name="now_playing_skip_margin">8dp</dimen>
+    <dimen name="now_playing_play_pause_top_margin">42dp</dimen>
+    <dimen name="now_playing_play_pause_bottom_margin">52dp</dimen>
+
+    <dimen name="now_playing_title_top_margin">32dp</dimen>
+    <dimen name="now_playing_title_bottom_margin">8dp</dimen>
+    <dimen name="now_playing_artist_bottom_margin">32dp</dimen>
+    <dimen name="now_playing_text_padding">16dp</dimen>
+
+    <dimen name="now_playing_title_size">32sp</dimen>
+    <dimen name="now_playing_artist_size">18sp</dimen>
+
+    <dimen name="podcast_control_view_margin_horizontal">16dp</dimen>
+    <dimen name="podcast_control_view_margin_horizontal_offline">32dp</dimen>
+    <dimen name="podcast_vertical_margin_small">8dp</dimen>
+    <dimen name="podcast_vertical_margin_medium">16dp</dimen>
+    <dimen name="podcast_vertical_margin_large">32dp</dimen>
+    <dimen name="podcast_vertical_margin_x_large">40dp</dimen>
+    <dimen name="podcast_title_text_size">16sp</dimen>
+    <dimen name="podcast_episode_title_text_size">20sp</dimen>
+    <dimen name="podcast_episode_date_text_size">14sp</dimen>
+    <dimen name="podcast_add_series_text_size">14sp</dimen>
+    <dimen name="podcast_persistent_horizontal_margin">8dp</dimen>
+    <dimen name="podcast_persistent_play_pause_right_margin">16dp</dimen>
+    <dimen name="podcast_episode_kicker_text_size">16sp</dimen>
+    <dimen name="audio_persistent_player_images_padding_small">8dp</dimen>
+
+    <dimen name="podcast_controls_height">120dp</dimen>
+    <dimen name="podcast_timer_position_margin">10dp</dimen> <!-- half of podcast_time_bar_scrubber_shadow_size -->
+    <dimen name="podcast_time_bar_scrubber_shadow_size">20dp</dimen>
+    <dimen name="podcast_time_bar_scrubber_padding">3dp</dimen>
+    <dimen name="podcast_time_bar_scrubber_size">15dp</dimen> <!-- needs to be less than podcast_time_bar_scrubber_shadow_size -->
+    <dimen name="podcast_play_button_horizontal_margin">48dp</dimen>
+    <dimen name="podcast_track_button_horizontal_margin">24dp</dimen>
+    <dimen name="podcast_time_bar_height">4dp</dimen>
+    <dimen name="podcast_play_button_vertical_margin">32dp</dimen>
+    <dimen name="podcast_timer_text_size">12sp</dimen>
+    <dimen name="podcast_placeholder_image_width">200dp</dimen>
+    <dimen name="podcast_placeholder_image_height">100dp</dimen>
+    <dimen name="phone_bottom_bar_height">56dp</dimen>
+
+    <dimen name="podcast_article_view_outer_padding_horizontal">8dp</dimen>
+    <dimen name="podcast_article_view_outer_padding_vertical">12dp</dimen>
+    <dimen name="podcast_article_view_outer_margin">20dp</dimen>
+    <dimen name="podcast_article_view_title_bottom_margin">8dp</dimen>
+    <dimen name="podcast_article_view_center_margin">8dp</dimen>
+    <dimen name="podcast_article_view_image_size">80dp</dimen>
+    <dimen name="podcast_article_view_control_size">28dp</dimen>
+    <dimen name="podcast_article_view_episode_title_text_size">16sp</dimen>
+    <dimen name="podcast_article_view_text_size">14sp</dimen>
+  
+    <dimen name="podcast_down_arrow_size">32dp</dimen>
+    <dimen name="podcast_text_size_small">12sp</dimen>
+
+    <dimen name="podcast_app_dialog_margin_medium">12dp</dimen>
+
+    <integer name="top_view_weight">25</integer>
+    <integer name="bottom_view_weight">75</integer>
+
+    <dimen name="podcast_sf_play_button_size">32dp</dimen>
+    <dimen name="podcast_sf_pause_button_size">32dp</dimen>
+    <dimen name="podcast_add_series_padding">10dp</dimen>
+
+    <dimen name="dialog_top_bar_width">32dp</dimen>
+    <dimen name="dialog_top_bar_height">4dp</dimen>
+</resources>

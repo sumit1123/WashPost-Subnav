@@ -1,0 +1,39 @@
+{
+  "id": "/",
+  "children": [
+    {
+      "id": "/elections/election-2024",
+      "type": "section",
+      "path": "/elections/election-2024",
+      "path_fusion": "/elections/election-2024/",
+      "name": "Election\n2024",
+      "nav_name": "Election\n2024",
+      "aliases": [
+        "/elections/election-2024",
+        "/election-2024"
+      ],
+      "icon": "election-default",
+      "behavior": "sn_elections_lo",
+      "children": [
+        {
+          "id": "link-KJ6R7H8VDN47DBD9A5VRTU64K8",
+          "type": "link",
+          "subtype": "search",
+          "name": "Find results",
+          "path": "https://www.washingtonpost.com/electionsearch/",
+          "icon": "search",
+          "behavior": "search_sn_elections"
+        },
+        {
+          "id": "link-KJ6R7H8VDN47DBD9A5VRTU64K9",
+          "type": "link",
+          "subtype": "luf",
+          "name": "Live updates",
+          "path": "https://www.washingtonpost.com/elections/2024/08/02/2024-election-campaign-updates-harris-trump/",
+          "display_date": "2024-09-09T22:16:40.488Z",
+          "behavior": "sn_elections_luf"
+        }
+      ]
+    }
+  ]
+}

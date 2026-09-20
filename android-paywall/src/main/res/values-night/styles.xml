@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="pw_button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+		<item name="android:background">@drawable/pw_button_selector</item>
+    </style>
+    <style name="pw_error_message">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/pw_red</item>
+    </style>
+    <style name="pw_start_reading_button">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">#56595c</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="pw_native_toast_message">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/pw_top_margin_toast_message</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- Reminder Screen -->
+    <style name="reminder_screen_text_h1">
+        <item name="fontFile">PostoniWide-Regular.otf</item>
+        <item name="fontFileBold">PostoniWide-Bold.otf</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/reminder_screen_text_h1_font_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="reminder_screen_text_h21">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/reminder_screen_text_h21_font_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="reminder_screen_text_h22" parent="@style/reminder_screen_text_h21">
+        <item name="android:textSize">@dimen/reminder_screen_text_h22_font_size</item>
+    </style>
+
+    <style name="reminder_screen_text_h3">
+        <item name="fontFile">Franklin-ITC-Pro-Light.otf</item>
+        <item name="fontFileBold">Franklin-ITC-Pro-Bold.otf</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/reminder_screen_text_h3_font_size</item>
+    </style>
+
+    <style name="reminder_screen_button1">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/reminder_screen_button_font_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="reminder_screen_button2">
+        <item name="fontFile">Franklin-ITC-Pro-Light.otf</item>
+        <item name="fontFileBold">Franklin-ITC-Pro-Bold.otf</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/reminder_screen_button_font_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="fineprint_text">
+        <item name="fontFile">Franklin-ITC-Pro-Light.otf</item>
+        <item name="fontFileBold">Franklin-ITC-Pro-Bold.otf</item>
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:textSize">@dimen/fineprint_text_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="acquisition_screen_header_style">
+        <item name="fontFile">PostoniWide-Regular.otf</item>
+        <item name="fontFileBold">PostoniWide-Bold.otf</item>
+        <item name="android:layout_marginTop">@dimen/acquisition_text_vertical_margin</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/acquisition_heading_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="acquisition_screen_header_style_variant" parent="acquisition_screen_header_style">
+        <item name="android:textSize">@dimen/acquisition_heading_variant_text_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:lineSpacingMultiplier">1</item>
+        <item name="android:layout_marginTop">@dimen/acquisition_text_variant_vertical_margin</item>
+    </style>
+
+    <style name="pin_text_style">
+        <item name="android:fontFamily">@font/franklinitcstd_black</item>
+        <item name="fontFamily">@font/franlinitcstd_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/accounthold_button_text_size</item>
+    </style>
+
+    <style name="acquisition_screen_description_style">
+        <item name="fontFile">Franklin-ITC-Pro-Light.otf</item>
+        <item name="android:layout_marginTop">@dimen/acquisition_vertical_margin</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/acquisition_description_text_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="acquisition_screen_description_style_variant" parent="acquisition_screen_description_style">
+        <item name="android:textSize">@dimen/acquisition_description_variant_text_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:lineSpacingMultiplier">1</item>
+        <item name="android:layout_marginTop">@dimen/acquisition_text_variant_vertical_margin</item>
+    </style>
+
+    <style name="tagline_style">
+        <item name="android:layout_gravity"> center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFile">Georgia-Italic.otf</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="bottom_sheet_title1">
+        <item name="fontFile">Franklin-ITC-Pro-Light.otf</item>
+        <item name="fontFileBold">Franklin-ITC-Pro-lite.otf</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/bottom_sheet_title1_night</item>
+    </style>
+
+    <style name="bottom_sheet_title2">
+        <item name="fontFile">Franklin-ITC-Pro-Light.otf</item>
+        <item name="fontFileBold">Franklin-ITC-Pro-Bold.otf</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/bottom_sheet_title1_night</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- AccountHold -->
+    <style name="accounthold_text_h1">
+        <item name="fontFile">PostoniWide-Regular.otf</item>
+        <item name="fontFileBold">PostoniWide-Bold.otf</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/accounthold_text_size_header</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="accounthold_subscription">
+        <item name="fontFile">PostoniWide-Regular.otf</item>
+        <item name="fontFileBold">PostoniWide-Bold.otf</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/accounthold_core_text_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="accounthold_core">
+        <item name="fontFile">PostoniWide-Regular.otf</item>
+        <item name="fontFileBold">PostoniWide-Bold.otf</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/accounthold_core_text_size</item>
+        <item name="android:layout_marginTop">@dimen/accounthold_vertical_margin_x2_large</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="accounthold_text_h2">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/accounthold_text_size_h2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/accounthold_vertical_margin</item>
+    </style>
+
+    <style name="accounhold_sub_details">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/accounthold_text_size_h2</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="accounhold_contact_us">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/contact_us_text_size</item>
+        <item name="android:layout_marginTop">@dimen/accounthold_contactus_margin</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="accounthold_button">
+        <item name="android:fontFamily">@font/franlinitcstd_bold</item>
+        <item name="fontFamily">@font/franlinitcstd_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/accounthold_button_text_size</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_marginTop">@dimen/accounthold_vertical_margin</item>
+        <item name="android:layout_height">@dimen/account_update_payment_button_height</item>
+        <item name="android:layout_width">@dimen/account_update_payment_button_width</item>
+    </style>
+
+    <style name="accountHoldLogo">
+        <item name="android:src">@drawable/logo</item>
+        <item name="android:layout_marginTop">@dimen/accounthold_logo_vertical_margin</item>
+        <item name="android:layout_width">@dimen/accounthold_logo_width</item>
+        <item name="android:layout_height">@dimen/accounthold_logo_height</item>
+    </style>
+
+    <style name="accountHoldClose">
+        <item name="android:src">@drawable/close_icon</item>
+        <item name="android:layout_marginTop">@dimen/accounthold_logo_vertical_margin</item>
+        <item name="android:layout_marginRight">@dimen/accounthold_logo_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/accounthold_logo_vertical_margin</item>
+        <item name="android:layout_width">@dimen/accounthold_close</item>
+        <item name="android:layout_height">@dimen/accounthold_close</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,17 @@
+bin
+out
+gen
+*.eml
+*.ipr
+*.iml
+*.iws
+local.properties
+default.properties
+project.properties
+generated
+tools
+.DS_Store
+target
+.gradle
+/build
+.idea/

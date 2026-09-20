@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="article_object_tag" type="id"></item>
+    <item name="live_blog_item_tag" type="id"/>
+    <item name="section_layout_recycler" type="id"/>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/live_video_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:background="@drawable/popup_background_live">
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/close"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_close_white_36dp"/>
+
+    <TextView
+        android:id="@+id/live_video_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_toLeftOf="@id/close"
+        android:textSize="@dimen/article_breaking_news_headline" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- My Post2 -->
+    <!-- gone = 2, visible = 0 -->
+    <integer name="my_post_byline_visibility">0</integer>
+    <integer name="my_post_blurb_visibility">0</integer>
+
+    <integer name="my_post_follow_columns">2</integer>
+    <integer name="my_post_follow_articles">6</integer>
+</resources>

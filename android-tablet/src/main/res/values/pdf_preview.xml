@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_dark">#333333</color>
+    <color name="background_dark_transparent">#32333333</color>
+    <color name="background_light">#ededed</color>
+    <color name="sections_menu_separator">#262626</color>
+    <color name="sections_menu_selected">#000</color>
+    <color name="preview_font_color">#f1f1f1</color>
+    <color name="text_color_dark">#333333</color>
+
+    <color name="archive_dates_dropdown_item_selected">#3078b5</color>
+    <color name="archive_dates_dropdown_item_default">#333333</color>
+    <color name="archive_dates_dropdown_item_deleted_or_canceled">#333333</color>
+
+    <color name="selected_section">#000000</color>
+</resources>

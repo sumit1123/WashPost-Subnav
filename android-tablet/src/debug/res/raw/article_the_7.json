@@ -1,0 +1,409 @@
+{
+  "id": "219d0b5375e1416492c4b50432f4646e",
+  "type": "blog",
+  "renderer": "native",
+  "arcId": "IDZZQLKQEJBLHCI57ZWEKJV63U",
+  "title": "Amanda\u2019s Monday briefing: Catch up in minutes with these 7 stories",
+  "blurb": "",
+  "contenturl": "https://www.washingtonpost.com/the-seven/2021/09/10/amandas-monday-briefing-catch-up-minutes-with-these-7-stories/",
+  "shareurl": "https://www.washingtonpost.com/the-seven/2021/09/10/amandas-monday-briefing-catch-up-minutes-with-these-7-stories/",
+  "source": "The Washington Post",
+  "section": "Topics",
+  "sourcesection": "topics",
+  "sourcesubsection": "topics - the-seven",
+  "sourcecategory": "Topics",
+  "lmt": 1633634365361,
+  "published": 1633634365361,
+  "first_published": 1631286469259,
+  "socialImage": "https://arc-anglerfish-washpost-sandbox-sandbox-washpost.s3.amazonaws.com/public/5NQHD4ACP4I6ZB7APYD33HHCOA.jpg",
+  "sourceslug": "abozz-test-the-7-brief-sandbox",
+  "commercialnode": "/topics/the-seven",
+  "omniture": {
+    "title": "Amanda\u2019s Monday briefing: Catch up in minutes with these 7 stories - The Washington Post",
+    "pageName": "amandas-monday-briefing-catch-up-minutes-with-these-7-stories",
+    "channel": "topics",
+    "contentId": "nullIDZZQLKQEJBLHCI57ZWEKJV63U",
+    "contentType": "blog",
+    "contentSource": "The Washington Post",
+    "contentTopics": "The Seven;Topics",
+    "newsroomDesk": "(not set)",
+    "newsroomSubdesk": "(not set)",
+    "contentAuthor": "amanda \"the bozz\" bozzi",
+    "authorId": "(not set)",
+    "authorType": "",
+    "subSection": "topics - the-seven",
+    "arcId": "IDZZQLKQEJBLHCI57ZWEKJV63U",
+    "trackingTags": "story-has-edit-branch;the template that was used to create this story;audio-article"
+  },
+  "items": [
+    {
+      "content": "The Seven",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "The 7",
+      "style": "briefs"
+    },
+    {
+      "content": "Amanda\u2019s Monday briefing: Catch up in minutes with these 7 stories",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1",
+      "style": "briefs"
+    },
+    {
+      "content": "Inflation. Internet bills. Child tax credits. Britney Spears. Texas Democrats. Voting rights. South Africa.",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "adsUrl": "https://d2i9ke5o9i0vh8.cloudfront.net/washpost-audio-articles/IDZZQLKQEJBLHCI57ZWEKJV63U/20211007-151966.666/current.mp3?awCollectionId=/topics/the-seven&awEpisodeId=IDZZQLKQEJBLHCI57ZWEKJV63U",
+      "rawUrl": "https://audio-articles.sandbox.lionfish.media.aws.wapo.pub/IDZZQLKQEJBLHCI57ZWEKJV63U/20211007-151966.666/current.mp3",
+      "type": "audio",
+      "subtype": "audio-article"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-sandbox-sandbox-washpost.s3.amazonaws.com/public/5NQHD4ACP4I6ZB7APYD33HHCOA.jpg",
+      "imageWidth": 3388,
+      "imageHeight": 2259,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Dog trainer Ali Smith practices a jumping trick with her dog, Indie, a German Shepherd mix, at Baker Park in downtown Frederick, Md., July 30, 2021. As a full-time dog trainer, Smith works with many clients in Frederick County and trains a variety of dogs with different ages and breeds. (Katina Zentz/The Frederick News-Post via AP)",
+      "blurb": "Dog trainer Ali Smith practices a jumping trick with her dog, Indie, a German Shepherd mix, at Baker Park in downtown Frederick, Md., July 30, 2021. As a full-time dog trainer, Smith works with many clients in Frederick County and trains a variety of dogs with different ages and breeds. (Katina Zentz/The Frederick News-Post via AP)"
+    },
+    {
+      "content": "By Amanda \"The Bozz\" Bozzi",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "name": "Amanda \"The Bozz\" Bozzi"
+        }
+      ]
+    },
+    {
+      "content": 1631286468555,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "1",
+      "subhead_level": 2,
+      "style": "briefs"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<b>Yes, your groceries (and most everything else)</b> are more expensive than ever. \ud83d\ude15",
+      "style": "briefs"
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/html",
+      "content": [
+        "<b>Bad news first: Inflation is rising. </b>Prices <a href=\"https://www.washingtonpost.com/business/2021/07/13/inflation-cpi-june-prices-fed/?itid=lk_inline_manual_4\">jumped 5.4 percent</a> in June compared to last year. That\u2019s the largest spike since 2008.",
+        "<b>How big of a deal is this? </b>Experts are divided over whether the increases are here to stay or are a temporary part of recovery from the pandemic."
+      ],
+      "style": "briefs"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "2",
+      "subhead_level": 3,
+      "style": "briefs"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<b>Millions of parents will get $300 from the IRS</b> deposited in their bank accounts starting tomorrow.",
+      "style": "briefs"
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/html",
+      "content": [
+        "<b>What are these payments? </b>The <a href=\"https://www.washingtonpost.com/business/2021/07/13/child-tax-credit-payments-irs/?itid=lk_inline_manual_8\">child tax credit</a> was expanded under the latest coronavirus relief bill and will be distributed monthly for the rest of 2021.",
+        "<b>Who qualifies?</b> Parents of children 5 and under can receive up to $300 a month. Parents of children ages 6-17 can get up to $250 a month.",
+        "<b>How do I sign up?</b> It should be automatic. The IRS is pulling information from tax returns, like it did for the stimulus checks."
+      ],
+      "style": "briefs"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "3",
+      "subhead_level": 3,
+      "style": "briefs"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<b>President Biden called GOP-led voting restrictions</b> the biggest threat to democracy since the Civil War.",
+      "style": "briefs"
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/html",
+      "content": [
+        "<b>His speech yesterday </b>was an attempt to give new momentum to passing a <a href=\"https://www.washingtonpost.com/politics/biden-voting-speech/2021/07/13/afd91f7a-e3d9-11eb-8aa5-5662858b696e_story.html?itid=lk_inline_manual_14\">law that protects voting rights</a>.",
+        "<b>What Biden did not do: </b>Call for the Senate to change the filibuster, which advocates say is the only way to get a bill on voting rights passed."
+      ],
+      "style": "briefs"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "4",
+      "subhead_level": 3,
+      "style": "briefs"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<b>Dozens of Democratic lawmakers from Texas who left the state</b> to block restrictive voting legislation are in D.C. pleading with Congress to act.",
+      "style": "briefs"
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/html",
+      "content": [
+        "<b>This is the second time this year</b> they have <a href=\"https://www.washingtonpost.com/politics/biden-voting-speech/2021/07/13/afd91f7a-e3d9-11eb-8aa5-5662858b696e_story.html?itid=lk_inline_manual_19\">staged a walkout</a> to avoid a vote on this issue.",
+        "<b>GOP lawmakers in the Texas House </b>directed state troopers to arrest the missing lawmakers when they return to Texas, a move backed by the governor."
+      ],
+      "style": "briefs"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "5",
+      "subhead_level": 3,
+      "style": "briefs"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<b>Britney\u2019s back in court today</b> in the high-profile fight over her conservatorship.",
+      "style": "briefs"
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/html",
+      "content": [
+        "<a href=\"https://www.washingtonpost.com/arts-entertainment/2021/07/14/britney-spears-conservatorship-court-case/?itid=lk_inline_manual_23\"><b>What\u2019s happening?</b></a><b> </b>Spears herself is not expected to speak, but there could be updates as to what happens next in her battle for independence.",
+        "<b>What is a conservatorship again?</b> It\u2019s a legal arrangement that places a vulnerable adult under the supervision of another adult. In this case, her father."
+      ],
+      "style": "briefs"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "6",
+      "subhead_level": 3,
+      "style": "briefs"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<b>South Africa is in the grips of the most violent protests</b> since the end of apartheid rule, with 72 people dead so far.",
+      "style": "briefs"
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/html",
+      "content": [
+        "<b>The </b><a href=\"https://www.washingtonpost.com/world/2021/07/13/south-africa-zuma-protests-violence/?itid=lk_inline_manual_27\"><b>protests began</b></a><b> when </b>Jacob Zuma, the country\u2019s first Zulu president, was arrested July 7.",
+        "<b>Lootings have gutted businesses</b> and blockaded major supply routes, leading to fuel and food shortages."
+      ],
+      "style": "briefs"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "7",
+      "subhead_level": 3,
+      "style": "briefs"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<b>Internet providers jack up your bill</b> using their lock on neighborhoods \u2014 and a lack of rules.",
+      "style": "briefs"
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/html",
+      "content": [
+        "<b>Part of the problem is a lack of competition: </b>About <a href=\"https://www.washingtonpost.com/technology/2021/07/13/internet-cable-bills/?itid=lk_inline_manual_32\">200 million people</a> live in places with only one or two options for reliable, fast Internet.",
+        "<b>Biden has asked the FCC</b> to address pricing issues by requiring a \u201cnutrition label\u201d for broadband service, like you get with packaged food."
+      ],
+      "style": "briefs"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i>Want to catch up quickly with \u201cThe 7\u201d every morning? </i><a href=\"https://wapo.onelink.me/e76N/782c66a8\"><i>Download The Post\u2019s app</i></a><i> and turn on alert notifications for The 7.</i>",
+      "style": "briefs"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "blogname": "The Seven",
+  "taxonomy": {
+    "topics": [
+      {
+        "_id": "sandboxwashpos-20000654-democracy-kgsvlgarnv",
+        "name": "iptc-media/politics/political_process/political_system/democracy",
+        "score": 0,
+        "uid": "ammne"
+      },
+      {
+        "_id": "sandboxwashpos-14000000-society-1rbhkzbtja",
+        "name": "iptc-media/society",
+        "score": 0,
+        "uid": "at0af"
+      },
+      {
+        "_id": "sandboxwashpos-11000000-politics-sbmnv1hn48",
+        "name": "iptc-media/politics",
+        "score": 0,
+        "uid": "at7pz"
+      },
+      {
+        "_id": "sandboxwashpos-20000121-law-nlvcjrudt8",
+        "name": "iptc-media/crime_law_and_justice/law",
+        "score": 0,
+        "uid": "a6wxa"
+      },
+      {
+        "_id": "sandboxwashpos-20000574-election-6vk8dg19ah",
+        "name": "iptc-media/politics/election",
+        "score": 0,
+        "uid": "avzf4"
+      },
+      {
+        "_id": "sandboxwashpos-20000593-government-2imuzs49oy",
+        "name": "iptc-media/politics/government",
+        "score": 0,
+        "uid": "aqfhq"
+      },
+      {
+        "_id": "sandboxwashpos-16000000-conflictwara-6ro2s6uez9",
+        "name": "iptc-media/conflict_war_and_peace",
+        "score": 0,
+        "uid": "auuy5"
+      },
+      {
+        "_id": "sandboxwashpos-02000000-crimelawand-28zruwf6bb",
+        "name": "iptc-media/crime_law_and_justice",
+        "score": 0,
+        "uid": "awl9m"
+      },
+      {
+        "_id": "sandboxwashpos-20000653-politicalsyste-xtbjtpx61o",
+        "name": "iptc-media/politics/political_process/political_system",
+        "score": 0,
+        "uid": "a51uc"
+      },
+      {
+        "_id": "sandboxwashpos-20000586-voting-d92v3j4efj",
+        "name": "iptc-media/politics/election/voting",
+        "score": 0,
+        "uid": "azwjc"
+      },
+      {
+        "_id": "sandboxwashpos-20000649-politicalproce-nn6vljc82c",
+        "name": "iptc-media/politics/political_process",
+        "score": 0,
+        "uid": "a6un2"
+      }
+    ],
+    "auxiliaries": [
+      {
+        "_id": "sandboxwashpos-20000654-democracy-kgsvlgarnv",
+        "name": "iptc-media/politics/political_process/political_system/democracy",
+        "uid": "ammne"
+      },
+      {
+        "_id": "sandboxwashpos-14000000-society-1rbhkzbtja",
+        "name": "iptc-media/society",
+        "uid": "at0af"
+      },
+      {
+        "_id": "sandboxwashpos-11000000-politics-sbmnv1hn48",
+        "name": "iptc-media/politics",
+        "uid": "at7pz"
+      },
+      {
+        "_id": "sandboxwashpos-20000121-law-nlvcjrudt8",
+        "name": "iptc-media/crime_law_and_justice/law",
+        "uid": "a6wxa"
+      },
+      {
+        "_id": "sandboxwashpos-20000574-election-6vk8dg19ah",
+        "name": "iptc-media/politics/election",
+        "uid": "avzf4"
+      },
+      {
+        "_id": "sandboxwashpos-20000593-government-2imuzs49oy",
+        "name": "iptc-media/politics/government",
+        "uid": "aqfhq"
+      },
+      {
+        "_id": "sandboxwashpos-16000000-conflictwara-6ro2s6uez9",
+        "name": "iptc-media/conflict_war_and_peace",
+        "uid": "auuy5"
+      },
+      {
+        "_id": "sandboxwashpos-02000000-crimelawand-28zruwf6bb",
+        "name": "iptc-media/crime_law_and_justice",
+        "uid": "awl9m"
+      },
+      {
+        "_id": "sandboxwashpos-20000653-politicalsyste-xtbjtpx61o",
+        "name": "iptc-media/politics/political_process/political_system",
+        "uid": "a51uc"
+      },
+      {
+        "_id": "sandboxwashpos-20000586-voting-d92v3j4efj",
+        "name": "iptc-media/politics/election/voting",
+        "uid": "azwjc"
+      },
+      {
+        "_id": "sandboxwashpos-20000649-politicalproce-nn6vljc82c",
+        "name": "iptc-media/politics/political_process",
+        "uid": "a6un2"
+      }
+    ]
+  },
+  "content_restriction_code": "default",
+  "audio": {
+    "adsUrl": "https://d2i9ke5o9i0vh8.cloudfront.net/washpost-audio-articles/IDZZQLKQEJBLHCI57ZWEKJV63U/20211007-151966.666/current.mp3?awCollectionId=/topics/the-seven&awEpisodeId=IDZZQLKQEJBLHCI57ZWEKJV63U",
+    "rawUrl": "https://audio-articles.sandbox.lionfish.media.aws.wapo.pub/IDZZQLKQEJBLHCI57ZWEKJV63U/20211007-151966.666/current.mp3"
+  }
+}

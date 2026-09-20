@@ -1,0 +1,3 @@
+[submodule "kmp-classic"]
+	path = kmp-classic
+	url = git@github.com:WashPost/kmp-classic.git

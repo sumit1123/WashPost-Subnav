@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="40dp"
+    android:layout_margin="5dp">
+    <CheckBox
+        android:id="@+id/hide_paywall_toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hide Paywall"/>
+    <CheckBox
+        android:id="@+id/verify_on_each_launch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify Account / IAP"/>
+    <TextView
+        android:id="@+id/free_articles_remaining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:text="Free Articles Remaining"/>
+    <TextView
+        android:id="@+id/metering_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:text="Articles Read / Article Limit"/>
+    <TextView
+        android:id="@+id/sub_verification_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:text="Device Sub Verified"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/six_month_free_trial_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"
+        android:text="Buy M6-R"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Paywall Config"/>
+
+    <Spinner
+        android:id="@+id/blocker_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Pricing Variant"/>
+
+        <Spinner
+            android:id="@+id/pricing_variant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

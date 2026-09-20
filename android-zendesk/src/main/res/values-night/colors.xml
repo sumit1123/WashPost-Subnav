@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="error_text">#F27B81</color>
+    <color name="submit_button_disabled">#333333</color>
+    <color name="submit_button_enabled">#659FFF</color>
+    <color name="submit_text_color">#2A2A2A</color>
+    <color name="attach_button_border">#666666</color>
+    <color name="attach_button_background">#111111</color>
+    <color name="attach_button_text">#F0F0F0</color>
+    <color name="submitted_success">#F0F0F0</color>
+    <color name="info_text">#AAAAAA</color>
+    <color name="header_border">#333333</color>
+    <color name="header_background">#000000</color>
+    <color name="area_item_color">#F0F0F0</color>
+    <color name="another_request_text">#E9E9E9</color>
+
+</resources>

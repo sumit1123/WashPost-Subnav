@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="44dp"
+    android:background="@color/onboarding_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:rotation="180"
+        app:srcCompat="@drawable/ic_chevronright16" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/wp_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wp_mark" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/nav_divider"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wp_logo">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/step_count"
+                style="@style/onboarding_step_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/onboarding_large_space"
+                android:text="Step 2 of 3"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/primary_title"
+                style="@style/onboarding_primary_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/onboarding_small_space"
+                android:layout_marginHorizontal="@dimen/onboarding_small_space"
+                android:text="@string/content_packs_main_title"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/step_count" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/secondary_title"
+                style="@style/onboarding_secondary_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/onboarding_medium_space"
+                android:text="@string/content_packs_secondary_title"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/primary_title" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragment_container_view"
+                android:name="com.wapo.flagship.features.settings.SettingsContentPacksFragment"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/onboarding_medium_large_space"
+                android:tag="settings_content_packs_fragment"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/secondary_title" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <View
+        android:id="@+id/nav_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toTopOf="@id/continue_btn"
+        android:layout_marginBottom="@dimen/onboarding_medium_large_space"
+        android:background="@color/settings_preference_divider" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/continue_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_max="312dp"
+        app:layout_constraintBottom_toTopOf="@id/choose_later"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="@dimen/onboarding_medium_space"
+        android:layout_marginHorizontal="@dimen/onboarding_xxlarge_space"
+        android:text="@string/onboarding_continue_btn_text"
+        style="@style/primary_button" />
+
+    <TextView
+        android:id="@+id/choose_later"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="@dimen/onboarding_large_space"
+        android:textColor="@color/choose_later_text"
+        android:textSize="14sp"
+        android:text="@string/onboarding_choose_later_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

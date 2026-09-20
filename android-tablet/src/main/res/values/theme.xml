@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="FontSizeDialog" parent="Base.Theme.AppCompat.Light.Dialog.FixedSize">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="WaPo" parent="BaseWaPo">
+        <item name="colorPrimary">@color/phone_tabs_text_primary</item>
+        <item name="colorPrimaryDark">@color/status_bar_bg</item>
+        <item name="colorControlHighlight">@color/phone_control_highlight</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/status_bar_bg</item>
+    </style>
+
+    <style name="WaPo.NoPreview" parent="WaPo">
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="BaseWaPo" parent="Sections">
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/nav_bar_bg</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/status_bar_bg_main_tabs</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">@bool/window_light_status</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="selection_text_color">@color/text_selection</item>
+        <item name="ic_selection_menu_select_all">@drawable/ic_action_select_all</item>
+        <item name="ic_selection_menu_copy">@drawable/ic_action_copy</item>
+        <item name="ic_selection_menu_share">@drawable/ic_action_share</item>
+        <item name="location_place_icon">@drawable/location_place</item>
+        <item name="navigation_refresh_icon">@drawable/navigation_refresh</item>
+        <item name="content_discard_icon">@drawable/content_discard</item>
+        <item name="main_color">@color/nav_bar_bg</item>
+        <item name="action_bar_background">@color/action_bar_background</item>
+        <item name="left_menu_background">@color/main_menu_background_gray</item>
+        <item name="left_menu_selector">@drawable/menu_list_selector</item>
+        <item name="left_bottom_menu_selector">@drawable/left_bottom_menu_selector</item>
+        // TODO this attribute will disabled in a future sdk version and we will need to properly
+        // edge to edge or add an inset
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+
+        <item name="menu_item_color">@color/menu_item</item>
+        <item name="menu_item_text_color">@color/menu_item_text</item>
+        <item name="menu_tab_background_color">@color/menu_tab_background</item>
+        <item name="menu_ripple_color">@color/menu_ripple_color</item>
+        <item name="menu_header_color">@color/menu_header</item>
+        <item name="section_front_article_selector">@drawable/section_selector</item>
+
+        <item name="top_panel_background">@color/top_panel_background</item>
+        <item name="ic_menu_share">@drawable/share</item>
+        <item name="fave_inactive_icon">@drawable/fave_inactive</item>
+        <item name="fave_active_icon">@drawable/fave_active</item>
+
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="android:windowActionModeOverlay">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+        <!-- WEB SECTION -->
+        <item name="mc_web_section_style">@style/MCWebSection</item>
+        <item name="mc_webViewProgressBar">@style/MCWebViewProgress</item>
+
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="app_bar_day_night_style">@style/BaseWaPo.Phone.Toolbar</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+
+        <item name="colorControlActivated">@color/settings_pref_toggle</item>
+        <item name="colorAccent">@color/settings_pref_toggle</item>
+        <item name="colorSwitchThumbNormal">@color/settings_pref_toggle_inactive</item>
+        <item name="android:colorForeground">@color/settings_pref_toggle_inactive_track</item>
+
+        <!-- Dialog -->
+        <item name="alertDialogTheme">@style/DialogTheme</item>
+        <item name="android:alertDialogTheme">?alertDialogTheme</item>
+        <item name="dialogTheme">?alertDialogTheme</item>
+        <item name="android:dialogTheme">?alertDialogTheme</item>
+        <item name="badgeStyle">@style/NotificationBadgeStyle</item>
+
+        <!-- Shapes -->
+        <item name="shapeAppearanceSmallComponent">@style/DefaultShapeAppearance</item>
+        <item name="shapeAppearanceMediumComponent">@style/DefaultShapeAppearance</item>
+        <item name="shapeAppearanceLargeComponent">@style/DefaultShapeAppearance</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/icons</item>
+    </style>
+
+    <style name="WaPo.Archives" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorAccent">@color/print_edition_calendar_selected_background</item>
+        <item name="android:colorBackground">@color/print_edition_background</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorPrimaryInverse">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="WaPo.NoActionBar" parent="BaseWaPo">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="WaPo.NoActionBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="fontFamily">@font/wp_franklinitcstd_font_family</item>
+    </style>
+
+    <style name="ActionBar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/action_bar_bg</item>
+        <item name="background">@color/action_bar_bg</item>
+    </style>
+
+    <style name="WaPo.ActionBarOverlay" parent="WaPo">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+
+    <style name="WaPo.NoActionBar.PIP">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="WaPo.PdfPreview">
+        <item name="android:listDivider">@null</item>
+    </style>
+
+    <style name="WaPo.Settings">
+        <item name="android:textColorPrimary">@color/settings_text</item>
+        <item name="android:textColorSecondary">@color/settings_text_secondary</item>
+        <item name="android:textColorTertiary">@color/settings_text</item>
+        <item name="colorControlHighlight">@color/settings_selector_bg</item>
+    </style>
+
+    <style name="FloatingWindowNoActionBar" parent="android:Theme.Holo.Light.Dialog.NoActionBar.MinWidth" />
+
+    <style name="DialogActivity" parent="Theme.AppCompat.Light.DialogWhenLarge">
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="PopupMenu" parent="@style/Widget.AppCompat.Light.PopupMenu">
+        <item name="android:popupBackground">@color/action_bar_background</item>
+    </style>
+
+    <style name="BaseWaPo.Phone">
+        <item name="colorPrimary">@color/phone_action_bar_background_color</item>
+        <item name="colorPrimaryDark">@color/phone_action_bar_background_color</item>
+        <item name="colorControlHighlight">@color/phone_control_highlight</item>
+        <item name="menu_ripple_color">@color/black</item>
+        <item name="ic_selection_menu_select_all">@drawable/ic_action_select_all</item>
+        <item name="ic_selection_menu_copy">@drawable/ic_action_copy</item>
+        <item name="ic_selection_menu_share">@drawable/ic_action_share</item>
+        <item name="app_bar_day_night_style">@style/BaseWaPo.Phone.Toolbar</item>
+    </style>
+
+    <style name="BaseWaPo.Phone.Night">
+        <item name="homepage_story_cell_style">@style/Cell.HomepageStory.Night</item>
+        <item name="homepage_story_list_story_style">@style/Cell.HomepageStory.StoryListStory.Night</item>
+        <item name="homepage_story_byline_cell_style">@style/Cell.HomepageStory.Byline.Night</item>
+        <item name="homepage_story_headline_cell_style">@style/Cell.HomepageStory.Headline.Night</item>
+        <item name="homepage_story_media_cell_style">@style/Cell.HomepageStory.Media.Night</item>
+        <item name="homepage_story_label_style">@style/Cell.Label.Night</item>
+        <item name="homepage_story_live_blog_style">@style/Cell.LiveBlog.Night</item>
+        <item name="homepage_story_blurb_cell_style">@style/Cell.HomepageStory.Blurb.Night</item>
+        <item name="homepage_story_related_links_style">@style/Cell.HomepageStory.RelatedLinks.Night</item>
+        <item name="app_bar_day_night_style">@style/BaseWaPo.Phone.Toolbar</item>
+        <item name="homepage_story_compound_label_style">@style/CompoundLabelStyle.Night</item>
+        <item name="homepage_story_live_image_carousel_style">@style/LiveImageCarousel.Night</item>
+        <item name="menu_ripple_color">@color/white</item>
+    </style>
+
+    <style name="BaseWaPo.Phone.Toolbar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:background">@color/surface</item>
+        <item name="app_bar_search_icon">@drawable/search_icon</item>
+        <item name="app_bar_logo">@drawable/twp_logo</item>
+        <item name="app_bar_nav_menu_icon">@drawable/ic_nav_icon</item>
+        <item name="app_bar_nav_arrow_icon">@drawable/ic_back_arrow</item>
+        <item name="app_bar_beta_summary_icon">@drawable/summarize_24px</item>
+        <item name="app_bar_summary_icon">@drawable/summary_icon</item>
+        <item name="app_bar_gift_icon">@drawable/gift_icon</item>
+        <item name="app_bar_audio_icon">@drawable/ic_audio_headphones</item>
+        <item name="app_bar_save_icon">@drawable/ic_article_save</item>
+        <item name="app_bar_share_icon">@drawable/icon_share</item>
+    </style>
+
+    <style name="BaseWaPo.Phone.Toolbar.Articles" parent="BaseWaPo.Phone.Toolbar">
+        <item name="android:background">@color/gray700</item>
+    </style>
+
+    <style name="Toolbar.Tabs" parent="Widget.Design.TabLayout">
+        <item name="tab_view_layout">@layout/toolbar_tab</item>
+        <item name="text_appearance">@style/Toolbar.Tab.TextAppearance</item>
+        <item name="selected_text_appearance">@style/Toolbar.Tab.TextAppearance.Selected</item>
+        <item name="tabIndicatorColor">@color/phone_tabs_accent</item>
+        <item name="android:background">@color/action_bar_bg</item>
+        <item name="android:elevation" tools:targetApi="lollipop">0dp</item>
+        <item name="tabIndicatorAnimationDuration">0</item>
+    </style>
+
+    <style name="Toolbar.Tab" parent="">
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textAppearance">@style/Toolbar.Tab.TextAppearance</item>
+    </style>
+
+    <style name="Toolbar.Tab.TextAppearance">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="android:textColor">@color/phone_tabs_text_secondary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/phone_tabs_text_size</item>
+    </style>
+
+    <style name="Toolbar.Tab.TextAppearance.Selected">
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textColor">@color/phone_tabs_text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/phone_tabs_text_size</item>
+    </style>
+
+    <style name="BaseWaPo.Phone.Toolbar.PdfActivity" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:navigationIcon" tools:targetApi="lollipop">@drawable/ic_back_arrow</item>
+    </style>
+
+    <style name="Cell.HomepageStory.Headline.Night">
+        <item name="normal">@style/homepagestory_headline_style.normal.night</item>
+        <item name="highlight">@style/homepagestory_headline_style.highlight.night</item>
+        <item name="thin">@style/homepagestory_headline_style.thin.night</item>
+        <item name="regular">@style/homepagestory_headline_style.regular.night</item>
+        <item name="bold">@style/homepagestory_headline_style.bold.night</item>
+        <item name="italic">@style/homepagestory_headline_style.italic.night</item>
+        <item name="light">@style/homepagestory_headline_style.light.night</item>
+    </style>
+
+    <style name="Cell.LiveBlog.Night">
+        <item name="headline_normal_font_style">@style/homepagestory_headline_style.normal.night</item>
+        <item name="headline_highlight_font_style">@style/homepagestory_headline_style.highlight.night</item>
+        <item name="headline_thin_font_style">@style/homepagestory_headline_style.thin.night</item>
+    </style>
+
+    <style name="Cell.HomepageStory.Night">
+        <item name="blurb_font_style">@style/homepagestory_blurb_style.night</item>
+    </style>
+
+    <style name="Cell.HomepageStory.StoryListStory.Night">
+        <item name="blurb_font_style">@style/homepagestory_blurb_style.night</item>
+    </style>
+
+    <style name="Cell.HomepageStory.Audio.Night">
+        <item name="audio_player_status_style">@style/audio_cell_style.player_status.night</item>
+        <item name="audio_duration_style">@style/audio_cell_style.night</item>
+    </style>
+
+    <style name="Cell.HomepageStory.Byline.Night">
+        <item name="byline_style">@style/homepagestory_byline_style.night</item>
+        <item name="section_style">@style/homepagestory_byline_style.section.night</item>
+        <item name="timestamp_style">@style/homepagestory_byline_style.timestamp.night</item>
+    </style>
+
+    <style name="homepagestory_headline_style.normal.night">
+        <item name="android:textColor">@color/cell_homepagestory_headline_night</item>
+    </style>
+
+    <style name="homepagestory_headline_style.highlight.night">
+        <item name="android:textColor">@color/cell_homepagestory_headline_night</item>
+    </style>
+
+    <style name="homepagestory_headline_style.thin.night">
+        <item name="android:textColor">@color/cell_homepagestory_headline_night</item>
+    </style>
+
+    <style name="homepagestory_headline_style.regular.night" >
+        <item name="android:textColor">@color/cell_homepagestory_headline_night</item>
+    </style>
+
+    <style name="homepagestory_headline_style.bold.night" >
+        <item name="android:textColor">@color/cell_homepagestory_headline_night</item>
+    </style>
+
+    <style name="homepagestory_headline_style.italic.night" >
+        <item name="android:textColor">@color/cell_homepagestory_headline_night</item>
+    </style>
+
+    <style name="homepagestory_headline_style.light.night" >
+        <item name="android:textColor">@color/cell_homepagestory_headline_night</item>
+    </style>
+
+    <style name="Cell.HomepageStory.Media.Night">
+        <item name="caption_style">@style/homepagestory_media_caption.night</item>
+    </style>
+
+    <style name="homepagestory_media_caption.night">
+        <item name="android:textColor">@color/cell_homepagestory_caption_night</item>
+    </style>
+
+    <style name="Cell.Label.Night">
+        <item name="font_style_normal">@style/homepagestory_label_style.night</item>
+        <item name="font_style_small">@style/homepagestory_label_style.small.night</item>
+        <item name="font_style_light">@style/homepagestory_label_style_light.night</item>
+        <item name="font_style_light_small">@style/homepagestory_label_style_light.small.night</item>
+        <item name="font_secondary_style_normal">@style/homepagestory_label_secondary_style.night</item>
+        <item name="font_secondary_style_small">@style/homepagestory_label_secondary_style.small.night</item>
+        <item name="font_secondary_style_light">@style/homepagestory_label_secondary_style_light.night</item>
+        <item name="font_secondary_style_light_small">@style/homepagestory_label_secondary_style_light.small.night</item>
+    </style>
+
+    <style name="homepagestory_label_style.night">
+        <item name="android:textColor">@color/cell_homepagestory_label_night</item>
+    </style>
+
+    <style name="homepagestory_label_style_light.night">
+        <item name="android:textColor">@color/cell_homepagestory_label_night</item>
+    </style>
+
+    <style name="homepagestory_label_style_light.small.night">
+        <item name="android:textColor">@color/cell_homepagestory_label_night</item>
+    </style>
+
+    <style name="homepagestory_label_style.small.night">
+        <item name="android:textColor">@color/cell_homepagestory_label_night</item>
+    </style>
+
+    <style name="homepagestory_label_secondary_style.night">
+        <item name="android:textColor">@color/cell_homepagestory_label_secondary_night</item>
+    </style>
+
+    <style name="homepagestory_label_secondary_style.small.night">
+        <item name="android:textColor">@color/cell_homepagestory_label_secondary_night</item>
+    </style>
+
+    <style name="homepagestory_label_secondary_style_light.night">
+        <item name="android:textColor">@color/cell_homepagestory_label_secondary_night</item>
+    </style>
+
+    <style name="homepagestory_label_secondary_style_light.small.night">
+        <item name="android:textColor">@color/cell_homepagestory_label_secondary_night</item>
+    </style>
+
+    <style name="ArticlesPagerViewStyle.Classic">
+    </style>
+
+    <style name="ArticlesActivityTheme" parent="WaPo">
+        <item name="article_main_text_color">@color/articles_main_text_color</item>
+        <item name="article_main_headline_text_color">@color/articles_headline_text_color</item>
+        <item name="article_error_image">@drawable/curtain_image</item>
+        <item name="article_rating_bar_style">@style/ArticleRatingBar</item>
+        <item name="article_rating_bar_cell_style">@style/ArticleRatingBarCell</item>
+        <item name="article_rating_bar_title_style">@style/ArticleRatingBarTitle</item>
+        <item name="article_rating_bar_text_style">@style/ArticleRatingBarText</item>
+        <item name="article_link_box_main_text_color">@color/articles_link_box_main_text_color</item>
+        <item name="article_link_box_dateline_text_color">@color/articles_link_box_dateline_text_color</item>
+        <item name="article_link_box_gradient_start_color">@color/articles_link_box_gradient_start_color</item>
+        <item name="article_link_box_gradient_end_color">@color/articles_link_box_gradient_end_color</item>
+        <item name="article_element_group_style">@style/ArticleElementGroupCell</item>
+        <item name="article_legacy_text_link_style">@style/ArticleLegacyTextLink</item>
+        <item name="article_divider_style">@style/ArticleDivider</item>
+        <item name="article_divider_color">@color/divider_color</item>
+        <item name="selection_text_color">@color/text_selection</item>
+        <item name="ic_selection_menu_select_all">@drawable/ic_action_select_all</item>
+        <item name="ic_selection_menu_copy">@drawable/ic_action_copy</item>
+        <item name="ic_selection_menu_share">@drawable/ic_action_share</item>
+        <item name="article_pager_view_style">@style/ArticlesPagerViewStyle.Classic</item>
+        <item name="android:dialogTheme">@style/ArticlesActivityTheme.FontSizeDialog</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="article_table_cell_style_normal">@style/ArticleTableNormalTextStyle</item>
+        <item name="article_table_cell_style_row_header">@style/ArticleTableNormalTextStyle</item>
+        <item name="article_table_cell_style_column_header">@style/ArticleTableNormalTextStyle</item>
+    </style>
+
+    <style name="ArticlesActivityTheme.FontSizeDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="multiplier">@style/MultiplierStyle</item>
+    </style>
+
+    <style name="ArticlesActivityTheme.Night">
+        <item name="article_main_text_color">@color/articles_main_text_color_night_mode</item>
+        <item name="article_main_headline_text_color">@color/articles_main_text_color_night_mode</item>
+        <item name="article_pager_view_style">@style/ArticlesPagerViewStyle.Classic.Night</item>
+        <item name="article_link_box_main_text_color">@color/articles_link_box_main_text_color_night_mode</item>
+        <item name="article_link_box_dateline_text_color">@color/articles_link_box_dateline_text_color_night_mode</item>
+        <item name="article_link_box_gradient_start_color">@color/articles_link_box_gradient_start_color_night</item>
+        <item name="article_link_box_gradient_end_color">@color/articles_link_box_gradient_end_color_night</item>
+        <item name="app_bar_day_night_style">@style/BaseWaPo.Phone.Toolbar</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="ArticlesPagerViewStyle.Classic.Night">
+        <item name="article_items_style">@style/ArticleItemsStyle.Night</item>
+    </style>
+
+    <style name="ArticleItemsStyle.Night">
+        <item name="article_pull_quote_caption_style">@style/ArticleText.PullQuote.Caption.Night</item>
+        <item name="article_byline_style">@style/ArticleText.Byline.Night</item>
+        <item name="article_byline_live_update_style">@style/ArticleText.Byline.LiveUpdate.Night</item>
+        <item name="article_correction_title_style">@style/ArticleText.Correction.Title.Night</item>
+        <item name="article_correction_body_style">@style/ArticleText.Correction.Body.Night</item>
+        <item name="article_dateline_live_update_style">@style/ArticleText.Dateline.LiveUpdate.Night</item>
+        <item name="article_story_type_style">@style/ArticleText.Kicker.StoryType.Night</item>
+        <item name="article_deck_style">@style/ArticleText.Deck.Night</item>
+        <item name="article_video_caption_style">@style/ArticleVideoCaption.Night</item>
+        <item name="article_kicker_style">@style/ArticleText.Kicker.Night</item>
+        <item name="article_kicker_style_briefs">@style/ArticleText.Kicker.Briefs.Night</item>
+        <item name="article_divider_style">@style/ArticleDivider.Night</item>
+
+        <item name="article_table_cell_style_normal">@style/ArticleTableNormalTextStyle</item>
+        <item name="article_table_cell_style_row_header">@style/ArticleTableNormalTextStyle</item>
+        <item name="article_table_cell_style_column_header">@style/ArticleTableNormalTextStyle</item>
+    </style>
+
+    <style name="ArticleText.PullQuote.Caption.Night">
+        <item name="android:textColor">@color/articles_main_text_color_night_mode</item>
+    </style>
+
+    <style name="ArticleText.Byline.Night">
+        <item name="android:textColor">@color/articles_main_text_color_night_mode</item>
+    </style>
+
+    <style name="ArticleText.Byline.LiveUpdate.Night">
+        <item name="android:textColor">@color/articles_main_text_color_night_mode</item>
+    </style>
+
+    <style name="ArticleText.Correction.Title.Night">
+        <item name="android:textColor">@color/articles_main_text_color_night_mode</item>
+    </style>
+
+    <style name="ArticleText.Correction.Body.Night">
+        <item name="android:textColor">@color/articles_main_text_color_night_mode</item>
+    </style>
+
+    <style name="ArticleText.Dateline.LiveUpdate.Night">
+        <item name="android:textColor">@color/articles_main_text_color_night_mode</item>
+    </style>
+
+    <style name="ArticleText.Kicker.StoryType.Night">
+        <item name="android:textColor">@color/kicker_story_type_night</item>
+    </style>
+
+    <style name="ArticleText.Deck.Night">
+        <item name="android:textColor">@color/articles_main_text_color_night_mode</item>
+    </style>
+
+    <style name="ArticleVideoCaption.Night">
+        <item name="android:textColor">@color/articles_main_text_color_night_mode</item>
+    </style>
+
+    <style name="ArticleText.Kicker.Night">
+        <item name="android:textColor">@color/kicker_night</item>
+    </style>
+
+    <style name="ArticleText.Kicker.Briefs.Night">
+        <item name="android:textColor">@color/kicker_night</item>
+    </style>
+
+    <style name="PodcastSectionView" parent="">
+        <item name="audio_duration_style">@style/audio_cell_style</item>
+        <item name="audio_player_status_style">@style/audio_cell_style.player_status</item>
+    </style>
+
+    <style name="ArticleDivider.Night">
+        <item name="article_divider_color">@color/divider_color_night</item>
+    </style>
+
+    <style name="NativeAudioActivityTheme" parent="Theme.AppCompat.Translucent">
+        <item name="android:layout_gravity">bottom|right</item>
+        <item name="android:background">#40000000</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:colorBackground">@color/nav_bar_bg</item>
+        <item name="android:windowBackground">@color/nav_bar_bg</item>
+        <item name="colorAccent">@color/post_blue</item>
+    </style>
+
+    <style name="NotificationBadgeStyle" parent="@style/Widget.MaterialComponents.Badge">
+        <item name="backgroundColor">@color/settings_pref_toggle</item>
+    </style>
+
+    <style name="DefaultShapeAppearance">
+        <item name="cornerSize">0dp</item>
+    </style>
+</resources>

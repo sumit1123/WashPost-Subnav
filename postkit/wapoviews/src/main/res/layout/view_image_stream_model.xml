@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:a="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+       a:layout_width="match_parent" a:layout_height="match_parent">
+
+    <com.wapo.view.ProportionalLayout
+        a:id="@+id/image_frame"
+    a:layout_width="match_parent" a:layout_height="match_parent" app:aspectRatio="1.2"
+    a:layout_marginLeft="10dp" a:layout_marginBottom="5dp">
+
+    <com.wapo.view.ImageViewWithAnimatedIndicator
+        a:id="@+id/image"
+        a:layout_width="match_parent" a:layout_height="wrap_content" />
+
+</com.wapo.view.ProportionalLayout>
+
+    <TextView a:id="@+id/kicker" a:layout_width="wrap_content" a:layout_height="wrap_content"
+        a:visibility="visible" />
+
+    <TextView a:id="@+id/headline"
+              a:layout_width="wrap_content" a:layout_height="wrap_content"
+              a:layout_marginBottom="10dp"
+              a:textSize="22sp"
+              a:textStyle="bold" />
+
+    <TextView a:id="@+id/byline" a:layout_width="wrap_content" a:layout_height="wrap_content"
+        a:visibility="visible" />
+
+    <TextView a:id="@+id/time_and_blurb"
+              a:layout_width="wrap_content" a:layout_height="wrap_content"
+              a:visibility="gone" a:textSize="18sp"/>
+
+    <TextView a:id="@+id/spareTextView"
+              a:layout_width="wrap_content" a:layout_height="wrap_content"
+              a:visibility="gone" />
+
+</merge>

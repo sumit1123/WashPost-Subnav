@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <include
+        android:id="@+id/tv_label"
+        layout="@layout/grid_cell_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:visibility="gone"
+        />
+
+    <RelativeLayout
+        android:id="@+id/container_text_only"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/sf_module_headline"
+        android:textSize="@dimen/sf_module_stream_headline_font_size"
+        android:textStyle="bold"
+        android:visibility="gone"
+        style="@style/live_election_headline" />
+
+    <com.wapo.view.SlidingTabLayout
+        android:id="@+id/sliding_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" />
+
+    <com.wapo.view.SwipeDisabledViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager_live_election_maps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/layout_full_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_full_results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/liveblog_arrow"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="Full National Results"
+            android:textSize="@dimen/sf_module_single_blurb_font_size"
+            android:textColor="@color/articles_text_color"
+            android:textStyle="bold"
+            style="@style/live_election_results" />
+    </FrameLayout>
+
+    <com.washingtonpost.android.androidlive.countdowntimer.view.CountDownTimerTextView
+        android:id="@+id/tv_count_down_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:visibility="gone"
+        android:textSize="@dimen/sf_module_single_blurb_font_size"
+        android:textColor="@color/articles_text_color"
+        style="@style/live_election_countdown" />
+
+    <!-- Will be used for showing last modified or for some other message -->
+    <TextView
+        android:id="@+id/tv_common"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/articles_text_color"
+        android:textSize="@dimen/sf_module_single_blurb_font_size"
+        android:visibility="gone"
+        style="@style/live_election_common" />
+</LinearLayout>

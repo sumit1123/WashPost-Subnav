@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cell"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="12dp"
+    android:layout_marginVertical="5dp"
+    style="@style/custom_nav_cell">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="12dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/custom_nav_lock_icon"
+        android:contentDescription="@string/add_remove_topic"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/display_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        style="@style/custom_nav_cell_text"
+        android:textColor="@color/primary_menu_text"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <ImageView
+        android:id="@+id/drag_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/custom_nav_dehaze_icon"
+        android:contentDescription="@string/drag_to_reorder_topic"
+        android:visibility="gone" />
+
+</LinearLayout>

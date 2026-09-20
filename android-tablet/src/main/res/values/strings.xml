@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Washington Post</string>
+    <string name="app_name_full">The Washington Post Classic (Android)</string>
+    <string name="accountLabel">Washington Post Subscription Account.</string>
+    <string name="generalSettings">General Settings</string>
+    <string name="accountSettings">Account Settings</string>
+    <string name="accountSettingsSummary">Modify Login &amp; Password</string>
+    <string name="loginLabel">Login</string>
+    <string name="passwordLabel">Password</string>
+    <string name="hourly">HOURLY FORECAST</string>
+    <string name="five_day">5-DAY FORECAST</string>
+    <string name="menu_loading">Loading…</string>
+    <string name="menu_loading_failed">Loading Failed</string>
+    <string name="feature_is_unavailable_msg">This feature is not available right now. Please try again later.</string>
+    <string name="feature_is_unavailable_no_connection_msg">This feature is not available without a connection. Please try again later.</string>
+    <string name="s_ink">Ink</string>
+    <string name="s_rect">Rect</string>
+    <string name="s_remove">Remove</string>
+    <string name="s_save">Save</string>
+    <string name="s_end">End</string>
+    <string name="s_prev">&lt;</string>
+    <string name="s_next">></string>
+    <string name="s_find">the</string>
+    <string name="s_act">Do</string>
+    <string name="s_saveas">Save as</string>
+
+    <color name="clr_back">#FFCCCC80</color>
+
+    <string name="s_edit">Edit</string>
+    <string name="downloading">Downloading…</string>
+    <string name="error">Error</string>
+    <string name="retry">Try Again</string>
+    <string name="delete_archive_msg_template">Delete selected edition?</string>
+    <string name="reload">Reload</string>
+    <string name="download_canceled_msg">Download has been canceled.</string>
+    <string name="archive_has_been_deleted_msg">This archive has been deleted.</string>
+    <string name="save_gallery_images">Save gallery images</string>
+    <string name="toggle_thumbnails">Toggle thumbnails</string>
+    <string name="toggle_slideshow">Start/pause a slideshow</string>
+    <string name="new_printed_edition_download_request">A new issue is available. Do you want to
+        download it?</string>
+    <string name="update_is_available_title">New issue available</string>
+    <string name="archive_download_notification_title_template">WP %1$s Section for %2$s</string>
+    <string name="archive_download_notification_descriptor">A Washington Post section for the date.</string>
+    <string name="download">Download</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="refresh_page">Refresh page</string>
+    <string name="search_hint">Search or ask a question</string>
+    <string name="voice_search">Voice search</string>
+    <string name="recipe_search_hint">What\'s cooking today?</string>
+    <string name="election_search_hint">Search candidates, races, and places</string>
+    <string name="phone_search_hint">Search</string>
+    <string name="manage_print_edition_title">Manage Print Edition Download</string>
+    <string name="manage_print_edition_message">Do you want Newsstand to deliver the print edition
+        to your app every
+        night (takes more storage space)?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="clear_data_confirmation">Do you want to delete all cached data?</string>
+    <string name="wp_button_desc">Return to the main window</string>
+    <string name="larger_font_button">Make font larger</string>
+    <string name="smaller_font_button">Make font smaller</string>
+    <string name="menu_settings_font_size">Font Size</string>
+    <string name="menu_settings_print_edition_download">Print Edition Download</string>
+    <string name="build_version">${wapo.build.version}</string>
+    <string name="textview_description_clear">Clear the text box</string>
+    <string name="close">Close</string>
+    <string name="cancel_download">Cancel Download</string>
+    <string name="download_archive_template">Downloading %s edition.</string>
+    <string name="archive_downloading_error_msg_template">There was an error downloading %s edition.
+        Would you like to try
+        again?</string>
+    <string name="archive_downloading_canceled_msg_template">Downloading for %s has been canceled.
+        Would you like to
+        reload it?</string>
+    <string name="archive_deleted_msg_template">%s edition has been deleted. Would you like to reload
+        it?</string>
+    <string name="archive_downloading_error_no_connection">Please check your internet connection</string>
+    <string name="archive_open_button">Open</string>
+    <string name="archive_download_button">Download</string>
+    <string name="archive_remove_button">Remove</string>
+    <string name="archive_cancel_button">Cancel</string>
+    <string name="archive_prompt_title">Enable automatic downloads?</string>
+    <string name="archive_prompt_subtitle">Get the day\'s paper delivered to your device\nevery morning, automatically. (4:30 AM EST)\nAutomatic downloads are Wifi only by default.</string>
+    <string name="archive_prompt_confirm">Yes</string>
+    <string name="archive_prompt_cancel">No, thanks</string>
+    <string name="archive_push_prompt_title">Sign up for notifications?</string>
+    <string name="archive_push_prompt_subtitle">Get a notification previewing the top stories in each day\'s paper.</string>
+    <string name="archive_push_prompt_subtitle_tablet">Get a notification previewing the\ntop stories in each day\'s paper.</string>
+    <string name="archive_not_found">No Edition Found</string>
+    <string name="the_washington_post">The Washington Post</string>
+    <string name="today_paper">Today\'s Paper</string>
+    <string name="editionsFrontPageDescription">The front page for the selected date.</string>
+    <string name="error_opening_content">Unable to load content</string>
+
+    <!-- ACCESSIBILITY -->
+    <string name="splash_screen">The washington post is loading</string>
+    <string name="main_page">Main page</string>
+    <string name="article_page">Article page</string>
+    <string name="search_page">Search results</string>
+    <string name="main_menu">Main menu</string>
+    <string name="comics_page">Comics page</string>
+    <string name="transportation_page">Transportation page</string>
+    <string name="back_to_main">Go back</string>
+    <string name="favorite_checkbox">Favorite</string>
+    <string name="add_favorite">Tap checkbox to add to favorites</string>
+    <string name="remove_favorite">Tap checkbox to remove from favorites</string>
+    <string name="was_added_to_favorite">Added to favorite</string>
+    <string name="has_popup">Has popup menu</string>
+    <string name="page_next">Next article</string>
+    <string name="page_prev">Previous article</string>
+    <string name="marked_as_favorite_true">Marked as favorite</string>
+    <string name="marked_as_favorite_false">Not marked as favorite</string>
+    <string name="search_current_location">Search by current location</string>
+    <string name="save_current_location_desc">Save current location</string>
+    <string name="save_location">Save location</string>
+    <string name="location_info_is_not_available_yet_msg">A location information yet is not available. Please try again
+        later.</string>
+    <string name="favorite_help_message">To add a story to Favorites, tap the star icon.</string>
+    <string name="comics_overlay_hint">Swipe up or down to see a different comic.</string>
+    <string name="post_classic_overlay_hint">Tap an article to read the full story.\nSwipe left or right to view more pages.</string>
+    <string name="article_overlay_hint">Scroll for more</string>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <string name="open_archive_error">Error opening issue</string>
+    <string name="archives_button">Archive</string>
+    <string name="home">Home</string>
+    <string name="section_menu">Section menu</string>
+
+    <!-- PAYWALL -->
+    <string name="pw_signin_desc1">pw_signin_desc1</string>
+    <string name="pw_forgot_password">Forgot your password?</string>
+    <string name="pw_welcome_desc">pw_welcome_desc</string>
+    <string name="pw_sigin">pw_sigin</string>
+    <string name="pw_signin_here">pw_signin_here</string>
+    <string name="pw_print_verification">pw_print_verification</string>
+    <string name="pw_get_free_access">pw_get_free_access</string>
+    <string name="pw_signin_desc2">pw_signin_desc2</string>
+    <string name="pw_confirm_desc1">Enjoy the app</string>
+    <string name="pw_register_desc1">Create a new Washpost sign-in</string>
+    <string name="pw_option_signin">Use my existing Washington Post sign-in</string>
+    <string name="pw_option_register">Create a new Washington Post sign-in</string>
+    <string name="pw_server_error">Our servers are not responding, or some other error has occurred. Please try again later. You can sign in through the settings menu by clicking on "Washington post: Sign in"</string>
+    <string name="pw_digital_verification_success">Enjoy The Washington Post app for Android and your unlimited digital access to The Washington Post!</string>
+    <string name="pw_digital_verification_failure">Our records show that either you don\'t have a current subscription , or your current subscription is Digital (Website Only). For full access to all our apps, you will need to upgrade your subscription to Digital Premium.</string>
+    <string name="pw_digital_web_only_verification">Our records show that your current subscription is Digital (Website Only). For full access to all our apps, you will need to upgrade your subscription to Digital Premium.</string>
+    <string name="pw_digital_no_sub_verification">Our records show that you don\'t have a current subscription. For full access to all our apps, you will need to purchase a Digital Premium subscription.</string>
+    <string name="pw_need_help">Need more help?</string>
+    <string name="pw_customer_service">Call Customer Service at 202.334.6100</string>
+    <string name="pw_forgot_password_desc1">Please enter the e-mail address associated with your account.</string>
+    <string name="pw_forgot_password_desc2">You may also call Subscriber Services at 202.334.6100.</string>
+    <string name="pw_email_confirmation_desc1">We sent an e-mail with instructions on how to retrieve your password.</string>
+    <string name="pw_email_confirmation_desc2">Once you have a new password, please come back to the app and try again.</string>
+    <string name="pw_are_you_sure">ARE YOU SURE?</string>
+    <string name="pw_you_sure1">You\'ve already read your free articles this month. By closing this window, you\'ll be redirected to the section front and you\'ll have to wait until next month to read more.</string>
+    <string name="pw_you_sure2">Why wait? Subscribe today and get unlimited digital access to The Washington Post.</string>
+    <string name="pw_you_sure_purchased">We recommend signing in so that our website can recognize your Digital Premium subscription to Washington Post. It just takes a moment!</string>
+    <string name="pw_print_title">Home delivery subscribers: Get free access</string>
+    <string name="pw_digital_title">Digital subscribers: Sign in</string>
+    <string name="pw_continue_trial_title">CONTINUE MY FREE TRIAL</string>
+    <string name="pw_buy_now_title">BUY NOW WITH GOOGLE PLAY</string>
+    <string name="pw_monthly_price_title">then just $14.99/month</string>
+    <string name="pw_free_month_title">First month is free</string>
+    <string name="pw_unlimited_title">Get unlimited access now.</string>
+    <string name="pw_done_free_articles_title">You\'ve read all the free article.</string>
+    <string name="pw_payment_confirmation_thank_you">THANK YOU!</string>
+    <string name="pw_payment_done">DONE</string>
+    <string name="pw_payment_error_title">ERROR!</string>
+    <string name="pw_back_to_sign_in">BACK TO SIGN IN</string>
+    <string name="pw_sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="pw_skip_for_now">SKIP FOR NOW</string>
+    <string name="pw_billing_not_supported">Latest version of Google Play Store(Market) application is not installed on your device. Please make sure you have all system updates installed.</string>
+    <string name="pw_print_veri_desc1">Your subscription allows you unlimited access to The Washington Post\'s digital content.</string>
+    <string name="pw_print_veri_desc2"></string>
+    <string name="pw_print_prompt">Choose a method</string>
+    <string name="pw_print_veri_fail_desc1">Sorry, we can\'t find your subscription.</string>
+    <string name="pw_print_veri_fail_desc3">Browse our frequently asked questions</string>
+    <string name="pw_expired_cc_desc1">Our records show that your subscription couldn\'t be renewed. Please update your credit card information or call Customer Service. You can buy a subscription from %s by clicking below.</string>
+    <string name="pw_signin_desc">Please sign in so we can recognize your Home Delivery or Digital Premium subscription. Linking these accounts will give you free access to this app and unlimited access to The Washington Post website and mobile and tablet apps.</string>
+    <string name="pw_premium_user_msg">Enjoy The Washington Post for Android and your unlimited digital access to The Washington Post.</string>
+    <string name="pw_error_unknown">Sorry, an error occurred. Please try again!</string>
+    <string name="pw_payment_success">Enjoy The Washington Post for Android!</string>
+    <string name="pw_payment_uprade_success">Thank you. We have upgraded your subscription to Digital Premium. We have also automatically cancelled your Website Only subscription.</string>
+    <string name="pw_billing_not_logged_id">Please log into your %s account to purchase this subscription.</string>
+    <string name="pw_billing_button_login">LOGIN</string>
+
+    <string-array name="pw_print_verify_arrays">
+        <item>Phone number</item>
+        <item>Account number</item>
+    </string-array>
+
+    <string name="pw_tempkOne">hllglOdkgBNTMNLb/</string>
+    <string name="pw_tempkTwo">9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyuSDH5/ewC2pavXtIKRKl2J2ACSdKoBLoK4IhKxMlLjcLGL4</string>
+    <string name="pw_tempkThree">hiO8JQpBjVMyewbnwdSw9UAucDXuy+CAUNleQt3ggsv44vvD/YOVkW3ajD6M/VA30ZG505JGRbKLwt0tI4WIbtYhQII+lJFvHC8vO8eraRBLXHra2CR8BfNbSD</string>
+    <string name="pw_tempkFour">k1Kfzd9Jnbb84V9oTObi4xcH94LmhiPhSqLBXaS2Y4N8gUd2w9GnSUmjIPvXV5+5Wq+Td9OPDRIj0CwYnG4/ZhetgLoEcD</string>
+    <string name="pw_tempkFive">4SjSi3ecqxvvOAlqh6+1SA67dplELbrGTZgop8G9E8uVoo/D1yK/sMZWW1Lfq5d1IlEFznUBGh3+QwIDAQAB</string>
+
+    <!-- /PAYWALL -->
+
+    <string name="title_activity_main_native">Native Sections Front</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_settings_caps">SETTINGS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_search">Search</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="actions_subscriptions">Subscriptions</string>
+    <string name="actions_favorite">Save</string>
+    <string name="actions_contact_us">Contact Us</string>
+    <string name="actions_contact_us_caps">CONTACT US</string>
+    <string name="start_slideshow">Start Slideshow</string>
+    <string name="stop_slideshow">Stop Slideshow</string>
+    <string name="print_edition">Print Edition</string>
+    <string name="comics">Comics</string>
+    <string name="comics_loading">Loading Please wait</string>
+    <string name="archives_description">Scroll through our front pages from the last two weeks. To
+        download an edition, tap it.
+    </string>
+    <string name="archives_description_downloading">Newspaper download in progress.</string>
+    <string name="contact_us_url">https://parature-form.ext.nile.works/</string>
+    <string name="refresh_failed_notfication">We\'re sorry! Our last update failed. Please try again later.</string>
+    <string name="we_couldnt_connect_message">We couldn\'t connect. Please try again when you have a stronger signal.</string>
+
+    <string name="share_base_subject_template">An article to share: %s</string>
+    <string name="share_base_body_template">%1$s\n%2$s</string>
+    <string name="share_base_video_subject_template">A video to share: %s</string>
+    <string name="share_email_subject_template">The Washington Post: %s</string>
+    <string name="share_article_email_body_template">I thought you might like this article from The Washington Post\'s Android tablet app.\n\n%1$s\n\n%2$s</string>
+    <string name="share_gallery_email_body_template">I thought you might like this gallery from The Washington Post\'s Android tablet app.\n\n%1$s\n\n%2$s</string>
+    <string name="share_video_email_body_template">I thought you might like this video from The Washington Post\'s Android tablet app.\n\n%1$s\n\n%2$s</string>
+
+    <string name="configure_widget_title">Configure Widget</string>
+    <string name="configure_widget_failure_on_phone">Please use the Wash Post Small widget instead.  This widget isn\'t supported on this version of Android.</string>
+    <string name="widget_network_connectivity_error">Connection required. Please try again later.</string>
+    <string name="widget_gdpr_error">Please open the app and review our updated Privacy Policy.</string>
+    <string name="screen_type">phone</string>
+    <string name="current_location">CURRENT LOCATION</string>
+    <string name="saved_locations">SAVED LOCATIONS</string>
+    <string name="loading_message">Loading</string>
+    <string name="not_found_message">Not Found</string>
+    <string name="enter_city_hint">Enter City</string>
+    <string name="can_not_determine_location_msg">Unable to determine your current location</string>
+    <string name="sing_in_plus_one">Sign in</string>
+    <string name="loading_location_error_msg">Error loading current location. Try again later.</string>
+    <string name="pref_sub_benefit_summary">Share access, browse our archives, explore discounts and more.</string>
+    <string name="one_day_pass_expiry_message">Valid 24 hours from time of purchase.</string>
+    <string name="twitter">Twitter</string>
+
+    <!-- ACCESSIBILITY -->
+
+    <string name="store_subscription_amazon">Amazon</string>
+    <string name="store_subscription_google">Play Store</string>
+    <string name="title_activity_native_gallery">NativeGalleryActivity</string>
+    <string name="title_activity_native_photo">NativePhotoActivity</string>
+    <string name="gallery_not_loaded">Please try again after loading the gallery</string>
+    <string name="title_activity_simple_video">SimpleVideoActivity</string>
+    <string name="title_activity_you_tube_video">YouTubeVideoActivity</string>
+    <string name="main_menu_sections">Sections</string>
+    <string name="main_menu_columns">Columns</string>
+    <string name="main_menu_comics">Comics</string>
+    <string name="main_menu_print_edition">Print Edition</string>
+    <string name="main_menu_today_paper">Today\'s Paper</string>
+    <string name="main_menu_archives">Archives</string>
+    <string name="main_menu_find_and_save"><![CDATA[Find&Save]]></string>
+    <string name="sync_is_disabled_message">Sync is disabled on your device. Please enable Sync in %s to use this feature.</string>
+    <string name="sync_is_disabled_message_settings">Settings</string>
+    <string name="network_is_disabled_message">Network is disabled on your device. Please enable Network in %s to use this feature.</string>
+    <string name="location_services_are_disabled">Check %s to make sure that Location Based Services are enabled.</string>
+
+
+    <string name="vimeo_url">https://player.vimeo.com/video/%1$s/config</string>
+
+
+    <string name="sf_refresh_menu">Refresh</string>
+    <string name="main_menu_favorites">Favorites</string>
+    <string name="location_is_not_available_msg">Location is not available on this device</string>
+    <string name="no_network_connection_message">No network connection</string>
+    <string name="filter_title_viewwp">WashingtonPost</string>
+    <string name="filter_title_viewwp_ar">WashingtonPost</string>
+    <string name="pref_sync_download_image_bundles">Prefetch images while on WiFi</string>
+    <string name="pref_sync_download_image_bundles_summary" />
+    <string name="pref_background_sync">Download new content in background</string>
+    <string name="pref_background_sync_title">Check for new content every</string>
+    <string name="pref_background_sync_default">14400</string>
+    <string-array name="pref_background_sync_entries">
+        <item>15 minutes</item>
+        <item>1 hour</item>
+        <item>4 hours</item>
+        <item>12 hours</item>
+        <item>24 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_background_sync_values">
+        <item>900</item>
+        <item>3600</item>
+        <item>14400</item>
+        <item>43200</item>
+        <item>86400</item>
+        <item>-1</item>
+    </string-array>
+    <string name="tagline">Democracy Dies in Darkness</string>
+    <string name="pref_ad_choices_info_title">Ad Choices Info</string>
+    <string name="tablet_widget_label">Wash Post</string>
+    <string name="small_widget_label">Wash Post Small</string>
+    <string name="discover_widget_label">Wash Post Discover</string>
+    <string name="problem_loading_widget_msg">Problem loading widget</string>
+    <string name="discover_widget_network_error" translatable="false">Please check your\nconnection to load\nthis widget.</string>
+    <string name="discover_widget_content_error" translatable="false">Unable to load\ncontent.</string>
+    <string name="discover_widget_retry" translatable="false"><u>Retry</u></string>
+    <string name="discover_widget_refresh" translatable="false"><u>Refresh</u></string>
+    <string name="night_mode">Light/Dark mode</string>
+    <string name="enable_night_mode">Enable Dark Mode</string>
+    <string name="night_mode_on">TURN ON</string>
+    <string name="night_mode_off">TURN OFF</string>
+    <string name="night_mode_ask_again">Do not ask about dark mode</string>
+    <string name="open_web_in_app">Open links with in-app browser</string>
+    <string name="wear_set_time">Set time</string>
+    <string name="wear_tooltip_text">Set up News Time Alerts for your Smart Watch!</string>
+
+    <string name="rate_msg_enjoying_text">Enjoying The Washington Post app?</string>
+    <string name="rate_msg_enjoying_yes">Yes!</string>
+    <string name="rate_msg_enjoying_no">Not quite.</string>
+    <string name="rate_msg_feedback_text">Would you mind giving us some feedback?</string>
+    <string name="rate_msg_feedback_yes">Sure.</string>
+    <string name="rate_msg_feedback_no">No, thanks.</string>
+    <string name="rate_msg_rate_text">Would you mind rating us in the app store?</string>
+    <string name="rate_msg_rate_no">No, thanks.</string>
+    <string name="rate_msg_rate_yes">Sure!</string>
+
+    <string name="views">Choose a view</string>
+
+    <string-array name="views_arrays">
+        <item>Vertical</item>
+        <item>Horizontal</item>
+        <item>Curl Effect</item>
+        <item>Single</item>
+        <item>Single Ex</item>
+        <item>Reflow</item>
+        <item>2 pages as 1 in landscape</item>
+    </string-array>
+
+    <string name="print_delete_warning">Saved print editions will be deleted. Editions from the last 14 days can be downloaded in the Print Edition tab.</string>
+    <string name="continue_delete">Continue</string>
+    <string name="set_delivery_options">Set delivery options</string>
+    <string name="select_topics">Select topics</string>
+
+    <string name="article_load_error">Article loading error</string>
+
+    <string name="night_mode_dialog_title_text">Would you like to enable Dark Mode?</string>
+    <string name="night_mode_dialog_message_text">(It can be found in Menu > Settings if you want to turn it on later.)</string>
+    <string name="night_mode_dialog_yes">Yes!</string>
+    <string name="night_mode_dialog_no">Not Now</string>
+    <string name="night_mode_dialog_ask_again">Never ask again</string>
+
+    <string name="rate_app_msg">Enjoying The Washington Post?</string>
+    <string name="rate_app_msg_yes">We\'re glad you\'re enjoying the app! Would you like to rate us in the store?</string>
+    <string name="rate_app_msg_no">We\'re sorry to hear that. Would you like to share feedback so we can improve?</string>
+    <string name="rate_app_dont_show">Don\'t show again</string>
+    <string name="rate_app_ok">Ok</string>
+    <string name="rate_app_rateit">Rate It!</string>
+    <string name="rate_app_yes">Yes</string>
+    <string name="rate_app_no">No</string>
+    <string name="rate_app_ask_me_later">Ask me later</string>
+    <string name="update_app_dialog_message_text">A new version of this app is available. Please download it to continue reading.</string>
+    <string name="update_app_dialog_download">Download</string>
+    <string name="has_wear_app">You are now synced with the Washington Post wear app on your watch!</string>
+    <string name="install_wear_app_message">We noticed you have a watch! Install The Washington Post wear app and read on the go.</string>
+    <string name="install">Install</string>
+
+    <string name="age_restriction_app_dialog_title">Please update your app</string>
+    <string name="age_restriction_app_dialog_message">Install the latest version of The Washington Post app. If that doesn’t work, make sure your device is updated to the latest software version.</string>
+    <string name="age_restriction_app_dialog_update">Update app</string>
+    <string name="age_restriction_app_dialog_learn_more">Learn more</string>
+
+    <string name="age_restriction_restricted_title">Age restricted</string>
+    <string name="age_restriction_restricted_message">Sorry, but you’re not eligible to use this app. Learn more about age requirements in our help center.</string>
+    <string name="age_restriction_restricted_button_text">Learn more</string>
+    <string name="age_restriction_parent_permission_title">Parent permission needed</string>
+    <string name="age_restriction_parent_permission_message">To use this app, you need approval from your parent or adult family member.</string>
+    <string name="age_restriction_parent_permission_button_text">Learn how to request permission</string>
+    <string name="age_restriction_learn_more_link">https://helpcenter.washingtonpost.com/hc/en-us/articles/44219951542299-Age-requirements-in-the-app</string>
+
+    <string name="age_restriction_error_title">We can\'t confirm your eligibility</string>
+    <string name="age_restriction_error_message">We weren\'t able to determine whether you\'re eligible to use this app. This can happen if age information isn\'t available or couldn\'t be verified at this time. Learn more about age requirements in our help center.</string>
+
+    <string name="age_restriction_error_play_store_title">Age Verification Required</string>
+    <string name="age_restriction_error_play_store_message">To continue using this app, your age status needs to be verified. Please visit the Google Play Store to update or confirm your account status.</string>
+    <string name="age_restriction_restricted_visit_playstore_button_text">Open PlayStore</string>
+
+    <string name="pin">PIN</string>
+    <string name="unpin">UNPIN</string>
+
+    <string name="top_stories">Home</string>
+    <string name="sections">Sections</string>
+    <string name="saved">Reading List</string>
+    <string name="alerts">Alerts</string>
+    <string name="discover">Discover</string>
+    <string name="listen_tab">Listen</string>
+    <string name="games_tab">Games</string>
+    <string name="find">Find</string>
+
+    <string name="alert_settings_title">Alert Settings</string>
+    <string name="alert_settings_desc">Toggle the categories you wish to receive.</string>
+    <string name="alert_settings_turn_on"><u>Turn on alerts</u></string>
+    <string name="alert_settings_turn_off"><u>Turn off alerts</u></string>
+    <string name="alert_settings_sign_up">Sign up for additional alerts</string>
+    <string name="alerts_48">Alerts from the last 48 hours</string>
+    <string name="alerts_screen_sub_header" translatable="false">Get push notifications for the news that matters most to you.</string>
+    <string name="edit_your_settings"></string>
+    <string name="unblock_notification"><u>Unblock notifications</u> to receive </string>
+    <string name="save">Save</string>
+    <string name="not_now">Not now</string>
+    <string name="choose_later">Choose later</string>
+
+    <string name="recent">Recent</string>
+
+    <string name="homepage_byline">%1$s •  </string>
+    <string name="homepage_byline_now">now</string>
+
+    <string name="top_stories_string">Top Stories</string>
+    <string name="top_stories_pb_name">mobile-homepage</string>
+    <string-array name="top_stories_ids">
+        <item name="top_stories_id1" translatable="false">/classic-apps/tablet-top-stories</item>
+        <item name="top_stories_id2" translatable="false">/classic-apps/classic-app-top-stories</item>
+    </string-array>
+    <string name="worldviews_string">WorldViews</string>
+    <string name="innovations_string">Innovations</string>
+    <string name="insight_string">In Sight</string>
+
+    <string name="alert_settings">Settings</string>
+    <string name="alert_network_problems">You’re offline. This page may be outdated. Please check your connection to update this page.</string>
+    <string name="alert_disabled_warning">Please enable Breaking News to receive other topics.</string>
+
+    <string name="paywall_dialog_login">Login</string>
+    <string name="paywall_dialog_sign_up">SIGN ME UP</string>
+    <string name="paywall_dialog_title_message">There\'s more where that came from. Subscribe for only $14.99 a month</string>
+    <string name="paywall_dialog_caption_message">Your subscription unlocks all Washington Post apps, including the Print Edition, as well as unlimited access to washingtonpost.com</string>
+    <string name="paywall_dialog_deck_message">By tapping below and subscribing to The Washington Post, you agree to our Terms of Service and Privacy Policy.</string>
+
+    <string name="native_paywall_heading">We\'re glad you\'re enjoying\n The Washington Post.</string>
+    <string name="native_paywall_message">Get access to every story in our apps and on the web when you subscribe.</string>
+    <string name="offer1Label">CORE</string>
+    <string name="offer1Price">$9.99/month</string>
+    <string name="offer1Summary">Unlimited web and app access.</string>
+    <string name="offer1ButtonText">Start one month free trial</string>
+    <string name="offer1SKU">wp.classic.basic</string><!-- Monthly basic SKU -->
+    <string name="offer2SKU">monthly_all_access</string><!-- Monthly Premium SKU -->
+    <string name="annualBasicSKU">wp.classic.basic.annual</string><!-- Annual basic SKU -->
+    <string name="annualPremiumSKU">wp.classic.premium.annual</string><!-- Annual Premium SKU -->
+    <string name="annualBasicIntroOffer">Get 1 year for $39.99</string>
+    <string name="annualBasicRegularOffer">then $99.99/year</string>
+    <string name="annualPremiumIntroOffer">Get 1 year for $59.99</string>
+    <string name="annualPremiumRegularOffer">then $149.99/year</string>
+    <string name="native_paywall_fine_print">By subscribing to The Washington Post, you agree to our</string>
+    <string name="terms_of_service_text"><u>Terms of Service</u></string>
+    <string name="privacy_policy_text"><u>Privacy Policy</u></string>
+    <string name="offer2Label">PREMIUM</string>
+    <string name="offer2Price">$14.99/month</string>
+    <string name="offer2Summary">Unlimited web and app access, <b>plus a bonus subscription.</b></string>
+    <string name="offer2ButtonText">Start one month free trial</string>
+    <string name="native_paywall_sign_in">Subscriber sign in</string>
+    <string name="native_paywall_image_content">image of capitol</string>
+    <string name="sectionsBarConfigRemoteLocation">https://s3.amazonaws.com/arc-native-apps/sitemap/v1/prod/wapo/ClassicAppBar.json</string>
+    <string name="native_paywall_need_a_subscription">Need a subscription? Pick a plan.</string>
+    <string name="native_paywall_reader_favorite">Reader Favorite</string>
+
+    <string name="wear_welcome_message">Welcome to our Mobile app!\n\n</string>
+    <string name="missing_wear_app">You are missing the Wear app on all your Wear Devices, please click on the button below to install it on those device(s).\n</string>
+    <string name="missing_wear_device">You have no Wear devices linked to your phone at this time.\n</string>
+    <string name="wear_installed_some">Wear app installed on some your device(s) (%s)</string>
+    <string name="wear_installed_all">Wear app installed on all your devices (%s)!</string>
+    <string name="wp_domain">washingtonpost.com</string>
+    <string name="wp_intelligence">wpintelligence</string>
+    <string name="wp_domain_short">wapo.st</string>
+    <string name="wp_onelink_domain">wapo.onelink.me</string>
+    <string name="shortcut_politics">Politics</string>
+    <string name="shortcut_alerts">Alerts</string>
+    <string name="shortcut_disabled_message">Disabled</string>
+    <string name="support_id">Support ID</string>
+
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_in_or_create_account">Sign In or Create Account</string>
+    <string name="sign_in_or_create_account_underlined"><u>Sign in or create account</u></string>
+
+
+    <!--gdpr override-->
+    <string name="privacy_policy_wall_header">Privacy Notice</string>
+    <string name="privacy_policy_wall_switch">I Agree</string>
+    <string name="ad_choices_url">https://www.washingtonpost.com/how-can-i-opt-out-of-online-advertising-cookies/2011/11/18/gIQABECbiN_story.html</string>
+    <string name="privacy_policy_wall_description">The new European data protection law requires us
+        to inform you of the following before you use our website:</string>
+    <string name="privacy_policy_wall_content">The Washington Post and our partners use technologies
+        such as cookies to collect information from your browser to deliver relevant advertising on
+        our site, in emails and across the internet, personalize content and perform site analytics.
+        Please visit our Privacy Policy for more information about our use of data and your rights.
+    </string>
+
+
+    <string name="notice_of_collection_url" translatable="false">https://www.washingtonpost.com/privacy-policy/2011/11/18/gIQASIiaiN_story.html#CALIFORNIA</string>
+
+    <string name="tab_top_stories">top stories</string>
+    <string name="tab_listen">listen</string>
+    <string name="tab_games">games</string>
+    <string name="tab_my_post">my post</string>
+    <string name="tab_print_edition">print</string>
+    <string name="tab_sections">sections</string>
+    <string name="tab_discover">discover</string>
+    <string name="tab_alerts">alerts</string>
+    <string name="tab_sections_menu">section_list</string>
+    <string name="tab_find">find</string>
+    <string name="feature_not_supported">Feature not supported</string>
+    <string name="article_action_save">Save story</string>
+    <string name="article_action_comments">Comments</string>
+    <string name="article_action_share">Share story</string>
+    <string name="article_action_audio">Audio</string>
+    <string name="article_action_beta_summary">Article Beta Summary</string>
+    <string name="article_action_summary">Article Summary</string>
+    <string name="article_action_comment">Comment</string>
+    <string name="article_action_gift">Gift Article</string>
+    <string name="discover_display_name">Discover</string>
+    <string name="for_you_display_name">For You</string>
+
+    <string name="share_dialog_title">Share link</string>
+
+    <string name="appsflyer_sdk_dev_key_encrypted">75BA10AD952900BD652E5C7D769113D47EC50E816CA2DD86CDDC96A4746980FD</string>
+
+    <string name="native_paywall_toolbar_help">Help</string>
+    <string name="playstore_subscriptions_link">http://play.google.com/store/account/subscriptions</string>
+    <string name="playstore_subscriptions_link_error_message">Something went wrong. Please fix billing in your play store account</string>
+
+    <string name="wp_domain_root" translatable="false">washingtonpost.com</string>
+    <string name="wp_domain_www" translatable="false">www.washingtonpost.com</string>
+    <string name="wapo_domain_url" translatable="false">https://www.washingtonpost.com/</string>
+
+    <string name="web_gift_article">Gift Article</string>
+    <string name="web_action_share">Share page</string>
+    <string name="web_action_save">Add to saved list</string>
+    <string name="web_action_remove">Remove from saved list</string>
+    <string name="and">and</string>
+
+    <string name="domain" translatable="false">www.washingtonpost.com</string>
+
+    <!-- Subscriber Alert Dialog Message -->
+    <string name="already_subscribed_title">Already subscribed </string>
+    <string name="already_subscribed_message"><font color='grey'>Thanks for being a subscriber!</font></string>
+    <string name="already_subscribed_cta">OK</string>
+
+    <string name="prompt_not_ok" translatable="false">NO THANKS</string>
+    <string name="prompt_sign_up_for_alerts" translatable="false">SIGN UP FOR ALERTS</string>
+
+    <!-- Custom native sections -->
+    <string name="native_custom_sections_scheme" translatable="false">classicnativeapp://</string>
+    <string name="following">Following</string>
+
+    <string name="tooltip_text_print_edition_tab">Read The Washington Post print edition here.</string>
+    <string name="tooltip_text_print_edition_tab_bold">print edition</string>
+
+    <!-- Share -->
+    <string name="share_email_subject" translatable="false">[The Washington Post] %1$s</string>
+    <string name="share_download_footer_text" translatable="false">Download The Washington Post app (https://wapo.onelink.me/e76N/e2316c13).</string>
+    <string name="share_download_footer_html_text" translatable="false">Download &lt;a href="https://wapo.onelink.me/e76N/e2316c13">The Washington Post app&lt;/a>.</string>
+    <string name="author_follow_my_post">View stories from your followed authors in My Post.</string>
+    <string name="share_personalized_podcast_text">Check out my personalized podcast from The Washington Post.</string>
+
+    <!-- Night-mode options-->
+    <string name="appearance">Appearance</string>
+    <string-array name="night_mode_options">
+        <item>Light Mode</item>
+        <item>Dark Mode</item>
+        <item>System Preference</item>
+    </string-array>
+
+    <string-array name="night_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="content_description_check_on">Check ON</string>
+    <string name="content_description_check_off">Check OFF</string>
+    <string name="content_description_loading">loading</string>
+    <string name="listen_to_article">Listen to article</string>
+    <string name="listen">Listen</string>
+    <string name="now_playing">Now playing</string>
+    <string name="loading_polly">Loading…</string>
+    <string name="narrated_audio">Narrated audio</string>
+    <string name="article_ad_label">Advertisement</string>
+
+    <!-- Deep Link Uris - Main -->
+    <string name="uri_tab_home" translatable="false">washpost:///tab/home</string>
+    <string name="uri_tab_alerts" translatable="false">washpost:///tab/alerts</string>
+    <string name="uri_tab_mypost" translatable="false">washpost:///tab/mypost</string>
+    <string name="uri_tab_print" translatable="false">washpost:///tab/print</string>
+    <!-- Deep Link Uris - Subs -->
+    <string name="uri_subs_signin" translatable="false">washpost:///subs/signin</string>
+    <string name="uri_subs_purchase" translatable="false">washpost:///subs/purchase</string>
+    <!-- Deep Link Uris - Settings -->
+    <string name="uri_settings_main" translatable="false">washpost:///settings/main</string>
+    <string name="uri_settings_alerts" translatable="false">washpost:///settings/alerts?enable={enable}</string>
+    <string name="uri_settings_contact_us" translatable="false">washpost:///settings/contactus</string>
+
+    <string name="uri_default_scheme" translatable="false">washpost://</string>
+
+    <string name="bitly_wapo_url" translatable="false">wapo.st</string>
+
+    <string-array name="blockers">
+        <item>main</item>
+        <item>paused</item>
+        <item>audio_carousel</item>
+        <item>regwall</item>
+        <item>save_content</item>
+        <item>save_recipe</item>
+        <item>reddit</item>
+    </string-array>
+
+    <string-array name="pricing_variants">
+        <item>none</item>
+        <item>control</item>
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+    </string-array>
+
+    <string name="ca_settlement_note">This message is for subscribers whose subscription is set to automatically renew. If you have already ended your subscription in Amazon App Store/Play Store, please disregard this message.</string>
+    <string name="ca_settlement_message">Hi Subscriber,\n\nWe wanted to thank you for being a subscriber. We couldn’t do our important work without your support.\n\nThis is a friendly reminder that your %1$s annual subscription will automatically renew on %2$s.\n\nUnless you cancel before %3$s, you will be billed %4$s plus applicable sales tax for your next year of unlimited access to our trusted and award-winning journalism. You may cancel in your account settings prior to your renewal date to avoid future charges.\n\nYou may contact us with any questions.</string>
+    <string name="cd_expand_live_updates">Expand live updates</string>
+    <string name="not_signed_in">Not signed in</string>
+
+    <!-- Gifting Feature -->
+    <string name="gift_title_text">Gift this article</string>
+    <string name="gift_button_text">Share gift article</string>
+    <plurals name="gift_message_text">
+        <item quantity="one">As a subscriber, you have %d article left to share this month. Anyone can access your gift article  — no subscription required. Learn more</item>
+        <item quantity="other">As a subscriber, you have %d articles left to share this month. Anyone can access your gift article  — no subscription required. Learn more</item>
+    </plurals>
+
+    <plurals name="gift_again_message_text">
+        <item quantity="one">Send this again without using your %d remaining article for the month.</item>
+        <item quantity="other">Send this again without using one of your %d articles for the month.</item>
+    </plurals>
+    <string name="gift_again_title_text">Gift this article again</string>
+    <string name="gift_again_no_gifts_message_text">Send this again without using one of your gift articles. You’re out of articles, but will get more next month. </string>
+    <string name="gift_again_button_text">Gift article again</string>
+
+    <string name="no_gift_title_text">You’ve shared all your gift articles for the month</string>
+    <string name="no_gift_message_text">Check again next month when you get 10 more gift articles to share. Learn more</string>
+
+    <string name="no_sub_title_text">Subscribe to gift articles</string>
+    <string name="no_sub_message_text">With a Washington Post subscription, you can gift 10 articles each month to anyone. Learn more</string>
+    <string name="no_sub_button_text">Choose your plan</string>
+
+    <string name="not_signed_in_title_text">One quick thing…</string>
+    <string name="not_signed_in_message_text">You’re a subscriber, but we don’t have your email. To send gift articles, create an account with your email.</string>
+    <string name="not_signed_in_button_text">Add your email</string>
+
+    <string name="gift_failure_title">Something Went Wrong</string>
+    <string name="gift_failure_message">"Please check your network connection and try again. If the problem persists, please contact us. "</string>
+
+    <string name="learn_more_url" translatable="false">https://helpcenter.washingtonpost.com/hc/en-us/articles/4403823008539-How-to-Use-Gift-Articles</string>
+    <string name="learn_more_link_text">Learn more</string>
+
+    <string name="inline_alert_toggle_turn_on" translatable="false">Turn on</string>
+    <string name="inline_alert_topic" translatable="false">%1$s alerts</string>
+    <string name="inline_alert_7_briefing_off" translatable="false">alerts for The 7 Briefing</string>
+    <string name="inline_alert_7_briefing_on" translatable="false">Alerts for The 7 Briefing</string>
+    <string name="inline_alert_toggle_are_now_on" translatable="false">are now on</string>
+
+    <string name="already_subscriber">Already a Subscriber?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_in_as_someone_else">Sign in as someone else</string>
+    <string name="get_started">Continue</string>
+    <string name="washington_post_logo">Washington Post Logo</string>
+    <string name="welcome">Welcome!</string>
+    <string name="discover_top_stories"><b>Read top stories</b> and use the Discover tab to enjoy the same visual storytelling you’re used to.</string>
+    <string name="customize_alerts"><b>Customize your alerts</b> and stay up to date on the latest news.</string>
+    <string name="check_saved_stories"><b>Check out My Post</b> for saved stories and personalized recommendations.</string>
+    <string name="unification_onboarding_no_sub_no_account_message">With hundreds of stories published daily, explore all that our newsroom has to offer.</string>
+    <string name="unification_onboarding_logged_in_message">You’re now signed in as &lt;br> &lt;b>%s&lt;/b>. </string>
+    <string name="unification_onboarding_subs_without_account_message">Your subscription &lt;b>purchased via Google Play Store (from Washington Post Select App)&lt;/b> is all set up. </string>
+    <string name="saved_stories">Saved Stories</string>
+    <string name="alerts_icon">Alerts Icon</string>
+    <string name="sparkle_icon">Sparkle Icon</string>
+    <string name="welcome_redesigned">Welcome to the redesigned app</string>
+    <string name="unification_onboarding_amazon_subtitle">We\'ve made some updates to bring you an improved app experience, including new features. <u>Learn more.</u></string>
+    <string name="unification_lean_more_link">https://www.washingtonpost.com/information/2022/02/08/letter-editor-an-important-update-our-mobile-apps/</string>
+
+    <!-- Onboarding Text Resources -->
+    <string name="onboarding_main_title" translatable="false">Get the full experience</string>
+    <string name="onboarding_secondary_text" translatable="false">Unlimited access, save stories to read later, and use your subscription on any device.</string>
+    <string name="onboarding_default_cta_text" translatable="false">Subscribe</string>
+    <string name="onboarding_default_secondary_cta_text" translatable="false">Already a subscriber? Sign In</string>
+    <string name="onboarding_maybe_later_text" translatable="false">Maybe Later</string>
+    <string name="onboarding_choose_later_text" translatable="false"><u>Choose later</u></string>
+    <string name="onboarding_continue_btn_text" translatable="false">Continue</string>
+    <string name="onboarding_logo_text" translatable="false">The Washington Post - Democracy Dies in Darkness</string>
+
+    <string name="personalize_main_title" translatable="false">Personalize your experience</string>
+    <string name="personalize_secondary_title" translatable="false">Set your preferences to see news that matters most to you.</string>
+
+    <string name="alert_main_title" translatable="false">Choose your alerts</string>
+    <string name="alert_secondary_title" translatable="false">Get alerts on topics you care about.\nUpdate them anytime.</string>
+
+    <string name="content_packs_main_title" translatable="false">Tell us a little bit about your interests</string>
+    <string name="content_packs_secondary_title" translatable="false">We\'ll recommend content we think you\'ll like.</string>
+    <string name="content_packs_select_button_text" translatable="false">Select</string>
+    <string name="content_packs_select_button_selected_text" translatable="false">Selected</string>
+    <string name="content_packs_failure_header" translatable="false">We\'re having trouble loading this</string>
+    <string name="content_packs_failure_msg" translatable="false">Try again later.</string>
+    <string name="content_packs_failure_msg_onboarding" translatable="false">Continue to the next step for now — you\ncan choose interests later in Settings.</string>
+
+    <string name="audio_main_title" translatable="false">Customize your audio experience</string>
+    <string name="audio_secondary_title" translatable="false">We offer a wide variety of audio articles. Get a head start by choosing how you\'d like to listen.</string>
+
+    <string name="audio_error_title" translatable="false">Unable to play sample audio</string>
+    <string name="audio_error_message" translatable="false">Your preferences will still be saved.</string>
+
+    <!-- Ads -->
+    <!-- Defined ids in the Playstore and Amazon flavors. So it should be empty here. -->
+    <string name="gms_ads_application_id" translatable="false"></string>
+    <string name="ads_default_content_url" translatable="false">https://www.washingtonpost.com</string>
+
+    <string name="vertical_videos_go_back" translatable="false">Go back</string>
+    <string name="vertical_videos_related_link" translatable="false">Related article</string>
+    <string name="vertical_video_error_offline" translatable="false">It appears you’re offline and we’re unable to play this video. Please check your connection and try again.</string>
+    <string name="vertical_video_error_other" translatable="false">We’re unable to play this video. Please try again soon.</string>
+    <string name="vertical_videos_end_of_videos" translatable="false">You’ve reached the end of this\nset of videos</string>
+    <string name="vertical_videos_return_to_top_stories" translatable="false">Return to Top Stories</string>
+
+    <string name="ad_attribution" translatable="false">Ad</string>
+    <string name="vertical_video_swipe_up" translatable="false">Swipe up for more Videos</string>
+    <string name="vertical_video_play_next">Play next video</string>
+    <string name="vertical_video_thumbnail" translatable="false">video thumbnail</string>
+    <string name="video_autoplay_unavailable_when_data_saver_enabled" translatable="false">Video autoplay unavailable when Data Saver is enabled</string>
+    <string name="for_you">For you</string>
+
+    <string name="ellipsis_menu_share_text" translatable="false">Share</string>
+    <string name="ellipsis_menu_save_text" translatable="false">Add to saved stories</string>
+    <string name="ellipsis_menu_read_text" translatable="false">Read article</string>
+    <string name="ellipsis_menu_gift_text" translatable="false">Gift Article</string>
+    <string name="ellipsis_menu_add_playlist" translatable="false">Add to playlist</string>
+    <string name="ellipsis_remove_playlist" translatable="false">Remove from playlist</string>
+    <string name="listen_to_podcast" translatable="false">Listen to podcast</string>
+    <string name="search_results_text" translatable="false">results</string>
+    <string name="search_result_text" translatable="false">result</string>
+    <string name="search_see_more" translatable="false">See more</string>
+    <string name="search_see_less" translatable="false">See less</string>
+
+    <string name="article_action_ellipse" translatable="false">Ellipse Menu</string>
+    <string name="added_playlist" translatable="false">Added to audio playlist. <u>View Playlist</u></string>
+
+    <string name="search_error_h2">Try checking your spelling or searching with another term</string>
+    <string name="search_no_matches_h1">Sorry, we couldn\'t find any \n matches for</string>
+    <string name="search_error_h1">Search is unavailable right now.\nPlease try again later.</string>
+    <string name="filter_reset">Reset</string>
+    <string name="filter_title">Filter</string>
+    <string name="search_result_rating">%1$.1f</string>
+
+    <string name="custom_nav_tooltip_bold">NEW!</string>
+    <string name="custom_nav_tooltip_text">NEW! Customize your favorite topics.</string>
+    <string name="article_summary_action_tooltip_bold" translatable="false">NEW!</string>
+    <string name="article_summary_action_tooltip_text" translatable="false">NEW! Catch up quickly with article summaries.</string>
+    <string name="recipes_chip">Recipes</string>
+    <string name="ready_in_chip">Ready in</string>
+    <string name="course_type_chip">Course type</string>
+    <string name="diet_chip">Diet</string>
+    <string name="all_filters">All filters</string>
+    <string name="failed_to_load_element">Failed to load element</string>
+
+    <string name="search_new_location_tooltip">New: Search, Print Edition, and favorite topics are now here</string>
+    <string name="search_new_location_tooltip_bold">New:</string>
+    <string name="ask_screenshot_tooltip_bold">Trying to share?</string>
+    <string name="ask_screenshot_tooltip">Trying to share? Use share chat to send your message securely.</string>
+
+    <!-- Articles -->
+    <string name="article_truncated_label" translatable="false">Show more</string>
+    <string name="articles_expanded_label" translatable="false">Show less</string>
+    <string name="continue_reading" translatable="false">Continue reading</string>
+
+    <!-- Low Data Mode-->
+    <string name="low_data_mode_image_message" translatable="false">Image hidden to save data. Tap to load.</string>
+    <string name="low_data_mode_video_message" translatable="false">Video hidden to save data.</string>
+    <string name="low_data_mode_video_button_label" translatable="false">Play Video %1$s</string>
+    <string name="low_data_mode_twitter_message" translatable="false">Social media post hidden to save data. Tap to load.</string>
+    <string name="low_data_mode_live_image_message" translatable="false">Live Image hidden to save data. Tap to load.</string>
+    <string name="low_data_mode_snackbar_message" translatable="false">We\'ve detected slow internet</string>
+    <string name="low_data_mode_snackbar_turn_on" translatable="false">USE LOW-DATA MODE</string>
+
+    <string name="beta_aggregator_url" translatable="false">""</string>
+    <string name="beta_ask_the_post_ai_url" translatable="false">""</string>
+    <string name="climate_bot_url" translatable="false">https://www.washingtonpost.com/climate-environment/climate-answers/</string>
+    <string name="post_llm_url" translatable="false">""</string>
+    <string name="new_updates">%1$s New Updates</string>
+    <string name="new_update">New Update</string>
+    <string name="push_prompt_title">When news breaks,\nbe the first to get the alert</string>
+    <string name="push_prompt_description">Get notifications for the news that matters most to you.</string>
+    <string name="sign_up_for_alerts">Sign up for alerts</string>
+    <string name="tap_allow_on_the_next_screen">Tap Allow on the next screen</string>
+    <string name="print_edition_path" translatable="false">/todays_paper/updates/</string>
+    <string name="election_2024" translatable="false">Election\n2024</string>
+    <string name="allow_map_on_every_article">Allow MAP wall on every article. Overrides all snooze logic.</string>
+    <string name="override_map_snooze_time_to_30_seconds">Override MAP snooze time to 30 seconds</string>
+    <string name="reset_map_snooze_count">Reset MAP snooze count</string>
+    <string name="give_feedback">Give feedback</string>
+    <string name="why_we_built_this">FAQ</string>
+    <string name="how_it_works_ask_the_post">How it works</string>
+    <string name="share_ask_the_post">Share chat</string>
+    <string name="ask_the_post">Ask The Post</string>
+    <string name="ask_sam_active_in_android_auto">Ask Sam is active in Android Auto</string>
+    <string name="ask_the_post_share_message">This is a copy of someone else\'s conversation. You can pick up where they left off.</string>
+    <string name="ask_the_post_disclaimer">Answers are AI generated from Washington Post reporting. Because AI can make mistakes, verify information by referencing provided sources for each answer.</string>
+    <string name="learn_more_about_ask_the_post">Learn about this feature</string>
+    <string name="atp_article">atp_article</string>
+    <string name="submit_feedback_atp_inline">submit_feedback_atp_inline</string>
+    <string name="seen_feedback_atp_inline">seen_feedback_atp_inline</string>
+    <string name="play_pause">play/pause</string>
+    <string name="decrease_audio_speed">decrease audio speed</string>
+    <string name="increase_audio_speed">increase audio speed</string>
+    <string name="customize_audio">Customize Audio</string>
+
+    <string name="beta_aipod_endpoint">https://beta.washingtonpost.com/aipod/wapo-qa-api/</string>
+    <string name="staging_aipod_endpoint"> https://www-staging.washingtonpost.com/</string>
+    <string name="prod_aipod_endpoint">https://wapo-qa.washingtonpost.com/</string>
+    <string name="faq_ask_the_post_ai_url">https://www.washingtonpost.com/technology/2024/11/07/faq-ask-the-post-ai/</string>
+    <string name="converse">converse</string>
+    <string name="turn_on_anonymous_chat">Turn on anonymous chat</string>
+    <string name="turn_off_anonymous_chat">Turn off anonymous chat</string>
+    <string name="anonymous_mode_off_description">This will start a new chat that will appear in your chat history and will be linked to your account.</string>
+    <string name="anonymous_mode_description">Start a new chat that won\'t appear in your chat history and is not linked to your account. We use these chats in a form not linked to your account to improve our products and services. To ensure the chat content does not identify you, do not input personal data. You will not be able to recover these chats after your session ends.</string>
+    <string name="confirm">Confirm</string>
+    <string name="history">History</string>
+    <string name="shared_links">Shared Links</string>
+    <string name="sources">Sources</string>
+    <string name="delete_chat_title">Delete chat?</string>
+    <string name="delete_current_conversation_description">This removes your current conversation from history and takes you back to a new chat session.</string>
+    <string name="delete_chat_description">Remove this chat from your chat history and from our chat records. You will not be able to recover it.</string>
+    <string name="delete_btn">Delete</string>
+    <string name="delete_share_title">Delete shared link</string>
+    <string name="delete_share_all_title">Delete all shared links</string>
+    <string name="delete_share_label">Are you sure you want to delete shared link?</string>
+    <string name="delete_share_all_label">Are you sure you want to delete all shared links?</string>
+    <string name="private_mode_off_label">Anonymous chat off</string>
+    <string name="private_mode_on_label">Anonymous chat on</string>
+    <string name="error_response">Sorry, we couldn\'t generate an answer. Please try another question.</string>
+    <string name="leaving_anonymous_chat_title">You\'re leaving anonymous chat</string>
+    <string name="leaving_anonymous_chat_description">The chat you selected is part of your saved history. To open it, we\'ll switch you out of anonymous mode and your chat history will be linked to your account.</string>
+    <string name="anonymous_chat_on">Anonymous chat on</string>
+    <string name="anonymous_sign_in">Sign in</string>
+    <string name="shared_links_description">Shared links remain active for 30 days, then expire. Deleting a shared link means no one can access it anymore. If you delete a chat, any shared links associated with it are deleted, too.</string>
+    <string name="shared_no_links_description">You have no shared links.</string>
+    <string name="shared_expired_description">Links expire after 30 days</string>
+    <string name="shared_link_expired_title">This link is no longer available.</string>
+    <string name="shared_link_expired_description">The conversation it referred to has been deleted or is no longer available</string>
+    <string name="share_message_error">Unable to share conversation. Please try again.</string>
+    <string name="share_message_network">There is a network issue. Please try again.</string>
+
+    <!-- For You Widget-->
+    <string name="for_you_widget_listen">Listen to For You Audio</string>
+    <string name="for_you_widget_label">Wash Post For You</string>
+    <string name="for_you_widget_hourly_job">HOURLY</string>
+    <string name="for_you_widget_medium_job">MEDIUM</string>
+    <string name="for_you_widget_force_refresh">FORCE_REFRESH</string>
+    <string name="for_you_widget_empty_state">Visit The Washington Post app for more!</string>
+
+    <!-- Iterable - Push Notifications -->
+    <string name="iterable_notification_channel_name" translatable="false">@string/notification_channel_id</string>
+    <string name="search">Search</string>
+    <string name="media_player">media_player</string>
+    <string name="perso_podcast_ask_the_post">perso_podcast_ask_the_post</string>
+    <string name="sign_in_or_create_account_button">Sign in or Create Account Button</string>
+    <string name="cancel_ad_free_bottom_sheet_title">Switch back to a %s plan with ads</string>
+    <string name="cancel_ad_free_bottom_sheet_body">Your ad-free access will continue through the end of this billing cycle. After that, you’ll return to your %s plan with ads. Ads will appear again across your devices.</string>
+    <string name="cancel_ad_free_bottom_sheet_continue">Continue</string>
+    <string name="cancel_ad_free_bottom_sheet_nevermind">Nevermind, keep Ad-Free</string>
+    <string name="cancel_ad_free_bottom_sheet_instruction">On the next screen, click <b>Subscribe</b> to confirm your change.</string>
+    <string name="manage_subscription_summary">If you cancel, your unlimited access will end on %s.</string>
+
+    <!-- Comments -->
+    <string name="closed_conversation_banner">This conversation is now closed. To share any additional thoughts, please reach out to us at letters@washpost.com and we may publish your response.</string>
+
+    <!-- Conversation Summary Card -->
+    <string name="conversation_summary_title">Conversation summary</string>
+    <string name="conversation_summary_show_more">Show more</string>
+    <string name="conversation_summary_show_less">Show less</string>
+
+    <string name="advanced_profile_settings_web">Advanced profile settings are on the web</string>
+
+
+    <!--Ask the post-->
+    <string name="ask_the_post_share_modal_response_headline">Create a free account to share this response.</string>
+    <string name="ask_the_post_share_modal_chat_headline">Create a free account to share this chat.</string>
+    <string name="ask_the_post_share_modal_description">Share full chats with a free account. You can manage your links in the history panel.</string>
+    <string name="ask_the_post_share_modal_response_description">Share individual responses with a free account. You can manage your links in the history panel.</string>
+    <string name="ask_the_post_save_chat_headline">Starting a new chat deletes this one. Don’t lose what comes next.</string>
+    <string name="ask_the_post_save_chat_description">Create a free account or sign in to add future chats to your history.</string>
+    <string name="ask_the_post_save_chat_cta">Start new chat without saving</string>
+    <string name="ask_the_post_register_headline">All your questions answered — and saved.</string>
+    <string name="ask_the_post_register_subtitle">Keep your chat history with a free account. Or keep things private with anonymous mode.</string>
+    <string name="ask_the_post_register_cta">Create free account</string>
+    <string name="ask_the_post_register_new_chat_cta">Start new chat</string>
+    <string name="ask_the_post_register_cta_subtitle_prefix">Already have an account? </string>
+    <string name="ask_the_post_register_cta_subtitle_suffix">Sign in</string>
+
+    <string name="cancel_ad_free_title">Cancel Ad-Free</string>
+    <string name="cancel_ad_free_summary">Switch back to a plan with ads.</string>
+    <string name="manage_or_cancel_subscription_title">Manage or Cancel Subscription</string>
+    <string name="beta_webview_override">beta_webview_override</string>
+    <string name="bypass_paywall">Bypass Paywall</string>
+    <string name="verify_on_each_launch" translatable="false">Verify profile call on every launch (/profile)</string>
+
+    <plurals name="comments_count">
+        <item quantity="one">%s comment</item>
+        <item quantity="other">%s comments</item>
+    </plurals>
+
+</resources>

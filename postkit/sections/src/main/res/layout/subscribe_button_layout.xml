@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/subscribe_button"
+    style="@style/SubscribeButtonTheme.Text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/subscribe_button_bg"
+    android:gravity="center"
+    android:minHeight="@dimen/subscribe_button_view_min_height"
+    android:paddingLeft="@dimen/subscribe_button_horizontal_padding"
+    android:paddingTop="@dimen/subscribe_button_vertical_padding"
+    android:paddingRight="@dimen/subscribe_button_horizontal_padding"
+    android:paddingBottom="@dimen/subscribe_button_vertical_padding"
+    android:visibility="gone" />

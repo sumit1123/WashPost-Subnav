@@ -1,0 +1,62 @@
+{
+  "dataServiceURL":"https://rainbowapi-a.wpdigital.net/rainbow-data-service/rainbow/content-by-url.json?followLinks=false&platform=iphoneclassic&url=%@",
+  "jsonAppBaseUrl": "https://jsonapp1.washingtonpost.com/",
+  "singleNativeContentRainbowBaseUrl": "https://rainbowapi-a.wpdigital.net/rainbow-data-service/rainbow/",
+  "arcIoBaseUrl": "https://www.washingtonpost.com/arcio/",
+  "availableSections": [
+    {
+      "name" : "Top Stories",
+      "fusionEndpoint" : ""
+    },
+    {
+      "name" : "Politics",
+      "pageBuilderEndpoint" : "politics"
+    },
+    {
+      "name" : "Opinions",
+      "pageBuilderEndpoint" : "opinions"
+    },
+    {
+      "name" : "Local",
+      "pageBuilderEndpoint" : "local"
+    },
+    {
+      "name" : "Sports",
+      "pageBuilderEndpoint" : "sports",
+      "fusionEndpoint": "sports"
+    },
+    {
+      "name" : "National",
+      "pageBuilderEndpoint" : "national"
+    },
+    {
+      "name" : "World",
+      "pageBuilderEndpoint" : "world"
+    },
+    {
+      "name" : "Business",
+      "pageBuilderEndpoint" : "business"
+    },
+    {
+      "name" : "Lifestyle",
+      "pageBuilderEndpoint" : "lifestyle"
+    }
+  ],
+  "pushConfig": {
+    "availableSubscriptionTopics": [
+      {
+        "id": "breaking-news",
+        "displayName": "Breaking News",
+        "key": "breaking-news",
+        "isOptional": false,
+        "alias": "bn"
+      }
+    ]
+  },
+  "articleLimit": "6",
+  "ttsLimit": "10",
+  "paragraphLimit": "6",
+  "articleContentUpdateRulesConfig": {
+    "timeout": 5000
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "zendeskConfig": {
+    "url": "https://washposthelp1731428099.zendesk.com",
+    "customFields": {
+      "metadataId": 30867123341467,
+      "appType": "android_twp",
+      "appTypeId": 30867128637595,
+      "mobileApp": "the_washington_post_app",
+      "mobileAppId": 30867140891931
+    },
+    "ticketForms": [
+      {
+        "id": 360000532511,
+        "name": "Default Ticket Form"
+      },
+      {
+        "id": 360001411752,
+        "name": "Journalism"
+      },
+      {
+        "id": 360001411772,
+        "name": "Subscriptions"
+      },
+      {
+        "id": 360001456551,
+        "name": "Website / mobile app"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "feature_name" : "carrier-5pm",
+  "item_type" : "suppressed",
+  "border_bottom_style" : "none",
+  "text_alignment" : "left",
+  "border_bottom_width" : "100-pct",
+  "widths" : {
+    "large" : 4,
+    "small" : 4,
+    "medium" : 6,
+    "x-large" : 4,
+    "x-small" : 4
+  }
+}

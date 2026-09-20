@@ -1,0 +1,644 @@
+{
+  "id": "/",
+  "children": [
+    {
+      "id": "/topics/supreme-court",
+      "type": "section",
+      "path": "/topics/supreme-court/",
+      "name": "Supreme Court",
+      "nav_name": "Supreme Court Rulings",
+      "aliases": [
+        "/topics/supreme-court"
+      ]
+    },
+    {
+      "id": "/topics/kamala-harris",
+      "type": "section",
+      "path": "/topics/kamala-harris/",
+      "name": "Kamala Harris",
+      "nav_name": "Kamala Harris",
+      "aliases": [
+        "/topics/kamala-harris",
+        "/kamala-harris"
+      ]
+    },
+    {
+      "id": "/topics/jd-vance",
+      "type": "section",
+      "path": "/topics/jd-vance/",
+      "name": "JD Vance",
+      "nav_name": "JD Vance",
+      "aliases": [
+        "/jd-vance",
+        "/topics/jd-vance"
+      ]
+    },
+    {
+      "id": "/topics/tim-walz",
+      "type": "section",
+      "path": "/topics/tim-walz/",
+      "name": "Tim Walz",
+      "nav_name": "Tim Walz",
+      "aliases": [
+        "/tim-walz",
+        "/topics/tim-walz"
+      ]
+    },
+    {
+      "id": "/topics/elon-musk",
+      "type": "section",
+      "path": "/topics/elon-musk/",
+      "name": "Elon Musk",
+      "nav_name": "DOGE",
+      "aliases": [
+        "/elon-musk",
+        "/topics/elon-musk"
+      ]
+    },
+    {
+      "id": "/topics/robert-f-kennedy-jr",
+      "type": "section",
+      "path": "/topics/robert-f-kennedy-jr/",
+      "name": "Robert F. Kennedy Jr.",
+      "nav_name": "Robert F. Kennedy Jr.",
+      "aliases": [
+        "/robert-f-kennedy-jr",
+        "/topics/robert-f-kennedy-jr"
+      ]
+    },
+    {
+      "id": "/topics/dc-plane-crash",
+      "type": "section",
+      "path": "/topics/dc-plane-crash/",
+      "name": "D.C. Plane Crash",
+      "nav_name": "D.C. Plane Crash",
+      "aliases": [
+        "/topics/dc-plane-crash"
+      ]
+    },
+    {
+      "id": "/topics/federal-workers",
+      "type": "section",
+      "path": "/topics/federal-workers/",
+      "name": "Federal Workers",
+      "nav_name": "Federal Workers",
+      "aliases": [
+        "/topics/federal-workers"
+      ]
+    },
+    {
+      "id": "/topics/trump-tariffs",
+      "type": "section",
+      "path": "/topics/trump-tariffs/",
+      "name": "Trump tariffs",
+      "nav_name": "Trump tariffs",
+      "aliases": [
+        "/topics/trump-tariffs"
+      ]
+    },
+    {
+      "id": "/topics/diddy-trial",
+      "type": "section",
+      "path": "/topics/diddy-trial/",
+      "name": "Diddy Trial",
+      "nav_name": "Diddy trial",
+      "aliases": [
+        "/topics/diddy-trial"
+      ]
+    },
+    {
+      "id": "/topics/army-parade",
+      "type": "section",
+      "path": "/topics/army-parade/",
+      "name": "Army parade",
+      "nav_name": "Army parade",
+      "aliases": [
+        "/topics/army-parade"
+      ]
+    },
+    {
+      "id": "/topics/the-seven-trump",
+      "type": "section",
+      "path": "/topics/the-seven-trump/",
+      "name": "The Seven: Tracking Trump",
+      "nav_name": "The Seven: Tracking Trump",
+      "aliases": [
+        "/the-seven-trump",
+        "/topics/the-seven-trump"
+      ]
+    },
+    {
+      "id": "/topics/trump-dc-takeover",
+      "type": "section",
+      "path": "/topics/trump-dc-takeover/",
+      "name": "Trump's D.C. takeover",
+      "nav_name": "Trump's D.C. takeover",
+      "aliases": [
+        "/topics/trump-dc-takeover"
+      ]
+    },
+    {
+      "id": "/topics/national-guard-deployments",
+      "type": "section",
+      "path": "/topics/national-guard-deployments/",
+      "name": "National Guard deployments",
+      "nav_name": "National Guard deployments",
+      "aliases": [
+        "/topics/national-guard-deployments"
+      ]
+    },
+    {
+      "id": "/columns/about-us",
+      "type": "section",
+      "path": "/columns/about-us/",
+      "path_fusion": "/columns/about-us",
+      "name": "About US",
+      "nav_name": "About US",
+      "aliases": [
+        "/about-us",
+        "/columns/about-us"
+      ]
+    },
+    {
+      "id": "/classic-apps/watch",
+      "type": "section",
+      "path": "/classic-apps/watch/",
+      "path_fusion": "/video",
+      "name": "Watch",
+      "nav_name": "Watch",
+      "aliases": [
+        "/classic-apps/watch"
+      ]
+    },
+    {
+      "id": "/sports/soccer/world-cup",
+      "type": "section",
+      "path": "/sports/soccer/world-cup/",
+      "path_fusion": "/sports/soccer/world-cup",
+      "name": "World Cup 2022",
+      "nav_name": "World Cup",
+      "aliases": [
+        "/sports/soccer/world-cup",
+        "/sports/world-cup-2022"
+      ]
+    },
+    {
+      "id": "/sports/soccer/womens-world-cup-2023",
+      "type": "section",
+      "path": "/sports/soccer/womens-world-cup-2023/",
+      "path_fusion": "/sports/soccer/womens-world-cup-2023",
+      "name": "Women's World Cup 2023",
+      "nav_name": "Women's World Cup",
+      "aliases": [
+        "/womens-world-cup-2023",
+        "/sports/soccer/womens-world-cup-2023"
+      ]
+    },
+    {
+      "id": "/topics/watergate",
+      "type": "section",
+      "path": "/topics/watergate/",
+      "path_fusion": "/topics/watergate",
+      "name": "Watergate 50th Anniversary",
+      "nav_name": "Watergate 50th Anniversary",
+      "aliases": [
+        "/watergate-50th-anniversary",
+        "/watergate",
+        "/topics/watergate"
+      ]
+    },
+    {
+      "id": "/topics/apollo11",
+      "type": "section",
+      "path": "/topics/apollo11/",
+      "path_fusion": "/topics/apollo11",
+      "name": "Apollo 11: 50th anniversary",
+      "nav_name": "Apollo 11",
+      "aliases": [
+        "/topics/apollo11",
+        "/apollo11"
+      ]
+    },
+    {
+      "id": "/opinions/made-by-history",
+      "type": "section",
+      "path": "/opinions/made-by-history/",
+      "path_fusion": "/opinions/made-by-history",
+      "name": "Made by History",
+      "nav_name": "Made by History",
+      "aliases": [
+        "/opinions/made-by-history",
+        "/made-by-history"
+      ]
+    },
+    {
+      "id": "/local/true-crime",
+      "type": "section",
+      "path": "/local/true-crime/",
+      "path_fusion": "/local/true-crime",
+      "name": "True Crime",
+      "nav_name": "True Crime",
+      "aliases": [
+        "/local/true-crime",
+        "/true-crime"
+      ]
+    },
+    {
+      "id": "/topics/venezuela-crisis",
+      "type": "section",
+      "path": "/topics/venezuela-crisis/",
+      "path_fusion": "/topics/venezuela-crisis",
+      "name": "Venezuela Crisis",
+      "nav_name": "Venezuela Crisis",
+      "aliases": [
+        "/topics/venezuela-crisis",
+        "/venezuela-crisis"
+      ]
+    },
+    {
+      "id": "/lifestyle/relationships",
+      "type": "section",
+      "path": "/lifestyle/relationships/",
+      "path_fusion": "/lifestyle/relationships",
+      "name": "Relationships",
+      "nav_name": "Relationships",
+      "aliases": [
+        "/lifestyle/relationships",
+        "/relationships"
+      ]
+    },
+    {
+      "id": "/topics/american-slavery",
+      "type": "section",
+      "path": "/topics/american-slavery/",
+      "path_fusion": "/topics/american-slavery",
+      "name": "The Dawn of American Slavery",
+      "nav_name": "The Dawn of American Slavery",
+      "aliases": [
+        "/american-slavery",
+        "/dawn-of-american-slavery-jamestown-virginia",
+        "/topics/american-slavery"
+      ]
+    },
+    {
+      "id": "/topics/mueller-report",
+      "type": "section",
+      "path": "/topics/mueller-report/",
+      "path_fusion": "/topics/mueller-report",
+      "name": "The Mueller Report",
+      "nav_name": "The Mueller Report",
+      "aliases": [
+        "/topics/mueller-report",
+        "/mueller-report"
+      ]
+    },
+    {
+      "id": "/columns/great-works-in-focus",
+      "type": "section",
+      "path": "/columns/great-works-in-focus/",
+      "path_fusion": "/columns/great-works-in-focus",
+      "name": "Great Works, In Focus",
+      "nav_name": "Great Works, In Focus",
+      "aliases": [
+        "/great-works-in-focus",
+        "/columns/great-works-in-focus"
+      ]
+    },
+    {
+      "id": "/sports/olympics/tokyo-summer-games",
+      "type": "section",
+      "path": "/sports/olympics/tokyo-summer-games/",
+      "path_fusion": "/sports/olympics/tokyo-summer-games",
+      "name": "Tokyo Olympics",
+      "nav_name": "Tokyo Olympics",
+      "aliases": [
+        "/sports/olympics/tokyo-summer-games"
+      ]
+    },
+    {
+      "id": "/topics/september-11",
+      "type": "section",
+      "path": "/topics/september-11/",
+      "path_fusion": "/topics/september-11",
+      "name": "9/11: 20 years later",
+      "nav_name": "9/11: 20 years later",
+      "aliases": [
+        "/september-11-20th-anniversary",
+        "/topics/september-11",
+        "/9-11"
+      ]
+    },
+    {
+      "id": "/topics/queen-elizabeth-II",
+      "type": "section",
+      "path": "/topics/queen-elizabeth-II/",
+      "path_fusion": "/topics/queen-elizabeth-II",
+      "name": "Queen Elizabeth II",
+      "nav_name": "Queen Elizabeth II",
+      "aliases": [
+        "/queen-elizabeth-ii",
+        "/topics/queen-elizabeth-II"
+      ]
+    },
+    {
+      "id": "/sports/colleges/basketball/march-madness-2025",
+      "type": "section",
+      "path": "/sports/colleges/basketball/march-madness-2025/",
+      "path_fusion": "/sports/colleges/basketball/march-madness-2025",
+      "name": "March Madness 2025",
+      "nav_name": "March Madness",
+      "aliases": [
+        "/march-madness-2025",
+        "/sports/colleges/basketball/march-madness-2025"
+      ]
+    },
+    {
+      "id": "/sports/colleges/basketball/march-madness-2024",
+      "type": "section",
+      "path": "/sports/colleges/basketball/march-madness-2024/",
+      "path_fusion": "/sports/colleges/basketball/march-madness-2024",
+      "name": "March Madness 2024",
+      "nav_name": "March Madness",
+      "aliases": [
+        "/march-madness-2024",
+        "/sports/colleges/basketball/march-madness-2024"
+      ]
+    },
+    {
+      "id": "/sports/colleges/basketball/march-madness",
+      "type": "section",
+      "path": "/sports/colleges/basketball/march-madness/",
+      "path_fusion": "/sports/colleges/basketball/march-madness",
+      "name": "NCAA Tournament 2023",
+      "nav_name": "March Madness",
+      "aliases": [
+        "/march-madness-2023",
+        "/sports/colleges/basketball/march-madness"
+      ]
+    },
+    {
+      "id": "/topics/march-madness-2022",
+      "type": "section",
+      "path": "/topics/march-madness-2022/",
+      "path_fusion": "/topics/march-madness-2022",
+      "name": "NCAA Tournament 2022",
+      "nav_name": "March Madness",
+      "aliases": [
+        "/march-madness-2022",
+        "/topics/march-madness-2022"
+      ]
+    },
+    {
+      "id": "/podcasts/the-magazine",
+      "type": "section",
+      "path": "/podcasts/the-magazine/",
+      "name": "The Magazine",
+      "nav_name": "The Magazine",
+      "aliases": [
+        "/podcasts/the-magazine"
+      ]
+    },
+    {
+      "id": "/sports/olympics/beijing-winter-olympics-2022",
+      "type": "section",
+      "path": "/sports/olympics/beijing-winter-olympics-2022/",
+      "path_fusion": "/sports/olympics/beijing-winter-olympics-2022",
+      "name": "Beijing Olympics",
+      "nav_name": "Beijing Olympics",
+      "aliases": [
+        "/sports/olympics/beijing-winter-olympics-2022"
+      ]
+    },
+    {
+      "id": "/topics/illustrated-reporting",
+      "type": "section",
+      "path": "/topics/illustrated-reporting/",
+      "path_fusion": "/topics/illustrated-reporting",
+      "name": "Illustrated Reporting",
+      "nav_name": "Illustrated Reporting",
+      "aliases": [
+        "/illustrated-reporting",
+        "/topics/illustrated-reporting"
+      ]
+    },
+    {
+      "id": "/lifestyle/food/recipes/holiday-recipes",
+      "type": "section",
+      "path": "/lifestyle/food/recipes/holiday-recipes/",
+      "path_fusion": "/lifestyle/food/recipes/holiday-recipes",
+      "name": "Holiday recipes",
+      "nav_name": "Holiday recipes",
+      "aliases": [
+        "/food/recipes/holiday",
+        "/lifestyle/food/recipes/holiday-recipes",
+        "/holiday-recipes"
+      ]
+    },
+    {
+      "id": "/public-relations/charitable-giving",
+      "type": "section",
+      "path": "/public-relations/charitable-giving/",
+      "path_fusion": "/public-relations/charitable-giving",
+      "name": "Helping Hand",
+      "nav_name": "Charitable Giving",
+      "aliases": [
+        "/public-relations/charitable-giving",
+        "/community-relations/charitable-giving"
+      ]
+    },
+    {
+      "id": "/topics/the-seven",
+      "type": "section",
+      "path": "/topics/the-seven/",
+      "name": "The Seven",
+      "aliases": [
+        "/the-seven",
+        "/topics/the-seven"
+      ]
+    },
+    {
+      "id": "/sports/olympics/paris-summer-games-2024",
+      "type": "section",
+      "path": "/sports/olympics/paris-summer-games-2024/",
+      "path_fusion": "/sports/olympics/paris-summer-games-2024/",
+      "name": "Paris Olympics 2024",
+      "nav_name": "Olympics 2024",
+      "aliases": [
+        "/sports/olympics/paris-summer-games-2024"
+      ]
+    },
+    {
+      "id": "link-OPQTDCLP3ZEJBDK2PONVACST4U",
+      "type": "link",
+      "name": "Try Climate Answers",
+      "path": "https://washingtonpost.com/climate-environment/climate-answers/"
+    },
+    {
+      "id": "/opinions/local-opinions",
+      "type": "section",
+      "path": "/opinions/local-opinions/",
+      "path_fusion": "/opinions/local-opinions",
+      "name": "Local Opinions",
+      "nav_name": "Local Opinions",
+      "aliases": [
+        "/opinions/local-opinions"
+      ]
+    },
+    {
+      "id": "/topics/israel-hamas-war",
+      "type": "section",
+      "path": "/topics/israel-hamas-war/",
+      "path_fusion": "/topics/israel-hamas-war",
+      "name": "Middle East conflict",
+      "nav_name": "Middle East conflict",
+      "aliases": [
+        "/israel-hamas-war",
+        "/topics/israel-hamas-war"
+      ]
+    },
+    {
+      "id": "/topics/ukraine-russia",
+      "type": "section",
+      "path": "/topics/ukraine-russia/",
+      "path_fusion": "/topics/ukraine-russia",
+      "name": "War in Ukraine",
+      "nav_name": "War in Ukraine",
+      "aliases": [
+        "/world/ukraine-russia",
+        "/topics/ukraine-russia",
+        "/russia-ukraine-attack"
+      ]
+    },
+    {
+      "id": "/topics/experts-for-every-day",
+      "type": "section",
+      "path": "/topics/experts-for-every-day/",
+      "path_fusion": "/topics/experts-for-every-day",
+      "name": "Experts for Every Day",
+      "nav_name": "Experts for Every Day",
+      "aliases": [
+        "/experts-for-every-day",
+        "/topics/experts-for-every-day"
+      ]
+    },
+    {
+      "id": "/topics/donald-trump",
+      "type": "section",
+      "path": "/topics/donald-trump/",
+      "path_fusion": "/topics/donald-trump",
+      "name": "Donald Trump",
+      "nav_name": "Donald Trump",
+      "aliases": [
+        "/donald-trump",
+        "/topics/donald-trump"
+      ]
+    },
+    {
+      "id": "/topics/deep-reads-narrative-journalism",
+      "type": "section",
+      "path": "/topics/deep-reads-narrative-journalism/",
+      "path_fusion": "/topics/deep-reads-narrative-journalism",
+      "name": "Deep Reads",
+      "nav_name": "Deep Reads",
+      "aliases": [
+        "/topics/deep-reads-narrative-journalism",
+        "/deep-reads-narrative-journalism"
+      ]
+    },
+    {
+      "id": "/sports/dc-sports-bog",
+      "type": "section",
+      "path": "/sports/dc-sports-bog/",
+      "name": "D.C. Sports Bog",
+      "nav_name": "D.C. Sports Bog",
+      "aliases": [
+        "/sports/dc-sports-bog",
+        "/dc-sports-bog"
+      ]
+    },
+    {
+      "id": "/lifestyle/food/recipes/thanksgiving",
+      "type": "section",
+      "path": "/lifestyle/food/recipes/thanksgiving/",
+      "path_fusion": "/lifestyle/food/recipes/thanksgiving",
+      "name": "Thanksgiving recipes",
+      "nav_name": "Thanksgiving recipes",
+      "aliases": [
+        "/food/recipes/thanksgiving",
+        "/lifestyle/food/recipes/thanksgiving",
+        "/thanksgiving"
+      ]
+    },
+    {
+      "id": "/lifestyle/food/recipes/holiday-side-dishes",
+      "type": "section",
+      "path": "/lifestyle/food/recipes/holiday-side-dishes/",
+      "path_fusion": "/lifestyle/food/recipes/holiday-side-dishes",
+      "name": "Holiday Side Dish Recipes",
+      "nav_name": "Side Dishes",
+      "aliases": [
+        "/food/recipes/holiday-side-dishes",
+        "/lifestyle/food/recipes/holiday-side-dishes",
+        "/holiday-side-dishes"
+      ]
+    },
+    {
+      "id": "/topics/january-6-capitol-riot",
+      "type": "section",
+      "path": "/topics/january-6-capitol-riot/",
+      "path_fusion": "/topics/january-6-capitol-riot",
+      "name": "The Jan. 6 insurrection",
+      "nav_name": "Jan. 6 Insurrection",
+      "aliases": [
+        "/january-6-capitol-riot",
+        "/topics/january-6-capitol-riot"
+      ]
+    },
+    {
+      "id": "/politics/democracy-in-america",
+      "type": "section",
+      "path": "/politics/democracy-in-america/",
+      "path_fusion": "/politics/democracy-in-america/",
+      "name": "Democracy in America",
+      "nav_name": "Democracy in America",
+      "aliases": [
+        "/politics/democracy-in-america"
+      ]
+    },
+    {
+      "id": "/topics/discord-leaks",
+      "type": "section",
+      "path": "/topics/discord-leaks/",
+      "path_fusion": "/topics/discord-leaks",
+      "name": "The Discord Leaks",
+      "nav_name": "The Discord Leaks",
+      "aliases": [
+        "/discord-leaks",
+        "/topics/discord-leaks"
+      ]
+    },
+    {
+      "id": "/topics/coronavirus",
+      "type": "section",
+      "path": "/topics/coronavirus/",
+      "path_fusion": "/topics/coronavirus",
+      "name": "Coronavirus",
+      "nav_name": "Coronavirus",
+      "aliases": [
+        "/topics/coronavirus",
+        "/coronavirus"
+      ]
+    },
+    {
+      "id": "/elections",
+      "type": "section",
+      "path": "/elections/",
+      "path_fusion": "/elections",
+      "name": "Elections",
+      "nav_name": "Elections",
+      "aliases": [
+        "/elections"
+      ]
+    }
+  ]
+}

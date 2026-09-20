@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="configEncryptKey">795A45DB6DBCC30B84CC498E689EFED7</string>
+    <string name="configRemoteLocation">https://ipad-s3.washingtonpost.com/native/config/v2/config.uni.classic.json</string>
+    <string name="configVersionUrl">https://ipad-s3.washingtonpost.com/native/config/classic.version.json</string>
+</resources>

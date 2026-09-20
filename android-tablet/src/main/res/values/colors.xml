@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bg">#FFFFFF</color>
+    <color name="text_selection">#8FCBC5</color>
+    <color name="empty_color">#00000000</color>
+    <color name="top_panel_background">#e2e2e2</color>
+    <color name="main_menu_background_gray">#b7b7b7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange">#FF9900</color>
+    <color name="green">#008000</color>
+    <color name="menu_text">#323232</color>
+    <color name="menu_thumbnail_placeholder_gray">#aaaaaa</color>
+    <color name="articles_background">#343232</color>
+    <color name="blue_progress_bar">#e6e6e6</color>
+    <color name="material_dark">#ff212121</color>
+    <color name="material_light">#757575</color>
+    <color name="recipe_white">@color/white</color>
+    <color name="top_bar_tab_title">#111111</color>
+
+    <color name="menu_ripple_color">#000000</color>
+    <color name="dark_gray">#aeaeae</color>
+    <color name="selected_menu_background">#ebebeb</color>
+
+    <color name="article_tagline">@color/articles_text_color</color>
+    <color name="article_tagline.night">@color/articles_text_color_night_mode</color>
+
+    <drawable name="left_bottom_menu_background">@color/action_bar_background</drawable>
+    <drawable name="left_bottom_menu_background_dark">@color/material_dark</drawable>
+    <drawable name="main_menu_background_gray">@color/main_menu_background_gray</drawable>
+    <drawable name="main_menu_background_dark_gray">@color/main_menu_background_gray</drawable>
+    <drawable name="background_white">@color/white</drawable>
+    <drawable name="background_black">@color/black</drawable>
+    <drawable name="solid_orange">#FF9900</drawable>
+    <drawable name="solid_green">#008000</drawable>
+    <drawable name="solid_purple">#800080</drawable>
+    <drawable name="solid_grey">#dfdfdf</drawable>
+    <drawable name="dark_grey">#ff525252</drawable>
+    <drawable name="menu_thumbnail_placeholder">@color/menu_thumbnail_placeholder_gray</drawable>
+    <drawable name="solid_blue">@color/light_blue</drawable>
+    <drawable name="color_transparent">#00000000</drawable>
+    <drawable name="color_holo_blue_light">#ff33b5e5</drawable>
+    <drawable name="action_bar_background_dark">#FF000000</drawable>
+    <drawable name="color_white">#FFFFFF</drawable>
+
+    <color name="selected_page_indicator">#999999</color>
+    <color name="unselected_page_indicator">#eeeeee</color>
+
+    <color name="header_font_color">#595959</color>
+
+    <color name="section_font_color">#2e6d9d</color>
+    <color name="black">#FF000000</color>
+    <color name="pin_color">#FF000000</color>
+    <color name="pw_title_color">#2E6D9D</color>
+
+    <color name="action_bar_bg">@color/app_bg</color>
+    <color name="nav_bar_bg">#ffffff</color>
+    <color name="status_bar_bg">@color/surface</color>
+    <color name="status_bar_bg_main_tabs">@color/surface</color>
+
+    <color name="action_bar_background">#f9f9f9</color>
+    <color name="ads_background_light">#ececec</color>
+    <color name="gray400">#E9E9E9</color>
+    <color name="gray600">#f7f7f7</color>
+    <color name="ads_background">@color/gray600</color>
+    <color name="ads_divider_color">@color/gray400</color>
+    <color name="ads_divider_color_dark_mode">#666666</color>
+
+    <color name="semi_transparent_white">#EEFFFFFF</color>
+    <color name="semi_transparent_black">#A5000000</color>
+    <color name="tablet_widget_title">#005b88</color>
+    <color name="action_bar_separator">#aaa</color>
+    <color name="transparent">#00FFFFFF</color>
+
+
+    <color name="sf_module_byline">#969696</color>
+    <color name="sf_module_label">#046b9f</color>
+    <color name="sf_module_time">#686868</color>
+    <color name="sf_module_caption">#686868</color>
+    <color name="mypost_section_label">#1955a5</color>
+
+    <color name="sf_module_byline_white">#ffc6c6c6</color>
+    <color name="sf_module_label_white">#ff0482bb</color>
+    <color name="sf_module_headline_white">#fff4f4f4</color>
+    <color name="sf_module_time_white">#ffdedede</color>
+
+    <color name="sf_module_caption_white">#ffbababa</color>
+
+
+    <color name="widget_header_background">#F6F6F6</color>
+
+
+    <color name="alpha_color">#ffffffff</color>
+    <color name="widget_item_divider">#D8D8D8</color>
+
+    <color name="main_color_white">#fff</color>
+    <color name="main_color_black">#000</color>
+
+    <color name="menu_category">#666666</color>
+    <color name="menu_header">#F7F7F7</color>
+    <color name="menu_header_text">#FFFFFF</color>
+    <color name="menu_item">#ffffff</color>
+    <color name="menu_item_disabled">#999999</color>
+    <color name="menu_item_text">#000000</color>
+    <color name="menu_divider">#C7C7C7</color>
+    <color name="menu_tab_background">#F9F9F9</color>
+    <color name="menu_tab_unselected_text">#B4B2B3</color>
+    <color name="menu_tab_selected_text">#464445</color>
+    <color name="menu_pin_button_text">#1E9369</color>
+    <color name="phone_bottom_bar_color">#000000</color>
+
+    <color name="nav_panel_active_color">#111111</color>
+    <color name="nav_panel_inactive_color">#111111</color>
+
+    <color name="phone_action_bar_background_color">#000000</color>
+    <color name="phone_tabs_text_secondary">#2A2A2A</color>
+    <color name="phone_tabs_text_primary">#111111</color>
+    <color name="phone_tabs_accent">#2a2a2a</color>
+    <color name="phone_control_highlight">#ffffff</color>
+    <color name="topic_tile_color_filter">#96C8C8C8</color>
+
+    <!--Grid Cells-->
+    <color name="cell_border">#E9E9E9</color>
+
+    <color name="live_blog_item_title_color_night">#DDDDDD</color>
+    <color name="live_blog_item_title_color">#2a2a2a</color>
+
+    <color name="section_list_menu_item_text_color">#DDDDDD</color>
+
+    <color name="medium_blue">#304ffe</color>
+    <color name="new_article_label_text_color">@color/white</color>
+    <color name="article_by_line_color">#c2c2c2</color>
+
+    <color name="saved_articles_lebel_color_night">#DDDDDD</color>
+    <color name="dialog_blue_bg">#076C9C</color>
+
+    <color name="print_edition_label">#666666</color>
+    <color name="print_edition_background">#FFFFFF</color>
+    <color name="print_edition_calendar_background">#111111</color>
+    <color name="print_edition_calendar_selected_background">#00AEEF</color>
+    <color name="print_edition_calendar_disabled">#95989A</color>
+    <color name="print_edition_open_button">#00AEEF</color>
+    <color name="print_edition_download_button">#8DC63F</color>
+    <color name="print_edition_remove_button">#FF0000</color>
+    <color name="print_edition_cancel_button">#43484A</color>
+    <color name="print_edition_button_text">#FFFFFF</color>
+    <color name="print_edition_pdf_thumbnail_text">#999999</color>
+    <color name="print_edition_auto_download_prompt_background">#1955A5</color>
+    <color name="print_edition_auto_download_decline_background">#3375CD</color>
+    <color name="print_edition_thumbnails_background">#FFFFFF</color>
+    <color name="print_edition_calendar_selected_date_background">#3D73D5</color>
+    <color name="print_edition_paper_border">#e9e9e9</color>
+
+    <color name="black_bg">#000000</color>
+
+    <color name="native_paywall_primary_button_color">#1955a5</color>
+    <color name="native_paywall_meter_limit_background">#194075</color>
+    <color name="native_paywall_background">#f7f7f7</color>
+    <color name="native_paywall_secondary_background">#FFFFFF</color>
+    <color name="native_paywall_offer_button_color">#1955a5</color>
+    <color name="native_paywall_text">#000000</color>
+    <color name="native_paywall_stroke">@color/transparent</color>
+    <color name="saved_articles_label_color_night">#DDDDDD</color>
+    <color name="native_paywall_boarder">#D5D5D5</color>
+    <color name="native_paywall_fine_print">#9B9B9B</color>
+    <color name="native_paywall_favorite_text_color">#498A0C</color>
+    <color name="native_paywall_favorite_background_color">#DFECD3</color>
+
+    <color name="alert_topic_description">#888888</color>
+    <color name="alert_topic_background">#EEEEEE</color>
+
+    <color name="alert_screen_sub_header">#000000</color>
+
+    <!--gdpr wall colors-->
+    <color name="privacy_policy_wall_button">#2B54A0</color>
+    <color name="privacy_policy_wall_text">#000000</color>
+    <color name="privacy_policy_wall_underline">#D5D5D5</color>
+    <color name="privacy_policy_wall_switch_track_outline_unselected">#E5E5EA</color>
+    <color name="privacy_policy_wall_switch_track_selected">#2B549F</color>
+    <color name="privacy_policy_wall_text_light">#A3A3A3</color>
+    <color name="privacy_policy_wall_button_not_enabled">#92A9CE</color>
+
+    <color name="onboarding_divider_color">#D5D5D5</color>
+
+    <color name="grey">#878A90</color>
+
+    <color name="discover_bg">#ffffff</color>
+    <color name="discover_bg_night">#000000</color>
+
+    <color name="rate_app_dialog_buttons_text_color">#076C9C</color>
+
+    <color name="privacy_settings_background_color">@color/settings_bg</color>
+
+    <!-- Prompts -->
+    <color name="prompt_window_bg">#B3000000</color>
+    <color name="prompt_card_view_bg">#ffffffff</color>
+    <color name="prompt_title">#DE000000</color>
+    <color name="prompt_message">#99000000</color>
+    <color name="prompt_not_ok">@color/post_wp_blue_bright</color>
+    <color name="prompt_ok">@color/post_subscriber_blue_dark</color>
+
+    <!-- Prompts night -->
+    <color name="prompt_card_view_bg_night">#ff333333</color>
+    <color name="prompt_title_night">#FFF7F7F7</color>
+    <color name="prompt_message_night">#FFF7F7F7</color>
+    <color name="prompt_not_ok_night">@color/post_subscriber_blue_normal</color>
+    <color name="prompt_ok_night">@color/post_subscriber_blue_normal</color>
+
+    <color name="behind_articles_cards_bg">@color/white</color>
+    <color name="icons">#333333</color>
+
+    <!-- Alerts -->
+    <color name="alerts_settings_bg">@color/app_bg</color>
+    <color name="alert_settings_border">#E9E9E9</color>
+    <color name="alerts_settings_text">@color/black</color>
+    <color name="alert_icon">#111111</color>
+
+    <!-- Sections Menu -->
+    <color name="sections_menu_bg">@color/app_bg</color>
+    <color name="menu_inactive_title">#666666</color>
+    <color name="menu_chip_border">#666666</color>
+    <color name="menu_horizontal_ruler">#D5D5D5</color>
+    <color name="menu_active_text">#2A2A2A</color>
+    <color name="menu_navigation_icon">#4D000000</color>
+
+    <!-- Settings -->
+    <color name="settings_bg">@color/app_bg</color>
+    <color name="settings_text">#2a2a2a</color>
+    <color name="settings_text_secondary">#666666</color>
+    <color name="settings_pref_toggle">#166dfc</color>
+    <color name="settings_pref_toggle_inactive">#FFFFFF</color>
+    <color name="settings_pref_toggle_inactive_track">#2C2C2C</color>
+    <color name="settings_text_button_enabled">#000000</color>
+    <color name="settings_text_button_disabled">#999999</color>
+    <color name="settings_preference_right_arrow">#666666</color>
+    <color name="settings_preference_divider">#d5d5d5</color>
+    <color name="settings_sign_out">#333333</color>
+    <color name="settings_support_id">#666666</color>
+    <color name="settings_theme_button_bg">#ffffff</color>
+    <color name="settings_theme_button_inactive_bg">#f7f7f7</color>
+    <color name="settings_theme_button_stroke_bg">#166DFC</color>
+    <color name="settings_theme_button_stroke_inactive_bg">#D5D5D5</color>
+    <color name="settings_selector_bg">#E9E9E9</color>
+    <color name="settings_pill_stoke_bg">#E9E9E9</color>
+    <color name="settings_weekly_button_text">#ffffff</color>
+
+    <!-- Comics -->
+    <color name="comics_bg">@color/app_bg</color>
+    <color name="comics_author_text">#000000</color>
+    <color name="comics_item_bg">#F7F7F7</color>
+
+    <!-- Font size dialogs-->
+    <color name="font_dialog_background">#FFFFFF</color>
+    <color name="font_dialog_text">#2A2A2A</color>
+
+    <color name="payment_error">#D10000</color>
+    <color name="sub_link_error">#D10000</color>
+
+    <!-- Widgets -->
+    <color name="discover_widget_wp_logo_background">#111111</color>
+    <color name="discover_widget_caption_text">#333333</color>
+    <color name="discover_widget_refresh_text">#2A2A2A</color>
+    <array name="discover_widget_card_background">
+        <item>#F7F7F7</item>
+        <item>#F0F0F0</item>
+    </array>
+    
+    <!-- Articles -->
+    <color name="logo_tint">@color/black</color>
+    <color name="article_cardview_bg">@color/app_bg</color>
+    <color name="article_label_text">@color/gray80</color>
+    <color name="article_label_line">#D5D5D5</color>
+    <color name="polly_listen_label_color">#2A2A2A</color>
+    <color name="polly_duration_label_color">#666666</color>
+
+    <!-- TableOfContents -->
+    <color name="toc_bg">@color/app_bg</color>
+    <color name="toc_item_selected_bg">#F7F7F8</color>
+    <color name="toc_item_selected_datetime">#111111</color>
+    <color name="toc_title">#111111</color>
+    <color name="toc_datetime">#666666</color>
+    <color name="toc_headline">#2A2A2A</color>
+
+    <!-- Sticky Nav-->
+    <color name="sticky_nav_time">#666666</color>
+    <color name="sticky_nav_text">#2a2a2a</color>
+    <color name="luf_background">#fff</color>
+
+    <!-- Gift Feature-->
+    <color name="gift_title_color">#000000</color>
+    <color name="gift_message_color">#000000</color>
+    <color name="gift_button_color">#166DFC</color>
+    <color name="gift_button_text_color">#FFFFFF</color>
+    <color name="gift_icon_color">#2A2A2A</color>
+
+    <!-- Inline alert toggle -->
+    <color name="inline_alert_toggle_text">#2A2A2A</color>
+    <color name="inline_alert_toggle_divider">#E9E9E9</color>
+
+    <color name="unification_onboarding_text">#d5d5d5</color>
+    <color name="unification_onboarding_light_secondary">#f0f0f0</color>
+    <color name="unification_onboarding_light_primary">#ffffff</color>
+    <color name="unification_onboarding_dark">#111111</color>
+
+    <!-- Inline Follow -->
+    <color name="inline_follow_button_text_color">#ffffff</color>
+    <color name="inline_follow_text_color">#111111</color>
+
+    <!-- Onboarding Colors -->
+    <color name="step_text">#666666</color>
+    <color name="wp_logo">#000000</color>
+    <color name="onboarding_bg">#ffffff</color>
+    <color name="onboarding_primary_text">#111111</color>
+    <color name="onboarding_secondary_text">#111111</color>
+    <color name="primary_button">#111111</color>
+    <color name="primary_button_text">#ffffff</color>
+    <color name="primary_button_disabled">#0c000000</color>
+    <color name="primary_button_disabled_text">#80666666</color>
+    <color name="secondary_button">#ffffff</color>
+    <color name="secondary_button_text">#111111</color>
+    <color name="secondary_button_selected">#111111</color>
+    <color name="secondary_button_selected_text">#ffffff</color>
+    <color name="secondary_button_border">#d4d4d4</color>
+    <color name="choose_later_text">#666666</color>
+    <color name="sample_text_box_bg">#f7f7f7</color>
+    <color name="sample_text_box_border">#d4d4d4</color>
+    <color name="plus_minus_border" >#d4d4d4</color>
+    <color name="voice_selected_bg">#111111</color>
+    <color name="voice_unselected_bg">#ffffff</color>
+    <color name="voice_unselected_stroke">#d5d5d5</color>
+    <color name="voice_selected_text">#ffffff</color>
+    <color name="voice_unselected_text">#111111</color>
+    <color name="content_packs_large_kicker">#166dfc</color>
+    
+    
+    <color name="article_audio_round_background">#FFFFFF</color>
+    <color name="article_audio_round_background_border">#E9E9E9</color>
+    <color name="article_audio_text_color">#111111</color>
+    <color name="article_audio_play">#111111</color>
+
+
+    <!-- Search -->
+    <color name="search_remove">#000000</color>
+    <color name="search_icon">#737373</color>
+    <color name="search_bg">#F7F7F7</color>
+    <color name="section_text">#111111</color>
+    <color name="search_query_text">#737373</color>
+    <color name="search_item_icon">#757575</color>
+    <color name="search_clear_text">#000000</color>
+    <color name="search_item_text">#000000</color>
+    <color name="search_separator">#E9E9E9</color>
+    <color name="search_article_header">#000000</color>
+    <color name="search_article_byline">#666666</color>
+    <color name="search_count">#000000</color>
+    <color name="search_card_bg">#FFFFFF</color>
+    <color name="search_shadow">#551C225F</color>
+    <color name="search_bar_bg">#FFFFFF</color>
+    <color name="search_box_bg">#E9E9E9</color>
+    <color name="search_primary_error_text">#111111</color>
+    <color name="search_secondary_error_text">#737373</color>
+    <color name="filter_header">#000000</color>
+    <color name="filter_radio">#000000</color>
+    <color name="filter_button">#000000</color>
+    <color name="filter_bg">#FFFFFF</color>
+    <color name="filter_close">#000000</color>
+    <color name="filter_chip_fill">#FFFFFF</color>
+    <color name="filter_chip_selected_fill">#FBF1DD</color>
+    <color name="filter_chip_border">#E9E9E9</color>
+    <color name="filter_chip_selected_border">#EBB347</color>
+    <color name="filter_chip_active_border">#000000</color>
+    <color name="filter_chip_text_color">#666666</color>
+    <color name="filter_chip_active_text_color">#000000</color>
+    <color name="luf_outcome_image_bg">#F0F0F0</color>
+
+    <!-- Context Box Styles -->
+    <color name="context_box_header">#000000</color>
+    <color name="context_box_html_text">#111111</color>
+    <color name="context_box_bg">#FFFFFF</color>
+    <color name="context_box_separator">#ffe9e9e9</color>
+
+    <color name="playlist_color">#111111</color>
+    <color name="embed_background">#ebebeb</color>
+    <color name="standalone_audio_caption_text_color">#ff595959</color>
+    <color name="live_outcome_textcolor">#111111</color>
+
+    <color name="subnav_search_icon">#111111</color>
+</resources>

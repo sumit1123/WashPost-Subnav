@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/media_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/article_audio_round_background"
+    android:gravity="center_vertical"
+    android:minHeight="48dp"
+    android:orientation="horizontal">
+
+    <com.washingtonpost.android.follow.ui.CircleImageView
+        android:id="@+id/image"
+        android:layout_marginStart="12dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/author_placeholder" />
+
+    <TextView
+        android:id="@+id/narration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginStart="8dp"
+        android:text="Author narrated"
+        android:fontFamily="@font/wp_franklinitcstd_font_family"
+        android:textColor="@color/article_audio_text_color"
+        android:textSize="16sp"
+        android:lineHeight="20dp"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:drawablePadding="10dp"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#D4D4D4" />
+
+    <TextView
+        android:id="@+id/listen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="9dp"
+        android:layout_marginEnd="5dp"
+        android:text="Listen"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:fontFamily="@font/wp_franklinitcstd_font_family"
+        android:textColor="@color/article_audio_text_color"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 min"
+        android:fontFamily="@font/franklin_std_light"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#666666" />
+
+    <Space
+        android:layout_width="@dimen/podcast_vertical_margin_medium"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

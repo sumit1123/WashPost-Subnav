@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018. The Washington Post
+  ~ Created by adkinsj on 5/9/18.
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" >
+        <shape>
+            <solid android:color="@color/privacy_policy_wall_button" />
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+
+    <item android:state_enabled="false" >
+        <shape>
+            <solid android:color="@color/privacy_policy_wall_button_not_enabled" />
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+</selector>

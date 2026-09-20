@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Placeholder resource values for Android builds. Flavor-specific values in
+    android-config/src/<flavor>/res/values/config.xml override these during resource merging.
+-->
+<resources>
+    <string name="configEncryptKey"></string>
+    <string name="configRemoteLocation"></string>
+    <string name="configVersionUrl"></string>
+</resources>

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:accessibilityHeading="true"
+    android:title="Settings">
+
+    <!-- Debug Panel Section - shown only when Developer Mode is enabled -->
+    <androidx.preference.PreferenceCategory
+        android:key="@string/pref_debug_panel_category"
+        android:layout="@layout/preference_category_layout"
+        android:title="Developer"
+        app:iconSpaceReserved="false"
+        app:isPreferenceVisible="false">
+
+        <com.wapo.flagship.features.settings.preferences.DebugPanelPreference
+            android:key="@string/pref_debug_panel"
+            android:iconSpaceReserved="false"
+            android:persistent="false"
+            android:selectable="false"
+            app:iconSpaceReserved="false" />
+
+    </androidx.preference.PreferenceCategory>
+
+    <com.wapo.flagship.features.settings.preferences.SettingsTopBannerPreference
+        android:iconSpaceReserved="false"
+        android:key="@string/pref_upgrade_banner"
+        android:layout="@layout/preference_settings_upgrade_banner"
+        android:persistent="false"
+        app:isPreferenceVisible="false"
+        app:iconSpaceReserved="false" />
+
+    <androidx.preference.PreferenceCategory
+        android:layout="@layout/preference_category_layout"
+        android:title="Account"
+        app:iconSpaceReserved="false">
+
+        <com.wapo.flagship.features.settings.preferences.AccountSubPrimaryPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_primary_profile_sub"
+            android:layout="@layout/preference_account_sub_primary_layout"
+            android:persistent="false"
+            android:title="Primary Account Sub"
+            app:isPreferenceVisible="false"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.AccountSubSecondaryPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_secondary_profile_sub"
+            android:layout="@layout/preference_account_sub_secondary_layout"
+            android:persistent="false"
+            android:title="Secondary Account Sub"
+            app:isPreferenceVisible="false"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_sign_in"
+            android:persistent="false"
+            android:title="Subscriber sign in"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:isPreferenceVisible="false"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.SignOutPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_sign_out"
+            android:layout="@layout/sign_out_button"
+            android:persistent="false"
+            android:selectable="false"
+            app:isPreferenceVisible="false"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.SubPauseBannerPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_sub_pause_banner"
+            android:layout="@layout/preference_sub_pause_banner_layout"
+            android:persistent="false"
+            app:isPreferenceVisible="false"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.MobileFreeTrialBannerPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_mobile_free_trial_banner"
+            android:layout="@layout/preference_mobile_free_trial_banner_layout"
+            android:persistent="false"
+            app:isPreferenceVisible="false"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.SubLinkErrorPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_sub_link_error"
+            android:layout="@layout/preference_sub_link_error_layout"
+            android:persistent="false"
+            app:isPreferenceVisible="false"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory
+        android:key="@string/pref_sub_category"
+        android:layout="@layout/preference_category_layout"
+        android:selectable="false"
+        android:title="Plan"
+        app:allowDividerAbove="true"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_sub_type"
+            android:persistent="false"
+            android:selectable="true"
+            android:title="No Subscription"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:defaultValue="true"
+            android:key="@string/pref_subscription_benefits"
+            android:persistent="false"
+            android:selectable="true"
+            android:title="View subscription benefits"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+
+        <com.wapo.flagship.features.settings.preferences.AccountSubPrimaryPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_sub_payment_error"
+            android:layout="@layout/preference_account_sub_primary_layout"
+            android:persistent="false"
+            android:title="Primary Account Sub"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:defaultValue="true"
+            android:key="@string/pref_manage_sub"
+            android:persistent="false"
+            android:selectable="true"
+            android:title="Manage or cancel subscription"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+
+        <com.wapo.flagship.features.settings.preferences.SubLinkErrorPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_sub_link_error"
+            android:layout="@layout/preference_sub_link_error_layout"
+            android:persistent="false"
+            app:isPreferenceVisible="false"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.SettingsPlanPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_wp_weekly"
+            android:layout="@layout/preference_wp_weekly_layout"
+            app:isPreferenceVisible="false"
+            android:persistent="false"
+            android:selectable="false"
+            app:allowDividerAbove="false"
+            app:iconSpaceReserved="false" />
+
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory
+        android:layout="@layout/preference_category_layout"
+        android:title="Preferences"
+        app:allowDividerAbove="true"
+        app:iconSpaceReserved="false">
+
+        <com.wapo.flagship.features.settings.preferences.ThemePreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_theme_key"
+            android:layout="@layout/preference_theme_layout"
+            android:persistent="false"
+            android:selectable="false"
+            android:title="Display theme"
+            app:iconSpaceReserved="false" />
+
+        <androidx.preference.CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_settings_match_default_font_size_key"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="Match system default font size"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.FontSizePreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_text_size_key"
+            android:layout="@layout/preference_text_size_layout"
+            android:persistent="false"
+            android:selectable="false"
+            android:title="Text Size"
+            app:iconSpaceReserved="false" />
+
+        <androidx.preference.CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_settings_open_links_key"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/open_web_in_app"
+            app:iconSpaceReserved="false" />
+
+        <androidx.preference.CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_settings_print_tutorial_key"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_show_tutorial"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.ButtonPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_alerts_key"
+            android:persistent="false"
+            android:title="Notification Settings"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.ButtonPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_newsletters_and_email_alerts_key"
+            android:persistent="false"
+            android:title="@string/pref_newsletters_and_email_alerts_title"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.ButtonPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_about_me_key"
+            android:persistent="false"
+            android:title="About Me"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.ButtonPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_custom_nav_key"
+            android:persistent="false"
+            android:title="Menu Preferences"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.ButtonPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_audio_key"
+            android:persistent="false"
+            android:title="Audio Preferences"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.ButtonPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_storage_key"
+            android:persistent="false"
+            android:title="Storage and data use"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_test_options_key"
+            android:title="Test Options"
+            app:isPreferenceVisible="false"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory
+        android:key="@string/pref_settings_beta"
+        android:layout="@layout/preference_category_layout"
+        android:title="Beta"
+        app:allowDividerAbove="true"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_beta_aggregator"
+            android:persistent="false"
+            android:title="Aggregator"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_beta_ask_the_post_ai"
+            android:persistent="false"
+            android:title="Ask the Post AI"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_beta_climate_bot"
+            android:persistent="false"
+            android:title="Climate Answers"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_beta_climate_bot"
+            android:persistent="false"
+            android:title="Post LLM"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory
+        android:layout="@layout/preference_category_layout"
+        android:title="About the App"
+        app:allowDividerAbove="true"
+        app:iconSpaceReserved="false">
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_developer_mode"
+            android:persistent="false"
+            android:title="Developer Mode"
+            app:isPreferenceVisible="false"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.ButtonPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_help_key"
+            android:persistent="false"
+            android:title="Help"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.ButtonPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_contact_us_key"
+            android:persistent="false"
+            android:title="Contact Us"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.ButtonPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_privacy_key"
+            android:persistent="false"
+            android:title="Privacy"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.ButtonPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_feedback_key"
+            android:persistent="false"
+            android:title="@string/pref_leave_feedback"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+        <com.wapo.flagship.features.settings.preferences.ButtonPreference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_settings_terms_key"
+            android:persistent="false"
+            android:title="@string/pref_terms_of_service_title"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+    </androidx.preference.PreferenceCategory>
+
+    <com.wapo.flagship.features.settings.preferences.AppVersionPreference
+        android:iconSpaceReserved="false"
+        android:key="@string/pref_settings_footer_key"
+        android:layout="@layout/preference_app_version_layout"
+        android:persistent="false"
+        android:selectable="false"
+        app:iconSpaceReserved="false" />
+
+</androidx.preference.PreferenceScreen>

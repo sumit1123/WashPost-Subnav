@@ -1,0 +1,28 @@
+{
+  "followConfig": {
+    "authorFollowUrl": "https://beta.washingtonpost.com/arcio/classic-author/%s/?size=%d&from=%d"
+  },
+  "fusionBaseUrl": "https://jsonapp1.washingtonpost.com/arc_prod/v2/{{{page}}}",
+  "liveBlogServiceURL": "https://beta.washingtonpost.com/arcio/fact-checker/item/?select=cms_date,cms_title,cms_modified,transformed_content.slug&limit=LIVE_BLOG_MAX_ENTRIES&src_url=",
+  "mostReadFeedURL": "https://beta.washingtonpost.com/arcio/most-read/?size=10&website=washpost",
+  "nextVideoConfig": {
+    "url": "https://beta.washingtonpost.com/arcio/video-tab/"
+  },
+  "singleNativeContentRainbowTemplate": "https://rainbowapi-stage.wpdigital.net/beta/rainbow-data-service/rainbow/content-by-url.json?followLinks=false&platform=iphoneclassic&url=%@",
+  "saveConfig": {
+    "metadataServiceBaseUrl": "https://metadata-service-stage.mobile-backend.aws.wapo.pub/v1/metadata/canonical/"
+  },
+  "siteServiceConfig": {
+    "sectionsBarV2ConfigRemoteLocation": "https://rainbowapi.washingtonpost.com/sitemap/v2/prod/washpost/washpost/classic-app-bar-v2.json",
+    "sectionsFeaturedConfigRemoteLocation": "https://rainbowapi.washingtonpost.com/sitemap/v2/prod/washpost/washpost/classic-app-featured.json",
+    "sectionsAZConfigRemoteLocation": "https://rainbowapi.washingtonpost.com/sitemap/v2/prod/washpost/washpost/classic-app-az.json",
+    "sectionsUnlistedConfigRemoteLocation": "https://rainbowapi.washingtonpost.com/sitemap/v2/prod/washpost/washpost/classic-app-unlisted.json",
+    "sectionsRecommendedConfigRemoteLocation": "https://rainbowapi.washingtonpost.com/sitemap/v2/prod/washpost/washpost/classic-app-recommended.json"
+  },
+  "purchasedArticleConfig": {
+    "metadataServiceBaseUrl": "https://metadata-service-stage.mobile-backend.aws.wapo.pub/v1/metadata/canonical/"
+  },
+  "wpVideosConfig": {
+    "baseUrl": "https://beta.washingtonpost.com/arcio/video-tab/"
+  }
+}

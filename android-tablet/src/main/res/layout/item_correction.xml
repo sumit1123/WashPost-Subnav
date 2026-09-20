@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/ArticleText.Correction.Container">
+    <LinearLayout
+        android:id="@+id/article_correction_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ArticleText.Correction.Background"
+        android:orientation="vertical">
+        <com.wapo.view.selection.SelectableTextView
+            android:id="@+id/article_correction_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginBottom="@dimen/native_article_correction_title_bottom_margin"/>
+        <com.wapo.view.selection.SelectableTextView
+            android:id="@+id/article_correction_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

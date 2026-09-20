@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:shape="rectangle">
+    <solid android:color="@color/featuring_default_bg_color" />
+
+    <corners android:radius="@dimen/featuring_pill_corner_radius" />
+
+    <padding
+        android:bottom="@dimen/featuring_pill_vertical_padding"
+        android:left="@dimen/featuring_pill_horizontal_padding"
+        android:right="@dimen/featuring_pill_horizontal_padding"
+        android:top="@dimen/featuring_pill_vertical_padding" />
+</shape>

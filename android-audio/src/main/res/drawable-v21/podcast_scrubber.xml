@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- haven't tested this, but it looks like the shadow should be 1 and a third times the size
+    of the scrubber -->
+
+    <!-- shadow -->
+    <item android:gravity="center">
+        <shape android:shape="oval"
+            android:dither="true">
+            <gradient
+                android:startColor="@color/podcast_time_bar_scrubber_gradient_start_color"
+                android:centerColor="@color/podcast_time_bar_scrubber_gradient_center_color"
+                android:endColor="@color/podcast_time_bar_scrubber_gradient_end_color"
+                android:gradientRadius="45%"
+                android:type="radial" />
+            <size
+                android:width="@dimen/podcast_time_bar_scrubber_shadow_size"
+                android:height="@dimen/podcast_time_bar_scrubber_shadow_size" />
+        </shape>
+    </item>
+
+    <!-- scrubber -->
+    <item android:gravity="center"
+        android:top="@dimen/podcast_time_bar_scrubber_padding"
+        android:left="@dimen/podcast_time_bar_scrubber_padding"
+        android:right="@dimen/podcast_time_bar_scrubber_padding"
+        android:bottom="@dimen/podcast_time_bar_scrubber_padding">
+        <shape android:shape="oval">
+            <solid android:color="@color/podcast_time_bar_scrubber_color" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="16dp"
+    app:cardCornerRadius="6dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.wapo.view.ProportionalLayout
+            android:id="@+id/image_container"
+            android:layout_width="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:scaleType="centerCrop"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </com.wapo.view.ProportionalLayout>
+
+        <ImageView
+            android:id="@+id/image_blur"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image_container" />
+
+        <View
+            android:id="@+id/overlay"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:alpha="0.5"
+            android:background="#000000"
+            app:layout_constraintBottom_toBottomOf="@id/image_blur"
+            app:layout_constraintEnd_toEndOf="@id/image_blur"
+            app:layout_constraintStart_toStartOf="@id/image_blur"
+            app:layout_constraintTop_toTopOf="@id/image_blur" />
+
+        <TextView
+            android:id="@+id/headline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            style="@style/foryou_card_headline"
+            app:layout_constraintTop_toBottomOf="@id/image_container" />
+
+        <LinearLayout
+            android:id="@+id/signature_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/headline">
+
+            <ImageView
+                android:id="@+id/author_image"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:id="@+id/signature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/foryou_card_byline"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/blurb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            style="@style/foryou_card_blurb"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintBottom_toTopOf="@+id/bottom_container"
+            app:layout_constraintTop_toBottomOf="@id/signature_container" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/bottom_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="16dp"
+                android:background="@color/foryou_card_divider"
+                app:layout_constraintBottom_toTopOf="@+id/buttons_container"
+                />
+
+            <TextView
+                android:id="@+id/section"
+                style="@style/foryou_card_section"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginStart="16dp"
+                android:gravity="center_vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/label_for_you"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="12dp"
+                android:textSize="14sp"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                android:textColor="@color/foryou_card_section"
+                app:layout_constraintStart_toEndOf="@id/section"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <LinearLayout
+                android:id="@+id/buttons_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="16dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/play"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_headphones"
+                        android:background="@drawable/action_button_bg" />
+
+                    <ProgressBar
+                        android:id="@+id/progress_bar"
+                        android:layout_width="32dp"
+                        android:visibility="gone"
+                        android:indeterminateTint="@color/white"
+                        android:layout_height="32dp" />
+
+                </FrameLayout>
+
+                <Space
+                    android:layout_width="12dp"
+                    android:layout_height="0dp" />
+
+                <ImageButton
+                    android:id="@+id/share"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    app:srcCompat="@drawable/ic_share"
+                    android:background="@drawable/action_button_bg" />
+
+                <Space
+                    android:layout_width="12dp"
+                    android:layout_height="0dp" />
+
+                <ImageButton
+                    android:id="@+id/ellipsis"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:padding="10dp"
+                    app:srcCompat="@drawable/ic_ellipsis_img"
+                    android:background="@drawable/action_button_bg" />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

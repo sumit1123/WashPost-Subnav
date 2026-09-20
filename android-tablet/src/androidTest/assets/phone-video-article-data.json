@@ -1,0 +1,1708 @@
+[
+    {
+        "blogname": "Morning Mix",
+        "blurb": "HitchBot trekked more than 3,000 miles across Canada last summer but lasted only 300 miles in the U.S. before being vandalized beyond repair. ",
+        "contenturl": "http://www.washingtonpost.com/news/morning-mix/wp/2015/08/03/hitchhiking-robots-cross-country-journey-comes-to-tragic-end-in-philadelphia/",
+        "id": "e25d67479bfbfd476e15459d4ba16b0e",
+        "index": 8,
+        "items": [
+            {
+                "content": "Morning Mix",
+                "mime": "text/plain",
+                "type": "kicker"
+            },
+            {
+                "content": "Hitchhiking robot\u2019s cross-country journey comes to tragic end in Philadelphia",
+                "mime": "text/plain",
+                "type": "title"
+            },
+            {
+                "content": "By Sarah Kaplan",
+                "mime": "text/plain",
+                "type": "byline"
+            },
+            {
+                "content": 1438586176000,
+                "mime": "text/plain",
+                "type": "date"
+            },
+            {
+                "blurb": "HitchBot, the robot that had hitchhiked its way across Germany, the Netherlands and across Canada without incident, survived just over two weeks and 300 miles in the United States after being vandalized beyond repair and abandoned on a street in Philadelphia.",
+                "contenturl": "http://www.washingtonpost.com/posttv/business/technology/journey-of-hitchbot-the-hitchhiking-robot-comes-to-tragic-end-in-philadelphia/2015/08/03/1873629a-39e8-11e5-8993-0b783c1d6d37_video.html",
+                "credits": "hitchBOT",
+                "embedCode": "55bf742ee4b0dc1a65c6ad70",
+                "host": "posttv",
+                "id": "1873629a-39e8-11e5-8993-0b783c1d6d37",
+                "imageHeight": 1080,
+                "imageURL": "http://s3.amazonaws.com/posttv-thumbnails-prod/thumbnails/55bf7425e4b046f8603f4c50/20150803_hitchbotUSA.jpg",
+                "imageWidth": 1920,
+                "lmt": 1438610780000,
+                "mediaURL": "http://videos.posttv.com/washpost-production/hitchBOT%20/20150803/55bf7425e4b046f8603f4c50/55bf742ee4b0dc1a65c6ad70_1413917693028-uimk59_t_1438610495320_640_360_600.mp4",
+                "omniture": {
+                    "channel": "business",
+                    "contentSubsection": "business",
+                    "contentType": "video",
+                    "dbpath": "/2010-2019/WashingtonPost/2015/08/03/Technology/Videos/vi-20150803_hitchbotUSA.xml",
+                    "pageName": "business:video - 0b783c1d6d37 - 20150803 - HitchBot: 'Ready for the USA'",
+                    "source": "hitchBOT"
+                },
+                "published": 1438610775220,
+                "shareurl": "http://wapo.st/1ITP2oV",
+                "streamURL": "http://videos.posttv.com/washpost-production/hitchBOT%20/20150803/55bf7425e4b046f8603f4c50/55bf742ee4b0dc1a65c6ad70_t_1438610495833_mobile.m3u8",
+                "title": "HitchBot: 'Ready for the USA'",
+                "type": "video",
+                "url": "false"
+            },
+            {
+                "content": "The team behind hitchBot, the talking,\u00a0tweeting, hitchhiking robot that tries to traverse continents on the kindness of strangers, had always thought of their project as a social experiment. After all the bad press and post-apocalyptic stories that questioned whether humans could ever trust robots, they wanted to\u00a0pose the opposite problem:\u00a0Can robots trust humans?",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "This weekend they got their answer. Robots can\u2019t rely on us. Or at least, not Philadelphians.",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "The endearing droid\u00a0that had thumbed its way across Germany, vacationed in the Netherlands and\u00a0made the improbable 3,600-mile trek across Canada without incident survived just over two weeks and 300 miles in the United States. On Saturday, its\u00a0creators announced that hitchBot had been vandalized beyond repair and abandoned on a street in Philadelphia.",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "blurb": "The robot successfully hitchhiked across Germany, the Netherlands and Canada without incident before being trashed in Philadelphia.",
+                "contenturl": "http://js.washingtonpost.com/national/health-science/see-hitchbot-hitchhike-across-the-country/2015/08/03/164bf5fa-39e7-11e5-b3ac-8a79bc44e5e2_gallery.html",
+                "id": "164bf5fa-39e7-11e5-b3ac-8a79bc44e5e2",
+                "images": [
+                    {
+                        "blurb": "A car drives by hitchBot, a hitchhiking robot in Marblehead, Mass.",
+                        "credit": "AP",
+                        "fullcaption": "A car drives by hitchBot, a hitchhiking robot in Marblehead, Mass. (Stephan Savoia/AP)",
+                        "imageHeight": 2637,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/Hitchhiking_Robot-0698b.jpg",
+                        "imageWidth": 4034,
+                        "photographercredit": "Stephan Savoia",
+                        "title": "July 17, 2015\u00a0",
+                        "type": "image"
+                    },
+                    {
+                        "blurb": "A couple embrace as Dan Winske wheels hitchBot through the stands before a baseball game at Fenway Park between the Boston Red Sox and Detroit Tigers in Boston.",
+                        "credit": "AP",
+                        "fullcaption": "A couple embrace as Dan Winske wheels hitchBot through the stands before a baseball game at Fenway Park between the Boston Red Sox and Detroit Tigers in Boston. (Charles Krupa/AP)",
+                        "imageHeight": 2348,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/Hitchhiking_Robot_Red_Sox_Baseball-0ccd4.jpg",
+                        "imageWidth": 3349,
+                        "photographercredit": "Charles Krupa",
+                        "title": "June 24, 2015\u00a0",
+                        "type": "image"
+                    },
+                    {
+                        "blurb": "Fans take photographs of and examine hitchBot before a baseball game at Fenway Park in Boston.",
+                        "credit": "AP",
+                        "fullcaption": "Fans take photographs of and examine hitchBot before a baseball game at Fenway Park in Boston. (Charles Krupa/AP)",
+                        "imageHeight": 2672,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/Hitchhiking_Robot_Red_Sox_Baseball-02a23.jpg",
+                        "imageWidth": 4639,
+                        "photographercredit": "Charles Krupa",
+                        "title": "June 24, 2015\u00a0\u00a0\u00a0",
+                        "type": "image"
+                    },
+                    {
+                        "blurb": "Food service worker Chris Corsi poses with hitchBot before a baseball game at Fenway Park.",
+                        "credit": "AP",
+                        "fullcaption": "Food service worker Chris Corsi poses with hitchBot before a baseball game at Fenway Park. (Charles Krupa/AP)",
+                        "imageHeight": 2654,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/Hitchhiking_Robot_Red_Sox_Baseball-0e22d.jpg",
+                        "imageWidth": 4965,
+                        "photographercredit": "Charles Krupa",
+                        "title": "June 24, 2015\u00a0\u00a0\u00a0",
+                        "type": "image"
+                    },
+                    {
+                        "blurb": "As pregame activity begins, hitchBot rests on the wall along the first-base line before a baseball game at Fenway Park.",
+                        "credit": "AP",
+                        "fullcaption": "As pregame activity begins, hitchBot rests on the wall along the first-base line before a baseball game at Fenway Park. (Charles Krupa/AP)",
+                        "imageHeight": 2991,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/Hitchhiking_Robot_Red_Sox_Baseball-0efe0.jpg",
+                        "imageWidth": 4720,
+                        "photographercredit": "Charles Krupa",
+                        "title": "June 24, 2015\u00a0\u00a0",
+                        "type": "image"
+                    },
+                    {
+                        "blurb": "Co-creator David Harris Smith carries hitchBot as it\u2019s introduced to an American audience at the Peabody Essex Museum in Salem, Mass.",
+                        "credit": "AP",
+                        "fullcaption": "Co-creator David Harris Smith carries hitchBot as it\u2019s introduced to an American audience at the Peabody Essex Museum in Salem, Mass. (Stephan Savoia/AP)",
+                        "imageHeight": 2947,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/Hitchhiking_Robot-08d6e.jpg",
+                        "imageWidth": 3978,
+                        "photographercredit": "Stephan Savoia",
+                        "title": "Aug. 16, 2015\u00a0",
+                        "type": "image"
+                    },
+                    {
+                        "blurb": "Co-creator Frauke Zeller introduces hitchBot to an American audience at the Peabody Essex Museum in Salem.",
+                        "credit": "AP",
+                        "fullcaption": "Co-creator Frauke Zeller introduces hitchBot to an American audience at the Peabody Essex Museum in Salem. (Stephan Savoia/AP)",
+                        "imageHeight": 2414,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/Hitchhiking_Robot-0a6a5.jpg",
+                        "imageWidth": 3865,
+                        "photographercredit": "Stephan Savoia",
+                        "title": "Aug. 16, 2015\u00a0\u00a0",
+                        "type": "image"
+                    },
+                    {
+                        "blurb": "HitchBot is equipped with a GPS tracker and camera. It also talks, but it is immobile, relying on strangers to get around.",
+                        "credit": "AP",
+                        "fullcaption": "HitchBot is equipped with a GPS tracker and camera. It also talks, but it is immobile, relying on strangers to get around. (Stephan Savoia/AP)",
+                        "imageHeight": 2832,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/Hitchhiking_Robot-05d5e.jpg",
+                        "imageWidth": 4128,
+                        "photographercredit": "Stephan Savoia",
+                        "title": "Aug. 16, 2015\u00a0\u00a0",
+                        "type": "image"
+                    },
+                    {
+                        "blurb": "Before coming to the United States, hitchBot made its way across Germany, vacationed in the Netherlands and\u00a0hitchhiked 3,600 miles across Canada.",
+                        "credit": "AP",
+                        "fullcaption": "Before coming to the United States, hitchBot made its way across Germany, vacationed in the Netherlands and\u00a0hitchhiked 3,600 miles across Canada. (Stephan Savoia/AP)",
+                        "imageHeight": 2640,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/Hitchhiking_Robot-02a83.jpg",
+                        "imageWidth": 5031,
+                        "photographercredit": "Stephan Savoia",
+                        "title": "Aug. 16, 2015\u00a0\u00a0",
+                        "type": "image"
+                    },
+                    {
+                        "blurb": "HitchBot co-creator David Harris Smith adjusts its position as co-creator Frauke Zeller says farewell as the hitchhiking robot starts its journey across the United States in Marblehead, Mass. Its goal was to hitchhike to San Francisco.",
+                        "credit": "AP",
+                        "fullcaption": "HitchBot co-creator David Harris Smith adjusts its position as co-creator Frauke Zeller says farewell as the hitchhiking robot starts its journey across the United States in Marblehead, Mass. Its goal was to hitchhike to San Francisco. (Stephan Savoia/AP)",
+                        "imageHeight": 2649,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/Hitchhiking_Robot-04bd8.jpg",
+                        "imageWidth": 3989,
+                        "photographercredit": "Stephan Savoia",
+                        "title": "Aug. 17, 2015\u00a0\u00a0",
+                        "type": "image"
+                    },
+                    {
+                        "blurb": "People gather around hitchBot as it waits for its first ride in Marblehead.",
+                        "credit": "AP",
+                        "fullcaption": "People gather around hitchBot as it waits for its first ride in Marblehead. (Stephan Savoia/AP)",
+                        "imageHeight": 2606,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/Hitchhiking_Robot-0c964.jpg",
+                        "imageWidth": 4068,
+                        "photographercredit": "Stephan Savoia",
+                        "title": "Aug. 17, 2015\u00a0\u00a0\u00a0",
+                        "type": "image"
+                    },
+                    {
+                        "blurb": "HitchBot sits near the harbor waiting for its first ride as a girl makes her way down to the water in Marblehead.",
+                        "credit": "AP",
+                        "fullcaption": "HitchBot sits near the harbor waiting for its first ride as a girl makes her way down to the water in Marblehead. (Stephan Savoia/AP)",
+                        "imageHeight": 2811,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/APTOPIX_Hitchhiking_Robot-07251.jpg",
+                        "imageWidth": 4109,
+                        "photographercredit": "Stephan Savoia",
+                        "title": "Aug. 17, 2015\u00a0\u00a0\u00a0",
+                        "type": "image"
+                    },
+                    {
+                        "blurb": "A pedestrian walks her dog and talks on her phone as hitchBot waits for a ride in Marblehead.",
+                        "credit": "AP",
+                        "fullcaption": "A pedestrian walks her dog and talks on her phone as hitchBot waits for a ride in Marblehead. (Stephan Savoia/AP)",
+                        "imageHeight": 2381,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/Hitchhiking_Robot-0c497.jpg",
+                        "imageWidth": 3960,
+                        "photographercredit": "Stephan Savoia",
+                        "title": "Aug. 17, 2015\u00a0\u00a0\u00a0",
+                        "type": "image"
+                    },
+                    {
+                        "blurb": "German tourist Quint Siess picks up hitchBot and carries it across Front Street to his car for hitchBot\u2019s first U.S. ride as Siess\u2019s traveling companions Vicky Siess, center, and Sarah Strempel stand by in Marblehead.",
+                        "credit": "AP",
+                        "fullcaption": "German tourist Quint Siess picks up hitchBot and carries it across Front Street to his car for hitchBot\u2019s first U.S. ride as Siess\u2019s traveling companions Vicky Siess, center, and Sarah Strempel stand by in Marblehead. (Stephan Savoia/AP)",
+                        "imageHeight": 2931,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/Hitchhiking_Robot-09f1c.jpg",
+                        "imageWidth": 3962,
+                        "photographercredit": "Stephan Savoia",
+                        "title": "Aug. 17, 2015\u00a0\u00a0\u00a0",
+                        "type": "image"
+                    },
+                    {
+                        "blurb": "German tourist Eric Vogel straps a seat belt around hitchBot as Vogel and his traveling companions give hitchBot its first ride in Marblehead.",
+                        "credit": "AP",
+                        "fullcaption": "German tourist Eric Vogel straps a seat belt around hitchBot as Vogel and his traveling companions give hitchBot its first ride in Marblehead. (Stephan Savoia/AP)",
+                        "imageHeight": 3024,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/Hitchhiking_Robot-0796f.jpg",
+                        "imageWidth": 4048,
+                        "photographercredit": "Stephan Savoia",
+                        "title": "Aug. 17, 2015\u00a0\u00a0\u00a0",
+                        "type": "image"
+                    },
+                    {
+                        "blurb": "German tourist Sarah Strempel climbs into the back seat of a Chevy Suburban to take her place next to hitchBot.",
+                        "credit": "AP",
+                        "fullcaption": "German tourist Sarah Strempel climbs into the back seat of a Chevy Suburban to take her place next to hitchBot. (Stephan Savoia/AP)",
+                        "imageHeight": 2733,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/Hitchhiking_Robot-078af.jpg",
+                        "imageWidth": 3984,
+                        "photographercredit": "Stephan Savoia",
+                        "title": "Aug. 17, 2015\u00a0\u00a0\u00a0\u00a0",
+                        "type": "image"
+                    },
+                    {
+                        "blurb": "HitchBot sits with German tourists Sarah Strempel and Eric Vogel, right, in the back seat of a vehicle as they and their companions prepare to leave Marblehead.",
+                        "credit": "AP",
+                        "fullcaption": "HitchBot sits with German tourists Sarah Strempel and Eric Vogel, right, in the back seat of a vehicle as they and their companions prepare to leave Marblehead. (Stephan Savoia/AP)",
+                        "imageHeight": 2426,
+                        "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/Health-Environment-Science/Images/Hitchhiking_Robot-001cf.jpg",
+                        "imageWidth": 3611,
+                        "photographercredit": "Stephan Savoia",
+                        "title": "Aug. 17, 2015\u00a0\u00a0\u00a0\u00a0",
+                        "type": "image"
+                    }
+                ],
+                "lmt": 1438614874000,
+                "omniture": {
+                    "channel": "national",
+                    "contentSource": "The Washington Post",
+                    "contentType": "gallery",
+                    "pageName": "national:gallery - 8a79bc44e5e2 - 20150803 - see-hitchbot-hitchhike-across-the-country"
+                },
+                "published": 1438612710000,
+                "shareurl": "http://wapo.st/1N4pnYx",
+                "title": "See hitchBot hitchhike across the country",
+                "type": "gallery"
+            },
+            {
+                "content": "\u201cSometimes bad things happen to good robots!\u201d <a href=\"https://twitter.com/hitchBOT/status/627585836515749888\">hitchBot philosophized on Twitter</a>, peculiarly\u00a0chipper\u00a0for a creature that had just been <a href=\"https://twitter.com/AndreaWBZ/status/627627830520770560\">stripped of its arms</a>. <a href=\"https://twitter.com/hitchBOT/status/627593886186254336\">\u201cMy trip must come to an end for now</a>, but my love for humans will never fade.\u201d",
+                "mime": "text/html",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "<em><a href=\"http://www.washingtonpost.com/news/morning-mix/wp/2015/07/17/can-robots-trust-humans-a-hitchhiking-bot-will-find-out/\">[Can robots trust humans? A hitchhiking bot will find out.]</a></em>",
+                "mime": "text/html",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "<a href=\"http://www.washingtonpost.com/lifestyle/travel/hitchhiking-robots-cross-country-trip-in-us-ends-in-philly/2015/08/02/2bbeee62-3927-11e5-8993-0b783c1d6d37_story.html\">According to the Associated Press</a>, the robot\u2019s creators were sent a photo of their\u00a0vandalized\u00a0robot collapsed among trash and dead leaves on the Philadelphia pavement, its\u00a0pool noodle arms ripped from its beer bucket torso, its plastic cake saver skull and robot brain nowhere in sight. They decided not to share the image because it might be upsetting to some viewers.",
+                "mime": "text/html",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "Boston WBZ-TV assignment editor Andrea Courtois\u00a0had no such qualms. She tweeted\u00a0a\u00a0photo of the ugly scene (the bot\u2019s creators <a href=\"http://www.buzzfeed.com/craigsilverman/canadas-adorable-hitchhiking-robot-was-attacked-in-philadelp?utm_term=4ldqpia#.ba61pRGJMA\">confirmed to BuzzFeed</a> that the image is the same one they received).",
+                "mime": "text/html",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": {
+                    "contributors": null,
+                    "coordinates": null,
+                    "created_at": "Sat Aug 01 23:51:50 +0000 2015",
+                    "entities": {
+                        "hashtags": [
+                            {
+                                "indices": [
+                                    61,
+                                    68
+                                ],
+                                "text": "philly"
+                            },
+                            {
+                                "indices": [
+                                    70,
+                                    84
+                                ],
+                                "text": "hitchBOTinUSA"
+                            }
+                        ],
+                        "media": [
+                            {
+                                "display_url": "pic.twitter.com/VAjvGQzF3u",
+                                "expanded_url": "http://twitter.com/AndreaWBZ/status/627627830520770560/photo/1",
+                                "id": 627627777865445376,
+                                "id_str": "627627777865445376",
+                                "indices": [
+                                    102,
+                                    124
+                                ],
+                                "media_url": "http://pbs.twimg.com/media/CLXII37WcAAts-l.jpg",
+                                "media_url_https": "https://pbs.twimg.com/media/CLXII37WcAAts-l.jpg",
+                                "sizes": {
+                                    "large": {
+                                        "h": 1024,
+                                        "resize": "fit",
+                                        "w": 576
+                                    },
+                                    "medium": {
+                                        "h": 1024,
+                                        "resize": "fit",
+                                        "w": 576
+                                    },
+                                    "small": {
+                                        "h": 604,
+                                        "resize": "fit",
+                                        "w": 340
+                                    },
+                                    "thumb": {
+                                        "h": 150,
+                                        "resize": "crop",
+                                        "w": 150
+                                    }
+                                },
+                                "type": "photo",
+                                "url": "http://t.co/VAjvGQzF3u"
+                            }
+                        ],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": []
+                    },
+                    "extended_entities": {
+                        "media": [
+                            {
+                                "display_url": "pic.twitter.com/VAjvGQzF3u",
+                                "expanded_url": "http://twitter.com/AndreaWBZ/status/627627830520770560/photo/1",
+                                "id": 627627777865445376,
+                                "id_str": "627627777865445376",
+                                "indices": [
+                                    102,
+                                    124
+                                ],
+                                "media_url": "http://pbs.twimg.com/media/CLXII37WcAAts-l.jpg",
+                                "media_url_https": "https://pbs.twimg.com/media/CLXII37WcAAts-l.jpg",
+                                "sizes": {
+                                    "large": {
+                                        "h": 1024,
+                                        "resize": "fit",
+                                        "w": 576
+                                    },
+                                    "medium": {
+                                        "h": 1024,
+                                        "resize": "fit",
+                                        "w": 576
+                                    },
+                                    "small": {
+                                        "h": 604,
+                                        "resize": "fit",
+                                        "w": 340
+                                    },
+                                    "thumb": {
+                                        "h": 150,
+                                        "resize": "crop",
+                                        "w": 150
+                                    }
+                                },
+                                "type": "photo",
+                                "url": "http://t.co/VAjvGQzF3u"
+                            }
+                        ]
+                    },
+                    "favorite_count": 151,
+                    "favorited": false,
+                    "geo": null,
+                    "id": 627627830520770560,
+                    "id_str": "627627830520770560",
+                    "in_reply_to_screen_name": null,
+                    "in_reply_to_status_id": null,
+                    "in_reply_to_status_id_str": null,
+                    "in_reply_to_user_id": null,
+                    "in_reply_to_user_id_str": null,
+                    "is_quote_status": false,
+                    "lang": "en",
+                    "place": null,
+                    "possibly_sensitive": false,
+                    "possibly_sensitive_appealable": false,
+                    "retweet_count": 378,
+                    "retweeted": false,
+                    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+                    "text": "EXCLUSIVE PHOTO: evidence of vandalized hitchhiking robot in #philly. #hitchBOTinUSA trip is over.... http://t.co/VAjvGQzF3u",
+                    "truncated": false,
+                    "user": {
+                        "contributors_enabled": false,
+                        "created_at": "Tue Aug 05 23:19:15 +0000 2008",
+                        "default_profile": false,
+                        "default_profile_image": false,
+                        "description": "@CBSBoston / WBZ-TV | Assignment Editor | Dog, music, photography, New England lover, binge watcher and #newsjunkie.",
+                        "entities": {
+                            "description": {
+                                "urls": []
+                            },
+                            "url": {
+                                "urls": [
+                                    {
+                                        "display_url": "cbsboston.com",
+                                        "expanded_url": "http://cbsboston.com",
+                                        "indices": [
+                                            0,
+                                            22
+                                        ],
+                                        "url": "http://t.co/XadspyIduV"
+                                    }
+                                ]
+                            }
+                        },
+                        "favourites_count": 2130,
+                        "follow_request_sent": false,
+                        "followers_count": 9760,
+                        "following": false,
+                        "friends_count": 5594,
+                        "geo_enabled": true,
+                        "has_extended_profile": false,
+                        "id": 15743181,
+                        "id_str": "15743181",
+                        "is_translation_enabled": false,
+                        "is_translator": false,
+                        "lang": "en",
+                        "listed_count": 403,
+                        "location": "Boston",
+                        "name": "AndreaWBZ",
+                        "notifications": false,
+                        "profile_background_color": "022330",
+                        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/651868517/on947cpqxwq5hg4obm2o.jpeg",
+                        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/651868517/on947cpqxwq5hg4obm2o.jpeg",
+                        "profile_background_tile": true,
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/15743181/1360806211",
+                        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000779327951/3252332834ee7969dd782e83e53b25ab_normal.jpeg",
+                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000779327951/3252332834ee7969dd782e83e53b25ab_normal.jpeg",
+                        "profile_link_color": "0084B4",
+                        "profile_sidebar_border_color": "A8C7F7",
+                        "profile_sidebar_fill_color": "C0DFEC",
+                        "profile_text_color": "333333",
+                        "profile_use_background_image": true,
+                        "protected": false,
+                        "screen_name": "AndreaWBZ",
+                        "statuses_count": 39194,
+                        "time_zone": "Eastern Time (US & Canada)",
+                        "url": "http://t.co/XadspyIduV",
+                        "utc_offset": -14400,
+                        "verified": true
+                    }
+                },
+                "type": "tweet"
+            },
+            {
+                "content": "HitchBot\u2019s Canadian team\u00a0can\u2019t\u00a0track\u00a0their creation\u00a0down because its battery is\u00a0dead, they told the AP.",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "On their <a href=\"http://m.hitchbot.me/\">Web site</a> they added that they hope to have more information about the damaged droid by Wednesday. They don\u2019t know who destroyed it or why and are not interested in investigating the incident or pressing charges. For now, they are focusing on the question, \u201cWhat can be learned from this?\u201d",
+                "mime": "text/html",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "Twitter has a few\u00a0suggestions, none of which casts the United States in a particularly flattering light.",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": {
+                    "contributors": null,
+                    "coordinates": null,
+                    "created_at": "Sun Aug 02 01:28:13 +0000 2015",
+                    "entities": {
+                        "hashtags": [
+                            {
+                                "indices": [
+                                    0,
+                                    9
+                                ],
+                                "text": "hitchBOT"
+                            }
+                        ],
+                        "symbols": [],
+                        "urls": [
+                            {
+                                "display_url": "twitter.com/CBCNews/status\u2026",
+                                "expanded_url": "https://twitter.com/CBCNews/status/627648505776087040",
+                                "indices": [
+                                    120,
+                                    143
+                                ],
+                                "url": "https://t.co/4oUHE4u53k"
+                            }
+                        ],
+                        "user_mentions": []
+                    },
+                    "favorite_count": 3,
+                    "favorited": false,
+                    "geo": null,
+                    "id": 627652088550543360,
+                    "id_str": "627652088550543360",
+                    "in_reply_to_screen_name": null,
+                    "in_reply_to_status_id": null,
+                    "in_reply_to_status_id_str": null,
+                    "in_reply_to_user_id": null,
+                    "in_reply_to_user_id_str": null,
+                    "is_quote_status": true,
+                    "lang": "en",
+                    "place": null,
+                    "possibly_sensitive": false,
+                    "possibly_sensitive_appealable": false,
+                    "quoted_status": {
+                        "contributors": null,
+                        "coordinates": null,
+                        "created_at": "Sun Aug 02 01:13:59 +0000 2015",
+                        "entities": {
+                            "hashtags": [],
+                            "media": [
+                                {
+                                    "display_url": "pic.twitter.com/maiSQ7Yj5x",
+                                    "expanded_url": "http://twitter.com/CBCNews/status/627648505776087040/photo/1",
+                                    "id": 627648505658609664,
+                                    "id_str": "627648505658609664",
+                                    "indices": [
+                                        76,
+                                        98
+                                    ],
+                                    "media_url": "http://pbs.twimg.com/media/CLXa_Y-WEAA5Ggn.jpg",
+                                    "media_url_https": "https://pbs.twimg.com/media/CLXa_Y-WEAA5Ggn.jpg",
+                                    "sizes": {
+                                        "large": {
+                                            "h": 259,
+                                            "resize": "fit",
+                                            "w": 460
+                                        },
+                                        "medium": {
+                                            "h": 259,
+                                            "resize": "fit",
+                                            "w": 460
+                                        },
+                                        "small": {
+                                            "h": 191,
+                                            "resize": "fit",
+                                            "w": 340
+                                        },
+                                        "thumb": {
+                                            "h": 150,
+                                            "resize": "crop",
+                                            "w": 150
+                                        }
+                                    },
+                                    "type": "photo",
+                                    "url": "http://t.co/maiSQ7Yj5x"
+                                }
+                            ],
+                            "symbols": [],
+                            "urls": [
+                                {
+                                    "display_url": "ift.tt/1DjgzxJ",
+                                    "expanded_url": "http://ift.tt/1DjgzxJ",
+                                    "indices": [
+                                        53,
+                                        75
+                                    ],
+                                    "url": "http://t.co/M1VnKtXSv0"
+                                }
+                            ],
+                            "user_mentions": []
+                        },
+                        "extended_entities": {
+                            "media": [
+                                {
+                                    "display_url": "pic.twitter.com/maiSQ7Yj5x",
+                                    "expanded_url": "http://twitter.com/CBCNews/status/627648505776087040/photo/1",
+                                    "id": 627648505658609664,
+                                    "id_str": "627648505658609664",
+                                    "indices": [
+                                        76,
+                                        98
+                                    ],
+                                    "media_url": "http://pbs.twimg.com/media/CLXa_Y-WEAA5Ggn.jpg",
+                                    "media_url_https": "https://pbs.twimg.com/media/CLXa_Y-WEAA5Ggn.jpg",
+                                    "sizes": {
+                                        "large": {
+                                            "h": 259,
+                                            "resize": "fit",
+                                            "w": 460
+                                        },
+                                        "medium": {
+                                            "h": 259,
+                                            "resize": "fit",
+                                            "w": 460
+                                        },
+                                        "small": {
+                                            "h": 191,
+                                            "resize": "fit",
+                                            "w": 340
+                                        },
+                                        "thumb": {
+                                            "h": 150,
+                                            "resize": "crop",
+                                            "w": 150
+                                        }
+                                    },
+                                    "type": "photo",
+                                    "url": "http://t.co/maiSQ7Yj5x"
+                                }
+                            ]
+                        },
+                        "favorite_count": 110,
+                        "favorited": false,
+                        "geo": null,
+                        "id": 627648505776087040,
+                        "id_str": "627648505776087040",
+                        "in_reply_to_screen_name": null,
+                        "in_reply_to_status_id": null,
+                        "in_reply_to_status_id_str": null,
+                        "in_reply_to_user_id": null,
+                        "in_reply_to_user_id_str": null,
+                        "is_quote_status": false,
+                        "lang": "en",
+                        "place": null,
+                        "possibly_sensitive": false,
+                        "possibly_sensitive_appealable": false,
+                        "retweet_count": 295,
+                        "retweeted": false,
+                        "source": "<a href=\"http://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+                        "text": "HitchBOT destroyed in Philadelphia, ending U.S. tour http://t.co/M1VnKtXSv0 http://t.co/maiSQ7Yj5x",
+                        "truncated": false,
+                        "user": {
+                            "contributors_enabled": false,
+                            "created_at": "Wed May 30 05:20:39 +0000 2007",
+                            "default_profile": false,
+                            "default_profile_image": false,
+                            "description": "Canadian breaking news and analysis from CBCNews.ca, TV and radio.",
+                            "entities": {
+                                "description": {
+                                    "urls": []
+                                },
+                                "url": {
+                                    "urls": [
+                                        {
+                                            "display_url": "cbc.ca/news/",
+                                            "expanded_url": "http://www.cbc.ca/news/",
+                                            "indices": [
+                                                0,
+                                                22
+                                            ],
+                                            "url": "http://t.co/ZLZObOnET1"
+                                        }
+                                    ]
+                                }
+                            },
+                            "favourites_count": 5008,
+                            "follow_request_sent": false,
+                            "followers_count": 1185346,
+                            "following": false,
+                            "friends_count": 2213,
+                            "geo_enabled": true,
+                            "has_extended_profile": false,
+                            "id": 6433472,
+                            "id_str": "6433472",
+                            "is_translation_enabled": false,
+                            "is_translator": false,
+                            "lang": "en",
+                            "listed_count": 11074,
+                            "location": "Canada",
+                            "name": "CBC News",
+                            "notifications": false,
+                            "profile_background_color": "000000",
+                            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/167724092/cbcnews_twitter_pg-yellow.JPG",
+                            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/167724092/cbcnews_twitter_pg-yellow.JPG",
+                            "profile_background_tile": false,
+                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/6433472/1400096610",
+                            "profile_image_url": "http://pbs.twimg.com/profile_images/466664981673410560/886Az0vu_normal.jpeg",
+                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/466664981673410560/886Az0vu_normal.jpeg",
+                            "profile_link_color": "FF0000",
+                            "profile_sidebar_border_color": "F2E195",
+                            "profile_sidebar_fill_color": "FFF7CC",
+                            "profile_text_color": "0C3E53",
+                            "profile_use_background_image": true,
+                            "protected": false,
+                            "screen_name": "CBCNews",
+                            "statuses_count": 119013,
+                            "time_zone": "Eastern Time (US & Canada)",
+                            "url": "http://t.co/ZLZObOnET1",
+                            "utc_offset": -14400,
+                            "verified": true
+                        }
+                    },
+                    "quoted_status_id": 627648505776087040,
+                    "quoted_status_id_str": "627648505776087040",
+                    "retweet_count": 4,
+                    "retweeted": false,
+                    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+                    "text": "#hitchBOT destroyed in US because of course it was. Can traverse Canada & Europe fine, Americans mess everything up https://t.co/4oUHE4u53k",
+                    "truncated": false,
+                    "user": {
+                        "contributors_enabled": false,
+                        "created_at": "Sat Aug 01 06:27:02 +0000 2009",
+                        "default_profile": false,
+                        "default_profile_image": false,
+                        "description": "@ualbertaSU Students' Union Councillor - Faculty of Open Studies. @CJSR Board of Directors. @UofAIC Senior Peer.",
+                        "entities": {
+                            "description": {
+                                "urls": []
+                            },
+                            "url": {
+                                "urls": [
+                                    {
+                                        "display_url": "su.ualberta.ca",
+                                        "expanded_url": "http://www.su.ualberta.ca/",
+                                        "indices": [
+                                            0,
+                                            22
+                                        ],
+                                        "url": "http://t.co/f16gNn7A33"
+                                    }
+                                ]
+                            }
+                        },
+                        "favourites_count": 356,
+                        "follow_request_sent": false,
+                        "followers_count": 79,
+                        "following": false,
+                        "friends_count": 163,
+                        "geo_enabled": true,
+                        "has_extended_profile": true,
+                        "id": 61979228,
+                        "id_str": "61979228",
+                        "is_translation_enabled": false,
+                        "is_translator": false,
+                        "lang": "en",
+                        "listed_count": 3,
+                        "location": "Edmonton, AB",
+                        "name": "Levi Flaman",
+                        "notifications": false,
+                        "profile_background_color": "000000",
+                        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+                        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+                        "profile_background_tile": false,
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/61979228/1398346024",
+                        "profile_image_url": "http://pbs.twimg.com/profile_images/606591358745182208/HdvZbqxE_normal.jpg",
+                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/606591358745182208/HdvZbqxE_normal.jpg",
+                        "profile_link_color": "4A913C",
+                        "profile_sidebar_border_color": "000000",
+                        "profile_sidebar_fill_color": "000000",
+                        "profile_text_color": "000000",
+                        "profile_use_background_image": false,
+                        "protected": false,
+                        "screen_name": "LeviFlaman",
+                        "statuses_count": 2669,
+                        "time_zone": "Mountain Time (US & Canada)",
+                        "url": "http://t.co/f16gNn7A33",
+                        "utc_offset": -21600,
+                        "verified": false
+                    }
+                },
+                "type": "tweet"
+            },
+            {
+                "content": {
+                    "contributors": null,
+                    "coordinates": null,
+                    "created_at": "Sun Aug 02 14:33:36 +0000 2015",
+                    "entities": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "urls": [
+                            {
+                                "display_url": "cbc.ca/m/news/technol\u2026",
+                                "expanded_url": "http://www.cbc.ca/m/news/technology/hitchbot-destroyed-in-philadelphia-ending-u-s-tour-1.3177098",
+                                "indices": [
+                                    0,
+                                    22
+                                ],
+                                "url": "http://t.co/gpWVMrjQkz"
+                            }
+                        ],
+                        "user_mentions": []
+                    },
+                    "favorite_count": 3,
+                    "favorited": false,
+                    "geo": null,
+                    "id": 627849735798288384,
+                    "id_str": "627849735798288384",
+                    "in_reply_to_screen_name": null,
+                    "in_reply_to_status_id": null,
+                    "in_reply_to_status_id_str": null,
+                    "in_reply_to_user_id": null,
+                    "in_reply_to_user_id_str": null,
+                    "is_quote_status": false,
+                    "lang": "en",
+                    "place": null,
+                    "possibly_sensitive": false,
+                    "possibly_sensitive_appealable": false,
+                    "retweet_count": 2,
+                    "retweeted": false,
+                    "source": "<a href=\"http://tapbots.com/tweetbot\" rel=\"nofollow\">Tweetbot for i\u039fS</a>",
+                    "text": "http://t.co/gpWVMrjQkz Really, Americans? This is why you can\u2019t have nice things.",
+                    "truncated": false,
+                    "user": {
+                        "contributors_enabled": false,
+                        "created_at": "Sat Apr 11 02:01:03 +0000 2009",
+                        "default_profile": false,
+                        "default_profile_image": false,
+                        "description": "Ruby/Rails/RubyMotion developer, Software Craftsperson, Gadget Geek, Dog Lover",
+                        "entities": {
+                            "description": {
+                                "urls": []
+                            },
+                            "url": {
+                                "urls": [
+                                    {
+                                        "display_url": "wndx.com",
+                                        "expanded_url": "http://wndx.com",
+                                        "indices": [
+                                            0,
+                                            22
+                                        ],
+                                        "url": "http://t.co/hQhgUNITKq"
+                                    }
+                                ]
+                            }
+                        },
+                        "favourites_count": 610,
+                        "follow_request_sent": false,
+                        "followers_count": 2792,
+                        "following": false,
+                        "friends_count": 2721,
+                        "geo_enabled": false,
+                        "has_extended_profile": false,
+                        "id": 30369946,
+                        "id_str": "30369946",
+                        "is_translation_enabled": false,
+                        "is_translator": false,
+                        "lang": "en",
+                        "listed_count": 193,
+                        "location": "Lethbridge, AB",
+                        "name": "Lori M Olson",
+                        "notifications": false,
+                        "profile_background_color": "EBEBEB",
+                        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+                        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+                        "profile_background_tile": false,
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/30369946/1367003998",
+                        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000790491454/fcf7dbac0162576cc840197a1f17f674_normal.jpeg",
+                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000790491454/fcf7dbac0162576cc840197a1f17f674_normal.jpeg",
+                        "profile_link_color": "990000",
+                        "profile_sidebar_border_color": "DFDFDF",
+                        "profile_sidebar_fill_color": "F3F3F3",
+                        "profile_text_color": "333333",
+                        "profile_use_background_image": true,
+                        "protected": false,
+                        "screen_name": "wndxlori",
+                        "statuses_count": 39719,
+                        "time_zone": "Mountain Time (US & Canada)",
+                        "url": "http://t.co/hQhgUNITKq",
+                        "utc_offset": -21600,
+                        "verified": false
+                    }
+                },
+                "type": "tweet"
+            },
+            {
+                "content": "Still, the robot\u2019s\u00a0creators want to focus on the good times. After all, hitchBot had two full weeks of fun before meeting its tragic end.",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "The endearing little droid started its journey on a road in Marblehead, Mass., on July 17, its rubber-gloved thumb raised skyward, a strip of tape across its solar panel-plastered body reading \u201cSan Francisco or bust!\u201d The robot was immobile, which means it relied on the kindness of strangers to help it get from place to place.",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "It took an hour and a half for hitchBot\u2019s first ride to pull over.",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": {
+                    "contributors": null,
+                    "coordinates": null,
+                    "created_at": "Fri Jul 17 18:37:46 +0000 2015",
+                    "entities": {
+                        "hashtags": [
+                            {
+                                "indices": [
+                                    103,
+                                    117
+                                ],
+                                "text": "hitchBOTinUSA"
+                            }
+                        ],
+                        "media": [
+                            {
+                                "display_url": "pic.twitter.com/7rZGHwUuND",
+                                "expanded_url": "http://twitter.com/hitchBOT/status/622112978213699585/photo/1",
+                                "id": 622112976758272001,
+                                "id_str": "622112976758272001",
+                                "indices": [
+                                    118,
+                                    140
+                                ],
+                                "media_url": "http://pbs.twimg.com/media/CKIwdM3WcAETVJX.jpg",
+                                "media_url_https": "https://pbs.twimg.com/media/CKIwdM3WcAETVJX.jpg",
+                                "sizes": {
+                                    "large": {
+                                        "h": 960,
+                                        "resize": "fit",
+                                        "w": 960
+                                    },
+                                    "medium": {
+                                        "h": 600,
+                                        "resize": "fit",
+                                        "w": 600
+                                    },
+                                    "small": {
+                                        "h": 340,
+                                        "resize": "fit",
+                                        "w": 340
+                                    },
+                                    "thumb": {
+                                        "h": 150,
+                                        "resize": "crop",
+                                        "w": 150
+                                    }
+                                },
+                                "type": "photo",
+                                "url": "http://t.co/7rZGHwUuND"
+                            }
+                        ],
+                        "symbols": [],
+                        "urls": [
+                            {
+                                "display_url": "goo.gl/t2gPLZ",
+                                "expanded_url": "https://goo.gl/t2gPLZ",
+                                "indices": [
+                                    79,
+                                    102
+                                ],
+                                "url": "https://t.co/YQjBkJ8Rsk"
+                            }
+                        ],
+                        "user_mentions": [
+                            {
+                                "id": 17814938,
+                                "id_str": "17814938",
+                                "indices": [
+                                    69,
+                                    77
+                                ],
+                                "name": "Storify",
+                                "screen_name": "Storify"
+                            }
+                        ]
+                    },
+                    "extended_entities": {
+                        "media": [
+                            {
+                                "display_url": "pic.twitter.com/7rZGHwUuND",
+                                "expanded_url": "http://twitter.com/hitchBOT/status/622112978213699585/photo/1",
+                                "id": 622112976758272001,
+                                "id_str": "622112976758272001",
+                                "indices": [
+                                    118,
+                                    140
+                                ],
+                                "media_url": "http://pbs.twimg.com/media/CKIwdM3WcAETVJX.jpg",
+                                "media_url_https": "https://pbs.twimg.com/media/CKIwdM3WcAETVJX.jpg",
+                                "sizes": {
+                                    "large": {
+                                        "h": 960,
+                                        "resize": "fit",
+                                        "w": 960
+                                    },
+                                    "medium": {
+                                        "h": 600,
+                                        "resize": "fit",
+                                        "w": 600
+                                    },
+                                    "small": {
+                                        "h": 340,
+                                        "resize": "fit",
+                                        "w": 340
+                                    },
+                                    "thumb": {
+                                        "h": 150,
+                                        "resize": "crop",
+                                        "w": 150
+                                    }
+                                },
+                                "type": "photo",
+                                "url": "http://t.co/7rZGHwUuND"
+                            }
+                        ]
+                    },
+                    "favorite_count": 109,
+                    "favorited": false,
+                    "geo": null,
+                    "id": 622112978213699585,
+                    "id_str": "622112978213699585",
+                    "in_reply_to_screen_name": null,
+                    "in_reply_to_status_id": null,
+                    "in_reply_to_status_id_str": null,
+                    "in_reply_to_user_id": null,
+                    "in_reply_to_user_id_str": null,
+                    "is_quote_status": false,
+                    "lang": "en",
+                    "place": null,
+                    "possibly_sensitive": false,
+                    "possibly_sensitive_appealable": false,
+                    "retweet_count": 107,
+                    "retweeted": false,
+                    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                    "text": "I have hitched my first ride, everything is hunky-dory! Follow me on @Storify: https://t.co/YQjBkJ8Rsk #hitchBOTinUSA http://t.co/7rZGHwUuND",
+                    "truncated": false,
+                    "user": {
+                        "contributors_enabled": false,
+                        "created_at": "Thu May 01 14:58:26 +0000 2014",
+                        "default_profile": false,
+                        "default_profile_image": false,
+                        "description": "Canadian hitchhiking robot.",
+                        "entities": {
+                            "description": {
+                                "urls": []
+                            },
+                            "url": {
+                                "urls": [
+                                    {
+                                        "display_url": "hitchbot.me",
+                                        "expanded_url": "http://www.hitchbot.me",
+                                        "indices": [
+                                            0,
+                                            22
+                                        ],
+                                        "url": "http://t.co/nBexgoqB6t"
+                                    }
+                                ]
+                            }
+                        },
+                        "favourites_count": 1622,
+                        "follow_request_sent": false,
+                        "followers_count": 49728,
+                        "following": false,
+                        "friends_count": 221,
+                        "geo_enabled": false,
+                        "has_extended_profile": false,
+                        "id": 2472630098,
+                        "id_str": "2472630098",
+                        "is_translation_enabled": false,
+                        "is_translator": false,
+                        "lang": "en",
+                        "listed_count": 355,
+                        "location": "Toronto, ON",
+                        "name": "hitchBOT",
+                        "notifications": false,
+                        "profile_background_color": "C0DEED",
+                        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                        "profile_background_tile": false,
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2472630098/1436799534",
+                        "profile_image_url": "http://pbs.twimg.com/profile_images/489418973285343232/Da77a7jf_normal.jpeg",
+                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/489418973285343232/Da77a7jf_normal.jpeg",
+                        "profile_link_color": "00B3A4",
+                        "profile_sidebar_border_color": "C0DEED",
+                        "profile_sidebar_fill_color": "DDEEF6",
+                        "profile_text_color": "333333",
+                        "profile_use_background_image": true,
+                        "protected": false,
+                        "screen_name": "hitchBOT",
+                        "statuses_count": 585,
+                        "time_zone": null,
+                        "url": "http://t.co/nBexgoqB6t",
+                        "utc_offset": null,
+                        "verified": false
+                    }
+                },
+                "type": "tweet"
+            },
+            {
+                "content": "When its first friends had carried the hitchBot\u00a0as far as they could take it, they dropped it off for the next person to find. The toddler-sized robot made for an agreeable travel companion. Equipped with a GPS tracker and a camera, it dutifully chronicled each step of its journey and was programmed to snap a\u00a0photo of what was going on around it every 20 minutes (though the team behind the robot sought\u00a0permission from the people in the photos before posting them online).",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "The bot also sang, danced, tossed\u00a0out trivia and talked\u00a0\u2014 sometimes incessantly.",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "\u201cIt can be quite chatty,\u201d co-creator Frauke Zeller <a href=\"http://www.bostonmagazine.com/arts-entertainment/blog/2015/07/09/hitchbot-hitchhiking-robot/\">told Boston Magazine</a>\u00a0last month, before her creation\u2019s tragic demise. \u201cSometimes it\u2019s a little annoying, and it doesn\u2019t shut up, but you can tell it to be quiet.\u201d",
+                "mime": "text/html",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "After leaving Marblehead, hitchBot\u00a0snagged\u00a0a boat ride around Gloucester, a ticket to a Red Sox game and several tours of Boston landmarks. It even found a friend of its own kind:",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": {
+                    "contributors": null,
+                    "coordinates": null,
+                    "created_at": "Fri Jul 24 14:59:52 +0000 2015",
+                    "entities": {
+                        "hashtags": [
+                            {
+                                "indices": [
+                                    56,
+                                    70
+                                ],
+                                "text": "hitchBOTinUSA"
+                            },
+                            {
+                                "indices": [
+                                    71,
+                                    80
+                                ],
+                                "text": "hitchbot"
+                            }
+                        ],
+                        "media": [
+                            {
+                                "display_url": "pic.twitter.com/EgCzB0vjEX",
+                                "expanded_url": "http://twitter.com/MazyYap/status/624594855423950849/photo/1",
+                                "id": 624594807130689536,
+                                "id_str": "624594807130689536",
+                                "indices": [
+                                    81,
+                                    103
+                                ],
+                                "media_url": "http://pbs.twimg.com/media/CKsBqveUEAAfrMU.jpg",
+                                "media_url_https": "https://pbs.twimg.com/media/CKsBqveUEAAfrMU.jpg",
+                                "sizes": {
+                                    "large": {
+                                        "h": 1024,
+                                        "resize": "fit",
+                                        "w": 768
+                                    },
+                                    "medium": {
+                                        "h": 800,
+                                        "resize": "fit",
+                                        "w": 600
+                                    },
+                                    "small": {
+                                        "h": 453,
+                                        "resize": "fit",
+                                        "w": 340
+                                    },
+                                    "thumb": {
+                                        "h": 150,
+                                        "resize": "crop",
+                                        "w": 150
+                                    }
+                                },
+                                "type": "photo",
+                                "url": "http://t.co/EgCzB0vjEX"
+                            }
+                        ],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": [
+                            {
+                                "id": 2472630098,
+                                "id_str": "2472630098",
+                                "indices": [
+                                    8,
+                                    17
+                                ],
+                                "name": "hitchBOT",
+                                "screen_name": "hitchBOT"
+                            },
+                            {
+                                "id": 28612015,
+                                "id_str": "28612015",
+                                "indices": [
+                                    42,
+                                    55
+                                ],
+                                "name": "Hill Holliday",
+                                "screen_name": "hillholliday"
+                            }
+                        ]
+                    },
+                    "extended_entities": {
+                        "media": [
+                            {
+                                "display_url": "pic.twitter.com/EgCzB0vjEX",
+                                "expanded_url": "http://twitter.com/MazyYap/status/624594855423950849/photo/1",
+                                "id": 624594807130689536,
+                                "id_str": "624594807130689536",
+                                "indices": [
+                                    81,
+                                    103
+                                ],
+                                "media_url": "http://pbs.twimg.com/media/CKsBqveUEAAfrMU.jpg",
+                                "media_url_https": "https://pbs.twimg.com/media/CKsBqveUEAAfrMU.jpg",
+                                "sizes": {
+                                    "large": {
+                                        "h": 1024,
+                                        "resize": "fit",
+                                        "w": 768
+                                    },
+                                    "medium": {
+                                        "h": 800,
+                                        "resize": "fit",
+                                        "w": 600
+                                    },
+                                    "small": {
+                                        "h": 453,
+                                        "resize": "fit",
+                                        "w": 340
+                                    },
+                                    "thumb": {
+                                        "h": 150,
+                                        "resize": "crop",
+                                        "w": 150
+                                    }
+                                },
+                                "type": "photo",
+                                "url": "http://t.co/EgCzB0vjEX"
+                            }
+                        ]
+                    },
+                    "favorite_count": 73,
+                    "favorited": false,
+                    "geo": null,
+                    "id": 624594855423950849,
+                    "id_str": "624594855423950849",
+                    "in_reply_to_screen_name": null,
+                    "in_reply_to_status_id": null,
+                    "in_reply_to_status_id_str": null,
+                    "in_reply_to_user_id": null,
+                    "in_reply_to_user_id_str": null,
+                    "is_quote_status": false,
+                    "lang": "en",
+                    "place": {
+                        "attributes": {},
+                        "bounding_box": {
+                            "coordinates": [
+                                [
+                                    [
+                                        -71.191505000000006,
+                                        42.227797000000002
+                                    ],
+                                    [
+                                        -70.986003999999994,
+                                        42.227797000000002
+                                    ],
+                                    [
+                                        -70.986003999999994,
+                                        42.399541999999997
+                                    ],
+                                    [
+                                        -71.191505000000006,
+                                        42.399541999999997
+                                    ]
+                                ]
+                            ],
+                            "type": "Polygon"
+                        },
+                        "contained_within": [],
+                        "country": "United States",
+                        "country_code": "US",
+                        "full_name": "Boston, MA",
+                        "id": "67b98f17fdcf20be",
+                        "name": "Boston",
+                        "place_type": "city",
+                        "url": "https://api.twitter.com/1.1/geo/id/67b98f17fdcf20be.json"
+                    },
+                    "possibly_sensitive": false,
+                    "possibly_sensitive_appealable": false,
+                    "retweet_count": 28,
+                    "retweeted": false,
+                    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                    "text": "I think @hitchBOT found a new friend here @hillholliday #hitchBOTinUSA #hitchbot http://t.co/EgCzB0vjEX",
+                    "truncated": false,
+                    "user": {
+                        "contributors_enabled": false,
+                        "created_at": "Thu Mar 11 03:37:34 +0000 2010",
+                        "default_profile": false,
+                        "default_profile_image": false,
+                        "description": "Digital Strategy @HillHolliday. Eats excessively. Intrigued by problems we haven't solved and discoveries we haven't made.",
+                        "entities": {
+                            "description": {
+                                "urls": []
+                            },
+                            "url": {
+                                "urls": [
+                                    {
+                                        "display_url": "flavors.me/mazyyap",
+                                        "expanded_url": "http://flavors.me/mazyyap",
+                                        "indices": [
+                                            0,
+                                            22
+                                        ],
+                                        "url": "http://t.co/2RkJnZR50C"
+                                    }
+                                ]
+                            }
+                        },
+                        "favourites_count": 639,
+                        "follow_request_sent": false,
+                        "followers_count": 992,
+                        "following": false,
+                        "friends_count": 889,
+                        "geo_enabled": true,
+                        "has_extended_profile": false,
+                        "id": 121948825,
+                        "id_str": "121948825",
+                        "is_translation_enabled": false,
+                        "is_translator": false,
+                        "lang": "en",
+                        "listed_count": 72,
+                        "location": "Boston/Hong Kong",
+                        "name": "Mazy Yap",
+                        "notifications": false,
+                        "profile_background_color": "FFFFFF",
+                        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/552480215620796416/6n8x67mc.jpeg",
+                        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/552480215620796416/6n8x67mc.jpeg",
+                        "profile_background_tile": false,
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/121948825/1420916295",
+                        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000367261930/4ad5298c5d037ec23743fef76daa07e4_normal.png",
+                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000367261930/4ad5298c5d037ec23743fef76daa07e4_normal.png",
+                        "profile_link_color": "ED3987",
+                        "profile_sidebar_border_color": "FFFFFF",
+                        "profile_sidebar_fill_color": "E5507E",
+                        "profile_text_color": "362720",
+                        "profile_use_background_image": false,
+                        "protected": false,
+                        "screen_name": "MazyYap",
+                        "statuses_count": 4848,
+                        "time_zone": "Eastern Time (US & Canada)",
+                        "url": "http://t.co/2RkJnZR50C",
+                        "utc_offset": -14400,
+                        "verified": false
+                    }
+                },
+                "type": "tweet"
+            },
+            {
+                "content": "By July 28, hitchBot had made it to New York, the first of several stops on its U.S.\u00a0<a href=\"http://m.hitchbot.me/usa/bucket-list/\">bucket list</a>.",
+                "mime": "text/html",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": {
+                    "contributors": null,
+                    "coordinates": null,
+                    "created_at": "Sun Jul 26 19:53:56 +0000 2015",
+                    "entities": {
+                        "hashtags": [],
+                        "media": [
+                            {
+                                "display_url": "pic.twitter.com/EKIQk4J1lB",
+                                "expanded_url": "http://twitter.com/hitchBOT/status/625393635182399489/photo/1",
+                                "id": 625393561660321792,
+                                "id_str": "625393561660321792",
+                                "indices": [
+                                    104,
+                                    126
+                                ],
+                                "media_url": "http://pbs.twimg.com/media/CK3YIX-UcAATKbd.png",
+                                "media_url_https": "https://pbs.twimg.com/media/CK3YIX-UcAATKbd.png",
+                                "sizes": {
+                                    "large": {
+                                        "h": 251,
+                                        "resize": "fit",
+                                        "w": 504
+                                    },
+                                    "medium": {
+                                        "h": 251,
+                                        "resize": "fit",
+                                        "w": 504
+                                    },
+                                    "small": {
+                                        "h": 169,
+                                        "resize": "fit",
+                                        "w": 340
+                                    },
+                                    "thumb": {
+                                        "h": 150,
+                                        "resize": "crop",
+                                        "w": 150
+                                    }
+                                },
+                                "type": "photo",
+                                "url": "http://t.co/EKIQk4J1lB"
+                            }
+                        ],
+                        "symbols": [],
+                        "urls": [],
+                        "user_mentions": []
+                    },
+                    "extended_entities": {
+                        "media": [
+                            {
+                                "display_url": "pic.twitter.com/EKIQk4J1lB",
+                                "expanded_url": "http://twitter.com/hitchBOT/status/625393635182399489/photo/1",
+                                "id": 625393561660321792,
+                                "id_str": "625393561660321792",
+                                "indices": [
+                                    104,
+                                    126
+                                ],
+                                "media_url": "http://pbs.twimg.com/media/CK3YIX-UcAATKbd.png",
+                                "media_url_https": "https://pbs.twimg.com/media/CK3YIX-UcAATKbd.png",
+                                "sizes": {
+                                    "large": {
+                                        "h": 251,
+                                        "resize": "fit",
+                                        "w": 504
+                                    },
+                                    "medium": {
+                                        "h": 251,
+                                        "resize": "fit",
+                                        "w": 504
+                                    },
+                                    "small": {
+                                        "h": 169,
+                                        "resize": "fit",
+                                        "w": 340
+                                    },
+                                    "thumb": {
+                                        "h": 150,
+                                        "resize": "crop",
+                                        "w": 150
+                                    }
+                                },
+                                "type": "photo",
+                                "url": "http://t.co/EKIQk4J1lB"
+                            },
+                            {
+                                "display_url": "pic.twitter.com/EKIQk4J1lB",
+                                "expanded_url": "http://twitter.com/hitchBOT/status/625393635182399489/photo/1",
+                                "id": 625393634301468672,
+                                "id_str": "625393634301468672",
+                                "indices": [
+                                    104,
+                                    126
+                                ],
+                                "media_url": "http://pbs.twimg.com/media/CK3YMmlUYAA9nyY.jpg",
+                                "media_url_https": "https://pbs.twimg.com/media/CK3YMmlUYAA9nyY.jpg",
+                                "sizes": {
+                                    "large": {
+                                        "h": 1365,
+                                        "resize": "fit",
+                                        "w": 1024
+                                    },
+                                    "medium": {
+                                        "h": 800,
+                                        "resize": "fit",
+                                        "w": 600
+                                    },
+                                    "small": {
+                                        "h": 453,
+                                        "resize": "fit",
+                                        "w": 340
+                                    },
+                                    "thumb": {
+                                        "h": 150,
+                                        "resize": "crop",
+                                        "w": 150
+                                    }
+                                },
+                                "type": "photo",
+                                "url": "http://t.co/EKIQk4J1lB"
+                            }
+                        ]
+                    },
+                    "favorite_count": 120,
+                    "favorited": false,
+                    "geo": null,
+                    "id": 625393635182399489,
+                    "id_str": "625393635182399489",
+                    "in_reply_to_screen_name": null,
+                    "in_reply_to_status_id": null,
+                    "in_reply_to_status_id_str": null,
+                    "in_reply_to_user_id": null,
+                    "in_reply_to_user_id_str": null,
+                    "is_quote_status": false,
+                    "lang": "en",
+                    "place": null,
+                    "possibly_sensitive": false,
+                    "possibly_sensitive_appealable": false,
+                    "retweet_count": 46,
+                    "retweeted": false,
+                    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                    "text": "I thought I was bright and flashy, but the lights in Times Square have me beat. Next stop... who knows! http://t.co/EKIQk4J1lB",
+                    "truncated": false,
+                    "user": {
+                        "contributors_enabled": false,
+                        "created_at": "Thu May 01 14:58:26 +0000 2014",
+                        "default_profile": false,
+                        "default_profile_image": false,
+                        "description": "Canadian hitchhiking robot.",
+                        "entities": {
+                            "description": {
+                                "urls": []
+                            },
+                            "url": {
+                                "urls": [
+                                    {
+                                        "display_url": "hitchbot.me",
+                                        "expanded_url": "http://www.hitchbot.me",
+                                        "indices": [
+                                            0,
+                                            22
+                                        ],
+                                        "url": "http://t.co/nBexgoqB6t"
+                                    }
+                                ]
+                            }
+                        },
+                        "favourites_count": 1622,
+                        "follow_request_sent": false,
+                        "followers_count": 49359,
+                        "following": false,
+                        "friends_count": 221,
+                        "geo_enabled": false,
+                        "has_extended_profile": false,
+                        "id": 2472630098,
+                        "id_str": "2472630098",
+                        "is_translation_enabled": false,
+                        "is_translator": false,
+                        "lang": "en",
+                        "listed_count": 355,
+                        "location": "Toronto, ON",
+                        "name": "hitchBOT",
+                        "notifications": false,
+                        "profile_background_color": "C0DEED",
+                        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                        "profile_background_tile": false,
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2472630098/1436799534",
+                        "profile_image_url": "http://pbs.twimg.com/profile_images/489418973285343232/Da77a7jf_normal.jpeg",
+                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/489418973285343232/Da77a7jf_normal.jpeg",
+                        "profile_link_color": "00B3A4",
+                        "profile_sidebar_border_color": "C0DEED",
+                        "profile_sidebar_fill_color": "DDEEF6",
+                        "profile_text_color": "333333",
+                        "profile_use_background_image": true,
+                        "protected": false,
+                        "screen_name": "hitchBOT",
+                        "statuses_count": 585,
+                        "time_zone": null,
+                        "url": "http://t.co/nBexgoqB6t",
+                        "utc_offset": null,
+                        "verified": false
+                    }
+                },
+                "type": "tweet"
+            },
+            {
+                "content": "Then, just after\u00a0midnight on Aug. 1,\u00a0the night of the crime in question, hitchBot was picked up by YouTube celebrity Jesse Wellens, who posted a video with the little guy.",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "\u201cHitchbot, do you need a seat belt?,\u201d Wellens asked in the video.",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "The robot\u2019s red LED smile contracted, then reappeared",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "\u201cYes,\u201d it responded in a tinny robot voice, eliciting a chuckle from Wellens.",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "The hitchBot showed its snarky side that evening as well. When a friend of Wellens asked the robot to ride in the trunk, it asked, \u201cWhy? So you can insult me again?\u201d",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "Minutes later the robot was sitting in\u00a0the back seat, seat belt buckled.",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "blurb": "DRONE PRANK + NO WHEEL WHEELIE",
+                "content": {
+                    "author_name": "BFvsGF",
+                    "author_url": "https://www.youtube.com/user/BFvsGF",
+                    "height": 270,
+                    "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/cTP8prb-zO8?feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>",
+                    "provider_name": "YouTube",
+                    "provider_url": "https://www.youtube.com/",
+                    "thumbnail_height": 360,
+                    "thumbnail_url": "https://i.ytimg.com/vi/cTP8prb-zO8/hqdefault.jpg",
+                    "thumbnail_width": 480,
+                    "title": "DRONE PRANK + NO WHEEL WHEELIE",
+                    "type": "video",
+                    "version": "1.0",
+                    "width": 480
+                },
+                "contenturl": "http://www.youtube.com/watch?v=cTP8prb-zO8",
+                "host": "youtube",
+                "imageHeight": 720,
+                "imageURL": "https://i.ytimg.com/vi/cTP8prb-zO8/maxresdefault.jpg",
+                "imageWidth": 1280,
+                "mediaURL": "http://www.youtube.com/watch?v=cTP8prb-zO8",
+                "type": "video"
+            },
+            {
+                "content": "In the early hours of Saturday morning, Wellens tweeted that he was going to drop\u00a0the droid off\u00a0at historic\u00a0<a href=\"http://www.visitphilly.com/history/philadelphia/elfreths-alley/\">Elfreths Ally</a>, often said to be the oldest residential street in America. A map\u00a0that tracks hitchBot\u2019s movements confirms that the bot made it there.",
+                "mime": "text/html",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "But aside from the gory\u00a0photo of their apparently decapitated creation, Team hitchBot hasn\u2019t heard from their creation since.",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "content": "\u201cSadly, sadly it\u2019s come to an end,\u201d Zeller told the AP.",
+                "mime": "text/plain",
+                "subtype": "paragraph",
+                "type": "sanitized_html"
+            },
+            {
+                "bio": "Sarah Kaplan is a reporter for Morning Mix.",
+                "name": "Sarah Kaplan",
+                "role": "Reporter",
+                "type": "author_info"
+            }
+        ],
+        "lmt": 1438614516000,
+        "omniture": {
+            "channel": "national",
+            "contentAuthor": "Sarah Kaplan",
+            "contentSource": "The Washington Post",
+            "contentType": "blog",
+            "pageName": "national:morning-mix - e25d67479bfbfd476e15459d4ba16b0e - 20150803 - hitchhiking-robots-cross-country-journey-comes-to-tragic-end-in-philadelphia"
+        },
+        "published": 1438586176000,
+        "section": "National",
+        "shareurl": "http://wapo.st/1JGX833",
+        "source": "The Washington Post",
+        "sourcecategory": "National",
+        "sourcepostid": 121328,
+        "sourcesection": "national",
+        "sourcesubsection": null,
+        "title": "Hitchhiking robot\u2019s cross-country journey comes to tragic end in Philadelphia",
+        "type": "blog"
+    }
+]

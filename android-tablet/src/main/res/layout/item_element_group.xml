@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/element_group_container"
+    style="@style/ArticleElementGroupCell"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content">
+
+    <include layout="@layout/fragment_article_element_group_link_box" />
+</androidx.cardview.widget.CardView>

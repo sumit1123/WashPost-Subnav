@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2018. The Washington Post. All rights reserved.
+  -->
+
+<FrameLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content">
+
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:orientation="vertical">
+
+        <TextView
+            a:id="@+id/tv_live_blog_title"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center_horizontal"
+            a:gravity="center_horizontal"
+            a:text="@string/live_blog_live_updates"
+            a:layout_marginTop="8dp" />
+
+        <View
+            a:layout_width="match_parent"
+            a:layout_height="1dp"
+            a:layout_marginTop="8dp"
+            a:background="@color/live_blog_by_line" />
+
+        <com.wapo.view.ProportionalLayout
+            a:id="@+id/layout_live_blog_image"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:visibility="gone"
+            a:layout_marginTop="8dp"
+            a:layout_marginBottom="8dp">
+
+            <com.washingtonpost.android.volley.toolbox.NetworkAnimatedImageView
+                a:id="@+id/iv_live_blog_image"
+                a:layout_width="match_parent"
+                a:layout_height="match_parent"
+                a:scaleType="fitXY"
+                a:adjustViewBounds="true" />
+        </com.wapo.view.ProportionalLayout>
+
+        <TextView
+            a:id="@+id/tv_live_blog_headline"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_marginLeft="15dp"
+            a:layout_marginRight="15dp"
+            a:layout_marginTop="8dp"
+            a:gravity="center_horizontal"
+            a:visibility="gone"/>
+
+        <TextView
+            a:id="@+id/tv_live_blog_deck"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_marginLeft="15dp"
+            a:layout_marginRight="15dp"
+            a:layout_marginTop="8dp"
+            a:gravity="center_horizontal"
+            a:textSize="@dimen/live_blog_deck_text_size"
+            a:visibility="gone" />
+
+        <com.washingtonpost.android.androidlive.liveblog.view.LiveBlogView
+            a:id="@+id/live_blog_view"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content" />
+
+        <TextView
+            a:id="@+id/tv_live_blog_more_updates"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_marginBottom="10dp"
+            a:layout_marginTop="18dp"
+            a:layout_gravity="bottom|center_horizontal"
+            a:background="@drawable/live_blog_more_updates"
+            a:gravity="center_horizontal"
+            a:padding="15dp"
+            a:textColor="@color/live_blog_more_updates_text_color" />
+
+        <View
+            a:layout_width="match_parent"
+            a:layout_height="1dp"
+            a:layout_marginTop="10dp"
+            a:background="@color/live_blog_divider_color"
+            a:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

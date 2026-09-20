@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="zendesk_header">
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lineSpacingExtra">22sp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/header_text</item>
+        <item name="android:background">@drawable/header_background</item>
+    </style>
+
+    <style name="zendesk_area_item">
+        <item name="fontFamily">@font/franklinitcstd_light</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">24sp</item>
+        <item name="android:textColor">@color/area_item_color</item>
+    </style>
+
+    <style name="zendesk_attach_button">
+        <item name="android:background">@drawable/zendesk_attach_button</item>
+    </style>
+
+    <style name="zendesk_submit_button">
+        <item name="android:background">@drawable/zendesk_submit_button</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="zendesk_done_button">
+        <item name="android:background">@drawable/zendesk_done_button</item>
+    </style>
+
+    <style name="zendesk_another_request_button">
+        <item name="android:background">@drawable/zendesk_another_request_button</item>
+    </style>
+
+    <style name="zendesk_success_text">
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+    </style>
+</resources>

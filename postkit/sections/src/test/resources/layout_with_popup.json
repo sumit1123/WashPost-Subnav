@@ -1,0 +1,2433 @@
+{
+  "name": "Washington Post: Breaking News, World, US, DC News \u0026amp; Analysis",
+  "layout": "homepage",
+  "outputType": "jsonApp",
+  "tracking": {
+    "page_name": "wp - homepage",
+    "platform": "pagebuilder",
+    "site": "www.washingtonpost.com",
+    "page_type": "",
+    "section": "homepage",
+    "channel": "wp - homepage",
+    "subsection": "homepage",
+    "hierarchy": "homepage",
+    "content_type": "homepage",
+    "story_type": "",
+    "headline": "Washington Post: Breaking News, World, US, DC News \u0026amp; Analysis",
+    "author": "",
+    "source": "",
+    "content_id": "",
+    "page_num": "",
+    "op_ranking": "no sentiment - no ideology",
+    "columnname": "",
+    "blogname": "",
+    "published": "",
+    "news_or_commercial": "News",
+    "commercial_node": "washingtonpost.com",
+    "commercial_path": "washingtonpost.com",
+    "content_category": "",
+    "sectionfront": "",
+    "track_scrolling": "false"
+  },
+  "regions": {
+    "top-content": {
+      "location": "top-content",
+      "items": [
+        {
+          "feature_name": "hp-breaking-news",
+          "item_type": "page/breaking-news-bar",
+          "label": {
+            "text": "BREAKING:"
+          },
+          "items": [
+            {
+              "link": {
+                "type": "blog",
+                "url": "https://www.washingtonpost.com/news/worldviews/wp/2017/07/05/trumps-visit-to-poland-seen-as-a-snub-to-the-e-u-and-germany/?utm_term\u003d.42a4cadea4f2"
+              },
+              "headline": {
+                "text": "bar goes here test bar goes here and here and here"
+              },
+              "timestamp": "2017-07-06T00:01:12.203Z"
+            }
+          ]
+        },
+        {
+          "border_bottom_style": "hairline",
+          "item_type": "ad/leaderboard-hp",
+          "items": [
+            {
+              "ad_delivery": "vi",
+              "ad": "leaderboard",
+              "commercial_path": "washingtonpost.com",
+              "commercial_node": "washingtonpost.com"
+            },
+            {
+              "ad_delivery": "vi",
+              "ad": "pushdown",
+              "commercial_path": "washingtonpost.com",
+              "commercial_node": "washingtonpost.com"
+            },
+            {
+              "ad_delivery": "vi",
+              "ad": "t",
+              "commercial_path": "washingtonpost.com",
+              "commercial_node": "washingtonpost.com"
+            }
+          ]
+        },
+        {
+          "item_type": "ad/interstitial",
+          "items": [
+            {
+              "commercial_path": "washingtonpost.com",
+              "commercial_node": "washingtonpost.com"
+            }
+          ]
+        }
+      ]
+    },
+    "main-content": {
+      "location": "main-content",
+      "items": [
+        {
+          "is_left_column_mobile_first": false,
+          "chain_type": "top-table-x-wide",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "items": [
+            {
+              "item_type": "column",
+              "widths": {
+                "x-large": 7,
+                "large": 7,
+                "medium": 6,
+                "small": 7,
+                "x-small": 12
+              },
+              "items": [
+                {
+                  "feature_name": "hp-breaking-news",
+                  "item_type": "page/breaking-news-bar",
+                  "label": {
+                    "text": "BREAKING:"
+                  },
+                  "items": [
+                    {
+                      "link": {
+                        "type": "blog",
+                        "url": "https://www.washingtonpost.com/news/worldviews/wp/2017/07/05/trumps-visit-to-poland-seen-as-a-snub-to-the-e-u-and-germany/?utm_term\u003d.42a4cadea4f2"
+                      },
+                      "headline": {
+                        "text": "bar goes here test bar goes here and here and here"
+                      },
+                      "timestamp": "2017-07-06T00:01:12.203Z"
+                    }
+                  ]
+                },
+                {
+                  "border_bottom_style": "none",
+                  "border_bottom_width": "100-pct",
+                  "feature_name": "christie-duplicate",
+                  "item_type": "homepage/story",
+                  "text_alignment": "left",
+                  "items": [
+                    {
+                      "link": {
+                        "type": "blog",
+                        "last_modified": "2017-07-03T22:30:51.000Z",
+                        "url": "https://www.washingtonpost.com/news/post-nation/wp/2017/07/03/chris-christie-enjoyed-a-closed-beach-then-got-flamed-but-he-definitely-did-not-get-a-tan/"
+                      },
+                      "media": {
+                        "media_type": "featured",
+                        "width": 960,
+                        "caption": {
+                          "text": "Gov. Chris Christie speaks during a press conference Sunday, July 2, 2017, on day two of the state government shut down, in Trenton, N.J. Christie stated that if a budget comes to his desk, whether it includes Horizon or does not, he will sign it but as of now, his hands are tied. It is estimated that 30,000-35,000 state employees will be furloughed if an agreement is not reached by Monday morning. (Kevin R. Wexler/The Record via AP)"
+                        },
+                        "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/Wires/Images/2017-07-03/AP/Christie_vs_Insurer_Budget_22080-25fd4.jpg",
+                        "height": 649
+                      },
+                      "source": "The Washington Post",
+                      "commercial_node": "national",
+                      "sub_item_type": "primary"
+                    }
+                  ]
+                },
+                {
+                  "border_bottom_style": "hairline",
+                  "border_bottom_width": "100-pct",
+                  "feature_name": "christie",
+                  "item_type": "homepage/story",
+                  "text_alignment": "left",
+                  "items": [
+                    {
+                      "link": {
+                        "type": "blog",
+                        "last_modified": "2017-07-03T22:30:51.000Z",
+                        "url": "https://www.washingtonpost.com/news/post-nation/wp/2017/07/03/chris-christie-enjoyed-a-closed-beach-then-got-flamed-but-he-definitely-did-not-get-a-tan/"
+                      },
+                      "source": "The Washington Post",
+                      "blurb": "\"I didn\u0027t get any sun today,вЂќ the governor told reporters. Photos showed him on a beach that was closed to the public amid a government shutdown.",
+                      "signature": {
+                        "by_line": "By Amy B Wang"
+                      },
+                      "headline": {
+                        "size": "x-small",
+                        "text": "Chris Christie enjoyed a closed beach, then got flamed. But he definitely did not get a tan.",
+                        "font_style": "normal-style",
+                        "alignment": "left"
+                      },
+                      "commercial_node": "national",
+                      "sub_item_type": "primary"
+                    }
+                  ]
+                },
+                {
+                  "feature_name": "hp-breaking-news",
+                  "item_type": "page/breaking-news-bar",
+                  "label": {
+                    "text": "BREAKING:"
+                  },
+                  "items": [
+                    {
+                      "link": {
+                        "type": "blog",
+                        "url": "https://www.washingtonpost.com/news/worldviews/wp/2017/07/05/trumps-visit-to-poland-seen-as-a-snub-to-the-e-u-and-germany/?utm_term\u003d.42a4cadea4f2"
+                      },
+                      "headline": {
+                        "text": "bar goes here test bar goes here and here and here"
+                      },
+                      "timestamp": "2017-07-06T00:01:12.203Z"
+                    }
+                  ]
+                },
+                {
+                  "border_bottom_style": "hairline",
+                  "border_bottom_width": "100-pct",
+                  "feature_name": "graphic-bullet",
+                  "item_type": "homepage/story",
+                  "text_alignment": "left",
+                  "items": [
+                    {
+                      "link": {
+                        "type": "web",
+                        "url": "https://www.washingtonpost.com/graphics/2017/politics/obamacare-repeal-coverage-loss/"
+                      },
+                      "headline": {
+                        "size": "xx-small",
+                        "text": "Graphic: Which states would be hit hardest by the GOP bill",
+                        "font_style": "highlight-style",
+                        "alignment": "left"
+                      },
+                      "sub_item_type": "primary"
+                    }
+                  ]
+                },
+                {
+                  "border_bottom_style": "hairline",
+                  "border_bottom_width": "100-pct",
+                  "feature_name": "trumpfear-749pm",
+                  "item_type": "homepage/story",
+                  "text_alignment": "left",
+                  "items": [
+                    {
+                      "link": {
+                        "type": "article",
+                        "last_modified": "2017-06-28T16:27:33.000Z",
+                        "url": "https://www.washingtonpost.com/politics/whos-afraid-of-trump-not-enough-republicans--at-least-for-now/2017/06/27/cee56720-5b57-11e7-9b7d-14576dc0f39d_story.html"
+                      },
+                      "media": {
+                        "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2017/06/27/Interactivity/Images/crop_902017-06-27T204823Z_1858502694_RC1D5075D470_RTRMADP_3_USA-HEALTHCARE.jpg",
+                        "width": 480,
+                        "height": 320,
+                        "aspect_ratio": 1.5,
+                        "caption_content": "none",
+                        "caption_size": "small",
+                        "media_type": "featured",
+                        "art_position": "right-of-headline",
+                        "art_width": 4
+                      },
+                      "source": "The Washington Post",
+                      "blurb": "History suggests that presidents who have governed successfully have been both revered and feared. But GOP fixtures in Washington are beginning to conclude that Trump may be neither.",
+                      "signature": {
+                        "by_line": "By Philip Rucker, Robert Costa and Ashley Parker"
+                      },
+                      "headline": {
+                        "size": "x-small",
+                        "text": "Unafraid of Trump, GOP senators feel free to вЂgo their own wayвЂ™",
+                        "font_style": "normal-style",
+                        "alignment": "left"
+                      },
+                      "commercial_node": "politics",
+                      "sub_item_type": "primary"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "feature_name": "hp-breaking-news",
+              "item_type": "page/breaking-news-bar",
+              "label": {
+                "text": "BREAKING:"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "url": "https://www.washingtonpost.com/news/worldviews/wp/2017/07/05/trumps-visit-to-poland-seen-as-a-snub-to-the-e-u-and-germany/?utm_term\u003d.42a4cadea4f2"
+                  },
+                  "headline": {
+                    "text": "bar goes here test bar goes here and here and here"
+                  },
+                  "timestamp": "2017-07-06T00:01:12.203Z"
+                }
+              ]
+            },
+            {
+              "item_type": "column",
+              "widths": {
+                "x-large": 5,
+                "large": 5,
+                "medium": 6,
+                "small": 5,
+                "x-small": 12
+              },
+              "items": [
+                {
+                  "border_bottom_style": "none",
+                  "border_bottom_width": "100-pct",
+                  "feature_name": "mcconnell-1245pm",
+                  "item_type": "suppressed",
+                  "text_alignment": "left",
+                  "label": {
+                    "label_style": "none",
+                    "text": "BREAKING NEWS",
+                    "text_color": "#FFFFFF",
+                    "alignment": "left"
+                  }
+                },
+                {
+                  "border_bottom_style": "none",
+                  "border_bottom_width": "100-pct",
+                  "feature_name": "daily202-850a",
+                  "item_type": "homepage/story",
+                  "text_alignment": "left",
+                  "items": [
+                    {
+                      "link": {
+                        "type": "blog",
+                        "last_modified": "2017-06-28T15:41:36.000Z",
+                        "url": "https://www.washingtonpost.com/news/powerpost/paloma/daily-202/2017/06/28/daily-202-secrecy-backfires-on-mitch-mcconnell-as-senate-health-care-bill-teeters/5952c89ce9b69b7071abc915/"
+                      },
+                      "source": "The Washington Post",
+                      "headline": {
+                        "size": "xx-small",
+                        "text": "The Daily 202: Secrecy backfires on McConnell",
+                        "font_style": "highlight-style",
+                        "alignment": "left"
+                      },
+                      "commercial_node": "powerpost",
+                      "sub_item_type": "primary"
+                    }
+                  ]
+                },
+                {
+                  "border_bottom_style": "hairline",
+                  "border_bottom_width": "100-pct",
+                  "item_type": "homepage/story",
+                  "text_alignment": "left",
+                  "items": [
+                    {
+                      "link": {
+                        "type": "article",
+                        "last_modified": "2017-06-28T23:26:17.000Z",
+                        "url": "https://www.washingtonpost.com/local/trafficandcommuting/dhs-officials-announce-enhanced-security-measures-for-all-flights-to-the-us/2017/06/28/e8023cac-5c14-11e7-9fc6-c7ef4bc58d13_story.html"
+                      },
+                      "media": {
+                        "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/06/28/Development-Transportation/Images/AFP_Q1589.jpg",
+                        "width": 480,
+                        "height": 320,
+                        "aspect_ratio": 1.5,
+                        "caption_content": "none",
+                        "caption_size": "small",
+                        "media_type": "featured",
+                        "art_position": "right-of-headline",
+                        "art_width": 4
+                      },
+                      "source": "The Washington Post",
+                      "blurb": "Airlines and airports that do not comply with the new rules could face repercussions, including a full ban on all personal electronics aboard flights, even in cargo, fines and possible loss of their permission to fly to the United States.",
+                      "signature": {
+                        "by_line": "By Lori Aratani"
+                      },
+                      "headline": {
+                        "size": "x-small",
+                        "text": "DHS officials announce enhanced security measures for all flights to U.S. but wonвЂ™t expand laptop ban",
+                        "font_style": "normal-style",
+                        "alignment": "left"
+                      },
+                      "commercial_node": "local",
+                      "sub_item_type": "primary"
+                    }
+                  ]
+                },
+                {
+                  "border_bottom_style": "none",
+                  "border_bottom_width": "100-pct",
+                  "feature_name": "gallery-test",
+                  "item_type": "homepage/story",
+                  "text_alignment": "left",
+                  "items": [
+                    {
+                      "sub_item_type": "primary"
+                    }
+                  ]
+                },
+                {
+                  "border_bottom_style": "none",
+                  "border_bottom_width": "100-pct",
+                  "feature_name": "healthinsurance-240pm",
+                  "item_type": "homepage/story",
+                  "text_alignment": "left",
+                  "items": [
+                    {
+                      "link": {
+                        "type": "article",
+                        "last_modified": "2017-06-29T02:11:55.000Z",
+                        "url": "http://www.washingtonpost.com/national/health-science/senate-gop-focuses-on-insurance-premiums-but-would-health-plans-be-affordable/2017/06/28/86aa4016-5b57-11e7-9b7d-14576dc0f39d_story.html?utm_term\u003d.dd633e850b8a"
+                      },
+                      "media": {
+                        "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/06/28/Health-Environment-Science/Images/2017-06-28T010300Z_521250587_RC1B2194D7C0_RTRMADP_3_USA-HEALTHCARE-0974.jpg",
+                        "width": 480,
+                        "height": 320,
+                        "aspect_ratio": 1.5,
+                        "caption_content": "none",
+                        "caption_size": "small",
+                        "media_type": "featured",
+                        "art_position": "right-of-headline",
+                        "art_width": 4
+                      },
+                      "source": "The Washington Post",
+                      "blurb": "Several analyses show that the bill would place such large financial burdens on many people, especially those who are poor, that millions of Americans probably would decide they could not afford to be insured.",
+                      "signature": {
+                        "by_line": "By Amy Goldstein"
+                      },
+                      "headline": {
+                        "size": "x-small",
+                        "text": "Senate GOP focuses on insurance premiums, but would health plans be affordable?",
+                        "font_style": "normal-style",
+                        "alignment": "left"
+                      },
+                      "commercial_node": "national",
+                      "sub_item_type": "primary"
+                    }
+                  ]
+                },
+                {
+                  "border_bottom_style": "hairline",
+                  "border_bottom_width": "100-pct",
+                  "feature_name": "trumpfear-749pm-duplicate",
+                  "item_type": "homepage/story",
+                  "text_alignment": "left",
+                  "items": [
+                    {
+                      "link": {
+                        "type": "article",
+                        "last_modified": "2017-06-28T16:27:33.000Z",
+                        "url": "https://www.washingtonpost.com/politics/whos-afraid-of-trump-not-enough-republicans--at-least-for-now/2017/06/27/cee56720-5b57-11e7-9b7d-14576dc0f39d_story.html"
+                      },
+                      "source": "The Washington Post",
+                      "headline": {
+                        "size": "xx-small",
+                        "text": "Unafraid of Trump, GOP senators feel free to вЂgo their own wayвЂ™",
+                        "font_style": "highlight-style",
+                        "alignment": "left"
+                      },
+                      "commercial_node": "politics",
+                      "sub_item_type": "primary"
+                    }
+                  ]
+                },
+                {
+                  "border_bottom_style": "none",
+                  "border_bottom_width": "100-pct",
+                  "feature_name": "mcconnell-1245pm-duplicate",
+                  "item_type": "homepage/story",
+                  "text_alignment": "left",
+                  "items": [
+                    {
+                      "link": {
+                        "type": "article",
+                        "last_modified": "2017-06-29T02:07:46.000Z",
+                        "url": "https://www.washingtonpost.com/powerpost/mcconnell-is-trying-to-revise-the-senate-health-care-bill-by-friday/2017/06/28/63550800-5c18-11e7-9fc6-c7ef4bc58d13_story.html"
+                      },
+                      "media": {
+                        "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2017/06/28/National-Politics/Images/Botsford170627Trump17569-4571.JPG",
+                        "width": 480,
+                        "height": 320,
+                        "aspect_ratio": 1.5,
+                        "caption_content": "none",
+                        "caption_size": "small",
+                        "media_type": "featured",
+                        "art_position": "right-of-headline",
+                        "art_width": 4
+                      },
+                      "source": "The Washington Post",
+                      "blurb": "The effort reflects the tight timeline Senate Majority Leader Mitch McConnell faces in his attempt to hold a vote before the August recess вЂ” and the pressure he is under to make changes that improve the Congressional Budget OfficeвЂ™s measure of coverage levels and federal spending.",
+                      "signature": {
+                        "by_line": "By Sean Sullivan, Juliet Eilperin and Kelsey Snell"
+                      },
+                      "headline": {
+                        "size": "x-small",
+                        "text": "McConnell hurrying to send revised health-care bill to CBO by Friday",
+                        "font_style": "normal-style",
+                        "alignment": "left"
+                      },
+                      "commercial_node": "powerpost",
+                      "sub_item_type": "primary"
+                    }
+                  ]
+                }
+              ]
+            }
+
+          ],
+          "chain_name": "hp-top-table-main"
+        },
+        {
+          "feature_name": "hp-breaking-news",
+          "item_type": "page/breaking-news-bar",
+          "label": {
+            "text": "BREAKING:"
+          },
+          "items": [
+            {
+              "link": {
+                "type": "blog",
+                "url": "https://www.washingtonpost.com/news/worldviews/wp/2017/07/05/trumps-visit-to-poland-seen-as-a-snub-to-the-e-u-and-germany/?utm_term\u003d.42a4cadea4f2"
+              },
+              "headline": {
+                "text": "bar goes here test bar goes here and here and here"
+              },
+              "timestamp": "2017-07-06T00:01:12.203Z"
+            }
+          ]
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "top-table-x-wide",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": false,
+          "column_arrangement": "wide-left",
+          "item_type": "chain",
+          "items": [
+            {
+              "item_type": "column",
+              "widths": {
+                "x-large": 7,
+                "large": 7,
+                "medium": 7,
+                "small": 7,
+                "x-small": 12
+              },
+              "items": [
+                {
+                  "border_bottom_style": "hairline",
+                  "border_bottom_width": "100-pct",
+                  "item_type": "prime-time/promo",
+                  "label": {
+                    "text": "LIVE",
+                    "secondary_text": "See all updates",
+                    "secondary_style": "label label-light",
+                    "label_style": "label label-btn label-with-background",
+                    "has_arrow": true,
+                    "has_background": true,
+                    "background_color": "#D8070E",
+                    "text_color": "#FFFFFF",
+                    "label_alignment": "left"
+                  },
+                  "items": [
+                    {
+                      "link": {
+                        "type": "web",
+                        "url": "https://www.washingtonpost.com"
+                      },
+                      "num_to_show": 5,
+                      "sub_item_type": "primary"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "chain_name": "hp-top-table-low"
+        },
+        {
+          "chain_type": "chain-with-gutter",
+          "border_bottom_style": "hairline",
+          "item_type": "chain",
+          "label": {
+            "label_style": "label label-kicker",
+            "colorway": "normal",
+            "text": "Opinions",
+            "label_alignment": "left",
+            "label_url": "https://www.washingtonpost.com/opinions"
+          },
+          "items": [
+            {
+              "border_bottom_style": "none",
+              "feature_name": "opinion-card-d",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-01T15:48:21.000Z",
+                    "url": "https://www.washingtonpost.com/news/josh-rogin/wp/2017/06/28/turkey-wants-twitters-help-in-suppressing-an-american-critic/"
+                  },
+                  "media": {
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/Wires/Images/2017-06-25/AP/Turkey_Qatar_85596-9ebe7.jpg",
+                    "width": 480,
+                    "height": 480,
+                    "aspect_ratio": 1,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "left",
+                    "art_width": 3
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Josh Rogin"
+                  },
+                  "headline": {
+                    "size": "xx-small",
+                    "text": "Turkey wants TwitterвЂ™s help in suppressing an American critic",
+                    "font_style": "normal-style"
+                  },
+                  "commercial_node": "opinions",
+                  "top_story": false,
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "feature_name": "opinion-card-a",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-06-30T00:01:21.000Z",
+                    "url": "https://www.washingtonpost.com/opinions/the-supreme-court-puts-a-bakers-business--and-artistic-freedom--on-the-line/2017/06/28/c0a4407e-5b8d-11e7-9b7d-14576dc0f39d_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/06/28/National-Politics/Images/JackPhillips_Staver_0291472788985.jpg",
+                    "width": 480,
+                    "height": 480,
+                    "aspect_ratio": 1,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "left",
+                    "art_width": 3
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Jim Campbell"
+                  },
+                  "headline": {
+                    "size": "xx-small",
+                    "text": "The Supreme Court puts a bakerвЂ™s business вЂ” and artistic freedom вЂ” on the line",
+                    "font_style": "normal-style"
+                  },
+                  "commercial_node": "opinions",
+                  "top_story": false,
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "feature_name": "opinion-card-c",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-06-28T20:43:36.000Z",
+                    "url": "https://www.washingtonpost.com/blogs/plum-line/wp/2017/06/28/how-mitch-mcconnell-is-blowing-up-one-of-trumps-biggest-lies/"
+                  },
+                  "media": {
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2016/11/18/National-Politics/Images/622165102.jpg",
+                    "width": 480,
+                    "height": 480,
+                    "aspect_ratio": 1,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "left",
+                    "art_width": 3
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Greg Sargent"
+                  },
+                  "headline": {
+                    "size": "xx-small",
+                    "text": "Mitch McConnell just blew up one of TrumpвЂ™s biggest lies",
+                    "font_style": "normal-style"
+                  },
+                  "commercial_node": "opinions",
+                  "top_story": false,
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "feature_name": "opinion-card-f",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-06-28T16:49:22.000Z",
+                    "url": "https://www.washingtonpost.com/blogs/right-turn/wp/2017/06/28/20-reasons-the-gop-crashed-and-burned-on-health-care/"
+                  },
+                  "media": {
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2017/01/26/National-Politics/Images/2017-01-26T162959Z_1931091420_RC12C34CF080_RTRMADP_3_USA-CONGRESS-REPUBLICANS-4542.jpg",
+                    "width": 480,
+                    "height": 480,
+                    "aspect_ratio": 1,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "left",
+                    "art_width": 3
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Jennifer Rubin"
+                  },
+                  "headline": {
+                    "size": "xx-small",
+                    "text": "20 reasons the GOP crashed and burned on health care",
+                    "font_style": "normal-style"
+                  },
+                  "commercial_node": "opinions",
+                  "top_story": false,
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "feature_name": "opinion-card-b",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-06-28T15:04:17.000Z",
+                    "url": "https://www.washingtonpost.com/opinions/the-senate-gops-health-care-bill-is-a-liberals-caricature-of-conservatism/2017/06/28/03027224-5b75-11e7-9fc6-c7ef4bc58d13_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/06/27/Editorial-Opinion/Images/Congress_Health_Overhaul_10642-4032f.jpg",
+                    "width": 480,
+                    "height": 480,
+                    "aspect_ratio": 1,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "left",
+                    "art_width": 3
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Marc A. Thiessen"
+                  },
+                  "headline": {
+                    "size": "xx-small",
+                    "text": "The Senate GOPвЂ™s health-care bill is a liberalвЂ™s caricature of conservatism",
+                    "font_style": "normal-style"
+                  },
+                  "commercial_node": "opinions",
+                  "top_story": false,
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "feature_name": "opinion-card-e",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-06-28T13:46:28.000Z",
+                    "url": "https://www.washingtonpost.com/blogs/erik-wemple/wp/2017/06/27/sarah-palin-files-convincing-lawsuit-against-the-new-york-times-editorial-board/"
+                  },
+                  "media": {
+                    "url": "http://www.washingtonpost.com/blogs/erik-wemple/files/2013/11/PalinandCruz-300x198.jpg",
+                    "width": 480,
+                    "height": 480,
+                    "aspect_ratio": 1,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "left",
+                    "art_width": 3
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Erik Wemple"
+                  },
+                  "headline": {
+                    "size": "xx-small",
+                    "text": "Sarah Palin files convincing lawsuit against the New York Times editorial board",
+                    "font_style": "normal-style"
+                  },
+                  "commercial_node": "opinions",
+                  "top_story": false,
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "chain_type": "chain-with-gutter",
+          "border_bottom_style": "hairline",
+          "item_type": "chain",
+          "label": {
+            "label_style": "label label-kicker",
+            "text": "More Top Stories",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "nigeria-220pm",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-06-29T09:19:07.000Z",
+                    "url": "https://www.washingtonpost.com/world/africa/they-fled-boko-haram-and-famine--and-then-they-were-forced-back/2017/06/27/e95c7720-335b-11e7-ab03-aa29f656f13e_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/06/28/Foreign/Images/JHahn_2017_Nigeria_BornoState_20-001.JPG",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "credits",
+                    "caption": "Hadiza Modu, 40, fled to Cameroon after a Boko Haram attack and returned to Banki this year. (Jane Hahn for The Post)",
+                    "caption_size": "normal",
+                    "media_type": "featured",
+                    "art_position": "high",
+                    "art_width": 12
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Over the past few months, at least 5,000 Nigerian refugees have been rounded up in Cameroonian villages and refugee camps and expelled, according to U.N. officials. Refugees around the world are facing growing hostility from host countries and shrinking protection from the legal framework put in place to defend such vulnerable people decades ago.",
+                  "signature": {
+                    "by_line": "By Kevin Sieff"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "They fled terrorism and famine вЂ” and then they were forced back",
+                    "font_style": "thin-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "world",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "cp-mattis-1135am",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-06-28T19:26:23.000Z",
+                    "url": "https://www.washingtonpost.com/news/checkpoint/wp/2017/06/28/mattis-claims-syria-heeds-u-s-warnings-over-chemical-strike-they-didnt-do-it/"
+                  },
+                  "media": {
+                    "url": "http://www.washingtonpost.com/news/checkpoint/wp-content/uploads/sites/33/2017/06/2017-06-28T095723Z_501768914_RC1D345057D0_RTRMADP_3_GERMANY-USA-MARSHALL-FUNDS.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The U.S. defense secretary said that even though Syria backed down, its chemical arsenal remains a threat.",
+                  "signature": {
+                    "by_line": "By Thomas Gibbons-Neff"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Mattis claims Syria heeded U.S. warnings over chemical strike: вЂThey didnвЂ™t do itвЂ™",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "world",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "trumpmacron-12pm",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-06-28T15:53:00.000Z",
+                    "url": "https://www.washingtonpost.com/news/post-politics/wp/2017/06/28/trump-accepts-macrons-invitation-to-visit-france-for-bastille-day-on-july-14/"
+                  },
+                  "media": {
+                    "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2017/06/28/Interactivity/Images/crop_90AFP_Q10NW.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The visit will also commemorate the 100th anniversary of the U.S. entry into World War I to fight alongside France and other allies.",
+                  "signature": {
+                    "by_line": "By Jenna Johnson"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Trump accepts MacronвЂ™s invitation to visit France for Bastille Day on July 14",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "politics",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "sanders-1240pm",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-06-28T22:37:24.000Z",
+                    "url": "https://www.washingtonpost.com/news/arts-and-entertainment/wp/2017/06/28/i-dont-like-bullies-reporter-explains-why-he-confronted-sarah-huckabee-sanders/"
+                  },
+                  "media": {
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/Wires/Videos/201706/Reuters/Images/t_1498596007944_name_Botsford170627Trump17518.JPG",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Sanders was in the middle of blasting the media, specifically the use of anonymous sources and the now-retracted CNN story on Russia ties with the Trump campaign, when newspaper editor Brian Karem interjected.",
+                  "signature": {
+                    "by_line": "By Kristine Phillips"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "вЂI donвЂ™t like bulliesвЂ™: Journalist explains why he confronted Sarah Huckabee Sanders",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "lifestyle",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "mormon-145pm",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-06-28T17:54:24.000Z",
+                    "url": "https://www.washingtonpost.com/news/acts-of-faith/wp/2017/06/28/mormon-church-starts-offering-paid-maternity-leave-changes-dress-code/"
+                  },
+                  "media": {
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/Wires/Images/2015-08-04/AP/Mormon_History_Gold_Plates-02e52.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Women, who were required to wear dresses or skirts, may now wear pantsuits or dress slacks, the church says. Mormon men, known for their crisp white shirt and tie look, are now able to wear light-colored dress shirts.",
+                  "signature": {
+                    "by_line": "By Sarah Pulliam Bailey"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Mormon Church starts offering paid maternity leave, will let women wear pants",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-06-28T20:15:42.000Z",
+                    "url": "https://www.washingtonpost.com/news/acts-of-faith/wp/2017/06/28/why-one-man-keeps-ramming-his-car-into-ten-commandments-statues-on-government-property/"
+                  },
+                  "media": {
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/Wires/Images/2017-06-28/AP/Ten_Commandments_Arkansas_10125-6b95b.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Michael Tate Reed is charged with criminal trespass, first-degree criminal mischief and defacing objects of public interest. It\u0027s the second time he destroyed the monument with his car.",
+                  "signature": {
+                    "by_line": "By Cleve R. Wootson Jr."
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "One man keeps ramming his car into Ten Commandments statues on government property",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "wb-ie-945am",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Wonkblog",
+                "secondary_text": "Analysis",
+                "secondary_style": "label label-light label-small",
+                "label_style": "label label-normal label-small",
+                "label_alignment": "left"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-06-28T13:35:35.000Z",
+                    "url": "https://www.washingtonpost.com/news/wonk/wp/2017/06/28/the-i-before-e-except-after-c-rule-is-a-giant-lie/"
+                  },
+                  "media": {
+                    "url": "http://www.washingtonpost.com/blogs/wonkblog/files/2017/06/221330506_e5a4898a5d_o.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Welcome to English, where the rules are made up and the exceptions don\u0027t matter. For every вЂњceilingвЂќ thereвЂ™s a вЂњconciergeвЂќ and a вЂњconscience.вЂќ",
+                  "signature": {
+                    "by_line": "By Christopher Ingraham"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "The вЂi before e, except after cвЂ™ rule is a giant lie",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "coins-1245pm",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-06-28T14:49:11.000Z",
+                    "url": "https://www.washingtonpost.com/news/dr-gridlock/wp/2017/06/28/a-woman-threw-coins-at-her-plane-for-luck-one-landed-in-the-engine-and-caused-a-5-hour-delay/"
+                  },
+                  "media": {
+                    "url": "http://www.washingtonpost.com/blogs/dr-gridlock/files/2017/06/shanghai.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "A China Southern Airlines flight was pushed back after an 80-year-old woman was spotted throwing coins at the plane during the boarding process.",
+                  "signature": {
+                    "by_line": "By Amy B Wang"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "A woman threw coins at her plane for luck. One landed in the engine and caused a 5-hour delay.",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "hp-more-top-stories"
+        },
+        {
+          "chain_type": "chain-with-gutter",
+          "border_bottom_style": "hairline",
+          "item_type": "chain",
+          "label": {
+            "label_style": "label label-kicker",
+            "text": "Visual Stories",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "widths": {
+                "x-small": 6,
+                "small": 6,
+                "medium": 6,
+                "large": 6,
+                "x-large": 6
+              },
+              "border_bottom_style": "none",
+              "feature_name": "photo-story-a",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-06-30T12:58:41.000Z",
+                    "url": "https://www.washingtonpost.com/news/in-sight/wp/2017/06/28/what-its-like-in-the-cold-dark-isolated-coal-mines-of-the-arctic/"
+                  },
+                  "media": {
+                    "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2017/06/28/Interactivity/Images/sight628.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "high",
+                    "art_width": 12
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "size": "x-small",
+                    "text": "What itвЂ™s like in the cold, dark, isolated coal mines of the Arctic",
+                    "font_style": "highlight-style"
+                  },
+                  "commercial_node": "photography",
+                  "top_story": false,
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 6,
+                "small": 6,
+                "medium": 6,
+                "large": 6,
+                "x-large": 6
+              },
+              "border_bottom_style": "none",
+              "feature_name": "graphic-story-a",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "web",
+                    "last_modified": "2017-06-30T15:30:44.000Z",
+                    "url": "http://www.washingtonpost.com/graphics/2017/health/beach-dangers/"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/06/27/Health-Environment-Science/Graphics/beachbummers0627-promo.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "high",
+                    "art_width": 12
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Beach bummers: Dangerous beach creatures to watch out for",
+                    "font_style": "highlight-style"
+                  },
+                  "commercial_node": "national",
+                  "top_story": false,
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 6,
+                "small": 6,
+                "medium": 6,
+                "large": 6,
+                "x-large": 6
+              },
+              "border_bottom_style": "none",
+              "feature_name": "graphic-story-b",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "web",
+                    "last_modified": "2017-07-03T19:19:27.000Z",
+                    "url": "http://www.washingtonpost.com/graphics/2017/politics/supreme-court-2016-term/"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/06/26/National-Politics/Advance/Graphics/2300-supreme-court-2016-term-promo.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "high",
+                    "art_width": 12
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Supreme Court, with ninth justice, now looks ahead to contentious fall term",
+                    "font_style": "highlight-style"
+                  },
+                  "commercial_node": "politics",
+                  "top_story": false,
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 6,
+                "small": 6,
+                "medium": 6,
+                "large": 6,
+                "x-large": 6
+              },
+              "border_bottom_style": "none",
+              "feature_name": "photo-story-b",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "gallery",
+                    "last_modified": "2017-07-13T16:26:12.000Z",
+                    "url": "https://www.washingtonpost.com/lifestyle/what-the-obamas-have-been-doing-since-they-left-the-white-house/2017/02/08/392c7116-eda6-11e6-9973-c5efb7ccfb0d_gallery.html"
+                  },
+                  "media": {
+                    "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2017/06/28/Interactivity/Images/crop_90Indonesia_Obama_20906-8d265.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "high",
+                    "art_width": 12
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "size": "x-small",
+                    "text": "What the Obamas have been doing since they left the White House",
+                    "font_style": "highlight-style"
+                  },
+                  "commercial_node": "lifestyle",
+                  "top_story": false,
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 6,
+                "small": 6,
+                "medium": 6,
+                "large": 6,
+                "x-large": 6
+              },
+              "border_bottom_style": "none",
+              "feature_name": "photo-story-d",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "gallery",
+                    "last_modified": "2017-06-26T12:56:26.000Z",
+                    "url": "https://www.washingtonpost.com/lifestyle/see-what-celebrities-wore-at-the-2017-bet-awards/2017/06/25/8c8b8ab6-5a04-11e7-9fc6-c7ef4bc58d13_gallery.html"
+                  },
+                  "media": {
+                    "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2017/06/27/Interactivity/Images/crop_90800909230.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "high",
+                    "art_width": 12
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "size": "x-small",
+                    "text": "See what celebrities wore at the 2017 BET Awards",
+                    "font_style": "highlight-style"
+                  },
+                  "commercial_node": "lifestyle",
+                  "top_story": false,
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 6,
+                "small": 6,
+                "medium": 6,
+                "large": 6,
+                "x-large": 6
+              },
+              "border_bottom_style": "none",
+              "feature_name": "photo-story-c",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "gallery",
+                    "last_modified": "2017-06-23T19:46:05.000Z",
+                    "url": "https://www.washingtonpost.com/world/here-are-21-of-the-weeks-best-photos/2017/06/23/e941734a-52e5-11e7-91eb-9611861a988f_gallery.html"
+                  },
+                  "media": {
+                    "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2017/06/23/Interactivity/Images/crop_902017-06-21T133222Z_579477107_RC19D87E4980_RTRMADP_3_USA-SOLSTICE.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "high",
+                    "art_width": 12
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Here are 21 of the weekвЂ™s best photos",
+                    "font_style": "highlight-style"
+                  },
+                  "commercial_node": "world",
+                  "top_story": false,
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "right-rail": {
+      "location": "right-rail",
+      "items": [
+        {
+          "widths": {
+            "x-small": 0,
+            "small": 0,
+            "medium": 12,
+            "large": 12,
+            "x-large": 12
+          },
+          "border_bottom_style": "hairline",
+          "item_type": "ad/flex",
+          "items": [
+            {
+              "ad_delivery": "vi",
+              "ad": "flex_bb_hp",
+              "commercial_path": "washingtonpost.com",
+              "commercial_node": "washingtonpost.com"
+            }
+          ]
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "airy",
+          "include_vertical_rule": false,
+          "item_type": "chain",
+          "items": [
+            {
+              "border_bottom_style": "none",
+              "feature_name": "ebook-promo-a",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "E-book",
+                "label_url": "https://www.washingtonpost.com/pb/ebooks/",
+                "label_style": "label label-kicker",
+                "label_alignment": "left"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "web",
+                    "url": "https://www.amazon.com/dp/B06Y1L5X15/ref\u003das_li_ss_tl"
+                  },
+                  "media": {
+                    "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2017/04/10/Others/Images/2017-04-10/UncoveringTrump_coverLARGE_badge_new.JPG",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "blurb": "In February 2016, presidential candidate Donald Trump promised $6 million in donations, including $1 million from his own pocket, to charities along his campaign trail. Months later, he had donated far less than he pledged. Post reporter David A. Fahrenthold went in search of the missing money and found a bigger story than he ever expected.",
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Pulitzer Prize-winning reporting: Uncovering Trump",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "border_bottom_style": "airy",
+          "border_bottom_width": "100-pct",
+          "feature_name": "confidential-tips",
+          "item_type": "suppressed",
+          "items": [
+            {}
+          ]
+        },
+        {
+          "widths": {
+            "x-small": 0,
+            "small": 0,
+            "medium": 12,
+            "large": 12,
+            "x-large": 12
+          },
+          "border_bottom_style": "airy",
+          "item_type": "ad/right-rail-ads",
+          "items": [
+            {
+              "ad_delivery": "vi",
+              "ad": "336x60",
+              "commercial_path": "washingtonpost.com",
+              "commercial_node": "washingtonpost.com"
+            }
+          ]
+        }
+      ]
+    },
+    "bottom-content": {
+      "location": "bottom-content",
+      "items": [
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "airy",
+          "include_vertical_rule": false,
+          "item_type": "chain",
+          "items": [
+            {
+              "widths": {
+                "x-small": 12,
+                "small": 6,
+                "medium": 4,
+                "large": 3,
+                "x-large": 3
+              },
+              "item_template_name": "card-section",
+              "feature_name": "hp-card-politics",
+              "item_type": "homepage/card",
+              "label": {
+                "text": "Politics"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-24T21:22:29.000Z",
+                    "url": "https://www.washingtonpost.com/news/powerpost/wp/2017/07/24/congressional-budget-office-is-freedom-caucuss-target-in-spending-bill/"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/Wires/Images/2017-07-12/AP/Congress_Health_Overhaul_77490-ca26b.jpg"
+                  },
+                  "headline": {
+                    "text": "Congressional Budget Office is Freedom CaucusвЂ™s target in spending bill"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "transparency_label": {
+                    "size": "small",
+                    "position": "above-headline",
+                    "primary_text": "Analysis",
+                    "alignment": "inherit"
+                  },
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-25T07:05:02.000Z",
+                    "url": "https://www.washingtonpost.com/news/fact-checker/wp/2017/07/25/the-white-houses-facile-comparison-of-the-trump-russia-and-clinton-ukraine-stories/"
+                  },
+                  "headline": {
+                    "text": "The White HouseвЂ™s facile comparison of the Trump-Russia and Clinton-Ukraine stories"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-25T03:10:57.000Z",
+                    "url": "https://www.washingtonpost.com/news/powerpost/wp/2017/07/24/with-better-deal-democrats-temporarily-calm-a-restive-left/"
+                  },
+                  "headline": {
+                    "text": "With вЂBetter Deal,вЂ™ Democrats (temporarily) calm a restive left"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-25T02:50:20.000Z",
+                    "url": "https://www.washingtonpost.com/world/national-security/trump-leaves-sessions-twisting-in-the-wind-while-berating-him-publicly/2017/07/24/ce3bf142-708b-11e7-9eac-d56bd5568db8_story.html"
+                  },
+                  "headline": {
+                    "text": "Trump leaves Sessions twisting in the wind while berating him publicly"
+                  },
+                  "sub_item_type": "secondary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 12,
+                "small": 6,
+                "medium": 4,
+                "large": 3,
+                "x-large": 3
+              },
+              "item_template_name": "card-section",
+              "feature_name": "hp-card-world",
+              "item_type": "homepage/card",
+              "label": {
+                "text": "World"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-25T00:26:54.000Z",
+                    "url": "https://www.washingtonpost.com/world/in-surprise-move-polands-president-will-veto-much-of-judicial-overhaul/2017/07/24/36532068-7049-11e7-803f-a6c989606ac7_story.html"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/07/24/Foreign/Images/AFP_QW20Z.jpg"
+                  },
+                  "headline": {
+                    "text": "PolandвЂ™s president unexpectedly intervenes to protect independent courts"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "transparency_label": {
+                    "size": "small",
+                    "position": "above-headline",
+                    "primary_text": "Analysis",
+                    "alignment": "inherit"
+                  },
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-25T05:00:56.000Z",
+                    "url": "https://www.washingtonpost.com/news/worldviews/wp/2017/07/25/the-qatari-foreign-minister-makes-his-nations-case/"
+                  },
+                  "headline": {
+                    "text": "The Qatari foreign minister makes his nationвЂ™s case"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-25T02:50:20.000Z",
+                    "url": "https://www.washingtonpost.com/world/national-security/trump-leaves-sessions-twisting-in-the-wind-while-berating-him-publicly/2017/07/24/ce3bf142-708b-11e7-9eac-d56bd5568db8_story.html"
+                  },
+                  "headline": {
+                    "text": "Trump leaves Sessions twisting in the wind while berating him publicly"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-25T01:08:47.000Z",
+                    "url": "https://www.washingtonpost.com/world/national-security/cooperation-with-russia-becomes-central-to-trump-strategy-in-syria/2017/07/24/ba6172be-6e38-11e7-9c15-177740635e83_story.html"
+                  },
+                  "headline": {
+                    "text": "Cooperation with Russia becomes central to Trump strategy in Syria"
+                  },
+                  "sub_item_type": "secondary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 12,
+                "small": 6,
+                "medium": 4,
+                "large": 3,
+                "x-large": 3
+              },
+              "item_template_name": "card-section",
+              "feature_name": "hp-card-national",
+              "item_type": "homepage/card",
+              "label": {
+                "text": "National"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-24T20:24:31.000Z",
+                    "url": "https://www.washingtonpost.com/news/to-your-health/wp/2017/07/24/monthly-shot-could-be-the-next-revolution-in-hiv-therapy-replacing-daily-pills/"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/Wires/Images/2017-07-23/Getty/AFP_QV5S2.jpg"
+                  },
+                  "headline": {
+                    "text": "Monthly shot could be the вЂnext revolutionвЂ™ in HIV therapy, replacing daily pills"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-25T03:37:52.000Z",
+                    "url": "https://www.washingtonpost.com/news/true-crime/wp/2017/07/24/man-we-about-to-die-teen-driver-arrested-after-live-streaming-crash-that-killed-her-sister/"
+                  },
+                  "headline": {
+                    "text": "Father of teen driver who live-streamed fatal crash speaks out: вЂShe killed her own sisterвЂ™"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-25T02:32:09.000Z",
+                    "url": "https://www.washingtonpost.com/national/after-deadly-smuggling-case-officials-charge-truck-driver-and-decry-crime-against-humanity/2017/07/24/3ea8ad50-7094-11e7-9eac-d56bd5568db8_story.html"
+                  },
+                  "headline": {
+                    "text": "After deadly smuggling case, officials charge truck driver and decry вЂcrime against humanityвЂ™"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-25T01:23:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/immigration/horrific-episode-of-human-smuggling-fuels-both-sides-of-immigration-debate/2017/07/24/58bbcc82-7098-11e7-9eac-d56bd5568db8_story.html"
+                  },
+                  "headline": {
+                    "text": "Horrific episode of human smuggling fuels both sides of immigration debate"
+                  },
+                  "sub_item_type": "secondary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 12,
+                "small": 6,
+                "medium": 4,
+                "large": 3,
+                "x-large": 3
+              },
+              "item_template_name": "card-section",
+              "feature_name": "hp-posteverything",
+              "item_type": "homepage/card",
+              "label": {
+                "text": "PostEverything"
+              },
+              "items": [
+                {
+                  "transparency_label": {
+                    "size": "small",
+                    "position": "above-headline",
+                    "primary_text": "Perspective",
+                    "alignment": "inherit"
+                  },
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-24T21:56:53.000Z",
+                    "url": "https://www.washingtonpost.com/news/posteverything/wp/2017/07/24/charlie-gards-case-is-tragic-but-its-not-a-warning-about-public-health-care/"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2017/07/20/Production/Daily/Editorial-Opinion/Images/Britain_Sick_Baby_65675-07270.jpg"
+                  },
+                  "headline": {
+                    "text": "Charlie GardвЂ™s case is tragic. But itвЂ™s not a warning about public health care."
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "transparency_label": {
+                    "size": "small",
+                    "position": "above-headline",
+                    "primary_text": "Perspective",
+                    "alignment": "inherit"
+                  },
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-24T12:15:08.000Z",
+                    "url": "https://www.washingtonpost.com/news/posteverything/wp/2017/07/24/ode-to-a-businessman/"
+                  },
+                  "headline": {
+                    "text": "Ode to a businessman entering the White House on a summer day"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "transparency_label": {
+                    "size": "small",
+                    "position": "above-headline",
+                    "primary_text": "Perspective",
+                    "alignment": "inherit"
+                  },
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-24T12:06:49.000Z",
+                    "url": "https://www.washingtonpost.com/news/posteverything/wp/2017/07/24/the-republicans-growth-plan-doesnt-add-up-thats-an-opening-for-democrats/"
+                  },
+                  "headline": {
+                    "text": "The RepublicansвЂ™ growth plan doesnвЂ™t add up. ThatвЂ™s an opening for Democrats."
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "transparency_label": {
+                    "size": "small",
+                    "position": "above-headline",
+                    "primary_text": "Analysis",
+                    "alignment": "inherit"
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-21T20:23:10.000Z",
+                    "url": "https://www.washingtonpost.com/outlook/yes-trump-can-legally-pardon-himself-or-his-family-no-he-shouldnt/2017/07/21/6134fb12-6e2d-11e7-b9e2-2056e768a7e5_story.html"
+                  },
+                  "headline": {
+                    "text": "Yes, Trump can legally pardon himself or his family. No, he shouldnвЂ™t."
+                  },
+                  "sub_item_type": "secondary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 12,
+                "small": 6,
+                "medium": 4,
+                "large": 3,
+                "x-large": 3
+              },
+              "item_template_name": "card-section",
+              "feature_name": "hp-card-local",
+              "item_type": "homepage/card",
+              "label": {
+                "text": "Local"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-25T03:05:47.000Z",
+                    "url": "https://www.washingtonpost.com/local/social-issues/district-does-an-about-face-on-welfare-reform-with-decision-to-keep-helping-long-term-recipients/2017/07/24/4ea07332-6d56-11e7-b9e2-2056e768a7e5_story.html"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2013/10/16/Local/Images/GRAY0041381948866.jpg"
+                  },
+                  "headline": {
+                    "text": "District does an about-face on welfare reform with decision to keep helping long-term recipients"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-25T03:11:00.000Z",
+                    "url": "https://www.washingtonpost.com/local/tornado-strikes-eastern-shore-leaving-1-hurt-and-houses-trees-damaged/2017/07/24/5a9c2e06-70d5-11e7-9eac-d56bd5568db8_story.html"
+                  },
+                  "headline": {
+                    "text": "Tornado strikes Eastern Shore, leaving 1 hurt and houses, trees damaged"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-25T03:05:31.000Z",
+                    "url": "https://www.washingtonpost.com/local/education/undocumented-suspensions-persisted-in-dc-schools-despite-repeated-alerts/2017/07/24/4a88ebc2-707f-11e7-8839-ec48ec4cae25_story.html"
+                  },
+                  "headline": {
+                    "text": "Undocumented suspensions persisted in D.C. schools despite repeated alerts"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-24T23:49:47.000Z",
+                    "url": "https://www.washingtonpost.com/local/md-politics/confederate-statue-moved-from-rockville-courthouse-over-the-weekend/2017/07/24/cc80fae4-70a1-11e7-9eac-d56bd5568db8_story.html"
+                  },
+                  "headline": {
+                    "text": "Confederate statue moved from Rockville courthouse over the weekend"
+                  },
+                  "sub_item_type": "secondary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 12,
+                "small": 6,
+                "medium": 4,
+                "large": 3,
+                "x-large": 3
+              },
+              "item_template_name": "card-section",
+              "feature_name": "hp-card-sports",
+              "item_type": "homepage/card",
+              "label": {
+                "text": "Sports"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-24T22:48:55.000Z",
+                    "url": "https://www.washingtonpost.com/news/soccer-insider/wp/2017/07/24/we-want-to-win-a-trophy-u-s-soccer-prepares-for-reggae-boyz-in-gold-cup-final/"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/Wires/Images/2017-07-23/Getty/AFP_QU8KX.jpg"
+                  },
+                  "headline": {
+                    "text": "No Mexico? No matter. U.S. soccer says, вЂWe want to win a trophyвЂ™"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-25T05:35:13.000Z",
+                    "url": "https://www.washingtonpost.com/news/early-lead/wp/2017/07/25/stephen-a-smith-sources-say-lebron-james-would-like-to-beat-kyrie-irvings-a/"
+                  },
+                  "headline": {
+                    "text": "Stephen A. Smith: Sources say LeBron James would like to вЂbeatвЂ™ Kyrie IrvingвЂ™s вЂaвЂ“вЂ™"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-25T03:59:54.000Z",
+                    "url": "https://www.washingtonpost.com/sports/tv-and-radio-listings-july-25/2017/07/24/3aaa6cc6-70ed-11e7-8839-ec48ec4cae25_story.html"
+                  },
+                  "headline": {
+                    "text": "TV and radio listings: July 25"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-25T04:03:06.000Z",
+                    "url": "https://www.washingtonpost.com/sports/orioles-defeat-rays-5-0-in-first-game-of-road-trip-behind-kevin-gausman-bullpen/2017/07/24/f2352908-7084-11e7-8839-ec48ec4cae25_story.html"
+                  },
+                  "headline": {
+                    "text": "Orioles defeat Rays, 5-0, in first game of road trip behind Kevin Gausman, bullpen"
+                  },
+                  "sub_item_type": "secondary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 12,
+                "small": 6,
+                "medium": 4,
+                "large": 3,
+                "x-large": 3
+              },
+              "item_template_name": "card-section",
+              "feature_name": "hp-card-lifestyle",
+              "item_type": "homepage/card",
+              "label": {
+                "text": "Lifestyle"
+              },
+              "items": [
+                {
+                  "transparency_label": {
+                    "size": "small",
+                    "position": "above-headline",
+                    "primary_text": "Analysis",
+                    "alignment": "inherit"
+                  },
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-24T14:10:17.000Z",
+                    "url": "https://www.washingtonpost.com/news/arts-and-entertainment/wp/2017/07/24/girls-trip-shows-yet-again-that-movies-starring-black-women-can-crush-at-the-box-office/"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2017/07/20/Weekend/Images/wk-girls0721-7.jpg"
+                  },
+                  "headline": {
+                    "text": "вЂGirls TripвЂ™ shows вЂ” yet again вЂ” that movies starring black women can crush at the box office"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "transparency_label": {
+                    "size": "small",
+                    "position": "above-headline",
+                    "primary_text": "Review",
+                    "alignment": "inherit"
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-24T23:02:31.000Z",
+                    "url": "https://www.washingtonpost.com/entertainment/music/a-gentler-thurston-moore-sprawls-out-at-rock-and-roll-hotel/2017/07/24/62807caa-7038-11e7-8c17-533c52b2f014_story.html"
+                  },
+                  "headline": {
+                    "text": "A gentler Thurston Moore sprawls out at Rock \u0026 Roll Hotel"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-21T20:50:53.000Z",
+                    "url": "https://www.washingtonpost.com/lifestyle/travel/ultrarunners-are-heading-to-crested-butte-colo-long-popular-with-mountain-bikers/2017/07/21/be1d98f2-6018-11e7-a4f7-af34fc1d9d39_story.html"
+                  },
+                  "headline": {
+                    "text": "Ultrarunners are heading to Crested Butte, Colo., long popular with mountain bikers"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "transparency_label": {
+                    "size": "small",
+                    "position": "above-headline",
+                    "primary_text": "Perspective",
+                    "alignment": "inherit"
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-24T15:24:36.000Z",
+                    "url": "https://www.washingtonpost.com/lifestyle/style/carolyn-hax-feeling-gloomy-about-a-boyfriends-trip-to-the-city-of-light/2017/07/24/a80f363c-6e4c-11e7-b9e2-2056e768a7e5_story.html"
+                  },
+                  "headline": {
+                    "text": "Carolyn Hax: Feeling gloomy about a boyfriendвЂ™s trip to the City of Light"
+                  },
+                  "sub_item_type": "secondary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 12,
+                "small": 6,
+                "medium": 4,
+                "large": 3,
+                "x-large": 3
+              },
+              "item_template_name": "card-section",
+              "feature_name": "hp-card-arts",
+              "item_type": "homepage/card",
+              "label": {
+                "text": "Arts"
+              },
+              "items": [
+                {
+                  "transparency_label": {
+                    "size": "small",
+                    "position": "above-headline",
+                    "primary_text": "Review",
+                    "alignment": "inherit"
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-24T23:02:13.000Z",
+                    "url": "https://www.washingtonpost.com/entertainment/theater_dance/thurgood-serves-justice-marshall-in-george-stevens-jr-tribute-drama/2017/07/24/828bfa30-707c-11e7-8839-ec48ec4cae25_story.html"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/07/24/Style/Images/DSC_8329.jpg"
+                  },
+                  "headline": {
+                    "text": "вЂThurgoodвЂ™ serves Justice Marshall in George Stevens Jr. tribute drama"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-24T21:16:53.000Z",
+                    "url": "https://www.washingtonpost.com/news/arts-and-entertainment/wp/2017/07/24/natural-history-museum-to-demolish-imax-theater-to-expand-restaurant/"
+                  },
+                  "headline": {
+                    "text": "Natural History Museum to demolish Imax theater to expand restaurant"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-22T21:40:41.000Z",
+                    "url": "https://www.washingtonpost.com/lifestyle/style/in-the-galleries-tales-from-the-dark-side--of-canada/2017/07/21/6ddb4ffa-6b13-11e7-96ab-5f38140b38cc_story.html"
+                  },
+                  "headline": {
+                    "text": "In the galleries: Tales from the dark side вЂ” of Canada"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "transparency_label": {
+                    "size": "small",
+                    "position": "above-headline",
+                    "primary_text": "Review",
+                    "alignment": "inherit"
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-07-21T04:27:19.000Z",
+                    "url": "https://www.washingtonpost.com/entertainment/theater_dance/who-ever-wrote-swoonier-ballads-than-rodgers-and-hammerstein-/2017/07/20/d8af2fdc-6d5b-11e7-8961-ec5f3e1e2a5c_story.html"
+                  },
+                  "headline": {
+                    "text": "Who ever wrote swoonier ballads than Rodgers and Hammerstein? В "
+                  },
+                  "sub_item_type": "secondary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 12,
+                "small": 6,
+                "medium": 4,
+                "large": 3,
+                "x-large": 3
+              },
+              "item_template_name": "card-section",
+              "feature_name": "hp-card-technology",
+              "item_type": "homepage/card",
+              "label": {
+                "text": "Technology"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-21T19:38:11.000Z",
+                    "url": "https://www.washingtonpost.com/news/innovations/wp/2017/07/21/google-street-views-latest-destination-the-international-space-station/"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "http://www.washingtonpost.com/blogs/innovations/files/2017/07/Blog20Post20Image20120Cupola20.width-1080.png"
+                  },
+                  "headline": {
+                    "text": "Google Street ViewвЂ™s latest destination: The International Space Station"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-23T15:59:19.000Z",
+                    "url": "https://www.washingtonpost.com/news/innovations/wp/2017/07/21/how-doctors-used-virtual-reality-to-save-the-lives-of-conjoined-twin-sisters/"
+                  },
+                  "headline": {
+                    "text": "How doctors used virtual reality to save the lives of conjoined twin sisters"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-20T22:54:39.000Z",
+                    "url": "https://www.washingtonpost.com/news/the-switch/wp/2017/07/20/microsofts-profits-grow-as-company-pushes-cloud-computing/"
+                  },
+                  "headline": {
+                    "text": "MicrosoftвЂ™s profits grow as company pushes cloud computing"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-20T19:54:12.000Z",
+                    "url": "https://www.washingtonpost.com/news/the-switch/wp/2017/07/20/twitters-internal-numbers-show-its-getting-less-awful-at-fighting-abuse/"
+                  },
+                  "headline": {
+                    "text": "TwitterвЂ™s internal numbers show itвЂ™s getting less awful at fighting abuse"
+                  },
+                  "sub_item_type": "secondary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 12,
+                "small": 6,
+                "medium": 4,
+                "large": 3,
+                "x-large": 3
+              },
+              "item_template_name": "card-section",
+              "feature_name": "hp-card-business",
+              "item_type": "homepage/card",
+              "label": {
+                "text": "Business"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-25T01:30:12.000Z",
+                    "url": "https://www.washingtonpost.com/news/business/wp/2017/07/24/webmd-health-to-be-sold-to-a-kkr-company-for-2-8-billion/"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "http://www.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2017/06/05/Health-Environment-Science/Images/iStock-664033886.jpg"
+                  },
+                  "headline": {
+                    "text": "WebMD Health to be sold to a KKR company for $2.8 billion"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-25T01:22:11.000Z",
+                    "url": "https://www.washingtonpost.com/news/the-switch/wp/2017/07/24/google-profits-drop-on-2-7-billion-eu-fine-but-growth-is-steady/"
+                  },
+                  "headline": {
+                    "text": "Google profits drop on $2.7 billion EU fine, but growth is steady"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-25T01:57:30.000Z",
+                    "url": "https://www.washingtonpost.com/news/innovations/wp/2017/07/24/youtube-is-tricking-people-who-search-for-isis-videos/"
+                  },
+                  "headline": {
+                    "text": "YouTube is tricking people who search for ISIS videos"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2015-08-17T16:54:45.000Z",
+                    "url": "https://www.washingtonpost.com/business/capitalbusiness/read-the-latest-from-capital-business/2015/08/17/8f095cbc-44ff-11e5-8e7d-9c033e6745d8_story.html"
+                  },
+                  "headline": {
+                    "text": "Read the latest from Capital Business"
+                  },
+                  "sub_item_type": "secondary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 12,
+                "small": 6,
+                "medium": 4,
+                "large": 3,
+                "x-large": 3
+              },
+              "item_template_name": "card-section",
+              "feature_name": "hp-card-fedgov",
+              "item_type": "homepage/card",
+              "label": {
+                "text": "Federal Government"
+              },
+              "items": [
+                {
+                  "transparency_label": {
+                    "size": "small",
+                    "position": "above-headline",
+                    "primary_text": "Perspective",
+                    "alignment": "inherit"
+                  },
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-21T11:00:31.000Z",
+                    "url": "https://www.washingtonpost.com/news/powerpost/wp/2017/07/21/hits-on-federal-retirement-advance-as-bill-is-introduced-to-fire-feds-for-no-cause-at-all/"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2017/03/17/Health-Environment-Science/Images/05852378-0908.jpg"
+                  },
+                  "headline": {
+                    "text": "Hits on federal retirement advance as bill is introduced to fire feds for вЂno cause at allвЂ™"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-20T22:15:23.000Z",
+                    "url": "https://www.washingtonpost.com/news/powerpost/wp/2017/07/20/climate-experts-pulled-from-glacier-national-park-tour-with-facebook-ceo-mark-zuckerberg/"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2015/11/25/Health-Environment-Science/Images/TandemStock_889717081448415973.jpg"
+                  },
+                  "headline": {
+                    "text": "Interior Dept. ordered Glacier park chief, other climate expert pulled from Zuckerberg tour"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-19T15:20:52.000Z",
+                    "url": "https://www.washingtonpost.com/news/powerpost/wp/2017/07/18/mark-zuckerberg-went-to-glacier-to-learn-about-climate-change-but-couldnt-meet-with-the-resident-climate-scientist/"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "http://img.washingtonpost.com/rf/image_908w/2010-2019/Wires/Images/2015-03-25/AP/Facebook_Messenger_Expansion-066a7.jpg"
+                  },
+                  "headline": {
+                    "text": "Why wasnвЂ™t Mark Zuckerberg allowed to meet with GlacierвЂ™s climate expert?"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-18T21:21:40.000Z",
+                    "url": "https://www.washingtonpost.com/news/powerpost/wp/2017/07/18/gop-again-hits-federal-retirement-in-latest-budget-plan/"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2017/05/24/National-Politics/Videos/Images/t_1495638776827_name_Trump_Budget_62481_451cc.jpg"
+                  },
+                  "headline": {
+                    "text": "GOP again hits federal retirement in latest budget plan"
+                  },
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 12,
+                "small": 6,
+                "medium": 4,
+                "large": 3,
+                "x-large": 3
+              },
+              "item_template_name": "card-section",
+              "feature_name": "hp-card-realestate",
+              "item_type": "homepage/card",
+              "label": {
+                "text": "Real Estate"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-24T09:30:49.000Z",
+                    "url": "https://www.washingtonpost.com/news/where-we-live/wp/2017/07/24/three-bedroom-four-bath-townhouse-in-olney-md-lists-for-299900/"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "http://www.washingtonpost.com/blogs/where-we-live/files/2017/07/IMG_4856.jpg"
+                  },
+                  "headline": {
+                    "text": "Three-bedroom, four-bathroom townhouse in Olney, Md., lists for $299,900"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "transparency_label": {
+                    "size": "small",
+                    "position": "above-headline",
+                    "primary_text": "Analysis",
+                    "alignment": "inherit"
+                  },
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-24T13:00:45.000Z",
+                    "url": "https://www.washingtonpost.com/news/where-we-live/wp/2017/07/24/vacation-home-market-booms-in-maryland-and-virginia/"
+                  },
+                  "headline": {
+                    "text": "Vacation-home market booms in Maryland and Virginia"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "transparency_label": {
+                    "size": "small",
+                    "position": "above-headline",
+                    "primary_text": "Analysis",
+                    "alignment": "inherit"
+                  },
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-24T11:30:34.000Z",
+                    "url": "https://www.washingtonpost.com/news/where-we-live/wp/2017/07/24/owners-need-to-explore-the-capital-gains-implications-of-rental-home-before-adding-daughter-to-title/"
+                  },
+                  "headline": {
+                    "text": "Owners need to explore the capital gains implications of rental home before adding daughter to title"
+                  },
+                  "sub_item_type": "secondary"
+                },
+                {
+                  "transparency_label": {
+                    "size": "small",
+                    "position": "above-headline",
+                    "primary_text": "Analysis",
+                    "alignment": "inherit"
+                  },
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-07-18T16:01:47.000Z",
+                    "url": "https://www.washingtonpost.com/news/where-we-live/wp/2017/07/18/to-achieve-satisfaction-for-any-home-remodeling-job-make-sure-you-and-the-contractor-are-on-the-same-page/"
+                  },
+                  "headline": {
+                    "text": "To achieve satisfaction for any home remodeling job, make sure you and the contractor are on the same page"
+                  },
+                  "sub_item_type": "secondary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "hp-cards"
+        }
+      ]
+    }
+  },
+  "checksum": "79b9b4a6d77df7476f3790f698c8e27e",
+  "lmt": "Tue, 25 Jul 2017 07:05:02 UTC",
+  "last_modified": "2017-07-25T07:05:02.000Z"
+}

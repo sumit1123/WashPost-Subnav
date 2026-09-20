@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.wapo.flagship.external.ListWidgetConfigurationActivity"
+    android:minWidth="@dimen/home_widget_big_minwidth"
+    android:minHeight="@dimen/home_widget_big_minheight"
+    android:previewImage="@drawable/widget_preview"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="@integer/tabletWidgetUpdatePeriodMillis" />

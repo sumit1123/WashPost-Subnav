@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/table_vertical_padding"
+    android:paddingBottom="@dimen/table_vertical_padding"
+    android:paddingLeft="@dimen/native_article_text_padding"
+    android:paddingRight="@dimen/native_article_text_padding">
+
+    <com.wapo.view.table.TableView
+        android:id="@+id/table"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

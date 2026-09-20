@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+        a:layout_width="wrap_content" a:layout_height="wrap_content">
+
+    <ImageView
+        style="@style/search_loading_curtain"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_centerInParent="true"/>
+
+    <ProgressBar
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_centerHorizontal="true"
+        a:layout_alignParentBottom="true"
+        style="@android:style/Widget.Holo.ProgressBar"/>
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ViewStub
+        android:id="@+id/compound_label_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/compoundLabel"
+        android:layout="@layout/stubbed_compound_label" />
+
+    <com.wapo.flagship.features.pagebuilder.CellHeadlineGroup
+        android:id="@+id/headlineGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ViewStub
+        android:id="@+id/blurb_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/blurb"
+        android:layout="@layout/stubbed_blurb" />
+
+
+    <com.wapo.flagship.features.pagebuilder.CellMediaView
+        android:id="@+id/media"
+        style="?attr/homepage_story_media_cell_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.wapo.flagship.features.grid.views.SignatureActionsView
+        android:id="@+id/signature_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ViewStub
+        android:id="@+id/live_image_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/live_image"
+        android:layout="@layout/stubbed_live_image_container" />
+
+    <ViewStub
+        android:id="@+id/web_component_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/web_component"
+        android:layout="@layout/stubbed_web_component" />
+
+    <ViewStub
+        android:id="@+id/slide_show_image_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/slideshow_image"
+        android:layout="@layout/stubbed_slideshow_image_container" />
+
+    <ViewStub
+        android:id="@+id/related_links_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/related_links"
+        android:layout="@layout/stubbed_related_links" />
+
+    <ViewStub
+        android:id="@+id/live_blog"
+        android:layout="@layout/stubbed_live_blog_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"/>
+
+    <ViewStub
+        android:id="@+id/olympicsView"
+        android:layout="@layout/stubbed_olympics_medals_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <ViewStub
+        android:id="@+id/cta_stub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/cta"
+        android:layout="@layout/stubbed_cta" />
+
+    <ViewStub
+        android:id="@+id/topper_label_stub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/topper_label"
+        android:layout="@layout/stubbed_topper_label" />
+
+    <ViewStub
+        android:id="@+id/footnote_stub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/footNote"
+        android:layout="@layout/stubbed_footnote" />
+
+    <ViewStub
+        android:id="@+id/count_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/count"
+        android:layout="@layout/stubbed_count" />
+
+</merge>

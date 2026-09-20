@@ -1,0 +1,3807 @@
+{
+  "version": 153,
+  "comicsConfigNew": {
+    "url": "https://comics-api.wpdigital.net",
+    "token": "2fb1a5d4-510d-42bc-9066-55a794da3be3"
+  },
+  "shareBaseURL": "http://www.washingtonpost.com",
+  "fusionBaseUrl": "https://jsonapp1.washingtonpost.com/fusion_prod/v2/{{{page}}}",
+  "singleNativeContentRainbowTemplate": "https://rainbowapi-a.wpdigital.net/rainbow-data-service/rainbow/content-by-url.json?platform=iphoneclassic&followLinks=false&url=%@",
+  "singleNativeContentTemplateByUUID": "http://tabletapi.washingtonpost.com/apps-data-service/content-by-identifier.json?identifier=%@",
+  "akamaiImageServiceTemplate": "https://appimages.washingtonpost.com/wp-apps/app-im/?impolicy=fit&w=%s&h=%s&src=%s",
+  "akamaiImageServiceTemplateForAuto": "https://appimages.washingtonpost.com/wp-apps/app-im/?im=fill&w=%s&h=%s&src=%s",
+  "discoverURL": "https://www.washingtonpost.com/arcio/monet-brights",
+  "wpVideosURL": "https://www.washingtonpost.com/arcio/video-tab/",
+  "mostReadFeedURL": "https://www.washingtonpost.com/arcio/most-read/?size=10&website=washpost",
+  "rateAppPromptFrequency": "5184000000",
+  "search2Config": {
+    "baseUrl": "https://tabletapi.washingtonpost.com/apps-data-service/",
+    "postAnswersEnabled": true,
+    "learnMoreUrl": "https://www.washingtonpost.com/technology/2024/11/07/faq-ask-the-post-ai/",
+    "talkToThePostBaseUrl": "https://data-ai-dev.washingtonpost.com/voice-chatbot-api/",
+    "askThePost": {
+      "askThePostTimeOfDay": {
+        "lateNight": {
+          "title": "Late night questions?",
+          "subtitle": "I'm here to help."
+        },
+        "goodEvening": {
+          "title": "Good evening",
+          "subtitle": "Catch up on what's important to you."
+        },
+        "goodAfternoon": {
+          "title": "Good afternoon",
+          "subtitle": "Curious about something? Just ask."
+        },
+        "goodMorning": {
+          "title": "Good morning",
+          "subtitle": "Ask me anything to start your day."
+        }
+      },
+      "converseBaseUrl": "https://wapo-qa.washingtonpost.com/api/v2/",
+      "questionsBaseUrl": "https://wapo-qa.washingtonpost.com/",
+      "questions": [
+        {
+          "uuid": "fallback_question_0",
+          "text": "How can I improve my online privacy?"
+        },
+        {
+          "uuid": "fallback_question_1",
+          "text": "How many books do most people read each year?"
+        },
+        {
+          "uuid": "fallback_question_2",
+          "text": "Can I negotiate down my medical bills?"
+        },
+        {
+          "uuid": "fallback_question_3",
+          "text": "When is the best time to renew my passport?"
+        },
+        {
+          "uuid": "fallback_question_4",
+          "text": "Why is a nuclear-based clock so important?"
+        },
+        {
+          "uuid": "fallback_question_5",
+          "text": "How do I deal with difficult relatives?"
+        },
+        {
+          "uuid": "fallback_question_6",
+          "text": "How do I know if something is a scam?"
+        },
+        {
+          "uuid": "fallback_question_7",
+          "text": "Is walking the best exercise you can do?"
+        },
+        {
+          "uuid": "fallback_question_8",
+          "text": "How can I use AI at work?"
+        },
+        {
+          "uuid": "fallback_question_9",
+          "text": "How do I switch to encrypted messaging?"
+        }
+      ]
+    }
+  },
+  "summariesConfig": {
+    "enabled": true,
+    "realtimeSummary": {
+      "enabled": true,
+      "url": "https://searchapi.washingtonpost.com/realtime/summary"
+    },
+    "realtimeFeedback": {
+      "enabled": true,
+      "url": "https://searchapi.washingtonpost.com/realtime/feedback"
+    },
+    "keyTakeawaysFeedback": {
+      "enabled": true,
+      "url": "https://searchapi.washingtonpost.com/feedback/takeaways"
+    }
+  },
+  "versionConfig": {
+    "enabled": true,
+    "amazon": [
+      1260,
+      1261,
+      1262,
+      1263,
+      1264,
+      1265,
+      1266,
+      1267,
+      1268,
+      1269,
+      1270,
+      1271,
+      1272,
+      1273,
+      1274,
+      1275,
+      1276,
+      1277,
+      1278,
+      1279,
+      1280,
+      1281,
+      1282,
+      1283,
+      1284,
+      1285,
+      1286,
+      1287,
+      1288,
+      1289,
+      1290,
+      1291,
+      1292,
+      1293,
+      1294,
+      1295,
+      1296,
+      1297,
+      1298,
+      1299,
+      1300,
+      1301,
+      1302,
+      1303,
+      1304,
+      1305,
+      1306,
+      1307,
+      1308,
+      1309,
+      1310,
+      1311,
+      1312,
+      1313,
+      1314,
+      1315,
+      1316,
+      1317,
+      1318,
+      1319,
+      1320,
+      1321,
+      1322,
+      1323,
+      1324,
+      1325,
+      1326,
+      1327,
+      1328,
+      1329,
+      1330,
+      1331,
+      1401,
+      2001,
+      2002,
+      2003,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026,
+      2027,
+      2028,
+      2029,
+      2030,
+      2031,
+      2032,
+      2033,
+      2034,
+      2035,
+      2036
+    ],
+    "playStore": [
+      1301,
+      1302,
+      1303,
+      1304,
+      1305,
+      1306,
+      1307,
+      1308,
+      1309,
+      1310,
+      1311,
+      1312,
+      1313,
+      1314,
+      1315,
+      1316,
+      1317,
+      1318,
+      1319,
+      1320,
+      1321,
+      1322,
+      1323,
+      1324,
+      1325,
+      1326,
+      1327,
+      1328,
+      1329,
+      1330,
+      1331,
+      1332,
+      1333,
+      1334,
+      1335,
+      1336,
+      1337,
+      1338,
+      1339,
+      1340,
+      1341,
+      1342,
+      1343,
+      1344,
+      1345,
+      1346,
+      1347,
+      1348,
+      1349,
+      1350,
+      1351,
+      1352,
+      1353,
+      1354,
+      1355,
+      1356,
+      1357,
+      1358,
+      1359,
+      1360,
+      1361,
+      1362,
+      1363,
+      1364,
+      1365,
+      1366,
+      1367,
+      1368,
+      1369,
+      1370,
+      1371,
+      1372,
+      1373,
+      1374,
+      1375,
+      1376,
+      1377,
+      1378,
+      1379,
+      1380,
+      1381,
+      1382,
+      1383,
+      1384,
+      1385,
+      1386,
+      1387,
+      1388,
+      1389,
+      1390,
+      1391,
+      1392,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1398,
+      1399,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405,
+      1406,
+      1407,
+      1408,
+      1409,
+      1410,
+      1411,
+      1412,
+      1413,
+      1414,
+      1415,
+      1416,
+      1417,
+      1418,
+      1419,
+      1420,
+      1421,
+      1422,
+      1423,
+      1424,
+      1425,
+      1426,
+      1427,
+      1428,
+      1429,
+      1430,
+      1431,
+      1432,
+      1433,
+      1434,
+      1435,
+      1436,
+      1444,
+      1445,
+      1446,
+      1447,
+      1448,
+      1449,
+      1450,
+      1451,
+      1452,
+      1453,
+      1454,
+      1455,
+      1456,
+      1457,
+      1458,
+      1459,
+      1460,
+      1461,
+      1462,
+      1463,
+      1464,
+      1465,
+      1466,
+      1467,
+      1468,
+      1469,
+      1470,
+      1471,
+      1472,
+      1473,
+      1474,
+      1475,
+      1476,
+      1477,
+      1478,
+      1479,
+      1480,
+      1481,
+      1482,
+      1483,
+      1484,
+      1485,
+      1486,
+      1487
+    ],
+    "amazonForceUpdate": true,
+    "playStoreForceUpdate": true,
+    "minSdk": 21,
+    "minSdkMessage": "Your Android version is no longer supported. The minimum supported version is Android 5.0"
+  },
+  "preferencesApiConfig": {
+    "preferenceBaseUrl": "https://subscribe.washingtonpost.com/",
+    "checkPrefBaseUrl": "https://checkpref.washingtonpost.com/"
+  },
+  "saveConfig": {
+    "preferenceBaseUrlV2": "https://subscribe.washingtonpost.com/preferenceapi/v1/saved/story/",
+    "metadataServiceBaseUrl": "https://api.washingtonpost.com/metadata-service/v1/metadata/canonical/"
+  },
+  "purchasedArticleConfig": {
+    "baseUrl": "https://subscribe.washingtonpost.com/",
+    "metadataServiceBaseUrl": "https://api.washingtonpost.com/metadata-service/v1/metadata/canonical/"
+  },
+  "backendHealthConfig": {
+    "backendHealthMonitorURL": "https://rainbowapi-a.wpdigital.net/status/api/classic",
+    "fallbackURL": "https://www.washingtonpost.com"
+  },
+  "ads": {
+    "nonSubscriberAdConfig": {
+      "defaultConfig": {
+        "minParagraphsBetweenAds": 4,
+        "minCharactersBetweenAds": 1500,
+        "minCharactersBeforeAd": 150,
+        "minCharactersAfterAd": 450,
+        "maxNumberOfAds": 1000
+      }
+    },
+    "subscriberAdConfig": {
+      "defaultConfig": {
+        "minParagraphsBetweenAds": 5,
+        "minCharactersBetweenAds": 1875,
+        "minCharactersBeforeAd": 150,
+        "minCharactersAfterAd": 450,
+        "maxNumberOfAds": 1
+      }
+    },
+    "overrides": {
+      "defaultConfig": {
+        "path": [
+          "/the-seven"
+        ],
+        "showBottomAd": true
+      }
+    },
+    "firstAdSlot": {
+      "defaultConfig": {
+        "overrideFirstAdSlot": false,
+        "adWidth": 300,
+        "adHeight": 250,
+        "path": [
+          "/opinions"
+        ]
+      }
+    },
+    "discover": {
+      "defaultConfig": {
+        "enabled": true,
+        "commercialNode": "discover",
+        "minParagraphsBetweenAds": 7
+      }
+    },
+    "search": {
+      "enabled": true,
+      "adItemInterval": 5,
+      "commercialNode": "section",
+      "firstItemDelay": 5,
+      "minimumResults": 10
+    },
+    "comics": {
+      "enabled": true,
+      "adItemInterval": 5,
+      "commercialNode": "section",
+      "firstItemDelay": 5,
+      "minimumResults": 10
+    },
+    "audio": {
+      "defaults": {
+        "vastEnabled": true,
+        "minAdBreakIntervalSeconds": 60,
+        "vastTemplate": "https://cmod-world.live.streamtheworld.com/ondemand/ars?ext_stid=[triton-ext-stid]&type=[break-type]&break-number=[break-number]&maxAds=[max-ads]&delivery-method=progressive&ttag=[triton-ttag]&us_privacy=[us-privacy]&gdpr=[gdpr]&gdpr_consent=[gdpr-consent]&bundle-id=[bundle-id]&store-id=[store-id]&store-url=[store-url]&feed-type=[triton-feed-type]&series-title=[series-name]&content-language=[content-language]&site-url=[site-url]",
+        "macros": {
+          "siteUrl": "https://www.washingtonpost.com",
+          "playStoreUrl": "https://play.google.com/store/apps/details?id=com.washingtonpost.android",
+          "amazonStoreAppId": "B00LI6CXZA",
+          "amazonStoreUrl": "https://www.amazon.com/Washington-Post-Company-The/dp/B00LI6CXZA",
+          "contentLanguage": "en",
+          "tritonDeliveryMethod": "progressive"
+        }
+      },
+      "configsByContentType": {
+        "podcast": {
+          "adBreaks": [
+            { "type": "preroll", "maxAds": 1 },
+            { "type": "midroll", "maxAds": 2 },
+            { "type": "postroll", "maxAds": 2 }
+          ],
+          "macros": {
+            "tritonFeedType": "podcast"
+          }
+        },
+        "article": {
+          "minGlobalAdIntervalSeconds": 600,
+          "adBreaks": [
+            { "type": "preroll", "maxAds": 1 }
+          ],
+          "macros": {
+            "tritonExtStid": "wp-1407653",
+            "tritonFeedType": "txt2speech"
+          }
+        }
+      }
+    },
+    "contextualTargeting": {
+      "content": {
+        "enabled": true,
+        "url": "https://ads-metadata-prod.zeustechnology.com/api/v2/content/collection",
+        "timeout": 1000
+      }
+    },
+    "bannersConfig": {
+      "autoRefreshIntervalInSecondsV2": 60,
+      "defaultLoadConfig": [
+        {
+          "loader": "google",
+          "bidSources": ["aps", "gam"]
+        }
+      ],
+      "nimbus": {
+        "enabled": true,
+        "testMode": false,
+        "publisher": "tradecraftllcdbamediatradecraft-washingtonpostlivenews",
+        "key": "W3rMERIlhitp0krxRavMFWxNAxR6K4+fHp6YBRhBXACeU8D+nUJ1KTfW5s1CpfBLl2FIK+7kSlDI7Ebni4YdZQ==",
+        "adMobUnitId": "ca-app-pub-0231639411043846/2973161588",
+        "refreshInterval": 30,
+        "loadConfig": [
+          {
+            "bidSources": ["gam"],
+            "loader": "google"
+          },
+          {
+            "bidSources": ["aps", "admob", "nimbus"],
+            "loader": "nimbus"
+          }
+        ]
+      },
+      "dtb": {
+        "app": "d8e99cce404c4c1999953cc5a669119d",
+        "slots": {
+          "300x250": "fa708271-4f1f-4abf-aef7-66e3d1a37612",
+          "300x600": "09842eed-58cf-4b1c-995d-f2bb1e2e8e1c"
+        }
+      }
+    }
+  },
+  "siteServiceConfig": {
+    "sectionsBarV2ConfigRemoteLocation": "https://rainbowapi.washingtonpost.com/sitemap/v2/prod/washpost/washpost/classic-app-bar-v2.json",
+    "sectionsFeaturedConfigRemoteLocation": "https://rainbowapi.washingtonpost.com/sitemap/v2/prod/washpost/washpost/classic-app-featured.json",
+    "sectionsAZConfigRemoteLocation": "https://rainbowapi.washingtonpost.com/sitemap/v2/prod/washpost/washpost/classic-app-az.json",
+    "sectionsUnlistedConfigRemoteLocation": "https://rainbowapi.washingtonpost.com/sitemap/v2/prod/washpost/washpost/classic-app-unlisted.json",
+    "sectionsRecommendedConfigRemoteLocation": "https://rainbowapi.washingtonpost.com/sitemap/v2/prod/washpost/washpost/classic-app-recommended.json"
+  },
+  "printConfig": {
+    "newsstandBaseURL": "https://rainbowdatanet-a.wpdigital.net/native/",
+    "newsstandBaseURLAmazon": "https://rainbowdatanet-a.wpdigital.net/native/",
+    "awsBaseURL": "https://s3.amazonaws.com/wp-stat/pagestore/",
+    "bundleURLTemplate": "ipad/%s/%s.zip",
+    "retinaBundleURLTemplate": "ipad-retina/%s/%s.zip",
+    "metadataURLTemplate": "%s/tablet_%s.json",
+    "metadataURLTemplateLmt": "ipad-retina/%s/tablet.json",
+    "frontPageImageURLTemplate": "%s/%s",
+    "previewEnabled": true,
+    "dailyDownloadEnabled": true,
+    "dailyDownloadHourUTC": 9,
+    "dailyDownloadMinuteUTC": 30,
+    "dailyDownloadVarianceMinutes": 10,
+    "articleDateTimeoutHours": 3
+  },
+  "pushConfigV3": {
+    "groups": [
+      {
+        "id": "latest",
+        "label": "Latest"
+      },
+      {
+        "id": "oftp",
+        "label": "Only From The Post"
+      },
+      {
+        "id": "sections",
+        "label": "Sections"
+      }
+    ],
+    "availableUserSubscriptionTopics": [
+      {
+        "id": "conversations",
+        "displayName": "Conversations",
+        "key": "conversations",
+        "alias": "cn",
+        "description": "Updates on replies to your comments and community engagement",
+        "group": "oftp"
+      }
+    ],
+    "availableSubscriptionTopics": [
+      {
+        "id": "breaking-news",
+        "displayName": "Breaking News",
+        "key": "breaking-news",
+        "isOptional": false,
+        "alias": "bn",
+        "imageName": "alert_breaking_news",
+        "description": "Major stories and latest updates",
+        "group": "latest"
+      },
+      {
+        "id": "the7_briefs",
+        "displayName": "The 7 Briefing",
+        "key": "the7_briefs",
+        "alias": "7b",
+        "imageName": "alert_the7_briefs",
+        "description": "Morning rundown of 7 essential stories",
+        "group": "latest"
+      },
+      {
+        "id": "whats_new",
+        "displayName": "What's New",
+        "key": "whats_new",
+        "isOptional": false,
+        "alias": "wn",
+        "imageName": "alert_whats_new",
+        "description": "Latest features and reader benefits",
+        "group": "latest",
+        "iterableMessageTypeId": 172336
+      },
+      {
+        "id": "politics",
+        "displayName": "Politics",
+        "key": "politics",
+        "alias": "pl",
+        "imageName": "alert_politics",
+        "description": "White House, Congress and beyond",
+        "group": "sections"
+      },
+      {
+        "id": "us",
+        "displayName": "U.S.",
+        "key": "us",
+        "alias": "us",
+        "imageName": "alert_us",
+        "description": "News of national interest",
+        "group": "sections"
+      },
+      {
+        "id": "world",
+        "displayName": "World",
+        "key": "world",
+        "alias": "wd",
+        "imageName": "alert_world",
+        "description": "News with global reach",
+        "group": "sections"
+      },
+      {
+        "id": "local",
+        "displayName": "D.C. Region",
+        "key": "local",
+        "alias": "lc",
+        "imageName": "alert_local",
+        "description": "News from D.C., Maryland, Virginia",
+        "group": "sections"
+      },
+      {
+        "id": "business",
+        "key": "business",
+        "displayName": "Business",
+        "alias": "bu",
+        "reference": "business_and_tech",
+        "imageName": "alert_business_and_tech",
+        "description": "Wall Street, economy, media",
+        "group": "sections"
+      },
+      {
+        "id": "technology",
+        "key": "technology",
+        "alias": "te",
+        "displayName": "Technology",
+        "reference": "tech",
+        "imageName": "alert_technology",
+        "description": "Big Tech, privacy, gadgets",
+        "group": "sections"
+      },
+      {
+        "id": "tech",
+        "key": "tech",
+        "alias": "te",
+        "displayName": "Technology",
+        "reference": "business_and_tech",
+        "imageName": "alert_technology",
+        "description": "Big Tech, privacy, gadgets",
+        "group": "sections",
+        "hide": true
+      },
+      {
+        "id": "business_and_tech",
+        "displayName": "Business and Tech",
+        "key": "business_and_tech",
+        "alias": "bt",
+        "imageName": "alert_business_and_tech",
+        "description": "Wall Street, big tech, media",
+        "group": "sections",
+        "hide": true
+      },
+      {
+        "id": "health",
+        "displayName": "Health",
+        "key": "health",
+        "alias": "he",
+        "imageName": "alert_health",
+        "description": "Medical news and tips for living well",
+        "reference": "health_and_science",
+        "group": "sections"
+      },
+      {
+        "id": "climate",
+        "displayName": "Climate",
+        "key": "climate",
+        "alias": "cl",
+        "imageName": "alert_climate",
+        "description": "Environmental news and impact",
+        "reference": "health_and_science",
+        "group": "sections"
+      },
+      {
+        "id": "health_and_science",
+        "displayName": "Health and Science",
+        "key": "health_and_science",
+        "alias": "hs",
+        "imageName": "alert_health_and_science",
+        "description": "Medical and environmental news",
+        "group": "sections",
+        "hide": true
+      },
+      {
+        "id": "sports",
+        "displayName": "Sports",
+        "key": "sports",
+        "alias": "sp",
+        "imageName": "alert_sports",
+        "description": "Game results, athlete insights",
+        "group": "sections"
+      },
+      {
+        "id": "entertainment",
+        "displayName": "Entertainment",
+        "key": "entertainment",
+        "alias": "et",
+        "imageName": "alert_entertainment",
+        "description": "Celebrities, film, TV, music, art",
+        "group": "sections"
+      },
+      {
+        "id": "food",
+        "displayName": "Food",
+        "key": "food",
+        "alias": "fo",
+        "imageName": "alert_food",
+        "description": "Industry news, recipes, kitchen tips",
+        "group": "sections"
+      },
+      {
+        "id": "advice",
+        "displayName": "Advice",
+        "key": "advice",
+        "alias": "ad",
+        "imageName": "alert_advice",
+        "description": "Lifestyle tips from Carolyn Hax, other experts",
+        "group": "sections"
+      },
+      {
+        "id": "opinions",
+        "displayName": "Opinions",
+        "key": "opinions",
+        "alias": "op",
+        "imageName": "alert_opinions",
+        "description": "Columnists’ views on current events",
+        "group": "sections"
+      },
+      {
+        "id": "editors_picks",
+        "displayName": "Editors' Picks",
+        "key": "editors_picks",
+        "alias": "ep",
+        "imageName": "alert_editors_picks",
+        "description": "Our most-read, can’t-miss stories",
+        "group": "oftp"
+      },
+      {
+        "id": "special_report",
+        "displayName": "Special Report",
+        "key": "special_report",
+        "alias": "sr",
+        "imageName": "alert_special_report",
+        "description": "Exclusives, investigations, in-depth reporting",
+        "group": "oftp"
+      },
+      {
+        "id": "daily_read",
+        "displayName": "For You Daily",
+        "key": "daily_read",
+        "alias": "dr",
+        "isOptional": false,
+        "imageName": "alert_daily_read",
+        "description": "One compelling story sent each evening",
+        "group": "oftp"
+      },
+      {
+        "id": "news_quiz",
+        "displayName": "Games",
+        "key": "news_quiz",
+        "alias": "nq",
+        "imageName": "alert_news_quiz",
+        "description": "Play our news quiz, crossword and more",
+        "group": "oftp"
+      },
+      {
+        "id": "todays_paper",
+        "displayName": "In Today's Paper",
+        "key": "todays_paper",
+        "alias": "pr",
+        "imageName": "alert_todays_paper",
+        "description": "A preview of our front page",
+        "group": "oftp"
+      }
+    ]
+  },
+  "paywallConfigV3": {
+    "on": true,
+    "tetroOn": true,
+    "tetroBaseUrl": "https://subscribe.washingtonpost.com/tetro/metering/",
+    "meteringProxyBaseUrl": "https://subscribe.washingtonpost.com/nativeservice/proxy/metering/apps/",
+    "useMeteringProxy": true,
+    "tetroWeightArticleTTL": 86400000,
+    "limit": 2,
+    "maxRollingDays": 5,
+    "maxRollingArticleLimit": 1000,
+    "ftcDialogPlayStoreVisibility": false,
+    "ftcDialogAmazonVisibility": false,
+    "validSKUs": [
+      "m1-r",
+      "M1-R",
+      "m1-r-6m",
+      "m1_r",
+      "m6-r",
+      "M6-R",
+      "wp.rainbow.premium",
+      "monthly_all_access",
+      "MONTHLY_ALL_ACCESS",
+      "wp.classic.basic",
+      "wp.classic.basic.annual",
+      "wp.classic.premium.annual",
+      "wp.classic.promo.1",
+      "wp.unified.basic",
+      "wp.unified.basic.annual",
+      "wp.unified.premium",
+      "wp.unified.premium.annual",
+      "WP.UNIFIED.BASIC",
+      "WP.UNIFIED.BASIC.ANNUAL",
+      "WP.UNIFIED.PREMIUM",
+      "WP.UNIFIED.PREMIUM.ANNUAL",
+      "wp.classic.flex",
+      "wp.classic.no.ads.monthly",
+      "wp.classic.no.ads.annual"
+    ],
+    "adFreeSKUs": [
+      "wp.classic.no.ads.monthly",
+      "wp.classic.no.ads.annual"
+    ],
+    "validSixMonthSKUs": [
+      "m6-r",
+      "M6-R"
+    ],
+    "SKU": "monthly_all_access",
+    "amazonSku": "wp.unified.basic",
+    "playLicense": "fnX1xuQrzDgqC59Wpr2MFO8lZMIZ7Z5O01wwQwUGH88WhjPgyBHGXkpKJZi9jzCKMD4UGVsN4EXSZAKwa1ljzdBf2K8HVfwb7A0YNICyy9elhoIuOhgsz/5EVcjz2nxqMSBcHxbDR/VMPJFgiviSW0jDHvJvNBHfj6KvrMc0+lfbuGRx2N5Qz++xO8cGwETZ5qT5xzzox9dHd5RC7fP1tSlA6YSaUD90hoi/KPyiefW2J22zaTkSGEcW7GqPMCIdiVWMD2rgXsUVhPDwxwkyQDQTC3l5m8igQSEqJIf+mHWN7Ihp4+f4KGupTeJsE5//MlI20QLdUDWyAEqe240VUskW2AOKVrvIUmEaPysY+cgg7eondR74aLCClH3Uqwpv9xBJUPJci/yQH+iTw7fNJ44TdU+tilo2r69aIJaQGEyG1IDhroGDM7cHLFOw6bbTtB0HXh7q9gjIef8EA6GPNbY4X1VyqXnKyilK9U1z5DdN1eXRZRDJALOb0AUzpjnXrLuJ9uLijMjoXLS+RNsW9Q==",
+    "editEmailPasswordUrl": "https://www.washingtonpost.com/my-post/account/profile/?itid=app_settings",
+    "editNamePhotoUrl": "https://subscribe.washingtonpost.com/profile/#!/profile/details?destination=https:%2F%2Fwww.washingtonpost.com%2F%3Frefresh%3Dtrue&no_nav=true",
+    "manageSubUrl": "https://www.washingtonpost.com/my-post/account/subscription?itid=app_settings",
+    "manageSubResumeUrl": "https://www.washingtonpost.com/my-post/account/subscription/resume?itid=app_settings",
+    "paywallBaseUrl": "https://subscribe.washingtonpost.com/%s/rest/",
+    "subsBaseUrl": "https://subscribe.washingtonpost.com/",
+    "newsLettersBaseUrl": "https://newsletters.washingtonpost.com/newsletters/",
+    "subBenefitsUrl": "https://www.washingtonpost.com/my-post/my-benefits",
+    "aboutMeUrl": "https://www.washingtonpost.com/my-post/account/about-me",
+    "oAuthConfigStub": {
+      "authorizationUrl": "https://www.washingtonpost.com/subscribe/signin?case=noa&wpflow=native-android",
+      "signUpUrl": "/signup",
+      "freeTrialUrl": "/signup/free-trial",
+      "authorizationScope": "scope1",
+      "authorizationState": "state1",
+      "tokenUrl": "https://login.washingtonpost.com/identity/oauth/v1/token",
+      "tokenUrlV2": "https://login.washingtonpost.com/identity/oauth/v2/token",
+      "oneLinkTokenUrl": "https://subscribe.washingtonpost.com/oauth/one-link/token/",
+      "profileUrlV2": "https://login.washingtonpost.com/identity/oauth/v2/profile",
+      "revokeUrl": "https://login.washingtonpost.com/identity/oauth/v1/revoke",
+      "migrateUrl": "https://login.washingtonpost.com/identity/oauth/v1/migrate",
+      "appType": "classic",
+      "saveIdentityPreferencesUrl": "https://subscribe.washingtonpost.com/user/save-identity-preferences",
+      "nonceUrl": "https://subscribe.washingtonpost.com/oauth/generate-login-nonce"
+    },
+    "reminderScreen": {
+      "enabled": true,
+      "frequency": 86400000
+    },
+    "bottomCta": {
+      "enabled": true,
+      "sku": "wp.classic.basic",
+      "terminatedSubMessage": "Unlimited access to all our journalism.",
+      "newSubMessage": "Unlimited access to all our journalism."
+    },
+    "bottomCtaAmazon": {
+      "enabled": true,
+      "sku": "wp.unified.basic",
+      "terminatedSubMessage": "Unlimited access to all our journalism.",
+      "newSubMessage": "Unlimited access to all our journalism."
+    },
+    "onboardingReminder": {
+      "newSubscriber": {
+        "message": "Unlimited access, save stories to read later, and use your subscription on any device.",
+        "heading": "Get the full experience."
+      },
+      "terminatedSubscriber": {
+        "message": "Resubscribe and get unlimited access to trusted journalism, save stories to read later, and read offline.",
+        "heading": "Come back and get the full experience."
+      },
+      "sku": "wp.classic.basic",
+      "ctaDestination": "paywall"
+    },
+    "acquisitionReminder": {
+      "newSubscriber": {
+        "message": "Plus, you will be able to save stories to read later, and read offline.",
+        "heading": "All our journalism, free for 30 days."
+      },
+      "terminatedSubscriber": {
+        "message": "Resubscribe and get unlimited access to trusted journalism, save stories to read later, and read offline.",
+        "heading": "Come back and get the full experience."
+      },
+      "sku": "wp.classic.basic",
+      "ctaDestination": "paywall",
+      "enabled": true,
+      "frequency": 86400000
+    },
+    "acquisitionReminderAmazon": {
+      "newSubscriber": {
+        "message": "Unlimited access, save stories to read later and use your subscription on any device.",
+        "heading": "Get the full experience."
+      },
+      "terminatedSubscriber": {
+        "message": "Resubscribe and get unlimited access to trusted journalism, save stories to read later, and read offline.",
+        "heading": "Come back and get the full experience."
+      },
+      "sku": "wp.unified.basic",
+      "ctaDestination": "paywall",
+      "enabled": true,
+      "frequency": 86400000
+    },
+    "paywallSheets": {
+      "meterNoSub": {
+        "title": "Subscribe to continue reading.",
+        "pages": [
+          {
+            "icon": "",
+            "title": "Core",
+            "featuresIncluded": [
+              "<b>Unlimited access</b> on the web and in our apps"
+            ],
+            "featuresExcluded": [
+              "A<b>3 extra accounts</b> to share with friends and family",
+              "<b>Select discounts and experiences</b> from our partners.",
+              "A <b>30-day digital pass</b> to share unlimited access every month"
+            ],
+            "products": [
+              {
+                "sku": "wp.classic.basic"
+              },
+              {
+                "sku": "wp.classic.basic.annual",
+                "pill": "Save 70%"
+              }
+            ]
+          },
+          {
+            "icon": "",
+            "title": "Premium",
+            "featuresIncluded": [
+              "<b>Unlimited access</b> on the web and in our apps",
+              "<b>3 extra accounts</b> to share with friends and family",
+              "<b>Select discounts and experiences</b> from our partners.",
+              "A <b>30-day digital pass</b> to share unlimited access every month"
+            ],
+            "products": [
+              {
+                "sku": "monthly_all_access"
+              },
+              {
+                "sku": "wp.classic.premium.annual",
+                "pill": "Save 70%"
+              }
+            ]
+          }
+        ]
+      },
+      "meterTerminatedSub": {
+        "title": "Resubscribe to continue reading."
+      },
+      "globalCtaNoSub": {
+        "title": "Subscribe to get the full experience.",
+        "pages": [
+          {
+            "icon": "",
+            "title": "Core",
+            "featuresIncluded": [
+              "<b>Unlimited access</b> on the web and in our apps"
+            ],
+            "featuresExcluded": [
+              "<b>3 extra accounts</b> to share with friends and family",
+              "<b>Select discounts and experiences</b> from our partners.",
+              "A <b>30-day digital pass</b> to share unlimited access every month"
+            ],
+            "products": [
+              {
+                "sku": "wp.classic.basic"
+              },
+              {
+                "sku": "wp.classic.basic.annual",
+                "pill": "Save 70%"
+              }
+            ]
+          },
+          {
+            "icon": "",
+            "title": "Premium",
+            "featuresIncluded": [
+              "<b>Unlimited access</b> on the web and in our apps",
+              "<b>3 extra accounts</b> to share with friends and family",
+              "<b>Select discounts and experiences</b> from our partners.",
+              "A <b>30-day digital pass</b> to share unlimited access every month"
+            ],
+            "products": [
+              {
+                "sku": "monthly_all_access"
+              },
+              {
+                "sku": "wp.classic.premium.annual",
+                "pill": "Save 70%"
+              }
+            ]
+          }
+        ]
+      },
+      "globalCtaTerminatedSub": {
+        "title": "Resubscribe to get the full experience."
+      },
+      "featureNoSub": {
+        "title": "Subscribe to save this story.",
+        "pages": [
+          {
+            "icon": "",
+            "title": "Core",
+            "featuresIncluded": [
+              "<b>Unlimited access</b> on the web and in our apps"
+            ],
+            "featuresExcluded": [
+              "<b>3 extra accounts</b> to share with friends and family",
+              "<b>Select discounts and experiences</b> from our partners.",
+              "A <b>30-day digital pass</b> to share unlimited access every month"
+            ],
+            "products": [
+              {
+                "sku": "wp.classic.basic"
+              },
+              {
+                "sku": "wp.classic.basic.annual",
+                "pill": "Save 70%"
+              }
+            ]
+          },
+          {
+            "icon": "",
+            "title": "Premium",
+            "featuresIncluded": [
+              "<b>Unlimited access</b> on the web and in our apps",
+              "<b>3 extra accounts</b> to share with friends and family",
+              "<b>Select discounts and experiences</b> from our partners.",
+              "A <b>30-day digital pass</b> to share unlimited access every month"
+            ],
+            "products": [
+              {
+                "sku": "monthly_all_access"
+              },
+              {
+                "sku": "wp.classic.premium.annual",
+                "pill": "Save 70%"
+              }
+            ]
+          }
+        ]
+      },
+      "featureTerminatedSub": {
+        "title": "Resubscribe to save this story."
+      }
+    },
+    "cookies": {
+      "sameSiteEnabled": true
+    },
+    "globalBannerConfig": {
+      "banners": [
+        {
+          "id": "main"
+        },
+        {
+          "id": "amazon_main"
+        },
+        {
+          "id": "amazon_ad_free_monthly",
+          "productName": "AD_FREE",
+          "title": "Make your subscription ad-free.",
+          "subtitle": "Read uninterrupted for $5 more a month.",
+          "url": "https://washingtonpost.com/my-post/feature/?key=AD_FREE&p=Ad_Free_Promo&s_l=APPS_IAP_REDIRECT",
+          "action": "Remove Ads"
+        },
+        {
+          "id": "amazon_ad_free_yearly",
+          "productName": "AD_FREE",
+          "title": "Make your subscription ad-free.",
+          "subtitle": "Read uninterrupted for $50 more a year.",
+          "url": "https://washingtonpost.com/my-post/feature/?key=AD_FREE&p=Ad_Free_Promo&s_l=APPS_IAP_REDIRECT",
+          "action": "Remove Ads"
+        }
+      ]
+    }
+  },
+  "loggerConfig": {
+    "active": true,
+    "errorActive": true,
+    "paywallActive": true,
+    "debugActive": true,
+    "verboseActive": true,
+    "metricsActive": true,
+    "metricsSamplingActive": false,
+    "metricsSamplingPercentageRate": 100,
+    "appName": "WashPost",
+    "s3Bucket": "wpnativeapplogs",
+    "s3Path": "prod/androidnew/",
+    "fileSizeThreshold": 20000,
+    "s3AccessId": "6B9DC70B7EBEEBF733F609161090BD9A9EC1A9F6B3AE60FBA7160738E7E816CC",
+    "s3AccessToken": "5B6D4B34876B53986207F4FDB39C27F3CE52D91C49F495EFE7950FAB0E802025329B2625300E36147D58A5027BCF1E3B",
+    "sumoHttpURL": "https://endpoint1.collection.us2.sumologic.com/receiver/v1/http/ZaVnC4dhaV1lgLa8n1CoUcuLNAq5VREk_ByESXIflkdQA4eGJjQ7IiRwCYARYpjs8urofRWmBkxh9cxnNyRWHHlwV8SfBQSl1g_1M1YqBMM7HKYYGB3Mgg==",
+    "splunkHttpURL": "https://http-inputs-washpost.splunkcloud.com/services/collector/raw?source=classic_android_prod&sourcetype=classic_android_prod",
+    "splunkToken": "6C4F566B5489DAB9214EF2490C2759DFDB2EA2D0A8E77576A91F825AE6CCC2925BDF8E2EAFC6DC84D40E6157B3E92865"
+  },
+  "isSumoLoggingActive": false,
+  "isSplunkLoggingActive": true,
+  "isSplunkSamplingActive": false,
+  "splunkSamplingPercentageRate": 10,
+  "liveBlogServiceURL": "https://www.washingtonpost.com/arcio/fact-checker/item/?select=cms_date,cms_title,cms_modified,transformed_content.slug&limit=LIVE_BLOG_MAX_ENTRIES&src_url=",
+  "newslettersAndEmailAlertsUrl": "https://www.washingtonpost.com/newsletters/",
+  "privacyPolicyUrl": "http://www.washingtonpost.com/privacy-policy/2011/11/18/gIQASIiaiN_story.html",
+  "noticeOfCollectionUrl": "https://www.washingtonpost.com/privacy-policy/2011/11/18/gIQASIiaiN_story.html#CALIFORNIA",
+  "termsOfServiceUrl": "http://www.washingtonpost.com/terms-of-service/2011/11/18/gIQAldiYiN_story.html",
+  "widgetSections": [
+    {
+      "displayName": "Top Stories",
+      "bundleName": "mobile-homepage",
+      "fusionBundleName": "/."
+    },
+    {
+      "displayName": "Politics",
+      "bundleName": "/politics"
+    },
+    {
+      "displayName": "Opinions",
+      "bundleName": "/opinions"
+    },
+    {
+      "displayName": "Investigations",
+      "bundleName": "/national/investigations"
+    },
+    {
+      "displayName": "Tech",
+      "bundleName": "/business/technology"
+    },
+    {
+      "displayName": "World",
+      "bundleName": "/world"
+    },
+    {
+      "displayName": "D.C., Md. & Va.",
+      "bundleName": "/local"
+    },
+    {
+      "displayName": "Sports",
+      "bundleName": "/sports"
+    },
+    {
+      "displayName": "Lifestyle",
+      "bundleName": "/lifestyle"
+    },
+    {
+      "displayName": "Weather",
+      "bundleName": "/weather"
+    }
+  ],
+  "discoverWidgetSections": [
+    {
+      "displayName": "Discover",
+      "bundleName": "/discover"
+    }
+  ],
+  "audioConfig": {
+    "audioAdInterval": 600000,
+    "fullWidth": {
+      "imgHeight": 1020,
+      "imgWidth": 1020
+    },
+    "thumbnail": {
+      "imgHeight": 144,
+      "imgWidth": 144
+    },
+    "audioApiBaseUrl": "https://api.washingtonpost.com/audio-api/api/v1/"
+  },
+  "savedArticleLogFrequencyDays": 14,
+  "contentUpdateRules": {
+    "sectionsUiRequestsTimeout": 10000,
+    "sectionsColdUpdatesInterval": 120000,
+    "sectionsSyncLimit": 1,
+    "foregroundSyncTimeInSeconds": 90
+  },
+  "paramsToOmit": [
+    "wpisrc",
+    "tid"
+  ],
+  "maxGAUploadEventsBatchSize": 10,
+  "webArticleConfig": {
+    "isWebTypeEnabled": true,
+    "minSdk": 0
+  },
+  "chartbeatConfig": {
+    "accountId": "19624",
+    "domain": "apps.washingtonpost.com"
+  },
+  "followConfig": {
+    "thumbnail": {
+      "imgHeight": 100,
+      "imgWidth": 100
+    },
+    "authorFollowUrl": "https://www.washingtonpost.com/arcio/classic-author/%s/?size=%d&from=%d",
+    "authorFollowBaseSyncUrl": "https://subscribe.washingtonpost.com"
+  },
+  "voterGuideUrl": "https://elex-page-data-prod.elections.aws.wapo.pub/elex-components-data/voting-guide-50-states.json",
+  "zendeskConfig": {
+    "url": "https://washposthelp.zendesk.com",
+    "customFields": {
+      "metadataId": 48269648,
+      "appType": "android_classic",
+      "appTypeId": 56804708,
+      "mobileApp": "washington_post_app",
+      "mobileAppId": 48155107
+    },
+    "ticketForms": [
+      {
+        "id": 493668,
+        "name": "Journalism"
+      },
+      {
+        "id": 360001242231,
+        "name": "Live Chat Discussions"
+      },
+      {
+        "id": 114094010092,
+        "name": "Commenting community"
+      },
+      {
+        "id": 403687,
+        "name": "Subscriptions"
+      },
+      {
+        "id": 385867,
+        "name": "Classifieds & advertising"
+      },
+      {
+        "id": 493328,
+        "name": "Newsletters"
+      },
+      {
+        "id": 502668,
+        "name": "Website / mobile apps"
+      },
+      {
+        "id": 360000201552,
+        "name": "Group subscription inquiry"
+      },
+      {
+        "id": 360000264292,
+        "name": "New Homes Guide"
+      },
+      {
+        "id": 360000603931,
+        "name": "Data Privacy"
+      }
+    ]
+  },
+  "oneTrustConfig": {
+    "storageLocation": "cdn.cookielaw.org",
+    "domainIdentifier": "D6F9F0731C3B9DFA6C9E1F03B027448FC74EAAA0CD952CD4FE089A25C628EF6152D802D9A71026BD1D06A2F8E78995B1",
+    "stageDomainIdentifier": "10716746C80DDF5D5179DAF7180FEF60EDE8CA7792893371A131EECF130AF0D9227FB1CABE90997468FE9E7422EAEA25"
+  },
+  "forYouFlexConfig": {
+    "url": "https://foryou-flex.washingtonpost.com/",
+    "ttl": 300,
+    "checkReadList": true,
+    "maxSize": 100
+  },
+  "forYouWidgetConfig": {
+    "ttls": 3600,
+    "maxSize": 24,
+    "pageSize": 8
+  },
+  "readingHistoryServiceConfig": {
+    "url": "https://subscribe.washingtonpost.com/"
+  },
+  "myPostConfig": {
+    "banner": {
+      "enabled": false,
+      "sections": [
+        "ALL"
+      ],
+      "link": "www.washingtonpost.com/my-post/newsprint?wv=nonav",
+      "title": "Uncover your Newsprint",
+      "subtitle": "Trailblazer? Deep Diver? Optimizer? Find out what your 2023 reading says about you.",
+      "image": {
+        "asset": "newsprint_gif",
+        "url": "https://rainbowdatanet-a.wpdigital.net/native/app-settings/newsprint/banner-newsprint-2023.gif",
+        "urlDark": "https://rainbowdatanet-a.wpdigital.net/native/app-settings/newsprint/banner-newsprint-2023.gif",
+        "assetHasPriority": false
+      },
+      "cta": {
+        "minimizeOnNarrowScreen": true,
+        "buttonText": "See my 2023 Newsprint"
+      }
+    },
+    "birthdayFrontPage": {
+      "enabled": true,
+      "url": "https://washingtonpost.com/my-post/front-page"
+    }
+  },
+  "paywallConf": {
+    "abTestName": "paywall_2204",
+    "blockers": [
+      {
+        "name": "main",
+        "category": "paywall",
+        "components": [
+          { "type": "spacer", "space": 20 },
+          { "type": "title",
+            "subscribed": "Get the right plan for you",
+            "none-content": "Subscribe to get the full experience",
+            "ended-content": "Resubscribe to get the full experience",
+            "gift-expired": "Sorry, this gift article link has expired"
+          },
+          { "type": "spacer",
+            "space": 8,
+            "visibility": "gift-expired"
+          },
+          { "type": "text",
+            "gift-expired": "You can read this article and more with a Washington Post subscription."
+          },
+          { "type": "spacer", "space": 20 },
+          { "type": "offer", "components": [
+            { "type": "name" },
+            { "type": "spacer", "space": 12 },
+            { "type": "spacer", "space": 12 },
+            { "type": "button" }
+          ],
+            "productSeparator": [
+              { "type": "spacer", "compact": 24, "regular": 20 },
+              { "type": "separator" },
+              { "type": "spacer", "space": 20 }
+            ]
+          },
+          { "type": "spacer", "compact": 20, "regular": 32 },
+          { "type": "terms" },
+          { "type": "spacer", "space": 16 },
+          { "type": "separator" },
+          { "type": "spacer", "space": 16 },
+          { "type": "restore" },
+          { "type": "spacer", "space": 20 }
+        ],
+        "products": [
+          {
+            "id": "basic-monthly",
+            "name": "Core",
+            "text": [
+              "<b>Unlimited access</b> on the web and in our apps",
+              "<b>24/7</b> live news updates",
+              "Most comprehensive <b>political and international coverage</b>",
+              "Groundbreaking <b>interactive stories</b>"
+            ]
+          },
+          {
+            "id": "basic-annual",
+            "name": "Core",
+            "text": [
+              "<b>Unlimited access</b> on the web and in our apps",
+              "<b>24/7</b> live news updates",
+              "Most comprehensive <b>political and international coverage</b>",
+              "Groundbreaking <b>interactive stories</b>"
+            ]
+          }
+        ],
+        "versions": [
+          {
+            "version": 2,
+            "components": [
+              { "type": "spacer", "space": 20 },
+              { "type": "title",
+                "subscribed": "Get the right plan for you",
+                "none-content": "Subscribe to get the full experience",
+                "ended-content": "Resubscribe to get the full experience",
+                "gift-expired": "Sorry, this gift article link has expired"
+              },
+              { "type": "spacer",
+                "space": 8,
+                "visibility": "gift-expired"
+              },
+              { "type": "text",
+                "gift-expired": "You can read this article and more with a Washington Post subscription."
+              },
+              { "type": "spacer", "compact": 20, "regular": 32 },
+              { "type": "offer", "components": [
+                { "type": "text" },
+                { "type": "spacer", "space": 10 },
+                { "type": "tiles", "variation": "paywall", "defaultSelection": 0 },
+                { "type": "spacer", "space": 10 },
+                { "text": "<b>Subscribe</b>", "type": "button", "product": "dynamic", "authorizeURL": "../signup/?case=noa" },
+                { "type": "spacer", "space": 10 },
+                { "type": "terms" }
+              ],
+                "productSeparator": [
+                  { "type": "spacer", "compact": 24, "regular": 20 },
+                  { "type": "separator" },
+                  { "type": "spacer", "space": 20 }
+                ]
+              },
+              { "type": "spacer", "space": 16 },
+              { "type": "restore" },
+              { "type": "spacer", "space": 20 }
+            ],
+            "products": [
+              {
+                "id": "basic-monthly",
+                "name": "Monthly",
+                "note": "Unlimited access. Cancel anytime.",
+                "text": [
+                  "<b>Unlimited access</b> on the web and in our apps",
+                  "<b>24/7</b> live news updates",
+                  "Most comprehensive <b>political and international coverage</b>",
+                  "Groundbreaking <b>interactive stories</b>"
+                ]
+              },
+              {
+                "id": "basic-annual",
+                "name": "Yearly",
+                "note": "Unlimited access. Cancel anytime.",
+                "text": [
+                  "<b>Unlimited access</b> on the web and in our apps",
+                  "<b>24/7</b> live news updates",
+                  "Most comprehensive <b>political and international coverage</b>",
+                  "Groundbreaking <b>interactive stories</b>"
+                ]
+              }
+            ]
+          },
+          {
+            "version": 6,
+            "components": [
+              { "type": "spacer", "space": 20 },
+              { "type": "title",
+                "subscribed": "Get the right plan for you",
+                "none-content": "Subscribe to get the full experience",
+                "ended-content": "Resubscribe to get the full experience",
+                "gift-expired": "Sorry, this gift article link has expired"
+              },
+              { "type": "spacer",
+                "space": 8,
+                "visibility": "gift-expired"
+              },
+              { "type": "text",
+                "gift-expired": "You can read this article and more with a Washington Post subscription."
+              },
+              { "type": "spacer", "compact": 20, "regular": 32 },
+              { "type": "offer", "components": [
+                { "type": "text" },
+                { "type": "spacer", "space": 10 },
+                { "type": "tiles", "variation": "paywall", "defaultSelection": 0 },
+                { "type": "spacer", "space": 10 },
+                { "text": "<b>Subscribe</b>", "type": "button", "product": "dynamic", "authorizeURL": "../signup/?case=noa" },
+                { "type": "spacer", "space": 10 },
+                { "type": "terms" }
+              ],
+                "productSeparator": [
+                  { "type": "spacer", "compact": 24, "regular": 20 },
+                  { "type": "separator" },
+                  { "type": "spacer", "space": 20 }
+                ]
+              },
+              { "type": "spacer", "space": 16 },
+              { "type": "restore" },
+              { "type": "spacer", "space": 20 }
+            ],
+            "items": [
+              {
+                "id": "basic-monthly",
+                "name": "Monthly",
+                "note": "Unlimited access. Cancel anytime.",
+                "text": [
+                  "<b>Unlimited access</b> on the web and in our apps",
+                  "<b>24/7</b> live news updates",
+                  "Most comprehensive <b>political and international coverage</b>",
+                  "Groundbreaking <b>interactive stories</b>"
+                ]
+              },
+              {
+                "id": "basic-annual",
+                "name": "Yearly",
+                "text": [
+                  "<b>Unlimited access</b> on the web and in our apps",
+                  "<b>24/7</b> live news updates",
+                  "Most comprehensive <b>political and international coverage</b>",
+                  "Groundbreaking <b>interactive stories</b>"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "amazon_main",
+        "category": "paywall",
+        "components": [
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "promo",
+            "text": "SPECIAL OFFER",
+            "none-content": "SPECIAL OFFER",
+            "ended-content": "SPECIAL OFFER"
+          },
+          {
+            "type": "spacer",
+            "space": 8
+          },
+          {
+            "type": "title",
+            "none-content": "Subscribe to get the full experience.",
+            "ended-content": "Resubscribe to get the full experience.",
+            "gift-expired": "Sorry, this gift article link has expired.",
+            "gift-invalid": "Sorry, this gift article link is invalid."
+          },
+          {
+            "type": "spacer",
+            "space": 8
+          },
+          {
+            "type": "subtitle",
+            "gift-expired": "You can read this article and more with a Washington Post subscription.",
+            "gift-invalid": "You can read this article and more with a Washington Post subscription."
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "choice",
+            "split": "intervals",
+            "default": 0
+          },
+          {
+            "type": "spacer",
+            "compact": 20,
+            "regular": 32
+          },
+          {
+            "type": "offer",
+            "components": [
+              {
+                "type": "name"
+              },
+              {
+                "type": "spacer",
+                "space": 12
+              },
+              {
+                "type": "text"
+              },
+              {
+                "type": "spacer",
+                "space": 12
+              },
+              {
+                "type": "button"
+              }
+            ],
+            "productSeparator": [
+              {
+                "type": "spacer",
+                "compact": 24,
+                "regular": 20
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "spacer",
+                "space": 20
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "compact": 20,
+            "regular": 32
+          },
+          {
+            "type": "terms"
+          },
+          {
+            "type": "spacer",
+            "space": 16
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "spacer",
+            "space": 16
+          },
+          {
+            "type": "restore"
+          },
+          {
+            "type": "spacer",
+            "space": 24
+          }
+        ],
+        "products": [
+          {
+            "id": "wp.unified.basic",
+            "introOfferText": "Try 1 month free",
+            "name": "Core",
+            "text": [
+              "<b>Unlimited access</b> on the web and in our apps",
+              "<b>24/7</b> live news updates",
+              "Most comprehensive <b>political and international coverage</b>",
+              "Groundbreaking <b>interactive stories</b>"
+            ]
+          },
+          {
+            "id": "wp.unified.basic.annual",
+            "name": "Core",
+            "text": [
+              "<b>Unlimited access</b> on the web and in our apps",
+              "<b>24/7</b> live news updates",
+              "Most comprehensive <b>political and international coverage</b>",
+              "Groundbreaking <b>interactive stories</b>"
+            ]
+          },
+          {
+            "id": "wp.unified.premium",
+            "introOfferText": "Try 1 month free",
+            "name": "Premium",
+            "text": [
+              "Every <b>Core</b> feature",
+              "<b>3 extra accounts</b> to share with friends and family",
+              "Monthly <b>30-day digital passes</b> to share",
+              "Exclusive <b>eBooks</b> written by our journalists"
+            ],
+            "separator": {
+              "text": "PLUS",
+              "index": 1
+            }
+          },
+          {
+            "id": "wp.unified.premium.annual",
+            "name": "Premium",
+            "text": [
+              "Every <b>Core</b> feature",
+              "<b>3 extra accounts</b> to share with friends and family",
+              "Monthly <b>30-day digital passes</b> to share",
+              "Exclusive <b>eBooks</b> written by our journalists"
+            ],
+            "separator": {
+              "text": "PLUS",
+              "index": 1
+            }
+          }
+        ],
+        "versions": [
+          {
+            "version": 6,
+            "components": [
+              { "type": "spacer", "space": 20 },
+              { "type": "title",
+                "subscribed": "Get the right plan for you",
+                "none-content": "Subscribe to get the full experience",
+                "ended-content": "Resubscribe to get the full experience",
+                "gift-expired": "Sorry, this gift article link has expired"
+              },
+              { "type": "spacer",
+                "space": 8,
+                "visibility": "gift-expired"
+              },
+              { "type": "text",
+                "gift-expired": "You can read this article and more with a Washington Post subscription."
+              },
+              { "type": "spacer", "compact": 20, "regular": 32 },
+              { "type": "offer", "components": [
+                { "type": "text" },
+                { "type": "spacer", "space": 10 },
+                { "type": "tiles", "variation": "paywall", "defaultSelection": 0 },
+                { "type": "spacer", "space": 10 },
+                { "text": "<b>Subscribe</b>", "type": "button", "product": "dynamic", "authorizeURL": "../signup/?case=noa" },
+                { "type": "spacer", "space": 10 },
+                { "type": "terms" }
+              ],
+                "productSeparator": [
+                  { "type": "spacer", "compact": 24, "regular": 20 },
+                  { "type": "separator" },
+                  { "type": "spacer", "space": 20 }
+                ]
+              },
+              { "type": "spacer", "space": 16 },
+              { "type": "restore" },
+              { "type": "spacer", "space": 20 }
+            ],
+            "items": [
+              {
+                "id": "wp.unified.basic",
+                "name": "Monthly",
+                "note": "Unlimited access. Cancel anytime.",
+                "text": [
+                  "<b>Unlimited access</b> on the web and in our apps",
+                  "<b>24/7</b> live news updates",
+                  "Most comprehensive <b>political and international coverage</b>",
+                  "Groundbreaking <b>interactive stories</b>"
+                ]
+              },
+              {
+                "id": "wp.unified.basic.annual",
+                "name": "Yearly",
+                "text": [
+                  "<b>Unlimited access</b> on the web and in our apps",
+                  "<b>24/7</b> live news updates",
+                  "Most comprehensive <b>political and international coverage</b>",
+                  "Groundbreaking <b>interactive stories</b>"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "reddit",
+        "category": "regwall",
+        "promoId": "65859",
+        "trialType": "articles",
+        "components": [
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "image",
+            "imageUrl": "https://rainbowdatanet-a.wpdigital.net/native/app-wall/reddit_logo.png",
+            "urlLight": "https://rainbowdatanet-a.wpdigital.net/native/app-wall/reddit_logo_light.png",
+            "urlDark": "https://rainbowdatanet-a.wpdigital.net/native/app-wall/reddit_logo_dark.png",
+            "width": 120,
+            "height": 42
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "title",
+            "text": "For a limited time, The Post offers"
+          },
+          {
+            "type": "title",
+            "text": "Redditors 7 free stories to read."
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "subtitle",
+            "text": "No credit card. No obligation. Just more free articles."
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "button",
+            "text": "<b>Create a FREE account</b>"
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "subtitle",
+            "text": "Redeem your free articles within 45 days of registration."
+          },
+          {
+            "type": "spacer",
+            "compact": 20,
+            "regular": 32
+          },
+          {
+            "type": "restore"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          }
+        ]
+      },
+      {
+        "name": "audio_carousel",
+        "category": "regwall",
+        "components": [
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "title",
+            "text": "Start listening for FREE"
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "subtitle",
+            "text": "Listen to this curated playlist of articles. \nNo credit card required."
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "button",
+            "text": "<b>Create a FREE account</b>"
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "subscribe",
+            "text": "Or, subscribe and get unlimited access"
+          },
+          {
+            "type": "spacer",
+            "compact": 20,
+            "regular": 32
+          },
+          {
+            "type": "restore"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          }
+        ]
+      },
+      {
+        "name": "regwall",
+        "category": "regwall",
+        "components": [
+          { "type": "spacer", "space": 20 },
+          { "type": "title",
+            "text": "Ways to access this article:"
+          },
+          { "type": "spacer", "space": 8 },
+          { "type": "text",
+            "variation": "h2",
+            "text": "Create a free account"
+          },
+          { "type": "spacer", "space": 12 },
+          { "type": "list", "text": ["Access <b>this article</b>"] },
+          { "type": "spacer", "space": 12 },
+          { "type": "button",
+            "text": "<b>Create free account</b>",
+            "authorizeURL": "../signup/?case=noa"
+          },
+          { "type": "spacer", "space": 20 },
+          { "type": "separator" },
+          { "type": "spacer", "compact": 20, "regular": 32 },
+          { "type": "offer", "components": [
+            { "type": "name" },
+            { "type": "spacer", "space": 12 },
+            { "type": "text" },
+            { "type": "spacer", "space": 12 },
+            { "type": "button" }
+          ],
+            "productSeparator": [
+              { "type": "spacer", "compact": 24, "regular": 20 },
+              { "type": "separator" },
+              { "type": "spacer", "space": 20 }
+            ]
+          },
+          { "type": "spacer", "compact": 20, "regular": 32 },
+          { "type": "terms" },
+          { "type": "spacer", "space": 16 },
+          { "type": "separator" },
+          { "type": "spacer", "space": 16 },
+          { "type": "restore" },
+          { "type": "spacer", "space": 20 }
+        ],
+        "products": [
+          {
+            "id": "basic-monthly",
+            "name": "Monthly",
+            "note": "Unlimited access. Cancel anytime.",
+            "text": [
+              "<b>Unlimited access</b> on the web and in our apps",
+              "<b>24/7</b> live news updates",
+              "Most comprehensive <b>political and international coverage</b>",
+              "Groundbreaking <b>interactive stories</b>"
+            ]
+          },
+          {
+            "id": "basic-annual",
+            "name": "Yearly",
+            "note": "Unlimited access. Cancel anytime.",
+            "text": [
+              "<b>Unlimited access</b> on the web and in our apps",
+              "<b>24/7</b> live news updates",
+              "Most comprehensive <b>political and international coverage</b>",
+              "Groundbreaking <b>interactive stories</b>"
+            ]
+          }
+        ],
+        "versions": [
+          {
+            "version": 2,
+            "components": [
+              { "type": "spacer", "space": 20 },
+              { "type": "title",
+                "text": "Ways to read this article"
+              },
+              { "type": "spacer", "compact": 20, "regular": 32 },
+              { "type": "offer",
+                "components": [
+                  { "type": "tiles",
+                    "variation": "regwall",
+                    "defaultSelection": 1
+                  },
+                  { "type": "spacer", "space": 12 },
+                  { "type": "text",
+                    "variation": "note",
+                    "text": "Access this article and personalize your experience."
+                  },
+                  { "type": "spacer", "space": 12 },
+                  { "type": "button",
+                    "text": "Create account",
+                    "authorize": "../signup/?case=noa"
+                  }
+                ],
+                "productSeparator": [
+                  { "type": "spacer", "compact": 24, "regular": 20 },
+                  { "type": "separator" },
+                  { "type": "spacer", "space": 20 }
+                ]
+              },
+              { "type": "spacer", "compact": 20, "regular": 32 },
+              { "type": "restore" },
+              { "type": "spacer", "space": 20 }
+            ],
+            "products": [
+              {
+                "id": "basic-monthly",
+                "name": "Monthly",
+                "note": "Unlimited access. Cancel anytime.",
+                "text": [
+                  "<b>Unlimited access</b> on the web and in our apps",
+                  "<b>24/7</b> live news updates",
+                  "Most comprehensive <b>political and international coverage</b>",
+                  "Groundbreaking <b>interactive stories</b>"
+                ]
+              },
+              {
+                "id": "basic-annual",
+                "name": "Yearly",
+                "note": "Unlimited access. Cancel anytime.",
+                "text": [
+                  "<b>Unlimited access</b> on the web and in our apps",
+                  "<b>24/7</b> live news updates",
+                  "Most comprehensive <b>political and international coverage</b>",
+                  "Groundbreaking <b>interactive stories</b>"
+                ]
+              }
+            ]
+          },
+          {
+            "version": 6,
+            "components": [
+              { "type": "spacer", "space": 20 },
+              { "type": "title",
+                "text": "Ways to access this article"
+              },
+              { "type": "spacer", "compact": 20, "regular": 32 },
+              { "type": "offer",
+                "components": [
+                  { "type": "text" },
+                  { "type": "spacer", "space": 20 },
+                  { "type": "tiles", "variation": "regwall", "defaultSelection": 1 },
+                  { "type": "spacer", "space": 12 },
+                  { "type": "text", "variation": "note",
+                    "text": "Access this article and personalize your experience." },
+                  { "type": "spacer", "space": 12 },
+                  { "type": "button", "text": "Create account", "authorize": "../signup/?case=noa"
+                  }
+                ],
+                "productSeparator": [
+                  { "type": "spacer", "compact": 24, "regular": 20 },
+                  { "type": "separator" },
+                  { "type": "spacer", "space": 20 }
+                ]
+              },
+              { "type": "spacer", "compact": 20, "regular": 32 },
+              { "type": "restore" },
+              { "type": "spacer", "space": 20 }
+            ],
+            "items": [
+              {
+                "type": "authorization",
+                "tileLabel": "Create Account",
+                "tileTitle": "Free",
+                "action": "Create account"
+              },
+              {
+                "id": "basic-monthly",
+                "name": "Monthly",
+                "note": "Unlimited access. Cancel anytime.",
+                "text": [
+                  "<b>Unlimited access</b> on the web and in our apps",
+                  "<b>24/7</b> live news updates",
+                  "Most comprehensive <b>political and international coverage</b>",
+                  "Groundbreaking <b>interactive stories</b>"
+                ]
+              },
+              {
+                "id": "basic-annual",
+                "name": "Yearly",
+                "text": [
+                  "<b>Unlimited access</b> on the web and in our apps",
+                  "<b>24/7</b> live news updates",
+                  "Most comprehensive <b>political and international coverage</b>",
+                  "Groundbreaking <b>interactive stories</b>",
+                  "<b>Ad-free</b>, early-access and bonus podcasts on Apple Podcasts"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "universal-regwall-multi",
+        "category": "regwall",
+        "components": [
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "title",
+            "text": "Ways to access this article:"
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "subtitle",
+            "text": "<b>Create a free account</b>",
+            "variation": "h3"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "list",
+            "textList": [
+              "Access <b>this article</b>"
+            ]
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "button",
+            "text": "<b>Create free account</b>"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "offer",
+            "components": [
+              {
+                "type": "name"
+              },
+              {
+                "type": "spacer",
+                "space": 12
+              },
+              {
+                "type": "text"
+              },
+              {
+                "type": "spacer",
+                "space": 12
+              },
+              {
+                "type": "button"
+              }
+            ],
+            "productSeparator": [
+              {
+                "type": "spacer",
+                "compact": 24,
+                "regular": 20
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "spacer",
+                "space": 20
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "restore"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          }
+        ],
+        "products": [
+          {
+            "id": "wp.classic.basic",
+            "name": "Subscribe with Core",
+            "text": [
+              "<b>Unlimited access</b> on our app and website",
+              "<b>24/7</b> live news updates",
+              "Most comprehensive <b>political and international coverage</b>",
+              "Groundbreaking <b>interactive stories</b>"
+            ]
+          },
+          {
+            "id": "monthly_all_access",
+            "name": "Subscribe with Premium",
+            "text": [
+              "Every <b>Core</b> feature",
+              "A<b> bonus subscription</b> to share",
+              "Monthly <b>30-day digital passes</b> to share",
+              "Exclusive <b>eBooks</b> written by our journalists"
+            ],
+            "separator": {
+              "text": "PLUS",
+              "index": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "paused",
+        "category": "pausewall",
+        "components": [
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "title",
+            "variation": "h3",
+            "text": "Subscription paused",
+            "none-content": "Subscription paused",
+            "ended-content": "Subscription paused"
+          },
+          {
+            "type": "spacer",
+            "space": 8
+          },
+          {
+            "type": "offer",
+            "variation": "h1",
+            "components": [
+              {
+                "type": "name"
+              },
+              {
+                "type": "spacer",
+                "space": 12
+              },
+              {
+                "type": "text"
+              }
+            ]
+          },
+          {
+            "type": "button",
+            "text": "<b>Continue to resume</b>"
+          },
+          {
+            "type": "spacer",
+            "space": 8
+          },
+          {
+            "type": "contact_us"
+          },
+          {
+            "type": "spacer",
+            "space": 24
+          }
+        ],
+        "items": [
+          {
+            "name": "Resume for unlimited access",
+            "text": [
+              "Get back access to all articles and features.",
+              "<b>Billing will restart immediately when you resume</b>."
+            ],
+            "textDynamic": [
+              "Get back access to all articles and features.",
+              "<b>Billing will restart immediately when you resume</b> at {pausedSku:price} every month."
+            ]
+          }
+        ],
+        "products": [
+          {
+            "name": "Resume for unlimited access",
+            "text": [
+              "Get back access to all articles and features.",
+              "<b>Billing will restart immediately when you resume</b>."
+            ],
+            "textDynamic": [
+              "Get back access to all articles and features.",
+              "<b>Billing will restart immediately when you resume</b> at {pausedSku:price} every month."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "games-ontherecord",
+        "category": "softwall",
+        "components": [
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "title",
+            "text": "Create a free account to test your knowledge, link your stats, and play more"
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "button",
+            "text": "<b>Create a FREE account</b>"
+          },
+          {
+            "type": "spacer",
+            "space": 16
+          },
+          {
+            "type": "restore"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          }
+        ]
+      },
+      {
+        "name": "games-wridges",
+        "category": "softwall",
+        "components": [
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "title",
+            "text": "Create a free account to get extra skips, track scores, and play more."
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "button",
+            "text": "<b>Create a FREE account</b>"
+          },
+          {
+            "type": "spacer",
+            "space": 16
+          },
+          {
+            "type": "restore"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          }
+        ]
+      },
+      {
+        "name": "games-keyword",
+        "category": "softwall",
+        "components": [
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "title",
+            "text": "Create a free account to track scores, see averages, and play more"
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "button",
+            "text": "<b>Create a FREE account</b>"
+          },
+          {
+            "type": "spacer",
+            "space": 16
+          },
+          {
+            "type": "restore"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          }
+        ]
+      },
+      {
+        "name": "games-crossword",
+        "category": "softwall",
+        "components": [
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "title",
+            "text": "Create a free account to track scores and play more"
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "button",
+            "text": "<b>Create a FREE account</b>"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "restore"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          }
+        ]
+      },
+      {
+        "name": "games-sudoku",
+        "components": [
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "title",
+            "text": "Create a free account to track scores and play more"
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "button",
+            "text": "<b>Create a FREE account</b>"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "restore"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          }
+        ]
+      },
+      {
+        "name": "games-mini-meta",
+        "components": [
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "title",
+            "text": "Create a free account to track scores and play more"
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "button",
+            "text": "<b>Create a FREE account</b>"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "restore"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          }
+        ]
+      },
+      {
+        "name": "gov_paywall",
+        "category": "paywall",
+        "components": [
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "title",
+            "none-content": "Your access has ended.",
+            "ended-content": "Your access has ended.",
+            "gift-expired": "Sorry, this gift article link has expired.",
+            "gift-invalid": "Sorry, this gift article link is invalid."
+          },
+          {
+            "type": "spacer",
+            "space": 8
+          },
+          {
+            "type": "subtitle",
+            "none-content": "Your government subscription has expired. Sign up as a subscriber, or ask your administrator to contact us about discounted group rates.",
+            "ended-content": "Your government subscription has expired. Sign up as a subscriber, or ask your administrator to contact us about discounted group rates.",
+            "gift-expired": "You can read this article and more with a Washington Post subscription.",
+            "gift-invalid": "You can read this article and more with a Washington Post subscription."
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "choice",
+            "split": "intervals",
+            "default": 0
+          },
+          {
+            "type": "spacer",
+            "compact": 20,
+            "regular": 32
+          },
+          {
+            "type": "offer",
+            "components": [
+              {
+                "type": "name"
+              },
+              {
+                "type": "spacer",
+                "space": 12
+              },
+              {
+                "type": "text"
+              },
+              {
+                "type": "spacer",
+                "space": 12
+              },
+              {
+                "type": "button"
+              }
+            ],
+            "productSeparator": [
+              {
+                "type": "spacer",
+                "compact": 24,
+                "regular": 20
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "spacer",
+                "space": 20
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "compact": 20,
+            "regular": 32
+          },
+          {
+            "type": "terms"
+          },
+          {
+            "type": "spacer",
+            "space": 16
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "spacer",
+            "space": 16
+          },
+          {
+            "type": "restore"
+          },
+          {
+            "type": "spacer",
+            "space": 24
+          }
+        ],
+        "products": [
+          {
+            "id": "wp.classic.basic",
+            "name": "Core",
+            "text": [
+              "<b>Unlimited access</b> on the web and in our apps",
+              "<b>24/7</b> live news updates",
+              "Most comprehensive <b>political and international coverage</b>",
+              "Groundbreaking <b>interactive stories</b>"
+            ]
+          },
+          {
+            "id": "wp.classic.basic.annual",
+            "name": "Core",
+            "text": [
+              "<b>Unlimited access</b> on the web and in our apps",
+              "<b>24/7</b> live news updates",
+              "Most comprehensive <b>political and international coverage</b>",
+              "Groundbreaking <b>interactive stories</b>"
+            ]
+          },
+          {
+            "id": "monthly_all_access",
+            "name": "Premium",
+            "text": [
+              "Every <b>Core</b> feature",
+              "<b>3 extra accounts</b> to share with friends and family",
+              "Monthly <b>30-day digital passes</b> to share",
+              "Exclusive <b>eBooks</b> written by our journalists"
+            ],
+            "separator": {
+              "text": "PLUS",
+              "index": 1
+            }
+          },
+          {
+            "id": "wp.classic.premium.annual",
+            "name": "Premium",
+            "text": [
+              "Every <b>Core</b> feature",
+              "<b>3 extra accounts</b> to share with friends and family",
+              "Monthly <b>30-day digital passes</b> to share",
+              "Exclusive <b>eBooks</b> written by our journalists"
+            ],
+            "separator": {
+              "text": "PLUS",
+              "index": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "save_content",
+        "category": "regwall",
+        "components": [
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "title",
+            "variation": "h1",
+            "text": "Create a free account to save this story"
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "button",
+            "text": "<b>Continue</b>"
+          },
+          {
+            "type": "spacer",
+            "compact": 20,
+            "regular": 32
+          },
+          {
+            "type": "restore"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          }
+        ]
+      },
+      {
+        "name": "save_recipe",
+        "category": "regwall",
+        "components": [
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "image",
+            "name": "recipes",
+            "width": 40,
+            "height": 40
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "title",
+            "variation": "h1",
+            "text": "Not hungry yet? Create a free account to save this recipe."
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "subtitle",
+            "variation": "h4",
+            "text": "Browse your saved recipes on any device."
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "button",
+            "text": "<b>Continue</b>"
+          },
+          {
+            "type": "spacer",
+            "compact": 20,
+            "regular": 32
+          },
+          {
+            "type": "restore"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          }
+        ]
+      },
+      {
+        "name": "ad-free-legal",
+        "padding": 16,
+        "components": [
+          {
+            "type": "spacer",
+            "space": 24
+          },
+          {
+            "type": "title",
+            "text": "Ad-free removes ads from our website and app."
+          },
+          {
+            "type": "spacer",
+            "space": 32
+          },
+          {
+            "type": "text",
+            "variation": "h3",
+            "text": "You'll pay a prorated amount today, then <b>{ad_free:price} more every {ad_free:unit}</b> when your subscription renews. Sales tax may apply. You can cancel anytime."
+          },
+          {
+            "type": "spacer",
+            "space": 16
+          },
+          {
+            "type": "text",
+            "text": "Ads may still appear in our emails and on third-party platforms where our content is distributed. You may see occasional offers for Post products on our website and app."
+          },
+          {
+            "type": "spacer",
+            "space": 16
+          },
+          {
+            "type": "button",
+            "text": "<b>Continue to payment</b>",
+            "open": "https://www.washingtonpost.com/subs/addon/AD_FREE"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          }
+        ]
+      }
+    ],
+    "metering": {
+      "sync": "https://subscribe.washingtonpost.com/nativeservice/proxy/apps/evaluate",
+      "queue": 3,
+      "age": 86400,
+      "mapping": {
+        "w_905": "reddit"
+      },
+      "mapping2": [
+        {
+          "action": 3,
+          "blocker": "main",
+          "placement": 1890
+        },
+        {
+          "action": 3,
+          "blocker": "main",
+          "placement": 2958,
+          "version": 6
+        },
+        {
+          "action": 3,
+          "code": "w_pause",
+          "blocker": "paused"
+        },
+        {
+          "action": 9,
+          "code": "w_905",
+          "blocker": "reddit"
+        },
+        {
+          "action": 9,
+          "blocker": "regwall",
+          "placement": 1891
+        },
+        {
+          "action": 9,
+          "blocker": "regwall",
+          "placement": 2959,
+          "version": 6
+        },
+        {
+          "action": 6,
+          "code": "w_games_ontherecord",
+          "blocker": "games-ontherecord"
+        },
+        {
+          "action": 6,
+          "code": "w_games_wridges",
+          "blocker": "games-wridges"
+        },
+        {
+          "action": 6,
+          "code": "w_games_keyword",
+          "blocker": "games-keyword"
+        },
+        {
+          "action": 6,
+          "code": "w_games_crossword",
+          "blocker": "games-crossword"
+        },
+        {
+          "action": 6,
+          "code": "w_games_sudoku",
+          "blocker": "games-sudoku"
+        },
+        {
+          "action": 6,
+          "code": "w_games_mini-meta",
+          "blocker": "games-mini-meta"
+        },
+        {
+          "action": 3,
+          "code": "w_3gov",
+          "blocker": "gov_paywall"
+        }
+      ]
+    },
+    "frontSubscriptionBanner": {
+      "enabled": true
+    },
+    "productToSkuMap": {
+      "basic-monthly": {
+        "playstore": "wp.classic.basic",
+        "amazon": "wp.unified.basic"
+      },
+      "basic-annual": {
+        "playstore": "wp.classic.basic.annual",
+        "amazon": "wp.unified.basic.annual"
+      },
+      "premium-monthly": {
+        "playstore": "monthly_all_access",
+        "amazon": "wp.unified.premium"
+      },
+      "premium-annual": {
+        "playstore": "wp.classic.premium.annual",
+        "amazon": "wp.unified.premium.annual"
+      },
+      "flex-oneday-3.99": {
+        "playstore": "wp.classic.flex",
+        "basePlanId": "one-day-pass-1",
+        "type": "non-renewable"
+      },
+      "flex-oneday-9.99": {
+        "playstore": "wp.classic.flex",
+        "basePlanId": "one-day-pass-2",
+        "type": "non-renewable"
+      },
+      "flex-oneday-13.99": {
+        "playstore": "wp.classic.flex",
+        "basePlanId": "one-day-pass-3",
+        "type": "non-renewable"
+      }
+    },
+    "availableOffers": {
+      "wp.classic.basic": [],
+      "wp.classic.basic.annual": [],
+      "monthly_all_access": [],
+      "wp.classic.premium.annual": [],
+      "wp.classic.no.ads.monthly": [],
+      "wp.classic.no.ads.annual": []
+    },
+    "offersAllowedList": {
+      "wp.classic.basic": [
+        "introprice",
+        "wpcoremo04ns6month",
+        "wpcoremo06wb6month",
+        "basicmonthlysaleoffer",
+        "basicmonthlysaleoffer6",
+        "wpcoremo01s",
+        "wpcoremo02s",
+        "wpcoremo03wb",
+        "wpcoremo04ns",
+        "wpcoremo06wb"
+      ],
+      "wp.classic.basic.annual": [
+        "introprice",
+        "basicyearlysaleoffer",
+        "wpcorean20s",
+        "wpcorean29s",
+        "wpcorean40ns",
+        "wpcorean60wb"
+      ],
+      "monthly_all_access": [
+        "premiummonthlysaleoffer",
+        "premiummonthlysaleoffer6",
+        "wppremmo06ns6month",
+        "wppremmo03s",
+        "wppremmo05wb",
+        "wppremmo06ns",
+        "wppremmo10wb"
+      ],
+      "wp.classic.premium.annual": [
+        "premiumyearlysaleoffer",
+        "wppreman33s",
+        "wppreman50wb",
+        "wppreman60ns",
+        "wppreman100wb"
+      ]
+    },
+    "ad_free_iterable_products": [
+      "AD_FREE"
+    ],
+    "adFreeProductToSkuMap": {
+      "basic-monthly": "wp.classic.no.ads.monthly",
+      "basic-annual": "wp.classic.no.ads.annual",
+      "premium-monthly": "wp.classic.no.ads.monthly",
+      "premium-annual": "wp.classic.no.ads.annual"
+    }
+  },
+  "inlineAlertToggleMappingConfigs": [
+    {
+      "alertSegmentKey": "the7_briefs",
+      "includedSourceSections": [
+        "the-seven"
+      ],
+      "excludedSourceSubsections": []
+    },
+    {
+      "alertSegmentKey": "politics",
+      "includedSourceSections": [
+        "politics"
+      ],
+      "excludedSourceSubsections": []
+    },
+    {
+      "alertSegmentKey": "opinions",
+      "includedSourceSections": [
+        "opinions"
+      ],
+      "excludedSourceSubsections": [
+        "opinions - made-by-history"
+      ]
+    },
+    {
+      "alertSegmentKey": "world",
+      "includedSourceSections": [
+        "world"
+      ],
+      "excludedSourceSubsections": []
+    },
+    {
+      "alertSegmentKey": "health_and_science",
+      "includedSourceSections": [
+        "health",
+        "climate-environment",
+        "science"
+      ],
+      "excludedSourceSubsections": []
+    },
+    {
+      "alertSegmentKey": "business_and_tech",
+      "includedSourceSections": [
+        "business",
+        "technology"
+      ],
+      "excludedSourceSubsections": [
+        "technology - internet-culture",
+        "business - energy"
+      ]
+    },
+    {
+      "alertSegmentKey": "sports",
+      "includedSourceSections": [
+        "sports"
+      ],
+      "excludedSourceSubsections": [
+        "video-games - news",
+        "video-games - esports",
+        "video-games - reviews",
+        "video-games - tips"
+      ]
+    },
+    {
+      "alertSegmentKey": "local",
+      "includedSourceSections": [
+        "local",
+        "dc-md-va"
+      ],
+      "excludedSourceSubsections": [
+        "local - obituaries",
+        "local - social-issues",
+        "local - legal-issues"
+      ]
+    },
+    {
+      "alertSegmentKey": "entertainment",
+      "includedSourceSections": [
+        "entertainment"
+      ],
+      "excludedSourceSubsections": [
+        "going out guide"
+      ]
+    },
+    {
+      "alertSegmentKey": "editors_picks",
+      "includedSourceSections": [
+        "investigations"
+      ],
+      "excludedSourceSubsections": []
+    }
+  ],
+  "deepLinkConfig": {
+    "excludeList": [
+      "/subscribe",
+      "/anonymous-news-tips",
+      "/entertainment/horoscopes",
+      "/brandstudio",
+      "/brand-studio",
+      "/creativegroup",
+      "/post-live",
+      "/interactive",
+      "/video",
+      "/ebooks",
+      "/podcasts",
+      "/ripple"
+    ],
+    "internalExcludeList": [
+      "/subscribe",
+      "/brandstudio",
+      "/brand-studio",
+      "/creativegroup",
+      "/documents",
+      "/games-static"
+    ],
+    "externalPurchaseUrls": [
+      "http[s]?://subscribe\\.washingtonpost\\.com(?!/my-post)([/\\?#].*)?",
+      "http[s]?://subscribe\\.washingtonpost\\.com/my-post/feature([/\\?#].*)?",
+      "http[s]?://subscribe\\.washingtonpost\\.com\\/checkout\\/(payment|payment-print)([\\/\\?#].*)?",
+      "http[s]?://(www\\.)?washingtonpost\\.com/my-post/feature([/\\?#].*)?",
+      "http[s]?://(www\\.)?washingtonpost\\.com/my-post/upgrade([/\\?#].*)?"
+    ],
+    "paramExcludeList": [
+      "ftsToken"
+    ],
+    "simpleWebViewList": [
+      "http[s]?://(www\\.)?washingtonpost\\.com/games/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/news-quiz/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/crossword-puzzles/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/tablet/2023/06/14/keyword-game/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/tablet/2023/02/06/record-test-your-knowledge-with-our-quotable-news-quiz/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/tablet/2023/01/03/mini-meta-crossword/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/tablet/2023/07/10/daily-sudoku/",
+      "http[s]?://(games\\.)?washingtonpost\\.com/all-games",
+      "http[s]?://(games\\.)?washingtonpost\\.com/games/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/components/2024-.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/elections/results/2024/11/05/election-dashboard/.*",
+      "http[s]?://(elex-render-server-dev\\.)?vercel\\.app/components/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/elections/results/2024/.*/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/horoscopes/.*"
+    ],
+    "allowedHosts": [
+      "^(\\w+\\.)*washingtonpost\\.com",
+      "wapo.st"
+    ],
+    "validSourceAppValues": [
+      "site-header"
+    ],
+    "destinations": [
+      {
+        "scheme": "https",
+        "domain": "^(\\w+\\.)*washingtonpost\\.com",
+        "path": "^\\/recipes\\/?$",
+        "destination": "recipe_search"
+      },
+      {
+        "scheme": "https",
+        "domain": "^(\\w+\\.)*washingtonpost\\.com",
+        "path": "^\\/electionsearch\\/?$",
+        "destination": "election_search"
+      }
+    ],
+    "ungiftedURLs": [
+      "http[s]?://helpcenter.washingtonpost\\.com([/\\?#].*)?",
+      "http[s]?://(www\\.)?washingtonpost\\.com/blogs/ask-the-post/reprints-and-permissions/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/discussions/2021/01/01/privacy-policy/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/discussions/2021/11/23/discussion-submission-guidelines/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/information/2022/01/01/ad-choices/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/information/2022/01/01/terms-of-service/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/itunes-account-subscriptions/2017/08/23/1cee5428-8816-11e7-a94f-3139abce39f5_story\\.html",
+      "http[s]?://(www\\.)?washingtonpost\\.com/cookie-policy/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/privacy-policy/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/terms-of-service/2011/11/18/gIQAldiYiN_story\\.html.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/wp-srv/interactivity/policy/discussion_policy\\.html.*",
+      "http[s]?://([\\w-]+\\.)?washingtonpost\\.com/my-post/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/games/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/news-quiz/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/crossword-puzzles/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/tablet/2023/06/14/keyword-game/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/tablet/2023/02/06/record-test-your-knowledge-with-our-quotable-news-quiz/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/tablet/2023/01/03/mini-meta-crossword/.*",
+      "http[s]?://(www\\.)?washingtonpost\\.com/tablet/2023/07/10/daily-sudoku/.*"
+    ]
+  },
+  "verticalVideosConfig": {
+    "enabled": false,
+    "adItemInterval": 3,
+    "firstItemDelay": 4,
+    "requestsUiTimeoutMillis": 1500
+  },
+  "airshipConfig": {
+    "openURLPatterns": [
+      "https://*.washingtonpost.com",
+      "https://play.google.com/*",
+      "washpost://*.washingtonpost.com",
+      "https://vote.webbyawards.com/PublicVoting#/2023/websites-and-mobile-sites/features-design/best-practices"
+    ]
+  },
+  "actionButtonsConfig": {
+    "saveEnabled": true
+  },
+  "customNavConfig": {
+    "lockedSections": [
+      "/classic-apps/classic-app-top-stories",
+      "for-you"
+    ]
+  },
+  "amazonMigrationConfig": {
+    "offboarding": {
+      "enabled": true,
+      "tombstone": true
+    },
+    "onboarding": {
+      "enabled": true
+    }
+  },
+  "recipesConfig": {
+    "baseUrl": "https://tabletapi.washingtonpost.com/apps-data-service/recipe-search.json",
+    "landingPage": "https://jsonapp1.washingtonpost.com/fusion_prod/v2/tablet/recipes-app-only-search-bar",
+    "filters": [
+      {
+        "group": "Ready In",
+        "queryName": "time",
+        "isMultiSelect": false,
+        "isQuickFilter": true,
+        "items": [
+          {
+            "label": "Any",
+            "queryId": null
+          },
+          {
+            "label": "20 mins or less",
+            "queryId": "20"
+          },
+          {
+            "label": "30 mins or less",
+            "queryId": "30"
+          },
+          {
+            "label": "45 mins or less",
+            "queryId": "45"
+          },
+          {
+            "label": "1 hour or less",
+            "queryId": "60"
+          }
+        ]
+      },
+      {
+        "group": "Course Type",
+        "queryName": "course",
+        "isMultiSelect": true,
+        "isQuickFilter": true,
+        "items": [
+          {
+            "label": "Appetizer",
+            "queryId": "appetizer"
+          },
+          {
+            "label": "Beverage",
+            "queryId": "beverage"
+          },
+          {
+            "label": "Bread",
+            "queryId": "bread"
+          },
+          {
+            "label": "Breakfast",
+            "queryId": "breakfast"
+          },
+          {
+            "label": "Brunch",
+            "queryId": "brunch"
+          },
+          {
+            "label": "Condiment",
+            "queryId": "condiment"
+          },
+          {
+            "label": "Dessert",
+            "queryId": "dessert"
+          },
+          {
+            "label": "Main",
+            "queryId": "main-course"
+          },
+          {
+            "label": "Salad",
+            "queryId": "salad"
+          },
+          {
+            "label": "Side",
+            "queryId": "side-dish"
+          },
+          {
+            "label": "Snack",
+            "queryId": "snack"
+          },
+          {
+            "label": "Soup",
+            "queryId": "soup"
+          }
+        ]
+      },
+      {
+        "group": "Diet",
+        "queryName": "diet",
+        "isMultiSelect": true,
+        "isQuickFilter": true,
+        "items": [
+          {
+            "label": "Vegan",
+            "queryId": "vegan"
+          },
+          {
+            "label": "Vegetarian",
+            "queryId": "vegetarian"
+          },
+          {
+            "label": "Gluten-Free",
+            "queryId": "gluten-free"
+          },
+          {
+            "label": "Healthy",
+            "queryId": "healthy"
+          }
+        ]
+      },
+      {
+        "group": "Ingredients",
+        "queryName": "ingredients",
+        "isMultiSelect": true,
+        "isQuickFilter": false,
+        "items": [
+          {
+            "label": "Apples",
+            "queryId": "apples"
+          },
+          {
+            "label": "Beans",
+            "queryId": "beans"
+          },
+          {
+            "label": "Beef",
+            "queryId": "beef"
+          },
+          {
+            "label": "Cheese",
+            "queryId": "cheese"
+          },
+          {
+            "label": "Chicken",
+            "queryId": "chicken"
+          },
+          {
+            "label": "Chocolate",
+            "queryId": "chocolate"
+          },
+          {
+            "label": "Eggs",
+            "queryId": "eggs"
+          },
+          {
+            "label": "Fish",
+            "queryId": "fish"
+          },
+          {
+            "label": "Lemon",
+            "queryId": "lemon"
+          },
+          {
+            "label": "Mushrooms",
+            "queryId": "mushrooms"
+          },
+          {
+            "label": "Pasta",
+            "queryId": "pasta"
+          },
+          {
+            "label": "Pork",
+            "queryId": "pork"
+          },
+          {
+            "label": "Potatoes",
+            "queryId": "potatoes"
+          },
+          {
+            "label": "Rice",
+            "queryId": "rice"
+          },
+          {
+            "label": "Salmon",
+            "queryId": "salmon"
+          },
+          {
+            "label": "Shrimp",
+            "queryId": "shrimp"
+          },
+          {
+            "label": "Tofu",
+            "queryId": "tofu"
+          },
+          {
+            "label": "Tomatoes",
+            "queryId": "tomatoes"
+          }
+        ]
+      },
+      {
+        "group": "Feature",
+        "queryName": "feature",
+        "isMultiSelect": true,
+        "isQuickFilter": false,
+        "items": [
+          {
+            "label": "Grilling",
+            "queryId": "grilling"
+          },
+          {
+            "label": "Kid-friendly",
+            "queryId": "kid-friendly"
+          },
+          {
+            "label": "Slow cooker",
+            "queryId": "slow-cooker"
+          },
+          {
+            "label": "One-bowl baking",
+            "queryId": "one-bowl-baking"
+          },
+          {
+            "label": "No cook",
+            "queryId": "no-cook"
+          },
+          {
+            "label": "Make-ahead",
+            "queryId": "make-ahead-recipes"
+          },
+          {
+            "label": "Instant Pot",
+            "queryId": "instant-pot"
+          },
+          {
+            "label": "Air Fryer",
+            "queryId": "air-fryer"
+          }
+        ]
+      }
+    ]
+  },
+  "electionConfig": {
+    "links": [
+      {
+        "id": "alabama",
+        "name": "Alabama",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/alabama/"
+      },
+      {
+        "id": "alaska",
+        "name": "Alaska",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/alaska/"
+      },
+      {
+        "id": "arizona",
+        "name": "Arizona",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/arizona/"
+      },
+      {
+        "id": "arkansas",
+        "name": "Arkansas",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/arkansas/"
+      },
+      {
+        "id": "california",
+        "name": "California",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/california/"
+      },
+      {
+        "id": "colorado",
+        "name": "Colorado",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/colorado/"
+      },
+      {
+        "id": "connecticut",
+        "name": "Connecticut",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/connecticut/"
+      },
+      {
+        "id": "delaware",
+        "name": "Delaware",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/delaware/"
+      },
+      {
+        "id": "d.c.",
+        "name": "District of Columbia",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/washington-dc/"
+      },
+      {
+        "id": "florida",
+        "name": "Florida",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/florida/"
+      },
+      {
+        "id": "georgia",
+        "name": "Georgia",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/georgia/"
+      },
+      {
+        "id": "hawaii",
+        "name": "Hawaii",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/hawaii/"
+      },
+      {
+        "id": "idaho",
+        "name": "Idaho",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/idaho/"
+      },
+      {
+        "id": "illinois",
+        "name": "Illinois",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/illinois/"
+      },
+      {
+        "id": "indiana",
+        "name": "Indiana",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/indiana/"
+      },
+      {
+        "id": "iowa",
+        "name": "Iowa",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/iowa/"
+      },
+      {
+        "id": "kansas",
+        "name": "Kansas",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/kansas/"
+      },
+      {
+        "id": "kentucky",
+        "name": "Kentucky",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/kentucky/"
+      },
+      {
+        "id": "louisiana",
+        "name": "Louisiana",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/louisiana/"
+      },
+      {
+        "id": "maine",
+        "name": "Maine",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/maine/"
+      },
+      {
+        "id": "maryland",
+        "name": "Maryland",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/maryland/"
+      },
+      {
+        "id": "massachusetts",
+        "name": "Massachusetts",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/massachusetts/"
+      },
+      {
+        "id": "michigan",
+        "name": "Michigan",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/michigan/"
+      },
+      {
+        "id": "minnesota",
+        "name": "Minnesota",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/minnesota/"
+      },
+      {
+        "id": "mississippi",
+        "name": "Mississippi",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/mississippi/"
+      },
+      {
+        "id": "missouri",
+        "name": "Missouri",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/missouri/"
+      },
+      {
+        "id": "montana",
+        "name": "Montana",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/montana/"
+      },
+      {
+        "id": "nebraska",
+        "name": "Nebraska",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/nebraska/"
+      },
+      {
+        "id": "nevada",
+        "name": "Nevada",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/nevada/"
+      },
+      {
+        "id": "new-hampshire",
+        "name": "New Hampshire",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/new-hampshire/"
+      },
+      {
+        "id": "new-jersey",
+        "name": "New Jersey",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/new-jersey/"
+      },
+      {
+        "id": "new-mexico",
+        "name": "New Mexico",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/new-mexico/"
+      },
+      {
+        "id": "new-york",
+        "name": "New York",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/new-york/"
+      },
+      {
+        "id": "north-carolina",
+        "name": "North Carolina",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/north-carolina/"
+      },
+      {
+        "id": "north-dakota",
+        "name": "North Dakota",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/north-dakota/"
+      },
+      {
+        "id": "ohio",
+        "name": "Ohio",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/ohio/"
+      },
+      {
+        "id": "oklahoma",
+        "name": "Oklahoma",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/oklahoma/"
+      },
+      {
+        "id": "oregon",
+        "name": "Oregon",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/oregon/"
+      },
+      {
+        "id": "pennsylvania",
+        "name": "Pennsylvania",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/pennsylvania/"
+      },
+      {
+        "id": "rhode-island",
+        "name": "Rhode Island",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/rhode-island/"
+      },
+      {
+        "id": "south-carolina",
+        "name": "South Carolina",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/south-carolina/"
+      },
+      {
+        "id": "south-dakota",
+        "name": "South Dakota",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/south-dakota/"
+      },
+      {
+        "id": "tennessee",
+        "name": "Tennessee",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/tennessee/"
+      },
+      {
+        "id": "texas",
+        "name": "Texas",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/texas/"
+      },
+      {
+        "id": "utah",
+        "name": "Utah",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/utah/"
+      },
+      {
+        "id": "vermont",
+        "name": "Vermont",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/vermont/"
+      },
+      {
+        "id": "virginia",
+        "name": "Virginia",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/virginia/"
+      },
+      {
+        "id": "washington",
+        "name": "Washington",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/washington/"
+      },
+      {
+        "id": "west-virginia",
+        "name": "West Virginia",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/west-virginia/"
+      },
+      {
+        "id": "wisconsin",
+        "name": "Wisconsin",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/wisconsin/"
+      },
+      {
+        "id": "wyoming",
+        "name": "Wyoming",
+        "type": "link",
+        "path": "https://www.washingtonpost.com/elections/results/2024/11/05/wyoming/"
+      }
+    ]
+  },
+  "featureOnboarding": [],
+  "findHighlightItemsConfig": [
+    {
+      "id": "print_edition",
+      "position": 0
+    },
+    {
+      "id": "recipes",
+      "position": 1
+    },
+    {
+      "id": "comics",
+      "position": 2
+    },
+    {
+      "id": "ripple",
+      "position": 3
+    },
+    {
+      "id": "climate",
+      "position": 4
+    },
+    {
+      "id": "newsprint",
+      "position": 5
+    },
+    {
+      "id": "horoscopes",
+      "position": 3
+    }
+  ],
+  "lowDataModeConfig": {
+    "liteUrlPath": "homepage.lite",
+    "enable": true
+  },
+  "ageRestrictionEnabled": false,
+  "ageRestriction": {
+    "androidEnabled": true,
+    "amazonEnabled": true,
+    "minAmazonOsVersion": 29
+  },
+  "commentsConfig": {
+    "url": "https://tabletapi.washingtonpost.com/apps-data-service/article-metadata.json"
+  },
+  "iterable": {
+    "banner": 1887,
+    "article": 1888,
+    "section": 1889,
+    "myPostBanner": 2462,
+    "askThePostBanner": 2578,
+    "myPost": 2462,
+    "askThePost": 2578,
+    "settingsPlan": null,
+    "enableDebugLogs": true
+  },
+  "ripple": {
+    "enabled": false,
+    "rippleKey": "RPL",
+    "testGroups": ["2"],
+    "topStoriesUrl": "https://jsonapp1.washingtonpost.com/fusion_prod/v2/homepage.B",
+    "findHighlightItem": {
+      "id": "ripple",
+      "title": "Ripple: Outside Voices",
+      "link": "https://washingtonpost.com/ripple/",
+      "isNewLabelVisible": false
+    }
+  },
+  "personalizedPodcast": {
+    "baseUrl": "https://data-ai.washingtonpost.com/"
+  },
+  "nextVideoConfig": {
+    "url": "https://www.washingtonpost.com/arcio/video-tab/",
+    "loadCount": 20,
+    "percentageLoad": 0.10
+  },
+  "wpVideosConfig": {
+    "baseUrl" : "https://www.washingtonpost.com/arcio/video-tab/",
+    "loadCount": 100
+  },
+  "feedbackConfig": {
+    "baseUrl": "https://data-ai.washingtonpost.com/feedback-service/api/v1/"
+  },
+  "oneLinkGenerationConfig": {
+    "url": "https://washpost-apps-origin-prod.site.aws.wapo.pub/deeplink/"
+  },
+  "kmp": {
+    "conversations": {
+      "url": "https://talk.washingtonpost.com/api/graphql",
+      "ctokenURLv2": "https://subscribe.washingtonpost.com/user/v2/current/comments/ctoken/",
+      "displayNameURLv2": "https://subscribe.washingtonpost.com/user/v2/current/profile/update",
+      "conversationSummaryURL": "https://perso.washingtonpost.com/comments-summarization-api/comments-summary",
+      "conversationSettingsURL": "https://www.washingtonpost.com/comments/settings",
+      "communityGuidelinesURL": "https://www.washingtonpost.com/discussions/2020/04/13/community-rules",
+      "topLevelPageSize": 12,
+      "replyPageSize": 5,
+      "displayNameMinCharacters": 6
+    },
+    "feedback": {
+      "baseURL": "https://data-ai.washingtonpost.com/feedback-service/api/v1/feedback"
+    },
+    "logger": {
+      "uploaderURL" : "https://http-inputs-washpost.splunkcloud.com/services/collector/raw?sourcetype=classic_android_prod&source=classic_android_prod",
+      "sampling": { "one": 0.1 }
+    },
+    "userFeedback": {
+      "url": "https://data-ai.washingtonpost.com/feedback-service/api/v1/feedback"
+    }
+  },
+  "gamesPaths": [
+    "http[s]?://(www\\.)?washingtonpost\\.com/games/.*",
+    "http[s]?://(www\\.)?washingtonpost\\.com/crossword-puzzles/.*",
+    "http[s]?://(games\\.)?washingtonpost\\.com/games/.*"
+  ]
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:background="@color/comics_bg">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        a:id="@+id/swipe_refresh_layout"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent">
+
+        <RelativeLayout
+            a:layout_width="match_parent"
+            a:layout_height="match_parent">
+
+            <View
+                a:id="@+id/anchor"
+                a:layout_width="0dp"
+                a:layout_height="0dp"
+                a:layout_centerInParent="true" />
+
+            <LinearLayout
+                a:id="@+id/status_container"
+                a:layout_width="match_parent"
+                a:layout_height="match_parent"
+                a:layout_above="@id/anchor"
+                a:gravity="center"
+                a:orientation="vertical"
+                a:visibility="gone">
+
+                <TextView
+                    a:id="@+id/blog_front_status_curtain"
+                    style="@style/sf_gathering_news_message"
+                    a:layout_width="match_parent"
+                    a:layout_height="wrap_content"
+                    a:autoLink="web"
+                    a:gravity="center"
+                    a:linksClickable="true"
+                    a:text="@string/articles_unable_to_load_a_content_msg"
+                    a:textAppearance="@android:style/TextAppearance.Large" />
+
+                <Button
+                    a:id="@+id/retry"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:layout_marginTop="16dp"
+                    a:text="@string/try_again"
+                    a:textColor="@color/retry_text" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                a:id="@+id/comics_list_rv"
+                a:layout_width="match_parent"
+                a:layout_height="match_parent"
+                a:clipToPadding="false"
+                a:paddingBottom="48dp"
+                a:scrollbars="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+            <ImageView
+                a:id="@+id/async_anim_image_view"
+                a:layout_width="match_parent"
+                a:layout_height="match_parent"
+                a:scaleType="fitXY"
+                a:src="@drawable/async_shine"
+                a:visibility="gone"
+                app:tint="@color/sf_loading_anim_tint" />
+
+        </RelativeLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</FrameLayout>

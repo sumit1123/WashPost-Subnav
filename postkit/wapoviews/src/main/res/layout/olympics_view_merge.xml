@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/olympics_background">
+
+    <TextView
+        android:id="@+id/olympics_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/franklin_itc_pro_bold"
+        android:textColor="@color/olympics_title"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/olympics_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/olympics_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:background="@drawable/olympics_cta_bg"
+        android:fontFamily="@font/franklin_itc_pro_bold"
+        android:gravity="center"
+        android:paddingStart="24dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="6dp"
+        android:textColor="@color/olympics_table_text_bold"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="See all updates" />
+
+</merge>

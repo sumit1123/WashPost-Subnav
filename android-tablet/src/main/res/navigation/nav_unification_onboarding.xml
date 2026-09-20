@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_unification_onboarding"
+    app:startDestination="@id/unificationOnboardingFragment">
+
+    <fragment
+        android:id="@+id/unificationOnboardingFragment"
+        android:name="com.wapo.flagship.features.unification.fragments.UnificationOnboardingFragment"
+        android:label="UnificationOnboardingFragment" />
+</navigation>

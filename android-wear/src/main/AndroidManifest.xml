@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:installLocation="internalOnly">
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.wapo.flagship.WearFlagshipApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WearWapo.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:icon,android:theme">
+
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false" />
+
+        <activity
+            android:name="com.wapo.flagship.features.homepage.activities.HomepageActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.wapo.flagship.features.section.activities.SectionActivity"
+            android:exported="true" />
+
+        <activity
+            android:name="com.wapo.flagship.features.settings.SettingsActivity"
+            android:exported="false"
+            android:label="SettingsActivity" />
+
+        <activity
+            android:name="com.wapo.flagship.features.articles2.activities.WearArticleActivity"
+            android:exported="false"
+            android:label="ArticleActivity" />
+
+        <activity
+            android:name="com.wapo.flagship.features.mypost.MyPostActivity"
+            android:exported="false"
+            android:label="MyPostActivity" />
+
+        <activity
+            android:name="androidx.wear.activity.ConfirmationActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.wapo.flagship.common.InfoActivity"
+            android:exported="false" />
+
+        <service
+            android:name="com.wapo.flagship.complications.HeadlinesDataSourceService"
+            android:exported="true"
+            android:icon="@drawable/icon_latestnews_white"
+            android:label="Headlines"
+            android:permission="com.google.android.wearable.permission.BIND_COMPLICATION_PROVIDER">
+            <intent-filter>
+                <action android:name="android.support.wearable.complications.ACTION_COMPLICATION_UPDATE_REQUEST" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.wearable.complications.SUPPORTED_TYPES"
+                android:value="LONG_TEXT" />
+            <meta-data
+                android:name="android.support.wearable.complications.UPDATE_PERIOD_SECONDS"
+                android:value="300" />
+        </service>
+
+        <service
+            android:name="com.wapo.flagship.complications.AlertsDataSourceService"
+            android:exported="true"
+            android:icon="@drawable/icon_alerts_white"
+            android:label="Alerts"
+            android:permission="com.google.android.wearable.permission.BIND_COMPLICATION_PROVIDER">
+            <intent-filter>
+                <action android:name="android.support.wearable.complications.ACTION_COMPLICATION_UPDATE_REQUEST" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.wearable.complications.SUPPORTED_TYPES"
+                android:value="SHORT_TEXT" />
+            <meta-data
+                android:name="android.support.wearable.complications.UPDATE_PERIOD_SECONDS"
+                android:value="0" />
+        </service>
+
+        <receiver
+            android:name="com.wapo.flagship.receivers.ComplicationTapBroadcastReceiver"
+            android:exported="false" />
+
+        <service
+            android:name="com.wapo.android.push.FCMPushNotificationReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

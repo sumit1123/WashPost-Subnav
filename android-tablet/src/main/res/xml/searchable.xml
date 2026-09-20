@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<searchable xmlns:a="http://schemas.android.com/apk/res/android" a:label="@string/app_name"
+            a:hint="@string/search_hint" a:searchSuggestAuthority="${applicationId}.providers.searchSuggestions.unified"
+            a:voiceSearchMode="showVoiceSearchButton|launchRecognizer" a:searchSuggestSelection=" ?">
+</searchable>

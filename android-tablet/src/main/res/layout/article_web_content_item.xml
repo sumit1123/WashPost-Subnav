@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/web_item"
+    android:background="@drawable/card_article"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/web_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/article_web_content_item_bottom_padding" />
+
+    <ProgressBar
+        android:id="@+id/web_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/web_view_progress_bar_height"
+        android:progressDrawable="@drawable/bg_web_view_progress_bar"
+        android:visibility="invisible" />
+</FrameLayout>

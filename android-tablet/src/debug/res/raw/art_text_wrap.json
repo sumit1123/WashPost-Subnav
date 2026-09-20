@@ -1,0 +1,886 @@
+{
+  "layout": "homepage",
+  "output_type": "jsonapp",
+  "tracking": {
+    "page_name": "front - homepage",
+    "section": "homepage",
+    "channel": "front - homepage",
+    "subsection": "homepage",
+    "hierarchy": "homepage"
+  },
+  "regions": [
+    {
+      "location": "top-furniture",
+      "items": [
+        {
+          "item_type": "page/breaking-news-bar",
+          "headline": {
+            "text": "'Send her back' chant from Trump rally sows fear of violence"
+          },
+          "timestamp": "2020-07-30T17:29:26.928Z",
+          "label": {
+            "text": "BREAKING: "
+          }
+        }
+      ]
+    },
+    {
+      "location": "content",
+      "items": [
+        {
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "layout_name": "wide-center",
+          "dividers": {
+            "xlarge": {
+              "vertical": [
+                {
+                  "col": 16,
+                  "row": 0,
+                  "rowspan": 1
+                }
+              ]
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "table1",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "vertical": [
+                    {
+                      "col": 12,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "large": {
+                  "vertical": [
+                    {
+                      "col": 12,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "medium"
+                      },
+                      "right": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/politics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/trump-national-security-adviser-obrien-tests-positive-for-coronavirus-the-highest-ranking-administration-official-known-to-be-infected/2020/07/27/1590c4dc-d00b-11ea-9038-af089b63ac21_story.html",
+                    "type": "article",
+                    "last_modified": "2020-07-27T22:30:16.405Z"
+                  },
+                  "source": "The Washington Post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-left",
+                    "art_width": "medium"
+                  },
+                  "label": {
+                    "type": "section-small",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "Art Left / Wrap"
+                    }
+                  },
+                  "headline": {
+                    "text": "Trump national security adviser O’Brien tests positive for coronavirus. He’s the highest-ranking administration official known to be infected.",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Anne Gearan and John Wagner"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "– Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/politics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/trump-national-security-adviser-obrien-tests-positive-for-coronavirus-the-highest-ranking-administration-official-known-to-be-infected/2020/07/27/1590c4dc-d00b-11ea-9038-af089b63ac21_story.html",
+                    "type": "article",
+                    "last_modified": "2020-07-27T22:30:16.405Z"
+                  },
+                  "source": "The Washington Post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-left",
+                    "art_width": "small"
+                  },
+                  "label": {
+                    "type": "section-small",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "Art Left / Wrap"
+                    }
+                  },
+                  "headline": {
+                    "text": "Trump national security adviser O’Brien tests positive for coronavirus. He’s the highest-ranking administration official known to be infected.",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Anne Gearan and John Wagner"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "medium"
+                      },
+                      "right": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/politics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/trump-national-security-adviser-obrien-tests-positive-for-coronavirus-the-highest-ranking-administration-official-known-to-be-infected/2020/07/27/1590c4dc-d00b-11ea-9038-af089b63ac21_story.html",
+                    "type": "article",
+                    "last_modified": "2020-07-27T22:30:16.405Z"
+                  },
+                  "source": "The Washington Post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-left",
+                    "art_width": "medium"
+                  },
+                  "label": {
+                    "type": "section-small",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "Art Left / No Wrap"
+                    }
+                  },
+                  "headline": {
+                    "text": "Trump national security adviser O’Brien tests positive for coronavirus. He’s the highest-ranking administration official known to be infected.",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Anne Gearan and John Wagner"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 12,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 12,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "mobile_preset": "– Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/politics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/trump-national-security-adviser-obrien-tests-positive-for-coronavirus-the-highest-ranking-administration-official-known-to-be-infected/2020/07/27/1590c4dc-d00b-11ea-9038-af089b63ac21_story.html",
+                    "type": "article",
+                    "last_modified": "2020-07-27T22:30:16.405Z"
+                  },
+                  "source": "The Washington Post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-left",
+                    "art_width": "small"
+                  },
+                  "label": {
+                    "type": "section-small",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "Art Left / No Wrap"
+                    }
+                  },
+                  "headline": {
+                    "text": "Trump national security adviser O’Brien tests positive for coronavirus. He’s the highest-ranking administration official known to be infected.",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Anne Gearan and John Wagner"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table2",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 16,
+                  "colspan": 4
+                }
+              },
+              "items": []
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        },
+        {
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "layout_name": "wide-center",
+          "dividers": {
+            "xlarge": {
+              "vertical": [
+                {
+                  "col": 16,
+                  "row": 0,
+                  "rowspan": 1
+                }
+              ]
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "table1",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "vertical": [
+                    {
+                      "col": 12,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "large": {
+                  "vertical": [
+                    {
+                      "col": 12,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "medium"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/politics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/trump-national-security-adviser-obrien-tests-positive-for-coronavirus-the-highest-ranking-administration-official-known-to-be-infected/2020/07/27/1590c4dc-d00b-11ea-9038-af089b63ac21_story.html",
+                    "type": "article",
+                    "last_modified": "2020-07-27T22:30:16.405Z"
+                  },
+                  "source": "The Washington Post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "medium"
+                  },
+                  "label": {
+                    "type": "section-small",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "Art Right / Wrap"
+                    }
+                  },
+                  "headline": {
+                    "text": "Trump national security adviser O’Brien tests positive for coronavirus. He’s the highest-ranking administration official known to be infected.",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Anne Gearan and John Wagner"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "– Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/politics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/trump-national-security-adviser-obrien-tests-positive-for-coronavirus-the-highest-ranking-administration-official-known-to-be-infected/2020/07/27/1590c4dc-d00b-11ea-9038-af089b63ac21_story.html",
+                    "type": "article",
+                    "last_modified": "2020-07-27T22:30:16.405Z"
+                  },
+                  "source": "The Washington Post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "small"
+                  },
+                  "label": {
+                    "type": "section-small",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "Art Right / Wrap"
+                    }
+                  },
+                  "headline": {
+                    "text": "Trump national security adviser O’Brien tests positive for coronavirus. He’s the highest-ranking administration official known to be infected.",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Anne Gearan and John Wagner"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "medium"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/politics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/trump-national-security-adviser-obrien-tests-positive-for-coronavirus-the-highest-ranking-administration-official-known-to-be-infected/2020/07/27/1590c4dc-d00b-11ea-9038-af089b63ac21_story.html",
+                    "type": "article",
+                    "last_modified": "2020-07-27T22:30:16.405Z"
+                  },
+                  "source": "The Washington Post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "medium"
+                  },
+                  "label": {
+                    "type": "section-small",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "Art Right / No Wrap"
+                    }
+                  },
+                  "headline": {
+                    "text": "Trump national security adviser O’Brien tests positive for coronavirus. He’s the highest-ranking administration official known to be infected.",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Anne Gearan and John Wagner"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 12,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 12,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "mobile_preset": "– Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/politics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/trump-national-security-adviser-obrien-tests-positive-for-coronavirus-the-highest-ranking-administration-official-known-to-be-infected/2020/07/27/1590c4dc-d00b-11ea-9038-af089b63ac21_story.html",
+                    "type": "article",
+                    "last_modified": "2020-07-27T22:30:16.405Z"
+                  },
+                  "source": "The Washington Post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "label": {
+                    "type": "section-small",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "Art Right / No Wrap"
+                    }
+                  },
+                  "headline": {
+                    "text": "Trump national security adviser O’Brien tests positive for coronavirus. He’s the highest-ranking administration official known to be infected.",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Anne Gearan and John Wagner"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table2",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 16,
+                  "colspan": 4
+                }
+              },
+              "items": []
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        }
+      ]
+    }
+  ],
+  "checksum": 1170867941
+}

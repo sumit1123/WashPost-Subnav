@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start|bottom"
+    android:background="@drawable/carousel_video_gradient_background_2"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/player_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ellipsize="none"
+        android:fontFamily="@font/wp_postoniwide_font_family"
+        android:maxLines="5"
+        android:paddingTop="96dp"
+        android:textColor="#F7F7F7"
+        android:textSize="24sp"
+        app:fontFamily="@font/wp_postoniwide_font_family"
+        app:layout_constraintBottom_toTopOf="@+id/player_controller"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/player_controller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/exo_play_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/ExoStyledControls.Button.Center.PlayPause" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/barrier1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="right"
+            app:constraint_referenced_ids="exo_play_pause" />
+
+        <TextView
+            android:id="@+id/exo_position"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/wp_franklinitcstd_font_family"
+            android:text="00:00"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/barrier1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_default="wrap" />
+
+        <TextView
+            android:id="@+id/exo_duration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/wp_franklinitcstd_font_family"
+            android:text="00:00"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/barrier1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_default="wrap" />
+
+        <TextView
+            android:id="@+id/exo_remaining_duration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/wp_franklinitcstd_font_family"
+            android:text="99:99"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/barrier1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_default="wrap" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_player_mute" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

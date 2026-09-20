@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:background="@color/behind_articles_cards_bg"
+    tools:context="com.wapo.flagship.features.articles.ArticlesActivity"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        app:layout_behavior="com.wapo.view.design.widget.AppBarBehavior"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:navigationIcon="?attr/app_bar_nav_arrow_icon"
+            android:theme="?attr/app_bar_day_night_style"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/articles_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        />
+    <com.wapo.view.ProgressBarCircularIndeterminate
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:id="@+id/articles_loading_curtain"
+        android:background="@color/sf_loading_spinner"
+        android:visibility="gone"/>
+
+    <FrameLayout
+        android:id="@+id/persistent_player_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:visibility="gone"
+        android:background="@color/tile_card_background"
+        app:layout_behavior="com.wapo.flagship.views.MoveUpForSnackbarBehavior" />
+
+    <com.washingtonpost.android.paywall.bottomsheet.ui.BottomCtaView
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="@dimen/bottom_sheet_height"
+        app:layout_behavior=".paywall.bottomsheet.PaywallSheetBehavior" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

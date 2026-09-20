@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="error_text">#F27B81</color>
+    <color name="submit_button_disabled">#D5D5D5</color>
+    <color name="submit_button_enabled">#166DFC</color>
+    <color name="submit_text_color">#FFFFFF</color>
+    <color name="attach_button_border">#D5D5D5</color>
+    <color name="attach_button_background">@android:color/white</color>
+    <color name="attach_button_text">#2A2A2A</color>
+    <color name="submitted_success">#2A2A2A</color>
+    <color name="info_text">#666666</color>
+    <color name="header_border">#D5D5D5</color>
+    <color name="header_background">#F7F7F7</color>
+    <color name="header_text">#666666</color>
+    <color name="area_item_color">#DE000000</color>
+    <color name="another_request_text">#2A2A2A</color>
+</resources>

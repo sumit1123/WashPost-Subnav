@@ -1,0 +1,761 @@
+{
+  "id": "0c4813cfc984133b1fcd571caacc5ac6",
+  "type": "blog",
+  "subtype": "news",
+  "renderer": "native",
+  "arcId": "GBMEBCEUWMI7DHXZDPTSEGCEQM",
+  "title": "Todd Blanche’s confirmation would have been a scandal in 1973",
+  "blurb": "Nixon’s “Saturday Night Massacre” triggered nationwide outage—and a firewall which is now gone.",
+  "contenturl": "https://www.washingtonpost.com/ripple/2026/08/10/todd-blanche-saturday-night-massacre-justice-department/",
+  "content_type": "",
+  "shareurl": "https://www.washingtonpost.com/ripple/2026/08/10/todd-blanche-saturday-night-massacre-justice-department/",
+  "source": "The Washington Post",
+  "section": "Ripple",
+  "sourcesection": "ripple",
+  "sourcesubsection": "ripple",
+  "sourcecategory": "Ripple",
+  "lmt": 1786368404204,
+  "published": 1786368404204,
+  "first_published": 1786368404204,
+  "display_date": 1786368404204,
+  "socialImage": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/FNQQGNN2D4WMAB2X2OVIQAHBDA.JPG",
+  "sourceslug": "ripple_foreignpolicy_todd-blanche-saturday-night-massacre-justice-department",
+  "commercialnode": null,
+  "showCarousel": false,
+  "omniture": {
+    "title": "Todd Blanche’s confirmation would have been a scandal in 1973 - The Washington Post",
+    "pageName": "2026",
+    "channel": "ripple",
+    "contentId": "nullGBMEBCEUWMI7DHXZDPTSEGCEQM",
+    "contentType": "story - news",
+    "contentSource": "The Washington Post",
+    "contentTopics": "Ripple",
+    "newsroomDesk": "(not set)",
+    "newsroomSubdesk": "(not set)",
+    "contentAuthor": "julian e. zelizer, foreign policy",
+    "authorId": "julianzelizer",
+    "authorType": "(not set)",
+    "subSection": "ripple",
+    "arcId": "GBMEBCEUWMI7DHXZDPTSEGCEQM",
+    "trackingTags": "partner-exclude;app-webview;rpl_foreignpolicy"
+  },
+  "version": 2,
+  "tags": "partner-exclude,app-webview,rpl_foreignpolicy",
+  "items": [
+    {
+      "content": "Ripple",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Ripple",
+      "path": "/ripple",
+      "alignment": "center",
+      "image": {
+        "image_id": "ripple"
+      }
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Ripple brings together diverse perspectives from other publications to show how the country is engaging with today's biggest stories. It operates independently from the Washington Post News and Opinion departments, and isn't subject to their policies and standards.<a href='ripple' target='disclaimer'>\u200b</a>"
+    },
+    {
+      "content": "Todd Blanche’s confirmation would have been a scandal in 1973",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "Nixon’s “Saturday Night Massacre” triggered nationwide outage—and a firewall which is now gone.",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "content": 1786368404204,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/GBMEBCEUWMI7DHXZDPTSEGCEQM/20260810-132726.615/manifest.json",
+      "adsUrl": "https://wp.mc.tritondigital.com/WASHPOST_ARTICLES/media/washpost-audio-articles/GBMEBCEUWMI7DHXZDPTSEGCEQM/20260810-132726.615/eleven-labs_en-US_Brian_standard_audio.mp3?awCollectionId=/ripple&awEpisodeId=GBMEBCEUWMI7DHXZDPTSEGCEQM&tags=%7C%7C",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/GBMEBCEUWMI7DHXZDPTSEGCEQM/20260810-132726.615/eleven-labs_en-US_Brian_standard_audio.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/FNQQGNN2D4WMAB2X2OVIQAHBDA.JPG",
+        "imageWidth": 3500,
+        "imageHeight": 2334,
+        "fullcaption": "(Eric Lee/Reuters)"
+      },
+      "title": {
+        "content": "Todd Blanche’s confirmation would have been a scandal in 1973",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "Ripple",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "Ripple",
+        "path": "/ripple"
+      },
+      "date": {
+        "content": 1786368404204,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      },
+      "adconfig": {
+        "adSetUrl": "https://cmod-world.live.streamtheworld.com/ondemand/ars?type=[break-type]&maxAds=[max-ads]&delivery-method=progressive&ttag=[triton-ttag]&lsid=[triton-lsid]&idfa=[triton-idfa]&us_privacy=[us-privacy]&gdpr=[gdpr]&gdpr_consent=[gdpr-consent]&gpp=[gpp]&gpp_sid=[gpp-sid]&feed-type=txt2speech&content-language=en&site-url=https%3A%2F%2Fwww.washingtonpost.com&bundle-id=[bundle-id]&store-id=[store-id]&store-url=[store-url]&break-number=[break-number]&ext_stid=wp-1407653",
+        "primarySectionID": "/ripple"
+      },
+      "duration": 788000
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/FNQQGNN2D4WMAB2X2OVIQAHBDA.JPG",
+      "imageWidth": 3500,
+      "imageHeight": 2334,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Todd Blanche departs after a meeting at the U.S. Capitol on Aug. 5. (Eric Lee/Reuters)",
+      "blurb": "Todd Blanche departs after a meeting at the U.S. Capitol on Aug. 5."
+    },
+    {
+      "content": "By Julian E. Zelizer, Foreign Policy",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "JulianZelizer",
+          "name": "Julian E. Zelizer, Foreign Policy",
+          "bio": "Foreign Policy is a global affairs magazine offering diverse perspectives on issues shaping nations and the world.",
+          "image": "https://author-service-images-prod-us-east-1.publishing.aws.arc.pub/wapo/T7KEJ5JZZFGYNFELSFBJ7DODII.png"
+        }
+      ]
+    },
+    {
+      "arcId": "FTM62RDQONHNJI5RPPUCYUIVHE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The confirmation of Todd Blanche as attorney general of the United States reveals just how far President Donald Trump has shifted the Overton window—the spectrum of thought that is considered acceptable—with regard to the Department of Justice. During the Senate Judiciary Committee hearings last month, the acting attorney general’s nomination hit a snag when two senators, Tom Tillis and John Cornyn, demanded that Blanche sign a document assuring them he would not revive the president’s proposal to set up a $1.8 billion so-called anti-weaponization fund providing support for individuals allegedly persecuted by the federal government. Although he initially hesitated, Blanche ultimately released a \u003Ca href=\"https://x.com/DAGToddBlanche/status/2084114427813437897?s=20\"\u003Ecarefully worded statement\u003C/a\u003E promising that the fund “is not moving forward.” The decision to shield members of the Trump family from IRS audits remained in place, though Blanche provided a “binding written document,” as a Cornyn spokesperson \u003Ca href=\"https://www.nbcnews.com/politics/congress/acting-ag-todd-blanche-reaches-deal-holdout-senators-end-18b-anti-weap-rcna590525\"\u003Eput it\u003C/a\u003E, specifying who would and would not be covered by the provision. Within hours, Tillis and Cornyn said they were satisfied and would vote for his confirmation."
+    },
+    {
+      "arcId": "RKTSQWYMQZH77JX3FLHR5QDZHE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The fact that these vague assurances were sufficient to move his confirmation forward was already an indication of just how little Senate Republicans are demanding from the administration. And that’s even from two senior senators who aren’t running for reelection after finding themselves in the president’s crosshairs. But anyone following the Iran war—in which the president is comfortable constantly reversing himself—would hesitate to accept Blanche’s assurance at face value."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "tall",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "small": "incontent-mob_1"
+      }
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "large": "incontent_1"
+      }
+    },
+    {
+      "arcId": "A7GJ7OUJ5REIVLQLOKCGCDVT64",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "But these being the major points of contention—rather than Blanche’s utter failure to say anything substantive about restoring the firewall that had, until recently, largely separated the Oval Office from the Department of Justice since the early 1970s—is far more telling. Blanche, who said during his confirmation hearings that “I’m his lawyer,” referring to the president, embodies the extent to which the rule of law has eroded within the administration. (He subsequently corrected himself to say he “was” Trump’s lawyer.) The Department of Justice has been transformed into a presidential instrument, wielded to target opponents and reward supporters."
+    },
+    {
+      "arcId": "DMGD3IRNEBHU5ILIGSDIA7GFWY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "This administration has dismantled many of the rules and norms put into place after President Richard Nixon’s resignation in August 1974. At that time, Americans became painfully aware of the dangers of allowing the nation’s chief law enforcement officer to serve as an agent of the president rather than a guardian of the Constitution. Yet the lessons of the “Saturday Night Massacre” in 1973, when the nation watched in shock as Nixon attempted to stifle the DOJ’s Watergate investigation, have been forgotten."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "small": "incontent-mob_2"
+      }
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "large": "incontent_2"
+      }
+    },
+    {
+      "arcId": "OMSTHDSZPNDSBIPX5V6FUIY25I",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The Watergate scandal started with a break-in at the Democratic National Committee headquarters on June 17, 1972. The arrests of the burglars, who had connections to Nixon’s reelection campaign, launched multiple investigations."
+    },
+    {
+      "arcId": "XXX2CYYAHFFAHKRZWB2TIT3SZI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Beginning in May 1973, a Senate select committee chaired by North Carolina’s Sam Ervin conducted high profile televised hearings into the Watergate scandal. While the hearings produced shocking revelations of the scandalous abuse of presidential power that had taken place since 1969, only 26 \u003Ca href=\"https://www.pewresearch.org/short-reads/2019/09/25/how-the-watergate-crisis-eroded-public-support-for-richard-nixon/\"\u003Epercent\u003C/a\u003E of the country supported impeachment (even though \u003Ca href=\"https://www.pewresearch.org/short-reads/2019/09/25/how-the-watergate-crisis-eroded-public-support-for-richard-nixon/\"\u003E71 percent\u003C/a\u003E of the population told pollsters that Nixon was culpable)."
+    },
+    {
+      "arcId": "RWG4J52FRRBQPO4G2JC4JYCNHM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "One of the most important revelations to come out of the hearings was that Nixon had taped many of his phone and Oval Office conversations. Archibald Cox, the special prosecutor whom Attorney General Elliot Richardson had appointed in May to investigate Watergate, wanted access to the tapes. Cox, a distinguished Harvard Law professor, understood that the recordings could contain proof—a “smoking gun”—that Nixon had violated the law. Not only did the administration refuse to turn over the material, but Nixon wanted Cox to be fired. He did not have the appetite for an independent investigation taking place within the executive branch that centered on him."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "small": "incontent-mob_3"
+      }
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "large": "incontent_3"
+      }
+    },
+    {
+      "arcId": "ELUUKDYMPZDN3G42OX3S3DDP5M",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Richardson, a lifelong Republican and decorated World War II veteran, found himself in a difficult position. The path of least resistance would have been to fire Cox. Just as Secretary of Defense Robert McNamara \u003Ca href=\"https://foreignpolicy.com/2025/09/26/mcnamara-at-war-review-loyalty-president/\"\u003Ejustified\u003C/a\u003E his decision to direct a war in Vietnam he knew to be unwinnable from the start by claiming to be following President Lyndon Johnson’s orders, Richardson could have done the same."
+    },
+    {
+      "arcId": "522EQKE4RFFUVOCF5YB6RHLVZY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The month of October 1973 was already filled with turbulence. War broke out in the Middle East on Oct. 6 when a number of Arab states attacked Israel. Four days later, Vice President Spiro Agnew resigned after pleading no contest to a charge of tax evasion, part of a plea bargain that allowed him to avoid broader corruption charges. On Oct. 12, the day that the president announced he would nominate House Minority Leader Gerald Ford to succeed Agnew, the Court of Appeals for the District of Columbia ruled that Nixon had to turn over the tapes."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "small": "incontent-mob_4"
+      }
+    },
+    {
+      "arcId": "IFDCG4A7S5CPVFROLWP2EVTATE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Before trying to fire Cox, Nixon and Mississippi Sen. John Stennis tried to work out a potential deal with the Justice Department. According to the plan, \u003Ca href=\"https://www.rcfp.org/legal-fight-over-nixon-tapes/\"\u003EStennis\u003C/a\u003E—one of the most conservative members of the upper chamber, who was famously hard of hearing—would listen to the tapes, compare what he heard to transcripts that the White House would provide, and submit synopses to the court. As part of the agreement, Cox could not demand any tapes. Cox said no."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "large": "incontent_4"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<strong><a href=\"https://www.washingtonpost.com/ripple/submit-guest-post\">Submit a guest post</a>. Your piece may be featured on Ripple.</strong>"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "arcId": "UJOAZJ67SFAXVIJR7ZTFBW6TS4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "At that point, with Nixon pressing him to fire Cox, Richardson found himself in an extremely difficult position. Through his chief of staff Al Haig, Nixon sent Richardson the \u003Ca href=\"https://www.theatlantic.com/magazine/archive/1976/03/the-saturday-night-massacre/663675/\"\u003Emessage\u003C/a\u003E: “I am instructing you to direct Special Prosecutor Archibald Cox … that he is to make no further attempts by judicial process to obtain tapes, notes, or memoranda of Presidential conversations.”"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "small": "incontent-mob_5"
+      }
+    },
+    {
+      "arcId": "5P4VJC44NZCBZJTZH42BZLMUPQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Richardson understood that he could not fire Cox. If Richardson agreed to carry out Nixon’s orders, his actions would have killed the DOJ inquiry and posed a massive blow to the entire effort to understand what Nixon had done, thereby throwing accountability out the window. The other risk of accepting the president’s instructions would have been to create a chill for anyone else who might be willing to cooperate. There was a “constitutional crisis ahead,” wrote the New York Times columnist Anthony Lewis."
+    },
+    {
+      "type": "autorecirc_carousel",
+      "subtype": "ripple",
+      "carouselId": 0,
+      "feedSource": "story-feed-most-read",
+      "section": "/ripple",
+      "feedSize": 15
+    },
+    {
+      "arcId": "STMFZK2XCFBADOE3N335LQE774",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Cox was standing firm. Richardson watched on television as Cox spoke to the National Press Club, where he dismissed the Stennis compromise as a betrayal of the law. He told the reporters gathered that he would keep fighting, requesting that the court provide a ruling in response to Nixon’s dangerous defiance. “Whether ours shall continue to be a government of laws and not men,” \u003Ca href=\"https://hls.harvard.edu/today/lessons-courage/\"\u003ECox\u003C/a\u003E warned, “is now for Congress and ultimately the American people to decide.”"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "small": "incontent-mob_6"
+      }
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "large": "incontent_5"
+      }
+    },
+    {
+      "arcId": "JUQ5CDUSP5GAXIKQCVFBW4ZWRM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "On Saturday, Oct. 20, Richardson—whom Haig tried to persuade one last time by offering him an ambassadorship or even a place on the national ticket—told the president that he was resigning. The request for the tapes, Richardson explained, did not meet the “extraordinary circumstances” that would justify removing Cox from his post."
+    },
+    {
+      "arcId": "43373VY5L5A3VDM2GMXZRAGBKQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "By stepping down instead of complying with the president’s order, Richardson, who held the job for only five months, defined the terms of the struggle and offered a template for others to follow. He demonstrated a model of responsible civic action in a time of crisis. The next person that Nixon ordered to fire Cox, Deputy Attorney General William Ruckelshaus, followed Richardson’s precedent. Although Nixon finally found someone to carry out the order (Solicitor General Robert Bork), this public controversy spurred media debates about a constitutional crisis. Richardson had done a great deal to expose how far Nixon was prepared to deploy his authority and more members of Congress understood that further action was necessary, including impeachment proceedings."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "small": "incontent-mob_7"
+      }
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "large": "incontent_6"
+      }
+    },
+    {
+      "arcId": "LWVPB4ONJNER5OIQLZ3CFYSFCE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The Saturday Night Massacre, as the string of resignations and the firing of Cox came to be called, triggered nationwide outrage. More than 50,000 \u003Ca href=\"https://www.history.com/articles/what-was-the-saturday-night-massacre\"\u003Epeople\u003C/a\u003E sent telegrams to the White House and members of Congress expressing their anger and calling for the president to go. The episode prompted more than a dozen House members to propose impeachment-related. “It was a terrifying night. It felt like we were in a banana republic,” the renowned journalist Elizabeth Drew \u003Ca href=\"https://www.vox.com/2014/8/7/5970967/what-was-watergate-scandal-nixon\"\u003Erecalled\u003C/a\u003E. According to \u003Ca href=\"https://news.gallup.com/vault/226370/gallup-vault-fire-nixon-nixon-fired-cox.aspx\"\u003EGallup\u003C/a\u003E, the number of Americans supporting impeachment 38 percent by November."
+    },
+    {
+      "arcId": "7Z4UYZL4SBBVJEJ3UABUJSLU3I",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Nixon was under such intense attack that he agreed to appoint a new prosecutor, Leon Jaworski, who would continue pursuing the tapes."
+    },
+    {
+      "arcId": "4ZIJ357A2BH2REFIQSDTGLJFGQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "On Feb. 6, 1974, the House of Representatives voted by a whopping 410-4 to begin the historic process of an impeachment inquiry, one that had not been undertaken since President Andrew Johnson’s tenure more than 100 years previously. The House granted the Judiciary Committee, chaired by New Jersey Democrat Peter Rodino, subpoena authority in its inquiry."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "small": "incontent-mob_8"
+      }
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "large": "incontent_7"
+      }
+    },
+    {
+      "arcId": "UVUIBI6TBVGMNK2XHTNMQFEEAM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The Saturday Night Massacre remained a defining moment in the history of the Department of Justice. Following Watergate, the department undertook reforms that would finally \u003Ca href=\"https://foreignpolicy.com/2025/10/13/justice-department-trump-watergate-reforms/\"\u003Ecreate\u003C/a\u003E some boundaries between the president and the attorney general that the Constitution hadn’t established—which Nixon had exploited to his own benefit."
+    },
+    {
+      "arcId": "WKKOV2TUSNAZRN3FQOM5ITJZWE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Attorney General Edward Levi, who later served under President Gerald Ford, created the Office of Professional Responsibility to oversee the department. President Jimmy Carter’s attorney general, Griffin Bell, changed the norms of communication and transparency to buttress their insulation from the Oval Office. The goal was to ensure that Americans understood Department of Justice investigations were being conducted as a result of legal, not political, considerations. Attorney General Benjamin Civiletti further strengthened the reforms in 1979 by inscribing these principles into the rulebooks that were used by the department. Under President Joe Biden, as NYU Law Professor Noah Rosenblum has \u003Ca href=\"https://press.princeton.edu/books/hardcover/9780691274782/the-presidency-of-joseph-r-biden?srsltid=AfmBOopxfWJxaoHLQfAm-GG_VrHIKBY9ERkbQ2QYlsq4wIUsHU_vUe1Q\"\u003Ewritten\u003C/a\u003E, Merrick Garland worked hard, with considerable success, to fix the erosions that took place during Trump’s first term."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "small": "incontent-mob_9"
+      }
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "primarySectionID": "/ripple",
+      "position": {
+        "large": "incontent_8"
+      }
+    },
+    {
+      "arcId": "I5EYKJ73DRDSPAERX4L6AX5OGA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "But the first term was merely child’s play."
+    },
+    {
+      "arcId": "D37BTHLHVJAVDO6CDF6AW2FHIY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The second Trump term has made the first seem tame. The president has sought prosecutions of perceived opponents, including former FBI Director James Comey and New York Attorney General Letitia James, while suggesting that the proposed weaponization fund could be used to benefit supporters such as the Jan. 6 insurrectionists, whom he already pardoned. He has also pushed for investigations of California Sen. Adam Schiff and former Federal Reserve Chairman Jerome Powell. Meanwhile, some of his own supporters have expressed frustration with the slow and limited release of files related to the Jeffrey Epstein case."
+    },
+    {
+      "arcId": "ZZLWNT3RQJHTZFR5LWVZTWI6Z4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The minimal public outrage over Blanche’s nomination epitomizes how far the nation has moved from the legacy of the Saturday Night Massacre. The kind of presidential intervention that in October 1973 could cause large number of Americans to conclude that the country’s leader needed to go would hardly qualify as a scandal. The Department of Justice has effectively been folded into the presidency, with presidential influence extending beyond policy decisions into the red zone of investigations themselves. This has created a dangerous moment for a democracy that depends on the rule of law."
+    },
+    {
+      "arcId": "K4CVADCG45HAJPGM6OEEHEKJIU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Without significant public outcry, and with a congressional majority endorsing this sea change, the nation will remain in a dangerous place—one where citizens cannot be sure that the power of the law won’t be used as a bludgeon to curb dissent and reward supporters."
+    },
+    {
+      "type": "link",
+      "subtype": "comments"
+    },
+    {
+      "type": "author_info",
+      "id": "JulianZelizer",
+      "name": "Julian E. Zelizer, Foreign Policy",
+      "bio": "Foreign Policy is a global affairs magazine offering diverse perspectives on issues shaping nations and the world.",
+      "image": "https://author-service-images-prod-us-east-1.publishing.aws.arc.pub/wapo/T7KEJ5JZZFGYNFELSFBJ7DODII.png",
+      "role": ""
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "show_summary": false,
+  "blogname": "Ripple",
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/GBMEBCEUWMI7DHXZDPTSEGCEQM/20260810-132726.615/manifest.json",
+    "adsUrl": "https://wp.mc.tritondigital.com/WASHPOST_ARTICLES/media/washpost-audio-articles/GBMEBCEUWMI7DHXZDPTSEGCEQM/20260810-132726.615/eleven-labs_en-US_Brian_standard_audio.mp3?awCollectionId=/ripple&awEpisodeId=GBMEBCEUWMI7DHXZDPTSEGCEQM&tags=%7C%7C",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/GBMEBCEUWMI7DHXZDPTSEGCEQM/20260810-132726.615/eleven-labs_en-US_Brian_standard_audio.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/FNQQGNN2D4WMAB2X2OVIQAHBDA.JPG",
+      "imageWidth": 3500,
+      "imageHeight": 2334,
+      "fullcaption": "(Eric Lee/Reuters)"
+    },
+    "title": {
+      "content": "Todd Blanche’s confirmation would have been a scandal in 1973",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "Ripple",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Ripple",
+      "path": "/ripple"
+    },
+    "date": {
+      "content": 1786368404204,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    },
+    "adconfig": {
+      "adSetUrl": "https://cmod-world.live.streamtheworld.com/ondemand/ars?type=[break-type]&maxAds=[max-ads]&delivery-method=progressive&ttag=[triton-ttag]&lsid=[triton-lsid]&idfa=[triton-idfa]&us_privacy=[us-privacy]&gdpr=[gdpr]&gdpr_consent=[gdpr-consent]&gpp=[gpp]&gpp_sid=[gpp-sid]&feed-type=txt2speech&content-language=en&site-url=https%3A%2F%2Fwww.washingtonpost.com&bundle-id=[bundle-id]&store-id=[store-id]&store-url=[store-url]&break-number=[break-number]&ext_stid=wp-1407653",
+      "primarySectionID": "/ripple"
+    },
+    "duration": 788000
+  },
+  "targeting": {
+    "adcall": [
+      {
+        "key": "ca",
+        "values": [
+          "rkqfd",
+          "romxp",
+          "r54xz",
+          "rfpdz",
+          "re1w0",
+          "r6txy",
+          "r4op1",
+          "r3voq",
+          "rqpy3",
+          "ry0uc",
+          "rk4hi",
+          "ren01",
+          "rfhup",
+          "r1yqm",
+          "rx4px",
+          "rwsk4",
+          "rk0qi",
+          "rlyaf",
+          "r3mmv",
+          "r0kbr",
+          "rqyhw",
+          "rqnkl",
+          "rgpk6",
+          "rlw2t",
+          "rloxr",
+          "rgywb",
+          "r44lb",
+          "rz457",
+          "rkxir",
+          "rloc3",
+          "rkkqd",
+          "rvn0g",
+          "r0hej",
+          "r1nqd",
+          "rjkt0",
+          "rdrh1",
+          "rh5p3",
+          "rggwa",
+          "r9hok",
+          "rrhwk",
+          "r2dwe",
+          "r50pl",
+          "rtsg3",
+          "rtc0b",
+          "ribdm",
+          "r7e5f",
+          "r6eks",
+          "rt992",
+          "ro9sc",
+          "rtppi",
+          "rpi83",
+          "r1k1d",
+          "r05in",
+          "r4hly",
+          "rtyhm",
+          "rzla5",
+          "rofif",
+          "rdj29",
+          "r44uv",
+          "rksyw",
+          "rao0o",
+          "r9d8g",
+          "radub",
+          "rh26e"
+        ]
+      },
+      {
+        "key": "wapoTopics",
+        "values": [
+          "ucon",
+          "coqj",
+          "dotx",
+          "govg",
+          "xqc3",
+          "mee3",
+          "miu3",
+          "mlj1",
+          "xyji",
+          "rini",
+          "scad",
+          "tbli",
+          "udj1",
+          "x3v0",
+          "wass",
+          "whp2"
+        ]
+      },
+      {
+        "key": "bs",
+        "values": [
+          "garm_safe",
+          "bgrt42",
+          "wapo_rsk_low"
+        ]
+      }
+    ],
+    "iab": {
+      "sectioncat": [
+        "IAB12"
+      ],
+      "pagecat": [
+        "IAB12-9"
+      ]
+    },
+    "permutive_dict": {
+      "article": {
+        "customTopics": [
+          "[rqpy3] B2_Election 2016_legacyaux_WC9"
+        ],
+        "wapoTopics": [
+          "ucon",
+          "coqj",
+          "dotx",
+          "govg",
+          "xqc3",
+          "mee3",
+          "miu3",
+          "mlj1",
+          "xyji",
+          "rini",
+          "scad",
+          "tbli",
+          "udj1",
+          "x3v0",
+          "wass",
+          "whp2"
+        ],
+        "publishDate": "2026-08-10T12:00:57.476Z",
+        "lastUpdateDate": "2026-08-10T13:26:44.343Z",
+        "authorName": [
+          "julian e. zelizer, foreign policy"
+        ],
+        "authorType": [
+          "author"
+        ],
+        "contentType": "story - news",
+        "language": "en",
+        "wordCount": 1823
+      },
+      "canonicalUrl": "/ripple/2026/08/10/todd-blanche-saturday-night-massacre-justice-department/"
+    }
+  },
+  "comments": "https://www.washingtonpost.com/ripple/2026/08/10/todd-blanche-saturday-night-massacre-justice-department/?outputType=comment"
+}

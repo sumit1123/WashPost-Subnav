@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hierarchy_recent">Recientes</string>
+    <string name="hierarchy_sections">Secciones</string>
+
+    <string name="smv_breaking_news">Último momento</string>
+    <string name="smv_politics">Política</string>
+    <string name="smv_health">Salud y ciencia</string>
+    <string name="smv_entertainment">Entretenimiento</string>
+    <string name="smv_world">Mundo</string>
+    <string name="smv_local">Local</string>
+    <string name="smv_sports">Deportes</string>
+    <string name="smv_opinions">Opiniones</string>
+    <string name="smv_editorspicks">Destacados</string>
+    <string name="smv_business">Negocios y tecnologia</string>
+    <string name="smv_newsalerts">Alerta</string>
+</resources>

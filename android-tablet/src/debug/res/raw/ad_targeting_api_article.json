@@ -1,0 +1,2748 @@
+{
+  "id": "d47e157c624ba5712e3596027f4dac38",
+  "type": "blog",
+  "renderer": "native",
+  "arcId": "GA3XTWO2CBCP7EJSHNMMO2ZQN4",
+  "title": "Showdown before the raid: FBI agents and prosecutors argued over Trump",
+  "blurb": "An exclusive look at behind-the-scenes deliberations as both sides wrestled with a national security case that has potentially far-reaching political consequences.",
+  "contenturl": "https://www.washingtonpost.com/national-security/2023/03/01/fbi-dispute-trump-mar-a-lago-raid/",
+  "shareurl": "https://www.washingtonpost.com/national-security/2023/03/01/fbi-dispute-trump-mar-a-lago-raid/",
+  "source": "the-washington-post",
+  "section": "National-security",
+  "sourcesection": "national-security",
+  "sourcesubsection": "national-security",
+  "sourcecategory": "National-security",
+  "lmt": 1677681096010,
+  "published": 1677681096010,
+  "first_published": 1677668400082,
+  "display_date": 1677668400000,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EQ3IU4AXQEI63OMYWKVWR5MENA.jpg",
+  "sourceslug": "MARALAGODOCS",
+  "commercialnode": "/national-security",
+  "omniture": {
+    "title": "FBI agents and DOJ prosecutors argued over raid of Trump's Mar-a-Lago - The Washington Post",
+    "pageName": "fbi-dispute-trump-mar-a-lago-raid",
+    "channel": "national-security",
+    "contentId": "nullGA3XTWO2CBCP7EJSHNMMO2ZQN4",
+    "contentType": "blog",
+    "contentSource": "the-washington-post",
+    "contentTopics": "National;National Security;Politics;Justice",
+    "newsroomDesk": "national;national;national;investigative",
+    "newsroomSubdesk": "national - investigative;national - justice & immigration;national - justice & immigration;investigative - rapid response",
+    "contentAuthor": "carol d. leonnig;devlin barrett;perry stein;aaron c. davis",
+    "authorId": "leonnigcd;barrettd;steinp;davisac",
+    "authorType": "reporter;(not set);staff writer;(not set)",
+    "subSection": "national-security",
+    "arcId": "GA3XTWO2CBCP7EJSHNMMO2ZQN4",
+    "trackingTags": "story-has-edit-branch;created from template id cpxdc2p3lfhmvbylarbbiwnbra;methode-draft;jan6;collections-trumprecords;audio-article"
+  },
+  "tags": "story-has-edit-branch,created from template id cpxdc2p3lfhmvbylarbbiwnbra,methode-draft,jan6,collections-trumprecords,audio-article",
+  "items": [
+    {
+      "content": "National Security",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "National Security",
+      "path": "/national-security"
+    },
+    {
+      "content": "Showdown before the raid: FBI agents and prosecutors argued over Trump",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "An exclusive look at behind-the-scenes deliberations as both sides wrestled with a national security case that has potentially far-reaching political consequences",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/GA3XTWO2CBCP7EJSHNMMO2ZQN4/20230301-093158.586/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/GA3XTWO2CBCP7EJSHNMMO2ZQN4/20230301-093158.586/current.mp3?awCollectionId=/national-security&awEpisodeId=GA3XTWO2CBCP7EJSHNMMO2ZQN4&tags=jan6%7Ccollections-trumprecords",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/GA3XTWO2CBCP7EJSHNMMO2ZQN4/20230301-093158.586/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EQ3IU4AXQEI63OMYWKVWR5MENA.jpg",
+        "imageWidth": 2000,
+        "imageHeight": 1333,
+        "fullcaption": "(Wilfredo Lee/AP)"
+      },
+      "title": {
+        "content": "Showdown before the raid: FBI agents and prosecutors argued over Trump",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "National Security",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "National Security",
+        "path": "/national-security"
+      },
+      "date": {
+        "content": 1677668400000,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "label": "Listen to article"
+      }
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EQ3IU4AXQEI63OMYWKVWR5MENA.jpg",
+      "imageWidth": 2000,
+      "imageHeight": 1333,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "A man stands outside an entrance to former president Donald Trump's Mar-a-Lago estate on Aug. 8, 2022, in Palm Beach, Fla. (Wilfredo Lee/AP)",
+      "blurb": "A man stands outside an entrance to former president Donald Trump's Mar-a-Lago estate on Aug. 8, 2022, in Palm Beach, Fla."
+    },
+    {
+      "content": "By Carol D. Leonnig, Devlin Barrett, Perry Stein and Aaron C. Davis",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "leonnigcd",
+          "url": "https://www.washingtonpost.com/people/carol-d-leonnig/",
+          "name": "Carol D. Leonnig",
+          "bio": "Carol Leonnig is an investigative reporter at The Washington Post, where she has worked since 2000. She won the 2015 Pulitzer Prize for her work on security failures and misconduct inside the Secret Service.",
+          "expertise": "National investigative reporter focused on the White House and government accountability ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/a3ddc2af-cb43-4e89-ba6e-1547eebb1206.png"
+        },
+        {
+          "id": "barrettd",
+          "url": "https://www.washingtonpost.com/people/devlin-barrett/",
+          "name": "Devlin Barrett",
+          "bio": "Devlin Barrett writes about the FBI and the Justice Department, and is the author of \"October Surprise: How the FBI Tried to Save Itself and Crashed an Election.\" He was part of reporting teams that won Pulitzer Prizes in 2018 and 2022. In 2017 he was a co-finalist for the Pulitzer for Feature Writing and the Pulitzer for International Reporting. ",
+          "expertise": "Reporter focusing on national security and law enforcement",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/b32833df-c432-4c22-a0dc-584233a43044.png"
+        },
+        {
+          "id": "steinp",
+          "url": "https://www.washingtonpost.com/people/perry-stein/",
+          "name": "Perry Stein",
+          "bio": "Perry Stein covers the Justice Department and FBI for The Washington Post. She previously covered D.C. education. Before she joined The Post in 2015, she was a staff writer for Washington City Paper and wrote for the Miami Herald. ",
+          "expertise": "Reporter covering the Justice Department. ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/4bce12dd-61bc-4eec-83dd-fe464998df7c.png"
+        },
+        {
+          "id": "davisac",
+          "url": "https://www.washingtonpost.com/people/aaron-c-davis/",
+          "name": "Aaron C. Davis",
+          "bio": "Aaron Davis is an investigative reporter who has covered local, state and federal government, as well as the aviation industry and law enforcement. Davis shared in winning the Pulitzer Prize for Investigative Reporting in 2018.",
+          "expertise": "Investigative reporter",
+          "image": "https://s3.amazonaws.com/arc-authors/test/c914fa8c-241a-4376-8365-440d159c0f32.png"
+        }
+      ]
+    },
+    {
+      "content": 1677668400000,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Months of disputes between Justice Department prosecutors and FBI agents over how best to try to recover classified documents from Donald Trump\u2019s Mar-a-Lago Club and residence led to a tense showdown near the end of July last year, according to four people familiar with the discussions."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Prosecutors argued that new evidence suggested Trump was knowingly concealing secret documents at his Palm Beach, Fla., home and urged the FBI to conduct a surprise raid at the property. But two senior FBI officials who would be in charge of leading the search resisted the plan as too combative and proposed instead to seek Trump\u2019s permission to search his property, according to the four people, who spoke on the condition of anonymity to describe a sensitive investigation."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Prosecutors ultimately prevailed in that dispute, one of several previously unreported clashes in a tense tug of war between two arms of the Justice Department over how aggressively to pursue a criminal investigation of a former president. The FBI conducted an unprecedented raid on Aug. 8, recovering more than 100 classified items, among them <a href=\"https://www.washingtonpost.com/national-security/2022/09/06/trump-nuclear-documents/\">a document describing</a> a foreign government\u2019s military defenses, including its nuclear capabilities."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Starting in May, FBI agents in the Washington field office had sought to slow the probe, urging caution given its<b> </b>extraordinary sensitivity, the people said."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Some of those field agents wanted to shutter the criminal investigation altogether in early June, after Trump\u2019s legal team asserted a diligent search had been<b> </b>conducted and all classified records had been turned over, according to some<b> </b>people with knowledge of the discussions."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The idea of closing the probe was not something that was discussed or considered by FBI<b> </b>leadership and would not have been approved<b>, </b>a senior law enforcement official said."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "This account reveals for the first time the degree of tension among law enforcement officials and behind-the-scenes deliberations as they wrestled with a national security case that has potentially far-reaching political consequences."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The disagreements stemmed in large part from worries among officials<b> </b>that whatever steps they took in investigating a former president would face<b> </b>intense scrutiny and second-guessing by people inside and outside the government. However, the agents, who typically perform the bulk of the investigative work in cases, and the prosecutors, who guide agents\u2019 work and decide on criminal charges, ultimately<b> </b>focused on very different pitfalls, according to people familiar with their discussions."
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/Z4PMZJGKQKZJZ6TIOADWL3TQVY_size-normalized.jpg",
+      "imageWidth": 6240,
+      "imageHeight": 4160,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "People hold their phones to record as Trump announces his bid for president at Mar-a-Lago on Nov. 15, 2022. (Thomas Simonetti for The Washington Post)",
+      "blurb": "People hold their phones to record as Trump announces his bid for president at Mar-a-Lago on Nov. 15, 2022."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "On one side, federal prosecutors in the department\u2019s national security division advocated aggressive ways to secure some of the country\u2019s most closely guarded secrets, which they feared Trump was intentionally hiding at Mar-a-Lago; on the other, FBI agents in the Washington field office urged more caution with such a high-profile matter, recommending they take a cooperative rather than confrontational approach."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Both sides were mindful of the intense scrutiny the case was drawing<b> </b>and felt they had to be above reproach while investigating a former president then expected to run for reelection. While trying to follow the Justice Department playbook for classified<b> </b>records probes, investigators on both sides braced for Trump to follow his own playbook of publicly attacking the integrity of their investigation, according to people with knowledge of their discussions."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The FBI agents\u2019 caution also<b> </b>was rooted in the fact that mistakes in prior probes of Hillary Clinton and Trump had proved damaging to the FBI, and the cases subjected the bureau to sustained<b> </b>public attacks from partisans,<b> </b>the people said."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Prosecutors countered that the FBI failing to treat Trump as<b> </b>it had other government employees who were not truthful about classified records could threaten the nation\u2019s security. As evidence surfaced suggesting that Trump or his team was<b> </b>holding back sensitive records, the prosecutors pushed for quick action to recover them, according to the people familiar with the discussions."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "While the people who described these sensitive discussions disagreed on some particulars, they agreed on many aspects of the dispute."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Spokespeople for the Justice Department and the FBI declined to comment for this story."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "It is not unusual for FBI agents and Justice Department prosecutors to disagree during an investigation about how aggressively to pursue witnesses or other evidence. Often, those disagreements are temporary flare-ups that are debated, decided and resolved in due course."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "While the FBI tends to have great discretion in the day-to-day conduct of<b> </b>investigations, it is up to prosecutors to decide whether to file criminal charges \u2014 and, like the prosecutors, the director of the FBI ultimately reports to the attorney general. The Mar-a-Lago case was unusual not just for its focus on a former president, but in the way it was closely monitored at every step by senior Justice Department officials. Attorney General Merrick Garland said he \u201cpersonally approved\u201d the search of Trump\u2019s property."
+    },
+    {
+      "id": "800b2c8d-e074-4b4f-9043-df93054ea457",
+      "published": 1660261709000,
+      "isLive": false,
+      "lmt": 1660271572000,
+      "blurb": "Attorney General Merrick Garland defended FBI and Justice Department employees on Aug. 11 following an FBI search at Trump's Mar-a-Lago resort.",
+      "title": "Merrick Garland defends FBI after Mar-a-Lago search",
+      "vertical": true,
+      "embedCode": "62f55bf0c7d1ee56b24ba2d3",
+      "shareurl": "https://wapo.st/3bUqGRH",
+      "type": "video",
+      "host": "posttv",
+      "url": "false",
+      "placement": "center",
+      "widthFactor": "default",
+      "contenturl": "https://www.washingtonpost.com/video/politics/merrick-garland-defends-fbi-after-mar-a-lago-search/2022/08/11/800b2c8d-e074-4b4f-9043-df93054ea457_video.html",
+      "credits": "The Washington Post",
+      "fullcaption": "Attorney General Merrick Garland defended FBI and Justice Department employees on Aug. 11 following an FBI search at Trump's Mar-a-Lago resort. (The Washington Post)",
+      "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/08-11-2022/t_4f008fc4ed734ec0adeea279009ce994_name_20220811_GarlandPresser_tn_site.png",
+      "imageHeight": 1920,
+      "imageWidth": 1080,
+      "omniture": {
+        "source": "The Washington Post",
+        "contentType": "video",
+        "contentId": "800b2c8d-e074-4b4f-9043-df93054ea457",
+        "channel": "politics",
+        "contentSubsection": "politics",
+        "pageName": "politics:video - df93054ea457 - 20220811 - merrick-garland-defends-fbi-after-maralago-search"
+      },
+      "adconfig": {
+        "adSetUrls": {
+          "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.politics_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+        },
+        "allowPrerollOnDomain": false,
+        "autoPlayPreroll": false,
+        "commercialAdNode": "/politics",
+        "enableAdInsertion": false,
+        "enableAutoPreview": false,
+        "enableServerSideFallback": false,
+        "forceAd": false,
+        "playAds": true,
+        "playVideoAds": false,
+        "videoAdZone": "wpni.video.politics",
+        "adSetConfig": {
+          "adSetZone": "wpni.video.politics",
+          "adSetUrls": {
+            "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.politics_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+          }
+        }
+      },
+      "mediaURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20220811/62f55bf0c7d1ee56b24ba2d3/62f582f400e1586bfbafb64a/file_360x640-600.mp4",
+      "streamURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20220811/62f55bf0c7d1ee56b24ba2d3/62f582f400e1586bfbafb64a/mobile.m3u8",
+      "subtitlesURL": "https://closedcaptions.posttv.com/2022/08/11/800b2c8d-e074-4b4f-9043-df93054ea457/3_1660258844203/800b2c8d-e074-4b4f-9043-df93054ea457_62f582dcc7d1ee56b24bb750.vtt",
+      "streams": {
+        "ts": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20220811/62f55bf0c7d1ee56b24ba2d3/62f582f400e1586bfbafb64a/mobile.m3u8",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20220811/62f55bf0c7d1ee56b24ba2d3/62f582f400e1586bfbafb64a/master.m3u8",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20220811/62f55bf0c7d1ee56b24ba2d3/62f582f400e1586bfbafb64a/hd.m3u8",
+            "bitrate": 4500
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20220811/62f55bf0c7d1ee56b24ba2d3/62f582f400e1586bfbafb64a/hlsv4_master.m3u8",
+            "bitrate": 5400
+          }
+        ],
+        "mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20220811/62f55bf0c7d1ee56b24ba2d3/62f582f400e1586bfbafb64a/file_180x320-160.mp4",
+            "bitrate": 160
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20220811/62f55bf0c7d1ee56b24ba2d3/62f582f400e1586bfbafb64a/file_360x640-600.mp4",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20220811/62f55bf0c7d1ee56b24ba2d3/62f582f400e1586bfbafb64a/file_480x854-1200.mp4",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20220811/62f55bf0c7d1ee56b24ba2d3/62f582f400e1586bfbafb64a/file_720x1280-2000.mp4",
+            "bitrate": 2000
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20220811/62f55bf0c7d1ee56b24ba2d3/62f582f400e1586bfbafb64a/file_1080x1920-5400.mp4",
+            "bitrate": 5400
+          }
+        ]
+      },
+      "fallback": null,
+      "duration": 89813
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "It\u2019s unclear how the investigation may have been reshaped if the two sides had<b> </b>settled their disputes differently. Had the criminal investigation been closed in June, as some FBI field agents discussed, legal experts said it\u2019s unlikely agents would have yet recovered the items found in the FBI\u2019s raid of Trump\u2019s residence."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Some inside the probe argued the infighting delayed the search by months, ultimately reducing the time prosecutors had to reach<b> </b>a decision on possible charges. Others contend the discussions were necessary to ensure the investigation proceeded on the surest footing, enabling officials to gather more evidence before they executed the search, people familiar with the dynamics said."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "In November, before prosecutors had finished their work and decided whether to charge Trump or anyone else, he<b> </b>announced his campaign to retake the White House in 2024, leading Garland to appoint a special counsel, Jack Smith, to complete the investigation."
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OPOUTP2GP4NXIB5KPD7WLGIEAA_size-normalized.jpg",
+      "imageWidth": 9504,
+      "imageHeight": 6336,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "A view of foliage outside the ballroom at Mar-a-Lago in November 2022. (Thomas Simonetti for The Washington Post)",
+      "blurb": "A view of foliage outside the ballroom at Mar-a-Lago in November 2022."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "A collision course",
+      "subhead_level": 3
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "From the moment the FBI and Justice Department received a formal referral on Feb. 7 from the National Archives and Records Administration<b> </b>to investigate missing classified records that could be in Trump\u2019s possession, FBI investigators and federal prosecutors<b> </b>knew they were taking on a highly charged and sensitive case."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Archives officials reported that, after they had pleaded<b> </b>with Trump\u2019s representatives for months, the former president had in January returned 15 boxes of government records he had stored at Mar-a-Lago since his presidency ended. Sifting through the boxes\u2019 contents, archivists were <a href=\"https://www.washingtonpost.com/national-security/2022/08/26/trump-affidavit-released/\">shocked by what they found</a><a href=\"https://www.washingtonpost.com/national-security/2022/08/26/trump-affidavit-released/\">:</a> 184 classified documents consisting of 700 pages. Archives officials said they had reason to believe Trump still had more sensitive or classified documents he took from the White House."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Prosecutors in the Justice Department\u2019s national security division needed to answer two immediate questions: Was national security damaged by classified records being kept at Trump\u2019s Florida club, and were any more sensitive records still in Trump\u2019s possession?"
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.washingtonpost.com/national-security/2022/09/02/deep-inside-bustling-mar-a-lago-storage-room-where-secrets-were-stashed/",
+      "content": "Deep inside busy Mar-a-Lago, a storage room where secrets were kept"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Prosecutors and FBI agents<b> </b>were set on a collision course in April, when<b> </b>Trump through his lawyers <a href=\"https://www.washingtonpost.com/national-security/2022/08/23/trump-records-mar-a-lago-fbi/\">tried to block the FBI </a>from reviewing the classified records the Archives found. That set<b> </b>off alarm bells for prosecutors because it signaled he might be seeking to hide something,<b> </b>according to people familiar with the case. In preliminary interviews with witnesses in April and May, including Trump associates and staff, investigators were told of many more boxes of presidential records at Mar-a-Lago that could contain classified materials \u2014 similar in packaging to the boxes shipped there from the White House, and to those returned to the Archives in January,<b> </b>the people said."
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/725JBCCXOUI6XLGFSLJIDGQ4ZM_size-normalized.jpg",
+      "imageWidth": 5015,
+      "imageHeight": 3343,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Workers load boxes of newspapers and other items into a truck at the Eisenhower Executive Office Building on Jan. 14, 2021, in D.C. (Jabin Botsford/The Washington Post)",
+      "blurb": "Workers load boxes of newspapers and other items into a truck at the Eisenhower Executive Office Building on Jan. 14, 2021, in D.C."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The prosecutors and FBI agents began clashing in previously unreported incidents in early May, the people said. Jay Bratt, the prosecutor leading the department\u2019s counterespionage work, advocated seeking a judge\u2019s warrant for an unannounced search at the property to quickly recover any sensitive documents still there."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The FBI often conducts raids of properties without advance notice when investigators have reason to believe evidence is being withheld or could be destroyed. Some prosecutors saw guideposts in a related case a decade earlier, when Army Gen. David H. Petraeus lied to FBI agents about whether he <a href=\"https://www.washingtonpost.com/world/national-security/petraeus-set-to-plead-guilty-to-mishandling-classified-materials/2015/04/22/3e6dbf20-e8f5-11e4-aae1-d642717d8afa_story.html?tid=a_inl_manual\">had given classified information</a> to a book author with whom he was having an affair. Agents executed a search warrant at Petraeus\u2019s house and retrieved a cache of notebooks in which the prominent<b> </b>general <a href=\"https://www.washingtonpost.com/world/national-security/how-david-petraeus-avoided-felony-charges-and-possible-prison-time/2016/01/25/d77628dc-bfab-11e5-83d4-42e3bceea902_story.html\">improperly had stored</a> extensive amounts of classified information."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "But FBI agents viewed a Mar-a-Lago search in May as premature and combative, especially given that it involved raiding the home of a former president. That spring, top officials at FBI headquarters met with prosecutors to review the strength of evidence that could be used to justify a surprise search, according to two people familiar with their work."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Encountering resistance, Bratt agreed for the time being to subpoena Trump. On June 3, Bratt and a small number<b> </b>of FBI agents visited Mar-a-Lago to meet with Trump\u2019s lawyer and collect any classified records the Trump team<b> </b>had found to comply with the subpoena. That day, Trump\u2019s lawyer, Evan Corcoran, handed over an expandable envelope containing 38 classified records and produced a letter signed by another lawyer, Christina Bobb, asserting that a diligent search had been conducted and all classified records had been turned over."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Some FBI field agents then argued to prosecutors that they were inclined to believe Trump and his team had delivered everything the government sought to protect and said the bureau should close down its criminal investigation, according to some people familiar with the discussions."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "But they said<b> </b>national security prosecutors pushed back and<b> </b>instead urged FBI agents to gather more evidence by conducting follow-up interviews with witnesses and obtaining Mar-a-Lago surveillance video from the Trump Organization."
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.washingtonpost.com/national-security/2022/10/12/maralago-witness-trump-boxes-moved/",
+      "content": "Mar-a-Lago worker told FBI about moving boxes at Trump's direction"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The government sought surveillance video footage<b> </b>by subpoena in late June. It<b> </b>showed someone moving boxes from the area where records had been stored, not long after Trump was put on notice to return all such records, according to people familiar with the probe. That evidence suggested it was likely more classified records remained at Mar-a-Lago, the people said,<b> </b>despite<b> </b>the claim of Trump\u2019s lawyers. It also painted for both sides a far more worrisome picture \u2014 one that would soon build the legal justification for the August raid."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "By mid-July, the prosecutors were eager for the FBI to scour the premises of Mar-a-Lago. They argued that the probable cause for a search warrant was more than solid, and the likelihood of finding classified records and evidence of obstruction was high, according to the four people."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "But the prosecutors learned FBI agents were still loath to conduct a surprise search. They also heard from top FBI<b> </b>officials that some agents were simply afraid: They worried taking<b> </b>aggressive steps investigating<b> </b>Trump could blemish or even end their careers, according to some<b> </b>people with knowledge of the discussions. One official dubbed it \u201cthe hangover of Crossfire Hurricane,\u201d a reference to the FBI investigation of Russia\u2019s interference in the 2016 presidential election and possible connections to the Trump campaign, the people said. As president, Trump repeatedly targeted some FBI officials involved in the Russia<b> </b>case."
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DN6FDR7P2SW5MHW4G77P2K4NFQ_size-normalized.JPG",
+      "imageWidth": 4463,
+      "imageHeight": 2975,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Steven D'Antuono, head of the FBI Washington field office, left, and Michael Sherwin, acting U.S. attorney for the D.C., participate in a news conference at the Justice Department on Jan. 12, 2021. (Sarah Silbiger/AFP/Getty Images)",
+      "blurb": "Steven D'Antuono, head of the FBI Washington field office, left, and Michael Sherwin, acting U.S. attorney for the D.C., participate in a news conference at the Justice Department on Jan. 12, 2021."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "A rift within the FBI",
+      "subhead_level": 3
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Against that backdrop, Bratt and other senior national security prosecutors, including Assistant Attorney General Matt Olsen and George Toscas, a top counterintelligence official, met about a week before the Aug. 8 raid with FBI agents on their turf, inside an FBI conference room."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The prosecutors brought with them a draft search warrant and argued that the FBI<b> </b>had no other choice but to search Mar-a-Lago as soon as practically possible, according to people with knowledge of the meeting. Prosecutors said the search was the only safe way to recover an untold number of sensitive government records that witnesses had said<b> </b>were still on the property."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Steven M. D\u2019Antuono, then the head of the FBI Washington field office, which was running the investigation, was adamant the FBI<b> </b>should not do a surprise search, according to the people."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "D\u2019Antuono said he would agree to lead such a raid only<b> </b>if he were ordered to, according to two of the people. The two other people said D\u2019Antuono did not refuse to do the search but argued that it should be a consensual search agreed to by Trump\u2019s legal team. He repeatedly urged that the FBI instead seek to persuade Corcoran to agree to a consensual search of the property, said all four of<b> </b>the people."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Tempers ran high in the meeting. Bratt raised his voice at times and stressed to the FBI agents that the time for trusting Trump and his lawyer was over, some of the people said. He reminded them of the new footage suggesting Trump or his aides could be concealing classified records at the Florida club."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "D\u2019Antuono and some fellow FBI officials complained how bad it would look for agents with \u201cFBI\u201d emblazoned on their jackets<b> </b>to invade a former president\u2019s home, according to some people with knowledge of the meeting. The FBI\u2019s top counterintelligence official, Alan E. Kohler Jr., then asked the senior FBI agents to consider how bad it would look if the FBI chose not to act and<b> </b>government secrets were<b> </b>hidden at Mar-a-Lago, the<b> </b>people said."
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.washingtonpost.com/national-security/2022/10/04/trump-classified-documents-meadows/",
+      "content": "In Trump White House, classified records routinely mishandled aides say"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "D\u2019Antuono also questioned why the search would target presidential records as well as classified records, particularly because the May subpoena had only sought the latter."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cWe are not the presidential records police,\u201d D\u2019Antuono said, according to people familiar with the exchange."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Later, D\u2019Antuono asked if Trump was officially the subject of the criminal investigation."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "\u201cWhat does that matter?\u201d Bratt replied, according to the<b> </b>people. Bratt said the most important fact was that highly sensitive government records probably remained at Mar-a-Lago and could be destroyed or spirited away if the FBI did not recover them soon."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "FBI agents on the case worried the prosecutors were being overly aggressive. They found it worrisome, too, that Bratt did not seem to think it mattered whether Trump was the official subject of the probe. They feared any of these features might not stand up to scrutiny if an inspector general or congressional committee chose to retrace the investigators\u2019 steps, according to the people."
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/UD6Z37QG5AI63AFWIPZL7TDGMI_size-normalized.jpg",
+      "imageWidth": 6038,
+      "imageHeight": 4025,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Evan Corcoran, a lawyer for Trump, outside a D.C. courthouse after jury selection began for Stephen K. Bannon\u2019s trial, on July 18, 2022. (Amanda Andrade-Rhoades for The Washington Post)",
+      "blurb": "Evan Corcoran, a lawyer for Trump, outside a D.C. courthouse after jury selection began for Stephen K. Bannon\u2019s trial, on July 18, 2022."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Jason Jones, the FBI\u2019s general counsel who is<b> </b>considered a confidant of FBI Director Christopher A.<b> </b>Wray, agreed the team had sufficient probable cause to justify a search<b> </b>warrant. D\u2019Antuono agreed, too, but said they should still try to persuade Corcoran to let them search without a warrant,<b> </b>the people said."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The disagreement over seeking Corcoran\u2019s consent centered partly on how each side viewed Trump\u2019s lawyer. The prosecutors \u2014 as well as some officials at FBI headquarters \u2014 were highly suspicious of him and feared that appealing to Corcoran risked that word would spread through Trump\u2019s circle, giving the former president or his associates time to hide or destroy evidence, according to people familiar with the internal debate."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Some FBI agents, on the other hand, had more trust in Corcoran \u2014 a<b> </b>former federal prosecutor who had recently returned to practicing law and represented Stephen K. Bannon, a former Trump adviser, against criminal contempt charges. The agents drafted a possible script they could use to pitch to Trump\u2019s lawyer<b> </b>on a consensual search. D\u2019Antuono\u2019s team said they could keep surveillance on Mar-a-Lago and<b> </b>act quickly if they saw any scramble to move evidence. The prosecutors refused, saying it was too risky, the people said."
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.washingtonpost.com/national-security/2022/12/18/trump-life-after-presidency/",
+      "content": "How Trump jettisoned restraints at Mar-a-Lago after leaving the White House"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "In the meeting, some attendees viewed Toscas, a Justice Department veteran who had worked with the<b> </b>FBI through the Crossfire Hurricane and Clinton email investigations, as a prosecutor whose words would carry special weight with the FBI agents. He told D\u2019Antuono he had shared the agents\u2019 skepticism, but was now \u201cswayed\u201d that the evidence was too strong not to get a search warrant, according to people familiar with the discussion."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cGeorge, that\u2019s great, but you haven\u2019t swayed me,\u201d D\u2019Antuono replied."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Jones,<b> </b>the FBI\u2019s general counsel, said he planned to recommend to Deputy FBI Director Paul<b> </b>Abbate<b> </b>that the FBI seek a warrant for<b> </b>the search, the<b> </b>people said. D\u2019Antuono replied that he would recommend that they not."
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4V42CBQYPYI63OMYWKVWR5MENA.jpg",
+      "imageWidth": 2000,
+      "imageHeight": 1333,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Armed Secret Service agents stand outside an entrance to Trump's Mar-a-Lago estate on Aug. 8, 2022. (Terry Renna/AP)",
+      "blurb": "Armed Secret Service agents stand outside an entrance to Trump's Mar-a-Lago estate on Aug. 8, 2022."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "The raid",
+      "subhead_level": 3
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "But prosecutors appeared unwilling to wait and debate further, according to people familiar with the discussions. Olsen, the assistant attorney general for national security, appealed to senior officials in FBI headquarters to push their agents to conduct the raid. Abbate handed down his instructions a day later: The Washington<b> </b>field office led by D\u2019Antuono would execute the surprise search."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "On Aug. 5, FBI agents quietly sought and received approval from a federal magistrate judge in Florida to search Mar-a-Lago for documents. The search was planned for the following Monday, Aug. 8."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Prosecutors remained somewhat on guard until the day of the raid, as they continued to hear rumblings of dissent from the Washington field office, according to three people familiar with the case. Some of the people said prosecutors heard some FBI agents wanted to call Corcoran once they arrived at Mar-a-Lago and wait for him to fly down to join them in the search; prosecutors said that would not work."
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.washingtonpost.com/politics/2022/04/29/trump-investigations-litigation/",
+      "content": "From New York to Georgia: The latest on investigations involving Donald Trump"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Just days before the scheduled search, prosecutors got a request from FBI headquarters<b> </b>to put off the search for another day, according to people familiar with the matter. The FBI<b> </b>told prosecutors the bureau planned to announce big news that week \u2014 charges against an Iranian for plotting to assassinate former national security adviser John Bolton \u2014 and did not want the impact of that case to be overshadowed or complicated by<b> </b>media coverage of the Mar-a-Lago raid. It is common<b> </b>for the Justice Department and FBI to fine-tune the timing of certain actions or<b> </b>announcements to avoid one law enforcement priority competing with another. But prosecutors, fatigued by months of fighting with agents in the FBI\u2019s field office, wanted no delay, no matter the reason, the people said. The search would proceed as scheduled."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "FBI agents found ways to make the search less confrontational than it otherwise could have been, according to people familiar with the investigation: The search would take place when Trump was in New York and not in Palm Beach; the Secret Service would receive a heads-up a few hours before FBI agents arrived to avoid any law enforcement conflict; and agents would wear white polo shirts and khakis to cut a lower profile than if they wore their traditional blue jackets<b> </b>with FBI insignia."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "On Aug. 8, FBI agents scoured Trump\u2019s residence, office and storage areas, and left with more than 100 classified records, 18 of them top-secret. Prosecutors claimed vindication in the trove of bright color-coded folders that agents recovered."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Some documents were <a href=\"https://www.washingtonpost.com/national-security/2022/09/06/trump-nuclear-documents/\">classified at such a restricted level</a> that seasoned national security investigators lacked the proper authorization to look at them, leading to<b> </b>consternation on the prosecution team. They involved highly restricted \u201cspecial access programs\u201d that require Cabinet-level sign-off even for officials with top-secret clearances to review. The documents described Iran\u2019s missile program and records related to highly sensitive intelligence aimed at China, The Washington Post <a href=\"https://www.washingtonpost.com/national-security/2022/10/21/trump-documents-mar-a-lago-iran-china/\">previously has reported</a>."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "In late fall, Bratt and his team began sketching out the evidence that potentially pointed to Trump\u2019s obstruction, with an expectation that the prosecutors together would soon make a recommendation on whether to charge<b> </b>the former president, according to people familiar with the case.<b> </b>Bratt\u2019s team began to button up witness accounts and stress-test factual evidence against the law."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Meanwhile, in late October, amid news reports that Trump was looking to soon announce another bid for the presidency, Garland told aides he was seriously contemplating appointing a special counsel to take over the investigation, as well as a separate criminal probe looking at Trump and his allies\u2019 effort to overturn the results of the 2020 election<b> </b>\u2014 a rare procedure designed to ensure public faith in fair investigations."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "On Nov. 15, Trump took the stage in the Mar-a-Lago ballroom \u2014 at the same property where FBI agents had searched three months earlier \u2014 and announced that he would run for president again in 2024. The Justice Department\u2019s national security division leaders who had pushed the FBI to be more aggressive pursuing Trump did not finish the investigation or reach a charging decision before a new chief took over."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "On Nov. 18, Garland sent word to the prosecutors working on both of the probes to come to Justice Department headquarters for a meeting that morning. He wanted to privately inform them that he planned later that day to appoint a special counsel. Garland told them they could choose their next steps, but he hoped they would join the special counsel\u2019s team for the good of the two investigations, people familiar with the conversation said."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Just after 2 p.m., Garland <a href=\"https://www.washingtonpost.com/national-security/2022/11/18/justice-trump-garland-special-counsel/\">stood before cameras</a> to announce he had appointed Smith to take over the investigations. Flanked by three of his top deputies, Garland said the Justice Department had the integrity to continue the investigations fairly but that turning them over to an outside prosecutor was \u201cthe right thing to do.\u201d"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cThe extraordinary circumstances presented here demand it,\u201d he added."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i>Spencer S. Hsu contributed to this report.</i>"
+    },
+    {
+      "type": "link",
+      "subtype": "comments"
+    },
+    {
+      "type": "author_info",
+      "id": "leonnigcd",
+      "name": "Carol D. Leonnig",
+      "bio": "Carol Leonnig is an investigative reporter at The Washington Post, where she has worked since 2000. She won the 2015 Pulitzer Prize for her work on security failures and misconduct inside the Secret Service.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/a3ddc2af-cb43-4e89-ba6e-1547eebb1206.png",
+      "role": "Staff writer"
+    },
+    {
+      "type": "author_info",
+      "id": "barrettd",
+      "name": "Devlin Barrett",
+      "bio": "Devlin Barrett writes about the FBI and the Justice Department, and is the author of \"October Surprise: How the FBI Tried to Save Itself and Crashed an Election.\" He was part of reporting teams that won Pulitzer Prizes in 2018 and 2022. In 2017 he was a co-finalist for the Pulitzer for Feature Writing and the Pulitzer for International Reporting.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/b32833df-c432-4c22-a0dc-584233a43044.png",
+      "role": "Staff writer"
+    },
+    {
+      "type": "author_info",
+      "id": "steinp",
+      "name": "Perry Stein",
+      "bio": "Perry Stein covers the Justice Department and FBI for The Washington Post. She previously covered D.C. education. Before she joined The Post in 2015, she was a staff writer for Washington City Paper and wrote for the Miami Herald.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/4bce12dd-61bc-4eec-83dd-fe464998df7c.png",
+      "role": "Staff writer"
+    },
+    {
+      "type": "author_info",
+      "id": "davisac",
+      "name": "Aaron C. Davis",
+      "bio": "Aaron Davis is an investigative reporter who has covered local, state and federal government, as well as the aviation industry and law enforcement. Davis shared in winning the Pulitzer Prize for Investigative Reporting in 2018.",
+      "image": "https://s3.amazonaws.com/arc-authors/test/c914fa8c-241a-4376-8365-440d159c0f32.png",
+      "role": "Reporter"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "blogname": "National Security",
+  "taxonomy": {
+    "topics": [
+      {
+        "_id": "washpost-11000000-politics-12w1riawfr",
+        "name": "iptc-media/politics",
+        "score": 0,
+        "uid": "a7uxb"
+      },
+      {
+        "_id": "washpost-04000000-economybusine-u82emefcqq",
+        "name": "iptc-media/economy_business_and_finance",
+        "score": 0,
+        "uid": "arug0"
+      },
+      {
+        "_id": "washpost-20000271-financialandb-hsnlus1kfx",
+        "name": "iptc-media/economy_business_and_finance/economic_sector/financial_and_business_service",
+        "score": 0,
+        "uid": "a7x92"
+      },
+      {
+        "_id": "washpost-20000111-trialcourt-f9ujf1elxc",
+        "name": "iptc-media/crime_law_and_justice/judiciary/court/trial_(court)",
+        "score": 0,
+        "uid": "apgga"
+      },
+      {
+        "_id": "washpost-20000113-defendant-df04qob6rb",
+        "name": "iptc-media/crime_law_and_justice/judiciary/court/trial_(court)/defendant",
+        "score": 0,
+        "uid": "a3k0m"
+      },
+      {
+        "_id": "washpost-20000604-nationalsecuri-eanzcye58i",
+        "name": "iptc-media/politics/government/defence/security_measures_(defence)/national_security",
+        "score": 0,
+        "uid": "acu1m"
+      },
+      {
+        "_id": "washpost-20000598-defence-t5xuxv7nyb",
+        "name": "iptc-media/politics/government/defence",
+        "score": 0,
+        "uid": "azq8t"
+      },
+      {
+        "_id": "washpost-20000110-judge-pgn9ua7qgy",
+        "name": "iptc-media/crime_law_and_justice/judiciary/court/judge",
+        "score": 0,
+        "uid": "a7a97"
+      },
+      {
+        "_id": "washpost-20000121-law-7e9c8pd1ci",
+        "name": "iptc-media/crime_law_and_justice/law",
+        "score": 0,
+        "uid": "abxfo"
+      },
+      {
+        "_id": "washpost-20000118-prosecution-cmhsom6ihm",
+        "name": "iptc-media/crime_law_and_justice/judiciary/prosecution",
+        "score": 0,
+        "uid": "ajkpe"
+      },
+      {
+        "_id": "washpost-20000282-legalservice-uzt8kfxcei",
+        "name": "iptc-media/economy_business_and_finance/economic_sector/financial_and_business_service/legal_service",
+        "score": 0,
+        "uid": "aalab"
+      },
+      {
+        "_id": "washpost-20000106-judiciary-tf4svezcja",
+        "name": "iptc-media/crime_law_and_justice/judiciary",
+        "score": 0,
+        "uid": "aufsu"
+      },
+      {
+        "_id": "washpost-20000082-crime-slznh7dtmb",
+        "name": "iptc-media/crime_law_and_justice/crime",
+        "score": 0,
+        "uid": "ajqy8"
+      },
+      {
+        "_id": "washpost-20000603-securitymeasur-173vzew2t7",
+        "name": "iptc-media/politics/government/defence/security_measures_(defence)",
+        "score": 0,
+        "uid": "aqwsf"
+      },
+      {
+        "_id": "washpost-20000133-police-d16d6jdbai",
+        "name": "iptc-media/crime_law_and_justice/law_enforcement/police",
+        "score": 0,
+        "uid": "afihj"
+      },
+      {
+        "_id": "washpost-20000605-espionageandi-vwc7v31jvn",
+        "name": "iptc-media/politics/government/espionage_and_intelligence",
+        "score": 0,
+        "uid": "adzqt"
+      },
+      {
+        "_id": "washpost-20000131-investigation-b30y41265a",
+        "name": "iptc-media/crime_law_and_justice/law_enforcement/investigation_(criminal)",
+        "score": 0,
+        "uid": "aivd3"
+      },
+      {
+        "_id": "washpost-20000593-government-uoni0z84vd",
+        "name": "iptc-media/politics/government",
+        "score": 0,
+        "uid": "aewws"
+      },
+      {
+        "_id": "washpost-02000000-crimelawand-zrecudqiv4",
+        "name": "iptc-media/crime_law_and_justice",
+        "score": 0,
+        "uid": "aodep"
+      },
+      {
+        "_id": "washpost-20000129-lawenforcement-a1q1oqphxm",
+        "name": "iptc-media/crime_law_and_justice/law_enforcement",
+        "score": 0,
+        "uid": "azyhj"
+      },
+      {
+        "_id": "washpost-20000107-court-j3xgch5iy2",
+        "name": "iptc-media/crime_law_and_justice/judiciary/court",
+        "score": 0,
+        "uid": "agfip"
+      },
+      {
+        "_id": "washpost-clientlistbe-rcisc",
+        "name": "client-blocklists/Client List: Becton Dickinson KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "rcisc"
+      },
+      {
+        "_id": "washpost-clientlistno-r1zb8",
+        "name": "client-blocklists/CLIENT LIST: Nomura KWs 2021 - EXCLUDES ALL",
+        "score": 0,
+        "uid": "r1zb8"
+      },
+      {
+        "_id": "washpost-titoskwlist-r5zn0",
+        "name": "client-blocklists/Tito's KW List - EXCLUDES ALL",
+        "score": 0,
+        "uid": "r5zn0"
+      },
+      {
+        "_id": "washpost-clientlistjo-rjqr5",
+        "name": "client-blocklists/Client List: Johnson & Johnson KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rjqr5"
+      },
+      {
+        "_id": "washpost-bedbathbeyo-rnfyo",
+        "name": "client-blocklists/Bed Bath & Beyond KWs - INCLUDE ANY",
+        "score": 0,
+        "uid": "rnfyo"
+      },
+      {
+        "_id": "washpost-clientlistt-r71he",
+        "name": "client-blocklists/Client List: T. Rowe Price KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "r71he"
+      },
+      {
+        "_id": "washpost-googlepgkws-rqlce",
+        "name": "client-blocklists/Google PG KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rqlce"
+      },
+      {
+        "_id": "washpost-clientlistus-rqrfm",
+        "name": "client-blocklists/Client List: USAA KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rqrfm"
+      },
+      {
+        "_id": "washpost-clientlistmi-r63ky",
+        "name": "client-blocklists/Client List: Microsoft KWs 2 - INCLUDES ANY",
+        "score": 0,
+        "uid": "r63ky"
+      },
+      {
+        "_id": "washpost-ptheofferkw-rq0bc",
+        "name": "client-blocklists/P+ The Offer KW List - INCLUDES ANY",
+        "score": 0,
+        "uid": "rq0bc"
+      },
+      {
+        "_id": "washpost-trowepricek-r8kl5",
+        "name": "client-blocklists/T. Rowe Price KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "r8kl5"
+      },
+      {
+        "_id": "washpost-b2asianconten-ruhu4",
+        "name": "advertising/B2_Asian Content_legacyaux_8xg",
+        "score": 0,
+        "uid": "ruhu4"
+      },
+      {
+        "_id": "washpost-hbokwsinclu-r1djc",
+        "name": "client-blocklists/HBO KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "r1djc"
+      },
+      {
+        "_id": "washpost-fordlincolnkw-rj98c",
+        "name": "client-blocklists/Ford/Lincoln KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rj98c"
+      },
+      {
+        "_id": "washpost-clientlistdi-r2ztd",
+        "name": "client-blocklists/Client List: Discover Card KWs \u2013 INCLUDES ANY",
+        "score": 0,
+        "uid": "r2ztd"
+      },
+      {
+        "_id": "washpost-europeanconten-rp6mz",
+        "name": "advertising/European Content",
+        "score": 0,
+        "uid": "rp6mz"
+      },
+      {
+        "_id": "washpost-kyndrylkwlist-ralq3",
+        "name": "client-blocklists/Kyndryl KW List - INCLUDES ANY",
+        "score": 0,
+        "uid": "ralq3"
+      },
+      {
+        "_id": "washpost-louisvuittonk-rh5hz",
+        "name": "client-blocklists/Louis Vuitton KW List - INCLUDES ANY",
+        "score": 0,
+        "uid": "rh5hz"
+      },
+      {
+        "_id": "washpost-clientlistna-rsvk8",
+        "name": "client-blocklists/Client List: Navy Federal Credit Union NFCU KWs 2 - INCLUDES ANY - 12.23.20",
+        "score": 0,
+        "uid": "rsvk8"
+      },
+      {
+        "_id": "washpost-contentaboute-rpojf",
+        "name": "advertising/Content About Elections - TEST",
+        "score": 0,
+        "uid": "rpojf"
+      },
+      {
+        "_id": "washpost-clientlistdi-r0yv2",
+        "name": "client-blocklists/Client List: Diageo - Johnnie Walker KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "r0yv2"
+      },
+      {
+        "_id": "washpost-clientlistm-rvt6h",
+        "name": "client-blocklists/ Client List: Mercedes EQS KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rvt6h"
+      },
+      {
+        "_id": "washpost-unitedairlines-rxvfu",
+        "name": "client-blocklists/United Airlines KW List - INCLUDES ANY",
+        "score": 0,
+        "uid": "rxvfu"
+      },
+      {
+        "_id": "washpost-flexformkwlis-rcvrb",
+        "name": "client-blocklists/FlexForm KW List - INCLUDES ANY",
+        "score": 0,
+        "uid": "rcvrb"
+      },
+      {
+        "_id": "washpost-clientlistap-rpkxx",
+        "name": "client-blocklists/Client List: Apple Marcom KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rpkxx"
+      },
+      {
+        "_id": "washpost-boeingkws2021-rohf5",
+        "name": "client-blocklists/Boeing KWs 2021- INCLUDE ANY",
+        "score": 0,
+        "uid": "rohf5"
+      },
+      {
+        "_id": "washpost-clientlistmo-reest",
+        "name": "client-blocklists/Client List: Morgan Stanley KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "reest"
+      },
+      {
+        "_id": "washpost-clientlistor-r8paa",
+        "name": "client-blocklists/Client List: Organon KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "r8paa"
+      },
+      {
+        "_id": "washpost-clientlistve-rqltv",
+        "name": "client-blocklists/Client List: Verizon KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rqltv"
+      },
+      {
+        "_id": "washpost-clientlistfa-r6ovq",
+        "name": "client-blocklists/Client List: Facebook KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "r6ovq"
+      },
+      {
+        "_id": "washpost-clientlistgo-ru0hj",
+        "name": "client-blocklists/CLIENT LIST: GOLDMAN SACHS SEC KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "ru0hj"
+      },
+      {
+        "_id": "washpost-wapocombined-rk4hi",
+        "name": "client-blocklists/WaPo: Combined Disaster Keyword List - INCLUDES ANY",
+        "score": 0,
+        "uid": "rk4hi"
+      },
+      {
+        "_id": "washpost-phalokwlist-riure",
+        "name": "client-blocklists/P+ Halo KW List - INCLUDES ANY",
+        "score": 0,
+        "uid": "riure"
+      },
+      {
+        "_id": "washpost-hulukwlist-r2x7m",
+        "name": "client-blocklists/Hulu KW List - INCLUDES ANY",
+        "score": 0,
+        "uid": "r2x7m"
+      },
+      {
+        "_id": "washpost-clientlistma-rjls7",
+        "name": "client-blocklists/Client List: Mastercard KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "rjls7"
+      },
+      {
+        "_id": "washpost-clientlistat-rihsc",
+        "name": "client-blocklists/Client List: AT&T KWs 2022 - INCLUDES ANY - NEW",
+        "score": 0,
+        "uid": "rihsc"
+      },
+      {
+        "_id": "washpost-synchronyfinan-rh065",
+        "name": "client-blocklists/Synchrony Financial KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rh065"
+      },
+      {
+        "_id": "washpost-clientlistbe-r4qca",
+        "name": "client-blocklists/Client List: Beto for Texas KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "r4qca"
+      },
+      {
+        "_id": "washpost-lvqueen2022n-rmmp3",
+        "name": "client-blocklists/LV Queen 2022 Neg KW List - INCLUDES ANY",
+        "score": 0,
+        "uid": "rmmp3"
+      },
+      {
+        "_id": "washpost-waponaturald-ren01",
+        "name": "client-blocklists/WaPo: Natural Disaster Keyword List - INCLUDES ANY",
+        "score": 0,
+        "uid": "ren01"
+      },
+      {
+        "_id": "washpost-clientlisthe-rpnzx",
+        "name": "client-blocklists/Client List: Hermes KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rpnzx"
+      },
+      {
+        "_id": "washpost-clientlistpm-r8pmm",
+        "name": "client-blocklists/Client List: PMI KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "r8pmm"
+      },
+      {
+        "_id": "washpost-clientlistsa-rl7yb",
+        "name": "client-blocklists/Client List: SAP 2022 KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "rl7yb"
+      },
+      {
+        "_id": "washpost-clientlistuk-rbxhu",
+        "name": "client-blocklists/Client List: Ukraine-Russia (Apple News) KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rbxhu"
+      },
+      {
+        "_id": "washpost-clientlistas-rw76f",
+        "name": "client-blocklists/Client List: AstraZeneca KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "rw76f"
+      },
+      {
+        "_id": "washpost-clientlistsh-r6iq7",
+        "name": "client-blocklists/Client List: Showtime KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "r6iq7"
+      },
+      {
+        "_id": "washpost-hybridwork-rgdkb",
+        "name": "advertising/Hybrid Work",
+        "score": 0,
+        "uid": "rgdkb"
+      },
+      {
+        "_id": "washpost-clientlistex-rh22v",
+        "name": "client-blocklists/Client List: ExxonMobil KWs - INCLUDES ANY Q4 2022",
+        "score": 0,
+        "uid": "rh22v"
+      },
+      {
+        "_id": "washpost-clientlistap-rhwg4",
+        "name": "client-blocklists/Client List: Apple TV+ KW \u2013 INCLUDES ANY",
+        "score": 0,
+        "uid": "rhwg4"
+      },
+      {
+        "_id": "washpost-clientlistro-r82mu",
+        "name": "client-blocklists/Client List: Ronald McDonald House KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "r82mu"
+      },
+      {
+        "_id": "washpost-clientnegkwl-r35cx",
+        "name": "client-blocklists/Client Neg KW List: Omega KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "r35cx"
+      },
+      {
+        "_id": "washpost-supplychain-rge04",
+        "name": "advertising/Supply Chain",
+        "score": 0,
+        "uid": "rge04"
+      },
+      {
+        "_id": "washpost-worldnational-r4t03",
+        "name": "advertising/World National Local Content",
+        "score": 0,
+        "uid": "r4t03"
+      },
+      {
+        "_id": "washpost-cultivatelabs-rpz02",
+        "name": "advertising/Cultivate Labs Q4 2022 Segment - Forecasting",
+        "score": 0,
+        "uid": "rpz02"
+      },
+      {
+        "_id": "washpost-safewaykwlist-rl43b",
+        "name": "client-blocklists/Safeway KW List Commanders Q4 2022 - EXCLUDES ALL",
+        "score": 0,
+        "uid": "rl43b"
+      },
+      {
+        "_id": "washpost-pmikws2021-rt96h",
+        "name": "client-blocklists/PMI KWs 2021 - EXCLUDE ALL",
+        "score": 0,
+        "uid": "rt96h"
+      },
+      {
+        "_id": "washpost-marcusgoldman-r6jbe",
+        "name": "client-blocklists/Marcus Goldman Sachs Neg KW List - INCLUDES ANY",
+        "score": 0,
+        "uid": "r6jbe"
+      },
+      {
+        "_id": "washpost-b2congressiona-r7mzh",
+        "name": "advertising/B2_Congressional Elections_legacyaux_r48",
+        "score": 0,
+        "uid": "r7mzh"
+      },
+      {
+        "_id": "washpost-geicokwsinc-ryx8n",
+        "name": "client-blocklists/GEICO KWs - INCLUDES ANY_4.26.21",
+        "score": 0,
+        "uid": "ryx8n"
+      },
+      {
+        "_id": "washpost-clientlistmo-rkgjf",
+        "name": "client-blocklists/Client List: Morgan Stanley KWs - INCLUDES ANY Q4 2022",
+        "score": 0,
+        "uid": "rkgjf"
+      },
+      {
+        "_id": "washpost-uvakwlistq4-raw34",
+        "name": "client-blocklists/UVA KW List Q4 2022 - EXCLUDES ALL",
+        "score": 0,
+        "uid": "raw34"
+      },
+      {
+        "_id": "washpost-clientlistel-r6g4r",
+        "name": "client-blocklists/Client List: Eli Lily KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "r6g4r"
+      },
+      {
+        "_id": "washpost-b2cultureand-royfk",
+        "name": "advertising/B2_Culture and Tradition_legacyaux_kfx",
+        "score": 0,
+        "uid": "royfk"
+      },
+      {
+        "_id": "washpost-clientlistib-r8euu",
+        "name": "client-blocklists/Client List: IBM KWs ALTERNATE Watson - EXCLUDES ALL",
+        "score": 0,
+        "uid": "r8euu"
+      },
+      {
+        "_id": "washpost-b2cybersecuri-rxd3z",
+        "name": "advertising/B2_Cyber Security & Intelligence Community_legacyaux_E8X",
+        "score": 0,
+        "uid": "rxd3z"
+      },
+      {
+        "_id": "washpost-b2citikwsleg-rf299",
+        "name": "client-blocklists/Client List: Citibank KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rf299"
+      },
+      {
+        "_id": "washpost-amazonkws2022-rvqcm",
+        "name": "client-blocklists/Amazon KWs 2022 - INCLUDES ANY",
+        "score": 0,
+        "uid": "rvqcm"
+      },
+      {
+        "_id": "washpost-clientlistib-r0tke",
+        "name": "client-blocklists/Client List: IBM KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "r0tke"
+      },
+      {
+        "_id": "washpost-citibankkws20-rzhau",
+        "name": "client-blocklists/Citibank KWs 2021 - INCLUDES ANY",
+        "score": 0,
+        "uid": "rzhau"
+      },
+      {
+        "_id": "washpost-clientlistpu-r3vky",
+        "name": "client-blocklists/Client List: Purina KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "r3vky"
+      },
+      {
+        "_id": "washpost-sapkwlisti-rzd33",
+        "name": "client-blocklists/SAP KW List - INCLUDES ANY",
+        "score": 0,
+        "uid": "rzd33"
+      },
+      {
+        "_id": "washpost-clientlistna-rxa9g",
+        "name": "client-blocklists/Client List: Navy Federal Credit Union NFCU KWs Q4 2022 - INCLUDES ANY",
+        "score": 0,
+        "uid": "rxa9g"
+      },
+      {
+        "_id": "washpost-fortune500con-ra5t0",
+        "name": "advertising/Fortune 500 Content",
+        "score": 0,
+        "uid": "ra5t0"
+      },
+      {
+        "_id": "washpost-clientlistfi-rtdlb",
+        "name": "client-blocklists/Client List: Fidelity Investments KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rtdlb"
+      },
+      {
+        "_id": "washpost-clientlisttu-rjuyh",
+        "name": "client-blocklists/Client List: Turbo Tax KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "rjuyh"
+      },
+      {
+        "_id": "washpost-clientlistgm-rzfmu",
+        "name": "client-blocklists/Client List: GM Energy KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rzfmu"
+      },
+      {
+        "_id": "washpost-cmekwlist202-r35ap",
+        "name": "client-blocklists/CME KW List 2022 - EXCLUDES ALL ",
+        "score": 0,
+        "uid": "r35ap"
+      },
+      {
+        "_id": "washpost-b2government-r23bw",
+        "name": "advertising/B2_Government & Policy_legacyaux_mza",
+        "score": 0,
+        "uid": "r23bw"
+      },
+      {
+        "_id": "washpost-clientlistey-rloxr",
+        "name": "client-blocklists/Client List: EY KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rloxr"
+      },
+      {
+        "_id": "washpost-b2healthandb-rlexu",
+        "name": "advertising/B2_Health and Beauty_legacyaux_3fv",
+        "score": 0,
+        "uid": "rlexu"
+      },
+      {
+        "_id": "washpost-clientlisthe-r3hdp",
+        "name": "client-blocklists/Client List: Hermes KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "r3hdp"
+      },
+      {
+        "_id": "washpost-clientlisthe-rynal",
+        "name": "client-blocklists/Client List: Hermes (Alexandra) KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rynal"
+      },
+      {
+        "_id": "washpost-bankofamerica-reerp",
+        "name": "client-blocklists/Bank of America KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "reerp"
+      },
+      {
+        "_id": "washpost-marriottkwlis-rx4px",
+        "name": "client-blocklists/Marriott KW List Q4 2022 - INCLUDES ANY",
+        "score": 0,
+        "uid": "rx4px"
+      },
+      {
+        "_id": "washpost-clientkeywords-rbbho",
+        "name": "advertising/Client Keywords: On Running",
+        "score": 0,
+        "uid": "rbbho"
+      },
+      {
+        "_id": "washpost-uvakwlistq4-rayu0",
+        "name": "client-blocklists/UVA KW List Q4 2022 - EXCLUDES ALL",
+        "score": 0,
+        "uid": "rayu0"
+      },
+      {
+        "_id": "washpost-dcdeptofheal-r7d9r",
+        "name": "client-blocklists/DC Dept of Health Q1 2023 KW List - EXCLUDES ALL",
+        "score": 0,
+        "uid": "r7d9r"
+      },
+      {
+        "_id": "washpost-bpkwsinclud-rsmxd",
+        "name": "client-blocklists/BP KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rsmxd"
+      },
+      {
+        "_id": "washpost-nationalinstru-rt5dp",
+        "name": "client-blocklists/National Instruments KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rt5dp"
+      },
+      {
+        "_id": "washpost-clientlistin-r7tmu",
+        "name": "client-blocklists/Client List: Intel KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "r7tmu"
+      },
+      {
+        "_id": "washpost-clientlistat-rva7x",
+        "name": "client-blocklists/Client List: AT&T Digital Divide  - INCLUDES ANY",
+        "score": 0,
+        "uid": "rva7x"
+      },
+      {
+        "_id": "washpost-samsung2021kw-r4avn",
+        "name": "client-blocklists/Samsung 2021 KWs - INCLUDE ANY",
+        "score": 0,
+        "uid": "r4avn"
+      },
+      {
+        "_id": "washpost-b2politically-rdj51",
+        "name": "advertising/B2_Politically Active - DO NOT REMOVE_legacyaux_lmp",
+        "score": 0,
+        "uid": "rdj51"
+      },
+      {
+        "_id": "washpost-googlepgcompe-r3bxp",
+        "name": "client-blocklists/Google PG Competitor KWs - EXCLUDES ALL ",
+        "score": 0,
+        "uid": "r3bxp"
+      },
+      {
+        "_id": "washpost-b2politicsleg-rabwy",
+        "name": "advertising/B2_Politics_legacyaux_8f3",
+        "score": 0,
+        "uid": "rabwy"
+      },
+      {
+        "_id": "washpost-b2positivenew-r8ehi",
+        "name": "advertising/B2_Positive News_legacyaux_hlt",
+        "score": 0,
+        "uid": "r8ehi"
+      },
+      {
+        "_id": "washpost-b2russiaput-r694n",
+        "name": "advertising/B2_Russia & Putin_legacyaux_F55",
+        "score": 0,
+        "uid": "r694n"
+      },
+      {
+        "_id": "washpost-b2societylega-rotdf",
+        "name": "advertising/B2_Society_legacyaux_0cz",
+        "score": 0,
+        "uid": "rotdf"
+      },
+      {
+        "_id": "washpost-b2summertrave-roh5w",
+        "name": "advertising/B2_Summer Travel_legacyaux_1ot",
+        "score": 0,
+        "uid": "roh5w"
+      },
+      {
+        "_id": "washpost-wapocombined-rfhup",
+        "name": "client-blocklists/WaPo: Combined Disaster Keyword List - INCLUDES ANY Q4 2022",
+        "score": 0,
+        "uid": "rfhup"
+      },
+      {
+        "_id": "washpost-b2transportati-ryiv4",
+        "name": "advertising/B2_Transportation, Logistics, and Industry_legacyaux_kre",
+        "score": 0,
+        "uid": "ryiv4"
+      },
+      {
+        "_id": "washpost-clientlistge-rsjjy",
+        "name": "client-blocklists/Client List: GEICO KWs",
+        "score": 0,
+        "uid": "rsjjy"
+      },
+      {
+        "_id": "washpost-clientlistkp-rhfzk",
+        "name": "client-blocklists/Client List: KPMG KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "rhfzk"
+      },
+      {
+        "_id": "washpost-clientlistno-r4t4y",
+        "name": "client-blocklists/Client List: Novo Nordisk KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "r4t4y"
+      },
+      {
+        "_id": "washpost-clientlistsi-r35lh",
+        "name": "client-blocklists/Client List: Siemens KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "r35lh"
+      },
+      {
+        "_id": "washpost-clientlistci-r2x21",
+        "name": "client-blocklists/Client List: Cisco KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "r2x21"
+      },
+      {
+        "_id": "washpost-clientlistat-rfpua",
+        "name": "client-blocklists/Client List: AT&T ALT KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rfpua"
+      },
+      {
+        "_id": "washpost-mercedeskws-rj2ns",
+        "name": "client-blocklists/Mercedes KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rj2ns"
+      },
+      {
+        "_id": "washpost-fxexcludesall-rfz4c",
+        "name": "client-blocklists/FX Excludes All Disney",
+        "score": 0,
+        "uid": "rfz4c"
+      },
+      {
+        "_id": "washpost-clientlistpm-rd7vl",
+        "name": "client-blocklists/Client List: PMI KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "rd7vl"
+      },
+      {
+        "_id": "washpost-clientlistbo-rq574",
+        "name": "client-blocklists/Client List: Boeing KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "rq574"
+      },
+      {
+        "_id": "washpost-clientlistin-rj67t",
+        "name": "client-blocklists/Client List: Inpixon KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rj67t"
+      },
+      {
+        "_id": "washpost-clientlistae-rd7v3",
+        "name": "client-blocklists/Client List: Aetna KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "rd7v3"
+      },
+      {
+        "_id": "washpost-philipmorris-rgepe",
+        "name": "client-blocklists/Philip Morris KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "rgepe"
+      },
+      {
+        "_id": "washpost-clientlistgo-r2qxu",
+        "name": "client-blocklists/Client List: Google KWs - INCLUDES ALL",
+        "score": 0,
+        "uid": "r2qxu"
+      },
+      {
+        "_id": "washpost-dupixentnegkw-rk7m0",
+        "name": "client-blocklists/Dupixent neg kws - EXCLUDES ALL",
+        "score": 0,
+        "uid": "rk7m0"
+      },
+      {
+        "_id": "washpost-capitalonekws-rh5xk",
+        "name": "client-blocklists/Capital One KWs 2 - INCLUDES ANY - 1.4.21",
+        "score": 0,
+        "uid": "rh5xk"
+      },
+      {
+        "_id": "washpost-bankofamerica-rtv19",
+        "name": "client-blocklists/Bank of America Merrill Lynch KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rtv19"
+      },
+      {
+        "_id": "washpost-cmekwsexclu-r1fne",
+        "name": "client-blocklists/CME KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "r1fne"
+      },
+      {
+        "_id": "washpost-cmekwlistq1-rayex",
+        "name": "client-blocklists/CME KW List Q1 2023 - EXCLUDES ALL ",
+        "score": 0,
+        "uid": "rayex"
+      },
+      {
+        "_id": "washpost-chasekwsexc-ratb5",
+        "name": "client-blocklists/Chase KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "ratb5"
+      },
+      {
+        "_id": "washpost-clientlistof-r5hej",
+        "name": "client-blocklists/Client List: Office Depot KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "r5hej"
+      },
+      {
+        "_id": "washpost-clientlistet-rhll0",
+        "name": "client-blocklists/Client List: ETrade KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "rhll0"
+      },
+      {
+        "_id": "washpost-boeingkwlist-rd18m",
+        "name": "client-blocklists/Boeing KW List Q4 2022 - INCLUDES ANY",
+        "score": 0,
+        "uid": "rd18m"
+      },
+      {
+        "_id": "washpost-clientlistjp-rnfuc",
+        "name": "client-blocklists/Client List: JPMC Home Lending Military KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "rnfuc"
+      },
+      {
+        "_id": "washpost-clientlisted-r2hzw",
+        "name": "client-blocklists/Client List: Edward Jones KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "r2hzw"
+      },
+      {
+        "_id": "washpost-clientlistba-r8x1i",
+        "name": "client-blocklists/Client List: BASF KWs - INCLUDES ANY",
+        "score": 0,
+        "uid": "r8x1i"
+      },
+      {
+        "_id": "washpost-standardbrand-rg5cq",
+        "name": "client-blocklists/Standard Brand Safety [tagged = safe]",
+        "score": 0,
+        "uid": "rg5cq"
+      },
+      {
+        "_id": "washpost-clientlistgo-rx8m9",
+        "name": "client-blocklists/Client List: Google Lay Offs KWs - EXCLUDES ALL",
+        "score": 0,
+        "uid": "rx8m9"
+      },
+      {
+        "_id": "washpost-va529q12023k-r4vlh",
+        "name": "advertising/VA529 Q1 2023 KWs",
+        "score": 0,
+        "uid": "r4vlh"
+      },
+      {
+        "_id": "washpost-csuiteexecuti-rlo0w",
+        "name": "advertising/C-Suite Executives",
+        "score": 0,
+        "uid": "rlo0w"
+      },
+      {
+        "_id": "washpost-zegnakwlistq-rbtz1",
+        "name": "client-blocklists/Zegna KW List Q1 2023 - INCLUDES ANY",
+        "score": 0,
+        "uid": "rbtz1"
+      },
+      {
+        "_id": "washpost-clientlistgo-rwlm1",
+        "name": "client-blocklists/Client List: Google KWs Q1 2023 - INCLUDES ANY",
+        "score": 0,
+        "uid": "rwlm1"
+      },
+      {
+        "_id": "washpost-ibmkwlistq1-ridxr",
+        "name": "client-blocklists/IBM KW List Q1 2023 - EXCLUDES ALL",
+        "score": 0,
+        "uid": "ridxr"
+      }
+    ],
+    "auxiliaries": [
+      {
+        "_id": "washpost-11000000-politics-12w1riawfr",
+        "name": "iptc-media/politics",
+        "uid": "a7uxb"
+      },
+      {
+        "_id": "washpost-04000000-economybusine-u82emefcqq",
+        "name": "iptc-media/economy_business_and_finance",
+        "uid": "arug0"
+      },
+      {
+        "_id": "washpost-20000271-financialandb-hsnlus1kfx",
+        "name": "iptc-media/economy_business_and_finance/economic_sector/financial_and_business_service",
+        "uid": "a7x92"
+      },
+      {
+        "_id": "washpost-20000111-trialcourt-f9ujf1elxc",
+        "name": "iptc-media/crime_law_and_justice/judiciary/court/trial_(court)",
+        "uid": "apgga"
+      },
+      {
+        "_id": "washpost-20000113-defendant-df04qob6rb",
+        "name": "iptc-media/crime_law_and_justice/judiciary/court/trial_(court)/defendant",
+        "uid": "a3k0m"
+      },
+      {
+        "_id": "washpost-20000604-nationalsecuri-eanzcye58i",
+        "name": "iptc-media/politics/government/defence/security_measures_(defence)/national_security",
+        "uid": "acu1m"
+      },
+      {
+        "_id": "washpost-20000598-defence-t5xuxv7nyb",
+        "name": "iptc-media/politics/government/defence",
+        "uid": "azq8t"
+      },
+      {
+        "_id": "washpost-20000110-judge-pgn9ua7qgy",
+        "name": "iptc-media/crime_law_and_justice/judiciary/court/judge",
+        "uid": "a7a97"
+      },
+      {
+        "_id": "washpost-20000121-law-7e9c8pd1ci",
+        "name": "iptc-media/crime_law_and_justice/law",
+        "uid": "abxfo"
+      },
+      {
+        "_id": "washpost-20000118-prosecution-cmhsom6ihm",
+        "name": "iptc-media/crime_law_and_justice/judiciary/prosecution",
+        "uid": "ajkpe"
+      },
+      {
+        "_id": "washpost-20000282-legalservice-uzt8kfxcei",
+        "name": "iptc-media/economy_business_and_finance/economic_sector/financial_and_business_service/legal_service",
+        "uid": "aalab"
+      },
+      {
+        "_id": "washpost-20000106-judiciary-tf4svezcja",
+        "name": "iptc-media/crime_law_and_justice/judiciary",
+        "uid": "aufsu"
+      },
+      {
+        "_id": "washpost-20000082-crime-slznh7dtmb",
+        "name": "iptc-media/crime_law_and_justice/crime",
+        "uid": "ajqy8"
+      },
+      {
+        "_id": "washpost-20000603-securitymeasur-173vzew2t7",
+        "name": "iptc-media/politics/government/defence/security_measures_(defence)",
+        "uid": "aqwsf"
+      },
+      {
+        "_id": "washpost-20000133-police-d16d6jdbai",
+        "name": "iptc-media/crime_law_and_justice/law_enforcement/police",
+        "uid": "afihj"
+      },
+      {
+        "_id": "washpost-20000605-espionageandi-vwc7v31jvn",
+        "name": "iptc-media/politics/government/espionage_and_intelligence",
+        "uid": "adzqt"
+      },
+      {
+        "_id": "washpost-20000131-investigation-b30y41265a",
+        "name": "iptc-media/crime_law_and_justice/law_enforcement/investigation_(criminal)",
+        "uid": "aivd3"
+      },
+      {
+        "_id": "washpost-20000593-government-uoni0z84vd",
+        "name": "iptc-media/politics/government",
+        "uid": "aewws"
+      },
+      {
+        "_id": "washpost-02000000-crimelawand-zrecudqiv4",
+        "name": "iptc-media/crime_law_and_justice",
+        "uid": "aodep"
+      },
+      {
+        "_id": "washpost-20000129-lawenforcement-a1q1oqphxm",
+        "name": "iptc-media/crime_law_and_justice/law_enforcement",
+        "uid": "azyhj"
+      },
+      {
+        "_id": "washpost-20000107-court-j3xgch5iy2",
+        "name": "iptc-media/crime_law_and_justice/judiciary/court",
+        "uid": "agfip"
+      },
+      {
+        "_id": "washpost-clientlistbe-rcisc",
+        "name": "client-blocklists/Client List: Becton Dickinson KWs - EXCLUDES ALL",
+        "uid": "rcisc"
+      },
+      {
+        "_id": "washpost-clientlistno-r1zb8",
+        "name": "client-blocklists/CLIENT LIST: Nomura KWs 2021 - EXCLUDES ALL",
+        "uid": "r1zb8"
+      },
+      {
+        "_id": "washpost-titoskwlist-r5zn0",
+        "name": "client-blocklists/Tito's KW List - EXCLUDES ALL",
+        "uid": "r5zn0"
+      },
+      {
+        "_id": "washpost-clientlistjo-rjqr5",
+        "name": "client-blocklists/Client List: Johnson & Johnson KWs - INCLUDES ANY",
+        "uid": "rjqr5"
+      },
+      {
+        "_id": "washpost-bedbathbeyo-rnfyo",
+        "name": "client-blocklists/Bed Bath & Beyond KWs - INCLUDE ANY",
+        "uid": "rnfyo"
+      },
+      {
+        "_id": "washpost-clientlistt-r71he",
+        "name": "client-blocklists/Client List: T. Rowe Price KWs - INCLUDES ANY",
+        "uid": "r71he"
+      },
+      {
+        "_id": "washpost-googlepgkws-rqlce",
+        "name": "client-blocklists/Google PG KWs - INCLUDES ANY",
+        "uid": "rqlce"
+      },
+      {
+        "_id": "washpost-clientlistus-rqrfm",
+        "name": "client-blocklists/Client List: USAA KWs - INCLUDES ANY",
+        "uid": "rqrfm"
+      },
+      {
+        "_id": "washpost-clientlistmi-r63ky",
+        "name": "client-blocklists/Client List: Microsoft KWs 2 - INCLUDES ANY",
+        "uid": "r63ky"
+      },
+      {
+        "_id": "washpost-ptheofferkw-rq0bc",
+        "name": "client-blocklists/P+ The Offer KW List - INCLUDES ANY",
+        "uid": "rq0bc"
+      },
+      {
+        "_id": "washpost-trowepricek-r8kl5",
+        "name": "client-blocklists/T. Rowe Price KWs - INCLUDES ANY",
+        "uid": "r8kl5"
+      },
+      {
+        "_id": "washpost-b2asianconten-ruhu4",
+        "name": "advertising/B2_Asian Content_legacyaux_8xg",
+        "uid": "ruhu4"
+      },
+      {
+        "_id": "washpost-hbokwsinclu-r1djc",
+        "name": "client-blocklists/HBO KWs - INCLUDES ANY",
+        "uid": "r1djc"
+      },
+      {
+        "_id": "washpost-fordlincolnkw-rj98c",
+        "name": "client-blocklists/Ford/Lincoln KWs - INCLUDES ANY",
+        "uid": "rj98c"
+      },
+      {
+        "_id": "washpost-clientlistdi-r2ztd",
+        "name": "client-blocklists/Client List: Discover Card KWs \u2013 INCLUDES ANY",
+        "uid": "r2ztd"
+      },
+      {
+        "_id": "washpost-europeanconten-rp6mz",
+        "name": "advertising/European Content",
+        "uid": "rp6mz"
+      },
+      {
+        "_id": "washpost-kyndrylkwlist-ralq3",
+        "name": "client-blocklists/Kyndryl KW List - INCLUDES ANY",
+        "uid": "ralq3"
+      },
+      {
+        "_id": "washpost-louisvuittonk-rh5hz",
+        "name": "client-blocklists/Louis Vuitton KW List - INCLUDES ANY",
+        "uid": "rh5hz"
+      },
+      {
+        "_id": "washpost-clientlistna-rsvk8",
+        "name": "client-blocklists/Client List: Navy Federal Credit Union NFCU KWs 2 - INCLUDES ANY - 12.23.20",
+        "uid": "rsvk8"
+      },
+      {
+        "_id": "washpost-contentaboute-rpojf",
+        "name": "advertising/Content About Elections - TEST",
+        "uid": "rpojf"
+      },
+      {
+        "_id": "washpost-clientlistdi-r0yv2",
+        "name": "client-blocklists/Client List: Diageo - Johnnie Walker KWs - INCLUDES ANY",
+        "uid": "r0yv2"
+      },
+      {
+        "_id": "washpost-clientlistm-rvt6h",
+        "name": "client-blocklists/ Client List: Mercedes EQS KWs - INCLUDES ANY",
+        "uid": "rvt6h"
+      },
+      {
+        "_id": "washpost-unitedairlines-rxvfu",
+        "name": "client-blocklists/United Airlines KW List - INCLUDES ANY",
+        "uid": "rxvfu"
+      },
+      {
+        "_id": "washpost-flexformkwlis-rcvrb",
+        "name": "client-blocklists/FlexForm KW List - INCLUDES ANY",
+        "uid": "rcvrb"
+      },
+      {
+        "_id": "washpost-clientlistap-rpkxx",
+        "name": "client-blocklists/Client List: Apple Marcom KWs - INCLUDES ANY",
+        "uid": "rpkxx"
+      },
+      {
+        "_id": "washpost-boeingkws2021-rohf5",
+        "name": "client-blocklists/Boeing KWs 2021- INCLUDE ANY",
+        "uid": "rohf5"
+      },
+      {
+        "_id": "washpost-clientlistmo-reest",
+        "name": "client-blocklists/Client List: Morgan Stanley KWs - INCLUDES ANY",
+        "uid": "reest"
+      },
+      {
+        "_id": "washpost-clientlistor-r8paa",
+        "name": "client-blocklists/Client List: Organon KWs - INCLUDES ANY",
+        "uid": "r8paa"
+      },
+      {
+        "_id": "washpost-clientlistve-rqltv",
+        "name": "client-blocklists/Client List: Verizon KWs - INCLUDES ANY",
+        "uid": "rqltv"
+      },
+      {
+        "_id": "washpost-clientlistfa-r6ovq",
+        "name": "client-blocklists/Client List: Facebook KWs - INCLUDES ANY",
+        "uid": "r6ovq"
+      },
+      {
+        "_id": "washpost-clientlistgo-ru0hj",
+        "name": "client-blocklists/CLIENT LIST: GOLDMAN SACHS SEC KWs - EXCLUDES ALL",
+        "uid": "ru0hj"
+      },
+      {
+        "_id": "washpost-wapocombined-rk4hi",
+        "name": "client-blocklists/WaPo: Combined Disaster Keyword List - INCLUDES ANY",
+        "uid": "rk4hi"
+      },
+      {
+        "_id": "washpost-phalokwlist-riure",
+        "name": "client-blocklists/P+ Halo KW List - INCLUDES ANY",
+        "uid": "riure"
+      },
+      {
+        "_id": "washpost-hulukwlist-r2x7m",
+        "name": "client-blocklists/Hulu KW List - INCLUDES ANY",
+        "uid": "r2x7m"
+      },
+      {
+        "_id": "washpost-clientlistma-rjls7",
+        "name": "client-blocklists/Client List: Mastercard KWs - EXCLUDES ALL",
+        "uid": "rjls7"
+      },
+      {
+        "_id": "washpost-clientlistat-rihsc",
+        "name": "client-blocklists/Client List: AT&T KWs 2022 - INCLUDES ANY - NEW",
+        "uid": "rihsc"
+      },
+      {
+        "_id": "washpost-synchronyfinan-rh065",
+        "name": "client-blocklists/Synchrony Financial KWs - INCLUDES ANY",
+        "uid": "rh065"
+      },
+      {
+        "_id": "washpost-clientlistbe-r4qca",
+        "name": "client-blocklists/Client List: Beto for Texas KWs - INCLUDES ANY",
+        "uid": "r4qca"
+      },
+      {
+        "_id": "washpost-lvqueen2022n-rmmp3",
+        "name": "client-blocklists/LV Queen 2022 Neg KW List - INCLUDES ANY",
+        "uid": "rmmp3"
+      },
+      {
+        "_id": "washpost-waponaturald-ren01",
+        "name": "client-blocklists/WaPo: Natural Disaster Keyword List - INCLUDES ANY",
+        "uid": "ren01"
+      },
+      {
+        "_id": "washpost-clientlisthe-rpnzx",
+        "name": "client-blocklists/Client List: Hermes KWs - INCLUDES ANY",
+        "uid": "rpnzx"
+      },
+      {
+        "_id": "washpost-clientlistpm-r8pmm",
+        "name": "client-blocklists/Client List: PMI KWs - EXCLUDES ALL",
+        "uid": "r8pmm"
+      },
+      {
+        "_id": "washpost-clientlistsa-rl7yb",
+        "name": "client-blocklists/Client List: SAP 2022 KWs - EXCLUDES ALL",
+        "uid": "rl7yb"
+      },
+      {
+        "_id": "washpost-clientlistuk-rbxhu",
+        "name": "client-blocklists/Client List: Ukraine-Russia (Apple News) KWs - INCLUDES ANY",
+        "uid": "rbxhu"
+      },
+      {
+        "_id": "washpost-clientlistas-rw76f",
+        "name": "client-blocklists/Client List: AstraZeneca KWs - EXCLUDES ALL",
+        "uid": "rw76f"
+      },
+      {
+        "_id": "washpost-clientlistsh-r6iq7",
+        "name": "client-blocklists/Client List: Showtime KWs - EXCLUDES ALL",
+        "uid": "r6iq7"
+      },
+      {
+        "_id": "washpost-hybridwork-rgdkb",
+        "name": "advertising/Hybrid Work",
+        "uid": "rgdkb"
+      },
+      {
+        "_id": "washpost-clientlistex-rh22v",
+        "name": "client-blocklists/Client List: ExxonMobil KWs - INCLUDES ANY Q4 2022",
+        "uid": "rh22v"
+      },
+      {
+        "_id": "washpost-clientlistap-rhwg4",
+        "name": "client-blocklists/Client List: Apple TV+ KW \u2013 INCLUDES ANY",
+        "uid": "rhwg4"
+      },
+      {
+        "_id": "washpost-clientlistro-r82mu",
+        "name": "client-blocklists/Client List: Ronald McDonald House KWs - INCLUDES ANY",
+        "uid": "r82mu"
+      },
+      {
+        "_id": "washpost-clientnegkwl-r35cx",
+        "name": "client-blocklists/Client Neg KW List: Omega KWs - INCLUDES ANY",
+        "uid": "r35cx"
+      },
+      {
+        "_id": "washpost-supplychain-rge04",
+        "name": "advertising/Supply Chain",
+        "uid": "rge04"
+      },
+      {
+        "_id": "washpost-worldnational-r4t03",
+        "name": "advertising/World National Local Content",
+        "uid": "r4t03"
+      },
+      {
+        "_id": "washpost-cultivatelabs-rpz02",
+        "name": "advertising/Cultivate Labs Q4 2022 Segment - Forecasting",
+        "uid": "rpz02"
+      },
+      {
+        "_id": "washpost-safewaykwlist-rl43b",
+        "name": "client-blocklists/Safeway KW List Commanders Q4 2022 - EXCLUDES ALL",
+        "uid": "rl43b"
+      },
+      {
+        "_id": "washpost-pmikws2021-rt96h",
+        "name": "client-blocklists/PMI KWs 2021 - EXCLUDE ALL",
+        "uid": "rt96h"
+      },
+      {
+        "_id": "washpost-marcusgoldman-r6jbe",
+        "name": "client-blocklists/Marcus Goldman Sachs Neg KW List - INCLUDES ANY",
+        "uid": "r6jbe"
+      },
+      {
+        "_id": "washpost-b2congressiona-r7mzh",
+        "name": "advertising/B2_Congressional Elections_legacyaux_r48",
+        "uid": "r7mzh"
+      },
+      {
+        "_id": "washpost-geicokwsinc-ryx8n",
+        "name": "client-blocklists/GEICO KWs - INCLUDES ANY_4.26.21",
+        "uid": "ryx8n"
+      },
+      {
+        "_id": "washpost-clientlistmo-rkgjf",
+        "name": "client-blocklists/Client List: Morgan Stanley KWs - INCLUDES ANY Q4 2022",
+        "uid": "rkgjf"
+      },
+      {
+        "_id": "washpost-uvakwlistq4-raw34",
+        "name": "client-blocklists/UVA KW List Q4 2022 - EXCLUDES ALL",
+        "uid": "raw34"
+      },
+      {
+        "_id": "washpost-clientlistel-r6g4r",
+        "name": "client-blocklists/Client List: Eli Lily KWs - INCLUDES ANY",
+        "uid": "r6g4r"
+      },
+      {
+        "_id": "washpost-b2cultureand-royfk",
+        "name": "advertising/B2_Culture and Tradition_legacyaux_kfx",
+        "uid": "royfk"
+      },
+      {
+        "_id": "washpost-clientlistib-r8euu",
+        "name": "client-blocklists/Client List: IBM KWs ALTERNATE Watson - EXCLUDES ALL",
+        "uid": "r8euu"
+      },
+      {
+        "_id": "washpost-b2cybersecuri-rxd3z",
+        "name": "advertising/B2_Cyber Security & Intelligence Community_legacyaux_E8X",
+        "uid": "rxd3z"
+      },
+      {
+        "_id": "washpost-b2citikwsleg-rf299",
+        "name": "client-blocklists/Client List: Citibank KWs - INCLUDES ANY",
+        "uid": "rf299"
+      },
+      {
+        "_id": "washpost-amazonkws2022-rvqcm",
+        "name": "client-blocklists/Amazon KWs 2022 - INCLUDES ANY",
+        "uid": "rvqcm"
+      },
+      {
+        "_id": "washpost-clientlistib-r0tke",
+        "name": "client-blocklists/Client List: IBM KWs - EXCLUDES ALL",
+        "uid": "r0tke"
+      },
+      {
+        "_id": "washpost-citibankkws20-rzhau",
+        "name": "client-blocklists/Citibank KWs 2021 - INCLUDES ANY",
+        "uid": "rzhau"
+      },
+      {
+        "_id": "washpost-clientlistpu-r3vky",
+        "name": "client-blocklists/Client List: Purina KWs - INCLUDES ANY",
+        "uid": "r3vky"
+      },
+      {
+        "_id": "washpost-sapkwlisti-rzd33",
+        "name": "client-blocklists/SAP KW List - INCLUDES ANY",
+        "uid": "rzd33"
+      },
+      {
+        "_id": "washpost-clientlistna-rxa9g",
+        "name": "client-blocklists/Client List: Navy Federal Credit Union NFCU KWs Q4 2022 - INCLUDES ANY",
+        "uid": "rxa9g"
+      },
+      {
+        "_id": "washpost-fortune500con-ra5t0",
+        "name": "advertising/Fortune 500 Content",
+        "uid": "ra5t0"
+      },
+      {
+        "_id": "washpost-clientlistfi-rtdlb",
+        "name": "client-blocklists/Client List: Fidelity Investments KWs - INCLUDES ANY",
+        "uid": "rtdlb"
+      },
+      {
+        "_id": "washpost-clientlisttu-rjuyh",
+        "name": "client-blocklists/Client List: Turbo Tax KWs - EXCLUDES ALL",
+        "uid": "rjuyh"
+      },
+      {
+        "_id": "washpost-clientlistgm-rzfmu",
+        "name": "client-blocklists/Client List: GM Energy KWs - INCLUDES ANY",
+        "uid": "rzfmu"
+      },
+      {
+        "_id": "washpost-cmekwlist202-r35ap",
+        "name": "client-blocklists/CME KW List 2022 - EXCLUDES ALL ",
+        "uid": "r35ap"
+      },
+      {
+        "_id": "washpost-b2government-r23bw",
+        "name": "advertising/B2_Government & Policy_legacyaux_mza",
+        "uid": "r23bw"
+      },
+      {
+        "_id": "washpost-clientlistey-rloxr",
+        "name": "client-blocklists/Client List: EY KWs - INCLUDES ANY",
+        "uid": "rloxr"
+      },
+      {
+        "_id": "washpost-b2healthandb-rlexu",
+        "name": "advertising/B2_Health and Beauty_legacyaux_3fv",
+        "uid": "rlexu"
+      },
+      {
+        "_id": "washpost-clientlisthe-r3hdp",
+        "name": "client-blocklists/Client List: Hermes KWs - INCLUDES ANY",
+        "uid": "r3hdp"
+      },
+      {
+        "_id": "washpost-clientlisthe-rynal",
+        "name": "client-blocklists/Client List: Hermes (Alexandra) KWs - INCLUDES ANY",
+        "uid": "rynal"
+      },
+      {
+        "_id": "washpost-bankofamerica-reerp",
+        "name": "client-blocklists/Bank of America KWs - INCLUDES ANY",
+        "uid": "reerp"
+      },
+      {
+        "_id": "washpost-marriottkwlis-rx4px",
+        "name": "client-blocklists/Marriott KW List Q4 2022 - INCLUDES ANY",
+        "uid": "rx4px"
+      },
+      {
+        "_id": "washpost-clientkeywords-rbbho",
+        "name": "advertising/Client Keywords: On Running",
+        "uid": "rbbho"
+      },
+      {
+        "_id": "washpost-uvakwlistq4-rayu0",
+        "name": "client-blocklists/UVA KW List Q4 2022 - EXCLUDES ALL",
+        "uid": "rayu0"
+      },
+      {
+        "_id": "washpost-dcdeptofheal-r7d9r",
+        "name": "client-blocklists/DC Dept of Health Q1 2023 KW List - EXCLUDES ALL",
+        "uid": "r7d9r"
+      },
+      {
+        "_id": "washpost-bpkwsinclud-rsmxd",
+        "name": "client-blocklists/BP KWs - INCLUDES ANY",
+        "uid": "rsmxd"
+      },
+      {
+        "_id": "washpost-nationalinstru-rt5dp",
+        "name": "client-blocklists/National Instruments KWs - INCLUDES ANY",
+        "uid": "rt5dp"
+      },
+      {
+        "_id": "washpost-clientlistin-r7tmu",
+        "name": "client-blocklists/Client List: Intel KWs - INCLUDES ANY",
+        "uid": "r7tmu"
+      },
+      {
+        "_id": "washpost-clientlistat-rva7x",
+        "name": "client-blocklists/Client List: AT&T Digital Divide  - INCLUDES ANY",
+        "uid": "rva7x"
+      },
+      {
+        "_id": "washpost-samsung2021kw-r4avn",
+        "name": "client-blocklists/Samsung 2021 KWs - INCLUDE ANY",
+        "uid": "r4avn"
+      },
+      {
+        "_id": "washpost-b2politically-rdj51",
+        "name": "advertising/B2_Politically Active - DO NOT REMOVE_legacyaux_lmp",
+        "uid": "rdj51"
+      },
+      {
+        "_id": "washpost-googlepgcompe-r3bxp",
+        "name": "client-blocklists/Google PG Competitor KWs - EXCLUDES ALL ",
+        "uid": "r3bxp"
+      },
+      {
+        "_id": "washpost-b2politicsleg-rabwy",
+        "name": "advertising/B2_Politics_legacyaux_8f3",
+        "uid": "rabwy"
+      },
+      {
+        "_id": "washpost-b2positivenew-r8ehi",
+        "name": "advertising/B2_Positive News_legacyaux_hlt",
+        "uid": "r8ehi"
+      },
+      {
+        "_id": "washpost-b2russiaput-r694n",
+        "name": "advertising/B2_Russia & Putin_legacyaux_F55",
+        "uid": "r694n"
+      },
+      {
+        "_id": "washpost-b2societylega-rotdf",
+        "name": "advertising/B2_Society_legacyaux_0cz",
+        "uid": "rotdf"
+      },
+      {
+        "_id": "washpost-b2summertrave-roh5w",
+        "name": "advertising/B2_Summer Travel_legacyaux_1ot",
+        "uid": "roh5w"
+      },
+      {
+        "_id": "washpost-wapocombined-rfhup",
+        "name": "client-blocklists/WaPo: Combined Disaster Keyword List - INCLUDES ANY Q4 2022",
+        "uid": "rfhup"
+      },
+      {
+        "_id": "washpost-b2transportati-ryiv4",
+        "name": "advertising/B2_Transportation, Logistics, and Industry_legacyaux_kre",
+        "uid": "ryiv4"
+      },
+      {
+        "_id": "washpost-clientlistge-rsjjy",
+        "name": "client-blocklists/Client List: GEICO KWs",
+        "uid": "rsjjy"
+      },
+      {
+        "_id": "washpost-clientlistkp-rhfzk",
+        "name": "client-blocklists/Client List: KPMG KWs - EXCLUDES ALL",
+        "uid": "rhfzk"
+      },
+      {
+        "_id": "washpost-clientlistno-r4t4y",
+        "name": "client-blocklists/Client List: Novo Nordisk KWs - EXCLUDES ALL",
+        "uid": "r4t4y"
+      },
+      {
+        "_id": "washpost-clientlistsi-r35lh",
+        "name": "client-blocklists/Client List: Siemens KWs - EXCLUDES ALL",
+        "uid": "r35lh"
+      },
+      {
+        "_id": "washpost-clientlistci-r2x21",
+        "name": "client-blocklists/Client List: Cisco KWs - EXCLUDES ALL",
+        "uid": "r2x21"
+      },
+      {
+        "_id": "washpost-clientlistat-rfpua",
+        "name": "client-blocklists/Client List: AT&T ALT KWs - INCLUDES ANY",
+        "uid": "rfpua"
+      },
+      {
+        "_id": "washpost-mercedeskws-rj2ns",
+        "name": "client-blocklists/Mercedes KWs - INCLUDES ANY",
+        "uid": "rj2ns"
+      },
+      {
+        "_id": "washpost-fxexcludesall-rfz4c",
+        "name": "client-blocklists/FX Excludes All Disney",
+        "uid": "rfz4c"
+      },
+      {
+        "_id": "washpost-clientlistpm-rd7vl",
+        "name": "client-blocklists/Client List: PMI KWs - EXCLUDES ALL",
+        "uid": "rd7vl"
+      },
+      {
+        "_id": "washpost-clientlistbo-rq574",
+        "name": "client-blocklists/Client List: Boeing KWs - EXCLUDES ALL",
+        "uid": "rq574"
+      },
+      {
+        "_id": "washpost-clientlistin-rj67t",
+        "name": "client-blocklists/Client List: Inpixon KWs - INCLUDES ANY",
+        "uid": "rj67t"
+      },
+      {
+        "_id": "washpost-clientlistae-rd7v3",
+        "name": "client-blocklists/Client List: Aetna KWs - EXCLUDES ALL",
+        "uid": "rd7v3"
+      },
+      {
+        "_id": "washpost-philipmorris-rgepe",
+        "name": "client-blocklists/Philip Morris KWs - EXCLUDES ALL",
+        "uid": "rgepe"
+      },
+      {
+        "_id": "washpost-clientlistgo-r2qxu",
+        "name": "client-blocklists/Client List: Google KWs - INCLUDES ALL",
+        "uid": "r2qxu"
+      },
+      {
+        "_id": "washpost-dupixentnegkw-rk7m0",
+        "name": "client-blocklists/Dupixent neg kws - EXCLUDES ALL",
+        "uid": "rk7m0"
+      },
+      {
+        "_id": "washpost-capitalonekws-rh5xk",
+        "name": "client-blocklists/Capital One KWs 2 - INCLUDES ANY - 1.4.21",
+        "uid": "rh5xk"
+      },
+      {
+        "_id": "washpost-bankofamerica-rtv19",
+        "name": "client-blocklists/Bank of America Merrill Lynch KWs - INCLUDES ANY",
+        "uid": "rtv19"
+      },
+      {
+        "_id": "washpost-cmekwsexclu-r1fne",
+        "name": "client-blocklists/CME KWs - EXCLUDES ALL",
+        "uid": "r1fne"
+      },
+      {
+        "_id": "washpost-cmekwlistq1-rayex",
+        "name": "client-blocklists/CME KW List Q1 2023 - EXCLUDES ALL ",
+        "uid": "rayex"
+      },
+      {
+        "_id": "washpost-chasekwsexc-ratb5",
+        "name": "client-blocklists/Chase KWs - EXCLUDES ALL",
+        "uid": "ratb5"
+      },
+      {
+        "_id": "washpost-clientlistof-r5hej",
+        "name": "client-blocklists/Client List: Office Depot KWs - INCLUDES ANY",
+        "uid": "r5hej"
+      },
+      {
+        "_id": "washpost-clientlistet-rhll0",
+        "name": "client-blocklists/Client List: ETrade KWs - EXCLUDES ALL",
+        "uid": "rhll0"
+      },
+      {
+        "_id": "washpost-boeingkwlist-rd18m",
+        "name": "client-blocklists/Boeing KW List Q4 2022 - INCLUDES ANY",
+        "uid": "rd18m"
+      },
+      {
+        "_id": "washpost-clientlistjp-rnfuc",
+        "name": "client-blocklists/Client List: JPMC Home Lending Military KWs - INCLUDES ANY",
+        "uid": "rnfuc"
+      },
+      {
+        "_id": "washpost-clientlisted-r2hzw",
+        "name": "client-blocklists/Client List: Edward Jones KWs - EXCLUDES ALL",
+        "uid": "r2hzw"
+      },
+      {
+        "_id": "washpost-clientlistba-r8x1i",
+        "name": "client-blocklists/Client List: BASF KWs - INCLUDES ANY",
+        "uid": "r8x1i"
+      },
+      {
+        "_id": "washpost-standardbrand-rg5cq",
+        "name": "client-blocklists/Standard Brand Safety [tagged = safe]",
+        "uid": "rg5cq"
+      },
+      {
+        "_id": "washpost-clientlistgo-rx8m9",
+        "name": "client-blocklists/Client List: Google Lay Offs KWs - EXCLUDES ALL",
+        "uid": "rx8m9"
+      },
+      {
+        "_id": "washpost-va529q12023k-r4vlh",
+        "name": "advertising/VA529 Q1 2023 KWs",
+        "uid": "r4vlh"
+      },
+      {
+        "_id": "washpost-csuiteexecuti-rlo0w",
+        "name": "advertising/C-Suite Executives",
+        "uid": "rlo0w"
+      },
+      {
+        "_id": "washpost-zegnakwlistq-rbtz1",
+        "name": "client-blocklists/Zegna KW List Q1 2023 - INCLUDES ANY",
+        "uid": "rbtz1"
+      },
+      {
+        "_id": "washpost-clientlistgo-rwlm1",
+        "name": "client-blocklists/Client List: Google KWs Q1 2023 - INCLUDES ANY",
+        "uid": "rwlm1"
+      },
+      {
+        "_id": "washpost-ibmkwlistq1-ridxr",
+        "name": "client-blocklists/IBM KW List Q1 2023 - EXCLUDES ALL",
+        "uid": "ridxr"
+      }
+    ]
+  },
+  "targeting": {
+    "active_keys": [
+      {
+        "key": "se",
+        "values": []
+      },
+      {
+        "key": "wapoTopics",
+        "values": [
+          "xgp0",
+          "indp",
+          "x2ec",
+          "miqg",
+          "nau3"
+        ]
+      }
+    ],
+    "adcall": [
+      {
+        "key": "se",
+        "values": []
+      },
+      {
+        "key": "wapoTopics",
+        "values": [
+          "xgp0",
+          "indp",
+          "x2ec",
+          "miqg",
+          "nau3"
+        ]
+      }
+    ],
+    "permutive_v1": [
+      {
+        "key": "article.wapoTopics",
+        "values": [
+          "[2:xgp0] /law_and_order/legal_proceedings",
+          "[3:indp] /law_and_order/legal_proceedings/indictments",
+          "[1:x2ec] /politics",
+          "[2:miqg] /politics/military_and_defense",
+          "[3:nau3] /politics/military_and_defense/national_security"
+        ]
+      },
+      {
+        "key": "canonicalUrl",
+        "values": "/national-security/2023/03/01/fbi-dispute-trump-mar-a-lago-raid/"
+      },
+      {
+        "key": "custom",
+        "values": {
+          "id": 1,
+          "type": "generic"
+        }
+      }
+    ],
+    "permutive_v2": {
+      "article": {
+        "publishDate": "2023-02-08T22:01:34.059Z",
+        "lastUpdateDate": "2023-03-02T18:02:37.738Z",
+        "authorName": [
+          "list",
+          "carol d. leonnig",
+          "devlin barrett",
+          "perry stein",
+          "aaron davis"
+        ],
+        "authorType": [
+          "author",
+          "author",
+          "author",
+          "author"
+        ],
+        "newsroomDesk": [
+          "national",
+          "national",
+          "national",
+          "investigative"
+        ],
+        "newsroomSubdesk": [
+          "national - investigative",
+          "national - justice & immigration",
+          "national - justice & immigration",
+          "investigative - rapid response"
+        ],
+        "commercialNode": "/national-security",
+        "contentType": "article",
+        "language": "en",
+        "wordCount": 3488,
+        "wapoTopics": [
+          "[2:xgp0] /law_and_order/legal_proceedings",
+          "[3:indp] /law_and_order/legal_proceedings/indictments",
+          "[1:x2ec] /politics",
+          "[2:miqg] /politics/military_and_defense",
+          "[3:nau3] /politics/military_and_defense/national_security"
+        ],
+        "customTopics": [
+          "[rvrh1] Donald Trump",
+          "[r4t03] World National Local Content",
+          "[r7mzh] B2_Congressional Elections_legacyaux_r48",
+          "[royfk] B2_Culture and Tradition_legacyaux_kfx",
+          "[rxd3z] B2_Cyber Security & Intelligence Community_legacyaux_E8X",
+          "[r23bw] B2_Government & Policy_legacyaux_mza",
+          "[rlexu] B2_Health and Beauty_legacyaux_3fv",
+          "[rdj51] B2_Politically Active - DO NOT REMOVE_legacyaux_lmp",
+          "[rabwy] B2_Politics_legacyaux_8f3",
+          "[r8ehi] B2_Positive News_legacyaux_hlt",
+          "[r694n] B2_Russia & Putin_legacyaux_F55",
+          "[rotdf] B2_Society_legacyaux_0cz",
+          "[roh5w] B2_Summer Travel_legacyaux_1ot",
+          "[ryiv4] B2_Transportation, Logistics, and Industry_legacyaux_kre",
+          "[rfbpa] B2_Middle East Content_legacyaux_tde"
+        ]
+      },
+      "canonicalUrl": "/national-security/2023/03/01/fbi-dispute-trump-mar-a-lago-raid/",
+      "section": "national-security",
+      "subsection": "national-security"
+    },
+    "permutive_dict": {
+      "article": {
+        "publishDate": "2023-02-08T22:01:34.059Z",
+        "lastUpdateDate": "2023-03-02T18:02:37.738Z",
+        "authorName": [
+          "dict",
+          "carol d. leonnig",
+          "devlin barrett",
+          "perry stein",
+          "aaron davis"
+        ],
+        "authorType": [
+          "author",
+          "author",
+          "author",
+          "author"
+        ],
+        "newsroomDesk": [
+          "national",
+          "national",
+          "national",
+          "investigative"
+        ],
+        "newsroomSubdesk": [
+          "national - investigative",
+          "national - justice & immigration",
+          "national - justice & immigration",
+          "investigative - rapid response"
+        ],
+        "commercialNode": "/national-security",
+        "contentType": "article",
+        "language": "en",
+        "wordCount": 3488,
+        "wapoTopics": [
+          "[2:xgp0] /law_and_order/legal_proceedings",
+          "[3:indp] /law_and_order/legal_proceedings/indictments",
+          "[1:x2ec] /politics",
+          "[2:miqg] /politics/military_and_defense",
+          "[3:nau3] /politics/military_and_defense/national_security"
+        ],
+        "customTopics": [
+          "[rvrh1] Donald Trump",
+          "[r4t03] World National Local Content",
+          "[r7mzh] B2_Congressional Elections_legacyaux_r48",
+          "[royfk] B2_Culture and Tradition_legacyaux_kfx",
+          "[rxd3z] B2_Cyber Security & Intelligence Community_legacyaux_E8X",
+          "[r23bw] B2_Government & Policy_legacyaux_mza",
+          "[rlexu] B2_Health and Beauty_legacyaux_3fv",
+          "[rdj51] B2_Politically Active - DO NOT REMOVE_legacyaux_lmp",
+          "[rabwy] B2_Politics_legacyaux_8f3",
+          "[r8ehi] B2_Positive News_legacyaux_hlt",
+          "[r694n] B2_Russia & Putin_legacyaux_F55",
+          "[rotdf] B2_Society_legacyaux_0cz",
+          "[roh5w] B2_Summer Travel_legacyaux_1ot",
+          "[ryiv4] B2_Transportation, Logistics, and Industry_legacyaux_kre",
+          "[rfbpa] B2_Middle East Content_legacyaux_tde"
+        ]
+      },
+      "canonicalUrl": "/national-security/2023/03/01/fbi-dispute-trump-mar-a-lago-raid/",
+      "section": "national-security",
+      "subsection": "national-security"
+    }
+  },
+  "editorpicks": [
+    {
+      "type": "recirculation-link",
+      "mime": "text/plain",
+      "content": "Deep inside busy Mar-a-Lago, a storage room where secrets were kept",
+      "url": "https://www.washingtonpost.com/national-security/2022/09/02/deep-inside-bustling-mar-a-lago-storage-room-where-secrets-were-stashed/"
+    },
+    {
+      "type": "recirculation-link",
+      "mime": "text/plain",
+      "content": "Mar-a-Lago worker told FBI about moving boxes at Trump's direction",
+      "url": "https://www.washingtonpost.com/national-security/2022/10/12/maralago-witness-trump-boxes-moved/"
+    },
+    {
+      "type": "recirculation-link",
+      "mime": "text/plain",
+      "content": "In Trump White House, classified records routinely mishandled aides say",
+      "url": "https://www.washingtonpost.com/national-security/2022/10/04/trump-classified-documents-meadows/"
+    },
+    {
+      "type": "recirculation-link",
+      "mime": "text/plain",
+      "content": "How Trump jettisoned restraints at Mar-a-Lago after leaving the White House",
+      "url": "https://www.washingtonpost.com/national-security/2022/12/18/trump-life-after-presidency/"
+    },
+    {
+      "type": "recirculation-link",
+      "mime": "text/plain",
+      "content": "From New York to Georgia: The latest on investigations involving Donald Trump",
+      "url": "https://www.washingtonpost.com/politics/2022/04/29/trump-investigations-litigation/"
+    }
+  ],
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/GA3XTWO2CBCP7EJSHNMMO2ZQN4/20230301-093158.586/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/GA3XTWO2CBCP7EJSHNMMO2ZQN4/20230301-093158.586/current.mp3?awCollectionId=/national-security&awEpisodeId=GA3XTWO2CBCP7EJSHNMMO2ZQN4&tags=jan6%7Ccollections-trumprecords",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/GA3XTWO2CBCP7EJSHNMMO2ZQN4/20230301-093158.586/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EQ3IU4AXQEI63OMYWKVWR5MENA.jpg",
+      "imageWidth": 2000,
+      "imageHeight": 1333,
+      "fullcaption": "(Wilfredo Lee/AP)"
+    },
+    "title": {
+      "content": "Showdown before the raid: FBI agents and prosecutors argued over Trump",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "National Security",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "National Security",
+      "path": "/national-security"
+    },
+    "date": {
+      "content": 1677668400000,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "label": "Listen to article"
+    }
+  },
+  "first_display_date": 1677668400000
+}

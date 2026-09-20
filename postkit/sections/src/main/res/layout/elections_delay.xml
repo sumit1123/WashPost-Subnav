@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FBEDD5">
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_margin="8dp"
+        app:srcCompat="@drawable/ic_warning" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/franklinitcstd_light"
+        android:lineSpacingExtra="3sp"
+        android:textColor="#2A2A2A"
+        android:textSize="16sp"
+        tools:text="Testing that results can be really delayed this year. Here's a longer message that's two sentences, even though we advise against that." />
+
+</FrameLayout>

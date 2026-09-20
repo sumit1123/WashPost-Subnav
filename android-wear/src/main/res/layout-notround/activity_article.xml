@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.wapo.flagship.features.articles2.activities.WearArticleActivity"
+    tools:deviceIds="wear">
+
+    <androidx.wear.widget.drawer.WearableDrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:id="@+id/article_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/article_headline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="-4dp"
+                    android:paddingStart="15dp"
+                    android:paddingTop="15dp"
+                    android:paddingEnd="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="19sp" />
+
+                <ImageView
+                    android:id="@+id/article_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/article_headline"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:paddingTop="15dp" />
+
+                <TextView
+                    android:id="@+id/article_byline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/article_image"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/timestamp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/article_byline"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/article_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/timestamp"
+                    android:paddingStart="15dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="30dp"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <androidx.wear.widget.drawer.WearableActionDrawerView
+            android:id="@+id/bottom_action_drawer_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:actionMenu="@menu/action_drawer_menu" />
+    </androidx.wear.widget.drawer.WearableDrawerLayout>
+
+</LinearLayout>

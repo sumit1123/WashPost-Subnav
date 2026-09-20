@@ -1,0 +1,40 @@
+{
+  "border_bottom_style": "none",
+  "border_bottom_width": "100-pct",
+  "feature_name": "healthsenate-930a",
+  "item_type": "homepage/story",
+  "text_alignment": "inherit",
+  "items": [
+    {
+      "link": {
+        "type": "article",
+        "last_modified": "2017-05-04T23:27:10.000Z",
+        "url": "https://www.washingtonpost.com/powerpost/if-house-passes-gop-health-care-bill-a-steeper-climb-awaits-in-the-senate/2017/05/04/26a901da-30bd-11e7-8674-437ddb6e813e_story.html"
+      },
+      "media": {
+        "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/05/04/National-Politics/Images/676316588-4116.jpg",
+        "width": 480,
+        "height": 320,
+        "aspect_ratio": 1.5,
+        "caption_content": "none",
+        "caption_size": "small",
+        "media_type": "featured",
+        "art_position": "right-of-headline",
+        "art_width": 4
+      },
+      "source": "The Washington Post",
+      "blurb": "Republican senators are signaling that their strategy will be to effectively craft their own legislation, but it’s unclear whether they will be able to resolve their stark differences on health care.",
+      "signature": {
+        "by_line": "By Sean Sullivan, Paige Winfield Cunningham and Kelsey Snell"
+      },
+      "headline": {
+        "size": "x-small",
+        "text": "While the House GOP celebrates, the Senate prepares to make its own health-care bill",
+        "font_style": "normal-style",
+        "alignment": "left"
+      },
+      "commercial_node": "powerpost",
+      "sub_item_type": "primary"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2019. The Washington Post
+  -->
+
+<resources>
+    <color name="privacy_settings_background_color">#000000</color>
+    <color name="privacy_settings_toolbar_color">#505355</color>
+</resources>

@@ -1,0 +1,2039 @@
+{
+  "id": "f8c4b77e9d934a749b54f17a31485fdc",
+  "type": "blog",
+  "renderer": "native",
+  "arcId": "FFDLDC5TA5HT3JO6734PWKTBXU",
+  "title": "49ers beat Lions to set up Super Bowl against Chiefs",
+  "blurb": "After Kansas City beat Baltimore to claim the AFC title, San Francisco defeated Detroit in the NFC championship game to set up the Super Bowl LVIII matchup.",
+  "contenturl": "https://www.washingtonpost.com/sports/2024/01/28/nfl-playoffs-live-updates/",
+  "shareurl": "https://www.washingtonpost.com/sports/2024/01/28/nfl-playoffs-live-updates/",
+  "source": "the-washington-post",
+  "section": "Sports",
+  "sourcesection": "sports",
+  "sourcesubsection": "sports - nfl",
+  "sourcecategory": "Sports",
+  "lmt": 1706510980377,
+  "published": 1706510980377,
+  "first_published": 1706470222949,
+  "display_date": 1706499315648,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/47SYUQOR4RC6XKKHMYIU7NRCLI.jpg",
+  "sourceslug": "live-nflplayoffs0128",
+  "commercialnode": "/sports/nfl",
+  "omniture": {
+    "title": "49ers beat Lions to set up Super Bowl against Chiefs - The Washington Post",
+    "pageName": "nfl-playoffs-live-updates",
+    "channel": "sports",
+    "contentId": "nullFFDLDC5TA5HT3JO6734PWKTBXU",
+    "contentType": "story - live-all",
+    "contentSource": "the-washington-post",
+    "contentTopics": "National Football League;Sports",
+    "newsroomDesk": "sports;sports;sports;sports;sports",
+    "newsroomSubdesk": "sports - nfl/olympics;sports - nfl/olympics;sports - nfl/olympics;sports - nfl/olympics;sports - breaking news",
+    "contentAuthor": "mark maske;adam kilgore;nicki jhabvala;sam fortier;des bieler",
+    "authorId": "maskema;kilgoread;jhabvalan;fortiers;bielerda",
+    "authorType": "staff writer;staff writer;(not set);staff writer;staff writer",
+    "subSection": "sports - nfl",
+    "arcId": "FFDLDC5TA5HT3JO6734PWKTBXU",
+    "trackingTags": "story-has-edit-branch;methode-draft;collections-football;created from template id p5nejrtyfbh3ro3pibyhmmai3u;audio-article"
+  },
+  "version": 1,
+  "tags": "story-has-edit-branch,methode-draft,collections-football,created from template id p5nejrtyfbh3ro3pibyhmmai3u,audio-article",
+  "items": [
+    {
+      "content": "National Football League",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "NFL",
+      "path": "/sports/nfl",
+      "group": "card-0"
+    },
+    {
+      "content": "49ers beat Lions to set up Super Bowl against Chiefs",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1",
+      "group": "card-0"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/FFDLDC5TA5HT3JO6734PWKTBXU/20240128-232531.312/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/FFDLDC5TA5HT3JO6734PWKTBXU/20240128-232531.312/current.mp3?awCollectionId=/sports/nfl&awEpisodeId=FFDLDC5TA5HT3JO6734PWKTBXU&tags=collections-football%7Caudio-article",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/FFDLDC5TA5HT3JO6734PWKTBXU/20240128-232531.312/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/47SYUQOR4RC6XKKHMYIU7NRCLI.jpg",
+        "imageWidth": 4500,
+        "imageHeight": 2531,
+        "fullcaption": "(Carlos Avila Gonzalez/AP)"
+      },
+      "title": {
+        "content": "49ers beat Lions to set up Super Bowl against Chiefs",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "National Football League",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "NFL",
+        "path": "/sports/nfl"
+      },
+      "date": {
+        "content": 1706499315648,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      },
+      "group": "card-0"
+    },
+    {
+      "id": "53cfcbf6-88bf-4394-9df2-52fda1dfcbc8",
+      "published": 1706528579000,
+      "isLive": false,
+      "lmt": 1706543315000,
+      "blurb": "On Jan. 28, the San Francisco 49ers advanced to Super Bowl LVIII by pulling off a 34-31 comeback victory over the Detroit Lions.",
+      "title": "49ers fans celebrate team's return to Super Bowl",
+      "vertical": false,
+      "embedCode": "65b7480cd46c5d0357b8638e",
+      "shareurl": "https://wapo.st/3u0dPqs",
+      "type": "video",
+      "host": "posttv",
+      "url": "false",
+      "placement": null,
+      "widthFactor": "full-bleed",
+      "contenturl": "https://www.washingtonpost.com/video/sports/49ers-fans-celebrate-teams-return-to-super-bowl/2024/01/29/53cfcbf6-88bf-4394-9df2-52fda1dfcbc8_video.html",
+      "credits": "Reuters",
+      "fullcaption": "On Jan. 28, the San Francisco 49ers advanced to Super Bowl LVIII by pulling off a 34-31 comeback victory over the Detroit Lions. (Reuters)",
+      "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/01-29-2024/t_cc4632e4cd1a4ffaadaedcad35d967a6_name_super_bowl_bound.jpg",
+      "imageHeight": 1080,
+      "imageWidth": 1920,
+      "omniture": {
+        "source": "Reuters",
+        "contentType": "video",
+        "contentId": "53cfcbf6-88bf-4394-9df2-52fda1dfcbc8",
+        "channel": "sports",
+        "contentSubsection": "sports",
+        "pageName": "sports:video - 52fda1dfcbc8 - 20240129 - 49ers-fans-celebrate-teams-return-to-super-bowl"
+      },
+      "adconfig": {
+        "adSetUrls": {
+          "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.sports_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.sports;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.sports_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.sports_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+        },
+        "allowPrerollOnDomain": false,
+        "autoPlayPreroll": false,
+        "commercialAdNode": "/sports",
+        "enableAdInsertion": false,
+        "enableAutoPreview": true,
+        "enableServerSideFallback": false,
+        "forceAd": false,
+        "playAds": true,
+        "playVideoAds": true,
+        "videoAdZone": "wpni.video.sports",
+        "adSetConfig": {
+          "adSetZone": "wpni.video.sports",
+          "adSetUrls": {
+            "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.sports_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.sports;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.sports_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.sports_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+          }
+        }
+      },
+      "mediaURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20240129/65b7480cd46c5d0357b8638e/65b74812d9dfd01cdcfaf0ff/file_640x360-600-v3.mp4",
+      "streamURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20240129/65b7480cd46c5d0357b8638e/65b74812d9dfd01cdcfaf0ff/mobile.m3u8",
+      "subtitlesURL": "https://closedcaptions.posttv.com/2024/01/29/53cfcbf6-88bf-4394-9df2-52fda1dfcbc8/3_1706530183461/53cfcbf6-88bf-4394-9df2-52fda1dfcbc8_65b7473d270c3c2bbb1f3ba4.vtt",
+      "streams": {
+        "ts": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20240129/65b7480cd46c5d0357b8638e/65b74812d9dfd01cdcfaf0ff/mobile.m3u8",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20240129/65b7480cd46c5d0357b8638e/65b74812d9dfd01cdcfaf0ff/master.m3u8",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20240129/65b7480cd46c5d0357b8638e/65b74812d9dfd01cdcfaf0ff/hd.m3u8",
+            "bitrate": 4500
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20240129/65b7480cd46c5d0357b8638e/65b74812d9dfd01cdcfaf0ff/hlsv4_master.m3u8",
+            "bitrate": 5400
+          }
+        ],
+        "mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20240129/65b7480cd46c5d0357b8638e/65b74812d9dfd01cdcfaf0ff/file_320x180-160-v3.mp4",
+            "bitrate": 160
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20240129/65b7480cd46c5d0357b8638e/65b74812d9dfd01cdcfaf0ff/file_640x360-600-v3.mp4",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20240129/65b7480cd46c5d0357b8638e/65b74812d9dfd01cdcfaf0ff/file_854x480-1200-v3_1.mp4",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20240129/65b7480cd46c5d0357b8638e/65b74812d9dfd01cdcfaf0ff/file_1280x720-2000-v3_1.mp4",
+            "bitrate": 2000
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20240129/65b7480cd46c5d0357b8638e/65b74812d9dfd01cdcfaf0ff/file_1920x1080-5400-v4.mp4",
+            "bitrate": 5400
+          }
+        ],
+        "gif-mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20240129/65b7480cd46c5d0357b8638e/65b748c4d9dfd01cdcfaf100/file_1280x720-2000-v3_1.mp4",
+            "bitrate": 2000
+          }
+        ]
+      },
+      "isLooping": false,
+      "autoplay": false,
+      "fallback": null,
+      "duration": 38634,
+      "promo": {
+        "isLooping": true,
+        "url": "https://videos.posttv.com/washpost-production/Reuters/20240129/65b7480cd46c5d0357b8638e/65b748c4d9dfd01cdcfaf100/file_1280x720-2000-v3_1.mp4"
+      },
+      "group": "card-0"
+    },
+    {
+      "content": "By Mark Maske, Adam Kilgore, Nicki Jhabvala, Sam Fortier and Des Bieler",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "maskema",
+          "url": "https://www.washingtonpost.com/people/mark-maske/",
+          "name": "Mark Maske",
+          "bio": "Mark Maske covers the NFL for The Washington Post. He has covered the NFL and the Washington Football Team since 1998. He previously covered baseball, the Baltimore Orioles, the effort to bring a major league team to Washington, and colleges.",
+          "expertise": "Sports reporter covering the NFL",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/6dd5e2b2-04c8-44f1-b766-516cf2a6d9cc.png"
+        },
+        {
+          "id": "kilgoread",
+          "url": "https://www.washingtonpost.com/people/adam-kilgore/",
+          "name": "Adam Kilgore",
+          "bio": "Adam Kilgore covers national sports for The Washington Post. Previously, he served as The Post's Washington Nationals beat writer from 2010 to 2014.",
+          "expertise": "Reporter covering national sports",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/681207d8-5845-4091-9b86-2526a8804340.png"
+        },
+        {
+          "id": "jhabvalan",
+          "url": "https://www.washingtonpost.com/people/nicki-jhabvala/",
+          "name": "Nicki Jhabvala",
+          "bio": "Nicki Jhabvala joined The Washington Post in July 2020 after spending six years covering the Denver Broncos, first for the Denver Post (2014-2018) and later the Athletic (2018-2020). She has also been an editor and producer for the New York Times, Sports on Earth and Sports Illustrated.",
+          "expertise": "Reporter covering Washington's NFL team ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/a37e5312-ba57-4b66-a198-92b2326c5b8d.png"
+        },
+        {
+          "id": "fortiers",
+          "url": "https://www.washingtonpost.com/people/sam-fortier/",
+          "name": "Sam Fortier",
+          "bio": "Sam Fortier is a beat writer for The Post covering Washington's NFL team.",
+          "expertise": "Reporter covering the Washington Commanders",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/3e1dcef9-209b-4d00-9b14-f002d015a2ee.png"
+        },
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-0"
+    },
+    {
+      "content": 1706499315648,
+      "mime": "text/plain",
+      "type": "date",
+      "group": "card-0"
+    },
+    {
+      "type": "toggle",
+      "subtype": "alerts",
+      "mime": "text/html",
+      "key": "sports",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "SANTA CLARA, Calif. — The play that doomed the Detroit Lions’ season got no reaction from Coach Dan Campbell. He decided to be aggressive — to go for it on fourth and three instead of attempting a 48-yard field goal to tie the score — but quarterback Jared Goff hadn’t been able to make a play rolling to his right. Campbell stood motionless on the sideline for a few seconds before calling over an assistant.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Campbell re-watched the play on the tablet. He tapped the tablet again as his defense, which had shut down the San Francisco 49ers in the first half, let them down the field to punctuate their 34-31 comeback victory. Campbell handed the tablet back to the assistant and paced the sideline, face blank. He had been one of the most aggressive coaches in the NFL all season, and when it mattered most, his bet went bust. But no one would see him sweat.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "San Francisco, a juggernaut all season, cut short Detroit’s magical run despite looking shaky the past two weeks. In Super Bowl LVIII, the 49ers will face Patrick Mahomes and the Kansas City Chiefs in a rematch of Super Bowl LIV, which the Chiefs won. But the 49ers have a loaded supporting cast and a quarterback, Brock Purdy, who, despite being far from perfect this postseason, has showed moxie and playmaking ability that his predecessor, Jimmy Garoppolo, did not always have.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The 49ers’ resurgence was stunning. In the first half, the Lions built a 24-7 lead by dominating with bruising runs and precision passing. Wide receiver Jameson Williams carried an end-around 42 yards for a touchdown. Running back David Montgomery pushed forward for another. Running back Jahmyr Gibbs made a gasp-worthy cut for a third. San Francisco played zone coverage on every snap, according to NFL Next Gen Stats, and Goff picked it apart with short throws to keep the offense on schedule.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“They had us in the first half, not going to lie,” San Francisco tight end George Kittle said, joking.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Before halftime, Detroit faced fourth down from the San Francisco 3-yard line. Usually, Campbell would go for it. But with just 10 seconds remaining, there was no consolation prize for pinning the opponent deep in its own territory. So the Lions kicked a field goal to take a three-score lead to the locker room.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "But that didn’t last long. Early in the third quarter, 49ers kicker Jake Moody, who had missed a first-quarter field goal, found some redemption by nailing a 43-yarder. Later in the quarter, on the play of the night, wide receiver Brandon Aiyuk grabbed a deep pass that bounced off a defensive back’s face mask to set up a touchdown.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“We got in the hands of our playmakers,” 49ers General Manager John Lynch said. “… That’s who we are.”",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "On the first play of the next drive, Gibbs fumbled. Levi’s Stadium erupted. 49ers offensive linemen had to step out of the huddle and wave their arms, trying to quiet the 71,824 fans who had waited all night for this.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Detroit could have stopped the 49ers’ run. After the Moody field goal, the Lions drove deep into San Francisco territory and faced fourth and two. Campbell again went for it, and this time, Goff did make a play. He put a pass right into the outstretched arms of Josh Reynolds, who had a critical, drive-killing drop.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "On the sideline, Goff and Campbell approached Reynolds, giving him pats on the back and what appeared to be words of encouragement. But the mistakes piled up, the 49ers capitalized, and when the clock expired, Campbell ran to midfield. The coach famous for his emotion concealed whatever it was he felt with a stone-faced expression.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i>— Sam Fortier</i>",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i>Find highlights and analysis from Sunday’s playoff action below.</i>",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "Here’s what to know",
+      "subhead_level": 2,
+      "group": "card-0"
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/plain",
+      "content": [
+        "The Chiefs and 49ers have both made at least one Super Bowl in the past five years.",
+        "Kansas City is aiming to become the first team since the 2003 and 2004 New England Patriots to win consecutive Super Bowls."
+      ],
+      "group": "card-0"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-1",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-RIQX5Z4MTFEG5M5D7QRI6VP3DE",
+      "group": "card-1"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706498132712,
+      "recency_threshold": 720,
+      "group": "card-1"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-1"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The Super Bowl will feature quite the disparity in contract values for its starting quarterbacks. While the Chiefs’ Patrick Mahomes is in the midst of a $450 million, 10-year pact, the rookie contract Brock Purdy signed as the final pick of the 2022 draft is worth approximately $3.7 million.",
+      "group": "card-1"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/sports",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-2",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-PCNV7V4IQNDPXM7LTKTEMMH4VE",
+      "group": "card-2"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706497634344,
+      "recency_threshold": 720,
+      "group": "card-2"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-2"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The very early Super Bowl line has the 49ers installed as favorites by 2 to 2.5 points, per various reports of oddsmakers. The Chiefs were 1.5-point favorites — and staged <a href=\"https://www.washingtonpost.com/sports/2020/02/02/kansas-city-chiefs-win-super-bowl-liv/\">a fourth-quarter comeback</a> to comfortably cover — when these teams met for all the marbles after the 2019 season.",
+      "group": "card-2"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-3",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-WSYRC7YLXFEMHMXAK3SUU7QJSM",
+      "group": "card-3"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706496984398,
+      "recency_threshold": 720,
+      "group": "card-3"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "While Detroit’s second-half collapse was unfolding, there was plenty of chatter online about Coach Dan Campbell’s decisions to go for it on fourth down rather than try field goals of 40-plus yards. Some flamed him for being too aggressive, while others pointed out that his approach has paid off numerous times in the past for the Lions.",
+      "group": "card-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "twitter",
+      "mime": "text/html",
+      "content": "[<a href=\"https://twitter.com/billbarnwell/status/1751794583657119990\">View Tweet on Twitter</a>]",
+      "oembed": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">It seems bizarre to spend all year (and especially this past week) lauding Dan Campbell for believing in his philosophy and his team for three years, having had those fourth-down decisions pay off over and over again for Detroit, and now insist that he should be kicking</p>&mdash; Bill Barnwell (@billbarnwell) <a href=\"https://twitter.com/billbarnwell/status/1751794583657119990?ref_src=twsrc%5Etfw\">January 29, 2024</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n\n",
+      "group": "card-3"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-4",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-IV5TAIRCJFDNPPW5S2AHRAQFJQ",
+      "group": "card-4"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706496889800,
+      "recency_threshold": 720,
+      "group": "card-4"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-4"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The fact that the 49ers used Elijah Mitchell and not Christian McCaffrey to run out the clock raises a question about how injured the latter might be. McCaffrey left the field late in the fourth quarter after a Chiefs tackler landed on his head, and Mitchell ran in a short touchdown right afterward.",
+      "group": "card-4"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/sports",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-5",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-OMEKDN4V7RECXAUQD4KX54WAMA",
+      "group": "card-5"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706496861387,
+      "recency_threshold": 720,
+      "group": "card-5"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Jerry Brewer",
+      "authors": [
+        {
+          "id": "brewerj",
+          "url": "https://www.washingtonpost.com/people/jerry-brewer/",
+          "name": "Jerry Brewer",
+          "bio": "Jerry Brewer is a sports columnist at The Washington Post. He joined The Post in 2015 after more than eight years as a columnist with the Seattle Times. ",
+          "expertise": "Sports columnist",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9bf4b811-476b-40ac-b8a5-52160d7fc5d4.png"
+        }
+      ],
+      "group": "card-5"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The Lions may be haunted for a long time by all that happened after 24-7. But the 49ers showed us something, too. What a stunning turnaround — and with everything they’ve spent five years building on the line.",
+      "group": "card-5"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-6",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-R3SV65RNIJFH3GAOUJL7KHXBOM",
+      "group": "card-6"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706496373630,
+      "recency_threshold": 720,
+      "group": "card-6"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-6"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The 49ers have recovered an onside kick by the Lions and will win this game, 34-31. San Francisco moves on to its second Super Bowl in five years, where it will again face Kansas City. The Chiefs won that fateful matchup after the 2019 season, and they defeated the Ravens earlier Sunday.",
+      "group": "card-6"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-7",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-VU4BCFGXTFFVRJOL2JCV2BSYX4",
+      "group": "card-7"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706496221255,
+      "recency_threshold": 720,
+      "group": "card-7"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-7"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The Lions’ Jameson Williams caught a three-yard touchdown with 56 seconds left to help pull his team to within three at 34-31. Detroit will have to go for an onside kick to prolong the game against San Francisco.",
+      "group": "card-7"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/sports",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-8",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-QX4TCM5UCJG2FDVLWMX3BQDUZ4",
+      "group": "card-8"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706495838666,
+      "recency_threshold": 720,
+      "group": "card-8"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-8"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Facing a desperate situation, Detroit moved to San Francisco’s 49-yard line as the two-minute warning arrived. The Lions have all three timeouts but are trailing by 10.",
+      "group": "card-8"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-9",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-Q3AAXDY2QJGFJD7X7LZNEX5CHY",
+      "group": "card-9"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706495581046,
+      "recency_threshold": 720,
+      "group": "card-9"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-9"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "San Francisco has another touchdown, and now the Lions are in deep trouble. The 49ers scored on a three-yard Elijah Mitchell run, finishing off a seven-play, 70-yard drive that gave them a 34-24 lead with just three minutes left to play. As a reminder, Detroit had a 24-7 lead at halftime.",
+      "group": "card-9"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "twitter",
+      "mime": "text/html",
+      "content": "[<a href=\"https://twitter.com/NFL/status/1751795056930156720\">View Tweet on Twitter</a>]",
+      "oembed": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Elijah Mitchell extends the 49ers lead!<br><br>📺: <a href=\"https://twitter.com/hashtag/DETvsSF?src=hash&amp;ref_src=twsrc%5Etfw\">#DETvsSF</a> on FOX<br>📱: Stream on <a href=\"https://twitter.com/hashtag/NFLPlus?src=hash&amp;ref_src=twsrc%5Etfw\">#NFLPlus</a> <a href=\"https://t.co/Wq95TZV6JA\">pic.twitter.com/Wq95TZV6JA</a></p>&mdash; NFL (@NFL) <a href=\"https://twitter.com/NFL/status/1751795056930156720?ref_src=twsrc%5Etfw\">January 29, 2024</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n\n",
+      "group": "card-9"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-10",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-L4HXISZGWBDXHLVPANANVWYCSE",
+      "group": "card-10"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706495201337,
+      "recency_threshold": 720,
+      "group": "card-10"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-10"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Playing from behind for the first time in the game, Detroit moved to the 49ers’ 30-yard line before reaching a fourth-and-three situation. The Lions went for it but Jared Goff threw incomplete, giving the ball to San Francisco midway through the fourth quarter.",
+      "group": "card-10"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/sports",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-11",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-YVXEJYMLGBFSZAML7DJ2ZMEYEQ",
+      "group": "card-11"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706494672249,
+      "recency_threshold": 720,
+      "group": "card-11"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-11"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Now the 49ers have the lead, at 27-24 with 9 minutes 52 seconds left in the fourth quarter. San Francisco drove to Detroit’s 13 before back-to-back sacks forced the Niners to settle for a 33-yard field goal by Jake Moody, capping an 11-play, 65-yard drive.",
+      "group": "card-11"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "twitter",
+      "mime": "text/html",
+      "content": "[<a href=\"https://twitter.com/NFL/status/1751788511924199768\">View Tweet on Twitter</a>]",
+      "oembed": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Purdy magic in full effect 🪄<br><br>📺: <a href=\"https://twitter.com/hashtag/DETvsSF?src=hash&amp;ref_src=twsrc%5Etfw\">#DETvsSF</a> on FOX<br>📱: Stream on <a href=\"https://twitter.com/hashtag/NFLPlus?src=hash&amp;ref_src=twsrc%5Etfw\">#NFLPlus</a> <a href=\"https://t.co/Gif3vibPha\">pic.twitter.com/Gif3vibPha</a></p>&mdash; NFL (@NFL) <a href=\"https://twitter.com/NFL/status/1751788511924199768?ref_src=twsrc%5Etfw\">January 29, 2024</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n\n",
+      "group": "card-11"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-12",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-UU6LW7ETIFBGLPM256OPXE5YH4",
+      "group": "card-12"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706494142454,
+      "recency_threshold": 720,
+      "group": "card-12"
+    },
+    {
+      "type": "title",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "REPORTING FROM SANTA CLARA, CALIF.",
+      "group": "card-12"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Sam Fortier",
+      "authors": [
+        {
+          "id": "fortiers",
+          "url": "https://www.washingtonpost.com/people/sam-fortier/",
+          "name": "Sam Fortier",
+          "bio": "Sam Fortier is a beat writer for The Post covering Washington's NFL team.",
+          "expertise": "Reporter covering the Washington Commanders",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/3e1dcef9-209b-4d00-9b14-f002d015a2ee.png"
+        }
+      ],
+      "group": "card-12"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Josh Reynolds, who’s had huge drops on back-to-back drives, looked really frustrated coming off the field. Penei Sewell, Dan Campbell and Jared Goff all sought him out on the sideline seemingly to offer some brief encouragement.",
+      "group": "card-12"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-13",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-DNV3GPJFWFE5DMWRNJOUHOXHMY",
+      "group": "card-13"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706493956968,
+      "recency_threshold": 720,
+      "group": "card-13"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-13"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Suddenly bereft of any type of lead, let alone the 17-point bulge they enjoyed at halftime, the Lions had a shot at picking up a much-needed first down, but trusted targets Sam LaPorta and Josh Reynolds failed to corral passes on two successive plays. Detroit had to punt, and the 49ers took over at their 20.",
+      "group": "card-13"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "twitter",
+      "mime": "text/html",
+      "content": "[<a href=\"https://twitter.com/jasrifootball/status/1751787763215532083\">View Tweet on Twitter</a>]",
+      "oembed": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Josh Reynolds dropped the 4th and 2 and now drops this on third down…. Oh man <a href=\"https://t.co/fpaQit1PNb\">pic.twitter.com/fpaQit1PNb</a></p>&mdash; JPAFootball (@jasrifootball) <a href=\"https://twitter.com/jasrifootball/status/1751787763215532083?ref_src=twsrc%5Etfw\">January 29, 2024</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n\n",
+      "group": "card-13"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/sports",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-14",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-II3MODEIBNEKPBCMTVYCQ6L424",
+      "group": "card-14"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706493506045,
+      "recency_threshold": 720,
+      "group": "card-14"
+    },
+    {
+      "type": "title",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "REPORTING FROM SANTA CLARA, CALIF.",
+      "group": "card-14"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Sam Fortier",
+      "authors": [
+        {
+          "id": "fortiers",
+          "url": "https://www.washingtonpost.com/people/sam-fortier/",
+          "name": "Sam Fortier",
+          "bio": "Sam Fortier is a beat writer for The Post covering Washington's NFL team.",
+          "expertise": "Reporter covering the Washington Commanders",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/3e1dcef9-209b-4d00-9b14-f002d015a2ee.png"
+        }
+      ],
+      "group": "card-14"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "It only took 11:58 of game clock for the 49ers to erase a 17-point deficit.",
+      "group": "card-14"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-15",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-3KVZE5GNENEXPBZR25LP622GAA",
+      "group": "card-15"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706493458917,
+      "recency_threshold": 720,
+      "group": "card-15"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-15"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Christian McCaffrey barreled in from a yard out to help San Francisco tie the game at 24. Two plays earlier, following a Lions fumble, 49ers quarterback Brock Purdy had a 21-yard scramble.",
+      "group": "card-15"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "twitter",
+      "mime": "text/html",
+      "content": "[<a href=\"https://twitter.com/NFL/status/1751785803712487524\">View Tweet on Twitter</a>]",
+      "oembed": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Purdy takes off for 21 yards!<br><br>📺: <a href=\"https://twitter.com/hashtag/DETvsSF?src=hash&amp;ref_src=twsrc%5Etfw\">#DETvsSF</a> on FOX<br>📱: Stream on <a href=\"https://twitter.com/hashtag/NFLPlus?src=hash&amp;ref_src=twsrc%5Etfw\">#NFLPlus</a> <a href=\"https://t.co/CL06CMKemX\">pic.twitter.com/CL06CMKemX</a></p>&mdash; NFL (@NFL) <a href=\"https://twitter.com/NFL/status/1751785803712487524?ref_src=twsrc%5Etfw\">January 29, 2024</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n\n",
+      "group": "card-15"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-16",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-NGJFDKXBXVDWJLVHONC7MHL5X4",
+      "group": "card-16"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706493216663,
+      "recency_threshold": 720,
+      "group": "card-16"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-16"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "On the Lions’ first play following Brandon Aiyuk’s touchdown catch for the 49ers, Detroit running back Jahmyr Gibbs fumbled the ball. San Francisco took over at the Lions’ 24.",
+      "group": "card-16"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/sports",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-17",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-KZS3IN4INZDJZNRL6UGE63JPYI",
+      "group": "card-17"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706493076817,
+      "recency_threshold": 720,
+      "group": "card-17"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-17"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Brandon Aiyuk followed his alert, acrobatic catch with a shorter one that gave San Francisco a touchdown and cut Detroit’s lead to 24-17 with just over five minutes left in the third quarter. The 49ers went 72 yards in just five plays for the score.",
+      "group": "card-17"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "twitter",
+      "mime": "text/html",
+      "content": "[<a href=\"https://twitter.com/NFL/status/1751784206987059634\">View Tweet on Twitter</a>]",
+      "oembed": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Purdy to Aiyuk and we’ve got a one-score game!<br><br>📺: <a href=\"https://twitter.com/hashtag/DETvsSF?src=hash&amp;ref_src=twsrc%5Etfw\">#DETvsSF</a> on FOX<br>📱: Stream on <a href=\"https://twitter.com/hashtag/NFLPlus?src=hash&amp;ref_src=twsrc%5Etfw\">#NFLPlus</a> <a href=\"https://t.co/iJp4M8GPng\">pic.twitter.com/iJp4M8GPng</a></p>&mdash; NFL (@NFL) <a href=\"https://twitter.com/NFL/status/1751784206987059634?ref_src=twsrc%5Etfw\">January 29, 2024</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n\n",
+      "group": "card-17"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-18",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-YRX3SRJLQJD5DN6JNQJN57J6KQ",
+      "group": "card-18"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706492941153,
+      "recency_threshold": 720,
+      "group": "card-18"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-18"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "A crazy play resulted in a huge gain for the 49ers. Brock Purdy heaved the ball deep and it bounced off the face mask of Detroit cornerback Kindle Vildor and into the hands of a diving Brandon Aiyuk. The 51-yard completion gave San Francisco a first-and-goal opportunity at the Lions’ 4-yard line.",
+      "group": "card-18"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "twitter",
+      "mime": "text/html",
+      "content": "[<a href=\"https://twitter.com/NFL/status/1751783759056453663\">View Tweet on Twitter</a>]",
+      "oembed": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">DEFLECTION OFF THE FACE. WILD.<br><br>📺: <a href=\"https://twitter.com/hashtag/DETvsSF?src=hash&amp;ref_src=twsrc%5Etfw\">#DETvsSF</a> on FOX<br>📱: Stream on <a href=\"https://twitter.com/hashtag/NFLPlus?src=hash&amp;ref_src=twsrc%5Etfw\">#NFLPlus</a> <a href=\"https://t.co/C4jf3b3clo\">pic.twitter.com/C4jf3b3clo</a></p>&mdash; NFL (@NFL) <a href=\"https://twitter.com/NFL/status/1751783759056453663?ref_src=twsrc%5Etfw\">January 29, 2024</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n\n",
+      "group": "card-18"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-19",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-QH5U2COXQFFYVCPYI3AV5RRJOI",
+      "group": "card-19"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706492520163,
+      "recency_threshold": 720,
+      "group": "card-19"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-19"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Picking up where they left off in the first half, the Lions marched steadily to the 49ers’ 28-yard line before facing fourth and short. Detroit Coach Dan Campbell stayed true to form by going for it, but Jared Goff felt pressure on a dropback and threw incomplete. San Francisco got the ball on a desperately needed stop.",
+      "group": "card-19"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/sports",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-20",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-3G74CQYMABBCDAWVLDG26C5XQM",
+      "group": "card-20"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706491992124,
+      "recency_threshold": 720,
+      "group": "card-20"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-20"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Getting the ball to start the second half, San Francisco moved 50 yards for a 43-yard Jake Moody field goal that cut the team’s deficit to 24-10. Earlier in the nine-play drive, 49ers wide receiver Jauan Jennings converted a third-and-four play with a one-handed grab on a dangerous pass from Brock Purdy.",
+      "group": "card-20"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "twitter",
+      "mime": "text/html",
+      "content": "[<a href=\"https://twitter.com/NFL/status/1751779659698876884\">View Tweet on Twitter</a>]",
+      "oembed": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Jauan Jennings making big plays all <a href=\"https://twitter.com/hashtag/NFLPlayoffs?src=hash&amp;ref_src=twsrc%5Etfw\">#NFLPlayoffs</a>.<br><br>📺: <a href=\"https://twitter.com/hashtag/DETvsSF?src=hash&amp;ref_src=twsrc%5Etfw\">#DETvsSF</a> - 6:30pm ET on FOX<br>📱: Stream on <a href=\"https://twitter.com/hashtag/NFLPlus?src=hash&amp;ref_src=twsrc%5Etfw\">#NFLPlus</a> <a href=\"https://t.co/BzyZPNjybJ\">pic.twitter.com/BzyZPNjybJ</a></p>&mdash; NFL (@NFL) <a href=\"https://twitter.com/NFL/status/1751779659698876884?ref_src=twsrc%5Etfw\">January 29, 2024</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n\n",
+      "group": "card-20"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-21",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-2QRQLKRFOFAAFL2JAHSGL7WR6Y",
+      "group": "card-21"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706491480138,
+      "recency_threshold": 720,
+      "group": "card-21"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Nicki Jhabvala",
+      "authors": [
+        {
+          "id": "jhabvalan",
+          "url": "https://www.washingtonpost.com/people/nicki-jhabvala/",
+          "name": "Nicki Jhabvala",
+          "bio": "Nicki Jhabvala joined The Washington Post in July 2020 after spending six years covering the Denver Broncos, first for the Denver Post (2014-2018) and later the Athletic (2018-2020). She has also been an editor and producer for the New York Times, Sports on Earth and Sports Illustrated.",
+          "expertise": "Reporter covering Washington's NFL team ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/a37e5312-ba57-4b66-a198-92b2326c5b8d.png"
+        }
+      ],
+      "group": "card-21"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "If the Lions win this and the Commanders really want Lions offensive coordinator Ben Johnson as their next coach, they’ll have to wait until Feb. 12 to hire him. They can (and are scheduled to) interview him a second time this week. But the hire can’t be made official until after the Super Bowl if the Lions win tonight.",
+      "group": "card-21"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-22",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-VFCSZJ33YNBUBPYIRDVHGKFRVI",
+      "group": "card-22"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1706491228680,
+      "group": "card-22"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Lions take 24-7 lead over 49ers into halftime",
+      "group": "card-22"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-22"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/S4YWB65PHOHWYZDE7AL3GLP7QE.jpg",
+      "imageWidth": 3172,
+      "imageHeight": 2115,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Amon-Ra St. Brown celebrates a catch. (Ezra Shaw/Getty Images)",
+      "blurb": "Amon-Ra St. Brown celebrates a catch. (Photo by Ezra Shaw/Getty Images)",
+      "group": "card-22"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The numbers tell the tale of a surprisingly dominant first half for the Detroit Lions.",
+      "group": "card-22"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Playing on the San Francisco 49ers’ home turf, Detroit rolled up significant advantages in major categories such as first downs (18-8), total plays (43-28), total yards (280-131) and rushing yards (148-38).",
+      "group": "card-22"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Oh, and the Lions had a healthy lead, too, on the scoreboard: 24-7.",
+      "group": "card-22"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The Niners still have two quarters to figure things out, but even if Coach Kyle Shanahan gets his offense untracked, he and defensive coordinator Steve Wilks appear to have a daunting challenge in stopping Detroit’s attack. Lions offensive coordinator Ben Johnson — <a href=\"https://x.com/NickiJhabvala/status/1751716159093620741?s=20\">a candidate for</a> the Washington Commanders’ head coaching job — has San Francisco on its heels and Detroit’s offensive line is mauling its counterparts.",
+      "group": "card-22"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Lions wide receiver Amon-Ra St. Brown has five catches for 73 yards while teammate David Montgomery has run for 60 yards, with 20 more through the air. Montgomery, fellow back Jahmyr Gibbs and wide receiver Jameson Williams have Detroit’s three scores, with Christian McCaffrey getting into the end zone for the Niners.",
+      "group": "card-22"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/sports",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-23",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-U6YBKE6B5RBVXFJLRV37IU5EVA",
+      "group": "card-23"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706491007387,
+      "recency_threshold": 720,
+      "group": "card-23"
+    },
+    {
+      "type": "title",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "REPORTING FROM SANTA CLARA, CALIF.",
+      "group": "card-23"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Sam Fortier",
+      "authors": [
+        {
+          "id": "fortiers",
+          "url": "https://www.washingtonpost.com/people/sam-fortier/",
+          "name": "Sam Fortier",
+          "bio": "Sam Fortier is a beat writer for The Post covering Washington's NFL team.",
+          "expertise": "Reporter covering the Washington Commanders",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/3e1dcef9-209b-4d00-9b14-f002d015a2ee.png"
+        }
+      ],
+      "group": "card-23"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XNODRT36UMCPFHKG2VH746GFQI_size-normalized.jpg",
+      "imageWidth": 7780,
+      "imageHeight": 5186,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Lions fans at Levi's Stadium on Sunday. (Thearon W. Henderson/Getty Images)",
+      "blurb": "Lions fans at Levi's Stadium on Sunday. (Photo by Thearon W. Henderson/Getty Images)",
+      "group": "card-23"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Lions fans look like 20 to 25 percent of the crowd at Levi’s Stadium. But they were loud in the first half, and if this keeps up, cover your ears.",
+      "group": "card-23"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-24",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-DUXW4TMPENDALOTDFL5ZIFERWE",
+      "group": "card-24"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706490639077,
+      "recency_threshold": 720,
+      "group": "card-24"
+    },
+    {
+      "type": "title",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "REPORTING FROM SANTA CLARA, CALIF.",
+      "group": "card-24"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Sam Fortier",
+      "authors": [
+        {
+          "id": "fortiers",
+          "url": "https://www.washingtonpost.com/people/sam-fortier/",
+          "name": "Sam Fortier",
+          "bio": "Sam Fortier is a beat writer for The Post covering Washington's NFL team.",
+          "expertise": "Reporter covering the Washington Commanders",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/3e1dcef9-209b-4d00-9b14-f002d015a2ee.png"
+        }
+      ],
+      "group": "card-24"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Detroit, one of the most aggressive teams in the league, smartly pivots to kick the field goal. Big reason why:",
+      "group": "card-24"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "twitter",
+      "mime": "text/html",
+      "content": "[<a href=\"https://twitter.com/ASchatzNFL/status/1751773923761365283\">View Tweet on Twitter</a>]",
+      "oembed": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Remember, going for it on fourth is less valuable right before halftime because you don&#39;t get the value of pinning the other team on the goal line if you fail.</p>&mdash; Aaron Schatz 🏈 (@ASchatzNFL) <a href=\"https://twitter.com/ASchatzNFL/status/1751773923761365283?ref_src=twsrc%5Etfw\">January 29, 2024</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n\n",
+      "group": "card-24"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-25",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-HDGR4WWXCRHFTGI2GVPY3AOPMU",
+      "group": "card-25"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1706490565825,
+      "recency_threshold": 720,
+      "group": "card-25"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Des Bieler",
+      "authors": [
+        {
+          "id": "bielerda",
+          "url": "https://www.washingtonpost.com/people/des-bieler/",
+          "name": "Des Bieler",
+          "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+          "expertise": "Sports reporter covering national topics, as well as supporting coverage of D.C.-area teams",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png"
+        }
+      ],
+      "group": "card-25"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The Lions converted on third-down plays of 12, 18 and seven yards while driving to San Francisco’s 3-yard line with 10 seconds left in the half. Facing a fourth down at that point, Detroit Coach Dan Campbell eschewed his usually aggressive tendencies for a field goal attempt, which was good from 21 yards for a 24-7 lead.",
+      "group": "card-25"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "twitter",
+      "mime": "text/html",
+      "content": "[<a href=\"https://twitter.com/NFL/status/1751772240457375768\">View Tweet on Twitter</a>]",
+      "oembed": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Goff to St. Brown on 3rd &amp; 18! 🎯<br><br>📺: <a href=\"https://twitter.com/hashtag/DETvsSF?src=hash&amp;ref_src=twsrc%5Etfw\">#DETvsSF</a> on FOX<br>📱: Stream on <a href=\"https://twitter.com/hashtag/NFLPlus?src=hash&amp;ref_src=twsrc%5Etfw\">#NFLPlus</a> <a href=\"https://t.co/glEiXd2UuN\">pic.twitter.com/glEiXd2UuN</a></p>&mdash; NFL (@NFL) <a href=\"https://twitter.com/NFL/status/1751772240457375768?ref_src=twsrc%5Etfw\">January 29, 2024</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n\n",
+      "group": "card-25"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/sports",
+      "style": "luf"
+    },
+    {
+      "type": "author_info",
+      "id": "maskema",
+      "name": "Mark Maske",
+      "bio": "Mark Maske covers the NFL for The Washington Post. He has covered the NFL and the Washington Football Team since 1998. He previously covered baseball, the Baltimore Orioles, the effort to bring a major league team to Washington, and colleges.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/6dd5e2b2-04c8-44f1-b766-516cf2a6d9cc.png",
+      "role": "Staff writer",
+      "group": "card-26"
+    },
+    {
+      "type": "author_info",
+      "id": "kilgoread",
+      "name": "Adam Kilgore",
+      "bio": "Adam Kilgore covers national sports for The Washington Post. Previously, he served as The Post's Washington Nationals beat writer from 2010 to 2014.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/681207d8-5845-4091-9b86-2526a8804340.png",
+      "role": "Staff writer",
+      "group": "card-26"
+    },
+    {
+      "type": "author_info",
+      "id": "jhabvalan",
+      "name": "Nicki Jhabvala",
+      "bio": "Nicki Jhabvala joined The Washington Post in July 2020 after spending six years covering the Denver Broncos, first for the Denver Post (2014-2018) and later the Athletic (2018-2020). She has also been an editor and producer for the New York Times, Sports on Earth and Sports Illustrated.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/a37e5312-ba57-4b66-a198-92b2326c5b8d.png",
+      "role": "Washington's football team reporter",
+      "group": "card-26"
+    },
+    {
+      "type": "author_info",
+      "id": "fortiers",
+      "name": "Sam Fortier",
+      "bio": "Sam Fortier is a beat writer for The Post covering Washington's NFL team.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/3e1dcef9-209b-4d00-9b14-f002d015a2ee.png",
+      "role": "Staff writer",
+      "group": "card-26"
+    },
+    {
+      "type": "author_info",
+      "id": "bielerda",
+      "name": "Des Bieler",
+      "bio": "Des Bieler is a staff writer in Sports who covers a wide variety of topics, usually with an eye toward items of national interest. He first settled in at The Post in 1995 and has proved difficult to dislodge.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/1d50dc4c-a975-4747-a9ce-cbaf1a59cea9.png",
+      "role": "Reporter",
+      "group": "card-26"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "blogname": "NFL",
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/FFDLDC5TA5HT3JO6734PWKTBXU/20240128-232531.312/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/FFDLDC5TA5HT3JO6734PWKTBXU/20240128-232531.312/current.mp3?awCollectionId=/sports/nfl&awEpisodeId=FFDLDC5TA5HT3JO6734PWKTBXU&tags=collections-football%7Caudio-article",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/FFDLDC5TA5HT3JO6734PWKTBXU/20240128-232531.312/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/47SYUQOR4RC6XKKHMYIU7NRCLI.jpg",
+      "imageWidth": 4500,
+      "imageHeight": 2531,
+      "fullcaption": "(Carlos Avila Gonzalez/AP)"
+    },
+    "title": {
+      "content": "49ers beat Lions to set up Super Bowl against Chiefs",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "National Football League",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "NFL",
+      "path": "/sports/nfl"
+    },
+    "date": {
+      "content": 1706499315648,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    }
+  },
+  "tableOfContents": {
+    "children": [
+      {
+        "title": "The Super Bowl will feature quite the disparity in contract values for its starting quarterbacks. While...",
+        "arcId": "RIQX5Z4MTFEG5M5D7QRI6VP3DE",
+        "anchor": "link-RIQX5Z4MTFEG5M5D7QRI6VP3DE",
+        "displayDate": 1706498132712
+      },
+      {
+        "title": "The very early Super Bowl line has the 49ers installed as favorites by 2 to 2.5...",
+        "arcId": "PCNV7V4IQNDPXM7LTKTEMMH4VE",
+        "anchor": "link-PCNV7V4IQNDPXM7LTKTEMMH4VE",
+        "displayDate": 1706497634344
+      },
+      {
+        "title": "While Detroit’s second-half collapse was unfolding, there was plenty of chatter online about Coach Dan Campbell’s...",
+        "arcId": "WSYRC7YLXFEMHMXAK3SUU7QJSM",
+        "anchor": "link-WSYRC7YLXFEMHMXAK3SUU7QJSM",
+        "displayDate": 1706496984398
+      },
+      {
+        "title": "The fact that the 49ers used Elijah Mitchell and not Christian McCaffrey to run out the...",
+        "arcId": "IV5TAIRCJFDNPPW5S2AHRAQFJQ",
+        "anchor": "link-IV5TAIRCJFDNPPW5S2AHRAQFJQ",
+        "displayDate": 1706496889800
+      },
+      {
+        "title": "The Lions may be haunted for a long time by all that happened after 24-7. But...",
+        "arcId": "OMEKDN4V7RECXAUQD4KX54WAMA",
+        "anchor": "link-OMEKDN4V7RECXAUQD4KX54WAMA",
+        "displayDate": 1706496861387
+      },
+      {
+        "title": "The 49ers have recovered an onside kick by the Lions and will win this game, 34-31....",
+        "arcId": "R3SV65RNIJFH3GAOUJL7KHXBOM",
+        "anchor": "link-R3SV65RNIJFH3GAOUJL7KHXBOM",
+        "displayDate": 1706496373630
+      },
+      {
+        "title": "The Lions’ Jameson Williams caught a three-yard touchdown with 56 seconds left to help pull his...",
+        "arcId": "VU4BCFGXTFFVRJOL2JCV2BSYX4",
+        "anchor": "link-VU4BCFGXTFFVRJOL2JCV2BSYX4",
+        "displayDate": 1706496221255
+      },
+      {
+        "title": "Facing a desperate situation, Detroit moved to San Francisco’s 49-yard line as the two-minute warning arrived....",
+        "arcId": "QX4TCM5UCJG2FDVLWMX3BQDUZ4",
+        "anchor": "link-QX4TCM5UCJG2FDVLWMX3BQDUZ4",
+        "displayDate": 1706495838666
+      },
+      {
+        "title": "San Francisco has another touchdown, and now the Lions are in deep trouble. The 49ers scored...",
+        "arcId": "Q3AAXDY2QJGFJD7X7LZNEX5CHY",
+        "anchor": "link-Q3AAXDY2QJGFJD7X7LZNEX5CHY",
+        "displayDate": 1706495581046
+      },
+      {
+        "title": "Playing from behind for the first time in the game, Detroit moved to the 49ers’ 30-yard...",
+        "arcId": "L4HXISZGWBDXHLVPANANVWYCSE",
+        "anchor": "link-L4HXISZGWBDXHLVPANANVWYCSE",
+        "displayDate": 1706495201337
+      },
+      {
+        "title": "Now the 49ers have the lead, at 27-24 with 9 minutes 52 seconds left in the...",
+        "arcId": "YVXEJYMLGBFSZAML7DJ2ZMEYEQ",
+        "anchor": "link-YVXEJYMLGBFSZAML7DJ2ZMEYEQ",
+        "displayDate": 1706494672249
+      },
+      {
+        "title": "Josh Reynolds, who’s had huge drops on back-to-back drives, looked really frustrated coming off the field....",
+        "arcId": "UU6LW7ETIFBGLPM256OPXE5YH4",
+        "anchor": "link-UU6LW7ETIFBGLPM256OPXE5YH4",
+        "displayDate": 1706494142454
+      },
+      {
+        "title": "Suddenly bereft of any type of lead, let alone the 17-point bulge they enjoyed at halftime,...",
+        "arcId": "DNV3GPJFWFE5DMWRNJOUHOXHMY",
+        "anchor": "link-DNV3GPJFWFE5DMWRNJOUHOXHMY",
+        "displayDate": 1706493956968
+      },
+      {
+        "title": "It only took 11:58 of game clock for the 49ers to erase a 17-point deficit.",
+        "arcId": "II3MODEIBNEKPBCMTVYCQ6L424",
+        "anchor": "link-II3MODEIBNEKPBCMTVYCQ6L424",
+        "displayDate": 1706493506045
+      },
+      {
+        "title": "Christian McCaffrey barreled in from a yard out to help San Francisco tie the game at...",
+        "arcId": "3KVZE5GNENEXPBZR25LP622GAA",
+        "anchor": "link-3KVZE5GNENEXPBZR25LP622GAA",
+        "displayDate": 1706493458917
+      },
+      {
+        "title": "On the Lions’ first play following Brandon Aiyuk’s touchdown catch for the 49ers, Detroit running back...",
+        "arcId": "NGJFDKXBXVDWJLVHONC7MHL5X4",
+        "anchor": "link-NGJFDKXBXVDWJLVHONC7MHL5X4",
+        "displayDate": 1706493216663
+      },
+      {
+        "title": "Brandon Aiyuk followed his alert, acrobatic catch with a shorter one that gave San Francisco a...",
+        "arcId": "KZS3IN4INZDJZNRL6UGE63JPYI",
+        "anchor": "link-KZS3IN4INZDJZNRL6UGE63JPYI",
+        "displayDate": 1706493076817
+      },
+      {
+        "title": "A crazy play resulted in a huge gain for the 49ers. Brock Purdy heaved the ball...",
+        "arcId": "YRX3SRJLQJD5DN6JNQJN57J6KQ",
+        "anchor": "link-YRX3SRJLQJD5DN6JNQJN57J6KQ",
+        "displayDate": 1706492941153
+      },
+      {
+        "title": "Picking up where they left off in the first half, the Lions marched steadily to the...",
+        "arcId": "QH5U2COXQFFYVCPYI3AV5RRJOI",
+        "anchor": "link-QH5U2COXQFFYVCPYI3AV5RRJOI",
+        "displayDate": 1706492520163
+      },
+      {
+        "title": "Getting the ball to start the second half, San Francisco moved 50 yards for a 43-yard...",
+        "arcId": "3G74CQYMABBCDAWVLDG26C5XQM",
+        "anchor": "link-3G74CQYMABBCDAWVLDG26C5XQM",
+        "displayDate": 1706491992124
+      },
+      {
+        "title": "If the Lions win this and the Commanders really want Lions offensive coordinator Ben Johnson as...",
+        "arcId": "2QRQLKRFOFAAFL2JAHSGL7WR6Y",
+        "anchor": "link-2QRQLKRFOFAAFL2JAHSGL7WR6Y",
+        "displayDate": 1706491480138
+      },
+      {
+        "title": "Lions take 24-7 lead over 49ers into halftime",
+        "arcId": "VFCSZJ33YNBUBPYIRDVHGKFRVI",
+        "anchor": "link-VFCSZJ33YNBUBPYIRDVHGKFRVI",
+        "displayDate": 1706491228680
+      },
+      {
+        "title": "Lions fans look like 20 to 25 percent of the crowd at Levi’s Stadium. But they...",
+        "arcId": "U6YBKE6B5RBVXFJLRV37IU5EVA",
+        "anchor": "link-U6YBKE6B5RBVXFJLRV37IU5EVA",
+        "displayDate": 1706491007387
+      },
+      {
+        "title": "Detroit, one of the most aggressive teams in the league, smartly pivots to kick the field...",
+        "arcId": "DUXW4TMPENDALOTDFL5ZIFERWE",
+        "anchor": "link-DUXW4TMPENDALOTDFL5ZIFERWE",
+        "displayDate": 1706490639077
+      },
+      {
+        "title": "The Lions converted on third-down plays of 12, 18 and seven yards while driving to San...",
+        "arcId": "HDGR4WWXCRHFTGI2GVPY3AOPMU",
+        "anchor": "link-HDGR4WWXCRHFTGI2GVPY3AOPMU",
+        "displayDate": 1706490565825
+      }
+    ]
+  },
+  "first_display_date": 1706470222900
+}

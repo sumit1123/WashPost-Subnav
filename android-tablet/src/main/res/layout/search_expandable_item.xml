@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/search_card_bg"
+    android:elevation="3dp"
+    android:outlineSpotShadowColor="@color/search_shadow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/expandable_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="-25dp"
+        style="@style/search_section_style"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/expandable_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="55dp"/>
+
+
+</FrameLayout>

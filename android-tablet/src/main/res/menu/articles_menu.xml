@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_gift"
+        android:icon="?attr/app_bar_gift_icon"
+        android:orderInCategory="100"
+        android:title="Gift Article"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_audio_play"
+        android:icon="?attr/app_bar_audio_icon"
+        android:orderInCategory="100"
+        android:title="TextToSpeech"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_bookmark"
+        android:icon="?attr/app_bar_save_icon"
+        android:orderInCategory="110"
+        android:title="@string/article_action_save"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_share"
+        android:icon="?attr/app_bar_share_icon"
+        android:orderInCategory="120"
+        android:title="@string/article_action_share"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>

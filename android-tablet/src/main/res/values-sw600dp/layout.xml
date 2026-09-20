@@ -1,0 +1,3 @@
+<resources>
+    <item name="loading_curtain" type="layout">@layout/loading_curtain_large</item>
+</resources>

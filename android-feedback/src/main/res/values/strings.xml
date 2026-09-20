@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">android-feedback</string>
+    <string name="feedback_conversation" translatable="false">Was this answer useful?</string>
+    <string name="feedback_retry" translatable="false">Retry</string>
+    <string name="feedback_details_yes_description" translatable="false">What was most useful to you in this experience?</string>
+    <string name="feedback_details_unsure_description" translatable="false">What can we do better?</string>
+    <string name="feedback_details_no_description" translatable="false">@string/feedback_details_unsure_description</string>
+    <string name="feedback_title" translatable="false">Share your thoughts</string>
+    <string name="feedback_description" translatable="false">Did the AI summary tool improve your experience?</string>
+    <string name="feedback_yes" translatable="false">Yes</string>
+    <string name="feedback_no" translatable="false">No</string>
+    <string name="feedback_unsure" translatable="false">Unsure</string>
+    <string name="feedback_details_title" translatable="false">Tell us more!</string>
+    <string name="feedback_details_hint" translatable="false">Optional feedback</string>
+    <string name="feedback_submit" translatable="false">Submit</string>
+    <string name="feedback_tq_title" translatable="false">Thanks for your feedback!</string>
+    <string name="feedback_tq_description" translatable="false">Your submission will help us improve The Washington Post reader experience for everyone.</string>
+    <string name="feedback_ask_the_post_article_description" translatable="false">Was this answer useful?</string>
+    <string name="button_submit">Submit</string>
+</resources>

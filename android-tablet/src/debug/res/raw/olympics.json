@@ -1,0 +1,1623 @@
+{
+  "layout": "homepage",
+  "output_type": "jsonapp",
+  "tracking": {
+    "page_name": "front - undefined",
+    "page_title": "",
+    "page_path": "",
+    "channel": "front - undefined"
+  },
+  "regions": [
+    {
+      "location": "content",
+      "items": [
+        {
+          "id": "c0fCQGA3gxHObzo",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "no-name",
+          "link_group": "no-name",
+          "layout_name": "even-split-3-separate-tables-with-top-strip",
+          "dividers": {
+            "xlarge": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 16
+                }
+              ],
+              "vertical": [
+                {
+                  "col": 16,
+                  "row": 0,
+                  "rowspan": 2
+                },
+                {
+                  "col": 8,
+                  "row": 1,
+                  "rowspan": 1
+                }
+              ]
+            },
+            "large": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 16
+                }
+              ],
+              "vertical": [
+                {
+                  "col": 8,
+                  "row": 1,
+                  "rowspan": 1
+                }
+              ]
+            },
+            "medium": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 12
+                }
+              ],
+              "vertical": [
+                {
+                  "col": 6,
+                  "row": 1,
+                  "rowspan": 1
+                }
+              ]
+            },
+            "small": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 10
+                }
+              ]
+            }
+          },
+          "label": {
+            "type": "section-large",
+            "alignment": "left",
+            "icon": "olympics",
+            "show_arrow": false,
+            "label": {
+              "text": "OLYMPICS PLAYGROUND"
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "table0",
+              "item_type": "table",
+              "link_group": "no-name",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "label": {
+                "type": "package",
+                "icon": "olympics",
+                "show_arrow": false,
+                "label": {
+                  "text": "MAIN-STREAM OLYMPICS COVERAGE"
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "f0fjgYWS5T2n1Hj",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "center",
+                  "last_picked_preset": "Banner head",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/sports/olympics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/sports/olympics/coe-gives-stamp-of-approval-to-tokyo-olympic-test-event/2021/05/05/74bee28e-ad70-11eb-82c1-896aca955bb9_story.html",
+                    "type": "article",
+                    "last_modified": "2021-05-05T08:51:04.000Z"
+                  },
+                  "source": "Associated Press",
+                  "label": {
+                    "type": "mini-all-caps",
+                    "position": "default",
+                    "alignment": "center",
+                    "icon": "olympics",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "APP ART FROM STORY"
+                    },
+                    "label_secondary": {
+                      "text": "Olympics component visible when mobile ordering kicks in"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/sports/olympics/coe-gives-stamp-of-approval-to-tokyo-olympic-test-event/2021/05/05/74bee28e-ad70-11eb-82c1-896aca955bb9_story.html",
+                      "type": "unknown"
+                    }
+                  },
+                  "headline": {
+                    "text": "Coe gives stamp of approval to Tokyo Olympic test event",
+                    "size": "huge",
+                    "font_style": "bold",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "f0fjgYWS5T2n1Hj",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "center",
+                  "last_picked_preset": "Banner head",
+                  "mobile_preset": "+ Image: Display (image above + caption/credit)",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "media",
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/sports/olympics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/sports/olympics/coe-gives-stamp-of-approval-to-tokyo-olympic-test-event/2021/05/05/74bee28e-ad70-11eb-82c1-896aca955bb9_story.html",
+                    "type": "article",
+                    "last_modified": "2021-05-05T08:51:04.000Z"
+                  },
+                  "source": "Associated Press",
+                  "label": {
+                    "type": "mini-all-caps",
+                    "position": "default",
+                    "alignment": "center",
+                    "icon": "olympics",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "APP ART FROM STORY"
+                    },
+                    "label_secondary": {
+                      "text": "Olympics component visible when mobile ordering kicks in"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/sports/olympics/coe-gives-stamp-of-approval-to-tokyo-olympic-test-event/2021/05/05/74bee28e-ad70-11eb-82c1-896aca955bb9_story.html",
+                      "type": "unknown"
+                    }
+                  },
+                  "media": {
+                    "dynamic_replacement": "olympics_medals_table",
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OIBALHVNOAI6XAWBRFVMVFK3XE.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "caption": "(Masanori Takei/AP)",
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "headline": {
+                    "text": "Coe gives stamp of approval to Tokyo Olympic test event",
+                    "size": "huge",
+                    "font_style": "bold",
+                    "alignment": "center"
+                  },
+                  "olympics_medals_table": {
+                    "id": "medals-table-demo",
+                    "component": "MedalsTable",
+                    "title": "Here are some medals",
+                    "use_screenshots": false,
+                    "use_screenshot_for_apps": false,
+                    "cta": {
+                      "title": "Full results",
+                      "link": {
+                        "url": "https://www.washingtonpost.com/sports/olympics/tokyo-summer-games/"
+                      }
+                    },
+                    "data": [
+                      {
+                        "title": "United States",
+                        "id": "USA",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/USA.svg",
+                        "gold": 46,
+                        "silver": 37,
+                        "bronze": 38,
+                        "total": 121,
+                        "rank": "1"
+                      },
+                      {
+                        "title": "China",
+                        "id": "CHN",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/CHN.svg",
+                        "gold": 26,
+                        "silver": 18,
+                        "bronze": 26,
+                        "total": 70,
+                        "rank": "2"
+                      },
+                      {
+                        "title": "Great Britain",
+                        "id": "GBR",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/GBR.svg",
+                        "gold": 27,
+                        "silver": 23,
+                        "bronze": 17,
+                        "total": 67,
+                        "rank": "3"
+                      },
+                      {
+                        "title": "Russia",
+                        "id": "RUS",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/RUS.svg",
+                        "gold": 19,
+                        "silver": 17,
+                        "bronze": 20,
+                        "total": 56,
+                        "rank": "4"
+                      },
+                      {
+                        "title": "Germany",
+                        "id": "GER",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/GER.svg",
+                        "gold": 17,
+                        "silver": 10,
+                        "bronze": 15,
+                        "total": 42,
+                        "rank": "T5"
+                      },
+                      {
+                        "title": "France",
+                        "id": "FRA",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/FRA.svg",
+                        "gold": 10,
+                        "silver": 18,
+                        "bronze": 14,
+                        "total": 42,
+                        "rank": "T5"
+                      }
+                    ]
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table1",
+              "item_type": "table",
+              "link_group": "no-name",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 8
+                },
+                "large": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 8
+                },
+                "medium": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 6
+                },
+                "small": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "label": {
+                "type": "package-nested",
+                "alignment": "left",
+                "icon": "olympics",
+                "show_arrow": false,
+                "label": {
+                  "text": "USA! USA! USA!"
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "f0fr4rIduC7n1PF",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + image above",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "media",
+                          "headline",
+                          "blurbs",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/sports/olympics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/sports/olympics/italy-to-vaccinate-its-athletes-for-tokyo-olympics/2021/05/04/817e2c24-acf7-11eb-82c1-896aca955bb9_story.html",
+                    "type": "article",
+                    "last_modified": "2021-05-04T16:41:00.000Z"
+                  },
+                  "source": "Associated Press",
+                  "label": {
+                    "type": "kicker",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "olympics",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "App art from live image"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/sports/olympics/italy-to-vaccinate-its-athletes-for-tokyo-olympics/2021/05/04/817e2c24-acf7-11eb-82c1-896aca955bb9_story.html",
+                      "type": "unknown"
+                    }
+                  },
+                  "media": {
+                    "dynamic_replacement": "olympics_medals_table",
+                    "link": {
+                      "url": "https://www.washingtonpost.com/sports/olympics/",
+                      "type": "unknown"
+                    },
+                    "overlay": {
+                      "text": "You're missing content",
+                      "prefix_icon": "arrow"
+                    },
+                    "url": "https://dy1ywzohuuzsd.cloudfront.net/2020/world/mapping-spread-new-coronavirus/img/screenshot/daily-chart-embed.png?ts=1623436800000",
+                    "alt_text": "",
+                    "aspect_ratio": 1.78,
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "headline": {
+                    "text": "Italy to vaccinate its athletes for Tokyo Olympics",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The Italian Olympic Committee is making arrangements to vaccinate its entire team for the Tokyo Games",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Associated Press"
+                  },
+                  "olympics_medals_table": {
+                    "id": "medals-table-demo",
+                    "component": "MedalsTable",
+                    "title": "Here are some medals",
+                    "use_screenshots": false,
+                    "use_screenshot_for_apps": false,
+                    "cta": {
+                      "title": "Full results",
+                      "link": {
+                        "url": "https://www.washingtonpost.com/sports/olympics/tokyo-summer-games/"
+                      }
+                    },
+                    "data": [
+                      {
+                        "title": "United States",
+                        "id": "USA",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/USA.svg",
+                        "gold": 46,
+                        "silver": 37,
+                        "bronze": 38,
+                        "total": 121,
+                        "rank": "1"
+                      },
+                      {
+                        "title": "China",
+                        "id": "CHN",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/CHN.svg",
+                        "gold": 26,
+                        "silver": 18,
+                        "bronze": 26,
+                        "total": 70,
+                        "rank": "2"
+                      },
+                      {
+                        "title": "Great Britain",
+                        "id": "GBR",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/GBR.svg",
+                        "gold": 27,
+                        "silver": 23,
+                        "bronze": 17,
+                        "total": 67,
+                        "rank": "3"
+                      },
+                      {
+                        "title": "Russia",
+                        "id": "RUS",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/RUS.svg",
+                        "gold": 19,
+                        "silver": 17,
+                        "bronze": 20,
+                        "total": 56,
+                        "rank": "4"
+                      },
+                      {
+                        "title": "Germany",
+                        "id": "GER",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/GER.svg",
+                        "gold": 17,
+                        "silver": 10,
+                        "bronze": 15,
+                        "total": 42,
+                        "rank": "T5"
+                      },
+                      {
+                        "title": "France",
+                        "id": "FRA",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/FRA.svg",
+                        "gold": 10,
+                        "silver": 18,
+                        "bronze": 14,
+                        "total": 42,
+                        "rank": "T5"
+                      }
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 4,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table2",
+              "item_type": "table",
+              "link_group": "no-name",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 8,
+                  "colspan": 8
+                },
+                "large": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 8,
+                  "colspan": 8
+                },
+                "medium": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 6,
+                  "colspan": 6
+                },
+                "small": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "label": {
+                "type": "package-nested",
+                "alignment": "left",
+                "icon": "olympics",
+                "show_arrow": false,
+                "label": {
+                  "text": "THE REST OF THE WORLD"
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "f0fH2lcttU8n1H3",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + image above",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      },
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "large"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "blurbs",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/sports/olympics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/sports/olympics/tokyo-games-need-500-nurses-nurses-say-needs-are-elsewhere/2021/05/02/b006d434-abb1-11eb-82c1-896aca955bb9_story.html",
+                    "type": "article",
+                    "last_modified": "2021-05-03T01:48:42.000Z"
+                  },
+                  "source": "Associated Press",
+                  "label": {
+                    "type": "kicker",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "olympics",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "App Art From Alt Art"
+                    },
+                    "label_secondary": {
+                      "text": "Olympics component visible (to the right) for desktop ordering only"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/sports/olympics/tokyo-games-need-500-nurses-nurses-say-needs-are-elsewhere/2021/05/02/b006d434-abb1-11eb-82c1-896aca955bb9_story.html",
+                      "type": "unknown"
+                    }
+                  },
+                  "media": {
+                    "dynamic_replacement": "olympics_medals_table",
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QVFMHHFS24I6TLGIDWCHXLGKOM.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.78,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "large"
+                  },
+                  "headline": {
+                    "text": "Tokyo Games need 500 nurses; nurses say needs are elsewhere",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Some nurses in Japan are incensed at a request from Tokyo Olympic organizers to have 500 of them dispatched to help out with the games",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Yuri Kageyama and Stephen Wade | AP"
+                  },
+                  "olympics_medals_table": {
+                    "id": "medals-table-demo",
+                    "component": "MedalsTable",
+                    "title": "Here are some medals",
+                    "use_screenshots": false,
+                    "use_screenshot_for_apps": false,
+                    "cta": {
+                      "title": "Full results",
+                      "link": {
+                        "url": "https://www.washingtonpost.com/sports/olympics/tokyo-summer-games/"
+                      }
+                    },
+                    "data": [
+                      {
+                        "title": "United States",
+                        "id": "USA",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/USA.svg",
+                        "gold": 46,
+                        "silver": 37,
+                        "bronze": 38,
+                        "total": 121,
+                        "rank": "1"
+                      },
+                      {
+                        "title": "China",
+                        "id": "CHN",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/CHN.svg",
+                        "gold": 26,
+                        "silver": 18,
+                        "bronze": 26,
+                        "total": 70,
+                        "rank": "2"
+                      },
+                      {
+                        "title": "Great Britain",
+                        "id": "GBR",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/GBR.svg",
+                        "gold": 27,
+                        "silver": 23,
+                        "bronze": 17,
+                        "total": 67,
+                        "rank": "3"
+                      },
+                      {
+                        "title": "Russia",
+                        "id": "RUS",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/RUS.svg",
+                        "gold": 19,
+                        "silver": 17,
+                        "bronze": 20,
+                        "total": 56,
+                        "rank": "4"
+                      },
+                      {
+                        "title": "Germany",
+                        "id": "GER",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/GER.svg",
+                        "gold": 17,
+                        "silver": 10,
+                        "bronze": 15,
+                        "total": 42,
+                        "rank": "T5"
+                      },
+                      {
+                        "title": "France",
+                        "id": "FRA",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/FRA.svg",
+                        "gold": 10,
+                        "silver": 18,
+                        "bronze": 14,
+                        "total": 42,
+                        "rank": "T5"
+                      }
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 4,
+                      "col": 0,
+                      "colspan": 6
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "f0fH2lcttU8n1H3",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + image above",
+                  "mobile_preset": "– Hide image only",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "blurbs",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/sports/olympics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/sports/olympics/tokyo-games-need-500-nurses-nurses-say-needs-are-elsewhere/2021/05/02/b006d434-abb1-11eb-82c1-896aca955bb9_story.html",
+                    "type": "article",
+                    "last_modified": "2021-05-03T01:48:42.000Z"
+                  },
+                  "source": "Associated Press",
+                  "label": {
+                    "type": "kicker",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "olympics",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "App Art From Alt Art"
+                    },
+                    "label_secondary": {
+                      "text": "Olympics component visible (to the right) for desktop ordering only"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/sports/olympics/tokyo-games-need-500-nurses-nurses-say-needs-are-elsewhere/2021/05/02/b006d434-abb1-11eb-82c1-896aca955bb9_story.html",
+                      "type": "unknown"
+                    }
+                  },
+                  "headline": {
+                    "text": "Tokyo Games need 500 nurses; nurses say needs are elsewhere",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Some nurses in Japan are incensed at a request from Tokyo Olympic organizers to have 500 of them dispatched to help out with the games",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Yuri Kageyama and Stephen Wade | AP"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table9",
+              "item_type": "table",
+              "link_group": "no-name",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 2,
+                  "col": 16,
+                  "colspan": 4
+                },
+                "large": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 3,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 3,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 4
+                    }
+                  ]
+                },
+                "large": {
+                  "vertical": [
+                    {
+                      "col": 5,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 10,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "medium": {
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 8,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "label": {
+                "type": "package",
+                "icon": "olympics",
+                "show_arrow": false,
+                "label": {
+                  "text": "FAR-RIGHT OLYMPICS COVERAGE"
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "f0fU0z2qMK9n1Wb",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "center",
+                  "last_picked_preset": "Head + image above",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "media",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.washingtonpost.com/sports/2021/05/05/japan-ioc-olympic-contract/",
+                    "type": "web"
+                  },
+                  "label": {
+                    "type": "live-updates",
+                    "position": "default",
+                    "alignment": "center",
+                    "icon": "olympics",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "NO APP ART"
+                    },
+                    "label_secondary": {
+                      "text": "Left-alignment enforced"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/sports/2021/05/05/japan-ioc-olympic-contract/",
+                      "type": "unknown"
+                    }
+                  },
+                  "headline": {
+                    "text": "Japan should cut its losses and tell the IOC to take its Olympic pillage somewhere else",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "center"
+                  },
+                  "media": {
+                    "dynamic_replacement": "olympics_medals_table"
+                  },
+                  "signature": {
+                    "by_line": "By Sally Jenkins"
+                  },
+                  "olympics_medals_table": {
+                    "id": "medals-table-demo",
+                    "component": "MedalsTable",
+                    "title": "Here are some medals",
+                    "use_screenshots": false,
+                    "use_screenshot_for_apps": false,
+                    "cta": {
+                      "title": "Full results",
+                      "link": {
+                        "url": "https://www.washingtonpost.com/sports/olympics/tokyo-summer-games/"
+                      }
+                    },
+                    "data": [
+                      {
+                        "title": "United States",
+                        "id": "USA",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/USA.svg",
+                        "gold": 46,
+                        "silver": 37,
+                        "bronze": 38,
+                        "total": 121,
+                        "rank": "1"
+                      },
+                      {
+                        "title": "China",
+                        "id": "CHN",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/CHN.svg",
+                        "gold": 26,
+                        "silver": 18,
+                        "bronze": 26,
+                        "total": 70,
+                        "rank": "2"
+                      },
+                      {
+                        "title": "Great Britain",
+                        "id": "GBR",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/GBR.svg",
+                        "gold": 27,
+                        "silver": 23,
+                        "bronze": 17,
+                        "total": 67,
+                        "rank": "3"
+                      },
+                      {
+                        "title": "Russia",
+                        "id": "RUS",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/RUS.svg",
+                        "gold": 19,
+                        "silver": 17,
+                        "bronze": 20,
+                        "total": 56,
+                        "rank": "4"
+                      },
+                      {
+                        "title": "Germany",
+                        "id": "GER",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/GER.svg",
+                        "gold": 17,
+                        "silver": 10,
+                        "bronze": 15,
+                        "total": 42,
+                        "rank": "T5"
+                      },
+                      {
+                        "title": "France",
+                        "id": "FRA",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/FRA.svg",
+                        "gold": 10,
+                        "silver": 18,
+                        "bronze": 14,
+                        "total": 42,
+                        "rank": "T5"
+                      }
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "f0fyNpTSh0K8cEU",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Art only",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "media"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "mini-all-caps",
+                    "position": "default",
+                    "icon": "olympics",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "NO APP ART"
+                    },
+                    "label_secondary": {
+                      "text": "Web -- art only"
+                    }
+                  },
+                  "media": {
+                    "dynamic_replacement": "olympics_medals_table"
+                  },
+                  "olympics_medals_table": {
+                    "id": "medals-table-demo",
+                    "component": "MedalsTable",
+                    "title": "Here are some medals",
+                    "use_screenshots": false,
+                    "use_screenshot_for_apps": false,
+                    "cta": {
+                      "title": "Full results",
+                      "link": {
+                        "url": "https://www.washingtonpost.com/sports/olympics/tokyo-summer-games/"
+                      }
+                    },
+                    "data": [
+                      {
+                        "title": "United States",
+                        "id": "USA",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/USA.svg",
+                        "gold": 46,
+                        "silver": 37,
+                        "bronze": 38,
+                        "total": 121,
+                        "rank": "1"
+                      },
+                      {
+                        "title": "China",
+                        "id": "CHN",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/CHN.svg",
+                        "gold": 26,
+                        "silver": 18,
+                        "bronze": 26,
+                        "total": 70,
+                        "rank": "2"
+                      },
+                      {
+                        "title": "Great Britain",
+                        "id": "GBR",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/GBR.svg",
+                        "gold": 27,
+                        "silver": 23,
+                        "bronze": 17,
+                        "total": 67,
+                        "rank": "3"
+                      },
+                      {
+                        "title": "Russia",
+                        "id": "RUS",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/RUS.svg",
+                        "gold": 19,
+                        "silver": 17,
+                        "bronze": 20,
+                        "total": 56,
+                        "rank": "4"
+                      },
+                      {
+                        "title": "Germany",
+                        "id": "GER",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/GER.svg",
+                        "gold": 17,
+                        "silver": 10,
+                        "bronze": 15,
+                        "total": 42,
+                        "rank": "T5"
+                      },
+                      {
+                        "title": "France",
+                        "id": "FRA",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags-v1/FRA.svg",
+                        "gold": 10,
+                        "silver": 18,
+                        "bronze": 14,
+                        "total": 42,
+                        "rank": "T5"
+                      }
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 4,
+                      "colspan": 4
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "id": "f0f7hT5bTg4rcVa",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "is_from_feed": true,
+                  "index": 0,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "media",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/sports/olympics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/sports/2021/04/05/team-usa-tokyo-olympics-qualifiers/",
+                    "type": "article",
+                    "last_modified": "2021-06-11T15:16:35.413Z"
+                  },
+                  "source": "the-washington-post",
+                  "label": {
+                    "type": "mini-all-caps",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "olympics",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "FEED-DRIVEN CONTENT"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/sports/2021/04/05/team-usa-tokyo-olympics-qualifiers/",
+                      "type": "unknown"
+                    }
+                  },
+                  "headline": {
+                    "text": "Which U.S. athletes have qualified to compete at the Tokyo Olympics?",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "dynamic_replacement": "olympics_medals_table",
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LU6JUUX2JII6PG25XPYNUMJBJU.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-below-head",
+                    "art_width": "full-width"
+                  },
+                  "signature": {
+                    "by_line": "By Rick Maese and Emily Giambalvo"
+                  },
+                  "olympics_medals_table": {
+                    "component": "MedalsTable",
+                    "title": "PyeongChang 2018",
+                    "cta": {
+                      "title": "See Olympics Coverage",
+                      "link": {
+                        "url": "https://www.washingtonpost.com/sports/olympics/tokyo-summer-games/"
+                      }
+                    },
+                    "data": [
+                      {
+                        "gold": 14,
+                        "rank": "1",
+                        "total": 39,
+                        "silver": 14,
+                        "bronze": 11,
+                        "title": "Norway",
+                        "id": "NOR",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags/NOR.jpg"
+                      },
+                      {
+                        "gold": 14,
+                        "rank": "2",
+                        "total": 31,
+                        "silver": 10,
+                        "bronze": 7,
+                        "title": "Germany",
+                        "id": "GER",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags/GER.jpg"
+                      },
+                      {
+                        "gold": 11,
+                        "rank": "3",
+                        "total": 29,
+                        "silver": 8,
+                        "bronze": 10,
+                        "title": "Canada",
+                        "id": "CAN",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags/CAN.jpg"
+                      },
+                      {
+                        "gold": 9,
+                        "rank": "4",
+                        "total": 23,
+                        "silver": 8,
+                        "bronze": 6,
+                        "title": "USA",
+                        "id": "USA",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags/USA.jpg"
+                      },
+                      {
+                        "gold": 5,
+                        "rank": "7",
+                        "total": 17,
+                        "silver": 8,
+                        "bronze": 4,
+                        "title": "South Korea",
+                        "id": "KOR",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags/KOR.jpg"
+                      }
+                    ],
+                    "id": "3a3994fe9e931b084ed6f03ceddcd43296236c8ec751894c08ca82a286307a29"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 10,
+                      "colspan": 5
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 8,
+                      "colspan": 4
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": true,
+                  "index": 0,
+                  "id": "f0f7hT5bTg4rcVa",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/sports/olympics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/sports/2021/04/05/team-usa-tokyo-olympics-qualifiers/",
+                    "type": "article",
+                    "last_modified": "2021-06-11T15:16:35.413Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "dynamic_replacement": "olympics_medals_table",
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LU6JUUX2JII6PG25XPYNUMJBJU.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "label": {
+                    "type": "mini-all-caps",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "olympics",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "FEED-DRIVEN CONTENT"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/sports/2021/04/05/team-usa-tokyo-olympics-qualifiers/",
+                      "type": "unknown"
+                    }
+                  },
+                  "headline": {
+                    "text": "Which U.S. athletes have qualified to compete at the Tokyo Olympics?",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Rick Maese and Emily Giambalvo"
+                  },
+                  "olympics_medals_table": {
+                    "component": "MedalsTable",
+                    "title": "PyeongChang 2018",
+                    "cta": {
+                      "title": "See Olympics Coverage",
+                      "link": {
+                        "url": "https://www.washingtonpost.com/sports/olympics/tokyo-summer-games/"
+                      }
+                    },
+                    "data": [
+                      {
+                        "gold": 14,
+                        "rank": "1",
+                        "total": 39,
+                        "silver": 14,
+                        "bronze": 11,
+                        "title": "Norway",
+                        "id": "NOR",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags/NOR.jpg"
+                      },
+                      {
+                        "gold": 14,
+                        "rank": "2",
+                        "total": 31,
+                        "silver": 10,
+                        "bronze": 7,
+                        "title": "Germany",
+                        "id": "GER",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags/GER.jpg"
+                      },
+                      {
+                        "gold": 11,
+                        "rank": "3",
+                        "total": 29,
+                        "silver": 8,
+                        "bronze": 10,
+                        "title": "Canada",
+                        "id": "CAN",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags/CAN.jpg"
+                      },
+                      {
+                        "gold": 9,
+                        "rank": "4",
+                        "total": 23,
+                        "silver": 8,
+                        "bronze": 6,
+                        "title": "USA",
+                        "id": "USA",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags/USA.jpg"
+                      },
+                      {
+                        "gold": 5,
+                        "rank": "7",
+                        "total": 17,
+                        "silver": 8,
+                        "bronze": 4,
+                        "title": "South Korea",
+                        "id": "KOR",
+                        "icon": "https://olympics-dev.news-engineering.aws.wapo.pub/assets/flags/KOR.jpg"
+                      }
+                    ],
+                    "id": "3a3994fe9e931b084ed6f03ceddcd43296236c8ec751894c08ca82a286307a29"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        }
+      ]
+    }
+  ],
+  "checksum": "lp132i1o414113lct1tc11g44a"
+}

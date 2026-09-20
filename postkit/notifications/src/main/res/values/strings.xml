@@ -1,0 +1,27 @@
+<resources>
+    <string name="alerts_title" translatable="false">ALERTS</string>
+    <string name="alert_settings_status_on" translatable="false">Alerts are enabled</string>
+    <string name="alert_settings_status_off" translatable="false">Alerts are disabled</string>
+    <string name="alerts_enable" translatable="false">Enable Alerts</string>
+    <string name="no_alerts" translatable="false">You have no new alerts</string>
+    <string name="alerts_24" translatable="false">Alerts from the last 24 hours</string>
+    <string name="alerts_48" translatable="false">Alerts from the last 48 hours</string>
+    <string name="cancelLabel" translatable="false">Cancel</string>
+    <string name="customize" translatable="false">Customize</string>
+    <string name="edit_your_settings" translatable="false">Tap <u>Customize</u> to sign up for more alerts</string>
+    <string name="notifications_blocked_title" translatable="false">Notifications Blocked</string>
+    <string name="notifications_blocked_message" translatable="false">Notifications are currently blocked for our app. Please unblock our app in your Settings to receive alerts.</string>
+    <string name="go_settings_message" translatable="false">Go to Settings</string>
+    <string name="turn_on_notifications" translatable="false"> <u>Turn on notifications</u> to receive alerts </string>
+    <string name="new_topics_available" translatable="false">New topics are now available for Opinions and Editors\' Picks. <b>Sign Up</b></string>
+
+    <string name="notification_save" translatable="false">Save</string>
+    <string name="notification_read" translatable="false">Read</string>
+
+    <string name="notification_sent_at">Sent at</string>
+    <string name="notification_sent_yesterday">Sent Yesterday at</string>
+    <string name="notification_sent">Sent</string>
+
+    <string name="consent_blocked_title" translatable="false">Turn On Consent</string>
+    <string name="consent_blocked_message" translatable="false">Functional and Targeting cookies must be enabled to receive Daily Read alerts from The Washington Post</string>
+</resources>

@@ -1,0 +1,1623 @@
+{
+  "layout": "homepage",
+  "output_type": "jsonapp",
+  "tracking": {
+    "page_name": "homepage",
+    "page_title": "The Washington Post - Breaking news and latest headlines, U.S. news, world news, and video - The Washington Post",
+    "page_path": "/",
+    "section": "homepage",
+    "channel": "homepage"
+  },
+  "regions": [
+    {
+      "location": "content",
+      "items": [
+        {
+          "id": "6eeeac76-8cd2-4bc6-ad65-dc6d40e2e2e2",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "chain (tiling)",
+          "link_group": "chain (tiling)",
+          "layout_name": "tiling",
+          "label": {
+            "type": "package",
+            "show_arrow": true,
+            "label": {
+              "text": "RECIPES"
+            },
+            "label_secondary": {
+              "text": "Try our new recipe finder"
+            },
+            "link": {
+              "url": "https://www.washingtonpost.com/recipes/",
+              "type": "unknown"
+            },
+            "form": {
+              "method": "GET",
+              "action": "https://www.washingtonpost.com/recipes/",
+              "fields": [
+                {
+                  "type": "search",
+                  "param": "q",
+                  "placeholder": "Search recipes"
+                }
+              ]
+            }
+          },
+          "cta": {
+            "type": "cta",
+            "alignment": "center",
+            "show_arrow": true,
+            "label": {
+              "text": "More recipes"
+            },
+            "link": {
+              "url": "https://www.washingtonpost.com/recipes/",
+              "type": "unknown"
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "id": "allcontent-6eeeac76-8cd2-4bc6-ad65-dc6d40e2e2e2",
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "chain (tiling)",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "item_type": "carousel/recipe",
+                  "id": "5288d374-c4d2-4e75-8c2f-a4b05aa75c26",
+                  "items": [
+                    {
+                      "item_type": "recipe",
+                      "id": "ARNG6X7MBQYAPJQOCPIXWIEABM",
+                      "tracking": {
+                        "feed": "mr_/lifestyle/food/recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/instant-pot-lemon-chicken-potatoes/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-09-26T08:00:00Z",
+                        "display_date": "2023-09-26T08:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OGL5YOUWIBGLKYLMOUYJXN4HHU.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Instant Pot Lemon Chicken and Potatoes"
+                      },
+                      "recipe_info": {
+                        "total_time": 2700,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "7XWS3IKFEUZ25PYMOURO63EOEA",
+                      "tracking": {
+                        "feed": "mr_/lifestyle/food/recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/air-fryer-orange-tofu/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-09-27T04:00:00Z",
+                        "display_date": "2023-09-27T04:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZFNF4P6THNNBYJBUIZMSZB7MTE.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Air Fryer Orange Tofu"
+                      },
+                      "recipe_info": {
+                        "total_time": 2700,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "ELTNNI47XU5CLKVXPV66Q7KDIU",
+                      "tracking": {
+                        "feed": "mr_/lifestyle/food/recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/squash-and-apple-gratin/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2020-12-06T00:00:00Z",
+                        "display_date": "2020-12-06T00:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://www.washingtonpost.com/rf/image_982w/2010-2019/WashingtonPost/2020/11/27/Food/Images/v-wkveg-gratin_068.JPG",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Butternut Squash and Apple Gratin"
+                      },
+                      "recipe_info": {
+                        "courses": [
+                          {
+                            "id": "side-dish",
+                            "description": "Side Dish"
+                          },
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "5BVUONCPD46WZEAEH2TVWXSHVY",
+                      "tracking": {
+                        "feed": "mr_/lifestyle/food/recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/roasted-turnips-apples-and-rosemary-chicken-thighs-and-greens/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2019-12-09T00:00:00Z",
+                        "display_date": "2019-12-09T00:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BWUHSOAYJYI6VAGW2DFHABZHH4_size-normalized.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Skillet Chicken Thighs with Turnips, Apples and Greens"
+                      },
+                      "recipe_info": {
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "FNP7MNESPYYSXFDODUUZXSOTZQ",
+                      "tracking": {
+                        "feed": "mr_/lifestyle/food/recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/roasted-pork-tenderloin-apples-shallots-and-spinach/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2022-09-29T00:00:00Z",
+                        "display_date": "2022-09-29T00:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/55MU3MRC6UI63JZPDZYUSBZPXQ.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Roasted Pork Tenderloin With Apples, Shallots and Spinach"
+                      },
+                      "recipe_info": {
+                        "total_time": 3000,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        },
+        {
+          "id": "900a0036-30bc-4584-8e1a-171babb5f535",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "hp-top-table-main",
+          "link_group": "hp-top-table-main",
+          "layout_name": "double-wide-with-far-right-table",
+          "dividers": {
+            "xlarge": {
+              "vertical": [
+                {
+                  "col": 8,
+                  "row": 0,
+                  "rowspan": 1
+                },
+                {
+                  "col": 16,
+                  "row": 0,
+                  "rowspan": 1
+                }
+              ]
+            },
+            "large": {
+              "vertical": [
+                {
+                  "col": 8,
+                  "row": 0,
+                  "rowspan": 1
+                }
+              ]
+            },
+            "medium": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 12
+                }
+              ]
+            },
+            "small": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 10
+                }
+              ]
+            },
+            "xsmall": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              ]
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "id": "table1-900a0036-30bc-4584-8e1a-171babb5f535",
+              "table_name": "table1",
+              "item_type": "table",
+              "link_group": "hp-top-table-main",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 8
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 8
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "label": {
+                "type": "kicker",
+                "label": {
+                  "text": "Morocco Earthquake"
+                },
+                "form": {
+                  "method": "GET",
+                  "action": "https://www.washingtonpost.com/recipes/",
+                  "fields": [
+                    {
+                      "type": "search",
+                      "param": "q",
+                      "placeholder": "Search for a recipe"
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "9fc81ecb-4234-43e7-bcfb-455f42e756fa",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "12-11p-russia-nkorea",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Top Stories -- Strip display",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "large"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "blurbs",
+                          "signature",
+                          "related_links"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/world/asia_pacific",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/world/2023/09/12/putin-kim-meeting-russia-north-korea/",
+                    "type": "article",
+                    "last_modified": "2023-09-13T21:38:37.368Z",
+                    "display_date": "2023-09-13T21:38:33.141Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "art_position": "art-right",
+                    "art_width": "large",
+                    "aspect_ratio": 1.7777777777777777,
+                    "caption": "(Reuters)",
+                    "media_type": "wp-video",
+                    "overlay": {
+                      "text": "Putin welcomes Kim",
+                      "secondary_text": "0:33",
+                      "secondary_style": "secondary",
+                      "prefix_icon": "play"
+                    },
+                    "url": "https://d1i4t8bqe7zgj6.cloudfront.net/09-13-2023/t_700a996465fe4690bacac973273ac715_name_HKKIVXOJPLFM2DGP2GAUZUTBPM.jpg",
+                    "video": {
+                      "adconfig": {
+                        "commercial_ad_node": "/world",
+                        "play_video_ads": true,
+                        "allow_preroll_on_domain": false,
+                        "enable_auto_preview": true,
+                        "play_ads": false,
+                        "auto_play_preroll": false,
+                        "enable_ad_insertion": false,
+                        "video_ad_zone": "wpni.video.world",
+                        "ad_set_url": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.world_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+                      },
+                      "tracking": {
+                        "content_id": "bd774535-8ac2-41d9-a58e-3d3cd41895cd",
+                        "page_name": "front - homepage",
+                        "video_category": "wirereuters",
+                        "video_section": "World",
+                        "video_name": "World:video - 3d3cd41895cd - 20230913 - Putin welcomes Kim Jong Un to spaceport",
+                        "video_source": "Reuters"
+                      },
+                      "duration": 34,
+                      "streams": [
+                        {
+                          "bitrate": 160,
+                          "filesize": 1577508,
+                          "height": 180,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/mobile.m3u8",
+                          "width": 320
+                        },
+                        {
+                          "bitrate": 300,
+                          "filesize": 2266716,
+                          "height": 360,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/mobile.m3u8",
+                          "width": 640
+                        },
+                        {
+                          "bitrate": 600,
+                          "filesize": 3439648,
+                          "height": 360,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/mobile.m3u8",
+                          "width": 640
+                        },
+                        {
+                          "bitrate": 1200,
+                          "filesize": 6061120,
+                          "height": 480,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/master.m3u8",
+                          "width": 854
+                        },
+                        {
+                          "bitrate": 4500,
+                          "filesize": 17666172,
+                          "height": 1080,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/hd.m3u8",
+                          "width": 1920
+                        },
+                        {
+                          "bitrate": 5400,
+                          "filesize": 17537016,
+                          "height": 1080,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/hlsv4_master.m3u8",
+                          "width": 1920
+                        },
+                        {
+                          "bitrate": 160,
+                          "filesize": 1244520,
+                          "height": 180,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/file_320x180-160-v3.mp4",
+                          "width": 320
+                        },
+                        {
+                          "bitrate": 600,
+                          "filesize": 3068165,
+                          "height": 360,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/file_640x360-600-v3.mp4",
+                          "width": 640
+                        },
+                        {
+                          "bitrate": 1200,
+                          "filesize": 5663833,
+                          "height": 480,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/file_854x480-1200-v3_1.mp4",
+                          "width": 854
+                        },
+                        {
+                          "bitrate": 2000,
+                          "filesize": 9151825,
+                          "height": 720,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/file_1280x720-2000-v3_1.mp4",
+                          "width": 1280
+                        },
+                        {
+                          "bitrate": 5400,
+                          "filesize": 23444839,
+                          "height": 1080,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/file_1920x1080-5400-v4.mp4",
+                          "width": 1920
+                        }
+                      ]
+                    }
+                  },
+                  "headline": {
+                    "text": "Kim pledges to back Putin’s ‘sacred struggle’ during rare summit",
+                    "size": "x-large",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "North Korean leader Kim Jong Un called his country’s relations with Russia his top priority and pledged full support to President Vladimir Putin and his government, as the leaders met Wednesday for the first time in four years.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Michelle Ye Hee Lee and Mary Ilyushina"
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Kim and Putin met at Russia’s Vostochny Cosmodrome. Here’s why.",
+                        "url": "https://www.washingtonpost.com/world/2023/09/12/vostochny-cosmodrome-putin-kim-meeting/"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "stacked"
+                    },
+                    "related_links_order": "3",
+                    "label": {
+                      "type": "kicker",
+                      "alignment": "left",
+                      "label": {
+                        "text": "MORE COVERAGE"
+                      }
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "9fc81ecb-4234-43e7-bcfb-455f42e756fa",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "12-11p-russia-nkorea",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Top Stories -- Strip display",
+                  "mobile_preset": "+ Image: Display – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media",
+                          "headline",
+                          "signature",
+                          "related_links"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/world/asia_pacific",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/world/2023/09/12/putin-kim-meeting-russia-north-korea/",
+                    "type": "article",
+                    "last_modified": "2023-09-13T21:38:37.368Z",
+                    "display_date": "2023-09-13T21:38:33.141Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "art_position": "art-above-head",
+                    "art_width": "full-width",
+                    "aspect_ratio": 1.7777777777777777,
+                    "caption": "(Reuters)",
+                    "media_type": "wp-video",
+                    "overlay": {
+                      "text": "Putin welcomes Kim",
+                      "secondary_text": "0:33",
+                      "secondary_style": "secondary",
+                      "prefix_icon": "play"
+                    },
+                    "url": "https://d1i4t8bqe7zgj6.cloudfront.net/09-13-2023/t_700a996465fe4690bacac973273ac715_name_HKKIVXOJPLFM2DGP2GAUZUTBPM.jpg",
+                    "video": {
+                      "adconfig": {
+                        "commercial_ad_node": "/world",
+                        "play_video_ads": true,
+                        "allow_preroll_on_domain": false,
+                        "enable_auto_preview": true,
+                        "play_ads": false,
+                        "auto_play_preroll": false,
+                        "enable_ad_insertion": false,
+                        "video_ad_zone": "wpni.video.world",
+                        "ad_set_url": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.world_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+                      },
+                      "tracking": {
+                        "content_id": "bd774535-8ac2-41d9-a58e-3d3cd41895cd",
+                        "page_name": "front - homepage",
+                        "video_category": "wirereuters",
+                        "video_section": "World",
+                        "video_name": "World:video - 3d3cd41895cd - 20230913 - Putin welcomes Kim Jong Un to spaceport",
+                        "video_source": "Reuters"
+                      },
+                      "duration": 34,
+                      "streams": [
+                        {
+                          "bitrate": 160,
+                          "filesize": 1577508,
+                          "height": 180,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/mobile.m3u8",
+                          "width": 320
+                        },
+                        {
+                          "bitrate": 300,
+                          "filesize": 2266716,
+                          "height": 360,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/mobile.m3u8",
+                          "width": 640
+                        },
+                        {
+                          "bitrate": 600,
+                          "filesize": 3439648,
+                          "height": 360,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/mobile.m3u8",
+                          "width": 640
+                        },
+                        {
+                          "bitrate": 1200,
+                          "filesize": 6061120,
+                          "height": 480,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/master.m3u8",
+                          "width": 854
+                        },
+                        {
+                          "bitrate": 4500,
+                          "filesize": 17666172,
+                          "height": 1080,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/hd.m3u8",
+                          "width": 1920
+                        },
+                        {
+                          "bitrate": 5400,
+                          "filesize": 17537016,
+                          "height": 1080,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/hlsv4_master.m3u8",
+                          "width": 1920
+                        },
+                        {
+                          "bitrate": 160,
+                          "filesize": 1244520,
+                          "height": 180,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/file_320x180-160-v3.mp4",
+                          "width": 320
+                        },
+                        {
+                          "bitrate": 600,
+                          "filesize": 3068165,
+                          "height": 360,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/file_640x360-600-v3.mp4",
+                          "width": 640
+                        },
+                        {
+                          "bitrate": 1200,
+                          "filesize": 5663833,
+                          "height": 480,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/file_854x480-1200-v3_1.mp4",
+                          "width": 854
+                        },
+                        {
+                          "bitrate": 2000,
+                          "filesize": 9151825,
+                          "height": 720,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/file_1280x720-2000-v3_1.mp4",
+                          "width": 1280
+                        },
+                        {
+                          "bitrate": 5400,
+                          "filesize": 23444839,
+                          "height": 1080,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Reuters/20230913/65015528f285df737d6ad950/6501579fb711eb5ff5a0aacf/file_1920x1080-5400-v4.mp4",
+                          "width": 1920
+                        }
+                      ]
+                    },
+                    "bleed": "full"
+                  },
+                  "headline": {
+                    "text": "Kim pledges to back Putin’s ‘sacred struggle’ during rare summit",
+                    "size": "x-large",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Michelle Ye Hee Lee and Mary Ilyushina"
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Kim and Putin met at Russia’s Vostochny Cosmodrome. Here’s why.",
+                        "url": "https://www.washingtonpost.com/world/2023/09/12/vostochny-cosmodrome-putin-kim-meeting/"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "stacked"
+                    },
+                    "related_links_order": "3",
+                    "label": {
+                      "type": "kicker",
+                      "alignment": "left",
+                      "label": {
+                        "text": "MORE COVERAGE"
+                      }
+                    }
+                  },
+                  "actions": {
+                    "audio_article": {
+                      "content_url": "https://www.washingtonpost.com/world/2023/09/12/putin-kim-meeting-russia-north-korea/",
+                      "display_date": "2023-09-13T21:38:33.141Z",
+                      "label": {
+                        "type": "kicker",
+                        "label": {
+                          "text": "Asia"
+                        },
+                        "link": {
+                          "url": "https://www.washingtonpost.com/world/asia-pacific/",
+                          "type": "unknown"
+                        }
+                      },
+                      "player_media": {
+                        "aspect_ratio": 1.7777777777777777,
+                        "url": "https://d1i4t8bqe7zgj6.cloudfront.net/09-13-2023/t_700a996465fe4690bacac973273ac715_name_HKKIVXOJPLFM2DGP2GAUZUTBPM.jpg"
+                      },
+                      "preferred_voice": "automated",
+                      "title": "Kim pledges to back Putin’s ‘sacred struggle’ during rare summit",
+                      "tracking": {
+                        "arc_id": "VYKM6ENL75GI3OJR35YWACS5RQ",
+                        "author_id": "leem;ilyushinam",
+                        "author": "michelle ye hee lee;mary ilyushina",
+                        "author_name": "michelle ye hee lee;mary ilyushina",
+                        "author_desk": "foreign;foreign",
+                        "author_subdesk": "foreign - asia;foreign - russia/eastern europe",
+                        "tracking_tags": "methode-draft;story-has-edit-branch;Created from Template ID JUFDOLRICRBSZOVG6TYWZXMUPE;audio-article",
+                        "content_id": "vykm6enl75gi3ojr35ywacs5rq",
+                        "content_type": "article",
+                        "headline": "Kim pledges to back Putin’s ‘sacred struggle’ during rare summit",
+                        "page_name": "putin-kim-meeting-russia-north-korea",
+                        "first_publish_date": "2023-09-13T03:25:17.004Z",
+                        "section": "world",
+                        "subsection": "world - asia-pacific",
+                        "source": "the-washington-post"
+                      },
+                      "voices": [
+                        {
+                          "voice_id": "AVA",
+                          "label": "Ava",
+                          "raw_url": "https://audio-articles.lionfish.media.aws.wapo.pub/VYKM6ENL75GI3OJR35YWACS5RQ/20230913-173839.395/azure_en-US_en-US-JennyNeural_standard_audio.mp3",
+                          "ads_url": "https://podcast.washpostpodcasts.com/washpost-audio-articles/VYKM6ENL75GI3OJR35YWACS5RQ/20230913-173839.395/azure_en-US_en-US-JennyNeural_standard_audio.mp3?awCollectionId=/world/asia-pacific&awEpisodeId=VYKM6ENL75GI3OJR35YWACS5RQ",
+                          "duration": 627
+                        },
+                        {
+                          "voice_id": "MATTHEW",
+                          "label": "Matthew",
+                          "raw_url": "https://audio-articles.lionfish.media.aws.wapo.pub/VYKM6ENL75GI3OJR35YWACS5RQ/20230913-173839.395/polly_en-US_Matthew_newscaster_audio.mp3",
+                          "ads_url": "https://podcast.washpostpodcasts.com/washpost-audio-articles/VYKM6ENL75GI3OJR35YWACS5RQ/20230913-173839.395/polly_en-US_Matthew_newscaster_audio.mp3?awCollectionId=/world/asia-pacific&awEpisodeId=VYKM6ENL75GI3OJR35YWACS5RQ",
+                          "duration": 557
+                        }
+                      ]
+                    }
+                  },
+                  "layout_attributes": {
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "table2-900a0036-30bc-4584-8e1a-171babb5f535",
+              "table_name": "table2",
+              "item_type": "table",
+              "link_group": "hp-top-table-main",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 8,
+                  "colspan": 8
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 8,
+                  "colspan": 8
+                },
+                "medium": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "label": {
+                "type": "exclusive-pill",
+                "alignment": "center",
+                "label": {
+                  "text": "EXCLUSIVE"
+                },
+                "form": {
+                  "method": "GET",
+                  "action": "https://search.brave.com/search",
+                  "fields": [
+                    {
+                      "type": "search",
+                      "param": "q",
+                      "placeholder": "Search the web privately, bravely..."
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "e0adf272-2fe0-4372-8569-7880b4473e6a",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "13-cavalcante- t1 9a;",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Top Stories -- Strip with small photo",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/national",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2023/09/13/danelo-cavalcante-escape-captured-pennsylvania/",
+                    "type": "article",
+                    "last_modified": "2023-09-26T15:02:11.371Z",
+                    "display_date": "2023-09-13T22:43:43.868Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "art_width": "small",
+                    "aspect_ratio": 1.5,
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/UGIVAVWDOFEXJD5RPQRLRIOHV4.jpg",
+                    "media_type": "image",
+                    "image_type": null,
+                    "art_position": "art-right"
+                  },
+                  "headline": {
+                    "text": "Pa. murder convict who escaped from prison is back in custody after an intense manhunt",
+                    "size": "large",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Justine McDaniel, Ben Brasch and Kelsey Ables"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "e0adf272-2fe0-4372-8569-7880b4473e6a",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "13-cavalcante- t1 9a;",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Top Stories -- Strip with small photo",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/national",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2023/09/13/danelo-cavalcante-escape-captured-pennsylvania/",
+                    "type": "article",
+                    "last_modified": "2023-09-26T15:02:11.371Z",
+                    "display_date": "2023-09-13T22:43:43.868Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "art_width": "small",
+                    "aspect_ratio": 1,
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/UGIVAVWDOFEXJD5RPQRLRIOHV4.jpg",
+                    "media_type": "image",
+                    "image_type": null,
+                    "art_position": "art-right-of-head"
+                  },
+                  "headline": {
+                    "text": "Pa. murder convict who escaped from prison is back in custody after an intense manhunt",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Justine McDaniel, Ben Brasch and Kelsey Ables"
+                  },
+                  "actions": {
+                    "audio_article": {
+                      "content_url": "https://www.washingtonpost.com/nation/2023/09/13/danelo-cavalcante-escape-captured-pennsylvania/",
+                      "display_date": "2023-09-13T22:43:43.868Z",
+                      "label": {
+                        "type": "kicker",
+                        "label": {
+                          "text": "National"
+                        },
+                        "link": {
+                          "url": "https://www.washingtonpost.com/national/",
+                          "type": "unknown"
+                        }
+                      },
+                      "player_media": {
+                        "aspect_ratio": 1.7777777777777777,
+                        "url": "https://d1i4t8bqe7zgj6.cloudfront.net/09-13-2023/t_4de2ea6336774eceb249e6eec685461f_name_fox29_photo_op.jpg"
+                      },
+                      "preferred_voice": "automated",
+                      "title": "Pa. murder convict who escaped from prison is back in custody after an intense manhunt",
+                      "tracking": {
+                        "arc_id": "VGJAGUNR3JCB3HNJNS2M5A5FBE",
+                        "author_id": "mcdanielj;braschb;ablesk",
+                        "author": "justine mcdaniel;ben brasch;kelsey ables",
+                        "author_name": "justine mcdaniel;ben brasch;kelsey ables",
+                        "author_desk": "other;other;foreign",
+                        "author_subdesk": "general assignment;general assignment;foreign - seoul hub",
+                        "tracking_tags": "story-has-edit-branch;Created from Template ID CPXDC2P3LFHMVBYLARBBIWNBRA;methode-draft;collections-pa-inmate;audio-article",
+                        "content_id": "vgjagunr3jcb3hnjns2m5a5fbe",
+                        "content_type": "article",
+                        "headline": "Escaped convict caught, ending 13-day ‘nightmare’ in Pennsylvania",
+                        "page_name": "danelo-cavalcante-escape-captured-pennsylvania",
+                        "first_publish_date": "2023-09-13T12:47:19.133Z",
+                        "section": "national",
+                        "subsection": "national",
+                        "source": "the-washington-post"
+                      },
+                      "voices": [
+                        {
+                          "voice_id": "AVA",
+                          "label": "Ava",
+                          "raw_url": "https://audio-articles.lionfish.media.aws.wapo.pub/VGJAGUNR3JCB3HNJNS2M5A5FBE/20230926-110214.141/azure_en-US_en-US-JennyNeural_standard_audio.mp3",
+                          "ads_url": "https://podcast.washpostpodcasts.com/washpost-audio-articles/VGJAGUNR3JCB3HNJNS2M5A5FBE/20230926-110214.141/azure_en-US_en-US-JennyNeural_standard_audio.mp3?awCollectionId=/national&awEpisodeId=VGJAGUNR3JCB3HNJNS2M5A5FBE&tags=collections-pa-inmate",
+                          "duration": 421
+                        },
+                        {
+                          "voice_id": "MATTHEW",
+                          "label": "Matthew",
+                          "raw_url": "https://audio-articles.lionfish.media.aws.wapo.pub/VGJAGUNR3JCB3HNJNS2M5A5FBE/20230926-110214.141/polly_en-US_Matthew_newscaster_audio.mp3",
+                          "ads_url": "https://podcast.washpostpodcasts.com/washpost-audio-articles/VGJAGUNR3JCB3HNJNS2M5A5FBE/20230926-110214.141/polly_en-US_Matthew_newscaster_audio.mp3?awCollectionId=/national&awEpisodeId=VGJAGUNR3JCB3HNJNS2M5A5FBE&tags=collections-pa-inmate",
+                          "duration": 381
+                        }
+                      ]
+                    }
+                  },
+                  "layout_attributes": {
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "table9-900a0036-30bc-4584-8e1a-171babb5f535",
+              "table_name": "table9",
+              "item_type": "table",
+              "link_group": "latest-headlines",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 16,
+                  "colspan": 4
+                },
+                "large": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 4
+                    }
+                  ]
+                },
+                "large": {
+                  "vertical": [
+                    {
+                      "col": 5,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 10,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "medium": {
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 8,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ]
+                }
+              },
+              "label": {
+                "type": "package",
+                "alignment": "center",
+                "show_arrow": true,
+                "label": {
+                  "text": "LATEST HEADLINES"
+                },
+                "label_secondary": {
+                  "text": "Try our old site search"
+                },
+                "link": {
+                  "url": "https://www.washingtonpost.com/latest-headlines/",
+                  "type": "unknown"
+                },
+                "form": {
+                  "method": "GET",
+                  "action": "https://www.washingtonost.com/search/",
+                  "fields": [
+                    {
+                      "type": "search",
+                      "param": "query",
+                      "placeholder": "Search wp.com"
+                    }
+                  ]
+                }
+              },
+              "cta": {
+                "type": "cta",
+                "alignment": "center",
+                "show_arrow": true,
+                "label": {
+                  "text": "More in latest headlines"
+                },
+                "link": {
+                  "url": "https://www.washingtonpost.com/latest-headlines/",
+                  "type": "unknown"
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": true,
+                  "index": 0,
+                  "link_detail": "1",
+                  "id": "3331771f-2a31-46ae-825c-71ab67af450b-0",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "latest-1-4-everywhere",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "⟲ Head + byline (Clear all Custom Fields)",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "tiny"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/photography/in-sight/front",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/photography/2023/09/27/this-work-is-haunting-haunted-by-ghosts-history-its-casualties/",
+                    "type": "article",
+                    "subtype": "centered-layout",
+                    "last_modified": "2023-09-27T19:39:57.532Z",
+                    "display_date": "2023-09-27T19:39:56.719Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "art_width": "tiny",
+                    "aspect_ratio": 1,
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/3LIMGDCMYOVVWMEU7L5ESINIFY.jpg",
+                    "media_type": "image",
+                    "art_position": "art-right-of-head"
+                  },
+                  "label": {
+                    "type": "kicker",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "Perspective"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/photography/2023/09/27/this-work-is-haunting-haunted-by-ghosts-history-its-casualties/",
+                      "type": "unknown"
+                    }
+                  },
+                  "headline": {
+                    "text": "‘This work is haunting, and haunted, by the ghosts of history and its casualties’",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "timestamp": "2023-09-27T19:39:56.719Z",
+                    "recency_threshold": 0
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": true,
+                  "index": 1,
+                  "link_detail": "2",
+                  "id": "3331771f-2a31-46ae-825c-71ab67af450b-1",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "latest-1-4-everywhere",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "⟲ Head + byline (Clear all Custom Fields)",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "tiny"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/politics/the-fix/front",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/2023/09/27/republicans-are-doing-their-best-get-blamed-shutdown/",
+                    "type": "article",
+                    "last_modified": "2023-09-27T19:27:58.176Z",
+                    "display_date": "2023-09-27T19:27:57.599Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "art_width": "tiny",
+                    "aspect_ratio": 1,
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OAXJN73HMRU3IHIQEKR5QNOC2Q_size-normalized.jpg",
+                    "media_type": "image",
+                    "art_position": "art-right-of-head"
+                  },
+                  "label": {
+                    "type": "kicker",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "Analysis"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/politics/2023/09/27/republicans-are-doing-their-best-get-blamed-shutdown/",
+                      "type": "unknown"
+                    }
+                  },
+                  "headline": {
+                    "text": "Republicans are doing their best to get blamed for a shutdown",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "timestamp": "2023-09-27T19:27:57.599Z",
+                    "recency_threshold": 0
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 4,
+                      "colspan": 4
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": true,
+                  "index": 2,
+                  "link_detail": "3",
+                  "id": "3331771f-2a31-46ae-825c-71ab67af450b-2",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "latest-1-4-everywhere",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "⟲ Head + byline (Clear all Custom Fields)",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "tiny"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/climate-environment/animalia",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/climate-environment/2023/09/27/dumbo-octopus-deep-sea-camera/",
+                    "type": "article",
+                    "last_modified": "2023-09-27T19:17:12.435Z",
+                    "display_date": "2023-09-27T19:17:11.823Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "art_width": "tiny",
+                    "aspect_ratio": 1,
+                    "url": "https://d1i4t8bqe7zgj6.cloudfront.net/09-27-2023/t_8ba7d4e09a074137aeb727a366df68a8_name_1___1920x1080___30p_00_03_09_10_Still016.jpg",
+                    "media_type": "image",
+                    "art_position": "art-right-of-head"
+                  },
+                  "headline": {
+                    "text": "Living deep in the sea, dumbo octopus has a breakout moment",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "timestamp": "2023-09-27T19:17:11.823Z",
+                    "recency_threshold": 0
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 10,
+                      "colspan": 5
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 8,
+                      "colspan": 4
+                    },
+                    "small": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        }
+      ]
+    }
+  ],
+  "cards": {
+    "xsmall": {
+      "grids": [
+        [
+          "6eeeac76-8cd2-4bc6-ad65-dc6d40e2e2e2"
+        ]
+      ],
+      "tables": [
+        [
+          "table1-900a0036-30bc-4584-8e1a-171babb5f535"
+        ],
+        [
+          "table2-900a0036-30bc-4584-8e1a-171babb5f535"
+        ]
+      ]
+    }
+  },
+  "checksum": "la0s30l3n91t2ii1160910ttd5"
+}

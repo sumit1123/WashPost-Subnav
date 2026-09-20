@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bg">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="sf_module_headline">#424242</color>
+    <color name="sf_module_byline">#969696</color>
+    <color name="sf_module_label">#046b9f</color>
+    <color name="sf_module_time">#686868</color>
+    <color name="sf_module_caption">#686868</color>
+
+    <color name="notification_item_shown">#FFFFFF</color>
+    <color name="notification_item_shown_night">#0000</color>
+    <color name="notification_item_new">#E8F4FF</color>
+    <color name="notification_item_new_night">#0e2336</color>
+
+    <color name="notifications_text_color">#000</color>
+    <color name="notifications_text_color_night">#DDD</color>
+    <color name="notification_header_bg">#FFFFFF</color>
+    <color name="tabs_text_color">#111111</color>
+    <color name="notification_icons_tint">#000000</color>
+    <color name="notifications_bg">@color/app_bg</color>
+    <color name="appbar_bottom_border">#e9e9e9</color>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="author_button_follow">Follow</string>
+    <string name="author_button_following">Following</string>
+    <string name="retry">Retry</string>
+    <string name="unable_to_load">Unable to load content</string>
+    <string name="max_follow_reached_message">We only support following 25 authors at this time. To follow %s, unfollow another author first.</string>
+    <string name="max_follow_reached_positive_button_text">OK</string>
+    <string name="max_follow_reached_negative_button_text">DISMISS</string>
+    <string name="author_empty_text">Follow more authors to find more options here.</string>
+    <string name="my_post_follow_description">Latest posts from your followed authors</string>
+    <string name="my_post_es_following_sign_in_title" translatable="false">Sign in and keep up with authors</string>
+    <string name="my_post_es_following_sign_in_desc" translatable="false">Tap an author’s name on any story and choose Follow. You’ll find their latest here.</string>
+    <string name="my_post_es_following_sign_in_button" translatable="false">Sign in or create an account</string>
+    <string name="my_post_es_following_signed_in_title" translatable="false">Keep up with your favorites</string>
+    <string name="my_post_es_following_signed_in_desc" translatable="false">Tap an author’s name on any story and choose Follow. You’ll find their latest here.</string>
+</resources>

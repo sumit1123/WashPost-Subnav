@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+  <path
+      android:pathData="m6,28.88 l3.12,-2L16,22.14l6.88,4.64 3.12,2V3.12H6v25.76zM8,5.12h16v20l-8,-5.4 -8,5.4v-20z"
+      android:fillColor="@color/unification_onboarding_light_primary"/>
+</vector>

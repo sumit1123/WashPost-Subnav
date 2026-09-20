@@ -1,0 +1,246 @@
+{
+  "id": "09897a9d285584cc6d9980a3e6455bc7",
+  "type": "blog",
+  "subtype": "default",
+  "renderer": "native",
+  "arcId": "AQ3BPJ65ZFHKZJST3B6H4G7K64",
+  "title": "Test for apps rendering",
+  "blurb": "Tk",
+  "contenturl": "https://www.washingtonpost.com/utils/2026/03/02/test-apps-rendering/",
+  "content_type": "article",
+  "shareurl": "https://www.washingtonpost.com/utils/2026/03/02/test-apps-rendering/",
+  "source": "the-washington-post",
+  "section": "Utils",
+  "sourcesection": "tracking section ben",
+  "sourcesubsection": "trackingsubsection - ben",
+  "sourcecategory": "Utils",
+  "lmt": 1773784520333,
+  "published": 1773784520333,
+  "first_published": 1772468334834,
+  "display_date": 1772468334323,
+  "socialImage": null,
+  "sourceslug": "test-ai2html-datawrapper",
+  "commercialnode": "/utils",
+  "omniture": {
+    "title": "Test for apps rendering - The Washington Post",
+    "pageName": "test-apps-rendering",
+    "channel": "tracking section ben",
+    "contentId": "nullAQ3BPJ65ZFHKZJST3B6H4G7K64",
+    "contentType": "story - default",
+    "contentSource": "the-washington-post",
+    "contentTopics": "Utils and testing",
+    "newsroomDesk": "(not set)",
+    "newsroomSubdesk": "(not set)",
+    "contentAuthor": "washington post staff",
+    "authorId": "wapostaff",
+    "authorType": "(not set)",
+    "subSection": "trackingsubsection - ben",
+    "arcId": "AQ3BPJ65ZFHKZJST3B6H4G7K64",
+    "trackingTags": "story-has-edit-branch;created from template id e7a2x35fy5defdxxiwautoxacm;nomethode"
+  },
+  "version": 2,
+  "tags": "story-has-edit-branch,created from template id e7a2x35fy5defdxxiwautoxacm,nomethode",
+  "items": [
+    {
+      "content": "Utils and testing",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Utils and testing",
+      "path": "/utils"
+    },
+    {
+      "content": "Test for apps rendering",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "Tk",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "content": 1772468334323,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "content": "By Washington Post staff",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "wapostaff",
+          "name": "Washington Post staff",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/256e702d-7557-4a12-a78f-a66f571c2e16.png"
+        }
+      ]
+    },
+    {
+      "arcId": "XAHFTRS4RZDF7N7M67YSZJ5T6M",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Do not use this template for a real article."
+    },
+    {
+      "arcId": "JS5ASPSG3RGX3O2XX7OFKE2NQE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur hendrerit ultrices. Donec luctus diam at nulla suscipit ultricies. Nam egestas semper turpis, sed lacinia sem lacinia sit amet. Vivamus condimentum quam magna. Donec lacinia eget enim eu fermentum. Etiam faucibus odio vel velit pulvinar tempor. Donec urna turpis, cursus et efficitur eget, placerat eget mi. Ut euismod diam ac orci imperdiet dignissim. Curabitur auctor pretium arcu quis maximus. Etiam nec elementum sapien, et iaculis leo. Integer dignissim diam id nibh tempor, sed vehicula metus venenatis."
+    },
+    {
+      "arcId": "JPP4NONODRFRXLADPEY3EFADSA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "This is an ai2html"
+    },
+    {
+      "type": "web_embed",
+      "subtype": "datawrapper",
+      "url": "file:///android_asset/track_event_test_page.html"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "show_summary": false,
+  "blogname": "Utils",
+  "content_restriction_code": "default",
+  "first_display_date": 1772468334323,
+  "targeting": {
+    "adcall": [
+      {
+        "key": "ca",
+        "values": [
+          "rysqo",
+          "ryq7t",
+          "ry4ek",
+          "r1yqm",
+          "r03o4",
+          "rqpy3",
+          "r785o",
+          "rzxhh",
+          "rwlh3",
+          "rmikf",
+          "rgpk6",
+          "rwhl0",
+          "rg06l",
+          "rll0u",
+          "r0227",
+          "rhsqk",
+          "rh5p3",
+          "r4ozi",
+          "rvn0g",
+          "romxp",
+          "rybe7",
+          "rehh9",
+          "rmk71",
+          "rihix",
+          "r0kbr",
+          "rqyhw",
+          "rer82",
+          "rrqij",
+          "rvzgt",
+          "r0new",
+          "rkkqd",
+          "r0hej",
+          "rnp2g",
+          "rdu47",
+          "r9p7i",
+          "rnknt",
+          "ra7ai",
+          "rtppi",
+          "rwnn0",
+          "r7e5f",
+          "ruk1b",
+          "r9hok",
+          "rzla5",
+          "ry017",
+          "r9mfh",
+          "r6eks",
+          "r6su5",
+          "r50pl",
+          "rg5cq",
+          "rtc0b",
+          "r8463",
+          "rktca",
+          "rlc5f",
+          "r1r06",
+          "rwmfa",
+          "rd1zm",
+          "r6f4o",
+          "rtdzb",
+          "ro9sc",
+          "rtyhm",
+          "r44uv",
+          "rmjrh",
+          "r05in",
+          "r4hly",
+          "rz5hb",
+          "rmxov",
+          "r9piq",
+          "rh26e",
+          "rfpdz",
+          "rh8kh",
+          "r1tay",
+          "rsolo",
+          "rhjj5",
+          "rd9wl",
+          "r4bh6"
+        ]
+      },
+      {
+        "key": "wapoTopics",
+        "values": []
+      },
+      {
+        "key": "se",
+        "values": [
+          "3zbe"
+        ]
+      },
+      {
+        "key": "bs",
+        "values": [
+          "garm_safe",
+          "bgrt41",
+          "wapo_rsk_low"
+        ]
+      }
+    ],
+    "iab": {
+      "sectioncat": [
+        "IAB12"
+      ],
+      "pagecat": [
+        "IAB12-2"
+      ]
+    },
+    "permutive_dict": {
+      "article": {
+        "customTopics": [
+          "[rqpy3] B2_Election 2016_legacyaux_WC9"
+        ],
+        "wapoTopics": [],
+        "sentiment": [
+          "[3zbe] positive"
+        ],
+        "publishDate": "2026-03-02T16:08:15.837Z",
+        "lastUpdateDate": "2026-03-17T21:55:28.156Z",
+        "authorName": [
+          "washington post staff"
+        ],
+        "authorType": [
+          "author"
+        ],
+        "contentType": "story - default",
+        "language": "en",
+        "wordCount": 280
+      },
+      "canonicalUrl": "/utils/2026/03/02/test-apps-rendering/"
+    }
+  },
+  "comments": "https://www.washingtonpost.com/utils/2026/03/02/test-apps-rendering/?outputType=comment"
+}

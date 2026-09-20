@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="27dp"
+    android:tint="@color/carousel_empty_card_icon_tint"
+    android:height="24dp"
+    android:viewportWidth="27"
+    android:viewportHeight="24">
+  <path
+      android:pathData="M13.222,3.526H26.446V5.73H13.222V3.526Z"
+      android:fillColor="#000000"/>
+  <path
+      android:pathData="M0,12.672H26.447V14.876H0V12.672Z"
+      android:fillColor="#000000"/>
+  <path
+      android:pathData="M0,21.796H26.447V24H0V21.796Z"
+      android:fillColor="#000000"/>
+  <path
+      android:pathData="M0,3.526H9.256V5.73H0V3.526Z"
+      android:fillColor="#000000"/>
+  <path
+      android:pathData="M5.73,0L5.73,9.256L3.526,9.256L3.526,-0L5.73,0Z"
+      android:fillColor="#000000"/>
+</vector>

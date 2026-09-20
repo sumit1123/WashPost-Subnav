@@ -1,0 +1,35 @@
+# .github/workflows/auto-assign-reviewer.yml
+name: Auto Assign Reviewer
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  assign-reviewer:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch all history for all branches and tags
+          fetch-depth: 0
+
+      - name: Set up Kotlin
+        uses: fwilhe2/setup-kotlin@v1
+        with:
+          kotlin-version: '1.9.22'
+
+      - name: Run assignment script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          # Build the classpath string manually to avoid wildcard issues
+          # The 'JARS' variable will contain a colon-separated list of all jar files.
+          JARS=$(find .github/scripts/libs -name "*.jar" | tr '\n' ':').
+          echo "Classpath: $JARS"
+          kotlin -cp "$JARS" .github/scripts/assign_reviewer.main.kts

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent" a:layout_height="match_parent" a:orientation="vertical">
+
+    <LinearLayout a:layout_width="wrap_content" a:layout_height="wrap_content" a:orientation="horizontal">
+        <Button a:id="@+id/bind_button" a:layout_width="wrap_content" a:layout_height="wrap_content"
+                a:text="Bind" />
+
+        <Button a:id="@+id/unbind_button" a:layout_width="wrap_content" a:layout_height="wrap_content"
+                a:text="Unbind" />
+
+        <Button a:id="@+id/start_sync_button" a:layout_width="wrap_content" a:layout_height="wrap_content"
+                a:text="Sync" />
+    </LinearLayout>
+
+    <LinearLayout a:layout_width="wrap_content" a:layout_height="wrap_content" a:orientation="horizontal">
+        <Button a:id="@+id/update_page"
+                a:layout_width="wrap_content" a:layout_height="wrap_content"
+                a:text="Request Page" />
+
+        <Button a:id="@+id/force_update_page"
+                a:layout_width="wrap_content" a:layout_height="wrap_content"
+                a:text="Force Request Page" />
+
+        <Button a:id="@+id/delete_page"
+                a:layout_width="wrap_content" a:layout_height="wrap_content"
+                a:text="Delete Page" />
+    </LinearLayout>
+
+    <TextView a:id="@+id/status_message"
+            a:layout_width="match_parent" a:layout_height="wrap_content"/>
+
+</LinearLayout>

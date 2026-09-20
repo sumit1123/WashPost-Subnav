@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/external_item_card"
+    style="@style/external_carousel_card"
+    android:layout_width="@dimen/carousel_external_card_width"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/external_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/external_kicker"
+            style="@style/external_carousel_item_kicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Kicker" />
+
+        <TextView
+            android:id="@+id/secondary_label"
+            style="@style/external_carousel_item_byline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="secondary label" />
+
+        <androidx.constraintlayout.helper.widget.Flow
+            android:id="@+id/flow_helper"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="external_kicker,secondary_label"
+            app:flow_horizontalAlign="start"
+            app:flow_horizontalBias="0"
+            app:flow_horizontalGap="8dp"
+            app:flow_horizontalStyle="packed"
+            app:flow_wrapMode="chain"
+            app:layout_constraintEnd_toStartOf="@id/item_external_art"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/external_headline_title"
+            style="@style/audio_carousel_item_headline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:maxLines="4"
+            app:layout_constraintEnd_toStartOf="@id/item_external_art"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/flow_helper"
+            tools:text="Headline" />
+
+        <ImageView
+            android:id="@+id/item_external_art"
+            android:layout_width="@dimen/carousel_external_card_image_size"
+            android:layout_height="@dimen/carousel_external_card_image_size"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

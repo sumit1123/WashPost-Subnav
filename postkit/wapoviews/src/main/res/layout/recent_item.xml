@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recent_item_chip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="@style/Menu.Recent.Text"
+    app:chipBackgroundColor="@color/sections_menu_bg"
+    app:chipStrokeColor="@color/menu_chip_border"
+    app:chipStrokeWidth="1dp"
+    app:rippleColor="?attr/menu_ripple_color" />

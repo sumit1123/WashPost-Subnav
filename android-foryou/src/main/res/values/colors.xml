@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="foryou_card_headline">#FFFFFF</color>
+    <color name="foryou_card_byline">#D6D6D6</color>
+    <color name="foryou_card_blurb">#FFFFFF</color>
+    <color name="foryou_card_section">#F2F2F2</color>
+    <color name="foryou_card_divider">#40FFFFFF</color>
+    <color name="foryou_card_icon_bg">#26FFFFFF</color>
+    <color name="foryou_card_icon">#FFFFFF</color>
+    <color name="foryou_fragment_bg">#FFFFFF</color>
+    <color name="foryou_image_placeholder">#777777</color>
+</resources>

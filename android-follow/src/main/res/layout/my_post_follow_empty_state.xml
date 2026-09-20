@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_post_follow_empty_state"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="36dp">
+
+    <View
+        android:id="@+id/divider_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="@dimen/my_post_card_content_left_margin"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="@dimen/my_post_card_content_left_margin"
+        android:background="#E9E9E9"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divider_1"
+        app:srcCompat="@drawable/ic_following_illustration" />
+
+    <TextView
+        android:id="@+id/tv_msg_title"
+        style="@style/my_post_msg_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="48dp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.1"
+        android:text="@string/my_post_es_following_sign_in_title"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_image" />
+
+    <TextView
+        android:id="@+id/tv_msg_desc"
+        style="@style/my_post_msg_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="48dp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.4"
+        android:text="@string/my_post_es_following_sign_in_desc"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_msg_title" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/button_open"
+        style="@style/MyPost.Action.Chip.Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/my_post_card_content_left_margin"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="@dimen/my_post_card_content_left_margin"
+        android:text="@string/my_post_es_following_sign_in_button"
+        android:textAppearance="@style/MyPost.Action.Chip.Light.Text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_msg_desc" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

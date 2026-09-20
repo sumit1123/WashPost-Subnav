@@ -1,0 +1,126 @@
+<resources>
+    <!-- Notification Channel -->
+    <string name="notification_channel">Now Playing</string>
+    <string name="notification_channel_description">Shows what music is currently playing</string>
+
+    <!-- Notification actions -->
+    <string name="notification_skip_to_previous">Skip to previous track</string>
+    <string name="notification_skip_to_next">Skip to next track</string>
+    <string name="notification_play">Play</string>
+    <string name="notification_pause">Pause</string>
+
+    <!-- Error messages -->
+    <string name="error_media_not_found">Could not locate requested media.</string>
+    <string name="generic_error">The application has encountered an unexpected error.</string>
+    <!-- Allowed caller template -->
+    <string name="allowed_caller_log">
+        Caller has a valid certificate, but its package doesn\'t match any expected package for the
+        given certificate. To allow this caller, add the following to the allowed callers list:\n
+        <![CDATA[
+        <signature name=\"%1$s\" package=\"%2$s\">\n\t<key>%3$s</key>\n</signature>\n
+        ]]>
+    </string>
+    <string name="audio_error_offline" translatable="false">You\'re offline. Please check your connection and try again.</string>
+    <string name="audio_error_other" translatable="false">We’re unable to play this audio. Please try again soon.</string>
+
+    <!-- Cast menu item -->
+    <string name="media_route_menu_title">Cast</string>
+    <!-- Browse Tree -->
+    <string name="recommended_title">Recommended</string>
+    <string name="albums_title">Albums</string>
+
+    <string name="skip_back_10s">Skip back 10s</string>
+    <string name="skip_forward_10s">Skip forward 10s</string>
+    <string name="skip_back_10seconds">Skip backward 10 seconds</string>
+    <string name="skip_forward_10seconds">Skip forward 10 seconds</string>
+    <string name="skip_back_15seconds">Skip backward 15 seconds</string>
+    <string name="skip_forward_15seconds">Skip forward 15 seconds</string>
+    <string name="skip_next_audio">Skip to next audio</string>
+    <string name="skip_previous_audio">Skip to previous audio</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="close">Close</string>
+    <string name="menu_music_queue">Queue</string>
+    <string name="add_series_to_podcast_app">Add series to podcast app</string>
+
+    <string name="now_playing">Now playing</string>
+    <string name="listen">Listen</string>
+    <string name="buffering">Buffering</string>
+    <string name="advertisement">Advertisement</string>
+    <string name="now_playing_ad">Your audio will play after advertisement</string>
+    <string name="now_playing_ad_2">Your audio will play shortly</string>
+    <string name="skip_ad">Skip ad</string>
+
+    <string name="press_to_minimize">Swipe down to minimize</string>
+    <string name="error_message">Unable to download</string>
+    <string name="error_description">Please try again.</string>
+    <string name="audio_error_title">Unable to download</string>
+    <string name="audio_error_subtitle">Please try again</string>
+    <string name="podcast_error_title">Unable to generate podcast</string>
+    <string name="podcast_expired_message">This personalized podcast has expired.</string>
+    <string name="podcast_error_message">There was an error handling your request. Please try again.</string>
+
+    <!-- Polly -->
+    <string name="learn_more" translatable="false">Learn about this voice</string>
+    <string name="adjust_playback_speed">Adjust playback speed</string>
+    <string name="adjust_playback_voice">Voice Selection</string>
+    <string name="report_issue">Report an issue</string>
+    <string name="give_feedback">Give feedback</string>
+    <string name="disclaimer">Podcasts are AI-generated based on Washington Post reporting. Because AI can make mistakes, please verify information.</string>
+    <string name="feedback">Feedback</string>
+    <string name="learn_more_text_title">This audio feature uses a computer-generated voice.</string>
+    <string name="learn_more_text_description">There may be some inconsistencies in pronunciation, sentiment, and tone.</string>
+    <string name="speed_control_key">Speed</string>
+    <string name="voice_control_key">Voice</string>
+    <string name="loading">Loading</string>
+
+    <string name="accessibility_audio_player_fullscreen_title" translatable="false">Audio Player. Swipe down to collapse.</string>
+    <string name="accessibility_audio_player_collapsed_title" translatable="false">Audio Player Bar.</string>
+
+    <!-- Playlist -->
+    <string name="unable_to_add" translatable="false">Unable to add now. Please try again later.</string>
+
+    <string name="notification_content_title" translatable="false">Playback cannot be resumed</string>
+    <string name="notification_content_text" translatable="false">Press on the play button on the media notification if it
+    is still present, otherwise please open the app to start the playback and re-connect the session
+    to the controller</string>
+    <string name="notification_channel_name" translatable="false">Playback cannot be resumed</string>
+    <string name="create" translatable="false">Edit podcast</string>
+    <string name="generate_podcast">Generate podcast</string>
+    <string name="save_changes">Save changes</string>
+    <string name="add_custom_topics_or_questions">Add custom topics or questions</string>
+    <string name="ask_a_question_or_topic">Curious about something specific? Ask a question or add a custom topic here</string>
+    <string name="create_a_new_episode">Create a new episode?</string>
+    <string name="you_ve_hit_today_s_limit">You\'ve hit today\'s limit</string>
+    <string name="replace_podcast">Your current episode will stop and be replaced with a new one using your updated settings.</string>
+    <string name="podcast_daily_limit">We\'ve saved your changes, and your next episode will be ready tomorrow.</string>
+    <string name="ok_button">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="media_player">media_player</string>
+    <string name="date_format">\'Created at\' h:mm a \'on\' MMM. dd, yyyy</string>
+    <string name="date_format2">\'Created on\' MMM. dd, yyyy \'at\' h:mm a</string>
+    <string name="created_for_you_on">Created for you on %1$s</string>
+    <string name="created_on">Created on %1$s</string>
+
+    <string name ="sign_out" translatable="false">Sign Out</string>
+    <string name="ai_generated_podcast">AI generated podcast</string>
+    <string name="podcast">Podcast</string>
+    <string name="perso_podcast_transcript">perso_podcast_transcript</string>
+    <string name="perso_podcast" translatable="false">perso_podcast</string>
+    <string name="transcript">Transcript</string>
+    <string name="learn_more_about_this_media">Learn more about this media</string>
+    <string name="your_episode_is_processing">Your episode is processing</string>
+    <string name="done_lets_listen">Done. Let\'s listen.</string>
+    <string name="could_not_generate_your_podcast">Could not generate your podcast</string>
+    <string name="creating_your_podcast">Creating your podcast</string>
+    <string name="speed_1_0x">1.0x</string>
+    <string name="ask_a_question">Ask a question</string>
+    <string name="up_next">Up Next</string>
+    <string name="sources">Sources</string>
+    <string name="perso_podcast_tooltip">New: View sources, read transcript &amp; share episode</string>
+    <string name="share_btn">Share</string>
+    <plurals name="items">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d items</item>
+    </plurals>
+</resources>

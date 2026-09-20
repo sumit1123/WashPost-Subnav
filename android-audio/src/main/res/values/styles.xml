@@ -1,0 +1,201 @@
+<!--
+  ~ Copyright 2017 Google Inc. All rights reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="sf_gathering_news_font">HelveticaNeue.otf</item>
+        <item name="sf_gathering_news_font_bold">HelveticaNeue-Bold.otf</item>
+        <item name="sf_gathering_news_font_italic">HelveticaNeue-Italic.otf</item>
+        <item name="sf_gathering_news_font_bold_italic">HelveticaNeue-BoldItalic.otf</item>
+    </style>
+
+    <style name="TextAppearance.Audio.Title" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Audio.Subtitle" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="MediaStateIcon">
+        <item name="tint">@color/mediaControlColor</item>
+        <item name="android:layout_margin">@dimen/media_item_control_margin</item>
+    </style>
+
+    <style name="MediaItemList">
+        <item name="android:background">@color/mediaListBackground</item>
+        <item name="android:paddingBottom">2dp</item>
+        <!-- In order to account for optical illusions,
+        make the end padding a bit larger so it visually looks the same. -->
+        <item name="android:paddingEnd">3dp</item>
+        <item name="android:paddingStart">2dp</item>
+        <item name="android:paddingTop">2dp</item>
+    </style>
+
+    <!-- <native audio> -->
+    <style name="podcast_player_text_style">
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="podcast_player_date_text_style" parent="podcast_player_text_style">
+        <item name="fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:textColor">@color/podcast_date_color</item>
+        <item name="android:lineSpacingExtra">19sp</item>
+    </style>
+    <style name="podcast_player_caption_style" parent="podcast_player_text_style">
+        <item name="fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:textColor">@color/podcast_caption_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="podcast_player_title_text_style" parent="podcast_player_text_style">
+        <item name="android:textColor">@color/podcast_title_color</item>
+        <item name="fontFamily">@font/wp_postoniwide_font_family</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lineSpacingExtra">26sp</item>
+    </style>
+    <style name="podcast_player_title_prefix_text_style" parent="podcast_player_title_text_style">
+        <item name="android:textColor">@color/byline_opinion</item>
+    </style>
+    <style name="podcast_player_kicker_text_style" parent="podcast_player_text_style">
+        <item name="fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:textColor">@color/podcast_byline_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="player_secondary_text_style">
+        <item name="fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:textColor">@color/podcast_byline_color</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="podcast_player_image_caption_text_style">
+        <item name="fontFamily">@font/franklinitcstd_light</item>
+        <item name="android:textColor">@color/podcast_byline_color</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14.5sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="lineHeight">17.5sp</item>
+    </style>
+
+    <style name="podcast_player_add_series_text">
+        <item name="android:textSize">@dimen/podcast_add_series_text_size</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/podcast_add_series_text_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+    </style>
+    <style name="podcast_player_text_style_persistent">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+    </style>
+
+    <style name="Cell.HomepageStory.Audio" parent="">
+        <item name="audio_duration_style">@style/audio_cell_style</item>
+        <item name="audio_player_status_style">@style/audio_cell_style.player_status</item>
+    </style>
+
+    <style name="audio_cell_style">
+        <item name="fontFile">?attr/sf_gathering_news_font</item>
+    </style>
+
+    <style name="audio_cell_style.player_status" parent="audio_cell_style">
+        <item name="fontFile">?attr/sf_gathering_news_font_bold</item>
+    </style>
+
+    <style name="audio_cell_style.night">
+        <item name="fontFile">?attr/sf_gathering_news_font</item>
+    </style>
+
+    <style name="audio_cell_style.player_status.night" parent="audio_cell_style.night">
+        <item name="fontFile">?attr/sf_gathering_news_font_bold</item>
+    </style>
+
+    <declare-styleable name="PodcastSectionView">
+        <attr name="audio_duration_style" format="reference"/>
+        <attr name="audio_player_status_style" format="reference"/>
+    </declare-styleable>
+
+    <style name="round_border_button" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:background">@drawable/round_border_button_background</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/round_button_text</item>
+    </style>
+
+    <style name="round_border_key_value_button" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="inline_podcast_player_status_text">
+        <item name="android:fontFamily">@font/wp_franklin_itc_pro_font_family</item>
+        <item name="fontFamily">@font/wp_franklin_itc_pro_font_family</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/headline_text_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="inline_podcast_player_status_duration">
+        <item name="android:fontFamily">@font/wp_franklin_itc_pro_font_family</item>
+        <item name="fontFamily">@font/wp_franklin_itc_pro_font_family</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/headline_text_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="audio_playlist_headline">
+        <item name="fontFamily">@fonts/franklin_itc_std</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/headline_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="audio_playlist_adapter_headline">
+        <item name="fontFamily">@fonts/franklin_itc_std</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/article_correction_title</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="audio_playlist_primary_label">
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/label_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">2</item>
+    </style>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="?attr/app_bar_day_night_style"
+        app:navigationIcon="?attr/app_bar_nav_arrow_icon">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/wp_franklinitcstd_font_family"
+            android:text="@string/archives_button"
+            android:textAlignment="textStart"
+            android:textColor="@color/navigation_icon_tint"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/editionsCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:background="@color/print_edition_calendar_background"
+        android:paddingTop="5dp"
+        app:mcv_dateTextAppearance="@style/PrintEdition.EditionsCalendar.Date"
+        app:mcv_headerTextAppearance="@style/PrintEdition.EditionsCalendar.Title"
+        app:mcv_weekDayTextAppearance="@style/PrintEdition.EditionsCalendar"
+        app:mcv_selectionColor="@color/print_edition_calendar_selected_date_background"/>
+
+    <ImageView
+        android:id="@+id/frontPageImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editionsCalendar"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/print_edition_paper_border"
+        android:layout_margin="1dp"
+        android:contentDescription="@string/editionsFrontPageDescription"
+        android:scaleType="matrix" />
+
+    <ProgressBar
+        android:id="@+id/frontPageLoadingProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/editionsCalendar"
+        android:layout_centerHorizontal="true"
+        android:progressDrawable="@drawable/progress_bar"
+        android:visibility="gone" />
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2019. The Washington Post
+  -->
+
+<resources>
+    <!--Styles for the GDPR privacy policy consent screen-->
+    <style name="privact_policy_wall_logo_style">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/gdpr_logo_margin_bottom</item>
+    </style>
+
+    <style name="privacy_policy_wall_logo_underline_style">
+        <item name="android:background">@color/privacy_policy_wall_underline</item>
+        <item name="android:layout_height">@dimen/gdpr_divider_height</item>
+        <item name="android:layout_marginLeft">@dimen/gdpr_divider_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/gdpr_divider_horizontal_margin</item>
+        <item name="android:layout_marginBottom">@dimen/gdpr_divider_bottom_margin</item>
+    </style>
+
+    <style name="privacy_policy_wall_controls_layout">
+        <item name="android:layout_width">@dimen/gdpr_button_width</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <!-- on boarding-->
+    <style name="onboarding_logo_style">
+        <item name="android:src">@drawable/logo_twp_main</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/onboarding_vertical_margin_small</item>
+    </style>
+
+    <style name="onboarding_divider_style">
+        <item name="android:background">@color/onboarding_divider_color</item>
+        <item name="android:layout_marginLeft">@dimen/onboarding_button_margin</item>
+        <item name="android:layout_marginRight">@dimen/onboarding_button_margin</item>
+        <item name="android:layout_marginBottom">@dimen/onboarding_vertical_margin_large</item>
+    </style>
+
+    <style name="onboarding_image_style">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/onboarding_vertical_margin</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="onboarding_magnifier_image_style">
+        <item name="android:layout_gravity">end</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+
+    <!-- base_onboarding -->
+    <style name="onboarding_pager_logo_style">
+        <item name="android:src">@drawable/logo_twp_main</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/base_onboarding_vertical_margin</item>
+    </style>
+
+</resources>

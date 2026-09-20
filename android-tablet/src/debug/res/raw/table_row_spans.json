@@ -1,0 +1,2246 @@
+{
+  "layout": "homepage",
+  "output_type": "jsonapp",
+  "tracking": {
+    "page_name": "front - homepage",
+    "section": "homepage",
+    "channel": "front - homepage",
+    "subsection": "homepage",
+    "hierarchy": "homepage"
+  },
+  "regions": [
+    {
+      "location": "content",
+      "items": [
+        {
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "layout": "wide-center-with-top-strip",
+          "dividers": {
+            "xlarge": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 16
+                }
+              ],
+              "vertical": [
+                {
+                  "col": 16,
+                  "row": 0,
+                  "rowspan": 2
+                }
+              ]
+            },
+            "large": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 16
+                }
+              ]
+            },
+            "medium": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 12
+                }
+              ]
+            },
+            "small": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 10
+                }
+              ]
+            },
+            "xsmall": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 1
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 1
+                }
+              ]
+            }
+          },
+          "items": [
+            {
+              "table_name": "table0",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "center",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/national",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/06/04/george-floyd-protests-live-updates/",
+                    "type": "web",
+                    "last_modified": "2020-06-04T11:34:29.982Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "3 more officers charged in Floyd’s death as protesters gather for 9th night",
+                    "size": "huge",
+                    "font_style": "bold",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table1",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "large": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "medium": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 6,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 12,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 12,
+                      "col": 4,
+                      "colspan": 8
+                    },
+                    {
+                      "row": 12,
+                      "col": 12,
+                      "colspan": 4
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 18
+                    },
+                    {
+                      "col": 12,
+                      "row": 0,
+                      "rowspan": 18
+                    }
+                  ]
+                },
+                "large": {
+                  "horizontal": [
+                    {
+                      "row": 6,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 12,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 12,
+                      "col": 4,
+                      "colspan": 8
+                    },
+                    {
+                      "row": 12,
+                      "col": 12,
+                      "colspan": 4
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 18
+                    },
+                    {
+                      "col": 12,
+                      "row": 0,
+                      "rowspan": 18
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 6,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 12,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 12,
+                      "col": 4,
+                      "colspan": 8
+                    },
+                    {
+                      "row": 18,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 18
+                    },
+                    {
+                      "col": 6,
+                      "row": 18,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 12,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 18,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 24,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 30,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 31,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 5,
+                      "row": 30,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 4,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 5,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 6,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "center",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "media",
+                          "headline",
+                          "signature",
+                          "related_links"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/national/morning-mix",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/03/24/coronavirus-second-homes/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T23:53:22.816Z"
+                  },
+                  "source": "the-washington-post",
+                  "label": {
+                    "type": "section-small",
+                    "position": "default",
+                    "alignment": "center",
+                    "icon": "none",
+                    "label": {
+                      "text": "Is it"
+                    },
+                    "label_secondary": {
+                      "text": "Wysocki?"
+                    }
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XPX6YWTHZUI6VMMZHKLZTRKFCI.jpg",
+                    "aspect_ratio": 1.5,
+                    "caption": "Robert F. Bukaty/AP",
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "headline": {
+                    "text": "‘Stay on the mainland’: Tensions grow as affluent city dwellers fearing coronavirus retreat to second homes",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "center"
+                  },
+                  "signature": {
+                    "by_line": "By Antonia Noori Farzan"
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "19 scary movies to take your mind off real-world horrors",
+                        "url": "https://www.washingtonpost.com/arts-entertainment/2020/05/12/horror-movies-streaming/"
+                      },
+                      {
+                        "text": "Guide to the pandemic",
+                        "url": "https://www.washingtonpost.com/coronavirus/"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "stacked"
+                    },
+                    "label": {
+                      "type": "mini-all-caps",
+                      "alignment": "center",
+                      "label": {
+                        "text": "MORE COVERAGE"
+                      }
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 12,
+                      "col": 4,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 12,
+                      "col": 4,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 12,
+                      "col": 4,
+                      "colspan": 8
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 12,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media",
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://beatlebioreview.wordpress.com/about/",
+                    "type": "web"
+                  },
+                  "media": {
+                    "url": "https://beatlebioreview.files.wordpress.com/2016/05/the-beatles-728x242.jpg",
+                    "aspect_ratio": 1.78,
+                    "caption": "",
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "headline": {
+                    "text": "The Historian and the Beatles",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "Erin Weber Torkelson"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 6,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 6,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 6,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "small": {
+                      "row": 12,
+                      "rowspan": 6,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media",
+                          "headline",
+                          "blurbs",
+                          "signature",
+                          "audio"
+                        ]
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://somethingaboutthebeatles.com/185-ringos-white-album/",
+                    "type": "web"
+                  },
+                  "media": {
+                    "url": "https://somethingaboutthebeatles.com/wp-content/uploads/2019/12/Paper.1951-2000.25-242x182.png",
+                    "aspect_ratio": 1.5,
+                    "caption": "",
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "headline": {
+                    "text": "Ringo’s White Album",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Ringo contributed great drumming details to the tumultuous 1968 \"White Album\" sessions, pushing the boundaries of his art with stylistic innovation as well as advanced studio technique.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "Alex Cain and Terry McCusker"
+                  },
+                  "audio": {
+                    "stream_url": "https://traffic.libsyn.com/somethingaboutthebeatles/SATB185.mp3",
+                    "show_scrubber": true,
+                    "position": "below-sigline"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 6,
+                      "rowspan": 6,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 6,
+                      "rowspan": 6,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 6,
+                      "rowspan": 6,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "small": {
+                      "row": 18,
+                      "rowspan": 6,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/sports/colleges",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/sports/2020/05/22/patrick-ewing-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-05-23T01:22:27.251Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "Georgetown Coach Patrick Ewing tests positive for coronavirus",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Kareem Copeland"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 12,
+                      "rowspan": 6,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 12,
+                      "rowspan": 6,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 12,
+                      "rowspan": 6,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "small": {
+                      "row": 24,
+                      "rowspan": 6,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/health/coronavirus",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/05/23/coronavirus-update-us/",
+                    "type": "article",
+                    "last_modified": "2020-05-24T04:17:25.307Z"
+                  },
+                  "source": "the-washington-post",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "LIVE UPDATES"
+                    }
+                  },
+                  "headline": {
+                    "text": "Memorial Day weekend draws big crowds, as U.S. coronavirus deaths near 100,000",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/nation/2020/05/23/coronavirus-update-us/",
+                    "num_to_show": 5
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 12,
+                      "col": 12,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 12,
+                      "col": 8,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 18,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 30,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "large"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "blurbs",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/science/animals",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/science/2020/05/23/with-restaurants-closed-cdc-warns-increasingly-aggressive-rodents-looking-new-food-sources/",
+                    "type": "article",
+                    "last_modified": "2020-05-24T01:02:25.994Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/L67UUYHSJMI6PFPD57ZIJZY4RU.jpg",
+                    "aspect_ratio": 1.5,
+                    "caption": "",
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "large"
+                  },
+                  "headline": {
+                    "text": "Rats are getting aggressive hunting for food amid restaurant closures, CDC warns",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Some rats that miss feasting on the scraps are becoming increasingly brazen to find new food sources",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Meryl Kornfield"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 12,
+                      "rowspan": 6,
+                      "col": 4,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 12,
+                      "rowspan": 6,
+                      "col": 4,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 12,
+                      "rowspan": 6,
+                      "col": 4,
+                      "colspan": 8
+                    },
+                    "small": {
+                      "row": 31,
+                      "rowspan": 6,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline",
+                          "media",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/bytheway",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/travel/2020/05/22/what-grocery-hauls-look-like-around-world-right-now/",
+                    "type": "article",
+                    "last_modified": "2020-05-22T12:21:22.537Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "What grocery hauls look like around the world right now",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://www.washingtonpost.com/pb/resources/img/spacer.gif",
+                    "aspect_ratio": 1.5,
+                    "caption": "",
+                    "media_type": "image",
+                    "art_position": "art-below-head",
+                    "art_width": "full-width"
+                  },
+                  "signature": {
+                    "by_line": "By Haley Hamblin"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 12,
+                      "rowspan": 6,
+                      "col": 12,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 12,
+                      "rowspan": 6,
+                      "col": 8,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 18,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 30,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table2",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 2,
+                  "col": 16,
+                  "colspan": 4
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 2,
+                  "col": 12,
+                  "colspan": 4
+                },
+                "medium": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 4
+                    }
+                  ]
+                },
+                "large": {
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 8,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 12,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    {
+                      "row": 1,
+                      "col": 6,
+                      "colspan": 6
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 6,
+                      "row": 0,
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    {
+                      "row": 1,
+                      "col": 5,
+                      "colspan": 5
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 5,
+                      "row": 0,
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "label": {
+                "type": "section-small",
+                "label": {
+                  "text": "Opinions"
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "medium"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/opinions",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/opinions/there-is-one-ingredient-essential-to-reopening-the-economy-and-still-no-federal-plan-to-get-it/2020/05/22/4a992ad4-9c67-11ea-ac72-3841fcc9b35f_story.html",
+                    "type": "article",
+                    "last_modified": "2020-05-23T23:13:37.766Z"
+                  },
+                  "source": "The Washington Post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ALBJKOU5JMI6VFKDET3TSLOK5Y.jpg",
+                    "aspect_ratio": 1,
+                    "caption": "",
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "medium"
+                  },
+                  "label": {
+                    "type": "kicker",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "Editorial Board"
+                    }
+                  },
+                  "headline": {
+                    "text": "There is one ingredient essential to reopening the economy, and still no federal plan to get it",
+                    "size": "extra-small",
+                    "font_style": "italic",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "medium"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/opinions",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/opinions/2020/05/22/joe-bidens-hill-just-got-steeper-thats-good-thing/",
+                    "type": "article",
+                    "last_modified": "2020-05-23T19:33:55.355Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "url": "https://d1i4t8bqe7zgj6.cloudfront.net/05-23-2020/t_05f878f3b77f4628b2a92f59a8b61a7a_name_biden.jpg",
+                    "aspect_ratio": 1,
+                    "caption": "",
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "medium"
+                  },
+                  "label": {
+                    "type": "kicker",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "Michele L. Norris"
+                    }
+                  },
+                  "headline": {
+                    "text": "Joe Biden’s hill just got steeper. That’s a good thing.",
+                    "size": "extra-small",
+                    "font_style": "italic",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "medium"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/opinions/outlook",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/outlook/china-uses-the-pandemic-to-claim-global-leadership/2020/05/21/9b045692-9ab4-11ea-ac72-3841fcc9b35f_story.html",
+                    "type": "article",
+                    "last_modified": "2020-05-22T17:07:32.634Z"
+                  },
+                  "source": "The Washington Post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WAYWKKE3ZQI6VLIJRWT6YIKGOI.jpg",
+                    "aspect_ratio": 1,
+                    "caption": "",
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "medium"
+                  },
+                  "label": {
+                    "type": "kicker",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "Joshua Kurlantzick"
+                    }
+                  },
+                  "headline": {
+                    "text": "China thinks the pandemic will make it the world’s new leader. It won’t. China thinks the pandemic will make it the world’s new leader. It won’t.",
+                    "size": "extra-small",
+                    "font_style": "italic",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "medium"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/outlook/five-myths",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/outlook/five-myths/five-myths-about-emergency-rooms/2020/05/22/16ddac3c-9b0a-11ea-89fd-28fb313d1886_story.html",
+                    "type": "article",
+                    "last_modified": "2020-05-22T14:01:14.958Z"
+                  },
+                  "source": "The Washington Post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/T7TBOXU4FMI6VIVTLQ7S2FMG34.jpg",
+                    "aspect_ratio": 1,
+                    "caption": "",
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "medium"
+                  },
+                  "label": {
+                    "type": "kicker",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "Brian J. Zink"
+                    }
+                  },
+                  "headline": {
+                    "text": "Five myths about emergency rooms",
+                    "size": "extra-small",
+                    "font_style": "italic",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true
+        },
+        {
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "layout": "even-split-with-top-strip",
+          "dividers": {
+            "xlarge": {
+              "vertical": [
+                {
+                  "col": 16,
+                  "row": 0,
+                  "rowspan": 2
+                },
+                {
+                  "col": 8,
+                  "row": 1,
+                  "rowspan": 1
+                }
+              ]
+            },
+            "large": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 16
+                }
+              ],
+              "vertical": [
+                {
+                  "col": 8,
+                  "row": 1,
+                  "rowspan": 1
+                }
+              ]
+            },
+            "medium": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 12
+                },
+                {
+                  "row": 3,
+                  "col": 0,
+                  "colspan": 12
+                }
+              ]
+            },
+            "small": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 10
+                },
+                {
+                  "row": 3,
+                  "col": 0,
+                  "colspan": 10
+                }
+              ]
+            },
+            "xsmall": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 1
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 1
+                },
+                {
+                  "row": 3,
+                  "col": 0,
+                  "colspan": 1
+                }
+              ]
+            }
+          },
+          "items": [
+            {
+              "table_name": "table0",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "center",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/national",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/06/04/george-floyd-protests-live-updates/",
+                    "type": "web",
+                    "last_modified": "2020-06-04T11:34:29.982Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "3 more officers charged in Floyd’s death as protesters gather for 9th night",
+                    "size": "huge",
+                    "font_style": "bold",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table1",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 8
+                },
+                "large": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 8
+                },
+                "medium": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "center",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media",
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/national",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/05/29/george-floyd-minneapolis-protests-live-updates/",
+                    "type": "article",
+                    "last_modified": "2020-06-02T20:07:02.705Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "url": "https://d1i4t8bqe7zgj6.cloudfront.net/05-29-2020/t_83c7e2cd3f6f4ae58670919332552120_name_1___1920x1080___30p_00_03_53_22_Still014.jpg",
+                    "aspect_ratio": 1.5,
+                    "caption": "",
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "headline": {
+                    "text": "Protesters clash with police after former officer is charged in George Floyd’s death",
+                    "size": "medium",
+                    "font_style": "regular",
+                    "alignment": "center"
+                  },
+                  "signature": {
+                    "by_line": "By Marisa Iati, Kim Bellware, Mark Berman, Lateshia Beachum, John Wagner, Hannah Knowles and Michael Brice-Saddler"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 12,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 12,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 12,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 12,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table2",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 8,
+                  "colspan": 8
+                },
+                "large": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 8,
+                  "colspan": 8
+                },
+                "medium": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "center",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media",
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/national/morning-mix",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/05/29/seven-shot-louisville-police-brutality-protests-turn-violent-nationwide-overnight/",
+                    "type": "article",
+                    "last_modified": "2020-05-29T20:50:15.553Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "url": "https://d1i4t8bqe7zgj6.cloudfront.net/thumbnails/5ed0e69e52faff0001e0b46d/2020-05-29T103058Z_1_OVCFZOKIN_RTRMADC_0_LOUISVILLE-PROTESTS-SHOOTING.jpg",
+                    "aspect_ratio": 1.5,
+                    "caption": "",
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "headline": {
+                    "text": "Seven shot in Louisville as protests turn violent nationwide overnight",
+                    "size": "medium",
+                    "font_style": "regular",
+                    "alignment": "center"
+                  },
+                  "signature": {
+                    "by_line": "By Meagan Flynn"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 12,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 12,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 12,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 12,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table3",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 2,
+                  "col": 16,
+                  "colspan": 4
+                },
+                "large": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 3,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 3,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 3,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 4
+                    }
+                  ]
+                },
+                "large": {
+                  "vertical": [
+                    {
+                      "col": 8,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "medium": {
+                  "vertical": [
+                    {
+                      "col": 6,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "small": {
+                  "vertical": [
+                    {
+                      "col": 5,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/sports/nba",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/sports/2020/05/29/nba-finals-were-set-be-worlds-stage-before-world-was-put-tilt/",
+                    "type": "article",
+                    "last_modified": "2020-05-30T19:28:35.151Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "The NBA Finals were set to be a world’s stage before the world was put on tilt",
+                    "size": "tiny",
+                    "font_style": "light",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/sports/soccer",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/sports/2020/05/28/paul-arriola-thought-torn-acl-would-cost-him-season-dc-united-now-maybe-not/",
+                    "type": "article",
+                    "last_modified": "2020-05-28T23:07:45.382Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "Paul Arriola thought a torn ACL would cost him the season for D.C. United. Now, maybe not.",
+                    "size": "tiny",
+                    "font_style": "light",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 8,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true
+        },
+        {
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "layout": "tiling",
+          "label": {
+            "type": "package",
+            "alignment": "center",
+            "icon": "none",
+            "label": {
+              "text": "Ashley Parker’s"
+            },
+            "label_secondary": {
+              "text": "corner"
+            },
+            "link": {
+              "url": "https://www.washingtonpost.com/people/ashley-parker/",
+              "type": "unknown"
+            }
+          },
+          "items": [
+            {
+              "table_name": "allcontent",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/politics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/trump-and-allies-try-to-rewrite-history-on-handling-of-police-brutality-protests/2020/06/03/21d49c22-a5af-11ea-bb20-ebf0921f3bbd_story.html",
+                    "type": "article",
+                    "last_modified": "2020-06-03T23:59:08.834Z"
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "text": "Trump and allies try to rewrite history on handling of police brutality protests",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Ashley Parker and Robert Costa"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true
+        }
+      ]
+    },
+    {
+      "location": "full-width-footer",
+      "items": [
+        {
+          "item_type": "ad/flex-app",
+          "advertisement": {},
+          "layout_attributes": {
+            "x_large": {
+              "span": 4,
+              "row": 1,
+              "column": 0
+            },
+            "large": {
+              "span": 2,
+              "row": 1,
+              "column": 0
+            },
+            "medium": {
+              "span": 6,
+              "row": 1,
+              "column": 6
+            },
+            "small": {
+              "span": 5,
+              "row": 1,
+              "column": 5
+            },
+            "x_small": {
+              "row": 2,
+              "column": 0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "checksum": 612330567
+}

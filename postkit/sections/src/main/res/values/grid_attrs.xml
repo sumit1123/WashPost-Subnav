@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WPGridView">
+        <attr name="column_width" format="dimension" />
+        <attr name="gutter_width" format="dimension" />
+        <attr name="card_gutter_width" format="dimension" />
+        <attr name="chain_gutter_height" format="dimension" />
+        <attr name="single_column_margin" format="dimension" />
+        <attr name="chain_label_gutter_height" format="dimension" />
+        <attr name="chain_separator_xsmall" format="dimension" />
+        <attr name="chain_separator_small" format="dimension" />
+        <attr name="chain_separator_large" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="CompoundLabelView">
+        <attr name="label_text_color" format="color"/>
+        <attr name="label_icon_size_small" format="dimension"/>
+        <attr name="label_icon_size_large" format="dimension"/>
+        <attr name="font_style_full_span" format="reference"/>
+        <attr name="font_style_package" format="reference"/>
+        <attr name="font_style_package_nested" format="reference"/>
+        <attr name="font_style_package_cardified" format="reference"/>
+        <attr name="font_style_pill" format="reference"/>
+        <attr name="font_style_mini_all_caps" format="reference"/>
+        <attr name="font_style_kicker" format="reference"/>
+        <attr name="font_style_cta" format="reference"/>
+        <attr name="font_style_cta_secondary" format="reference"/>
+        <attr name="font_style_live_update" format="reference"/>
+        <attr name="pill_exclusive_style" format="reference"/>
+        <attr name="package_label_rule_color" format="color"/>
+        <attr name="package_label_rule_width" format="dimension"/>
+        <attr name="font_style_newsletter" format="reference"/>
+        <attr name="font_style_button" format="reference"/>
+        <attr name="font_style_comment" format="reference"/>
+        <attr name="font_style_featuring" format="reference"/>
+
+
+
+
+        <attr name="font_secondary_explainer" format="reference"/>
+        <attr name="font_secondary_content_type" format="reference"/>
+
+    </declare-styleable>
+</resources>

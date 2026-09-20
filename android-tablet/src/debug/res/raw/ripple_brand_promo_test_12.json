@@ -1,0 +1,947 @@
+{
+  "layout": "homepage",
+  "output_type": "jsonapp",
+  "tracking": {
+    "page_name": "homepage",
+    "page_title": "The Washington Post - Breaking news and latest headlines, U.S. news, world news, and video",
+    "page_path": "/",
+    "section": "homepage",
+    "channel": "homepage"
+  },
+  "regions": [
+    {
+      "location": "content",
+      "items": [
+        {
+          "id": "2b6a3137-e6bf-4708-aeb8-2cedb4fc5161",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "no-name",
+          "link_group": "no-name",
+          "layout_name": "full-span",
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "id": "allcontent-2b6a3137-e6bf-4708-aeb8-2cedb4fc5161",
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "no-name",
+              "content_tracking": {
+                "module_position": 1,
+                "surface": "hp_1"
+              },
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "1a8ec758-b359-4892-9044-5e05810cbc6e",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "WP Intelligence",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  },
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": ["label", "headline", "blurbs"]
+                      },
+                      "right": {
+                        "items": ["cta"],
+                        "width": "small",
+                        "valign": "bottom"
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://wpintelligence.washingtonpost.com/",
+                    "type": "web"
+                  },
+                  "label": {
+                    "show": true,
+                    "type": "brand-promo",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "style": "wp-intelligence",
+                    "label": {
+                      "text": "FEATURING"
+                    },
+                    "link": {
+                      "url": "https://wpintelligence.washingtonpost.com/",
+                      "type": "web"
+                    }
+                  },
+                  "headline": {
+                    "text": "Intelligence",
+                    "size": "medium",
+                    "font_style": "bold",
+                    "alignment": "left",
+                    "icon": "logo"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "A trusted briefing service designed to help decision-makers translate insight into meaningful action. WP Intelligence operates independently of The Washington Post newsroom."
+                      }
+                    ]
+                  },
+                  "cta": {
+                    "show": true,
+                    "type": "button",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "show_arrow": false,
+                    "link": {
+                      "url": "https://wpintelligence.washingtonpost.com/",
+                      "type": "web"
+                    }
+                  },
+                  "content_tracking": {
+                    "position_in_module": {
+                      "xlarge": 0,
+                      "large": 0,
+                      "medium": 0,
+                      "small": 0
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "1a8ec758-b359-4892-9044-5e05810cbc6e",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "WP Intelligence",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "layout_attributes": {
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  },
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": ["label", "headline", "blurbs", "cta"]
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://wpintelligence.washingtonpost.com/",
+                    "type": "web"
+                  },
+                  "label": {
+                    "show": true,
+                    "type": "brand-promo",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "style": "wp-intelligence",
+                    "label": {
+                      "text": "FEATURING"
+                    },
+                    "link": {
+                      "url": "https://wpintelligence.washingtonpost.com/",
+                      "type": "web"
+                    }
+                  },
+                  "headline": {
+                    "text": "Intelligence",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left",
+                    "icon": "logo"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "A trusted briefing service designed to help decision-makers translate insight into meaningful action. WP Intelligence operates independently of The Washington Post newsroom."
+                      }
+                    ]
+                  },
+                  "cta": {
+                    "show": true,
+                    "type": "button",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "show_arrow": false,
+                    "link": {
+                      "url": "https://wpintelligence.washingtonpost.com/",
+                      "type": "web"
+                    }
+                  },
+                  "content_tracking": {
+                    "position_in_module": {
+                      "xsmall": 0
+                    }
+                  }
+                },
+                {
+                  "id": "1a8ec758-b359-4892-9044-5e05810cbc6e-carousel",
+                  "item_type": "carousel/external",
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "6MVPSNSXWJHRXCBKCCW5DZBGPA",
+                      "item_type": "immersion",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "Insider Markets: How alleged war profiteers are betting on the Iran conflict"
+                      },
+                      "link": {
+                        "url": "https://wpintelligence.washingtonpost.com/topics/2026/04/28/insider-markets-how-alleged-war-profiteers-are-betting-iran-conflict/",
+                        "type": "article",
+                        "last_modified": "2026-04-28T15:13:57.211Z",
+                        "display_date": "2026-04-28T13:47:56.152Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-28T13:47:56.152Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label": {
+                          "text": "Global Security"
+                        },
+                        "label_secondary": {
+                          "text": "Josh Rogin"
+                        }
+                      },
+                      "media": {
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TLQDBOERP6ODJVLF43GIDBPWDE.JPG",
+                        "media_type": "image",
+                        "aspect_ratio": 1.5001454757055572,
+                        "art_width": "full-width"
+                      }
+                    },
+                    {
+                      "id": "WGO52WDD35D7FO46WENGRBSM6Y",
+                      "item_type": "immersion",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "The WPI Conversation: Charting the launch of the first public fusion company"
+                      },
+                      "link": {
+                        "url": "https://wpintelligence.washingtonpost.com/topics/2026/04/24/wpi-conversation-charting-launch-first-public-fusion-company/",
+                        "type": "article",
+                        "last_modified": "2026-04-27T15:18:44.244Z",
+                        "display_date": "2026-04-24T23:28:25.908Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-24T23:28:25.908Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label": {
+                          "text": "Energy & Climate"
+                        },
+                        "label_secondary": {
+                          "text": "Kathryn Clay"
+                        }
+                      },
+                      "media": {
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/UAXRPWDGM5CZPCQBZWADGBQM2Y.jpg",
+                        "media_type": "image",
+                        "aspect_ratio": 1.5,
+                        "art_width": "full-width"
+                      }
+                    },
+                    {
+                      "id": "RIMY773XOZABDKSUGD2CPHYKII",
+                      "item_type": "immersion",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "Inside the Development Finance Corporation’s new $205 billion bet"
+                      },
+                      "link": {
+                        "url": "https://wpintelligence.washingtonpost.com/topics/2026/04/17/wp-intelligence-council-meeting-report-inside-development-finance-corporations-new-205-billion-bet/",
+                        "type": "article",
+                        "last_modified": "2026-04-23T18:33:35.513Z",
+                        "display_date": "2026-04-17T19:51:05.586Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-17T19:51:05.586Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label": {
+                          "text": "Global Security"
+                        },
+                        "label_secondary": {
+                          "text": "Josh Rogin"
+                        }
+                      },
+                      "media": {
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OLPYG2EYUVGKFLLQUHPNODGSNY.png",
+                        "media_type": "image",
+                        "aspect_ratio": 1.5,
+                        "art_width": "full-width"
+                      }
+                    },
+                    {
+                      "id": "LV2JYKOJEBFZNJDOCT32P3FY4E",
+                      "item_type": "immersion",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "Medicare jumps into health and wellness apps"
+                      },
+                      "link": {
+                        "url": "https://wpintelligence.washingtonpost.com/topics/2026/04/21/medicare-jumps-into-health-wellness-apps/",
+                        "type": "article",
+                        "last_modified": "2026-04-23T15:28:38.465Z",
+                        "display_date": "2026-04-21T22:20:41.58Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-21T22:20:41.58Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label": {
+                          "text": "Health Care"
+                        },
+                        "label_secondary": {
+                          "text": "Rebecca Adams"
+                        }
+                      },
+                      "media": {
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VKHWASVFUNGP5CPRWURMKSD6DQ.png",
+                        "media_type": "image",
+                        "aspect_ratio": 1.5004835589941974,
+                        "art_width": "full-width"
+                      }
+                    }
+                  ],
+                  "content_tracking": {
+                    "position_in_module": {
+                      "xlarge": 1,
+                      "large": 1,
+                      "medium": 1,
+                      "small": 1,
+                      "xsmall": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        },
+        {
+          "id": "5700274b-3aee-413e-8ca4-883b25620fd9",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "no-name",
+          "link_group": "no-name",
+          "layout_name": "tiling",
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "id": "allcontent-5700274b-3aee-413e-8ca4-883b25620fd9",
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "no-name",
+              "content_tracking": {
+                "module_position": 101,
+                "surface": "hp_101"
+              },
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "a4ae44b6-6978-4b39-bd1d-500852833ff9",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "Ripple",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  },
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": ["label", "headline", "blurbs"]
+                      },
+                      "right": {
+                        "items": ["cta"],
+                        "width": "small",
+                        "valign": "bottom"
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.washingtonpost.com/ripple",
+                    "type": "web"
+                  },
+                  "label": {
+                    "show": true,
+                    "type": "kicker",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "style": "default",
+                    "label": {
+                      "text": "Commentary from the web"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/ripple",
+                      "type": "web"
+                    }
+                  },
+                  "headline": {
+                    "text": "",
+                    "size": "medium",
+                    "font_style": "bold",
+                    "alignment": "left",
+                    "icon": "ripple"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Ripple brings together diverse perspectives from other publications and operates independently of The Washington Post newsroom."
+                      }
+                    ]
+                  },
+                  "cta": {
+                    "show": true,
+                    "type": "button",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "show_arrow": false,
+                    "link": {
+                      "url": "https://www.washingtonpost.com/ripple",
+                      "type": "web"
+                    }
+                  },
+                  "content_tracking": {
+                    "position_in_module": {
+                      "xlarge": 0,
+                      "large": 0,
+                      "medium": 0,
+                      "small": 0
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "a4ae44b6-6978-4b39-bd1d-500852833ff9",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "Ripple",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "layout_attributes": {
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  },
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": ["label", "headline", "blurbs", "cta"]
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.washingtonpost.com/ripple",
+                    "type": "web"
+                  },
+                  "label": {
+                    "show": true,
+                    "type": "kicker",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "style": "default",
+                    "label": {
+                      "text": "Commentary from the web"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/ripple",
+                      "type": "web"
+                    }
+                  },
+                  "headline": {
+                    "text": "",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left",
+                    "icon": "ripple"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Ripple brings together diverse perspectives from other publications and operates independently of The Washington Post newsroom."
+                      }
+                    ]
+                  },
+                  "cta": {
+                    "show": true,
+                    "type": "button",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "show_arrow": false,
+                    "link": {
+                      "url": "https://www.washingtonpost.com/ripple",
+                      "type": "web"
+                    }
+                  },
+                  "content_tracking": {
+                    "position_in_module": {
+                      "xsmall": 0
+                    }
+                  }
+                },
+                {
+                  "id": "a4ae44b6-6978-4b39-bd1d-500852833ff9-carousel",
+                  "item_type": "carousel/external",
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "FB6PV7SAFEI7DO2G5VLENCGZKM",
+                      "item_type": "immersion",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "Why do the Democrats keep expanding the institutions they claim to oppose?"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/ripple/2026/04/24/democrats-ice-beyond-reform/",
+                        "type": "article",
+                        "last_modified": "2026-04-28T13:07:05.879Z",
+                        "display_date": "2026-04-28T13:06:58.384Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-28T13:06:58.384Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label_secondary": {
+                          "text": "from The Nation"
+                        }
+                      },
+                      "media": {
+                        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/VNGYVW7ZJF73MIHRVMB3YMR7VM.jpg",
+                        "media_type": "image",
+                        "aspect_ratio": 1.5001350256548744,
+                        "art_width": "full-width"
+                      }
+                    },
+                    {
+                      "id": "LFTTLJCAZAI7DO2G5VLENCGZKM",
+                      "item_type": "immersion",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "Would the American people be better off without Congress?"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/ripple/2026/04/25/congress-cesspool-toxic-consequences/",
+                        "type": "article",
+                        "last_modified": "2026-04-28T12:51:50.497Z",
+                        "display_date": "2026-04-28T12:51:42.239Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-28T12:51:42.239Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label_secondary": {
+                          "text": "from The Hill"
+                        }
+                      },
+                      "media": {
+                        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/HSLKM7JFTD2H353KM77UELK7VA.jpg",
+                        "media_type": "image",
+                        "aspect_ratio": 1.5002165439584236,
+                        "art_width": "full-width"
+                      }
+                    },
+                    {
+                      "id": "BSSEXJCCHEI7DMM5GJBRARVVWQ",
+                      "item_type": "immersion",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "Older Americans who vote live longer than those who don’t"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/ripple/2026/04/27/older-americans-who-vote-live-longer-than-those-who-dont-new-research/",
+                        "type": "article",
+                        "last_modified": "2026-04-27T20:43:20.779Z",
+                        "display_date": "2026-04-27T20:43:13.830Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-27T20:43:13.830Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label_secondary": {
+                          "text": "from The Conversation"
+                        }
+                      },
+                      "media": {
+                        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/6ZICMGEUZS4QWC6UD2VJUL5BQU.JPG",
+                        "media_type": "image",
+                        "aspect_ratio": 1.5,
+                        "art_width": "full-width"
+                      }
+                    },
+                    {
+                      "id": "6NRT4UCCGAI7DMM5GJBRARVVWQ",
+                      "item_type": "immersion",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "Why can’t Americans buy more affordable health-care plans?"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/ripple/2026/04/27/health-insurance-costs-plans-affordable-care-act/",
+                        "type": "article",
+                        "last_modified": "2026-04-27T20:34:23.805Z",
+                        "display_date": "2026-04-27T20:34:14.678Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-27T20:34:14.678Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label_secondary": {
+                          "text": "from City Journal"
+                        }
+                      },
+                      "media": {
+                        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CEKABWJR5RS7C67TI5VQHOJBWE.JPG",
+                        "media_type": "image",
+                        "aspect_ratio": 1.5668385561285205,
+                        "art_width": "full-width"
+                      }
+                    },
+                    {
+                      "id": "YK7K3KSCIEI7DMM5GJBRARVVWQ",
+                      "item_type": "immersion",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "Where will the GOP—and where should Democrats—go after Trump: A conversation with Jamelle Bouie"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/ripple/2026/04/27/where-will-the-gopand-where-should/",
+                        "type": "article",
+                        "last_modified": "2026-04-27T19:28:45.684Z",
+                        "display_date": "2026-04-27T19:28:37.858Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-27T19:28:37.858Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label_secondary": {
+                          "text": "from The UnPopulist"
+                        }
+                      },
+                      "media": {
+                        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/UQNEV7FONET7R5RGPOAE55ZFYY.JPG",
+                        "media_type": "image",
+                        "aspect_ratio": 1.500247157686604,
+                        "art_width": "full-width"
+                      }
+                    }
+                  ],
+                  "content_tracking": {
+                    "position_in_module": {
+                      "xlarge": 1,
+                      "large": 1,
+                      "medium": 1,
+                      "small": 1,
+                      "xsmall": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        }
+      ]
+    }
+  ],
+  "cards": {
+    "xsmall": {
+      "tables": [
+        ["allcontent-2b6a3137-e6bf-4708-aeb8-2cedb4fc5161"],
+        ["allcontent-5700274b-3aee-413e-8ca4-883b25620fd9"]
+      ]
+    }
+  },
+  "health": {
+    "chains": {
+      "overall": {
+        "success": 2,
+        "total": 2,
+        "rate": 100
+      },
+      "top_3": {
+        "display_names": [null, null],
+        "success": 2,
+        "total": 2,
+        "rate": 100
+      }
+    }
+  },
+  "checksum": "6f0ce194e1c05b00721a4a8ffeb4492c",
+  "doc_checksum": "872a0a415f318e52b46dea7b3ae7ac4a"
+}

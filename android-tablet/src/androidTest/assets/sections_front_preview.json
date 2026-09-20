@@ -1,0 +1,810 @@
+{
+   "name":"preview",
+   "pages":[
+      {
+         "template":"tablet_dolphin",
+         "modules":[
+            {
+               "name":"dolphin_hero",
+               "h":1,
+               "w":3,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/08/08/Interactivity/Images/picks_Dolphin_0811.png?uuid=_K4U4gB9EeOaPpFt6AX2XQ",
+                  "urlPath":"/__ipad2/business/technology/amazons-jeff-bezos-will-bring-a-demanding-management-style-to-the-post/2013/08/07/b5ce5ee8-ff96-11e2-9711-3708310f6f4d_story.html",
+                  "id":"b5ce5ee8-ff96-11e2-9711-3708310f6f4d",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"For Jeff Bezos, a demanding style behind patience",
+                  "blurbPreface":"Craig Timberg and Jia Lynn Yang",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/08/06/National-Economy/Images/03814153.jpg",
+                     "aspectRatio":1.4739454094292803,
+                     "caption":""
+                  },
+                  "blurb":"In the relentlessly efficient world of Jeffrey P. Bezos, Amazon employees quickly learn when they have overtaxed the attention of their chief executive. He quietly pulls out his smartphone and starts replying to e-mails. In extreme cases, Bezos will walk out.This demanding style is as much a"
+               }
+            },
+            {
+               "name":"mermaid_tablet_story_slot_1",
+               "h":1,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/WashingtonPost/Content/Blogs/in-the-loop/Images/Weiner_Mayor-078e7.jpg",
+                  "urlPath":"/__ipad2/opinions/richard-cohen-huma-abedin-stayed--and-so-did-i/2013/08/05/1f03cfd0-fdf1-11e2-9711-3708310f6f4d_story.html",
+                  "id":"1f03cfd0-fdf1-11e2-9711-3708310f6f4d",
+                  "type":"article_story",
+                  "kicker1":"COHEN",
+                  "kicker2":"",
+                  "headline":"When I was &lt;br&gt;cheated on",
+                  "blurbPreface":"Richard Cohen",
+                  "photo":{
+                     "path":"/WashingtonPost/Content/Blogs/in-the-loop/Images/Weiner_Mayor-078e7.jpg",
+                     "aspectRatio":1.4858611825192802,
+                     "caption":""
+                  },
+                  "blurb":"Linda cheated on me. It happened the night before we were planning to go away for the weekend. In the morning I called her place, but there was no answer. I called again &amp;mdash; and then again and again. Worried, I rushed over to her apartment and finding an open window, I climbed in. No one was"
+               }
+            },
+            {
+               "name":"mermaid_tablet_story_slot_2",
+               "h":1,
+               "w":1,
+               "hideLandscape":true,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/08/06/Sports/Images/MLB_Drug_Investigation_Baseball-03500.jpg",
+                  "urlPath":"/__ipad2/sports/nationals/alex-rodriguez-suspension-hits-twice-as-hard-for-a-still-grieving-parent/2013/08/06/109e564c-fee4-11e2-9a3e-916de805f65d_story.html",
+                  "id":"109e564c-fee4-11e2-9a3e-916de805f65d",
+                  "type":"article_story",
+                  "kicker1":"Wise",
+                  "kicker2":"",
+                  "headline":"Suspension hits twice as hard",
+                  "blurbPreface":"Mike Wise",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/08/06/Sports/Images/MLB_Drug_Investigation_Baseball-03500.jpg",
+                     "aspectRatio":1.5,
+                     "caption":""
+                  },
+                  "blurb":"Don Hooton, Sr., has been trying to work himself into an angry lather over Alex Rodriguez. He wants to be furious at A-Rod for deluding him and his foundation, dedicated to the memory of his 17-year-old son, Taylor, who 10 summers ago hanged himself in his bedroom because of what doctors say were"
+               }
+            },
+            {
+               "name":"eel",
+               "h":0.5,
+               "w":2,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/07/11/Foreign/Images/IMG_989913735660321373572590.JPG",
+                  "urlPath":"/__ipad2/world/asia_pacific/in-china-one-child-policy-compounds-loss-of-child-for-parents/2013/08/07/063716fe-e877-11e2-a301-ea5a8116d211_story.html",
+                  "id":"063716fe-e877-11e2-a301-ea5a8116d211",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"China’s longtime one-child policy compounds the losses for parents",
+                  "blurbPreface":"William Wan",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/07/11/Foreign/Images/IMG_989913735660321373572590.JPG",
+                     "aspectRatio":1.5,
+                     "caption":""
+                  },
+                  "blurb":"It&amp;rsquo;s been 11 months, and Xu Min still rarely leaves the house.He spends his days on the couch in front of a TV, trying to block out memories of his dead son. He blames fate for the car accident that killed the 23-year-old in September.But for the loneliness that will haunt him and his wife"
+               }
+            },
+            {
+               "name":"eel",
+               "h":0.5,
+               "w":2,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/08/03/Interactivity/Images/general_Shark_0804.png?uuid=bpW5jvyMEeKb3n3aoYa3UQ",
+                  "urlPath":"/__ipad2/world/middle_east/rare-interview-with-egyptian-gen-abdel-fatah-al-sissi/2013/08/03/a77eb37c-fbc4-11e2-a369-d1954abcb7e3_story.html",
+                  "id":"a77eb37c-fbc4-11e2-a369-d1954abcb7e3",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"In rare interview, Egyptian&lt;br&gt; general lashes out at the U.S.",
+                  "blurbPreface":"Lally Weymouth",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/08/02/Foreign/Images/Mideast_Egypt_Cult_Of_The_General-0dc16.jpg",
+                     "aspectRatio":1.5,
+                     "caption":""
+                  },
+                  "blurb":"In his first interview since the overthrow of President Mohamed Morsi last month, Egypt&amp;rsquo;s commanding general sharply criticized the U.S. response, accusing the Obama administration of disregarding the Egyptian popular will and of providing insufficient support amid threats of a civil"
+               }
+            },
+            {
+               "name":"nemo",
+               "h":1,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2012/10/25/Interactivity/Advance/Images/runphotos1.JPG",
+                  "urlPath":"/__ipad2/opinions/collision-2012-obama-vs-romney-and-the-future-of-elections-in-america-by-dan-balz/2013/08/02/df66f74a-efe4-11e2-a1f9-ea873b7e0424_story.html",
+                  "id":"df66f74a-efe4-11e2-a1f9-ea873b7e0424",
+                  "type":"article_story",
+                  "kicker1":"BOOK REVIEW",
+                  "kicker2":"",
+                  "headline":"How Romney misjudged 2012 election",
+                  "blurbPreface":"Howell Raines",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2012/10/25/Interactivity/Advance/Images/runphotos1.JPG",
+                     "aspectRatio":1.487106017191977,
+                     "caption":""
+                  },
+                  "blurb":"Dan Balz&amp;rsquo;s history of the 2012 campaign ends with an astonishing scene from a post-election interview with Mitt Romney. When the reporter brings up his infamous &amp;ldquo;47 percent&amp;rdquo; remark, Romney blurts, &amp;ldquo;Actually I didn&amp;rsquo;t say that.&amp;rdquo; He then retrieves his iPad and leads"
+               }
+            },
+            {
+               "name":"nemo",
+               "h":1,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/08/08/Others/Images/2013-08-08/RTX12DK41375983373.jpg",
+                  "urlPath":"/__ipad2/world/photos-you-have-to-see/2013/08/10/90071e94-0080-11e3-9711-3708310f6f4d_gallery.html",
+                  "id":"90071e94-0080-11e3-9711-3708310f6f4d",
+                  "type":"gallery_story",
+                  "kicker1":"Must See Photos",
+                  "kicker2":"",
+                  "headline":"Photos you have to see",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/08/08/Others/Images/2013-08-08/RTX12DK41375983373.jpg",
+                     "aspectRatio":1.5002143163309045,
+                     "caption":""
+                  },
+                  "blurb":"A look at some of our favorite images of the week."
+               }
+            }
+         ]
+      },
+      {
+         "template":"tablet_dolphin",
+         "modules":[
+            {
+               "name":"dolphin_hero",
+               "h":1,
+               "w":3,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/08/05/Interactivity/Images/NEW_longread_Dolphin_0802.png?uuid=F9u6dP1-EeK9l2duwk8fPw",
+                  "urlPath":"/__ipad2/sf/feature/wp/2013/04/18/ana-montes-did-much-harm-spying-for-cuba-chances-are-you-havent-heard-of-her/",
+                  "id":"99acdf98-663d-11e2-85f5-a8a9228e55e7",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"The ‘Queen of Cuba’",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/04/15/Magazine/Images/4_21%20CubaspyOPENER_r2.jpg",
+                     "aspectRatio":1.4041116907026696,
+                     "caption":""
+                  },
+                  "blurb":"Ana Montes has been locked up for a decade with some of the most frightening women in America. Once a highly decorated U.S. intelligence analyst with a two-bedroom co-op in Cleveland Park, Montes today lives in a two-bunk cell in the highest-security women&amp;rsquo;s prison in the nation. Her neighbors"
+               }
+            },
+            {
+               "name":"mermaid_tablet_story_slot_1",
+               "h":1,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2012/09/17/Style/Images/Kidnap%203_1347893340.jpg",
+                  "urlPath":"/__ipad2/local/a-nightmare-in-real-life-va-teens-kidnapping-tale-in-the-philippines/2013/04/01/d4e9041e-7ad9-11e2-82e8-61a46c2cde3d_story.html",
+                  "id":"d4e9041e-7ad9-11e2-82e8-61a46c2cde3d",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"Kidnapped! &lt;br&gt;Or how I spent my summer vacation",
+                  "blurbPreface":"Susan Svrluga",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2012/09/17/Style/Images/Kidnap%203_1347893340.jpg",
+                     "aspectRatio":1.4814814814814814,
+                     "caption":""
+                  },
+                  "blurb":"The nightmares still come sometimes, yanking Kevin Lunsmann back. He forgets he is safe in his own bedroom, guitar leaning against the wall, cats curled up asleep, in his family&amp;rsquo;s little yellow ranch house in Lynchburg. He forgets classes at Brookville High School, football games with his"
+               }
+            },
+            {
+               "name":"mermaid_tablet_story_slot_2",
+               "h":1,
+               "w":1,
+               "hideLandscape":true,
+               "article":{
+                  "panelImagePath":"/WashingtonPost/Content/Interactivity/Images/Houseboat_Shark_0630.png?uuid=2536052e-df44-11e2-b94a-452948b95ca8",
+                  "urlPath":"/__ipad2/lifestyle/magazine/in-houseboat-neighborhood-stunning-views-minimal-commutes-and-dock-parties/2013/06/27/84280b62-cebf-11e2-8845-d970ccb04497_story.html",
+                  "id":"84280b62-cebf-11e2-8845-d970ccb04497",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"Home sweet houseboat",
+                  "blurbPreface":"Maggie Fazeli Fard",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/06/12/Others/Images/2013-06-12/Houseboats3771371065480.JPG",
+                     "aspectRatio":1.502824858757062,
+                     "caption":""
+                  },
+                  "blurb":"The view from David Murray&amp;rsquo;s home in Southwest is among the best in the city, a panorama of the Washington Channel bookended by Fort McNair and the Washington Monument. &amp;ldquo;What more could I ask for?&amp;rdquo; asks Murray, surveying his surroundings as his shirt flutters in a breeze city"
+               }
+            },
+            {
+               "name":"eel",
+               "h":0.5,
+               "w":2,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/07/26/Interactivity/Images/BUTLER_Shark_0728.png?uuid=TEgITPYjEeKi8aes-b1dOg",
+                  "urlPath":"/__ipad2/lifestyle/magazine/the-butler-movie-forest-oprah-and-me/2013/07/24/7e38d738-d386-11e2-a73e-826d299ff459_story.html",
+                  "id":"7e38d738-d386-11e2-a73e-826d299ff459",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"Forest, Oprah and me: Wild ride from story to big-budget movie",
+                  "blurbPreface":"Wil Haygood",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/07/10/Style/Images/DF-03146R.JPG",
+                     "aspectRatio":1.503006012024048,
+                     "caption":""
+                  },
+                  "blurb":"NEW ORLEANS &amp;mdash; It&amp;rsquo;s after midnight on a side street here in this Southern city. There&amp;rsquo;s moonlight and klieg lights touching the front porch where Oprah Winfrey and Terrence Howard are sitting. They&amp;rsquo;re chatting a late night away, dressed coolly inside of a movie scene. Terrence"
+               }
+            },
+            {
+               "name":"eel",
+               "h":0.5,
+               "w":2,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/06/07/Interactivity/Images/o-phyllis_shark_0609.png?uuid=cXinls-IEeKPa2f0DhdvAw",
+                  "urlPath":"/__ipad2/opinions/answering-harvards-question-about-my-personal-life-52-years-later/2013/06/06/89c97e2e-c259-11e2-914f-a7aba60512a7_story.html",
+                  "id":"89c97e2e-c259-11e2-914f-a7aba60512a7",
+                  "type":"article_story",
+                  "kicker1":"opinion",
+                  "kicker2":"",
+                  "headline":"Harvard discouraged me 52 years ago; What about now?",
+                  "blurbPreface":"Phyllis Richman",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/06/04/Outlook/Images/Phyllis,%20Jan%201965.jpeg",
+                     "aspectRatio":1.3973799126637554,
+                     "caption":""
+                  },
+                  "blurb":"June 9, 2013Dear William A. Doebele Jr.,I&amp;rsquo;m sorry it has taken me so long to respond to your letter from June 1961. As you predicted, I have been very busy. Recently, as I was cleaning out boxes of mementos, I came across your letter and realized that, even though we discussed it in person 52"
+               }
+            },
+            {
+               "name":"nemo",
+               "h":1,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2012/10/03/Others/Images/2012-10-03/na-pool%20%20223511349281991.JPG",
+                  "urlPath":"/__ipad2/national/life-of-a-salesman-selling-success-when-the-american-dream-is-downsized/2012/10/07/e2b34aac-1033-11e2-acc1-e927767f41cd_story.html",
+                  "id":"e2b34aac-1033-11e2-acc1-e927767f41cd",
+                  "type":"article_story",
+                  "kicker1":"From the Archives",
+                  "kicker2":"",
+                  "headline":"For a salesman, a difficult sales pitch",
+                  "blurbPreface":"Eli Saslow",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2012/10/03/Others/Images/2012-10-03/na-pool%20%20223511349281991.JPG",
+                     "aspectRatio":1.5210605088732094,
+                     "caption":""
+                  },
+                  "blurb":"He had always managed to find optimism in even the worst circumstances, and here was another chance: a heat advisory, 98 degrees and rising at 11 a.m., the hottest day of the year yet.&amp;ldquo;Thank you,&amp;rdquo; said Frank Firetti, 54, as he walked out of his Manassas office into a blast of humidity in"
+               }
+            },
+            {
+               "name":"nemo",
+               "h":1,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/06/15/Others/Images/2013-06-14/THEBUREAU%20951371256812.JPG",
+                  "urlPath":"/__ipad2/opinions/at-great-risk-they-helped-the-post-cover-iraq-now-theyre-remaking-their-lives-in-america/2013/07/18/76867d10-e7e5-11e2-aa9f-c03a72e2d342_story.html",
+                  "id":"76867d10-e7e5-11e2-aa9f-c03a72e2d342",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"Reporter tracks down translators who helped him cover the war",
+                  "blurbPreface":"Rajiv Chandrasekaran",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/06/15/Others/Images/2013-06-14/THEBUREAU%20951371256812.JPG",
+                     "aspectRatio":1.5025041736227045,
+                     "caption":""
+                  },
+                  "blurb":"Two hours into the celebration, after the children had finished scurrying about the garden, the adults had gossiped under the portico and everyone had indulged in a buffet of hummus and kebabs, Washington Post photographer Bill O&amp;rsquo;Leary clambered onto the roof of the villa serving as The"
+               }
+            }
+         ]
+      },
+      {
+         "template":"tablet_dolphin",
+         "modules":[
+            {
+               "name":"dolphin_hero",
+               "h":1,
+               "w":3,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/08/12/Interactivity/Images/spain_Shark_0812.png?uuid=yXWbUgLmEeOSWeKq_lpfhA",
+                  "urlPath":"/__ipad2/world/spanish-struggle-amid-unemployment-crisis/2013/08/11/4e17466e-da63-11e2-b418-9dfa095e125d_story.html",
+                  "id":"4e17466e-da63-11e2-b418-9dfa095e125d",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"In Spain, a family in crisis struggles to survive",
+                  "blurbPreface":"Anthony Faiola",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/06/24/Foreign/Images/Spain0241372102391.JPG",
+                     "aspectRatio":1.5317377731529656,
+                     "caption":""
+                  },
+                  "blurb":"It was the start of the Spanish summer, and for a boy with ambitions to be the first in his family to go to college, here was the payoff for getting through chemistry and besting Mrs. Prieto&amp;rsquo;s brutal English tests. The first day of the rest of his life.Graduation Day. But Alejandro Gea Vida"
+               }
+            },
+            {
+               "name":"mermaid_tablet_story_slot_1",
+               "h":1,
+               "w":1,
+               "article":{
+                  "urlPath":"/__ipad2/world/middle_east/egyptian-liberals-call-for-crackdown-against-pro-morsi-sit-ins/2013/08/12/986d7dce-036b-11e3-bfc5-406b928603b2_story.html",
+                  "id":"986d7dce-036b-11e3-bfc5-406b928603b2",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"Egyptian liberals urge crackdown against pro-Morsi sit-ins",
+                  "blurbPreface":"William Booth and Sharaf Al-Hourani",
+                  "blurb":"As pressure mounts on Egypt&amp;rsquo;s military-backed interim government to forcibly disperse supporters of ousted president Mohammed Morsi from their massive sit-ins, some of the loudest, most passionate voices calling for security forces to clear the encampments come from liberals here.Liberal"
+               }
+            },
+            {
+               "name":"mermaid_tablet_story_slot_2",
+               "h":1,
+               "w":1,
+               "hideLandscape":true,
+               "article":{
+                  "urlPath":"/__ipad2/world/africa/in-congo-rising-violence-triggers-new-un-unit/2013/08/11/29a38de4-029d-11e3-9259-e2aafe5a5f84_story.html",
+                  "id":"29a38de4-029d-11e3-9259-e2aafe5a5f84",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"In Congo, violence surges again",
+                  "blurbPreface":"Sudarsan Raghavan",
+                  "blurb":"Since 1997, when U.S.-backed dictator Mobutu Sese Seko was toppled by a rebellion, Congo has been gripped by conflict and political tensions. The mineral-rich country, once known as Zaire, has plunged into the deadliest conflict in African history; more than 5 million people have lost their lives."
+               }
+            },
+            {
+               "name":"eel",
+               "h":0.5,
+               "w":2,
+               "article":{
+                  "panelImagePath":"/WashingtonPost/Content/Blogs/Images/201308/wikipedia.jpg",
+                  "urlPath":"/__ipad2/blogs/worldviews/wp/2013/08/12/wikipedia-largely-alone-in-defying-chinese-self-censorship-demands/",
+                  "id":"/blogs/worldviews/wp/2013/08/12/wikipedia-largely-alone-in-defying-chinese-self-censorship-demands/",
+                  "type":"BlogStory",
+                  "kicker2":"",
+                  "headline":"Wikipedia defies China&#039;s self-censorship demands",
+                  "blurbPreface":"Caitlin Dewey",
+                  "photo":{
+                     "path":"/WashingtonPost/Content/Blogs/Images/201308/wikipedia.jpg",
+                     "aspectRatio":1.5154320987654322,
+                     "caption":""
+                  },
+                  "blurb":"American Internet companies that want to operate in China generally have to play by Chinese rules. But Wikipedia co-founder Jimmy Wales told The Wall Street Journal this weekend that his site will never comply with government requests to restrict information in China -- making it one of only a"
+               }
+            },
+            {
+               "name":"eel",
+               "h":0.5,
+               "w":2,
+               "article":{
+                  "panelImagePath":"/WashingtonPost/Content/Blogs/Images/201308/176411229.jpg",
+                  "urlPath":"/__ipad2/blogs/worldviews/wp/2013/08/12/why-is-israel-opening-up-the-settlement-floodgates-just-as-peace-talks-start/",
+                  "id":"/blogs/worldviews/wp/2013/08/12/why-is-israel-opening-up-the-settlement-floodgates-just-as-peace-talks-start/",
+                  "type":"BlogStory",
+                  "kicker2":"",
+                  "headline":"&#039;Opening the settlement floodgates&#039;",
+                  "blurbPreface":"Max Fisher",
+                  "photo":{
+                     "path":"/WashingtonPost/Content/Blogs/Images/201308/176411229.jpg",
+                     "aspectRatio":1.5748031496062993,
+                     "caption":""
+                  },
+                  "blurb":"Israeli officials announced Sunday that they had approved 1,200 new settlement homes in the West Bank, outraging many Palestinians. The timing is especially conspicuous, just a few short weeks into the Israel-Palestine peace process relaunched by the Obama administration.This is not the first time"
+               }
+            },
+            {
+               "name":"nemo",
+               "h":1,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/08/11/Production/WashingtonPost/Images/Nic6239208.jpg",
+                  "urlPath":"/__ipad2/posttv/world/middle_east/protests-erupt-as-egypt-set-to-clear-camps/2013/08/11/48eb2405-d3d7-46b8-a0d9-723b097aba51_video.html",
+                  "id":"48eb2405-d3d7-46b8-a0d9-723b097aba51",
+                  "type":"video_story",
+                  "kicker2":"",
+                  "headline":"Protests erupt as Egypt set to clear camps",
+                  "blurbPreface":"Associated Press",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/08/11/Production/WashingtonPost/Images/Nic6239208.jpg",
+                     "aspectRatio":1.502824858757062,
+                     "caption":""
+                  },
+                  "blurb":"Mass protests erupted on the streets of Cairo against announcements by Egyptian security officials that forces will besiege two protest camps supporting the country&#039;s ousted president within 24 hours."
+               }
+            },
+            {
+               "name":"nemo",
+               "h":1,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/07/21/Others/Images/2013-07-21/MLT_80181374403626.jpg",
+                  "urlPath":"/__ipad2/world/us-adoptees-visit-russian-homeland/2013/08/10/c3d3e4a0-01cf-11e3-8294-0ee5075b840d_story.html",
+                  "id":"c3d3e4a0-01cf-11e3-8294-0ee5075b840d",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"Parents from U.S. show adopted children their Russian birthplace",
+                  "blurbPreface":"Kathy Lally",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/07/21/Others/Images/2013-07-21/MLT_80181374403626.jpg",
+                     "aspectRatio":1.4668079096045197,
+                     "caption":""
+                  },
+                  "blurb":"Dasha left as a 6-month-old Russian orphan, hospitalized since birth, beset by a variety of ailments. This summer she returned for a visit, a spunky sports-playing 10-year-old now named Emily, as American as can be, down to the pink polish on her toenails.Nicholi, now 12, went to his U.S. family as"
+               }
+            }
+         ]
+      },
+      {
+         "template":"tablet_squid",
+         "modules":[
+            {
+               "name":"squid_hero",
+               "h":1,
+               "w":2,
+               "article":{
+                  "panelImagePath":"/WashingtonPost/Content/Blogs/Images/201307/heat-generic.gif",
+                  "urlPath":"/__ipad2/blogs/capital-weather-gang/wp/2013/07/19/has-this-heat-wave-been-over-covered-and-over-hyped/",
+                  "id":"/blogs/capital-weather-gang/wp/2013/07/19/has-this-heat-wave-been-over-covered-and-over-hyped/",
+                  "type":"BlogStory",
+                  "kicker1":"WEATHER GANG",
+                  "kicker2":"",
+                  "headline":"Has this heat wave been over-covered, over-hyped?",
+                  "blurbPreface":"Jason Samenow",
+                  "photo":{
+                     "path":"/WashingtonPost/Content/Blogs/Images/201307/heat-generic.gif",
+                     "aspectRatio":1.3100436681222707,
+                     "caption":""
+                  },
+                  "blurb":"All week long, local and national media outlets (CWG included) have featured headlines on the extreme heat and its hazards. We&#039;ve seen (and sometimes resorted to) many of the usual heat wave gimmicks: going around the city with digital thermometers, frying eggs on the sidewalk, asking people how"
+               }
+            },
+            {
+               "name":"nemo",
+               "h":1,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/05/15/Style/Images/Film_Review-Star_Trek_Into_Darkness.JPEG-0c28c.jpg",
+                  "urlPath":"/__ipad2/lifestyle/style/live-long-and-prosper-10-notable-turns-in-the-voyages-of-star-trek/2013/05/15/814484da-bd66-11e2-97d4-a479289a31f9_gallery.html",
+                  "id":"814484da-bd66-11e2-97d4-a479289a31f9",
+                  "type":"gallery_story",
+                  "kicker2":"",
+                  "headline":"10 notable turns in the voyages of ‘Star Trek’",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/05/15/Style/Images/Film_Review-Star_Trek_Into_Darkness.JPEG-0c28c.jpg",
+                     "aspectRatio":1.4476908576814327,
+                     "caption":""
+                  },
+                  "blurb":"From the TV show that sparked the franchise in 1966 to four spinoffs and an animated series, 12 movies and multiple Captain Kirks, here&amp;rsquo;s a look at the long and prosperous voyage. &amp;mdash; Michael Cavna"
+               }
+            },
+            {
+               "name":"mermaid_tablet_story_slot_1",
+               "h":1,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/WashingtonPost/Content/Blogs/Images/201307/nats061374441192_image_982w.jpg",
+                  "urlPath":"/__ipad2/blogs/dc-sports-bog/wp/2013/07/22/jayson-werth-doesnt-want-your-doom-and-gloom/",
+                  "id":"/blogs/dc-sports-bog/wp/2013/07/22/jayson-werth-doesnt-want-your-doom-and-gloom/",
+                  "type":"BlogStory",
+                  "kicker2":"",
+                  "headline":"Werth on doom and gloom",
+                  "blurbPreface":"Sarah Kogod",
+                  "photo":{
+                     "path":"/WashingtonPost/Content/Blogs/Images/201307/nats061374441192_image_982w.jpg",
+                     "aspectRatio":1.5686900958466454,
+                     "caption":""
+                  },
+                  "blurb":"The Nats started the second half of the season by getting swept by the Dodgers over the weekend, so it&#039;s understandable that the postgame clubhouse on Sunday night wasn&#039;t the cheeriest of places. It also stands to reason that a question about the Nats&#039; missing offense would pop up, but after a"
+               }
+            },
+            {
+               "name":"mermaid_tablet_story_slot_2",
+               "h":1,
+               "w":1,
+               "hideLandscape":true,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/07/19/National-Politics/Videos/Images/obamazimmerman.jpg",
+                  "urlPath":"/__ipad2/posttv/politics/obama-tryavon-martin-could-have-been-me-35-years-ago/2013/07/19/1bd5fa26-f09b-11e2-9008-61e94a7ea20d_video.html",
+                  "id":"1bd5fa26-f09b-11e2-9008-61e94a7ea20d",
+                  "type":"video_story",
+                  "kicker2":"",
+                  "headline":"VIDEO | Obama: ‘Martin could have been me’",
+                  "blurbPreface":"The Washington Post",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/07/19/National-Politics/Videos/Images/obamazimmerman.jpg",
+                     "aspectRatio":1.6775469831849654,
+                     "caption":""
+                  },
+                  "blurb":"President Obama discussed the George Zimmerman acquittal in the killing of teenager Trayvon Martin during a surprise appearance at the White House briefing on Friday."
+               }
+            },
+            {
+               "name":"nemo",
+               "h":1,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/07/16/National-Enterprise/Images/173536533.jpg",
+                  "urlPath":"/__ipad2/opinions/kathleen-parker-unanswered-questions-in-trayvon-martin-case/2013/07/16/b154e1b0-ee44-11e2-a1f9-ea873b7e0424_story.html",
+                  "id":"b154e1b0-ee44-11e2-a1f9-ea873b7e0424",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"The road to bedlam",
+                  "blurbPreface":"Kathleen Parker",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/07/16/National-Enterprise/Images/173536533.jpg",
+                     "aspectRatio":1.5,
+                     "caption":""
+                  },
+                  "blurb":"It is easy to understand how everyone in the Trayvon Martin-George Zimmerman case feels.If I were Martin&amp;rsquo;s mother, I&amp;rsquo;d want his killer&amp;rsquo;s heart on a platter. If I were Zimmerman&amp;rsquo;s mother, I&amp;rsquo;d be grateful my son escaped greater injury, however he managed. If I were"
+               }
+            },
+            {
+               "name":"shrimp",
+               "h":0.5,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/07/15/Editorial-Opinion/Images/171514441-1089.jpg",
+                  "urlPath":"/__ipad2/opinions/marc-thiessen-force-feeding-guantanamo-detainees-is-not-torture/2013/07/15/269dab3a-ed5c-11e2-a1f9-ea873b7e0424_story.html",
+                  "id":"269dab3a-ed5c-11e2-a1f9-ea873b7e0424",
+                  "type":"article_story",
+                  "kicker1":"Thiessen",
+                  "kicker2":"",
+                  "headline":"Force-feeding is not torture",
+                  "blurbPreface":"Marc A. Thiessen",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/07/15/Editorial-Opinion/Images/171514441-1089.jpg",
+                     "aspectRatio":1.5,
+                     "caption":""
+                  },
+                  "blurb":"Officials at Guantanamo Bay are once again being falsely accused of &amp;ldquo;torture&amp;rdquo; &amp;mdash; this time for using nasogastric feeding tubes to sustainterrorist detainees who are on a hunger strike. Federal Judge Gladys Kessler recently ruled that, while she does not have the authority to stop"
+               }
+            },
+            {
+               "name":"shrimp",
+               "h":0.5,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/06/05/Interactivity/Images/crop-mobile-IRS_Tax_Exempt_Confusion.JPEG-0c282.jpg",
+                  "urlPath":"/__ipad2/blogs/federal-eye/wp/2013/07/16/irs-cancels-one-of-its-furlough-days/",
+                  "id":"/blogs/federal-eye/wp/2013/07/16/irs-cancels-one-of-its-furlough-days/",
+                  "type":"BlogStory",
+                  "kicker2":"",
+                  "headline":"IRS cancels one furlough day",
+                  "blurbPreface":"Josh Hicks",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/06/05/Interactivity/Images/crop-mobile-IRS_Tax_Exempt_Confusion.JPEG-0c282.jpg",
+                     "aspectRatio":2.0350678733031673,
+                     "caption":""
+                  },
+                  "blurb":"The Internal Revenue Service has canceled one of its five furlough days planned for this year under the automatic spending cuts known as the sequester.Acting IRS Commissioner Daniel Werfel told employees in a memo that the agency had would no longer force employees to take unpaid leave on July"
+               }
+            }
+         ]
+      },
+      {
+         "template":"tablet_shark",
+         "modules":[
+            {
+               "name":"shark_hero",
+               "h":2,
+               "w":3,
+               "related":[
+                  {
+                     "panelImagePath":"/WashingtonPost/Content/Blogs/Images/201306/africa-obama-approval.jpg",
+                     "urlPath":"/__ipad2/blogs/worldviews/wp/2013/06/28/this-map-shows-that-obama-is-really-really-popular-in-africa/",
+                     "id":"/blogs/worldviews/wp/2013/06/28/this-map-shows-that-obama-is-really-really-popular-in-africa/",
+                     "type":"BlogStory",
+                     "kicker2":"",
+                     "headline":"This map shows that Obama is really, really popular in Africa",
+                     "blurbPreface":"Max Fisher",
+                     "photo":{
+                        "path":"/WashingtonPost/Content/Blogs/Images/201306/africa-obama-approval.jpg",
+                        "aspectRatio":1.3755274261603376,
+                        "caption":""
+                     },
+                     "blurb":"President Obama is currently on a three-country tour of sub-Saharan Africa, a part of the world where he enjoys consistently sky-high favorability ratings higher even than in Europe, according to Gallup data tracking public opinion in more than 100 countries. That data is mapped out above to give"
+                  }
+               ],
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/07/20/National-Security/Images/Surveillance%20Lawsuit%20011374348186.jpg",
+                  "urlPath":"/__ipad2/politics/northern-idaho-mom-sues-president-over-government-surveillance-program/2013/07/25/4994d1d4-f092-11e2-bed3-b9b6fe264871_story.html",
+                  "id":"4994d1d4-f092-11e2-bed3-b9b6fe264871",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"Idaho mother sues Obama over NSA surveillance push",
+                  "blurbPreface":"Jerry Markon",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/07/20/National-Security/Images/Surveillance%20Lawsuit%20011374348186.jpg",
+                     "aspectRatio":1.5,
+                     "caption":"this is a caption test",
+                     "source":"this is the source for this caption"
+                  },
+                  "blurb":"Anna Smith is a mother of two who lives in rural Idaho, works the night shift as a nurse and goes to the gym often. She rarely follows the news and knows little about the debate over government surveillance and privacy that has rocked Washington in recent weeks.None of that is stopping her from"
+               }
+            },
+            {
+               "name":"mermaid_tablet_story_slot_1",
+               "h":1,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2011/03/10/Interactivity/Advance/Images/Standing%20Art/textbooks_generic01.jpg",
+                  "urlPath":"/__ipad2/local/education/free-online-textbooks-with-conditions/2013/05/07/b49364ce-b761-11e2-92f3-f291801936b8_story.html",
+                  "id":"b49364ce-b761-11e2-92f3-f291801936b8",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"Coursera: Free online textbooks, with conditions",
+                  "blurbPreface":"Nick Anderson",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2011/03/10/Interactivity/Advance/Images/Standing%20Art/textbooks_generic01.jpg",
+                     "aspectRatio":1.5417066155321189,
+                     "caption":""
+                  },
+                  "blurb":"First came free online courses. Now come &amp;mdash; with a few conditions &amp;mdash; free online textbooks.Coursera, a provider of massive open online courses, or MOOCs, from dozens of universities, announced Wednesday a partnership with several publishers to provide portions of certain textbooks free for"
+               }
+            },
+            {
+               "name":"mermaid_tablet_story_slot_2",
+               "h":1,
+               "w":1,
+               "hideLandscape":true,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/05/07/Web-Resampled/2013-05-07/PaulTudorJones001--296x197.JPG",
+                  "urlPath":"/__ipad2/local/education/paul-tudor-jones-comments-on-the-lack-of-female-traders-during-u-va-event/2013/05/07/871a3fc4-b723-11e2-aa9e-a02b765ff0ea_story.html",
+                  "id":"871a3fc4-b723-11e2-aa9e-a02b765ff0ea",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"Paul Tudor Jones sparks controversy in U-Va. speech",
+                  "blurbPreface":"Jenna Johnson",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/05/07/Web-Resampled/2013-05-07/PaulTudorJones001--296x197.JPG",
+                     "aspectRatio":1.50253807106599,
+                     "caption":""
+                  },
+                  "blurb":"Four legendary investors gathered at the University of Virginia in late April to share their philosophies and strategies for success, personal fulfillment and philanthropy. All four were men, white and aging, and that prompted several audience members to submit questions wondering: Where are the"
+               }
+            },
+            {
+               "name":"nemo",
+               "h":1,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/WashingtonPost/Content/Blogs/Images/201307/10_110_20_10312.jpg",
+                  "urlPath":"/__ipad2/blogs/going-out-guide/wp/2013/07/21/free-and-easy-e-t-the-extra-terrestrial-quack-medicine-and-a-chocolate-tasting/",
+                  "id":"/blogs/going-out-guide/wp/2013/07/21/free-and-easy-e-t-the-extra-terrestrial-quack-medicine-and-a-chocolate-tasting/",
+                  "type":"BlogStory",
+                  "kicker2":"",
+                  "headline":"Free and Easy",
+                  "blurbPreface":"Lauren McEwen",
+                  "photo":{
+                     "path":"/WashingtonPost/Content/Blogs/Images/201307/10_110_20_10312.jpg",
+                     "aspectRatio":1.4314868804664722,
+                     "caption":""
+                  },
+                  "blurb":"The Going Out Guide recommends free things to do for every day of the week.MONDAYFilm screening: &#039;E.T. the Extra-Terrestrial&#039;Screen on the Green on the Mall kicks off its 2013 season with &#034;E.T. the Extra-Terrestrial.&#034; It&#039;s a chance to watch Drew Barrymore in arguably her cutest role. Be sure to show"
+               }
+            }
+         ]
+      },
+      {
+         "template":"tablet_squid",
+         "modules":[
+            {
+               "name":"squid_hero",
+               "h":1,
+               "w":2,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/08/11/Interactivity/Images/midgette_Squid_0812.png?uuid=o-4_UgLgEeOSWeKq_lpfhA",
+                  "urlPath":"/__ipad2/entertainment/music/wolf-trap-operas-falstaff-is-intimate-memorable-and-ultimately-conventional/2013/08/11/36a04c38-0290-11e3-a07f-49ddc7417125_story.html",
+                  "id":"36a04c38-0290-11e3-a07f-49ddc7417125",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"Wolf Trap Opera’s ‘Falstaff’ is intimate and memorable",
+                  "blurbPreface":"Anne Midgette",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/08/09/Style/Images/falstaff0861.jpg",
+                     "aspectRatio":1.3993055555555556,
+                     "caption":""
+                  },
+                  "blurb":"It&amp;rsquo;s a luxury to see a big opera in a small theater. There&amp;rsquo;s a sense of extravagance to Wolf Trap Opera Company&amp;rsquo;s &amp;ldquo;Falstaff,&amp;rdquo; which opened at the Barns on Friday night. The singers&amp;rsquo; voices fill the house, while the audience sits close enough to them to pick up on"
+               }
+            },
+            {
+               "name":"nemo",
+               "h":1,
+               "w":1,
+               "article":{
+                  "urlPath":"/__ipad2/national/sci-fi-dystopia-elysium-tops-box-office-with-305-million/2013/08/11/004d0922-02aa-11e3-bfc5-406b928603b2_story.html",
+                  "id":"004d0922-02aa-11e3-bfc5-406b928603b2",
+                  "type":"article_story",
+                  "kicker2":"",
+                  "headline":"Sci-fi dystopia ‘Elysium’ tops box office with $30.5M",
+                  "blurbPreface":"Associated Press",
+                  "blurb":"NEW YORK &amp;mdash; The dystopian science fiction thriller &amp;ldquo;Elysium&amp;rdquo; topped the weekend box office with $30.5 million, according to studio estimates Sunday, enough to beat three newcomers, including the Jennifer Aniston comedy &amp;ldquo;We&amp;rsquo;re the Millers.&amp;rdquo;Sony&amp;rsquo;s"
+               }
+            },
+            {
+               "name":"mermaid_tablet_story_slot_1",
+               "h":1,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/WashingtonPost/Production/Libraries/Common/StandingArt/Comics/2013-08-12/HAX130812.jpg",
+                  "urlPath":"/__ipad2/lifestyle/style/carolyn-hax-dealing-with-a-workaholic-your-business-vs-his-business/2013/08/11/53e327ae-f9f6-11e2-a369-d1954abcb7e3_story.html",
+                  "id":"53e327ae-f9f6-11e2-a369-d1954abcb7e3",
+                  "type":"article_story",
+                  "kicker1":"Hax",
+                  "kicker2":"",
+                  "headline":"Dealing with a workaholic",
+                  "blurbPreface":"Carolyn Hax",
+                  "photo":{
+                     "path":"/WashingtonPost/Production/Libraries/Common/StandingArt/Comics/2013-08-12/HAX130812.jpg",
+                     "aspectRatio":0.640863416449572,
+                     "caption":""
+                  },
+                  "blurb":"Adapted from a recent online discussion. The line belongs right between what is your business and what is his.His business: How he treats you (and how he consents to be treated).Your business: How you consent to be treated (and how you treat him).If you don&amp;rsquo;t like the way he is treating you,"
+               }
+            },
+            {
+               "name":"mermaid_tablet_story_slot_2",
+               "h":1,
+               "w":1,
+               "hideLandscape":true,
+               "article":{
+                  "urlPath":"/__ipad2/lifestyle/style/ask-amy-adoptive-dad-faces-sons-rejection/2013/08/06/65bbb554-fba4-11e2-9bde-7ddaa186b751_story.html",
+                  "id":"65bbb554-fba4-11e2-9bde-7ddaa186b751",
+                  "type":"article_story",
+                  "kicker1":"Ask Amy",
+                  "kicker2":"",
+                  "headline":"Adoptive dad faces son’s rejection",
+                  "blurbPreface":"Amy Dickinson",
+                  "blurb":"DEAR AMY: I am a 52-year-old man, very successful in my career. I adopted my son two years ago as a single parent. He is 14 and going into high school. He raised himself on the streets, with a drug addict mom and grandma. His mom was 13 when she got pregnant with him.Recently I jokingly told my son"
+               }
+            },
+            {
+               "name":"nemo",
+               "h":1,
+               "w":1,
+               "article":{
+                  "panelImagePath":"/2010-2019/WashingtonPost/2013/08/08/Style/Images/salome01.jpg",
+                  "urlPath":"/__ipad2/entertainment/theater_dance/scena-theatres-salome-is-unusual-mostly-satisfying/2013/08/08/8751c1b8-0059-11e3-8294-0ee5075b840d_story.html",
+                  "id":"8751c1b8-0059-11e3-8294-0ee5075b840d",
+                  "type":"article_story",
+                  "kicker1":"Theatre review",
+                  "kicker2":"",
+                  "headline":"SCENA Theatre’s ‘Salome’ is unusual, mostly satisfying",
+                  "blurbPreface":"Jane Horwitz",
+                  "photo":{
+                     "path":"/2010-2019/WashingtonPost/2013/08/08/Style/Images/salome01.jpg",
+                     "aspectRatio":1.506276150627615,
+                     "caption":""
+                  },
+                  "blurb":"Oscar Wilde&amp;rsquo;s 1891 play &amp;ldquo;Salome,&amp;rdquo; at once poetic, lurid and dreamlike, lends itself to Scena Theatre&amp;rsquo;s almost campy staging at the Atlas Performing Arts Center.Even before it begins, the show grabs the audience&amp;rsquo;s attention with improbable and striking atmospherics."
+               }
+            },
+            {
+               "name":"nemo",
+               "h":1,
+               "w":1,
+               "article":{
+                  "urlPath":"/__ipad2/entertainment/music/review-jose-james-at-the-birchmere/2013/08/11/43b10430-02a9-11e3-bfc5-406b928603b2_story.html",
+                  "id":"43b10430-02a9-11e3-bfc5-406b928603b2",
+                  "type":"article_story",
+                  "kicker1":"Music review",
+                  "kicker2":"",
+                  "headline":"JoséJames at the Birchmere",
+                  "blurbPreface":"Sarah Godfrey",
+                  "blurb":"Jos&amp;eacute; James is a skilled vocalist known for mixing jazz and hip-hop &amp;mdash; and nobly refusing to permanently pledge allegiance to either. Before the release of this year&amp;rsquo;s &amp;ldquo;No Beginning No End,&amp;rdquo; his fourth album and Blue Note debut, the Minneapolis native said he&amp;rsquo;d"
+               }
+            }
+         ]
+      }
+   ],
+   "tracking_info":{
+      "pageName":"front - preview",
+      "channel":"ipad - preview",
+      "contentSubsection":"",
+      "contentType":"front",
+      "contentAuthor":"",
+      "searchKeywords":"",
+      "pageFormat":"",
+      "DBPath":"",
+      "blogName":"",
+      "contentSource":""
+   }
+}

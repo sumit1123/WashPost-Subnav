@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:clickable="true">
+
+    <ImageView
+        a:id="@+id/onboarding_background_image"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:layout_gravity="top"
+        a:background="@color/black"
+        a:scaleType="fitCenter" />
+
+    <View
+        a:layout_gravity="top"
+        a:layout_width="match_parent"
+        a:layout_height="50dp"
+        a:background="@drawable/fade_top_down"
+        />
+
+    <View
+        a:layout_gravity="bottom"
+        a:layout_width="match_parent"
+        a:layout_height="100dp"
+        a:background="@drawable/fade_bottom_up"
+        />
+
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:orientation="vertical"
+        a:paddingStart="@dimen/onboarding_horizontal_margin"
+        a:paddingEnd="@dimen/onboarding_horizontal_margin">
+
+        <ImageView
+            a:id="@+id/logo"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:adjustViewBounds="true"
+            a:src="@drawable/logo" />
+
+        <TextView
+            a:id="@+id/label"
+            style="@style/tagline_style"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content" />
+
+        <LinearLayout
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:orientation="horizontal"
+            a:weightSum="10">
+
+            <LinearLayout
+                a:layout_width="0dp"
+                a:layout_height="wrap_content"
+                a:layout_weight="7"
+                a:orientation="vertical">
+
+                <com.wapo.view.SwipeDisabledViewPager
+                    a:id="@+id/onboarding_screens_viewpager"
+                    style="@style/onboarding_pager_style"
+                    a:layout_width="match_parent"
+                    a:layout_height="0dp"
+                    a:layout_weight="1" />
+
+                <com.google.android.material.tabs.TabLayout
+                    a:id="@+id/onboarding_screens_indicator"
+                    style="@style/onboarding_pager_tablayout_style"
+                    a:layout_width="match_parent"
+                    a:layout_height="@dimen/base_onboarding_tab_layout_height"
+                    app:tabBackground="@drawable/onboarding_tab_selector"
+                    app:tabGravity="center"
+                    app:tabIndicatorHeight="0dp"
+                    app:tabPaddingBottom="0dp"
+                    app:tabPaddingStart="0dp"
+                    app:tabPaddingTop="0dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                a:layout_width="0dp"
+                a:layout_height="match_parent"
+                a:layout_marginStart="@dimen/onboarding_vertical_margin_small"
+                a:layout_weight="3"
+                a:gravity="center"
+                a:orientation="vertical">
+
+                <Button
+                    a:id="@+id/onboarding_button1"
+                    style="@style/onboarding_pager_button1_style"
+                    a:layout_width="match_parent"
+                    a:layout_height="wrap_content"
+                    a:layout_gravity="center"
+                    a:layout_marginTop="@dimen/onboarding_vertical_margin"
+                    a:maxWidth="@dimen/onboarding_button_width" />
+
+                <Button
+                    a:id="@+id/onboarding_button2"
+                    style="@style/onboarding_pager_button2_style"
+                    a:layout_width="match_parent"
+                    a:layout_height="wrap_content"
+                    a:layout_gravity="center"
+                    a:layout_marginTop="@dimen/onboarding_vertical_margin_small"
+                    a:layout_marginBottom="@dimen/onboarding_button_bottom_margin"
+                    a:maxWidth="@dimen/onboarding_button_width" />
+
+                <Button
+                    a:id="@+id/onboarding_button3"
+                    style="@style/onboarding_pager_button2_style"
+                    a:layout_width="match_parent"
+                    a:layout_height="wrap_content"
+                    a:layout_marginTop="@dimen/base_onboarding_vertical_margin_small"
+                    a:layout_marginBottom="@dimen/base_onboarding_button_bottom_margin"
+                    a:maxWidth="@dimen/onboarding_button_width" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+{
+  "forYouFlexConfig": {
+    "url": "https://foryou-flex-staging.washingtonpost.com/",
+    "ttl": 300,
+    "checkReadList": true,
+    "maxSize": 100
+  }
+}

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">adsInf</string>
+
+    <string name="ad_publisher_id" translatable="false">701</string>
+    <string name="ad_key_mob_root_path" translatable="false">701/android_phone_app</string>
+    <string name="ad_key_tab_root_path" translatable="false">701/android_tablet_app</string>
+    <string name="ad_key" translatable="false">androidtab.wp.default</string>
+    <string name="ad_unit_id" translatable="false"></string>
+    <string name="ad_label">Advertisement</string>
+
+    <string name="ad_key_mob_root_path_carousal" translatable="false">701/android_phone_app_video/video_content/interstitial_carousel</string>
+    <string name="ad_key_tab_root_path_carousal" translatable="false">701/android_tablet_app_video/video_content/interstitial_carousel</string>
+
+    <string name="ad_key_mob_root_path_article" translatable="false">701/android_phone_app_video/video_content/preroll</string>
+    <string name="ad_key_tab_root_path_article" translatable="false">701/android_tablet_app_video/video_content/preroll</string>
+
+    <string name="ad_key_mob_root_path_watch" translatable="false">701/android_phone_app_video/video_content/interstitial_watch</string>
+    <string name="ad_key_tab_root_path_watch" translatable="false">701/android_tablet_app_video/video_content/interstitial_watch</string>
+
+
+    <!-- Test adUnitId - from APIDemo -->
+    <string name="test_admob_banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="default_advertising_id_value">DNT</string>
+
+ </resources>

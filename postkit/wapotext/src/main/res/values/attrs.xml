@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WPTextAppearance">
+        <attr name="fontFile" format="string"/>
+        <attr name="fontFileItalic" format="string" />
+        <attr name="fontFileBold" format="string"/>
+        <attr name="fontFileBoldItalic" format="string"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:textStyle"/>
+        <attr name="android:letterSpacing"/>
+        <attr name="android:lineSpacingExtra"/>
+        <attr name="android:lineSpacingMultiplier"/>
+    </declare-styleable>
+
+<!--
+    <attr name="android:textSize" format="dimension"/>
+    <attr name="android:textColor" format="color"/>
+    <attr name="android:textStyle" format="reference"/>
+-->
+
+    <attr name="fontPath" format="string" />
+</resources>

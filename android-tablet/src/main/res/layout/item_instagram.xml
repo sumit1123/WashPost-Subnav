@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wp="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/tweet_container_padding_outer_Left_Right"
+    android:paddingTop="@dimen/inline_container_padding_outer_top_bottom"
+    android:paddingRight="@dimen/tweet_container_padding_outer_Left_Right"
+    android:paddingBottom="@dimen/inline_container_padding_outer_top_bottom"
+   >
+
+
+        <TextView
+            android:id="@+id/username"
+            style="@style/inline_user_name_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ScreenName"
+            wp:layout_constraintTop_toTopOf="parent"
+            wp:layout_constraintStart_toStartOf="parent"
+            wp:layout_constraintLeft_toLeftOf="parent"
+            android:textColor="#37769e" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:src="@drawable/ic_instagram"
+            wp:layout_constraintRight_toRightOf="parent"
+            wp:layout_constraintTop_toTopOf="parent"/>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/logo"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/instagram_divider_grey"
+            wp:layout_constraintTop_toBottomOf="@id/logo"
+            wp:layout_constraintLeft_toLeftOf="parent"
+            wp:layout_constraintRight_toRightOf="parent"/>
+
+        <FrameLayout
+            android:id="@+id/photo_slot"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/divider"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            wp:layout_constraintTop_toBottomOf="@id/divider"
+            wp:layout_constraintLeft_toLeftOf="parent"
+            wp:layout_constraintRight_toRightOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/article_media_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                wp:adjustViewBounds="true"
+                wp:errorDrawable="?attr/article_error_image" />
+
+            <ImageView
+                android:id="@+id/video_overlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_play_btn"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/photo_slot"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/instagram_divider_grey"
+            wp:layout_constraintTop_toBottomOf="@+id/photo_slot"
+            wp:layout_constraintRight_toLeftOf="parent"
+            wp:layout_constraintRight_toRightOf="parent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/article_media_caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider1"
+            android:paddingTop="10dp"
+            android:layout_alignParentBottom="true"
+            wp:layout_constraintTop_toBottomOf="@id/divider1"
+            wp:layout_constraintLeft_toLeftOf="parent"
+            wp:layout_constraintRight_toRightOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

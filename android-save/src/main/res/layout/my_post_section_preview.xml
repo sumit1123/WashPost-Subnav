@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_post_card_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/my_post_card_content_left_margin"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="@dimen/my_post_card_content_left_margin"
+        android:text="For You"
+        android:textColor="@color/my_post_label"
+        android:textSize="@dimen/my_post_preview_label_text_size"
+        android:textStyle="bold"
+        app:fontFamily="@font/wp_franklinitcstd_font_family"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_default="wrap" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/my_post_card_content_left_margin"
+        android:layout_marginEnd="@dimen/my_post_card_content_left_margin"
+        android:text="Recommended Stories"
+        android:textColor="@color/my_post_desc"
+        android:textSize="@dimen/my_post_preview_desc_text_size"
+        android:textStyle="italic"
+        app:fontFamily="@font/wp_georgia_font_family"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_label"
+        app:layout_constraintWidth_default="wrap" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_data_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_description">
+
+        <include
+            android:id="@+id/preview_hero"
+            layout="@layout/my_post_section_preview_hero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.washingtonpost.android.recirculation.carousel.views.CarouselView
+            android:id="@+id/carousel_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/preview_hero" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/barrier_view_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="carousel_view, preview_hero" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/button_view_more"
+            style="@style/MyPost.Action.Chip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="@dimen/my_post_card_content_left_margin"
+            android:text="View more"
+            android:textAppearance="@style/MyPost.Action.Chip.Text"
+            android:textColor="@color/action_chip_text"
+            app:chipMinTouchTargetSize="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/barrier_view_more" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

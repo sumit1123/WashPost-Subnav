@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/toast_success_root"
+    a:orientation="horizontal"
+    a:layout_width="wrap_content"
+    a:layout_height="wrap_content"
+    a:padding="@dimen/success_padding"
+    a:background="@color/blue_success" >
+
+
+    <TextView
+        a:id="@+id/pw_success_toast"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:textSize="@dimen/success_txt"
+        a:drawableRight="@drawable/check"
+        a:gravity="center"
+        a:text="@string/pw_success"
+        a:textColor="@color/white" />
+
+</LinearLayout>

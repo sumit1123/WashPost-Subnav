@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/author_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="false"
+        android:background="@color/app_bg"
+        android:clipChildren="false"
+        app:layout_behavior="com.wapo.view.design.widget.AppBarBehavior">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsingToolbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="?attr/app_bar_day_night_style"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:titleEnabled="false">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-15dp"
+                android:background="@color/app_bg"
+                app:navigationIcon="@drawable/ic_back_arrow"></androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/author_follow_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:clipToPadding="false"
+            android:paddingTop="15dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/author_name"
+                style="@style/author_archive_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxWidth="300dp"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/author_archive_name_padding"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/author_follow_button"
+                style="@style/author_bottom_sheet_button"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:drawablePadding="@dimen/follow_btn_drawable_padding"
+                android:paddingLeft="@dimen/follow_btn_padding"
+                android:paddingRight="@dimen/follow_btn_padding"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/author_archive_bg"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:id="@+id/article_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/my_post_follow_content_bg"
+            android:orientation="vertical" />
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_settings"
+    app:startDestination="@id/searchLanding">
+
+    <action android:id="@+id/action_to_landing"
+        app:destination="@id/searchLanding"
+        />
+
+    <action android:id="@+id/action_to_search"
+        app:destination="@id/searchResults"
+        />
+
+    <action android:id="@+id/action_to_no_matches"
+        app:destination="@id/searchNoMatches"
+        />
+
+    <action android:id="@+id/action_to_recipe_landing"
+        app:destination="@id/searchRecipeLanding"
+        />
+
+    <action android:id="@+id/action_to_election_landing"
+        app:destination="@id/searchElectionLanding"
+        />
+
+    <fragment
+        android:id="@+id/searchLanding"
+        android:name="com.wapo.flagship.features.search2.fragments.SearchLandingFragment"
+        android:label="search_landing" />
+
+    <fragment
+        android:id="@+id/searchResults"
+        android:name="com.wapo.flagship.features.search2.fragments.SearchResultsFragment"
+        android:label="search_results" />
+
+    <fragment
+        android:id="@+id/searchNoMatches"
+        android:name="com.wapo.flagship.features.search2.fragments.SearchNoMatchesFragment"
+        android:label="search_no_matches" />
+
+    <fragment
+        android:id="@+id/searchRecipeLanding"
+        android:name="com.wapo.flagship.features.search2.fragments.SearchRecipeLandingFragment"
+        android:label="search_results" />
+
+    <fragment
+        android:id="@+id/searchElectionLanding"
+        android:name="com.wapo.flagship.features.search2.fragments.SearchElectionLandingFragment"
+        android:label="search_election_landing" />
+
+</navigation>

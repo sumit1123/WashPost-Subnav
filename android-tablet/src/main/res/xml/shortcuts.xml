@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="politics"
+        android:enabled="true"
+        android:icon="@drawable/wp_logo_icon"
+        android:shortcutShortLabel="@string/shortcut_politics"
+        android:shortcutLongLabel="@string/shortcut_politics"
+        android:shortcutDisabledMessage="@string/shortcut_disabled_message">
+
+        <intent
+            android:action="android.intent.action.politics"
+            android:targetPackage="com.washingtonpost.android"
+            android:targetClass="com.wapo.flagship.wapomain.MainActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="alerts"
+        android:enabled="true"
+        android:icon="@drawable/bell"
+        android:shortcutShortLabel="@string/shortcut_alerts"
+        android:shortcutLongLabel="@string/shortcut_alerts"
+        android:shortcutDisabledMessage="@string/shortcut_disabled_message">
+
+        <intent
+            android:action="android.intent.action.alerts"
+            android:targetPackage="com.washingtonpost.android"
+            android:targetClass="com.wapo.flagship.wapomain.MainActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="my_post"
+        android:enabled="true"
+        android:icon="@drawable/my_post_shortcut_icon"
+        android:shortcutShortLabel="@string/my_post"
+        android:shortcutLongLabel="@string/my_post"
+        android:shortcutDisabledMessage="@string/shortcut_disabled_message">
+
+        <intent
+            android:action="android.intent.action.my.post"
+            android:targetPackage="com.washingtonpost.android"
+            android:targetClass="com.wapo.flagship.wapomain.MainActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+</shortcuts>

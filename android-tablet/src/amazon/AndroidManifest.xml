@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS"/>
+
+    <application>
+        <!-- AppsFlyer -->
+        <meta-data android:name="AF_STORE" android:value="AmazonStore" />
+        <!-- AppsFlyer -->
+    </application>
+
+</manifest>

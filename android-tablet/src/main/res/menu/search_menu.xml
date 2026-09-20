@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:a="http://schemas.android.com/apk/res/android" xmlns:wp="http://schemas.android.com/apk/res-auto">
+    <item a:id="@+id/action_main_search" a:title="@string/action_search"
+        a:orderInCategory="110"
+        wp:showAsAction="ifRoom|collapseActionView"
+        a:icon="@drawable/action_search"
+        wp:actionViewClass="androidx.appcompat.widget.SearchView"
+        />
+</menu>

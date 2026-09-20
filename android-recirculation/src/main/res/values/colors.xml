@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2018. The Washington Post
+  ~ Created by adkinsj on 6/21/18
+  -->
+
+<resources>
+    <color name="story_carousel_divider_color">@color/gray0</color>
+    <color name="story_carousel_background_color">#ffffff</color>
+
+    <color name="gray0">#000000</color>
+    <color name="carousel_divider_color">#141414</color>
+    <color name="carousel_vertical_divider_color">#E9E9E9</color>
+    <color name="carousel_explore_more_text_color">#999999</color>
+    <color name="carousel_section_name_text_color">@color/gray20</color>
+    <color name="carousel_background_color">#fff</color>
+    <color name="carousel_border_color">#d5d5d5</color>
+    <color name="carousel_title_text_color">@color/gray20</color>
+    <color name="carousel_by_line">#666666</color>
+    <color name="carousel_grey">#666666</color>
+    <color name="carousel_because_you_read">#666666</color>
+    <color name="carousel_because_you_read_highlight">#166DFC</color>
+    <color name="carousel_excerpt_text">#666666</color>
+
+    <color name="my_post_section">#2A2A2A</color>
+    <color name="my_post_headline">#111111</color>
+    <color name="my_post_byline">#000000</color>
+    <color name="my_post_signature">#666666</color>
+
+    <color name="bright_carousel_border_color">@color/white</color>
+    <color name="my_post_carousel_background_color">@color/carousel_background_color</color>
+    <color name="carousel_video_image_bg_start_color">#ff111111</color>
+    <color name="carousel_video_image_bg_end_color">#00111111</color>
+
+    <!-- Audio Carousel -->
+    <color name="audio_carousel_item_status">#111111</color>
+    <color name="audio_carousel_item_duration">#666666</color>
+    <color name="audio_carousel_border">#E9E9E9</color>
+
+    <!-- Immersion Carousel -->
+    <color name="immersion_carousel_end_card_cta">#111111</color>
+    <color name="immersion_carousel_card_shadow">#691C225F</color>
+    <color name="immersion_carousel_card_background">#FFFFFF</color>
+    <color name="immersion_carousel_no_cardify_color">#FFFFFF</color>
+    <color name="carousel_summary_icon_color">#111111</color>
+    <color name="carousel_inline_divider_color">#999999</color>
+</resources>

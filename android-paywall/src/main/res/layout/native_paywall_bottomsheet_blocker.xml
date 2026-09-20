@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Special Offer"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subscribe to get the full details"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:padding="5dp"/>
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/native_paywall"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        app:checkedButton="@+id/monthly"
+        app:selectionRequired="true"
+        app:singleSelection="true"
+        android:background="@drawable/toggle_group">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/monthly"
+            style="@style/native_paywall_theme_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Monthly" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/yearly"
+            style="@style/native_paywall_theme_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Yearly" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subscribe to get the full details"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:padding="5dp"/>
+</LinearLayout>

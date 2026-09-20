@@ -1,0 +1,831 @@
+[
+    {
+        "type": "kicker",
+        "content": "Politics",
+        "mime": "text/plain"
+    },
+    {
+        "type": "title",
+        "content": "Why Hillary Clinton and her rivals are struggling to grasp Black Lives Matter",
+        "mime": "text/plain"
+    },
+    {
+        "type": "image",
+        "imageURL": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/22/National-Politics/Images/DEM_2016_Clintons_Donors-0d7ae-4904.jpg",
+        "blurb": "Democratic presidential candidate Hillary Rodham Clinton speaks at a campaign event in New York. Clinton’s campaign appears to be closely following Black Lives Matter, activists said. (Seth Wenig/AP)",
+        "imageWidth": 4488,
+        "imageHeight": 3056,
+        "mime": "image/jpeg",
+        "fullcaption": "Democratic presidential candidate Hillary Rodham Clinton speaks at a campaign event in New York. Clinton’s campaign appears to be closely following Black Lives Matter, activists said. (Seth Wenig/AP)"
+    },
+    {
+        "type": "byline",
+        "content": "By Wesley Lowery and David Weigel",
+        "mime": "text/plain"
+    },
+    {
+        "type": "date",
+        "content": 1437579914000,
+        "mime": "text/plain"
+    },
+    {
+        "type": "sanitized_html",
+        "subtype": "paragraph",
+        "content": "Amid the famous politicians, wealthy donors and top Democratic Party officials invited to New York last month to watch Hillary Rodham Clinton announce her candidacy for president sat another VIP guest — a newcomer to politics, but a man whose presence at the event was sought after by Clinton aides.",
+        "mime": "text/plain"
+    },
+    {
+        "type": "video",
+        "id": "bb843efa-309c-11e5-a879-213078d03dd3",
+        "host": "posttv",
+        "title": "Protesters disrupt O'Malley, Sanders",
+        "blurb": "Activists from Black Lives Matter and other groups interrupted Democratic presidential candidates Bernie Sanders and Martin O'Malley during a Netroots Nation event in Phoenix.",
+        "embedCode": "55afdc48e4b0b134cab50da9",
+        "url": "false",
+        "contenturl": "http://www.washingtonpost.com/posttv/national/protesters-disrupt-omalley-sanders/2015/07/22/bb843efa-309c-11e5-a879-213078d03dd3_video.html",
+        "shareurl": "http://wapo.st/1fmB8yd",
+        "credits": "Sarah Parnass/The Washington Post",
+        "lmt": 1437588836000,
+        "published": 1437588831174,
+        "imageURL": "http://s3.amazonaws.com/posttv-thumbnails-prod/thumbnails/55afdc3de4b06e0263bd2f8b/20150722_blacklivesmatter_thumb.jpg",
+        "imageWidth": 1920,
+        "imageHeight": 1080,
+        "streamURL": "https://videos.posttv.com/washpost-production/The%20Washington%20Post/20150722/55afdc3de4b06e0263bd2f8b/55afdc48e4b0b134cab50da9_t_1437588576988_mobile.m3u8",
+        "mediaURL": "https://videos.posttv.com/washpost-production/The%20Washington%20Post/20150722/55afdc3de4b06e0263bd2f8b/55afdc48e4b0b134cab50da9_1413917693028-uimk59_t_1437588568551_640_360_600.mp4",
+        "omniture": {
+            "dbpath": "/2010-2019/WashingtonPost/2015/07/22/National-Enterprise/Videos/vi-20150722_blacklivesmatter_v2.xml",
+            "pageName": "national:video - 213078d03dd3 - 20150722 - Protesters disrupt O'Malley, Sanders",
+            "source": "The Washington Post",
+            "channel": "national",
+            "contentSubsection": "national",
+            "contentType": "video"
+        }
+    },
+    {
+        "type": "author_info",
+        "name": "Wesley Lowery",
+        "role": "Reporter",
+        "bio": "Wesley Lowery is a national reporter covering law enforcement and justice for the Washington Post. He previously covered Congress and national politics."
+    },
+    {
+        "type": "gallery",
+        "id": "a8565c0a-2be2-11e5-a5ea-cf74396e59ec",
+        "title": "Mourning and questioning after Chattanooga rampage",
+        "blurb": "Investigators probe for a motive behind Mohammad Youssef Abdulazeez’s shooting spree that left four Marines and a Navy officer dead in Tennessee.",
+        "contenturl": "http://www.washingtonpost.com/national/military-facility-attacked-in-tennessee/2015/07/16/a8565c0a-2be2-11e5-a5ea-cf74396e59ec_gallery.html",
+        "shareurl": "http://wapo.st/1TFtrlY",
+        "published": 1437073388000,
+        "lmt": 1437597746000,
+        "images": [
+            {
+                "type": "image",
+                "title": " July 21, 2015",
+                "blurb": "Mourners stand for the national anthem during a memorial service for Lance Cpl. Squire Wells, known as “Skip,” at Sprayberry High School where Wells attended, in Marietta, Ga. The Marine was killed in Chattanooga, Tenn.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/22/National-Politics/Images/Chattanooga_Shooting_Georgia_Memorial-04f1b.jpg",
+                "imageWidth": 4784,
+                "imageHeight": 2862,
+                "photographercredit": "David Goldman",
+                "credit": "AP",
+                "fullcaption": "Mourners stand for the national anthem during a memorial service for Lance Cpl. Squire Wells, known as “Skip,” at Sprayberry High School where Wells attended, in Marietta, Ga. The Marine was killed in Chattanooga, Tenn. (David Goldman/AP)"
+            },
+            {
+                "type": "image",
+                "title": " July 21, 2015",
+                "blurb": "Jim Warren, with the Patriot Guard Riders, salutes during a memorial held for Lance Cpl. Squire “Skip” Wells, one of five service members killed by gunman Mohammad Youssuf Abdulazeez at a military recruiting center.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/22/National-Politics/Images/481512294.jpg",
+                "imageWidth": 3000,
+                "imageHeight": 2000,
+                "photographercredit": "Jessica McGowan",
+                "credit": "Getty Images",
+                "fullcaption": "Jim Warren, with the Patriot Guard Riders, salutes during a memorial held for Lance Cpl. Squire “Skip” Wells, one of five service members killed by gunman Mohammad Youssuf Abdulazeez at a military recruiting center. (Jessica McGowan/Getty Images)"
+            },
+            {
+                "type": "image",
+                "title": " July 21, 2015",
+                "blurb": "Balloons are released during a memorial service for Wells at Sprayberry High School in Marietta, Ga.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/22/National-Politics/Images/Chattanooga_Shooting_Georgia_Memorial-0ffd2.jpg",
+                "imageWidth": 5076,
+                "imageHeight": 3456,
+                "photographercredit": "David Goldman",
+                "credit": "AP",
+                "fullcaption": "Balloons are released during a memorial service for Wells at Sprayberry High School in Marietta, Ga. (David Goldman/AP)"
+            },
+            {
+                "type": "image",
+                "title": " July 21, 2015",
+                "blurb": "Cathy Wells, the mother of Lance Cpl. Squire Wells, is embraced by Lance Cpl. Kurt Bright, one of Wells’s best friends, upon arriving for a memorial service for her son at Sprayberry High School in Marietta, Ga.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/22/National-Politics/Images/IX_Chattanooga_Shooting_Georgia_Memorial-0428c.jpg",
+                "imageWidth": 2721,
+                "imageHeight": 1918,
+                "photographercredit": "David Goldman",
+                "credit": "AP",
+                "fullcaption": "Cathy Wells, the mother of Lance Cpl. Squire Wells, is embraced by Lance Cpl. Kurt Bright, one of Wells’s best friends, upon arriving for a memorial service for her son at Sprayberry High School in Marietta, Ga. (David Goldman/AP)"
+            },
+            {
+                "type": "image",
+                "title": " July 21, 2015",
+                "blurb": "Sprayberry High School presented a plaque to honor Lance Cpl. Squire “Skip” Wells during a memorial held for the Marine.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/22/National-Politics/Images/481512244.jpg",
+                "imageWidth": 3000,
+                "imageHeight": 2000,
+                "photographercredit": "Jessica McGowan",
+                "credit": "Getty Images",
+                "fullcaption": "Sprayberry High School presented a plaque to honor Lance Cpl. Squire “Skip” Wells during a memorial held for the Marine. (Jessica McGowan/Getty Images)"
+            },
+            {
+                "type": "image",
+                "title": " July 21, 2015",
+                "blurb": "The American flag is lowered to half-staff above the White House to honor the service members killed in Chattanooga. President Obama ordered flags at all military and federal buildings and grounds to remain at half-staff through July 25.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/22/National-Politics/Images/Chattanooga_Shooting_White_House_Flags-0a75d.jpg",
+                "imageWidth": 2891,
+                "imageHeight": 1930,
+                "photographercredit": "Andrew Harnik",
+                "credit": "AP",
+                "fullcaption": "The American flag is lowered to half-staff above the White House to honor the service members killed in Chattanooga. President Obama ordered flags at all military and federal buildings and grounds to remain at half-staff through July 25. (Andrew Harnik/AP)"
+            },
+            {
+                "type": "image",
+                "title": " July 21, 2015",
+                "blurb": "Nicholas Sisk, 10, takes a break from looking at the makeshift memorial outside the Armed Forces Career Center in Chattanooga.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/22/National-Politics/Images/Chattanooga_Shooting-0415a.jpg",
+                "imageWidth": 3514,
+                "imageHeight": 2225,
+                "photographercredit": "Mark Zaleski",
+                "credit": "AP",
+                "fullcaption": "Nicholas Sisk, 10, takes a break from looking at the makeshift memorial outside the Armed Forces Career Center in Chattanooga. (Mark Zaleski/AP)"
+            },
+            {
+                "type": "image",
+                "title": " July 20, 2015",
+                "blurb": "Christy Tucker, left, Morgan Mason and Lauren Lindsey wave flags and signs in front of the Lee Highway memorial set up for victims of last Thursday’s shootings at military facilities in Chattanooga, Tenn.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/20/National-Enterprise/Images/Chattanooga_Shooting-0fdbf.jpg",
+                "imageWidth": 5472,
+                "imageHeight": 3648,
+                "photographercredit": "Dan Henry",
+                "credit": "Chattanooga Times Free Press via AP",
+                "fullcaption": "Christy Tucker, left, Morgan Mason and Lauren Lindsey wave flags and signs in front of the Lee Highway memorial set up for victims of last Thursday’s shootings at military facilities in Chattanooga, Tenn. (Dan Henry/Chattanooga Times Free Press via AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 19, 2015 ",
+                "blurb": "Members of the Highways and Hedges Ministry prepare to set up a wooden cross near the recruitment offices in Chattanooga, Tenn., targeted by gunman Mohammad Youssef Abdulazeez.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/19/National-Enterprise/Images/481318128.jpg",
+                "imageWidth": 3000,
+                "imageHeight": 2045,
+                "photographercredit": "Joe Raedle",
+                "credit": "Getty Images",
+                "fullcaption": "Members of the Highways and Hedges Ministry prepare to set up a wooden cross near the recruitment offices in Chattanooga, Tenn., targeted by gunman Mohammad Youssef Abdulazeez. (Joe Raedle/Getty Images)"
+            },
+            {
+                "type": "image",
+                "title": " July 18, 2015",
+                "blurb": "Retired Marine Brandon Hetrick, center, prays with his family at a memorial set up at the entrance to the Navy Operational Support Center and Marine Corps Reserve Center, where four Marines and a Navy sailor were killed.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/18/National-Enterprise/Images/481246236.jpg",
+                "imageWidth": 3000,
+                "imageHeight": 2000,
+                "photographercredit": "Joe Raedle",
+                "credit": "Getty Images",
+                "fullcaption": "Retired Marine Brandon Hetrick, center, prays with his family at a memorial set up at the entrance to the Navy Operational Support Center and Marine Corps Reserve Center, where four Marines and a Navy sailor were killed. (Joe Raedle/Getty Images)"
+            },
+            {
+                "type": "image",
+                "title": " July 18, 2015",
+                "blurb": "Sophia Ensley, left, comforts Barbie Branum by a makeshift memorial in Chattanooga, Tenn.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/18/National-Enterprise/Images/Chattanooga_Shooting-04416.jpg",
+                "imageWidth": 4736,
+                "imageHeight": 2946,
+                "photographercredit": "Mark Zaleski",
+                "credit": "AP",
+                "fullcaption": "Sophia Ensley, left, comforts Barbie Branum by a makeshift memorial in Chattanooga, Tenn. (Mark Zaleski/AP)"
+            },
+            {
+                "type": "image",
+                "title": " July 18, 2015",
+                "blurb": "Items left at the makeshift memorial include a Marine ring and Purple Heart medal.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/18/National-Enterprise/Images/04852469.jpg",
+                "imageWidth": 4096,
+                "imageHeight": 3109,
+                "photographercredit": "Billy Weeks",
+                "credit": "European Pressphoto Agency",
+                "fullcaption": "Items left at the makeshift memorial include a Marine ring and Purple Heart medal. (Billy Weeks/European Pressphoto Agency)"
+            },
+            {
+                "type": "image",
+                "title": " July 18, 2015",
+                "blurb": "Mark Fuller, whose son is a Marine, carries an American flag that he placed at the makeshift memorial.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/18/National-Enterprise/Images/481246220.jpg",
+                "imageWidth": 3000,
+                "imageHeight": 2056,
+                "photographercredit": "Joe Raedle",
+                "credit": "Getty Images",
+                "fullcaption": "Mark Fuller, whose son is a Marine, carries an American flag that he placed at the makeshift memorial. (Joe Raedle/Getty Images)"
+            },
+            {
+                "type": "image",
+                "title": " July 18, 2015",
+                "blurb": "Ronald May kneels and prays as he supports a cross at the memorial.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/18/National-Enterprise/Images/481255222.jpg",
+                "imageWidth": 3000,
+                "imageHeight": 2010,
+                "photographercredit": "Joe Raedle",
+                "credit": "Getty Images",
+                "fullcaption": "Ronald May kneels and prays as he supports a cross at the memorial. (Joe Raedle/Getty Images)"
+            },
+            {
+                "type": "image",
+                "title": " July 18, 2015",
+                "blurb": "Daly Simmons prays at the makeshift memorial.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/18/National-Enterprise/Images/04852460.jpg",
+                "imageWidth": 4096,
+                "imageHeight": 2837,
+                "photographercredit": "Billy Weeks",
+                "credit": "European Pressphoto Agency",
+                "fullcaption": "Daly Simmons prays at the makeshift memorial. (Billy Weeks/European Pressphoto Agency)"
+            },
+            {
+                "type": "image",
+                "title": " July 18, 2015",
+                "blurb": "Onlookers comfort each other at the makeshift memorial.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/18/National-Enterprise/Images/481218102.jpg",
+                "imageWidth": 3000,
+                "imageHeight": 2000,
+                "photographercredit": "Joe Raedle",
+                "credit": "Getty Images",
+                "fullcaption": "Onlookers comfort each other at the makeshift memorial. (Joe Raedle/Getty Images)"
+            },
+            {
+                "type": "image",
+                "title": " July 18, 2015",
+                "blurb": "Heather Brame and her son, J.T., sign a poster at the makeshift memorial.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/18/National-Enterprise/Images/Chattanooga_Shooting-04340.jpg",
+                "imageWidth": 4589,
+                "imageHeight": 3134,
+                "photographercredit": "Mark Zaleski",
+                "credit": "AP",
+                "fullcaption": "Heather Brame and her son, J.T., sign a poster at the makeshift memorial. (Mark Zaleski/AP)"
+            },
+            {
+                "type": "image",
+                "title": " July 18, 2015",
+                "blurb": "Barbara Woods, left, and Daryle Edmonds pray together during a memorial service at a Chattanooga Church to honor the four Marines and one Navy sailor who died after the July 16 shooting.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/18/National-Enterprise/Images/481202278.jpg",
+                "imageWidth": 3000,
+                "imageHeight": 2100,
+                "photographercredit": "Joe Raedle",
+                "credit": "Getty Images",
+                "fullcaption": "Barbara Woods, left, and Daryle Edmonds pray together during a memorial service at a Chattanooga Church to honor the four Marines and one Navy sailor who died after the July 16 shooting. (Joe Raedle/Getty Images)"
+            },
+            {
+                "type": "image",
+                "title": " July 18, 2015",
+                "blurb": "Members of Teen Challenge gather for a memorial service at River Park in Chattanooga, Tenn.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/18/National-Enterprise/Images/Chattanooga_Shooting-0e296.jpg",
+                "imageWidth": 4438,
+                "imageHeight": 3033,
+                "photographercredit": "Mark Zaleski",
+                "credit": "AP",
+                "fullcaption": "Members of Teen Challenge gather for a memorial service at River Park in Chattanooga, Tenn. (Mark Zaleski/AP)"
+            },
+            {
+                "type": "image",
+                "title": " July 17, 2015",
+                "blurb": "People bow their heads during an interfaith memorial service for the Tennessee shooting victims.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/18/National-Enterprise/Images/Chattanooga_Shooting-092d6.jpg",
+                "imageWidth": 5472,
+                "imageHeight": 3648,
+                "photographercredit": "Doug Strickland",
+                "credit": "AP",
+                "fullcaption": "People bow their heads during an interfaith memorial service for the Tennessee shooting victims. (Doug Strickland/AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 17, 2015",
+                "blurb": "The FBI at the scene of a shooting outside a military recruiting center in Chattanooga, Tenn., after Mohammad Youssef Abdulazeez opened fire.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/17/National-Enterprise/Images/APTOPIX_Chattanooga_Shooting-07b8c.jpg",
+                "imageWidth": 2263,
+                "imageHeight": 1519,
+                "photographercredit": "John Bazemore",
+                "credit": "AP",
+                "fullcaption": "The FBI at the scene of a shooting outside a military recruiting center in Chattanooga, Tenn., after Mohammad Youssef Abdulazeez opened fire. (John Bazemore/AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 17, 2015",
+                "blurb": "FBI personnel gather evidence inside the Armed Forces Career Center in Chattanooga. Counterterrorism investigators are trying to determine why the 24-year-old Abdulazeez attacked the center.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/17/National-Enterprise/Images/Chattanooga_Shooting-05f18.jpg",
+                "imageWidth": 4666,
+                "imageHeight": 2928,
+                "photographercredit": "Mark Zaleski",
+                "credit": "AP",
+                "fullcaption": "FBI personnel gather evidence inside the Armed Forces Career Center in Chattanooga. Counterterrorism investigators are trying to determine why the 24-year-old Abdulazeez attacked the center. (Mark Zaleski/AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 17, 2015",
+                "blurb": "Members of the FBI Evidence Response Team investigate the scene at the Armed Forces Career Center in Chattanooga.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/17/National-Enterprise/Images/481103416.jpg",
+                "imageWidth": 3000,
+                "imageHeight": 2000,
+                "photographercredit": "Joe Raedle",
+                "credit": "Getty Images",
+                "fullcaption": "Members of the FBI Evidence Response Team investigate the scene at the Armed Forces Career Center in Chattanooga. (Joe Raedle/Getty Images)"
+            },
+            {
+                "type": "image",
+                "title": "July 17, 2015",
+                "blurb": "Laurie Norman salutes the Armed Forces Career Center in Chattanooga. Abdulazeez also opened fire and killed four Marines at a Navy Reserve center nearby.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/17/National-Enterprise/Images/481113896-2849.jpg",
+                "imageWidth": 3000,
+                "imageHeight": 2000,
+                "photographercredit": "Joe Raedle",
+                "credit": "Getty Images",
+                "fullcaption": "Laurie Norman salutes the Armed Forces Career Center in Chattanooga. Abdulazeez also opened fire and killed four Marines at a Navy Reserve center nearby. (Joe Raedle/Getty Images)"
+            },
+            {
+                "type": "image",
+                "title": "July 17, 2015",
+                "blurb": "Betty Maynard, left, and Cindy Atterton embrace at a memorial in front of the Armed Forces Career Center in Chattanooga.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/17/National-Enterprise/Images/Chattanooga_Shooting-09493.jpg",
+                "imageWidth": 3186,
+                "imageHeight": 4896,
+                "photographercredit": "Dan Henry",
+                "credit": "Chattanooga Times Free Press via AP",
+                "fullcaption": "Betty Maynard, left, and Cindy Atterton embrace at a memorial in front of the Armed Forces Career Center in Chattanooga. (Dan Henry/Chattanooga Times Free Press via AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 17, 2015",
+                "blurb": "A couple comfort each other at the memorial outside the Armed Forces Career Center.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/17/National-Enterprise/Images/APTOPIX_Chattanooga_Shooting-0e9c0.jpg",
+                "imageWidth": 3253,
+                "imageHeight": 2001,
+                "photographercredit": "Mark Zaleski",
+                "credit": "AP",
+                "fullcaption": "A couple comfort each other at the memorial outside the Armed Forces Career Center. (Mark Zaleski/AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 17, 2015",
+                "blurb": "Stephanie Fincher cries across the highway from the strip mall where the Armed Forces Career Center is located in Chattanooga. According to reports, Abdulazeez opened fire on the military recruiting station at the mall.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/17/National-Enterprise/Images/481103408.jpg",
+                "imageWidth": 3000,
+                "imageHeight": 2000,
+                "photographercredit": "Joe Raedle",
+                "credit": "Getty Images",
+                "fullcaption": "Stephanie Fincher cries across the highway from the strip mall where the Armed Forces Career Center is located in Chattanooga. According to reports, Abdulazeez opened fire on the military recruiting station at the mall. (Joe Raedle/Getty Images)"
+            },
+            {
+                "type": "image",
+                "title": "July 17, 2015",
+                "blurb": "Melissa Gallagher prays with her children at the memorial in Chattanooga. Abdulazeez was killed during a shootout with officers at the Navy Reserve center.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/17/National-Enterprise/Images/481114338.jpg",
+                "imageWidth": 3000,
+                "imageHeight": 2131,
+                "photographercredit": "Joe Raedle",
+                "credit": "Getty Images",
+                "fullcaption": "Melissa Gallagher prays with her children at the memorial in Chattanooga. Abdulazeez was killed during a shootout with officers at the Navy Reserve center. (Joe Raedle/Getty Images)"
+            },
+            {
+                "type": "image",
+                "title": "July 17, 2015",
+                "blurb": "Jonathan Bryan salutes the memorial in Chattanooga.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/17/National-Enterprise/Images/Chattanooga_Shooting-00287.jpg",
+                "imageWidth": 4739,
+                "imageHeight": 3320,
+                "photographercredit": "Dan Henry",
+                "credit": "Chattanooga Times Free Press via AP",
+                "fullcaption": "Jonathan Bryan salutes the memorial in Chattanooga. (Dan Henry/Chattanooga Times Free Press via AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 17, 2015",
+                "blurb": "A group of people hold American flags across the highway from the Armed Forces Career Center.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/17/National-Enterprise/Images/481097296.jpg",
+                "imageWidth": 3000,
+                "imageHeight": 2000,
+                "photographercredit": "Joe Raedle",
+                "credit": "Getty Images",
+                "fullcaption": "A group of people hold American flags across the highway from the Armed Forces Career Center. (Joe Raedle/Getty Images)"
+            },
+            {
+                "type": "image",
+                "title": "July 17, 2015",
+                "blurb": "The Islamic Society of Greater Chattanooga, where Abdulazeez worshiped, in Tennessee.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/17/National-Enterprise/Images/2015-07-17T182212Z_01_TLC120_RTRIDSP_3_USA-SHOOTING-TENNESEE.jpg",
+                "imageWidth": 3500,
+                "imageHeight": 2266,
+                "photographercredit": "Tami Chappell",
+                "credit": "Reuters",
+                "fullcaption": "The Islamic Society of Greater Chattanooga, where Abdulazeez worshiped, in Tennessee. (Tami Chappell/Reuters)"
+            },
+            {
+                "type": "image",
+                "title": " ",
+                "blurb": "This April booking photo shows a man identified as Mohammad Youssef Abdulazeez after being detained for a driving offense. A U.S. official identified the gunman in shootings at two Chattanooga military facilities as Abdulazeez.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/16/National-Enterprise/Images/Chattanooga_Shooting-07e61.jpg",
+                "imageWidth": 900,
+                "imageHeight": 1125,
+                "photographercredit": "Hamilton County Sheriffs Office",
+                "credit": "via AP",
+                "fullcaption": "This April booking photo shows a man identified as Mohammad Youssef Abdulazeez after being detained for a driving offense. A U.S. official identified the gunman in shootings at two Chattanooga military facilities as Abdulazeez. (Hamilton County Sheriffs Office/via AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 16, 2015",
+                "blurb": "Police officers enter the Armed Forces Career Center through a door riddled with bullet holes after a gunman opened fire on the building in Chattanooga, Tenn. Authorities say there were multiple casualties, including the gunman.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/16/National-Enterprise/Images/Chattanooga-Shooting-07d00.jpg",
+                "imageWidth": 4631,
+                "imageHeight": 3126,
+                "photographercredit": "John Bazemore",
+                "credit": "AP",
+                "fullcaption": "Police officers enter the Armed Forces Career Center through a door riddled with bullet holes after a gunman opened fire on the building in Chattanooga, Tenn. Authorities say there were multiple casualties, including the gunman. (John Bazemore/AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 16, 2015",
+                "blurb": "Authorities work an active shooting scene on Amnicola Highway in Chattanooga. Police and federal authorities scrambled in response to what they called an active shooter situation that locked down schools and closed roads.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/16/National-Enterprise/Images/Chattanooga_Shooting-0c563.jpg",
+                "imageWidth": 900,
+                "imageHeight": 606,
+                "credit": "WRCB-TV via AP",
+                "fullcaption": "Authorities work an active shooting scene on Amnicola Highway in Chattanooga. Police and federal authorities scrambled in response to what they called an active shooter situation that locked down schools and closed roads. (WRCB-TV via AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 16, 2015",
+                "blurb": "Authorities work the shooting scene in Chattanooga.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/16/National-Enterprise/Images/Chattanooga_Shooting-0b39d.jpg",
+                "imageWidth": 900,
+                "imageHeight": 649,
+                "credit": "WRCB-TV via AP",
+                "fullcaption": "Authorities work the shooting scene in Chattanooga. (WRCB-TV via AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 16, 2015",
+                "blurb": "Store employees look out their door next to the recruitment center after the shooting.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/16/National-Enterprise/Images/Chattanooga_Shooting-0b224.jpg",
+                "imageWidth": 2400,
+                "imageHeight": 1594,
+                "photographercredit": "Tim Barber, Chattanooga Times Free Press",
+                "credit": "AP",
+                "fullcaption": "Store employees look out their door next to the recruitment center after the shooting. (Tim Barber, Chattanooga Times Free Press/AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 16, 2015",
+                "blurb": "A law enforcement officer at the shooting scene.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/16/National-Enterprise/Images/Chattanooga_Shooting-0106b.jpg",
+                "imageWidth": 3264,
+                "imageHeight": 2448,
+                "credit": "WRCB-TV via AP",
+                "fullcaption": "A law enforcement officer at the shooting scene. (WRCB-TV via AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 16, 2015",
+                "blurb": "The windows of the Armed Forces Recruitment Center are riddled with bullet holes.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/16/National-Enterprise/Images/Chattanooga_Shooting-04aa9.jpg",
+                "imageWidth": 2400,
+                "imageHeight": 1659,
+                "photographercredit": "Tim Barber, Chattanooga Times Free Press",
+                "credit": "AP",
+                "fullcaption": "The windows of the Armed Forces Recruitment Center are riddled with bullet holes. (Tim Barber, Chattanooga Times Free Press/AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 16, 2015",
+                "blurb": "Personnel stand outside a naval recruiting building as the area is cordoned off with blue shell casing markers in the parking lot.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/16/National-Enterprise/Images/Chattanooga_Shooting-091fb.jpg",
+                "imageWidth": 2400,
+                "imageHeight": 1594,
+                "photographercredit": "Tim Barber, Chattanooga Times Free Press",
+                "credit": "AP",
+                "fullcaption": "Personnel stand outside a naval recruiting building as the area is cordoned off with blue shell casing markers in the parking lot. (Tim Barber, Chattanooga Times Free Press/AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 16, 2015",
+                "blurb": "Chattanooga police talk to recruitment center personnel at the Lee Highway office as the area is cordoned off after the shooting.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/16/National-Enterprise/Images/Chattanooga_Shooting-06dd5.jpg",
+                "imageWidth": 2400,
+                "imageHeight": 1594,
+                "photographercredit": "Tim Barber, Chattanooga Times Free Press",
+                "credit": "AP",
+                "fullcaption": "Chattanooga police talk to recruitment center personnel at the Lee Highway office as the area is cordoned off after the shooting. (Tim Barber, Chattanooga Times Free Press/AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 16, 2015",
+                "blurb": "Members of the FBI Evidence Response Team work the scene of the shooting in the parking lot of the Armed Forces Career Center.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/16/National-Enterprise/Images/480982684.jpg",
+                "imageWidth": 4928,
+                "imageHeight": 3280,
+                "photographercredit": "Jason Davis",
+                "credit": "Getty Images",
+                "fullcaption": "Members of the FBI Evidence Response Team work the scene of the shooting in the parking lot of the Armed Forces Career Center. (Jason Davis/Getty Images)"
+            },
+            {
+                "type": "image",
+                "title": "July 16, 2015",
+                "blurb": "Law enforcement officers at the Navy Reserve center in Chattanooga, where Abdulazeez was shot and killed after allegedly killing four Marines.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/17/National-Enterprise/Images/CORRECTION_Chattanooga_Shooting-056ef.jpg",
+                "imageWidth": 1042,
+                "imageHeight": 593,
+                "credit": "WTVF via AP",
+                "fullcaption": "Law enforcement officers at the Navy Reserve center in Chattanooga, where Abdulazeez was shot and killed after allegedly killing four Marines. (WTVF via AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 16, 2015",
+                "blurb": "An FBI response team member gathers evidence at the scene of the shooting in Chattanooga.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/16/National-Enterprise/Images/480982696.jpg",
+                "imageWidth": 4928,
+                "imageHeight": 3280,
+                "photographercredit": "Jason Davis",
+                "credit": "Getty Images",
+                "fullcaption": "An FBI response team member gathers evidence at the scene of the shooting in Chattanooga. (Jason Davis/Getty Images)"
+            },
+            {
+                "type": "image",
+                "title": "July 16, 2015",
+                "blurb": "A police officer investigates the shooting outside the recruiting center.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/16/National-Enterprise/Images/Military_Base_Shooting-01dda.jpg",
+                "imageWidth": 3911,
+                "imageHeight": 3104,
+                "photographercredit": "John Bazemore",
+                "credit": "AP",
+                "fullcaption": "A police officer investigates the shooting outside the recruiting center. (John Bazemore/AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 16, 2015",
+                "blurb": "Tennessee Highway Patrol Trooper Paul Clendenen guards the top of the C.B. Robinson Bridge at Amnicola Highway after the shooting.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/16/National-Enterprise/Images/Chattanooga_Shooting-05bca.jpg",
+                "imageWidth": 2000,
+                "imageHeight": 1359,
+                "photographercredit": "Tim Barber",
+                "credit": "Chattanooga Times Free Press via AP",
+                "fullcaption": "Tennessee Highway Patrol Trooper Paul Clendenen guards the top of the C.B. Robinson Bridge at Amnicola Highway after the shooting. (Tim Barber/Chattanooga Times Free Press via AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 16, 2015",
+                "blurb": "Police and emergency vehicles block Amnicola Highway after the shooting in Chattanooga.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/16/National-Enterprise/Images/Chattanooga_Shooting-09de5.jpg",
+                "imageWidth": 2400,
+                "imageHeight": 1594,
+                "photographercredit": "Tim Barber",
+                "credit": "Chattanooga Times Free Press via AP",
+                "fullcaption": "Police and emergency vehicles block Amnicola Highway after the shooting in Chattanooga. (Tim Barber/Chattanooga Times Free Press via AP)"
+            },
+            {
+                "type": "image",
+                "title": "July 16, 2015",
+                "blurb": "President Obama delivers remarks on the shooting in Chattanooga, vowing to conduct a prompt and thorough investigation of the shooting and that the act appeared to be committed by a lone gunman.",
+                "imageURL": "http://www.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/16/National-Enterprise/Images/480970792.jpg",
+                "imageWidth": 3000,
+                "imageHeight": 1984,
+                "photographercredit": "Win McNamee",
+                "credit": "Getty Images",
+                "fullcaption": "President Obama delivers remarks on the shooting in Chattanooga, vowing to conduct a prompt and thorough investigation of the shooting and that the act appeared to be committed by a lone gunman. (Win McNamee/Getty Images)"
+            }
+        ],
+        "omniture": {
+            "pageName": "national:gallery - cf74396e59ec - 20150716 - military-facility-attacked-in-tennessee",
+            "channel": "national",
+            "contentType": "gallery",
+            "contentSource": "The Washington Post"
+        }
+    },
+    {
+        "type": "image",
+        "imageURL": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/07/22/Foreign/Graphics/promo-jason0722.jpg",
+        "imageWidth": 1500,
+        "imageHeight": 836,
+        "mime": "image/jpeg",
+        "fullcaption": ""
+    },
+    {
+        "type": "deck",
+        "content": "My family wasn't looking for trouble when we stepped into Marcy's Diner.",
+        "mime": "text/plain"
+    },
+    {
+        "type": "tweet",
+        "content": {
+            "retweeted": false,
+            "in_reply_to_screen_name": null,
+            "possibly_sensitive": false,
+            "truncated": false,
+            "lang": "en",
+            "in_reply_to_status_id_str": null,
+            "id": 623197472245067776,
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 623197421019906048,
+                        "id_str": "623197421019906048",
+                        "indices": [
+                            88,
+                            110
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CKYKwKjUwAARbTb.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CKYKwKjUwAARbTb.jpg",
+                        "url": "http://t.co/wWEPUqbIDs",
+                        "display_url": "pic.twitter.com/wWEPUqbIDs",
+                        "expanded_url": "http://twitter.com/TVTEDDY/status/623197472245067776/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 340,
+                                "h": 453,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 600,
+                                "h": 800,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 768,
+                                "h": 1024,
+                                "resize": "fit"
+                            }
+                        }
+                    },
+                    {
+                        "id": 623197421485494272,
+                        "id_str": "623197421485494272",
+                        "indices": [
+                            88,
+                            110
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CKYKwMSVEAARI0W.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CKYKwMSVEAARI0W.jpg",
+                        "url": "http://t.co/wWEPUqbIDs",
+                        "display_url": "pic.twitter.com/wWEPUqbIDs",
+                        "expanded_url": "http://twitter.com/TVTEDDY/status/623197472245067776/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 340,
+                                "h": 453,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 600,
+                                "h": 800,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 768,
+                                "h": 1024,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_status_id": null,
+            "created_at": "Mon Jul 20 18:27:10 +0000 2015",
+            "favorite_count": 169,
+            "place": null,
+            "coordinates": null,
+            "possibly_sensitive_appealable": false,
+            "text": "Here is the original post by the mom and the response in the Marcy's diner controversy: http://t.co/wWEPUqbIDs",
+            "contributors": null,
+            "geo": null,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 623197421019906048,
+                        "id_str": "623197421019906048",
+                        "indices": [
+                            88,
+                            110
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CKYKwKjUwAARbTb.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CKYKwKjUwAARbTb.jpg",
+                        "url": "http://t.co/wWEPUqbIDs",
+                        "display_url": "pic.twitter.com/wWEPUqbIDs",
+                        "expanded_url": "http://twitter.com/TVTEDDY/status/623197472245067776/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 340,
+                                "h": 453,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 600,
+                                "h": 800,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 768,
+                                "h": 1024,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "is_quote_status": false,
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "favorited": false,
+            "in_reply_to_user_id": null,
+            "retweet_count": 109,
+            "id_str": "623197472245067776",
+            "user": {
+                "id": 14200203,
+                "id_str": "14200203",
+                "name": "TVTEDDY",
+                "screen_name": "TVTEDDY",
+                "location": "portland, maine",
+                "description": "@WCSH6 Assignment manager, NBA D League replay operator, HS football color analyst.  Married to cool wife, dad of 2 great boys. #RedSox #Bruins #Patriots",
+                "url": "http://t.co/EQRNP7RUfb",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/EQRNP7RUfb",
+                                "expanded_url": "http://wcsh6.com",
+                                "display_url": "wcsh6.com",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 1510,
+                "friends_count": 492,
+                "listed_count": 64,
+                "created_at": "Sun Mar 23 02:12:14 +0000 2008",
+                "favourites_count": 1383,
+                "utc_offset": -18000,
+                "time_zone": "Quito",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 16361,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/597891247689363456/D7GUTKNF_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/597891247689363456/D7GUTKNF_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/14200203/1423312736",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            }
+        }
+    },
+    {
+        "type": "list",
+        "mime": "text/html",
+        "content": [
+            "<a href=\"https://www.washingtonpost.com/posteverything/wp/2015/07/14/having-kids-is-terrible-for-the-environment-so-im-not-having-any/\">Having kids is terrible for the environment, so I’m not having any</a>",
+            "<a href=\"https://www.washingtonpost.com/posteverything/wp/2014/07/24/my-son-has-been-suspended-five-times-hes-3/\">My son has been suspended five times. He’s 3.</a>",
+            "<a href=\"https://www.washingtonpost.com/posteverything/wp/2015/01/16/i-let-my-9-year-old-ride-the-subway-alone-i-got-labeled-the-worlds-worst-mom/\">I let my 9-year-old ride the subway alone. I got labeled the ‘world’s worst mom.’</a>"
+        ]
+    }
+]

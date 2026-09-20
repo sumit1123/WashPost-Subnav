@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grid_separator_color">#e9e9e9</color>
+    <color name="grid_separator_color_night">#666666</color>
+    <color name="grid_normal_divider_color">@color/grid_separator_color</color>
+    <color name="grid_normal_divider_color_night">@color/grid_separator_color_night</color>
+    <color name="grid_bold_divider_color">#666666</color>
+    <color name="grid_bold_divider_color_night">#D5D5D5</color>
+    <color name="grid_recency_threshold">#d8070e</color>
+    <color name="live_update_recency_threshold">#d8070e</color>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">paywall</string>
+    <string name="pw_confirm_desc1">Enjoy the app</string>
+    <string name="pw_error">ERROR!</string>
+    <string name="pw_error_unknown">Sorry, an error occurred. Please check your connectivity and try again!</string>
+    <string name="pw_error_network">Please connect to network</string>
+    <string name="pw_payment_success">Enjoy The Washington Post for Android!</string>
+    <string name="pw_verify_device_error">Our server is not responding, or some other error has occurred. Please try again later.</string>
+
+    <string name="signed_in_with">Signed in with</string>
+    <string name="signed_in_as">Signed in as</string>
+
+    <string name="subs_type_dsi">Print Subscription</string>
+    <string name="subs_type_apple">iTunes</string>
+    <string name="subs_type_none"></string>
+    <string name="subs_type_playstore">Play Store</string>
+    <string name="subs_type_amazon">Amazon AppStore</string>
+    <string name="subs_type_partner">Partner</string>
+    <string name="hi">Hi!</string>
+    <string name="thankyou">THANK YOU!</string>
+    <string name="done">DONE</string>
+    <string name="pw_purchase_success">Thank you for subscribing!</string>
+    <string name="pw_success">You are all set!</string>
+    <string name="pw_prime_message">We noticed that you have already subscribed to The Washinton Post\'s offer for Amazon Prime members. We have cancelled your previous susbscription so that you could take advantage of this special offer.</string>
+    <string name="pw_other_message">It looks like you have more than one subscription…</string>
+    <string name="pw_contact_us">Not to worry just <a href="http://www.washingtonpost.com/contactus">Contact Us</a> and we\'ll clear us the issue for you.</string>
+    <string name="sub_attribute_ad_free">NOADS:1</string>
+    <string name="sub_attribute_ad_free_eu">EU_NOADS:1</string>
+    <string name="action_settings">Settings</string>
+    <string name="public_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhxttlyyFqb8lOq/3Q6mtReooxYdVyxRw9gngp8UajrjViAIo/aUUurF1sABCesG5NbMooQIr6mleoRpgG1hDbDakxbClYjQ9e8gChZJqTyj5kbTXerN8svxnVgRCzFq2XET6ESPMXaZMVizfNxDt6hVTpysqC1F/LfVQuQyatbz3wgWwRmy9AUWv/dYxN2x4/oMl0meFQ1hV28aADC9Q1DNMycAcQMnYd9uQD2Kr3TJKMsDcLWvTDhTs+U7HUpEsVU7BmOk0OnV4+lXzWy7QQCnX8tX7o4bahDsGItl+2Xlw0Qee7uEPDZyzaJiHWynq/iJkoDfblWcoQVtLaTppcQIDAQAB</string>
+
+    <!-- Iap Registration Ask Screen -->
+    <string name="iap_registration_ask_text_h2_1" translatable="false">Welcome to The Washington Post!</string>
+    <string name="iap_registration_ask_text_h1" translatable="false">One more thing...</string>
+    <string name="iap_registration_ask_text_h2_2" translatable="false">Create an account to unlock all of your benefits:</string>
+    <string name="iap_registration_ask_text_h3_1" translatable="false">Access your account in our apps and on the web, anytime, anywhere.</string>
+    <string name="iap_registration_ask_text_h3_2" translatable="false">Save stories to read offline and on other devices.</string>
+    <string name="iap_registration_ask_button1" translatable="false">Create account or sign in</string>
+    <string name="iap_registration_ask_button2" translatable="false">Remind me later</string>
+
+    <!-- Iap Registration Ask Reminder Screen -->
+    <string name="iap_registration_ask_reminder_text_h2_1" translatable="false">Welcome back!</string>
+    <string name="iap_registration_ask_reminder_text_h1" translatable="false">Get the most out of your subscription.</string>
+    <string name="iap_registration_ask_reminder_text_h2_2" translatable="false">@string/iap_registration_ask_text_h2_2</string>
+    <string name="iap_registration_ask_reminder_text_h3_1" translatable="false">@string/iap_registration_ask_text_h3_1</string>
+    <string name="iap_registration_ask_reminder_text_h3_2" translatable="false">@string/iap_registration_ask_text_h3_2</string>
+    <string name="iap_registration_ask_reminder_button1" translatable="false">@string/iap_registration_ask_button1</string>
+    <string name="iap_registration_ask_reminder_button2" translatable="false">@string/iap_registration_ask_button2</string>
+
+    <string name="cookies_url" translatable="false">https://washingtonpost.com</string>
+    <string name="cookies_domain" translatable="false">washingtonpost.com</string>
+    <string name="paywall_bypass_param_key" translatable="false">p9w22b2p</string>
+    <string name="paywall_bypass_param_value" translatable="false">b2p22p9w00098</string>
+    <string name="no_nav_param_key" translatable="false">no_nav</string>
+    <string name="no_nav_param_value" translatable="false">true</string>
+
+    <!--    Bottom Sheet CTA -->
+    <string name="cta_subsmessage_1" translatable="false">Get unlimited access to all our journalism.</string>
+    <string name="cta_subsmessage_2" translatable="false">Try one month for free</string>
+
+    <string name="valid_gift_cta" translatable="false">You were gifted this article by a Washington Post subscriber. Want to read more? </string>
+
+    <string name="sign_in_text"><u>Sign In</u></string>
+    <string name="terms_of_service_text"><u>Terms of Service</u></string>
+    <string name="privacy_policy_text"><u>Privacy Policy</u></string>
+    <string name="policy_text">By subscribing to The Washington Post</string>
+    <string name="tos_pp_fine_print">By subscribing to The Washington Post, you agree to our Terms of Service and Privacy Policy.\nYou can cancel anytime.</string>
+    <string name="cancel_anytime_bold">cancel anytime</string>
+
+    <string name="signed_in_text">There\'s no subscription associated with [loginId].</string>
+    <string name="common_text">Already a subscriber?</string>
+    <string name="common_text_subscribed">Already have an account?</string>
+    <string name="signed_in_link_text">Sign in with a different account</string>
+    <string name="normal_link_text">Sign in</string>
+    <string name="subscribe_link_text">subscribe</string>
+    <string name='subscribe_subtitle_text'>Or, subscribe and get unlimited access</string>
+    <string name='contact_us_subtitle_text'>Need help? Contact us</string>
+    <string name="contact_us_link_text">Contact us</string>
+
+
+    <string name="core_monthly_price">$11.99</string>
+    <string name="core_yearly_price">$119.99</string>
+    <string name="premium_monthly_Price">$16.99</string>
+    <string name="premium_yearly_Price">$169.99</string>
+    <string name="amazon_monthly_price">$3.99</string>
+    <string name="no_ads_monthly_price">$5.00</string>
+    <string name="flex_oneday_1_price">$3.99</string>
+    <string name="flex_oneday_2_price">$9.99</string>
+    <string name="flex_oneday_3_price">$13.99</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    <string name="core_toggle">Core</string>
+    <string name="premium_toggle">Premium</string>
+    <string name="best_value">Best Value</string>
+
+    <string name="restore_purchase">Restore purchase</string>
+    <string name="no_valid_browser_message">Your browser is not supported. Please download Chrome or Firefox and attempt to sign in again.</string>
+    <string name="no_valid_browser_title">Sign in error</string>
+    <string name="ok_button">Ok</string>
+    <string name="no_valid_browser_exception_message">Failed to find Valid Browser: Error dialog shown</string>
+
+    <!-- Account Hold -->
+    <string name="accounthold_header">We were unable to process \nyour last payment.</string>
+    <string name="core">Core</string>
+    <string name="contact_us"><u>Contact us</u></string>
+    <string name="accounthold_update">Update your payment details to \nkeep your subscription.</string>
+    <string name="accounthold_frequency">86400000</string>
+    <string name="try_again_message">Something went wrong. Please try again.</string>
+    <string name="try_again">Try again</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Link Error -->
+    <string name="sub_link_error_title">Unable to link your account</string>
+    <string name="sub_link_error_body_default">We’re sorry. This device is already linked to another e–mail address. Please call Customer Service at 202–334–6100.</string>
+
+    <string name="paywall_free_trial">By continuing, you agree that after your %1$s free trial ends you’ll automatically be charged %2$s every %3$s until you %4$s. Sales tax may apply. Pricing subject to change. You can cancel future renewals in Settings &gt; Manage or Cancel Subscriptions at least a day before your renewal date.</string>
+    <string name="paywall_offer_one_year">By continuing, you agree that you’ll automatically be charged %1$s for the first %2$s. After that, you will be charged %3$s every %4$s thereafter until you %5$s. Sales tax may apply. Pricing subject to change. You can cancel future renewals in Settings &gt; Manage or Cancel Subscriptions at least a day before your renewal date.</string>
+    <string name="paywall_offer_multi_cycle">By continuing, you agree that you’ll automatically be charged %1$s every %2$s for the first %3$s. After that, you will be charged %4$s every %5$s thereafter until you %6$s. Sales tax may apply. Pricing subject to change. You can cancel future renewals in Settings &gt; Manage or Cancel Subscriptions at least a day before your renewal date.</string>
+    <string name="paywall_base_plan_only">You will be charged %1$s every %2$s until you %3$s. Sales tax may apply. Pricing subject to change. You can cancel future renewals in Settings &gt; Manage or Cancel Subscriptions at least a day before your renewal date.</string>
+
+    <string name="paywall_automatic_renewal_terms">Automatic Renewal Terms</string>
+    <string name="paywall_agree_and_continue">Agree and Continue</string>
+    <string name="paywall_cancel">Cancel</string>
+    <string name="paywall_regwall_create_account_title">Create account</string>
+    <string name="paywall_regwall_create_account_price">Free</string>
+</resources>

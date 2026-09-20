@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settings_row"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="25dp"
+    android:layout_marginBottom="5dp"
+    android:background="@color/black"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:outlineProvider="background"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:fontFamily="Postoni-Bold"
+        android:gravity="center"
+        android:textColor="@color/white" />
+
+</LinearLayout>

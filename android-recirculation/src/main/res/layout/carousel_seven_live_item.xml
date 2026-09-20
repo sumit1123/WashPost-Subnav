@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seven_live_item_card"
+    style="@style/external_carousel_card"
+    android:layout_width="@dimen/carousel_external_card_width"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/seven_live_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_height="120dp">
+        <TextView
+            android:id="@+id/seven_live_timestamp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/franklin_itc_pro_bold"
+            android:letterSpacing="0.05"
+            android:textColor="@color/live_blog_bullet_color"
+            android:textSize="11sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toStartOf="@id/item_seven_live_art"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/secondary_label"
+            tools:text="5 min ago"
+            tools:visibility="visible" />
+        <TextView
+            android:id="@+id/secondary_label"
+            style="@style/external_carousel_item_byline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toStartOf="@id/item_seven_live_art"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/seven_live_timestamp"
+            app:layout_constraintBottom_toTopOf="@id/seven_live_headline_title"
+            tools:text="Author Name" />
+        <TextView
+            android:id="@+id/seven_live_headline_title"
+            style="@style/audio_carousel_item_headline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_goneMarginTop="0dp"
+            android:ellipsize="end"
+            android:maxLines="5"
+            app:layout_constraintEnd_toStartOf="@id/item_seven_live_art"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/secondary_label"
+            tools:text="Headline text" />
+        <ImageView
+            android:id="@+id/item_seven_live_art"
+            android:layout_width="@dimen/carousel_external_card_image_size"
+            android:layout_height="@dimen/carousel_external_card_image_size"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

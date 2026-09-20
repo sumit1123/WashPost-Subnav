@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2019. The Washington Post
+  ~ Created by adkinsj on 5/7/19.
+  -->
+
+<resources>
+    <integer name="privacy_policy_wall_weight_sum">9</integer>
+    <integer name="privacy_policy_wall_text_weight">5</integer>
+    <integer name="privacy_policy_wall_controls_weight">4</integer>
+    <dimen name="privacy_policy_wall_text_line_spacing_multiplier">1.2</dimen>
+    <dimen name="gdpr_button_width">320dp</dimen>
+
+    <dimen name="privacy_settings_root_padding_top">20dp</dimen>
+    <dimen name="privacy_settings_root_padding_left">24dp</dimen>
+    <dimen name="privacy_settings_root_padding_right">24dp</dimen>
+    <dimen name="privacy_settings_root_padding_bottom">18dp</dimen>
+    <dimen name="privacy_settings_root_margin_bottom">24dp</dimen>
+    <dimen name="privacy_settings_margin_small">16dp</dimen>
+    <dimen name="privacy_settings_margin_medium">22dp</dimen>
+    <dimen name="privacy_settings_margin_large">40dp</dimen>
+    <dimen name="privacy_settings_toolbar_height">56dp</dimen>
+
+    <dimen name="privacy_settings_header_text_size">28sp</dimen>
+    <dimen name="privacy_settings_body_text_size">20sp</dimen>
+    <dimen name="privacy_settings_body_switch_text_size">20sp</dimen>
+    <dimen name="privacy_settings_body_switch_text_padding_start">16dp</dimen>
+
+    <dimen name="switch_height">32dp</dimen>
+    <dimen name="switch_thumb_stroke_width">1dp</dimen>
+    <dimen name="switch_track_stroke_width">1dp</dimen>
+    <dimen name="switch_track_radius">20dp</dimen>
+    <dimen name="switch_track_width">20dp</dimen>
+    <dimen name="switch_thumb_text_padding">16dp</dimen> <!-- this needs to be half the height-->
+
+    <dimen name="privacy_settings_account_corner_radius">6dp</dimen>
+    <dimen name="privacy_settings_account_padding">16dp</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_menu_arrow_margin_left">9dp</dimen>
+    <dimen name="logo_menu_arrow_margin_bottom">12dp</dimen>
+    <dimen name="logo_section_text_size">31sp</dimen>
+    <dimen name="logo_margin_left">20dp</dimen>
+
+    <item name="logo_section_padding_top" format="float" type="string">0.29</item>
+    <item name="logo_section_padding_bottom" format="float" type="string">0.16</item>
+</resources>

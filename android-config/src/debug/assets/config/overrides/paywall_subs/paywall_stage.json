@@ -1,0 +1,58 @@
+{
+  "preferencesApiConfig": {
+    "preferenceBaseUrl": "https://subs-stage.washingtonpost.com/",
+    "checkPrefBaseUrl": "https://checkpref-stage.washingtonpost.com/"
+  },
+  "saveConfig": {
+    "preferenceBaseUrlV2": "https://subs-stage.washingtonpost.com/preferenceapi/v1/saved/story/",
+    "metadataServiceBaseUrl": "https://api.washingtonpost.com/metadata-service/v1/metadata/canonical/"
+  },
+  "purchasedArticleConfig": {
+    "baseUrl": "https://subs-stage.washingtonpost.com/",
+    "metadataServiceBaseUrl": "https://api.washingtonpost.com/metadata-service/v1/metadata/canonical/"
+  },
+  "paywallConfigV3": {
+    "tetroBaseUrl": "https://subs-stage.washingtonpost.com/tetro/metering/",
+    "meteringProxyBaseUrl": "https://subs-stage.washingtonpost.com/nativeservice/proxy/metering/apps/",
+    "editEmailPasswordUrl": "https://subs-stage.washingtonpost.com/my-post/account/profile/?itid=app_settings",
+    "editNamePhotoUrl": "https://subs-stage.washingtonpost.com/profile/#!/profile/details?destination=https:%2F%2Fwww.washingtonpost.com%2F%3Frefresh%3Dtrue&no_nav=true&itid=app_settings",
+    "manageSubUrl": "https://subs-stage.washingtonpost.com/my-post/account/subscription?itid=app_settings",
+    "manageSubResumeUrl": "https://subs-stage.washingtonpost.com/my-post/account/subscription/resume?itid=app_settings",
+    "paywallBaseUrl": "https://subs-stage.washingtonpost.com/%s/rest/",
+    "subsBaseUrl": "https://subs-stage.washingtonpost.com/",
+    "newsLettersBaseUrl": "https://carta-sandbox.washingtonpost.com/newsletters/",
+    "subBenefitsUrl": "https://subs-stage.washingtonpost.com/my-post/my-benefits",
+    "aboutMeUrl": "https://subs-stage.washingtonpost.com/my-post/account/about-me",
+    "oAuthConfigStub": {
+      "authorizationUrl": "https://subs-stage.washingtonpost.com/signin?case=noa&wpflow=native-android",
+      "tokenUrlV2": "https://idstg.washingtonpost.com/identity/oauth/v2/token",
+      "oneLinkTokenUrl": "https://subs-stage.washingtonpost.com/oauth/one-link/token/",
+      "profileUrlV2": "https://idstg.washingtonpost.com/identity/oauth/v2/profile",
+      "revokeUrl": "https://idstg.washingtonpost.com/identity/oauth/v1/revoke",
+      "migrateUrl": "https://idstg.washingtonpost.com/identity/oauth/v1/migrate",
+      "saveIdentityPreferencesUrl": "https://subs-stage.washingtonpost.com/user/save-identity-preferences",
+      "nonceUrl": "https://subs-stage.washingtonpost.com/oauth/generate-login-nonce"
+    },
+    "reminderScreen": {
+      "enabled": true,
+      "frequency": 300000
+    },
+    "acquisitionReminder": {
+      "enabled": true,
+      "frequency": 300000
+    },
+    "acquisitionReminderAmazon": {
+      "enabled": true,
+      "frequency": 300000
+    }
+  },
+  "myPostConfig": {
+    "banner": {
+      "link": "subs-stage.washingtonpost.com/my-post/newsprint?wv=nonav"
+    },
+    "birthdayFrontPage": {
+      "enabled": true,
+      "url": "https://subs-stage.washingtonpost.com/my-post/front-page"
+    }
+  }
+}

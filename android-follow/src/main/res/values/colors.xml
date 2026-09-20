@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <color name="my_post_background">#e5e5e5</color>
+    <color name="author_empty_background">#EEEEEE</color>
+    <color name="author_list_selected">#3D73D5</color>
+    <color name="snackbar_action_follow">#5887FF</color>
+    <color name="author_divider_color">#E9E9E9</color>
+    <color name="author_article_border_color">#E9E9E9</color>
+    <color name="author_article_name">#000000</color>
+    <color name="author_article_name_clickable">#1955A5</color>
+    <color name="author_list_name">#2A2A2A</color>
+    <color name="author_list_name_selected">#1955A5</color>
+    <color name="author_empty_state_text">#333333</color>
+    <color name="bottom_sheet_background">#FFFFFF</color>
+    <color name="bottom_sheet_author_name">#1955A5</color>
+    <color name="bottom_sheet_author_bio">#666666</color>
+    <color name="follow_button_selected">#AAAAAA</color>
+    <color name="follow_button_unselected">#1955A5</color>
+    <color name="follow_button_text">#333333</color>
+    <color name="follow_button_check">#333333</color>
+    <color name="author_article_name_opinion">#A96805</color>
+    <color name="alert_dialog_background">#FFFFFF</color>
+    <color name="alert_dialog_button">#3D73D5</color>
+
+    <color name="my_post_author_card_bg">#ffffff</color>
+    <color name="my_post_author_card_bg_selected">#2a2a2a</color>
+    <color name="my_post_author_card_stroke_bg">#D5D5D5</color>
+    <color name="my_post_author_name_selected">#f7f7f7</color>
+    <color name="my_post_author_name">#111111</color>
+    <color name="my_post_signature">#666666</color>
+    <color name="my_post_headline">#111111</color>
+    <color name="my_post_follow_bg">#F7F7F7</color>
+    <color name="my_post_follow_content_bg">#ffffff</color>
+    <color name="my_post_follow_title">#111111</color>
+    <color name="my_post_follow_title_secondary">#666666</color>
+
+    <color name="author_archive_name">#333333</color>
+    <color name="author_archive_bg">#F7F7F7</color>
+</resources>

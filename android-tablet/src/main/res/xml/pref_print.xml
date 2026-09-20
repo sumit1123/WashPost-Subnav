@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.PreferenceCategory
+        android:layout="@layout/preference_category_layout"
+        android:title="@string/pref_print_setting_sections"
+        app:iconSpaceReserved="false">
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_A_section"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_A_section"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_metro"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_metro"
+            app:iconSpaceReserved="false" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_sports"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_sports"
+            app:iconSpaceReserved="false" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_style"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_style"
+            app:iconSpaceReserved="false" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_business"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_business"
+            app:iconSpaceReserved="false" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_magazine"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_magazine"
+            app:iconSpaceReserved="false" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_food"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_food"
+            app:iconSpaceReserved="false" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_health"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_health"
+            app:iconSpaceReserved="false" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_local_living"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_local_living"
+            app:iconSpaceReserved="false" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_comics"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_comics"
+            app:iconSpaceReserved="false" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_outlook"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_outlook"
+            app:iconSpaceReserved="false" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_travel"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_travel"
+            app:iconSpaceReserved="false" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_arts"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_arts"
+            app:iconSpaceReserved="false" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_weekend"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_weekend"
+            app:iconSpaceReserved="false" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_real_estate"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_real_estate"
+            app:iconSpaceReserved="false" />
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_special_advertising"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_special_advertising"
+            app:iconSpaceReserved="false" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

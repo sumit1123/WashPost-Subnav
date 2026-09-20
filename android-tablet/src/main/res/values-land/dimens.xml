@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="native_paywall_card_margin_left">9dp</dimen>
+    <dimen name="native_paywall_card_margin_right">9dp</dimen>
+    <dimen name="native_paywall_card_margin_top">48dp</dimen>
+    <!-- Wear Tooltip-->
+    <dimen name="tooltip_font_size">18sp</dimen>
+
+    <dimen name="print_button_text_size">12sp</dimen>
+    <dimen name="print_button_width">30dp</dimen>
+    <dimen name="print_button_min_height">20dp</dimen>
+    <dimen name="print_button_margin">20dp</dimen>
+    <dimen name="print_thumbnail_height">200dp</dimen>
+
+    <dimen name="gdpr_root_padding_top">16dp</dimen>
+    <dimen name="gdpr_switch_margin_top">16dp</dimen>
+    <dimen name="gdpr_root_margin_bottom">0dp</dimen>
+
+    <integer name="privacy_policy_wall_weight_sum">10</integer>
+    <integer name="privacy_policy_wall_text_weight">5</integer>
+    <integer name="privacy_policy_wall_controls_weight">5</integer>
+
+    <dimen name="article_web_content_item_bottom_padding">0dp</dimen>
+</resources>

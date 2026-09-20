@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/paywall_sheet_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/paywall_margin_very_small"
+        app:srcCompat="@drawable/handle_bar" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/transparent"
+        android:layout_marginBottom="@dimen/space_xxlarge"
+        android:layout_marginTop="@dimen/space_xxlarge"
+        android:maxWidth="320dp">
+
+        <ProgressBar
+            android:id="@+id/gift_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:indeterminateTint="@color/subscription_blue" />
+
+        <include
+            android:id="@+id/gift_screen"
+            layout="@layout/gift_article_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/no_gifts_left_screen"
+            layout="@layout/gift_none_left_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/no_sub_screen"
+            layout="@layout/gift_no_sub_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/not_signed_in_screen"
+            layout="@layout/gift_not_signed_in_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </FrameLayout>
+</FrameLayout>

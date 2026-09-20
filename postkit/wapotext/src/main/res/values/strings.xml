@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">wapotext</string>
+    <string name="font_size_multiplier_1">Small</string>
+    <string name="font_size_multiplier_2">Medium (default)</string>
+    <string name="font_size_multiplier_3">Large</string>
+    <string name="font_size_multiplier_4">Extra Large</string>
+    <string name="font_size_dialog_title">Font Size</string>
+    <string name="font_size" translatable="false">Change font size</string>
+    <string name="font_size_smaller" translatable="false">Reduce font size</string>
+    <string name="font_size_bigger" translatable="false">Increase font size</string>
+
+</resources>

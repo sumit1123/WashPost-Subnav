@@ -1,0 +1,812 @@
+{
+  "id": "1a47aee9beffff14676f528d9e7018c4",
+  "type": "blog",
+  "subtype": "default",
+  "renderer": "native",
+  "arcId": "AUOF26NREJAGFJAQZZSKZCIMVI",
+  "title": "Back at SpaceX, Musk says in interview DOGE became D.C.’s ‘whipping boy’",
+  "blurb": "Elon Musk said his stint in Washington taught him that “the federal bureaucracy situation is much worse than I realized.”",
+  "contenturl": "https://www.washingtonpost.com/business/2025/05/27/elon-musk-spacex-starship-doge/",
+  "content_type": "article",
+  "shareurl": "https://www.washingtonpost.com/business/2025/05/27/elon-musk-spacex-starship-doge/",
+  "source": "the-washington-post",
+  "section": "Business",
+  "sourcesection": "business",
+  "sourcesubsection": "business",
+  "sourcecategory": "Business",
+  "lmt": 1748428931575,
+  "published": 1748428931575,
+  "first_published": 1748389366035,
+  "display_date": 1748389363758,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/V5IZ4G7Y763R54RSBQGN6M3XZE.jpg",
+  "sourceslug": "MUSKINTERVIEW",
+  "commercialnode": "/business",
+  "omniture": {
+    "title": "Elon Musk, back at SpaceX, says DOGE repercussions were severe in D.C. - The Washington Post",
+    "pageName": "elon-musk-spacex-starship-doge",
+    "channel": "business",
+    "contentId": "nullAUOF26NREJAGFJAQZZSKZCIMVI",
+    "contentType": "story - default",
+    "contentSource": "the-washington-post",
+    "contentTopics": "Business",
+    "newsroomDesk": "business",
+    "newsroomSubdesk": "business - regulated industries",
+    "contentAuthor": "christian davenport",
+    "authorId": "davenportjc",
+    "authorType": "staff writer",
+    "subSection": "business",
+    "arcId": "AUOF26NREJAGFJAQZZSKZCIMVI",
+    "trackingTags": "story-has-edit-branch;created from template id wryd6iv5cnhjjcpu2h3r3heacm;created-in-spaces;methode-draft;ai-takeaways;audio-article"
+  },
+  "version": 2,
+  "tags": "story-has-edit-branch,created from template id wryd6iv5cnhjjcpu2h3r3heacm,created-in-spaces,methode-draft,ai-takeaways,audio-article",
+  "items": [
+    {
+      "content": "Business",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Business",
+      "path": "/business"
+    },
+    {
+      "content": "Back at SpaceX, Musk says in interview DOGE became D.C.’s ‘whipping boy’",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "Musk made his comments at an inflection point for SpaceX amid a string of failures of its Starship spacecraft in recent test flights.",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "content": 1748389363758,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/AUOF26NREJAGFJAQZZSKZCIMVI/20250528-064254.543/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/AUOF26NREJAGFJAQZZSKZCIMVI/20250528-064254.543/current.mp3?awCollectionId=/business&awEpisodeId=AUOF26NREJAGFJAQZZSKZCIMVI&tags=ai-takeaways%7Caudio-article",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/AUOF26NREJAGFJAQZZSKZCIMVI/20250528-064254.543/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/V5IZ4G7Y763R54RSBQGN6M3XZE.jpg",
+        "imageWidth": 3464,
+        "imageHeight": 2309,
+        "fullcaption": "(Marvin Joseph/The Washington Post)"
+      },
+      "title": {
+        "content": "Back at SpaceX, Musk says in interview DOGE became D.C.’s ‘whipping boy’",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "Business",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "Business",
+        "path": "/business"
+      },
+      "date": {
+        "content": 1748389363758,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      },
+      "duration": 406000
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/V5IZ4G7Y763R54RSBQGN6M3XZE.jpg",
+      "imageWidth": 3464,
+      "imageHeight": 2309,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Elon Musk at SpaceX's facility in Starbase, Texas. After his time in Washington, “this is the focus,” he said. (Marvin Joseph/The Washington Post)",
+      "blurb": "Elon Musk at SpaceX's facility in Starbase, Texas. After his time in Washington, “this is the focus,” he said."
+    },
+    {
+      "content": "By Christian Davenport",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "davenportjc",
+          "url": "https://www.washingtonpost.com/people/christian-davenport/",
+          "name": "Christian Davenport",
+          "bio": "Christian Davenport covers NASA and the space industry for The Washington Post's Financial desk. He joined The Post in 2000 and has served as an editor on the Metro desk and as a reporter covering military affairs. He is the author of \"The Space Barons: Elon Musk, Jeff Bezos and the Quest to Colonize the Cosmos\" (PublicAffairs, 2018).",
+          "expertise": "Reporter covering NASA and the space industry",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/44c6c270-aaab-49ab-9a31-bea872ff439f.png"
+        }
+      ]
+    },
+    {
+      "arcId": "ATMAWS7YPREB7LTI7RQFU2FXAU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "STARBASE, Tex. — <a href='FTS_Elon_Musk' target='fts'>Elon Musk</a>, returning to SpaceX on Tuesday for a test flight of his Starship spacecraft, said in an interview that slashing the size of federal government proved far tougher than he expected and lamented the intense criticism leveled at the U.S. DOGE Service, which he has led."
+    },
+    {
+      "type": "toggle",
+      "subtype": "offer",
+      "mime": "text/plain",
+      "key": "article"
+    },
+    {
+      "arcId": "OS25GOWQ3JG2LHCCEBIVD2NAZU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“The federal bureaucracy situation is much worse than I realized,” he said. “I thought there were problems, but it sure is an uphill battle trying to improve things in D.C., to say the least.”"
+    },
+    {
+      "arcId": "EP2SQGN5HFC6ZNQIANU4CRHY4M",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "He said repercussions over DOGE cuts had been severe. “DOGE is just becoming the whipping boy for everything,” he said. “So, like, something bad would happen anywhere, and we would get blamed for it even if we had nothing to do with it.”"
+    },
+    {
+      "type": "toggle",
+      "subtype": "alerts",
+      "key": "business",
+      "mime": "text/html"
+    },
+    {
+      "arcId": "NIN2ANDNVRGRNEWCIRNJMHDHYU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "He also expressed dismay over the reputational hit his companies took: “People were burning Teslas. Why would you do that? That’s really uncool.”"
+    },
+    {
+      "arcId": "AQTFC6226JEPVBFNWECQFLCRZ4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Musk told CBS News in a separate interview that he did not approve of President <a href='FTS_Donald_Trump' target='fts'>Donald Trump</a>’s Big Beautiful Bill with its massive tax cuts, a major break with the president and Republicans. “I was disappointed to see the massive spending bill, frankly, which increases the budget deficit, not just decreases it, and undermines the work that the DOGE team is doing,” Musk said."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "tall",
+      "adPath": "/business",
+      "primarySectionID": "/business",
+      "position": {
+        "small": "incontent-mob_1"
+      }
+    },
+    {
+      "arcId": "5YX5B22O4FHSRGUJKO3WSEDNQ4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Musk appeared reflective Tuesday as he returned to his natural habitat, far from the searing glare of Trump’s Washington, again lording over this remote spit of marsh under the sweltering South Texas sun that SpaceX transformed into the world’s most unlikely launch site."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/business",
+      "primarySectionID": "/business",
+      "position": {
+        "large": "incontent_1"
+      }
+    },
+    {
+      "arcId": "XGDOFN3XTNFQDIJPFYRCUKK7XI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "This is Elon Musk’s true domain, a place removed from the controversy of the D.C. Beltway, where his attempts to reshape the federal bureaucracy ran into fierce institutional resistance and spawned lawsuits, backlash from voters and consumers, derision from Democrats, and the ignominious realization that politics can be just as difficult as rocket science — perhaps even more so."
+    },
+    {
+      "arcId": "PBL4KL7WQRHT3OY27YQZBFC6KM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Eager to demonstrate that his attention is now rededicated to his companies, Musk returned here ahead of a test flight Tuesday of Starship, the world’s most powerful rocket and a key part of NASA’s plan to return to the moon and Musk’s quest to send people to Mars."
+    },
+    {
+      "arcId": "M2UOPZHQN5F3RGMSILBJDMZVRY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "In an interview overlooking the sprawling factory floor, he said: “I’m physically here. This is the focus, and especially around launch. Everything comes together at the moment of launch.”"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/business",
+      "primarySectionID": "/business",
+      "position": {
+        "small": "incontent-mob_2"
+      }
+    },
+    {
+      "arcId": "BFBBUBG5KRGFZHWOEIXUSIY52A",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Gone was the Dark MAGA cap, the black blazer, the belligerence toward his perceived foes in Congress and the Washington press corps. For now, there will be no more Cabinet meetings or unsuccessful forays into political races. The most meaningful political race in this corner of South Texas was the one held by residents who voted overwhelmingly this month to incorporate Starbase as a city with elected municipal officials, though the real leader of this factory town, everyone knows, is the richest man in the world."
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/A6QTUTGA27B7JMMKCS27D7TKX4_size-normalized.jpg",
+      "imageWidth": 4541,
+      "imageHeight": 3027,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "An unofficial street sign in the new city of Starbase, Texas. (Eric Gay/AP)",
+      "blurb": "An unofficial street sign in the new city of Starbase, Texas."
+    },
+    {
+      "arcId": "UVU56Q7SZFHQRPFHS2TCFAEGIE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Projecting the intensity of a wartime general and wearing an “Occupy Mars” T-shirt,<b> </b>Musk said he had a “maniacal sense of urgency. I’m just wired that way, and that’s the kind of mindset that I’ve kind of instilled in the people at SpaceX. You have got to drive hard, and not everyone is cut out for that. Like, people want to have the chill vibes, and SpaceX is sort of ultra hardcore. But if we’re not ultra hardcore, how are we going to get to Mars? You’re not going to get to Mars in 40 hours a week.”"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/business",
+      "primarySectionID": "/business",
+      "position": {
+        "large": "incontent_2"
+      }
+    },
+    {
+      "arcId": "5LEYYFFHE5C3FAIH4J5GXEE7QU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Even so, he vowed that his work with the U.S. DOGE Service was not done. He said he plans to focus DOGE’s efforts on improving the federal bureaucracy’s computer systems, a less-controversial goal than taking a chainsaw to the workforce."
+    },
+    {
+      "arcId": "RXUEI4IKKBCKRGXIRHWTOPQZVE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“There’s, like, so many situations where the computers are so broken,” he said, “even in the intelligence world,” where in order to transfer “data from one computer to another, you have to print it out and then type it into the next computer. And this is just literally a thing that was brought to my attention.”"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4CUMWRCW3OTNA2A7H5OIKOOUAU_size-normalized.jpg",
+      "imageWidth": 4941,
+      "imageHeight": 3294,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Musk attends a Cabinet meeting in Washington on March 24. Though he is stepping back from the U.S. DOGE Service, Musk said, its work is not done. (Jabin Botsford/The Washington Post)",
+      "blurb": "Musk attends a Cabinet meeting in Washington on March 24. Though he is stepping back from the U.S. DOGE Service, Musk said, its work is not done."
+    },
+    {
+      "arcId": "7WIZUQ76EZELZPNAREYMU6OCTU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The effort will now be focused “a bit more like tackling projects with the highest gain for the pain, which still means a lot of good things in terms of reducing waste and fraud.”"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/business",
+      "primarySectionID": "/business",
+      "position": {
+        "small": "incontent-mob_3"
+      }
+    },
+    {
+      "arcId": "WGGHHP4APJBTXFSRJZ36IKQXII",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Still, Musk’s claims about finding massive savings and slashing waste in government have been shown to be <a href=\"https://www.washingtonpost.com/business/2025/02/22/doge-savings-found-list-analysis/\">exaggerated</a>. As he scales back his presence in Washington, it is clear he did not achieve as much as he wanted."
+    },
+    {
+      "arcId": "MOQUIYERPJBODKCBCKJPM3EDIY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "And after several months grappling with Congress, Democrats and entrenched interests in the capital, he was eager, he said, to return to his many other ventures — especially SpaceX, since the last two Starship test flights ended up with the spacecraft exploding."
+    },
+    {
+      "arcId": "O2ZEK3JNWVCOXF6IOAI57OBQOU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "SpaceX’s quest since its founding has been to get people to Mars and build a city on the Red Planet to make humanity a “multi-planet species,” as Musk has said. In 2016, he vowed to send the first crew to Mars by 2024. In 2017 he called for the development of a moon base."
+    },
+    {
+      "arcId": "LUVXSMETK5HTBMSDLGGT4FOJ3Y",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Neither has happened. But SpaceX has pulled off one triumphant feat after another. As a start-up with little chance of succeeding — indeed, it nearly failed before ever taking off — SpaceX upended an industry that for decades had been dominated by large defense contractors with few incentives to innovate."
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MQOPTSZBIF64HJCY3IWOCUKWHQ_size-normalized.jpg",
+      "imageWidth": 5273,
+      "imageHeight": 3515,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "People gather to watch Monday as SpaceX's Starship rocket is prepared for a test flight from Starbase, Texas. (Eric Gay/AP)",
+      "blurb": "People gather to watch Monday as SpaceX's Starship rocket is prepared for a test flight from Starbase, Texas."
+    },
+    {
+      "arcId": "S42LTC6BHBBUDCGWRIAJBTXS34",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "SpaceX proved that rockets could be reused and fly again, almost like airplanes, a development that has dramatically lowered the cost of spaceflight. It single-handedly replaced the space shuttle, which retired in 2011, first flying cargo missions to the International Space Station for NASA, then becoming NASA’s only way to fly humans there. It launches national security payloads for the Pentagon and intelligence community, and satellites for commercial companies. And it out-launches every competitor, even China, by a wide margin."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/business",
+      "primarySectionID": "/business",
+      "position": {
+        "small": "incontent-mob_4"
+      }
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/business",
+      "primarySectionID": "/business",
+      "position": {
+        "large": "incontent_3"
+      }
+    },
+    {
+      "arcId": "5FXGFSD545G6RMOOA4RKIRIVKU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "But now the company is at an inflection point. NASA is eager to return astronauts to the moon under its Artemis program. Musk, ever impatient, wants to fulfill his quest to send people to Mars. Starship is the key to both — and to the future of SpaceX."
+    },
+    {
+      "arcId": "AF4MM6BKUZEPDJ2AMEJQRMNXLU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“I think the primary goal should be Mars,” Musk said, repeating his desire to make humanity “a multi-planetary” species. “We could perhaps go back to the moon along the way. But the primary goal should be Mars, because that’s really the next great leap beyond Apollo.”"
+    },
+    {
+      "arcId": "E2VEZT6JKRHKHC2ZUZ73SAKC3I",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "NASA’s “current Artemis program is kind of like a remake of a great movie from the ’60s,” he said. “It’s just never as good as the original. You want to go for something that’s far beyond that.”"
+    },
+    {
+      "arcId": "KXJBPRLUYRGVVDVCS3G2M5ZEAU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "But first, he said, he was hoping for a test flight launch “where hopefully things don’t explode. The last few times it exploded. This is a very real concern. Big rockets, don’t explode: Goal. I mean, there’s so much energy in the rocket, it desperately wants to explode at any given point in time.”"
+    },
+    {
+      "arcId": "54HOOWZGIVARXLZL3PY5IK2EBI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Musk got his wish Tuesday, partially. Starship did not explode during the launch. But it spun out of control once it reached space and failed to return to Earth in one piece."
+    },
+    {
+      "arcId": "T4UULADGRJD7LBO7X5GXENTL2Y",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“Big improvement over last flight!” Musk tweeted on X, promising a test flight once every three or four weeks in the coming months. “Lot of good data to review.”"
+    },
+    {
+      "type": "fts_carousel",
+      "label": "What sources are saying"
+    },
+    {
+      "type": "link",
+      "subtype": "comments"
+    },
+    {
+      "type": "author_info",
+      "id": "davenportjc",
+      "name": "Christian Davenport",
+      "bio": "Christian Davenport covers NASA and the space industry for The Washington Post's Financial desk. He joined The Post in 2000 and has served as an editor on the Metro desk and as a reporter covering military affairs. He is the author of \"The Space Barons: Elon Musk, Jeff Bezos and the Quest to Colonize the Cosmos\" (PublicAffairs, 2018).",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/44c6c270-aaab-49ab-9a31-bea872ff439f.png",
+      "role": "Staff writer"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "show_summary": true,
+  "blogname": "Business",
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/AUOF26NREJAGFJAQZZSKZCIMVI/20250528-064254.543/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/AUOF26NREJAGFJAQZZSKZCIMVI/20250528-064254.543/current.mp3?awCollectionId=/business&awEpisodeId=AUOF26NREJAGFJAQZZSKZCIMVI&tags=ai-takeaways%7Caudio-article",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/AUOF26NREJAGFJAQZZSKZCIMVI/20250528-064254.543/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/V5IZ4G7Y763R54RSBQGN6M3XZE.jpg",
+      "imageWidth": 3464,
+      "imageHeight": 2309,
+      "fullcaption": "(Marvin Joseph/The Washington Post)"
+    },
+    "title": {
+      "content": "Back at SpaceX, Musk says in interview DOGE became D.C.’s ‘whipping boy’",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "Business",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Business",
+      "path": "/business"
+    },
+    "date": {
+      "content": 1748389363758,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    },
+    "duration": 406000
+  },
+  "first_display_date": 1748389363758,
+  "targeting": {
+    "adcall": [
+      {
+        "key": "ca",
+        "values": [
+          "rcisc",
+          "r1zb8",
+          "r5zn0",
+          "rjqr5",
+          "r71iv",
+          "rnfyo",
+          "rdisi",
+          "rqrfm",
+          "ryiid",
+          "rjba6",
+          "r63ky",
+          "r1djc",
+          "rj98c",
+          "r7q72",
+          "riv2l",
+          "r0yv2",
+          "r6x7c",
+          "rzhm0",
+          "rh5hz",
+          "r2lez",
+          "reddk",
+          "rcvrb",
+          "rpkxx",
+          "reest",
+          "rqqn2",
+          "rqltv",
+          "r6ovq",
+          "ru0hj",
+          "rk4hi",
+          "r2x7m",
+          "rjls7",
+          "rpsbt",
+          "rnryg",
+          "rihsc",
+          "rh065",
+          "ry4ek",
+          "r8pmm",
+          "r6iq7",
+          "r4fvv",
+          "r30iy",
+          "rw76f",
+          "rh22v",
+          "r5bpj",
+          "rhwg4",
+          "r82mu",
+          "r35cx",
+          "rsqg7",
+          "rl43b",
+          "rt96h",
+          "r6jbe",
+          "ryx8n",
+          "rkgjf",
+          "r1yqm",
+          "raw34",
+          "r6g4r",
+          "r8euu",
+          "rf299",
+          "r0tke",
+          "rzhau",
+          "r3vky",
+          "rzd33",
+          "rtdlb",
+          "r35ap",
+          "rvsr7",
+          "rz25l",
+          "re3uz",
+          "r3hdp",
+          "rynal",
+          "rayu0",
+          "r7d9r",
+          "rl7yb",
+          "rsmxd",
+          "rix28",
+          "rt5dp",
+          "r7tmu",
+          "rzqdp",
+          "r4avn",
+          "rva7x",
+          "r3bxp",
+          "rwsk4",
+          "rfhup",
+          "rlugb",
+          "r3ykj",
+          "r95gm",
+          "rhfzk",
+          "rqs5o",
+          "rmikf",
+          "r4t4y",
+          "r35lh",
+          "r2x21",
+          "rz457",
+          "r48wg",
+          "rj2ns",
+          "rfz4c",
+          "rk7m0",
+          "rh5xk",
+          "rj67t",
+          "r8hz2",
+          "rgepe",
+          "rfxvv",
+          "ra7me",
+          "r1fne",
+          "rayex",
+          "r5hej",
+          "rhll0",
+          "rrhwk",
+          "rtbcp",
+          "rgpk6",
+          "r3es4",
+          "rd270",
+          "ry25b",
+          "rx8m9",
+          "rxpwi",
+          "rsesv",
+          "r2hzw",
+          "r2g8j",
+          "rggwa",
+          "rwaiy",
+          "r1jfj",
+          "rx4px",
+          "r2qu2",
+          "rbgqk",
+          "rs7c2",
+          "rsoqi",
+          "rjvyd",
+          "rxeck",
+          "rcase",
+          "rlz8o",
+          "r135d",
+          "rdfqf",
+          "r0227",
+          "rlw2t",
+          "rrxwi",
+          "rvhux",
+          "rvywr",
+          "rdlnx",
+          "rkxir",
+          "rg1ny",
+          "rc6uk",
+          "rs1ox",
+          "r301t",
+          "rf0ll",
+          "rbjys",
+          "rh52g",
+          "rapws",
+          "rlv7a",
+          "rh5p3",
+          "rvn0g",
+          "r54xz",
+          "romxp",
+          "rehh9",
+          "rloc3",
+          "rmk71",
+          "r3mmv",
+          "r0kbr",
+          "rqyhw",
+          "rqnkl",
+          "rrqij",
+          "r3mmr",
+          "r78zx",
+          "rht4j",
+          "rzb5u",
+          "r0new",
+          "rkkqd",
+          "r0hej",
+          "rnp2g",
+          "rdrh1",
+          "r1nqd",
+          "rtppi",
+          "r21q5",
+          "r365r",
+          "rjrvp",
+          "r8218",
+          "rypnm",
+          "rqvzr",
+          "rdluz",
+          "r7e5f",
+          "ruk1b",
+          "r6h78",
+          "rt9p2",
+          "r0yto",
+          "rtsg3",
+          "r9hok",
+          "rzla5",
+          "rv05p",
+          "rrofe",
+          "ru14c",
+          "r50pl",
+          "rg5cq",
+          "rtc0b",
+          "ri474",
+          "ribdm",
+          "rlc5f",
+          "rm0wu",
+          "rsp3l",
+          "rd1zm",
+          "rjkt0",
+          "rtdzb",
+          "ro9sc",
+          "rpi83",
+          "rdj29",
+          "r05in"
+        ]
+      },
+      {
+        "key": "wapoTopics",
+        "values": [
+          "tee3",
+          "aeta",
+          "spt5",
+          "trqe"
+        ]
+      },
+      {
+        "key": "wapoTopicNextVer",
+        "values": [
+          "tee3",
+          "tseg",
+          "aeta",
+          "spt5",
+          "trqe"
+        ]
+      },
+      {
+        "key": "se",
+        "values": [
+          "xkuy"
+        ]
+      },
+      {
+        "key": "bs",
+        "values": [
+          "garm_safe",
+          "wapo_rsk_low"
+        ]
+      }
+    ],
+    "permutive_dict": {
+      "article": {
+        "customTopics": [
+          "[rht4j] American History",
+          "[rzb5u] Trump and Associates Legal Action",
+          "[r21q5] Small Business",
+          "[r365r] Manufacturing",
+          "[rjrvp] POTUS",
+          "[r8218] Construction, Engineering",
+          "[rypnm] Republicans",
+          "[rdluz] Health Care Policy",
+          "[rt9p2] Pop Culture",
+          "[r0yto] Inspiring",
+          "[rv05p] Graduate Education",
+          "[rrofe] Luxury Travel",
+          "[ru14c] Affluent",
+          "[rm0wu] Airlines",
+          "[rsp3l] Intelligence Community"
+        ],
+        "wapoTopics": [
+          "[1:tee3] /technology",
+          "[2:aeta] /technology/aerospace_technology",
+          "[3:spt5] /technology/aerospace_technology/spacecraft",
+          "[1:trqe] /transportation"
+        ],
+        "wapoTopicNextVer": [
+          "[1:tee3] /technology",
+          "[2:tseg] /technology/technology_sectors",
+          "[3:aeta] /technology/technology_sectors/aerospace_technology",
+          "[4:spt5] /technology/technology_sectors/aerospace_technology/spacecraft",
+          "[1:trqe] /transportation"
+        ],
+        "sentiment": [
+          "[xkuy] mixed"
+        ],
+        "publishDate": "2025-05-23T17:34:28.395Z",
+        "lastUpdateDate": "2025-05-28T10:42:11.518Z",
+        "authorName": [
+          "christian davenport"
+        ],
+        "authorType": [
+          "author"
+        ],
+        "newsroomDesk": [
+          "business"
+        ],
+        "contentType": "story - default",
+        "language": "en",
+        "wordCount": 1217
+      },
+      "canonicalUrl": "/business/2025/05/27/elon-musk-spacex-starship-doge/",
+      "section": "business",
+      "subsection": "business",
+      "commercialNode": "/business"
+    }
+  },
+  "summary": {
+    "id": "VN6PMMNFDJBS3P6IABGU6AAHWE",
+    "url": "https://www.washingtonpost.com/business/2025/05/27/elon-musk-spacex-starship-doge/",
+    "items": [
+      "Elon Musk refocuses on SpaceX after political challenges in Washington.",
+      "Starship is crucial for NASA’s moon mission and Musk’s Mars plan.",
+      "Musk criticizes the federal bureaucracy’s outdated computer systems.",
+      "Musk says he prioritizes Mars over the moon for future space exploration."
+    ]
+  },
+  "comments": "https://www.washingtonpost.com/business/2025/05/27/elon-musk-spacex-starship-doge/?outputType=comment"
+}

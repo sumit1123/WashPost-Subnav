@@ -1,0 +1,10 @@
+{
+  "siteServiceConfig": {
+    "sectionsBarV2ConfigRemoteLocation": "https://s3.amazonaws.com/wpmobileprodipad2.0/classic_test/site-mock/ClassicAppBar.json",
+    "sectionsFeaturedConfigRemoteLocation": "https://s3.amazonaws.com/wpmobileprodipad2.0/classic_test/site-mock/ClassicAppFeatured.json",
+    "sectionsAZConfigRemoteLocation": "https://s3.amazonaws.com/wpmobileprodipad2.0/classic_test/site-mock/ClassicAppAZ.json",
+    "sectionsBarTestConfigRemoteLocation": "https://s3.amazonaws.com/arc-native-apps/sitemap/v1/sandbox/washpost/classic-app-testing.json",
+    "sectionsUnlistedConfigRemoteLocation": "https://arcmobile.arcpublishing.com/sitemap/v2/sandbox/washpost/washpost/ClassicAppUnlisted.json",
+    "sectionsRecommendedConfigRemoteLocation": "https://arcmobile.arcpublishing.com/sitemap/v2/sandbox/washpost/washpost/ClassicAppRecommended.json"
+  }
+}

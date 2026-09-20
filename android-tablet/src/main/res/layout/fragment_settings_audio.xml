@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/settings_content_packs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/header"
+        style="@style/settings_category_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_bias="0"
+        android:text="@string/customize_audio"
+        android:paddingStart="?attr/listPreferredItemPaddingStart"
+        android:paddingTop="20dip"
+        android:paddingEnd="?attr/listPreferredItemPaddingEnd"
+        android:paddingBottom="12dip"
+        android:accessibilityHeading="true"
+        android:layout_marginBottom="@dimen/onboarding_medium_space" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintWidth_max="400dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:paddingBottom="120dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/onboarding_xxlarge_space">
+
+                <ProgressBar
+                    android:id="@+id/audio_load_progress"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:visibility="gone" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/play_pause_button"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/audio_play_icon"
+                    android:contentDescription="@string/play_pause" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/audio_details_text"
+                    style="@style/customize_audio_sample_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingStart="8dp"
+                    android:text="Sample audio (Ava, 1x)" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/customize_audio_sample_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/grey_box"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="16dp"
+                android:text="The Washington Post, founded by independent-minded Stilson Hutchins, began publishing on Dec. 6, 1877."
+                android:textAlignment="center" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="26dp"
+                android:paddingTop="28dp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/customize_audio_option_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Speed" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/speed_selection_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="@drawable/plus_minus_bg">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/decrement_speed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dp"
+                        android:clickable="true"
+                        android:padding="@dimen/onboarding_medium_large_space"
+                        android:contentDescription="@string/decrease_audio_speed"
+                        app:srcCompat="@drawable/audio_speed_minus" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/current_speed_text"
+                        style="@style/customize_audio_option_button"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_horizontal"
+                        android:paddingVertical="@dimen/onboarding_medium_large_space"
+                        android:text="1x" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/increment_speed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="5dp"
+                        android:clickable="true"
+                        android:padding="@dimen/onboarding_medium_large_space"
+                        android:contentDescription="@string/increase_audio_speed"
+                        app:srcCompat="@drawable/audio_speed_plus" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="26dp"
+                android:visibility="gone"
+                android:paddingTop="28dp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/customize_audio_option_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Voice" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/voice_selection_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    app:chipSpacingHorizontal="3dp"
+                    app:selectionRequired="true"
+                    app:singleSelection="true" />
+
+            </FrameLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

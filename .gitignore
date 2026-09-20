@@ -1,0 +1,47 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+out/
+build/
+android-tablet/.cxx/
+android-tablet/local/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Intellij/AndroidStudio project files
+.idea/
+*.iml
+
+# Gradle files
+.gradle
+
+# Eclipse project files
+.classpath
+.project
+
+android-tablet/gradle.properties
+
+gradle/wrapper/gradle-wrapper.properties
+captures
+
+.gradletasknamecache
+.DS_Store
+
+crashlytics-build.properties
+*.keystore
+
+.kotlin/
+
+# KMP noise
+shared/

@@ -1,0 +1,58 @@
+<resources>
+    <string-array name="widget_sections_list">
+        <item>Top Stories</item>
+        <item>Politics</item>
+        <item>Opinions</item>
+        <item>Technology</item>
+        <item>World</item>
+        <item>Local</item>
+        <item>Sports</item>
+        <item>LifeStyle</item>
+        
+    </string-array>
+
+    <string-array name="widget_sections_bundle_list">
+        <item>mobile-homepage</item>
+        <item>politics</item>
+        <item>opinions</item>
+        <item>business/technology</item>
+        <item>world</item>
+        <item>local</item>
+        <item>mobile-sports</item>
+        <item>lifestyle</item>
+    </string-array>
+
+    <string-array name="time_array">
+        <item>6:00 am</item>
+        <item>7:00 am</item>
+        <item>8:00 am</item>
+        <item>9:00 am</item>
+        <item>10:00 am</item>
+        <item>11:00 am</item>
+        <item>12:00 pm</item>
+        <item>1:00 pm</item>
+        <item>2:00 pm</item>
+        <item>3:00 pm</item>
+        <item>4:00 pm</item>
+        <item>5:00 pm</item>
+        <item>6:00 pm</item>
+        <item>7:00 pm</item>
+        <item>8:00 pm</item>
+        <item>9:00 pm</item>
+        <item>10:00 pm</item>
+        <item>11:00 pm</item>
+        <item>12:00 am</item>
+        <item>1:00 am</item>
+        <item>2:00 am</item>
+        <item>3:00 am</item>
+        <item>4:00 am</item>
+        <item>5:00 am</item>
+    </string-array>
+
+    <string-array name="tab_names_list">
+        <item>PINNED</item>
+        <item>SECTIONS</item>
+        <item>MY POST</item>
+    </string-array>
+
+</resources>

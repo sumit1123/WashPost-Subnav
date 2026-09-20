@@ -1,0 +1,17 @@
+{
+  "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/National-Economy/Images/AP_321890312055.jpg",
+  "width": 416,
+  "height": 260,
+  "aspect_ratio": "1.6",
+  "caption": "(DAVID BECKER / AP)",
+  "caption_size": "normal",
+  "media_type": "featured",
+  "overlay" : {
+    "text": "overlay text",
+    "suffix_icon": "fa-camera",
+    "prefix_icon": "fa-arrow-circle-right"
+  },
+  "art_position": "high",
+  "art_width" : 8,
+  "promo_image": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/08/03/National-Economy/Images/AP_321890312055.jpg"
+}

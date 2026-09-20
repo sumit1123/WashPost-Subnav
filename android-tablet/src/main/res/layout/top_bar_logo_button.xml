@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><!--               a:paddingTop="7dp"
+              a:paddingBottom="7dp"
+-->
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    a:id="@+id/comics_logo_panel"
+    a:layout_width="wrap_content"
+    a:layout_height="wrap_content"
+    a:layout_alignParentLeft="true"
+    a:contentDescription="@string/back_to_main"
+    a:focusable="true"
+    a:orientation="horizontal">
+
+    <ImageView
+        a:id="@+id/top_bar_arrow"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_gravity="center_vertical"
+        a:layout_marginRight="10dp"
+        a:layout_marginLeft="5dp"
+        a:contentDescription="@null"
+        a:focusable="false"
+        a:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_back_arrow" />
+
+    <FrameLayout
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_gravity="center_vertical"
+        a:id="@+id/top_bar_logo_layout">
+
+        <ImageView
+            a:id="@+id/top_bar_logo"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="left|center_vertical"
+            a:adjustViewBounds="true"
+            a:contentDescription="@string/wp_button_desc"
+            a:focusable="false"
+            a:scaleType="fitCenter"
+            a:src="@drawable/wp_logo" />
+    </FrameLayout>
+
+    <com.wapo.view.ScalableTextView
+        a:id="@+id/top_bar_section"
+        a:layout_width="wrap_content"
+        a:layout_height="match_parent"
+        a:text="POLITICS"
+        a:visibility="visible" />
+
+    <TextView
+        a:id="@+id/top_bar_section_phone"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:text="POLITICS"
+        a:layout_gravity="center_vertical"
+        a:textStyle="bold"
+        a:textSize="@dimen/left_menu_text_size"
+        a:visibility="gone" />
+
+</LinearLayout>

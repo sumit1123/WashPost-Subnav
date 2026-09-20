@@ -1,0 +1,6 @@
+<resources>
+    <!-- My Post Spacing -->
+    <dimen name="my_post_tablet_detail_gutter_width">28dp</dimen>
+    <dimen name="my_post_tablet_fixed_width_column">350dp</dimen>
+    <!-- My Post Sizes -->
+</resources>

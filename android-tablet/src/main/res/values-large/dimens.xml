@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="adview_height">90dp</dimen>
+    <dimen name="search_results_padding_top_bottom">30dp</dimen>
+    <dimen name="search_results_padding_sides">50dp</dimen>
+    <dimen name="home_widget_big_minheight">250dp</dimen>
+    <dimen name="home_widget_big_minwidth">320dp</dimen>
+    <dimen name="home_widget_small_minheight">40dp</dimen>
+
+    <dimen name="pdf_margin_top">120dp</dimen>
+    <dimen name="pdf_margin_bottom">120dp</dimen>
+
+    <dimen name="pdf_overlay_text_width">400dp</dimen>
+    <dimen name="gallery_headline_size">20dp</dimen>
+    <dimen name="gallery_caption_size">18dp</dimen>
+    <dimen name="gallery_credits_size">15dp</dimen>
+    <dimen name="gallery_text_cantainer_padding">10dp</dimen>
+
+    <dimen name="sf_module_stream_image_right_margin">10dp</dimen>
+
+
+    <dimen name="tweet_real_name_size">18sp</dimen>
+
+
+
+
+    <dimen name="tooltip_font_size">16sp</dimen>
+    <dimen name="tooltip_padding">2dp</dimen>
+
+    <!-- WapoVideoView Title Size -->
+    <dimen name="title_text_size">20sp</dimen>
+</resources>

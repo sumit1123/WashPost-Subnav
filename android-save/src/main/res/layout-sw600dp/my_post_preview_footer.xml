@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_preview_footer_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="36dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/my_post_card_content_left_margin"
+        android:layout_marginEnd="@dimen/my_post_card_content_left_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_games" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/my_post_card_content_left_margin"
+            app:layout_constraintBottom_toBottomOf="@id/iv_image"
+            app:layout_constraintStart_toEndOf="@id/iv_image"
+            app:layout_constraintTop_toTopOf="@id/iv_image">
+
+            <TextView
+                android:id="@+id/tv_msg_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/wp_franklinitcstd_font_family"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.1"
+                android:text="@string/my_post_footer_title"
+                android:textColor="@color/my_post_section"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_msg_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/wp_georgia_font_family"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.4"
+                android:text="@string/my_post_footer_desc"
+                android:textColor="@color/my_post_footer_desc"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                app:fontFamily="@font/wp_georgia_font_family"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_msg_title" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/button_open"
+                style="@style/MyPost.Action.Chip.Light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Explore crosswords"
+                android:textAppearance="@style/MyPost.Action.Chip.Light.Text"
+                app:chipStrokeColor="@color/my_post_footer_chip_stoke_bg"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_msg_desc" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

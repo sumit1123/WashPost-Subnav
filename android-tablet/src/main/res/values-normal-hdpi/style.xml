@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="top_bar_logo_width">
+        <item name="android:layout_width">120dp</item>
+    </style>
+</resources>

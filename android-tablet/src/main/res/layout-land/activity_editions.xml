@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="@string/archives_button"
+        android:theme="?attr/app_bar_day_night_style" />
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/editionsCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:background="@color/print_edition_calendar_background"
+        android:foregroundGravity="center"
+        android:padding="5dp"
+        app:mcv_leftArrow="@color/white"
+        app:mcv_rightArrow="@color/white"
+        app:mcv_dateTextAppearance="@style/PrintEdition.EditionsCalendar.Date"
+        app:mcv_headerTextAppearance="@style/PrintEdition.EditionsCalendar.Title"
+        app:mcv_weekDayTextAppearance="@style/PrintEdition.EditionsCalendar"
+        app:mcv_selectionColor="@color/print_edition_calendar_selected_date_background" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:layout_below="@id/toolbar"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@id/editionsCalendar"
+        android:background="@color/print_edition_paper_border">
+    <ImageView
+        android:id="@+id/frontPageImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/editionsFrontPageDescription"
+        android:scaleType="matrix" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_toEndOf="@id/editionsCalendar">
+
+        <ProgressBar
+            android:id="@+id/frontPageLoadingProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:progressDrawable="@drawable/progress_bar"
+            android:visibility="visible" />
+    </FrameLayout>
+
+</RelativeLayout>

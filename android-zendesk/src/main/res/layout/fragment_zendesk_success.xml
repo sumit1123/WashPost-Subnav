@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_zendesk_success"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_checkmark"
+        android:layout_gravity="center"
+        android:layout_marginTop="83dp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/submitted_success"
+        android:textSize="18sp"
+        app:fontFamily="@font/franklinitcstd_bold"
+        android:text="@string/submit_success"
+        android:layout_gravity="center"
+        android:layout_marginBottom="11dp" />
+
+    <TextView
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/info_text"
+        android:textSize="14sp"
+        app:fontFamily="@font/franklinitcstd_light"
+        android:text="@string/hint_response"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="48dp" />
+
+    <Button
+        android:id="@+id/done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/zendesk_done_button"
+        android:textColor="@color/submit_text_color"
+        android:textSize="16sp"
+        android:fontFamily="@font/franklinitcstd_bold"
+        android:text="@string/done"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/another_request_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/zendesk_another_request_button"
+        android:textColor="@color/submitted_success"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/franklinitcstd_bold"
+        android:text="@string/submit_another_request"
+        android:layout_gravity="center"
+        android:textAllCaps="false" />
+
+</LinearLayout>

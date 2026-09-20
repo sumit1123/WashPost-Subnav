@@ -1,0 +1,721 @@
+{
+  "id": "496da956b1c585b9210e49cb4aecad89",
+  "type": "blog",
+  "renderer": "native",
+  "arcId": "2ZPPGI4YOFC65IRG6QQZ2FWBSE",
+  "title": "Need a break from running in the heat? Try aqua jogging.",
+  "blurb": "Aqua jogging can be a great cross training activity for runners. Here’s what you need to know about how to get started aqua jogging.",
+  "contenturl": "https://www.washingtonpost.com/wellness/2023/07/15/aqua-jogging-running/",
+  "shareurl": "https://www.washingtonpost.com/wellness/2023/07/15/aqua-jogging-running/",
+  "source": "the-washington-post",
+  "section": "Wellbeing",
+  "sourcesection": "wellbeing",
+  "sourcesubsection": "fitness",
+  "sourcecategory": "Wellbeing",
+  "lmt": 1689415247641,
+  "published": 1689415247641,
+  "first_published": 1689415247641,
+  "display_date": 1689415247577,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IVCJCRII7RF5NIKJFPHOG2AUAU.jpg",
+  "sourceslug": "wb-aquajogging",
+  "commercialnode": "/well-being/fitness",
+  "omniture": {
+    "title": "How to start aqua jogging - The Washington Post",
+    "pageName": "aqua-jogging-running",
+    "channel": "wellbeing",
+    "contentId": "null2ZPPGI4YOFC65IRG6QQZ2FWBSE",
+    "contentType": "blog",
+    "contentSource": "the-washington-post",
+    "contentTopics": "Well+Being;Fitness",
+    "newsroomDesk": "well+being",
+    "newsroomSubdesk": "news well+being",
+    "contentAuthor": "kelyn soong",
+    "authorId": "soongk",
+    "authorType": "staff writer",
+    "subSection": "fitness",
+    "arcId": "2ZPPGI4YOFC65IRG6QQZ2FWBSE",
+    "trackingTags": "story-has-edit-branch;created from template id dd5f7jjzfvhfhi5we3mn4pv5ja;methode-draft;v_m_hw_pass;collections-wb;wb-fitness;collections-wb-fitness;evergreen;explanatory;visual;audio-article"
+  },
+  "tags": "story-has-edit-branch,created from template id dd5f7jjzfvhfhi5we3mn4pv5ja,methode-draft,v_m_hw_pass,collections-wb,wb-fitness,collections-wb-fitness,evergreen,explanatory,visual,audio-article",
+  "items": [
+    {
+      "content": "Fitness",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Well+Being",
+      "path": "/wellbeing"
+    },
+    {
+      "content": "Need a break from running in the heat? Try aqua jogging.",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1",
+      "style": "style"
+    },
+    {
+      "content": "Studies have shown that a well-trained runner can maintain their cardiorespiratory fitness for up to four to six weeks with deep water running",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/2ZPPGI4YOFC65IRG6QQZ2FWBSE/20230714-192979.794/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/2ZPPGI4YOFC65IRG6QQZ2FWBSE/20230714-192979.794/current.mp3?awCollectionId=/wellbeing/fitness&awEpisodeId=2ZPPGI4YOFC65IRG6QQZ2FWBSE&tags=v_m_hw_pass%7Ccollections-wb%7Cwb-fitness%7Ccollections-wb-fitness%7Caudio-article",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/2ZPPGI4YOFC65IRG6QQZ2FWBSE/20230714-192979.794/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IVCJCRII7RF5NIKJFPHOG2AUAU.jpg",
+        "imageWidth": 2048,
+        "imageHeight": 1365,
+        "fullcaption": "(Chelsea Conrad/The Washington Post; Hydro Functional; Unsplash)"
+      },
+      "title": {
+        "content": "Need a break from running in the heat? Try aqua jogging.",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "Fitness",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "Well+Being",
+        "path": "/wellbeing"
+      },
+      "date": {
+        "content": 1689415247577,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      }
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IVCJCRII7RF5NIKJFPHOG2AUAU.jpg",
+      "imageWidth": 2048,
+      "imageHeight": 1365,
+      "image_type": "illustration",
+      "widthFactor": "full-bleed",
+      "fullcaption": "(Chelsea Conrad/The Washington Post; Hydro Functional; Unsplash)",
+      "blurb": ""
+    },
+    {
+      "content": "By Kelyn Soong",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "soongk",
+          "url": "https://www.washingtonpost.com/people/kelyn-soong/",
+          "name": "Kelyn Soong",
+          "bio": "Kelyn Soong is a reporter on The Washington Post's Well+Being desk, covering fitness and exercise advice, trends and culture. ",
+          "expertise": "Fitness, Exercise, Running, Sports",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/5ac5f186-497f-4129-b90f-8a94484a5a23.png"
+        }
+      ]
+    },
+    {
+      "content": 1689415247577,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The suffocating summer <a href=\"https://www.washingtonpost.com/wellness/2023/07/12/hot-outdoor-exercise-summer/\">heat and humidity</a> can make even the most dedicated<b> </b>outdoor runner feel unmotivated. For those who want an alternative to running on the roads without losing their fitness, deep water running — or aqua jogging, as it’s more commonly known — could be a useful supplementary cross-training exercise, experts say."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<a href=\"https://journals.lww.com/acsm-msse/Fulltext/1997/05000/Effect_of_4_wk_of_deep_water_run_training_on.17.aspx\">Studies</a> have <a href=\"https://journals.lww.com/acsm-msse/Fulltext/1996/08000/Influence_of_water_run_training_on_the_maintenance.17.aspx\">shown</a> that a well-trained runner can maintain their cardiorespiratory fitness for up to four to six weeks with aqua jogging."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "I first tried aqua jogging several years ago after spraining my ankle. My doctor told me I could not run on land for six weeks. Aqua jogging, however, was allowed because it is not weight-bearing."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Many runners turn to deep water running as a last resort when they are injured, but healthy individuals can also benefit aerobically, said <a href=\"https://www.melbsportsmed.com.au/team/sophie-heywood/\">Sophie Heywood</a>, a sports and aquatic physical therapist based in Melbourne, Australia."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "We asked exercise scientists and running experts about how to get into aqua jogging and how runners can use it to their advantage."
+    },
+    {
+      "id": "45e9f55d-4347-4266-80a1-ee7e7f113b59",
+      "published": 1689361887000,
+      "isLive": false,
+      "lmt": 1689361888000,
+      "blurb": "Experts said the best way to aqua jog is to mimic running on land and that the water should at least be five inches less than your height.",
+      "title": "How to aqua jog",
+      "vertical": false,
+      "embedCode": "64b164cba2c4c85d876ec235",
+      "shareurl": "https://wapo.st/452JWTh",
+      "type": "video",
+      "host": "posttv",
+      "url": "false",
+      "placement": null,
+      "widthFactor": "full-bleed",
+      "contenturl": "https://www.washingtonpost.com/video/wellbeing/how-to-aqua-jog/2023/07/14/45e9f55d-4347-4266-80a1-ee7e7f113b59_video.html",
+      "credits": "Hydro Functional",
+      "fullcaption": "Experts said the best way to aqua jog is to mimic running on land and that the water should at least be five inches less than your height. (Hydro Functional)",
+      "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/07-14-2023/t_9e7148716f66444caf0e0c11b4fb81ca_name_2___1920x1080___24p_00_00_08_06_Still001.jpg",
+      "imageHeight": 1080,
+      "imageWidth": 1920,
+      "omniture": {
+        "source": "Hydro Functional",
+        "contentType": "video",
+        "contentId": "45e9f55d-4347-4266-80a1-ee7e7f113b59",
+        "channel": "wellbeing",
+        "contentSubsection": "wellbeing",
+        "pageName": "wellbeing:video - ee7e7f113b59 - 20230714 - how-to-aqua-jog"
+      },
+      "adconfig": {
+        "adSetUrls": {
+          "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.oodef_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.oodef;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.oodef_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "apps": "http://ad.doubleclick.net/N701/pfadx/wpni.video.oodef_apps;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]"
+        },
+        "allowPrerollOnDomain": false,
+        "autoPlayPreroll": false,
+        "commercialAdNode": "/wellbeing",
+        "enableAdInsertion": false,
+        "enableAutoPreview": false,
+        "enableServerSideFallback": false,
+        "forceAd": false,
+        "playAds": false,
+        "playVideoAds": false,
+        "videoAdZone": "wpni.video.oodef",
+        "adSetConfig": {
+          "adSetZone": "wpni.video.oodef",
+          "adSetUrls": {
+            "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.oodef_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.oodef;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.oodef_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "apps": "http://ad.doubleclick.net/N701/pfadx/wpni.video.oodef_apps;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]"
+          }
+        }
+      },
+      "mediaURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Hydro_Functional/20230714/64b164cba2c4c85d876ec235/64b164d308d36a66cfca3c02/file_640x360-600-v3.mp4",
+      "streamURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Hydro_Functional/20230714/64b164cba2c4c85d876ec235/64b164d308d36a66cfca3c02/mobile.m3u8",
+      "subtitlesURL": null,
+      "streams": {
+        "ts": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Hydro_Functional/20230714/64b164cba2c4c85d876ec235/64b164d308d36a66cfca3c02/mobile.m3u8",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Hydro_Functional/20230714/64b164cba2c4c85d876ec235/64b164d308d36a66cfca3c02/master.m3u8",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Hydro_Functional/20230714/64b164cba2c4c85d876ec235/64b164d308d36a66cfca3c02/hd.m3u8",
+            "bitrate": 4500
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Hydro_Functional/20230714/64b164cba2c4c85d876ec235/64b164d308d36a66cfca3c02/hlsv4_master.m3u8",
+            "bitrate": 5400
+          }
+        ],
+        "mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Hydro_Functional/20230714/64b164cba2c4c85d876ec235/64b164d308d36a66cfca3c02/file_320x180-160-v3.mp4",
+            "bitrate": 160
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Hydro_Functional/20230714/64b164cba2c4c85d876ec235/64b164d308d36a66cfca3c02/file_640x360-600-v3.mp4",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Hydro_Functional/20230714/64b164cba2c4c85d876ec235/64b164d308d36a66cfca3c02/file_854x480-1200-v3_1.mp4",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Hydro_Functional/20230714/64b164cba2c4c85d876ec235/64b164d308d36a66cfca3c02/file_1280x720-2000-v3_1.mp4",
+            "bitrate": 2000
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Hydro_Functional/20230714/64b164cba2c4c85d876ec235/64b164d308d36a66cfca3c02/file_1920x1080-5400-v4.mp4",
+            "bitrate": 5400
+          }
+        ]
+      },
+      "isLooping": true,
+      "autoplay": true,
+      "fallback": null,
+      "duration": 8874
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "Find the right pool and belt",
+      "subhead_level": 2
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "You will need access to a pool that is deep enough so that your feet don’t touch the ground. The depth of the water should be at least five inches less than your height, said <a href=\"https://www.fluidrunning.com/about-jennifer-conroyd/\">Jennifer Conroyd</a>, founder of the deep water exercise program Fluid Running and a USA Track & Field certified coach."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“Someone who is 5-foot-5 can run in 5-feet deep water,” she said."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "A flotation belt around your waist will help your running technique, Conroyd said.<b> </b>There are different kinds of flotation belts available to purchase or rent online and at swimming pools. Experiment to find the right belt, Heywood said. Wear one that is comfortable and has a similar shape all the way around, she suggests."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“I think some of the belts that have a bigger sort of volume of foam at the back can be difficult,” Heywood said. “I think people feel like they’re being pushed into a strange position.”"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Some regular aqua joggers choose to run without a flotation belt. “It’s harder,” though, Conroyd said. “You can hold onto proper land running form for only about a minute.”"
+    },
+    {
+      "type": "context_box",
+      "headline": "What do you want to know about running?",
+      "content_pages": [
+        {
+          "type": "element_group",
+          "subtype": "context_box_element",
+          "content_elements": [
+            {
+              "type": "sanitized_html",
+              "subtype": "paragraph",
+              "mime": "text/html",
+              "content": "My name is <a href=\"https://www.washingtonpost.com/people/kelyn-soong/\">Kelyn Soong</a>, and I’m a reporter for The Washington Post covering fitness and exercise. I’m also a runner. One of my goals is to help readers who are looking for running advice.",
+              "style": "context_box"
+            },
+            {
+              "type": "sanitized_html",
+              "subtype": "paragraph",
+              "mime": "text/plain",
+              "content": "Do you want to know how to become a healthier or less injury-prone runner? Or do you have specific questions on training and running gear?",
+              "style": "context_box"
+            },
+            {
+              "type": "sanitized_html",
+              "subtype": "paragraph",
+              "mime": "text/html",
+              "content": "Let us know through <a href=\"https://forms.office.com/pages/responsepage.aspx?id=Smm7Nw2gak-pq0Zr4EsdtJrc1pQR6OpLt7fV_84cZC9UM0JDVDY5V0lINlFTTE4zSVdKTDBIMFdURy4u\">this form</a>.",
+              "style": "context_box"
+            }
+          ],
+          "alignment": null
+        }
+      ]
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "Mimic how you run on land",
+      "subhead_level": 2
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The best way to aqua jog is to mimic running on land, experts say. Style instructions may vary, but you should lean forward slightly. The movement of the arms and legs should look similar to land-based running, Heywood said. Runners typically move back and forth in the pool during their workout."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Everything except your head and the top part of your shoulders should be underwater. Swing your arms from your shoulders, keep your elbows at a 90-degree angle and put your thumbs on your forefingers with a slightly clenched fist, said <a href=\"https://golinfieldwildcats.com/staff-directory/dr-garry-killgore/1\">Garry Killgore</a>, the director of athletics at Linfield University in Oregon. Killgore also serves as a professor of human performance at Linfield and is the author of <a href=\"https://pubmed.ncbi.nlm.nih.gov/22508258/\">a 2012 review</a> that looked at the biomechanics of deep water running."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Work your legs up to a running motion. A cycling action of the legs is easier to start with and will get your heart rate up, Heywood said, but practice replicating a running motion with your legs when you feel more confident in your balance and core control."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“Imagine extending the foot down and behind as if you were pushing off the ground as you would in a run,” she said."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "Try it several times",
+      "subhead_level": 2
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Getting used to running in the pool takes time. Runners should treat their first three sessions as a learning experience and not as a really hard workout, Heywood said."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Workouts can be continuous, easy running or intervals that alternate a minute or so at a comfortably hard pace and then 30 seconds at an easier active recovery pace. The sessions can be as short as 20 minutes, Killgore said."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Experts say aqua jogging is a helpful supplement to land running. In <a href=\"https://journals.lww.com/acsm-msse/Fulltext/1997/05000/Effect_of_4_wk_of_deep_water_run_training_on.17.aspx\">one small study</a>, 11 competitive runners trained with deep water running instead of on-land training for four weeks. Researchers found that the runners maintained their 5K treadmill race performance with this method and that there were no statistical differences in performance markers such as maximal oxygen consumption and lactate threshold."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "In <a href=\"https://journals.lww.com/acsm-msse/Fulltext/1996/08000/Influence_of_water_run_training_on_the_maintenance.17.aspx\">another study</a>, researchers examined the effect of a six-week deep water running program. They separated 16 runners into two groups — one did treadmill running and another did water running. Both groups followed the same workout schedule, which consisted of alternate high-intensity interval sessions and moderate-intensity recovery sessions. Researchers found no difference between the groups in glucose concentration and maximal lactate levels, suggesting that aqua jogging can be an effective training alternative to land-based running."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Aqua jogging is not meant to replace all of your regular running, though, Killgore said. Typically, your heart rate will be slightly lower while aqua jogging for the same intensity of exercise on land because of the compression of water pushing more blood and fluid back to your central circulation, Heywood said. To increase intensity, increase your speed."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "Make it social",
+      "subhead_level": 2
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Aqua jogging can sometimes be monotonous, so bring your headphones or a friend."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<a href=\"https://www.washingtonpost.com/dc-md-va/2022/04/25/dreamday-susanna-sullivan/\">Susanna Sullivan</a>, a full-time elementary school teacher and elite marathon runner based in Reston, has incorporated deep water running into her routine since high school. Sullivan is in the pool about five days a week for 30 to 45 minutes as a supplement to her training on the road. She is set to compete for the United States in the marathon at the <a href=\"https://www.usatf.org/news/2023/usatf-announces-road-rosters-for-budapest-23\">World Athletics Championships</a> next month in Budapest."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Recently, Sullivan started wearing AirPods during her pool sessions: “I’ve ripped through so many books in the past year.” She also enjoys aqua jogging with other people."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“I love it when pool running ends up being my social hour,” she said."
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.washingtonpost.com/newsletters/well-being/",
+      "content": "Sign up for the Well+Being newsletter, your source of expert advice and simple tips to help you live well every day"
+    },
+    {
+      "type": "link",
+      "subtype": "comments"
+    },
+    {
+      "type": "author_info",
+      "id": "soongk",
+      "name": "Kelyn Soong",
+      "bio": "Kelyn Soong is a reporter on The Washington Post's Well+Being desk, covering fitness and exercise advice, trends and culture.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/5ac5f186-497f-4129-b90f-8a94484a5a23.png",
+      "role": "Reporter"
+    },
+    {
+      "type": "element_group",
+      "subtype": "link_box",
+      "content_elements": [
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "Well+Being shares news and advice for living well every day. <a href=\"https://www.washingtonpost.com/newsletters/well-being/\">Sign up for our newsletter to get tips directly in your inbox.</a>"
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<a href=\"https://www.washingtonpost.com/wellness/interactive/2023/birds-song-nature-mental-health-benefits/?itid=ap_richardsima\">Birds and their songs</a> are good for our mental health."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "Avoid these four mistakes <a href=\"https://www.washingtonpost.com/wellness/2023/05/05/loneliness-social-isolation/\">when you’re lonely</a>."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "Should you stop using <a href=\"https://www.washingtonpost.com/wellness/2023/05/16/sugar-substitutes-artificial-sweeteners-health/\">sugar substitutes</a>?"
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "Older athletes share tips on <a href=\"https://www.washingtonpost.com/wellness/2023/05/19/stay-fit-aging-exercise/\">exercising as you age</a>."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<a href=\"https://www.washingtonpost.com/wellness/2023/05/08/fake-sign-language-asl-tiktok/\">Fake sign language on TikTok</a> has deaf people worried."
+        }
+      ],
+      "additional_properties": {
+        "link_box_title": "Read more from Well+Being",
+        "link_box_byline": null,
+        "link_box_display_date": 1689966957262,
+        "link_box_subheadline": null
+      }
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "blogname": "Well+Being Fitness",
+  "taxonomy": {
+    "topics": [],
+    "auxiliaries": []
+  },
+  "editorpicks": [
+    {
+      "type": "recirculation-link",
+      "mime": "text/plain",
+      "content": "Sign up for the Well+Being newsletter, your source of expert advice and simple tips to help you live well every day",
+      "url": "https://www.washingtonpost.com/newsletters/well-being/"
+    }
+  ],
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/2ZPPGI4YOFC65IRG6QQZ2FWBSE/20230714-192979.794/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/2ZPPGI4YOFC65IRG6QQZ2FWBSE/20230714-192979.794/current.mp3?awCollectionId=/wellbeing/fitness&awEpisodeId=2ZPPGI4YOFC65IRG6QQZ2FWBSE&tags=v_m_hw_pass%7Ccollections-wb%7Cwb-fitness%7Ccollections-wb-fitness%7Caudio-article",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/2ZPPGI4YOFC65IRG6QQZ2FWBSE/20230714-192979.794/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IVCJCRII7RF5NIKJFPHOG2AUAU.jpg",
+      "imageWidth": 2048,
+      "imageHeight": 1365,
+      "fullcaption": "(Chelsea Conrad/The Washington Post; Hydro Functional; Unsplash)"
+    },
+    "title": {
+      "content": "Need a break from running in the heat? Try aqua jogging.",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "Fitness",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Well+Being",
+      "path": "/wellbeing"
+    },
+    "date": {
+      "content": 1689415247577,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    }
+  },
+  "first_display_date": 1689415247577,
+  "targeting": {
+    "adcall": [
+      {
+        "key": "wapoTopics",
+        "values": [
+          "x5wz",
+          "phf8",
+          "spoj"
+        ]
+      },
+      {
+        "key": "se",
+        "values": []
+      },
+      {
+        "key": "ca",
+        "values": [
+          "rcisc",
+          "r1zb8",
+          "r66hu",
+          "r5zn0",
+          "r71iv",
+          "rnfyo",
+          "rddr6",
+          "rdisi",
+          "r2qkj",
+          "ryiid",
+          "rjba6",
+          "rxz1s",
+          "r1djc",
+          "r7q72",
+          "riv2l",
+          "rfrmj",
+          "r6x7c",
+          "rzhm0",
+          "r2lez",
+          "r0yv2",
+          "reddk",
+          "rcvrb",
+          "rhjj5",
+          "rpkxx",
+          "rqqn2",
+          "rycv4",
+          "r6ovq",
+          "rysqo",
+          "ra4e3",
+          "ryq7t",
+          "ru0hj",
+          "r2ob4",
+          "rjls7",
+          "rpsbt",
+          "rnryg",
+          "rihsc",
+          "ry4ek",
+          "r4fvv",
+          "rokpz",
+          "r30iy",
+          "rw76f",
+          "r6iq7",
+          "rh22v",
+          "rl0sk",
+          "rhwg4",
+          "r35cx",
+          "rsqg7",
+          "rl43b",
+          "rulp6",
+          "ru1jm",
+          "r6jbe",
+          "ryx8n",
+          "r1yqm",
+          "raw34",
+          "r03o4",
+          "rjl3v",
+          "rkpsc",
+          "r3vky",
+          "r785o",
+          "rvy90",
+          "rtdlb",
+          "rjuyh",
+          "rzfmu",
+          "r35ap",
+          "rz25l",
+          "r3hdp",
+          "rynal",
+          "r8vsc",
+          "rrytf",
+          "r7d9r",
+          "rl7yb",
+          "rix28",
+          "rt5dp",
+          "r7tmu",
+          "rzqdp",
+          "r13g1",
+          "rw037",
+          "r3bxp",
+          "rzxhh",
+          "r8ehi",
+          "roh5w",
+          "rxtxs",
+          "rlugb",
+          "rn9ou",
+          "r95gm",
+          "rsjjy",
+          "rra4x",
+          "rhfzk",
+          "rqs5o",
+          "r4t4y",
+          "r35lh",
+          "r2x21",
+          "r48wg",
+          "rj2ns",
+          "rfz4c",
+          "rq574",
+          "rj67t",
+          "rfxvv",
+          "raoi5",
+          "rk7m0",
+          "rh5xk",
+          "ra7me",
+          "r1fne",
+          "rjev2",
+          "rayex",
+          "rrlor",
+          "ratb5",
+          "rhll0",
+          "r3es4",
+          "rd270",
+          "r8x1i",
+          "rg5cq",
+          "rx8m9",
+          "r4vlh",
+          "ridxr",
+          "r2hzw",
+          "r2g8j",
+          "rbgqk",
+          "rtdzb",
+          "rwaiy",
+          "r8ig8",
+          "rxpwi",
+          "rx4px",
+          "ro0tw",
+          "r2qu2",
+          "rsesv",
+          "c"
+        ]
+      }
+    ],
+    "permutive": [
+      {
+        "key": "article.wapoTopics",
+        "values": [
+          "[1:x5wz] /health",
+          "[2:phf8] /health/physical_fitness",
+          "[1:spoj] /sports"
+        ]
+      },
+      {
+        "key": "article.customTopics",
+        "values": [
+          "[r8ehi] B2_Positive News_legacyaux_hlt",
+          "[roh5w] B2_Summer Travel_legacyaux_1ot",
+          "[rxtxs] B2_Women's Beauty_legacyaux_9jv",
+          "[rn9ou] B2_Men's Grooming_legacyaux_1ve"
+        ]
+      }
+    ]
+  }
+}

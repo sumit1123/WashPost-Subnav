@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="page_headline_normal_size_base">20sp</dimen>
+    <dimen name="page_headline_thin_size_base">20sp</dimen>
+    <dimen name="page_headline_highlight_size_base">15dp</dimen>
+
+    <dimen name="homepagestory_label_size">16sp</dimen>
+    <dimen name="homepagestory_label_size_small">14sp</dimen>
+
+    <dimen name="homepagestory_blurb_size">16sp</dimen>
+    <dimen name="homepagestory_blurb_size_like_article_body">16sp</dimen>
+
+    <dimen name="homepagestory_deck_size">16sp</dimen>
+
+    <dimen name="homepagestory_byline_size">14sp</dimen>
+    <dimen name="homepagestory_byline_section_size">14sp</dimen>
+
+    <dimen name="grid_homepagestory_byline_size">14sp</dimen>
+
+    <dimen name="homepagestory_related_links_size">15dp</dimen>
+
+    <dimen name="homepagestory_headline_tiny">16sp</dimen>
+    <dimen name="homepagestory_headline_xsmall">20sp</dimen>
+    <dimen name="homepagestory_headline_small">20sp</dimen>
+    <dimen name="homepagestory_headline_medium">20sp</dimen>
+    <dimen name="homepagestory_headline_standard">26sp</dimen>
+    <dimen name="homepagestory_headline_large">26sp</dimen>
+    <dimen name="homepagestory_headline_xlarge">26sp</dimen>
+    <dimen name="homepagestory_headline_huge">40sp</dimen>
+    <dimen name="homepagestory_headline_massive">40sp</dimen>
+    <dimen name="homepagestory_headline_colossal">40sp</dimen>
+    <dimen name="homepagestory_headline_jumbo">40sp</dimen>
+    <dimen name="homepagestory_headline_gargantuan">40sp</dimen>
+    <dimen name="homepagestory_headline_colossal_all_caps">56sp</dimen>
+    <dimen name="homepagestory_headline_jumbo_all_caps">56sp</dimen>
+    <dimen name="homepagestory_headline_gargantuan_all_caps">56sp</dimen>
+    <dimen name="grid_homepagestory_blurb_size">16sp</dimen>
+    <dimen name="grid_homepagestory_related_links_size">16sp</dimen>
+
+    <!-- x10000 -->
+    <integer-array name="text_size_multiplier">
+        <item>10000</item>
+        <item>10000</item>
+        <item>11818</item>
+        <item>11818</item>
+        <item>12727</item>
+        <item>12727</item>
+        <item>14545</item>
+        <item>14545</item>
+        <item>17272</item>
+        <item>19090</item>
+        <item>20000</item>
+        <item>22272</item>
+        <item>25454</item>
+    </integer-array>
+
+    <integer-array name="blurb_size_multiplier">
+        <item>10000</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>11818</item>
+        <item>12727</item>
+        <item>14545</item>
+        <item>17272</item>
+        <item>19090</item>
+        <item>20000</item>
+        <item>22272</item>
+        <item>25454</item>
+        <item>25454</item>
+    </integer-array>
+
+    <integer-array name="related_links_size_multiplier">
+        <item>10000</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>10000</item>
+        <item>11818</item>
+        <item>12727</item>
+        <item>14545</item>
+        <item>17272</item>
+        <item>19090</item>
+        <item>20000</item>
+        <item>22272</item>
+        <item>25454</item>
+        <item>25454</item>
+    </integer-array>
+</resources>

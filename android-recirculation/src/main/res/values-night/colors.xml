@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2018. The Washington Post
+  ~ Created by adkinsj on 6/21/18
+  -->
+
+<resources>
+    <color name="story_carousel_divider_color">#FFFFFF</color>
+    <color name="story_carousel_background_color">#111111</color>
+
+    <color name="carousel_divider_color">#666666</color>
+    <color name="carousel_explore_more_text_color">#eeeeee</color>
+    <color name="carousel_section_name_text_color">@color/gray0</color>
+    <color name="carousel_background_color">#2A2A2A</color>
+    <color name="carousel_by_line">#F0F0F0</color>
+    <color name="carousel_because_you_read">#F2F2F2</color>
+    <color name="carousel_because_you_read_highlight">#659FFF</color>
+    <color name="carousel_title_text_color">@color/gray0</color>
+    <color name="bright_carousel_border_color">#666666</color>
+    <color name="my_post_carousel_background_color">#333333</color>
+    <color name="carousel_video_image_bg_start_color">#ff777777</color>
+    <color name="carousel_video_image_bg_end_color">#00777777</color>
+    <color name="carousel_excerpt_text">#F2F2F2</color>
+
+    <!-- Audio Carousel -->
+    <color name="audio_carousel_item_status">#F2F2F2</color>
+    <color name="audio_carousel_item_duration">#A9A9A9</color>
+    <color name="audio_carousel_border">#333333</color>
+
+    <!-- Immersion Carousel -->
+    <color name="immersion_carousel_card_background">#2B2B2B</color>
+    <color name="immersion_carousel_end_card_cta">#F0F0F0</color>
+    <color name="immersion_carousel_card_shadow">#000000</color>
+    <color name="immersion_carousel_no_cardify_color">#1A1A1A</color>
+    <color name="carousel_summary_icon_color">#F7F7F7</color>
+    <color name="carousel_inline_divider_color">#eeeeee</color>
+</resources>

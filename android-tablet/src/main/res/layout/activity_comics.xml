@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+                a:layout_width="match_parent"
+                a:layout_height="match_parent"
+                a:background="@color/comics_bg">
+
+    <RelativeLayout
+            a:layout_width="match_parent"
+            a:layout_height="match_parent">
+
+        <androidx.viewpager2.widget.ViewPager2
+            a:id="@+id/comics_vertical_pager"
+            a:orientation="vertical"
+            a:layout_height="match_parent"
+            a:layout_width="match_parent"/>
+    </RelativeLayout>
+
+</RelativeLayout>

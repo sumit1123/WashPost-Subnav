@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:background="@color/white">
+
+    <TextView
+        a:id="@+id/appwidget_gdpr_text"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_gravity="center"
+        a:background="?android:attr/selectableItemBackground"
+        a:fontFamily="@font/wp_postoniwide_font_family"
+        a:gravity="center"
+        a:padding="14dp"
+        a:text="@string/widget_gdpr_error"
+        a:textAppearance="?android:attr/textAppearanceMediumInverse"
+        a:textColor="#FF666666" />
+</FrameLayout>

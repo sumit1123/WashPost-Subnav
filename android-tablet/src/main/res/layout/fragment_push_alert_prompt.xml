@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:background="@color/prompt_window_bg"
+    a:clickable="true"
+    a:focusable="true">
+
+    <androidx.cardview.widget.CardView
+        a:id="@+id/alert_prompt_card_view"
+        a:layout_width="@dimen/prompt_card_view_width"
+        a:layout_height="wrap_content"
+        a:layout_gravity="center"
+        app:cardCornerRadius="@dimen/prompt_card_view_radius">
+
+        <LinearLayout
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:layout_marginLeft="@dimen/prompt_card_margin_medium"
+            a:layout_marginTop="@dimen/prompt_card_margin_medium"
+            a:layout_marginRight="@dimen/prompt_card_margin_medium"
+            a:layout_marginBottom="@dimen/prompt_card_margin_small"
+            a:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                a:id="@+id/alert_prompt_bell"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/ic_alert32_solid" />
+
+            <TextView
+                a:id="@+id/alert_prompt_title"
+                style="@style/prompt_title"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_marginTop="@dimen/prompt_card_margin_medium" />
+
+            <TextView
+                a:id="@+id/alert_prompt_message"
+                style="@style/prompt_message"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_marginTop="@dimen/prompt_card_margin_medium" />
+
+            <LinearLayout
+                a:layout_width="match_parent"
+                a:layout_height="wrap_content"
+                a:layout_marginTop="@dimen/prompt_card_margin_medium"
+                a:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    a:id="@+id/alert_prompt_no_thanks"
+                    style="@style/prompt_not_ok"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:text="@string/prompt_not_ok" />
+
+                <FrameLayout
+                    a:layout_width="0dp"
+                    a:layout_height="wrap_content"
+                    a:layout_weight="1">
+
+                    <com.google.android.material.button.MaterialButton
+                        a:id="@+id/alert_prompt_sign_up"
+                        style="@style/prompt_ok"
+                        a:layout_width="wrap_content"
+                        a:layout_height="wrap_content"
+                        a:layout_gravity="end"
+                        a:text="@string/prompt_sign_up_for_alerts" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

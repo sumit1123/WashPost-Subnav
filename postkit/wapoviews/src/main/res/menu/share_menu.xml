@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:wp="http://schemas.android.com/apk/res-auto">
+    <item
+        a:id="@+id/action_share"
+        a:icon="?attr/ic_menu_share"
+        a:orderInCategory="100"
+        a:title="@string/share_link"
+        wp:showAsAction="always" />
+</menu>

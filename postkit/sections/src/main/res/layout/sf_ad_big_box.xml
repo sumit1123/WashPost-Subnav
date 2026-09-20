@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wapo.adsinf.BannerAdView xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/ad_big_box_layout"
+    a:layout_width="match_parent" a:layout_height="wrap_content"
+    a:contentDescription="@string/content_description_advertisement"
+    style="@style/Cell.Ad.BigBox" />

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_section_margin_bottom">4dp</dimen>
+
+    <dimen name="home_widget_big_minheight">250dp</dimen>
+    <dimen name="home_widget_big_minwidth">320dp</dimen>
+    <dimen name="home_widget_small_minheight">40dp</dimen>
+
+    <dimen name="pdf_margin_top">120dp</dimen>
+    <dimen name="pdf_margin_bottom">120dp</dimen>
+
+    <dimen name="pdf_overlay_text_width">400dp</dimen>
+
+
+
+    <dimen name="tweet_real_name_size">18sp</dimen>
+
+
+
+
+
+
+    <dimen name="adview_height">90dp</dimen>
+
+
+
+    <dimen name="native_article_media_width">400dp</dimen>
+    <dimen name="native_article_layout_top_padding">71dp</dimen>
+    <dimen name="native_article_image_graphic_margin">24dp</dimen>
+
+    <dimen name="native_article_body_text_size">20sp</dimen>
+
+    <dimen name="sf_module_label_font_size">15sp</dimen>
+    <dimen name="sf_module_byline_font_size">15sp</dimen>
+    <dimen name="sf_module_kicker_font_size">15sp</dimen>
+    <dimen name="sf_module_time_font_size">19sp</dimen>
+    <dimen name="sf_module_blurb_font_size">19sp</dimen>
+    <dimen name="sf_module_headline_font_size">53sp</dimen>
+
+    <!-- stream module -->
+    <dimen name="sf_module_stream_headline_font_size">30sp</dimen>
+
+    <dimen name="sf_module_stream_image_right_margin">20dp</dimen>
+    <dimen name="sf_module_stream_image_bottom_margin">8dp</dimen>
+
+    <!-- panel module -->
+    <dimen name="sf_module_large_caption_font_size">15sp</dimen>
+    <dimen name="sf_module_large_headline_top_margin">20dp</dimen>
+    <dimen name="sf_module_large_headline_bottom_margin">25dp</dimen>
+    <dimen name="sf_module_large_padding">20dp</dimen>
+    <dimen name="sf_module_large_textcontent_padding">0dp</dimen>
+
+    <dimen name="left_menu_text_size">18sp</dimen>
+
+    <!-- single module -->
+    <dimen name="sf_module_single_headline_font_size">@dimen/sf_module_headline_font_size</dimen>
+    <dimen name="sf_live_blog_list_item">16sp</dimen>
+
+    <dimen name="comics_pager_width">300dp</dimen>
+    <dimen name="comics_pager_height">5dp</dimen>
+
+    <dimen name="print_button_text_size">16sp</dimen>
+    <dimen name="print_button_width">90dp</dimen>
+    <dimen name="print_button_min_height">35dp</dimen>
+    <dimen name="print_button_margin">60dp</dimen>
+    <dimen name="print_thumbnail_height">400dp</dimen>
+    <dimen name="print_download_bar_height">8dp</dimen>
+    <dimen name="print_download_bar_margin">-4dp</dimen>
+
+    <dimen name="editions_calendar_tile_size">60dp</dimen>
+
+    <!-- Native Paywall Blocker -->
+    <dimen name="native_paywall_heading_width">634dp</dimen>
+    <dimen name="native_paywall_heading_height">175dp</dimen>
+    <dimen name="native_paywall_heading_text_size">61sp</dimen>
+    <dimen name="native_paywall_heading_padding_top">135.82dp</dimen>
+    <dimen name="native_paywall_heading_padding_bottom">48.93dp</dimen>
+    <dimen name="native_paywall_heading_padding_left">72.89dp</dimen>
+    <dimen name="native_paywall_heading_padding_right">81.11dp</dimen>
+
+    <dimen name="native_paywall_product_container_width">313dp</dimen>
+    <dimen name="native_paywall_product_container_height">155dp</dimen>
+    <dimen name="native_paywall_product_container_padding_top">37.25dp</dimen>
+    <dimen name="native_paywall_product_container_padding_bottom">48.93dp</dimen>
+    <dimen name="native_paywall_basic_container_padding_left">64.49dp</dimen>
+    <dimen name="native_paywall_basic_container_padding_right">22dp</dimen>
+    <dimen name="native_paywall_premium_container_padding_left">22dp</dimen>
+    <dimen name="native_paywall_premium_container_padding_right">60.62dp</dimen>
+    
+    <dimen name="native_paywall_product_name_width">277.55dp</dimen>
+    <dimen name="native_paywall_product_name_height">16dp</dimen>
+    <dimen name="native_paywall_product_name_padding_top">9dp</dimen>
+    <dimen name="native_paywall_product_name_padding_bottom">5dp</dimen>
+    <dimen name="native_paywall_product_name_padding_left">19dp</dimen>
+    <dimen name="native_paywall_product_name_padding_right">16.45dp</dimen>
+    <dimen name="native_paywall_product_name_text_size">14sp</dimen>
+
+    <dimen name="native_paywall_product_price_width">277.55dp</dimen>
+    <dimen name="native_paywall_product_price_height">29dp</dimen>
+    <dimen name="native_paywall_product_price_padding_bottom">1.47dp</dimen>
+    <dimen name="native_paywall_product_price_padding_left">19dp</dimen>
+    <dimen name="native_paywall_product_price_padding_right">16.45dp</dimen>
+
+    <dimen name="native_paywall_product_summary_padding_horizontal">64.5dp</dimen>
+    <dimen name="native_paywall_product_summary_padding_bottom">27.53dp</dimen>
+
+    <dimen name="native_paywall_product_summary_premium_width">211dp</dimen>
+
+
+    <dimen name="native_paywall_button_width">304dp</dimen>
+    <dimen name="native_paywall_button_height">40dp</dimen>
+    <dimen name="native_paywall_button_padding_bottom">15.85dp</dimen>
+    <dimen name="native_paywall_button_padding_horizontal">14dp</dimen>
+
+    <dimen name="native_paywall_sign_in_width">648dp</dimen>
+    <dimen name="native_paywall_sign_in_height">34dp</dimen>
+    <dimen name="native_paywall_sign_in_padding_bottom">46dp</dimen>
+    <dimen name="native_paywall_sign_in_padding_left">78dp</dimen>
+    <dimen name="native_paywall_sign_in_padding_right">74dp</dimen>
+
+    <dimen name="native_paywall_fine_print_width">634dp</dimen>
+    <dimen name="native_paywall_fine_print_padding_left">85dp</dimen>
+    <dimen name="native_paywall_fine_print_padding_right">81dp</dimen>
+    <dimen name="native_paywall_image_height">359.75dp</dimen>
+
+    <dimen name="native_paywall_card_margin_left">10dp</dimen>
+    <dimen name="native_paywall_card_margin_right">7dp</dimen>
+    <dimen name="native_paywall_card_margin_top">62dp</dimen>
+
+    <dimen name="native_paywall_blocker_image_height">250dp</dimen>
+    <dimen name="native_paywall_headline">48sp</dimen>
+    <dimen name="native_paywall_primary_label">22sp</dimen>
+    <dimen name="native_paywall_fine_print">14sp</dimen>
+    <dimen name="native_paywall_blocker_center_margin">14dp</dimen>
+    <dimen name="native_paywall_product_offer_height">208dp</dimen>
+    <dimen name="native_paywall_offers_tab_text_size">20sp</dimen>
+
+    <dimen name="menu_header_text_size">22sp</dimen>
+    <dimen name="menu_item_text_size">18sp</dimen>
+
+    <dimen name="phone_menu_item_height">60dp</dimen>
+
+    <!-- Widgets -->
+    <dimen name="widget_header_vertical_padding">12dp</dimen>
+    <dimen name="widget_navigator_padding">4dp</dimen>
+    <dimen name="discover_widget_wp_logo_size">36dp</dimen>
+
+    <!-- AppBar -->
+    <dimen name="expanded_toolbar_title_margin_left">24dp</dimen>
+
+    <!-- AppBar - TabLayout -->
+    <dimen name="tab_layout_tab_content_start">24dp</dimen>
+
+    <!-- Articles Headings -->
+    <dimen name="article_text_h1">24sp</dimen>
+    <dimen name="article_text_h2">24sp</dimen>
+    <dimen name="article_text_h3">24sp</dimen>
+    <dimen name="article_text_h4">21sp</dimen>
+    <dimen name="article_text_h5">18sp</dimen>
+    <dimen name="article_text_h6">18sp</dimen>
+
+    <dimen name="native_article_truncate_expand_text_height">32sp</dimen>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.wapo.view.ProportionalLayout
+        android:id="@+id/proportional_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:visibility="gone"
+            android:layout_gravity="center" />
+
+        <androidx.compose.ui.platform.ComposeView
+            android:id="@+id/placeholder"
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_height="match_parent"/>
+
+        <FrameLayout
+            android:id="@+id/video_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/video_media_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/article_video_description"
+                android:scaleType="centerCrop" />
+
+            <FrameLayout
+                android:id="@+id/video_overlay_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/video_play_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="16dp"
+                    android:src="@drawable/btn_play_large"
+                    android:visibility="gone" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/video_overlay_screen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="32dp"
+                    android:background="@drawable/video_gradient"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="16dp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/play_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_play_article"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <TextView
+                        android:id="@+id/headline"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/wp_franklinitcstd_font_family"
+                        android:maxLines="1"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/play_btn"
+                        app:layout_constraintTop_toTopOf="@+id/play_btn"
+                        app:layout_constraintVertical_bias="0.16000003" />
+
+                    <TextView
+                        android:id="@+id/duration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:drawablePadding="4dp"
+                        android:fontFamily="@font/wp_franklinitcstd_font_family"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        app:layout_constraintStart_toEndOf="@id/play_btn"
+                        app:layout_constraintTop_toBottomOf="@id/headline" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+    </com.wapo.view.ProportionalLayout>
+
+    <TextView
+        android:id="@+id/video_caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>

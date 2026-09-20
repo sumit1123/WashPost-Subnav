@@ -1,0 +1,187 @@
+{
+  "id": "/",
+  "children": [
+    {
+      "id": "/classic-apps/classic-app-top-stories",
+      "type": "section",
+      "path": "/utils/homepageforoldapps/",
+      "path_fusion": "/./",
+      "name": "Top Stories",
+      "nav_name": "Top Stories",
+      "aliases": [
+        "/top-stories/"
+      ]
+    },
+    {
+      "id": "/latest-headlines",
+      "type": "section",
+      "path": "/latest-headlines/",
+      "path_fusion": "/latest-headlines",
+      "name": "Latest From The Post",
+      "nav_name": "Latest",
+      "aliases": [
+        "/latest-headlines"
+      ]
+    },
+    {
+      "id": "/politics",
+      "type": "section",
+      "path": "/politics/",
+      "path_fusion": "/politics",
+      "name": "Politics",
+      "nav_name": "Politics",
+      "aliases": [
+        "/politics",
+        "/politics/post-politics"
+      ]
+    },
+    {
+      "id": "/opinions",
+      "type": "section",
+      "path": "/opinions/",
+      "path_fusion": "/opinions/",
+      "name": "Opinions",
+      "nav_name": "Opinions",
+      "aliases": [
+        "/opinions",
+        "/opinions/plum-line",
+        "/opinions/post-partisan",
+        "/opinions/act-four"
+      ]
+    },
+    {
+      "id": "/style",
+      "type": "section",
+      "path": "/style/",
+      "path_fusion": "/style/",
+      "name": "Style",
+      "nav_name": "Style",
+      "aliases": [
+        "/style",
+        "/lifestyle/style",
+        "/conversations"
+      ]
+    },
+    {
+      "id": "/national/investigations",
+      "type": "section",
+      "path": "/national/investigations/",
+      "path_fusion": "/national/investigations",
+      "name": "Investigations",
+      "nav_name": "Investigations",
+      "aliases": [
+        "/national/investigations"
+      ]
+    },
+    {
+      "id": "/climate-environment",
+      "type": "section",
+      "path": "/climate-environment/",
+      "path_fusion": "/climate-environment",
+      "name": "Climate",
+      "nav_name": "Climate",
+      "aliases": [
+        "/climate-environment"
+      ]
+    },
+    {
+      "id": "/wellbeing",
+      "type": "section",
+      "path": "/wellbeing/",
+      "path_fusion": "/wellbeing",
+      "name": "Well+Being",
+      "nav_name": "Well+Being",
+      "aliases": [
+        "/wellbeing",
+        "/well-being",
+        "/lifestyle/wellness"
+      ]
+    },
+    {
+      "id": "/technology",
+      "type": "section",
+      "path": "/technology/",
+      "path_fusion": "/technology",
+      "name": "Technology",
+      "nav_name": "Tech",
+      "aliases": [
+        "/business/technology",
+        "/technology",
+        "/business/on-it",
+        "/technology/the-switch",
+        "/news/the-switch",
+        "/business/on-it/",
+        "/business/Technology",
+        "/business/techngology"
+      ]
+    },
+    {
+      "id": "/utils/tablet/recipes-app-only-search-bar",
+      "type": "section",
+      "path": "/utils/tablet/recipes-app-only-search-bar/",
+      "path_fusion": "/tablet/recipes-app-only-search-bar/",
+      "name": "Recipes",
+      "nav_name": "Recipes",
+      "aliases": [
+        "/utils/tablet/recipes-app-only-search-bar",
+        "/recipes"
+      ]
+    },
+    {
+      "id": "/lifestyle",
+      "type": "section",
+      "path": "/lifestyle/",
+      "path_fusion": "/lifestyle/",
+      "name": "Lifestyle",
+      "nav_name": "Lifestyle",
+      "aliases": [
+        "/lifestyle"
+      ]
+    },
+    {
+      "id": "/world",
+      "type": "section",
+      "path": "/world/",
+      "path_fusion": "/world",
+      "name": "World",
+      "nav_name": "World",
+      "aliases": [
+        "/world",
+        "/news/worldviews",
+        "/world/worldviews",
+        "/world/world-politics",
+        "/world/war-zones",
+        "/world/olympics",
+        "/world/",
+        "/world/specialreports",
+        "/world/exclude",
+        "/world/war-zones/"
+      ]
+    },
+    {
+      "id": "/local",
+      "type": "section",
+      "path": "/local/",
+      "path_fusion": "/local",
+      "name": "D.C., Md. & Va.",
+      "nav_name": "D.C., Md. & Va.",
+      "aliases": [
+        "/local",
+        "/dc-md-va"
+      ]
+    },
+    {
+      "id": "/sports",
+      "type": "section",
+      "path": "/sports/",
+      "path_fusion": "/sports/",
+      "name": "Sports",
+      "nav_name": "Sports",
+      "aliases": [
+        "/sports",
+        "/sports/early-lead",
+        "/sports/fancy-stats"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+name: Record Play Store Deployment
+
+on:
+  release:
+    types:
+      - published
+
+permissions:
+  contents: read
+
+jobs:
+  record-deployment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout release tag
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name }}
+          fetch-depth: 0
+
+      - name: Get deployed commit SHA
+        id: git
+        run: |
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Report deployment to Datadog
+        env:
+          DD_API_KEY: ${{ secrets.DD_API_KEY }}
+          DD_SITE: datadoghq.com
+        run: |
+          npx --yes @datadog/datadog-ci dora deployment \
+            --service "android-classic" \
+            --env "prod" \
+            --team "native-apps" \
+            --version "${{ github.event.release.tag_name }}" \
+            --started-at "$(date --date="${{ github.event.release.published_at }}" +%s)" \
+            --finished-at "$(date +%s)" \
+            --git-commit-sha "${{ steps.git.outputs.sha }}" \
+            --git-repository-url "${{ github.server_url }}/${{ github.repository }}"

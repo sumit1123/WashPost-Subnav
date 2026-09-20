@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2019. The Washington Post. All rights reserved. -->
+<resources>
+    <string name="tagline">Democracy Dies in Darkness</string>
+    <string name="backstory_label">BACK STORY</string>
+    <string name="label_open">READ</string>
+    <string name="live_blog_live_updates">LIVE UPDATES</string>
+    <string name="live_blog_more_updates">MORE UPDATES</string>
+    <string name="play_button">play button</string>
+    <string name="video_thumbnail">video thumbnail</string>
+    <string name="left_arrow_button">left arrow button</string>
+    <string name="right_arrow_button">right arrow button</string>
+</resources>

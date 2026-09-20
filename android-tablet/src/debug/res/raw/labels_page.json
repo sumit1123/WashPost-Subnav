@@ -1,0 +1,3448 @@
+{
+  "name": "",
+  "layout": "homepage",
+  "outputType": "jsonApp",
+  "tracking": {
+    "page_name": ":",
+    "platform": "pagebuilder",
+    "site": "www.washingtonpost.com",
+    "page_type": "",
+    "section": "",
+    "channel": "wp - ",
+    "subsection": "",
+    "hierarchy": "|",
+    "content_type": "",
+    "story_type": "",
+    "headline": "",
+    "author": "",
+    "source": "",
+    "content_id": "",
+    "page_num": "",
+    "op_ranking": "no sentiment - no ideology",
+    "columnname": "",
+    "blogname": "",
+    "published": "",
+    "news_or_commercial": "News",
+    "commercial_node": "",
+    "commercial_path": "",
+    "content_category": "",
+    "sectionfront": "",
+    "track_scrolling": "false"
+  },
+  "regions": {
+    "top-content": {
+      "location": "top-content",
+      "items": [
+        {
+          "item_type": "page/breaking-news-bar",
+          "label": {
+            "text": "BREAKING: "
+          },
+          "items": [
+            {
+              "link": {
+                "type": "blog",
+                "url": "https://www.washingtonpost.com/news/speaking-of-science/wp/2016/01/20/new-evidence-suggests-a-ninth-planet-lurking-at-the-edge-of-the-solar-system/"
+              },
+              "headline": {
+                "text": "New evidence suggests a ninth planet lurking at the edge of the solar system"
+              },
+              "timestamp": "2016-01-20T15:20:21.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    "main-content": {
+      "location": "main-content",
+      "items": [
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "label_style": "label label-kicker",
+            "text": "Story",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-above",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "media": {
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2016/05/20/Health-Environment-Science/Images/160516nationalmonument03711463781072.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "credits",
+                    "caption": "Give credit due credit cash or credit",
+                    "caption_size": "normal",
+                    "media_type": "featured",
+                    "art_position": "high",
+                    "art_width": 12
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The 87,500 acre area along the east branch of the Penobscot River is designated a national monument, but whether it will ever become a national park is unclear.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis",
+                    "timestamp": "2016-08-24T17:59:05.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Above the fray above board above a persimmon above all none of the above",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-below",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "media": {
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2016/05/20/Health-Environment-Science/Images/160516nationalmonument03711463781072.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "credits",
+                    "caption": "Give credit due credit cash or credit",
+                    "caption_size": "normal",
+                    "media_type": "featured",
+                    "art_position": "below-headline",
+                    "art_width": 12
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The 87,500 acre area along the east branch of the Penobscot River is designated a national monument, but whether it will ever become a national park is unclear.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis",
+                    "timestamp": "2016-08-24T17:59:05.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Below the salt below deck",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-bottom-art",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "media": {
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2016/05/20/Health-Environment-Science/Images/160516nationalmonument03711463781072.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "credits",
+                    "caption": "Give credit due credit cash or credit ",
+                    "caption_size": "normal",
+                    "media_type": "featured",
+                    "art_position": "low",
+                    "art_width": 12
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The 87,500 acre area along the east branch of the Penobscot River is designated a national monument, but whether it will ever become a national park is unclear.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis",
+                    "timestamp": "2016-08-24T17:59:05.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Bottom line rock bottom",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-none",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The 87,500 acre area along the east branch of the Penobscot River is designated a national monument, but whether it will ever become a national park is unclear.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis",
+                    "timestamp": "2016-08-24T17:59:05.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "None the worse bar none none other than don\u0027t bother me none",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-left",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "media": {
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2016/05/20/Health-Environment-Science/Images/160516nationalmonument03711463781072.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "credits",
+                    "caption_size": "normal",
+                    "media_type": "featured",
+                    "art_position": "left",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The 87,500 acre area along the east branch of the Penobscot River is designated a national monument, but whether it will ever become a national park is unclear.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis",
+                    "timestamp": "2016-08-24T17:59:05.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Left on the shelf in the cold in the lurch out of left field left unsaid",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-right",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "media": {
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2016/05/20/Health-Environment-Science/Images/160516nationalmonument03711463781072.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "credits",
+                    "caption_size": "normal",
+                    "media_type": "featured",
+                    "art_position": "right",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The 87,500 acre area along the east branch of the Penobscot River is designated a national monument, but whether it will ever become a national park is unclear.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis",
+                    "timestamp": "2016-08-24T17:59:05.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Right as rain right you are step right up all right already",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-art"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "label_style": "label label-kicker",
+            "text": "Content",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-article",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The 87,500 acre area along the east branch of the Penobscot River is designated a national monument, but whether it will ever become a national park is unclear.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis",
+                    "timestamp": "2016-08-24T17:59:05.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Article",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-gallery",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "gallery",
+                    "last_modified": "2015-12-19T20:36:51.000Z",
+                    "url": "https://www.washingtonpost.com/lifestyle/discover-the-winners-in-the-comedy-wildlife-photography-awards/2015/12/19/77ff2f66-a5a7-11e5-9c4e-be37f66848bb_gallery.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2015/12/18/Style/Images/WINNER-Julian-Rad1450470244.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "credits",
+                    "caption": "(Photo by Julian Rad/Comedy Wildlife Photography Awards)",
+                    "caption_size": "normal",
+                    "media_type": "featured",
+                    "art_position": "right",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The competition asked entrants to pair funny pictures of animals with clever captions.",
+                  "signature": {
+                    "timestamp": "2015-12-19T17:31:20.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Gallery",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "lifestyle",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-video",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "video",
+                    "last_modified": "2016-06-09T01:59:44.000Z",
+                    "url": "https://www.washingtonpost.com/video/world/flock-of-sheep-wander-spanish-city-after-shepherd-dozes-off/2016/06/08/63597a9a-2de1-11e6-b9d5-3c3063f8332c_video.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/06/09/Foreign/Videos/Images/sheep_167_x_296.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "",
+                    "caption_size": "normal",
+                    "media_type": "featured",
+                    "art_position": "right",
+                    "art_width": 4
+                  },
+                  "source": "Policia Local Huesca",
+                  "blurb": "A flock of over 1,000 sheep wandered away from their shepherd in Huesca after he fell asleep. Police later found the shepherd and helped guide the flock out of the city shortly after.",
+                  "signature": {
+                    "timestamp": "2016-06-09T01:12:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Video",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "world",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-web",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2015-01-13T18:02:00.000Z",
+                    "url": "https://www.washingtonpost.com/news/wonk/wp/2015/01/12/map-literally-every-goat-in-the-united-states/"
+                  },
+                  "blurb": "This may not be the World\u0027s Most Important Map. But consider this: you might say that goats are having a moment.",
+                  "signature": {
+                    "by_line": "Christopher Ingraham"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Web",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-types"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "label_style": "label label-kicker",
+            "text": "Cards",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "widths": {
+                "x-small": 12,
+                "small": 6,
+                "medium": 4,
+                "large": 3,
+                "x-large": 3
+              },
+              "item_template_name": "card-section",
+              "feature_name": "card-1",
+              "item_type": "homepage/card",
+              "label": {
+                "text": "Lifestyle"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-13T22:27:51.000Z",
+                    "url": "https://www.washingtonpost.com/lifestyle/style/trump-continues-pattern-of-calling-on-reporters-from-conservative-media/2017/02/13/d6e3581a-f225-11e6-8d72-263470bf0401_story.html"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/02/13/Style/Images/05791632.jpg"
+                  },
+                  "headline": {
+                    "text": "Trump continues pattern of calling on reporters from conservative media"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-12T18:18:25.000Z",
+                    "url": "https://www.washingtonpost.com/lifestyle/style/ask-amy-security-system-reveals-neighbors-habit/2017/02/12/28539930-e970-11e6-b82f-687d6e6a3e7c_story.html"
+                  },
+                  "headline": {
+                    "text": "Ask Amy: Security system reveals neighbor’s habit"
+                  },
+                  "sub_item_type": "secondary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 12,
+                "small": 6,
+                "medium": 4,
+                "large": 3,
+                "x-large": 3
+              },
+              "item_template_name": "card-section",
+              "feature_name": "card-2",
+              "item_type": "homepage/card",
+              "label": {
+                "text": "World"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-13T23:59:59.000Z",
+                    "url": "https://www.washingtonpost.com/world/europe/ukraine-turns-a-blind-eye-to-ultrarightist-militia/2017/02/12/dbf9ea3c-ecab-11e6-b4ff-ac2cf509efe5_story.html"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/02/08/Foreign/Images/RTSSBFF.jpg"
+                  },
+                  "headline": {
+                    "text": "Ukraine turns a blind eye to ultrarightist militia"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-14T04:44:12.000Z",
+                    "url": "https://www.washingtonpost.com/world/national-security/michael-flynn-resigns-as-national-security-adviser/2017/02/13/0007c0a8-f26e-11e6-8d72-263470bf0401_story.html"
+                  },
+                  "headline": {
+                    "text": "Michael Flynn resigns as national security adviser"
+                  },
+                  "sub_item_type": "secondary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 12,
+                "small": 6,
+                "medium": 4,
+                "large": 3,
+                "x-large": 3
+              },
+              "item_template_name": "card-section",
+              "feature_name": "card-3",
+              "item_type": "homepage/card",
+              "label": {
+                "text": "Technology"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-02-13T19:44:16.000Z",
+                    "url": "https://www.washingtonpost.com/news/the-switch/wp/2017/02/13/the-1000-iphone-and-other-rumors-about-apples-next-smartphone/"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/Wires/Images/2016-09-28/Getty/586113570.jpg"
+                  },
+                  "headline": {
+                    "text": "The $1,000 iPhone and other rumors about Apple’s next smartphone"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-02-13T17:32:26.000Z",
+                    "url": "https://www.washingtonpost.com/news/the-switch/wp/2017/02/13/verizon-is-launching-a-new-unlimited-data-plan-here-are-the-details/"
+                  },
+                  "headline": {
+                    "text": "Verizon is launching a new unlimited data plan. Here are the details."
+                  },
+                  "sub_item_type": "secondary"
+                }
+              ]
+            },
+            {
+              "widths": {
+                "x-small": 12,
+                "small": 6,
+                "medium": 4,
+                "large": 3,
+                "x-large": 3
+              },
+              "item_template_name": "card-section",
+              "feature_name": "card-4",
+              "item_type": "homepage/card",
+              "label": {
+                "text": "Arts"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-14T01:44:09.000Z",
+                    "url": "https://www.washingtonpost.com/entertainment/music/washingtons-week-with-joshua-bell-revealed-little-that-we-didnt-already-know/2017/02/13/708c80f8-f213-11e6-8873-a962f11835fb_story.html"
+                  },
+                  "media": {
+                    "media_type": "featured",
+                    "width": 1248,
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/02/13/Style/Images/joshbellnew.jpg"
+                  },
+                  "headline": {
+                    "text": "Washington’s week with Joshua Bell revealed little that we didn’t already know"
+                  },
+                  "sub_item_type": "primary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-13T22:24:57.000Z",
+                    "url": "https://www.washingtonpost.com/entertainment/theater_dance/the-white-gloves-come-off-in-the-creaky-and-yet-timely-watch-on-the-rhine/2017/02/13/67d42508-f171-11e6-b9c9-e83fce42fb61_story.html"
+                  },
+                  "headline": {
+                    "text": "The white gloves come off in the creaky and yet timely ‘Watch on the Rhine’"
+                  },
+                  "sub_item_type": "secondary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-cards"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "label_style": "label label-kicker",
+            "text": "Live Images",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "map-test2",
+              "component_on_app": "screenshot-only",
+              "item_type": "elections-2016/general-staging",
+              "items": [
+                {
+                  "link": {
+                    "type": "web",
+                    "url": "https://www.washingtonpost.com/2016-election-results/us-presidential-race/"
+                  },
+                  "screenshot_info": {
+                    "screenshot_type": "screenshot-only",
+                    "screenshots": [
+                      {
+                        "image_urls": [
+                          "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-head-to-head-president@sm.png",
+                          "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-president-states/00@sm.png"
+                        ],
+                        "text": "President"
+                      },
+                      {
+                        "image_urls": [
+                          "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-head-to-head-senate@sm.png",
+                          "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-senate-states/00@sm.png"
+                        ],
+                        "text": "Senate"
+                      },
+                      {
+                        "image_urls": [
+                          "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-head-to-head-house@sm.png",
+                          "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-house-districts/00@sm.png"
+                        ],
+                        "text": "House"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "map-predictions",
+              "component_on_app": "screenshot-only",
+              "item_type": "elections-2016/general-staging",
+              "items": [
+                {
+                  "screenshot_info": {
+                    "screenshot_type": "screenshot-only",
+                    "screenshots": [
+                      {
+                        "image_urls": [
+                          "https://dohdeick6sqa6.cloudfront.net/screenshots/production/head-to-head-president@sm.png",
+                          "https://dohdeick6sqa6.cloudfront.net/screenshots/production/expected-president/00@sm.png"
+                        ],
+                        "text": "Predictions by The Fix"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "map-text-only",
+              "component_on_app": "text-only",
+              "item_type": "elections-2016/general-staging",
+              "items": [
+                {
+                  "media": {
+                    "url": "",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "width": 1248
+                  }
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-maps"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "label_style": "label label-kicker",
+            "text": "Widths",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-12",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The 87,500 acre area along the east branch of the Penobscot River is designated a national monument, but whether it will ever become a national park is unclear.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Twelve",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-11",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The 87,500 acre area along the east branch of the Penobscot River is designated a national monument, but whether it will ever become a national park is unclear.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Eleven",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-10",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The 87,500 acre area along the east branch of the Penobscot River is designated a national monument, but whether it will ever become a national park is unclear.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Ten",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-9",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The 87,500 acre area along the east branch of the Penobscot River is designated a national monument, but whether it will ever become a national park is unclear.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Nine",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-8",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The 87,500 acre area along the east branch of the Penobscot River is designated a national monument, but whether it will ever become a national park is unclear.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Eight",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-7",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The 87,500 acre area along the east branch of the Penobscot River is designated a national monument, but whether it will ever become a national park is unclear.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Seven",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-6",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The 87,500 acre area along the east branch of the Penobscot River is designated a national monument, but whether it will ever become a national park is unclear.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Six",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-5",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The 87,500 acre area along the east branch of the Penobscot River is designated a national monument, but whether it will ever become a national park is unclear.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Five",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-4",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The area is designated a national monument, but whether it will ever become a national park is unclear.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Four",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-3",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The area is designated a national monument.",
+                  "signature": {
+                    "by_line": "By Juliet Eilperin and Brady Dennis"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Three",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-2",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The area is a monument.",
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Two",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-1",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-08-24T20:42:48.000Z",
+                    "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/08/24/obama-creates-what-could-be-the-last-large-national-park-site-on-the-east-coast-in-maine/"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Monument",
+                  "headline": {
+                    "size": "x-small",
+                    "text": "One",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "cell-widths"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "label_style": "label label-kicker",
+            "text": "Label Types",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "no-label",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "normal-label",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Normal Left",
+                "label_style": "label label-normal"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "light-label",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Light Left",
+                "label_style": "label label-light"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "label-light-small",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Light Small Left",
+                "label_style": "label label-light label-small"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "normal-small-label",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Normal Small Left",
+                "label_style": "label label-normal label-small"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "button-background-label",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Button Left",
+                "label_style": "label label-btn label-with-background",
+                "has_background": true,
+                "background_color": "#D8070E",
+                "text_color": "#FFFFFF"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "bar-background-label",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Bar Left",
+                "label_style": "label label-bar label-with-background",
+                "has_background": true,
+                "background_color": "#D8070E",
+                "text_color": "#FFFFFF",
+                "is_bar": true
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "kicker-label",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Kicker Left",
+                "label_style": "label label-kicker"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "highlight-label",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Highlight Left",
+                "label_style": "label label-highlight"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "centered-normal-label",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Normal Center",
+                "label_style": "label label-normal",
+                "label_alignment": "center"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "centered-light-label-feature",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Light Center",
+                "label_style": "label label-light",
+                "label_alignment": "center"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "centered-normal-small-label-feature",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Normal Small Center",
+                "label_style": "label label-normal label-small",
+                "label_alignment": "center"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "centered-light-small-label-feature",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Light Small Center",
+                "label_style": "label label-light label-small",
+                "label_alignment": "center"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "centered-button-w-back-label-feature",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Button Center",
+                "label_style": "label label-btn label-with-background",
+                "has_background": true,
+                "background_color": "#D8070E",
+                "text_color": "#FFFFFF",
+                "label_alignment": "center"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "centered-bar-w-back-label-feature-duplicate",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Bar Center",
+                "label_style": "label label-bar label-with-background",
+                "has_background": true,
+                "background_color": "#D8070E",
+                "text_color": "#FFFFFF",
+                "is_bar": true,
+                "label_alignment": "center"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "centered-kicker-label-feature",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Kicker Center",
+                "label_style": "label label-kicker",
+                "label_alignment": "center"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "centered-hightlight-label-feature",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Highlight Center",
+                "label_style": "label label-highlight",
+                "label_alignment": "center"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-feature-labels"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "label_style": "label label-kicker",
+            "text": "Secondary Label Types",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "normal-label-light-secondary",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Normal Left",
+                "secondary_text": "Light Secondary",
+                "secondary_style": "label label-light",
+                "label_style": "label label-normal"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "normal-small-label-light-small-secondary",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Normal Small Left",
+                "secondary_text": "Light Small Secondary",
+                "secondary_style": "label label-light label-small",
+                "label_style": "label label-normal label-small"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "button-label-normal-secondary",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Button Left",
+                "secondary_text": "Normal Secondary",
+                "secondary_style": "label label-normal",
+                "label_style": "label label-btn label-with-background",
+                "has_background": true,
+                "background_color": "#D8070E",
+                "text_color": "#FFFFFF"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "bar-label-normal-secondary",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Bar Left",
+                "secondary_style": "label label-normal",
+                "label_style": "label label-bar label-with-background",
+                "has_background": true,
+                "background_color": "#D8070E",
+                "text_color": "#FFFFFF",
+                "is_bar": true
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "kicker-label-light-small-secondary",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Kicker Left",
+                "secondary_text": "Light Small Secondary",
+                "secondary_style": "label label-light label-small",
+                "label_style": "label label-kicker"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "highlight-label-normal-small-secondary",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Highlight Left",
+                "secondary_text": "Normal Small Secondary",
+                "secondary_style": "label label-normal label-small",
+                "label_style": "label label-highlight"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "centered-normal-label-secondary-light",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Normal Center",
+                "secondary_text": "Secondary light",
+                "secondary_style": "label label-light",
+                "label_style": "label label-normal",
+                "label_alignment": "center"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "centered-light-light-small-secondary",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Normal Small Center",
+                "secondary_text": "Secondary Light Small",
+                "secondary_style": "label label-light label-small",
+                "label_style": "label label-normal label-small",
+                "label_alignment": "center"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "center-button-light-secondary",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "button",
+                "secondary_text": "Secondary Light",
+                "secondary_style": "label label-light",
+                "label_style": "label label-btn label-with-background",
+                "has_background": true,
+                "background_color": "#D8070E",
+                "text_color": "#FFFFFF",
+                "label_alignment": "center"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "center-kicker-light-small-second",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "kicker",
+                "secondary_text": "Secondary Light small",
+                "secondary_style": "label label-light label-small",
+                "label_style": "label label-kicker",
+                "label_alignment": "center"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "none",
+              "border_bottom_width": "100-pct",
+              "feature_name": "center-highlight-light-small-second",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "highlight",
+                "secondary_text": "Secondary Light small",
+                "secondary_style": "label label-light label-small",
+                "label_style": "label label-highlight",
+                "label_alignment": "center"
+              },
+              "items": [
+                {
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-feature-secondary-labels"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "secondary_style": "label label-light",
+            "secondary_text": "Secondary light",
+            "label_style": "label label-normal",
+            "text": "Chain normal w sec",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-02T01:38:21.000Z",
+                    "url": "https://www.washingtonpost.com/powerpost/republicans-ram-through-committee-approval-of-trump-cabinet-nominees/2017/02/01/aa2b5458-e87f-11e6-b82f-687d6e6a3e7c_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/01/31/Others/Images/2017-01-31/j_hatch_grassley-002.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Steve Mnuchin and Rep. Tom Price were approved by the Senate Finance Committee without Democrats even there.",
+                  "signature": {
+                    "by_line": "By Kelsey Snell, David Weigel and Ed O\u0027Keefe",
+                    "timestamp": "2017-02-02T00:22:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Republicans aggressively push approval of Trump Cabinet nominees",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "powerpost",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-normal-left-with-secondary"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "has_background": "true",
+            "secondary_style": "label label-normal",
+            "background_color": "",
+            "secondary_text": "Secondary normal",
+            "label_style": "label label-btn label-with-background",
+            "text": "Chain button w sec",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-02T01:38:21.000Z",
+                    "url": "https://www.washingtonpost.com/powerpost/republicans-ram-through-committee-approval-of-trump-cabinet-nominees/2017/02/01/aa2b5458-e87f-11e6-b82f-687d6e6a3e7c_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/01/31/Others/Images/2017-01-31/j_hatch_grassley-002.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Steve Mnuchin and Rep. Tom Price were approved by the Senate Finance Committee without Democrats even there.",
+                  "signature": {
+                    "by_line": "By Kelsey Snell, David Weigel and Ed O\u0027Keefe",
+                    "timestamp": "2017-02-02T00:22:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Republicans aggressively push approval of Trump Cabinet nominees",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "powerpost",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-button-left-with-secondary"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "has_background": "true",
+            "secondary_style": "label label-light",
+            "background_color": "",
+            "secondary_text": "Secondary label light",
+            "label_style": "label label-btn label-with-background",
+            "text": "chain button center",
+            "label_alignment": "center"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-02T01:38:21.000Z",
+                    "url": "https://www.washingtonpost.com/powerpost/republicans-ram-through-committee-approval-of-trump-cabinet-nominees/2017/02/01/aa2b5458-e87f-11e6-b82f-687d6e6a3e7c_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/01/31/Others/Images/2017-01-31/j_hatch_grassley-002.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Steve Mnuchin and Rep. Tom Price were approved by the Senate Finance Committee without Democrats even there.",
+                  "signature": {
+                    "by_line": "By Kelsey Snell, David Weigel and Ed O\u0027Keefe",
+                    "timestamp": "2017-02-02T00:22:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Republicans aggressively push approval of Trump Cabinet nominees",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "powerpost",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-button-centered-with-secondary"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "has_background": "true",
+            "is_bar": "true",
+            "background_color": "",
+            "label_style": "label label-bar label-with-background",
+            "text": "Chain bar left",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-02T01:38:21.000Z",
+                    "url": "https://www.washingtonpost.com/powerpost/republicans-ram-through-committee-approval-of-trump-cabinet-nominees/2017/02/01/aa2b5458-e87f-11e6-b82f-687d6e6a3e7c_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/01/31/Others/Images/2017-01-31/j_hatch_grassley-002.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Steve Mnuchin and Rep. Tom Price were approved by the Senate Finance Committee without Democrats even there.",
+                  "signature": {
+                    "by_line": "By Kelsey Snell, David Weigel and Ed O\u0027Keefe",
+                    "timestamp": "2017-02-02T00:22:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Republicans aggressively push approval of Trump Cabinet nominees",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "powerpost",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-bar-left"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "has_background": "true",
+            "is_bar": "true",
+            "background_color": "",
+            "label_style": "label label-bar label-with-background",
+            "text": "Chain bar centered",
+            "label_alignment": "center"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-02T01:38:21.000Z",
+                    "url": "https://www.washingtonpost.com/powerpost/republicans-ram-through-committee-approval-of-trump-cabinet-nominees/2017/02/01/aa2b5458-e87f-11e6-b82f-687d6e6a3e7c_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/01/31/Others/Images/2017-01-31/j_hatch_grassley-002.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Steve Mnuchin and Rep. Tom Price were approved by the Senate Finance Committee without Democrats even there.",
+                  "signature": {
+                    "by_line": "By Kelsey Snell, David Weigel and Ed O\u0027Keefe",
+                    "timestamp": "2017-02-02T00:22:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Republicans aggressively push approval of Trump Cabinet nominees",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "powerpost",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-bar-centered"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "secondary_style": "label label-light",
+            "secondary_text": "Secondary label light",
+            "label_style": "label label-kicker",
+            "text": "chain kicker w/ sec",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-02T01:38:21.000Z",
+                    "url": "https://www.washingtonpost.com/powerpost/republicans-ram-through-committee-approval-of-trump-cabinet-nominees/2017/02/01/aa2b5458-e87f-11e6-b82f-687d6e6a3e7c_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/01/31/Others/Images/2017-01-31/j_hatch_grassley-002.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Steve Mnuchin and Rep. Tom Price were approved by the Senate Finance Committee without Democrats even there.",
+                  "signature": {
+                    "by_line": "By Kelsey Snell, David Weigel and Ed O\u0027Keefe",
+                    "timestamp": "2017-02-02T00:22:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Republicans aggressively push approval of Trump Cabinet nominees",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "powerpost",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-kicker-left-with-secondary"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "secondary_style": "label label-normal",
+            "secondary_text": "Secondary normal",
+            "label_style": "label label-kicker",
+            "text": "chain kicker center",
+            "label_alignment": "center"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-02T01:38:21.000Z",
+                    "url": "https://www.washingtonpost.com/powerpost/republicans-ram-through-committee-approval-of-trump-cabinet-nominees/2017/02/01/aa2b5458-e87f-11e6-b82f-687d6e6a3e7c_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/01/31/Others/Images/2017-01-31/j_hatch_grassley-002.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Steve Mnuchin and Rep. Tom Price were approved by the Senate Finance Committee without Democrats even there.",
+                  "signature": {
+                    "by_line": "By Kelsey Snell, David Weigel and Ed O\u0027Keefe",
+                    "timestamp": "2017-02-02T00:22:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Republicans aggressively push approval of Trump Cabinet nominees",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "powerpost",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-kicker-center-with-secondary"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "secondary_style": "label label-light",
+            "secondary_text": "Secondary light",
+            "label_style": "label label-highlight",
+            "text": "Chain highlight left w/ sec",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-02T01:38:21.000Z",
+                    "url": "https://www.washingtonpost.com/powerpost/republicans-ram-through-committee-approval-of-trump-cabinet-nominees/2017/02/01/aa2b5458-e87f-11e6-b82f-687d6e6a3e7c_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/01/31/Others/Images/2017-01-31/j_hatch_grassley-002.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Steve Mnuchin and Rep. Tom Price were approved by the Senate Finance Committee without Democrats even there.",
+                  "signature": {
+                    "by_line": "By Kelsey Snell, David Weigel and Ed O\u0027Keefe",
+                    "timestamp": "2017-02-02T00:22:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Republicans aggressively push approval of Trump Cabinet nominees",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "powerpost",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-highlight-left-with-secondary"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "secondary_style": "label label-normal",
+            "secondary_text": "Secondary normal",
+            "label_style": "label label-highlight",
+            "text": "Chain highlight center w/ sec",
+            "label_alignment": "center"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-02T01:38:21.000Z",
+                    "url": "https://www.washingtonpost.com/powerpost/republicans-ram-through-committee-approval-of-trump-cabinet-nominees/2017/02/01/aa2b5458-e87f-11e6-b82f-687d6e6a3e7c_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/01/31/Others/Images/2017-01-31/j_hatch_grassley-002.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Steve Mnuchin and Rep. Tom Price were approved by the Senate Finance Committee without Democrats even there.",
+                  "signature": {
+                    "by_line": "By Kelsey Snell, David Weigel and Ed O\u0027Keefe",
+                    "timestamp": "2017-02-02T00:22:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Republicans aggressively push approval of Trump Cabinet nominees",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "powerpost",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-highlight-center-with-secondary"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "label_style": "label label-kicker",
+            "text": "Future formats",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "border_bottom_style": "thick",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-centered-text-only",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-11-25T14:13:13.000Z",
+                    "url": "https://www.washingtonpost.com/news/wonk/wp/2016/11/22/who-exactly-is-the-white-working-class-and-what-do-they-believe-good-questions/"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Centered hed applies to headline only -- there\u0027s a separate checkbox for the rest of the text under \"Deocration.\" This blurb has a thick bottom border.",
+                  "signature": {
+                    "by_line": "By Max Ehrenfreund and Jeff Guo",
+                    "timestamp": "2016-11-23T15:42:58.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Center hed only, thick line",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "40-pct",
+              "feature_name": "story-centered-hed-bottom-border-duplicate",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-11-25T14:13:13.000Z",
+                    "url": "https://www.washingtonpost.com/news/wonk/wp/2016/11/22/who-exactly-is-the-white-working-class-and-what-do-they-believe-good-questions/"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Centered hed + centered text alignment (blurb, byline and timestamp) under \"Decoration.\" The bottom hairline here is at 40% width (it doesn\u0027t stretch all the way across).",
+                  "signature": {
+                    "by_line": "By Max Ehrenfreund and Jeff Guo",
+                    "timestamp": "2016-11-23T15:42:58.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Center all text, 40% line",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-bottom",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-11-25T14:13:13.000Z",
+                    "url": "https://www.washingtonpost.com/news/wonk/wp/2016/11/22/who-exactly-is-the-white-working-class-and-what-do-they-believe-good-questions/"
+                  },
+                  "media": {
+                    "url": "http://www.washingtonpost.com/blogs/wonkblog/files/2015/10/Trump-man-standing.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Art on bottom Art on bottom Art on bottom Art on bottom Art on bottom Art on bottom Art on bottom Art on bottom Art on bottom",
+                  "signature": {
+                    "by_line": "By Max Ehrenfreund and Jeff Guo",
+                    "timestamp": "2016-11-23T15:42:58.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Bottom",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-left-of-blurb",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-11-25T14:13:13.000Z",
+                    "url": "https://www.washingtonpost.com/news/wonk/wp/2016/11/22/who-exactly-is-the-white-working-class-and-what-do-they-believe-good-questions/"
+                  },
+                  "media": {
+                    "url": "http://www.washingtonpost.com/blogs/wonkblog/files/2015/10/Trump-man-standing.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Art to the left of the blurb and under the headline, and the blurb wraps underneath the art like this and this and this and this and this.",
+                  "signature": {
+                    "by_line": "By Max Ehrenfreund and Jeff Guo",
+                    "timestamp": "2016-11-23T15:42:58.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Left of blurb goes here and here and here",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-right-of-blurb",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-11-25T14:13:13.000Z",
+                    "url": "https://www.washingtonpost.com/news/wonk/wp/2016/11/22/who-exactly-is-the-white-working-class-and-what-do-they-believe-good-questions/"
+                  },
+                  "media": {
+                    "url": "http://www.washingtonpost.com/blogs/wonkblog/files/2015/10/Trump-man-standing.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Art to the right of the blurb and under the headline, and the blurb wraps underneath the art like this and this and this and this and this.",
+                  "signature": {
+                    "by_line": "By Max Ehrenfreund and Jeff Guo",
+                    "timestamp": "2016-11-23T15:42:58.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Right of blurb goes here and here and here",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-text-does-not-wrap",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-11-25T14:13:13.000Z",
+                    "url": "https://www.washingtonpost.com/news/wonk/wp/2016/11/22/who-exactly-is-the-white-working-class-and-what-do-they-believe-good-questions/"
+                  },
+                  "media": {
+                    "url": "http://www.washingtonpost.com/blogs/wonkblog/files/2015/10/Trump-man-standing.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Text does not wrap around art. Text does not wrap around art. Text does not wrap around art. Text does not wrap around art.",
+                  "signature": {
+                    "by_line": "By Max Ehrenfreund and Jeff Guo",
+                    "timestamp": "2016-11-23T15:42:58.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Text does not wrap",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-text-wraps",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-11-25T14:13:13.000Z",
+                    "url": "https://www.washingtonpost.com/news/wonk/wp/2016/11/22/who-exactly-is-the-white-working-class-and-what-do-they-believe-good-questions/"
+                  },
+                  "media": {
+                    "url": "http://www.washingtonpost.com/blogs/wonkblog/files/2015/10/Trump-man-standing.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Blurb wraps around art. Blurb wraps around art. Blurb wraps around art. Blurb wraps around art. Blurb wraps around art.",
+                  "signature": {
+                    "by_line": "By Max Ehrenfreund and Jeff Guo",
+                    "timestamp": "2016-11-23T15:42:58.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Text wraps and wraps and wraps",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-art-overlay-text",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-11-25T14:13:13.000Z",
+                    "url": "https://www.washingtonpost.com/news/wonk/wp/2016/11/22/who-exactly-is-the-white-working-class-and-what-do-they-believe-good-questions/"
+                  },
+                  "media": {
+                    "url": "http://www.washingtonpost.com/blogs/wonkblog/files/2015/10/Trump-man-standing.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "We use the art overlay on top of the photo when the art has a different link from the headline (i.e. a gallery that goes with a story). We use the art overlay text in a bullet-style field under the byline when the image is too small, or when the feature links to a standalone piece of art (like Visual Stories).",
+                  "signature": {
+                    "by_line": "By Max Ehrenfreund and Jeff Guo",
+                    "timestamp": "2016-11-23T15:42:58.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Art overlay text (in two places)",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-aspect-ratio-1-1",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-11-25T14:13:13.000Z",
+                    "url": "https://www.washingtonpost.com/news/wonk/wp/2016/11/22/who-exactly-is-the-white-working-class-and-what-do-they-believe-good-questions/"
+                  },
+                  "media": {
+                    "url": "http://www.washingtonpost.com/blogs/wonkblog/files/2015/10/Trump-man-standing.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "square photos are for instagram",
+                  "signature": {
+                    "by_line": "By Max Ehrenfreund and Jeff Guo",
+                    "timestamp": "2016-11-23T15:42:58.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Art aspect ratio 1:1",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "story-aspect-ratio-1-1-duplicate",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2016-11-25T14:13:13.000Z",
+                    "url": "https://www.washingtonpost.com/news/wonk/wp/2016/11/22/who-exactly-is-the-white-working-class-and-what-do-they-believe-good-questions/"
+                  },
+                  "media": {
+                    "url": "http://www.washingtonpost.com/blogs/wonkblog/files/2015/10/Trump-man-standing.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "This is for your Facebook cover image",
+                  "signature": {
+                    "by_line": "By Max Ehrenfreund and Jeff Guo",
+                    "timestamp": "2016-11-23T15:42:58.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Art aspect ratio 16:9",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "business",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "future-formats"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "red-button-label",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "label",
+                "label_style": "label label-btn label-with-background",
+                "has_background": true,
+                "background_color": "#D8070E",
+                "text_color": "#FFFFFF"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2016-11-20T14:00:40.000Z",
+                    "url": "https://www.washingtonpost.com/local/beautiful-day-on-saturday-quickly-succumbed-to-winters-grasp/2016/11/19/d1babd38-aebe-11e6-a31b-4b6397e625d0_story.html"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Only the crackle of fallen leaves betrayed the true time of year",
+                  "signature": {
+                    "by_line": "By Martin Weil",
+                    "timestamp": "2016-11-20T02:23:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Red button label",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "black-button-label",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "label",
+                "label_style": "label label-btn label-with-background",
+                "has_background": true,
+                "background_color": "#000000",
+                "text_color": "#FFFFFF"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2016-11-20T14:00:40.000Z",
+                    "url": "https://www.washingtonpost.com/local/beautiful-day-on-saturday-quickly-succumbed-to-winters-grasp/2016/11/19/d1babd38-aebe-11e6-a31b-4b6397e625d0_story.html"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Only the crackle of fallen leaves betrayed the true time of year",
+                  "signature": {
+                    "by_line": "By Martin Weil",
+                    "timestamp": "2016-11-20T02:23:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Black button label",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "black-bar-label",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Black bar label",
+                "label_style": "label label-bar label-with-background",
+                "has_background": true,
+                "background_color": "#000000",
+                "text_color": "#FFFFFF",
+                "is_bar": true
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2016-11-20T14:00:40.000Z",
+                    "url": "https://www.washingtonpost.com/local/beautiful-day-on-saturday-quickly-succumbed-to-winters-grasp/2016/11/19/d1babd38-aebe-11e6-a31b-4b6397e625d0_story.html"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Only the crackle of fallen leaves betrayed the true time of year, making Washington residents aware that Saturday would not soon be followed by summer.",
+                  "signature": {
+                    "by_line": "By Martin Weil",
+                    "timestamp": "2016-11-20T02:23:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Black bar label",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "red-bar-label",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Red bar label",
+                "label_style": "label label-bar label-with-background",
+                "has_background": true,
+                "background_color": "#D8070E",
+                "text_color": "#FFFFFF",
+                "is_bar": true
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2016-11-20T14:00:40.000Z",
+                    "url": "https://www.washingtonpost.com/local/beautiful-day-on-saturday-quickly-succumbed-to-winters-grasp/2016/11/19/d1babd38-aebe-11e6-a31b-4b6397e625d0_story.html"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Only the crackle of fallen leaves betrayed the true time of year, making Washington residents aware that Saturday would not soon be followed by summer.",
+                  "signature": {
+                    "by_line": "By Martin Weil",
+                    "timestamp": "2016-11-20T02:23:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Red bar label",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "label-above-photo",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "label above photo",
+                "label_style": "label label-normal"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2016-11-23T04:00:56.000Z",
+                    "url": "https://www.washingtonpost.com/sports/michal-cekovsky-makes-presence-felt-in-return-as-maryland-rolls-stony-brook/2016/11/22/43ef2dc4-b0e2-11e6-840f-e3ebab6bcdd3_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/11/23/Production/Daily/Sports/Images/Stony_Brook_Maryland_Basketball-ad580.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "This is currently the default label position. We\u0027d prefer label above hed (below photo) as the default.",
+                  "signature": {
+                    "by_line": "By Roman Stubbs",
+                    "timestamp": "2016-11-23T02:56:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Label above photo",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "sports",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "label-below-photo-above-hed",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "label below photo",
+                "label_style": "label label-normal"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2016-11-23T04:00:56.000Z",
+                    "url": "https://www.washingtonpost.com/sports/michal-cekovsky-makes-presence-felt-in-return-as-maryland-rolls-stony-brook/2016/11/22/43ef2dc4-b0e2-11e6-840f-e3ebab6bcdd3_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/11/23/Production/Daily/Sports/Images/Stony_Brook_Maryland_Basketball-ad580.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "We would prefer this label position to be the default.",
+                  "signature": {
+                    "by_line": "By Roman Stubbs",
+                    "timestamp": "2016-11-23T02:56:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Label below photo",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "sports",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "columnist-label",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "Marty Weil",
+                "secondary_text": "Columnist",
+                "secondary_style": "label label-light label-small",
+                "label_style": "label label-normal label-small"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2016-11-20T14:00:40.000Z",
+                    "url": "https://www.washingtonpost.com/local/beautiful-day-on-saturday-quickly-succumbed-to-winters-grasp/2016/11/19/d1babd38-aebe-11e6-a31b-4b6397e625d0_story.html"
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "No byline. Author name goes in the main \"Label\" field, style \"Normal but small.\" Editors add a \"Columnist\" designation in the secondary label field, style \"Light but small.\"",
+                  "signature": {
+                    "timestamp": "2016-11-20T02:23:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Columnist label",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "stream-label",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "label": {
+                "text": "This label should go above the headline, not above the photo, as a default",
+                "label_style": "label label-normal"
+              },
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2016-12-14T16:23:08.000Z",
+                    "url": "https://www.washingtonpost.com/politics/trump-wasnt-happy-with-his-state-department-finalists-then-he-heard-a-new-name/2016/12/13/0727658e-c161-11e6-8422-eac61c0ef74d_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/12/14/National-Politics/Images/2016-12-10T091844Z_01_SIN10_RTRIDSP_3_USA-TRUMP-TILLERSON.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The surprise choice of Rex Tillerson shows the unorthodox leadership style of a president-elect who has never worked in government.",
+                  "signature": {
+                    "by_line": "By Michael Kranish, Anne Gearan, Dan Balz and Philip Rucker",
+                    "timestamp": "2016-12-14T00:50:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Stream format label",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "politics",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-labels"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "label_style": "label label-kicker",
+            "text": "Bullet types",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "bullets-under-blurb",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2016-11-23T03:49:19.000Z",
+                    "url": "https://www.washingtonpost.com/politics/welcome-to-washingtons-new-normal-one-trump-drama-after-another/2016/11/22/dee740ea-b0ca-11e6-840f-e3ebab6bcdd3_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/11/22/National-Politics/Images/05642706.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "This feature has two bullets appended (\"Related links\").",
+                  "signature": {
+                    "by_line": "By Philip Rucker and Marc Fisher",
+                    "timestamp": "2016-11-22T23:30:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Bullets under story",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "politics",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "bullets-within-blurb",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2016-11-23T03:49:19.000Z",
+                    "url": "https://www.washingtonpost.com/politics/welcome-to-washingtons-new-normal-one-trump-drama-after-another/2016/11/22/dee740ea-b0ca-11e6-840f-e3ebab6bcdd3_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/11/22/National-Politics/Images/05642706.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Bullet 1 of 3: Throughout his life,",
+                  "signature": {
+                    "by_line": "By Philip Rucker and Marc Fisher",
+                    "timestamp": "2016-11-22T23:30:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Bulleted blurb",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "politics",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "bullet-hed-only",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2016-11-23T03:49:19.000Z",
+                    "url": "https://www.washingtonpost.com/politics/welcome-to-washingtons-new-normal-one-trump-drama-after-another/2016/11/22/dee740ea-b0ca-11e6-840f-e3ebab6bcdd3_story.html"
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "size": "xx-small",
+                    "text": "Bullet-style preset: Welcome to Washington’s new normal: One Trump drama after another",
+                    "font_style": "highlight-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "politics",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-bullets"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "label_style": "label label-kicker",
+            "text": "Skins",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "white-card-skin",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2016-11-23T03:49:19.000Z",
+                    "url": "https://www.washingtonpost.com/politics/welcome-to-washingtons-new-normal-one-trump-drama-after-another/2016/11/22/dee740ea-b0ca-11e6-840f-e3ebab6bcdd3_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/11/22/National-Politics/Images/05642706.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Throughout his life, the president-elect has taken pride in surprising the media and breaking rules.",
+                  "signature": {
+                    "by_line": "By Philip Rucker and Marc Fisher",
+                    "timestamp": "2016-11-22T23:30:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "White card skin (used for opinions)",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "politics",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "button-skin",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2016-11-23T03:49:19.000Z",
+                    "url": "https://www.washingtonpost.com/politics/welcome-to-washingtons-new-normal-one-trump-drama-after-another/2016/11/22/dee740ea-b0ca-11e6-840f-e3ebab6bcdd3_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/11/22/National-Politics/Images/05642706.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Throughout his life, the president-elect has taken pride in surprising the media and breaking rules.",
+                  "signature": {
+                    "by_line": "By Philip Rucker and Marc Fisher",
+                    "timestamp": "2016-11-22T23:30:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Button skin",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "politics",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "extra-space-10px-skin",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2016-11-23T03:49:19.000Z",
+                    "url": "https://www.washingtonpost.com/politics/welcome-to-washingtons-new-normal-one-trump-drama-after-another/2016/11/22/dee740ea-b0ca-11e6-840f-e3ebab6bcdd3_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/11/22/National-Politics/Images/05642706.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Throughout his life, the president-elect has taken pride in surprising the media and breaking rules.",
+                  "signature": {
+                    "by_line": "By Philip Rucker and Marc Fisher",
+                    "timestamp": "2016-11-22T23:30:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Extra space 10px skin",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "politics",
+                  "sub_item_type": "primary"
+                }
+              ]
+            },
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "extra-space-15px-skin-duplicate",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2016-11-23T03:49:19.000Z",
+                    "url": "https://www.washingtonpost.com/politics/welcome-to-washingtons-new-normal-one-trump-drama-after-another/2016/11/22/dee740ea-b0ca-11e6-840f-e3ebab6bcdd3_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/11/22/National-Politics/Images/05642706.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Throughout his life, the president-elect has taken pride in surprising the media and breaking rules.",
+                  "signature": {
+                    "by_line": "By Philip Rucker and Marc Fisher",
+                    "timestamp": "2016-11-22T23:30:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Extra space 15px skin",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "politics",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "chain-skins"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "top-table-x-wide",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "equal",
+          "item_type": "chain",
+          "items": [
+            {
+              "item_type": "column",
+              "widths": {
+                "x-large": 6,
+                "large": 6,
+                "medium": 6,
+                "small": 6,
+                "x-small": 12
+              },
+              "items": [
+                {
+                  "border_bottom_style": "hairline",
+                  "border_bottom_width": "100-pct",
+                  "feature_name": "yemenhunger",
+                  "item_type": "homepage/story",
+                  "text_alignment": "left",
+                  "items": [
+                    {
+                      "link": {
+                        "type": "article",
+                        "last_modified": "2016-12-02T04:20:49.000Z",
+                        "url": "https://www.washingtonpost.com/world/middle_east/in-yemens-war-trapped-families-ask-which-child-should-we-save/2016/11/30/c2240cf4-7d60-4132-989f-2128b077efbb_story.html"
+                      },
+                      "media": {
+                        "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2016/11/23/Interactivity/Images/crop_902016-11-11_07.30.291479449171.jpg",
+                        "width": 1248,
+                        "height": 832,
+                        "aspect_ratio": 1.5,
+                        "caption_content": "normal",
+                        "caption": "Ahmed Sadek carries his 2-year-old grandson,Osama Hassan, who suffers from severe malnutrition. (Sudarsan Raghavan/The Post)\n\n",
+                        "caption_size": "normal",
+                        "media_type": "featured",
+                        "art_position": "high",
+                        "art_width": 12
+                      },
+                      "source": "The Washington Post",
+                      "blurb": "Youths are dying every day in rural Yemen, as the health system and other safety nets have been shorn away by a 20-month-old conflict in which the United States is playing a role.",
+                      "signature": {
+                        "by_line": "By Sudarsan Raghavan",
+                        "timestamp": "2016-11-30T21:11:00.000Z"
+                      },
+                      "headline": {
+                        "size": "x-small",
+                        "text": "‘Let God handle it’: Villagers pick and choose which of their children to save",
+                        "font_style": "normal-style",
+                        "alignment": "left"
+                      },
+                      "commercial_node": "world",
+                      "sub_item_type": "primary"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "item_type": "column",
+              "widths": {
+                "x-large": 6,
+                "large": 6,
+                "medium": 6,
+                "small": 6,
+                "x-small": 12
+              },
+              "items": []
+            }
+          ],
+          "chain_name": "weird-spacing"
+        },
+        {
+          "is_left_column_mobile_first": true,
+          "chain_type": "standard-chain",
+          "border_bottom_style": "hairline",
+          "border_bottom_width": "100-pct",
+          "include_vertical_rule": true,
+          "column_arrangement": "wide-right",
+          "item_type": "chain",
+          "label": {
+            "label_style": "label label-kicker",
+            "text": "Flex feature feed (should show 3 stories, constantly updates)",
+            "label_alignment": "left"
+          },
+          "items": [
+            {
+              "border_bottom_style": "hairline",
+              "border_bottom_width": "100-pct",
+              "feature_name": "feature-showing-multiple-stories",
+              "item_type": "homepage/story",
+              "text_alignment": "left",
+              "items": [
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-14T03:45:07.000Z",
+                    "url": "https://www.washingtonpost.com/local/md-politics/minority-lawmakers-unite-around-md-bill-to-protect-undocumented-immigrants/2017/02/13/afdc92fa-f242-11e6-a9b0-ecee7ce475fc_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2011/03/08/Editorial-Opinion/Images/immig-4_1299607020.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Members of the Latino, black and Asian American Pacific Islander caucuses call it the first-ever joint effort by their groups to push for a single piece of legislation.",
+                  "signature": {
+                    "by_line": "By Josh Hicks",
+                    "timestamp": "2017-02-14T03:15:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Minority lawmakers unite around Md. bill to protect undocumented immigrants",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "sub_item_type": "primary"
+                },
+                {
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2017-02-13T23:45:52.000Z",
+                    "url": "https://www.washingtonpost.com/local/public-safety/remains-of-female-found-in-springfield/2017/02/13/2bad44ae-c51e-4858-8f0d-01dd333a6ac2_story.html"
+                  },
+                  "media": {
+                    "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/12/10/Interactivity/Images/iStock_000013261322_Large1430234530.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "The Gaithersburg teen had been reported missing in December.",
+                  "signature": {
+                    "by_line": "By Justin Jouvenal",
+                    "timestamp": "2017-02-13T22:51:00.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "15-year-old girl found slain near a Fairfax County park",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "sub_item_type": "primary"
+                },
+                {
+                  "link": {
+                    "type": "blog",
+                    "last_modified": "2017-02-14T02:01:05.000Z",
+                    "url": "https://www.washingtonpost.com/news/capital-weather-gang/wp/2017/02/13/pm-update-winds-to-relax-ahead-of-a-clear-and-cold-night/"
+                  },
+                  "media": {
+                    "url": "http://www.washingtonpost.com/blogs/capital-weather-gang/files/2017/02/32747641831_23d5e9b53a_k.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "small",
+                    "media_type": "featured",
+                    "art_position": "right-of-headline",
+                    "art_width": 4
+                  },
+                  "source": "The Washington Post",
+                  "blurb": "Most of us will fall below the freezing mark tonight under clear skies and diminishing winds.",
+                  "signature": {
+                    "by_line": "By Greg Porter",
+                    "timestamp": "2017-02-13T21:51:11.000Z"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "P.M. Update: Winds to relax ahead of a clear and cold night",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "sub_item_type": "primary"
+                }
+              ]
+            }
+          ],
+          "chain_name": "flex-feature-feed"
+        }
+      ]
+    }
+  },
+  "checksum": "71c5f5e6474537e0ecfbce8e11dbf249",
+  "lmt": "Tue, 14 Feb 2017 04:44:12 UTC",
+  "last_modified": "2017-02-14T04:44:12.000Z"
+}

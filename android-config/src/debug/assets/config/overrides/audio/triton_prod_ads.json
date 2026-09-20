@@ -1,0 +1,33 @@
+{
+  "ads": {
+    "audio": {
+      "defaults": {
+        "vastEnabled": true,
+        "vastTemplate": "https://cmod-world.live.streamtheworld.com/ondemand/ars?ext_stid=[triton-ext-stid]&type=[break-type]&break-number=[break-number]&maxAds=[max-ads]&delivery-method=progressive&ttag=[triton-ttag]&us_privacy=[us-privacy]&gdpr=[gdpr]&gdpr_consent=[gdpr-consent]&bundle-id=[bundle-id]&store-id=[store-id]&store-url=[store-url]&feed-type=[triton-feed-type]&series-title=[series-name]&content-language=[content-language]&site-url=[site-url]",
+        "macros": {
+          "siteUrl": "https://www.washingtonpost.com",
+          "playStoreUrl": "https://play.google.com/store/apps/details?id=com.washingtonpost.android",
+          "amazonStoreAppId": "B00LI6CXZA",
+          "amazonStoreUrl": "https://www.amazon.com/Washington-Post-Company-The/dp/B00LI6CXZA",
+          "contentLanguage": "en",
+          "tritonDeliveryMethod": "progressive"
+        }
+      },
+      "configsByContentType": {
+        "podcast": {
+          "minAdBreakIntervalSeconds": 0,
+          "minGlobalAdIntervalSeconds": 0,
+          "adBreaks": [
+            { "type": "preroll", "maxAds": 1 },
+            { "type": "midroll", "maxAds": 2, "timeSeconds": 120 },
+            { "type": "postroll", "maxAds": 2 }
+          ]
+        },
+        "article": {
+          "minAdBreakIntervalSeconds": 0,
+          "minGlobalAdIntervalSeconds": 0
+        }
+      }
+    }
+  }
+}

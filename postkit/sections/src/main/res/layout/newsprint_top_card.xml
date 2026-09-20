@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/material_card_view"
+    android:tag="material_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/newsprint_compose_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</com.google.android.material.card.MaterialCardView>

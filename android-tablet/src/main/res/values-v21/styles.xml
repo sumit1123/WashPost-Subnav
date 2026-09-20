@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <style name="gifting_button_style">
+        <item name="android:fontFamily">@font/franlinitcstd_bold</item>
+        <item name="fontFamily">@font/franlinitcstd_bold</item>
+        <item name="android:textColor">@color/gift_button_text_color</item>
+        <item name="android:textSize">@dimen/gift_button_text_size</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+</resources>

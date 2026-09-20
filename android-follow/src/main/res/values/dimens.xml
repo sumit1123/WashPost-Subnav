@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_lines">5</integer>
+    <dimen name="divider_space">8dp</dimen>
+    <dimen name="divider_space_first_item">0dp</dimen>
+    <dimen name="author_image_border_width">5dp</dimen>
+    <dimen name="follow_btn_padding">22dp</dimen>
+    <dimen name="follow_btn_drawable_padding">7dp</dimen>
+    <dimen name="author_archive_name_padding">21dp</dimen>
+    <dimen name="empty_author_width">180dp</dimen>
+    <dimen name="my_post_card_left_margin">8dp</dimen>
+    <dimen name="my_post_card_content_left_margin">20dp</dimen>
+    <dimen name="my_post_preview_label_text_size">24sp</dimen>
+    <dimen name="my_post_preview_desc_text_size">12sp</dimen>
+    <dimen name="my_post_card_top_marin">12dp</dimen>
+    <dimen name="cardified_list_vertical_margin">16dp</dimen>
+    <dimen name="cardified_list_vertical_padding">8dp</dimen>
+
+</resources>

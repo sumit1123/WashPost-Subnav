@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingRight="24dp"
+    android:paddingLeft="24dp"
+    android:id="@+id/live_video_layout"
+    android:background="@drawable/popup_background_live"
+    android:clickable="true">
+
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/close"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_close_white_36dp"/>
+
+    <com.wapo.view.ProportionalLayout
+        android:id="@+id/image_frame"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:aspectRatio="1"
+        android:layout_marginLeft="@dimen/sf_module_stream_image_left_margin"
+        android:layout_marginRight="@dimen/sf_module_stream_image_right_margin"
+        android:layout_marginBottom="@dimen/sf_module_stream_image_bottom_margin">
+
+        <com.washingtonpost.android.volley.toolbox.NetworkAnimatedImageView
+            android:id="@+id/image_live_video_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.wapo.view.ProportionalLayout>
+
+    <LinearLayout
+        android:layout_toLeftOf="@id/close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/image_frame">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/live_video_text"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/article_breaking_news_headline"/>
+    </LinearLayout>
+</RelativeLayout>

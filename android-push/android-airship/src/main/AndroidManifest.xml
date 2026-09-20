@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application>
+        <meta-data
+            android:name="com.urbanairship.autopilot"
+            android:value="com.washpost.airship.AirshipAutopilot" />
+    </application>
+
+    <uses-sdk tools:overrideLibrary="com.urbanairship.automation, com.urbanairship, com.urbanairship.android.layout" />
+</manifest>

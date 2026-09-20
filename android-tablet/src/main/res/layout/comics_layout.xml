@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wapo.view.RelativeLayoutVL xmlns:a="http://schemas.android.com/apk/res/android"
+                a:layout_width="match_parent" a:layout_height="match_parent"
+                a:padding="20dp">
+
+    <RelativeLayout a:layout_width="match_parent" a:layout_height="match_parent"
+                    a:layout_above="@+id/description_layout" a:layout_alignParentTop="true"
+                    a:id="@+id/pager_layout" a:visibility="invisible">
+
+        <androidx.viewpager.widget.ViewPager xmlns:a="http://schemas.android.com/apk/res/android" a:id="@+id/horizontal_pager"
+                a:layout_width="match_parent" a:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <LinearLayout a:layout_width="wrap_content" a:layout_height="wrap_content" a:layout_above="@+id/page_identification"
+                  a:layout_alignParentLeft="true" a:orientation="vertical" a:id="@+id/description_layout"
+                  a:visibility="invisible">
+
+        <TextView a:id="@+id/byline" a:layout_width="wrap_content" a:layout_height="wrap_content"
+                  style="@style/ComicsTextLarge" a:text="Something by Someone"/>
+
+        <TextView a:id="@+id/date" a:layout_width="wrap_content" a:layout_height="wrap_content"
+                  style="@style/ComicsText" a:text="06/01/2013" />
+
+    </LinearLayout>
+
+    <RelativeLayout a:id="@+id/page_identification" a:layout_width="@dimen/comics_pager_width"
+                    a:layout_height="@dimen/comics_pager_height" a:layout_alignParentBottom="true"
+                    a:layout_centerHorizontal="true" a:layout_marginTop="20dp" a:layout_marginBottom="20dp"
+                    a:background="@color/unselected_page_indicator" a:visibility="invisible">
+
+        <View a:id="@+id/indicator" a:layout_height="match_parent" a:layout_width="0dp"
+              a:background="@color/selected_page_indicator" />
+    </RelativeLayout>
+
+    <RelativeLayout a:id="@+id/loading_curtain" a:layout_width="match_parent" a:layout_height="match_parent"
+                a:visibility="visible">
+        <ProgressBar a:id="@+id/progress" a:layout_width="wrap_content" a:layout_height="wrap_content"
+                     a:layout_centerVertical="true" a:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        a:id="@+id/status_container"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:layout_above="@id/anchor"
+        a:gravity="center"
+        a:orientation="vertical"
+        a:visibility="gone">
+
+        <include a:id="@+id/comic_error"
+            a:layout_height="wrap_content"
+            a:layout_width="wrap_content"
+            a:layout_centerInParent="true"
+            layout="@layout/loading_failed_curtain_dark" />
+
+    </LinearLayout>
+
+    <RelativeLayout a:id="@+id/comics_line_error_curtain"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent" />
+
+</com.wapo.view.RelativeLayoutVL>

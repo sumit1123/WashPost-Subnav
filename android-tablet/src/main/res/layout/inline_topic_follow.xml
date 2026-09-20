@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:id="@+id/top_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inline_alert_toggle_divider_height"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/inline_alert_toggle_divider" />
+
+    <ImageView
+        android:id="@+id/icon"
+        app:layout_constraintTop_toTopOf="parent
+"       app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_label_elections"
+        android:contentDescription="topic icon" />
+
+    <TextView
+        android:id="@+id/main_text"
+        style="@style/inline_follow_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent
+"       app:layout_constraintLeft_toRightOf="@id/icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/follow_button"
+        android:maxLines="3"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:text="Follow" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/follow_button"
+        style="@style/inline_follow_button"
+        app:layout_constraintTop_toTopOf="parent
+"       app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:cornerRadius="30dp"
+        app:iconGravity="textEnd"
+        app:iconPadding="6dp"
+        app:icon="@drawable/bell"
+        android:text="Following"
+        android:fontFamily="@font/franklinitcstd_bold"
+        android:letterSpacing="0" />
+
+    <View
+        android:id="@+id/bottom_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inline_alert_toggle_divider_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/inline_alert_toggle_divider"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

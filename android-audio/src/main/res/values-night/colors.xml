@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2017 Google Inc. All rights reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <color name="app_bg">#111111</color>
+    <color name="app_surface">#ffffff</color>
+    <color name="podcast_text_color">#dddddd</color>
+    <color name="podcast_add_series_text_color">#5987D6</color>
+    <color name="podcast_time_bar_buffered_color">#5D5D5D</color>
+    <color name="podcast_time_bar_played_color">#5987D6</color>
+    <color name="podcast_time_bar_unplayed_color">#383838</color>
+    <color name="podcast_article_view_boarder_color">#4d4d4d</color>
+    <color name="podcast_article_view_background_color">#3f3f3f</color>
+    <color name="podcast_article_view_text_color">#D9D9D9</color>
+    <color name="podcast_persistent_player_control_border_color">#484B4E</color>
+    <color name="podcast_dialog_title_color">@color/white</color>
+    <color name="podcast_date_color">#F0F0F0</color>
+    <color name="podcast_caption_color">#F0F0F0</color>
+    <color name="podcast_title_color">#F7F7F7</color>
+    <color name="podcast_byline_color">#F7F7F7</color>
+    <color name="podcast_background">#333333</color>
+    <color name="byline_opinion">#DDAA4D</color>
+    <color name="podcast_time_bar_scrubber_color">#FFFFFF</color>
+    <color name="podcast_time_bar_scrubber_bar_color">#FFFFFF</color>
+
+    <!-- Polly -->
+    <color name="round_border_button_stoke_bg">#AAAAAA</color>
+    <color name="round_button_text">#F0F0F0</color>
+    <color name="playback_speed_dialog_title">#D5D5D5</color>
+    <color name="playback_speed_dialog_options">#F0F0F0</color>
+    <color name="round_button_key_text">#CCCCCC</color>
+    <color name="round_button_value_text">#F7F7F7</color>
+    <color name="round_button_key_value_divider">#666666</color>
+
+    <color name="button_disabled">#545454</color>
+    <color name="action_button">#A9A9A9</color>
+    <color name="pill_duration_text">#000000</color>
+
+
+    <color name="playlist_color">#FFFFFF</color>
+    <color name="playlist_color_active">#4D91FF</color>
+    <color name="snackbar_background">#38711E</color>
+    <color name="play_border_color">#F0F0F0</color>
+    <color name="play_inside_color">#F0F0F0</color>
+    <color name="playlist_ellipsis_button">#F7F7F7</color>
+
+
+    <color name="carousel_empty_card_text1">#fff</color>
+    <color name="carousel_empty_card_text2">#A9A9A9</color>
+    <color name="carousel_empty_card_icon_tint">#fff</color>
+    <color name="carousel_empty_card_icon_bg">#424242</color>
+
+</resources>

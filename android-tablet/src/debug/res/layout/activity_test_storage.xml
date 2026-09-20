@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:layout_gravity="center"
+    a:orientation="vertical">
+
+    <Button
+        a:id="@+id/refresh_metrics"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_gravity="center"
+        a:layout_margin="16dp"
+        a:gravity="center"
+        a:minWidth="240dp"
+        a:onClick="onClick"
+        a:padding="16dp"
+        a:text="Refresh" />
+
+    <Button
+        a:id="@+id/open_data_settings"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_gravity="center"
+        a:layout_margin="16dp"
+        a:gravity="center"
+        a:minWidth="240dp"
+        a:onClick="onClick"
+        a:padding="16dp"
+        a:text="Open R.B.Data Settings" />
+</LinearLayout>

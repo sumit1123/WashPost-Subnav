@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content"
+    a:background="@drawable/alert_selector">
+
+    <com.wapo.view.ImageStreamModule
+        a:id="@+id/sf_module_phone_panel"
+        style="@style/sf_module_stream"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:padding="@dimen/sf_module_padding"
+        app:imagePosition="right"
+        app:layout="@layout/view_image_model_notification" />
+
+    <View
+        a:layout_below="@id/sf_module_phone_panel"
+        a:layout_width="match_parent"
+        a:layout_height="@dimen/notification_divider_height"
+        a:background="@color/appbar_bottom_border"/>
+
+</RelativeLayout>

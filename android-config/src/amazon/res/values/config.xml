@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Amazon flavor overrides for android-config.
+
+    These string resources override those defined in `src/main/res/values/config.xml`
+    when the app is built with the `amazon` product flavor. This source set is wired
+    into the Amazon flavor via `android-tablet/build.gradle.kts` sourceSets block.
+
+    Keep this file in sync (by key) with `src/main/res/values/config.xml`.
+-->
+<resources>
+    <string name="configEncryptKey">795A45DB6DBCC30B84CC498E689EFED7</string>
+    <string name="configRemoteLocation">https://ipad-s3.washingtonpost.com/native/config/v3/config.uni.classic.amazon.json</string>
+    <string name="configVersionUrl">https://ipad-s3.washingtonpost.com/native/config/classic.amazon.version.json</string>
+</resources>
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2017 Google Inc. All rights reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <color name="app_bg">#FFFFFF</color>
+    <color name="app_surface">#111111</color>
+    <color name="colorPrimary">#840255</color>
+    <color name="colorPrimaryDark">#710144</color>
+    <color name="colorAccent">#14A5A1</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="mediaListBackground">#F1F1F1</color>
+
+    <color name="shimmer_background_color">#b1b1b1</color>
+
+    <color name="mediaControlColor">#f8f8f8</color>
+
+    <color name="nowPlayingBackground">#eff0f0</color>
+    <color name="nowPlayingWhiteBackground">#fdfdfd</color>
+
+    <color name="menu_icon_tint">#ffffff</color>
+
+    <!-- <native audio> -->
+    <color name="podcast_text_color">#ff000000</color>
+    <color name="podcast_add_series_text_color">#1955A5</color>
+    <color name="podcast_time_bar_buffered_color">#E0E0E0</color>
+    <color name="podcast_time_bar_played_color">#1955A5</color>
+    <color name="podcast_time_bar_unplayed_color">#9b9b9b</color>
+    <color name="podcast_time_bar_scrubber_gradient_start_color">#ff000000</color>
+    <color name="podcast_time_bar_scrubber_gradient_center_color">#80000000</color>
+    <color name="podcast_time_bar_scrubber_gradient_end_color">#00000000</color>
+    <color name="podcast_time_bar_scrubber_color">#111111</color>
+    <color name="podcast_time_bar_scrubber_bar_color">#111111</color>
+    <color name="podcast_article_view_boarder_color">#D8D8D8</color>
+    <color name="podcast_article_view_background_color">#F7F7F7</color>
+    <color name="podcast_article_view_text_color">@color/black</color>
+    <color name="podcast_persistent_player_control_border_color">#D5D5D5</color>
+    <color name="podcast_dialog_title_color">@color/black</color>
+    <color name="podcast_date_color">#666666</color>
+    <color name="podcast_caption_color">#666666</color>
+    <color name="podcast_title_color">#2A2A2A</color>
+    <color name="podcast_byline_color">#2A2A2A</color>
+
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+
+    <color name="podcast_background">#FFFFFF</color>
+    <color name="byline_opinion">#C2882F</color>
+    <color name="byline_opinion_newsprint">#DDAA4D</color>
+
+    <!-- Polly -->
+    <color name="round_border_button_stoke_bg">#E9E9E9</color>
+    <color name="round_button_text">#666666</color>
+    <color name="playback_speed_dialog_title">#666</color>
+    <color name="playback_speed_dialog_options">#2A2A2A</color>
+    <color name="round_button_key_text">@color/round_button_text</color>
+    <color name="round_button_value_text">#333333</color>
+    <color name="round_button_key_value_divider">#E9E9E9</color>
+
+    <color name="button_disabled">#999999</color>
+    <color name="action_button">#737373</color>
+    <color name="pill_duration_text">#FFFFFF</color>
+
+    <color name="playlist_color">@color/black</color>
+    <color name="playlist_color_active">#166DFC</color>
+    <color name="snackbar_background">#EEF9EA</color>
+    <color name="play_border_color">#D5D5D5</color>
+    <color name="play_inside_color">@color/black</color>
+    <color name="playlist_ellipsis_button">#000000</color>
+
+    <color name="low_data_mode_snackbar_background">#323232</color>
+    <color name="low_data_mode_snackbar_turn_on_color">#84A4D6</color>
+
+    <color name="carousel_empty_card_text1">#000</color>
+    <color name="carousel_empty_card_text2">#666</color>
+    <color name="carousel_empty_card_icon_tint">#000</color>
+    <color name="carousel_empty_card_icon_bg">#E9E9E9</color>
+</resources>

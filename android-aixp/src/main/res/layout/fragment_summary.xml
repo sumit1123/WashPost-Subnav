@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/summary_rounded_dialog_bg"
+        android:paddingHorizontal="@dimen/summary_dimen_large"
+        android:paddingTop="@dimen/summary_dimen_x_small_1"
+        android:paddingBottom="@dimen/summary_dimen_large">
+
+        <View
+            android:id="@+id/top_bar"
+            android:layout_width="@dimen/summary_dialog_top_bar_width"
+            android:layout_height="@dimen/summary_dialog_top_bar_height"
+            android:layout_marginBottom="@dimen/summary_dimen_medium_1"
+            android:background="@drawable/summary_dialog_top_bar"
+            app:layout_constraintBottom_toTopOf="@+id/title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/summary_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/summary_dimen_x_small"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/disclaimer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/disclaimer"
+            style="@style/summary_disclaimer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/summary_dimen_small_1"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/overview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/overview"
+            style="@style/summary_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/summary_dimen_small_1"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/key_points_headline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/key_points_headline"
+            style="@style/summary_key_points_heading"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/summary_dimen_small_1"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/list"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/summary_dimen_medium"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/link"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/link"
+            style="@style/summary_link"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/summary_link"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/dismiss_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/dismiss_btn"
+            style="@style/MyPost.Action.Chip.Light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone"
+            android:text="Back to article"
+            android:textAppearance="@style/MyPost.Action.Chip.Light.Text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/link"/>
+
+        <LinearLayout
+            android:id="@+id/error_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/progress_indicator"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/error_message"
+                style="@style/feedback_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/retry_button"
+                style="@style/feedback_details_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/feedback_retry"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_indicator"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateOnly="true"
+            android:padding="@dimen/summary_dimen_large"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

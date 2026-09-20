@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/gifting_title_style"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/no_sub_title_text"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_medium"
+        android:gravity="center_horizontal"
+        style="@style/gifting_message_style"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/no_sub_message_text"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/gifting_button_style"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="@dimen/space_large"
+        app:layout_constraintTop_toBottomOf="@id/message"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:paddingLeft="@dimen/space_large"
+        android:paddingRight="@dimen/space_large"
+        tools:ignore="UnusedAttribute"
+        android:textAllCaps="false"
+        android:text="@string/no_sub_button_text"
+        />
+    <com.washingtonpost.android.paywall.bottomsheet.ui.component.SignInView
+        android:id="@+id/sign_in_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_medium"
+        app:layout_constraintTop_toBottomOf="@id/button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

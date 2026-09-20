@@ -1,0 +1,6 @@
+{
+  "backendHealthConfig": {
+    "backendHealthMonitorURL": "https://rainbowapi-a.wpdigital.net/status/api/failover",
+    "fallbackURL": "https://www.washingtonpost.com"
+  }
+}

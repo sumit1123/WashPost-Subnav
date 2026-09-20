@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/offer_page_background"
+    android:paddingBottom="@dimen/paywall_margin">
+
+    <LinearLayout
+        android:id="@+id/feature_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/paywall_margin"
+        android:layout_marginTop="@dimen/paywall_margin"
+        android:layout_marginEnd="@dimen/paywall_margin"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/product_title">
+
+        <com.washingtonpost.android.paywall.bottomsheet.ui.component.old.ProductCheckTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.washingtonpost.android.paywall.bottomsheet.ui.component.old.ProductCheckTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/product_title"
+        style="@style/product_title_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/paywall_margin"
+        android:layout_marginTop="@dimen/paywall_margin_medium"
+        android:text="Core"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/page_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/paywall_margin_small"
+        android:layout_marginRight="@dimen/paywall_margin_small"
+        app:srcCompat="@drawable/premium_digital_icon"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.washingtonpost.android.paywall.bottomsheet.ui.component.old.BillingOptionView
+        android:id="@+id/first_billing_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/paywall_margin"
+        android:layout_marginEnd="@dimen/paywall_margin"
+        app:layout_constraintTop_toBottomOf="@id/feature_list" />
+
+    <com.washingtonpost.android.paywall.bottomsheet.ui.component.old.BillingOptionView
+        android:id="@+id/second_billing_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/paywall_margin"
+        android:layout_marginTop="@dimen/paywall_margin_small"
+        android:layout_marginEnd="@dimen/paywall_margin"
+        app:layout_constraintTop_toBottomOf="@id/first_billing_box" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

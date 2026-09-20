@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/card_article"
+    >
+
+   <TextView
+        android:id="@+id/article_native_error"
+        style="@style/error_message"
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/articles_unable_to_load_a_content_msg"
+        />
+
+   <Button
+       android:id="@+id/retry"
+       android:layout_marginTop="16dp"
+       style="@style/Widget.AppCompat.Button.Borderless"
+       android:text="@string/article_try_again"
+       android:textColor="@color/retry_text"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
+</LinearLayout>

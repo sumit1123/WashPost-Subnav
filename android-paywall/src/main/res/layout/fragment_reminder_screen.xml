@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2019. The Washington Post
+  -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reminder_screen_background"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ImageButton
+        android:id="@+id/reminder_screen_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="@dimen/reminder_close_icon_margin_top"
+        android:layout_marginRight="@dimen/reminder_close_icon_margin_right"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/close_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/reminder_screen_gradient_background"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/reminder_bottom_screen_margin"
+        android:paddingTop="118dp">
+
+        <TextView
+            android:id="@+id/reminder_screen_text_h2_1"
+            style="@style/reminder_screen_text_h21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/reminder_text_views_horizontal_margin"
+            android:layout_marginRight="@dimen/reminder_text_views_horizontal_margin" />
+
+        <TextView
+            android:id="@+id/reminder_screen_text_h1"
+            style="@style/reminder_screen_text_h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/reminder_text_views_horizontal_margin"
+            android:layout_marginTop="@dimen/reminder_vertical_margin_small"
+            android:layout_marginRight="@dimen/reminder_text_views_horizontal_margin" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/reminder_text_views_horizontal_margin"
+            android:layout_marginRight="@dimen/reminder_text_views_horizontal_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/reminder_screen_text_h2_2"
+                style="@style/reminder_screen_text_h22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="@dimen/reminder_vertical_margin_large" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/reminder_vertical_margin_large"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:paddingRight="16dp"
+                    android:src="@drawable/check_green" />
+
+                <TextView
+                    android:id="@+id/reminder_screen_text_h3_1"
+                    style="@style/reminder_screen_text_h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/reminder_vertical_margin_medium"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:paddingRight="16dp"
+                    android:src="@drawable/check_green" />
+
+                <TextView
+                    android:id="@+id/reminder_screen_text_h3_2"
+                    style="@style/reminder_screen_text_h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/reminder_screen_button1"
+            style="@style/reminder_screen_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/reminder_buttons_horizontal_margin"
+            android:layout_marginTop="@dimen/reminder_vertical_margin_very_large"
+            android:layout_marginRight="@dimen/reminder_buttons_horizontal_margin"
+            android:background="@drawable/reminder_button_background"
+            android:foreground="?attr/selectableItemBackground"
+            android:minWidth="@dimen/reminder_buttons_min_width"
+            android:minHeight="@dimen/reminder_buttons_min_height" />
+
+        <TextView
+            android:id="@+id/reminder_screen_button2"
+            style="@style/reminder_screen_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/reminder_buttons_horizontal_margin"
+            android:layout_marginTop="@dimen/reminder_vertical_margin_medium"
+            android:layout_marginRight="@dimen/reminder_buttons_horizontal_margin"
+            android:layout_marginBottom="@dimen/reminder_vertical_margin_medium"
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent">
+
+    <com.wapo.view.TouchImageView
+        a:id="@+id/gallery_item_image"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:visibility="invisible"/>
+
+    <ProgressBar
+        a:id="@+id/image_progress"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_centerHorizontal="true"
+        a:layout_centerVertical="true"
+        a:indeterminate="true"
+        a:indeterminateBehavior="cycle"
+        a:visibility="visible" />
+
+    <RelativeLayout a:id="@+id/gallery_item_text"
+        a:orientation="vertical"
+        a:layout_alignParentTop="true"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:layout_marginTop="@dimen/abc_action_bar_default_height_custom"
+        a:visibility="gone">
+
+        <ScrollView a:id="@+id/gallery_scroll"
+            a:paddingLeft="@dimen/gallery_text_container_padding"
+            a:paddingRight="@dimen/gallery_text_container_padding"
+            a:paddingTop="@dimen/gallery_text_container_padding"
+            a:paddingBottom="@dimen/gallery_text_container_padding"
+            a:background="@color/gallery_background"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_gravity="bottom"
+            a:layout_alignParentBottom="true" >
+
+            <LinearLayout a:id="@+id/gallery_caption_layout"
+                a:layout_width="match_parent"
+                a:layout_height="wrap_content"
+                a:orientation="vertical" >
+
+                <TextView a:id="@+id/gallery_item_headline"
+                    a:textColor="@android:color/white"
+                    a:layout_width="match_parent"
+                    a:textStyle="bold"
+                    a:textSize="@dimen/gallery_headline_size"
+                    a:layout_height="wrap_content" />
+
+                <TextView a:id="@+id/gallery_item_caption"
+                    a:textColor="@android:color/white"
+                    a:layout_width="match_parent"
+                    a:textSize="@dimen/gallery_caption_size"
+                    a:layout_height="wrap_content"
+                    a:focusable="true"
+                    a:clickable="true" />
+
+                <TextView a:id="@+id/gallery_credits"
+                    a:textColor="@color/color_dot"
+                    a:textSize="@dimen/gallery_credits_size"
+                    a:layout_width="match_parent"
+                    a:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <include a:id="@+id/native_gallery_item_error_curtain" layout="@layout/gallery_loading_failed"
+             a:layout_width="match_parent"
+             a:layout_height="match_parent"
+             a:visibility="gone" />
+</RelativeLayout>

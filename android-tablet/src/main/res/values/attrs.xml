@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScalableTextView">
+        <attr name="font" format="reference" />
+        <attr name="fontTextColor" format="reference" />
+    </declare-styleable>
+
+    <!-- For NetworkAnimatedImageView extension -->
+    <declare-styleable name="NetworkAnimatedImageView">
+        <attr name="adjustViewBounds" format="boolean"/>
+        <attr name="emptyDrawable" format="reference|color"/>
+
+        <attr name="fillDirection" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="horizontal" value="1"/>
+            <enum name="vertical" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SelectableLayoutOld">
+        <attr name="leftHandle" format="reference" />
+        <attr name="rightHandle" format="reference" />
+        <attr name="leftHandlePos" format="float" />
+        <attr name="rightHandlePos" format="float" />
+        <attr name="selectionColor" format="reference" />
+    </declare-styleable>
+
+    <attr name="selection_text_color" format="reference" />
+    <attr name="location_place_icon" format="reference" />
+    <attr name="navigation_refresh_icon" format="reference" />
+    <attr name="content_discard_icon" format="reference" />
+    <attr name="main_color" format="reference" />
+    <attr name="action_bar_background" format="reference" />
+    <attr name="left_menu_background" format="reference" />
+    <attr name="left_menu_selector" format="reference" />
+    <attr name="left_bottom_menu_selector" format="reference" />
+
+    <attr name="text_color" format="color"/>
+    <attr name="menu_item_color" format="color"/>
+    <attr name="menu_ripple_color" format="color"/>
+    <attr name="menu_item_text_color" format="color"/>
+    <attr name="menu_tab_background_color" format="color"/>
+    <attr name="menu_header_color" format="color"/>
+    <attr name="section_front_article_selector" format="reference"/>
+
+    <attr name="top_panel_background" format="color" />
+    <attr name="fave_active_icon" format="reference" />
+    <attr name="fave_inactive_icon" format="reference" />
+
+    <attr name="app_bar_day_night_style" format="reference" />
+    <attr name="app_bar_nav_menu_icon" format="reference" />
+    <attr name="app_bar_nav_arrow_icon" format="reference" />
+    <attr name="app_bar_search_icon" format="reference" />
+    <attr name="app_bar_logo" format="reference"/>
+    <attr name="app_bar_beta_summary_icon" format="reference" />
+    <attr name="app_bar_summary_icon" format="reference" />
+    <attr name="app_bar_gift_icon" format="reference"/>
+    <attr name="app_bar_audio_icon" format="reference"/>
+    <attr name="app_bar_save_icon" format="reference"/>
+    <attr name="app_bar_share_icon" format="reference"/>
+    <attr name="voiceButtonStyle" format="reference"/>
+
+    <declare-styleable name="HomepageStoryView">
+        <attr name="vertical_spacing" format="dimension" />
+        <attr name="horizontal_spacing" format="dimension" />
+        <attr name="min_horizontal_spacing" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ZoomageView">
+        <attr name="zoomage_zoomable" format="boolean" />
+        <attr name="zoomage_translatable" format="boolean" />
+        <attr name="zoomage_restrictBounds" format="boolean" />
+        <attr name="zoomage_animateOnReset" format="boolean" />
+        <attr name="zoomage_doubleTapToZoom" format="boolean" />
+        <attr name="zoomage_doubleTapToZoomScaleFactor" format="float" />
+        <attr name="zoomage_autoCenter" format="boolean" />
+        <attr name="zoomage_minScale" format="float" />
+        <attr name="zoomage_maxScale" format="float" />
+        <attr name="zoomage_autoResetMode" format="enum">
+            <enum name="UNDER" value="0" />
+            <enum name="OVER" value="1" />
+            <enum name="ALWAYS" value="2" />
+            <enum name="NEVER" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>

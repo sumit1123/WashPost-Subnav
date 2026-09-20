@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IMPORTANT: Add strings in alphabetical order so that they are easy to find -->
+<resources>
+    <string name="add_to_saved_stories">Add to saved stories</string>
+    <string name="ask_another_question">Ask another question</string>
+    <string name="listening">Listening</string>
+    <string name="recommend_new">Recommend new</string>
+    <string name="related_articles">Related Articles</string>
+    <string name="remove_from_saved_stories">Remove from saved stories</string>
+    <string name="snooze">Snooze</string>
+    <string name="thinking">Thinking</string>
+
+    <!-- Punctuation -->
+    <string name="bullet_point">•</string>
+    <string name="colon">:</string>
+    <string name="question_mark">\?</string>
+    <string name="microphone_access_title">Microphone Access Needed</string>
+    <string name="microphone_access_message">To use voice features, please allow microphone access in your device settings.</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="select_voice_style">Select your preferred voice style</string>
+    <string name="done">Done</string>
+</resources>

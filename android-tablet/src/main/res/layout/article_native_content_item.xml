@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/native_item"
+    android:background="@drawable/card_article"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/loading_curtain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/async_textblock">
+
+        <ImageView
+            android:id="@+id/imageview_article_curtain_shine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/content_description_loading"
+            android:src="@drawable/async_shine" />
+
+    </FrameLayout>
+
+    <com.wapo.flagship.features.articles2.adapters.Articles2RecyclerView
+        android:id="@+id/rcv_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbarSize="@dimen/article_scrollbar_size"
+        android:scrollbarThumbVertical="@color/wapo_views_gray"
+        android:scrollbars="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:clipChildren="false"
+        android:clipToPadding="false"/>
+</FrameLayout>

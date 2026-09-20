@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/alert_settings_title">
+
+    <androidx.preference.PreferenceCategory
+        android:key="@string/pref_alerts_category_key"
+        android:layout="@layout/preference_category_layout"
+        android:title="Customize Alerts"
+        app:iconSpaceReserved="false">
+
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

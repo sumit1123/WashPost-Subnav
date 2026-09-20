@@ -1,0 +1,10 @@
+{
+  "siteServiceConfig": {
+    "sectionsBarV2ConfigRemoteLocation": "https://arcmobile.arcpublishing.com/sitemap/v2/sandbox/washpost/washpost/ClassicAppBarV2.json",
+    "sectionsFeaturedConfigRemoteLocation": "https://arcmobile.arcpublishing.com/sitemap/v2/sandbox/washpost/washpost/ClassicAppFeatured.json",
+    "sectionsAZConfigRemoteLocation": "https://arcmobile.arcpublishing.com/sitemap/v2/sandbox/washpost/washpost/ClassicAppAZ.json",
+    "sectionsBarTestConfigRemoteLocation": "https://s3.amazonaws.com/arc-native-apps/sitemap/v1/sandbox/washpost/classic-app-testing.json",
+    "sectionsUnlistedConfigRemoteLocation": "https://arcmobile.arcpublishing.com/sitemap/v2/sandbox/washpost/washpost/ClassicAppUnlisted.json",
+    "sectionsRecommendedConfigRemoteLocation": "https://arcmobile.arcpublishing.com/sitemap/v2/sandbox/washpost/washpost/ClassicAppRecommended.json"
+  }
+}

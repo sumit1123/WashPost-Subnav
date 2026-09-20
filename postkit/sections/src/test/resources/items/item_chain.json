@@ -1,0 +1,104 @@
+{
+  "chain_type": "chain-with-gutter",
+  "border_bottom_style": "hairline",
+  "item_type": "chain",
+  "widths": {
+    "x-small": 12,
+    "small": 12,
+    "medium": 8,
+    "large": 8,
+    "x-large": 8
+  },
+  "label": {
+    "label_style": "label label-kicker",
+    "text": "More Top Stories",
+    "label_alignment": "left"
+  },
+  "items": [
+    {
+      "border_bottom_style": "hairline",
+      "border_bottom_width": "100-pct",
+      "item_type": "homepage/story",
+      "text_alignment": "left",
+      "items": [
+        {
+          "link": {
+            "type": "article",
+            "last_modified": "2017-03-27T11:21:09.000Z",
+            "url": "https://www.washingtonpost.com/politics/trump-taps-kushner-to-lead-a-swat-team-to-fix-government-with-business-ideas/2017/03/26/9714a8b6-1254-11e7-ada0-1489b735b3a3_story.html"
+          },
+          "media": {
+            "url": "https://www.washingtonpost.com/r/2010-2019/Wires/Images/2017-03-15/Getty/653535268.jpg",
+            "width": 480,
+            "height": 320,
+            "aspect_ratio": 1.5,
+            "caption_content": "none",
+            "caption_size": "small",
+            "media_type": "featured",
+            "art_position": "left",
+            "art_width": 4
+          },
+          "source": "The Washington Post",
+          "blurb": "The new office will be staffed by former business executives and is an expansion of the influence of Jared Kushner, the presidentâ€™s son-in-law and senior adviser.",
+          "signature": {
+            "by_line": "By Ashley Parker and Philip Rucker"
+          },
+          "headline": {
+            "size": "x-small",
+            "text": "Trump taps Kushner to lead overhaul of government using business ideas",
+            "font_style": "normal-style",
+            "alignment": "left"
+          },
+          "commercial_node": "politics",
+          "sub_item_type": "primary"
+        }
+      ]
+    },
+    {
+      "border_bottom_style": "hairline",
+      "border_bottom_width": "100-pct",
+      "item_type": "homepage/story",
+      "text_alignment": "left",
+      "label": {
+        "text": "The Fix",
+        "label_style": "label label-normal label-small",
+        "label_alignment": "left"
+      },
+      "items": [
+        {
+          "link": {
+            "type": "blog",
+            "last_modified": "2017-03-27T17:49:22.000Z",
+            "url": "https://www.washingtonpost.com/news/the-fix/wp/2017/03/27/fox-news-said-trump-spent-the-weekend-working-at-the-white-house-he-was-at-his-golf-club/"
+          },
+          "media": {
+            "url": "http://www.washingtonpost.com/blogs/the-fix/files/2017/03/foxalert.png",
+            "width": 480,
+            "height": 320,
+            "aspect_ratio": 1.5,
+            "caption_content": "none",
+            "caption_size": "normal",
+            "media_type": "featured",
+            "art_position": "left",
+            "art_width": 4
+          },
+          "source": "The Washington Post",
+          "blurb": "The network\u0027s Sunday evening â€œnews alertâ€ was roundly mocked online for its timing â€” and because it wasn\u0027t true.",
+          "signature": {
+            "by_line": "By Amy B Wang",
+            "timestamp": "2017-03-27T16:49:20.000Z"
+          },
+          "headline": {
+            "size": "x-small",
+            "text": "Fox News said Trump spent the weekend â€˜working at the White House.â€™ He was at his golf club.",
+            "font_style": "normal-style",
+            "alignment": "left"
+          },
+          "commercial_node": "politics",
+          "sub_item_type": "primary"
+        }
+      ]
+    }
+  ],
+  "chain_name": "tab-more-top-stories-1"
+}

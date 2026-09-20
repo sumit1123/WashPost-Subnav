@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="Test Options">
+
+    <androidx.preference.PreferenceCategory
+        android:layout="@layout/preference_category_layout"
+        android:title="Ads"
+        app:iconSpaceReserved="false">
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="@string/pref_test_ads_key"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="Enable Test"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+        <androidx.preference.EditTextPreference
+            android:key="@string/pref_test_ads_value_key"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="Enter value"
+            app:iconSpaceReserved="false"
+            app:isPreferenceVisible="false"
+            app:useSimpleSummaryProvider="true" />
+
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

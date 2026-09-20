@@ -1,0 +1,807 @@
+{
+  "id": "58d63e3da78367d1397b4891d37651d9",
+  "type": "blog",
+  "subtype": "default",
+  "renderer": "native",
+  "arcId": "RPWNCKP56BEVJP5Z4WX4IKGV4M",
+  "title": "‘Just causing havoc’: Transportation Department suspends EV charger program",
+  "blurb": "Trump officials are targeting a $5 billion program to build EV chargers along highways.",
+  "contenturl": "https://www.washingtonpost.com/climate-environment/2025/02/06/trump-ev-charging-halt-transportation-department/",
+  "content_type": "article",
+  "shareurl": "https://www.washingtonpost.com/climate-environment/2025/02/06/trump-ev-charging-halt-transportation-department/",
+  "source": "the-washington-post",
+  "section": "Climate-environment",
+  "sourcesection": "climate",
+  "sourcesubsection": "climate - climate-policy",
+  "sourcecategory": "Climate-environment",
+  "lmt": 1739371118865,
+  "published": 1739371118865,
+  "first_published": 1738894514507,
+  "display_date": 1738946253109,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7EPTIMXPGFB5XNSUT5WR32FR4Q.jpg",
+  "sourceslug": "EVCHARGERPAUSE",
+  "commercialnode": "/climate-environment/climate-politics-policy",
+  "omniture": {
+    "title": "Trump administration orders halt to national EV charger program - The Washington Post",
+    "pageName": "trump-ev-charging-halt-transportation-department",
+    "channel": "climate",
+    "contentId": "nullRPWNCKP56BEVJP5Z4WX4IKGV4M",
+    "contentType": "story - default",
+    "contentSource": "the-washington-post",
+    "contentTopics": "Climate Politics & Policy;Climate;Business of Climate",
+    "newsroomDesk": "climate;climate",
+    "newsroomSubdesk": "environment;(not set)",
+    "contentAuthor": "shannon osaka;jake spring",
+    "authorId": "osakas;springj",
+    "authorType": "staff writer;(not set)",
+    "subSection": "climate - climate-policy",
+    "arcId": "RPWNCKP56BEVJP5Z4WX4IKGV4M",
+    "trackingTags": "story-has-edit-branch;created from template id tsjkzy2livf5tkpg7sglpxzsra;methode-draft;ce-climatepolicy;ai-takeaways;has-bright;audio-article"
+  },
+  "version": 2,
+  "tags": "story-has-edit-branch,created from template id tsjkzy2livf5tkpg7sglpxzsra,methode-draft,ce-climatepolicy,ai-takeaways,has-bright,audio-article",
+  "items": [
+    {
+      "content": "Climate Politics & Policy",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Climate"
+    },
+    {
+      "content": "‘Just causing havoc’: Transportation Department suspends EV charger program",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "Billions of dollars set to flow to fast EV chargers along highways is at risk.",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "content": 1738946253109,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/RPWNCKP56BEVJP5Z4WX4IKGV4M/20250207-163136.363/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/RPWNCKP56BEVJP5Z4WX4IKGV4M/20250207-163136.363/current.mp3?awCollectionId=/climate-environment/climate-policy&awEpisodeId=RPWNCKP56BEVJP5Z4WX4IKGV4M&tags=ce-climatepolicy%7Cai-takeaways%7Caudio-article",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/RPWNCKP56BEVJP5Z4WX4IKGV4M/20250207-163136.363/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7EPTIMXPGFB5XNSUT5WR32FR4Q.jpg",
+        "imageWidth": 3000,
+        "imageHeight": 1890,
+        "fullcaption": "(Justin Sullivan/Getty Images)"
+      },
+      "title": {
+        "content": "‘Just causing havoc’: Transportation Department suspends EV charger program",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "Climate Politics & Policy",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "Climate"
+      },
+      "date": {
+        "content": 1738946253109,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      },
+      "duration": 417000
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7EPTIMXPGFB5XNSUT5WR32FR4Q.jpg",
+      "imageWidth": 3000,
+      "imageHeight": 1890,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Pedestrians walk by an electric vehicle charging station in Corte Madera, California. The Trump administration has ordered a halt on EV charging programs. (Justin Sullivan/Getty Images)",
+      "blurb": "Pedestrians walk by an electric vehicle charging station in Corte Madera, California. The Trump administration has ordered a halt on EV charging programs."
+    },
+    {
+      "content": "By Shannon Osaka and Jake Spring",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "osakas",
+          "url": "https://www.washingtonpost.com/people/shannon-osaka/",
+          "name": "Shannon Osaka",
+          "bio": "Shannon Osaka is a climate reporter covering policy, culture, and science for The Washington Post. Before joining The Post, she was a climate reporter at the nonprofit environmental outlet Grist.",
+          "expertise": "Climate zeitgeist reporter",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/5debe7cc-65b5-49e4-9006-89fb2ba49098.png"
+        },
+        {
+          "id": "springj",
+          "url": "https://www.washingtonpost.com/people/jake-spring/",
+          "name": "Jake Spring",
+          "bio": "Jake Spring is a climate and environment enterprise reporter. Prior to joining The Washington Post, he worked as a Reuters correspondent in Brazil and China, served as editor of China Economic Review and covered business in South Carolina.",
+          "expertise": "Climate and Environment Enterprise Reporter",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/4d5a59c7-762e-4bdf-bbec-a2c866a4131c.jpeg"
+        }
+      ]
+    },
+    {
+      "arcId": "GQFOM232KRCYFHJB7RPRQKLJ4Q",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "States trying to build a network of EV chargers are reeling after the Trump administration abruptly ordered a halt to a $5 billion program to build the chargers on highways nationwide."
+    },
+    {
+      "arcId": "VI7LGSBAIFFX3HTCNESEEPVAJE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "In a <a href=\"https://www.fhwa.dot.gov/environment/nevi/resources/state-plan-approval-suspension.pdf\">memo</a> released Thursday, the Federal Highway Administration ordered states to halt the National Electric Vehicle Infrastructure program, which President Donald Trump cited as an example of the Green New Deal. So far, states are now split, with some putting their program on pause and at least three planning to continue to fulfill existing contracts."
+    },
+    {
+      "arcId": "WPJ6CC4ZP5E7PD6CWY76U45MBQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The letter informs state transportation directors — who are in charge of administering the program — that any plans approved by the Biden administration are now suspended until the Transportation Department provides new guidelines in the spring. “Effective immediately, no new obligations may occur under the NEVI Formula Program,” the letter reads."
+    },
+    {
+      "type": "toggle",
+      "subtype": "topic-follow",
+      "key": "CP-10"
+    },
+    {
+      "arcId": "XPW5ELIRG5HLRPLZX6EBJ3JDHE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The order, which comes as many states are still working to build out their public chargers supported by $5 billion in grants, could strike a major blow to an industry that has experienced slower-than-expected sales and could lose critical federal tax incentives in coming months. On Wednesday, Ford Motor Co. projected it could lose as much as $5.5 billion this year on its EV and software business."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "tall",
+      "adPath": "/climate-environment/climate-politics-policy",
+      "primarySectionID": "/climate-environment/climate-policy"
+    },
+    {
+      "arcId": "LALJI6E5WBCLNA7ZJEOODAJ544",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Just 55 charging stations have been built so far, according to data from the analytics firm Paren."
+    },
+    {
+      "arcId": "IDYKJS46YVHEZDPTVGFAV2U2P4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Vermont Agency of Transportation officials said Friday that they will suspend their program, having built only one charging station with four chargers funded by NEVI for about $700,000. The state had already awarded 11 projects for an additional 60 charging ports, but those will all go on hold, said Patrick Murphy, the agency’s state policy director. More than $20 million in NEVI funding promised to the state is now at risk, he said."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/climate-environment/climate-politics-policy",
+      "primarySectionID": "/climate-environment/climate-policy"
+    },
+    {
+      "arcId": "DAKWRK44H5FY3M4BRXT66REPGM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“People really feel they need to have better charging infrastructure before they take the step in making an electric vehicle purchase or lease,” Murphy said. “This has nothing to do with promoting true consumer choice. This will actively limit choice.”"
+    },
+    {
+      "arcId": "BMVXX3IFHNBSTHRR5ZNWW6DP44",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "A Michigan Department of Transportation spokeswoman said the state would pause its second round of bidding for projects and try to determine the impact on more than 30 charging stations that are in various stages of being contracted out. A Maine Department of Transportation spokesman said the directive does not affect the $15 million it has already promised to spend on charging stations, but it would await federal guidance on the additional $4 million in funding it expected for next year."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/climate-environment/climate-politics-policy",
+      "primarySectionID": "/climate-environment/climate-policy"
+    },
+    {
+      "arcId": "YJPOE3SZGFDFVLQDPUE2NOAF4U",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Pennsylvania, meanwhile, has yet to change course on its EV charger rollout. A person with knowledge of Pennsylvania’s state-level program, who spoke on the condition of anonymity because of the sensitivity of the matter, said there had been no communications with the federal government and that they planned to keep delivering charging projects that had already been awarded until told otherwise. But the state would not offer new solicitations for building further stations, this person added."
+    },
+    {
+      "arcId": "QAHVHC76RRAV5HOW4QK5577X3Y",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "A Kentucky Transportation Cabinet spokeswoman said the state is similarly moving forward with its program, including 48 charging stations that had been promised $32.9 million in federal funding."
+    },
+    {
+      "arcId": "FMEWK6YCPBGTLIUET4L334AZDA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "And a Texas Department of Transportation official said it would continue to deploy federal funds for EV chargers until it receives further guidance."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/climate-environment/climate-politics-policy",
+      "primarySectionID": "/climate-environment/climate-policy"
+    },
+    {
+      "arcId": "4VDR74LMDFF35JJRBVNVBETVFU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“I don’t believe FHWA has the authority to do this,” said Loren McDonald, Paren’s chief analyst and an expert on the charging program, in an email."
+    },
+    {
+      "arcId": "Q7DYXZWF4NDDNAXEPU5WPCOJSM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The memo was first reported by InsideEVs."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/climate-environment/climate-politics-policy",
+      "primarySectionID": "/climate-environment/climate-policy"
+    },
+    {
+      "arcId": "JQRV2ZHL6JD35NQPITKWE7RTVU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The program, which Congress approved under the bipartisan infrastructure law, was intended to help fill gaps in the nation’s EV charging network and boost consumer confidence to buy electric vehicles. The law also provided another $2.5 billion for chargers in communities and neighborhoods."
+    },
+    {
+      "arcId": "JQWM2CM47JDK7GAM7MBZQKLB4A",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "States had to submit plans to the Transportation Department<b> </b>on how they would use the funds; once their plans were approved, they could begin building out stations. To date, approximately $3.3 billion has been allocated to states, according to Paren."
+    },
+    {
+      "arcId": "CPL6KPXYAZCA3EX6VXUEP3CLCU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "But the new memo puts that funding in jeopardy. Even states that have approved plans do not have the money in hand — as part of the program, they send invoices to the federal government after meeting key milestones. “The states don’t get the money that’s been obligated to them until they submit an invoice to FHWA,” McDonald said."
+    },
+    {
+      "arcId": "TTN7PBZ7EZHRTJUFCBIXUDETNU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "According to the memo, states will continue to receive “reimbursement of existing obligations.” Experts said that indicates states that already have a contract with a charging company will be able to fulfill it — but any unfinished<b> </b>contracts will probably be on hold."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/climate-environment/climate-politics-policy",
+      "primarySectionID": "/climate-environment/climate-policy"
+    },
+    {
+      "arcId": "2XAKZ3A3GFAVJMKJZXGE76DXMY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Trump has long railed against what he calls an EV “mandate,” and he criticized the Biden administration’s attempts to create programs to boost electric vehicle sales. In an executive order on the first day of his presidency, Trump ordered the federal government to <a href=\"https://www.washingtonpost.com/business/2025/01/22/trump-ev-cars-mandate/\">terminate “the Green New Deal,” </a>“including but not limited to funds for electric vehicle charging stations.” Charging station grants were the only specific clean energy program mentioned in the executive order."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/climate-environment/climate-politics-policy",
+      "primarySectionID": "/climate-environment/climate-policy"
+    },
+    {
+      "arcId": "QYOLPFS5AZD2FMOJFROD5CNNXM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The president has continued to target electric vehicles, even while he maintains a close alliance with <a href=\"https://www.washingtonpost.com/politics/2025/02/05/elon-musk-democrats-trump-doge/\">Elon Musk</a>, the CEO of Tesla. Tesla has been a key recipient of charging grants, and it has the largest fast-charger network in the country. But Musk has previously said that cuts to EV benefits, such as the $7,500 EV tax credit, will be <a href=\"https://www.washingtonpost.com/technology/2024/07/23/tesla-secondquarter-earnings-slump/\">more painful for the company’s rival automakers</a> than Tesla, even if his company might suffer in the short term."
+    },
+    {
+      "arcId": "HHAF2L5ZEVFENBXL37LTCQEK7I",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "One of Tesla’s competitors said Americans are still buying electric vehicles despite the shift in Washington. Ford spokesman Marty Gunsberg said in an interview Friday that most of its customers charge at home and rarely use public charging infrastructure, and the company offers a home charger and installation with every electric vehicle it sells."
+    },
+    {
+      "arcId": "ARGE2DSFJJB3HMU42D7HKU5ZCU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Some states, including Rhode Island, Missouri, Alabama and Oklahoma, had already publicly confirmed that they were pausing<b> </b>their EV charger programs before the memo was released."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/climate-environment/climate-politics-policy",
+      "primarySectionID": "/climate-environment/climate-policy"
+    },
+    {
+      "arcId": "VAUY77XCGNCZLJFIP4PJ5YUNYA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Barbara LaBoe, the deputy communications director for the Washington State Department of Transportation, said the new order affects most of the $102 million the state had been promised for EV chargers. “We are still seeking more information about all specifics of this suspension,” she said in an email."
+    },
+    {
+      "arcId": "UVWT6NX3QRHLFE7CUOPXJGH73Y",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The state has no outstanding invoices with the federal government, she added. “Due to the uncertainty of funding we held off on making any decisions regarding project awards at this time,” she said."
+    },
+    {
+      "arcId": "FOJ2QC36LBCUDIDH676SKHWLQM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Ryan Gallentine, managing director at the national business association Advanced Energy United, said that states “are under no obligation to stop these projects based solely on this announcement.”"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/climate-environment/climate-politics-policy",
+      "primarySectionID": "/climate-environment/climate-policy"
+    },
+    {
+      "arcId": "W7VOUXMHAFB3TNWSPHOFSGY6XM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“We call on state DOTs and program administrators to continue executing this program until new guidance is finalized,” Gallentine added."
+    },
+    {
+      "arcId": "2MGC2N3W6NHDXFUS3AGHJE4GKQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Fewer chargers may affect consumer appetite to buy electric vehicles in the long term, said Gil Tal, director of the Electric Vehicle Research Center at the University of California at Davis. But the Trump administration has already dealt a more immediate blow to the EV market, he added — by moving to roll back rules on car emissions that would have effectively required auto companies to make more electric cars."
+    },
+    {
+      "arcId": "GBLU2LAJ4FHDZFTTMCMZ2AKP7M",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Some said they believe that the Trump administration’s move may provoke legal action. “I’m assuming the lawsuits from states will start soon, and this will go to court and Congress,” McDonald said. “But the Trump administration will succeed in just causing havoc and slowing things down for a while.”"
+    },
+    {
+      "arcId": "OR6GPZ3NKZBJZK4BO6VRQU447Q",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i>Maxine Joselow contributed to this report</i>."
+    },
+    {
+      "type": "link",
+      "subtype": "comments"
+    },
+    {
+      "type": "author_info",
+      "id": "osakas",
+      "name": "Shannon Osaka",
+      "bio": "Shannon Osaka is a climate reporter covering policy, culture, and science for The Washington Post. Before joining The Post, she was a climate reporter at the nonprofit environmental outlet Grist.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/5debe7cc-65b5-49e4-9006-89fb2ba49098.png",
+      "role": "Climate zeitgeist reporter"
+    },
+    {
+      "type": "author_info",
+      "id": "springj",
+      "name": "Jake Spring",
+      "bio": "Jake Spring is a climate and environment enterprise reporter. Prior to joining The Washington Post, he worked as a Reuters correspondent in Brazil and China, served as editor of China Economic Review and covered business in South Carolina.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/4d5a59c7-762e-4bdf-bbec-a2c866a4131c.jpeg",
+      "role": "Climate and Environment Enterprise Reporter"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "blogname": "Climate Politics & Policy",
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/RPWNCKP56BEVJP5Z4WX4IKGV4M/20250207-163136.363/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/RPWNCKP56BEVJP5Z4WX4IKGV4M/20250207-163136.363/current.mp3?awCollectionId=/climate-environment/climate-policy&awEpisodeId=RPWNCKP56BEVJP5Z4WX4IKGV4M&tags=ce-climatepolicy%7Cai-takeaways%7Caudio-article",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/RPWNCKP56BEVJP5Z4WX4IKGV4M/20250207-163136.363/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7EPTIMXPGFB5XNSUT5WR32FR4Q.jpg",
+      "imageWidth": 3000,
+      "imageHeight": 1890,
+      "fullcaption": "(Justin Sullivan/Getty Images)"
+    },
+    "title": {
+      "content": "‘Just causing havoc’: Transportation Department suspends EV charger program",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "Climate Politics & Policy",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Climate"
+    },
+    "date": {
+      "content": 1738946253109,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    },
+    "duration": 417000
+  },
+  "first_display_date": 1738894513542,
+  "targeting": {
+    "adcall": [
+      {
+        "key": "ca",
+        "values": [
+          "rcisc",
+          "r1zb8",
+          "r66hu",
+          "r5zn0",
+          "r71iv",
+          "rnfyo",
+          "rddr6",
+          "rdisi",
+          "ryiid",
+          "rjba6",
+          "r63ky",
+          "r1djc",
+          "rj98c",
+          "r7q72",
+          "rfrmj",
+          "riv2l",
+          "r0yv2",
+          "r6x7c",
+          "rvt6h",
+          "rxvfu",
+          "rqy2y",
+          "rcvrb",
+          "rpkxx",
+          "rohf5",
+          "reest",
+          "rqqn2",
+          "rycv4",
+          "rysqo",
+          "ru0hj",
+          "r2x7m",
+          "rjls7",
+          "rpsbt",
+          "rnryg",
+          "rihsc",
+          "rh065",
+          "rojxy",
+          "ry4ek",
+          "r8pmm",
+          "r6iq7",
+          "r4fvv",
+          "r30iy",
+          "rw76f",
+          "rh22v",
+          "rhwg4",
+          "rc28c",
+          "r82mu",
+          "rsqg7",
+          "rl43b",
+          "rt96h",
+          "r6jbe",
+          "ryx8n",
+          "rkgjf",
+          "r1yqm",
+          "raw34",
+          "r6g4r",
+          "r8euu",
+          "r03o4",
+          "rjl3v",
+          "rkpsc",
+          "r0tke",
+          "r02mg",
+          "rm3lz",
+          "r785o",
+          "rjuyh",
+          "rzfmu",
+          "r35ap",
+          "rz25l",
+          "r3hdp",
+          "rynal",
+          "rayu0",
+          "r7d9r",
+          "rl7yb",
+          "rsmxd",
+          "rt5dp",
+          "r7tmu",
+          "rzqdp",
+          "r3t9e",
+          "r4avn",
+          "rva7x",
+          "r3bxp",
+          "rwsk4",
+          "rlugb",
+          "r3ykj",
+          "r95gm",
+          "rwlh3",
+          "rhfzk",
+          "rqs5o",
+          "rmikf",
+          "r4t4y",
+          "r35lh",
+          "r2x21",
+          "rxvz3",
+          "r48wg",
+          "rj2ns",
+          "rfz4c",
+          "rk7m0",
+          "rh5xk",
+          "rd7vl",
+          "r8hz2",
+          "rgepe",
+          "rfxvv",
+          "ra7me",
+          "r1fne",
+          "rayex",
+          "r5hej",
+          "ratb5",
+          "rhll0",
+          "rrhwk",
+          "rtbcp",
+          "rgpk6",
+          "r3es4",
+          "rd270",
+          "ry25b",
+          "rx8m9",
+          "rxpwi",
+          "rd18m",
+          "rsesv",
+          "r2hzw",
+          "rggwa",
+          "rwaiy",
+          "r1jfj",
+          "rx4px",
+          "r69iu",
+          "rll0u",
+          "r2qu2",
+          "rbgqk",
+          "rs7c2",
+          "rsoqi",
+          "rjvyd",
+          "rxeck",
+          "rcase",
+          "rlz8o",
+          "rle1y",
+          "rdfqf",
+          "r0227",
+          "r5lck",
+          "rvhux",
+          "rvywr",
+          "rdlnx",
+          "rkxir",
+          "rg1ny",
+          "rc6uk",
+          "riklp",
+          "r301t",
+          "rf0ll",
+          "rbjys",
+          "rh52g",
+          "rhsqk",
+          "rapws",
+          "rlv7a",
+          "rh5p3",
+          "rvn0g",
+          "romxp",
+          "rljoh",
+          "rehh9",
+          "rloc3",
+          "rmk71",
+          "r3mmv",
+          "r0kbr",
+          "rqyhw",
+          "rer82",
+          "rrqij",
+          "rtdzb",
+          "r3mmr",
+          "r78zx",
+          "rht4j",
+          "rzb5u",
+          "r0new",
+          "rkkqd",
+          "r0hej",
+          "r44lb",
+          "rdrh1",
+          "r1nqd",
+          "r05in",
+          "r0too",
+          "rh3py",
+          "r93fz",
+          "r1a2g",
+          "rjrvp",
+          "r8218",
+          "revmo",
+          "rypnm",
+          "rqvzr",
+          "rdluz",
+          "r7e5f",
+          "r2dwe",
+          "r6h78",
+          "rt9p2",
+          "r0yto",
+          "rtsg3",
+          "r9hok",
+          "rv05p",
+          "ru14c",
+          "r6eks",
+          "r50pl",
+          "rg5cq",
+          "rtc0b",
+          "rblyo",
+          "ribdm",
+          "rlc5f",
+          "rn1ry",
+          "rd1zm",
+          "r6f4o"
+        ]
+      },
+      {
+        "key": "wapoTopics",
+        "values": [
+          "elvd",
+          "x2ec",
+          "trqe"
+        ]
+      },
+      {
+        "key": "wapoTopicNextVer",
+        "values": [
+          "x2ec",
+          "trqe",
+          "gvtw",
+          "elvd"
+        ]
+      },
+      {
+        "key": "se",
+        "values": [
+          "i7kn"
+        ]
+      },
+      {
+        "key": "bs",
+        "values": [
+          "garm_safe",
+          "wapo_rsk_low"
+        ]
+      }
+    ],
+    "permutive_dict": {
+      "article": {
+        "customTopics": [
+          "[rljoh] Energy",
+          "[rht4j] American History",
+          "[rzb5u] Trump and Associates Legal Action",
+          "[rh3py] Strategy, Management",
+          "[r93fz] Fortune 500",
+          "[r1a2g] Labor",
+          "[rjrvp] POTUS",
+          "[r8218] Construction, Engineering",
+          "[revmo] Congress",
+          "[rypnm] Republicans",
+          "[rdluz] Health Care Policy",
+          "[rt9p2] Pop Culture",
+          "[r0yto] Inspiring",
+          "[rv05p] Graduate Education",
+          "[ru14c] Affluent",
+          "[rblyo] Gift Guides",
+          "[rn1ry] Civil Engineering"
+        ],
+        "wapoTopics": [
+          "[3:elvd] /lifestyle/cars/electric_vehicles",
+          "[1:x2ec] /politics",
+          "[1:trqe] /transportation"
+        ],
+        "wapoTopicNextVer": [
+          "[1:x2ec] /politics",
+          "[1:trqe] /transportation",
+          "[2:gvtw] /transportation/green_vehicle_technology",
+          "[3:elvd] /transportation/green_vehicle_technology/electric_vehicles"
+        ],
+        "sentiment": [
+          "[i7kn] negative"
+        ],
+        "publishDate": "2025-01-29T17:15:30.821Z",
+        "lastUpdateDate": "2025-02-12T14:36:47.209Z",
+        "authorName": [
+          "shannon osaka",
+          "jake spring"
+        ],
+        "authorType": [
+          "author",
+          "author"
+        ],
+        "newsroomDesk": [
+          "climate",
+          "climate"
+        ],
+        "newsroomSubdesk": [
+          "environment"
+        ],
+        "contentType": "story - default",
+        "language": "en",
+        "wordCount": 1249
+      },
+      "canonicalUrl": "/climate-environment/2025/02/06/trump-ev-charging-halt-transportation-department/",
+      "section": "climate",
+      "subsection": "climate - climate-policy",
+      "commercialNode": "/climate-environment/climate-politics-policy"
+    }
+  },
+  "show_summary": true,
+  "summary1": {
+    "id": "URNRM4BL7VFN5CSFLEL6ROTRYM",
+    "url": "https://www.washingtonpost.com/climate-environment/2025/02/06/trump-ev-charging-halt-transportation-department/",
+    "items": [
+      "Federal Highway Administration halts $5 billion EV charger program.",
+      "States' approved plans are suspended pending new guidelines.",
+      "Funding for EV chargers is now in jeopardy.",
+      "Trump administration opposes EV initiatives, citing Green New Deal.",
+      "Legal action from states against the suspension is anticipated."
+    ]
+  },
+  "comments": "https://www.washingtonpost.com/climate-environment/2025/02/06/trump-ev-charging-halt-transportation-department/?outputType=comment"
+}

@@ -1,0 +1,14 @@
+{
+  "entries": [
+    {
+      "blurb": "test-blurb",
+      "web_headline": "test-web_headline",
+      "canonical_url": "test-canonical_url",
+      "wrapper": {
+        "feature": {
+          "label": "test-label"
+        }
+      }
+    }
+  ]
+}

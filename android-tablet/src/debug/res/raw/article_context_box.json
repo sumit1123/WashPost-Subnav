@@ -1,0 +1,1233 @@
+{
+  "id": "d8ff91b1c14251f0c6b995387060df0a",
+  "type": "blog",
+  "subtype": "default",
+  "renderer": "native",
+  "arcId": "I5YWCLKGOBAX7I32IC5643JT5Y",
+  "title": "One year after Key Bridge tragedy, Maryland officials face scrutiny",
+  "blurb": "Inadequate safety rules, poor oversight and unclear communication protocols meant that workers on the Baltimore bridge were not warned until it was too late.",
+  "contenturl": "https://www.washingtonpost.com/dc-md-va/2025/03/26/key-bridge-collapse-annivesary-dali/",
+  "content_type": "article",
+  "shareurl": "https://www.washingtonpost.com/dc-md-va/2025/03/26/key-bridge-collapse-annivesary-dali/",
+  "source": "the-washington-post",
+  "section": "Local",
+  "sourcesection": "local",
+  "sourcesubsection": "local - maryland",
+  "sourcecategory": "Local",
+  "lmt": 1742991918048,
+  "published": 1742991918048,
+  "first_published": 1742984135590,
+  "display_date": 1742988282474,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/36RGBIMMJRFVJJAOEI4JVS3XF4.jpg",
+  "sourceslug": "keybridgeaccountability",
+  "commercialnode": "/local/maryland-news",
+  "omniture": {
+    "title": "One year after Key Bridge tragedy, Maryland officials face scrutiny - The Washington Post",
+    "pageName": "key-bridge-collapse-annivesary-dali",
+    "channel": "local",
+    "contentId": "nullI5YWCLKGOBAX7I32IC5643JT5Y",
+    "contentType": "story - default",
+    "contentSource": "the-washington-post",
+    "contentTopics": "Maryland;D.C., Md. & Va.",
+    "newsroomDesk": "metro;metro",
+    "newsroomSubdesk": "local - police & courts;local - politics & government",
+    "contentAuthor": "katie mettler;teo armus",
+    "authorId": "mettlerk;armust",
+    "authorType": "(not set);staff writer",
+    "subSection": "local - maryland",
+    "arcId": "I5YWCLKGOBAX7I32IC5643JT5Y",
+    "trackingTags": "story-has-edit-branch;created from template id od4tnk4yujhqvck3v4itblbn7y;methode-draft;collections-maryland;ai-takeaways;audio-article"
+  },
+  "version": 2,
+  "tags": "story-has-edit-branch,created from template id od4tnk4yujhqvck3v4itblbn7y,methode-draft,collections-maryland,ai-takeaways,audio-article",
+  "items": [
+    {
+      "content": "Maryland",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Maryland",
+      "path": "/local/maryland"
+    },
+    {
+      "content": "One year after Key Bridge tragedy, Maryland officials face scrutiny",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "State officials have said the Francis Scott Key Bridge collapse was the \u201csole fault\u201d of the owner and operator of the Dali cargo ship. Government records show the six deaths could have been prevented.",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "content": 1742988282474,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/I5YWCLKGOBAX7I32IC5643JT5Y/20250326-082513.135/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/I5YWCLKGOBAX7I32IC5643JT5Y/20250326-082513.135/current.mp3?awCollectionId=/local/maryland&awEpisodeId=I5YWCLKGOBAX7I32IC5643JT5Y&tags=collections-maryland%7Cai-takeaways%7Caudio-article",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/I5YWCLKGOBAX7I32IC5643JT5Y/20250326-082513.135/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/36RGBIMMJRFVJJAOEI4JVS3XF4.jpg",
+        "imageWidth": 2040,
+        "imageHeight": 1360,
+        "fullcaption": "(Illustration by Anna Lefkowitz/The Washington Post; Hadley Green, Carolyn Van Houten/The Washington Post)"
+      },
+      "title": {
+        "content": "One year after Key Bridge tragedy, Maryland officials face scrutiny",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "Maryland",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "Maryland",
+        "path": "/local/maryland"
+      },
+      "date": {
+        "content": 1742988282474,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      },
+      "duration": 731000
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/36RGBIMMJRFVJJAOEI4JVS3XF4.jpg",
+      "imageWidth": 2040,
+      "imageHeight": 1360,
+      "image_type": "illustration",
+      "widthFactor": "full-bleed",
+      "fullcaption": "(Illustration by Anna Lefkowitz/The Washington Post; Hadley Green, Carolyn Van Houten/The Washington Post)",
+      "blurb": ""
+    },
+    {
+      "content": "By Katie Mettler and Teo Armus",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "mettlerk",
+          "url": "https://www.washingtonpost.com/people/katie-mettler/",
+          "name": "Katie Mettler",
+          "bio": "Katie Mettler is a reporter covering state government and criminal justice in Maryland. She joined The Post in 2016 and has covered local and national national breaking news, courts, policing, politics and criminal justice policy. She previously worked at the Tampa Bay Times in St. Petersburg, Fla.",
+          "expertise": "Reporter covering policing, courts and justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/05aaf951-1996-4c85-81cd-049d7a6fd7ca.png"
+        },
+        {
+          "id": "armust",
+          "url": "https://www.washingtonpost.com/people/teo-armus/",
+          "name": "Teo Armus",
+          "bio": "Teo Armus is a Metro reporter for The Washington Post, covering government, people and politics in Northern Virginia and immigrant communities across the D.C. region. Send him secure tips on Signal at teoarmus.27.",
+          "expertise": "Local reporter covering immigration in the D.C. metro area and politics and regional issues in Northern Virginia",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1025bd93-672f-4516-8b0e-2ab9e699e1ca.png"
+        }
+      ]
+    },
+    {
+      "arcId": "67KPGRCJNJBEXF2SAF7Y46G3YY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Damon Davis was walking to his car, parked on the south end of the Francis Scott Key Bridge in Baltimore, when he felt the roadway shake."
+    },
+    {
+      "type": "toggle",
+      "subtype": "offer",
+      "key": "subscribe-promo"
+    },
+    {
+      "arcId": "7VNQ7NL6N5DWBO5NLWFB4OMPM4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "It was the middle of the night one year ago Wednesday and Davis, a construction inspector overseeing a seven-man road repair crew, could see nothing but darkness across the Patapsco River. But he heard a thunderous crunch, he would later tell investigators, so he ran."
+    },
+    {
+      "arcId": "7DRZHCE2JNGI3K7SBCHARGVSLY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Behind him, the sprawling bridge was falling \u2014 plunging his car and the work crew 185 feet into the icy waters below."
+    },
+    {
+      "type": "toggle",
+      "subtype": "topic-follow",
+      "key": "CP-15"
+    },
+    {
+      "arcId": "RUOA3WXMWJHWLETGQNLHB2GFGE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Davis reached for his cellphone, he said, the one that Maryland officials were supposed to call in case of an emergency.<b> </b>But it never rang. Not at 1:27 a.m., about two minutes before the bridge collapsed, when a 984-foot<b> </b>cargo ship called the Dali issued a mayday call that the vessel had lost power. Not moments later, when Maryland Transportation Authority officials told police to stop all traffic crossing the span as the Dali drifted toward one of the bridge\u2019s support pillars. Not when those officers realized there was a work crew still on the bridge."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "tall",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "5YG63YMXFBARZLNGWUZHNNTBIE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "One year later, it\u2019s still not clear why the men working on the Key Bridge that night were never warned \u2014 and what, if anything, has changed to prevent a tragedy like this one, which <a href=\"https://www.washingtonpost.com/dc-md-va/2024/03/27/bridge-victims-ship-crash/\">killed six of the workers</a> and left the two survivors reeling."
+    },
+    {
+      "arcId": "UQZV45VD1N2EZBBR89TZG0Q0AM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Amid a flurry of ongoing lawsuits, Gov. Wes Moore (D) and Maryland Transportation Authority officials have said the Key Bridge collapse was the \u201csole fault\u201d of the owner and operator of the Dali cargo ship, Grace Ocean Private Limited and Synergy Marine Group."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "P7H1VRGFTH1VXDFNWHKJJJQXPR",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "But a Washington Post review of thousands of pages of documents related to the Key Bridge tragedy found that lenient safety requirements and lax state oversight \u2014 which spanned the administrations of at least six governors \u2014 made the bridge and the men working on it less safe."
+    },
+    {
+      "arcId": "1JDAYE03TN2ZZ5RCJCYB4FXKK4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "A safety plan assembled by the private contractor that employed the work crew and approved by Maryland officials banned cellphone usage on the jobsite, records show, but did not lay out how to reach workers in case of an emergency. The crew had no radios, walkie-talkies or direct lines to state officials. All communications to them came from Davis."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "FTTVZ11M157GFAZGTYK8KJNQ2M",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Still coping with the trauma of the collapse, Davis declined to be interviewed for this story through his attorneys, who said their client has \u201cmore questions than answers\u201d about that night."
+    },
+    {
+      "arcId": "VXNCVZW9XH0F1ENKX5JU1CFMDW",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The increased scrutiny on Maryland officials comes as the National Transportation Safety Board concluded last week that the state could have mitigated the Key Bridge\u2019s vulnerability to ship strikes but did not \u2014 despite recommendations to study the risk in 1991 and again in 2009."
+    },
+    {
+      "arcId": "FJX4G6VFQZA4BGJHZ3JIMTAUYA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Moore\u2019s office declined to address questions about the state\u2019s responsibility in the collapse, citing ongoing litigation. A spokesperson, Carter Elliott, said the governor had \u201cmade it his mission to ensure those families found closure, and that they were protected following the loss of their loved ones.\u201d"
+    },
+    {
+      "arcId": "684RV35AZH10Q8V5P6GJ62K9W0",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The men would still be alive today and the bridge still standing if not for \u201cthe reckless operation\u201d of the Dali, Elliott said, whose crew \u201cnever blew the ship\u2019s horn to alert people on the bridge, including the workers, that the Dali was out of control.\u201d"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "QG2SFUGUP5HKXH6ZBH63JMURVI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "As the state commemorates what could become the most expensive maritime disaster in modern history,<b> </b>victims of the tragedy say they, too, hold the Dali responsible. But they also want change."
+    },
+    {
+      "arcId": "YTZ0NG7PFN5795N9X2F1QP81Q4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "\u201cSomeone should have said: \u2018Run, there\u2019s an emergency, run.\u2019 They could have called right away,\u201d said <a href=\"https://www.washingtonpost.com/dc-md-va/2024/09/17/key-bridge-collapse-miguel-luna/\">Mar\u00eda del Carmen Castell\u00f3n</a>, whose husband, Miguel Luna, was one of the six men who died in the collapse. \u201cMaybe if there had been more rigor, our family members would still be with us.\u201d"
+    },
+    {
+      "arcId": "B5YNP81DY1765AXB8Y3DVGC6WM",
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "A 20-year-old warning",
+      "subhead_level": 2
+    },
+    {
+      "arcId": "BR4DEFUXTNDOFGAITO32I4U2PM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Twenty years before the collapse, one of Maryland\u2019s key maritime safety committees discussed the need for clear communication protocols in case a ship \u201cdangerously veered\u201d toward the Bay and Key bridges."
+    },
+    {
+      "arcId": "Z7ZEBQJ3RFHJDFIQN53XS5MB6Y",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "One member asked if there was a hotline available to quickly stop traffic, according to a <a href=\"https://www.washingtonpost.com/investigations/2024/05/23/key-bridge-warnings-ship-strikes/\">Post review of minutes</a> of that 2004 meeting held by the Baltimore Harbor Safety and Coordination Committee. For the next six years, that member, a veteran ship captain and representative of the Association of Maryland Pilots, repeated his concern over emergency communication protocols, the minutes show."
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X7FE7AGMJFMY42J6GDYNBFS4II_size-normalized.jpg",
+      "imageWidth": 5223,
+      "imageHeight": 3917,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Wreckage from the Francis Scott Key Bridge sits on top of the Dali, seen on March 31, 2024. Divers had begun assisting in the complicated and meticulous operation of removing steel and concrete. (Mike Pesoli/AP)",
+      "blurb": "Wreckage from the Francis Scott Key Bridge sits on top of the Dali, seen on March 31, 2024. Divers had begun assisting in the complicated and meticulous operation of removing steel and concrete."
+    },
+    {
+      "arcId": "CYPU7KESSZCHBOYJVYFPBDRQFI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "In December 2023, a different committee member warned again that the body should consider how crews would communicate in an emergency involving \u201cthe loss of steering or propulsion of a ship approaching the Bay Bridge or Key Bridge.\u201d His concerns, he said, were \u201cdue to the unreliability of reaching someone in the current protocol.\u201d"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "LBC6PMEH3JANTA76GJD6RFZVHU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Three months later, the Dali was on its way to proving those worries were well-founded."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "725MPEJHVBBZ3MZEW7I4ZGG5KY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "At around 1:25 a.m. that March night, the vessel lost power when it was about three ship lengths from the bridge, according to NTSB\u2019s preliminary report on the collapse. The power returned briefly, then blacked out again."
+    },
+    {
+      "arcId": "PP2SZ6DDRVGIFMVF5J5I2LMC4M",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "At 1:27 a.m., ship personnel called the duty officer for the MDTA police."
+    },
+    {
+      "arcId": "BNDVHOGFBFF3PIXRQQJIDANYKU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Mayday."
+    },
+    {
+      "arcId": "GTET62LYUNH2PDFVZXDTCVSY3E",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "At about 1:28 a.m., the duty officer ordered two policemen near the bridge to block all traffic. \u201cIs there a crew working on the bridge right now?\u201d he asked them by radio. \u201cYou might want to notify whoever the foreman is. See if we can get them off the bridge temporarily.\u201d"
+    },
+    {
+      "arcId": "RLMC65AYIVCRVMIYLEU7FOALV4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "One officer, a 13-year veteran, said he would drive on the bridge to \u201cgo grab the workers\u201d once backup arrived."
+    },
+    {
+      "arcId": "7U6YSKA3IJHBRDH7UVBMDFO4YY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Ten seconds later, at about 1:29 a.m., a second officer spoke into the radio: \u201cStart, start, whoever, everybody,\u201d he said. \u201cThe whole bridge just collapsed.\u201d"
+    },
+    {
+      "arcId": "TZCU2UWM8917V3PV8CJ1XF7DAG",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "At the same time, Davis, who had made it to safety, was frantically calling the work crew\u2019s on-site foreman. But he hung up when he realized he and the others had already disappeared into the water."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "EPYKWNRIYJBIZM4QWLO2VG6F6I",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cI didn\u2019t know what was going on,\u201d Davis would later recount to investigators. \u201cI didn\u2019t know what had happened.\u201d"
+    },
+    {
+      "arcId": "BMK29M5X3X2595CA7ZCFG8MUTW",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Davis said he found law enforcement waiting and dive teams suited up when he reached solid ground. He guided them toward the approximate location of the seven construction crew members when they went down."
+    },
+    {
+      "arcId": "ZPJDGTH75H6AD8PVUJZ133MNGC",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "About 25 minutes after the collapse, a MDTA police boat found one of those men, Julio Cervantes Suarez, who had escaped his truck after it fell into the water by manually rolling down the window and climbing out. He scaled a slab of concrete, he said in a TV interview, and looked for his crew."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "XNG5DPNFF54AK01FKERCYTPWJC",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cI started to call out to each one of them by name,\u201d said Cervantes Suarez, then 37, who suffered a cracked chest plate. \u201cBut no one answered me.\u201d"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WSF2GIIWFWFKYNXCO5PPDIY4W4_size-normalized.JPG",
+      "imageWidth": 5485,
+      "imageHeight": 3657,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Mar\u00eda del Carmen Castell\u00f3n, widow of highway repair worker Miguel Luna, speaks beside a photograph of her late husband, during a news conference with family members and friends of the victims at CASA\u2019s Baltimore worker center in September. (Wesley Lapointe/For The Washington Post)",
+      "blurb": "Mar\u00eda del Carmen Castell\u00f3n, widow of highway repair worker Miguel Luna, speaks beside a photograph of her late husband, during a news conference with family members and friends of the victims at CASA\u2019s Baltimore worker center in September."
+    },
+    {
+      "arcId": "UMCAQYKRMVBC7OARIFZSBEJDTM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "In the weeks that followed, dive crews searched in cold, murky waters to recover the bodies of the other six men. The Port of Baltimore was shuttered for months. The FBI opened a criminal investigation. National transportation safety investigators announced that the vessel had also experienced two electrical blackouts the day before it toppled the Key Bridge."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "155YZT62W542VAWDGC1PX9UM8M",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The tragedy launched Moore into the national spotlight, where in near daily public appearances he said his state was \u201cMaryland Tough\u201d and \u201cBaltimore Strong.\u201d Again and again, he praised the police officers for saving lives by stopping traffic and emphasized his promise to take care of the survivors and their families. He said safety was \u201cparamount.\u201d"
+    },
+    {
+      "arcId": "ZVFH238VR97EVF3TRXFA5TXTZM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "At the six-month anniversary of the collapse, the State of Maryland joined dozens of others in <a href=\"https://www.washingtonpost.com/dc-md-va/2024/09/25/key-bridge-collapse-lawsuits/\">suing the Dali\u2019s owner and operator</a> \u2014 alleging they knowingly allowed a dangerously unseaworthy vessel onto U.S. waters."
+    },
+    {
+      "arcId": "C0A09X790171NANVR7RECEPFUM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "\u201cThe six victims of the collapse should all be here right now,\u201d <a href=\"https://www.washingtonpost.com/dc-md-va/2024/09/24/maryland-files-claims-in-key-bridge-disaster/\">Moore said at the time</a>. \u201cThat\u2019s why accountability matters.\u201d"
+    },
+    {
+      "arcId": "H0XT1RF0M534F0YQJ10DKRB3VM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "What wasn\u2019t clear, though, was whether the state would hold itself accountable, too."
+    },
+    {
+      "arcId": "3BBXU47OO5FF7B3GZYH7GOUN3Q",
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "A new champion for worker safety",
+      "subhead_level": 2
+    },
+    {
+      "arcId": "Y44JNUPEVFB5NKEGLNXRP2YH7Y",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Since Luna\u2019s death, Castell\u00f3n said, she has not been able to shake the questions about how such a tragedy could have been avoided \u2014 and how a similar event could be prevented in the future."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "VA1CT3TH2X4A30U5VDTYDKZEU4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Castell\u00f3n has called on government officials and construction companies<b> </b>to implement stronger labor protections on jobsites. She has joined a lawsuit against the ship\u2019s owner and operator. And<b> </b>she has pushed for undocumented immigrants to be given legal permission to remain in the United States, so they don\u2019t have to resort to working for <a href=\"https://www.washingtonpost.com/business/interactive/2025/osha-workplace-deaths-safety-sawmill/\">employers who skirt safety</a> requirements."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "U6WF3NBEDFA5RAXURM65YRCJMQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cWe often do these hard jobs because we don\u2019t have another option,\u201d Castell\u00f3n said, sitting at a picnic table near the pink-and-white food truck she has continued to operate."
+    },
+    {
+      "arcId": "JIG25TNMUFCJVODXU7O26OOJBM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "In the aftermath of the tragedy, both Moore and former president Joe Biden personally assured Castell\u00f3n that her husband would not be forgotten. Officials quietly pushed to alter her immigration status, securing humanitarian parole protections for<b> </b>her. Thousands of strangers donated funds to support her and the other victims\u2019 families."
+    },
+    {
+      "arcId": "LC4CQNOYPVE2PFPT2YARN2O4FA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The money paid for Luna\u2019s funeral and for his gravestone at the cemetery she visits almost every Sunday. It also almost entirely covered her $2,700 monthly mortgage payments."
+    },
+    {
+      "arcId": "AYTTLVXPPBHPLPDJDRB274KN7E",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "With those funds drying up and any potential legal settlement caught up in a lengthy court process, Castell\u00f3n now worries about losing the small house they bought together in a Baltimore suburb. She is also nervous about the Trump administration\u2019s increasingly aggressive efforts to deport those who have entered the country illegally."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "BCNVORIHAREWVPSPJWGW3JHPBA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Meanwhile, the changes to worker safety for which she advocates have not gotten very far."
+    },
+    {
+      "arcId": "5FYDZIFDGBHEDC3464TK6EQOAE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "In an investigation into the collapse, Maryland Occupational Safety and Health noted that the policies dictating communication between MDTA and the two private contractors who employed the bridge workers were lax."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "6Q75JX6EYH0AQAMYYA5MN62RYG",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Brawner Builders, Inc., the victims\u2019 employer, and Eborn Enterprises, Davis\u2019s company, did not assemble site-specific safety plans for the work performed on the Key Bridge. The companies\u2019 general safety plans, which were approved by Maryland officials, did not include information on emergency evacuations or emergency communications, a review of that plan by The Post showed. In fact, the safety plan from Brawner Builders expressly banned cellphone usage on the jobsite, records show, with no alternative means of communication outlined."
+    },
+    {
+      "arcId": "MUNMEFUY054DVBFVG7N016B8T4",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Yet the agency determined that \u201cno violations of MOSH and OSHA standards led to, or contributed to, the fatalities and injuries of the employees.\u201d"
+    },
+    {
+      "arcId": "021A836P1572VBQC42DZEKWQGR",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Brawner Builders was fined $2,100 for failing to provide a safety boat beneath the work zone, but the company\u2019s general counsel said they had successfully appealed the citation. Eborn and the MDTA received no fines or reprimands."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "RH7Y9448X91WV63ZZAT6DW0UUW",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "State officials recommended the latter two improve emergency communications in their work zones and develop a line of communication between passing ships and construction crews on bridges. Brawner Builders received no such guidance."
+    },
+    {
+      "arcId": "JEQJFDQGBD52QEFHNWHYUB8T8G",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Brawner\u2019s general manager, Jeff Pritzker, said in a statement that the company \u201cwelcomes any and all suggestions to improve the safety and well-being of our employees in the hazardous work of highway and bridge repair and maintenance.\u201d"
+    },
+    {
+      "arcId": "TXT6AAKVD906B554Y8CYTWE8TG",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Eborn did not respond to a request for comment."
+    },
+    {
+      "arcId": "U7A98FDPVD6RK714Y131DAZFPW",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "When asked if the state had implemented the MOSH recommendations, MDTA officials said in a statement that they couldn\u2019t comment because of ongoing litigation."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "1GDMMWNA3N3KK6QV2D1GYZGYUM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cWe are working with experts to evaluate vessel monitoring and communications, vessel transit requirements, emergency response procedures for vessels that have lost control, and pier protection,\u201d a spokesman said."
+    },
+    {
+      "arcId": "Y3BP2FUE5100N1RFHWVMVR94GC",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Transportation Authority officials likewise declined to comment on whether the new bridge \u2014 which is in the early design stages \u2014 would be equipped with emergency warning lights."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "EQ56ZD5AGVHZBL4VSFEAXWSCSU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cIf they had a radio, no one would have died,\u201d said Castell\u00f3n, who has spoken to investigators about the lack of a warning system for the workers. \u201cThey all had cars there. They could have escaped.\u201d"
+    },
+    {
+      "arcId": "0Z5QNDNJG56QX716AXQTWP95W4",
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "Roses in the water",
+      "subhead_level": 2
+    },
+    {
+      "arcId": "0C5E460JYN5731RD6V4ADBEUQM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "On Tuesday morning, Castell\u00f3n boarded a boat in Baltimore\u2019s Inner Harbor alongside the family members of the five other men who died. They lined up along the vessel\u2019s railings as it cut a path toward the gaping expanse of sky where the Key Bridge once stood."
+    },
+    {
+      "arcId": "72R6FZE9ZT29BDJTK6Y9QABKF0",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The governor and Baltimore Mayor Brandon Scott stood beside them on the deck in fluorescent life jackets. Castell\u00f3n and another widow held each other and sobbed."
+    },
+    {
+      "type": "image",
+      "mime": "application/octet-stream",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X4U2B64IW5F4XGZFK3DTDO2FA4.JPEG",
+      "imageWidth": 3224,
+      "imageHeight": 2368,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Families of men killed when the Dali struck the Francis Scott Key Bridge visited the scene on the Patapsco River aboard a Baltimore City Fire Department fire boat on Tuesday. (Katie Shepherd/The Washington Post)",
+      "blurb": "Families of men killed when the Dali struck the Francis Scott Key Bridge visited the scene on the Patapsco River aboard a Baltimore City Fire Department fire boat on Tuesday."
+    },
+    {
+      "arcId": "4X065YA49X50B3REYUAJZKAQVC",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Days before, NTSB Chair Jennifer Homendy had announced from the nation\u2019s capital that on the night the Key Bridge fell, its risk level for such a collapse was almost 30 times higher than a threshold set by national standards. That level of risk surprised investigators, Homendy said, and was something Maryland officials \u201ccould have known and should have known.\u201d She said there was \u201cno excuse.\u201d"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/local/maryland-news",
+      "primarySectionID": "/local/maryland"
+    },
+    {
+      "arcId": "MQ9E107QQ90935DEPDGXR4APGG",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "That same day, federal officials released 1,000 pages of their investigative documents, the latest in the continued unspooling of what happened that night. Even still, the families \u2014 and the public \u2014 are still grappling with unknowns."
+    },
+    {
+      "arcId": "U5P89XV3YT4U94XY9AV53HG928",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "\u201cIt wasn\u2019t easy going to the place where my husband lost his life,\u201d Castell\u00f3n said. \u201cI still have so many questions.\u201d"
+    },
+    {
+      "arcId": "F6FR94YWJT5PD15NWHTC7MWJCM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "On the boat, the engines stopped churning as the passengers bowed their heads to pray. One by one, the families accepted wreaths of yellow and white roses and tossed them in the water."
+    },
+    {
+      "arcId": "MME0DEBEHN4F50FNVP5W6X2E2M",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Then they headed back to dry land."
+    },
+    {
+      "type": "context_box",
+      "headline": "Make the most of the DMV with our newsletter",
+      "content_pages": [
+        {
+          "type": "element_group",
+          "subtype": "context_box_element",
+          "content_elements": [
+            {
+              "type": "image",
+              "mime": "image/jpeg",
+              "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7TOS5X6JHNADVD53E74ZG3YYGU.jpg",
+              "imageWidth": 1778,
+              "imageHeight": 1000,
+              "image_type": "illustration",
+              "widthFactor": "full-bleed",
+              "fullcaption": "(The Washington Post)",
+              "blurb": "",
+              "style": "context_box"
+            },
+            {
+              "type": "sanitized_html",
+              "subtype": "paragraph",
+              "mime": "text/html",
+              "content": "Make living in D.C. a little easier and more fun. Sign up for <a href=\"https://www.washingtonpost.com/newsletters/post-local/?method=SURL&location=ART&initiative=CONTEXT\">the Post Local newsletter</a> to get local news, weather and expert advice \u2014 where to eat, where to drink and how to get around \u2014 every weekday.",
+              "style": "context_box"
+            }
+          ],
+          "alignment": null
+        }
+      ]
+    },
+    {
+      "arcId": "TYFD4AERKBDQ7AQACBBYTF7DLM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i>Katie Shepherd, Steve Thompson, Ian Duncan and Rachel Weiner contributed to this report.</i>"
+    },
+    {
+      "type": "link",
+      "subtype": "comments"
+    },
+    {
+      "type": "author_info",
+      "id": "mettlerk",
+      "name": "Katie Mettler",
+      "bio": "Katie Mettler is a reporter covering state government and criminal justice in Maryland. She joined The Post in 2016 and has covered local and national national breaking news, courts, policing, politics and criminal justice policy. She previously worked at the Tampa Bay Times in St. Petersburg, Fla.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/05aaf951-1996-4c85-81cd-049d7a6fd7ca.png",
+      "role": "Staff writer"
+    },
+    {
+      "type": "author_info",
+      "id": "armust",
+      "name": "Teo Armus",
+      "bio": "Teo Armus is a Metro reporter for The Washington Post, covering government, people and politics in Northern Virginia and immigrant communities across the D.C. region. Send him secure tips on Signal at teoarmus.27.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/1025bd93-672f-4516-8b0e-2ab9e699e1ca.png",
+      "role": "Staff writer"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "show_summary": true,
+  "blogname": "Maryland",
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/I5YWCLKGOBAX7I32IC5643JT5Y/20250326-082513.135/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/I5YWCLKGOBAX7I32IC5643JT5Y/20250326-082513.135/current.mp3?awCollectionId=/local/maryland&awEpisodeId=I5YWCLKGOBAX7I32IC5643JT5Y&tags=collections-maryland%7Cai-takeaways%7Caudio-article",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/I5YWCLKGOBAX7I32IC5643JT5Y/20250326-082513.135/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/36RGBIMMJRFVJJAOEI4JVS3XF4.jpg",
+      "imageWidth": 2040,
+      "imageHeight": 1360,
+      "fullcaption": "(Illustration by Anna Lefkowitz/The Washington Post; Hadley Green, Carolyn Van Houten/The Washington Post)"
+    },
+    "title": {
+      "content": "One year after Key Bridge tragedy, Maryland officials face scrutiny",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "Maryland",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Maryland",
+      "path": "/local/maryland"
+    },
+    "date": {
+      "content": 1742988282474,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    },
+    "duration": 731000
+  },
+  "first_display_date": 1742984134577,
+  "targeting": {
+    "adcall": [
+      {
+        "key": "ca",
+        "values": [
+          "rcisc",
+          "r1zb8",
+          "r5zn0",
+          "rjqr5",
+          "r71iv",
+          "rnfyo",
+          "rddr6",
+          "rdisi",
+          "rqlce",
+          "rjba6",
+          "r63ky",
+          "r1djc",
+          "rj98c",
+          "r0yv2",
+          "r2ztd",
+          "ralq3",
+          "r6x7c",
+          "rh5hz",
+          "rvt6h",
+          "rxvfu",
+          "rcvrb",
+          "rpkxx",
+          "rohf5",
+          "reest",
+          "r8paa",
+          "rqltv",
+          "r6ovq",
+          "ru0hj",
+          "rk4hi",
+          "r2x7m",
+          "rnryg",
+          "rihsc",
+          "rh065",
+          "r4qca",
+          "ren01",
+          "r6iq7",
+          "rbxhu",
+          "r30iy",
+          "rw76f",
+          "rh22v",
+          "rhwg4",
+          "r82mu",
+          "r35cx",
+          "rsqg7",
+          "rl43b",
+          "ru1jm",
+          "r6jbe",
+          "ryx8n",
+          "rkgjf",
+          "r1yqm",
+          "raw34",
+          "r6g4r",
+          "rf299",
+          "rvqcm",
+          "rzhau",
+          "r3vky",
+          "rzd33",
+          "rvy90",
+          "rtdlb",
+          "rzfmu",
+          "r35ap",
+          "rvsr7",
+          "r3hdp",
+          "rynal",
+          "reerp",
+          "rrytf",
+          "r7d9r",
+          "rl7yb",
+          "rsmxd",
+          "rt5dp",
+          "r7tmu",
+          "rzqdp",
+          "r3t9e",
+          "r4avn",
+          "rva7x",
+          "r3bxp",
+          "rwsk4",
+          "rfhup",
+          "r3ykj",
+          "rhfzk",
+          "rqs5o",
+          "r4t4y",
+          "r35lh",
+          "rz457",
+          "rr25v",
+          "r48wg",
+          "rj2ns",
+          "rfz4c",
+          "rh5xk",
+          "rd7vl",
+          "rtv19",
+          "rj67t",
+          "r8hz2",
+          "r2qxu",
+          "raoi5",
+          "rayex",
+          "r5hej",
+          "ratb5",
+          "rhll0",
+          "rrhwk",
+          "rtbcp",
+          "rgpk6",
+          "r3es4",
+          "rd270",
+          "r8x1i",
+          "rx8m9",
+          "rl3n6",
+          "rd18m",
+          "rsesv",
+          "rjbi9",
+          "rggwa",
+          "r1ysy",
+          "r8ig8",
+          "rx4px",
+          "r2qu2",
+          "rs7c2",
+          "rsoqi",
+          "rjvyd",
+          "rv80f",
+          "rcase",
+          "rlz8o",
+          "rle1y",
+          "rzofg",
+          "rwlm1",
+          "r46n5",
+          "rlw2t",
+          "r5lck",
+          "rvhux",
+          "rvywr",
+          "rdlnx",
+          "r1fsz",
+          "rg1ny",
+          "rc6uk",
+          "riklp",
+          "r301t",
+          "rf0ll",
+          "rbjys",
+          "rh52g",
+          "rapws",
+          "rlv7a",
+          "rh5p3",
+          "rvn0g",
+          "r54xz",
+          "romxp",
+          "rloc3",
+          "rmk71",
+          "r3mmv",
+          "r0kbr",
+          "rqyhw",
+          "rer82",
+          "r2com_l",
+          "rloxr",
+          "r3mmr",
+          "r78zx",
+          "rkqfd",
+          "rk0qi",
+          "r2gs8",
+          "r6cbf",
+          "rzb5u",
+          "r0new",
+          "rkkqd",
+          "r0hej",
+          "r44lb",
+          "rdrh1",
+          "r1nqd",
+          "r05in",
+          "r0too",
+          "rusje",
+          "r8pbs",
+          "r1a2g",
+          "ru20c",
+          "rjrvp",
+          "r8218",
+          "revmo",
+          "rhf76",
+          "rypnm",
+          "rqvzr",
+          "rdluz",
+          "r7e5f",
+          "r2dwe",
+          "r6h78",
+          "rt9p2",
+          "r0yto",
+          "rtsg3",
+          "rv05p",
+          "rrofe",
+          "ru14c",
+          "rzgyl",
+          "r50pl",
+          "rtc0b",
+          "ri474",
+          "rblyo",
+          "ryqbj",
+          "ratsg",
+          "ribdm",
+          "rlc5f",
+          "rsp3l",
+          "rn1ry",
+          "rd1zm",
+          "r6f4o"
+        ]
+      },
+      {
+        "key": "wapoTopics",
+        "values": [
+          "accx",
+          "buse",
+          "xqc3",
+          "leat"
+        ]
+      },
+      {
+        "key": "wapoTopicNextVer",
+        "values": [
+          "accx",
+          "acdq",
+          "acco",
+          "ina8",
+          "su1l",
+          "buse",
+          "govg",
+          "leat"
+        ]
+      },
+      {
+        "key": "se",
+        "values": [
+          "i7kn"
+        ]
+      },
+      {
+        "key": "bs",
+        "values": [
+          "garm_medium",
+          "wapo_rsk_medium"
+        ]
+      }
+    ],
+    "permutive_dict": {
+      "article": {
+        "customTopics": [
+          "[r2gs8] Charitable Giving",
+          "[r6cbf] Samsung back to school",
+          "[rzb5u] Trump and Associates Legal Action",
+          "[rusje] Men's Fashion",
+          "[r8pbs] Loans",
+          "[r1a2g] Labor",
+          "[ru20c] Disasters, Accidents, Tragedies",
+          "[rjrvp] POTUS",
+          "[r8218] Construction, Engineering",
+          "[revmo] Congress",
+          "[rhf76] Democrats",
+          "[rypnm] Republicans",
+          "[rdluz] Health Care Policy",
+          "[rt9p2] Pop Culture",
+          "[r0yto] Inspiring",
+          "[rv05p] Graduate Education",
+          "[rrofe] Luxury Travel",
+          "[ru14c] Affluent",
+          "[rzgyl] Washington Nationals",
+          "[rblyo] Gift Guides",
+          "[ryqbj] Veterans",
+          "[ratsg] Documentary",
+          "[rsp3l] Intelligence Community",
+          "[rn1ry] Civil Engineering"
+        ],
+        "wapoTopics": [
+          "[1:accx] /accidents",
+          "[1:buse] /business",
+          "[1:xqc3] /law_and_order",
+          "[2:leat] /law_and_order/law_enforcement"
+        ],
+        "wapoTopicNextVer": [
+          "[1:accx] /accidents",
+          "[1:acdq] /accidents_and_disasters",
+          "[2:acco] /accidents_and_disasters/accidents",
+          "[3:ina8] /accidents_and_disasters/accidents/industrial_accidents",
+          "[4:su1l] /accidents_and_disasters/accidents/industrial_accidents/structural_failures",
+          "[1:buse] /business",
+          "[1:govg] /government",
+          "[2:leat] /government/law_enforcement"
+        ],
+        "sentiment": [
+          "[i7kn] negative"
+        ],
+        "publishDate": "2025-03-10T16:39:06.208Z",
+        "lastUpdateDate": "2025-03-26T12:25:17.988Z",
+        "authorName": [
+          "katie mettler",
+          "teo armus"
+        ],
+        "authorType": [
+          "author",
+          "author"
+        ],
+        "newsroomDesk": [
+          "metro",
+          "metro"
+        ],
+        "newsroomSubdesk": [
+          "local - police & courts",
+          "local - politics & government"
+        ],
+        "contentType": "story - default",
+        "language": "en",
+        "wordCount": 2192
+      },
+      "canonicalUrl": "/dc-md-va/2025/03/26/key-bridge-collapse-annivesary-dali/",
+      "section": "local",
+      "subsection": "local - maryland",
+      "commercialNode": "/local/maryland-news"
+    }
+  },
+  "summary": {
+    "id": "UPWTC3NXYZGAXECK4QDD4NWHB4",
+    "url": "https://www.washingtonpost.com/dc-md-va/2025/03/26/key-bridge-collapse-annivesary-dali/",
+    "items": [
+      "The Key Bridge collapse killed six workers and injured two survivors.",
+      "Inadequate safety protocols and oversight contributed to the tragedy.",
+      "The Dali cargo ship lost power, causing the bridge collapse.",
+      "Maryland officials blame the ship's owner and operator for the disaster.",
+      "Victims' families demand improved safety measures and government accountability."
+    ]
+  },
+  "comments": "https://www.washingtonpost.com/dc-md-va/2025/03/26/key-bridge-collapse-annivesary-dali/?outputType=comment"
+}

@@ -1,0 +1,664 @@
+{
+  "id": "/",
+  "children": [
+    {
+      "id": "/classic-apps/classic-app-top-stories",
+      "path": "/mobile-homepage/",
+      "path_tablet": "/tablet-app-topstories/",
+      "name": "Top Stories"
+    },
+    {
+      "id": "/topics/capital-weather-gang",
+      "path": "news/capital-weather-gang",
+      "name": "Capital Weather Gang",
+      "nav_name": "Capital Weather Gang"
+    },
+    {
+      "id": "/topics/augmented-reality",
+      "path": "/ar-stories/",
+      "name": "Augmented Reality",
+      "nav_name": "Augmented Reality"
+    },
+    {
+      "id": "/politics",
+      "path": "/politics/",
+      "path_tablet": "/tablet-app-politics/",
+      "name": "Politics",
+      "nav_name": "Politics",
+      "children": [
+        {
+          "id": "/politics/powerpost",
+          "path": "/news/powerpost/",
+          "name": "PowerPost",
+          "nav_name": "PowerPost"
+        },
+        {
+          "id": "/politics/the-fix",
+          "path": "/news/the-fix/",
+          "name": "The Fix",
+          "nav_name": "The Fix"
+        },
+        {
+          "id": "/politics/fact-checker",
+          "path": "/news/fact-checker/",
+          "name": "Fact Checker",
+          "nav_name": "Fact Checker"
+        },
+        {
+          "id": "/politics/post-politics",
+          "path": "/news/post-politics/",
+          "name": "Post Politics",
+          "nav_name": "Post Politics Blog"
+        },
+        {
+          "id": "/politics/monkey-cage",
+          "path": "/news/monkey-cage/",
+          "name": "Monkey Cage",
+          "nav_name": "Monkey Cage"
+        }
+      ]
+    },
+    {
+      "id": "/opinions",
+      "path": "/opinions/",
+      "path_tablet": "/tablet-app-opinions/",
+      "name": "Opinions",
+      "nav_name": "Opinions",
+      "children": [
+        {
+          "id": "/opinions/the-posts-view",
+          "path": "/opinions/the-posts-view/",
+          "name": "The Post's View",
+          "nav_name": "The Post's View"
+        },
+        {
+          "id": "/opinions/tom-toles",
+          "path": "/people/tom-toles",
+          "name": "Tom Toles",
+          "nav_name": "Toles Cartoons"
+        },
+        {
+          "id": "/opinions/ann-telnaes",
+          "path": "/people/ann-telnaes",
+          "name": "Telnaes Animations",
+          "nav_name": "Telnaes Animations"
+        },
+        {
+          "id": "/opinions/local-opinions",
+          "path": "/opinions/local-opinions/",
+          "name": "Local Opinions",
+          "nav_name": "Local Opinions"
+        },
+        {
+          "id": "/opinions/posteverything",
+          "path": "/posteverything/",
+          "name": "PostEverything",
+          "nav_name": "PostEverything"
+        },
+        {
+          "id": "/opinions/global-opinions",
+          "path": "/global-opinions/",
+          "name": "Global Opinions",
+          "nav_name": "Global Opinions"
+        },
+        {
+          "id": "/opinions/act-four",
+          "path": "/news/act-four/",
+          "name": "Act Four",
+          "nav_name": "Act Four"
+        },
+        {
+          "id": "/opinions/all-opinions-are-local",
+          "path": "/blogs/all-opinions-are-local/",
+          "name": "All Opinions Are Local",
+          "nav_name": "All Opinions Are Local"
+        },
+        {
+          "id": "/opinions/compost",
+          "path": "/blogs/compost/",
+          "name": "Compost",
+          "nav_name": "Compost"
+        },
+        {
+          "id": "/opinions/erik-wemple",
+          "path": "/blogs/erik-wemple/",
+          "name": "Erik Wemple",
+          "nav_name": "Erik Wemple"
+        },
+        {
+          "id": "/opinions/in-theory",
+          "path": "/news/in-theory/",
+          "name": "In Theory",
+          "nav_name": "In Theory"
+        },
+        {
+          "id": "/opinions/rampage",
+          "path": "/news/rampage/",
+          "name": "Rampage",
+          "nav_name": "Rampage"
+        },
+        {
+          "id": "/opinions/plum-line",
+          "path": "/blogs/plum-line/",
+          "name": "The Plum Line",
+          "nav_name": "The Plum Line"
+        },
+        {
+          "id": "/opinions/right-turn",
+          "path": "/blogs/right-turn/",
+          "name": "Right Turn",
+          "nav_name": "Right Turn"
+        },
+        {
+          "id": "/opinions/post-partisan",
+          "path": "/blogs/post-partisan/",
+          "name": "PostPartisan",
+          "nav_name": "PostPartisan"
+        },
+        {
+          "id": "/opinions/volokh-conspiracy",
+          "path": "/news/volokh-conspiracy/",
+          "name": "The Volokh Conspiracy",
+          "nav_name": "Volokh Conspiracy"
+        },
+        {
+          "id": "/opinions/the-watch",
+          "path": "/news/the-watch/",
+          "name": "The Watch",
+          "nav_name": "The Watch"
+        },
+        {
+          "id": "/opinions/josh-rogin",
+          "path": "/news/josh-rogin/",
+          "name": "Josh Rogin",
+          "nav_name": "Josh Rogin"
+        }
+      ]
+    },
+    {
+      "id": "/local",
+      "path": "/local/",
+      "path_tablet": "/tablet-app-local/",
+      "name": "Local",
+      "nav_name": "Local",
+      "children": [
+        {
+          "id": "/local/dc",
+          "path": "/local/dc/",
+          "name": "D.C.",
+          "nav_name": "D.C."
+        },
+        {
+          "id": "/local/maryland",
+          "path": "/local/maryland/",
+          "name": "Maryland",
+          "nav_name": "Maryland"
+        },
+        {
+          "id": "/local/virginia",
+          "path": "/local/virginia/",
+          "name": "Virginia",
+          "nav_name": "Virginia"
+        },
+        {
+          "id": "/local/public-safety",
+          "path": "/local/public-safety/",
+          "name": "Public Safety",
+          "nav_name": "Public Safety"
+        },
+        {
+          "id": "/local/weather/capital-weather-gang",
+          "path": "/news/capital-weather-gang/",
+          "name": "Capital Weather Gang",
+          "nav_name": "Capital Weather Gang"
+        },
+        {
+          "id": "/local/traffic-commuting/dr-gridlock",
+          "path": "/news/dr-gridlock/",
+          "name": "Gridlock",
+          "nav_name": "Gridlock"
+        },
+        {
+          "id": "/local/education",
+          "path": "/local/education/",
+          "name": "Education",
+          "nav_name": "Education"
+        },
+        {
+          "id": "/local/obituaries",
+          "path": "/local/obituaries/",
+          "name": "Obituaries",
+          "nav_name": "Obituaries"
+        }
+      ]
+    },
+    {
+      "id": "/sports",
+      "path": "/mobile-sports/",
+      "path_tablet": "/tablet-app-sports/",
+      "name": "Sports",
+      "nav_name": "Sports",
+      "children": [
+        {
+          "id": "/sports/redskins",
+          "path": "/sports/redskins/",
+          "name": "Redskins",
+          "nav_name": "Redskins"
+        },
+        {
+          "id": "/sports/nationals",
+          "path": "/sports/nationals/",
+          "name": "Washington Nationals",
+          "nav_name": "Nationals"
+        },
+        {
+          "id": "/sports/capitals",
+          "path": "/sports/capitals/",
+          "name": "Washington Capitals",
+          "nav_name": "Capitals"
+        },
+        {
+          "id": "/sports/wizards",
+          "path": "/sports/wizards/",
+          "name": "Washington Wizards",
+          "nav_name": "Wizards"
+        },
+        {
+          "id": "/sports/dcunited",
+          "path": "/blogs/soccer-insider/",
+          "name": "D.C. United",
+          "nav_name": "D.C. United"
+        },
+        {
+          "id": "/sports/colleges/terrapins-insider",
+          "path": "/news/terrapins-insider/",
+          "name": "Maryland Terrapins",
+          "nav_name": "Maryland Terrapins"
+        },
+        {
+          "id": "/sports/dc-sports-bog",
+          "path": "/news/dc-sports-blog/",
+          "name": "D.C. Sports Bog",
+          "nav_name": "D.C. Sports Bog"
+        },
+        {
+          "id": "/sports/early-lead",
+          "path": "/news/early-lead/",
+          "name": "Early Lead",
+          "nav_name": "Early Lead"
+        },
+        {
+          "id": "/sports/fancy-stats",
+          "path": "/news/fancy-stats/",
+          "name": "Fancy Stats",
+          "nav_name": "Fancy Stats"
+        },
+        {
+          "id": "/sports/colleges/football",
+          "path": "/sports/colleges/football/",
+          "name": "College Football",
+          "nav_name": "College Football"
+        },
+        {
+          "id": "/sports/colleges/basketball",
+          "path": "/sports/colleges/basketball/",
+          "name": "College Basketball",
+          "nav_name": "College Basketball"
+        },
+        {
+          "id": "/sports/soccer",
+          "path": "/sports/soccer/",
+          "name": "Soccer",
+          "nav_name": "Soccer"
+        },
+        {
+          "id": "/sports/boxing-mma",
+          "path": "/sports/boxing-mma/",
+          "name": "Boxing/MMA",
+          "nav_name": "Boxing/MMA"
+        },
+        {
+          "id": "/sports/fantasy-sports",
+          "path": "/sports/fantasy-sports/",
+          "name": "Fantasy Sports",
+          "nav_name": "Fantasy Sports"
+        }
+      ]
+    },
+    {
+      "id": "/national",
+      "path": "/national/",
+      "path_tablet": "/tablet-app-national/",
+      "name": "National",
+      "nav_name": "National",
+      "children": [
+        {
+          "id": "/national/morning-mix",
+          "path": "/news/morning-mix/",
+          "name": "Morning Mix",
+          "nav_name": "Morning Mix"
+        },
+        {
+          "id": "/national/post-nation",
+          "path": "/news/post-nation/",
+          "name": "Post Nation",
+          "nav_name": "Post Nation"
+        },
+        {
+          "id": "/national/acts-of-faith",
+          "path": "/news/acts-of-faith/",
+          "name": "Acts of Faith",
+          "nav_name": "Acts of Faith"
+        },
+        {
+          "id": "/national/health-science",
+          "path": "/national/health-science/",
+          "name": "Health and Science",
+          "nav_name": "Health and Science",
+          "children": [
+            {
+              "id": "/national/health-science/speaking-of-science",
+              "path": "/news/speaking-of-science/",
+              "name": "Speaking of Science",
+              "nav_name": "Speaking of Science"
+            },
+            {
+              "id": "/national/health-science/to-your-health",
+              "path": "/news/to-your-health/",
+              "name": "To Your Health",
+              "nav_name": "To Your Health"
+            },
+            {
+              "id": "/national/health-science/animalia",
+              "path": "/news/animalia/",
+              "name": "Animalia",
+              "nav_name": "Animalia"
+            }
+          ]
+        },
+        {
+          "id": "/national/national-security",
+          "path": "/world/national-security/",
+          "name": "National Security",
+          "nav_name": "National Security"
+        },
+        {
+          "id": "/local/true-crime",
+          "path": "/news/true-crime/",
+          "name": "True Crime",
+          "nav_name": "True Crime"
+        },
+        {
+          "id": "/national/achenblog",
+          "path": "/news/achenblog/",
+          "name": "Achenblog",
+          "nav_name": "Achenblog"
+        },
+        {
+          "id": "/national/obituaries",
+          "path": "/local/obituaries/",
+          "name": "National Obituaries",
+          "nav_name": "Obituaries"
+        }
+      ]
+    },
+    {
+      "id": "/world",
+      "path": "/world/",
+      "path_tablet": "/tablet-app-world/",
+      "name": "World",
+      "nav_name": "World",
+      "children": [
+        {
+          "id": "/world/worldviews",
+          "path": "/news/worldviews/",
+          "name": "WorldViews",
+          "nav_name": "WorldViews"
+        }
+      ]
+    },
+    {
+      "id": "/business",
+      "path": "/business/",
+      "path_tablet": "/tablet-app-business/",
+      "name": "Business",
+      "nav_name": "Business",
+      "children": [
+        {
+          "id": "/business/wonkblog",
+          "path": "/news/wonk/",
+          "name": "Wonkblog",
+          "nav_name": "Wonkblog"
+        },
+        {
+          "id": "/business/energy-environment",
+          "path": "/news/energy-environment/",
+          "name": "Energy and Environment",
+          "nav_name": "Energy and Environment"
+        },
+        {
+          "id": "/business/capital-business",
+          "path": "/business/capital-business/",
+          "name": "Capital Business",
+          "nav_name": "Capital Business"
+        },
+        {
+          "id": "/realestate",
+          "path": "/realestate/",
+          "name": "Real Estate",
+          "nav_name": "Real Estate",
+          "children": [
+            {
+              "id": "/realestate/rentals",
+              "path": "/rentals/",
+              "name": "Rentals",
+              "nav_name": "Rentals"
+            },
+            {
+              "id": "/realestate/where-we-live",
+              "path": "/news/where-we-live/",
+              "name": "Where We Live",
+              "nav_name": "Where We Live"
+            },
+            {
+              "id": "/realestate/recently-sold-homes",
+              "path": "/homesales/index.html",
+              "name": "Recently Sold Homes",
+              "nav_name": "Recently Sold Homes"
+            }
+          ]
+        },
+        {
+          "id": "/business/digger",
+          "path": "/news/digger/",
+          "name": "Digger",
+          "nav_name": "Digger"
+        },
+        {
+          "id": "/business/on-small-business",
+          "path": "/business/on-small-business/",
+          "name": "On Small Business",
+          "nav_name": "On Small Business"
+        }
+      ]
+    },
+    {
+      "id": "/technology",
+      "path": "/business/technology/",
+      "name": "Technology",
+      "nav_name": "Tech",
+      "children": [
+        {
+          "id": "/technology/the-switch",
+          "path": "/news/the-switch/",
+          "name": "The Switch",
+          "nav_name": "The Switch"
+        },
+        {
+          "id": "/technology/innovations",
+          "path": "/news/innovations/",
+          "name": "Innovations",
+          "nav_name": "Innovations"
+        }
+      ]
+    },
+    {
+      "id": "/lifestyle",
+      "path": "/lifestyle/",
+      "path_tablet": "/tablet-app-lifestyle/",
+      "name": "Lifestyle",
+      "nav_name": "Lifestyle",
+      "children": [
+        {
+          "id": "/lifestyle/carolyn-hax",
+          "path": "/people/carolyn-hax/",
+          "name": "Carolyn Hax",
+          "nav_name": "Carolyn Hax"
+        },
+        {
+          "id": "/lifestyle/style/style-blog",
+          "path": "/news/arts-and-entertainment/",
+          "name": "Arts and Entertainment",
+          "nav_name": "Arts and Entertainment"
+        },
+        {
+          "id": "/lifestyle/the-intersect",
+          "path": "/news/the-intersect/",
+          "name": "The Intersect",
+          "nav_name": "The Intersect"
+        },
+        {
+          "id": "/lifestyle/on-parenting",
+          "path": "/lifestyle/on-parenting/",
+          "name": "On Parenting",
+          "nav_name": "On Parenting"
+        },
+        {
+          "id": "/lifestyle/reliable-source",
+          "path": "/news/reliable-source/",
+          "name": "Reliable Source",
+          "nav_name": "Reliable Source"
+        },
+        {
+          "id": "/lifestyle/soloish",
+          "path": "/news/soloish/",
+          "name": "Solo-ish",
+          "nav_name": "Solo-ish"
+        },
+        {
+          "id": "/lifestyle/food",
+          "path": "/food/",
+          "name": "Food",
+          "nav_name": "Food"
+        },
+        {
+          "id": "/lifestyle/home-garden",
+          "path": "/lifestyle/home-garden/",
+          "name": "Home &amp; Garden",
+          "nav_name": "Home and Garden"
+        },
+        {
+          "id": "/lifestyle/travel",
+          "path": "/lifestyle/travel/",
+          "name": "Travel",
+          "nav_name": "Travel"
+        },
+        {
+          "id": "/lifestyle/magazine",
+          "path": "/lifestyle/magazine/",
+          "name": "The Washington Post Magazine",
+          "nav_name": "Magazine"
+        },
+        {
+          "id": "/lifestyle/fashion",
+          "path": "/lifestyle/fashion/",
+          "name": "Fashion",
+          "nav_name": "Fashion"
+        },
+        {
+          "id": "/lifestyle/inspired-life",
+          "path": "/news/inspired-life/",
+          "name": "Inspired Life",
+          "nav_name": "Inspired Life"
+        }
+      ]
+    },
+    {
+      "id": "/entertainment",
+      "path": "/entertainment/",
+      "name": "Entertainment",
+      "nav_name": "Entertainment",
+      "children": [
+        {
+          "id": "/entertainment/tv",
+          "path": "/entertainment/tv/",
+          "name": "Television",
+          "nav_name": "TV",
+          "children": [
+            {
+              "id": "/entertainment/tv/game-of-thrones",
+              "path": "/entertainment/tv/game-of-thrones/",
+              "name": "Game of Thrones"
+            }
+          ]
+        },
+        {
+          "id": "/entertainment/movies",
+          "path": "/goingoutguide/movies/",
+          "name": "Movies",
+          "nav_name": "Movies"
+        },
+        {
+          "id": "/entertainment/books",
+          "path": "/entertainment/books/",
+          "name": "Books",
+          "nav_name": "Books"
+        },
+        {
+          "id": "/entertainment/comic-riffs",
+          "path": "/news/comic-riffs/",
+          "name": "Comic Riffs",
+          "nav_name": "Comic Riffs"
+        },
+        {
+          "id": "/entertainment/music",
+          "path": "/goingoutguide/music/",
+          "name": "Music",
+          "nav_name": "Music"
+        },
+        {
+          "id": "/entertainment/going-out-guide",
+          "path": "/goingoutguide/",
+          "name": "Going Out Guide",
+          "nav_name": "Going Out Guide"
+        },
+        {
+          "id": "/entertainment/museums",
+          "path": "/goingoutguide/museums/",
+          "name": "Museums",
+          "nav_name": "Museums"
+        },
+        {
+          "id": "/entertainment/theater-dance",
+          "path": "/goingoutguide/theater-dance/",
+          "name": "Theater and Dance",
+          "nav_name": "Theater and Dance"
+        }
+      ]
+    },
+    {
+      "id": "/photography",
+      "path": "/photography/",
+      "name": "Photography",
+      "nav_name": "Photography",
+      "children": [
+        {
+          "id": "/photography/in-sight",
+          "path": "/news/in-sight/",
+          "name": "In Sight",
+          "nav_name": "In Sight"
+        }
+      ]
+    }
+  ]
+}

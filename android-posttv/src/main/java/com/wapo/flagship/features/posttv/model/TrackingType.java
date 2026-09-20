@@ -1,0 +1,21 @@
+package com.wapo.flagship.features.posttv.model;
+
+public enum TrackingType {
+    ON_PLAY_STARTED,
+    ON_PLAY_COMPLETED,
+    ON_PLAY_STOPPED,
+    ON_OPEN_FULL_SCREEN,
+    ON_SHARE,
+    VIDEO_PERCENTAGE_WATCHED,
+    AD_PLAY_STARTED,
+    AD_PLAY_COMPLETED,
+    ON_ERROR_OCCURRED,
+    ON_MUTE,
+    ON_CAPTION_TOGGLE,
+    ON_PAUSE,
+    ON_RESUME,
+    ON_PLAY_NEXT,
+    ON_PLAY_PREVIOUS,
+    ON_AUTO_SCROLLED,
+    VIDEO_PROGRESS
+}

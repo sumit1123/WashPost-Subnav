@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.washingtonpost.android.notifications.test">
+
+    <application
+        >
+
+        <activity
+            android:name="com.wapo.flagship.features.notification.NotificationTestActivity"
+            android:theme="@style/Theme.AppCompat"/>
+    </application>
+
+</manifest>

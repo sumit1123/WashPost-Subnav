@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/search_card_bg"
+    android:elevation="3dp"
+    android:outlineSpotShadowColor="@color/search_shadow">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image"
+        android:layout_width="160dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/search_shadow"
+        android:contentDescription="@string/recipe_item_art"
+        android:scaleType="centerCrop"
+        android:src="@drawable/recipe_placeholder_item"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="3:2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/rounded_square"
+        app:srcCompat="@drawable/recipe_placeholder_item" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/headline"
+        style="@style/search_recipe_headline_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:ellipsize="end"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/image"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="U.S. national cyber strategy to stress Biden push on regulation. U.S. national cyber strategy to stress Biden push on regulation. U.S. national cyber strategy to stress Biden push on regulation" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/subtitle"
+        style="@style/search_recipe_subtitle_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/image"
+        app:layout_constraintTop_toBottomOf="@id/headline"
+        tools:text="30 min | Main" />
+
+    <ImageView
+        android:id="@+id/rating_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:progressBackgroundTint="#F4DD0B"
+        android:src="@drawable/ic_star_rating"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subtitle"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/rating_image"
+        app:layout_constraintTop_toBottomOf="@id/subtitle"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/recipe_bookmark_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/recipe_bookmark_art"
+        android:src="@drawable/ic_bookmark_unsaved"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/image"
+        app:layout_constraintTop_toBottomOf="@id/subtitle"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

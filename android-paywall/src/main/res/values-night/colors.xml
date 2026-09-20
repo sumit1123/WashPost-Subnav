@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="top_label_text">#FFFFFF</color>
+    <color name="subscribe_banner_text">#111111</color>
+    <color name="post_subscriber_blue_normal">#166DFC</color>
+    <color name="sign_in_text">#FFFFFF</color>
+    <color name="subscribe_subtitle_text">#FFFFFF</color>
+    <color name="contact_us_subtitle_text">#FFFFFF</color>
+    <color name="sub_text">#AAAAAA</color>
+    <color name="offer_page_background">#333333</color>
+    <color name="offer_page_border">#666666</color>
+    <color name="check_text_included_color">#FFFFFF</color>
+    <color name="check_text_excluded_color">#666666</color>
+    <color name="unselected_border">#666666</color>
+    <color name="billing_period_label">#5193FF</color>
+    <color name="product_title">#FFFFFF</color>
+    <color name="paywall_sheet_background">#2A2A2A</color>
+    <color name="sheet_border_line">#2A2A2A</color>
+    <color name="billing_box">#333333</color>
+    <color name="offer_text">#FFFFFF</color>
+    <color name="savings_pill">#FFFFFF</color>
+    <color name="savings_pill_text">#000000</color>
+    <color name="billing_period_selected">#FFFFFF</color>
+    <color name="billing_period_normal">#FFFFFF</color>
+    <color name="toggle_selected">#000000</color>
+    <color name="toggle_group_color">#666666</color>
+    <color name="billing_italic_selected">#61A125</color>
+    <color name="billing_italic_normal">#FFFFFF</color>
+    <color name="subscription_blue">#5D8FF6</color>
+    <color name="subscription_text">#000000</color>
+    <color name="paywall_subtitle_text">#FFFFFF</color>
+
+    <!-- Bottom CTA -->
+    <color name="gift_cta_background">#FFFFFF</color>
+    <color name="gift_cta_text">#2A2A2A</color>
+
+</resources>

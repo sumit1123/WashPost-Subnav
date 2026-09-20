@@ -1,0 +1,17 @@
+{
+  adm_message_md5=464r4GZE/f057yfwa87DhQ==,
+  com.urbanairship.metadata=eyJ2ZXJzaW9uX2lkIjoxLCJ0aW1lIjoxNTk2MjA0NTUzOTUxLCJwdXNoX2lkIjoiMjA3MTI4ZTAtZmQ5NS00NzMxLTk0NTMtY2IyNmU3YmFjYzI5IiwiY2FtcGFpZ25zIjp7ImNhdGVnb3JpZXMiOltdfX0=,
+  com.urbanairship.style=
+  {
+    "type":"big_picture",
+    "big_picture":"https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/3UUG4JSEFMI6VGOHDX6UEQNC7Y.jpg"
+  },
+  com.urbanairship.push.PUSH_ID=69c6a700-d337-11ea-bacf-0242805e64d2,
+  com.urbanairship.push.CANONICAL_PUSH_ID=207128e0-fd95-4731-9453-cb26e7bacc29,
+  com.urbanairship.push.ALERT=Test Message,
+  com.urbanairship.push.APID=49712fb7-0a06-4c17-a4ad-8d0aec7f9f50,
+  com.urbanairship.actions=
+  {
+    "^u":"https://www.washingtonpost.com/graphics/2020/health/coronavirus-frequently-asked-questions/"
+  }
+}

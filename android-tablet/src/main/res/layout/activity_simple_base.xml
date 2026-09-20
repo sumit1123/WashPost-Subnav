@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/main_page_layout"
+    a:orientation="vertical"
+    a:layout_width="fill_parent"
+    a:layout_height="match_parent">
+
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="@dimen/adview_height"
+        a:id="@+id/adsView"
+        a:orientation="horizontal"
+        a:layout_alignParentLeft="true"
+        a:layout_alignParentBottom="true"
+        a:layout_alignParentTop="false"
+        a:background="@color/ads_background_light" />
+    <RelativeLayout
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:id="@+id/main_content"
+        a:layout_above="@id/adsView">
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

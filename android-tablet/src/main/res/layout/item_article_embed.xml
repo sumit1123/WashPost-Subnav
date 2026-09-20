@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/embed_root"
+    android:layout_height="@dimen/embed_placeholder_height"
+    android:layout_width="match_parent"
+    android:background="@color/embed_background"
+    tools:ignore="WebViewLayout">
+
+    <TextView
+        android:id="@+id/embed_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/failed_to_load_element"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/embed_placeholder_height" />
+
+</FrameLayout>

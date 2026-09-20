@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name" translatable="false">Articles</string>
+    <string name="articles_unable_to_load_a_content_msg" translatable="false">Unable to load content.</string>
+    <string name="article_inline_title_gallery" translatable="false">GALLERY</string>
+    <string name="article_inline_title_graphic" translatable="false">GRAPHIC</string>
+    <string name="article_inline_title_video" translatable="false">VIDEO</string>
+
+    <string name="title_saved" translatable="false">SAVED</string>
+    <string name="title_history" translatable="false">HISTORY</string>
+    <string name="how_to_add_saved" translatable="false">You can favorite articles in Headlines and Photos</string>
+    <string name="no_saved_articles_message" translatable="false">No Saved Articles</string>
+    <string name="how_add_history" translatable="false">Your most recently read articles will be shown here.</string>
+    <string name="no_reading_history" translatable="false">No Reading History</string>
+    <string name="history" translatable="false">History</string>
+    <string name="undo" translatable="false">UNDO</string>
+
+    <string name="gallery_feature_is_unavailable_msg" translatable="false">This feature is not available right now. Please try again later.</string>
+    <string name="gallery_feature_is_unavailable_no_connection_msg" translatable="false">This feature is not available without a connection. Please try again later.</string>
+    <string name="feature_unavailable_no_connection_msg" translatable="false">This feature is not available without a connection. Please try again later.</string>
+
+    <string name="article_media_view_graphic" translatable="false">VIEW GRAPHIC</string>
+    <string name="article_live_video" translatable="false">Live</string>
+
+    <string name="ar_downloading_overlay_text" translatable="false">Downloading</string>
+    <string name="ar_experience_start" translatable="false">START</string>
+    <string name="ar_low_os_version" translatable="false">"This story requires a newer version of Android. Please try again on a higher OS version."</string>
+    <string name="ar_no_internet" translatable="false">"This story requires an Internet connection. Please try again when you have a better connection."</string>
+    <string name="ar_required_version" translatable="false">This story requires a newer version of this app. Please try again when you have updated to the latest version.</string>
+    <string name="ar_unsupported_platform" translatable="false">This story is not compatible with your device.</string>
+    <string name="ar_issue_loading" translatable="false">There was an issue loading this story. Please try again later.</string>
+    <string name="ar_amazon_build" translatable="false">This story requires an Android device running Google services. Please try again on a Google Play device.</string>
+    <string name="ar_no_camera" translatable="false">This story requires a device with a camera. Please try again on a device that has a camera.</string>
+    <string name="ar_no_accelerometer" translatable="false">This story requires a device with an accelerometer. Please try again on a device that has an accelerometer.</string>
+
+    <string name="article_rating_bar_title" translatable="false">Rating</string>
+    <string name="article_rating_bar_title_ext" translatable="false">Rating out of</string>
+
+    <string name="article_try_again" translatable="false">Retry</string>
+
+    <string name="article_image_description" translatable="false">View full size image</string>
+    <string name="article_video_description" translatable="false">Play video</string>
+
+    <string name="kicker_live_updates" translatable="false">LIVE UPDATES</string>
+    <string name="kicker_article_live_updates" translatable="false">Live updates</string>
+    <string name="kicker_exclusive" translatable="false">EXCLUSIVE</string>
+    <string name="audio_kicker_live_updates" translatable="false">Live Updates</string>
+    <string name="audio_kicker_exclusive" translatable="false">Exclusive</string>
+
+    <string name="element_group_show_more" translatable="false">Show more</string>
+    <string name="element_group_show_less" translatable="false">Show less</string>
+    <string name="element_group_date_prefix" translatable="false">"Updated "</string>
+    <string name="view_comments">View Comments</string>
+</resources>

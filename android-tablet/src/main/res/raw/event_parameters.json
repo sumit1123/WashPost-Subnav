@@ -1,0 +1,483 @@
+{
+  "eventType": {
+    "PAGE_VIEW": 1,
+    "ONPAGE_TAP": 2,
+    "ONPAGE_SCROLL_START": 3,
+    "ONPAGE_CONTENT_COMPLETE": 4,
+    "LIVE_SCROLL_THRESHOLD": 5,
+    "TEXT_TO_SPEECH_START": 6,
+    "TEXT_TO_SPEECH_COMPLETE": 7,
+    "TEXT_TO_SPEECH_SKIP_BACKWARD": 8,
+    "TEXT_TO_SPEECH_SKIP_FORWARD": 9,
+    "TEXT_TO_SPEECH_PROGRESS": 10,
+    "INTERACTION": 11,
+    "PUSH_OPEN": 12,
+    "PROFILE_SIGNIN_START": 13,
+    "ACQUISITION_REGWALL_REGISTRATION": 14,
+    "PROFILE_SIGNIN_REGISTRATION": 15,
+    "PROFILE_SIGNIN_COMPLETE": 16,
+    "PROFILE_SIGNOUT_COMPLETE": 17,
+    "PROFILE_SIGNOUT_START": 18,
+    "ACQUISITION_PAYWALL": 19,
+    "ACQUISITION_RESTORE_SUBSCRIPTION_BUTTON": 20,
+    "ACQUISITION_PRODUCT_SELECTED": 21,
+    "ACQUISITION_PURCHASE": 22,
+    "ACQUISITION_REGWALL": 23,
+    "APPS_WALL": 24,
+    "WALL_OPEN": 25,
+    "PRODUCT_SELECTED": 26,
+    "PRODUCT_PURCHASED": 27,
+    "PROFILE_RESUME": 28,
+    "PROFILE_CANCEL": 29,
+    "PROFILE_ACCOUNT_DELETE_START": 30,
+    "PROFILE_ACCOUNT_DELETE_COMPLETE": 31,
+    "AUDIO_START": 32,
+    "AUDIO_COMPLETE": 33,
+    "AUDIO_PROGRESS": 34,
+    "VIDEO_AUTOPLAY": 35,
+    "VIDEO_START": 36,
+    "VIDEO_COMPLETE": 37,
+    "VIDEO_25_COMPLETE": 38,
+    "VIDEO_50_COMPLETE": 39,
+    "VIDEO_75_COMPLETE": 40,
+    "VIDEO_AD_START": 41,
+    "VIDEO_AD_COMPLETE": 42,
+    "PERCENT_25_COMPLETE": 43,
+    "PERCENT_50_COMPLETE": 44,
+    "PERCENT_75_COMPLETE": 45,
+    "PERCENT_100_COMPLETE": 46,
+    "PUSH_TOPIC_ENROLL": 47,
+    "PUSH_TOPIC_DISENROLL": 48,
+    "DEEPLINK_OPEN": 49,
+    "PUSH_PROMPT_SEEN": 50,
+    "IN_APP_MESSAGE_SEEN": 51,
+    "IN_APP_MESSAGE_TAP": 52,
+    "IN_APP_MESSAGE_DISMISS": 53,
+    "TOPIC_PREFERENCES_ENROLL": 54,
+    "TOPIC_PREFERENCES_DISENROLL": 55,
+    "ONBOARDING_CLICK": 56,
+    "ONBOARDING_SEEN": 57,
+    "EMAIL_ENROLL": 58,
+    "EMAIL_UNENROLL": 59,
+    "SAVE_ARTICLE": 60,
+    "REMOVE_SAVED_ARTICLE": 61,
+    "SOCIAL_SHARE": 62,
+    "PROFILE_GIFT_CLICK": 63,
+    "AUTHOR_CARD_OPEN": 64,
+    "AUTHOR_FOLLOW": 65,
+    "AUTHOR_UNFOLLOW": 66,
+    "PLAYLIST_CLICK": 67,
+    "SAVE_AUDIO_PLAYLIST": 68,
+    "REMOVE_SAVED_AUDIO_PLAYLIST": 69,
+    "SLIDESHOW_INTERACTION": 70,
+    "SLIDESHOW_OVERLAY_LINK_OPEN": 71,
+    "BANNER_CLICK": 72,
+    "BRIGHTS_INTERACTION": 73,
+    "COMMENTS": 74,
+    "WIDGET": 75,
+    "UTILITY_MENU_OPEN": 76,
+    "RECIPE_FINDER_SEARCH_SUBMIT": 77,
+    "EXTERNAL_LINK_CLICK": 78,
+    "PIP_CLOSED": 79,
+    "PIP_ENTERED": 80,
+    "ONPAGE_IMPRESSION": 81,
+    "ACQUISITION_BANNER": 82,
+    "ARTICLE_SUMMARY_SEEN": 83,
+    "ARTICLE_SUMMARY_FEEDBACK": 84,
+    "ANSWERBOT_INTERACTION": 85,
+    "ANSWERBOT_THREAD": 86,
+    "ANSWERBOT_VOICE": 87,
+    "VIDEO_PROGRESS": 88,
+    "SESSION_ENGAGEMENT_TIME": 89,
+    "PAGE_ENGAGEMENT_TIME": 90,
+    "PROFILE_INTERACTION": 91,
+    "AUDIO_INTERACTION": 92,
+    "ANSWERBOT_SHARE": 93,
+    "BANNER_DISPLAYED": 94,
+    "CAMPAIGN_DETAILS": 95
+  },
+  "params": {
+    "standard": [
+      "property_name", "login_status", "identity_uuid", "subscriber_status", "user_attributes",
+      "actmgmt_array", "test_group", "cookies_js", "dark_mode_status", "login_type", "user_id",
+      "hardware_id"
+    ],
+    "page_view_article_standard": [
+      "property_name", "login_status", "identity_uuid", "subscriber_status", "user_attributes",
+      "actmgmt_array", "test_group", "cookies_js", "dark_mode_status", "user_id"
+    ],
+    "page_view_section": [
+      "connection_type", "page_name", "content_section", "content_subsection", "content_type",
+      "navigation_behavior", "previous_page", "j_ucid", "j_tid", "support_id", "app_section",
+      "tab_name"
+    ],
+    "page_view_article": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "navigation_behavior", "previous_page", "j_ucid", "j_tid", "support_id", "tab_name",
+      "meter_weight", "push_id", "search_keywords"
+    ],
+    "onpage_tap": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "navigation_behavior", "app_section", "tab_name", "miscellany", "gen_event_dimension"
+    ],
+    "onpage_scroll_start": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "navigation_behavior", "app_section", "tab_name", "miscellany"
+    ],
+    "onpage_content_complete": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "navigation_behavior", "app_section", "tab_name", "miscellany"
+    ],
+    "live_scroll_threshold": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id", "tracking_tags", "publishdate",
+      "navigation_behavior", "app_section", "tab_name", "miscellany"
+    ],
+    "text_to_speech_start": [
+      "page_name", "navigation_behavior", "progress_threshold", "av_name", "av_length", "av_arc_id",
+      "av_player_type", "app_section", "tab_name", "miscellany"
+    ],
+    "text_to_speech_complete": [
+      "page_name", "navigation_behavior", "progress_threshold", "av_name", "av_length", "av_arc_id",
+      "av_player_type", "app_section", "tab_name", "miscellany"
+    ],
+    "text_to_speech_skip_backward": [
+      "page_name", "navigation_behavior", "progress_threshold", "av_name", "av_length", "av_arc_id",
+      "av_player_type", "app_section", "tab_name", "miscellany"
+    ],
+    "text_to_speech_skip_forward": [
+      "page_name", "navigation_behavior", "progress_threshold", "av_name", "av_length", "av_arc_id",
+      "av_player_type", "app_section", "tab_name", "miscellany"
+    ],
+    "text_to_speech_progress": [
+      "page_name", "navigation_behavior", "progress_threshold", "av_name", "av_length", "av_arc_id",
+      "av_player_type", "app_section", "tab_name", "miscellany"
+    ],
+    "interaction": [
+      "page_name", "nav_behavior", "search_keywords", "progress_threshold", "av_name", "av_arc_id", "av_player_type",
+      "app_section", "tab_name", "miscellany"
+    ],
+    "push_open": [
+      "push_id", "push_interaction_type", "push_headline", "push_title", "push_topic_platform",
+      "push_sent_timestamp"
+    ],
+    "profile_signin_start": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "acq_entrance_type", "app_section", "tab_name", "miscellany"
+    ],
+    "acquisition_regwall_registration": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "acq_entrance_type", "app_section", "tab_name", "miscellany"
+    ],
+    "profile_signin_registration": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "acq_entrance_type", "app_section", "tab_name", "miscellany"
+    ],
+    "profile_signin_complete": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "acq_entrance_type", "app_section", "tab_name", "miscellany"
+    ],
+    "profile_signout_complete": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "acq_entrance_type", "app_section", "tab_name", "miscellany"
+    ],
+    "profile_signout_start": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "acq_entrance_type", "app_section", "tab_name", "miscellany"
+    ],
+    "acquisition_paywall": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "navigation_behavior", "acq_entrance_type", "app_section", "tab_name", "promo_code"
+    ],
+    "acquisition_restore_subscription_button": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "navigation_behavior", "acq_product", "acq_entrance_type", "app_section", "tab_name",
+      "promo_code"
+    ],
+    "acquisition_product_selected": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "navigation_behavior", "acq_product", "acq_entrance_type", "app_section", "tab_name",
+      "promo_code"
+    ],
+    "acquisition_purchase": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "navigation_behavior", "acq_product", "acq_entrance_type", "app_section", "tab_name",
+      "promo_code"
+    ],
+    "acquisition_regwall": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "navigation_behavior", "acq_entrance_type", "app_section", "tab_name"
+    ],
+    "apps_wall": [
+      "page_name", "content_section", "content_subsection", "content_author", "newsroom_subdesk", "arc_id", "navigation_behavior",
+      "entrance_type", "app_section", "tab_name"
+    ],
+    "wall_open": [
+      "page_name",
+      "content_section", "content_subsection", "content_author", "newsroom_subdesk", "arc_id", "navigation_behavior", "entrance_type", "app_section",
+      "tab_name", "content_url"
+    ],
+    "product_selected": [
+      "page_name",
+      "navigation_behavior", "promo_code", "entrance_type", "app_section", "tab_name"
+    ],
+    "product_purchased": [
+      "page_name",
+      "navigation_behavior", "promo_code", "entrance_type", "app_section", "tab_name"
+    ],
+    "profile_resume": [
+      "page_name",
+      "navigation_behavior"
+    ],
+    "profile_cancel": [
+      "page_name",
+      "navigation_behavior"
+    ],
+    "profile_account_delete_start": [
+      "page_name",
+      "app_section", "tab_name", "miscellany"
+    ],
+    "profile_account_delete_complete": [
+      "page_name",
+      "app_section", "tab_name", "miscellany"
+    ],
+    "audio_start": [
+      "page_name", "progress_threshold", "av_name", "av_length", "av_arc_id", "av_player_type",
+      "navigation_behavior", "app_section", "tab_name", "av_type", "av_tags"
+    ],
+    "audio_complete": [
+      "page_name", "progress_threshold", "av_name", "av_length", "av_arc_id", "av_player_type",
+      "navigation_behavior", "app_section", "tab_name"
+    ],
+    "audio_progress": [
+      "page_name", "progress_threshold", "av_name", "av_length", "av_arc_id", "av_player_type",
+      "navigation_behavior", "app_section", "tab_name"
+    ],
+    "video_autoplay": [
+      "page_name", "progress_threshold", "av_name", "av_arc_id", "av_type", "av_exp",
+      "av_player_type", "gam_line_id", "gam_creative_id", "videostart_id"
+    ],
+    "video_start": [
+      "page_name", "progress_threshold", "av_name", "av_arc_id", "av_type", "av_exp",
+      "av_player_type", "gam_line_id", "gam_creative_id", "videostart_id", "arc_id", "tab_name"
+    ],
+    "video_complete": [
+      "page_name", "progress_threshold", "av_name", "av_arc_id", "av_type", "av_exp",
+      "av_player_type", "gam_line_id", "gam_creative_id", "videostart_id", "arc_id", "tab_name"
+    ],
+    "video_25_complete": [
+      "page_name", "progress_threshold", "av_name", "av_arc_id", "av_type", "av_exp",
+      "av_player_type", "gam_line_id", "gam_creative_id", "arc_id", "tab_name"
+    ],
+    "video_50_complete": [
+      "page_name", "progress_threshold", "av_name", "av_arc_id", "av_type", "av_exp",
+      "av_player_type", "gam_line_id", "gam_creative_id", "arc_id", "tab_name"
+    ],
+    "video_75_complete": [
+      "page_name", "progress_threshold", "av_name", "av_arc_id", "av_type", "av_exp",
+      "av_player_type", "gam_line_id", "gam_creative_id", "arc_id", "tab_name"
+    ],
+    "video_ad_start": [
+      "page_name",
+      "av_exp", "av_player_type","progress_threshold"
+    ],
+    "video_ad_complete": [
+      "page_name",
+      "av_exp", "av_player_type","progress_threshold"
+    ],
+    "percent_25_complete": [
+      "page_name",
+      "app_section", "tab_name", "miscellany"
+    ],
+    "percent_50_complete": [
+      "page_name",
+      "app_section", "tab_name", "miscellany"
+    ],
+    "percent_75_complete": [
+      "page_name",
+      "app_section", "tab_name", "miscellany"
+    ],
+    "percent_100_complete": [
+      "page_name",
+      "app_section", "tab_name", "miscellany"
+    ],
+    "push_topic_enroll": [
+      "page_name", "content_type", "arc_id", "push_topic_platform", "app_section", "tab_name",
+      "miscellany"
+    ],
+    "push_topic_disenroll": [
+      "page_name", "content_type", "arc_id", "push_topic_platform", "app_section", "tab_name",
+      "miscellany"
+    ],
+    "deeplink_open": [
+      "app_section",
+      "tab_name", "content_url"
+    ],
+    "push_prompt_seen": [
+      "page_name",
+      "app_section", "tab_name"
+    ],
+    "in_app_message_seen": [
+      "push_id",
+      "push_interaction_type", "push_headline", "push_title", "miscellany"
+    ],
+    "in_app_message_tap": [
+      "push_id",
+      "push_interaction_type", "push_headline", "push_title", "miscellany"
+    ],
+    "in_app_message_dismiss": [
+      "push_id",
+      "push_interaction_type", "push_headline", "push_title", "miscellany"
+    ],
+    "topic_preferences_enroll": [
+      "page_name",
+      "aric_id", "tab_name", "miscellany"
+    ],
+    "topic_preferences_disenroll": [
+      "page_name",
+      "aric_id", "tab_name", "miscellany"
+    ],
+    "onboarding_click": [
+      "page_name",
+      "aric_id", "content_type", "arc_id", "app_section", "tab_name", "miscellany"
+    ],
+    "onboarding_seen": [
+      "page_name",
+      "aric_id", "content_type", "arc_id", "app_section", "tab_name", "miscellany"
+    ],
+    "email_enroll": [
+      "page_name", "aric_id", "content_type", "app_section", "tab_name", "miscellany"
+    ],
+    "email_unenroll": [
+      "page_name", "aric_id", "content_type", "app_section", "tab_name", "miscellany"
+    ],
+    "save_article": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "navigation_behavior", "gen_event_dimension", "app_section", "tab_name", "content_url"
+    ],
+    "remove_saved_article": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "navigation_behavior", "gen_event_dimension", "app_section", "tab_name", "content_url"
+    ],
+    "social_share": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "navigation_behavior", "share_to_network", "gen_event_dimension", "app_section", "tab_name",
+      "content_url"
+    ],
+    "profile_gift_click": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "navigation_behavior", "gen_event_dimension", "app_section", "tab_name", "miscellany",
+      "content_url"
+    ],
+    "author_card_open": [
+      "page_name", "content_author",
+      "author_id", "arc_id", "app_section", "tab_name", "miscellany"
+    ],
+    "author_follow": [
+      "page_name", "content_author", "author_id", "arc_id", "app_section", "tab_name", "miscellany"
+    ],
+    "author_unfollow": [
+      "page_name", "content_author", "author_id", "arc_id", "app_section", "tab_name", "miscellany"
+    ],
+    "playlist_click": [
+      "av_name", "av_arc_id"
+    ],
+    "save_audio_playlist": [
+      "av_name", "av_arc_id"
+    ],
+    "remove_saved_audio_playlist": [
+      "av_name", "av_arc_id"
+    ],
+    "slideshow_interaction": [
+      "navigation_behavior", "app_section",
+      "tab_name", "article_position"
+    ],
+    "slideshow_overlay_link_open": [
+      "page_name", "content_section", "content_subsection",
+      "content_type", "author_id", "arc_id", "tracking_tags", "navigation_behavior", "app_section", "tab_name"
+    ],
+    "banner_click": [
+      "page_name", "navigation_behavior",
+      "app_section", "tab_name", "content_url"
+    ],
+    "brights_interaction": [
+      "page_name", "navigation_behavior",
+      "app_section", "tab_name", "brights_position*"
+    ],
+    "comments": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "app_section", "tab_name"
+    ],
+    "widget": [
+      "page_name", "arc_id", "navigation_behavior",
+      "app_section", "tab_name", "content_url"
+    ],
+    "utility_menu_open": [
+      "page_name", "gen_event_dimension",
+      "app_section", "tab_name"
+    ],
+    "recipe_finder_search_submit": [
+      "page_name", "content_section", "content_subsection",
+      "content_type", "navigation_behavior", "search_keywords"
+    ],
+    "external_link_click": [
+      "page_name", "content_section", "content_subsection",
+      "content_type", "author_id", "arc_id", "tracking_tags", "navigation_behavior", "app_section", "tab_name", "miscellany", "external_link"
+    ],
+    "pip_closed": [
+    ],
+    "pip_entered": [
+    ],
+    "onpage_impression": [
+      "page_name", "arc_id", "content_type", "content_section", "content_subsection", "author_id",
+      "miscellany", "search_keywords"
+    ],
+    "acquisition_banner": [
+      "page_name", "content_section", "content_subsection", "content_type", "author_id", "arc_id",
+      "navigation_behavior", "acq_entrance_type", "app_section", "tab_name", "promo_code"
+    ],
+    "article_summary_seen": [
+      "page_name", "arc_id", "miscellany", "navigation_behavior"
+    ],
+    "article_summary_feedback": [
+      "page_name", "arc_id", "miscellany", "navigation_behavior"
+    ],
+    "answerbot_interaction": [
+      "page_name", "gen_event_dimension", "tab_name", "miscellany", "navigation_behavior"
+    ],
+    "answerbot_thread": [
+      "page_name", "gen_event_dimension", "tab_name", "miscellany", "navigation_behavior", "search_keywords", "av_arc_id"
+    ],
+    "answerbot_voice": [
+      "miscellany", "gen_event_dimension", "av_arc_id"
+    ],
+    "video_progress": [
+      "page_name", "progress_threshold", "av_name", "av_arc_id", "av_type", "av_player_type",
+      "av_exp", "miscellany", "engaged_time", "videostart_id", "arc_id", "tab_name"
+    ],
+    "session_engagement_time": [
+      "engaged_time"
+    ],
+    "page_engagement_time": [
+      "page_name", "content_type", "engaged_time", "j_ucid", "j_tid", "content_section", "content_subsection",
+      "author_id", "arc_id", "navigation_behavior", "previous_page", "support_id", "tab_name", "meter_weight"
+    ],
+    "profile_interaction": [
+      "page_name", "miscellany", "app_section"
+    ],
+    "audio_interaction": [
+      "page_name", "av_name", "av_length", "av_player_type", "av_type",
+      "navigation_behavior", "miscellany", "av_tags"
+    ],
+    "answerbot_share": [
+     "miscellany", "gen_event_dimension", "av_arc_id"
+    ],
+    "banner_displayed": [
+      "property_name", "login_status", "identity_uuid", "actmgmt_array", "content_url", "login_type", "subscriber_attributes_array",
+      "user_attributes", "subscriber_status", "tab_name", "app_section", "dark_mode_status", "orientation", "cookies_js", "page_name",
+      "navigation_behavior", "miscellany"
+    ],
+    "campaign_details": [
+      "source", "medium", "campaign"
+    ]
+  }
+}

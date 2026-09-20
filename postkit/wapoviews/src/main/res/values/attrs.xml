@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="ic_menu_share" format="reference" />
+
+    <attr name="status_bar_color" format="color" />
+
+    <declare-styleable name="MainTabLayout">
+        <attr name="tab_view_layout" format="reference" />
+        <attr name="text_appearance" format="reference" />
+        <attr name="selected_text_appearance" format="reference" />
+        <attr name="textStyleMode" format="enum">
+            <enum name="standard" value="0"/>
+            <enum name="wp" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SlidingTabLayout">
+        <attr name="sliding_tab_view_layout" format="reference" />
+        <attr name="sliding_tab_text_view_id" format="reference" />
+        <attr name="sliding_tab_text_appearance" format="reference" />
+        <attr name="sliding_tab_selected_text_appearance" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="View">
+        <attr name="floatSide" format="enum">
+            <enum name="float_left" value="-1"/>
+            <enum name="float_none" value="0"/>
+            <enum name="float_right" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="FlowableTextView">
+        <attr name="android:maxLines" />
+        <attr name="android:textAppearance" />
+        <attr name="android:lineSpacingMultiplier" />
+        <attr name="android:lineSpacingExtra" />
+        <attr name="obstructionPadding" format="dimension"/>
+        <attr name="obstructionPaddingSide" format="dimension"/>
+        <attr name="obstructionPaddingBottom" format="dimension"/>
+        <attr name="minSideTextWidth" format="dimension"/>
+        <attr name="staticLineGap" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="ProportionalLayout">
+        <attr name="aspectRatio" format="float" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TextPanel">
+        <attr name="layoutPanel" format="reference" />
+        <attr name="labelFont" format="string" />
+        <attr name="timeFont" format="string" />
+        <attr name="timeFontSize" format="dimension" />
+        <attr name="labelColor" format="color" />
+        <attr name="timeColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageStreamModule">
+        <attr name="imagePosition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <style name="sf_module_stream">
+        <item name="layout">@layout/view_textpanel_stream</item>
+        <item name="labelFont">?attr/sf_module_stream_label_font</item>
+        <item name="labelColor">@color/streamm_label</item>
+        <item name="timeFont">?attr/sf_module_stream_time_font</item>
+        <item name="timeFontSize">14sp</item>
+        <item name="timeColor">@color/streamm_time</item>
+        <item name="imagePosition">@integer/sf_module_stream_image_position</item>
+    </style>
+
+    <declare-styleable name="HierarchyMenuView">
+        <attr name="item_layout_id" format="reference" />
+        <attr name="header_layout_id" format="reference" />
+        <attr name="recent_category_title" format="string" />
+        <attr name="main_category_title" format="string" />
+        <attr name="recent_item_layout_id" format="reference" />
+        <attr name="divider_layout_id" format="reference" />
+    </declare-styleable>
+
+    <attr name="sf_module_stream_label_font" format="string"/>
+    <attr name="sf_module_stream_time_font" format="string"/>
+    <attr name="image_stream_module_kicker_font" format="reference"/>
+    <attr name="image_stream_module_headline_font" format="reference"/>
+    <attr name="image_stream_module_time_and_blurb_font" format="reference"/>
+    <attr name="image_stream_module_byline_font" format="reference"/>
+    <attr name="stream_module_kicker_font" format="reference"/>
+    <attr name="stream_module_headline_font" format="reference"/>
+    <attr name="stream_module_time_and_blurb_font" format="reference"/>
+    <attr name="stream_module_byline_font" format="reference"/>
+    <attr name="stream_module_last_updated_font" format="reference"/>
+
+    <declare-styleable name="SelectableRecyclerView">
+        <attr name="textSelectionEnabled" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ShineFrameLayout">
+        <attr name="shineHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SegmentedView">
+        <attr name="textAppearanceNormal" format="reference"/>
+        <attr name="textAppearanceSelected" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="FlexibleStackView">
+        <attr name="emptyView" format="reference"/>
+    </declare-styleable>
+</resources>

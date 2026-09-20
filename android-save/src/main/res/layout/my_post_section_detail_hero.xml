@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_preview_hero"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_hero"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="16:9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_hero_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/my_post_card_detail_content_left_margin"
+        android:layout_marginTop="12dp"
+        android:text="Sports"
+        android:textColor="@color/my_post_section"
+        android:textSize="@dimen/my_post_preview_section_text_size"
+        android:textStyle="bold"
+        app:fontFamily="@font/wp_franklinitcstd_font_family"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_hero" />
+
+    <TextView
+        android:id="@+id/tv_hero_transparency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="@dimen/my_post_card_detail_content_right_margin"
+        android:text="Perspective"
+        android:textColor="@color/my_post_section"
+        android:textSize="@dimen/my_post_detail_transparency_signature_text_size"
+        app:fontFamily="@font/wp_franklinitcstd_font_family"
+        app:layout_constraintBottom_toBottomOf="@id/tv_hero_section"
+        app:layout_constraintStart_toEndOf="@id/tv_hero_section"
+        app:layout_constraintTop_toTopOf="@+id/tv_hero_section" />
+
+    <TextView
+        android:id="@+id/tv_hero_headline"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/my_post_card_detail_content_left_margin"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="@dimen/my_post_card_detail_content_right_margin"
+        android:lineSpacingMultiplier="1"
+        android:text="The Nationals might not have finished the fight, but at least they started it"
+        android:textColor="@color/my_post_headline"
+        android:textSize="@dimen/my_post_detail_headline_text_size"
+        android:textStyle="bold"
+        app:fontFamily="@font/wp_postoniwide_font_family"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_hero_section"
+        app:layout_goneMarginTop="12dp" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/headline_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="tv_hero_headline" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_signature_date_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/my_post_card_detail_content_left_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/audioImageButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/headline_barrier"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/tv_hero_signature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start|top"
+            android:lineSpacingMultiplier="1.25"
+            android:paddingTop="@dimen/my_post_clickable_icons_padding"
+            android:paddingBottom="@dimen/my_post_clickable_icons_padding"
+            android:text="By Jennifer Rubin"
+            android:visibility="gone"
+            android:textColor="@color/my_post_signature"
+            android:textSize="@dimen/my_post_detail_transparency_signature_text_size"
+            app:fontFamily="@font/wp_franklinitcstd_font_family"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_hero_purchase_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:lineSpacingMultiplier="1.25"
+            android:visibility="gone"
+            android:text="Purchased on January 20 2025"
+            android:textColor="@color/my_post_signature"
+            android:textSize="@dimen/my_post_preview_signature_text_size"
+            app:fontFamily="@font/wp_franklinitcstd_font_family"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_hero_signature" />
+
+        <TextView
+            android:id="@+id/percentConsumedTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="80% Completed"
+            android:visibility="gone"
+            android:textColor="@color/my_post_signature"
+            android:textSize="@dimen/my_post_preview_signature_text_size"
+            app:fontFamily="@font/wp_franklinitcstd_font_family"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_hero_signature" />
+
+        <ImageButton
+            android:id="@+id/ib_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:padding="@dimen/my_post_clickable_icons_padding"
+            android:paddingStart="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_article_save_filled_16dp" />
+
+        <TextView
+            android:id="@+id/tv_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="0dp"
+            android:gravity="start|top"
+            android:lineSpacingMultiplier="1.25"
+            android:paddingTop="@dimen/my_post_clickable_icons_padding"
+            android:paddingBottom="@dimen/my_post_clickable_icons_padding"
+            android:text="June 21st 9:39 a.m."
+            android:textColor="@color/my_post_signature"
+            android:textSize="@dimen/my_post_detail_transparency_signature_text_size"
+            app:fontFamily="@font/wp_franklinitcstd_font_family"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ib_save"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_goneMarginStart="0dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/audioImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:paddingStart="@dimen/my_post_clickable_icons_padding"
+        android:paddingTop="@dimen/my_post_clickable_icons_padding"
+        android:paddingBottom="14dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ib_utility_menu"
+        app:layout_constraintTop_toBottomOf="@id/headline_barrier"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_goneMarginEnd="16dp"
+        app:srcCompat="@drawable/ic_ab_headphones" />
+
+    <ImageButton
+        android:id="@+id/ib_utility_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:paddingStart="@dimen/my_post_clickable_icons_padding"
+        android:paddingTop="@dimen/my_post_clickable_icons_padding"
+        android:paddingEnd="@dimen/my_post_clickable_icons_padding"
+        android:paddingBottom="9dp"
+        android:rotation="90"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/headline_barrier"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_utility_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

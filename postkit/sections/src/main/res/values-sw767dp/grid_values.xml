@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="compound_label_show_package_nested_ruler">false</bool>
+    <dimen name="package_label_font_size">14sp</dimen>
+    <dimen name="secondary_label_explainer_font_size">12sp</dimen>
+</resources>

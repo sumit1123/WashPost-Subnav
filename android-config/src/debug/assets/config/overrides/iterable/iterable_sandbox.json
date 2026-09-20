@@ -1,0 +1,344 @@
+{
+  "pushConfigV3": {
+    "groups": [
+      {
+        "id": "latest",
+        "label": "Latest"
+      },
+      {
+        "id": "oftp",
+        "label": "Only From The Post"
+      },
+      {
+        "id": "sections",
+        "label": "Sections"
+      }
+    ],
+    "availableSubscriptionTopics": [
+      {
+        "id": "breaking-news",
+        "displayName": "Breaking News",
+        "key": "breaking-news",
+        "isOptional": false,
+        "alias": "bn",
+        "description": "Major stories and latest updates",
+        "group": "latest"
+      },
+      {
+        "id": "the7_briefs",
+        "displayName": "The 7 Briefing",
+        "key": "the7_briefs",
+        "alias": "7b",
+        "description": "Morning rundown of 7 essential stories",
+        "group": "latest"
+      },
+      {
+        "id": "whats_new",
+        "displayName": "What's New",
+        "key": "whats_new",
+        "isOptional": false,
+        "alias": "wn",
+        "description": "Latest features and reader benefits",
+        "group": "latest"
+      },
+      {
+        "id": "politics",
+        "displayName": "Politics",
+        "key": "politics",
+        "alias": "pl",
+        "description": "White House, Congress and beyond",
+        "group": "sections"
+      },
+      {
+        "id": "us",
+        "displayName": "U.S.",
+        "key": "us",
+        "alias": "us",
+        "description": "News of national interest",
+        "group": "sections"
+      },
+      {
+        "id": "world",
+        "displayName": "World",
+        "key": "world",
+        "alias": "wd",
+        "description": "News with global reach",
+        "group": "sections"
+      },
+      {
+        "id": "local",
+        "displayName": "D.C. Region",
+        "key": "local",
+        "alias": "lc",
+        "description": "News from D.C., Maryland, Virginia",
+        "group": "sections"
+      },
+      {
+        "id": "business",
+        "key": "business",
+        "displayName": "Business",
+        "alias": "bu",
+        "reference": "business_and_tech",
+        "description": "Wall Street, economy, media",
+        "group": "sections"
+      },
+      {
+        "id": "technology",
+        "key": "technology",
+        "alias": "te",
+        "displayName": "Technology",
+        "reference": "tech",
+        "description": "Big Tech, privacy, gadgets",
+        "group": "sections"
+      },
+      {
+        "id": "tech",
+        "key": "tech",
+        "alias": "te",
+        "displayName": "Technology",
+        "reference": "business_and_tech",
+        "description": "Big Tech, privacy, gadgets",
+        "group": "sections",
+        "hide": true
+      },
+      {
+        "id": "business_and_tech",
+        "displayName": "Business and Tech",
+        "key": "business_and_tech",
+        "alias": "bt",
+        "description": "Wall Street, big tech, media",
+        "group": "sections",
+        "hide": true
+      },
+      {
+        "id": "health",
+        "displayName": "Health",
+        "key": "health",
+        "alias": "he",
+        "description": "Medical news and tips for living well",
+        "reference": "health_and_science",
+        "group": "sections"
+      },
+      {
+        "id": "climate",
+        "displayName": "Climate",
+        "key": "climate",
+        "alias": "cl",
+        "description": "Environmental news and impact",
+        "reference": "health_and_science",
+        "group": "sections"
+      },
+      {
+        "id": "health_and_science",
+        "displayName": "Health and Science",
+        "key": "health_and_science",
+        "alias": "hs",
+        "description": "Medical and environmental news",
+        "group": "sections",
+        "hide": true
+      },
+      {
+        "id": "sports",
+        "displayName": "Sports",
+        "key": "sports",
+        "alias": "sp",
+        "description": "Game results, athlete insights",
+        "group": "sections"
+      },
+      {
+        "id": "entertainment",
+        "displayName": "Entertainment",
+        "key": "entertainment",
+        "alias": "et",
+        "description": "Celebrities, film, TV, music, art",
+        "group": "sections"
+      },
+      {
+        "id": "food",
+        "displayName": "Food",
+        "key": "food",
+        "alias": "fo",
+        "description": "Industry news, recipes, kitchen tips",
+        "group": "sections"
+      },
+      {
+        "id": "advice",
+        "displayName": "Advice",
+        "key": "advice",
+        "alias": "ad",
+        "description": "Lifestyle tips from Carolyn Hax, other experts",
+        "group": "sections"
+      },
+      {
+        "id": "opinions",
+        "displayName": "Opinions",
+        "key": "opinions",
+        "alias": "op",
+        "description": "Columnists’ views on current events",
+        "group": "sections"
+      },
+      {
+        "id": "editors_picks",
+        "displayName": "Editors' Picks",
+        "key": "editors_picks",
+        "alias": "ep",
+        "description": "Our most-read, can’t-miss stories",
+        "group": "oftp"
+      },
+      {
+        "id": "special_report",
+        "displayName": "Special Report",
+        "key": "special_report",
+        "alias": "sr",
+        "description": "Exclusives, investigations, in-depth reporting",
+        "group": "oftp"
+      },
+      {
+        "id": "daily_read",
+        "displayName": "Your Daily Read",
+        "key": "daily_read",
+        "alias": "dr",
+        "isOptional": false,
+        "description": "One compelling story sent each evening",
+        "group": "oftp"
+      },
+      {
+        "id": "news_quiz",
+        "displayName": "Games",
+        "key": "news_quiz",
+        "alias": "nq",
+        "description": "Play our news quiz, crossword and more",
+        "group": "oftp"
+      },
+      {
+        "id": "todays_paper",
+        "displayName": "In Today's Paper",
+        "key": "todays_paper",
+        "alias": "pr",
+        "description": "A preview of our front page",
+        "group": "oftp"
+      }
+    ]
+  },
+  "paywallConf": {
+    "metering": {
+      "sync": "https://www.washingtonpost.com/nativeservice/proxy/metering/apps/evaluate",
+      "queue": 3,
+      "age": 86400,
+      "mapping": {
+        "w_905": "reddit"
+      },
+      "mapping2": [
+        {
+          "action": 3,
+          "blocker": "main",
+          "placement": 1885,
+          "version": 1
+        },
+        {
+          "action": 3,
+          "blocker": "main",
+          "placement": 2945,
+          "version": 6
+        },
+        {
+          "action": 3,
+          "code": "w_pause",
+          "blocker": "paused"
+        },
+        {
+          "action": 9,
+          "code": "w_905",
+          "blocker": "reddit"
+        },
+        {
+          "action": 9,
+          "blocker": "regwall",
+          "placement": 1886,
+          "version": 1
+        },
+        { "action": 9,
+          "blocker": "regwall",
+          "placement": 2946,
+          "version": 6
+        },
+        {
+          "action": 6,
+          "code": "w_games_ontherecord",
+          "blocker": "games-onetherecord"
+        },
+        {
+          "action": 6,
+          "code": "w_games_wridges",
+          "blocker": "games-wridges"
+        },
+        {
+          "action": 6,
+          "code": "w_games_keyword",
+          "blocker": "games-keyword"
+        },
+        {
+          "action": 6,
+          "code": "w_games_crossword",
+          "blocker": "games-crossword"
+        },
+        {
+          "action": 6,
+          "code": "w_games_sudoku",
+          "blocker": "games-sudoku"
+        },
+        {
+          "action": 6,
+          "code": "w_games_mini-meta",
+          "blocker": "games-mini-meta"
+        }
+      ]
+    },
+    "offersAllowedList": {
+      "wp.classic.basic": [
+        "introprice",
+        "basicmonthlysaleoffer",
+        "wpcoremo01s",
+        "wpcoremo02s",
+        "wpcoremo03wb",
+        "wpcoremo04ns",
+        "wpcoremo06wb"
+      ],
+      "wp.classic.basic.annual": [
+        "introprice",
+        "basicyearlysaleoffer",
+        "wpcorean20s",
+        "wpcorean29s",
+        "wpcorean40ns",
+        "wpcorean60wb"
+      ],
+      "monthly_all_access": [
+        "premiummonthlysaleoffer",
+        "wppremmo03s",
+        "wppremmo05wb",
+        "wppremmo06ns",
+        "wppremmo10wb"
+      ],
+      "wp.classic.premium.annual": [
+        "premiumyearlysaleoffer",
+        "wppreman33s",
+        "wppreman50wb",
+        "wppreman60ns",
+        "wppreman100wb"
+      ]
+    }
+  },
+  "iterable": {
+    "banner": 1882,
+    "article": 1883,
+    "section": 1884,
+    "myPostBanner": 2458,
+    "askThePostBanner": 2549,
+    "myPost": 2458,
+    "askThePost": 2549,
+    "settingsTop": 2751,
+    "settingsPlan": null,
+    "frontHomeScroll": null,
+    "enableDebugLogs": true
+  }
+}

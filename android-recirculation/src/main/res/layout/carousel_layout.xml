@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2018. The Washington Post
+  ~ Created by adkinsj on 6/21/18
+  -->
+
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout"
+    android:id="@+id/ll_carousel_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/carousel_view_divider"
+        style="@style/carousel_divider_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/carousel_divider_height"
+        android:layout_marginTop="@dimen/carousel_margin_top"
+        android:background="@color/carousel_divider_color" />
+
+
+    <TextView
+        android:id="@+id/tv_carousel_section_name"
+        style="@style/carousel_top_label_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/carousel_margin_top"
+        android:fontFamily="@font/franklinitcstd_bold"
+        android:text="More for you"
+        android:textColor="@color/carousel_section_name_text_color"
+        android:textSize="@dimen/carousel_explore_more_text_size"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/carousel_view_divider" />
+
+    <FrameLayout
+        android:id="@+id/fl_carousel_rv_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_carousel_section_name"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <ProgressBar
+            android:id="@+id/pb_carousel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/button_carousel_back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="0dp"
+            android:background="@android:color/transparent"
+            android:elevation="2dp"
+            android:src="@drawable/carousel_backward_arrow"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/button_carousel_forward_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="0dp"
+            android:background="@android:color/transparent"
+            android:elevation="2dp"
+            android:src="@drawable/carousel_forward_arrow"
+            android:visibility="gone" />
+
+        <com.washingtonpost.android.recirculation.carousel.views.CarouselRecyclerView
+            android:id="@+id/rv_carousel"
+            style="@style/carousel_recycler_style"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+    </FrameLayout>
+</merge>

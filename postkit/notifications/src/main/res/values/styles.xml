@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="notification_header">
+        <item name="android:background">@drawable/notification_header_bg</item>
+        <item name="android:elevation" tools:targetApi="lollipop">0dp</item>
+    </style>
+
+    <style name="notification_alert_title">
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/tabs_text_color</item>
+        <item name="android:textSize">@dimen/tabs_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="customize_button">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="notification_kicker">
+        <item name="android:fontFamily">?attr/image_stream_module_kicker_font</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="notification_headline">
+        <item name="android:fontFamily">?attr/image_stream_module_headline_font</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="notification_byline">
+        <item name="android:fontFamily">?attr/image_stream_module_byline_font</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="notification_blurb">
+        <item name="android:fontFamily">?attr/image_stream_module_time_and_blurb_font</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

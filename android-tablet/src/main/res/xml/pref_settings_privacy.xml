@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="Privacy Settings">
+
+    <Preference
+        android:iconSpaceReserved="false"
+        android:key="@string/pref_privacy_ad_info_key"
+        android:persistent="false"
+        android:title="Advertising Information"
+        android:widgetLayout="@layout/preference_widget_layout"
+        app:iconSpaceReserved="false" />
+
+    <Preference
+        android:iconSpaceReserved="false"
+        android:key="@string/pref_privacy_privacy_policy_key"
+        android:persistent="false"
+        android:title="Privacy Policy"
+        android:widgetLayout="@layout/preference_widget_layout"
+        app:iconSpaceReserved="false" />
+
+    <Preference
+        android:iconSpaceReserved="false"
+        android:key="@string/pref_privacy_onetrust_preference_center_key"
+        android:persistent="false"
+        android:title="Manage Cookies"
+        android:widgetLayout="@layout/preference_widget_layout"
+        app:iconSpaceReserved="false"
+        app:isPreferenceVisible="true" />
+
+    <Preference
+        android:iconSpaceReserved="false"
+        android:key="@string/pref_privacy_notice_of_collection_key"
+        android:persistent="false"
+        android:title="California Notice of Collection"
+        android:widgetLayout="@layout/preference_widget_layout"
+        app:iconSpaceReserved="false" />
+
+    <Preference
+        android:iconSpaceReserved="true"
+        android:icon="@drawable/privacyoptions"
+        android:key="@string/pref_privacy_do_not_sell_info_key"
+        android:persistent="false"
+        android:title="Your Privacy Choices"
+        android:widgetLayout="@layout/preference_widget_layout"
+        app:iconSpaceReserved="false" />
+
+</androidx.preference.PreferenceScreen>

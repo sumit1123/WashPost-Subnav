@@ -1,0 +1,166 @@
+/*
+ * Copyright (C) 2014 Washington Post Android Application
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.wapo.flagship.util.tracking;
+
+import com.google.firebase.analytics.FirebaseAnalytics;
+
+public enum Events {
+    EVENT_PAGE_VIEW("page_view"),
+    EVENT_PUSH_OPEN("push_open"),
+    EVENT_EXTERNAL_LINK("external_link_click"),
+    EVENT_SAVE_ARTICLE("save_article"),
+    EVENT_SHARE("social_share"),
+    EVENT_VIDEO_AD_START("video_ad_start"),
+    EVENT_MENU("interaction"),
+    EVENT_VIDEO_START("video_start"),
+    EVENT_VIDEO_AUTOPLAY("video_autoplay"),
+    EVENT_VIDEO_PROGRESS("video_progress"),
+    EVENT_VIDEO_PLAYED_25("video_25_complete"),
+    EVENT_VIDEO_PLAYED_50("video_50_complete"),
+    EVENT_VIDEO_PLAYED_75("video_75_complete"),
+    EVENT_VIDEO_COMPLETE("video_complete"),
+    EVENT_CLICK_SIGNIN_ATTEMPT("profile_signin_start"),
+    EVENT_REG_SIGN_IN_SUCCESS("profile_signin_complete"),
+    EVENT_CLICK_SIGN_OUT_ATTEMPT("profile_signout_start"),
+    EVENT_REG_SIGN_OUT_SUCCESS("profile_signout_complete"),
+    EVENT_REG_REGISTER_SUCCESS("profile_signin_registration"),
+    EVENT_VIDEO_AD_COMPLETE("video_ad_complete"),
+    EVENT_ONBOARDING_SEEN("onboarding_seen"),
+    EVENT_ONBOARDING_CLICK("onboarding_click"),
+    EVENT_MY_POST_BANNER_CLICK("banner_click"),
+    EVENT_BANNER_DISPLAYED("banner_displayed"),
+    EVENT_BANNER_DISMISSED("banner_dismissed"),
+    EVENT_TOGGLE_PUSH_TOPIC("push_topics_changed"),
+    EVENT_PUSH_TOPIC_ENROLL("push_topic_enroll"),
+    EVENT_PUSH_TOPIC_DISENROLL("push_topic_disenroll"),
+    EVENT_EMAIL_ENROLL("email_enroll"),
+    EVENT_EMAIL_UNENROLL("email_unenroll"),
+    EVENT_PRINT_DOWNLOAD("epaper_download"),
+    EVENT_PUSH_SENT("push_sent"),
+    EVENT_OPT_IN("push_opt_in"),
+    EVENT_OPT_OUT("push_opt_out"),
+    EVENT_TOGGLE_NOTIFICATIONS("push_switch_tap"),
+    EVENT_PAY_PAYMENT_SUCCESS("acquisition_purchase"),
+    EVENT_PAY_BLOCK_OVERLAY("acquisition_paywall"),
+    EVENT_REGWALL_BLOCK_OVERLAY("acquisition_regwall"),
+    EVENT_PAUSEWALL_BLOCK_OVERLAY("acquisition_pausewall"),
+    EVENT_APPS_WALL("apps_wall"),
+    EVENT_PAYWALL_CREATE_PAYMENT("acquisition_product_selected"),
+    EVENT_REGWALL_REGISTRATION("acquisition_regwall_registration"),
+    EVENT_PRODUCT_SELECTED("product_selected"),
+    EVENT_PRODUCT_PURCHASED("product_purchased"),
+    EVENT_PAYWALL_OVERLAY("event_paywall_overlay"),
+    EVENT_GALLERY_IMAGE_VIEWED("gallery_view"),
+    EVENT_GOOGLE_INDEXING("event_google_indexing"),
+    EVENT_PRINT_TUTORIAL_VIEWED("epaper_tutorial"),
+    EVENT_SCROLL_IMPRESSION("onpage_scroll_impression"),
+    EVENT_ONPAGE_IMPRESSION("onpage_impression"),
+    EVENT_SCROLL_START("onpage_scroll_start"),
+    EVENT_SCROLL_END("onpage_content_complete"),
+    EVENT_PUSH_DISMISSED("push_interaction"),
+    EVENT_AUDIO_START("audio_start"),
+    EVENT_AUDIO_CAROUSEL_SEEN("audio_carousel_seen"),
+    EVENT_AUDIO_PLAYED_25("audio_25_complete"),
+    EVENT_AUDIO_PLAYED_50("audio_50_complete"),
+    EVENT_AUDIO_PLAYED_75("audio_75_complete"),
+    EVENT_AUDIO_COMPLETE("audio_complete"),
+    EVENT_AUDIO_PROGRESS("audio_progress"),
+    EVENT_DEEP_LINK_OPEN("deeplink_open"),
+    EVENT_PIP_ENTERED("pip_entered"),
+    EVENT_PIP_EXIT("pip_closed"),
+    EVENT_SPEECH_START("text_to_speech_start"),
+    EVENT_SPEECH_NEXT("text_to_speech_skip_forward"),
+    EVENT_SPEECH_PREV("text_to_speech_skip_backward"),
+    EVENT_SPEECH_COMPLETE("text_to_speech_complete"),
+    EVENT_SPEECH_PROGRESS("text_to_speech_progress"),
+    EVENT_PUSH_PROMPT_SHOWN("push_prompt_seen"),
+    EVENT_WIDGET("widget"),
+    EVENT_AUTHOR_CARD_OPEN("author_card_open"),
+    EVENT_AUTHOR_FOLLOW("author_follow"),
+    EVENT_AUTHOR_UNFOLLOW("author_unfollow"),
+    EVENT_ACCOUNTHOLD_NOTIFICATION_DISPLAY("notification_display"),
+    EVENT_ACCOUNTHOLD_NOTIFICATION_UPDATE_PAYMENT("notification_update_payment"),
+    EVENT_ACCOUNTHOLD_CLOSE("notification_close"),
+    EVENT_TETRO_RESPONSE("tetro_response"),
+    EVENT_COMMENTS("comments"),
+    EVENT_IN_APP_MESSAGE_DISPLAYED("in_app_message_seen"),
+    EVENT_IN_APP_MESSAGE_FINISHED("in_app_message_dismiss"),
+    EVENT_IN_APP_MESSAGE_CTA("in_app_message_tap"),
+    EVENT_ONPAGE_TAP("onpage_tap"),
+    EVENT_LUF_SCROLL("live_scroll_threshold"),
+    PROMO_PURCHASE("acquisition_promo_purchase"),
+    EVENT_GIFT_SEND("profile_gift_click"),
+    EVENT_BRIGHT_INTERACTION("brights_interaction"),
+    EVENT_CLICKS("clicks"),
+    EVENT_REGISTER_CLICKS("register_clicks"),
+    EVENT_SIGNIN_REGISTER("profile_signin_registration"),
+    EVENT_AZ_FT_REGISTER_SUCCESS("az_ft_register_success"),
+    EVENT_APP_LAUNCH("app_launch"),
+    EVENT_SLIDESHOW_INTERACTION("slideshow_interaction"),
+    EVENT_SLIDESHOW_OVERLAY("slideshow_overlay_link_open"),
+    EVENT_UTILITY_MENU_OPEN("utility_menu_open"),
+    EVENT_REMOVE_SAVED_ARTICLE("remove_saved_article"),
+    EVENT_REMOVE_HISTORY_ARTICLE("remove_reading_history_article"),
+    EVENT_PERCENTAGE_SECTION_25("percent_25_complete"),
+    EVENT_PERCENTAGE_SECTION_50("percent_50_complete"),
+    EVENT_PERCENTAGE_SECTION_75("percent_75_complete"),
+    EVENT_PERCENTAGE_SECTION_100("percent_100_complete"),
+    EVENT_CROSSWORD("crossword"),
+    EVENT_INTERACTION("interaction"),
+    EVENT_IMMERSION_CAROUSEL_SEEN("immersion_carousel_seen"),
+    EVENT_EXTERNAL_CAROUSEL_SEEN("external_carousel_seen"),
+    EVENT_SEVEN_LIVE_CAROUSEL_SEEN("seven_live_carousel_seen"),
+    EVENT_PROFILE_RESUME("profile_resume"),
+    EVENT_WALL_OPEN("wall_open"),
+    EVENT_CUSTOM_NAV_ENROLL("topic_preferences_enroll"),
+    EVENT_CUSTOM_NAV_DISENROLL("topic_preferences_disenroll"),
+    EVENT_ADD_TO_PLAYLIST("save_audio_playlist"),
+    EVENT_REMOVE_FROM_PLAYLIST("remove_saved_audio_playlist"),
+    RECIPE_FINDER_SEARCH_SUBMIT("recipe_finder_search_submit"),
+    EVENT_PLAYLIST_CLICK("playlist_click"),
+    EVENT_FEATURE_ONBOARDING_DISMISS("feature_onboarding_dismiss"),
+    EVENT_GLOBAL_SUBSCRIBE_BANNER("acquisition_banner"),
+    EVENT_ARTICLE_SUMMARY_SEEN("article_summary_seen"),
+    ELECTION_SEARCH_SUBMIT("election_search_submit"),
+    EVENT_ARTICLE_SUMMARY_FEEDBACK("article_summary_feedback"),
+    EVENT_IN_APP_PROMPT("in_app_prompt"),
+    PUSH_PROMPT_DISMISS("push_prompt_dismiss"),
+    EVENT_TOGGLE_ON("toggle_on"),
+    EVENT_TOGGLE_OFF("toggle_off"),
+    EVENT_TOGGLE_ATP_TAB("answerbot_interaction"),
+    EVENT_ANSWERBOT_THREAD("answerbot_thread"),
+    EVENT_ANSWERBOT_VOICE("answerbot_voice"),
+    EVENT_SESSION_ENGAGEMENT_TIME("session_engagement_time"),
+    EVENT_PAGE_ENGAGEMENT_TIME("page_engagement_time"),
+    EVENT_PROFILE_INTERACTION("profile_interaction"),
+    EVENT_AUDIO_INTERACTION("audio_interaction"),
+    EVENT_COMMENTING_CREATE_COMMENT("commenting_create_comment"),
+    EVENT_COMMENTING_INTERACTION("commenting_interaction"),
+    EVENT_COMMENTING_VIEW("commenting_view"),
+    EVENT_ANSWERBOT_SHARE("answerbot_share"),
+    EVENT_CAMPAIGN_DETAILS(FirebaseAnalytics.Event.CAMPAIGN_DETAILS);
+
+    private final String key;
+
+    Events(final String s) {
+        key = s;
+    }
+
+    public String getKey() {
+        return key;
+    }
+}

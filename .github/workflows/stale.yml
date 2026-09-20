@@ -1,0 +1,20 @@
+name: Close Stale Pull Requests
+on:
+  schedule:
+    - cron: '0 12 * * 3' # Runs at 12:00 UTC every Wednesday (08:00 ET during DST / 07:00 ET otherwise)
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/stale@v10
+        with:
+          days-before-pr-stale: 75
+          days-before-pr-close: 15
+          stale-pr-label: 'Stale :bread:'
+          stale-pr-message: 'This PR has been inactive for 75 days. It will be closed in 15 days if no further activity occurs.'
+          close-pr-message: 'This PR was automatically closed due to 90 days of inactivity.'

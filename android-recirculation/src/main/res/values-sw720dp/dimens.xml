@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <text sizes> -->
+    <dimen name="carousel_headline_font_size">16sp</dimen>
+
+    <!-- <spacings> -->
+    <dimen name="my_post_carousel_item_left_margin">16dp</dimen>
+
+    <dimen name="carousel_immersion_card_top_margin">6dp</dimen>
+    <dimen name="carousel_article_title_padding_bottom">0dp</dimen>
+
+</resources>

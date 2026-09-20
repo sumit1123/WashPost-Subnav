@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SplashTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/wp_animation</item>
+        <item name="postSplashScreenTheme">@style/WaPo</item>
+        <item name="windowSplashScreenBackground">@color/app_bg</item>
+        <item name="android:windowSplashScreenBehavior">icon_preferred</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+{
+  "search2Config": {
+    "askThePost": {
+      "questionsBaseUrl": "https://wapo-qa-staging.washingtonpost.com/",
+      "converseBaseUrl": "https://wapo-qa-staging.washingtonpost.com/api/v2/"
+    }
+  }
+}

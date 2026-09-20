@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="my_post_tablet_detail_gutter_width">30dp</dimen>
+    <dimen name="my_post_tablet_fixed_width_column">400dp</dimen>
+</resources>

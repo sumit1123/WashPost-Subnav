@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/grid_switch"
+        android:title="Show grid"
+        app:actionLayout="@layout/grid_switch"
+        app:showAsAction="always" />
+</menu>

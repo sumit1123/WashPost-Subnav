@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (c) 2019. The Washington Post. All rights reserved. -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_embedded_shadow"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/backstory_label"
+            style="@style/backstory_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/backstory_label"
+            android:visibility="gone" />
+
+        <com.wapo.view.ProportionalLayout
+            android:id="@+id/pl_article_embedded_media_slot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.washingtonpost.android.volley.toolbox.NetworkAnimatedImageView
+                android:id="@+id/iv_article_embedded"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true" />
+        </com.wapo.view.ProportionalLayout>
+
+        <TextView
+            android:id="@+id/tv_embedded_headline"
+            style="@style/article_embedded_text_headline_span"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="New Text" />
+
+        <LinearLayout
+            android:id="@+id/tv_embedded_blurb_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp">
+
+            <TextView
+                android:id="@+id/tv_embedded_byline"
+                style="@style/article_embedded_text_byline_span"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_embedded_blurb"
+                style="@style/article_embedded_text_deck_span"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/top_rule"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/article_embedded_by_line_color"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/b_embedded_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/btn_read_embedded"
+            android:drawableRight="@drawable/btn_read_selector"
+            android:gravity="center"
+            android:paddingLeft="@dimen/article_embedded_read_button_padding_horizontal"
+            android:paddingTop="@dimen/article_embedded_read_button_padding_vertical"
+            android:paddingRight="@dimen/article_embedded_read_button_padding_horizontal"
+            android:paddingBottom="@dimen/article_embedded_read_button_padding_vertical"
+            android:text="@string/label_open"
+            android:textAppearance="@style/article_embedded_open_button"
+            android:visibility="visible" />
+    </LinearLayout>
+</FrameLayout>

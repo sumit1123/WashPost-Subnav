@@ -1,0 +1,19 @@
+{
+  "ads": {
+    "audio": {
+      "defaults": {
+        "vastEnabled": true
+      },
+      "configsByContentType": {
+        "podcast": {
+          "minAdBreakIntervalSeconds": 10,
+          "minGlobalAdIntervalSeconds": 0
+        },
+        "article": {
+          "minAdBreakIntervalSeconds": 0,
+          "minGlobalAdIntervalSeconds": 20
+        }
+      }
+    }
+  }
+}

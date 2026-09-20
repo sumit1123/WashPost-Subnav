@@ -1,0 +1,215 @@
+<!-- suppress AndroidLintUselessParent -->
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:t="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:background="@color/print_edition_background"
+    t:context="com.wapo.flagship.features.print.ArchivesFragment">
+
+    <RelativeLayout
+        a:id="@+id/no_edition_found_bar"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_alignParentTop="true"
+        a:background="@color/print_edition_calendar_background"
+        a:visibility="gone">
+
+        <TextView
+            style="@style/PrintEdition.Prompt.Title"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_centerInParent="true"
+            a:padding="5dp"
+            a:text="@string/archive_not_found" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        a:id="@+id/download_prompt"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_below="@id/no_edition_found_bar"
+        a:animateLayoutChanges="true"
+        a:background="@color/print_edition_auto_download_prompt_background"
+        a:padding="25dp"
+        a:visibility="gone">
+
+        <RelativeLayout
+            a:id="@+id/download_prompt_container"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_centerInParent="true">
+
+            <TextView
+                a:id="@+id/download_prompt_title"
+                style="@style/PrintEdition.Prompt.Title"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_marginBottom="8dp"
+                a:text="@string/archive_prompt_title"
+                a:textAlignment="center"
+                a:textSize="18sp" />
+
+            <TextView
+                a:id="@+id/download_prompt_subtitle"
+                style="@style/PrintEdition.Prompt"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_below="@id/download_prompt_title"
+                a:layout_marginEnd="30dp"
+                a:layout_marginBottom="10dp"
+                a:text="@string/archive_prompt_subtitle"
+                a:textSize="14dp" />
+
+            <LinearLayout
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_centerVertical="true"
+                a:layout_toEndOf="@id/download_prompt_subtitle">
+
+                <Button
+                    a:id="@+id/archive_prompt_confirm"
+                    style="@style/PrintEdition.Prompt.Button.Accept"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:layout_marginEnd="4dp"
+                    a:text="@string/archive_prompt_confirm" />
+
+                <Button
+                    a:id="@+id/archive_prompt_cancel"
+                    style="@style/PrintEdition.Prompt.Button.Decline"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:layout_marginStart="4dp"
+                    a:text="@string/archive_prompt_cancel" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        a:id="@+id/push_prompt"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_below="@id/download_prompt"
+        a:animateLayoutChanges="true"
+        a:background="@color/print_edition_auto_download_prompt_background"
+        a:padding="25dp"
+        a:visibility="gone">
+
+        <RelativeLayout
+            a:id="@+id/push_prompt_container"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_centerInParent="true">
+
+            <TextView
+                a:id="@+id/push_prompt_title"
+                style="@style/PrintEdition.Prompt.Title"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_marginBottom="8dp"
+                a:text="@string/archive_push_prompt_title"
+                a:textAlignment="center"
+                a:textSize="18sp" />
+
+            <TextView
+                a:id="@+id/push_prompt_subtitle"
+                style="@style/PrintEdition.Prompt"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_below="@id/push_prompt_title"
+                a:layout_marginEnd="30dp"
+                a:layout_marginBottom="10dp"
+                a:text="@string/archive_push_prompt_subtitle_tablet"
+                a:textSize="14dp" />
+
+            <LinearLayout
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_centerVertical="true"
+                a:layout_toEndOf="@id/push_prompt_subtitle">
+
+                <Button
+                    a:id="@+id/push_prompt_confirm"
+                    style="@style/PrintEdition.Prompt.Button.Accept"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:layout_marginEnd="4dp"
+                    a:text="@string/archive_prompt_confirm" />
+
+                <Button
+                    a:id="@+id/push_prompt_cancel"
+                    style="@style/PrintEdition.Prompt.Button.Decline"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:layout_marginStart="4dp"
+                    a:text="@string/archive_prompt_cancel" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        a:id="@+id/pdf_archives_root"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:layout_below="@id/push_prompt"
+        a:background="@color/print_edition_background"
+        a:padding="10dp">
+
+        <Button
+            a:id="@+id/editionsButton"
+            style="@style/PrintEdition.Label.EditionsButton"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentTop="true"
+            a:layout_alignParentEnd="true"
+            a:layout_marginTop="5dp"
+            a:layout_marginEnd="5dp"
+            a:background="@drawable/archives_editions_background"
+            app:drawableStartCompat="@drawable/archive_button"
+            a:text="@string/archives_button" />
+
+        <TextView
+            a:id="@+id/dayLabel"
+            style="@style/PrintEdition.Label.Day"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentStart="true"
+            a:layout_alignParentTop="true"
+            a:layout_marginStart="5dp" />
+
+        <TextView
+            a:id="@+id/dateLabel"
+            style="@style/PrintEdition.Label.Date"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/dayLabel"
+            a:layout_marginStart="5dp"
+            a:layout_marginBottom="5dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            a:id="@+id/pdf_archives_listview"
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:layout_below="@id/dateLabel"
+            a:layout_centerHorizontal="true"
+            a:layout_marginTop="0dp"
+            a:orientation="vertical"
+            app:layoutManager="GridLayoutManager"
+            app:spanCount="3" />
+
+        <ProgressBar
+            a:id="@+id/recycler_progress_bar"
+            a:layout_width="wrap_content"
+            a:layout_height="match_parent"
+            a:layout_below="@id/dateLabel"
+            a:layout_centerHorizontal="true"
+            a:progressDrawable="@drawable/progress_bar"
+            a:visibility="visible" />
+
+    </RelativeLayout>
+</RelativeLayout>

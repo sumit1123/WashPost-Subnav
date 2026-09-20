@@ -1,0 +1,86 @@
+{
+  "pushConfigV3": {
+    "availableSubscriptionTopics": [
+      {
+        "id": "breaking-news",
+        "displayName": "Breaking News",
+        "key": "breaking-news",
+        "isOptional": false,
+        "alias": "bn"
+      },
+      {
+        "id": "editors_picks",
+        "displayName": "Editors' Picks",
+        "key": "editors_picks",
+        "alias": "ep"
+      },
+      {
+        "id": "the7_briefs",
+        "displayName": "The 7 Briefing",
+        "key": "the7_briefs",
+        "alias": "7b"
+      },
+      {
+        "id": "whats_new",
+        "displayName": "What's New",
+        "key": "whats_new",
+        "isOptional": false,
+        "alias": "wn"
+      },
+      {
+        "id": "politics",
+        "displayName": "Politics",
+        "key": "politics",
+        "alias": "pl"
+      },
+      {
+        "id": "opinions",
+        "displayName": "Opinions",
+        "key": "opinions",
+        "alias": "op"
+      },
+      {
+        "id": "world",
+        "displayName": "World",
+        "key": "world",
+        "alias": "wd"
+      },
+      {
+        "id": "health_and_science",
+        "displayName": "Health & Science",
+        "key": "health_and_science",
+        "alias": "hs"
+      },
+      {
+        "id": "business_and_tech",
+        "displayName": "Business & Tech",
+        "key": "business_and_tech",
+        "alias": "bt"
+      },
+      {
+        "id": "sports",
+        "displayName": "Sports",
+        "key": "sports",
+        "alias": "sp"
+      },
+      {
+        "id": "local",
+        "displayName": "Local (D.C. Area)",
+        "key": "local",
+        "alias": "lc"
+      },
+      {
+        "id": "entertainment",
+        "displayName": "Entertainment",
+        "key": "entertainment",
+        "alias": "et"
+      },
+      {
+        "id": "todays_paper",
+        "displayName": "In Today's Paper",
+        "key": "todays_paper",
+        "alias": "pr"
+      }
+    ]
+  }
+}

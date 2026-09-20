@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <path
+      android:pathData="M4.65,10.35a1.65,1.65 0,1 1,0 3.3,1.65 1.65,0 0,1 0,-3.3zM12,10.35a1.65,1.65 0,1 1,0 3.3,1.65 1.65,0 0,1 0,-3.3zM21,12a1.65,1.65 0,1 0,-3.3 0,1.65 1.65,0 0,0 3.3,0z"
+      android:fillColor="@color/playlist_ellipsis_button"/>
+</vector>

@@ -1,0 +1,216 @@
+{
+    "checksum": "e986421d6f6585f60523a6b1e6859ae5",
+    "tracking": {
+        "published": "",
+        "columnname": "",
+        "headline": "The Globe and Mail offers the most authoritative news in Canada, featuring national and international news",
+        "platform": "pagebuilder",
+        "content_id": "",
+        "sectionfront": "",
+        "story_type": "",
+        "blogname": "",
+        "author": "",
+        "page_name": "sandbox.tgam - homepage",
+        "section": "homepage",
+        "content_category": "",
+        "content_type": "homepage",
+        "op_ranking": "no sentiment - no ideology",
+        "hierarchy": "/homepage",
+        "subsection": "homepage",
+        "page_num": "",
+        "channel": "sandbox.tgam - homepage",
+        "source": "",
+        "news_or_commercial": "News",
+        "track_scrolling": "false",
+        "commercial_node": "theglobeandmail.com",
+        "site": "beta.theglobeandmail.com",
+        "page_type": ""
+    },
+    "regions": {
+        "main-content": {
+            "items": [
+                {
+                    "items": [
+                        {
+                            "items": [
+                                {
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "last_modified": "2017-07-11T17:32:45.872Z",
+                                                "access_level": "meteredThenPaid",
+                                                "type": "web",
+                                                "url": "https://beta.theglobeandmail.com/news/world/us-politics/donald-trump-jr-emails-full-document-russia-meeting/article35653774/"
+                                            },
+                                            "source": "Wire services and Globe staff",
+                                            "blurb": "The President's son has released documents related to a 2016 meeting at Trump Tower that offered the prospect of dirt on his father's Democratic rival, Hillary Clinton. Here they are in full",
+                                            "commercial_node": "news",
+                                            "headline": {
+                                                "text": "Read Donald Trump Jr.\u2019s e-mail chain about the meeting with the Russian\u00a0lawyer",
+                                                "alignment": "left",
+                                                "font_style": "normal-style",
+                                                "size": "large"
+                                            },
+                                            "media": {
+                                                "art_position": "high",
+                                                "aspect_ratio": 1.5,
+                                                "caption_size": "small",
+                                                "width": 1500,
+                                                "url": "https://arc-anglerfish-tgam-prod-tgam.s3.amazonaws.com/public/KQCGPLI4ERF6VHUJ3TJVLVTSJY.jpg",
+                                                "height": 1500,
+                                                "art_width": 12,
+                                                "media_type": "featured",
+                                                "caption_content": ""
+                                            },
+                                            "sub_item_type": "primary",
+                                            "signature": {
+                                                "timestamp": "2017-07-11T15:43:27Z",
+                                                "by_line": ""
+                                            }
+                                        }
+                                    ],
+                                    "border_bottom_style": "none",
+                                    "text_alignment": "left",
+                                    "border_bottom_width": "100-pct",
+                                    "feature_name": "read-donald-trump-jr-s-e-mail-chain-about-the-meeting-with-the-russian-lawyer",
+                                    "item_type": "homepage/story"
+                                },
+                                {
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "last_modified": "2017-07-11T17:11:24.474Z",
+                                                "access_level": "paidOnly",
+                                                "type": "article",
+                                                "url": "https://beta.theglobeandmail.com/report-on-business/ubs-chair-says-canadas-infrastructure-bank-could-be-global-blueprint/article35654075/"
+                                            },
+                                            "source": "Globe and Mail Update",
+                                            "blurb": "\u2018There\u2019s some stuff that would really fly globally,\u2019 Axel Weber, head of Swiss banking giant says",
+                                            "commercial_node": "report-on-business",
+                                            "headline": {
+                                                "text": "UBS chair says Canada\u2019s infrastructure bank could be global \u2018blueprint\u2019",
+                                                "alignment": "left",
+                                                "font_style": "normal-style",
+                                                "size": "large"
+                                            },
+                                            "media": {
+                                                "art_position": "high",
+                                                "aspect_ratio": 1.5,
+                                                "caption_size": "small",
+                                                "width": 2048,
+                                                "url": "https://arc-anglerfish-tgam-prod-tgam.s3.amazonaws.com/public/COUKKST3ERFJNFH5RXW5UPKWEA.JPG",
+                                                "height": 2048,
+                                                "art_width": 12,
+                                                "media_type": "featured",
+                                                "caption_content": "Axel Weber, chairman of UBS Group AG, looks on ahead of a Bloomberg Television interview in Berlin, Germany, on Tuesday, May 23, 2017."
+                                            },
+                                            "sub_item_type": "primary",
+                                            "signature": {
+                                                "timestamp": "2017-07-11T16:24:17Z",
+                                                "by_line": "James Bradshaw"
+                                            }
+                                        }
+                                    ],
+                                    "border_bottom_style": "none",
+                                    "text_alignment": "left",
+                                    "border_bottom_width": "100-pct",
+                                    "feature_name": "ubs-chair-says-canadas-infrastructure-bank-could-be-global-blueprint",
+                                    "item_type": "homepage/story"
+                                },
+                                {
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "last_modified": "2017-04-09T22:20:10-04:00",
+                                                "access_level": "freeForAll",
+                                                "type": "video",
+                                                "url": "https://beta.theglobeandmail.com/video/test-youtube-001/video67694244-6156-4bcd-86b9-23561dbc1b88/"
+                                            },
+                                            "source": "The Globe and Mail",
+                                            "blurb": null,
+                                            "commercial_node": "video",
+                                            "headline": {
+                                                "text": "test youtube 001",
+                                                "alignment": "left",
+                                                "font_style": "normal-style",
+                                                "size": "small"
+                                            },
+                                            "sub_item_type": "primary",
+                                            "signature": {
+                                                "timestamp": null,
+                                                "by_line": ""
+                                            }
+                                        }
+                                    ],
+                                    "border_bottom_style": "none",
+                                    "text_alignment": "left",
+                                    "border_bottom_width": "100-pct",
+                                    "feature_name": "test-youtube-001",
+                                    "item_type": "homepage/story"
+                                },
+                                {
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "last_modified": "2017-07-11T17:41:06.198Z",
+                                                "access_level": "meteredThenFree",
+                                                "type": "article",
+                                                "url": "https://beta.theglobeandmail.com/globe-drive/reviews/new-cars/audi-debuts-all-new-high-tech-flagshipa8/article35654532/"
+                                            },
+                                            "source": "Globe and Mail Update",
+                                            "blurb": "The 2018 A8 is a tour-de-force of design and technology, with a supremely futuristic cockpit and a self-driving system",
+                                            "commercial_node": "globe-drive",
+                                            "headline": {
+                                                "text": "Audi debuts all-new high-tech flagship\u00a0A8",
+                                                "alignment": "left",
+                                                "font_style": "normal-style",
+                                                "size": "small"
+                                            },
+                                            "media": {
+                                                "art_position": "right-of-headline",
+                                                "aspect_ratio": 1.5,
+                                                "caption_size": "small",
+                                                "width": 2048,
+                                                "url": "https://arc-anglerfish-tgam-prod-tgam.s3.amazonaws.com/public/VR2HTE3PZBG53HTNMJ356P37HA.JPG",
+                                                "height": 2048,
+                                                "art_width": 4,
+                                                "media_type": "featured",
+                                                "caption_content": "The new Audi A8 is seen during a presentation at the Audi Summit in Barcelona, Spain, July 11, 2017."
+                                            },
+                                            "sub_item_type": "primary",
+                                            "signature": {
+                                                "timestamp": "2017-07-11T17:29:21Z",
+                                                "by_line": "MATT BUBBERS"
+                                            }
+                                        }
+                                    ],
+                                    "border_bottom_style": "none",
+                                    "text_alignment": "left",
+                                    "border_bottom_width": "100-pct",
+                                    "feature_name": "audi-debuts-all-new-high-tech-flagship-a8",
+                                    "item_type": "homepage/story"
+                                }
+                            ],
+                            "item_type": "column",
+                            "widths": {
+                                "x-large": 5,
+                                "medium": 6,
+                                "x-small": 12,
+                                "small": 5,
+                                "large": 5
+                            }
+                        }
+                    ],
+                    "chain_name": "escenomatic/story-feed",
+                    "item_type": "chain"
+                }
+            ],
+            "location": "main-content"
+        }
+    },
+    "name": "Home page Layout",
+    "outputType": "jsonApp",
+    "layout": "homepage",
+    "last_modified": "2017-07-11T01:19:54.000Z",
+    "lmt": "Tue, 11 Jul 2017 01:19:54 UTC"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="flowable_layout_default_obsruction_padding">0px</dimen>
+    <dimen name="flowable_text_view_default_min_text_width">90dp</dimen>
+    <dimen name="live_label_width">60dp</dimen>
+    <dimen name="streamm_button_height">30dp</dimen>
+    <dimen name="sf_module_padding">20dp</dimen>
+    <dimen name="sf_module_stream_headline_top_margin">10dp</dimen>
+    <dimen name="sf_module_stream_headline_font_size">18dp</dimen>
+    <dimen name="sf_module_stream_blurb_font_size">16sp</dimen>
+    <dimen name="sf_module_stream_byline_font_size">12sp</dimen>
+    <dimen name="sf_module_stream_kicker_font_size">12sp</dimen>
+    <dimen name="sf_module_stream_image_bottom_margin">5dp</dimen>
+    <dimen name="sf_module_stream_image_left_margin">10dp</dimen>
+    <dimen name="sf_module_stream_image_right_margin">0dp</dimen>
+    <dimen name="sf_module_stream_headline_bottom_margin">10dp</dimen>
+    <dimen name="sf_module_stream_separator_height">1dp</dimen>
+    <dimen name="sf_module_stream_headline_padding_right">10dp</dimen>
+    <dimen name="sf_module_stream_headline_padding_left">20dp</dimen>
+    <dimen name="phone_tabs_text_size">14sp</dimen>
+
+    <!-- Custom Nav -->
+    <dimen name="custom_nav_padding_end">40dp</dimen>
+
+    <dimen name="default_article_obstruction_padding">10dp</dimen>
+
+    <dimen name="menu_item_height">45dp</dimen>
+    <dimen name="menu_item_left_margin">16dp</dimen>
+    <dimen name="menu_item_extra_left_margin">64dp</dimen>
+    <dimen name="header_menu_item_height">@dimen/menu_item_height</dimen>
+    <dimen name="menu_header_text_size">16sp</dimen>
+    <dimen name="menu_header_bottom_margin">9dp</dimen>
+    <dimen name="menu_header_left_margin">@dimen/menu_item_left_margin</dimen>
+    <dimen name="menu_item_text_size">14sp</dimen>
+    <dimen name="menu_label_text_size">12sp</dimen>
+    <dimen name="menu_item_divider_height">1dp</dimen>
+    <dimen name="menu_category_item_height">45dp</dimen>
+    <dimen name="menu_category_item_padding_top">9dp</dimen>
+    <dimen name="menu_category_item_padding_bottom">9dp</dimen>
+
+    <dimen name="category_menu_item_height">@dimen/menu_item_height</dimen>
+    <dimen name="category_menu_item_left_margin">@dimen/menu_item_left_margin</dimen>
+    <dimen name="native_article_embedded_open_button_text_size">16sp</dimen>
+    <dimen name="embedded_gallery_hor_pad">10dp</dimen>
+    <dimen name="embedded_gallery_ver_pad">10dp</dimen>
+    <dimen name="bottom_stub_height">10dp</dimen>
+
+    <dimen name="tooltip_max_width">720dp</dimen>
+    <dimen name="tooltip_margin_podcast">1dp</dimen>
+    <dimen name="tooltip_horizontal_margin">6dp</dimen>
+    <dimen name="tooltip_padding_around">18dp</dimen>
+    <dimen name="tooltip_margin_left">16dp</dimen>
+    <dimen name="tooltip_margin_right">16dp</dimen>
+    <dimen name="tooltip_close_icon_margin_top">16dp</dimen>
+    <dimen name="tooltip_close_icon_margin_right">16dp</dimen>
+    <dimen name="tooltip_content_to_close_btn_margin">18dp</dimen>
+    <dimen name="tooltip_arrow_vertical_offset">12dp</dimen>
+    <dimen name="tooltip_corner">8dp</dimen>
+    <dimen name="tooltip_elevation">3dp</dimen>
+
+    <dimen name="headline_text_size">20sp</dimen>
+    <dimen name="headline_line_height">24sp</dimen>
+
+    <dimen name="label_text_size">14sp</dimen>
+    <dimen name="label_text_line_height">19sp</dimen>
+    <dimen name="secondary_text_size">14sp</dimen>
+    <dimen name="secondary_text_line_height">19sp</dimen>
+    <dimen name="helper_text_line_height">18sp</dimen>
+    <dimen name="helper_text_size">14sp</dimen>
+
+    <!-- Base Bottom Sheet -->
+    <dimen name="bottom_sheet_max_width">580dp</dimen>
+    <dimen name="bottom_sheet_min_height">640dp</dimen>
+
+    <dimen name="table_row_header">12sp</dimen>
+    <dimen name="table_column_header">14sp</dimen>
+
+    <integer name="first_part_opinion_left_padding_underline">1</integer>
+    <integer name="first_part_opinion_right_padding_underline">-2</integer>
+    <integer name="second_part_opinion_left_padding_underline">-10</integer>
+    <integer name="second_part_opinion_right_padding_underline">-2</integer>
+
+    <!-- Card/MaterialCard views -->
+    <dimen name="card_view_stroke_width">1dp</dimen>
+    <dimen name="card_view_elevation">2dp</dimen>
+    <dimen name="card_view_corner_radius">4dp</dimen>
+
+    <item name="async_shine_image_alpha" format="float" type="dimen">1.0</item>
+    <dimen name="async_cell_placeholder_height">200dp</dimen>
+
+    <dimen name="tab_layout_height">23dp</dimen>
+    <dimen name="tab_layout_tab_content_start">16dp</dimen>
+    <dimen name="tab_layout_tab_indicator_Height">3dp</dimen>
+    <dimen name="tab_layout_tab_min_width">0dp</dimen>
+    <dimen name="tab_layout_tab_padding_start">10dp</dimen>
+    <dimen name="tab_layout_tab_padding_top">0dp</dimen>
+    <dimen name="tab_layout_tab_padding_bottom">8dp</dimen>
+</resources>

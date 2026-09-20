@@ -1,0 +1,2008 @@
+{
+  "id": "5738bc916bd5f0cf5f209af7588fee65",
+  "type": "blog",
+  "renderer": "native",
+  "arcId": "LXEC7QJYYJBYTKC4V2OOPD6JAI",
+  "title": "E. Jean Carroll defamation trial adjourns for the day; Carroll expected to testify Wednesday",
+  "blurb": "E. Jean Carroll’s defamation trial against Donald Trump begins Tuesday. The case will determine whether he owes her damages for defamatory comments he made. ",
+  "contenturl": "https://www.washingtonpost.com/national-security/2024/01/16/e-jean-carroll-trump-trial/",
+  "shareurl": "https://www.washingtonpost.com/national-security/2024/01/16/e-jean-carroll-trump-trial/",
+  "source": "the-washington-post",
+  "section": "National-security",
+  "sourcesection": "national-security",
+  "sourcesubsection": "national-security - justice",
+  "sourcecategory": "National-security",
+  "lmt": 1705447404091,
+  "published": 1705447404091,
+  "first_published": 1705413728630,
+  "display_date": 1705444211815,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CCUQEIMVHZUGS34R7O2UFCYZNY.jpg",
+  "sourceslug": "justice-trump-carroll-live-0116",
+  "commercialnode": "/national-security/justice",
+  "omniture": {
+    "title": "E. Jean Carroll defamation trial begins, Trump attends - The Washington Post",
+    "pageName": "e-jean-carroll-trump-trial",
+    "channel": "national-security",
+    "contentId": "nullLXEC7QJYYJBYTKC4V2OOPD6JAI",
+    "contentType": "story - live-all",
+    "contentSource": "the-washington-post",
+    "contentTopics": "Justice;National Security",
+    "newsroomDesk": "(not set)",
+    "newsroomSubdesk": "(not set)",
+    "contentAuthor": "washington post staff",
+    "authorId": "wapostaff",
+    "authorType": "(not set)",
+    "subSection": "national-security - justice",
+    "arcId": "LXEC7QJYYJBYTKC4V2OOPD6JAI",
+    "trackingTags": "story-has-edit-branch;created from template id ddl3jbg6zjgg5cjxyvupaqke74;methode-draft;collections-e-jean-carroll-suit;audio-article"
+  },
+  "version": 1,
+  "tags": "story-has-edit-branch,created from template id ddl3jbg6zjgg5cjxyvupaqke74,methode-draft,collections-e-jean-carroll-suit,audio-article",
+  "items": [
+    {
+      "content": "Justice",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Justice",
+      "path": "/justice",
+      "group": "card-0"
+    },
+    {
+      "content": "E. Jean Carroll defamation trial adjourns for the day; Carroll expected to testify Wednesday",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1",
+      "group": "card-0"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/LXEC7QJYYJBYTKC4V2OOPD6JAI/20240116-182318.182/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/LXEC7QJYYJBYTKC4V2OOPD6JAI/20240116-182318.182/current.mp3?awCollectionId=/national-security/justice&awEpisodeId=LXEC7QJYYJBYTKC4V2OOPD6JAI&tags=collections-e-jean-carroll-suit%7Caudio-article",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/LXEC7QJYYJBYTKC4V2OOPD6JAI/20240116-182318.182/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CCUQEIMVHZUGS34R7O2UFCYZNY.jpg",
+        "imageWidth": 5760,
+        "imageHeight": 3840,
+        "fullcaption": "(Eduardo Munoz Alvarez/AP)"
+      },
+      "title": {
+        "content": "E. Jean Carroll defamation trial adjourns for the day; Carroll expected to testify Wednesday",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "Justice",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "Justice",
+        "path": "/justice"
+      },
+      "date": {
+        "content": 1705444211815,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      },
+      "group": "card-0"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CFOEFYCXCK6VU2OBVC32HVJNMY_size-normalized.jpg",
+      "imageWidth": 5760,
+      "imageHeight": 3840,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "People carry signs supporting E. Jean Carroll's case against Donald Trump to determine how much more he owes the writer for denying that he sexually assaulted her in the 1990s and accusing her of lying about her claims outside federal court in New York on Tuesday.",
+      "blurb": "People carry signs supporting E. Jean Carroll's case against Donald Trump to determine how much more he owes the writer for denying that he sexually assaulted her in the 1990s and accusing her of lying about her claims outside federal court in New York on Tuesday.",
+      "group": "card-0"
+    },
+    {
+      "content": "By Washington Post staff",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "wapostaff",
+          "name": "Washington Post staff",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/256e702d-7557-4a12-a78f-a66f571c2e16.png"
+        }
+      ],
+      "group": "card-0"
+    },
+    {
+      "content": 1705444211815,
+      "mime": "text/plain",
+      "type": "date",
+      "group": "card-0"
+    },
+    {
+      "type": "toggle",
+      "subtype": "alerts",
+      "mime": "text/html",
+      "key": "politics",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "NEW YORK — Another civil case against former president Donald Trump began this week. It is the second trial to be held in a pair of cases against Trump brought by his sexual assault accuser E. Jean Carroll.",
+      "group": "card-0",
+      "truncate": {
+        "truncatedLabel": "Show more",
+        "expandedLabel": "Show less",
+        "itemsCount": 8
+      }
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The trial is expected to be brief and very limited in scope, because a jury, which was selected Tuesday, will be asked only to determine whether damages should be awarded for defamatory comments Trump made in 2019 while he was in office. Trump was in the courtroom during jury selection but left the courthouse before opening statements, according to a senior Trump adviser. He is slated to hold an event in New Hampshire at 6:30 p.m.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The trial adjourned for the day a little after 4:30 p.m. Tuesday, and Carroll is expected to testify Wednesday.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Carroll was already awarded $5 million at a previous trial in Manhattan federal court for sexual abuse and defamation related to comments Trump made in 2022, which echoed the disparaging remarks Trump had made two years before.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Based on that verdict, the judge overseeing the cases, Lewis A. Kaplan, said that no new evidence needed to be presented on the issue of whether Carroll suffered reputational harm.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Trump denies that any sexual encounter occurred.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "He has called Carroll a liar, painted her as mentally ill and has suggested he would never have approached her romantically because she wasn’t his “type.”",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Carroll has said Trump raped her in a dressing room at the Bergdorf Goodman department store in Manhattan in the mid-1990s after a chance encounter. Both were public figures at the time.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Two of Carroll’s friends testified at the first trial that she had told them about the assault.",
+      "group": "card-0"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-1",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-MJE3THAQJJAY5C4PUSL2RTWGL4",
+      "group": "card-1"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705442729139,
+      "recency_threshold": 720,
+      "group": "card-1"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-1"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Alina Habba, attorney for former president Donald Trump, concluded her opening remarks, and the trial was adjourned for the day. E. Jean Carroll is expected to testify Wednesday.",
+      "group": "card-1"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/politics",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-2",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-BVOUN5WKCRBQDKJFIO7FY7VPA4",
+      "group": "card-2"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1705442383108,
+      "group": "card-2"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "In opening statement, Trump attorney claims Carroll sought fame",
+      "group": "card-2"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-2"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "In her opening statement, former president Donald Trump’s attorney Alina Habba asserted that E. Jean Carroll did not shy away from the public eye after receiving negative attention and instead made more TV appearances.",
+      "group": "card-2"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“This is someone who craves fame and seeks fame wherever she could get it,” Habba said. She argued that the threats Carroll received cannot be attributed to the two Trump statements in 2019 that are at issue in the case.",
+      "group": "card-2"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-2"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“Regardless of a few mean tweets, Ms. Carroll is now more famous than she has ever been in her life,” the lawyer said.",
+      "group": "card-2"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-3",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-YTFTLOWQDRFNVM4BXUZKPUK7VA",
+      "group": "card-3"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1705441847811,
+      "group": "card-3"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Jury shown examples of hate speech directed toward Carroll",
+      "group": "card-3"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs and Dan Rosenzweig-Ziff",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        },
+        {
+          "id": "rosenzweigziffd2020",
+          "url": "https://www.washingtonpost.com/people/dan-rosenzweig-ziff/",
+          "name": "Dan Rosenzweig-Ziff",
+          "bio": "Dan Rosenzweig-Ziff is a reporter on The Washington Post's General Assignment desk, where he covers breaking news and writes of-the-moment features. He has reported for The Post from Europe and covered crime and criminal justice on the Metro desk. He previously worked for the Texas Tribune and was a Fulbright scholar in Germany.",
+          "expertise": "Reporter covering national breaking news",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/3730e296-ff2a-46d1-a07b-fc9723bd3f56.png"
+        }
+      ],
+      "group": "card-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Former president Donald Trump has continued to incessantly attack E. Jean Carroll on social media despite last year’s verdict awarding her with $5 million for sexual abuse and defamation, her lawyer Shawn Crowley told the jury during opening arguments.",
+      "group": "card-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“He sat in this courthouse this morning, and while he was sitting there he posted more defamatory statements, more lies about Ms. Carroll and this case,” Crowley said.",
+      "group": "card-3"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Before 10 a.m. Tuesday morning, Trump had posted more than a dozen screenshots of what appeared to be Carroll’s tweets from the past several years, while alleging that Carroll only accused him of sexual assault because she was “seeking fame, fortune, and publicity.”",
+      "group": "card-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“Judge Kaplan should put this whole corrupt, Crooked Joe Biden-directed Election Interference attack on me immediately to rest,” Trump wrote.",
+      "group": "card-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Later in the afternoon, on his way to a campaign rally in New Hampshire, Trump on his social media platform called the judge a “bully” who is a “disgrace.”",
+      "group": "card-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Crowley asked jurors to “think about that when you consider how much money it will take to get him to stop.”",
+      "group": "card-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The jury was then shown examples of the vile hate speech Crowley said Carroll receives when Trump goes after her.",
+      "group": "card-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“I hope someone really does attack, rape and murder you,” one Trump supporter wrote on May 10, 2023.",
+      "group": "card-3"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-4",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-SJWUV2LBJRHYFPI7EBBT247O6I",
+      "group": "card-4"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1705438573474,
+      "group": "card-4"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Trump’s comments ‘unleashed’ threats on Carroll’s life, lawyer says",
+      "group": "card-4"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-4"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "E. Jean Carroll attorney Shawn Crowley told jurors in her opening statement, “Donald Trump sexually assaulted Ms. Carroll in 1996, and that is a proven fact” that was established at last year’s trial.",
+      "group": "card-4"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Crowley argued that Trump’s statements in 2019, decades after the assault, furthered the trauma Carroll had to endure.",
+      "group": "card-4"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-4"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“Donald Trump was president when he made those statements, and he used the world’s biggest microphone to attack Ms. Carroll, humiliate her and to destroy her reputation,” Crowley said. Trump’s comments, she said, ruined Carroll’s reputation and “unleashed his followers … to threaten her life.”",
+      "group": "card-4"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/politics",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-5",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-245N5IFODJFRDELAMV4IZV5CEA",
+      "group": "card-5"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705437631958,
+      "recency_threshold": 720,
+      "group": "card-5"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Marianne LeVine and Dan Rosenzweig-Ziff",
+      "authors": [
+        {
+          "id": "levinem",
+          "url": "https://www.washingtonpost.com/people/marianne-levine/",
+          "name": "Marianne LeVine",
+          "bio": "Marianne LeVine is a national political reporter for The Washington Post.",
+          "expertise": "National political reporter focused on the 2024 elections",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/c92633a1-cfd2-407a-bffb-245ff4e5f5ea.jpg"
+        },
+        {
+          "id": "rosenzweigziffd2020",
+          "url": "https://www.washingtonpost.com/people/dan-rosenzweig-ziff/",
+          "name": "Dan Rosenzweig-Ziff",
+          "bio": "Dan Rosenzweig-Ziff is a reporter on The Washington Post's General Assignment desk, where he covers breaking news and writes of-the-moment features. He has reported for The Post from Europe and covered crime and criminal justice on the Metro desk. He previously worked for the Texas Tribune and was a Fulbright scholar in Germany.",
+          "expertise": "Reporter covering national breaking news",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/3730e296-ff2a-46d1-a07b-fc9723bd3f56.png"
+        }
+      ],
+      "group": "card-5"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Trump has left the courthouse, according to a senior Trump adviser. The former president left before opening arguments began and is slated to hold an event at 5 p.m. this afternoon in Atkinson, N.H.",
+      "group": "card-5"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-6",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-KB5TAV6COFAKTD34AMVLIUGLCE",
+      "group": "card-6"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705436986272,
+      "recency_threshold": 720,
+      "group": "card-6"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-6"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The jurors have been sworn in and given instructions by the judge.",
+      "group": "card-6"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Donald Trump did not return to the courtroom.",
+      "group": "card-6"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "At one point, Trump lawyer Boris Epshteyn, who is not on this case formally, tried to address the judge before the jury returned. Epshteyn was told to sit down, as he is not admitted to practice in this federal court.",
+      "group": "card-6"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-7",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-S6IG6CQ2HJET5MKQZZRMGYNXII",
+      "group": "card-7"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705434981964,
+      "recency_threshold": 720,
+      "group": "card-7"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Wesley Parnell",
+      "authors": [
+        {
+          "name": "Wesley Parnell"
+        }
+      ],
+      "group": "card-7"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Attorneys finally whittled down the pool of candidates to nine jurors, which included a 60-year-old train conductor from the Bronx with two children, a German immigrant who works in administration at a German language school in Manhattan, a 26-year-old property manager with an associate’s degree in business, a 46-year-old doctor from Westchester with two kids, and a single 40-year-old Manhattan resident, currently not working, and with no spouse or children.",
+      "group": "card-7"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/politics",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-8",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-H7W5XFTQJVFE5LYHUSU7F32GTI",
+      "group": "card-8"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1705433109091,
+      "group": "card-8"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Jury selected; opening statements to begin",
+      "group": "card-8"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-8"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WSYTRC52AH6RVSDQJF7534RV2I_size-normalized.jpg",
+      "imageWidth": 8256,
+      "imageHeight": 5504,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "People gather Tuesday outside federal court in Manhattan for the trial in E. Jean Carroll's second defamation case against former president Donald Trump. (Angela Weiss/AFP/Getty Images)",
+      "blurb": "People gather Tuesday outside federal court in Manhattan for the trial in E. Jean Carroll's second defamation case against former president Donald Trump. (Angela Weiss/AFP/Getty Images)",
+      "group": "card-8"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "NEW YORK — Jury selection wrapped up about 1:45 p.m., and opening statements were expected after an hour-long lunch break.",
+      "group": "card-8"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Former president Donald Trump watched in the early afternoon as prospective jurors went through brief biographies, explaining things like what they do for a living, where they live and what type of news they consume. Prospective panelists came from two boroughs in New York City as well as some counties north of the city.",
+      "group": "card-8"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-8"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Earlier in the day, without jurors present, U.S. District Judge Lewis A. Kaplan was noticeably irked at Trump lawyer Alina Habba, who sought to raise issues the judge said were already settled, including whether there should be a delay in the case while Trump attends his mother-in-law’s funeral in Florida. Kaplan had already said he would not postpone the trial a week but would let Trump testify Monday if the defense would have otherwise called him to the stand Thursday, the day of the funeral.",
+      "group": "card-8"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "When Habba asked instead for a day-long adjournment, Kaplan said that it was too late to raise a new request and that his mind was made up.",
+      "group": "card-8"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Habba also complained that she didn’t have proper notice of the other side’s witnesses, an assertion the judge sharply rejected. “Ms. Habba, you have a witness list. … You have had a witness list for months,” Kaplan interjected.",
+      "group": "card-8"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Trump’s side intends to call two witnesses: the ex-president and a friend of Carroll’s who testified at the first trial.",
+      "group": "card-8"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-9",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-NODZ3EHJYJGX3KHRPEEWTO3UWU",
+      "group": "card-9"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705426962697,
+      "recency_threshold": 720,
+      "group": "card-9"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-9"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Juror prospect No. 68 answered that he believed the 2020 election was “stolen.” He has also attended a Trump rally or other event, and he follows Trump on social media. Interestingly, this apparent Trump supporter in the jury pool disclosed earlier that he was a lawyer who assisted the law firm Kaplan Hecker & Fink on a marriage equality case. Carroll lawyer Roberta Kaplan’s firm successfully argued the landmark marriage equality issue in front of the Supreme Court.",
+      "group": "card-9"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-10",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-53WAGQ5EYBDAZNWU6TJ3P25HKI",
+      "group": "card-10"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705421994289,
+      "recency_threshold": 720,
+      "group": "card-10"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-10"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "In total, 80 prospective jurors were called in this morning for screening. Questions have included whether they’ve read about the case, if they’re members of a political party and whether they voted in the past two elections.",
+      "group": "card-10"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/politics",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-11",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-MIUFM25TLRFMPJQXV3V3QMITBM",
+      "group": "card-11"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705421223804,
+      "recency_threshold": 720,
+      "group": "card-11"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-11"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "A handful of prospective jurors were just sent out because they said they couldn’t be fair to both sides. They didn’t have to explain why, they just raised their hands.",
+      "group": "card-11"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "One woman said she worked for Ivanka Trump, daughter of former president Donald Trump, doing communications work. She said she knew her personally but could still be fair.",
+      "group": "card-11"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-12",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-IRGTR5LDIJHJXMLMDMC77EMXHY",
+      "group": "card-12"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705421179812,
+      "recency_threshold": 720,
+      "group": "card-12"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-12"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“The court determined in a previous decision that Mr. Trump is liable for defamation,” Judge Lewis A. Kaplan told prospective jurors. “For purposes of this trial it has been determined already that Mr. Trump did sexually assault Ms. Carroll, that he knew when he made theses statements about Ms. Carroll … that they were false or with reckless disregard … ”",
+      "group": "card-12"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-13",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-XBNQ4GO7NZAM3CY7FPB4VZH5CY",
+      "group": "card-13"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705420603980,
+      "recency_threshold": 720,
+      "group": "card-13"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-13"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“Neither your names nor the names of the jurors who are ultimately selected nor any other identifying information will be made public,” Judge Lewis A. Kaplan told prospective jurors. The panel will be anonymous even to the judge and the parties. They will be picked up by court staff at designated points so they can be driven to a secure location at the Manhattan federal courthouse.",
+      "group": "card-13"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/politics",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-14",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-WSI2PBY5FNBKXDIIUDEKVYG2DQ",
+      "group": "card-14"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705420063193,
+      "recency_threshold": 720,
+      "group": "card-14"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-14"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Former president Donald Trump is back in the courtroom, as is the panel of prospective jurors. Trump stood and glanced around the room at them.",
+      "group": "card-14"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“This case is about a writer and advice columnist E. Jean Carroll and former president Donald J. Trump,” Judge Lewis A. Kaplan said to the group.",
+      "group": "card-14"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-15",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-NGLWTT6TKBADJDZCMUDWCQXC7Q",
+      "group": "card-15"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1705418531741,
+      "group": "card-15"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "E. Jean Carroll seeks limits on Trump testimony after his courtroom tirade",
+      "group": "card-15"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-15"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JQCEUCLOXXVZBN3QXDDH7HRWJY_size-normalized.jpg",
+      "imageWidth": 5616,
+      "imageHeight": 3744,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "E. Jean Carroll leaves Manhattan federal court Oct. 23, 2023, in New York. (Frank Franklin II/AP)",
+      "blurb": "E. Jean Carroll leaves Manhattan federal court Oct. 23, 2023, in New York. (Frank Franklin II/AP)",
+      "group": "card-15"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "NEW YORK — <a href=\"https://www.washingtonpost.com/national-security/2023/09/06/trump-carroll-lawsuit-liable-defamation/?itid=lk_inline_manual_2\">E. Jean Carroll’s</a> attorneys asked a federal judge Friday to give <a href=\"https://www.washingtonpost.com/donald-trump/?itid=lk_inline_manual_2\">Donald Trump</a> strict warnings about what grounds he must avoid if he chooses to testify at a trial to determine what damages are owed for defamation claims.",
+      "group": "card-15"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "metatext",
+      "mime": "text/html",
+      "content": "<i>This is an excerpt from a <a href=\"https://www.washingtonpost.com/national-security/2024/01/12/e-jean-carroll-seeks-limits-trump-testimony-after-his-courtroom-tirade/\">full story</a>.</i>",
+      "group": "card-15"
+    },
+    {
+      "type": "link",
+      "subtype": "button",
+      "label": "Continue reading",
+      "url": "https://www.washingtonpost.com/national-security/2024/01/12/e-jean-carroll-seeks-limits-trump-testimony-after-his-courtroom-tirade/",
+      "showArrow": true,
+      "group": "card-15"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-16",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-R7I6WPJX7RAZLNAIT6FBRQSHIA",
+      "group": "card-16"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705418018454,
+      "recency_threshold": 720,
+      "group": "card-16"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-16"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Judge Lewis A. Kaplan has ordered a recess because some time is needed to bring the jury up. Former president Donald Trump is now out of the room.",
+      "group": "card-16"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/politics",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-17",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-UGEZ5AUPAZBUFDJE3S4G3OMDAI",
+      "group": "card-17"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705417984854,
+      "recency_threshold": 720,
+      "group": "card-17"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-17"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HJ3VWAZNE2XDNUTB6M2DQDQOWU_size-normalized.jpg",
+      "imageWidth": 5296,
+      "imageHeight": 3531,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Former president Donald Trump stands with his lawyer Alina Habba after closing arguments of his civil fraud trial on Jan. 11 in New York City. (Spencer Platt/Getty Images)",
+      "blurb": "Former president Donald Trump stands with his lawyer Alina Habba after closing arguments of his civil fraud trial on Jan. 11 in New York City. (Spencer Platt/Getty Images)",
+      "group": "card-17"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Trump lawyer Alina Habba just said she will call former president Donald Trump as a witness. It’s unclear which day that will happen, but over the weekend, Judge Lewis A. Kaplan ruled that if the rest of their case is done before Thursday (which it probably won’t be), Trump could testify Jan. 22.",
+      "group": "card-17"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-18",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-CMMVRGLGXNC3VLPPAUXQCJVLTY",
+      "group": "card-18"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705417459012,
+      "recency_threshold": 720,
+      "group": "card-18"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-18"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "U.S. District Court Judge Lewis A. Kaplan said he will select nine jurors. He issued strict warnings to both sides not to discuss any aspects of the case in the presence of any jurors or prospective jurors.",
+      "group": "card-18"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-19",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-IKYALCPYJRBJ7MEEV3MGSSU454",
+      "group": "card-19"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705416659788,
+      "recency_threshold": 720,
+      "group": "card-19"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-19"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "U.S. District Court Judge Lewis A. Kaplan is now seated on the bench.",
+      "group": "card-19"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/politics",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-20",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-VLDMQBNS7JDMZN2INYZWVEUJVM",
+      "group": "card-20"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705416365435,
+      "recency_threshold": 720,
+      "group": "card-20"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-20"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Former president Donald Trump is now at the defense table. He just took his coat off and sat down. It is believed to be the first time Trump and E. Jean Carroll have been in a room together in decades. Carroll is facing straight ahead and did not appear to look at him.",
+      "group": "card-20"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "This is also the first time Trump has appeared in court in either of the two lawsuits Carroll has filed against him.",
+      "group": "card-20"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-21",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-VHNM7LVDHVHO5NJLO353IFYU74",
+      "group": "card-21"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705416132840,
+      "recency_threshold": 720,
+      "group": "card-21"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-21"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZJP3HVVEP4LAS4ULETMH4LCELI_size-normalized.jpg",
+      "imageWidth": 5760,
+      "imageHeight": 3840,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "E. Jean Carroll holds her umbrella and is embraced as she arrives at federal court in New York on Jan. 16. (Eduardo Munoz Alvarez/AP)",
+      "blurb": "E. Jean Carroll holds her umbrella and is embraced as she arrives at federal court in New York on Jan. 16. (Eduardo Munoz Alvarez/AP)",
+      "group": "card-21"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "E. Jean Carroll is now at the plaintiff’s table but proceedings haven’t started yet. There are lots of empty seats in the courtroom, many of which will probably be occupied soon by prospective jurors.",
+      "group": "card-21"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-22",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-UD65GNZGLFHO5MJ4BXZQAQM2DE",
+      "group": "card-22"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705415602257,
+      "recency_threshold": 720,
+      "group": "card-22"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-22"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Donald Trump is in the building and is expected to appear at the trial today before heading to New Hampshire for the primary.",
+      "group": "card-22"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/politics",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-23",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-4C3IAH7VFVFJ5C4PY33RFGS7LA",
+      "group": "card-23"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1705414781441,
+      "recency_threshold": 720,
+      "group": "card-23"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Maegan Vazquez",
+      "authors": [
+        {
+          "id": "vazquezm",
+          "url": "https://www.washingtonpost.com/people/maegan-vazquez/",
+          "name": "Maegan Vazquez",
+          "bio": "Maegan Vazquez is a politics breaking news reporter. She joined The Washington Post in 2023.",
+          "expertise": "Politics breaking news reporter",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/f5d81519-6237-4546-88cb-978276cd465b.jpg"
+        }
+      ],
+      "group": "card-23"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Former president Donald Trump confirmed that he’s heading to a federal court in Manhattan on Tuesday, where a jury will determine how much he will pay in damages for defaming writer E. Jean Carroll by denying he sexually assaulted her and accusing her of lying.",
+      "group": "card-23"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "“After a historic win in Iowa,” Trump <a href=\"https://truthsocial.com/@realDonaldTrump/111765973827837317\">wrote</a> on Truth Social, he is headed to the trial, which he claimed was “a FAKE Case from a woman I have never met, seen, or touched.”",
+      "group": "card-23"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-24",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-XYHFIPRCAJBININGHS7C43MOTA",
+      "group": "card-24"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1705414225236,
+      "group": "card-24"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "What happened the last time Carroll took Trump to court",
+      "group": "card-24"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Mark Berman",
+      "authors": [
+        {
+          "id": "bermanmj",
+          "url": "https://www.washingtonpost.com/people/mark-berman/",
+          "name": "Mark Berman",
+          "bio": "Mark Berman is a national reporter for The Washington Post who covers law enforcement and criminal justice issues. He has been with The Post since 2007. ",
+          "expertise": "National reporter covering law enforcement and criminal justice",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/08cfb702-ed4c-42db-82a3-c2f8bdb31d23.png"
+        }
+      ],
+      "group": "card-24"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The case set to begin Tuesday will mark the second time in a year that a lawsuit brought by E. Jean Carroll went to trial.",
+      "group": "card-24"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Last year, a separate lawsuit filed by Carroll, accusing former president Donald Trump of sexual assault and defaming her, also led to a civil trial. In that case, a jury <a href=\"https://www.washingtonpost.com/national-security/2023/05/09/e-jean-carroll-trump-jury/\">found in May</a> that Trump sexually abused and defamed Carroll, awarding her a combined $5 million in damages.",
+      "group": "card-24"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Read more on the outcome of that trial <a href=\"https://www.washingtonpost.com/national-security/2023/05/09/e-jean-carroll-trump-jury/\">here</a>.",
+      "group": "card-24"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-25",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-KEGPPAKJB5FJ5LYXHSYNJ6SSGQ",
+      "group": "card-25"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1705413956433,
+      "group": "card-25"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Jury in second E. Jean Carroll trial will only determine damages",
+      "group": "card-25"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Shayna Jacobs",
+      "authors": [
+        {
+          "id": "jacobss",
+          "url": "https://www.washingtonpost.com/people/shayna-jacobs/",
+          "name": "Shayna Jacobs",
+          "bio": "Shayna Jacobs is a federal courts and law enforcement reporter on the national security team at The Washington Post, where she covers the Southern and Eastern districts of New York. ",
+          "expertise": "Courts, law enforcement and criminal justice ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9ad45472-37b7-4f72-9ef0-0eb30285b308.png"
+        }
+      ],
+      "group": "card-25"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LQQ3Z2SY5EZYGVSCHOSVVFQRMU.JPG",
+      "imageWidth": 2837,
+      "imageHeight": 1933,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Donald Trump speaks during a campaign event on Jan. 5 in Sioux Center, Iowa. (Jabin Botsford /The Washington Post)",
+      "blurb": "Donald Trump speaks during a campaign event on Jan. 5 in Sioux Center, Iowa. (Jabin Botsford /The Washington Post)",
+      "group": "card-25"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "NEW YORK — Former president Donald Trump has already been found liable for defaming E. Jean Carroll in 2019, so the jury chosen this week will be tasked only with determining whether to award damages.",
+      "group": "card-25"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-25"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "In a summary judgment decision in September, U.S. District Court Judge Lewis A. Kaplan found that the evidence in the first trial last spring was <a href=\"https://www.washingtonpost.com/national-security/2023/09/06/trump-carroll-lawsuit-liable-defamation/\">enough to establish liability</a> for remaining defamation claims against Trump. In the first trial, Carroll was <a href=\"https://www.washingtonpost.com/national-security/2023/05/09/e-jean-carroll-trump-jury/\">awarded $5 million</a> for sexual assault and defamation.",
+      "group": "card-25"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The defamation claims in the first trial stemmed from comments Trump made in 2022, while the disparaging remarks at issue in this case took place in 2019, while Trump was still in the White House. His comments were made in response to Carroll coming forward with an allegation that Trump had raped her decades before.",
+      "group": "card-25"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Trump denies that any sexual encounter occurred and continues to say he’s never met Carroll, even though they were photographed mid-conversation at an event around that time.",
+      "group": "card-25"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Carroll has filed two lawsuits against Trump since 2019.",
+      "group": "card-25"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The second lawsuit filed — which was the first to go to trial — was permissible under the state’s Adult Survivors Act, which extended the statute of limitations for a one-year window to allow survivors of older alleged sexual assaults to seek justice in the courts.",
+      "group": "card-25"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/politics",
+      "style": "luf"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "blogname": "Justice",
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/LXEC7QJYYJBYTKC4V2OOPD6JAI/20240116-182318.182/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/LXEC7QJYYJBYTKC4V2OOPD6JAI/20240116-182318.182/current.mp3?awCollectionId=/national-security/justice&awEpisodeId=LXEC7QJYYJBYTKC4V2OOPD6JAI&tags=collections-e-jean-carroll-suit%7Caudio-article",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/LXEC7QJYYJBYTKC4V2OOPD6JAI/20240116-182318.182/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CCUQEIMVHZUGS34R7O2UFCYZNY.jpg",
+      "imageWidth": 5760,
+      "imageHeight": 3840,
+      "fullcaption": "(Eduardo Munoz Alvarez/AP)"
+    },
+    "title": {
+      "content": "E. Jean Carroll defamation trial adjourns for the day; Carroll expected to testify Wednesday",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "Justice",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Justice",
+      "path": "/justice"
+    },
+    "date": {
+      "content": 1705444211815,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    }
+  },
+  "tableOfContents": {
+    "children": [
+      {
+        "title": "Alina Habba, attorney for former president Donald Trump, concluded her opening remarks, and the trial was...",
+        "arcId": "MJE3THAQJJAY5C4PUSL2RTWGL4",
+        "anchor": "link-MJE3THAQJJAY5C4PUSL2RTWGL4",
+        "displayDate": 1705442729139
+      },
+      {
+        "title": "In opening statement, Trump attorney claims Carroll sought fame",
+        "arcId": "BVOUN5WKCRBQDKJFIO7FY7VPA4",
+        "anchor": "link-BVOUN5WKCRBQDKJFIO7FY7VPA4",
+        "displayDate": 1705442383108
+      },
+      {
+        "title": "Jury shown examples of hate speech directed toward Carroll",
+        "arcId": "YTFTLOWQDRFNVM4BXUZKPUK7VA",
+        "anchor": "link-YTFTLOWQDRFNVM4BXUZKPUK7VA",
+        "displayDate": 1705441847811
+      },
+      {
+        "title": "Trump’s comments ‘unleashed’ threats on Carroll’s life, lawyer says",
+        "arcId": "SJWUV2LBJRHYFPI7EBBT247O6I",
+        "anchor": "link-SJWUV2LBJRHYFPI7EBBT247O6I",
+        "displayDate": 1705438573474
+      },
+      {
+        "title": "Trump has left the courthouse, according to a senior Trump adviser. The former president left before...",
+        "arcId": "245N5IFODJFRDELAMV4IZV5CEA",
+        "anchor": "link-245N5IFODJFRDELAMV4IZV5CEA",
+        "displayDate": 1705437631958
+      },
+      {
+        "title": "The jurors have been sworn in and given instructions by the judge.",
+        "arcId": "KB5TAV6COFAKTD34AMVLIUGLCE",
+        "anchor": "link-KB5TAV6COFAKTD34AMVLIUGLCE",
+        "displayDate": 1705436986272
+      },
+      {
+        "title": "Attorneys finally whittled down the pool of candidates to nine jurors, which included a 60-year-old train...",
+        "arcId": "S6IG6CQ2HJET5MKQZZRMGYNXII",
+        "anchor": "link-S6IG6CQ2HJET5MKQZZRMGYNXII",
+        "displayDate": 1705434981964
+      },
+      {
+        "title": "Jury selected; opening statements to begin",
+        "arcId": "H7W5XFTQJVFE5LYHUSU7F32GTI",
+        "anchor": "link-H7W5XFTQJVFE5LYHUSU7F32GTI",
+        "displayDate": 1705433109091
+      },
+      {
+        "title": "Juror prospect No. 68 answered that he believed the 2020 election was “stolen.” He has also...",
+        "arcId": "NODZ3EHJYJGX3KHRPEEWTO3UWU",
+        "anchor": "link-NODZ3EHJYJGX3KHRPEEWTO3UWU",
+        "displayDate": 1705426962697
+      },
+      {
+        "title": "In total, 80 prospective jurors were called in this morning for screening. Questions have included whether...",
+        "arcId": "53WAGQ5EYBDAZNWU6TJ3P25HKI",
+        "anchor": "link-53WAGQ5EYBDAZNWU6TJ3P25HKI",
+        "displayDate": 1705421994289
+      },
+      {
+        "title": "A handful of prospective jurors were just sent out because they said they couldn’t be fair...",
+        "arcId": "MIUFM25TLRFMPJQXV3V3QMITBM",
+        "anchor": "link-MIUFM25TLRFMPJQXV3V3QMITBM",
+        "displayDate": 1705421223804
+      },
+      {
+        "title": "“The court determined in a previous decision that Mr. Trump is liable for defamation,” Judge Lewis...",
+        "arcId": "IRGTR5LDIJHJXMLMDMC77EMXHY",
+        "anchor": "link-IRGTR5LDIJHJXMLMDMC77EMXHY",
+        "displayDate": 1705421179812
+      },
+      {
+        "title": "“Neither your names nor the names of the jurors who are ultimately selected nor any other...",
+        "arcId": "XBNQ4GO7NZAM3CY7FPB4VZH5CY",
+        "anchor": "link-XBNQ4GO7NZAM3CY7FPB4VZH5CY",
+        "displayDate": 1705420603980
+      },
+      {
+        "title": "Former president Donald Trump is back in the courtroom, as is the panel of prospective jurors....",
+        "arcId": "WSI2PBY5FNBKXDIIUDEKVYG2DQ",
+        "anchor": "link-WSI2PBY5FNBKXDIIUDEKVYG2DQ",
+        "displayDate": 1705420063193
+      },
+      {
+        "title": "E. Jean Carroll seeks limits on Trump testimony after his courtroom tirade ",
+        "arcId": "NGLWTT6TKBADJDZCMUDWCQXC7Q",
+        "anchor": "link-NGLWTT6TKBADJDZCMUDWCQXC7Q",
+        "displayDate": 1705418531741
+      },
+      {
+        "title": "Judge Lewis A. Kaplan has ordered a recess because some time is needed to bring the...",
+        "arcId": "R7I6WPJX7RAZLNAIT6FBRQSHIA",
+        "anchor": "link-R7I6WPJX7RAZLNAIT6FBRQSHIA",
+        "displayDate": 1705418018454
+      },
+      {
+        "title": "Trump lawyer Alina Habba just said she will call former president Donald Trump as a witness....",
+        "arcId": "UGEZ5AUPAZBUFDJE3S4G3OMDAI",
+        "anchor": "link-UGEZ5AUPAZBUFDJE3S4G3OMDAI",
+        "displayDate": 1705417984854
+      },
+      {
+        "title": "U.S. District Court Judge Lewis A. Kaplan said he will select nine jurors. He issued strict...",
+        "arcId": "CMMVRGLGXNC3VLPPAUXQCJVLTY",
+        "anchor": "link-CMMVRGLGXNC3VLPPAUXQCJVLTY",
+        "displayDate": 1705417459012
+      },
+      {
+        "title": "U.S. District Court Judge Lewis A. Kaplan is now seated on the bench.",
+        "arcId": "IKYALCPYJRBJ7MEEV3MGSSU454",
+        "anchor": "link-IKYALCPYJRBJ7MEEV3MGSSU454",
+        "displayDate": 1705416659788
+      },
+      {
+        "title": "Former president Donald Trump is now at the defense table. He just took his coat off...",
+        "arcId": "VLDMQBNS7JDMZN2INYZWVEUJVM",
+        "anchor": "link-VLDMQBNS7JDMZN2INYZWVEUJVM",
+        "displayDate": 1705416365435
+      },
+      {
+        "title": "E. Jean Carroll is now at the plaintiff’s table but proceedings haven’t started yet. There are...",
+        "arcId": "VHNM7LVDHVHO5NJLO353IFYU74",
+        "anchor": "link-VHNM7LVDHVHO5NJLO353IFYU74",
+        "displayDate": 1705416132840
+      },
+      {
+        "title": "Donald Trump is in the building and is expected to appear at the trial today before...",
+        "arcId": "UD65GNZGLFHO5MJ4BXZQAQM2DE",
+        "anchor": "link-UD65GNZGLFHO5MJ4BXZQAQM2DE",
+        "displayDate": 1705415602257
+      },
+      {
+        "title": "Former president Donald Trump confirmed that he’s heading to a federal court in Manhattan on Tuesday,...",
+        "arcId": "4C3IAH7VFVFJ5C4PY33RFGS7LA",
+        "anchor": "link-4C3IAH7VFVFJ5C4PY33RFGS7LA",
+        "displayDate": 1705414781441
+      },
+      {
+        "title": "What happened the last time Carroll took Trump to court",
+        "arcId": "XYHFIPRCAJBININGHS7C43MOTA",
+        "anchor": "link-XYHFIPRCAJBININGHS7C43MOTA",
+        "displayDate": 1705414225236
+      },
+      {
+        "title": "Jury in second E. Jean Carroll trial will only determine damages ",
+        "arcId": "KEGPPAKJB5FJ5LYXHSYNJ6SSGQ",
+        "anchor": "link-KEGPPAKJB5FJ5LYXHSYNJ6SSGQ",
+        "displayDate": 1705413956433
+      }
+    ]
+  },
+  "first_display_date": 1705413728149
+}

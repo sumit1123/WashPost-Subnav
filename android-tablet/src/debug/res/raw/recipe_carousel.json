@@ -1,0 +1,4960 @@
+
+{
+  "layout": "homepage",
+  "output_type": "jsonapp",
+  "tracking": {
+    "page_name": "homepage",
+    "page_title": "The Washington Post - Breaking news and latest headlines, U.S. news, world news, and video - The Washington Post",
+    "page_path": "/",
+    "section": "homepage",
+    "channel": "homepage"
+  },
+  "regions": [
+    {
+      "location": "content",
+      "items": [
+        {
+          "id": "a26ca36d-d843-4015-96cc-4f95ec53bacd",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "Finder",
+          "link_group": "Finder",
+          "layout_name": "tiling",
+          "label": {
+            "type": "package",
+            "label": {
+              "text": "RECIPE FINDER"
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          },
+          "items": [
+            {
+              "id": "allcontent-a26ca36d-d843-4015-96cc-4f95ec53bacd",
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "Finder",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "bbfe9731-8c80-45cb-a324-3019f8b3d7fa",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "promo",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Top Stories -- Strip with small photo",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.washingtonpost.com/recipes/",
+                    "type": "web"
+                  },
+                  "media": {
+                    "art_width": "small",
+                    "aspect_ratio": 1.5,
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/63O2DBTTTEI6VKN5T6FVSMYA2A.jpg",
+                    "media_type": "image",
+                    "image_type": null,
+                    "art_position": "art-right"
+                  },
+                  "headline": {
+                    "text": "What’s for dinner? Plan meals, try new foods and explore cuisines with our database of tested recipes.",
+                    "size": "large",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "bbfe9731-8c80-45cb-a324-3019f8b3d7fa",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "promo",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Top Stories -- Strip with small photo",
+                  "mobile_preset": "+ Image: Display – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media",
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.washingtonpost.com/recipes/",
+                    "type": "web"
+                  },
+                  "media": {
+                    "art_width": "full-width",
+                    "aspect_ratio": 1.5,
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/63O2DBTTTEI6VKN5T6FVSMYA2A.jpg",
+                    "media_type": "image",
+                    "image_type": null,
+                    "art_position": "art-above-head",
+                    "bleed": "full"
+                  },
+                  "headline": {
+                    "text": "What’s for dinner? Plan meals, try new foods and explore cuisines with our database of tested recipes.",
+                    "size": "large",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          }
+        },
+        {
+          "id": "94553089-baed-4ef1-b4bd-402b6aba1262",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "Latest",
+          "link_group": "Latest",
+          "layout_name": "tiling",
+          "label": {
+            "type": "package",
+            "label": {
+              "text": "LATEST RECIPES"
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          },
+          "items": [
+            {
+              "id": "allcontent-94553089-baed-4ef1-b4bd-402b6aba1262",
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "Latest",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "item_type": "carousel/recipe",
+                  "id": "1ae389f5-adfc-4dbc-8bae-9787492a9878",
+                  "items": [
+                    {
+                      "item_type": "recipe",
+                      "id": "DT5UEJAF3MZWPJPDBSNLFJK5UI",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/chicken-peppers/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-09-08T04:00:00.000Z",
+                        "display_date": "2023-09-08T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/UGUMFJYPOHZP2HYVYL3QVKKOOI.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Chicken With Peppers"
+                      },
+                      "recipe_info": {
+                        "total_time": 6000,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      },
+                      "rating": {
+                        "type": "star",
+                        "value": 3.5,
+                        "count": 257,
+                        "max": 5.0
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "3S5B7VYOCEZGDFZMROARSEREGU",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/chicken-artichoke-melts/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-09-07T04:00:00.000Z",
+                        "display_date": "2023-09-07T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RKU3UFDBKGBDJOHUKZ7HWGNFDU.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Chicken Artichoke Melts"
+                      },
+                      "recipe_info": {
+                        "total_time": 2100,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "4HFPSY3QEU36XENZ62MBNZGOJU",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/pescado-en-escabeche/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-09-07T04:00:00.000Z",
+                        "display_date": "2023-09-07T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/G4VXOA5IETZZMKSR4IWIWB3DVI.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Pescado en Escabeche"
+                      },
+                      "recipe_info": {
+                        "total_time": 2400,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "S3EAVCMPTE27ZJS4IEIP6GUGTE",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/apple-cider-milk-tea/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-09-06T04:00:00.000Z",
+                        "display_date": "2023-09-06T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QIACFBGUVAJXYGM6FPEMOG5LTE.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Apple Cider Milk Tea"
+                      },
+                      "recipe_info": {
+                        "total_time": 900,
+                        "courses": [
+                          {
+                            "id": "beverage",
+                            "description": "Beverage"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "4B3GKQWCVE353BLB3LNQEPAVUM",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/apple-cider-eggnog/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-09-06T04:00:00.000Z",
+                        "display_date": "2023-09-06T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CQLV4KVHZGDJ7UBIFTOKYX4REM.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Apple Cider Eggnog"
+                      },
+                      "recipe_info": {
+                        "total_time": 600,
+                        "courses": [
+                          {
+                            "id": "beverage",
+                            "description": "Beverage"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "XXCZ5AKW2Q6WXCQD3C7R5WQQFE",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/hot-buttered-cider/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-09-06T04:00:00.000Z",
+                        "display_date": "2023-09-06T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BA7IKDPRKD53PNZNIJSKD36Q2E.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Hot Buttered Cider"
+                      },
+                      "recipe_info": {
+                        "total_time": 600,
+                        "courses": [
+                          {
+                            "id": "beverage",
+                            "description": "Beverage"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "M2L3WTN4UE7PVBLBKEDGER4ZAQ",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/cucumber-jalapeo-agua-fresca/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-09-05T04:00:00.000Z",
+                        "display_date": "2023-09-05T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DSU32RMFMWSGHW7IYJME7YXOGQ.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Cucumber-Jalapeño Agua Fresca"
+                      },
+                      "recipe_info": {
+                        "total_time": 900,
+                        "courses": [
+                          {
+                            "id": "beverage",
+                            "description": "Beverage"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "57CADAZGLIYNVD56TPMUJNTE5I",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/watermelon-agua-fresca/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-09-05T04:00:00.000Z",
+                        "display_date": "2023-09-05T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/6QGMJRZEPQ2FH5BZFVSVO2EHAI.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Watermelon Agua Fresca"
+                      },
+                      "recipe_info": {
+                        "total_time": 900,
+                        "courses": [
+                          {
+                            "id": "beverage",
+                            "description": "Beverage"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "TWM6CBK2DU2AJOT6OHVDG3WGBQ",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/shrimp-tostadas-avocado-lime-crema/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-09-05T04:00:00.000Z",
+                        "display_date": "2023-09-05T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/AUEDS77D3QT3HNFNVKGIZESPAM.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Shrimp Tostadas With Avocado and Lime Crema"
+                      },
+                      "recipe_info": {
+                        "total_time": 2400,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "KXXXW7FQHI3Y5CIKBII3MM5CFY",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/pinto-bean-cakes-avocado-salsa/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-09-03T04:00:00.000Z",
+                        "display_date": "2023-09-03T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SBODW7J75I5CRDK7F7AMWJMPU4.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Pinto Bean Cakes With Avocado Salsa"
+                      },
+                      "recipe_info": {
+                        "total_time": 2100,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          }
+        },
+        {
+          "id": "42b1aaab-9a69-40e4-9ff8-41725f93c193",
+          "item_type": "ad/flex-app",
+          "display_name": "ad-2-bigbox-1",
+          "ad_type": "bigbox",
+          "advertisement": {
+            "commercial_node": "washingtonpost.com"
+          },
+          "media_full_bleed": true
+        },
+        {
+          "id": "346ee1b6-2a72-4efa-bd3d-59f939399610",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "staff picks",
+          "link_group": "staff picks",
+          "layout_name": "tiling",
+          "label": {
+            "type": "package",
+            "label": {
+              "text": "STAFF PICKS"
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          },
+          "items": [
+            {
+              "id": "allcontent-346ee1b6-2a72-4efa-bd3d-59f939399610",
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "staff picks",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    {
+                      "row": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    {
+                      "row": 1,
+                      "col": 10,
+                      "colspan": 5
+                    },
+                    {
+                      "row": 1,
+                      "col": 15,
+                      "colspan": 5
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 5,
+                      "row": 0,
+                      "rowspan": 2
+                    },
+                    {
+                      "col": 10,
+                      "row": 0,
+                      "rowspan": 2
+                    },
+                    {
+                      "col": 15,
+                      "row": 0,
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                "large": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 1,
+                      "col": 4,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 1,
+                      "col": 8,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 1,
+                      "col": 12,
+                      "colspan": 4
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 2
+                    },
+                    {
+                      "col": 8,
+                      "row": 0,
+                      "rowspan": 2
+                    },
+                    {
+                      "col": 12,
+                      "row": 0,
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    {
+                      "row": 1,
+                      "col": 6,
+                      "colspan": 6
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    {
+                      "row": 2,
+                      "col": 6,
+                      "colspan": 6
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    {
+                      "row": 3,
+                      "col": 6,
+                      "colspan": 6
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 6,
+                      "row": 0,
+                      "rowspan": 4
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    {
+                      "row": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    {
+                      "row": 2,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    {
+                      "row": 3,
+                      "col": 5,
+                      "colspan": 5
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 5,
+                      "row": 0,
+                      "rowspan": 4
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 4,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 5,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 6,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 7,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "a75aa2e9-38d9-4f62-a3b4-01c2497e3750",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "Flex Feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "⟲ Head + byline (Clear all Custom Fields)",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "tiny"
+                      },
+                      "right": {
+                        "items": [
+                          "headline"
+                        ],
+                        "valign": "center"
+                      }
+                    }
+                  },
+                  "media": {
+                    "art_width": "tiny",
+                    "aspect_ratio": 1,
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5QLDT3I7ONHYBMLRMQL7LFZ7YE.png",
+                    "make_it_round": true,
+                    "media_type": "image",
+                    "image_type": null,
+                    "art_position": "art-left"
+                  },
+                  "headline": {
+                    "text": "Vegetarian",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "15977ae7-a36e-428d-9abb-7b4ad3e1d5ba",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "Flex Feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "⟲ Head + byline (Clear all Custom Fields)",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "tiny"
+                      },
+                      "right": {
+                        "items": [
+                          "headline"
+                        ],
+                        "valign": "center"
+                      }
+                    }
+                  },
+                  "media": {
+                    "art_width": "tiny",
+                    "aspect_ratio": 1,
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CY3AU5WDCJC75LXLJJV4URCBKA.png",
+                    "make_it_round": true,
+                    "media_type": "image",
+                    "image_type": null,
+                    "art_position": "art-left"
+                  },
+                  "headline": {
+                    "text": "Baking",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 4,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0cdb4e2a-eb1e-4f8c-b91f-16a7243252de",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "Flex Feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "⟲ Head + byline (Clear all Custom Fields)",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "tiny"
+                      },
+                      "right": {
+                        "items": [
+                          "headline"
+                        ],
+                        "valign": "center"
+                      }
+                    }
+                  },
+                  "media": {
+                    "art_width": "tiny",
+                    "aspect_ratio": 1,
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IVZRZHJK5JCBVLB64NWL3MUCSQ.png",
+                    "make_it_round": true,
+                    "media_type": "image",
+                    "image_type": null,
+                    "art_position": "art-left"
+                  },
+                  "headline": {
+                    "text": "Quick dinners",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 10,
+                      "colspan": 5
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 8,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "356bad7f-3f3e-4e14-a2db-f158f78fa611",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "Flex Feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "⟲ Head + byline (Clear all Custom Fields)",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "tiny"
+                      },
+                      "right": {
+                        "items": [
+                          "headline"
+                        ],
+                        "valign": "center"
+                      }
+                    }
+                  },
+                  "media": {
+                    "art_width": "tiny",
+                    "aspect_ratio": 1,
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/6GECADS5DFHSFDTRZ5CGWDLEBY.png",
+                    "make_it_round": true,
+                    "media_type": "image",
+                    "image_type": null,
+                    "art_position": "art-left"
+                  },
+                  "headline": {
+                    "text": "Pasta",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 15,
+                      "colspan": 5
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 12,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "5febf1c2-07a6-4b6b-9f70-f140baeff10a",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "Flex Feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "⟲ Head + byline (Clear all Custom Fields)",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "tiny"
+                      },
+                      "right": {
+                        "items": [
+                          "headline"
+                        ],
+                        "valign": "center"
+                      }
+                    }
+                  },
+                  "media": {
+                    "art_width": "tiny",
+                    "aspect_ratio": 1,
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WMZK2LKNZRAOXKJD4IEBEU45OY.png",
+                    "make_it_round": true,
+                    "media_type": "image",
+                    "image_type": null,
+                    "art_position": "art-left"
+                  },
+                  "headline": {
+                    "text": "Chicken dinners",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "be6d514e-fb1f-4b6a-b589-9137ebe1881d",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "Flex Feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "⟲ Head + byline (Clear all Custom Fields)",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "tiny"
+                      },
+                      "right": {
+                        "items": [
+                          "headline"
+                        ],
+                        "valign": "center"
+                      }
+                    }
+                  },
+                  "media": {
+                    "art_width": "tiny",
+                    "aspect_ratio": 1,
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XGE7KVWZYVCPPDTCJNAOXWBZ6E.png",
+                    "make_it_round": true,
+                    "media_type": "image",
+                    "image_type": null,
+                    "art_position": "art-left"
+                  },
+                  "headline": {
+                    "text": "One-pan",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 4,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "56f03493-5260-4ca2-b5ff-4f1954aa0cd4",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "Flex Feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "⟲ Head + byline (Clear all Custom Fields)",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "tiny"
+                      },
+                      "right": {
+                        "items": [
+                          "headline"
+                        ],
+                        "valign": "center"
+                      }
+                    }
+                  },
+                  "media": {
+                    "art_width": "tiny",
+                    "aspect_ratio": 1,
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZCOT2GJ4UZDT5AKUVUZEBTIEKA.png",
+                    "make_it_round": true,
+                    "media_type": "image",
+                    "image_type": null,
+                    "art_position": "art-left"
+                  },
+                  "headline": {
+                    "text": "Instant pot",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 15,
+                      "colspan": 5
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 12,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "6fd14e4f-b15c-4668-bf3b-707d4b372fb1",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "Flex Feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "⟲ Head + byline (Clear all Custom Fields)",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "tiny"
+                      },
+                      "right": {
+                        "items": [
+                          "headline"
+                        ],
+                        "valign": "center"
+                      }
+                    }
+                  },
+                  "media": {
+                    "art_width": "tiny",
+                    "aspect_ratio": 1,
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RZB7VXEZRFER5JMRTWIRWNYJ2M.png",
+                    "make_it_round": true,
+                    "media_type": "image",
+                    "image_type": null,
+                    "art_position": "art-left"
+                  },
+                  "headline": {
+                    "text": "Soups",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 10,
+                      "colspan": 5
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 8,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 7,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          }
+        },
+        {
+          "id": "e2a0def1-731e-4cc7-9cdc-f11689ef7205",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "more latest",
+          "link_group": "more latest",
+          "layout_name": "tiling",
+          "label": {
+            "type": "package",
+            "label": {
+              "text": "MORE LATEST RECIPES"
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          },
+          "items": [
+            {
+              "id": "allcontent-e2a0def1-731e-4cc7-9cdc-f11689ef7205",
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "more latest",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "item_type": "carousel/recipe",
+                  "id": "8bc275bc-8a84-43bb-bffb-3d7ba7a3cbb2",
+                  "items": [
+                    {
+                      "item_type": "recipe",
+                      "id": "P3RSO5ITLQ5CRKQADCRL6PLTIA",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/chicken-black-bean-hand-pies/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-08-31T08:00:00.000Z",
+                        "display_date": "2023-08-31T08:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MTPQPZPAMVOB33K3YGCHYYN6MQ.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Chicken and Black Bean Hand Pies"
+                      },
+                      "recipe_info": {
+                        "total_time": 3600,
+                        "courses": [
+                          {
+                            "id": "appetizer",
+                            "description": "Appetizer"
+                          },
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "24VSYZ3IJA7KJH2WBBFZ4GVKII",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/thai-style-chicken-curry/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-08-31T08:00:00.000Z",
+                        "display_date": "2023-08-31T08:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/L25OTBGTRYEW5PILGXB6KKHSEM.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Thai-Style Chicken Curry"
+                      },
+                      "recipe_info": {
+                        "total_time": 2100,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "XQRN5WCV5Y6GFGTNK5IKNWDZG4",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/barbecue-chicken-quesadillas/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-08-31T08:00:00.000Z",
+                        "display_date": "2023-08-31T08:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5NCPXBKOW5VNMRWPCROHJL2LAQ.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Barbecue Chicken Quesadillas"
+                      },
+                      "recipe_info": {
+                        "total_time": 2700,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "G5YHPUXCLY6BFO6KXN4DYIMNRM",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/honey-deuce-cocktail/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-08-31T04:00:00.000Z",
+                        "display_date": "2023-08-31T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HV7ESQPFSVUVQXTAZLPGV5ZXFU.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Honey Deuce Cocktail"
+                      },
+                      "recipe_info": {
+                        "total_time": 300,
+                        "courses": [
+                          {
+                            "id": "beverage",
+                            "description": "Beverage"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "IJEOVSSTNMYABDLQSKDWTEMKYI",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/grilled-broccolini-tahini-pistachio-mint/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-08-31T04:00:00.000Z",
+                        "display_date": "2023-08-31T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IRCKGHH4AHNFQTAEWK46BNKC3Q.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Grilled Broccolini With Tahini"
+                      },
+                      "recipe_info": {
+                        "total_time": 1500,
+                        "courses": [
+                          {
+                            "id": "side-dish",
+                            "description": "Side Dish"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "AMWLEJQPBAYLRDIMJKX3SCZCCU",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/cowboy-caviar/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-08-31T04:00:00.000Z",
+                        "display_date": "2023-08-31T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CXCAYNLGAJI4MXYJEH26GJAZMY.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Cowboy Caviar"
+                      },
+                      "recipe_info": {
+                        "total_time": 3300,
+                        "courses": [
+                          {
+                            "id": "snack",
+                            "description": "Snack"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "TEGCIBI5XI7ORMQCP7HW36XC5E",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/tuna-pasta-salad/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-08-29T08:00:00.000Z",
+                        "display_date": "2023-08-29T08:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TOLZDFQIAXNV7EYQC3HETFQ4K4.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Tuna Pasta Salad"
+                      },
+                      "recipe_info": {
+                        "total_time": 2400,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          },
+                          {
+                            "id": "side-dish",
+                            "description": "Side Dish"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "GRPVDGCH2M4MRJT67YKPUYHFLA",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/daiquiri-clasico/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-08-29T04:00:00.000Z",
+                        "display_date": "2023-08-29T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TSFPZFKPSIM3L7ALD7OVC5TE6E.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Daiquiri Clasico"
+                      },
+                      "recipe_info": {
+                        "total_time": 300,
+                        "courses": [
+                          {
+                            "id": "beverage",
+                            "description": "Beverage"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "CDRNCLXSCE2DTCXLJL6CWXLHOU",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/tropical-standard-daiquiri/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-08-29T04:00:00.000Z",
+                        "display_date": "2023-08-29T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LDZ5UUO3NNPLKAI2F364JVZQ6A.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "The Tropical Standard Daiquiri"
+                      },
+                      "recipe_info": {
+                        "total_time": 300,
+                        "courses": [
+                          {
+                            "id": "beverage",
+                            "description": "Beverage"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "EZX6GJ76SY6H3DK2QAXLSR5PRY",
+                      "tracking": {
+                        "feed": "q_prism://prism.query/recipes-no-future/"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/parasol-cocktail/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-08-29T04:00:00.000Z",
+                        "display_date": "2023-08-29T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TJPTLJI6L6NQMSBOTC2RQODCLY.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Parasol Cocktail"
+                      },
+                      "recipe_info": {
+                        "total_time": 300,
+                        "courses": [
+                          {
+                            "id": "beverage",
+                            "description": "Beverage"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          }
+        },
+        {
+          "id": "3d8931c9-214b-4364-afcc-7f7a92483b62",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "vegetarian",
+          "link_group": "vegetarian",
+          "layout_name": "tiling",
+          "label": {
+            "type": "package",
+            "label": {
+              "text": "VEGETARIAN AND VEGAN RECIPES"
+            },
+            "form": {
+              "action": "https://www.washingtonpost.com/recipes/",
+              "fields": [
+                {
+                  "type": "search",
+                  "param": "q",
+                  "placeholder": "Search recipes"
+                }
+              ]
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          },
+          "items": [
+            {
+              "id": "allcontent-3d8931c9-214b-4364-afcc-7f7a92483b62",
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "vegetarian",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "item_type": "carousel/recipe",
+                  "id": "43935621-31ae-45b5-b6b1-2a0acee31a5f",
+                  "items": [
+                    {
+                      "item_type": "recipe",
+                      "id": "ZQIOQVIYAEZJ3ED5ZLMPUA5MGA",
+                      "tracking": {
+                        "feed": "co_ZY4RWLXRFNCSHHNTSSZ4JVQBPU_More vegetarian and vegan recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/stovetop-smoked-tofu/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-08-27T04:00:00.000Z",
+                        "display_date": "2023-08-27T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NVKAJWHZJ7C3E5LTIUWJX2PQ4E.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Stovetop Smoked Tofu"
+                      },
+                      "recipe_info": {
+                        "total_time": 2400,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "W76S22NR4Q5KFOZ36BVFQXTAB4",
+                      "tracking": {
+                        "feed": "co_ZY4RWLXRFNCSHHNTSSZ4JVQBPU_More vegetarian and vegan recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/broccoli-salad-curry-vinaigrette/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-08-20T04:00:00.000Z",
+                        "display_date": "2023-08-20T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/23XI6OYVPTQQM5UZSDAMHU5TEA.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Broccoli Salad With Curry Vinaigrette"
+                      },
+                      "recipe_info": {
+                        "total_time": 1500,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          },
+                          {
+                            "id": "salad",
+                            "description": "Salad"
+                          },
+                          {
+                            "id": "side-dish",
+                            "description": "Side Dish"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "47RF2QZ35QZLRKBDN6IQ54GJYE",
+                      "tracking": {
+                        "feed": "co_ZY4RWLXRFNCSHHNTSSZ4JVQBPU_More vegetarian and vegan recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/tomato-bruschetta/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-07-23T04:00:00.000Z",
+                        "display_date": "2023-07-23T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HM4KPVFUEYRFAU4XCOBKTUPIFU.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Tomato Bruschetta"
+                      },
+                      "recipe_info": {
+                        "total_time": 2700,
+                        "courses": [
+                          {
+                            "id": "appetizer",
+                            "description": "Appetizer"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "RTWUIGWRHY223NN7YMIVQQWZ7Y",
+                      "tracking": {
+                        "feed": "co_ZY4RWLXRFNCSHHNTSSZ4JVQBPU_More vegetarian and vegan recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/hummus-pasta-tomatoes-olives/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-08-06T08:00:00.000Z",
+                        "display_date": "2023-08-06T08:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CJ5D5LQICONK73HNNH4AGLBI4A.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Hummus Pasta With Tomatoes and Olives"
+                      },
+                      "recipe_info": {
+                        "total_time": 1200,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "RVGNW6SB2U2MJDOSBE247BENZQ",
+                      "tracking": {
+                        "feed": "co_ZY4RWLXRFNCSHHNTSSZ4JVQBPU_More vegetarian and vegan recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/greens-grilled-cheese/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-08-13T08:00:00.000Z",
+                        "display_date": "2023-08-13T08:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/AUYHTXZLISPFS34A5N64N5XKEA.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Greens Grilled Cheese"
+                      },
+                      "recipe_info": {
+                        "total_time": 3300,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "M2TWR7KBTU4GVKHMSVB4UNAR2A",
+                      "tracking": {
+                        "feed": "co_ZY4RWLXRFNCSHHNTSSZ4JVQBPU_More vegetarian and vegan recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/vegetable-chow-fun/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-07-16T04:00:00.000Z",
+                        "display_date": "2023-07-16T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EFZGAFBTZS7Q7T3T3DDB6TWG4Y.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Vegetable Chow Fun"
+                      },
+                      "recipe_info": {
+                        "total_time": 2700,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "OOS6TEI5WQ7M3OM6QSZC6DRTPA",
+                      "tracking": {
+                        "feed": "co_ZY4RWLXRFNCSHHNTSSZ4JVQBPU_More vegetarian and vegan recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/vegan-caprese-salad/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-07-02T05:00:00.000Z",
+                        "display_date": "2023-07-02T05:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LHEUW2TEV7R62YD5XPFSIMECTA.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Vegan Caprese Salad"
+                      },
+                      "recipe_info": {
+                        "total_time": 1200,
+                        "courses": [
+                          {
+                            "id": "salad",
+                            "description": "Salad"
+                          },
+                          {
+                            "id": "side-dish",
+                            "description": "Side Dish"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "JNBLFILVQA7AZHXWKQP7FT4TL4",
+                      "tracking": {
+                        "feed": "co_ZY4RWLXRFNCSHHNTSSZ4JVQBPU_More vegetarian and vegan recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/succotash-ravioli-cherry-tomato-butter-sauce/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-07-09T04:00:00.000Z",
+                        "display_date": "2023-07-09T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HREKQKITXTWMLAQFCIOORKWKRU.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Succotash Ravioli With Cherry Tomato Butter Sauce"
+                      },
+                      "recipe_info": {
+                        "total_time": 3600,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "VQD2SBKWIAYQVFETBVGDISMMWI",
+                      "tracking": {
+                        "feed": "co_ZY4RWLXRFNCSHHNTSSZ4JVQBPU_More vegetarian and vegan recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/char-siu-cauliflower/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-06-18T04:00:00.000Z",
+                        "display_date": "2023-06-18T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EVM6ZGZZGFAE7FTVKGPHR26HGA_size-normalized.jpg",
+                        "media_type": "image",
+                        "image_type": "photograph",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Char Siu Cauliflower"
+                      },
+                      "recipe_info": {
+                        "total_time": 2400,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          },
+                          {
+                            "id": "side-dish",
+                            "description": "Side Dish"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "TLW7IZS4WU7M7GELIJDVAFF7PA",
+                      "tracking": {
+                        "feed": "co_ZY4RWLXRFNCSHHNTSSZ4JVQBPU_More vegetarian and vegan recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/scorched-sugar-snap-burrata-salad/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-06-04T18:56:45.000Z",
+                        "display_date": "2023-06-04T18:56:45.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7F4EG2R4GZDNVKSZQVDC3S43LE_size-normalized.jpg",
+                        "media_type": "image",
+                        "image_type": "photograph",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Scorched Sugar Snap Pea and Burrata Salad"
+                      },
+                      "recipe_info": {
+                        "total_time": 1500,
+                        "courses": [
+                          {
+                            "id": "appetizer",
+                            "description": "Appetizer"
+                          },
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          },
+                          {
+                            "id": "salad",
+                            "description": "Salad"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          }
+        },
+        {
+          "id": "5ee34f49-dbb0-429d-b967-3451eb2e4cd8",
+          "item_type": "ad/flex-app",
+          "display_name": "ad-4-bigbox-2",
+          "ad_type": "bigbox_2",
+          "advertisement": {
+            "commercial_node": "washingtonpost.com"
+          },
+          "media_full_bleed": true
+        },
+        {
+          "id": "48359f71-68a5-46a2-856f-5618e8992038",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "one-pan",
+          "link_group": "one-pan",
+          "layout_name": "tiling",
+          "label": {
+            "type": "package",
+            "label": {
+              "text": "ONE-PAN RECIPES"
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          },
+          "items": [
+            {
+              "id": "allcontent-48359f71-68a5-46a2-856f-5618e8992038",
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "one-pan",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "item_type": "carousel/recipe",
+                  "id": "762537b0-af4f-4958-bacd-a91d36e69c37",
+                  "items": [
+                    {
+                      "item_type": "recipe",
+                      "id": "WN5YSUCLZ4ZOFIVM4QF6V6656Q",
+                      "tracking": {
+                        "feed": "co_PSZDGG6RQRDBZDUSS7G4QMAP3I_One-Pan Recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/braised-chicken-artichokes-peppers-sausage/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-05-11T04:00:00.000Z",
+                        "display_date": "2023-05-11T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/AUXAZ3R4J43W42E5FWAZEAIIRY.jpg",
+                        "media_type": "image",
+                        "image_type": "photograph",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Braised Chicken With Artichokes, Peppers and Sausage"
+                      },
+                      "recipe_info": {
+                        "total_time": 3600,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "P43OELEVRM4EFGQXQAKWN7G7M4",
+                      "tracking": {
+                        "feed": "co_PSZDGG6RQRDBZDUSS7G4QMAP3I_One-Pan Recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/spicy-chorizo-baked-beans/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-05-16T04:00:00.000Z",
+                        "display_date": "2023-05-16T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/V2VPV5WXME2C6XBQH2T3PND3GQ.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Spicy Chorizo “Baked” Beans"
+                      },
+                      "recipe_info": {
+                        "total_time": 2100,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          },
+                          {
+                            "id": "side-dish",
+                            "description": "Side Dish"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "2F56A3EFSQZULF5TLS6OOVIFU4",
+                      "tracking": {
+                        "feed": "co_PSZDGG6RQRDBZDUSS7G4QMAP3I_One-Pan Recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/orange-szechuan-pepper-chicken/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-05-23T04:00:00.000Z",
+                        "display_date": "2023-05-23T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CUW32R44H6ZBJBXNXHAUCFXB6Q.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Orange-Sichuan Pepper Chicken"
+                      },
+                      "recipe_info": {
+                        "total_time": 2400,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "KWSVWT2OZM3K3FA2ZWGYAZVCOE",
+                      "tracking": {
+                        "feed": "co_PSZDGG6RQRDBZDUSS7G4QMAP3I_One-Pan Recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/crazy-crispy-no-oil-chicken/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-05-30T04:00:00.000Z",
+                        "display_date": "2023-05-30T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZPACTQIMCQAPD527NE2UX7O52I.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Crazy Crispy No-Oil Chicken"
+                      },
+                      "recipe_info": {
+                        "total_time": 2700,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "PO6WEYK3B4ZMJOOO3J3YV2BROM",
+                      "tracking": {
+                        "feed": "co_PSZDGG6RQRDBZDUSS7G4QMAP3I_One-Pan Recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/stir-fried-dumplings/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-06-06T00:00:00.000Z",
+                        "display_date": "2023-06-06T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HCDZ6FUIP3PMEYRIJPQOYG4FNE.jpg",
+                        "media_type": "image",
+                        "image_type": "photograph",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Stir-Fried Dumplings"
+                      },
+                      "recipe_info": {
+                        "total_time": 1800,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "QEUPY4OZSU7AZMUGLFNWNYEMVU",
+                      "tracking": {
+                        "feed": "co_PSZDGG6RQRDBZDUSS7G4QMAP3I_One-Pan Recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/beans-smoked-pork-neck-bones/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-06-12T04:00:00.000Z",
+                        "display_date": "2023-06-12T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/T4GLXVKT6NPU5MB3WXINQ4ZJL4.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Beans With Smoked Pork Neck Bones"
+                      },
+                      "recipe_info": {
+                        "total_time": 4500,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          },
+                          {
+                            "id": "side-dish",
+                            "description": "Side Dish"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "O6GD6KXJ4E7YDAISTPOH3YHNGE",
+                      "tracking": {
+                        "feed": "co_PSZDGG6RQRDBZDUSS7G4QMAP3I_One-Pan Recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/crispy-tofu-zucchini-stir-fry/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-06-22T04:00:00.000Z",
+                        "display_date": "2023-06-22T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CROAQTTCVXXOHMIAIBXJ3WXEEI.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Crispy Tofu and Zucchini Stir-Fry"
+                      },
+                      "recipe_info": {
+                        "total_time": 1800,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "FH45IY6ONAZYBNV3C44MGYDJ24",
+                      "tracking": {
+                        "feed": "co_PSZDGG6RQRDBZDUSS7G4QMAP3I_One-Pan Recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/summer-pasta-sugar-snap-peas-corn-goat-cheese-mint/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-06-30T04:00:00.000Z",
+                        "display_date": "2023-06-30T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7RCCNDI6E3EHROACZBGTIJ24AU.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Pasta With Sugar Snap Peas, Corn and Goat Cheese"
+                      },
+                      "recipe_info": {
+                        "total_time": 1800,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "J3UWOPO7EM7G5LN5W7SC2G6FPU",
+                      "tracking": {
+                        "feed": "co_PSZDGG6RQRDBZDUSS7G4QMAP3I_One-Pan Recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/shrimp-scampi/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-07-10T04:00:00.000Z",
+                        "display_date": "2023-07-10T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SK3OYULLILXU6SIMQEKRCMDLCY.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Shrimp Scampi"
+                      },
+                      "recipe_info": {
+                        "total_time": 1500,
+                        "courses": [
+                          {
+                            "id": "appetizer",
+                            "description": "Appetizer"
+                          },
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "KPSD5V7RFU2OBJUKI74QPWTHD4",
+                      "tracking": {
+                        "feed": "co_PSZDGG6RQRDBZDUSS7G4QMAP3I_One-Pan Recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/one-pot-tomato-pasta-basil-and-spinach/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-07-11T00:00:00.000Z",
+                        "display_date": "2023-07-11T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2JXPLW7XOSIDKFTBWVG2C3BTMY.jpg",
+                        "media_type": "image",
+                        "image_type": "photograph",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "One-Pot Tomato Pasta With Basil and Spinach"
+                      },
+                      "recipe_info": {
+                        "total_time": 1800,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          }
+        },
+        {
+          "id": "41a99054-659c-4528-8d32-2d6a51baf31e",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "pasta",
+          "link_group": "pasta",
+          "layout_name": "tiling",
+          "label": {
+            "type": "package",
+            "label": {
+              "text": "PASTA RECIPES"
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          },
+          "items": [
+            {
+              "id": "allcontent-41a99054-659c-4528-8d32-2d6a51baf31e",
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "pasta",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "item_type": "carousel/recipe",
+                  "id": "f48d0d0f-b796-47e3-af09-1cd3ddaebf50",
+                  "items": [
+                    {
+                      "item_type": "recipe",
+                      "id": "QBZGISAVXM7G3K3XGECKJFBTAQ",
+                      "tracking": {
+                        "feed": "co_TDL7ZZMEB5A4PKTJSOGKL4XZ4E_Pasta recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/baked-feta-pasta/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2021-02-11T00:00:00.000Z",
+                        "display_date": "2021-02-11T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MDUEWBTLZMI6XJTO4JYEN2PITA.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Baked Feta Pasta"
+                      },
+                      "recipe_info": {
+                        "total_time": 2700,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "XR5OW5KAEE2QRPAFL6DNT7YVCI",
+                      "tracking": {
+                        "feed": "co_TDL7ZZMEB5A4PKTJSOGKL4XZ4E_Pasta recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/french-onion-pasta/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-02-17T00:00:00.000Z",
+                        "display_date": "2023-02-17T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HJRCQ6AIMT54I3ONNQLAPOZA2Y.jpg",
+                        "media_type": "image",
+                        "image_type": "photograph",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "French Onion Pasta"
+                      },
+                      "recipe_info": {
+                        "total_time": 3600,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "D64H6SF52U5TFF475UQN6BJMPI",
+                      "tracking": {
+                        "feed": "co_TDL7ZZMEB5A4PKTJSOGKL4XZ4E_Pasta recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/spaghetti-carbonara/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2022-03-02T00:00:00.000Z",
+                        "display_date": "2022-03-02T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VZZJ5PUPPQI6ZDO5KIJWTCGSMM.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Spaghetti Carbonara"
+                      },
+                      "recipe_info": {
+                        "total_time": 2100,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "3BFIAEDIEI52RGW46ZTPKB4ZU4",
+                      "tracking": {
+                        "feed": "co_TDL7ZZMEB5A4PKTJSOGKL4XZ4E_Pasta recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/pasta-asparagus-blue-cheese-and-walnuts/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-03-21T00:00:00.000Z",
+                        "display_date": "2023-03-21T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/T6LG4AFLFVXK2RVDH3XD3IQ67Y.jpg",
+                        "media_type": "image",
+                        "image_type": "photograph",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Pasta With Asparagus, Blue Cheese and Walnuts"
+                      },
+                      "recipe_info": {
+                        "total_time": 1800,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "H55VMNXBOQ66VA23ISQVQK3GAI",
+                      "tracking": {
+                        "feed": "co_TDL7ZZMEB5A4PKTJSOGKL4XZ4E_Pasta recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/beet-goat-cheese-pasta/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-07-14T04:00:00.000Z",
+                        "display_date": "2023-07-14T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XETV6VFHJ7UTBR2MUFIXDVC3WE.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Beet and Goat Cheese Pasta"
+                      },
+                      "recipe_info": {
+                        "total_time": 2100,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "GYPJLTWQMEYWHIGJ77MLD2EX7Q",
+                      "tracking": {
+                        "feed": "co_TDL7ZZMEB5A4PKTJSOGKL4XZ4E_Pasta recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/pasta-primavera/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-04-27T14:34:20.278Z",
+                        "display_date": "2023-04-27T14:34:20.278Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WXSF7TPR56KRLUWQUUENEQ7ZX4.jpg",
+                        "media_type": "image",
+                        "image_type": "photograph",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Pasta Primavera"
+                      },
+                      "recipe_info": {
+                        "total_time": 2700,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "37J5TGCBSA6NRLIQ7Z5IY6YMTE",
+                      "tracking": {
+                        "feed": "co_TDL7ZZMEB5A4PKTJSOGKL4XZ4E_Pasta recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/summer-tomato-and-basil-pasta-pine-nut-sauce/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2019-08-25T00:00:00.000Z",
+                        "display_date": "2019-08-25T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://www.washingtonpost.com/rf/image_982w/2010-2019/WashingtonPost/2019/08/23/Food/Images/v-wkveg0911-_064leadweb.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Summer Tomato and Basil Pasta With Pine Nut Sauce"
+                      },
+                      "recipe_info": {
+                        "total_time": 2400,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "EI3SX7RJNY4X3B6W6U73FZXGKQ",
+                      "tracking": {
+                        "feed": "co_TDL7ZZMEB5A4PKTJSOGKL4XZ4E_Pasta recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/whole-wheat-pasta-salad-crispy-broccoli/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2020-03-15T00:00:00.000Z",
+                        "display_date": "2020-03-15T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://www.washingtonpost.com/rf/image_982w/2010-2019/WashingtonPost/2020/03/13/Others/Images/2020-02-13/v-wkveg-pastasaladwbroccoli-_01_leadweb.JPG",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Whole Wheat Pasta Salad With Crispy Broccoli"
+                      },
+                      "recipe_info": {
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "LU4ODZFBZM53FOXO7AVN3AQNCA",
+                      "tracking": {
+                        "feed": "co_TDL7ZZMEB5A4PKTJSOGKL4XZ4E_Pasta recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/ricotta-gnocchi-leeks-peas/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2021-05-05T00:00:00.000Z",
+                        "display_date": "2021-05-05T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BUUDZHFC2UI6XMYUF2MTXWB6GE.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Ricotta Gnocchi With Leeks and Peas"
+                      },
+                      "recipe_info": {
+                        "total_time": 2700,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "MGJYKHKP2E4ORDWLQZXRCJOBXQ",
+                      "tracking": {
+                        "feed": "co_TDL7ZZMEB5A4PKTJSOGKL4XZ4E_Pasta recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/pasta-vegan-sausage-cauliflower-kale/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-05-28T04:00:00.000Z",
+                        "display_date": "2023-05-28T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/6QCGVI56VRAJVMXLTC7RCSDOOQ_size-normalized.jpg",
+                        "media_type": "image",
+                        "image_type": "photograph",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Pasta With Vegan Sausage, Cauliflower and Kale"
+                      },
+                      "recipe_info": {
+                        "total_time": 2700,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          }
+        },
+        {
+          "id": "045c6b69-2369-42d4-864d-be3e654c138d",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "chicken",
+          "link_group": "chicken",
+          "layout_name": "tiling",
+          "label": {
+            "type": "package",
+            "label": {
+              "text": "CHICKEN RECIPES"
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          },
+          "items": [
+            {
+              "id": "allcontent-045c6b69-2369-42d4-864d-be3e654c138d",
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "chicken",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "item_type": "carousel/recipe",
+                  "id": "3c84ca86-27e6-468d-9c49-b7f8bd030407",
+                  "items": [
+                    {
+                      "item_type": "recipe",
+                      "id": "DMYFHKLEMEZARJ2MCSESGG2WAU",
+                      "tracking": {
+                        "feed": "co_KLPZF23NUNFAZJZF67UFMJ35C4_Chicken recipes from The Washington Post"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/wine-braised-chicken-mushrooms/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2020-06-11T00:00:00.000Z",
+                        "display_date": "2020-06-11T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://www.washingtonpost.com/rf/image_982w/2010-2019/WashingtonPost/2020/06/11/Food/Images/v-essentials-mushroomchicken___058.JPG",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Wine-Braised Chicken With Mushrooms"
+                      },
+                      "recipe_info": {
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "W7JUVQ6ETU45HNXC7EMYEBKCLM",
+                      "tracking": {
+                        "feed": "co_KLPZF23NUNFAZJZF67UFMJ35C4_Chicken recipes from The Washington Post"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/masala-chicken/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2021-07-20T00:00:00.000Z",
+                        "display_date": "2021-07-20T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/T2Z7FGHEXYI6XCGFJ7LDQLCHZM.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Masala Chicken"
+                      },
+                      "recipe_info": {
+                        "total_time": 1800,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "M6ONMJNCCY24LJQCRO7LYQLAUE",
+                      "tracking": {
+                        "feed": "co_KLPZF23NUNFAZJZF67UFMJ35C4_Chicken recipes from The Washington Post"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/smothered-chicken/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2022-03-09T00:00:00.000Z",
+                        "display_date": "2022-03-09T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EAR3RJE67II6ZFBYEVLQTNWN3Q.jpg",
+                        "media_type": "image",
+                        "image_type": "photograph",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Smothered Chicken"
+                      },
+                      "recipe_info": {
+                        "total_time": 4500,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "PUQPEWWYDI6Y7ELZRP35RNMK3U",
+                      "tracking": {
+                        "feed": "co_KLPZF23NUNFAZJZF67UFMJ35C4_Chicken recipes from The Washington Post"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/lemon-pepper-chicken-wings/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-04-26T20:13:59.098Z",
+                        "display_date": "2023-04-26T20:13:59.098Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "http://www.washingtonpost.com/rf/image_982w/2010-2019/WashingtonPost/2022/01/27/Food/Images/v-essentials-wings0014.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Lemon Pepper Chicken Wings"
+                      },
+                      "recipe_info": {
+                        "total_time": 7200,
+                        "courses": [
+                          {
+                            "id": "appetizer",
+                            "description": "Appetizer"
+                          },
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          },
+                          {
+                            "id": "snack",
+                            "description": "Snack"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "Z55MUR7RH46D3DAC4O74MJCQJA",
+                      "tracking": {
+                        "feed": "co_KLPZF23NUNFAZJZF67UFMJ35C4_Chicken recipes from The Washington Post"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/simple-butter-chicken/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2019-02-06T00:00:00.000Z",
+                        "display_date": "2019-02-06T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://www.washingtonpost.com/rf/image_982w/2010-2019/WashingtonPost/2019/02/01/Food/Images/v-essentials-butterchicken_06.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Simple Butter Chicken"
+                      },
+                      "recipe_info": {
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "EZSRUCHYDAYNTD5JGH3NSEWX2A",
+                      "tracking": {
+                        "feed": "co_KLPZF23NUNFAZJZF67UFMJ35C4_Chicken recipes from The Washington Post"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/antipasto-chicken-skillet/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2020-04-30T00:00:00.000Z",
+                        "display_date": "2020-04-30T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ML6A6LEET4I6VANDS2IMTCARCE.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Antipasto Chicken Skillet"
+                      },
+                      "recipe_info": {
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "P6B7HAYKEMY3FFJQMCFXS4Z64M",
+                      "tracking": {
+                        "feed": "co_KLPZF23NUNFAZJZF67UFMJ35C4_Chicken recipes from The Washington Post"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/cheesy-chicken-enchiladas/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2018-12-19T00:00:00.000Z",
+                        "display_date": "2018-12-19T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://www.washingtonpost.com/rf/image_982w/2010-2019/WashingtonPost/2018/12/13/Food/Images/v-essentials-enchiladas_058-001.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Cheesy Chicken Enchiladas"
+                      },
+                      "recipe_info": {
+                        "total_time": 2700,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "44RJJFLKPU3JZBXHJPS375JBEQ",
+                      "tracking": {
+                        "feed": "co_KLPZF23NUNFAZJZF67UFMJ35C4_Chicken recipes from The Washington Post"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/spring-chicken-pot/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2022-03-31T00:00:00.000Z",
+                        "display_date": "2022-03-31T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TJURC5FFKEI6ZBHDNRBTHZU4IA.jpg",
+                        "media_type": "image",
+                        "image_type": "photograph",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Spring Chicken in a Pot"
+                      },
+                      "recipe_info": {
+                        "total_time": 3000,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "5IFDWPA5LY3MJCMARCJP4RZKII",
+                      "tracking": {
+                        "feed": "co_KLPZF23NUNFAZJZF67UFMJ35C4_Chicken recipes from The Washington Post"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/chicken-or-jackfruit-tinga/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2021-11-18T00:00:00.000Z",
+                        "display_date": "2021-11-18T00:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4IY6JTNAQZBUPJCAH6I5ZY5DY4.jpg",
+                        "media_type": "image",
+                        "image_type": "photograph",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Jackfruit or Chicken Tinga"
+                      },
+                      "recipe_info": {
+                        "total_time": 1200,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "KWSVWT2OZM3K3FA2ZWGYAZVCOE",
+                      "tracking": {
+                        "feed": "co_KLPZF23NUNFAZJZF67UFMJ35C4_Chicken recipes from The Washington Post"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/crazy-crispy-no-oil-chicken/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-05-30T04:00:00.000Z",
+                        "display_date": "2023-05-30T04:00:00.000Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZPACTQIMCQAPD527NE2UX7O52I.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Crazy Crispy No-Oil Chicken"
+                      },
+                      "recipe_info": {
+                        "total_time": 2700,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          }
+        },
+        {
+          "id": "adc247b9-b899-4834-999c-3b2a2f51767d",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "popular",
+          "link_group": "popular",
+          "layout_name": "tiling",
+          "label": {
+            "type": "package",
+            "label": {
+              "text": "POPULAR RECIPES"
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          },
+          "items": [
+            {
+              "id": "allcontent-adc247b9-b899-4834-999c-3b2a2f51767d",
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "popular",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "item_type": "carousel/recipe",
+                  "id": "5c003e83-191d-4fa8-a08a-f1ad11ba767c",
+                  "items": [
+                    {
+                      "item_type": "recipe",
+                      "id": "3S5B7VYOCEZGDFZMROARSEREGU",
+                      "tracking": {
+                        "feed": "mr_lifestyle/food/recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/chicken-artichoke-melts/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-09-07T04:00:00Z",
+                        "display_date": "2023-09-07T04:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RKU3UFDBKGBDJOHUKZ7HWGNFDU.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Chicken Artichoke Melts"
+                      },
+                      "recipe_info": {
+                        "total_time": 2100,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "KXXXW7FQHI3Y5CIKBII3MM5CFY",
+                      "tracking": {
+                        "feed": "mr_lifestyle/food/recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/pinto-bean-cakes-avocado-salsa/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-09-03T04:00:00Z",
+                        "display_date": "2023-09-03T04:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SBODW7J75I5CRDK7F7AMWJMPU4.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Pinto Bean Cakes With Avocado Salsa"
+                      },
+                      "recipe_info": {
+                        "total_time": 2100,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "24VSYZ3IJA7KJH2WBBFZ4GVKII",
+                      "tracking": {
+                        "feed": "mr_lifestyle/food/recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/thai-style-chicken-curry/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-08-31T08:00:00Z",
+                        "display_date": "2023-08-31T08:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/L25OTBGTRYEW5PILGXB6KKHSEM.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Thai-Style Chicken Curry"
+                      },
+                      "recipe_info": {
+                        "total_time": 2100,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "4HFPSY3QEU36XENZ62MBNZGOJU",
+                      "tracking": {
+                        "feed": "mr_lifestyle/food/recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/pescado-en-escabeche/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-09-07T04:00:00Z",
+                        "display_date": "2023-09-07T04:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/G4VXOA5IETZZMKSR4IWIWB3DVI.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Pescado en Escabeche"
+                      },
+                      "recipe_info": {
+                        "total_time": 2400,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "FH45IY6ONAZYBNV3C44MGYDJ24",
+                      "tracking": {
+                        "feed": "mr_lifestyle/food/recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/summer-pasta-sugar-snap-peas-corn-goat-cheese-mint/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-06-30T04:00:00Z",
+                        "display_date": "2023-06-30T04:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7RCCNDI6E3EHROACZBGTIJ24AU.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Pasta With Sugar Snap Peas, Corn and Goat Cheese"
+                      },
+                      "recipe_info": {
+                        "total_time": 1800,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "E7DLNBVQCE6XHKV5WT5H2AZGFE",
+                      "tracking": {
+                        "feed": "mr_lifestyle/food/recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/orange-and-cashew-cabbage-salad-sesame-dressing/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-01-08T00:00:00Z",
+                        "display_date": "2023-01-08T00:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/PLCQXD7YW6YR4LFBH3GGN7XKZU.jpg",
+                        "media_type": "image",
+                        "image_type": "photograph",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Orange and Cashew Cabbage Salad With Sesame Dressing"
+                      },
+                      "recipe_info": {
+                        "total_time": 1200,
+                        "courses": [
+                          {
+                            "id": "salad",
+                            "description": "Salad"
+                          },
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "XXCZ5AKW2Q6WXCQD3C7R5WQQFE",
+                      "tracking": {
+                        "feed": "mr_lifestyle/food/recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/hot-buttered-cider/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-09-06T04:00:00Z",
+                        "display_date": "2023-09-06T04:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BA7IKDPRKD53PNZNIJSKD36Q2E.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Hot Buttered Cider"
+                      },
+                      "recipe_info": {
+                        "total_time": 600,
+                        "courses": [
+                          {
+                            "id": "beverage",
+                            "description": "Beverage"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "O7YLPLMP3I62PANUET6FFL3BAU",
+                      "tracking": {
+                        "feed": "mr_lifestyle/food/recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/green-beans-roasted-pepper-and-potato-salad/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2015-07-22T00:00:00Z",
+                        "display_date": "2015-07-22T00:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "http://www.washingtonpost.com/rf/image_982w/2010-2019/WashingtonPost/2015/07/14/Food/Images/green bean salad 11436835721.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Green Beans, Roasted Pepper and Potato Salad"
+                      },
+                      "recipe_info": {
+                        "total_time": 1800,
+                        "courses": [
+                          {
+                            "id": "side-dish",
+                            "description": "Side Dish"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "J2TJQFYM5U5CFI6XSZBQ4HTNYI",
+                      "tracking": {
+                        "feed": "mr_lifestyle/food/recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/basic-roast-chicken/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2003-03-26T00:00:00Z",
+                        "display_date": "2003-03-26T00:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5WG62MZV5YTEKFQ2GLXRH57CYA.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Basic Roast Chicken"
+                      },
+                      "recipe_info": {
+                        "total_time": 5100,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "XQRN5WCV5Y6GFGTNK5IKNWDZG4",
+                      "tracking": {
+                        "feed": "mr_lifestyle/food/recipes"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/barbecue-chicken-quesadillas/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "last_modified": "2023-08-31T08:00:00Z",
+                        "display_date": "2023-08-31T08:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5NCPXBKOW5VNMRWPCROHJL2LAQ.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Barbecue Chicken Quesadillas"
+                      },
+                      "recipe_info": {
+                        "total_time": 2700,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          }
+        },
+        {
+          "id": "d4f92471-bab6-4e5b-900f-472530e540a0",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "popular",
+          "link_group": "popular",
+          "layout_name": "tiling",
+          "label": {
+            "type": "package",
+            "label": {
+              "text": "BEST FROM VORACIOUSLY"
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          },
+          "items": [
+            {
+              "id": "allcontent-d4f92471-bab6-4e5b-900f-472530e540a0",
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "popular",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "item_type": "carousel/recipe",
+                  "id": "382d9884-55b5-4362-bbb2-2d4f8fb1c0c0",
+                  "items": [
+                    {
+                      "item_type": "recipe",
+                      "id": "4HFPSY3QEU36XENZ62MBNZGOJU",
+                      "tracking": {
+                        "feed": "rf_eat-voraciously"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/pescado-en-escabeche/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "display_date": "2023-09-07T04:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/G4VXOA5IETZZMKSR4IWIWB3DVI.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Pescado en Escabeche"
+                      },
+                      "recipe_info": {
+                        "total_time": 2400,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "AMWLEJQPBAYLRDIMJKX3SCZCCU",
+                      "tracking": {
+                        "feed": "rf_eat-voraciously"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/cowboy-caviar/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "display_date": "2023-08-31T04:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/CXCAYNLGAJI4MXYJEH26GJAZMY.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Cowboy Caviar"
+                      },
+                      "recipe_info": {
+                        "total_time": 3300,
+                        "courses": [
+                          {
+                            "id": "snack",
+                            "description": "Snack"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "YCZA3GLID4ZAXPWHPEPCPHLRBY",
+                      "tracking": {
+                        "feed": "rf_eat-voraciously"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/peach-tomato-chaat/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "display_date": "2023-08-24T04:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NSSVG7YOSCUCXNCZJ5JQUQB7UI.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Peach and Tomato Chaat"
+                      },
+                      "recipe_info": {
+                        "total_time": 1500,
+                        "courses": [
+                          {
+                            "id": "snack",
+                            "description": "Snack"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "SO5XYJVQ2M2WBIR4BPMOQ7U6OE",
+                      "tracking": {
+                        "feed": "rf_eat-voraciously"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/pesto-pantesco/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "display_date": "2023-08-17T04:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/74OXHQFS36YYTFRPMIDFONLCPU.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Pesto Pantesco"
+                      },
+                      "recipe_info": {
+                        "total_time": 900,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          },
+                          {
+                            "id": "side-dish",
+                            "description": "Side Dish"
+                          },
+                          {
+                            "id": "condiment",
+                            "description": "Condiment"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "DLAWO44CBM4BHCKQAYVHEVS7PU",
+                      "tracking": {
+                        "feed": "rf_eat-voraciously"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/salad-olivieh-persian-style-chicken-potato-salad/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "display_date": "2023-08-10T04:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/UO4L2QPGDU7RGHS6YQ3TLHCNDU.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Salad Olivieh (Persian-Style Chicken and Potato Salad)"
+                      },
+                      "recipe_info": {
+                        "total_time": 3300,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          },
+                          {
+                            "id": "snack",
+                            "description": "Snack"
+                          },
+                          {
+                            "id": "brunch",
+                            "description": "Brunch"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "4WMPRI2AOA7GDEITI4LIVACYYA",
+                      "tracking": {
+                        "feed": "rf_eat-voraciously"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/halloumi-burgers/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "display_date": "2023-08-03T04:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/PK2K233L73KBT72N76COFINQEI.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Halloumi Burgers"
+                      },
+                      "recipe_info": {
+                        "total_time": 1500,
+                        "courses": [
+                          {
+                            "id": "main-course",
+                            "description": "Main Course"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "RROKUNHLYE3N5ISZAVJVY3C2HE",
+                      "tracking": {
+                        "feed": "rf_eat-voraciously"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/gribiche/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "display_date": "2023-07-27T04:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TSY6PLKOGXKESBIRI2IMSATCYM.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Gribiche"
+                      },
+                      "recipe_info": {
+                        "total_time": 1200,
+                        "courses": [
+                          {
+                            "id": "condiment",
+                            "description": "Condiment"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "LAEKFRMH4IY73KMCRCONJC5WMI",
+                      "tracking": {
+                        "feed": "rf_eat-voraciously"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/sweet-tart-raspberry-vinaigrette/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "display_date": "2023-07-20T04:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JGMGWWHZW2QUFNJUHYPPXBUTLY.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Sweet-Tart Raspberry Vinaigrette"
+                      },
+                      "recipe_info": {
+                        "total_time": 300,
+                        "courses": [
+
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "YRTTC7QBTA3CXOL4UFOX4UW6BI",
+                      "tracking": {
+                        "feed": "rf_eat-voraciously"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/creamy-cashew-ranch/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "display_date": "2023-07-20T04:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7XFWM65E4IZJ75KJVDPXAMJJ5I.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Creamy Cashew Ranch"
+                      },
+                      "recipe_info": {
+                        "total_time": 1500,
+                        "courses": [
+                          {
+                            "id": "condiment",
+                            "description": "Condiment"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "item_type": "recipe",
+                      "id": "PDDHKHV7LI4B7GN4NM7GO2NJ2E",
+                      "tracking": {
+                        "feed": "rf_eat-voraciously"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/recipes/miso-ginger-dressing/",
+                        "type": "web",
+                        "subtype": "recipe-template",
+                        "display_date": "2023-07-20T04:00:00Z"
+                      },
+                      "media": {
+                        "art_width": "full-width",
+                        "aspect_ratio": 1.5,
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VUJ67SJM5CKZ42WYKGZKXO3PYI.jpg",
+                        "media_type": "image",
+                        "art_position": "art-above-head"
+                      },
+                      "headline": {
+                        "text": "Miso-Ginger Dressing"
+                      },
+                      "recipe_info": {
+                        "total_time": 300,
+                        "courses": [
+                          {
+                            "id": "condiment",
+                            "description": "Condiment"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "cards": {
+    "xsmall": {
+      "grids": [
+        [
+          "a26ca36d-d843-4015-96cc-4f95ec53bacd"
+        ],
+        [
+          "94553089-baed-4ef1-b4bd-402b6aba1262"
+        ],
+        [
+          "346ee1b6-2a72-4efa-bd3d-59f939399610"
+        ],
+        [
+          "e2a0def1-731e-4cc7-9cdc-f11689ef7205"
+        ],
+        [
+          "3d8931c9-214b-4364-afcc-7f7a92483b62"
+        ],
+        [
+          "48359f71-68a5-46a2-856f-5618e8992038"
+        ],
+        [
+          "41a99054-659c-4528-8d32-2d6a51baf31e"
+        ],
+        [
+          "045c6b69-2369-42d4-864d-be3e654c138d"
+        ],
+        [
+          "adc247b9-b899-4834-999c-3b2a2f51767d"
+        ],
+        [
+          "d4f92471-bab6-4e5b-900f-472530e540a0"
+        ]
+      ]
+    }
+  },
+  "checksum": "l41in8aS6n581588ta80S85J66"
+}

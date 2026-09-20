@@ -1,0 +1,28 @@
+<!--
+  ~ Copyright (c) 2018. The Washington Post
+  ~ Created by adkinsj on 5/4/18.
+  -->
+
+<resources>
+    <string name="privacy_policy_wall_header">Privacy Notice</string>
+    <string name="ad_choices_url">http://www.washingtonpost.com/how-can-i-opt-out-of-online-advertising-cookies/2011/11/18/gIQABECbiN_story.html</string>
+    <string name="privacy_policy_wall_description">The new European data protection law requires us
+        to inform you of the following before you use our website:</string>
+    <string name="privacy_policy_wall_content">The Washington Post and our partners use technologies
+        such as cookies to collect information from your browser to deliver relevant advertising on
+        our site, in emails and across the internet, personalize content and perform site analytics.
+        Please visit our Privacy Policy for more information about our use of data and your rights.
+    </string>
+    <string name="privacy_policy_wall_switch">I Agree</string>
+    <string name="privacy_policy_wall_button">Continue</string>
+    <string name="privacy_policy_wall_privacy_policy_button">Privacy Policy</string>
+    <string name="privacy_policy_wall_tos">Terms of Service</string>
+    <string name="privacy_policy_wall_partners">Third Party Partners</string>
+    <string name="privacy_policy_wall_privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_wall_terms_of_service">Terms of Service</string>
+    <string name="privacy_policy_wall_third_party_partners">Third Party Partners</string>
+    <string name="privacy_policy_wall_bottom_button_separator">|</string>
+
+    <string name="privacy_settings_toolbar_text">Done</string>
+
+</resources>

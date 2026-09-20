@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022. The Washington Post
+  -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:endColor="@color/carousel_video_image_bg_end_color"
+                android:startColor="@color/carousel_video_image_bg_start_color"
+                android:type="linear" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/app_bg" />
+            <corners android:radius="6dp" />
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:alpha="@dimen/async_shine_image_alpha"
+            android:src="@drawable/async_shine" />
+    </item>
+</layer-list>

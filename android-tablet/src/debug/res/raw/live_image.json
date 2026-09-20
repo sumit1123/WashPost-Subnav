@@ -1,0 +1,1277 @@
+{
+  "name": "Typical News Day",
+  "tracking": {
+    "page_name": "front - top-stories"
+  },
+  "regions": [
+    {
+      "location": "top-content",
+      "items": [
+        {
+          "table_name": "top table",
+          "item_type": "grid",
+          "dividers": {
+            "medium": {
+              "horizontal": [
+                { "row": 1, "col": 0, "colspan": 12 }
+              ],
+              "vertical": []
+            }
+          },
+          "items": [
+            {
+              "table_name": "table 1",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": { "colspan": 16, "row": 0, "col": 0 },
+                "large": { "colspan": 16, "row": 0, "col": 0 },
+                "medium": { "colspan": 12, "row": 0, "col": 0 },
+                "small": { "colspan": 10, "row": 0, "col": 0 },
+                "xsmall": { "colspan": 1, "row": 0, "col": 0 }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    { "row": 6, "col": 0, "colspan": 4},
+                    { "row": 6, "col": 4, "colspan": 8},
+                    { "row": 0, "col": 12, "colspan": 4}
+                  ],
+                  "vertical": [
+                    { "col": 4, "row": 0, "rowspan": 18 },
+                    { "col": 12, "row": 0, "rowspan": 18 }
+                  ]
+                },
+                "large": {
+                  "horizontal": [
+                    { "row": 6, "col": 12, "colspan": 4},
+                    { "row": 12, "col": 0, "colspan": 4},
+                    { "row": 12, "col": 4, "colspan": 8},
+                    { "row": 18, "col": 0, "colspan": 16},
+                    { "row": 24, "col": 0, "colspan": 16},
+                    { "row": 26, "col": 8, "colspan": 8},
+                    { "row": 29, "col": 8, "colspan": 8}
+                  ],
+                  "vertical": [
+                    { "col": 4, "row": 0, "rowspan": 18 },
+                    { "col": 12, "row": 0, "rowspan": 18},
+                    { "col": 8, "row": 24, "rowspan": 8}
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    { "row": 6, "col": 0, "colspan": 4},
+                    { "row": 6, "col": 4, "colspan": 8},
+                    { "row": 12, "col": 0, "colspan": 12},
+                    { "row": 18, "col": 0, "colspan": 12},
+                    { "row": 24, "col": 0, "colspan": 12},
+                    { "row": 26, "col": 6, "colspan": 6},
+                    { "row": 29, "col": 6, "colspan": 6}
+                  ],
+                  "vertical": [
+                    { "col": 4, "row": 0, "rowspan": 12 },
+                    { "col": 6, "row": 12, "rowspan": 6 },
+                    { "col": 6, "row": 24, "rowspan": 8 }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    { "row": 6, "col": 0, "colspan": 10},
+                    { "row": 12, "col": 0, "colspan": 10},
+                    { "row": 18, "col": 0, "colspan": 10},
+                    { "row": 24, "col": 0, "colspan": 10},
+                    { "row": 30, "col": 0, "colspan": 10},
+                    { "row": 36, "col": 0, "colspan": 10},
+                    { "row": 38, "col": 5, "colspan": 5},
+                    { "row": 40, "col": 5, "colspan": 5}
+                  ],
+                  "vertical": [
+                    { "col": 5, "row": 24, "rowspan": 6 },
+                    { "col": 5, "row": 36, "rowspan": 8 }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    { "row": 6, "col": 0, "colspan": 1},
+                    { "row": 12, "col": 0, "colspan": 1},
+                    { "row": 18, "col": 0, "colspan": 1},
+                    { "row": 24, "col": 0, "colspan": 1},
+                    { "row": 30, "col": 0, "colspan": 1},
+                    { "row": 36, "col": 0, "colspan": 1},
+                    { "row": 42, "col": 0, "colspan": 1},
+                    { "row": 48, "col": 0, "colspan": 1},
+                    { "row": 50, "col": 0, "colspan": 1},
+                    { "row": 52, "col": 0, "colspan": 1}
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-10-08T17:16:22.000Z",
+                    "url": "https://www.washingtonpost.com/politics/poll-majority-of-americans-say-they-endorse-opening-of-house-impeachment-inquiry-of-trump/2019/10/07/be9e0af6-e936-11e9-85c0-85a098e47b37_story.html"
+                  },
+                  "label": {
+                    "type": "kicker",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Analysis"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZCB73UHJI4I6TBOAQWQJRZD3G4.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Dan Balz and Scott Clement"
+                  },
+                  "headline": {
+                    "size": "medium",
+                    "text": "Poll: Majority of Americans endorse opening Trump impeachment inquiry",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "politics",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Nearly half of Americans say the House should recommend that Trump be removed from office, according to a Washington Post-Schar School poll.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Analysis: Poll shows Trum is on shaky ground when it comes to impeachment",
+                        "url": "#1"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "stacked"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 4, "row": 0, "col": 0, "rowspan": 12 },
+                    "large": { "colspan": 4, "row": 0, "col": 0, "rowspan": 12 },
+                    "medium": { "colspan": 4, "row": 0, "col": 0, "rowspan": 6 },
+                    "small": { "colspan": 10, "row": 12, "col": 0, "rowspan": 6 },
+                    "xsmall": { "colspan": 1, "row": 12, "col": 0, "rowspan": 6 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-10-08T21:58:12.000Z",
+                    "url": "https://www.washingtonpost.com/world/middle_east/syrian-kurds-see-american-betrayal-and-warn-alliance-against-isis-is-now-in-doubt/2019/10/07/96c425da-e902-11e9-a329-7378fbfa1b63_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5UUKA4VURQI6TLGIDWCHXLGKOM.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption": "Turkish-backed Syrian rebel fighters gather near the Syrian-Turkish border. (Getty Images)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "Jason Samenow and Andrew Freedman"
+                  },
+                  "headline": {
+                    "size": "large",
+                    "text": "Syrian Kurds see U.S. betrayal, warn fight against ISIS is in doubt",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "world",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Kurds warned that President Trump's decision to pull American troops from northeastern Syria could open the door to a revival of the Islamic State",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "McConnell warns Trump against withdrawing U.S. forces from northern Sryia",
+                        "url": "#1"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "stacked"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 8, "row": 0, "col": 4, "rowspan": 12 },
+                    "large": { "colspan": 8, "row": 0, "col": 4, "rowspan": 12 },
+                    "medium": { "colspan": 8, "row": 0, "col": 4, "rowspan": 6 },
+                    "small": { "colspan": 10, "row": 0, "col": 0, "rowspan": 6 },
+                    "xsmall": { "colspan": 1, "row": 0, "col": 0, "rowspan": 6 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "label": {
+                    "type": "kicker",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Post Reports"
+                    },
+                    "icon" : "headphones",
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Inside the reckoning over Trump's possible impeachment",
+                    "font_style": "bold"
+                  },
+                  "audio": {
+                    "media_id": "5ea881d4c9e77c0008e7131e",
+                    "slug": "the-pandemic-at-sea",
+                    "stream_url": "https://www.podtrac.com/pts/redirect.mp3/podcast.posttv.com/washpost-production/5bda0d64e4b02752889d6aaf/20200428/5ea881d4c9e77c0008e7131e/5ea88293cff47e00090b1876_1351620000001-300040_t_1588101783737_44100_128_2.mp3",
+                    "duration": 1541,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "below-sigline"
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 4, "row": 12, "col": 0, "rowspan": 6 },
+                    "large": { "colspan": 4, "row": 12, "col": 0, "rowspan": 6 },
+                    "medium": { "colspan": 4, "row": 6, "col": 0, "rowspan": 6 },
+                    "small": { "colspan": 10, "row": 18, "col": 0, "rowspan": 6 },
+                    "xsmall": { "colspan": 1, "row": 18, "col": 0, "rowspan": 6 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-10-08T01:39:38.000Z",
+                    "url": "https://www.washingtonpost.com/national-security/demoralized-state-department-personnel-question-pompeos-role-in-ukraine-crisis/2019/10/07/85536c3c-e93b-11e9-9306-47cb0324fd44_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/T6KNIVXJH4I6TEYGI7FQGJH5IQ.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Karen DeYoung, John Hudson, Josh Dawsey and Ellen Nakashima"
+                  },
+                  "headline": {
+                    "size": "small",
+                    "text": "Demoralized State Department personnel question Pompeo’s role in Ukraine crisis",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "national-security",
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 8, "row": 6, "col": 4, "rowspan": 6 },
+                    "large": { "colspan": 8, "row": 12, "col": 4, "rowspan": 6 },
+                    "medium": { "colspan": 8, "row": 6, "col": 4, "rowspan": 6 },
+                    "small": { "colspan": 10, "row": 6, "col": 0, "rowspan": 6 },
+                    "xsmall": { "colspan": 1, "row": 6, "col": 0, "rowspan": 6 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-10-08T02:19:43.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/with-little-faa-direction-vaping-devices-add-to-fire-dangers-on-planes/2019/10/03/8de85be0-ca8d-11e9-a1fe-ca46e8d573c0_story.html"
+                  },
+
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SBE2RCXG6MI6TMFGHUBXEG4F54.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "normal",
+                    "media_type": "live-image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width",
+                    "link": {
+                      "type": "unknown",
+                      "url": "https://www.washingtonpost.com/coronavirus/"
+                    },
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-head-to-head-president@sm.png",
+                              "aspect_ratio": 6.82,
+                              "alt_text": "Electoral vote graph"
+                            },
+                            {
+                              "url": "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-president-states/00@sm.png",
+                              "aspect_ratio": 1.28,
+                              "alt_text": "Electoral vote map"
+                            }
+                          ],
+                          "text": "President"
+                        },
+                        {
+                          "images": [
+                            {
+                              "url": "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-head-to-head-senate@sm.png",
+                              "aspect_ratio": 6.82,
+                              "alt_text": "Senate control graph"
+                            },
+                            {
+                              "url": "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-senate-states/00@sm.png",
+                              "aspect_ratio": 1.28,
+                              "alt_text": "Senate result map"
+                            }
+                          ],
+                          "text": "Senate"
+                        },
+                        {
+                          "images": [
+                            {
+                              "url": "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-head-to-head-house@sm.png",
+                              "aspect_ratio": 6.82,
+                              "alt_text": "House control graph"
+                            },
+                            {
+                              "url": "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-house-districts/00@sm.png",
+                              "aspect_ratio": 1.28,
+                              "alt_text": "House results map"
+                            }
+                          ],
+                          "text": "House"
+                        }
+                      ],
+                      "type": "tab",
+                      "cta": "Read more"
+                    }
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Michael Laris"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Places with highest daily reported cases per capita",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Weekly trend of daily new reported cases per 100,000 residents",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Track the spread: Across U.S.",
+                        "url": "https://www.washingtonpost.com/graphics/2020/national/coronavirus-us-cases-deaths/"
+                      },
+                      {
+                        "text": "Worldwide",
+                        "url": "https://www.washingtonpost.com/world/asia_pacific/chinese-state-tv-cancels-broadcasts-of-nba-preseason-games-and-sponsors-drop-out-in-dispute-over-hong-kong-comments/2019/10/08/28f9dfd4-e9b8-11e9-bafb-da248f8d5734_story.html"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "side-by-side"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 4, "row": 0, "col": 12, "rowspan": 6 },
+                    "large": { "colspan": 4, "row": 0, "col": 12, "rowspan": 6 },
+                    "medium": { "colspan": 6, "row": 12, "col": 0, "rowspan": 6 },
+                    "small": { "colspan": 5, "row": 24, "col": 0, "rowspan": 6 },
+                    "xsmall": { "colspan": 1, "row": 24, "col": 0, "rowspan": 6 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+
+                  "label": {
+                    "type": "section-small",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "More Top Stories"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SBE2RCXG6MI6TMFGHUBXEG4F54.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "normal",
+                    "media_type": "live-image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width",
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://www.washingtonpost.com/graphics/local/dc-maryland-virginia-coronavirus-cases/img/state-counter.png",
+                              "aspect_ratio": 3.37,
+                              "alt_text": "DC, Maryland, and Virginia Coronavirus case counts"
+                            }
+                          ],
+                          "text": "Counter"
+                        }
+                      ]
+                    }
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Nobel Prize in physics awarded for research on exoplanets and the structure of the univers",
+                        "url": "https://www.washingtonpost.com/science/2019/10/08/nobel-prize-physics-awarded-research-exoplanets-structure-universe/"
+                      },
+                      {
+                        "text": "Chinese state TV cancels broadcasts of NBA games this week to punish league commissioner Adam Silver",
+                        "url": "https://www.washingtonpost.com/world/asia_pacific/chinese-state-tv-cancels-broadcasts-of-nba-preseason-games-and-sponsors-drop-out-in-dispute-over-hong-kong-comments/2019/10/08/28f9dfd4-e9b8-11e9-bafb-da248f8d5734_story.html"
+                      },
+                      {
+                        "text": "Trump's 2016 campaign was run on a shoestring, His reelection machine is huge - and armed with cconsultants.",
+                        "url": "https://www.washingtonpost.com/nation/2019/10/08/trumps-campaign-was-run-shoestring-his-reelection-machine-is-huge-armed-with-consultants/"
+                      },
+                      {
+                        "text": "Supreme Court will consider whether gay, transgender workers are protected by federal law",
+                        "url": "https://www.washingtonpost.com/politics/courts_law/supreme-court-to-decide-if-anti-discrimination-employment-laws-protect-on-basis-of-sexual-orientation-and-gender-identity/2019/04/22/175fca02-6503-11e9-a1b6-b29b90efa879_story.html"
+                      },
+                      {
+                        "text": "Trump's company cancels gala planned by anti-Muslim group at Mar-a-Lago",
+                        "url": "https://www.washingtonpost.com/politics/trumps-company-cancels-gala-planned-by-anti-muslim-group-at-mar-a-lago/2019/10/07/e54132d4-e93e-11e9-9306-47cb0324fd44_story.html"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "stacked"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 4, "row": 6, "col": 12, "rowspan": 12 },
+                    "large": { "colspan": 4, "row": 6, "col": 12, "rowspan": 12 },
+                    "medium": { "colspan": 6, "row": 12, "col": 6, "rowspan": 6 },
+                    "small": { "colspan": 5, "row": 24, "col": 5, "rowspan": 6 },
+                    "xsmall": { "colspan": 1, "row": 30, "col": 0, "rowspan": 6 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+
+                  "label": {
+                    "type": "section-small",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "More Top Stories"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "headline": {
+                    "size": "medium",
+                    "text": "Known deaths and cases"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SBE2RCXG6MI6TMFGHUBXEG4F54.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "normal",
+                    "media_type": "live-image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "large",
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://www.washingtonpost.com/graphics/local/dc-maryland-virginia-coronavirus-cases/img/state-counter.png",
+                              "aspect_ratio": 3.37,
+                              "alt_text": "DC, Maryland, and Virginia Coronavirus case counts"
+                            }
+                          ],
+                          "text": "Counter"
+                        }
+                      ]
+                    }
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra vel felis et facilisis. Nam non metus tincidunt, mattis tortor semper, lobortis lorem. Nam sit amet tristique purus, ac tincidunt erat. Sed nec volutpat quam. Quisque vel purus sed eros malesuada aliquam eget id ex. Phasellus nec mi dictum, sodales orci et, mollis nulla. Donec ullamcorper dapibus nunc fringilla rutrum. Pellentesque eu diam posuere, lobortis felis eu, sodales neque. Donec in neque et felis porta lobortis quis eget metus. Mauris tempus ipsum sed lacus facilisis, ut accumsan purus volutpat. Praesent et condimentum enim, congue sodales nisl.",
+                        "type": "normal"
+                      },
+                      {
+                        "text": "Phasellus fringilla ligula sit amet enim feugiat, vitae molestie justo molestie. Suspendisse tellus dui, gravida sodales nibh eget, tempor rutrum dolor. Nulla facilisi. Cras et libero fringilla, dignissim ex sed, vulputate velit. Donec id ornare nisi, ut pretium urna. Ut sit amet diam elit. Suspendisse nec nunc eros. Aenean commodo metus eget magna cursus dictum. Nunc porttitor risus nec velit tristique vehicula. Proin eleifend ut quam in ultrices.",
+                        "type": "normal"
+                      }                                        ]
+                  },
+                  "wrap_text": true,
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 20, "row": 18, "col": 0, "rowspan": 6 },
+                    "large": { "colspan": 16, "row": 18, "col": 0, "rowspan": 6 },
+                    "medium": { "colspan": 12, "row": 18, "col": 0, "rowspan": 6 },
+                    "small": { "colspan": 10, "row": 30, "col": 0, "rowspan": 6 },
+                    "xsmall": { "colspan": 1, "row": 36, "col": 0, "rowspan": 6 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-10-08T02:19:43.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/with-little-faa-direction-vaping-devices-add-to-fire-dangers-on-planes/2019/10/03/8de85be0-ca8d-11e9-a1fe-ca46e8d573c0_story.html"
+                  },
+
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SBE2RCXG6MI6TMFGHUBXEG4F54.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "normal",
+                    "media_type": "live-image",
+                    "art_position": "art-below-head",
+                    "art_width": "full-width",
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://dohdeick6sqa6.cloudfront.net/screenshots/production/live-governor-counties/51@sm.png",
+                              "aspect_ratio": 1.27,
+                              "alt_text": "Virginia county results map"
+                            },
+                            {
+                              "url": "https://dohdeick6sqa6.cloudfront.net/screenshots/production/table-governor/51@xs.png",
+                              "aspect_ratio": 9.04,
+                              "alt_text": "Virginia gubernatorial results"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "size": "small",
+                    "text": "Virginia Results",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 10, "row": 24, "col": 0, "rowspan": 4 },
+                    "large": { "colspan": 8, "row": 24, "col": 0, "rowspan": 4 },
+                    "medium": { "colspan": 6, "row": 24, "col": 0, "rowspan": 4 },
+                    "small": { "colspan": 5, "row": 36, "col": 0, "rowspan": 4 },
+                    "xsmall": { "colspan": 1, "row": 42, "col": 0, "rowspan": 4 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-10-08T02:19:43.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/with-little-faa-direction-vaping-devices-add-to-fire-dangers-on-planes/2019/10/03/8de85be0-ca8d-11e9-a1fe-ca46e8d573c0_story.html"
+                  },
+
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SBE2RCXG6MI6TMFGHUBXEG4F54.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "normal",
+                    "media_type": "live-image",
+                    "art_position": "art-below-head",
+                    "art_width": "full-width",
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://tabletimages.washingtonpost.com/live-image-test/A.jpg",
+                              "aspect_ratio": 1.0,
+                              "alt_text": "Updating Time"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "size": "small",
+                    "text": "Virginia Results",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 10, "row": 28, "col": 0, "rowspan": 4 },
+                    "large": { "colspan": 8, "row": 28, "col": 0, "rowspan": 4 },
+                    "medium": { "colspan": 6, "row": 28, "col": 0, "rowspan": 4 },
+                    "small": { "colspan": 5, "row": 40, "col": 0, "rowspan": 4 },
+                    "xsmall": { "colspan": 1, "row": 46, "col": 0, "rowspan": 4 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+
+                  "label": {
+                    "type": "section-small",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Single"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SBE2RCXG6MI6TMFGHUBXEG4F54.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "normal",
+                    "media_type": "live-image",
+                    "art_position": "art-below-head",
+                    "art_width": "full-width",
+                    "link": {
+                      "type": "unknown",
+                      "url": "https://www.washingtonpost.com/coronavirus/"
+                    },
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://d3j562a6fou82u.cloudfront.net/elections/screenshots/2020-04-07-D-55-table.png",
+                              "aspect_ratio": 5.61,
+                              "alt_text": "Biden versus Sanders table"
+                            }
+                          ],
+                          "text": "Counter"
+                        }
+                      ]
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 10, "row": 24, "col": 10, "rowspan": 2 },
+                    "large": { "colspan": 8, "row": 24, "col": 8, "rowspan": 2 },
+                    "medium": { "colspan": 6, "row": 24, "col": 6, "rowspan": 2 },
+                    "small": { "colspan": 5, "row": 36, "col": 5, "rowspan": 2 },
+                    "xsmall": { "colspan": 1, "row": 50, "col": 0, "rowspan": 2 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+
+                  "label": {
+                    "type": "section-small",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Single with CTA"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SBE2RCXG6MI6TMFGHUBXEG4F54.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "normal",
+                    "media_type": "live-image",
+                    "art_position": "art-below-head",
+                    "art_width": "full-width",
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://d3j562a6fou82u.cloudfront.net/elections/screenshots/2020-04-07-D-55-table.png",
+                              "aspect_ratio": 5.61,
+                              "alt_text": "Biden versus Sanders table"
+                            }
+                          ],
+                          "text": "Counter"
+                        }
+                      ],
+                      "cta": "Read More"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 10, "row": 26, "col": 10, "rowspan": 2 },
+                    "large": { "colspan": 8, "row": 26, "col": 8, "rowspan": 2 },
+                    "medium": { "colspan": 6, "row": 26, "col": 6, "rowspan": 2 },
+                    "small": { "colspan": 5, "row": 38, "col": 5, "rowspan": 2 },
+                    "xsmall": { "colspan": 1, "row": 52, "col": 0, "rowspan": 2 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+
+                  "label": {
+                    "type": "section-small",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Carousel"
+                    },
+
+                    "link": {
+                      "url": "https://www.washingtonpost.com/local/trafficandcommuting/with-little-faa-direction-vaping-devices-add-to-fire-dangers-on-planes/2019/10/03/8de85be0-ca8d-11e9-a1fe-ca46e8d573c0_story.html"
+                    }
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SBE2RCXG6MI6TMFGHUBXEG4F54.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "normal",
+                    "media_type": "live-image",
+                    "art_position": "art-below-head",
+                    "art_width": "full-width",
+                    "link": {
+                      "type": "unknown",
+                      "url": "https://www.washingtonpost.com/coronavirus/"
+                    },
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://d3j562a6fou82u.cloudfront.net/elections/screenshots/2020-04-07-D-55-table.png?c1",
+                              "aspect_ratio": 5.61,
+                              "alt_text": "Carousel 1 - Biden versus Sanders table"
+                            }
+                          ],
+                          "text": "Counter"
+                        },
+                        {
+                          "images": [
+                            {
+                              "url": "https://d3j562a6fou82u.cloudfront.net/elections/screenshots/2020-04-07-D-55-table.png?c2",
+                              "aspect_ratio": 5.61,
+                              "alt_text": "Carousel 2 - Biden versus Sanders table"
+                            }
+                          ],
+                          "text": "Counter"
+                        },
+                        {
+                          "images": [
+                            {
+                              "url": "https://dohdeick6sqa6.cloudfront.net/screenshots/production/table-governor/51@sm.png?c3",
+                              "aspect_ratio": 4.52,
+                              "alt_text": "Carousel 3 - Virginia Governors"
+                            }
+                          ],
+                          "text": "Counter"
+                        },
+                        {
+                          "images": [
+                            {
+                              "url": "https://d3j562a6fou82u.cloudfront.net/elections/screenshots/2020-04-07-D-55-table.png?c4",
+                              "aspect_ratio": 5.61,
+                              "alt_text": "Carousel 4 - Biden versus Sanders table"
+                            }
+                          ],
+                          "text": "Counter"
+                        }
+                      ],
+                      "type": "carousel"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 10, "row": 28, "col": 10, "rowspan": 2 },
+                    "large": { "colspan": 8, "row": 28, "col": 8, "rowspan": 2 },
+                    "medium": { "colspan": 6, "row": 28, "col": 6, "rowspan": 2 },
+                    "small": { "colspan": 5, "row": 40, "col": 5, "rowspan": 2 },
+                    "xsmall": { "colspan": 1, "row": 54, "col": 0, "rowspan": 2 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+
+                  "label": {
+                    "type": "section-small",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Carousel with CTA"
+                    },
+
+                    "link": {
+                      "url": "https://www.washingtonpost.com/local/trafficandcommuting/with-little-faa-direction-vaping-devices-add-to-fire-dangers-on-planes/2019/10/03/8de85be0-ca8d-11e9-a1fe-ca46e8d573c0_story.html"
+                    }
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SBE2RCXG6MI6TMFGHUBXEG4F54.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "normal",
+                    "media_type": "live-image",
+                    "art_position": "art-below-head",
+                    "art_width": "full-width",
+                    "link": {
+                      "type": "unknown",
+                      "url": "https://www.washingtonpost.com/coronavirus/"
+                    },
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://d3j562a6fou82u.cloudfront.net/elections/screenshots/2020-04-07-D-55-table.png?c1",
+                              "aspect_ratio": 5.61,
+                              "alt_text": "Carousel 1 - Biden versus Sanders table"
+                            }
+                          ],
+                          "text": "Counter"
+                        },
+                        {
+                          "images": [
+                            {
+                              "url": "https://d3j562a6fou82u.cloudfront.net/elections/screenshots/2020-04-07-D-55-table.png?c2",
+                              "aspect_ratio": 5.61,
+                              "alt_text": "Carousel 2 - Biden versus Sanders table"
+                            }
+                          ],
+                          "text": "Counter"
+                        },
+                        {
+                          "images": [
+                            {
+                              "url": "https://dohdeick6sqa6.cloudfront.net/screenshots/production/table-governor/51@sm.png?c3",
+                              "aspect_ratio": 4.52,
+                              "alt_text": "Carousel 3 - Virginia Governors"
+                            }
+                          ],
+                          "text": "Counter"
+                        },
+                        {
+                          "images": [
+                            {
+                              "url": "https://d3j562a6fou82u.cloudfront.net/elections/screenshots/2020-04-07-D-55-table.png?c4",
+                              "aspect_ratio": 5.61,
+                              "alt_text": "Carousel 4 - Biden versus Sanders table"
+                            }
+                          ],
+                          "text": "Counter"
+                        }
+                      ],
+                      "type": "carousel",
+                      "cta": "Read more"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 10, "row": 30, "col": 10, "rowspan": 2 },
+                    "large": { "colspan": 8, "row": 30, "col": 8, "rowspan": 2 },
+                    "medium": { "colspan": 6, "row": 30, "col": 6, "rowspan": 2 },
+                    "small": { "colspan": 5, "row": 42, "col": 5, "rowspan": 2 },
+                    "xsmall": { "colspan": 1, "row": 56, "col": 0, "rowspan": 2 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "label": {
+                    "type": "section-small",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Segmented control"
+                    },
+
+                    "link": {
+                      "url": "https://www.washingtonpost.com/local/trafficandcommuting/with-little-faa-direction-vaping-devices-add-to-fire-dangers-on-planes/2019/10/03/8de85be0-ca8d-11e9-a1fe-ca46e8d573c0_story.html"
+                    }
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SBE2RCXG6MI6TMFGHUBXEG4F54.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "normal",
+                    "media_type": "live-image",
+                    "art_position": "art-below-head",
+                    "art_width": "full-width",
+                    "link": {
+                      "type": "unknown",
+                      "url": "https://www.washingtonpost.com/coronavirus/"
+                    },
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://d3j562a6fou82u.cloudfront.net/elections/screenshots/2020-04-07-D-55-table.png?c1",
+                              "aspect_ratio": 5.61,
+                              "alt_text": "Segmented 1 - Biden versus Sanders table"
+                            }
+                          ],
+                          "text": "House"
+                        },
+                        {
+                          "images": [
+                            {
+                              "url": "https://d3j562a6fou82u.cloudfront.net/elections/screenshots/2020-04-07-D-55-table.png?c2",
+                              "aspect_ratio": 5.61,
+                              "alt_text": "Segmented 2 - Biden versus Sanders table"
+                            }
+                          ],
+                          "text": "Senate"
+                        },
+                        {
+                          "images": [
+                            {
+                              "url": "https://dohdeick6sqa6.cloudfront.net/screenshots/production/table-governor/51@sm.png?c3",
+                              "aspect_ratio": 4.52,
+                              "alt_text": "Segmented 3 - Virginia Governors"
+                            }
+                          ],
+                          "text": "President"
+                        }
+                      ],
+                      "type": "segment"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 10, "row": 32, "col": 10, "rowspan": 2 },
+                    "large": { "colspan": 8, "row": 32, "col": 8, "rowspan": 2 },
+                    "medium": { "colspan": 6, "row": 32, "col": 6, "rowspan": 2 },
+                    "small": { "colspan": 5, "row": 44, "col": 5, "rowspan": 2 },
+                    "xsmall": { "colspan": 1, "row": 58, "col": 0, "rowspan": 2 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "label": {
+                    "type": "section-small",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Segmented control with CTA"
+                    },
+
+                    "link": {
+                      "url": "https://www.washingtonpost.com/local/trafficandcommuting/with-little-faa-direction-vaping-devices-add-to-fire-dangers-on-planes/2019/10/03/8de85be0-ca8d-11e9-a1fe-ca46e8d573c0_story.html"
+                    }
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SBE2RCXG6MI6TMFGHUBXEG4F54.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "none",
+                    "caption_size": "normal",
+                    "media_type": "live-image",
+                    "art_position": "art-below-head",
+                    "art_width": "full-width",
+                    "link": {
+                      "type": "unknown",
+                      "url": "https://www.washingtonpost.com/coronavirus/"
+                    },
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://d3j562a6fou82u.cloudfront.net/elections/screenshots/2020-04-07-D-55-table.png?c1",
+                              "aspect_ratio": 5.61,
+                              "alt_text": "Segmented 1 - Biden versus Sanders table"
+                            }
+                          ],
+                          "text": "House"
+                        },
+                        {
+                          "images": [
+                            {
+                              "url": "https://d3j562a6fou82u.cloudfront.net/elections/screenshots/2020-04-07-D-55-table.png?c2",
+                              "aspect_ratio": 5.61,
+                              "alt_text": "Segmented 2 - Biden versus Sanders table"
+                            }
+                          ],
+                          "text": "Senate"
+                        },
+                        {
+                          "images": [
+                            {
+                              "url": "https://dohdeick6sqa6.cloudfront.net/screenshots/production/table-governor/51@sm.png?c3",
+                              "aspect_ratio": 4.52,
+                              "alt_text": "Segmented 3 - Virginia Governors"
+                            }
+                          ],
+                          "text": "President"
+                        }
+                      ],
+                      "type": "segment",
+                      "cta": "See all results"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 10, "row": 34, "col": 10, "rowspan": 2 },
+                    "large": { "colspan": 8, "row": 34, "col": 8, "rowspan": 2 },
+                    "medium": { "colspan": 6, "row": 34, "col": 6, "rowspan": 2 },
+                    "small": { "colspan": 5, "row": 46, "col": 5, "rowspan": 2 },
+                    "xsmall": { "colspan": 1, "row": 60, "col": 0, "rowspan": 2 }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table 2",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": { "colspan": 4, "row": 0, "col": 16},
+                "large": { "colspan": 16, "row": 1, "col": 0 },
+                "medium": { "colspan": 12, "row": 1, "col": 0 },
+                "small": { "colspan": 10, "row": 1, "col": 0 },
+                "xsmall": { "colspan": 1, "row": 1, "col": 0 }
+              },
+              "dividers": {
+                "medium": {
+                  "horizontal": [
+                    { "row": 6, "col": 0, "colspan": 4},
+                    { "row": 6, "col": 4, "colspan": 4},
+                    { "row": 6, "col": 8, "colspan": 4}
+                  ],
+                  "vertical": [
+                    { "col": 4, "row": 0, "rowspan": 12 },
+                    { "col": 8, "row": 0, "rowspan": 12 }
+                  ]
+                }
+              },
+              "label": {
+                "type": "section-large",
+                "position": "above-headline",
+                "alignment": "inherit",
+                "show_arrow": false,
+                "label": {
+                  "text": "Opinions"
+                },
+                "link": {
+                  "url": "https://www.washingtonpost.com/coronavirus/",
+                  "type": "unknown"
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "label": {
+                    "type": "kicker",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Greg Sargent"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "The massive triumph of the rich, illustrated by stunning new data",
+                    "font_style": "italic"
+                  },
+                  "layout_attributes": {
+                    "medium": { "colspan": 4, "row": 0, "col": 0, "rowspan": 6 }
+                  }
+                },
+                {
+                  "label": {
+                    "type": "kicker",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Sebatian Mallaby"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Paul Volker was the savior our economy needed",
+                    "font_style": "italic"
+                  },
+                  "layout_attributes": {
+                    "medium": { "colspan": 4, "row": 0, "col": 4, "rowspan": 6 }
+                  }
+                },
+                {
+                  "label": {
+                    "type": "kicker",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Max Boot"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Will the GOP's born-again Trumpers ever pay the price for selling out?",
+                    "font_style": "italic"
+                  },
+                  "layout_attributes": {
+                    "medium": { "colspan": 4, "row": 0, "col": 8, "rowspan": 6 }
+                  }
+                },
+                {
+                  "label": {
+                    "type": "kicker",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "James Downie"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "headline": {
+                    "size": "x-small",
+                    "text": "The impeachment question Republicans should have to answer",
+                    "font_style": "italic"
+                  },
+                  "layout_attributes": {
+                    "medium": { "colspan": 4, "row": 6, "col": 0, "rowspan": 6 }
+                  }
+                },
+                {
+                  "label": {
+                    "type": "kicker",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Alexandra Petri"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Why isn't this bipartisan? demans person who opposed it",
+                    "font_style": "italic"
+                  },
+                  "layout_attributes": {
+                    "medium": { "colspan": 4, "row": 6, "col": 4, "rowspan": 6 }
+                  }
+                },
+                {
+                  "label": {
+                    "type": "kicker",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Jennifer Rubin"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "headline": {
+                    "size": "x-small",
+                    "text": "How to expose Republican lies",
+                    "font_style": "italic"
+                  },
+                  "layout_attributes": {
+                    "medium": { "colspan": 4, "row": 6, "col": 8, "rowspan": 6 }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

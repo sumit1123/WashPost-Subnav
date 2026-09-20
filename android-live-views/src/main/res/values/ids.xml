@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="live_blog_headline" type="id"/>
+    <item name="live_blog_time" type="id"/>
+    <item name="live_blog_bullet" type="id"/>
+    <item name="view_cache_tag" type="id"/>
+    <item name="live_blog_item_title_color_night" type="color"/>
+    <item name="live_blog_item_title_color" type="color"/>
+    <item name="live_blog_item_date_color_night" type="color"/>
+    <item name="live_blog_item_date_color" type="color"/>
+</resources>

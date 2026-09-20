@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Multiplier">
+        <attr name="font_multiplier_small" format="integer"/>
+        <attr name="font_multiplier_medium" format="integer"/>
+        <attr name="font_multiplier_large" format="integer"/>
+        <attr name="font_multiplier_extra_large" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="FontSizeDialog" >
+        <attr name="multiplier" format="reference"/>
+    </declare-styleable>
+
+    <style name="FontSizeDialogStyle" parent="android:Theme.Dialog">
+        <item name="multiplier">@style/MultiplierStyle</item>
+        <item name="android:textSize">@dimen/font_size_dialog_text_size</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="MultiplierStyle">
+        <item name="font_multiplier_small">-2</item>
+        <item name="font_multiplier_medium">0</item>
+        <item name="font_multiplier_large">2</item>
+        <item name="font_multiplier_extra_large">4</item>
+    </style>
+
+    <style name="FontSizeLabelStyle">
+        <item name="android:disabledAlpha">?android:disabledAlpha</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/transparent_selector</item>
+    </style>
+
+    <style name="FontSizeLabelStyle.Small">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="FontSizeLabelStyle.Large">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+</resources>

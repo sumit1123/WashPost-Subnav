@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="custom_nav_dehaze_icon">#A9A9A9</color>
+    <color name="custom_nav_locked">#A9A9A9</color>
+    <color name="custom_nav_recommended">#F2F2F2</color>
+    <color name="custom_nav_cell_bg">#2B2B2B</color>
+    <color name="custom_nav_reset_bg">#2B2B2B</color>
+    <color name="custom_nav_reset_outline">#777777</color>
+    <color name="custom_nav_subtitle">#A9A9A9</color>
+</resources>

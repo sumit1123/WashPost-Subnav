@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="?attr/app_bar_day_night_style"
+        app:navigationIcon="?attr/app_bar_nav_arrow_icon"
+        app:contentInsetStartWithNavigation="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:text="@string/title_activity_settings"
+            android:fontFamily="@font/wp_franklinitcstd_font_family"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/navigation_icon_tint"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/nav_host_fragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/surface"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/navigation_settings"
+            app:layout_behavior="com.wapo.flagship.views.MakeSpaceForSnackbarBehavior" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

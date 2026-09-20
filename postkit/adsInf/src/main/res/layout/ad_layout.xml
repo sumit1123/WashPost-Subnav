@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ads_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ad_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/franklinitcstd_light"
+        android:text="@string/ad_label"
+        android:textAlignment="center"
+        android:textColor="@color/ad_label_text"
+        android:textSize="16sp"
+        android:typeface="sans" />
+
+    <com.wapo.adsinf.BannerAdView
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="@dimen/flex_ad_vertical_padding"
+        android:background="@android:color/transparent"
+        android:descendantFocusability="blocksDescendants"
+        android:gravity="center" />
+
+</LinearLayout>

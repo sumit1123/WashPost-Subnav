@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent">
+
+    <com.wapo.view.ProportionalLayout
+        a:id="@+id/image_frame"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_marginBottom="@dimen/sf_module_stream_image_bottom_margin"
+        a:layout_marginLeft="@dimen/sf_module_stream_image_left_margin"
+        a:layout_marginRight="@dimen/sf_module_stream_image_right_margin"
+        app:aspectRatio="1.2">
+
+        <com.wapo.view.ImageViewWithAnimatedIndicator
+            a:id="@+id/image"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content" />
+
+    </com.wapo.view.ProportionalLayout>
+
+    <TextView
+        a:id="@+id/kicker"
+        style="@style/image_stream_kicker" />
+
+    <TextView
+        a:id="@+id/headline"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_marginBottom="@dimen/sf_module_stream_headline_bottom_margin"
+        a:textColor="@color/streamm_headline"
+        a:textSize="@dimen/sf_module_stream_headline_font_size"
+        style="@style/image_stream_headline" />
+
+    <TextView
+        a:id="@+id/byline"
+        style="@style/image_stream_byline" />
+
+    <TextView
+        a:id="@+id/time_and_blurb"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:textColor="@color/streamm_blurb"
+        a:textSize="@dimen/sf_module_stream_blurb_font_size"
+        a:visibility="gone"
+        style="@style/image_stream_time_and_blurb" />
+
+    <TextView
+        a:id="@+id/spareTextView"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:visibility="gone" />
+
+</merge>

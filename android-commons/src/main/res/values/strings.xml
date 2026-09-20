@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AndroidCommons</string>
+    <string name="share_email_subject">The Washington Post: %1$s</string>
+    <string name="share_text_subject">%1$s</string>
+    <string name="share_email_body">I thought you might like this story from The Washington Post.\n%1$s\n%2$s</string>
+    <string name="share_body">%1$s\n%2$s</string>
+    <string name="share_non_email_body">%1$s</string>
+    <string name="continuation_text">...</string>
+    <string name="audio_error_offline" translatable="false">You\'re offline. Please check your connection and try again.</string>
+    <string name="no_nav_param_key" translatable="false">no_nav</string>
+    <string name="no_nav_param_value" translatable="false">true</string>
+
+    <string name="age_restriction_app_dialog_message_update_title">Require update on Google Services</string>
+    <string name="age_restriction_app_dialog_message_error_title_default">Error on Age Verification</string>
+    <string name="age_restriction_app_dialog_message_error_title">Error on Google Services</string>
+    <string name="age_restriction_error_apinotavailable_message">The Play Age Signals API is not available.</string>
+    <string name="age_restriction_error_appnotowned_title">Error on app</string>
+    <string name="age_restriction_error_appnotowned_message">The app was not installed by Google Play. Get your app from Google Play.</string>
+    <string name="age_restriction_error_cannotbindtoservice_message">Binding to the service in the Play Store has failed.</string>
+    <string name="age_restriction_error_clienttransienterror_message">There was a transient error in the client device.</string>
+    <string name="age_restriction_error_internalerror_message">Unknown internal error.</string>
+    <string name="age_restriction_error_networkerror_message">No available network is found. Please check for a connection to validate your age</string>
+    <string name="age_restriction_error_playservicesnotfound_message">Play Services is not available or its version is too old. Please install, update, or enable Play Services.</string>
+    <string name="age_restriction_error_playservicesversionoutdated_message">Play Services needs to be updated.</string>
+    <string name="age_restriction_error_playstorenotfound_message">No Play Store app is found on the device.</string>
+    <string name="age_restriction_error_playstoreversionoutdated_message">The Play Store app needs to be updated.</string>
+    <string name="age_restriction_error_sdkversionoutdated_message">This SDK version is no longer supported.</string>
+    <string name="age_restriction_error_unknownerror_message">UnknownError</string>
+    <string name="age_restriction_app_dialog_message_error_amazon_title">Error on Amazon Services</string>
+    <string name="age_restriction_error_amazonappnotowned_message">The app was not installed by Amazon. Get your app from Amazon Store.</string>
+    <string name="age_restriction_error_amazonfeaturednotsupportederror_message">Featured Not Supported</string>
+    <string name="age_restriction_error_playstorenotfound_message_require">No Play Store app is found on the device. Please install or enable Play Store</string>
+</resources>

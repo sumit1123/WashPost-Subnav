@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Sections" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="headline_font_normal">PostoniWide-Bold.otf</item>
+        <item name="headline_font_highlight">Franklin-ITC-Pro-Bold.otf</item>
+        <item name="headline_font_thin">PostoniWide-Regular.otf</item>
+        <item name="headline_font_regular">PostoniWide-Regular.otf</item>
+        <item name="headline_font_bold">PostoniWide-Bold.otf</item>
+        <item name="headline_font_italic">PostoniWide-Italic.otf</item>
+        <item name="headline_font_ultra">PostoniDisplayMag-Ultra.otf</item>
+        <item name="headline_font_ultra_italic">PostoniDisplayMag-UltraItalic.otf</item>
+        <item name="headline_font_light">FranklinITCStd-Light.otf</item>
+        <item name="headline_font_franklin_normal">FranklinITCStd-Bold.otf</item>
+        <item name="headline_font_franklin_highlight">Franklin-ITC-Pro-Bold.otf</item>
+        <item name="headline_font_franklin_thin">FranklinITCStd-Light.otf</item>
+        <item name="headline_font_franklin_regular">FranklinITCStd-Light.otf</item>
+        <item name="headline_font_franklin_bold">FranklinITCStd-Bold.otf</item>
+        <item name="headline_font_franklin_italic">FranklinITCStd-LightItalic.otf</item>
+        <item name="headline_font_franklin_ultra">PostoniDisplayMag-Ultra.otf</item>
+        <item name="headline_font_franklin_ultra_italic">PostoniDisplayMag-UltraItalic.otf</item>
+        <item name="headline_font_franklin_light">FranklinITCStd-Light.otf</item>
+        <item name="byline_font">FranklinITCStd-Light.otf</item>
+        <item name="byline_section_font">FranklinITCStd-Bold.otf</item>
+        <item name="label_font">Franklin-ITC-Pro-Bold.otf</item>
+        <item name="label_font_light">FranklinITCStd-Light.otf</item>
+        <item name="label_secondary_font">FranklinITCStd-Bold.otf</item>
+        <item name="label_secondary_font_light">FranklinITCStd-Light.otf</item>
+        <item name="overlay_media_caption_font">FranklinITCStd-Bold.otf</item>
+        <item name="overlay_secondary_default_font">FranklinITCStd-Light.otf</item>
+        <item name="homepagestory_media_caption_font">Franklin-ITC-Pro-Light.otf</item>
+        <item name="homepagestory_blurb_font">FranklinITCStd-Light.otf</item>
+        <item name="homepagestory_blurb_font_bold">FranklinITCStd-Bold.otf</item>
+        <item name="homepagestory_blurb_font_like_article_body">Georgia-Regular.otf</item>
+        <item name="homepagestory_related_links_font">Franklin-ITC-Pro-Bold.otf</item>
+        <item name="homepagestory_related_links_font_grid">FranklinITCStd-Light.otf</item>
+        <item name="sf_card_header_font">Franklin-ITC-Pro-Bold.otf</item>
+        <item name="sf_card_entry_font">Franklin-ITC-Pro-Bold.otf</item>
+        <item name="sf_gathering_news_font">HelveticaNeue.otf</item>
+        <item name="sf_gathering_news_font_bold">HelveticaNeue-Bold.otf</item>
+        <item name="sf_gathering_news_font_italic">HelveticaNeue-Italic.otf</item>
+        <item name="sf_gathering_news_font_bold_italic">HelveticaNeue-BoldItalic.otf</item>
+        <item name="liveblog_time_font">Franklin-ITC-Pro-Light.otf</item>
+        <item name="liveblog_headline_font">Franklin-ITC-Pro-Light.otf</item>
+        <item name="live_image_tab_font">FranklinITCStd-Bold.otf</item>
+        <item name="live_election_label_font">Franklin-ITC-Pro-Bold.otf</item>
+        <item name="live_election_headline_font">PostoniWide-Bold.otf</item>
+        <item name="live_election_results_font">Franklin-ITC-Pro-Light.otf</item>
+        <item name="live_election_common_font">Franklin-ITC-Pro-Light.otf</item>
+        <item name="live_election_countdown_font">Franklin-ITC-Pro-Light.otf</item>
+        <item name="image_stream_module_kicker_font">@font/wp_franklin_itc_pro_font_family</item>
+        <item name="image_stream_module_headline_font">@font/wp_postoni_standard_font_family</item>
+        <item name="image_stream_module_time_and_blurb_font">@font/wp_postoni_standard_font_family</item>
+        <item name="image_stream_module_byline_font">@font/wp_franklin_itc_pro_font_family</item>
+        <item name="sf_module_stream_label_font">Franklin-ITC-Pro-Bold.otf</item>
+        <item name="sf_module_stream_time_font">Franklin-ITC-Pro-Bold.otf</item>
+        <item name="stream_module_kicker_font">@font/wp_franklin_itc_pro_font_family</item>
+        <item name="stream_module_headline_font">@font/wp_postoni_standard_font_family</item>
+        <item name="stream_module_time_and_blurb_font">@font/wp_franklin_itc_pro_font_family</item>
+        <item name="stream_module_byline_font">@font/wp_franklin_itc_pro_font_family</item>
+        <item name="stream_module_last_updated_font">@font/wp_franklin_itc_pro_font_family</item>
+        <item name="homepage_story_cell_style">@style/Cell.HomepageStory</item>
+        <item name="homepage_story_grid_cell_style">@style/Cell.HomepageStory.Grid</item>
+        <item name="homepage_story_grid_cell_card_style_no_bleed">@style/Cell.HomepageStory.Grid.NoBleed</item>
+        <item name="homepage_story_grid_cell_card_style_bleed">@style/Cell.HomepageStory.Grid.Bleed</item>
+        <item name="homepage_story_list_story_style">@style/Cell.HomepageStory.StoryListStory</item>
+        <item name="homepage_story_headline_cell_style">@style/Cell.HomepageStory.Headline</item>
+        <item name="homepage_story_byline_cell_style">@style/Cell.HomepageStory.Byline</item>
+        <item name="homepage_story_related_links_style">@style/Cell.HomepageStory.RelatedLinks</item>
+        <item name="homepage_story_blurb_cell_style">@style/Cell.HomepageStory.Blurb</item>
+        <item name="homepage_story_media_cell_style">@style/Cell.HomepageStory.Media</item>
+        <item name="homepage_story_label_style">@style/Cell.Label</item>
+        <item name="homepage_story_border_style">@style/Cell.BorderView</item>
+        <item name="homepage_story_live_blog_style">@style/Cell.LiveBlog</item>
+        <item name="section_front_background">@color/section_front_background</item>
+        <item name="homepage_story_compound_label_style">@style/CompoundLabelStyle</item>
+        <item name="homepage_story_live_image_carousel_style">@style/LiveImageCarousel</item>
+
+        <!-- CONTENT REFRESH -->
+        <item name="sections_content_refresh_style">@style/SectionsContentRefresh</item>
+        <item name="sections_content_refresh_dismiss_style">@style/SectionsContentRefresh_Dismiss</item>
+        <item name="sections_content_refresh_label_style">@style/SectionsContentRefresh_Label</item>
+
+    </style>
+
+    <attr name="section_front_background" format="color"/>
+    <attr name="homepage_story_compound_label_card_style" format="reference"/>
+    <attr name="homepage_story_grid_cell_style" format="reference"/>
+    <attr name="homepage_story_grid_cell_card_style_no_bleed" format="reference"/>
+    <attr name="homepage_story_grid_cell_card_style_bleed" format="reference"/>
+    <attr name="homepage_story_cell_style" format="reference"/>
+    <attr name="homepage_story_list_story_style" format="reference"/>
+    <attr name="homepage_story_headline_cell_style" format="reference"/>
+    <attr name="homepage_story_byline_cell_style" format="reference"/>
+    <attr name="homepage_story_related_links_style" format="reference"/>
+    <attr name="homepage_story_blurb_cell_style" format="reference"/>
+    <attr name="homepage_story_media_cell_style" format="reference"/>
+    <attr name="homepage_story_label_style" format="reference"/>
+    <attr name="homepage_story_border_style" format="reference"/>
+    <attr name="homepage_story_live_blog_style" format="reference"/>
+    <attr name="homepage_story_compound_label_style" format="reference"/>
+    <attr name="homepage_story_live_image_carousel_style" format="reference"/>
+
+    <declare-styleable name="CellBorderView">
+        <attr name="bottom_border_size_none" format="dimension"/>
+        <attr name="bottom_border_size_thick" format="dimension"/>
+        <attr name="bottom_border_size_hairline_top_table" format="dimension"/>
+        <attr name="bottom_border_size_hairline" format="dimension"/>
+        <attr name="vertical_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CellHeadlineView">
+        <attr name="normal" format="reference"/>
+        <attr name="highlight" format="reference"/>
+        <attr name="thin" format="reference"/>
+        <attr name="regular" format="reference"/>
+        <attr name="bold" format="reference"/>
+        <attr name="italic" format="reference"/>
+        <attr name="light" format="reference"/>
+        <attr name="ultra" format="reference"/>
+        <attr name="ultra_italic" format="reference"/>
+        <attr name="headline_list_drawable" format="reference"/>
+        <attr name="franklin_normal" format="reference"/>
+        <attr name="franklin_highlight" format="reference"/>
+        <attr name="franklin_thin" format="reference"/>
+        <attr name="franklin_regular" format="reference"/>
+        <attr name="franklin_bold" format="reference"/>
+        <attr name="franklin_italic" format="reference"/>
+        <attr name="franklin_light" format="reference"/>
+        <attr name="franklin_ultra" format="reference"/>
+        <attr name="franklin_ultra_italic" format="reference"/>
+        <attr name="franklin_headline_list_drawable" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="BlurbView">
+        <attr name="font_size_normal" format="reference"/>
+        <attr name="like_article_body" format="reference"/>
+        <attr name="blurb_list_drawable" format="reference"/>
+        <attr name="conversations_normal" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="RelatedLinksView">
+        <attr name="grid_font_style" format="reference"/>
+        <attr name="font_style" format="reference"/>
+        <attr name="vertical_space" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CellBylineView">
+        <attr name="byline_style" format="reference"/>
+        <attr name="section_style" format="reference"/>
+        <attr name="timestamp_style" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CellMediaView">
+        <attr name="caption_style" format="reference"/>
+        <attr name="error_drawable" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CellLabelView">
+        <attr name="font_style_normal" format="reference"/>
+        <attr name="font_style_small" format="reference"/>
+        <attr name="font_style_light" format="reference"/>
+        <attr name="font_style_light_small" format="reference"/>
+        <attr name="font_secondary_style_normal" format="reference"/>
+        <attr name="font_secondary_style_small" format="reference"/>
+        <attr name="font_secondary_style_light" format="reference"/>
+        <attr name="font_secondary_style_light_small" format="reference"/>
+        <attr name="bar_width_btn" format="dimension"/>
+        <attr name="bar_width_bar" format="dimension"/>
+        <attr name="bar_width_kicker" format="dimension"/>
+        <attr name="bar_width_highlight" format="dimension"/>
+        <attr name="bar_width_light" format="dimension"/>
+        <attr name="bar_width_light_small" format="dimension"/>
+        <attr name="bar_width_normal" format="dimension"/>
+        <attr name="bar_width_normal_small" format="dimension"/>
+    </declare-styleable>
+
+    <style name="homepagestory_headline_style" >
+        <item name="android:textColor">@color/cell_homepagestory_headline</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="homepagestory_headline_style.normal" >
+        <item name="fontFile">?attr/headline_font_normal</item>
+    </style>
+
+    <style name="homepagestory_headline_style.highlight" >
+        <item name="fontFile">?attr/headline_font_highlight</item>
+    </style>
+
+    <style name="homepagestory_headline_style.ultra">
+        <item name="fontFile">?attr/headline_font_ultra</item>
+    </style>
+
+    <style name="homepagestory_headline_style.ultra_italic">
+        <item name="fontFile">?attr/headline_font_ultra_italic</item>
+    </style>
+
+    <style name="homepagestory_headline_style.thin" >
+        <item name="fontFile">?attr/headline_font_thin</item>
+    </style>
+
+    <style name="homepagestory_headline_style.regular" >
+        <item name="fontFile">?attr/headline_font_regular</item>
+    </style>
+
+    <style name="homepagestory_headline_style.bold" >
+        <item name="fontFile">?attr/headline_font_bold</item>
+    </style>
+
+    <style name="homepagestory_headline_style.italic" >
+        <item name="fontFile">?attr/headline_font_italic</item>
+    </style>
+
+    <style name="homepagestory_headline_style.light" >
+        <item name="fontFile">?attr/headline_font_light</item>
+    </style>
+
+    <style name="homepagestory_headline_style.franklin" >
+        <item name="fontFile">?attr/headline_font_franklin_normal</item>
+    </style>
+
+    <style name="homepagestory_headline_style.franklin.normal" >
+        <item name="fontFile">?attr/headline_font_franklin_normal</item>
+    </style>
+
+    <style name="homepagestory_headline_style.franklin.highlight" >
+        <item name="fontFile">?attr/headline_font_franklin_highlight</item>
+    </style>
+
+    <style name="homepagestory_headline_style.franklin.thin" >
+        <item name="fontFile">?attr/headline_font_franklin_thin</item>
+    </style>
+
+    <style name="homepagestory_headline_style.franklin.regular" >
+        <item name="fontFile">?attr/headline_font_franklin_regular</item>
+    </style>
+
+    <style name="homepagestory_headline_style.franklin.bold" >
+        <item name="fontFile">?attr/headline_font_franklin_bold</item>
+    </style>
+
+    <style name="homepagestory_headline_style.franklin.italic" >
+        <item name="fontFile">?attr/headline_font_franklin_italic</item>
+    </style>
+
+    <style name="homepagestory_headline_style.franklin.ultra">
+        <item name="fontFile">?attr/headline_font_franklin_ultra</item>
+    </style>
+
+    <style name="homepagestory_headline_style.franklin.ultra_italic">
+        <item name="fontFile">?attr/headline_font_franklin_ultra_italic</item>
+    </style>
+
+    <style name="homepagestory_headline_style.franklin.light" >
+        <item name="fontFile">?attr/headline_font_franklin_light</item>
+    </style>
+
+    <style name="homepagestory_byline_style">
+        <item name="fontFile">?attr/byline_font</item>
+        <item name="android:textSize">@dimen/homepagestory_byline_size</item>
+        <item name="android:textColor">@color/cell_homepagestory_byline</item>
+    </style>
+
+    <style name="homepagestory_byline_style.grid">
+        <item name="android:textSize">@dimen/grid_homepagestory_byline_size</item>
+    </style>
+
+    <style name="homepagestory_byline_style.night">
+        <item name="android:textColor">@color/cell_homepagestory_byline_night</item>
+    </style>
+
+    <style name="homepagestory_byline_style.timestamp">
+        <item name="android:textColor">@color/cell_homepagestory_byline_timestamp</item>
+    </style>
+
+    <style name="homepagestory_byline_style.grid.timestamp">
+        <item name="android:textColor">@color/cell_homepagestory_byline_timestamp</item>
+    </style>
+
+    <style name="homepagestory_byline_style.section">
+        <item name="fontFile">?attr/byline_section_font</item>
+        <item name="android:textSize">@dimen/homepagestory_byline_section_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/cell_homepagestory_byline_section</item>
+    </style>
+
+    <style name="homepagestory_byline_style.section.grid">
+        <item name="android:textSize">@dimen/grid_homepagestory_byline_size</item>
+    </style>
+
+    <style name="homepagestory_byline_style.section.night">
+        <item name="android:textColor">@color/cell_homepagestory_byline_section_night</item>
+    </style>
+
+    <style name="homepagestory_byline_style.timestamp.night">
+        <item name="android:textColor">@color/cell_homepagestory_byline_timestamp_night</item>
+    </style>
+
+    <style name="homepagestory_label_style">
+        <item name="fontFile">?attr/label_font</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/cell_homepagestory_label</item>
+        <item name="android:textSize">@dimen/homepagestory_label_size</item>
+    </style>
+
+    <style name="homepagestory_label_style_light">
+        <item name="android:textColor">@color/cell_homepagestory_label</item>
+        <item name="fontFile">?attr/label_font_light</item>
+        <item name="android:textSize">@dimen/homepagestory_label_size</item>
+    </style>
+
+    <style name="homepagestory_label_style_light.small">
+        <item name="android:textSize">@dimen/homepagestory_label_size_small</item>
+    </style>
+
+    <style name="homepagestory_label_style.small">
+        <item name="android:textSize">@dimen/homepagestory_label_size_small</item>
+    </style>
+
+    <style name="homepagestory_label_secondary_style">
+        <item name="android:textColor">@color/cell_homepagestory_label_secondary</item>
+        <item name="fontFile">?attr/label_secondary_font</item>
+        <item name="android:textSize">@dimen/homepagestory_label_size</item>
+    </style>
+
+    <style name="homepagestory_label_secondary_style.small">
+        <item name="android:textSize">@dimen/homepagestory_label_size_small</item>
+    </style>
+
+    <style name="homepagestory_label_secondary_style_light">
+        <item name="android:textColor">@color/cell_homepagestory_label_secondary</item>
+        <item name="fontFile">?attr/label_secondary_font_light</item>
+        <item name="android:textSize">@dimen/homepagestory_label_size</item>
+    </style>
+
+    <style name="homepagestory_label_secondary_style_light.small">
+        <item name="android:textSize">@dimen/homepagestory_label_size_small</item>
+    </style>
+
+    <style name="overlay_media_caption">
+        <item name="fontFile">?attr/overlay_media_caption_font</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="overlay_secondary_default" parent="overlay_media_caption" >
+        <item name="fontFile">?attr/overlay_secondary_default_font</item>
+    </style>
+
+    <style name="overlay_secondary_live" parent="overlay_media_caption" >
+        <item name="android:textColor">#FF0009</item>
+    </style>
+
+    <style name="homepagestory_media_caption">
+        <item name="fontFile">?attr/homepagestory_media_caption_font</item>
+        <item name="android:textSize">@dimen/homepagestory_caption_size</item>
+        <item name="android:textColor">@color/cell_homepagestory_caption</item>
+    </style>
+
+    <!-- pagebuilder cells -->
+    <style name="Cell" parent="">
+        <item name="android:paddingTop">@dimen/cell_padding_top</item>
+        <item name="android:paddingBottom">@dimen/cell_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/cell_padding_left</item>
+        <item name="android:paddingRight">@dimen/cell_padding_right</item>
+    </style>
+
+    <style name="Cell.HomepageStory">
+        <item name="vertical_spacing">@dimen/cell_homepagesotry_vert_spacing</item>
+        <item name="horizontal_spacing">@dimen/cell_homepagesotry_hor_spacing</item>
+        <item name="min_horizontal_spacing">@dimen/cell_spacing</item>
+    </style>
+
+    <style name="Cell.HomepageStory.Grid">
+        <item name="vertical_spacing">@dimen/cell_homepagesotry_vert_spacing</item>
+        <item name="horizontal_spacing">@dimen/cell_homepagesotry_hor_spacing</item>
+        <item name="min_horizontal_spacing">@dimen/cell_spacing</item>
+        <item name="android:paddingLeft">@dimen/grid_cell_homepagestory_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/grid_cell_homepagestory_horizontal_padding</item>
+        <item name="android:paddingTop">@dimen/grid_cell_homepagestory_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/grid_cell_homepagestory_vertical_padding</item>
+    </style>
+
+    <style name="Cell.HomepageStory.Grid.NoBleed">
+        <item name="vertical_spacing">@dimen/cell_homepagesotry_vert_spacing</item>
+        <item name="horizontal_spacing">@dimen/cell_homepagesotry_hor_spacing</item>
+        <item name="min_horizontal_spacing">@dimen/cell_spacing</item>
+        <item name="android:paddingLeft">@dimen/grid_cell_card_homepagestory_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/grid_cell_card_homepagestory_horizontal_padding</item>
+        <item name="android:paddingTop">@dimen/grid_cell_top_card_homepagestory_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/grid_cell_bottom_card_homepagestory_vertical_padding</item>
+    </style>
+
+    <style name="Cell.HomepageStory.Grid.Bleed">
+        <item name="vertical_spacing">@dimen/cell_homepagesotry_vert_spacing</item>
+        <item name="horizontal_spacing">@dimen/cell_homepagesotry_hor_spacing</item>
+        <item name="min_horizontal_spacing">@dimen/cell_spacing</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingTop">@dimen/grid_cell_top_card_homepagestory_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/grid_cell_bottom_card_homepagestory_vertical_padding</item>
+    </style>
+
+    <style name="Cell.HomepageStory.Headline" parent="">
+        <item name="android:textColor">@color/cell_homepagestory_headline</item>
+    </style>
+
+    <style name="Cell.HomepageStory.Blurb" parent="">
+        <item name="android:lineSpacingMultiplier">1</item>
+        <item name="font_size_normal">@style/homepagestory_blurb_style</item>
+        <item name="like_article_body">@style/homepagestory_blurb_style_like_article_body</item>
+        <item name="conversations_normal">@style/homepagestory_conversations_blurb_style</item>
+    </style>
+
+    <style name="Cell.HomepageStory.Blurb.Night" parent="">
+        <item name="font_size_normal">@style/homepagestory_blurb_style.night</item>
+        <item name="like_article_body">@style/homepagestory_blurb_style_like_article_body.night</item>
+        <item name="conversations_normal">@style/homepagestory_conversations_blurb_style</item>
+    </style>
+
+    <style name="Cell.HomepageStory.Byline" parent="">
+        <item name="android:lineSpacingMultiplier">1</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Cell.HomepageStory.RelatedLinks" parent="">
+        <item name="grid_font_style">@style/grid_homepagestory_related_links_style</item>
+        <item name="font_style">@style/homepagestory_related_links_style</item>
+        <item name="vertical_spacing">@dimen/cell_homepagesotry_vert_spacing</item>
+    </style>
+
+    <style name="Cell.HomepageStory.RelatedLinks.Night" parent="">
+        <item name="font_style">@style/homepagestory_related_links_style.night</item>
+        <item name="grid_font_style">@style/homepagestory_related_links_style.night</item>
+    </style>
+
+    <style name="Cell.HomepageStory.Media" parent="">
+        <item name="caption_style">@style/homepagestory_media_caption</item>
+    </style>
+
+    <style name="Cell.BorderView" parent="">
+        <item name="bottom_border_size_none">@dimen/cell_border_size_none</item>
+        <item name="bottom_border_size_thick">@dimen/cell_border_size_thick</item>
+        <item name="bottom_border_size_hairline_top_table">@dimen/cell_border_size_hairline_top_table</item>
+        <item name="bottom_border_size_hairline">@dimen/cell_border_size_hairline</item>
+        <item name="android:background">@color/cell_border</item>
+    </style>
+
+    <style name="homepagestory_deck_style">
+        <item name="android:fontFamily">@font/franklinitcstd_light</item>
+        <item name="fontFamily">@font/franklinitcstd_light</item>
+        <item name="android:textSize">@dimen/homepagestory_deck_size</item>
+        <item name="android:textColor">@color/cell_homepagestory_deck</item>
+    </style>
+
+    <style name="homepagestory_blurb_style">
+        <item name="fontFile">?attr/homepagestory_blurb_font</item>
+        <item name="fontFileBold">?attr/homepagestory_blurb_font_bold</item>
+        <item name="android:textSize">@dimen/homepagestory_blurb_size</item>
+        <item name="android:textColor">@color/cell_homepagestory_blurb</item>
+    </style>
+
+    <style name="homepagestory_blurb_style_like_article_body">
+        <item name="fontFile">?attr/homepagestory_blurb_font_like_article_body</item>
+        <item name="android:textSize">@dimen/homepagestory_blurb_size</item>
+        <item name="android:textColor">@color/cell_homepagestory_blurb</item>
+    </style>
+
+    <style name="homepagestory_conversations_blurb_style" parent="homepagestory_blurb_style">
+        <item name="android:textColor">@color/cell_homepagestory_conversations_blurb</item>
+    </style>
+
+    <style name="homepagestory_blurb_style.night">
+        <item name="android:textColor">@color/cell_homepagestory_blurb_night</item>
+    </style>
+
+    <style name="homepagestory_blurb_style_like_article_body.night">
+        <item name="android:textColor">@color/cell_homepagestory_blurb_night</item>
+    </style>
+
+    <style name="homepagestory_related_links_style">
+        <item name="fontFile">?attr/homepagestory_related_links_font</item>
+        <item name="android:textSize">@dimen/homepagestory_related_links_size</item>
+        <item name="android:textColor">@color/cell_homepagestory_related_links</item>
+    </style>
+
+    <style name="grid_homepagestory_related_links_style" parent="homepagestory_related_links_style">
+        <item name="fontFile">?attr/homepagestory_related_links_font_grid</item>
+    </style>
+
+    <style name="homepagestory_related_links_style.night">
+        <item name="android:textColor">@color/cell_homepagestory_related_links_night</item>
+    </style>
+
+    <style name="Cell.Label" parent="">
+        <item name="android:paddingTop">@dimen/cell_padding</item>
+        <item name="android:paddingLeft">@dimen/cell_label_padding</item>
+        <item name="android:paddingRight">@dimen/cell_label_padding</item>
+    </style>
+
+    <style name="Cell.Label.Bar" parent="">
+        <item name="android:layout_width">@dimen/cell_label_bar_kicker</item>
+        <item name="android:layout_height">@dimen/cell_label_bar_height</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <style name="Cell.Label.Text" parent="">
+        <item name="android:lineSpacingMultiplier">@dimen/cell_label_line_spacing</item>
+    </style>
+
+    <style name="Cell.Label.Text.Secondary" parent="">
+        <item name="android:drawablePadding">@dimen/cell_label_drawable_padding</item>
+    </style>
+
+    <style name="Cell.HomepageStory.StoryListStory">
+    </style>
+
+    <style name="Cell.LiveBlog" parent="">
+
+    </style>
+
+    <style name="CompoundLabelStyle" parent="">
+        <item name="label_text_color">@color/cell_homepagestory_label</item>
+        <item name="package_label_rule_color">@color/cell_package_label_rule</item>
+        <item name="label_icon_size_small">@dimen/compound_label_icon_small</item>
+        <item name="label_icon_size_large">@dimen/compound_label_icon_large</item>
+    </style>
+
+    <style name="CompoundLabelStyle.Night">
+        <item name="label_text_color">@color/cell_homepagestory_label_night</item>
+        <item name="package_label_rule_color">@color/cell_package_label_rule_night</item>
+    </style>
+
+    <style name="Cell.Ad">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="Cell.Ad.BigBox" parent="@style/Cell.Ad">
+        <item name="android:background">@color/section_front_background</item>
+    </style>
+
+    <style name="Cell.Ad.StoryList">
+        <item name="aspectRatio">2</item>
+    </style>
+
+    <style name="sf_card_parent">
+        <item name="android:padding">1dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingBottom">8dp</item>
+
+    </style>
+    <style name="sf_card_header">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginBottom">32dp</item>
+        <item name="fontFile">?attr/sf_card_header_font</item>
+        <item name="fontFileBold">?attr/sf_card_header_font</item>
+    </style>
+    <style name="sf_card_entry">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="fontFile">?attr/sf_card_entry_font</item>
+        <item name="fontFileBold">?attr/sf_card_entry_font</item>
+    </style>
+
+    <style name="sf_gathering_news_message" parent="@android:style/TextAppearance.Large" >
+        <item name="fontFile">?attr/sf_gathering_news_font</item>
+        <item name="fontFileBold">?attr/sf_gathering_news_font_bold</item>
+        <item name="fontFileItalic">?attr/sf_gathering_news_font_italic</item>
+        <item name="fontFileBoldItalic">?attr/sf_gathering_news_font_bold_italic</item>
+        <item name="android:color">#666</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="front_progress_bar" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:progress">0</item>
+        <item name="android:max">100</item>
+        <item name="android:progressDrawable">@drawable/progress_bar</item>
+    </style>
+
+
+    <style name="Grid.NewStoriesLabel" parent="">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/new_article_label_padding_bottom</item>5dp
+        <item name="android:paddingBottom">@dimen/new_article_label_padding_bottom</item>5dp
+        <item name="android:paddingLeft">@dimen/new_article_label_padding_left</item>16dp
+        <item name="android:paddingRight">@dimen/new_article_label_padding_right</item>16dp
+        <item name="android:textColor">@color/new_article_label_text_color</item>white
+        <item name="android:textSize">@dimen/new_article_label_text_size</item>20sp
+        <item name="android:background">@drawable/get_updates_background</item>
+    </style>
+
+    <style name="liveblog_time" >
+        <item name="android:fontFamily">?attr/liveblog_time_font</item>
+    </style>
+
+    <style name="liveblog_headline" >
+        <item name="android:fontFamily">?attr/liveblog_headline_font</item>
+    </style>
+
+    <style name="live_image_tab" >
+        <item name="android:fontFamily">?attr/live_image_tab_font</item>
+    </style>
+
+    <style name="live_election_label">
+        <item name="android:fontFamily">?attr/live_election_label_font</item>
+    </style>
+
+    <style name="live_election_headline">
+        <item name="android:fontFamily">?attr/live_election_headline_font</item>
+    </style>
+
+    <style name="live_election_results">
+        <item name="android:fontFamily">?attr/live_election_results_font</item>
+    </style>
+
+    <style name="live_election_common">
+        <item name="android:fontFamily">?attr/live_election_common_font</item>
+    </style>
+
+    <style name="live_election_countdown">
+        <item name="android:fontFamily">?attr/live_election_countdown_font</item>
+    </style>
+
+    <style name="SectionsContentRefresh">
+        <item name="android:background">@android:color/black</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+    <style name="SectionsContentRefresh_Dismiss" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+
+    <style name="SectionsContentRefresh_Label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="SubscribeButtonTheme">
+        <item name="android:textSize">@dimen/subscribe_button_font_size</item>
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="fontFileItalic">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBoldItalic">FranklinITCStd-Bold.otf</item>
+    </style>
+
+    <style name="SubscribeButtonTheme.Text">
+        <item name="android:textColor">@color/cell_homepagestory_headline</item>
+        <item name="android:textColorLink">@color/subscribe_button_textColorLink</item>
+    </style>
+
+    <style name="LiveImageSegmentedButton">
+        <item name="textAppearanceNormal">@style/SegmentedButtonNormal</item>
+        <item name="textAppearanceSelected">@style/SegmentedButtonSelected</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <style name="LiveImageCTA">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/cell_homepagestory_live_image_cta</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:drawableRight">@drawable/ic_arrow_right_black</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <style name="LiveImageTabTheme">
+        <item name="sliding_tab_view_layout">@layout/live_image_tab</item>
+        <item name="sliding_tab_text_view_id">@id/live_image_tab</item>
+        <item name="sliding_tab_text_appearance">@style/LiveImageTabTextAppearance</item>
+        <item name="sliding_tab_selected_text_appearance">@style/LiveImageTabSelected</item>
+    </style>
+
+    <style name="LiveImageTabTextAppearance">
+        <item name="android:textColor">@color/live_image_tab_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/franklinitcstd_light</item>
+    </style>
+
+    <style name="LiveImageTabSelected" parent="LiveImageTabTextAppearance">
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+    </style>
+
+    <style name="LiveImageCarousel" parent="Widget.Design.TabLayout">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="tabPaddingStart">8dp</item>
+        <item name="tabPaddingEnd">8dp</item>
+        <item name="tabPaddingTop">0dp</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabPaddingBottom">0dp</item>
+        <item name="tabGravity">center</item>
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="android:clipToPadding">true</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="tabBackground">@drawable/live_image_carousel_dot_selector</item>
+        <item name="tabRippleColor">@color/transparent</item>
+    </style>
+
+    <style name="LiveImageCarousel.Night" parent="LiveImageCarousel">
+        <item name="tabBackground">@drawable/live_image_carousel_dot_selector_night</item>
+    </style>
+
+    <style name="HowToVoteDefaultText1">
+        <item name="android:textColor">@color/cell_how_to_vote</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/franklinitcstd_light</item>
+        <item name="fontFamily">@font/franklinitcstd_light</item>
+    </style>
+
+    <style name="HowToVoteDefaultText2">
+        <item name="android:textColor">@color/cell_how_to_vote</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+    </style>
+
+    <style name="HowToVoteDefaultText3">
+        <item name="android:textColor">@color/cell_how_to_vote</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/franklinitcstd_light</item>
+        <item name="fontFamily">@font/franklinitcstd_light</item>
+    </style>
+
+    <style name="HowToVoteHeadline">
+        <item name="android:textColor">@color/cell_how_to_vote</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+    </style>
+
+    <style name="HowToVoteText">
+        <item name="android:textColor">@color/how_to_vote_guide_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/franklinitcstd_light</item>
+        <item name="fontFamily">@font/franklinitcstd_light</item>
+    </style>
+
+    <style name="HowToVoteItem" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/cell_how_to_vote</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/postoniwide_bold</item>
+        <item name="fontFamily">@font/postoniwide_bold</item>
+    </style>
+
+    <style name="HowToVoteButton">
+        <item name="android:background">@drawable/button_rounded_black</item>
+        <item name="android:textColor">@color/how_to_vote_button_text_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:backgroundTint">@color/cell_how_to_vote</item>
+        <item name="backgroundTint">@color/cell_how_to_vote</item>
+    </style>
+
+    <!--Global Banner Styles-->
+    <style name="SubscribeBannerMainText">
+        <item name="android:textColor">@color/subscribe_banner_text</item>
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="SubscribeBannerSecondaryText">
+        <item name="android:textColor">@color/subscribe_banner_text</item>
+        <item name="android:fontFamily">@font/franklinitcstd_light</item>
+        <item name="fontFamily">@font/franklinitcstd_light</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="SubscribeBannerButtonTextBold">
+        <item name="android:textColor">@color/subscribe_banner_text</item>
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="SubscribeBannerButtonText">
+        <item name="android:textColor">@color/subscribe_banner_text</item>
+        <item name="android:fontFamily">@font/franklin_std_light</item>
+        <item name="fontFamily">@font/franklin_std_light</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="PaymentErrorBannerMainText">
+        <item name="android:textColor">@color/payment_error_text</item>
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="PaymentErrorSecondaryText">
+        <item name="android:textColor">@color/payment_error_text</item>
+        <item name="android:fontFamily">@font/franklinitcstd_light</item>
+        <item name="fontFamily">@font/franklinitcstd_light</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="PauseBannerMainText">
+        <item name="android:textColor">@color/pause_banner_text</item>
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="PauseBannerSecondaryText">
+        <item name="android:textColor">@color/pause_banner_text</item>
+        <item name="android:fontFamily">@font/franklinitcstd_light</item>
+        <item name="fontFamily">@font/franklinitcstd_light</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="PauseBannerButtonText">
+        <item name="android:textColor">@color/pause_banner_text</item>
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <!-- Vertical Videos Styles -->
+    <style name="vertical_videos_go_back">
+        <item name="android:textColor">@color/vertical_videos_go_back_text</item>
+        <item name="android:textSize">12sp</item>
+        <item name="lineHeight">15sp</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="vertical_videos_error">
+        <item name="android:textColor">@color/vertical_videos_error_text_color</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">20sp</item>
+        <item name="fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="fontWeight">300</item>
+    </style>
+
+    <style name="vertical_videos_end_of_videos">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">20sp</item>
+        <item name="fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontWeight">700</item>
+    </style>
+
+    <style name="vertical_videos_return_to_top_stories">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="lineHeight">20sp</item>
+        <item name="fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontWeight">700</item>
+    </style>
+
+    <style name="vertical_initial_coach_text">
+        <item name="android:textColor">@color/vertical_videos_go_back_text</item>
+        <item name="android:textSize">12sp</item>
+        <item name="lineHeight">15sp</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="vertical_videos_play_next_button">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="lineHeight">15sp</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="bright_carousel_excerpt_text">
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">20sp</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:fontFamily">@font/wp_georgia_font_family</item>
+        <item name="fontFamily">@font/wp_georgia_font_family</item>
+        <item name="android:textColor">@color/carousel_excerpt_text</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:a="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        a:id="@+id/kicker"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_marginBottom="@dimen/sf_module_stream_headline_top_margin"
+        a:textColor="@color/streamm_byline"
+        a:textSize="@dimen/sf_module_stream_kicker_font_size"
+        a:visibility="gone"
+        style="@style/stream_module_kicker" />
+
+    <!--a:layout_marginBottom="27dp"-->
+    <TextView
+        a:id="@+id/headline"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_marginBottom="@dimen/sf_module_stream_headline_top_margin"
+        a:textColor="@color/streamm_headline"
+        a:textSize="@dimen/sf_module_stream_headline_font_size"
+        a:visibility="gone"
+        style="@style/stream_module_headline" />
+
+    <TextView
+        a:id="@+id/time_and_blurb"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_marginBottom="10dp"
+        a:textColor="@color/streamm_blurb"
+        a:textSize="@dimen/sf_module_stream_blurb_font_size"
+        a:visibility="gone"
+        style="@style/stream_module_time_and_blurb" />
+
+    <TextView
+        a:id="@+id/byline"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:textColor="@color/streamm_byline"
+        a:textSize="@dimen/sf_module_stream_byline_font_size"
+        a:visibility="gone"
+        style="@style/stream_module_byline" />
+
+    <LinearLayout
+        a:id="@+id/live_blog_layout"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:orientation="vertical"
+        a:visibility="gone">
+
+        <ListView
+            a:id="@+id/live_blog_list"
+            a:layout_width="match_parent"
+            a:layout_height="0dp"
+            a:layout_weight="1" />
+
+        <TextView
+            a:id="@+id/tv_last_updated"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_marginTop="10dp"
+            a:gravity="center"
+            a:textColor="@color/wapo_views_gray"
+            a:textSize="14sp"
+            a:textStyle="bold"
+            style="@style/stream_module_last_updated" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/top_stories"
+        android:enabled="true"
+        android:icon="@drawable/top_stories_selector"
+        android:title="@string/top_stories" />
+    <item
+        android:id="@+id/listen_tab"
+        android:enabled="true"
+        android:icon="@drawable/listen_selector"
+        android:title="@string/listen_tab" />
+    <item
+        android:id="@+id/games_tab"
+        android:enabled="true"
+        android:icon="@drawable/games_selector"
+        android:title="@string/games_tab" />
+    <item
+        android:id="@+id/my_post"
+        android:enabled="true"
+        android:icon="@drawable/my_post_selector"
+        android:title="@string/my_post" />
+    <item
+        android:id="@+id/print_edition"
+        android:enabled="true"
+        android:icon="@drawable/print_edition_selector"
+        android:title="@string/print_edition" />
+    <item
+        android:id="@+id/find"
+        android:enabled="true"
+        android:icon="@drawable/find_selector"
+        android:title="@string/find" />
+</menu>

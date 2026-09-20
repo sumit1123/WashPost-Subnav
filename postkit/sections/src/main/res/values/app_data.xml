@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Sections</string>
+    <bool name="sections_content_refresh_enabled">false</bool>
+</resources>

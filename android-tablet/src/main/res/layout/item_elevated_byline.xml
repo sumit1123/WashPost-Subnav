@@ -1,0 +1,72 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.washingtonpost.android.volley.toolbox.NetworkAnimatedImageView
+        android:id="@+id/first_image"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/author_placeholder"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/CircularImage"/>
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="8dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/first_image"
+        app:layout_constraintBottom_toTopOf="@id/first_image"
+        app:layout_constraintRight_toRightOf="@id/first_image" />
+
+    <com.washingtonpost.android.volley.toolbox.NetworkAnimatedImageView
+        android:id="@+id/second_image"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+        android:src="@drawable/author_placeholder"
+        app:layout_constraintLeft_toLeftOf="@id/space"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/CircularImage"/>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="first_image, space, second_image" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/text_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/barrier"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.wapo.view.selection.SelectableTextView
+            android:id="@+id/kicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kicker"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.wapo.view.selection.SelectableTextView
+            android:id="@+id/byline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Byline"
+            android:layout_marginTop="6dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kicker" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

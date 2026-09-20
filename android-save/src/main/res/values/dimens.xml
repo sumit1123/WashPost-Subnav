@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_lines">5</integer>
+    <dimen name="empty_list_container_margin">50dp</dimen>
+    <dimen name="no_items_title_text_size">20sp</dimen>
+    <dimen name="no_items_helper_text_size">16sp</dimen>
+    <dimen name="headline_line_height">24sp</dimen>
+    <dimen name="divider_space">8dp</dimen>
+    <!-- My Post Spacing -->
+    <dimen name="my_post_toolbar_settings_margin">8dp</dimen>
+    <dimen name="my_post_toolbar_settings_padding">8dp</dimen>
+    <dimen name="my_post_toolbar_settings_bottom_padding">8dp</dimen>
+    <dimen name="my_post_toolbar_label_left_margin">20dp</dimen>
+    <dimen name="my_post_card_divider_height">16dp</dimen>
+    <dimen name="my_post_card_divider_height_half">8dp</dimen>
+    <dimen name="my_post_card_left_margin">8dp</dimen>
+    <dimen name="my_post_card_content_left_margin">20dp</dimen>
+    <dimen name="my_post_card_hero_content_left_margin">@dimen/my_post_card_content_left_margin</dimen>
+    <dimen name="my_post_card_detail_content_left_margin">@dimen/my_post_card_content_left_margin</dimen>
+    <dimen name="my_post_card_detail_content_right_margin">@dimen/my_post_card_content_left_margin</dimen>
+    <dimen name="my_post_card_detail_content_top_margin">30dp</dimen>
+    <dimen name="my_post_recycler_view_bottom_padding">72dp</dimen>
+    <dimen name="my_post_clickable_icons_padding">12dp</dimen>
+    <dimen name="my_post_utility_menu_right_margin">0dp</dimen>
+    <dimen name="my_post_topic_detail_list_horizontal_padding">24dp</dimen>
+    <!-- My Post Sizes-->
+    <dimen name="my_post_carousel_card_size">310dp</dimen>
+    <dimen name="my_post_carousel_card_padding">0dp</dimen>
+    <dimen name="my_post_carousel_card_min_height">110dp</dimen>
+    <dimen name="my_post_chip_text_size">12sp</dimen>
+    <dimen name="my_post_chip_min_height">24dp</dimen>
+    <dimen name="my_post_carousel_padding">12dp</dimen>
+    <dimen name="my_post_toolbar_label_text_size">18sp</dimen>
+    <dimen name="my_post_preview_label_text_size">24sp</dimen>
+    <dimen name="my_post_preview_desc_text_size">12sp</dimen>
+    <dimen name="my_post_preview_section_text_size">12sp</dimen>
+    <dimen name="my_post_preview_headline_text_size">20sp</dimen>
+    <dimen name="my_post_preview_byline_text_size">14sp</dimen>
+    <dimen name="my_post_preview_signature_text_size">12sp</dimen>
+    <dimen name="my_post_detail_transparency_signature_text_size">12sp</dimen>
+    <dimen name="my_post_detail_headline_text_size">20sp</dimen>
+    <dimen name="my_post_text_area_padding">8dp</dimen>
+    <dimen name="my_post_tablet_detail_gutter_width">12dp</dimen>
+    <dimen name="my_post_tablet_fixed_width_column">250dp</dimen>
+    <dimen name="my_post_banner_title_text_size">16sp</dimen>
+    <dimen name="my_post_banner_text_size">12sp</dimen>
+</resources>

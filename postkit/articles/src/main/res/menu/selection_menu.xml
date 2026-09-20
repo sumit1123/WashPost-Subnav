@@ -1,0 +1,22 @@
+<menu
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        a:id="@+id/selection_menu_copy"
+        a:title="Copy text"
+        app:showAsAction="always"
+        a:icon="?attr/ic_selection_menu_copy"/>
+
+    <item
+        a:id="@+id/selection_menu_select_all"
+        a:title="Select all"
+        app:showAsAction="always"
+        a:icon="?attr/ic_selection_menu_select_all"
+        a:visible="false"/>
+
+    <item
+        a:id="@+id/selection_menu_share"
+        a:title="Share"
+        app:showAsAction="always"
+        a:icon="?attr/ic_selection_menu_share"/>
+</menu>

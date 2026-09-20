@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="portrait_shark">465</integer>
+    <integer name="portrait_squid">360</integer>
+    <integer name="portrait_dolphin">300</integer>
+    <integer name="portrait_default">350</integer>
+
+    <integer name="portrait_shark_panel">465</integer>
+    <integer name="portrait_squid_panel">500</integer>
+    <integer name="portrait_dolphin_panel">300</integer>
+    <integer name="portrait_default_panel">350</integer>
+
+    <integer name="portrait_nonhero">150</integer>
+
+    <integer name="section_name_width">10</integer>
+    <integer name="section_name_height">30</integer>
+
+
+    <integer name="inline_media_float_type">0</integer>
+    <integer name="wrap_content">-2</integer>
+</resources>

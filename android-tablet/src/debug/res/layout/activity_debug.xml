@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:wapoviews="http://schemas.android.com/apk/res-auto"
+    a:id="@+id/root"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:orientation="vertical">
+
+    <Button
+        a:id="@+id/ping"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:text="Ping" />
+
+    <Button
+        a:id="@+id/ping2"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:text="Ping 2" />
+
+
+    <Button
+        a:id="@+id/ping3"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:text="Ping 3" />
+
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_marginTop="10dp"
+        a:orientation="vertical"
+        a:visibility="gone">
+
+        <com.wapo.view.segmentedview.SegmentedView
+            a:id="@+id/segmentedView"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center_horizontal"
+            a:paddingStart="4dp"
+            a:paddingTop="2dp"
+            a:paddingEnd="4dp"
+            a:paddingBottom="2dp" />
+
+        <androidx.viewpager.widget.ViewPager
+            a:id="@+id/viewPager"
+            a:layout_width="match_parent"
+            a:layout_height="300dp" />
+
+    </LinearLayout>
+
+    <com.wapo.view.stack.FlexibleStackView
+        a:id="@+id/stackView"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_marginTop="30dp"
+        a:paddingStart="16dp"
+        a:paddingTop="4dp"
+        a:paddingEnd="16dp"
+        a:paddingBottom="4dp"
+        wapoviews:emptyView="@layout/stack_empty_view" />
+
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:orientation="horizontal">
+
+        <Button
+            a:id="@+id/previous"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"
+            a:text="Prev" />
+
+        <Button
+            a:id="@+id/next"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"
+            a:text="Next" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:orientation="horizontal">
+
+        <Button
+            a:id="@+id/enableLoop"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"
+            a:text="Enable Loop" />
+
+        <Button
+            a:id="@+id/disableLoop"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"
+            a:text="Disable Loop" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

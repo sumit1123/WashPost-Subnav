@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--gdpr stuff-->
+    <dimen name="gdpr_root_padding_top">8dp</dimen>
+    <dimen name="gdpr_root_padding_left">96dp</dimen>
+    <dimen name="gdpr_root_padding_right">96dp</dimen>
+    <dimen name="gdpr_root_padding_bottom">16dp</dimen>
+    <dimen name="gdpr_root_margin_bottom">64dp</dimen>
+
+    <dimen name="gdpr_divider_height">1dp</dimen>
+    <dimen name="gdpr_divider_horizontal_margin">40dp</dimen>
+    <dimen name="gdpr_divider_bottom_margin">32dp</dimen>
+
+    <dimen name="gdpr_header_text_size">30sp</dimen>
+    <dimen name="gdpr_header_margin_bottom">28dp</dimen>
+
+    <dimen name="gdpr_main_margin_bottom">24dp</dimen>
+    <dimen name="gdpr_main_underline_margin_top">24dp</dimen>
+
+    <dimen name="gdpr_button_text_size">16sp</dimen>
+    <dimen name="gdpr_button_margin">16dp</dimen>
+
+    <dimen name="gdpr_bottom_button_text_size">13sp</dimen>
+
+    <integer name="privacy_policy_wall_weight_sum">10</integer>
+    <integer name="privacy_policy_wall_text_weight">8</integer>
+    <integer name="privacy_policy_wall_controls_weight">2</integer>
+
+
+    <!-- on boarding-->
+    <dimen name="onboarding_horizontal_margin">96dp</dimen>
+    <dimen name="onboarding_vertical_margin">24dp</dimen>
+    <dimen name="onboarding_button_margin">40dp</dimen>
+    <dimen name="onboarding_heading_text_size">32sp</dimen>
+    <dimen name="onboarding_content_text_size">16sp</dimen>
+    <dimen name="onboarding_button_text_size">16sp</dimen>
+    <dimen name="onboarding_manage_account_button_height">64dp</dimen>
+    <dimen name="onboarding_button_bottom_margin">24dp</dimen>
+
+    <integer name="onboarding_weight_sum">14</integer>
+    <integer name="onboarding_text_weight">12</integer>
+    <integer name="onboarding_controls_weight">2</integer>
+
+    <!-- base on_boarding -->
+    <dimen name="base_onboarding_horizontal_margin">96dp</dimen>
+    <dimen name="base_onboarding_vertical_margin">24dp</dimen>
+    <dimen name="base_onboarding_text_vertical_margin">32dp</dimen>
+    <dimen name="base_onboarding_text_variant_vertical_margin">16dp</dimen>
+    <dimen name="base_onboarding_heading_text_size">32sp</dimen>
+    <dimen name="base_onboarding_heading_variant_text_size">36sp</dimen>
+    <dimen name="base_onboarding_description_text_size">20sp</dimen>
+    <dimen name="base_onboarding_description_variant_text_size">22sp</dimen>
+    <dimen name="base_onboarding_button_text_size">20sp</dimen>
+    <dimen name="base_onboarding_button_bottom_margin">48dp</dimen>
+    <dimen name="onboarding_text_variant_minmax_width">360dp</dimen>
+    <dimen name="onboarding_text_description_variant_minmax_width">360dp</dimen>
+
+    <!-- Unification Onboarding -->
+    <dimen name="amazon_uni_side_margin">60dp</dimen>
+    <dimen name="amazon_uni_spacing">16dp</dimen>
+    <dimen name="amazon_uni_button_spacing">24dp</dimen>
+    <dimen name="amazon_uni_bottom_margin">80dp</dimen>
+    <dimen name="amazon_uni_main_title">40sp</dimen>
+    <dimen name="amazon_uni_secondary_text">18sp</dimen>
+    <dimen name="amazon_uni_line_height">26sp</dimen>
+    <dimen name="amazon_uni_button_width">300dp</dimen>
+    <dimen name="amazon_uni_icon_size">36dp</dimen>
+    <dimen name="amazon_uni_button_text">18sp</dimen>
+    <dimen name="amazon_uni_button_vert_padding">48dp</dimen>
+    <dimen name="amazon_uni_button_border_radius">24dp</dimen>
+
+    <dimen name="migration_screens_horizontal_padding">123dp</dimen>
+</resources>

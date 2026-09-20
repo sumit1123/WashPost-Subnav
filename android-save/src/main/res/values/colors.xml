@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialog_blue_bg">#076C9C</color>
+    <color name="my_post_background">#FFFFFF</color>
+    <color name="empty_list_title_color">#2A2A2A</color>
+    <color name="empty_list_description_color">#666666</color>
+    <color name="empty_list_sign_in_color">#111111</color>
+    <color name="rounder_corner_button_border">#2A2A2A</color>
+    <color name="rounder_corner_button_text">#2A2A2A</color>
+    <color name="rounder_corner_button_background">#F0F0F0</color>
+    <color name="rounded_corner_button_pressed_background">#33CCCCCC</color>
+    <!-- My Post2 -->
+    <color name="navigation_icon_tint">#333333</color>
+    <color name="choice_chip_bg">@color/white</color>
+    <color name="choice_chip_selected_bg">#111111</color>
+    <color name="choice_chip_text">@color/black</color>
+    <color name="choice_chip_selected_text">#F7F7F7</color>
+    <color name="choice_chip_stroke_bg">#AAAAAA</color>
+    <color name="choice_chip_stroke_selected_bg">#111111</color>
+    <color name="action_chip_bg">@color/black</color>
+    <color name="action_chip_light_bg">#FFFFFF</color>
+    <color name="action_chip_dark_bg">#111111</color>
+    <color name="action_chip_text">@color/white</color>
+    <color name="action_chip_light_text">#2A2A2A</color>
+    <color name="action_chip_dark_text">#FFFFFF</color>
+    <color name="my_post_container_bg">#F7F7F7</color>
+    <color name="my_post_card_bg">#FFFFFF</color>
+    <color name="my_post_label">#111111</color>
+    <color name="my_post_desc">#666666</color>
+    <color name="my_post_section">#2A2A2A</color>
+    <color name="my_post_headline">#111111</color>
+    <color name="my_post_byline">#000000</color>
+    <color name="my_post_signature">#666666</color>
+    <color name="my_post_footer_desc">@color/my_post_desc</color>
+    <color name="my_post_dialog_bg">#F7F7F7</color>
+    <color name="my_post_dialog_label">#333333</color>
+    <color name="my_post_dialog_chip_stroke_light_bg">#D5D5D5</color>
+    <color name="my_post_dialog_chip_stroke_dark_bg">@color/action_chip_dark_bg</color>
+    <color name="my_post_footer_chip_stoke_bg">#D5D5D5</color>
+</resources>

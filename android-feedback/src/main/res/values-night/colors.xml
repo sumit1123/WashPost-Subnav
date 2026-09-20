@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="foryou_aixp_fragment_bg">#0C0C0C</color>
+    <color name="article_summary_dialog_bg">#1a1a1a</color>
+    <color name="summary_dialog_bg">@color/summary_gray40</color>
+    <color name="summary_dialog_top_bar_color">#fff</color>
+    <color name="summary_title">@color/summary_gray700</color>
+    <color name="summary_disclaimer">@color/summary_gray200</color>
+    <color name="summary_item">@color/summary_gray700</color>
+    <color name="summary_link">@color/summary_gray300</color>
+    <color name="feedback_title">@color/summary_gray700</color>
+    <color name="feedback_description">@color/summary_gray700</color>
+    <color name="feedback_face">@color/summary_gray700</color>
+    <color name="feedback_face_text">@color/summary_gray500</color>
+    <color name="feedback_divider">@color/summary_gray60</color>
+    <color name="feedback_details_title">@color/summary_gray500</color>
+    <color name="feedback_details_input_box_hint">@color/gray200</color>
+    <color name="feedback_details_input_box_border_solid">@color/summary_gray700</color>
+    <color name="feedback_details_input_box_border_stroke">@color/summary_gray60</color>
+    <color name="feedback_details_submit">@color/summary_gray700</color>
+    <color name="feedback_details_submit_text">@color/summary_gray20</color>
+    <color name="feedback_details_submit_bg">@color/summary_gray700</color>
+    <color name="feedback_details_submit_bg_stroke">@color/summary_gray300</color>
+    <color name="feedback_tq_description">@color/summary_gray500</color>
+    <color name="feedback_cta">#FFFFFF</color>
+</resources>

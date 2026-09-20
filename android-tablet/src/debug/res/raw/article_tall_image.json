@@ -1,0 +1,381 @@
+{
+  "id": "4008e7cb591003eebc693d33d6cb4dca",
+  "type": "blog",
+  "renderer": "native",
+  "arcId": "4APDUEMZ2NGPRPIE6GTSPANKBY",
+  "title": "A loneliness cure — make one friend a year",
+  "blurb": "Feeling lonely? Work on making one close friend this year, and it could be someone you already know.",
+  "contenturl": "https://www.washingtonpost.com/wellness/2024/02/16/how-to-make-close-friends-tips/",
+  "shareurl": "https://www.washingtonpost.com/wellness/2024/02/16/how-to-make-close-friends-tips/",
+  "source": "the-washington-post",
+  "section": "Wellbeing",
+  "sourcesection": "wellbeing",
+  "sourcesubsection": "mind",
+  "sourcecategory": "Wellbeing",
+  "lmt": 1708541160267,
+  "published": 1708541160267,
+  "first_published": 1708084843915,
+  "display_date": 1708084843867,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7EGO4TORERG2NKXB3DRIL4LUFQ.jpg",
+  "sourceslug": "wb-onyourmind-friendship",
+  "commercialnode": "/well-being/mind",
+  "omniture": {
+    "title": "Feeling lonely? Five ways to build one close friendship this year. - The Washington Post",
+    "pageName": "how-to-make-close-friends-tips",
+    "channel": "wellbeing",
+    "contentId": "null4APDUEMZ2NGPRPIE6GTSPANKBY",
+    "contentType": "story - default",
+    "contentSource": "the-washington-post",
+    "contentTopics": "Well+Being;Mind",
+    "newsroomDesk": "(not set)",
+    "newsroomSubdesk": "(not set)",
+    "contentAuthor": "emma nadler",
+    "authorId": "(not set)",
+    "authorType": "",
+    "subSection": "mind",
+    "arcId": "4APDUEMZ2NGPRPIE6GTSPANKBY",
+    "trackingTags": "story-has-edit-branch;created from template id mrcfgbruezdm5jwrlevmkhwhuq;wb-onyourmind;wb-mind;collections-wb-mind;methode-draft;v_m_hw_pass;collections-wb;methode-print-health;evergreen;has-bright;audio-article"
+  },
+  "version": 1,
+  "tags": "story-has-edit-branch,created from template id mrcfgbruezdm5jwrlevmkhwhuq,wb-onyourmind,wb-mind,collections-wb-mind,methode-draft,v_m_hw_pass,collections-wb,methode-print-health,evergreen,has-bright,audio-article",
+  "items": [
+    {
+      "content": "Mind",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "On Your Mind",
+      "displayTransparency": "Advice",
+      "path": "/wellbeing/mind",
+      "storyType": "Advice"
+    },
+    {
+      "content": "A loneliness cure — make one friend a year",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "Five ways to build or enhance one close friendship this year",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/4APDUEMZ2NGPRPIE6GTSPANKBY/20240215-184723.230/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/4APDUEMZ2NGPRPIE6GTSPANKBY/20240215-184723.230/current.mp3?awCollectionId=/wellbeing/mind&awEpisodeId=4APDUEMZ2NGPRPIE6GTSPANKBY&tags=wb-onyourmind%7Cwb-mind%7Ccollections-wb-mind%7Cv_m_hw_pass%7Ccollections-wb%7Caudio-article",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/4APDUEMZ2NGPRPIE6GTSPANKBY/20240215-184723.230/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7EGO4TORERG2NKXB3DRIL4LUFQ.jpg",
+        "imageWidth": 2048,
+        "imageHeight": 1365,
+        "fullcaption": "(Celia Jacobs for The Washington Post)"
+      },
+      "title": {
+        "content": "A loneliness cure — make one friend a year",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "Mind",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "On Your Mind",
+        "displayTransparency": "Advice",
+        "path": "/wellbeing/mind",
+        "storyType": "Advice"
+      },
+      "date": {
+        "content": 1708084843867,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      }
+    },
+    {
+      "type": "image",
+      "imageURL": "https://sample-videos.com/img/Sample-jpg-image-10mb.jpg",
+      "imageHeight": 1498,
+      "imageWidth": 1180,
+      "isLive": true,
+      "widthFactor": "default"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "blogname": "Well+Being Mind",
+  "editorpicks": [
+    {
+      "type": "recirculation-link",
+      "mime": "text/plain",
+      "content": "Sign up for the Well+Being newsletter, your source of expert advice and simple tips to help you live well every day",
+      "url": "https://www.washingtonpost.com/newsletters/well-being/"
+    }
+  ],
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/4APDUEMZ2NGPRPIE6GTSPANKBY/20240215-184723.230/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/4APDUEMZ2NGPRPIE6GTSPANKBY/20240215-184723.230/current.mp3?awCollectionId=/wellbeing/mind&awEpisodeId=4APDUEMZ2NGPRPIE6GTSPANKBY&tags=wb-onyourmind%7Cwb-mind%7Ccollections-wb-mind%7Cv_m_hw_pass%7Ccollections-wb%7Caudio-article",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/4APDUEMZ2NGPRPIE6GTSPANKBY/20240215-184723.230/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7EGO4TORERG2NKXB3DRIL4LUFQ.jpg",
+      "imageWidth": 2048,
+      "imageHeight": 1365,
+      "fullcaption": "(Celia Jacobs for The Washington Post)"
+    },
+    "title": {
+      "content": "A loneliness cure — make one friend a year",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "Mind",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "On Your Mind",
+      "displayTransparency": "Advice",
+      "path": "/wellbeing/mind",
+      "storyType": "Advice"
+    },
+    "date": {
+      "content": 1708084843867,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    }
+  },
+  "first_display_date": 1708084843867,
+  "targeting": {
+    "adcall": [
+      {
+        "key": "ca",
+        "values": [
+          "rcisc",
+          "r1zb8",
+          "r66hu",
+          "r5zn0",
+          "r71iv",
+          "rnfyo",
+          "rddr6",
+          "rdisi",
+          "r2qkj",
+          "ryiid",
+          "rjba6",
+          "r1djc",
+          "rj98c",
+          "r7q72",
+          "riv2l",
+          "rfrmj",
+          "r6x7c",
+          "rzhm0",
+          "r2lez",
+          "r0yv2",
+          "rtrxk",
+          "rqy2y",
+          "reddk",
+          "rpkxx",
+          "reest",
+          "rqqn2",
+          "rycv4",
+          "rysqo",
+          "ryq7t",
+          "ru0hj",
+          "rjls7",
+          "rpsbt",
+          "rnryg",
+          "rihsc",
+          "rh065",
+          "rojxy",
+          "ry4ek",
+          "r4fvv",
+          "r30iy",
+          "rw76f",
+          "r6iq7",
+          "rh22v",
+          "r5bpj",
+          "rhwg4",
+          "rc28c",
+          "r82mu",
+          "rsqg7",
+          "rl43b",
+          "ru1jm",
+          "r6jbe",
+          "ryx8n",
+          "rkgjf",
+          "r1yqm",
+          "raw34",
+          "r03o4",
+          "rjl3v",
+          "rkpsc",
+          "rvqcm",
+          "r02mg",
+          "rm3lz",
+          "r785o",
+          "rvy90",
+          "rjuyh",
+          "r35ap",
+          "rz25l",
+          "r3hdp",
+          "rynal",
+          "rayu0",
+          "r7d9r",
+          "rl7yb",
+          "rsmxd",
+          "rix28",
+          "rt5dp",
+          "r7tmu",
+          "rzqdp",
+          "rva7x",
+          "rw037",
+          "r3bxp",
+          "rwsk4",
+          "r95gm",
+          "rra4x",
+          "rhfzk",
+          "rqs5o",
+          "rmikf",
+          "r4t4y",
+          "r35lh",
+          "rr25v",
+          "r48wg",
+          "rj2ns",
+          "rfz4c",
+          "rq574",
+          "rfxvv",
+          "raoi5",
+          "rk7m0",
+          "rh5xk",
+          "ra7me",
+          "r1fne",
+          "rjev2",
+          "rayex",
+          "rrlor",
+          "ratb5",
+          "rhll0",
+          "rtbcp",
+          "r3es4",
+          "rd270",
+          "r8x1i",
+          "rg5cq",
+          "rx8m9",
+          "rl3n6",
+          "rxpwi",
+          "rjya1",
+          "r2hzw",
+          "r2g8j",
+          "r1ysy",
+          "r8ig8",
+          "rx4px",
+          "r2qu2",
+          "rs7c2",
+          "rjvyd",
+          "rsesv",
+          "rxeck",
+          "rsl4v",
+          "rlz8o",
+          "rle1y",
+          "rzofg",
+          "r0227",
+          "r5lck",
+          "rvhux",
+          "rvywr",
+          "rdlnx",
+          "rmcp7",
+          "rg1ny",
+          "rnp2g",
+          "rdstm",
+          "rp4yw",
+          "rc6uk",
+          "rs1ox",
+          "r301t",
+          "r86qe",
+          "rf0ll",
+          "rbjys",
+          "rh52g",
+          "r1fsz",
+          "rapws",
+          "rotmq",
+          "rlv7a",
+          "rh5p3",
+          "rem29_l",
+          "rmk71",
+          "r3mmv",
+          "r0kbr",
+          "rqyhw",
+          "rer82",
+          "rrqij",
+          "rtdzb",
+          "r78zx"
+        ]
+      },
+      {
+        "key": "bs",
+        "values": [
+          "garm_low"
+        ]
+      },
+      {
+        "key": "wapoTopics",
+        "values": [
+          "x5wz",
+          "ditk",
+          "meii",
+          "psyi",
+          "rele",
+          "soax"
+        ]
+      },
+      {
+        "key": "se",
+        "values": [
+          "3zbe"
+        ]
+      }
+    ],
+    "permutive_dict": {
+      "article": {
+        "customTopics": [],
+        "wapoTopics": [
+          "[1:x5wz] /health",
+          "[2:ditk] /health/diagnosis_and_treatment",
+          "[2:meii] /health/mental_health",
+          "[2:psyi] /health/psychotherapy",
+          "[2:rele] /lifestyle/relationships",
+          "[1:soax] /social_affairs"
+        ],
+        "sentiment": [
+          "[3zbe] positive"
+        ],
+        "publishDate": "2024-01-23T15:19:45.329Z",
+        "lastUpdateDate": "2024-01-23T15:19:45.329Z",
+        "authorName": [
+          "emma nadler"
+        ],
+        "authorType": [
+          "author"
+        ],
+        "contentType": "story - default",
+        "language": "en",
+        "wordCount": 1040
+      },
+      "canonicalUrl": "/wellness/2024/02/16/how-to-make-close-friends-tips/",
+      "section": "wellbeing",
+      "subsection": "mind",
+      "commercialNode": "/well-being/mind"
+    }
+  }
+}

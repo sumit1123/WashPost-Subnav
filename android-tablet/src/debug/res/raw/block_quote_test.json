@@ -1,0 +1,321 @@
+{
+  "id": "block-quote-device-test",
+  "type": "blog",
+  "subtype": "default",
+  "renderer": "native",
+  "arcId": "BLOCKQUOTETEST00000000000000",
+  "title": "Block Quote device test: Scott Pelley letter",
+  "blurb": "A compact article fixture covering grouped, standalone, pull and plain quote rendering.",
+  "contenturl": "https://www.washingtonpost.com/business/2026/06/03/read-letter-firing-scott-pelley-60-minutes-his-response/",
+  "content_type": "article",
+  "shareurl": "https://www.washingtonpost.com/business/2026/06/03/read-letter-firing-scott-pelley-60-minutes-his-response/",
+  "section": "Business",
+  "sourcesection": "business",
+  "sourcecategory": "Business",
+  "lmt": 1780595936931,
+  "published": 1780595936931,
+  "first_published": 1780493328728,
+  "display_date": 1780493328728,
+  "version": 3,
+  "items": [
+    {
+      "content": "Media",
+      "mime": "text/plain",
+      "type": "kicker",
+      "displayLabel": "Media",
+      "path": "/business/media"
+    },
+    {
+      "content": "Block Quote device test: Scott Pelley letter",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "A compact article fixture covering grouped, standalone, pull and plain quote rendering.",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "content": 1780493328728,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "content": "By Scott Nover and Liam Scott",
+      "mime": "text/plain",
+      "type": "byline"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/UFX6BKGNRJFM3BPFPQVXHJHT6M.jpg",
+      "imageWidth": 3615,
+      "imageHeight": 2410,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Journalist Scott Pelley preparing for an interview. (Melina Mara/The Washington Post)",
+      "blurb": "Journalist Scott Pelley preparing for an interview."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "TEST 1 - Version-gated grouped Block Quote. On version 3 this should show one gray box containing three document paragraphs and one attribution with a bold source name. The old fallback immediately after it must not appear."
+    },
+    {
+      "type": "element_group",
+      "subtype": "block_quote",
+      "showVersion": 3,
+      "mime": "text/html",
+      "attribution": "<b>Nick Bilton</b>, executive producer",
+      "content_elements": [
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<i>Dear Mr. Pelley:</i><br /><i>I meant what I said in my letter last week to the 60 Minutes team.</i>"
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "This is a second paragraph with <b>bold text</b>, <i>italic text</i>, and a <a href=\"https://www.washingtonpost.com/\">Washington Post link</a>."
+        },
+        {
+          "type": "sanitized_html",
+          "mime": "text/html",
+          "content": "This third paragraph omits subtype because paragraph is the default. It is deliberately long enough to wrap across several lines on a phone and exercise the box width, horizontal text inset, Dynamic Type behavior, and a grouped quote that extends beyond a compact viewport."
+        }
+      ]
+    },
+    {
+      "type": "block_quote",
+      "hideVersion": 3,
+      "mime": "text/html",
+      "content": "<i>OLD FALLBACK:</i><br />This standalone Block Quote should appear only on a client whose known content version is lower than 3. It must not appear on the version 3 build."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Text after TEST 1. Confirm the space below the gray box looks correct and the preceding fallback was not duplicated."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "TEST 2 - Mixed paragraph MIME. The first paragraph should render bold without visible tags. The second should display its angle-bracket markup literally. The plain-text attribution should also display its tags literally."
+    },
+    {
+      "type": "element_group",
+      "subtype": "block_quote",
+      "showVersion": 3,
+      "mime": "text/plain",
+      "attribution": "Plain attribution: <b>these tags should be visible</b>.",
+      "content_elements": [
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<b>HTML paragraph: these words should be bold.</b>"
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/plain",
+          "content": "Plain paragraph: <b>these tags should be visible</b>."
+        },
+        {
+          "type": "image",
+          "content": "This unsupported child should be ignored without creating an empty paragraph."
+        },
+        {
+          "type": "sanitized_html",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "TEST 3 - Existing standalone Block Quote. It should have one gray box, no left rule, a line break after the salutation, and normal spacing against the article paragraphs."
+    },
+    {
+      "type": "block_quote",
+      "mime": "text/html",
+      "content": "<i>Dear Mr. Pelley:</i><br /><i>This is the existing standalone Block Quote representation. It should continue to render as one gray box with the redesigned typography and internal inset.</i>",
+      "attribution": "CBS News"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "TEST 4 - Existing standalone Block Quote without attribution. It should render the block quote."
+    },
+    {
+      "type": "block_quote",
+      "mime": "text/html",
+      "content": "This is the existing standalone Block Quote representation without attribution"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "TEST 5 - Pull Quote regression. It should retain its left rule and must not receive a gray box. The rule should cover both content and attribution."
+    },
+    {
+      "type": "pull_quote",
+      "mime": "text/plain",
+      "content": "This Pull Quote keeps its existing typography, alignment and left rule.",
+      "attribution": "Pull Quote source"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "TEST 6 - Plain Quote regression. It should have neither a gray box nor a left rule."
+    },
+    {
+      "type": "quote",
+      "subtype": "quote",
+      "mime": "text/plain",
+      "content": "This is a plain Quote with no outer decoration.",
+      "attribution": "Plain Quote source"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "TEST 7 - Group adjacent to an image. Check the space above the box and ensure the background remains full width after the image."
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SG2ITKC4LHZ2K7O43YKLWQR4L4.jpg",
+      "imageWidth": 4193,
+      "imageHeight": 2883,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Block Quote adjacency test image. (Michael Tran/AFP/Getty Images)",
+      "blurb": "Block Quote adjacency test image."
+    },
+    {
+      "type": "element_group",
+      "subtype": "block_quote",
+      "showVersion": 3,
+      "content_elements": [
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "A grouped Block Quote immediately following an image, with <a href=\"https://www.washingtonpost.com/business/\">a tappable link</a>."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "Final paragraph.<br />This line follows a line break rather than a paragraph boundary."
+        }
+      ]
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "TEST 8 - Element Group - Link Box regression. It should not have changes"
+    },
+    {
+      "type": "element_group",
+      "subtype": "link_box",
+      "content_elements": [
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "Secretary of State Antony Blinken said the <a href=\"https://www.washingtonpost.com/world/2024/01/30/israel-hamas-war-news-gaza-palestine/\">Middle East is experiencing an “incredibly volatile time,”</a> telling reporters that “we’ve not seen a situation as dangerous as the one we’re facing now across the region since at least 1973.”"
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<a href=\"https://www.washingtonpost.com/world/2024/01/29/israel-hamas-war-news-gaza-palestine/\">President Biden promised to respond</a> to a militant drone attack that <a href=\"https://www.washingtonpost.com/national-security/2024/01/29/jordan-drone-attack-us-confusion/\">killed three U.S. service members</a> and injured at least 34 in Jordan on Sunday, blaming the assault on  Iranian-backed groups. Tehran denied involvement."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "Frustration is <a href=\"https://www.washingtonpost.com/world/2024/01/24/israel-hostages-gaza-hamas-families/\">turning to fury for Israel’s hostage families</a> as calls for <a href=\"https://www.washingtonpost.com/world/2023/11/07/israel-palestine-two-state-solution-explained/\">a two-state solution</a> also intensify."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<b>Oct. 7 attack: </b>Hamas spent <a href=\"https://www.washingtonpost.com/world/2023/12/06/israel-knew-hamas-attack-oct-7/\">more than a year planning</a> its assault on Israel.<b> </b>A Washington Post <a href=\"https://www.washingtonpost.com/investigations/2023/11/17/how-hamas-breached-israel-iron-wall/\">video analysis</a> shows how Hamas exploited vulnerabilities created by Israel’s reliance on technology at the “Iron Wall,” the security barrier bordering the Gaza Strip, to carry out the deadliest attack in Israel’s history."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<b>Israeli-Palestinian conflict:</b> The Hamas-controlled Gaza Strip has a complicated history. Understand <a href=\"https://www.washingtonpost.com/world/2023/10/17/israel-hamas-war-reason-explained-gaza/\">what’s behind the Israel-Gaza war</a> and read about the <a href=\"https://www.washingtonpost.com/world/2023/israel-palestine-conflict-timeline-history-explained/\">history of the Israeli-Palestinian conflict</a>."
+        }
+      ],
+      "additional_properties": {
+        "link_box_title": "Israel-Gaza war",
+        "link_box_byline": null,
+        "link_box_display_date": 1706622313077,
+        "link_box_subheadline": null
+      },
+      "group": "card-26"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "TEST 7 - Element Group - Context box regression. It should not have changes"
+    },
+    {
+      "type": "context_box",
+      "headline": "Make the most of the DMV with our newsletter",
+      "content_pages": [
+        {
+          "type": "element_group",
+          "subtype": "context_box_element",
+          "content_elements": [
+            {
+              "type": "image",
+              "mime": "image/jpeg",
+              "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7TOS5X6JHNADVD53E74ZG3YYGU.jpg",
+              "imageWidth": 1778,
+              "imageHeight": 1000,
+              "image_type": "illustration",
+              "widthFactor": "full-bleed",
+              "fullcaption": "(The Washington Post)",
+              "blurb": "",
+              "style": "context_box"
+            },
+            {
+              "type": "sanitized_html",
+              "subtype": "paragraph",
+              "mime": "text/html",
+              "content": "Make living in D.C. a little easier and more fun. Sign up for <a href=\"https://www.washingtonpost.com/newsletters/post-local/?method=SURL&location=ART&initiative=CONTEXT\">the Post Local newsletter</a> to get local news, weather and expert advice \u2014 where to eat, where to drink and how to get around \u2014 every weekday.",
+              "style": "context_box"
+            }
+          ],
+          "alignment": null
+        }
+      ]
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "End of Block Quote device test. Confirm no clipping, overlapping text, duplicate fallbacks or unexplained blank paragraphs."
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "show_summary": false,
+  "blogname": "Media",
+  "content_restriction_code": "default"
+}

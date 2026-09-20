@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_onboarding"
+    app:startDestination="@id/personalizeFragment">
+
+    <action android:id="@+id/action_global_alertsFragment"
+        app:destination="@id/alertsFragment"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_left"
+        app:enterAnim="@anim/slide_in"
+        app:exitAnim="@anim/slide_out" />
+
+    <action android:id="@+id/action_global_contentPacksFragment"
+        app:destination="@id/contentPacksFragment"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_left"
+        app:enterAnim="@anim/slide_in"
+        app:exitAnim="@anim/slide_out" />
+
+    <action android:id="@+id/action_global_audioFragment"
+        app:destination="@id/customizeAudioFragment"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_left"
+        app:enterAnim="@anim/slide_in"
+        app:exitAnim="@anim/slide_out" />
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.wapo.flagship.features.onboarding2.fragment.WelcomeFragment"
+        app:enterAnim="@anim/slide_in"
+        app:exitAnim="@anim/slide_out"
+        android:label="WelcomeFragment" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_personalizeFragment"
+            app:destination="@id/personalizeFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/personalizeFragment"
+        android:name="com.wapo.flagship.features.onboarding2.fragment.PersonalizeFragment"
+        android:label="PersonalizeFragment"
+        app:enterAnim="@anim/slide_in"
+        app:exitAnim="@anim/slide_out" >
+        <action
+            android:id="@+id/action_personalizeFragment_to_alertsFragment"
+            app:destination="@id/alertsFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_personalizeFragment_to_contentPacksFragment"
+            app:destination="@id/contentPacksFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_personalizeFragment_to_customizeAudioFragment"
+            app:destination="@id/customizeAudioFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/alertsFragment"
+        android:name="com.wapo.flagship.features.onboarding2.fragment.AlertsFragment"
+        app:enterAnim="@anim/slide_in"
+        app:exitAnim="@anim/slide_out"
+        android:label="AlertsFragment" >
+        <action
+            android:id="@+id/action_alertsFragment_to_contentPacksFragment"
+            app:destination="@id/contentPacksFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_alertsFragment_to_customizeAudioFragment"
+            app:destination="@id/customizeAudioFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/contentPacksFragment"
+        android:name="com.wapo.flagship.features.onboarding2.fragment.ContentPacksFragment"
+        app:enterAnim="@anim/slide_in"
+        app:exitAnim="@anim/slide_out"
+        android:label="ContentPacksFragment" >
+        <action
+            android:id="@+id/action_contentPacksFragment_to_customizeAudioFragment"
+            app:destination="@id/customizeAudioFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_contentPacksFragment_to_alertsFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out"
+            app:destination="@id/alertsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customizeAudioFragment"
+        android:name="com.wapo.flagship.features.onboarding2.fragment.CustomizeAudioFragment"
+        app:enterAnim="@anim/slide_in"
+        app:exitAnim="@anim/slide_out"
+        android:label="CustomizeAudioFragment" >
+        <action
+            android:id="@+id/action_customizeAudioFragment_to_contentPacksFragment"
+            app:destination="@id/contentPacksFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_customizeAudioFragment_to_alertsFragment"
+            app:destination="@id/alertsFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_left"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/slide_out" />
+    </fragment>
+</navigation>

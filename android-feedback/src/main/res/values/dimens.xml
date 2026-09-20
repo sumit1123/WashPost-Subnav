@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="for_you_aixp_card_size">358dp</dimen>
+    <dimen name="for_you_aixp_card_separator">6dp</dimen>
+    <dimen name="for_you_aixp_card_separator_grid">1dp</dimen>
+    <dimen name="summary_dialog_top_bar_width">32dp</dimen>
+    <dimen name="summary_dialog_top_bar_height">4dp</dimen>
+    <dimen name="summary_dimen_xx_small">2dp</dimen>
+    <dimen name="summary_dimen_x_small">4dp</dimen>
+    <dimen name="summary_dimen_x_small_1">6dp</dimen>
+    <dimen name="summary_dimen_small">8dp</dimen>
+    <dimen name="summary_dimen_small_1">12dp</dimen>
+    <dimen name="summary_dimen_medium">16dp</dimen>
+    <dimen name="summary_dimen_medium_1">18dp</dimen>
+    <dimen name="summary_dimen_large">24dp</dimen>
+    <dimen name="summary_dimen_large_1">28dp</dimen>
+    <dimen name="summary_dimen_large_2">30dp</dimen>
+    <dimen name="summary_dimen_x_large">32dp</dimen>
+    <dimen name="summary_dimen_xx_large">48dp</dimen>
+    <dimen name="summary_dimen_xxx_large">54dp</dimen>
+</resources>

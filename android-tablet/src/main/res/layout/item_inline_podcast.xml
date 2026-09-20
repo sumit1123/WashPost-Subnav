@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/play_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/ic_podcast_play" />
+
+        <ProgressBar
+            android:id="@+id/loading_spinner"
+            android:layout_width="32dp"
+            android:layout_height="34dp"
+            android:layout_gravity="start|center_vertical"
+            android:background="@color/transparent"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/player_status"
+        android:text="@string/listen_to_podcast"
+        style="@style/inline_podcast_player_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/player_duration"
+        android:text="@string/audio_carousel_item_min"
+        style="@style/inline_podcast_player_status_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+</LinearLayout>

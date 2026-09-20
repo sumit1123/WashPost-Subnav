@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2019. The Washington Post
+  -->
+
+<resources>
+    <integer name="privacy_policy_wall_weight_sum">10</integer>
+    <integer name="privacy_policy_wall_text_weight">7</integer>
+    <integer name="privacy_policy_wall_controls_weight">3</integer>
+    <dimen name="native_paywall_summary_block_height">100dp</dimen>
+</resources>

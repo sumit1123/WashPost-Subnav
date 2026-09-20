@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Washington Post Select</string>
+    <string name="paywallStoreType">amazon</string>
+    <string name="paywallStoreEnv">amazon</string>
+    <string name="paywallStoreName">Amazon Appstore</string>
+    <string name="annualBasicIntroOffer">Get 1 year for $99.99</string>
+    <string name="annualBasicRegularOffer"></string>
+    <string name="annualPremiumIntroOffer">Get 1 year for $149.99</string>
+    <string name="annualPremiumRegularOffer"></string>
+
+    <!-- Ads -->
+    <string name="gms_ads_application_id" translatable="false">ca-app-pub-0231639411043846~7118915572</string>
+
+    <!-- Airship -->
+    <string name="notification_channel_id" translatable="false">news_alerts</string>
+    <string name="airship_development_app_key" translatable="false">285F02445064070D30C897265DFFE560AC62DF4463EDDE9EE324035EB833D2E6</string>
+    <string name="airship_development_app_secret" translatable="false">4A0A917053AC4635B6D82715A749DDB25F2812F29C14A0F6ED2FB4B482E17FA5</string>
+    <string name="airship_production_app_key" translatable="false">28E13547F74CBE56D4122C3A1B3BCDBBE4AE8954815F623A52ADFCDE067488A2</string>
+    <string name="airship_production_app_secret" translatable="false">2D815F263B4A72F2A7446BFF7941A728C4D3BDF8A9A18870C46DB40BF6140490</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="8dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_menu"
+        style="@style/Widget.WearWapo.Button.Icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="18sp"
+        app:cornerRadius="8dp"
+        app:iconSize="20dp"
+        tools:text="Menu item" />
+
+</LinearLayout>

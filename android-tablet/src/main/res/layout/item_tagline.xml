@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wapo.flagship.features.articles.TaglineView xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content"
+    a:gravity="center_horizontal"
+    a:orientation="vertical"
+    a:paddingBottom="@dimen/article_tagline_padding_bottom"
+    a:paddingTop="@dimen/article_tagline_padding_top">
+
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:orientation="horizontal"
+        a:weightSum="8">
+
+        <View
+            a:layout_width="0dp"
+            a:layout_height="1dp"
+            a:layout_weight="1" />
+
+        <FrameLayout
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="6">
+
+            <ImageView
+                a:id="@+id/logo"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_gravity="center"
+                a:adjustViewBounds="true"
+                a:src="@drawable/logo" />
+
+        </FrameLayout>
+
+        <View
+            a:layout_width="0dp"
+            a:layout_height="1dp"
+            a:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        a:id="@+id/label"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:gravity="center_horizontal"
+        a:text="@string/tagline"
+        a:textStyle="italic" />
+
+</com.wapo.flagship.features.articles.TaglineView>

@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="16dp"
+    android:height="16dp"
+    android:viewportWidth="16"
+    android:viewportHeight="16">
+  <path
+      android:pathData="M12,2.997v8.92l-3.38,-2.7 -0.62,-0.5 -0.62,0.5 -3.38,2.7v-8.92h8zM13,1.997L3,1.997v12l5,-4 5,4v-12z"
+      android:fillColor="@color/recipe_bookmark"/>
+</vector>

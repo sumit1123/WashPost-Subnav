@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:clickable="true">
+
+    <ImageView
+        a:id="@+id/onboarding_background_image"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:background="@color/black"
+        a:scaleType="centerCrop"/>
+
+    <View
+        a:layout_gravity="top"
+        a:layout_width="match_parent"
+        a:layout_height="200dp"
+        a:background="@drawable/fade_top_down"
+        />
+
+    <View
+        a:layout_gravity="bottom"
+        a:layout_width="match_parent"
+        a:layout_height="450dp"
+        a:background="@drawable/fade_bottom_up"
+        />
+
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:layout_marginTop="25dp"
+        a:orientation="vertical">
+
+        <ImageView
+            a:id="@+id/logo"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:adjustViewBounds="true"
+            a:src="@drawable/logo" />
+
+        <TextView
+            a:id="@+id/label"
+            style="@style/tagline_style"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content" />
+
+        <com.wapo.view.SwipeDisabledViewPager
+            a:id="@+id/onboarding_screens_viewpager"
+            style="@style/onboarding_pager_style_variant"
+            a:layout_width="match_parent"
+            a:layout_height="0dp"
+            a:layout_weight="2"/>
+
+        <Button
+            a:id="@+id/onboarding_button1"
+            style="@style/onboarding_pager_button1_style"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:minWidth="@dimen/onboarding_text_variant_minmax_width"
+            a:maxWidth="@dimen/onboarding_text_variant_minmax_width" />
+
+        <Button
+            a:id="@+id/onboarding_button2"
+            style="@style/onboarding_pager_button2_style"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:minWidth="@dimen/onboarding_text_variant_minmax_width"
+            a:maxWidth="@dimen/onboarding_text_variant_minmax_width" />
+
+        <Button
+            a:id="@+id/onboarding_button3"
+            style="@style/onboarding_pager_button2_style"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:minWidth="@dimen/onboarding_text_variant_minmax_width"
+            a:maxWidth="@dimen/onboarding_text_variant_minmax_width" />
+
+        <com.google.android.material.tabs.TabLayout
+            a:id="@+id/onboarding_screens_indicator"
+            style="@style/onboarding_pager_tablayout_style"
+            a:layout_width="match_parent"
+            a:layout_height="@dimen/base_onboarding_tab_layout_height"
+            app:tabBackground="@drawable/onboarding_tab_selector"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="0dp"
+            app:tabPaddingStart="0dp" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

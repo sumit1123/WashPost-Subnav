@@ -1,0 +1,422 @@
+{
+  "id": "8570502dbf685d9db72ebc951a453e58",
+  "type": "blog",
+  "subtype": "election-results",
+  "renderer": "native",
+  "arcId": "T65HO7TN2ZHAFJ36LX5G4QX2P4",
+  "title": "Live updates: South Dakota’s GOP governor defeats businessman in primary runoff",
+  "blurb": "Larry Rhoden, who became governor after Kristi Noem became Homeland Security secretary, defeated political newcomer Toby Doeden in the runoff for the Republican nomination for South Dakota governor.",
+  "contenturl": "https://www.washingtonpost.com/elections/results/2026/07/28/south-dakota-governor-primary-election-runoff-larry-rhoden-faces-tony-doeden/",
+  "content_type": "article",
+  "shareurl": "https://www.washingtonpost.com/elections/results/2026/07/28/south-dakota-governor-primary-election-runoff-larry-rhoden-faces-tony-doeden/",
+  "source": "the-washington-post",
+  "section": "Elections",
+  "sourcesection": "elections",
+  "sourcesubsection": "elections",
+  "sourcecategory": "Elections",
+  "lmt": 1785287529621,
+  "published": 1785287529621,
+  "first_published": 1785253100681,
+  "display_date": 1785287529621,
+  "socialImage": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/POVPCE2P3V2XZRWVET3GV3M2LI.JPG",
+  "sourceslug": "south-dakota-governor-runoff-results",
+  "commercialnode": "/politics/elections",
+  "omniture": {
+    "title": "South Dakota governor primary election runoff: Larry Rhoden faces Tony Doeden - The Washington Post",
+    "pageName": "south-dakota-governor-primary-election-runoff-larry-rhoden-faces-tony-doeden",
+    "channel": "elections",
+    "contentId": "nullT65HO7TN2ZHAFJ36LX5G4QX2P4",
+    "contentType": "story - election-results",
+    "contentSource": "the-washington-post",
+    "contentTopics": "Elections",
+    "newsroomDesk": "other",
+    "newsroomSubdesk": "politics & government – congress",
+    "contentAuthor": "matthew choi",
+    "authorId": "choim",
+    "authorType": "(not set)",
+    "subSection": "elections",
+    "arcId": "T65HO7TN2ZHAFJ36LX5G4QX2P4",
+    "trackingTags": "latest-exclude;template-election-scripted;app-webview;election-results"
+  },
+  "version": 2,
+  "tags": "latest-exclude,template-election-scripted,app-webview,election-results",
+  "items": [
+    {
+      "content": "Elections",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Elections",
+      "path": "/elections"
+    },
+    {
+      "content": "Live updates: South Dakota’s GOP governor defeats businessman in primary runoff",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "Larry Rhoden, who became governor after Kristi Noem became Homeland Security secretary, defeated political newcomer Toby Doeden in the runoff for the Republican nomination for South Dakota governor.",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "content": 1785287529621,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/T65HO7TN2ZHAFJ36LX5G4QX2P4/20260729-011241.228/manifest.json",
+      "adsUrl": "https://wp.mc.tritondigital.com/WASHPOST_ARTICLES/media/washpost-audio-articles/T65HO7TN2ZHAFJ36LX5G4QX2P4/20260729-011241.228/eleven-labs_en-US_Rachel_standard_audio.mp3?awCollectionId=/elections&awEpisodeId=T65HO7TN2ZHAFJ36LX5G4QX2P4&tags=latest-exclude%7Ctemplate-election-scripted%7Capp-webview%7Celection-results",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/T65HO7TN2ZHAFJ36LX5G4QX2P4/20260729-011241.228/eleven-labs_en-US_Rachel_standard_audio.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/POVPCE2P3V2XZRWVET3GV3M2LI.JPG",
+        "imageWidth": 854,
+        "imageHeight": 569,
+        "fullcaption": "(Chip Somodevilla/Getty Images; Julia Stelter/South Dakota Public Broadcasting/AP)"
+      },
+      "title": {
+        "content": "Live updates: South Dakota’s GOP governor defeats businessman in primary runoff",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "Elections",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "Elections",
+        "path": "/elections"
+      },
+      "date": {
+        "content": 1785287529621,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      },
+      "adconfig": {
+        "adSetUrl": "https://cmod-world.live.streamtheworld.com/ondemand/ars?type=[break-type]&maxAds=[max-ads]&delivery-method=progressive&ttag=[triton-ttag]&lsid=[triton-lsid]&idfa=[triton-idfa]&us_privacy=[us-privacy]&gdpr=[gdpr]&gdpr_consent=[gdpr-consent]&gpp=[gpp]&gpp_sid=[gpp-sid]&feed-type=txt2speech&content-language=en&site-url=https%3A%2F%2Fwww.washingtonpost.com&bundle-id=[bundle-id]&store-id=[store-id]&store-url=[store-url]&break-number=[break-number]&ext_stid=wp-1407653",
+        "primarySectionID": "/elections",
+        "adBreaks": []
+      },
+      "duration": 96000
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/POVPCE2P3V2XZRWVET3GV3M2LI.JPG",
+      "imageWidth": 854,
+      "imageHeight": 569,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "South Dakota Gov. Larry Rhoden, left, and Toby Doeden advanced to Tuesday’s runoff election. (Chip Somodevilla/Getty Images; Julia Stelter/South Dakota Public Broadcasting/AP)",
+      "blurb": "South Dakota Gov. Larry Rhoden, left, and Toby Doeden advanced to Tuesday’s runoff election."
+    },
+    {
+      "content": "By Matthew Choi",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "choim",
+          "url": "https://www.washingtonpost.com/people/matthew-choi/",
+          "name": "Matthew Choi",
+          "bio": "Matthew Choi covers politics for The Washington Post. He previously covered Washington for The Texas Tribune and energy for Politico.",
+          "expertise": "Congress, campaigns, politics",
+          "image": "https://author-service-images-prod-us-east-1.publishing.aws.arc.pub/washpost/fde52f99-c7c8-434b-9adb-f4a249c7b8a6.png"
+        }
+      ]
+    },
+    {
+      "arcId": "F5YBQU7HXND3XB4VDBOTVRZMTM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "South Dakota Gov. Larry Rhoden staved off a grassroots challenge Tuesday, defeating businessman Toby Doeden in a competitive Republican primary."
+    },
+    {
+      "arcId": "2DHNDVBBJFBCFKIHYRDGV4A26Y",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Rhoden, a former lieutenant governor, became governor in 2025 after his predecessor Kristi L. Noem left office to become President Donald Trump’s Homeland Security<b> </b>secretary. But despite his incumbent advantage, he came in second place in the June primary with about 25 percent of the vote."
+    },
+    {
+      "arcId": "EQKQNLTXEJDNFAPXLX2YHFQFMQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Doeden, who once <a href=\"https://www.youtube.com/watch?v=0PLe-zbgYSE\">described himself</a> as being “probably the least political person you had ever met” before his campaign, finished first in June with about 31 percent of the vote. He spent more than $4 million of his own money on the campaign and cast himself as a political outsider."
+    },
+    {
+      "type": "web_embed",
+      "hideUntilReady": false,
+      "url": "https://www.washingtonpost.com/partials/elections/iframes/sd-governor-runoff.html",
+      "subtype": "partial",
+      "widthFactor": "default"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "kind": "block",
+      "size": "tall",
+      "adPath": "/politics/elections",
+      "primarySectionID": "/elections",
+      "position": {
+        "small": "incontent-mob_1"
+      }
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/politics/elections",
+      "primarySectionID": "/elections",
+      "position": {
+        "large": "incontent_1"
+      }
+    },
+    {
+      "arcId": "6I7MAPEBMVBUZASKACTPL6S2RY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Doeden’s success in the June primary over high-profile officeholders defied early expectations.<b> </b>Rep. Dusty Johnson (R), the state’s sole House member since 2019, led in fundraising and polling in the early months of the race, but finished third. State House Speaker Jon Hansen also ran."
+    },
+    {
+      "arcId": "NHFYSOVQOJGI5FD6ZOEXXDCU2A",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Doeden was boosted in the runoff with spending by Pennsylvania billionaire Jeff Yass and a super PAC affiliated with conservative small-government group Club for Growth."
+    },
+    {
+      "arcId": "AVDHRTTJI5FRVNN4WP5HKGO5AM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The Democratic gubernatorial nominee is former state legislator Dan Ahlers. South Dakota has not had a Democratic governor since the late 1970s."
+    },
+    {
+      "type": "author_info",
+      "id": "choim",
+      "name": "Matthew Choi",
+      "bio": "Matthew Choi covers politics for The Washington Post. He previously covered Washington for The Texas Tribune and energy for Politico.",
+      "image": "https://author-service-images-prod-us-east-1.publishing.aws.arc.pub/washpost/fde52f99-c7c8-434b-9adb-f4a249c7b8a6.png",
+      "role": "Reporter"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "show_summary": false,
+  "blogname": "Elections",
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/T65HO7TN2ZHAFJ36LX5G4QX2P4/20260729-011241.228/manifest.json",
+    "adsUrl": "https://wp.mc.tritondigital.com/WASHPOST_ARTICLES/media/washpost-audio-articles/T65HO7TN2ZHAFJ36LX5G4QX2P4/20260729-011241.228/eleven-labs_en-US_Rachel_standard_audio.mp3?awCollectionId=/elections&awEpisodeId=T65HO7TN2ZHAFJ36LX5G4QX2P4&tags=latest-exclude%7Ctemplate-election-scripted%7Capp-webview%7Celection-results",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/T65HO7TN2ZHAFJ36LX5G4QX2P4/20260729-011241.228/eleven-labs_en-US_Rachel_standard_audio.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/POVPCE2P3V2XZRWVET3GV3M2LI.JPG",
+      "imageWidth": 854,
+      "imageHeight": 569,
+      "fullcaption": "(Chip Somodevilla/Getty Images; Julia Stelter/South Dakota Public Broadcasting/AP)"
+    },
+    "title": {
+      "content": "Live updates: South Dakota’s GOP governor defeats businessman in primary runoff",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "Elections",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Elections",
+      "path": "/elections"
+    },
+    "date": {
+      "content": 1785287529621,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    },
+    "adconfig": {
+      "adSetUrl": "https://cmod-world.live.streamtheworld.com/ondemand/ars?type=[break-type]&maxAds=[max-ads]&delivery-method=progressive&ttag=[triton-ttag]&lsid=[triton-lsid]&idfa=[triton-idfa]&us_privacy=[us-privacy]&gdpr=[gdpr]&gdpr_consent=[gdpr-consent]&gpp=[gpp]&gpp_sid=[gpp-sid]&feed-type=txt2speech&content-language=en&site-url=https%3A%2F%2Fwww.washingtonpost.com&bundle-id=[bundle-id]&store-id=[store-id]&store-url=[store-url]&break-number=[break-number]&ext_stid=wp-1407653",
+      "primarySectionID": "/elections"
+    },
+    "duration": 96000
+  },
+  "targeting": {
+    "adcall": [
+      {
+        "key": "ca",
+        "values": [
+          "rsolo",
+          "romxp",
+          "rhsqk",
+          "rfpdz",
+          "re1w0",
+          "r8463",
+          "r4op1",
+          "rh8kh",
+          "rehh9",
+          "rqpy3",
+          "rmikf",
+          "rysqo",
+          "r02mg",
+          "rktca",
+          "rhjj5",
+          "r03o4",
+          "ry4ek",
+          "r785o",
+          "r1yqm",
+          "rg06l",
+          "rwsk4",
+          "r0227",
+          "rmk71",
+          "rihix",
+          "r0kbr",
+          "rqyhw",
+          "rer82",
+          "rrqij",
+          "rgpk6",
+          "rll0u",
+          "r0new",
+          "rnp2g",
+          "rwlh3",
+          "rkxir",
+          "rloc3",
+          "rkkqd",
+          "rvn0g",
+          "r0hej",
+          "r1nqd",
+          "r6f4o",
+          "rdrh1",
+          "rh5p3",
+          "rggwa",
+          "r9hok",
+          "rg5cq",
+          "rrhwk",
+          "r2dwe",
+          "rlc5f",
+          "r50pl",
+          "rtsg3",
+          "rtc0b",
+          "ribdm",
+          "r7e5f",
+          "r6eks",
+          "rd1zm",
+          "ro9sc",
+          "rtppi",
+          "rpi83",
+          "r05in",
+          "rd9wl",
+          "r4hly",
+          "r1r06",
+          "rtyhm",
+          "rzla5",
+          "rtdzb",
+          "rksyw",
+          "rmxov",
+          "r6su5",
+          "r44uv",
+          "rz5hb",
+          "r9d8g",
+          "radub",
+          "rh26e"
+        ]
+      },
+      {
+        "key": "wapoTopics",
+        "values": [
+          "caqn",
+          "caqi",
+          "dotx",
+          "eeve",
+          "eleu",
+          "2mel",
+          "gue8",
+          "xyji",
+          "pref",
+          "raci",
+          "sodi",
+          "stvr",
+          "urpv",
+          "x3v0"
+        ]
+      },
+      {
+        "key": "bs",
+        "values": [
+          "garm_safe",
+          "bgrt41",
+          "wapo_rsk_low"
+        ]
+      }
+    ],
+    "iab": {
+      "sectioncat": [
+        "IAB11"
+      ],
+      "pagecat": [
+        "IAB12-3"
+      ]
+    },
+    "permutive_dict": {
+      "article": {
+        "customTopics": [
+          "[rqpy3] B2_Election 2016_legacyaux_WC9"
+        ],
+        "wapoTopics": [
+          "caqn",
+          "caqi",
+          "dotx",
+          "eeve",
+          "eleu",
+          "2mel",
+          "gue8",
+          "xyji",
+          "pref",
+          "raci",
+          "sodi",
+          "stvr",
+          "urpv",
+          "x3v0"
+        ],
+        "publishDate": "2026-07-27T18:16:14.331Z",
+        "lastUpdateDate": "2026-07-29T01:12:09.728Z",
+        "authorName": [
+          "matthew choi"
+        ],
+        "authorType": [
+          "author"
+        ],
+        "newsroomDesk": [
+          "other"
+        ],
+        "contentType": "story - election-results",
+        "language": "en",
+        "wordCount": 208
+      },
+      "canonicalUrl": "/elections/results/2026/07/28/south-dakota-governor-primary-election-runoff-larry-rhoden-faces-tony-doeden/"
+    }
+  }
+}

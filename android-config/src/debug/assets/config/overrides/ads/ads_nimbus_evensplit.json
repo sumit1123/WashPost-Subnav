@@ -1,0 +1,17 @@
+{
+  "ads": {
+    "bannersConfig": {
+      "nimbus": {
+        "enabled": true,
+        "defaultConfigId": "nimbus-always",
+        "testPercent": 50,
+        "loadConfig": [
+          {
+            "loader": "nimbus",
+            "bidSources": ["aps", "admob", "nimbus"]
+          }
+        ]
+      }
+    }
+  }
+}

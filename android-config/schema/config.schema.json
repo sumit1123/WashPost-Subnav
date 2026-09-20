@@ -1,0 +1,3721 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AndroidClassicConfig",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "integer"
+    },
+    "comicsConfigNew": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "token": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "token",
+        "url"
+      ]
+    },
+    "shareBaseURL": {
+      "type": "string"
+    },
+    "fusionBaseUrl": {
+      "type": "string"
+    },
+    "singleNativeContentRainbowTemplate": {
+      "type": "string"
+    },
+    "singleNativeContentTemplateByUUID": {
+      "type": "string"
+    },
+    "akamaiImageServiceTemplate": {
+      "type": "string"
+    },
+    "akamaiImageServiceTemplateForAuto": {
+      "type": "string"
+    },
+    "discoverURL": {
+      "type": "string"
+    },
+    "wpVideosURL": {
+      "type": "string"
+    },
+    "mostReadFeedURL": {
+      "type": "string"
+    },
+    "rateAppPromptFrequency": {
+      "type": "string"
+    },
+    "search2Config": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "baseUrl": {
+          "type": "string"
+        },
+        "postAnswersEnabled": {
+          "type": "boolean"
+        },
+        "learnMoreUrl": {
+          "type": "string"
+        },
+        "talkToThePostBaseUrl": {
+          "type": "string"
+        },
+        "askThePost": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "askThePostTimeOfDay": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "lateNight": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "subtitle": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "subtitle",
+                    "title"
+                  ]
+                },
+                "goodEvening": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "subtitle": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "subtitle",
+                    "title"
+                  ]
+                },
+                "goodAfternoon": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "subtitle": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "subtitle",
+                    "title"
+                  ]
+                },
+                "goodMorning": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "subtitle": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "subtitle",
+                    "title"
+                  ]
+                }
+              },
+              "required": [
+                "goodAfternoon",
+                "goodEvening",
+                "goodMorning",
+                "lateNight"
+              ]
+            },
+            "converseBaseUrl": {
+              "type": "string"
+            },
+            "questionsBaseUrl": {
+              "type": "string"
+            },
+            "questions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "uuid": {
+                    "type": "string"
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "uuid"
+                ]
+              }
+            }
+          },
+          "required": [
+            "askThePostTimeOfDay",
+            "converseBaseUrl",
+            "questions",
+            "questionsBaseUrl"
+          ]
+        }
+      },
+      "required": [
+        "askThePost",
+        "baseUrl",
+        "learnMoreUrl",
+        "postAnswersEnabled",
+        "talkToThePostBaseUrl"
+      ]
+    },
+    "summariesConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "realtimeSummary": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "url": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "enabled",
+            "url"
+          ]
+        },
+        "realtimeFeedback": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "url": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "enabled",
+            "url"
+          ]
+        },
+        "keyTakeawaysFeedback": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "url": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "enabled",
+            "url"
+          ]
+        }
+      },
+      "required": [
+        "enabled",
+        "keyTakeawaysFeedback",
+        "realtimeFeedback",
+        "realtimeSummary"
+      ]
+    },
+    "versionConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "amazon": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "playStore": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "amazonForceUpdate": {
+          "type": "boolean"
+        },
+        "playStoreForceUpdate": {
+          "type": "boolean"
+        },
+        "minSdk": {
+          "type": "integer"
+        },
+        "minSdkMessage": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "amazon",
+        "amazonForceUpdate",
+        "enabled",
+        "minSdk",
+        "minSdkMessage",
+        "playStore",
+        "playStoreForceUpdate"
+      ]
+    },
+    "preferencesApiConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "preferenceBaseUrl": {
+          "type": "string"
+        },
+        "checkPrefBaseUrl": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "checkPrefBaseUrl",
+        "preferenceBaseUrl"
+      ]
+    },
+    "saveConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "preferenceBaseUrlV2": {
+          "type": "string"
+        },
+        "metadataServiceBaseUrl": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "metadataServiceBaseUrl",
+        "preferenceBaseUrlV2"
+      ]
+    },
+    "purchasedArticleConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "baseUrl": {
+          "type": "string"
+        },
+        "metadataServiceBaseUrl": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "baseUrl",
+        "metadataServiceBaseUrl"
+      ]
+    },
+    "backendHealthConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "backendHealthMonitorURL": {
+          "type": "string"
+        },
+        "fallbackURL": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "backendHealthMonitorURL",
+        "fallbackURL"
+      ]
+    },
+    "ads": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "nonSubscriberAdConfig": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "defaultConfig": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "minParagraphsBetweenAds": {
+                  "type": "integer"
+                },
+                "minCharactersBetweenAds": {
+                  "type": "integer"
+                },
+                "minCharactersBeforeAd": {
+                  "type": "integer"
+                },
+                "minCharactersAfterAd": {
+                  "type": "integer"
+                },
+                "maxNumberOfAds": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "maxNumberOfAds",
+                "minCharactersAfterAd",
+                "minCharactersBeforeAd",
+                "minCharactersBetweenAds",
+                "minParagraphsBetweenAds"
+              ]
+            }
+          },
+          "required": [
+            "defaultConfig"
+          ]
+        },
+        "subscriberAdConfig": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "defaultConfig": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "minParagraphsBetweenAds": {
+                  "type": "integer"
+                },
+                "minCharactersBetweenAds": {
+                  "type": "integer"
+                },
+                "minCharactersBeforeAd": {
+                  "type": "integer"
+                },
+                "minCharactersAfterAd": {
+                  "type": "integer"
+                },
+                "maxNumberOfAds": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "maxNumberOfAds",
+                "minCharactersAfterAd",
+                "minCharactersBeforeAd",
+                "minCharactersBetweenAds",
+                "minParagraphsBetweenAds"
+              ]
+            }
+          },
+          "required": [
+            "defaultConfig"
+          ]
+        },
+        "overrides": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "defaultConfig": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "path": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "showBottomAd": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "path",
+                "showBottomAd"
+              ]
+            }
+          },
+          "required": [
+            "defaultConfig"
+          ]
+        },
+        "firstAdSlot": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "defaultConfig": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "overrideFirstAdSlot": {
+                  "type": "boolean"
+                },
+                "adWidth": {
+                  "type": "integer"
+                },
+                "adHeight": {
+                  "type": "integer"
+                },
+                "path": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "adHeight",
+                "adWidth",
+                "overrideFirstAdSlot",
+                "path"
+              ]
+            }
+          },
+          "required": [
+            "defaultConfig"
+          ]
+        },
+        "discover": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "defaultConfig": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "enabled": {
+                  "type": "boolean"
+                },
+                "commercialNode": {
+                  "type": "string"
+                },
+                "minParagraphsBetweenAds": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "commercialNode",
+                "enabled",
+                "minParagraphsBetweenAds"
+              ]
+            }
+          },
+          "required": [
+            "defaultConfig"
+          ]
+        },
+        "search": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "adItemInterval": {
+              "type": "integer"
+            },
+            "commercialNode": {
+              "type": "string"
+            },
+            "firstItemDelay": {
+              "type": "integer"
+            },
+            "minimumResults": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "adItemInterval",
+            "commercialNode",
+            "enabled",
+            "firstItemDelay",
+            "minimumResults"
+          ]
+        },
+        "comics": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "adItemInterval": {
+              "type": "integer"
+            },
+            "commercialNode": {
+              "type": "string"
+            },
+            "firstItemDelay": {
+              "type": "integer"
+            },
+            "minimumResults": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "adItemInterval",
+            "commercialNode",
+            "enabled",
+            "firstItemDelay",
+            "minimumResults"
+          ]
+        },
+        "audio": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "defaults": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "vastEnabled": {
+                  "type": "boolean"
+                },
+                "minAdBreakIntervalSeconds": {
+                  "type": "integer"
+                },
+                "vastTemplate": {
+                  "type": "string"
+                },
+                "macros": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "siteUrl": {
+                      "type": "string"
+                    },
+                    "playStoreUrl": {
+                      "type": "string"
+                    },
+                    "amazonStoreAppId": {
+                      "type": "string"
+                    },
+                    "amazonStoreUrl": {
+                      "type": "string"
+                    },
+                    "contentLanguage": {
+                      "type": "string"
+                    },
+                    "tritonDeliveryMethod": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "amazonStoreAppId",
+                    "amazonStoreUrl",
+                    "contentLanguage",
+                    "playStoreUrl",
+                    "siteUrl",
+                    "tritonDeliveryMethod"
+                  ]
+                }
+              },
+              "required": [
+                "macros",
+                "minAdBreakIntervalSeconds",
+                "vastEnabled",
+                "vastTemplate"
+              ]
+            },
+            "configsByContentType": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "podcast": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "adBreaks": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                          "type": {
+                            "type": "string"
+                          },
+                          "maxAds": {
+                            "type": "integer"
+                          }
+                        },
+                        "required": [
+                          "maxAds",
+                          "type"
+                        ]
+                      }
+                    },
+                    "macros": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "tritonFeedType": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "tritonFeedType"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "adBreaks",
+                    "macros"
+                  ]
+                },
+                "article": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "minGlobalAdIntervalSeconds": {
+                      "type": "integer"
+                    },
+                    "adBreaks": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                          "type": {
+                            "type": "string"
+                          },
+                          "maxAds": {
+                            "type": "integer"
+                          }
+                        },
+                        "required": [
+                          "maxAds",
+                          "type"
+                        ]
+                      }
+                    },
+                    "macros": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "tritonExtStid": {
+                          "type": "string"
+                        },
+                        "tritonFeedType": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "tritonExtStid",
+                        "tritonFeedType"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "adBreaks",
+                    "macros",
+                    "minGlobalAdIntervalSeconds"
+                  ]
+                }
+              },
+              "required": [
+                "article",
+                "podcast"
+              ]
+            }
+          },
+          "required": [
+            "configsByContentType",
+            "defaults"
+          ]
+        },
+        "contextualTargeting": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "content": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "enabled": {
+                  "type": "boolean"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "timeout": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "enabled",
+                "timeout",
+                "url"
+              ]
+            }
+          },
+          "required": [
+            "content"
+          ]
+        },
+        "bannersConfig": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "autoRefreshIntervalInSecondsV2": {
+              "type": "integer"
+            },
+            "defaultLoadConfig": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "loader": {
+                    "type": "string"
+                  },
+                  "bidSources": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": [
+                  "bidSources",
+                  "loader"
+                ]
+              }
+            },
+            "nimbus": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "enabled": {
+                  "type": "boolean"
+                },
+                "testMode": {
+                  "type": "boolean"
+                },
+                "publisher": {
+                  "type": "string"
+                },
+                "key": {
+                  "type": "string"
+                },
+                "adMobUnitId": {
+                  "type": "string"
+                },
+                "refreshInterval": {
+                  "type": "integer"
+                },
+                "loadConfig": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "bidSources": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "loader": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "bidSources",
+                      "loader"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "adMobUnitId",
+                "enabled",
+                "key",
+                "loadConfig",
+                "publisher",
+                "refreshInterval",
+                "testMode"
+              ]
+            },
+            "dtb": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "app": {
+                  "type": "string"
+                },
+                "slots": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "300x250": {
+                      "type": "string"
+                    },
+                    "300x600": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "300x250",
+                    "300x600"
+                  ]
+                }
+              },
+              "required": [
+                "app",
+                "slots"
+              ]
+            }
+          },
+          "required": [
+            "autoRefreshIntervalInSecondsV2",
+            "defaultLoadConfig",
+            "dtb",
+            "nimbus"
+          ]
+        }
+      },
+      "required": [
+        "audio",
+        "bannersConfig",
+        "comics",
+        "contextualTargeting",
+        "discover",
+        "firstAdSlot",
+        "nonSubscriberAdConfig",
+        "overrides",
+        "search",
+        "subscriberAdConfig"
+      ]
+    },
+    "siteServiceConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "sectionsBarV2ConfigRemoteLocation": {
+          "type": "string"
+        },
+        "sectionsFeaturedConfigRemoteLocation": {
+          "type": "string"
+        },
+        "sectionsAZConfigRemoteLocation": {
+          "type": "string"
+        },
+        "sectionsUnlistedConfigRemoteLocation": {
+          "type": "string"
+        },
+        "sectionsRecommendedConfigRemoteLocation": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sectionsAZConfigRemoteLocation",
+        "sectionsBarV2ConfigRemoteLocation",
+        "sectionsFeaturedConfigRemoteLocation",
+        "sectionsRecommendedConfigRemoteLocation",
+        "sectionsUnlistedConfigRemoteLocation"
+      ]
+    },
+    "printConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "newsstandBaseURL": {
+          "type": "string"
+        },
+        "newsstandBaseURLAmazon": {
+          "type": "string"
+        },
+        "awsBaseURL": {
+          "type": "string"
+        },
+        "bundleURLTemplate": {
+          "type": "string"
+        },
+        "retinaBundleURLTemplate": {
+          "type": "string"
+        },
+        "metadataURLTemplate": {
+          "type": "string"
+        },
+        "metadataURLTemplateLmt": {
+          "type": "string"
+        },
+        "frontPageImageURLTemplate": {
+          "type": "string"
+        },
+        "previewEnabled": {
+          "type": "boolean"
+        },
+        "dailyDownloadEnabled": {
+          "type": "boolean"
+        },
+        "dailyDownloadHourUTC": {
+          "type": "integer"
+        },
+        "dailyDownloadMinuteUTC": {
+          "type": "integer"
+        },
+        "dailyDownloadVarianceMinutes": {
+          "type": "integer"
+        },
+        "articleDateTimeoutHours": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "articleDateTimeoutHours",
+        "awsBaseURL",
+        "bundleURLTemplate",
+        "dailyDownloadEnabled",
+        "dailyDownloadHourUTC",
+        "dailyDownloadMinuteUTC",
+        "dailyDownloadVarianceMinutes",
+        "frontPageImageURLTemplate",
+        "metadataURLTemplate",
+        "metadataURLTemplateLmt",
+        "newsstandBaseURL",
+        "newsstandBaseURLAmazon",
+        "previewEnabled",
+        "retinaBundleURLTemplate"
+      ]
+    },
+    "pushConfigV3": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "groups": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "label": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "label"
+            ]
+          }
+        },
+        "availableUserSubscriptionTopics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "displayName": {
+                "type": "string"
+              },
+              "key": {
+                "type": "string"
+              },
+              "alias": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "group": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "alias",
+              "description",
+              "displayName",
+              "group",
+              "id",
+              "key"
+            ]
+          }
+        },
+        "availableSubscriptionTopics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "displayName": {
+                "type": "string"
+              },
+              "key": {
+                "type": "string"
+              },
+              "isOptional": {
+                "type": "boolean"
+              },
+              "alias": {
+                "type": "string"
+              },
+              "imageName": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "group": {
+                "type": "string"
+              },
+              "iterableMessageTypeId": {
+                "type": "integer"
+              },
+              "reference": {
+                "type": "string"
+              },
+              "hide": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "alias",
+              "description",
+              "displayName",
+              "group",
+              "id",
+              "imageName",
+              "key"
+            ]
+          }
+        }
+      },
+      "required": [
+        "availableSubscriptionTopics",
+        "availableUserSubscriptionTopics",
+        "groups"
+      ]
+    },
+    "paywallConfigV3": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "on": {
+          "type": "boolean"
+        },
+        "tetroOn": {
+          "type": "boolean"
+        },
+        "tetroBaseUrl": {
+          "type": "string"
+        },
+        "meteringProxyBaseUrl": {
+          "type": "string"
+        },
+        "useMeteringProxy": {
+          "type": "boolean"
+        },
+        "tetroWeightArticleTTL": {
+          "type": "integer"
+        },
+        "limit": {
+          "type": "integer"
+        },
+        "maxRollingDays": {
+          "type": "integer"
+        },
+        "maxRollingArticleLimit": {
+          "type": "integer"
+        },
+        "ftcDialogPlayStoreVisibility": {
+          "type": "boolean"
+        },
+        "ftcDialogAmazonVisibility": {
+          "type": "boolean"
+        },
+        "validSKUs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "adFreeSKUs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "validSixMonthSKUs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "SKU": {
+          "type": "string"
+        },
+        "amazonSku": {
+          "type": "string"
+        },
+        "playLicense": {
+          "type": "string"
+        },
+        "editEmailPasswordUrl": {
+          "type": "string"
+        },
+        "editNamePhotoUrl": {
+          "type": "string"
+        },
+        "manageSubUrl": {
+          "type": "string"
+        },
+        "manageSubResumeUrl": {
+          "type": "string"
+        },
+        "paywallBaseUrl": {
+          "type": "string"
+        },
+        "subsBaseUrl": {
+          "type": "string"
+        },
+        "newsLettersBaseUrl": {
+          "type": "string"
+        },
+        "subBenefitsUrl": {
+          "type": "string"
+        },
+        "aboutMeUrl": {
+          "type": "string"
+        },
+        "oAuthConfigStub": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "authorizationUrl": {
+              "type": "string"
+            },
+            "signUpUrl": {
+              "type": "string"
+            },
+            "freeTrialUrl": {
+              "type": "string"
+            },
+            "authorizationScope": {
+              "type": "string"
+            },
+            "authorizationState": {
+              "type": "string"
+            },
+            "tokenUrl": {
+              "type": "string"
+            },
+            "tokenUrlV2": {
+              "type": "string"
+            },
+            "oneLinkTokenUrl": {
+              "type": "string"
+            },
+            "profileUrlV2": {
+              "type": "string"
+            },
+            "revokeUrl": {
+              "type": "string"
+            },
+            "migrateUrl": {
+              "type": "string"
+            },
+            "appType": {
+              "type": "string"
+            },
+            "saveIdentityPreferencesUrl": {
+              "type": "string"
+            },
+            "nonceUrl": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "appType",
+            "authorizationScope",
+            "authorizationState",
+            "authorizationUrl",
+            "freeTrialUrl",
+            "migrateUrl",
+            "nonceUrl",
+            "oneLinkTokenUrl",
+            "profileUrlV2",
+            "revokeUrl",
+            "saveIdentityPreferencesUrl",
+            "signUpUrl",
+            "tokenUrl",
+            "tokenUrlV2"
+          ]
+        },
+        "reminderScreen": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "frequency": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "enabled",
+            "frequency"
+          ]
+        },
+        "bottomCta": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "sku": {
+              "type": "string"
+            },
+            "terminatedSubMessage": {
+              "type": "string"
+            },
+            "newSubMessage": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "enabled",
+            "newSubMessage",
+            "sku",
+            "terminatedSubMessage"
+          ]
+        },
+        "bottomCtaAmazon": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "sku": {
+              "type": "string"
+            },
+            "terminatedSubMessage": {
+              "type": "string"
+            },
+            "newSubMessage": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "enabled",
+            "newSubMessage",
+            "sku",
+            "terminatedSubMessage"
+          ]
+        },
+        "onboardingReminder": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "newSubscriber": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "message": {
+                  "type": "string"
+                },
+                "heading": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "heading",
+                "message"
+              ]
+            },
+            "terminatedSubscriber": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "message": {
+                  "type": "string"
+                },
+                "heading": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "heading",
+                "message"
+              ]
+            },
+            "sku": {
+              "type": "string"
+            },
+            "ctaDestination": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "ctaDestination",
+            "newSubscriber",
+            "sku",
+            "terminatedSubscriber"
+          ]
+        },
+        "acquisitionReminder": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "newSubscriber": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "message": {
+                  "type": "string"
+                },
+                "heading": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "heading",
+                "message"
+              ]
+            },
+            "terminatedSubscriber": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "message": {
+                  "type": "string"
+                },
+                "heading": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "heading",
+                "message"
+              ]
+            },
+            "sku": {
+              "type": "string"
+            },
+            "ctaDestination": {
+              "type": "string"
+            },
+            "enabled": {
+              "type": "boolean"
+            },
+            "frequency": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "ctaDestination",
+            "enabled",
+            "frequency",
+            "newSubscriber",
+            "sku",
+            "terminatedSubscriber"
+          ]
+        },
+        "acquisitionReminderAmazon": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "newSubscriber": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "message": {
+                  "type": "string"
+                },
+                "heading": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "heading",
+                "message"
+              ]
+            },
+            "terminatedSubscriber": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "message": {
+                  "type": "string"
+                },
+                "heading": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "heading",
+                "message"
+              ]
+            },
+            "sku": {
+              "type": "string"
+            },
+            "ctaDestination": {
+              "type": "string"
+            },
+            "enabled": {
+              "type": "boolean"
+            },
+            "frequency": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "ctaDestination",
+            "enabled",
+            "frequency",
+            "newSubscriber",
+            "sku",
+            "terminatedSubscriber"
+          ]
+        },
+        "paywallSheets": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "meterNoSub": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "pages": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "icon": {
+                        "type": "string"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "featuresIncluded": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "featuresExcluded": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "products": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "sku": {
+                              "type": "string"
+                            },
+                            "pill": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "sku"
+                          ]
+                        }
+                      }
+                    },
+                    "required": [
+                      "featuresIncluded",
+                      "icon",
+                      "products",
+                      "title"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "pages",
+                "title"
+              ]
+            },
+            "meterTerminatedSub": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "title": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title"
+              ]
+            },
+            "globalCtaNoSub": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "pages": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "icon": {
+                        "type": "string"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "featuresIncluded": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "featuresExcluded": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "products": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "sku": {
+                              "type": "string"
+                            },
+                            "pill": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "sku"
+                          ]
+                        }
+                      }
+                    },
+                    "required": [
+                      "featuresIncluded",
+                      "icon",
+                      "products",
+                      "title"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "pages",
+                "title"
+              ]
+            },
+            "globalCtaTerminatedSub": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "title": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title"
+              ]
+            },
+            "featureNoSub": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "pages": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "icon": {
+                        "type": "string"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "featuresIncluded": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "featuresExcluded": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "products": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "additionalProperties": false,
+                          "properties": {
+                            "sku": {
+                              "type": "string"
+                            },
+                            "pill": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "sku"
+                          ]
+                        }
+                      }
+                    },
+                    "required": [
+                      "featuresIncluded",
+                      "icon",
+                      "products",
+                      "title"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "pages",
+                "title"
+              ]
+            },
+            "featureTerminatedSub": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "title": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title"
+              ]
+            }
+          },
+          "required": [
+            "featureNoSub",
+            "featureTerminatedSub",
+            "globalCtaNoSub",
+            "globalCtaTerminatedSub",
+            "meterNoSub",
+            "meterTerminatedSub"
+          ]
+        },
+        "cookies": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "sameSiteEnabled": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "sameSiteEnabled"
+          ]
+        },
+        "globalBannerConfig": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "banners": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "productName": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "subtitle": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  },
+                  "action": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id"
+                ]
+              }
+            }
+          },
+          "required": [
+            "banners"
+          ]
+        }
+      },
+      "required": [
+        "SKU",
+        "aboutMeUrl",
+        "acquisitionReminder",
+        "acquisitionReminderAmazon",
+        "adFreeSKUs",
+        "amazonSku",
+        "bottomCta",
+        "bottomCtaAmazon",
+        "cookies",
+        "editEmailPasswordUrl",
+        "editNamePhotoUrl",
+        "ftcDialogAmazonVisibility",
+        "ftcDialogPlayStoreVisibility",
+        "globalBannerConfig",
+        "limit",
+        "manageSubResumeUrl",
+        "manageSubUrl",
+        "maxRollingArticleLimit",
+        "maxRollingDays",
+        "meteringProxyBaseUrl",
+        "newsLettersBaseUrl",
+        "oAuthConfigStub",
+        "on",
+        "onboardingReminder",
+        "paywallBaseUrl",
+        "paywallSheets",
+        "playLicense",
+        "reminderScreen",
+        "subBenefitsUrl",
+        "subsBaseUrl",
+        "tetroBaseUrl",
+        "tetroOn",
+        "tetroWeightArticleTTL",
+        "useMeteringProxy",
+        "validSKUs",
+        "validSixMonthSKUs"
+      ]
+    },
+    "loggerConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "active": {
+          "type": "boolean"
+        },
+        "errorActive": {
+          "type": "boolean"
+        },
+        "paywallActive": {
+          "type": "boolean"
+        },
+        "debugActive": {
+          "type": "boolean"
+        },
+        "verboseActive": {
+          "type": "boolean"
+        },
+        "metricsActive": {
+          "type": "boolean"
+        },
+        "metricsSamplingActive": {
+          "type": "boolean"
+        },
+        "metricsSamplingPercentageRate": {
+          "type": "integer"
+        },
+        "appName": {
+          "type": "string"
+        },
+        "s3Bucket": {
+          "type": "string"
+        },
+        "s3Path": {
+          "type": "string"
+        },
+        "fileSizeThreshold": {
+          "type": "integer"
+        },
+        "s3AccessId": {
+          "type": "string"
+        },
+        "s3AccessToken": {
+          "type": "string"
+        },
+        "sumoHttpURL": {
+          "type": "string"
+        },
+        "splunkHttpURL": {
+          "type": "string"
+        },
+        "splunkToken": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "active",
+        "appName",
+        "debugActive",
+        "errorActive",
+        "fileSizeThreshold",
+        "metricsActive",
+        "metricsSamplingActive",
+        "metricsSamplingPercentageRate",
+        "paywallActive",
+        "s3AccessId",
+        "s3AccessToken",
+        "s3Bucket",
+        "s3Path",
+        "splunkHttpURL",
+        "splunkToken",
+        "sumoHttpURL",
+        "verboseActive"
+      ]
+    },
+    "isSumoLoggingActive": {
+      "type": "boolean"
+    },
+    "isSplunkLoggingActive": {
+      "type": "boolean"
+    },
+    "isSplunkSamplingActive": {
+      "type": "boolean"
+    },
+    "splunkSamplingPercentageRate": {
+      "type": "integer"
+    },
+    "liveBlogServiceURL": {
+      "type": "string"
+    },
+    "newslettersAndEmailAlertsUrl": {
+      "type": "string"
+    },
+    "privacyPolicyUrl": {
+      "type": "string"
+    },
+    "noticeOfCollectionUrl": {
+      "type": "string"
+    },
+    "termsOfServiceUrl": {
+      "type": "string"
+    },
+    "widgetSections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "displayName": {
+            "type": "string"
+          },
+          "bundleName": {
+            "type": "string"
+          },
+          "fusionBundleName": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "bundleName",
+          "displayName"
+        ]
+      }
+    },
+    "discoverWidgetSections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "displayName": {
+            "type": "string"
+          },
+          "bundleName": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "bundleName",
+          "displayName"
+        ]
+      }
+    },
+    "audioConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "audioAdInterval": {
+          "type": "integer"
+        },
+        "fullWidth": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "imgHeight": {
+              "type": "integer"
+            },
+            "imgWidth": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "imgHeight",
+            "imgWidth"
+          ]
+        },
+        "thumbnail": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "imgHeight": {
+              "type": "integer"
+            },
+            "imgWidth": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "imgHeight",
+            "imgWidth"
+          ]
+        },
+        "audioApiBaseUrl": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "audioAdInterval",
+        "audioApiBaseUrl",
+        "fullWidth",
+        "thumbnail"
+      ]
+    },
+    "savedArticleLogFrequencyDays": {
+      "type": "integer"
+    },
+    "contentUpdateRules": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "sectionsUiRequestsTimeout": {
+          "type": "integer"
+        },
+        "sectionsColdUpdatesInterval": {
+          "type": "integer"
+        },
+        "sectionsSyncLimit": {
+          "type": "integer"
+        },
+        "foregroundSyncTimeInSeconds": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "foregroundSyncTimeInSeconds",
+        "sectionsColdUpdatesInterval",
+        "sectionsSyncLimit",
+        "sectionsUiRequestsTimeout"
+      ]
+    },
+    "paramsToOmit": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "maxGAUploadEventsBatchSize": {
+      "type": "integer"
+    },
+    "webArticleConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "isWebTypeEnabled": {
+          "type": "boolean"
+        },
+        "minSdk": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "isWebTypeEnabled",
+        "minSdk"
+      ]
+    },
+    "chartbeatConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "accountId": {
+          "type": "string"
+        },
+        "domain": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "accountId",
+        "domain"
+      ]
+    },
+    "followConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "thumbnail": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "imgHeight": {
+              "type": "integer"
+            },
+            "imgWidth": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "imgHeight",
+            "imgWidth"
+          ]
+        },
+        "authorFollowUrl": {
+          "type": "string"
+        },
+        "authorFollowBaseSyncUrl": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "authorFollowBaseSyncUrl",
+        "authorFollowUrl",
+        "thumbnail"
+      ]
+    },
+    "voterGuideUrl": {
+      "type": "string"
+    },
+    "zendeskConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "customFields": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "metadataId": {
+              "type": "integer"
+            },
+            "appType": {
+              "type": "string"
+            },
+            "appTypeId": {
+              "type": "integer"
+            },
+            "mobileApp": {
+              "type": "string"
+            },
+            "mobileAppId": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "appType",
+            "appTypeId",
+            "metadataId",
+            "mobileApp",
+            "mobileAppId"
+          ]
+        },
+        "ticketForms": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "name"
+            ]
+          }
+        }
+      },
+      "required": [
+        "customFields",
+        "ticketForms",
+        "url"
+      ]
+    },
+    "oneTrustConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "storageLocation": {
+          "type": "string"
+        },
+        "domainIdentifier": {
+          "type": "string"
+        },
+        "stageDomainIdentifier": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "domainIdentifier",
+        "stageDomainIdentifier",
+        "storageLocation"
+      ]
+    },
+    "forYouFlexConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "ttl": {
+          "type": "integer"
+        },
+        "checkReadList": {
+          "type": "boolean"
+        },
+        "maxSize": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "checkReadList",
+        "maxSize",
+        "ttl",
+        "url"
+      ]
+    },
+    "forYouWidgetConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ttls": {
+          "type": "integer"
+        },
+        "maxSize": {
+          "type": "integer"
+        },
+        "pageSize": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "maxSize",
+        "pageSize",
+        "ttls"
+      ]
+    },
+    "readingHistoryServiceConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "url"
+      ]
+    },
+    "myPostConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "banner": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "sections": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "link": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "subtitle": {
+              "type": "string"
+            },
+            "image": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "asset": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "urlDark": {
+                  "type": "string"
+                },
+                "assetHasPriority": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "asset",
+                "assetHasPriority",
+                "url",
+                "urlDark"
+              ]
+            },
+            "cta": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "minimizeOnNarrowScreen": {
+                  "type": "boolean"
+                },
+                "buttonText": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "buttonText",
+                "minimizeOnNarrowScreen"
+              ]
+            }
+          },
+          "required": [
+            "cta",
+            "enabled",
+            "image",
+            "link",
+            "sections",
+            "subtitle",
+            "title"
+          ]
+        },
+        "birthdayFrontPage": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "url": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "enabled",
+            "url"
+          ]
+        }
+      },
+      "required": [
+        "banner",
+        "birthdayFrontPage"
+      ]
+    },
+    "paywallConf": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "abTestName": {
+          "type": "string"
+        },
+        "blockers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string"
+              },
+              "components": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "space": {
+                      "type": "integer"
+                    },
+                    "none-content": {
+                      "type": "string"
+                    },
+                    "ended-content": {
+                      "type": "string"
+                    },
+                    "gift-expired": {
+                      "type": "string"
+                    },
+                    "gift-invalid": {
+                      "type": "string"
+                    },
+                    "split": {
+                      "type": "string"
+                    },
+                    "default": {
+                      "type": "integer"
+                    },
+                    "compact": {
+                      "type": "integer"
+                    },
+                    "regular": {
+                      "type": "integer"
+                    },
+                    "components": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/properties/paywallConf/properties/blockers/items/properties/components/items"
+                      }
+                    },
+                    "productSeparator": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/properties/paywallConf/properties/blockers/items/properties/components/items"
+                      }
+                    },
+                    "text": {
+                      "type": [
+                        "array",
+                        "string"
+                      ],
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "imageUrl": {
+                      "type": "string"
+                    },
+                    "urlLight": {
+                      "type": "string"
+                    },
+                    "urlDark": {
+                      "type": "string"
+                    },
+                    "width": {
+                      "type": "integer"
+                    },
+                    "height": {
+                      "type": "integer"
+                    },
+                    "variation": {
+                      "type": "string"
+                    },
+                    "textList": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "open": {
+                      "type": "string"
+                    },
+                    "subscribed": {
+                      "type": "string"
+                    },
+                    "visibility": {
+                      "type": "string"
+                    },
+                    "defaultSelection": {
+                      "type": "integer"
+                    },
+                    "product": {
+                      "type": "string"
+                    },
+                    "authorize": {
+                      "type": "string"
+                    },
+                    "authorizeURL": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type"
+                  ]
+                }
+              },
+              "products": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "text": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "separator": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "text": {
+                          "type": "string"
+                        },
+                        "index": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "index",
+                        "text"
+                      ]
+                    },
+                    "introOfferText": {
+                      "type": "string"
+                    },
+                    "textDynamic": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "note": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "text"
+                  ]
+                }
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/properties/paywallConf/properties/blockers/items/properties/products/items"
+                    },
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "tileLabel": {
+                          "type": "string"
+                        },
+                        "tileTitle": {
+                          "type": "string"
+                        },
+                        "action": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "action",
+                        "tileLabel",
+                        "tileTitle",
+                        "type"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "versions": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "version": {
+                      "type": "integer"
+                    },
+                    "components": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/properties/paywallConf/properties/blockers/items/properties/components/items"
+                      }
+                    },
+                    "products": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/properties/paywallConf/properties/blockers/items/properties/products/items"
+                      }
+                    },
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/properties/paywallConf/properties/blockers/items/properties/items/items"
+                      }
+                    }
+                  },
+                  "required": [
+                    "components",
+                    "version"
+                  ]
+                }
+              },
+              "promoId": {
+                "type": "string"
+              },
+              "trialType": {
+                "type": "string"
+              },
+              "padding": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "components",
+              "name"
+            ]
+          }
+        },
+        "metering": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "sync": {
+              "type": "string"
+            },
+            "queue": {
+              "type": "integer"
+            },
+            "age": {
+              "type": "integer"
+            },
+            "mapping": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "w_905": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "w_905"
+              ]
+            },
+            "mapping2": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "action": {
+                    "type": "integer"
+                  },
+                  "blocker": {
+                    "type": "string"
+                  },
+                  "placement": {
+                    "type": "integer"
+                  },
+                  "code": {
+                    "type": "string"
+                  },
+                  "version": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "action",
+                  "blocker"
+                ]
+              }
+            }
+          },
+          "required": [
+            "age",
+            "mapping",
+            "mapping2",
+            "queue",
+            "sync"
+          ]
+        },
+        "frontSubscriptionBanner": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "enabled"
+          ]
+        },
+        "productToSkuMap": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "basic-monthly": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "playstore": {
+                  "type": "string"
+                },
+                "amazon": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amazon",
+                "playstore"
+              ]
+            },
+            "basic-annual": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "playstore": {
+                  "type": "string"
+                },
+                "amazon": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amazon",
+                "playstore"
+              ]
+            },
+            "premium-monthly": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "playstore": {
+                  "type": "string"
+                },
+                "amazon": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amazon",
+                "playstore"
+              ]
+            },
+            "premium-annual": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "playstore": {
+                  "type": "string"
+                },
+                "amazon": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "amazon",
+                "playstore"
+              ]
+            },
+            "flex-oneday-3.99": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "playstore": {
+                  "type": "string"
+                },
+                "basePlanId": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "basePlanId",
+                "playstore",
+                "type"
+              ]
+            },
+            "flex-oneday-9.99": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "playstore": {
+                  "type": "string"
+                },
+                "basePlanId": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "basePlanId",
+                "playstore",
+                "type"
+              ]
+            },
+            "flex-oneday-13.99": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "playstore": {
+                  "type": "string"
+                },
+                "basePlanId": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "basePlanId",
+                "playstore",
+                "type"
+              ]
+            }
+          },
+          "required": [
+            "basic-annual",
+            "basic-monthly",
+            "flex-oneday-13.99",
+            "flex-oneday-3.99",
+            "flex-oneday-9.99",
+            "premium-annual",
+            "premium-monthly"
+          ]
+        },
+        "availableOffers": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "wp.classic.basic": {
+              "type": "array"
+            },
+            "wp.classic.basic.annual": {
+              "type": "array"
+            },
+            "monthly_all_access": {
+              "type": "array"
+            },
+            "wp.classic.premium.annual": {
+              "type": "array"
+            },
+            "wp.classic.no.ads.monthly": {
+              "type": "array"
+            },
+            "wp.classic.no.ads.annual": {
+              "type": "array"
+            }
+          },
+          "required": [
+            "monthly_all_access",
+            "wp.classic.basic",
+            "wp.classic.basic.annual",
+            "wp.classic.no.ads.annual",
+            "wp.classic.no.ads.monthly",
+            "wp.classic.premium.annual"
+          ]
+        },
+        "offersAllowedList": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "wp.classic.basic": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "wp.classic.basic.annual": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "monthly_all_access": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "wp.classic.premium.annual": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "monthly_all_access",
+            "wp.classic.basic",
+            "wp.classic.basic.annual",
+            "wp.classic.premium.annual"
+          ]
+        },
+        "ad_free_iterable_products": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "adFreeProductToSkuMap": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "basic-monthly": {
+              "type": "string"
+            },
+            "basic-annual": {
+              "type": "string"
+            },
+            "premium-monthly": {
+              "type": "string"
+            },
+            "premium-annual": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "basic-annual",
+            "basic-monthly",
+            "premium-annual",
+            "premium-monthly"
+          ]
+        }
+      },
+      "required": [
+        "abTestName",
+        "adFreeProductToSkuMap",
+        "ad_free_iterable_products",
+        "availableOffers",
+        "blockers",
+        "frontSubscriptionBanner",
+        "metering",
+        "offersAllowedList",
+        "productToSkuMap"
+      ]
+    },
+    "inlineAlertToggleMappingConfigs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "alertSegmentKey": {
+            "type": "string"
+          },
+          "includedSourceSections": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "excludedSourceSubsections": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "alertSegmentKey",
+          "excludedSourceSubsections",
+          "includedSourceSections"
+        ]
+      }
+    },
+    "deepLinkConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "excludeList": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "internalExcludeList": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "externalPurchaseUrls": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "paramExcludeList": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "simpleWebViewList": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "allowedHosts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "validSourceAppValues": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "destinations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "scheme": {
+                "type": "string"
+              },
+              "domain": {
+                "type": "string"
+              },
+              "path": {
+                "type": "string"
+              },
+              "destination": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "destination",
+              "domain",
+              "path",
+              "scheme"
+            ]
+          }
+        },
+        "ungiftedURLs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "allowedHosts",
+        "destinations",
+        "excludeList",
+        "externalPurchaseUrls",
+        "internalExcludeList",
+        "paramExcludeList",
+        "simpleWebViewList",
+        "ungiftedURLs",
+        "validSourceAppValues"
+      ]
+    },
+    "verticalVideosConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "adItemInterval": {
+          "type": "integer"
+        },
+        "firstItemDelay": {
+          "type": "integer"
+        },
+        "requestsUiTimeoutMillis": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "adItemInterval",
+        "enabled",
+        "firstItemDelay",
+        "requestsUiTimeoutMillis"
+      ]
+    },
+    "airshipConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "openURLPatterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "openURLPatterns"
+      ]
+    },
+    "actionButtonsConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "saveEnabled": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "saveEnabled"
+      ]
+    },
+    "customNavConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "lockedSections": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "lockedSections"
+      ]
+    },
+    "amazonMigrationConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "offboarding": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "tombstone": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "enabled",
+            "tombstone"
+          ]
+        },
+        "onboarding": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "enabled"
+          ]
+        }
+      },
+      "required": [
+        "offboarding",
+        "onboarding"
+      ]
+    },
+    "recipesConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "baseUrl": {
+          "type": "string"
+        },
+        "landingPage": {
+          "type": "string"
+        },
+        "filters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "group": {
+                "type": "string"
+              },
+              "queryName": {
+                "type": "string"
+              },
+              "isMultiSelect": {
+                "type": "boolean"
+              },
+              "isQuickFilter": {
+                "type": "boolean"
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "queryId": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "label",
+                    "queryId"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "group",
+              "isMultiSelect",
+              "isQuickFilter",
+              "items",
+              "queryName"
+            ]
+          }
+        }
+      },
+      "required": [
+        "baseUrl",
+        "filters",
+        "landingPage"
+      ]
+    },
+    "electionConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "links": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              },
+              "path": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "path",
+              "type"
+            ]
+          }
+        }
+      },
+      "required": [
+        "links"
+      ]
+    },
+    "featureOnboarding": {
+      "type": "array"
+    },
+    "findHighlightItemsConfig": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "position": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "id",
+          "position"
+        ]
+      }
+    },
+    "lowDataModeConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "liteUrlPath": {
+          "type": "string"
+        },
+        "enable": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "enable",
+        "liteUrlPath"
+      ]
+    },
+    "ageRestrictionEnabled": {
+      "type": "boolean"
+    },
+    "commentsConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "url"
+      ]
+    },
+    "iterable": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "banner": {
+          "type": "integer"
+        },
+        "article": {
+          "type": "integer"
+        },
+        "section": {
+          "type": "integer"
+        },
+        "myPostBanner": {
+          "type": "integer"
+        },
+        "askThePostBanner": {
+          "type": "integer"
+        },
+        "myPost": {
+          "type": "integer"
+        },
+        "askThePost": {
+          "type": "integer"
+        },
+        "settingsPlan": {
+          "type": "null"
+        },
+        "enableDebugLogs": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "article",
+        "askThePost",
+        "askThePostBanner",
+        "banner",
+        "enableDebugLogs",
+        "myPost",
+        "myPostBanner",
+        "section",
+        "settingsPlan"
+      ]
+    },
+    "ripple": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "rippleKey": {
+          "type": "string"
+        },
+        "testGroups": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "topStoriesUrl": {
+          "type": "string"
+        },
+        "findHighlightItem": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "link": {
+              "type": "string"
+            },
+            "isNewLabelVisible": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "id",
+            "isNewLabelVisible",
+            "link",
+            "title"
+          ]
+        }
+      },
+      "required": [
+        "enabled",
+        "findHighlightItem",
+        "rippleKey",
+        "testGroups",
+        "topStoriesUrl"
+      ]
+    },
+    "personalizedPodcast": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "baseUrl": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "baseUrl"
+      ]
+    },
+    "nextVideoConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "loadCount": {
+          "type": "integer"
+        },
+        "percentageLoad": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "loadCount",
+        "percentageLoad",
+        "url"
+      ]
+    },
+    "wpVideosConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "baseUrl": {
+          "type": "string"
+        },
+        "loadCount": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "baseUrl",
+        "loadCount"
+      ]
+    },
+    "feedbackConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "baseUrl": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "baseUrl"
+      ]
+    },
+    "oneLinkGenerationConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "url"
+      ]
+    },
+    "kmp": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "conversations": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "url": {
+              "type": "string"
+            },
+            "ctokenURLv2": {
+              "type": "string"
+            },
+            "displayNameURLv2": {
+              "type": "string"
+            },
+            "conversationSummaryURL": {
+              "type": "string"
+            },
+            "conversationSettingsURL": {
+              "type": "string"
+            },
+            "communityGuidelinesURL": {
+              "type": "string"
+            },
+            "topLevelPageSize": {
+              "type": "integer"
+            },
+            "replyPageSize": {
+              "type": "integer"
+            },
+            "displayNameMinCharacters": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "communityGuidelinesURL",
+            "conversationSettingsURL",
+            "conversationSummaryURL",
+            "ctokenURLv2",
+            "displayNameMinCharacters",
+            "displayNameURLv2",
+            "replyPageSize",
+            "topLevelPageSize"
+          ]
+        },
+        "feedback": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "baseURL": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "baseURL"
+          ]
+        },
+        "logger": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "uploaderURL": {
+              "type": "string"
+            },
+            "sampling": {
+              "type": "object"
+            },
+            "maxLogAge": {
+              "type": "number"
+            },
+            "maxLogSize": {
+              "type": "number"
+            },
+            "maxLogFiles": {
+              "type": "integer"
+            }
+          }
+        },
+        "userFeedback": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "url": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "required": [
+        "conversations",
+        "feedback",
+        "userFeedback"
+      ]
+    },
+    "gamesPaths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "disclaimerBaseUrl": {
+      "type": "string"
+    },
+    "ageRestriction": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "androidEnabled": {
+          "type": "boolean"
+        },
+        "amazonEnabled": {
+          "type": "boolean"
+        },
+        "minAmazonOsVersion": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "androidEnabled",
+        "amazonEnabled",
+        "minAmazonOsVersion"
+      ]
+    }
+  },
+  "required": [
+    "actionButtonsConfig",
+    "ads",
+    "ageRestriction",
+    "ageRestrictionEnabled",
+    "airshipConfig",
+    "akamaiImageServiceTemplate",
+    "akamaiImageServiceTemplateForAuto",
+    "amazonMigrationConfig",
+    "audioConfig",
+    "backendHealthConfig",
+    "chartbeatConfig",
+    "comicsConfigNew",
+    "commentsConfig",
+    "contentUpdateRules",
+    "customNavConfig",
+    "deepLinkConfig",
+    "discoverURL",
+    "discoverWidgetSections",
+    "electionConfig",
+    "featureOnboarding",
+    "feedbackConfig",
+    "findHighlightItemsConfig",
+    "followConfig",
+    "forYouFlexConfig",
+    "forYouWidgetConfig",
+    "fusionBaseUrl",
+    "gamesPaths",
+    "inlineAlertToggleMappingConfigs",
+    "isSplunkLoggingActive",
+    "isSplunkSamplingActive",
+    "isSumoLoggingActive",
+    "iterable",
+    "kmp",
+    "liveBlogServiceURL",
+    "loggerConfig",
+    "lowDataModeConfig",
+    "maxGAUploadEventsBatchSize",
+    "mostReadFeedURL",
+    "myPostConfig",
+    "newslettersAndEmailAlertsUrl",
+    "nextVideoConfig",
+    "noticeOfCollectionUrl",
+    "oneLinkGenerationConfig",
+    "oneTrustConfig",
+    "paramsToOmit",
+    "paywallConf",
+    "paywallConfigV3",
+    "personalizedPodcast",
+    "preferencesApiConfig",
+    "printConfig",
+    "privacyPolicyUrl",
+    "purchasedArticleConfig",
+    "pushConfigV3",
+    "rateAppPromptFrequency",
+    "readingHistoryServiceConfig",
+    "recipesConfig",
+    "ripple",
+    "saveConfig",
+    "savedArticleLogFrequencyDays",
+    "search2Config",
+    "shareBaseURL",
+    "singleNativeContentRainbowTemplate",
+    "singleNativeContentTemplateByUUID",
+    "siteServiceConfig",
+    "splunkSamplingPercentageRate",
+    "summariesConfig",
+    "termsOfServiceUrl",
+    "version",
+    "versionConfig",
+    "verticalVideosConfig",
+    "voterGuideUrl",
+    "webArticleConfig",
+    "widgetSections",
+    "wpVideosConfig",
+    "wpVideosURL",
+    "zendeskConfig"
+  ]
+}

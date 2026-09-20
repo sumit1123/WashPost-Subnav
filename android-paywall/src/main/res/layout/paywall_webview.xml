@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/pw_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pw_webview_title_color">
+
+        <Button
+            android:id="@+id/closewebviewbutton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_close" />
+
+        <Button
+            android:id="@+id/gobackbutton"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:visibility="gone"
+            android:background="@drawable/nav_back" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/logo" />
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/pw_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pw_title" />
+
+    <ProgressBar
+        android:id="@+id/webViewLoadingProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminate="true"
+        android:indeterminateBehavior="cycle" />
+</RelativeLayout>

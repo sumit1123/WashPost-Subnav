@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wapo.view.selection.SelectableTextView xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/article_text"
+    a:layout_width="wrap_content"
+    a:layout_height="wrap_content"
+    a:layout_marginEnd="@dimen/native_article_text_padding"
+    a:layout_marginStart="@dimen/native_article_text_padding" />

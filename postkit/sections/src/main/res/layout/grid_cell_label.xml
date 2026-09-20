@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wapo.flagship.features.pagebuilder.CellLabelView xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="?attr/homepage_story_label_style"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content">
+
+    <View
+        a:id="@+id/label_bar"
+        style="@style/Cell.Label.Bar" />
+
+    <LinearLayout
+        a:id="@+id/label_text_container"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:orientation="horizontal">
+
+        <TextView
+            a:id="@+id/cell_label_textview"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            tools:text="I am a Label" />
+
+        <TextView
+            a:id="@+id/cell_secondary_label_textview"
+            style="@style/Cell.Label.Text.Secondary"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_marginStart="@dimen/label_text_left_margin"
+            a:gravity="center"
+            tools:text="I am a Secondary Label" />
+    </LinearLayout>
+
+</com.wapo.flagship.features.pagebuilder.CellLabelView>

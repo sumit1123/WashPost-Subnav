@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="gallery_loading_failed" type="layout">@layout/loading_failed_curtain_dark</item>
+</resources>

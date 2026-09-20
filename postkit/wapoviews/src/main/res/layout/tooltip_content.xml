@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/tooltip_margin_left"
+    android:layout_marginRight="@dimen/tooltip_margin_right"
+    android:background="@color/transparent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@drawable/tooltip_background_shape"
+        android:elevation="3dp"
+        android:fadingEdgeLength="3dp">
+
+        <ImageButton
+            android:id="@+id/closeBtn"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginRight="@dimen/tooltip_close_icon_margin_right"
+            android:contentDescription="@string/dismiss_label"
+            android:src="@drawable/ic_tooltip_close" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:orientation="vertical"
+            android:padding="@dimen/tooltip_padding_around">
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/tooltip_content_to_close_btn_margin"
+                android:background="@color/transparent"
+                android:textColor="@color/tooltip_text" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

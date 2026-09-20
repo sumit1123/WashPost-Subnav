@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    style="@style/settings_category_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/favorite_topics_header"
+                style="@style/settings_category_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/favorite_topics_header"
+                android:paddingStart="?attr/listPreferredItemPaddingStart"
+                android:paddingTop="20dip"
+                android:paddingEnd="?attr/listPreferredItemPaddingEnd"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/favorite_topics_subtitle"
+                style="@style/custom_nav_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/favorite_topics_subtitle"
+                android:paddingStart="?attr/listPreferredItemPaddingStart"
+                android:paddingEnd="?attr/listPreferredItemPaddingEnd"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/active_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp" />
+
+            <TextView
+                android:id="@+id/recommended_header"
+                style="@style/settings_category_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/recommended_header"
+                android:paddingStart="?attr/listPreferredItemPaddingStart"
+                android:paddingTop="20dip"
+                android:paddingEnd="?attr/listPreferredItemPaddingEnd"
+                android:paddingBottom="12dip"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recommended_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp" />
+
+            <Button
+                android:id="@+id/reset_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/custom_nav_reset_button"
+                android:padding="8dp"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="12dp"
+                android:gravity="center"
+                android:text="@string/reset_topics"
+                android:maxWidth="400dp"
+                android:stateListAnimator="@null"
+                />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,406 @@
+{
+  "layout": "homepage",
+  "output_type": "jsonapp",
+  "tracking": {
+    "page_name": null,
+    "page_title": "",
+    "page_path": "",
+    "channel": null
+  },
+  "regions": [
+    {
+      "location": "content",
+      "items": [
+        {
+          "id": "48f26932-7170-40de-9252-233459c76ad9",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "cta-n-footnote",
+          "link_group": "cta-n-footnote",
+          "layout_name": "tiling",
+          "label": {
+            "type": "section-large",
+            "alignment": "center",
+            "icon": "none",
+            "show_arrow": false,
+            "label": {
+              "text": "THE 7 DEMO"
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "cta-n-footnote",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "vertical": [
+                    {
+                      "col": 10,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "large": {
+                  "vertical": [
+                    {
+                      "col": 8,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "medium": {
+                  "vertical": [
+                    {
+                      "col": 6,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "small": {
+                  "vertical": [
+                    {
+                      "col": 5,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "72c82e45-a703-4233-a574-7abcd683c7d6",
+                  "item_type": "fronts/promo",
+                  "display_name": "Flex Feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "⟲ Head + byline (Clear all Custom Fields)",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "blurbs",
+                          "cta",
+                          "footnote"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/the-seven",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/the-seven/2021/10/29/what-to-know-for-october-29/",
+                    "type": "article",
+                    "last_modified": "2021-10-29T12:30:10.459Z"
+                  },
+                  "source": "the-washington-post",
+                  "label": {
+                    "type": "promo",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "the-7",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "THE 7"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/the-seven/2021/10/29/what-to-know-for-october-29/",
+                      "type": "unknown"
+                    }
+                  },
+                  "headline": {
+                    "text": "Friday briefing",
+                    "size": "large",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "<b>What you need to know:</b> What’s in Biden’s budget plan; historic meeting with Pope Francis; U.N. climate summit; Facebook’s rebrand; used cars; and more",
+                        "type": "normal",
+                        "mime": "text/html"
+                      }
+                    ]
+                  },
+                  "cta": {
+                    "type": "cta",
+                    "alignment": "inherit",
+                    "icon": "none",
+                    "show_arrow": true,
+                    "label": {
+                      "text": "Read or Listen"
+                    },
+                    "label_secondary": {
+                      "text": "3 min"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/the-seven/2021/10/29/what-to-know-for-october-29/",
+                      "type": "unknown"
+                    }
+                  },
+                  "footnote": {
+                    "alignment": "right",
+                    "text": "Presented by <b>American Express</b>",
+                    "mime": "text/html"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "ab057b7d-d733-44aa-a2ea-cde0c83417f4",
+                  "item_type": "fronts/promo",
+                  "display_name": "Flex Feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "⟲ Head + byline (Clear all Custom Fields)",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "large"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "blurbs",
+                          "related_links",
+                          "cta"
+                        ]
+                      },
+                      "bottom": {
+                        "items": [
+                          "footnote"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/technology/space",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/technology/2021/10/26/nasa-chandra-signs-planet-other-galaxy/",
+                    "type": "article",
+                    "last_modified": "2021-10-26T16:26:12.282Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "alt_text": "",
+                    "art_width": "large",
+                    "aspect_ratio": 1.78,
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/35M5GBRWFUI6ZFTCHGOPU5PP5Y.jpg",
+                    "media_type": "image",
+                    "art_position": "art-right-of-head"
+                  },
+                  "label": {
+                    "type": "promo",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "the-7",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "THE 7"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/technology/2021/10/26/nasa-chandra-signs-planet-other-galaxy/",
+                      "type": "unknown"
+                    }
+                  },
+                  "headline": {
+                    "text": "Thursday briefing",
+                    "size": "large",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "<b>What you need to know:</b> NYC flooding. Afghan refugees. WIldfires. Labor Day travel.",
+                        "type": "normal",
+                        "mime": "text/html"
+                      },
+                      {
+                        "text": "School closures. Holiday shopping. Fish saved.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Related link #1"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "stacked"
+                    },
+                    "label": {
+                      "type": "mini-all-caps",
+                      "alignment": "left",
+                      "show_arrow": false,
+                      "label": {
+                        "text": "MORE INFO"
+                      }
+                    }
+                  },
+                  "cta": {
+                    "type": "cta",
+                    "alignment": "inherit",
+                    "icon": "none",
+                    "show_arrow": true,
+                    "label": {
+                      "text": "Read or listen"
+                    },
+                    "label_secondary": {
+                      "text": "3 min"
+                    },
+                    "link": {
+                      "url": "Read or listen",
+                      "type": "unknown"
+                    }
+                  },
+                  "footnote": {
+                    "alignment": "left",
+                    "text": "Presented by American Express Business"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 10,
+                      "colspan": 10
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 8,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        }
+      ]
+    }
+  ],
+  "checksum": "l1t8rd28i8n2f88tt3h84l511s"
+}

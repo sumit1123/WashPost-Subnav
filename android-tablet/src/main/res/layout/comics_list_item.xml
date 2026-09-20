@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:wapoviews="http://schemas.android.com/apk/res-auto"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content"
+    a:layout_marginLeft="@dimen/comics_list_padding_left"
+    a:layout_marginTop="@dimen/comics_list_padding_vertical"
+    a:layout_marginBottom="@dimen/comics_list_padding_vertical"
+    a:layout_marginRight="@dimen/comics_list_padding_left"
+    a:orientation="vertical">
+
+    <TextView
+        a:id="@+id/comics_item_byline"
+        style="@style/ComicsText"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content" />
+
+    <com.wapo.view.ShineFrameLayout
+        a:id="@+id/comics_item_image_container"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_marginTop="8dp"
+        a:background="@color/comics_item_bg"
+        wapoviews:shineHeight="100dp">
+
+        <ImageView
+            a:id="@+id/comics_item_image"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:adjustViewBounds="true"
+            a:maxWidth="@dimen/comics_list_image_max_width"
+            a:scaleType="fitXY" />
+    </com.wapo.view.ShineFrameLayout>
+</LinearLayout>

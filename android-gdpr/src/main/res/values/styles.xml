@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018. The Washington Post
+  ~ Created by adkinsj on 5/8/18.
+  -->
+
+<resources>
+    <style name="privact_policy_wall_logo_style"/>
+
+    <style name="privacy_policy_wall_logo_underline_style" />
+    <style name="privacy_policy_wall_root_layout"/>
+    <style name="privacy_policy_wall_header_layout"/>
+
+    <style name="privacy_policy_wall_header_text_style" />
+
+    <style name="privacy_policy_wall_header_underline_style" />
+
+    <style name="privacy_policy_wall_main_text_underline_style" />
+
+    <style name="privacy_policy_wall_description_text_style"/>
+    <style name="privacy_policy_wall_main_text_style"/>
+
+    <style name="privacy_policy_wall_controls_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="privacy_policy_wall_switch_and_button_layout"/>
+    <style name="privacy_policy_wall_switch_style"/>
+    <style name="privacy_policy_wall_button_style"/>
+    <style name="privacy_policy_wall_bottom_buttons_text_style"/>
+
+    <style name="privacy_settings_root_layout">
+        <item name="android:paddingTop">@dimen/privacy_settings_root_padding_top</item>
+        <item name="android:paddingLeft">@dimen/privacy_settings_root_padding_left</item>
+        <item name="android:paddingRight">@dimen/privacy_settings_root_padding_right</item>
+        <item name="android:paddingBottom">@dimen/privacy_settings_root_padding_bottom</item>
+    </style>
+
+    <style name="privacy_settings_wall_header_text_style">
+        <item name="android:textSize">@dimen/privacy_settings_header_text_size</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/privacy_settings_margin_medium</item>
+    </style>
+
+    <style name="privacy_settings_body_text_style">
+        <item name="android:textSize">@dimen/privacy_settings_body_text_size</item>
+        <item name="android:layout_marginBottom">@dimen/privacy_settings_margin_large</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="privacy_settings_account_text_style">
+        <item name="android:textSize">@dimen/privacy_settings_body_text_size</item>
+        <item name="android:layout_marginBottom">@dimen/privacy_settings_margin_large</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="privacy_settings_switch_style">
+        <item name="android:thumb">@drawable/switch_thumb_selector_ccpa</item>
+        <item name="android:track">@drawable/switch_track_selector_ccpa</item>
+        <item name="android:thumbTextPadding">@dimen/switch_thumb_text_padding</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <style name="privacy_settings_switch_text_style">
+        <item name="android:paddingLeft">@dimen/privacy_settings_body_switch_text_padding_start</item>
+        <item name="android:textSize">@dimen/privacy_settings_body_switch_text_size</item>
+    </style>
+
+    <style name="privacy_settings_switch_text_preference_style">
+        <item name="android:paddingLeft">@dimen/privacy_settings_body_switch_text_padding_start</item>
+        <item name="android:textSize">@dimen/privacy_settings_body_text_size</item>
+        <item name="android:layout_marginTop">@dimen/privacy_settings_margin_small</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+</resources>

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_font_size">18sp</dimen>
+    <dimen name="search_view_text_min_width">160dip</dimen>
+    <dimen name="pdf_preview_dates_list_paddingLeft">10dp</dimen>
+    <dimen name="pdf_preview_dates_list_paddingRight">10dp</dimen>
+    <dimen name="top_bar_height">50dp</dimen>
+    <dimen name="popup_menu_update_text_left_margin">35dp</dimen>
+    <dimen name="pupup_menu_update_text_font_size">11sp</dimen>
+    <dimen name="top_bar_logo_margin_left">6dp</dimen>
+    <dimen name="top_bar_left_item_width">50dp</dimen>
+    <dimen name="pw_close_height">25dp</dimen>
+    <dimen name="pw_close_width">25dp</dimen>
+    <dimen name="sf_module_element_padding">2dp</dimen>
+    <dimen name="sf_module_large_padding">0dp</dimen>
+    <dimen name="sf_module_large_textcontent_padding">20dp</dimen>
+    <dimen name="pdf_preview_pager_width">300dp</dimen>
+    <dimen name="pdf_preview_pager_height">5dp</dimen>
+    <dimen name="pdf_preview_pager_indicator_min_width">10dp</dimen>
+    <dimen name="pdf_preview_section_scroll_divider_width">2dp</dimen>
+    <dimen name="pdf_preview_section_item_padding">15dp</dimen>
+    <dimen name="sf_base_style_landscape_height">600dp</dimen>
+    <dimen name="action_divider_height">35dp</dimen>
+    <dimen name="panel_img_height">465dp</dimen>
+    <dimen name="archives_item_width">300dp</dimen>
+    <dimen name="adview_height">50dp</dimen>
+    <dimen name="recent_sections_height">15dp</dimen>
+    <dimen name="home_widget_big_minheight">180dp</dimen>
+    <dimen name="home_widget_big_minwidth">250dp</dimen>
+    <dimen name="home_widget_small_minheight">40dp</dimen>
+    <dimen name="home_widget_small_minwidth">320dp</dimen>
+    <dimen name="discover_widget_min_width">250dp</dimen>
+    <dimen name="discover_widget_min_height">180dp</dimen>
+
+    <dimen name="pdf_margin_top">20dp</dimen>
+    <dimen name="pdf_margin_bottom">20dp</dimen>
+    <dimen name="pdf_overlay_text_width">275dp</dimen>
+
+    <dimen name="native_article_layout_top_padding">15dp</dimen>
+    <dimen name="native_article_media_width">300dp</dimen>
+    <dimen name="native_article_image_graphic_margin">16dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="tweet_container_padding">10dp</dimen>
+
+    <dimen name="tweet_date_margin">5dp</dimen>
+
+    <dimen name="tweet_container_padding_outer_top">10dp</dimen>
+    <dimen name="tweet_container_padding_outer_Bottom">10dp</dimen>
+
+    <dimen name="tweet_top_image_margin_top_left_right">1dp</dimen>
+
+    <dimen name="native_article_body_text_size">18sp</dimen>
+    <dimen name="phone_section_name_bar_height">20dp</dimen>
+    <dimen name="table_vertical_padding">16dp</dimen>
+    <!-- fix-->
+    <dimen name="font_size_popup_width">170dp</dimen>
+
+    <dimen name="dialog_message_height">100dp</dimen>
+    <dimen name="dialog_message_text">18sp</dimen>
+    <dimen name="dialog_message_subtext">16sp</dimen>
+
+    <dimen name="dialog_message_button_width">120dp</dimen>
+    <dimen name="dialog_message_button_height">30dp</dimen>
+
+    <dimen name="dialog_night_mode_padding">10dp</dimen>
+
+    <!--- Native Paywall Blocker-->
+    <dimen name="native_paywall_product_name">24sp</dimen>
+    <dimen name="native_paywall_summary_block_height">80dp</dimen>
+    <dimen name="native_paywall_meter_limit_size">12sp</dimen>
+    <dimen name="native_paywall_meter_limit_height">32.5sp</dimen>
+    <dimen name="native_paywall_headline">32sp</dimen>
+    <dimen name="native_paywall_body">16sp</dimen>
+    <dimen name="native_paywall_primary_label">16sp</dimen>
+    <dimen name="native_paywall_secondary_label">14sp</dimen>
+    <dimen name="native_paywall_fine_print">12sp</dimen>
+    <dimen name="native_paywall_blocker_text_size_large">24sp</dimen>
+    <dimen name="native_paywall_headline_padding">50dp</dimen>
+    <dimen name="native_paywall_headline_padding_top">25dp</dimen>
+    <dimen name="native_paywall_body_padding_top">5dp</dimen>
+    <dimen name="native_paywall_body_padding">53dp</dimen>
+    <dimen name="native_paywall_primary_button_padding_top">20dp</dimen>
+    <dimen name="native_paywall_primary_button_padding">52dp</dimen>
+    <dimen name="native_paywall_primary_button_height">40dp</dimen>
+    <dimen name="native_paywall_primary_button_width">216.4dp</dimen>
+    <dimen name="native_paywall_secondary_button_padding_top">20dp</dimen>
+    <dimen name="native_paywall_secondary_button_padding">57.5dp</dimen>
+    <dimen name="native_paywall_fine_print_padding_top">29dp</dimen>
+    <dimen name="native_paywall_fine_print_padding">41dp</dimen>
+    <dimen name="native_paywall_fine_print_padding_bottom">18dp</dimen>
+    <dimen name="native_paywall_blocker_image_height">100dp</dimen>
+    <dimen name="native_paywall_button_height">40dp</dimen>
+    <dimen name="native_paywall_blocker_toolbar_height">56dp</dimen>
+    <dimen name="native_paywall_offers_tab_text_size">16sp</dimen>
+
+    <dimen name="native_paywall_product_name_text_size">14sp</dimen>
+    <dimen name="native_paywall_product_price_text_size">24sp</dimen>
+    <dimen name="native_paywall_product_summary_text_size">14sp</dimen>
+    <dimen name="native_paywall_product_button_text_size">14sp</dimen>
+    <dimen name="native_paywall_product_offer_height">184dp</dimen>
+    <dimen name="native_paywall_sign_in_text_size">14sp</dimen>
+    <dimen name="native_paywall_help_button_text_size">18sp</dimen>
+
+    <dimen name="native_paywall_card_margin_left">10dp</dimen>
+    <dimen name="native_paywall_card_margin_right">10dp</dimen>
+    <dimen name="native_paywall_card_margin_top">57dp</dimen>
+    <dimen name="native_paywall_blocker_margin_very_small">5dp</dimen>
+    <dimen name="native_paywall_blocker_margin_small">12dp</dimen>
+    <dimen name="native_paywall_blocker_margin_medium">16dp</dimen>
+    <dimen name="native_paywall_blocker_margin_large">20dp</dimen>
+    <dimen name="native_paywall_blocker_margin_very_large">32dp</dimen>
+    <dimen name="native_paywall_blocker_center_margin">16dp</dimen>
+
+    <!-- Wear Tooltip-->
+    <dimen name="tooltip_font_size">14sp</dimen>
+    <dimen name="tooltip_padding">1dp</dimen>
+
+    <!-- Slider menu item other than expandablemenu for phones -->
+    <dimen name="slider_menu_item_min_height">50dp</dimen>
+
+    <dimen name="left_menu_text_size">15sp</dimen>
+
+    <dimen name="menu_tabs_height">35dp</dimen>
+    <dimen name="menu_bar_icons_left_margin">18dp</dimen>
+    <dimen name="menu_bar_icons_top_margin">14dp</dimen>
+    <dimen name="menu_item_category_text">12sp</dimen>
+    <dimen name="menu_item_left_margin">24dp</dimen>
+    <dimen name="menu_item_section_header_text">14dp</dimen>
+    <dimen name="menu_header_height">40dp</dimen>
+    <dimen name="menu_header_bottom_margin">9dp</dimen>
+    <dimen name="menu_item_bottom_margin">9dp</dimen>
+    <dimen name="menu_item_height">60dp</dimen>
+    <dimen name="menu_item_double_height">110dp</dimen>
+    <dimen name="menu_header_text_size">18sp</dimen>
+    <dimen name="menu_item_text_size">14sp</dimen>
+    <dimen name="menu_tab_text_size">12sp</dimen>
+    <dimen name="menu_tab_item_padding">10dp</dimen>
+    <dimen name="menu_pin_button_right_margin">20dp</dimen>
+    <dimen name="menu_divider_vertical_margin_medium">16dp</dimen>
+    <dimen name="menu_divider_horizontal_margin_medium">@dimen/menu_item_left_margin</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="sf_live_blog_list_item">16sp</dimen>
+    <dimen name="phone_bottom_bar_height">62dp</dimen>
+    <dimen name="badge_text_size">10sp</dimen>
+    <dimen name="print_bottom_margin">162dp</dimen>
+
+    <dimen name="print_button_text_size">16sp</dimen>
+    <dimen name="print_button_width">90dp</dimen>
+    <dimen name="print_button_min_height">35dp</dimen>
+    <dimen name="print_button_margin">60dp</dimen>
+    <dimen name="editions_calendar_tile_size">45dp</dimen>
+    <dimen name="print_thumbnail_height">300dp</dimen>
+    <dimen name="print_download_bar_height">4dp</dimen>
+    <dimen name="print_download_bar_margin">0dp</dimen>
+
+    <!-- Alert Settings -->
+    <dimen name="topic_row_height">60dp</dimen>
+    <dimen name="topic_row_padding">5dp</dimen>
+    <dimen name="tile_size">50sp</dimen>
+    <dimen name="tile_padding">5dp</dimen>
+    <dimen name="card_paddingTop">5dp</dimen>
+    <dimen name="card_marginBottom">20dp</dimen>
+    <dimen name="alert_settings_title_paddingTop">16dp</dimen>
+    <dimen name="alert_settings_title_paddingBottom">6dp</dimen>
+    <dimen name="close_button_width">40dp</dimen>
+    <dimen name="close_button_height">40dp</dimen>
+    <dimen name="close_button_padding">8dp</dimen>
+    <dimen name="enable_alerts_text_paddingBottom">16dp</dimen>
+    <dimen name="enable_alerts_text_paddingLeft">50dp</dimen>
+    <dimen name="enable_alerts_text_paddingRight">50dp</dimen>
+    <dimen name="alert_divider_height">1dp</dimen>
+    <dimen name="alert_settings_status_layout_padding">20dp</dimen>
+    <dimen name="alert_settings_status_layout_width">0dp</dimen>
+    <dimen name="alerts_switch_width">0dp</dimen>
+    <dimen name="alerts_switch_marginLeft">15dp</dimen>
+    <dimen name="phone_menu_item_height">50dp</dimen>
+    <dimen name="phone_tabs_text_size">14sp</dimen>
+    <dimen name="article_breaking_news_label">18sp</dimen>
+    <dimen name="article_breaking_news_label_phone">14sp</dimen>
+    <dimen name="article_tagline_padding_top">18dp</dimen>
+    <dimen name="article_tagline_padding_bottom">50dp</dimen>
+    <dimen name="article_text_span_tagline_text_size">15sp</dimen>
+    <dimen name="topic_title_text_size">16sp</dimen>
+    <dimen name="topic_description_text_size">14sp</dimen>
+    <dimen name="breaking_news_warning_text_size">16sp</dimen>
+    <item name="article_text_span_tagline_line_spacing_mult" format="float" type="dimen">1</item>
+
+    <!--Grid cells-->
+    <dimen name="cell_label_bar_kicker">40dp</dimen>
+    <dimen name="cell_label_bar_highlight">-1px</dimen>
+    <dimen name="cell_label_bar_normal">0px</dimen>
+    <dimen name="cell_label_bar_height">3dp</dimen>
+
+    <dimen name="new_article_label_padding_hor">@dimen/cell_spacing</dimen>
+    <dimen name="new_article_label_padding_vert">5dp</dimen>
+    <dimen name="new_article_label_padding_bottom">@dimen/new_article_label_padding_vert</dimen>
+    <dimen name="new_article_label_padding_top">@dimen/new_article_label_padding_vert</dimen>
+    <dimen name="new_article_label_padding_left">@dimen/new_article_label_padding_hor</dimen>
+    <dimen name="new_article_label_padding_right">@dimen/new_article_label_padding_hor</dimen>
+    <dimen name="new_article_label_text_size">20sp</dimen>
+    <dimen name="label_text_top_margin">20dp</dimen>
+
+    <dimen name="label_text_left_margin">10dp</dimen>
+    <dimen name="label_text_bottom_margin">20dp</dimen>
+
+    <!-- Comics -->
+    <dimen name="comics_pager_width">200dp</dimen>
+    <dimen name="comics_pager_height">3dp</dimen>
+    <dimen name="comics_list_padding_left">16dp</dimen>
+    <dimen name="comics_list_padding_vertical">16dp</dimen>
+    <dimen name="comics_list_image_max_width">720dp</dimen>
+    <dimen name="comics_list_image_progress_width">24dp</dimen>
+
+    <!--gdpr stuff-->
+    <dimen name="gdpr_root_padding_top">8dp</dimen>
+    <dimen name="gdpr_root_padding_left">24dp</dimen>
+    <dimen name="gdpr_root_padding_right">24dp</dimen>
+    <dimen name="gdpr_root_padding_bottom">14dp</dimen>
+    <dimen name="gdpr_root_margin_bottom">24dp</dimen>
+
+    <dimen name="gdpr_logo_margin_bottom">8dp</dimen>
+
+    <dimen name="gdpr_divider_height">1dp</dimen>
+    <dimen name="gdpr_divider_horizontal_margin">24dp</dimen>
+    <dimen name="gdpr_divider_bottom_margin">16dp</dimen>
+
+    <dimen name="gdpr_header_text_size">28sp</dimen>
+    <dimen name="gdpr_header_margin_bottom">24dp</dimen>
+
+    <dimen name="gdpr_main_text_size">17sp</dimen>
+    <dimen name="gdpr_main_margin_bottom">20dp</dimen>
+    <dimen name="gdpr_main_underline_margin_top">20dp</dimen>
+
+    <dimen name="gdpr_underline_height">1dp</dimen>
+
+    <dimen name="gdpr_switch_text_size">20sp</dimen>
+    <dimen name="gdpr_switch_height">30dp</dimen>
+    <dimen name="gdpr_switch_thumb_text_padding">15dp</dimen> <!-- this needs to be half the height-->
+    <dimen name="gdpr_switch_padding">16dp</dimen>
+    <dimen name="gdpr_switch_margin_bottom">16dp</dimen>
+    <dimen name="gdpr_switch_margin_top">0dp</dimen>
+
+    <dimen name="gdpr_button_text_size">15sp</dimen>
+    <dimen name="gdpr_button_margin">16dp</dimen>
+
+    <dimen name="gdpr_bottom_button_text_size">13sp</dimen>
+
+    <integer name="privacy_policy_wall_weight_sum">10</integer>
+    <integer name="privacy_policy_wall_text_weight">7</integer>
+    <integer name="privacy_policy_wall_controls_weight">3</integer>
+
+
+    <dimen name="bottom_stub_height">70dp</dimen>
+    <dimen name="notification_footer_height">160dp</dimen>
+    <dimen name="podcast_article_view_outer_margin">20dp</dimen>
+
+    <!-- on boarding-->
+    <dimen name="onboarding_horizontal_margin">24dp</dimen>
+    <dimen name="onboarding_vertical_margin_small">8dp</dimen>
+    <dimen name="onboarding_vertical_margin">16dp</dimen>
+    <dimen name="onboarding_vertical_margin_large">32dp</dimen>
+    <dimen name="onboarding_button_margin">0dp</dimen>
+    <dimen name="onboarding_text_variant_minmax_width">312dp</dimen>
+    <dimen name="onboarding_text_description_variant_minmax_width">290dp</dimen>
+    <dimen name="onboarding_button_width">320dp</dimen>
+    <dimen name="onboarding_heading_text_size">26sp</dimen>
+    <dimen name="onboarding_content_text_size">15sp</dimen>
+    <dimen name="onboarding_button_text_size">16sp</dimen>
+    <dimen name="onboarding_manage_account_button_height">48dp</dimen>
+    <dimen name="onboarding_text_line_spacing_multiplier">1.2</dimen>
+    <dimen name="onboarding_button_bottom_margin">24dp</dimen>
+    <dimen name="onboarding_divider_height">1dp</dimen>
+
+    <integer name="onboarding_weight_sum">10</integer>
+    <integer name="onboarding_text_weight">8</integer>
+    <integer name="onboarding_controls_weight">2</integer>
+
+    <!-- base on_boarding -->
+    <dimen name="base_onboarding_horizontal_margin">24dp</dimen>
+    <dimen name="base_onboarding_vertical_margin_small">8dp</dimen>
+    <dimen name="base_onboarding_vertical_margin">16dp</dimen>
+    <dimen name="base_onboarding_vertical_margin_large">20dp</dimen>
+    <dimen name="base_onboarding_text_vertical_margin">24dp</dimen>
+    <dimen name="base_onboarding_text_variant_vertical_margin">8dp</dimen>
+    <dimen name="base_onboarding_heading_text_size">26sp</dimen>
+    <dimen name="base_onboarding_heading_variant_text_size">28sp</dimen>
+    <dimen name="base_onboarding_description_text_size">15sp</dimen>
+    <dimen name="base_onboarding_description_variant_text_size">17sp</dimen>
+    <dimen name="base_onboarding_button_text_size">16sp</dimen>
+    <dimen name="base_onboarding_button_bottom_margin">16dp</dimen>
+    <dimen name="base_onboarding_tab_layout_height">24dp</dimen>
+
+    <!-- article recirc carousel -->
+    <dimen name="carousel_explore_more_padding_left">0dp</dimen>
+    <dimen name="carousel_explore_more_padding_right">0dp</dimen>
+    <dimen name="section_name_padding_left">0dp</dimen>
+    <dimen name="section_name_padding_right">0dp</dimen>
+    <dimen name="rv_carousel_item_margin_padding">0dp</dimen>
+    <dimen name="carousel_recycler_horizontal_padding">@dimen/carousel_side_padding</dimen>
+    <dimen name="carousel_card_width_calculation_container_margin">@dimen/article_card_container_margin</dimen>
+    <dimen name="carousel_card_width_calculation_article_margin">@dimen/article_card_padding_hor</dimen>
+
+    <dimen name="free_form_min_width">400dp</dimen>
+    <dimen name="free_form_min_height">480dp</dimen>
+
+    <dimen name="native_article_byline_text_size">17sp</dimen>
+
+
+    <dimen name="prompt_card_view_width">320dp</dimen>
+    <dimen name="prompt_card_view_radius">8dp</dimen>
+    <dimen name="prompt_card_margin_medium">16dp</dimen>
+    <dimen name="prompt_card_margin_small">8dp</dimen>
+
+    <!-- Widgets -->
+    <dimen name="widget_header_vertical_padding">4dp</dimen>
+    <dimen name="widget_header_horizontal_padding">8dp</dimen>
+    <dimen name="widget_content_vertical_padding">4dp</dimen>
+    <dimen name="widget_content_horizontal_padding">8dp</dimen>
+    <dimen name="widget_navigator_padding">0dp</dimen>
+    <dimen name="discover_widget_wp_logo_size">32dp</dimen>
+    <dimen name="discover_widget_card_size">256dp</dimen>
+
+    <dimen name="ad_width">300dp</dimen>
+    <dimen name="ad_height">250dp</dimen>
+
+    <!-- AppBar -->
+    <dimen name="toolbar_height">48dp</dimen>
+    <dimen name="expanded_toolbar_title_size">24dp</dimen>
+    <dimen name="collapsed_toolbar_title_size">20dp</dimen>
+    <dimen name="expanded_toolbar_title_margin_top">48dp</dimen>
+    <dimen name="expanded_toolbar_title_and_tab_layout_margin_half">9dp</dimen>
+    <dimen name="expanded_toolbar_title_margin_left">16dp</dimen>
+    <dimen name="collapsed_toolbar_title_margin_left">45dp</dimen>
+
+    <!-- AppBar - TabLayout -->
+    <!-- https://arcpublishing.atlassian.net/browse/AWA-3948 -->
+    <dimen name="tab_layout_height">23dp</dimen>
+    <dimen name="tab_layout_tab_content_start">16dp</dimen>
+    <dimen name="tab_layout_tab_indicator_Height">3dp</dimen>
+    <dimen name="tab_layout_tab_min_width">0dp</dimen>
+    <dimen name="tab_layout_tab_padding_start">10dp</dimen>
+    <dimen name="tab_layout_tab_padding_top">0dp</dimen>
+    <dimen name="tab_layout_tab_padding_bottom">8dp</dimen>
+
+    <dimen name="settings_preference_divider_side_padding">16dp</dimen>
+
+    <dimen name="article_web_content_item_bottom_padding">16dp</dimen>
+    <dimen name="my_post_badge_padding">4dp</dimen>
+    <dimen name="alerts_badge_padding">6dp</dimen>
+    <dimen name="mtrl_badge_radius">3dp</dimen>
+    <dimen name="mtrl_badge_with_text_radius">7dp</dimen>
+    <dimen name="luf_bar_height">56dp</dimen>
+
+    <!-- Articles Headings -->
+    <dimen name="article_text_h1">21sp</dimen>
+    <dimen name="article_text_h2">21sp</dimen>
+    <dimen name="article_text_h3">21sp</dimen>
+    <dimen name="article_text_h4">18sp</dimen>
+    <dimen name="article_text_h5">18sp</dimen>
+    <dimen name="article_text_h6">18sp</dimen>
+
+    <!-- Gift Feature -->
+    <dimen name="gift_title_size">18sp</dimen>
+    <dimen name="gift_message_size">14sp</dimen>
+    <dimen name="gift_button_text_size">16sp</dimen>
+
+    <!-- Inline Alert Toggle -->
+    <dimen name="inline_alert_toggle_content_vertical_margin">20dp</dimen>
+    <dimen name="inline_alert_toggle_divider_height">1dp</dimen>
+
+    <!-- Unification Onboarding -->
+    <dimen name="amazon_uni_side_margin">10dp</dimen>
+    <dimen name="amazon_uni_spacing">8dp</dimen>
+    <dimen name="amazon_uni_button_spacing">16dp</dimen>
+    <dimen name="amazon_uni_bottom_margin">20dp</dimen>
+    <dimen name="amazon_uni_main_title">32sp</dimen>
+    <dimen name="amazon_uni_secondary_text">16sp</dimen>
+    <dimen name="amazon_uni_line_height">20sp</dimen>
+    <dimen name="amazon_uni_button_width">200dp</dimen>
+    <dimen name="amazon_uni_icon_size">32dp</dimen>
+    <dimen name="amazon_uni_button_text">16sp</dimen>
+    <dimen name="amazon_uni_button_vert_padding">42dp</dimen>
+    <dimen name="amazon_uni_button_border_radius">21dp</dimen>
+    
+    <!-- Onboarding 2 -->
+    <dimen name="onboarding_xxlarge_space">30dp</dimen>
+    <dimen name="onboarding_xlarge_space">24dp</dimen>
+    <dimen name="onboarding_large_space">16dp</dimen>
+    <dimen name="onboarding_medium_large_space">12dp</dimen>
+    <dimen name="onboarding_medium_space">8dp</dimen>
+    <dimen name="onboarding_small_space">4dp</dimen>
+
+    <!-- Content Packs -->
+    <dimen name="content_pack_title_text">14sp</dimen>
+    <dimen name="content_pack_title_text_large">18sp</dimen>
+    <dimen name="content_pack_description_text">12sp</dimen>
+    <dimen name="content_pack_description_text_large">14sp</dimen>
+    <dimen name="large_content_pack_image_width">81dp</dimen>
+    <dimen name="large_content_pack_image_height">94dp</dimen>
+    <dimen name="large_content_pack_image_margin">16dp</dimen>
+    <dimen name="large_content_pack_text_left_margin">19dp</dimen>
+
+    <!-- Vertical Videos -->
+    <dimen name="vertical_videos_max_container_width">380dp</dimen>
+
+    <!-- Onboarding 3 -->
+    <dimen name="migration_screens_horizontal_padding">32dp</dimen>
+
+    <!-- Custom Nav -->
+    <dimen name="custom_nav_padding_end">40dp</dimen>
+
+    <!-- Search2 -->
+    <dimen name="chip_stroke_width">1dp</dimen>
+    <!--  Ads min Height -->
+
+    <dimen name="embed_placeholder_height">300dp</dimen>
+    <dimen name="native_article_truncate_expand_icon_size">12sp</dimen>
+    <dimen name="native_article_truncate_expand_text_height">30sp</dimen>
+
+    <dimen name="grid_item_spacing">8dp</dimen>
+    <dimen name="min_sign_in_prompt_height">170dp</dimen>
+</resources>

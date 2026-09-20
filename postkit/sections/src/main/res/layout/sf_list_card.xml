@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp">
+
+    <LinearLayout
+        android:id="@+id/card_parent_view"
+        style="@style/sf_card_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sf_card_border"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/header_text"
+            style="@style/sf_card_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sample Header" />
+
+        <com.wapo.view.ProportionalLayout
+            android:id="@+id/image_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:aspectRatio="1.5">
+
+            <com.washingtonpost.android.volley.toolbox.NetworkAnimatedImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.wapo.view.ProportionalLayout>
+
+
+        <include
+            android:id="@+id/label"
+            layout="@layout/grid_cell_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/sf_card_primary"
+            style="@style/sf_card_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a sample headline that takes up the whole width." />
+
+    </LinearLayout>
+</FrameLayout>

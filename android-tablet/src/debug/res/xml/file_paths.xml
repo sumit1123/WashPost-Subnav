@@ -1,0 +1,4 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <files-path name="debug" path="debug/"/>
+    <cache-path name="shared_images" path="images/"/>
+</paths>

@@ -1,0 +1,451 @@
+{
+  "name": "Typical News Day",
+  "tracking": {
+    "page_name": "front - top-stories"
+  },
+  "regions": [
+    {
+      "location": "top-content",
+      "items": [
+        {
+          "table_name": "top table",
+          "item_type": "grid",
+          "items": [
+            {
+              "table_name": "table 1",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": { "colspan": 32, "row": 0, "col": 0 },
+                "large": { "colspan": 16, "row": 0, "col": 0 },
+                "medium": { "colspan": 12, "row": 0, "col": 0 },
+                "small": { "colspan": 10, "row": 0, "col": 0 },
+                "xsmall": { "colspan": 1, "row": 0, "col": 0 }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "headline": {
+                    "size": "tiny",
+                    "text": "This is a tiny headline.",
+                    "font_style": "regular",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 32, "row": 0, "col": 0 },
+                    "large": { "colspan": 16, "row": 0, "col": 0 },
+                    "medium": { "colspan": 12, "row": 0, "col": 0 },
+                    "small": { "colspan": 10, "row": 0, "col": 0 },
+                    "xsmall": { "colspan": 1, "row": 0, "col": 0 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "This is a extra small headline.",
+                    "font_style": "regular",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 32, "row": 1, "col": 0 },
+                    "large": { "colspan": 16, "row": 1, "col": 0 },
+                    "medium": { "colspan": 12, "row": 1, "col": 0 },
+                    "small": { "colspan": 10, "row": 1, "col": 0 },
+                    "xsmall": { "colspan": 1, "row": 1, "col": 0 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "headline": {
+                    "size": "small",
+                    "text": "This is a small headline.",
+                    "font_style": "regular",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 32, "row": 2, "col": 0 },
+                    "large": { "colspan": 16, "row": 2, "col": 0 },
+                    "medium": { "colspan": 12, "row": 2, "col": 0 },
+                    "small": { "colspan": 10, "row": 2, "col": 0 },
+                    "xsmall": { "colspan": 1, "row": 2, "col": 0 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "headline": {
+                    "size": "medium",
+                    "text": "This is a medium bold headline.",
+                    "font_style": "bold",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 32, "row": 3, "col": 0 },
+                    "large": { "colspan": 16, "row": 3, "col": 0 },
+                    "medium": { "colspan": 12, "row": 3, "col": 0 },
+                    "small": { "colspan": 10, "row": 3, "col": 0 },
+                    "xsmall": { "colspan": 1, "row": 3, "col": 0 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "headline": {
+                    "size": "large",
+                    "text": "This is a large italic headline.",
+                    "font_style": "italic",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 32, "row": 4, "col": 0 },
+                    "large": { "colspan": 16, "row": 4, "col": 0 },
+                    "medium": { "colspan": 12, "row": 4, "col": 0 },
+                    "small": { "colspan": 10, "row": 4, "col": 0 },
+                    "xsmall": { "colspan": 1, "row": 4, "col": 0 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "headline": {
+                    "size": "x-large",
+                    "text": "This is a extra large headline.",
+                    "font_style": "regular",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 32, "row": 5, "col": 0 },
+                    "large": { "colspan": 16, "row": 5, "col": 0 },
+                    "medium": { "colspan": 12, "row": 5, "col": 0 },
+                    "small": { "colspan": 10, "row": 5, "col": 0 },
+                    "xsmall": { "colspan": 1, "row": 5, "col": 0 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "headline": {
+                    "size": "huge",
+                    "text": "This is a huge headline.",
+                    "font_style": "regular",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 32, "row": 6, "col": 0 },
+                    "large": { "colspan": 16, "row": 6, "col": 0 },
+                    "medium": { "colspan": 12, "row": 6, "col": 0 },
+                    "small": { "colspan": 10, "row": 6, "col": 0 },
+                    "xsmall": { "colspan": 1, "row": 6, "col": 0 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "headline": {
+                    "size": "massive",
+                    "text": "This is a massive headline.",
+                    "font_style": "regular",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 32, "row": 7, "col": 0 },
+                    "large": { "colspan": 16, "row": 7, "col": 0 },
+                    "medium": { "colspan": 12, "row": 7, "col": 0 },
+                    "small": { "colspan": 10, "row": 7, "col": 0 },
+                    "xsmall": { "colspan": 1, "row": 7, "col": 0 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "headline": {
+                    "size": "colossal",
+                    "text": "This is a colossal headline.",
+                    "font_style": "regular",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 32, "row": 8, "col": 0 },
+                    "large": { "colspan": 16, "row": 8, "col": 0 },
+                    "medium": { "colspan": 12, "row": 8, "col": 0 },
+                    "small": { "colspan": 10, "row": 8, "col": 0 },
+                    "xsmall": { "colspan": 1, "row": 8, "col": 0 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "headline": {
+                    "size": "colossal-all-caps",
+                    "text": "This is a colossal all caps headline.",
+                    "font_style": "regular",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 32, "row": 9, "col": 0 },
+                    "large": { "colspan": 16, "row": 9, "col": 0 },
+                    "medium": { "colspan": 12, "row": 9, "col": 0 },
+                    "small": { "colspan": 10, "row": 9, "col": 0 },
+                    "xsmall": { "colspan": 1, "row": 9, "col": 0 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "headline": {
+                    "size": "jumbo",
+                    "text": "This is a jumbo headline.",
+                    "font_style": "regular",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 32, "row": 10, "col": 0 },
+                    "large": { "colspan": 16, "row": 10, "col": 0 },
+                    "medium": { "colspan": 12, "row": 10, "col": 0 },
+                    "small": { "colspan": 10, "row": 10, "col": 0 },
+                    "xsmall": { "colspan": 1, "row": 10, "col": 0 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "headline": {
+                    "size": "jumbo-all-caps",
+                    "text": "This is a jumbo all caps headline.",
+                    "font_style": "regular",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 32, "row": 11, "col": 0 },
+                    "large": { "colspan": 16, "row": 11, "col": 0 },
+                    "medium": { "colspan": 12, "row": 11, "col": 0 },
+                    "small": { "colspan": 10, "row": 11, "col": 0 },
+                    "xsmall": { "colspan": 1, "row": 11, "col": 0 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "headline": {
+                    "size": "gargantuan",
+                    "text": "This is a gargantuan headline.",
+                    "font_style": "regular",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 32, "row": 12, "col": 0 },
+                    "large": { "colspan": 16, "row": 12, "col": 0 },
+                    "medium": { "colspan": 12, "row": 12, "col": 0 },
+                    "small": { "colspan": 10, "row": 12, "col": 0 },
+                    "xsmall": { "colspan": 1, "row": 12, "col": 0 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "headline": {
+                    "size": "gargantuan-all-caps",
+                    "text": "This is a gargantuan all caps headline.",
+                    "font_style": "regular",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 32, "row": 13, "col": 0 },
+                    "large": { "colspan": 16, "row": 13, "col": 0 },
+                    "medium": { "colspan": 12, "row": 13, "col": 0 },
+                    "small": { "colspan": 10, "row": 13, "col": 0 },
+                    "xsmall": { "colspan": 1, "row": 13, "col": 0 }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline",
+                          "blurbs",
+                          "signature",
+                          "related_links"
+                        ]
+                      }
+                    }
+                  },
+                  "headline": {
+                    "size": "medium",
+                    "text": "This is a medium headline.",
+                    "font_style": "regular",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Dan Balz and Scott Clement"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Nearly half of Americans say the House should recommend that Trump be removed from office.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "related_links": {
+                    "label": {
+                      "type": "mini-all-caps",
+                      "alignment": "inherit",
+                      "label": {
+                        "text": "MORE-OR-LESS COVERAGE"
+                      }
+                    },
+                    "items": [
+                      {
+                        "text": "Related Link #1",
+                        "url": "#1"
+                      },
+                      {
+                        "text": "Related Link #2",
+                        "url": "#rl2"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "normal"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 32, "row": 14, "col": 0 },
+                    "large": { "colspan": 16, "row": 14, "col": 0 },
+                    "medium": { "colspan": 12, "row": 14, "col": 0 },
+                    "small": { "colspan": 10, "row": 14, "col": 0 },
+                    "xsmall": { "colspan": 1, "row": 14, "col": 0 }
+                  }
+                }
+              ]
+            }
+          ],
+          "layout_attributes": {
+            "large": {},
+            "medium": {},
+            "xlarge": {},
+            "small": {},
+            "xsmall": {}
+          }
+        }
+      ]
+    }
+  ]
+}

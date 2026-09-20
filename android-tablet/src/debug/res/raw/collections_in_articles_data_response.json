@@ -1,0 +1,882 @@
+{
+  "request_id": "collections-80951ab7-c490-4c05-9961-a826531cf074",
+  "test_group": "test",
+  "collections": [
+    {
+      "title": "Related Articles",
+      "collection_category": "auto_collect",
+      "articles": [
+        {
+          "_id": "VF3VIOYW2NGQJDHLX47DV5XMEQ",
+          "canonical_url": "/style/media/2025/06/09/journalists-injured-la-protests/",
+          "headlines": {
+            "basic": "Journalists come under fire covering L.A. protests"
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": null,
+                "name": "Scott Nover"
+              },
+              {
+                "_id": null,
+                "name": "Jeremy Barr"
+              }
+            ]
+          },
+          "display_date": "2025-06-10T13:18:44.474Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JUOJCV2N4ZY5AHWY57E44PUPHU.jpg",
+              "additional_properties": {
+                "originalUrl": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JUOJCV2N4ZY5AHWY57E44PUPHU.jpg",
+                "size_normalized_url": null
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "The Media",
+              "url": "https://www.washingtonpost.com/style/media/",
+              "display": true,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": "",
+              "display": true,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "Reporters say they were struck with less-lethal rounds fired by law enforcement in Los Angeles. Advocates worry it will inhibit vital journalism.       "
+          },
+          "type": "story"
+        },
+        {
+          "_id": "2CQXH3HTRUI7BJG4576HJSZFV4",
+          "canonical_url": "/world/2026/01/17/bangladesh-media-attacks-press-freedom/d0a173ec-f38d-11f0-a4dc-effc74cb25af_story.html",
+          "headlines": {
+            "basic": "Journalists in Bangladesh demand protection amid rising attacks"
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": null,
+                "name": "Julhas Alam | AP"
+              }
+            ]
+          },
+          "display_date": "2026-01-17T10:47:29.000Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/43EKYXXTSEI7BJG4576HJSZFV4.jpg",
+              "additional_properties": {
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/43EKYXXTSEI7BJG4576HJSZFV4.jpg",
+                "size_normalized_url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/43EKYXXTSEI7BJG4576HJSZFV4_size-normalized.jpg"
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "World",
+              "url": "/world/",
+              "display": null,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": null,
+              "display": null,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "Journalists and media leaders in Bangladesh are demanding protection after recent attacks on two major newspapers"
+          },
+          "type": "story"
+        },
+        {
+          "_id": "6UXGIWPPP5B55JY2M2KN4WLRHM",
+          "canonical_url": "/politics/2025/09/30/new-york-immigration-journalists-confrontation/",
+          "headlines": {
+            "basic": "Journalists shoved by federal agents outside New York immigration court"
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": null,
+                "name": "Brianna Tucker"
+              }
+            ]
+          },
+          "display_date": "2025-10-01T02:09:25.634Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X2Z6GTK4RIODM2JO2HYNW4ZSAI.jpg",
+              "additional_properties": {
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X2Z6GTK4RIODM2JO2HYNW4ZSAI.jpg",
+                "size_normalized_url": null
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "Politics",
+              "url": "https://www.washingtonpost.com/politics/",
+              "display": true,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": "",
+              "display": true,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "Video of the incident shows masked agents pushing two journalists to the ground, the latest confrontation between immigration officials and those documenting their actions."
+          },
+          "type": "story"
+        },
+        {
+          "_id": "6NLSADA4UYI7DIU47VB5VGSHTI",
+          "canonical_url": "/world/2026/03/10/americas-press-freedom-annual-report/f357200c-1ca6-11f1-a29c-fd43da9a479a_story.html",
+          "headlines": {
+            "basic": "Press freedom in the Americas saw a 'dramatic deterioration' last year, watchdog says"
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": null,
+                "name": "Astrid SuÁrez | AP"
+              }
+            ]
+          },
+          "display_date": "2026-03-10T22:04:34.000Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/STW7S7Q4VII7DIU47VB5VGSHTI.jpg",
+              "additional_properties": {
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/STW7S7Q4VII7DIU47VB5VGSHTI.jpg",
+                "size_normalized_url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/STW7S7Q4VII7DIU47VB5VGSHTI_size-normalized.jpg"
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "World",
+              "url": "/world/",
+              "display": null,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": null,
+              "display": null,
+              "additional_properties": null
+            },
+            "ai_audio_enabled": {
+              "url": "",
+              "text": "true",
+              "display": true
+            }
+          },
+          "description": {
+            "basic": "A monitoring watchdog says press freedom across the Americas dropped sharply in 2025, with more killings, arrests and intimidation of media workers"
+          },
+          "type": "story"
+        },
+        {
+          "_id": "2IQT2ENUOZHHTFU7IACK7YTO5U",
+          "canonical_url": "/politics/2025/10/11/trump-press-antifa-maga/",
+          "headlines": {
+            "basic": "For Trump, media manipulation is his show of force"
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": null,
+                "name": "Sarah Ellison"
+              }
+            ]
+          },
+          "display_date": "2025-10-11T11:00:58.052Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/PKVXFFMDPMSZ4E6ELJCIJAFD5M.JPG",
+              "additional_properties": {
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/PKVXFFMDPMSZ4E6ELJCIJAFD5M.JPG",
+                "size_normalized_url": null
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "Democracy in America",
+              "url": "https://www.washingtonpost.com/politics/democracy-in-america/",
+              "display": true,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": "",
+              "display": true,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "The president has long attacked the media as “fake news,” but the White House has created a new crop of journalists to advance its policy priorities."
+          },
+          "type": "story"
+        },
+        {
+          "_id": "AKPS25WXFFCRXIHK5G2UFG6XPU",
+          "canonical_url": "/business/2025/10/08/pentagon-press-rules/",
+          "headlines": {
+            "basic": "Pentagon’s revised press rules are unacceptable, journalists’ group says"
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": null,
+                "name": "Scott Nover"
+              }
+            ]
+          },
+          "display_date": "2025-10-08T20:52:01.127Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/PRA6NWSK3PJ3FWZ6XUWGPKMOSQ.JPG",
+              "additional_properties": {
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/PRA6NWSK3PJ3FWZ6XUWGPKMOSQ.JPG",
+                "size_normalized_url": null
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "Media",
+              "url": "https://www.washingtonpost.com/business/media/",
+              "display": true,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": "",
+              "display": true,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "The Pentagon Press Association said the government’s policy still appears “designed to stifle a free press and potentially expose us to prosecution.”"
+          },
+          "type": "story"
+        },
+        {
+          "_id": "GIQH37HR2EI7BJG4576HJSZFV4",
+          "canonical_url": "/politics/2026/01/15/reporter-raid-washington-post-press-freedom-trump/32207dfc-f1d1-11f0-a4dc-effc74cb25af_story.html",
+          "headlines": {
+            "basic": "Press freedom advocates worry that raid on Washington Post journalist's home will chill reporting"
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": null,
+                "name": "David Bauder | AP"
+              }
+            ]
+          },
+          "display_date": "2026-01-15T17:56:25.000Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/GJRIIPXRKYI7BJG4576HJSZFV4.jpg",
+              "additional_properties": {
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/GJRIIPXRKYI7BJG4576HJSZFV4.jpg",
+                "size_normalized_url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GJRIIPXRKYI7BJG4576HJSZFV4_size-normalized.jpg"
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "Politics",
+              "url": "/politics/",
+              "display": null,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": null,
+              "display": null,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "Press freedom advocates are concerned this week’s raid on a Washington Post journalist’s home will deter reporting on government actions and silence whistleblowers"
+          },
+          "type": "story"
+        },
+        {
+          "_id": "GAZNDMXHAFEAJM5FRIHVKV25IM",
+          "canonical_url": "/business/2026/01/25/trump-media-lawsuits/",
+          "headlines": {
+            "basic": "Trump has ramped up lawsuits against the media. Here’s where they stand."
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": null,
+                "name": "Laura Wagner"
+              },
+              {
+                "_id": null,
+                "name": "Scott Nover"
+              }
+            ]
+          },
+          "display_date": "2026-01-25T10:00:41.546Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/6PO2YJHXBRB73FN3REGI5HYVIU.jpg",
+              "additional_properties": {
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/6PO2YJHXBRB73FN3REGI5HYVIU.jpg",
+                "size_normalized_url": null
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "Media",
+              "url": "https://www.washingtonpost.com/business/media/",
+              "display": true,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": "",
+              "display": true,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "While the president has settled some suits, and judges have dismissed others, his court fights continue with the New York Times, the Wall Street Journal and other news outlets."
+          },
+          "type": "story"
+        },
+        {
+          "_id": "HVZILBYZNZCYRMEXK6DL4WCQMY",
+          "canonical_url": "/business/2025/12/04/new-york-times/",
+          "headlines": {
+            "basic": "The New York Times sues the Pentagon over press restrictions"
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": null,
+                "name": "Scott Nover"
+              }
+            ]
+          },
+          "display_date": "2025-12-04T15:52:30.393Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/H2DJYPNDK4TSZ2DYIETWUQLYQE.JPG",
+              "additional_properties": {
+                "originalUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/H2DJYPNDK4TSZ2DYIETWUQLYQE.JPG",
+                "size_normalized_url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/H2DJYPNDK4TSZ2DYIETWUQLYQE_size-normalized.JPG"
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "Media",
+              "url": "https://www.washingtonpost.com/business/media/",
+              "display": true,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": "",
+              "display": true,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "Defense Secretary Pete Hegseth’s requirement that journalists pledge not to solicit any unauthorized information violates the First and Fifth amendments, the newspaper alleges, calling it “an attempt to exert control over reporting the government dislikes.”"
+          },
+          "type": "story"
+        }
+      ]
+    },
+    {
+      "title": "Most Read",
+      "collection_category": "most_read",
+      "articles": [
+        {
+          "_id": "ZMIQLTUNMFEELEBFU6X25CQJR4",
+          "canonical_url": "/politics/2026/03/18/hegseth-rubio-drone-targeting-iran/",
+          "headlines": {
+            "basic": "Drones over base where Rubio, Hegseth live raise security concerns"
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": "arnsdorfi",
+                "name": "Isaac Arnsdorf"
+              },
+              {
+                "_id": "CoppT",
+                "name": "Tara  Copp"
+              }
+            ]
+          },
+          "display_date": "2026-03-19T02:35:02.248Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BVUBBFVWW4CT7H7DHRDWPTNR24.jpg",
+              "additional_properties": {
+                "originalUrl": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BVUBBFVWW4CT7H7DHRDWPTNR24.jpg",
+                "size_normalized_url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BVUBBFVWW4CT7H7DHRDWPTNR24_size-normalized.jpg"
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "White House",
+              "url": "https://www.washingtonpost.com/politics/white-house/",
+              "display": true,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": "",
+              "display": true,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "Lockdowns at U.S. bases and a global security alert underscore concerns that Iranian retaliation could extend to officials on American soil."
+          },
+          "type": "story"
+        },
+        {
+          "_id": "6F4H2FU4FBE3DFRDEVV4WSTYPY",
+          "canonical_url": "/wellness/2026/03/19/dash-diet-cognitive-function/",
+          "headlines": {
+            "basic": "This diet beats out 5 others when it comes to cognitive health, study finds"
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": null,
+                "name": "Sarah Klein"
+              }
+            ]
+          },
+          "display_date": "2026-03-19T10:00:00.621Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2U3XU3TSYVFEMBBMNFWS3FMLII.jpg",
+              "additional_properties": {
+                "originalUrl": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2U3XU3TSYVFEMBBMNFWS3FMLII.jpg",
+                "size_normalized_url": null
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "Well+Being",
+              "url": "https://www.washingtonpost.com/wellbeing/",
+              "display": true,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": "",
+              "display": true,
+              "additional_properties": null
+            },
+            "story_length": {
+              "display": true,
+              "text": "3. Large (1000 words to 1500 words)",
+              "url": ""
+            },
+            "user_need": {
+              "display": true,
+              "text": "Educate me",
+              "url": ""
+            }
+          },
+          "description": {
+            "basic": "Two studies have found the DASH diet — either alone or combined with the Mediterranean diet — is a winner for lowering the risk of dementia."
+          },
+          "type": "story"
+        },
+        {
+          "_id": "CU4FLDJUZ5GUHIAI4KGR4R3P3A",
+          "canonical_url": "/politics/2026/03/19/trump-gold-coin-arts-commission/",
+          "headlines": {
+            "basic": "Trump’s face on a gold coin? His hand-picked panel will decide."
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": "diamondd",
+                "name": "Dan Diamond"
+              }
+            ]
+          },
+          "display_date": "2026-03-19T09:00:55.897Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X4U3DYW7WNBKZEJX7NWLCC7LRQ.jpg",
+              "additional_properties": {
+                "originalUrl": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/X4U3DYW7WNBKZEJX7NWLCC7LRQ.jpg",
+                "size_normalized_url": null
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "White House",
+              "url": "https://www.washingtonpost.com/politics/white-house/",
+              "display": true,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": "",
+              "display": true,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "The proposal has already been resisted by members of a separate federal coin committee — and panned by former member Kareem Abdul-Jabbar."
+          },
+          "type": "story"
+        },
+        {
+          "_id": "WNGUCV5TSFHR5BS2VWC2ZGCAEI",
+          "canonical_url": "/immigration/2026/03/19/mullin-trump-dhs-senate-confirmation/",
+          "headlines": {
+            "basic": "Trump nomination of Mullin for DHS chief advances out of Senate committee"
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": "levinem",
+                "name": "Marianne LeVine"
+              }
+            ]
+          },
+          "display_date": "2026-03-19T14:34:47.054Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LPWGYTIJSXICPYFDLYC52DPD5E.JPG",
+              "additional_properties": {
+                "originalUrl": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LPWGYTIJSXICPYFDLYC52DPD5E.JPG",
+                "size_normalized_url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LPWGYTIJSXICPYFDLYC52DPD5E_size-normalized.JPG"
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "Immigration",
+              "url": "https://www.washingtonpost.com/local/immigration/",
+              "display": true,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": "",
+              "display": true,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "A committee voted in favor of sending Sen. Markwayne Mullin’s nomination to lead the Department of Homeland Security to the full Senate for consideration."
+          },
+          "type": "story"
+        },
+        {
+          "_id": "DP7FGJRBEBHR7AZWAFBESFD3NE",
+          "canonical_url": "/world/2026/03/19/us-iran-war-trump-gas-prices-qatar/",
+          "headlines": {
+            "basic": "Oil prices soar as Iran targets energy facilities across Persian Gulf"
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": "crawvl",
+                "name": "Victoria Craw"
+              },
+              {
+                "_id": null,
+                "name": "Siham Shamalakh"
+              },
+              {
+                "_id": "CoppT",
+                "name": "Tara  Copp"
+              }
+            ]
+          },
+          "display_date": "2026-03-19T14:50:47.878Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5LCWUM2EQ3XXEYYCVJJMZNWZDI.jpg",
+              "additional_properties": {
+                "originalUrl": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5LCWUM2EQ3XXEYYCVJJMZNWZDI.jpg",
+                "size_normalized_url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5LCWUM2EQ3XXEYYCVJJMZNWZDI_size-normalized.jpg"
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "Middle East",
+              "url": "https://www.washingtonpost.com/world/middle-east/",
+              "display": true,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": "",
+              "display": true,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "The price of Brent crude climbed past $115 per barrel as Qatar, Saudi Arabia and Kuwait reported more attacks on infrastructure and the U.S. and Iran traded threats."
+          },
+          "type": "story"
+        },
+        {
+          "_id": "6T6CRNIFZVEUDAC4RIDCY47OMA",
+          "canonical_url": "/national-security/2026/03/18/iran-cost-budget-pentagon/",
+          "headlines": {
+            "basic": "Pentagon seeks more than $200 billion in budget request for Iran war"
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": "Robertsonn",
+                "name": "Noah Robertson"
+              },
+              {
+                "_id": "steinj",
+                "name": "Jeff Stein"
+              },
+              {
+                "_id": "begginr",
+                "name": "Riley Beggin"
+              }
+            ]
+          },
+          "display_date": "2026-03-18T23:04:33.885Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JP6AOZ6G2MKVHQPSGZ5NCN4DBA.JPG",
+              "additional_properties": {
+                "originalUrl": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JP6AOZ6G2MKVHQPSGZ5NCN4DBA.JPG",
+                "size_normalized_url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JP6AOZ6G2MKVHQPSGZ5NCN4DBA_size-normalized.JPG"
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "Economy",
+              "url": "https://www.washingtonpost.com/economy/",
+              "display": true,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": "",
+              "display": true,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "That figure would far surpass the costs of the U.S. airstrike campaign to date and aims to boost production of critical weapons depleted in the conflict, people familiar with the matter said."
+          },
+          "type": "story"
+        },
+        {
+          "_id": "A4GPUZJFMVHCHEDWQFBINI2FAM",
+          "canonical_url": "/business/2026/03/19/trump-voice-of-america-lawsuit-restored/",
+          "headlines": {
+            "basic": "How Kari Lake’s dismantling of Voice of America unraveled in court"
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": "novers",
+                "name": "Scott Nover"
+              }
+            ]
+          },
+          "display_date": "2026-03-19T10:00:42.493Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/AOPNDO4IXDHGTCI53KUIM74HHI.jpg",
+              "additional_properties": {
+                "originalUrl": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/AOPNDO4IXDHGTCI53KUIM74HHI.jpg",
+                "size_normalized_url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/AOPNDO4IXDHGTCI53KUIM74HHI_size-normalized.jpg"
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "Media",
+              "url": "https://www.washingtonpost.com/business/media/",
+              "display": true,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": "",
+              "display": true,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "A judge handed VOA employees a long-awaited victory, calling over a thousand back from administrative leave. Now, they aim to rebuild trust and make up for lost time."
+          },
+          "type": "story"
+        },
+        {
+          "_id": "UBHMJWT5PFBILJJGALHBMQD4WI",
+          "canonical_url": "/politics/2026/03/19/vance-iran-war-trump/",
+          "headlines": {
+            "basic": "Vance is in a bind, supporting a war that could cost him politically  "
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": "allisonn",
+                "name": "Natalie Allison"
+              },
+              {
+                "_id": "hudsonj",
+                "name": "John Hudson"
+              }
+            ]
+          },
+          "display_date": "2026-03-19T14:40:04.528Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/M5MK5YTB45HSWNET5SEMSC3U54.jpg",
+              "additional_properties": {
+                "originalUrl": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/M5MK5YTB45HSWNET5SEMSC3U54.jpg",
+                "size_normalized_url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/M5MK5YTB45HSWNET5SEMSC3U54_size-normalized.jpg"
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "White House",
+              "url": "https://www.washingtonpost.com/politics/white-house/",
+              "display": true,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": "",
+              "display": true,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "People close to JD Vance concede that a long conflict will be a challenge for the next GOP nominee but say the vice president hasn’t made up his mind about running."
+          },
+          "type": "story"
+        },
+        {
+          "_id": "2XHYP2WCUVHCBKMUDUX7UIQR4A",
+          "canonical_url": "/travel/2026/03/19/airfare-surge-fuel-costs/",
+          "headlines": {
+            "basic": "Airfares are spiking. Here’s how to navigate the hikes."
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": "sachsal",
+                "name": "Andrea Sachs"
+              }
+            ]
+          },
+          "display_date": "2026-03-19T09:00:02.281Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OFC5NCWCCFCKVNRD7VNBXSIUAM.jpg",
+              "additional_properties": {
+                "originalUrl": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OFC5NCWCCFCKVNRD7VNBXSIUAM.jpg",
+                "size_normalized_url": null
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "Travel",
+              "url": "https://www.washingtonpost.com/lifestyle/travel/",
+              "display": true,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "News",
+              "url": "",
+              "display": true,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "Airfares are surging due to rising fuel costs linked to the Iran war, with some flights seeing dramatic price increases. "
+          },
+          "type": "story"
+        },
+        {
+          "_id": "DNPSU7OS35DOXJ35EFOAICVY5Q",
+          "canonical_url": "/opinions/2026/03/18/national-debt-baby-boomers-medicare-social-security-trillions/",
+          "headlines": {
+            "basic": "The nation’s accelerating self-assassination"
+          },
+          "credits": {
+            "by": [
+              {
+                "_id": "willg",
+                "name": "George F. Will"
+              }
+            ]
+          },
+          "display_date": "2026-03-18T20:24:10.128Z",
+          "promo_items": {
+            "basic": {
+              "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RH5SJI545JCY247PNHIMU7VGFA.JPG",
+              "additional_properties": {
+                "originalUrl": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RH5SJI545JCY247PNHIMU7VGFA.JPG",
+                "size_normalized_url": null
+              }
+            }
+          },
+          "label": {
+            "basic": {
+              "text": "Opinions",
+              "url": "https://www.washingtonpost.com/opinions/",
+              "display": true,
+              "additional_properties": null
+            },
+            "transparency": {
+              "text": "Opinion",
+              "url": "",
+              "display": true,
+              "additional_properties": null
+            }
+          },
+          "description": {
+            "basic": "The national debt is heading for $40 trillion. Blame “Total Boomer Luxury Communism.”"
+          },
+          "type": "story"
+        }
+      ]
+    }
+  ]
+}

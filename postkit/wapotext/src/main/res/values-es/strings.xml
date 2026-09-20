@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="font_size_multiplier_1">Pequeño</string>
+    <string name="font_size_multiplier_2">Mediano</string>
+    <string name="font_size_multiplier_3">Grande</string>
+    <string name="font_size_multiplier_4">Extra grande</string>
+    <string name="font_size_dialog_title">Tamaño del texto</string>
+</resources>

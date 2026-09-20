@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_pressed="true"
+    android:color="@color/print_edition_calendar_selected_background" />
+    <item android:state_selected="true"
+        android:color="@color/print_edition_calendar_selected_background"/>
+<item android:color="@color/print_edition_pdf_thumbnail_text" />
+</selector>

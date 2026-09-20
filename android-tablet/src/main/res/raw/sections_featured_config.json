@@ -1,0 +1,850 @@
+{
+  "id": "/",
+  "children": [
+    {
+      "id": "/classic-apps/classic-app-top-stories",
+      "type": "section",
+      "path": "/utils/homepageforoldapps/",
+      "path_fusion": "/./",
+      "name": "Top Stories",
+      "nav_name": "Top Stories",
+      "aliases": [
+        "/top-stories/"
+      ]
+    },
+    {
+      "id": "/politics",
+      "type": "section",
+      "path": "/politics/",
+      "path_fusion": "/politics",
+      "name": "Politics",
+      "nav_name": "Politics",
+      "children": [
+        {
+          "id": "/elections/election-2024",
+          "type": "section",
+          "path": "/elections/election-2024/",
+          "path_fusion": "/elections/election-2024/",
+          "name": "Election 2024",
+          "nav_name": "Election 2024",
+          "aliases": [
+            "/elections/election-2024",
+            "/election-2024"
+          ]
+        },
+        {
+          "id": "/politics/courts-law",
+          "type": "section",
+          "path": "/politics/courts-law/",
+          "path_fusion": "/politics/courts-law",
+          "name": "Courts & Law",
+          "nav_name": "Courts & Law",
+          "aliases": [
+            "/politics/courts-law"
+          ]
+        },
+        {
+          "id": "/politics/democracy-in-america",
+          "type": "section",
+          "path": "/politics/democracy-in-america/",
+          "path_fusion": "/politics/democracy-in-america/",
+          "name": "Democracy in America",
+          "nav_name": "Democracy in America",
+          "aliases": [
+            "/politics/democracy-in-america"
+          ]
+        },
+        {
+          "id": "/politics/fact-checker",
+          "type": "section",
+          "path": "/politics/fact-checker/",
+          "path_fusion": "/politics/fact-checker",
+          "name": "Fact Checker",
+          "nav_name": "Fact Checker",
+          "aliases": [
+            "/politics/fact-checker",
+            "/news/fact-checker",
+            "/factchecker",
+            "/blogs/fact-checker"
+          ]
+        },
+        {
+          "id": "/politics/the-fix",
+          "type": "section",
+          "path": "/politics/the-fix/",
+          "path_fusion": "/politics/the-fix",
+          "name": "The Fix",
+          "nav_name": "The Fix",
+          "aliases": [
+            "/politics/the-fix",
+            "/news/the-fix",
+            "/the-fix"
+          ]
+        },
+        {
+          "id": "/us-policy",
+          "type": "section",
+          "path": "/us-policy/",
+          "path_fusion": "/us-policy",
+          "name": "Policy",
+          "nav_name": "Policy",
+          "aliases": [
+            "/us-policy"
+          ]
+        },
+        {
+          "id": "/politics/polling",
+          "type": "section",
+          "path": "/politics/polling/",
+          "path_fusion": "/politics/polling",
+          "name": "Polling",
+          "nav_name": "Polling",
+          "aliases": [
+            "/politics/polling",
+            "/polling",
+            "/polls"
+          ]
+        },
+        {
+          "id": "/politics/white-house",
+          "type": "section",
+          "path": "/politics/white-house/",
+          "path_fusion": "/politics/white-house",
+          "name": "White House",
+          "nav_name": "White House",
+          "aliases": [
+            "/politics/white-house",
+            "/politics/whitehouse",
+            "/politics/white-house/gJQAugUh6W_topic.html"
+          ]
+        }
+      ],
+      "aliases": [
+        "/politics",
+        "/politics/post-politics"
+      ]
+    },
+    {
+      "id": "/opinions",
+      "type": "section",
+      "path": "/opinions/",
+      "path_fusion": "/opinions/",
+      "name": "Opinions",
+      "nav_name": "Opinions",
+      "children": [
+        {
+          "id": "/opinions/the-posts-view",
+          "type": "section",
+          "path": "/opinions/the-posts-view/",
+          "path_fusion": "/opinions/the-posts-view",
+          "name": "The Post's View",
+          "nav_name": "The Post's View",
+          "aliases": [
+            "/opinions/the-posts-view"
+          ]
+        },
+        {
+          "id": "/opinions/columns",
+          "type": "section",
+          "path": "/opinions/columns/",
+          "path_fusion": "/opinions/columns",
+          "name": "Columns",
+          "nav_name": "Columns",
+          "aliases": [
+            "/opinions/columns"
+          ]
+        },
+        {
+          "id": "/opinions/guest-opinions",
+          "type": "section",
+          "path": "/opinions/guest-opinions/",
+          "path_fusion": "/opinions/guest-opinions",
+          "name": "Guest Opinions",
+          "nav_name": "Guest Opinions",
+          "aliases": [
+            "/opinions/guest-opinions"
+          ]
+        },
+        {
+          "id": "/opinions/cartoons",
+          "type": "section",
+          "path": "/opinions/cartoons/",
+          "path_fusion": "/opinions/cartoons",
+          "name": "Editorial Cartoons",
+          "nav_name": "Editorial Cartoons",
+          "aliases": [
+            "/opinions/cartoons",
+            "/editorial-cartoons"
+          ]
+        },
+        {
+          "id": "/opinions/letters-to-the-editor",
+          "type": "section",
+          "path": "/opinions/letters-to-the-editor/",
+          "path_fusion": "/opinions/letters-to-the-editor",
+          "name": "Letters to the Editor",
+          "nav_name": "Letters to the Editor",
+          "aliases": [
+            "/opinions/letters-to-the-editor",
+            "/letters-to-the-editor"
+          ]
+        }
+      ],
+      "aliases": [
+        "/opinions",
+        "/opinions/plum-line",
+        "/opinions/post-partisan",
+        "/opinions/act-four"
+      ]
+    },
+    {
+      "id": "/style",
+      "type": "section",
+      "path": "/style/",
+      "path_fusion": "/style/",
+      "name": "Style",
+      "nav_name": "Style",
+      "children": [
+        {
+          "id": "/style/fashion",
+          "type": "section",
+          "path": "/style/fashion/",
+          "path_fusion": "/style/fashion/",
+          "name": "Fashion",
+          "nav_name": "Fashion",
+          "aliases": [
+            "/style/fashion",
+            "/lifestyle/fashion"
+          ]
+        },
+        {
+          "id": "/style/power",
+          "type": "section",
+          "path": "/style/power/",
+          "path_fusion": "/style/power/",
+          "name": "Power",
+          "nav_name": "Power",
+          "aliases": [
+            "/style/power"
+          ]
+        },
+        {
+          "id": "/style/of-interest",
+          "type": "section",
+          "path": "/style/of-interest/",
+          "path_fusion": "/style/of-interest/",
+          "name": "Trends",
+          "nav_name": "Trends",
+          "aliases": [
+            "/style/of-interest",
+            "/style/trends"
+          ]
+        }
+      ],
+      "aliases": [
+        "/style",
+        "/lifestyle/style",
+        "/conversations"
+      ]
+    },
+    {
+      "id": "/national/investigations",
+      "type": "section",
+      "path": "/national/investigations/",
+      "path_fusion": "/national/investigations",
+      "name": "Investigations",
+      "nav_name": "Investigations",
+      "aliases": [
+        "/national/investigations"
+      ]
+    },
+    {
+      "id": "/climate-environment",
+      "type": "section",
+      "path": "/climate-environment/",
+      "path_fusion": "/climate-environment",
+      "name": "Climate",
+      "nav_name": "Climate",
+      "children": [
+        {
+          "id": "/climate-environment/climate-lab",
+          "type": "section",
+          "path": "/climate-environment/climate-lab/",
+          "path_fusion": "/climate-environment/climate-lab/",
+          "name": "Climate Lab",
+          "nav_name": "Climate Lab",
+          "aliases": [
+            "/climate-environment/climate-lab"
+          ]
+        },
+        {
+          "id": "/climate-environment/climate-solutions",
+          "type": "section",
+          "path": "/climate-environment/climate-solutions/",
+          "path_fusion": "/climate-solutions/",
+          "name": "Climate Solutions",
+          "nav_name": "Climate Solutions",
+          "aliases": [
+            "/climate-environment/climate-solutions",
+            "/climate-solutions"
+          ]
+        },
+        {
+          "id": "/climate-environment/environment",
+          "type": "section",
+          "path": "/climate-environment/environment/",
+          "path_fusion": "/climate-environment/environment",
+          "name": "Environment",
+          "nav_name": "Environment",
+          "aliases": [
+            "/climate-environment/environment"
+          ]
+        },
+        {
+          "id": "/climate-environment/green-living",
+          "type": "section",
+          "path": "/climate-environment/green-living/",
+          "path_fusion": "/climate-environment/green-living/",
+          "name": "Green Living",
+          "nav_name": "Green Living",
+          "aliases": [
+            "/climate-environment/green-living"
+          ]
+        }
+      ],
+      "aliases": [
+        "/climate-environment"
+      ]
+    },
+    {
+      "id": "/utils/tablet/recipes-app-only-search-bar",
+      "type": "section",
+      "path": "/utils/tablet/recipes-app-only-search-bar/",
+      "path_fusion": "/tablet/recipes-app-only-search-bar/",
+      "name": "Recipes",
+      "nav_name": "Recipes",
+      "aliases": [
+        "/utils/tablet/recipes-app-only-search-bar",
+        "/recipes"
+      ]
+    },
+    {
+      "id": "/wellbeing",
+      "type": "section",
+      "path": "/wellbeing/",
+      "path_fusion": "/wellbeing",
+      "name": "Well+Being",
+      "nav_name": "Well+Being",
+      "children": [
+        {
+          "id": "/wellbeing/food",
+          "type": "section",
+          "path": "/wellbeing/food/",
+          "path_fusion": "/wellbeing/food",
+          "name": "Food & Nutrition",
+          "nav_name": "Food",
+          "aliases": [
+            "/wellbeing/food-nutrition",
+            "/wellbeing/food"
+          ]
+        },
+        {
+          "id": "/wellbeing/fitness",
+          "type": "section",
+          "path": "/wellbeing/fitness/",
+          "path_fusion": "/wellbeing/fitness",
+          "name": "Fitness",
+          "nav_name": "Fitness",
+          "aliases": [
+            "/wellbeing/fitness"
+          ]
+        },
+        {
+          "id": "/wellbeing/mind",
+          "type": "section",
+          "path": "/wellbeing/mind/",
+          "path_fusion": "/wellbeing/mind",
+          "name": "Mind",
+          "nav_name": "Mind",
+          "aliases": [
+            "/wellbeing/mind"
+          ]
+        },
+        {
+          "id": "/wellbeing/body",
+          "type": "section",
+          "path": "/wellbeing/body/",
+          "path_fusion": "/wellbeing/body",
+          "name": "Body",
+          "nav_name": "Body",
+          "aliases": [
+            "/wellbeing/body"
+          ]
+        },
+        {
+          "id": "/wellbeing/life",
+          "type": "section",
+          "path": "/wellbeing/life/",
+          "path_fusion": "/wellbeing/life",
+          "name": "Life",
+          "nav_name": "Life",
+          "aliases": [
+            "/wellbeing/life"
+          ]
+        }
+      ],
+      "aliases": [
+        "/wellbeing",
+        "/well-being",
+        "/lifestyle/wellness"
+      ]
+    },
+    {
+      "id": "/technology",
+      "type": "section",
+      "path": "/technology/",
+      "path_fusion": "/technology",
+      "name": "Technology",
+      "nav_name": "Tech",
+      "children": [
+        {
+          "id": "/technology/consumer-tech",
+          "type": "section",
+          "path": "/technology/consumer-tech/",
+          "path_fusion": "/technology/consumer-tech",
+          "name": "Help Desk",
+          "nav_name": "Help Desk",
+          "aliases": [
+            "/technology/consumer-tech",
+            "/consumer-tech",
+            "/personal-tech"
+          ]
+        },
+        {
+          "id": "/technology/innovations",
+          "type": "section",
+          "path": "/technology/innovations/",
+          "path_fusion": "/technology/innovations",
+          "name": "Artificial Intelligence",
+          "nav_name": "Artificial Intelligence",
+          "aliases": [
+            "/innovations",
+            "/technology/innovations",
+            "/national/innovations",
+            "/business/on-innovations",
+            "/news/innovations",
+            "/national/on-innovations",
+            "/technology/ai",
+            "/artificial-intelligence",
+            "/ai"
+          ]
+        },
+        {
+          "id": "/technology/internet-culture",
+          "type": "section",
+          "path": "/technology/internet-culture/",
+          "path_fusion": "/technology/internet-culture",
+          "name": "Internet Culture",
+          "nav_name": "Internet Culture",
+          "aliases": [
+            "/technology/internet-culture",
+            "/internet-culture"
+          ]
+        },
+        {
+          "id": "/technology/space",
+          "type": "section",
+          "path": "/technology/space/",
+          "path_fusion": "/technology/space",
+          "name": "Space",
+          "nav_name": "Space",
+          "aliases": [
+            "/space",
+            "/technology/space"
+          ]
+        },
+        {
+          "id": "/technology/tech-policy",
+          "type": "section",
+          "path": "/technology/tech-policy/",
+          "path_fusion": "/technology/tech-policy",
+          "name": "Tech Policy",
+          "nav_name": "Tech Policy",
+          "aliases": [
+            "/technology/tech-policy",
+            "/tech-policy"
+          ]
+        }
+      ],
+      "aliases": [
+        "/business/technology",
+        "/technology",
+        "/business/on-it",
+        "/technology/the-switch",
+        "/news/the-switch",
+        "/business/on-it/",
+        "/business/Technology",
+        "/business/techngology"
+      ]
+    },
+    {
+      "id": "/world",
+      "type": "section",
+      "path": "/world/",
+      "path_fusion": "/world",
+      "name": "World",
+      "nav_name": "World",
+      "children": [
+        {
+          "id": "/world/africa",
+          "type": "section",
+          "path": "/world/africa/",
+          "path_fusion": "/world/africa",
+          "name": "Africa",
+          "nav_name": "Africa",
+          "aliases": [
+            "/world/africa"
+          ]
+        },
+        {
+          "id": "/world/americas",
+          "type": "section",
+          "path": "/world/americas/",
+          "path_fusion": "/world/americas",
+          "name": "Americas",
+          "nav_name": "Americas",
+          "aliases": [
+            "/world/americas"
+          ]
+        },
+        {
+          "id": "/world/asia-pacific",
+          "type": "section",
+          "path": "/world/asia-pacific/",
+          "path_fusion": "/world/asia-pacific",
+          "name": "Asia",
+          "nav_name": "Asia",
+          "aliases": [
+            "/world/asia-pacific"
+          ]
+        },
+        {
+          "id": "/world/europe",
+          "type": "section",
+          "path": "/world/europe/",
+          "path_fusion": "/world/europe",
+          "name": "Europe",
+          "nav_name": "Europe",
+          "aliases": [
+            "/world/europe"
+          ]
+        },
+        {
+          "id": "/world/middle-east",
+          "type": "section",
+          "path": "/world/middle-east/",
+          "path_fusion": "/world/middle-east",
+          "name": "Middle East",
+          "nav_name": "Middle East",
+          "aliases": [
+            "/world/middle-east"
+          ]
+        }
+      ],
+      "aliases": [
+        "/world",
+        "/news/worldviews",
+        "/world/worldviews",
+        "/world/world-politics",
+        "/world/war-zones",
+        "/world/olympics",
+        "/world/",
+        "/world/specialreports",
+        "/world/exclude",
+        "/world/war-zones/"
+      ]
+    },
+    {
+      "id": "/local",
+      "type": "section",
+      "path": "/local/",
+      "path_fusion": "/local",
+      "name": "D.C., Md. & Va.",
+      "nav_name": "D.C., Md. & Va.",
+      "children": [
+        {
+          "id": "/local/dc",
+          "type": "section",
+          "path": "/local/dc/",
+          "path_fusion": "/local/dc",
+          "name": "The District",
+          "nav_name": "The District",
+          "aliases": [
+            "/local/dc"
+          ]
+        },
+        {
+          "id": "/local/maryland",
+          "type": "section",
+          "path": "/local/maryland/",
+          "path_fusion": "/local/maryland",
+          "name": "Maryland",
+          "nav_name": "Maryland",
+          "aliases": [
+            "/local/maryland"
+          ]
+        },
+        {
+          "id": "/local/virginia",
+          "type": "section",
+          "path": "/local/virginia/",
+          "path_fusion": "/local/virginia",
+          "name": "Virginia",
+          "nav_name": "Virginia",
+          "aliases": [
+            "/local/virginia"
+          ]
+        },
+        {
+          "id": "/local/public-safety",
+          "type": "section",
+          "path": "/local/public-safety/",
+          "path_fusion": "/local/public-safety",
+          "name": "Local Crime & Public Safety",
+          "nav_name": "Crime & Public Safety",
+          "aliases": [
+            "/local/public-safety",
+            "/local/crime"
+          ]
+        },
+        {
+          "id": "/entertainment/going-out-guide",
+          "type": "section",
+          "path": "/entertainment/going-out-guide/",
+          "path_fusion": "/entertainment/going-out-guide",
+          "name": "Going Out Guide",
+          "nav_name": "Going Out Guide",
+          "aliases": [
+            "/entertainment/going-out-guide",
+            "/goingoutguide"
+          ]
+        },
+        {
+          "id": "/local/education",
+          "type": "section",
+          "path": "/local/education/",
+          "path_fusion": "/local/education",
+          "name": "Local Education",
+          "nav_name": "Education",
+          "aliases": [
+            "/local/education"
+          ]
+        },
+        {
+          "id": "/local/traffic-commuting",
+          "type": "section",
+          "path": "/local/traffic-commuting/",
+          "path_fusion": "/local/traffic-commuting",
+          "name": "Local Transportation",
+          "nav_name": "Transportation",
+          "aliases": [
+            "/local/traffic-commuting",
+            "/local/traffic-commuting/dr-gridlock"
+          ]
+        },
+        {
+          "id": "/entertainment/restaurants",
+          "type": "section",
+          "path": "/entertainment/restaurants/",
+          "path_fusion": "/entertainment/restaurants",
+          "name": "Restaurants & Bars",
+          "nav_name": "Restaurants & Bars",
+          "aliases": [
+            "/entertainment/restaurants",
+            "/goingoutguide/restaurants",
+            "/entertainment/bars-clubs"
+          ]
+        }
+      ],
+      "aliases": [
+        "/local",
+        "/dc-md-va"
+      ]
+    },
+    {
+      "id": "/sports",
+      "type": "section",
+      "path": "/sports/",
+      "path_fusion": "/sports/",
+      "name": "Sports",
+      "nav_name": "Sports",
+      "children": [
+        {
+          "id": "/sports/redskins",
+          "type": "section",
+          "path": "/sports/redskins/",
+          "path_fusion": "/sports/redskins",
+          "name": "Washington Commanders",
+          "nav_name": "Washington Commanders",
+          "aliases": [
+            "/sports/redskins",
+            "/sports/commanders"
+          ]
+        },
+        {
+          "id": "/sports/nfl",
+          "type": "section",
+          "path": "/sports/nfl/",
+          "path_fusion": "/sports/nfl",
+          "name": "NFL",
+          "nav_name": "NFL",
+          "aliases": [
+            "/sports/nfl"
+          ]
+        },
+        {
+          "id": "/sports/mlb",
+          "type": "section",
+          "path": "/sports/mlb/",
+          "path_fusion": "/sports/mlb",
+          "name": "Major League Baseball",
+          "nav_name": "MLB",
+          "aliases": [
+            "/sports/mlb"
+          ]
+        },
+        {
+          "id": "/sports/nba",
+          "type": "section",
+          "path": "/sports/nba/",
+          "path_fusion": "/sports/nba",
+          "name": "National Basketball Association",
+          "nav_name": "NBA",
+          "aliases": [
+            "/sports/nba"
+          ]
+        },
+        {
+          "id": "/sports/nhl",
+          "type": "section",
+          "path": "/sports/nhl/",
+          "path_fusion": "/sports/nhl",
+          "name": "National Hockey League",
+          "nav_name": "NHL",
+          "aliases": [
+            "/sports/nhl"
+          ]
+        },
+        {
+          "id": "/sports/wnba",
+          "type": "section",
+          "path": "/sports/wnba/",
+          "path_fusion": "/sports/wnba",
+          "name": "WNBA",
+          "nav_name": "WNBA",
+          "aliases": [
+            "/sports/wnba",
+            "/sports/mystics"
+          ]
+        },
+        {
+          "id": "/sports/auto-racing",
+          "type": "section",
+          "path": "/sports/auto-racing/",
+          "path_fusion": "/sports/auto-racing",
+          "name": "Auto Racing and Motorsports",
+          "nav_name": "Auto Racing",
+          "aliases": [
+            "/sports/auto-racing",
+            "/sports/racing-motorsports"
+          ]
+        },
+        {
+          "id": "/sports/boxing-mma",
+          "type": "section",
+          "path": "/sports/boxing-mma/",
+          "path_fusion": "/sports/boxing-mma",
+          "name": "Boxing & MMA",
+          "nav_name": "Boxing & MMA",
+          "aliases": [
+            "/sports/boxing-mma",
+            "/sports/boxing-mma-wrestling"
+          ]
+        },
+        {
+          "id": "/sports/colleges",
+          "type": "section",
+          "path": "/sports/colleges/",
+          "path_fusion": "/sports/colleges",
+          "name": "College Sports",
+          "nav_name": "College Sports",
+          "aliases": [
+            "/sports/colleges"
+          ]
+        },
+        {
+          "id": "/sports/golf",
+          "type": "section",
+          "path": "/sports/golf/",
+          "path_fusion": "/sports/golf",
+          "name": "Golf",
+          "nav_name": "Golf",
+          "aliases": [
+            "/sports/golf"
+          ]
+        },
+        {
+          "id": "/sports/highschools",
+          "type": "section",
+          "path": "/sports/highschools/",
+          "path_fusion": "/sports/highschools",
+          "name": "High School Sports",
+          "nav_name": "High School Sports",
+          "aliases": [
+            "/sports/highschools",
+            "/sports/high-schools"
+          ]
+        },
+        {
+          "id": "/sports/olympics",
+          "type": "section",
+          "path": "/sports/olympics/",
+          "path_fusion": "/sports/olympics",
+          "name": "Olympics",
+          "nav_name": "Olympics",
+          "aliases": [
+            "/sports/olympics"
+          ]
+        },
+        {
+          "id": "/sports/soccer",
+          "type": "section",
+          "path": "/sports/soccer/",
+          "path_fusion": "/sports/soccer",
+          "name": "Soccer",
+          "nav_name": "Soccer",
+          "aliases": [
+            "/sports/soccer",
+            "/sports/dcunited"
+          ]
+        },
+        {
+          "id": "/sports/tennis",
+          "type": "section",
+          "path": "/sports/tennis/",
+          "path_fusion": "/sports/tennis",
+          "name": "Tennis",
+          "nav_name": "Tennis",
+          "aliases": [
+            "/sports/tennis"
+          ]
+        }
+      ],
+      "aliases": [
+        "/sports",
+        "/sports/early-lead",
+        "/sports/fancy-stats"
+      ]
+    }
+  ]
+}

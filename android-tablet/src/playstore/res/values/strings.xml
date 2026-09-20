@@ -1,0 +1,15 @@
+<resources>
+    <string name="paywallStoreType">google</string>
+    <string name="paywallStoreEnv">playstore</string>
+    <string name="paywallStoreName">Playstore</string>
+
+    <!-- Ads -->
+    <string name="gms_ads_application_id" translatable="false">ca-app-pub-0231639411043846~5115931020</string>
+
+    <!-- Airship -->
+    <string name="notification_channel_id" translatable="false">news_alerts</string>
+    <string name="airship_development_app_key" translatable="false">9E8981A629966E35E412F09A6FC2D3764F7DC2FC491CB56E842E9B53D984B0A0</string>
+    <string name="airship_development_app_secret" translatable="false">9B6794F189326743B3D863808F61AA078E41EDE9EC0F0807A42B03F92EAE2451</string>
+    <string name="airship_production_app_key" translatable="false">A2CF05F9244CF79A3E1C3ACFC6A79A14110CD59EF011306A7B79238A934D9145</string>
+    <string name="airship_production_app_secret" translatable="false">8075CFB2274821D138B92CDB23559430D8F588A28AC34B235220629C820B3E1E</string>
+</resources>

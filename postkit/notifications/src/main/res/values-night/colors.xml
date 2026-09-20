@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bg">#111111</color>
+    <color name="notification_header_bg">#2A2A2A</color>
+    <color name="tabs_text_color">#FFFFFF</color>
+    <color name="notification_icons_tint">#FFFFFF</color>
+    <color name="notifications_bg">@color/app_bg</color>
+    <color name="appbar_bottom_border">#666666</color>
+</resources>

@@ -1,0 +1,1221 @@
+{
+    "name": "",
+    "layout": "homepage",
+    "outputType": "jsonTablet",
+    "tracking": {
+        "page_name": ":",
+        "platform": "pagebuilder",
+        "site": "www.washingtonpost.com",
+        "page_type": "",
+        "section": "",
+        "channel": "wp - ",
+        "subsection": "",
+        "hierarchy": "|",
+        "content_type": "",
+        "story_type": "",
+        "headline": "",
+        "author": "",
+        "source": "",
+        "content_id": "",
+        "page_num": "",
+        "op_ranking": "no sentiment - no ideology",
+        "columnname": "",
+        "blogname": "",
+        "published": "",
+        "news_or_commercial": "News",
+        "commercial_node": "/homepage",
+        "commercial_path": "/homepage",
+        "content_category": "",
+        "sectionfront": "",
+        "track_scrolling": "false"
+    },
+    "regions": {
+        "top-content": {
+            "location": "top-content",
+            "items": [
+                {
+                    "is_left_column_mobile_first": true,
+                    "chain_type": "top-table-x-wide",
+                    "border_bottom_style": "hairline",
+                    "border_bottom_width": "100-pct",
+                    "include_vertical_rule": true,
+                    "column_arrangement": "wide-right",
+                    "item_type": "chain",
+                    "items": [
+                        {
+                            "item_type": "column",
+                            "widths": {
+                                "x-large": 5,
+                                "large": 5,
+                                "medium": 6,
+                                "small": 5,
+                                "x-small": 12
+                            },
+                            "items": [
+                                { "border_bottom_style": "none",
+                                    "border_bottom_width": "100-pct",
+                                    "feature_name": "kushner-11a",
+                                    "item_type": "homepage/story",
+                                    "text_alignment": "left",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "article",
+                                                "last_modified": "2017-03-27T19:21:15.000Z",
+                                                "url": "https://www.washingtonpost.com/powerpost/senate-panel-plans-to-interview-trump-son-in-law-kushner-in-russia-probe/2017/03/27/84fe10ae-12f9-11e7-ada0-1489b735b3a3_story.html"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "House Intelligence Committee Chairman Devin Nunes later used the classified documents to brief President Trump that he and his associates might have been swept up in legal surveillance, his office acknowledged. The revelation is likely to fuel suspicions that Nunes coordinated his activities with the White House.",
+                                            "signature": {
+                                                "by_line": "By Karoun Demirjian, Greg Miller and Philip Rucker",
+                                                "timestamp": "2017-03-27T18:52:00.000Z"
+                                            },
+                                            "headline": {
+                                                "size": "small",
+                                                "text": "Nunes reviewed surveillance documents at White House before briefing president",
+                                                "font_style": "normal-style",
+                                                "alignment": "left"
+                                            },
+                                            "commercial_node": "powerpost",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "border_bottom_style": "none",
+                                    "border_bottom_width": "100-pct",
+                                    "item_type_impl": "homepage/story-ans",
+                                    "feature_name": "virus-art-mobile",
+                                    "item_type": "homepage/story",
+                                    "text_alignment": "left",
+                                    "feed_border_bottom_style": "none",
+                                    "feed_border_bottom_width": "100-pct",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "article",
+                                                "last_modified": "2020-02-25T17:17:59.000Z",
+                                                "url": "https://www.washingtonpost.com/world/asia_pacific/coronavirus-china-live-updates/2020/02/25/f4045570-5758-11ea-9000-f3cffee23036_story.html"
+                                            },
+                                            "media": {
+                                                "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HFP2DMCXTII6VIBGZD5TCQJNSM.jpg",
+                                                "width": 1248,
+                                                "height": 701,
+                                                "aspect_ratio": 1.78,
+                                                "caption_content": "credits",
+                                                "caption": "(AFP/Getty Images)",
+                                                "caption_size": "normal",
+                                                "media_type": "featured",
+                                                "art_position": "high",
+                                                "art_width": 12
+                                            },
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "border_bottom_style": "none",
+                                    "border_bottom_width": "100-pct",
+                                    "item_type_impl": "prime-time/promo",
+                                    "feature_name": "china-virus-205am",
+                                    "item_type": "prime-time/promo",
+                                    "label": {
+                                        "text": "LIVE UPDATES",
+                                        "label_style": "label label-btn label-with-background",
+                                        "has_background": true,
+                                        "background_color": "#D8070E",
+                                        "text_color": "#FFFFFF",
+                                        "label_alignment": "left"
+                                    },
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "web",
+                                                "url": "https://www.washingtonpost.com/world/asia_pacific/coronavirus-china-live-updates/2020/02/25/f4045570-5758-11ea-9000-f3cffee23036_story.html"
+                                            },
+                                            "headline": {
+                                                "size": "small",
+                                                "text": "Health officials warn that spread of coronavirus in U.S. appears inevitable",
+                                                "font_style": "normal-style"
+                                            },
+                                            "prime_time_url": "https://primetime.washpost.arcpublishing.com/world/asia_pacific/coronavirus-china-live-updates/2020/02/25/f4045570-5758-11ea-9000-f3cffee23036_story.html",
+                                            "num_to_show": 2,
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "border_bottom_style": "hairline",
+                                    "border_bottom_width": "100-pct",
+                                    "feature_name": "fix-nunes-220pm",
+                                    "item_type": "homepage/story",
+                                    "text_alignment": "left",
+                                    "label": {
+                                        "text": "The Fix",
+                                        "secondary_text": "Analysis",
+                                        "secondary_style": "label label-light label-small",
+                                        "label_style": "label label-normal label-small",
+                                        "label_alignment": "left"
+                                    },
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "blog",
+                                                "last_modified": "2017-03-27T19:04:11.000Z",
+                                                "url": "https://www.washingtonpost.com/news/the-fix/wp/2017/03/27/devin-nunes-is-making-it-very-hard-for-republicans-to-claim-they-can-run-an-impartial-investigation-on-russia/"
+                                            },
+                                            "media": {
+                                                "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2017/03/26/Interactivity/Images/crop_90311553869_0-4.jpg",
+                                                "width": 480,
+                                                "height": 480,
+                                                "aspect_ratio": 1,
+                                                "caption_content": "none",
+                                                "caption_size": "small",
+                                                "media_type": "featured",
+                                                "art_position": "right-of-blurb",
+                                                "art_width": 4
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "News that the chair of the House Intelligence Committee is briefing the White House on his investigation has raised alarms with ethics experts.",
+                                            "signature": {
+                                                "by_line": "By Amber Phillips",
+                                                "timestamp": "2017-03-27T18:01:48.000Z"
+                                            },
+                                            "headline": {
+                                                "size": "xx-small",
+                                                "text": "Devin Nunes is making it very hard for Republicans to claim they can run an impartial investigation on Russia",
+                                                "font_style": "normal-style",
+                                                "alignment": "left"
+                                            },
+                                            "commercial_node": "politics",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "border_bottom_style": "hairline",
+                                    "border_bottom_width": "100-pct",
+                                    "feature_name": "wb-taxes-1145a",
+                                    "item_type": "homepage/story",
+                                    "text_alignment": "left",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "blog",
+                                                "last_modified": "2017-03-27T17:26:52.000Z",
+                                                "url": "https://www.washingtonpost.com/news/wonk/wp/2017/03/27/divisions-threaten-trumps-hope-of-winning-his-next-big-legislative-battle-taxes/"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "The Trump administration is planning a more assertive role in overhauling the tax code than it did with the failed effort to replace the Affordable Care Act, with some advisers working on a blueprint instead of letting Congress dictate details. But congressional Republicans and some within the administration do not agree on who should be in charge of the effort.",
+                                            "signature": {
+                                                "by_line": "By Damian Paletta"
+                                            },
+                                            "headline": {
+                                                "size": "xx-small",
+                                                "text": "Divisions threaten Trumpâ€™s hope of winning his next big battle: Taxes",
+                                                "font_style": "normal-style",
+                                                "alignment": "left"
+                                            },
+                                            "commercial_node": "business",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "item_type": "column",
+                            "widths": {
+                                "x-large": 7,
+                                "large": 7,
+                                "medium": 6,
+                                "small": 7,
+                                "x-small": 12
+                            },
+                            "items": [
+                                {
+                                    "border_bottom_style": "hairline",
+                                    "border_bottom_width": "100-pct",
+                                    "feature_name": "melania-125pm",
+                                    "item_type": "homepage/story",
+                                    "text_alignment": "center",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "article",
+                                                "last_modified": "2017-03-27T19:18:06.000Z",
+                                                "url": "https://www.washingtonpost.com/lifestyle/style/melania-trump-a-cipher-in-sky-high-stilettos/2017/03/27/bcb3c212-0900-11e7-a15f-a58d4a988474_story.html"
+                                            },
+                                            "media": {
+                                                "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2017/03/27/Interactivity/Images/crop_90Botsford170317Trump12920.JPG",
+                                                "width": 1248,
+                                                "height": 832,
+                                                "aspect_ratio": 1.5,
+                                                "caption_content": "normal",
+                                                "caption": " The first family walks to Marine One on the lawn of the White House. (Jabin Botsford/The Post) ",
+                                                "caption_size": "normal",
+                                                "media_type": "featured",
+                                                "art_position": "high",
+                                                "art_width": 12
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "She\u0027s rarely seen in New York City outside the tower that bears her husband\u0027s name. Paparazzi call her the \"great white whale.\" Two months after President Trump\u0027s swearing in, the nationâ€™s new first lady remains largely out of the public eye.",
+                                            "signature": {
+                                                "by_line": "By Paul Schwartzman",
+                                                "timestamp": "2017-03-27T16:47:46.000Z"
+                                            },
+                                            "headline": {
+                                                "size": "small",
+                                                "text": "Melania Trump: An elusive â€” and reclusive â€” first lady",
+                                                "font_style": "thin-style",
+                                                "alignment": "center"
+                                            },
+                                            "commercial_node": "lifestyle",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "border_bottom_style": "none",
+                                    "border_bottom_width": "100-pct",
+                                    "feature_name": "daily202-1150a",
+                                    "item_type": "homepage/story",
+                                    "text_alignment": "left",
+                                    "label": {
+                                        "text": "The Daily 202",
+                                        "secondary_text": "Analysis",
+                                        "secondary_style": "label label-light label-small",
+                                        "label_style": "label label-normal label-small",
+                                        "label_alignment": "left"
+                                    },
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "blog",
+                                                "last_modified": "2017-03-27T14:55:33.000Z",
+                                                "url": "https://www.washingtonpost.com/news/powerpost/paloma/daily-202/2017/03/27/daily-202-how-trump-s-presidency-is-succeeding/58d88409e9b69b72b2551039/"
+                                            },
+                                            "media": {
+                                                "url": "https://www.washingtonpost.com/r/2010-2019/Wires/Images/2017-03-27/AP/Trump_78353-b5b29.jpg",
+                                                "width": 992,
+                                                "height": 661,
+                                                "aspect_ratio": 1.5,
+                                                "caption_content": "none",
+                                                "caption_size": "small",
+                                                "media_type": "featured",
+                                                "art_position": "right-of-blurb",
+                                                "art_width": 5
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "Was the failure of the health-care bill a fatal blow to Trump\u0027s presidency? Not really. Despite the chaos and the growing credibility gap, Trump is systematically succeeding in his quest to â€œdeconstruct the administrative state.â€",
+                                            "signature": {
+                                                "by_line": "By James Hohmann"
+                                            },
+                                            "headline": {
+                                                "size": "xx-small",
+                                                "text": "How Trumpâ€™s presidency is succeeding",
+                                                "font_style": "normal-style",
+                                                "alignment": "left"
+                                            },
+                                            "commercial_node": "powerpost",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "border_bottom_style": "hairline",
+                                    "border_bottom_width": "100-pct",
+                                    "feature_name": "trumpgop-9pm",
+                                    "item_type": "homepage/story",
+                                    "text_alignment": "left",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "article",
+                                                "last_modified": "2017-03-27T12:22:29.000Z",
+                                                "url": "https://www.washingtonpost.com/powerpost/trump-shifts-blame-for-health-care-collapse-to-far-right/2017/03/26/de1a6d6c-1237-11e7-833c-503e1f6394c9_story.html"
+                                            },
+                                            "source": "The Washington Post",
+                                            "headline": {
+                                                "size": "xx-small",
+                                                "text": "Trump shifts blame for health-care collapse to the far right",
+                                                "font_style": "highlight-style",
+                                                "alignment": "left"
+                                            },
+                                            "commercial_node": "powerpost",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "chain_name": "tab-toptable-main"
+                },
+                {
+                    "is_left_column_mobile_first": true,
+                    "chain_type": "standard-chain",
+                    "border_bottom_style": "hairline",
+                    "border_bottom_width": "100-pct",
+                    "column_arrangement": "wide-right",
+                    "include_vertical_rule": false,
+                    "item_type": "chain",
+                    "label": {
+                        "label_style": "label label-kicker",
+                        "text": "Live Images",
+                        "label_alignment": "left"
+                    },
+                    "items": [
+                        {
+                            "border_bottom_style": "tight",
+                            "border_bottom_width": "100-pct",
+                            "item_type_impl": "homepage/story",
+                            "feature_name": "mobile-only-label",
+                            "item_type": "suppressed",
+                            "feed_border_bottom_style": "tight",
+                            "label": {
+                                "label_style": "label label-normal",
+                                "text": "Virginia Gubernatorial Election",
+                                "alignment": "center"
+                            },
+                            "feed_border_bottom_width": "100-pct"
+                        },
+                        {
+                            "border_bottom_style": "tight",
+                            "border_bottom_width": "100-pct",
+                            "item_type_impl": "elections-2017/general",
+                            "feature_name": "va-map",
+                            "item_type": "live-image",
+                            "label": {
+                                "text": "Virginia Gubernatorial Election",
+                                "label_style": "label label-normal",
+                                "label_alignment": "center"
+                            },
+                            "items": [
+                                {
+                                    "link": {
+                                        "type": "web",
+                                        "url": "http://pb.wpprivate.com/pb/utils/2017-election-results/virginia/"
+                                    },
+                                    "link_text": "Full results",
+                                    "screenshot_info": {
+                                        "screenshot_type": "screenshot only",
+                                        "screenshots": [
+                                            {
+                                                "width": 884,
+                                                "image_urls": [
+                                                    "https://dohdeick6sqa6.cloudfront.net/screenshots/production/live-governor-counties/51@sm.png",
+                                                    "https://dohdeick6sqa6.cloudfront.net/screenshots/production/table-governor/51@xs.png"
+                                                ],
+                                                "text": "",
+                                                "height": 799
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "border_bottom_style": "none",
+                            "border_bottom_width": "100-pct",
+                            "item_type_impl": "elections-2017/general",
+                            "feature_name": "va-chart",
+                            "item_type": "suppressed"
+                        },
+                        {
+                            "border_bottom_style": "none",
+                            "border_bottom_width": "100-pct",
+                            "item_type_impl": "homepage/story",
+                            "feature_name": "va-results-link",
+                            "item_type": "suppressed",
+                            "feed_border_bottom_style": "none",
+                            "feed_border_bottom_width": "100-pct"
+                        },
+                        {
+                            "border_bottom_style": "hairline",
+                            "border_bottom_width": "100-pct",
+                            "item_type_impl": "elections-2016/general-staging",
+                            "feature_name": "map-test2",
+                            "component_on_app": "screenshot-only",
+                            "item_type": "elections-2016/general-staging",
+                            "items": [
+                                {
+                                    "link": {
+                                        "type": "web",
+                                        "url": "https://www.washingtonpost.com/2016-election-results/us-presidential-race/"
+                                    },
+                                    "screenshot_info": {
+                                        "screenshot_type": "screenshot-only",
+                                        "screenshots": [
+                                            {
+                                                "image_urls": [
+                                                    "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-head-to-head-president@sm.png",
+                                                    "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-president-states/00@sm.png"
+                                                ],
+                                                "text": "President",
+                                                "width": 758,
+                                                "height": 834
+                                            },
+                                            {
+                                                "image_urls": [
+                                                    "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-head-to-head-senate@sm.png",
+                                                    "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-senate-states/00@sm.png"
+                                                ],
+                                                "text": "Senate",
+                                                "width": 758,
+                                                "height": 834
+                                            },
+                                            {
+                                                "image_urls": [
+                                                    "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-head-to-head-house@sm.png",
+                                                    "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-house-districts/00@sm.png"
+                                                ],
+                                                "text": "House",
+                                                "width": 758,
+                                                "height": 834
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "border_bottom_style": "hairline",
+                            "border_bottom_width": "100-pct",
+                            "item_type_impl": "elections-2016/general-staging",
+                            "feature_name": "map-predictions",
+                            "component_on_app": "screenshot-only",
+                            "item_type": "elections-2016/general-staging",
+                            "items": [
+                                {
+                                    "screenshot_info": {
+                                        "screenshot_type": "screenshot-only",
+                                        "screenshots": [
+                                            {
+                                                "image_urls": [
+                                                    "https://dohdeick6sqa6.cloudfront.net/screenshots/production/head-to-head-president@sm.png",
+                                                    "https://dohdeick6sqa6.cloudfront.net/screenshots/production/expected-president/00@sm.png"
+                                                ],
+                                                "text": "Predictions by The Fix",
+                                                "width": 750,
+                                                "height": 656
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "border_bottom_style": "hairline",
+                            "border_bottom_width": "100-pct",
+                            "item_type_impl": "elections-2016/general-staging",
+                            "feature_name": "map-text-only",
+                            "component_on_app": "text-only",
+                            "item_type": "elections-2016/general-staging",
+                            "items": [
+                                {
+                                    "media": {
+                                        "url": "",
+                                        "media_type": "featured",
+                                        "art_position": "right-of-headline",
+                                        "width": 1248
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "chain_name": "chain-maps"
+                },
+                {
+                    "is_left_column_mobile_first": true,
+                    "chain_type": "standard-chain",
+                    "border_bottom_style": "hairline",
+                    "border_bottom_width": "100-pct",
+                    "include_vertical_rule": false,
+                    "column_arrangement": "wide-right",
+                    "item_type": "chain",
+                    "items": [
+                        {
+                            "border_bottom_style": "none",
+                            "feature_name": "olympics-medals",
+                            "item_type": "olympics/medals",
+                            "label": {
+                                "label_style": "label label-normal",
+                                "label_alignment": "left",
+                                "text": "Olympics Medals Count",
+                                "secondary_text": "Medals awarded as of Feb 1, 2018"
+                            },
+                            "items": [{
+                                "link": {
+                                    "type": "web",
+                                    "url": "https://www.washingtonpost.com/olympics"
+                                },
+                                "link_text": "Full medal count",
+                                "medals": {
+                                    "title": "Country",
+                                    "data": [
+                                        {
+                                            "rank": 6,
+                                            "icon": "https://we.are/the/best.png",
+                                            "label": "United States",
+                                            "bronze": 23,
+                                            "silver": 12,
+                                            "gold": 33
+                                        }
+                                    ]
+                                }
+                            }]
+                        },
+                        {
+                            "border_bottom_style": "none",
+                            "border_bottom_width": "100-pct",
+                            "feature_name": "confidential-tips",
+                            "item_type": "suppressed"
+                        },
+                        {
+                            "border_bottom_style": "hairline",
+                            "border_bottom_width": "100-pct",
+                            "feature_name": "confidential-tips-apps",
+                            "item_type": "homepage/story",
+                            "text_alignment": "left",
+                            "items": [
+                                {
+                                    "link": {
+                                        "type": "web",
+                                        "url": "https://www.washingtonpost.com/anonymous-news-tips/?utm_term\u003d.dca394f8246b"
+                                    },
+                                    "media": {
+                                        "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2017/02/01/Interactivity/Images/confidential-tips-icon-300x200.jpg",
+                                        "width": 1248,
+                                        "height": 832,
+                                        "aspect_ratio": 1.5,
+                                        "caption_content": "none",
+                                        "caption_size": "normal",
+                                        "media_type": "featured",
+                                        "art_position": "left",
+                                        "art_width": 2
+                                    },
+                                    "blurb": "Do you have information the public should know? Here are some ways you can securely send information and documents to Post journalists.",
+                                    "signature": {
+                                        "section": "Learn more"
+                                    },
+                                    "headline": {
+                                        "size": "xx-small",
+                                        "text": "Share news tips with us confidentially",
+                                        "font_style": "normal-style",
+                                        "alignment": "left"
+                                    },
+                                    "sub_item_type": "primary"
+                                }
+                            ]
+                        }
+                    ],
+                    "chain_name": "tab-toptable-low"
+                },
+                {
+                    "chain_type": "chain-with-gutter",
+                    "border_bottom_style": "hairline",
+                    "item_type": "chain",
+                    "label": {
+                        "label_style": "label label-kicker",
+                        "text": "Opinions",
+                        "label_alignment": "left",
+                        "label_url": "https://www.washingtonpost.com/opinions"
+                    },
+                    "items": [
+                        {
+                            "widths": {
+                                "x-small": 12,
+                                "small": 6,
+                                "medium": 6,
+                                "large": 6,
+                                "x-large": 6
+                            },
+                            "border_bottom_style": "none",
+                            "feature_name": "opinion-card-f",
+                            "item_type": "homepage/story",
+                            "text_alignment": "left",
+                            "items": [
+                                {
+                                    "link": {
+                                        "type": "blog",
+                                        "last_modified": "2017-03-27T18:11:10.000Z",
+                                        "url": "https://www.washingtonpost.com/blogs/right-turn/wp/2017/03/27/jared-kushners-project-is-doomed/"
+                                    },
+                                    "media": {
+                                        "url": "https://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2017/01/30/National-Politics/Images/Botsford170130Trump10964.JPG",
+                                        "width": 480,
+                                        "height": 480,
+                                        "aspect_ratio": 1,
+                                        "caption_content": "none",
+                                        "caption_size": "small",
+                                        "media_type": "featured",
+                                        "art_position": "left",
+                                        "art_width": 3
+                                    },
+                                    "source": "The Washington Post",
+                                    "signature": {
+                                        "by_line": "By Jennifer Rubin"
+                                    },
+                                    "headline": {
+                                        "size": "xx-small",
+                                        "text": "Jared Kushnerâ€™s project is doomed",
+                                        "font_style": "normal-style"
+                                    },
+                                    "commercial_node": "opinions",
+                                    "top_story": false,
+                                    "sub_item_type": "primary"
+                                }
+                            ]
+                        },
+                        {
+                            "widths": {
+                                "x-small": 12,
+                                "small": 6,
+                                "medium": 6,
+                                "large": 6,
+                                "x-large": 6
+                            },
+                            "border_bottom_style": "none",
+                            "feature_name": "opinion-card-b",
+                            "item_type": "homepage/story",
+                            "text_alignment": "left",
+                            "items": [
+                                {
+                                    "link": {
+                                        "type": "blog",
+                                        "last_modified": "2017-03-27T17:30:47.000Z",
+                                        "url": "https://www.washingtonpost.com/blogs/plum-line/wp/2017/03/27/why-trump-and-the-gop-could-fail-on-tax-reform-too/"
+                                    },
+                                    "media": {
+                                        "url": "https://img.washingtonpost.com/rf/image_960w/2010-2019/WashingtonPost/2017/03/27/National-Politics/Images/AFP_N12F3-3774.jpg",
+                                        "width": 480,
+                                        "height": 480,
+                                        "aspect_ratio": 1,
+                                        "caption_content": "none",
+                                        "caption_size": "small",
+                                        "media_type": "featured",
+                                        "art_position": "left",
+                                        "art_width": 3
+                                    },
+                                    "source": "The Washington Post",
+                                    "signature": {
+                                        "by_line": "By Paul Waldman"
+                                    },
+                                    "headline": {
+                                        "size": "xx-small",
+                                        "text": "Why Trump and the GOP could fail on tax reform, too",
+                                        "font_style": "normal-style"
+                                    },
+                                    "commercial_node": "opinions",
+                                    "top_story": false,
+                                    "sub_item_type": "primary"
+                                }
+                            ]
+                        },
+                        {
+                            "widths": {
+                                "x-small": 12,
+                                "small": 6,
+                                "medium": 6,
+                                "large": 6,
+                                "x-large": 6
+                            },
+                            "border_bottom_style": "none",
+                            "feature_name": "opinion-card-c",
+                            "item_type": "homepage/story",
+                            "text_alignment": "left",
+                            "items": [
+                                {
+                                    "link": {
+                                        "type": "article",
+                                        "last_modified": "2017-03-27T14:05:57.000Z",
+                                        "url": "https://www.washingtonpost.com/opinions/the-freedom-caucus-blows-its-chance-to-govern/2017/03/27/01db6814-12f1-11e7-ada0-1489b735b3a3_story.html"
+                                    },
+                                    "media": {
+                                        "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2017/03/27/Editorial-Opinion/Images/AFP_MX958.jpg",
+                                        "width": 480,
+                                        "height": 480,
+                                        "aspect_ratio": 1,
+                                        "caption_content": "none",
+                                        "caption_size": "small",
+                                        "media_type": "featured",
+                                        "art_position": "left",
+                                        "art_width": 3
+                                    },
+                                    "source": "The Washington Post",
+                                    "signature": {
+                                        "by_line": "By Marc A. Thiessen"
+                                    },
+                                    "headline": {
+                                        "size": "xx-small",
+                                        "text": "The Freedom Caucus blows its chance to govern",
+                                        "font_style": "normal-style"
+                                    },
+                                    "commercial_node": "opinions",
+                                    "top_story": false,
+                                    "sub_item_type": "primary"
+                                }
+                            ]
+                        },
+                        {
+                            "widths": {
+                                "x-small": 12,
+                                "small": 6,
+                                "medium": 6,
+                                "large": 6,
+                                "x-large": 6
+                            },
+                            "border_bottom_style": "none",
+                            "feature_name": "opinion-card-d",
+                            "item_type": "homepage/story",
+                            "text_alignment": "left",
+                            "items": [
+                                {
+                                    "link": {
+                                        "type": "blog",
+                                        "last_modified": "2017-03-27T18:30:30.000Z",
+                                        "url": "https://www.washingtonpost.com/news/act-four/wp/2017/03/27/memo-to-jared-kushner-managing-government-isnt-like-business-its-much-harder/"
+                                    },
+                                    "media": {
+                                        "url": "https://img.washingtonpost.com/rf/image_145x100/2010-2019/Wires/Online/2017-03-25/AP/Images/Israel_Kushner_01169.jpg-7015e.jpg",
+                                        "width": 480,
+                                        "height": 480,
+                                        "aspect_ratio": 1,
+                                        "caption_content": "none",
+                                        "caption_size": "small",
+                                        "media_type": "featured",
+                                        "art_position": "left",
+                                        "art_width": 3
+                                    },
+                                    "source": "The Washington Post",
+                                    "signature": {
+                                        "by_line": "By Alyssa Rosenberg"
+                                    },
+                                    "headline": {
+                                        "size": "xx-small",
+                                        "text": "Memo to Jared Kushner: Managing government isnâ€™t like business. Itâ€™s much harder.",
+                                        "font_style": "normal-style"
+                                    },
+                                    "commercial_node": "opinions",
+                                    "top_story": false,
+                                    "sub_item_type": "primary"
+                                }
+                            ]
+                        },
+                        {
+                            "widths": {
+                                "x-small": 12,
+                                "small": 6,
+                                "medium": 6,
+                                "large": 6,
+                                "x-large": 6
+                            },
+                            "border_bottom_style": "none",
+                            "feature_name": "opinion-card-e",
+                            "item_type": "homepage/story",
+                            "text_alignment": "left",
+                            "items": [
+                                {
+                                    "link": {
+                                        "type": "blog",
+                                        "last_modified": "2017-03-27T18:01:20.000Z",
+                                        "url": "https://www.washingtonpost.com/blogs/erik-wemple/wp/2017/03/27/why-does-sean-hannity-care-what-ted-koppel-thinks/"
+                                    },
+                                    "media": {
+                                        "url": "https://img.washingtonpost.com/rf/image_908w/2010-2019/WashingtonPost/2015/08/03/Others/Images/2015-08-03/GettyImages-4729855341438631402.jpg",
+                                        "width": 480,
+                                        "height": 480,
+                                        "aspect_ratio": 1,
+                                        "caption_content": "none",
+                                        "caption_size": "small",
+                                        "media_type": "featured",
+                                        "art_position": "left",
+                                        "art_width": 3
+                                    },
+                                    "source": "The Washington Post",
+                                    "signature": {
+                                        "by_line": "By Erik Wemple"
+                                    },
+                                    "headline": {
+                                        "size": "xx-small",
+                                        "text": "Why does Sean Hannity care what Ted Koppel thinks?",
+                                        "font_style": "normal-style"
+                                    },
+                                    "commercial_node": "opinions",
+                                    "top_story": false,
+                                    "sub_item_type": "primary"
+                                }
+                            ]
+                        },
+                        {
+                            "widths": {
+                                "x-small": 12,
+                                "small": 6,
+                                "medium": 6,
+                                "large": 6,
+                                "x-large": 6
+                            },
+                            "border_bottom_style": "none",
+                            "feature_name": "opinion-card-a",
+                            "item_type": "homepage/story",
+                            "text_alignment": "left",
+                            "items": [
+                                {
+                                    "link": {
+                                        "type": "blog",
+                                        "last_modified": "2017-03-26T13:14:58.000Z",
+                                        "url": "https://www.washingtonpost.com/news/democracy-post/wp/2017/03/25/why-europes-last-dictatorship-keeps-surprising-everyone/"
+                                    },
+                                    "media": {
+                                        "url": "https://img.washingtonpost.com/rf/image_960w/2010-2019/Wires/Images/2017-03-25/AP/APTOPIX_Belarus_Protests_51433-55aa1.jpg",
+                                        "width": 480,
+                                        "height": 480,
+                                        "aspect_ratio": 1,
+                                        "caption_content": "none",
+                                        "caption_size": "small",
+                                        "media_type": "featured",
+                                        "art_position": "left",
+                                        "art_width": 3
+                                    },
+                                    "source": "The Washington Post",
+                                    "signature": {
+                                        "by_line": "By Peter Pomerantsev"
+                                    },
+                                    "headline": {
+                                        "size": "xx-small",
+                                        "text": "Why Europeâ€™s last dictatorship keeps surprising everyone",
+                                        "font_style": "normal-style"
+                                    },
+                                    "commercial_node": "opinions",
+                                    "top_story": false,
+                                    "sub_item_type": "primary"
+                                }
+                            ]
+                        }
+                    ],
+                    "chain_name": "tablet-opinions"
+                },
+                {
+                    "chain_type": "chain-with-gutter",
+                    "border_bottom_style": "hairline",
+                    "item_type": "chain",
+                    "widths": {
+                        "x-small": 12,
+                        "small": 12,
+                        "medium": 8,
+                        "large": 8,
+                        "x-large": 8
+                    },
+                    "label": {
+                        "label_style": "label label-kicker",
+                        "text": "More Top Stories",
+                        "label_alignment": "left"
+                    },
+                    "items": [
+                        {
+                            "border_bottom_style": "hairline",
+                            "border_bottom_width": "100-pct",
+                            "item_type": "homepage/story",
+                            "text_alignment": "left",
+                            "items": [
+                                {
+                                    "link": {
+                                        "type": "article",
+                                        "last_modified": "2017-03-27T11:21:09.000Z",
+                                        "url": "https://www.washingtonpost.com/politics/trump-taps-kushner-to-lead-a-swat-team-to-fix-government-with-business-ideas/2017/03/26/9714a8b6-1254-11e7-ada0-1489b735b3a3_story.html"
+                                    },
+                                    "media": {
+                                        "url": "https://www.washingtonpost.com/r/2010-2019/Wires/Images/2017-03-15/Getty/653535268.jpg",
+                                        "width": 480,
+                                        "height": 320,
+                                        "aspect_ratio": 1.5,
+                                        "caption_content": "none",
+                                        "caption_size": "small",
+                                        "media_type": "featured",
+                                        "art_position": "left",
+                                        "art_width": 4
+                                    },
+                                    "source": "The Washington Post",
+                                    "blurb": "The new office will be staffed by former business executives and is an expansion of the influence of Jared Kushner, the presidentâ€™s son-in-law and senior adviser.",
+                                    "signature": {
+                                        "by_line": "By Ashley Parker and Philip Rucker"
+                                    },
+                                    "headline": {
+                                        "size": "x-small",
+                                        "text": "Trump taps Kushner to lead overhaul of government using business ideas",
+                                        "font_style": "normal-style",
+                                        "alignment": "left"
+                                    },
+                                    "commercial_node": "politics",
+                                    "sub_item_type": "primary"
+                                }
+                            ]
+                        },
+                        {
+                            "border_bottom_style": "hairline",
+                            "border_bottom_width": "100-pct",
+                            "item_type": "homepage/story",
+                            "text_alignment": "left",
+                            "label": {
+                                "text": "The Fix",
+                                "label_style": "label label-normal label-small",
+                                "label_alignment": "left"
+                            },
+                            "items": [
+                                {
+                                    "link": {
+                                        "type": "blog",
+                                        "last_modified": "2017-03-27T17:49:22.000Z",
+                                        "url": "https://www.washingtonpost.com/news/the-fix/wp/2017/03/27/fox-news-said-trump-spent-the-weekend-working-at-the-white-house-he-was-at-his-golf-club/"
+                                    },
+                                    "media": {
+                                        "url": "https://www.washingtonpost.com/blogs/the-fix/files/2017/03/foxalert.png",
+                                        "width": 480,
+                                        "height": 320,
+                                        "aspect_ratio": 1.5,
+                                        "caption_content": "none",
+                                        "caption_size": "normal",
+                                        "media_type": "featured",
+                                        "art_position": "left",
+                                        "art_width": 4
+                                    },
+                                    "source": "The Washington Post",
+                                    "blurb": "The network\u0027s Sunday evening â€œnews alertâ€ was roundly mocked online for its timing â€” and because it wasn\u0027t true.",
+                                    "signature": {
+                                        "by_line": "By Amy B Wang",
+                                        "timestamp": "2017-03-27T16:49:20.000Z"
+                                    },
+                                    "headline": {
+                                        "size": "x-small",
+                                        "text": "Fox News said Trump spent the weekend â€˜working at the White House.â€™ He was at his golf club.",
+                                        "font_style": "normal-style",
+                                        "alignment": "left"
+                                    },
+                                    "commercial_node": "politics",
+                                    "sub_item_type": "primary"
+                                }
+                            ]
+                        }
+                    ],
+                    "chain_name": "tab-more-top-stories-1"
+                },
+                {
+                    "widths": {
+                        "x-small": 12,
+                        "small": 12,
+                        "medium": 4,
+                        "large": 4,
+                        "x-large": 4
+                    },
+                    "border_bottom_style": "hairline",
+                    "border_bottom_width": "100-pct",
+                    "item_type": "ad/flex-app",
+                    "items": [
+                        {
+                            "ad_delivery": "vi",
+                            "ad": "flex_app",
+                            "commercial_path": "/homepage",
+                            "commercial_node": "/homepage"
+                        }
+                    ]
+                },
+                {
+                    "chain_type": "chain-with-gutter",
+                    "border_bottom_style": "hairline",
+                    "border_bottom_width": "100-pct",
+                    "column_arrangement": "wide-right",
+                    "item_type": "chain",
+                    "widths": {
+                        "x-small": 12,
+                        "small": 12,
+                        "medium": 8,
+                        "large": 8,
+                        "x-large": 8
+                    },
+                    "items": [
+                        {
+                            "border_bottom_style": "hairline",
+                            "border_bottom_width": "100-pct",
+                            "item_type": "homepage/story",
+                            "text_alignment": "left",
+                            "items": [
+                                {
+                                    "link": {
+                                        "type": "blog",
+                                        "last_modified": "2017-03-27T17:36:47.000Z",
+                                        "url": "https://www.washingtonpost.com/news/energy-environment/wp/2017/03/27/one-of-the-most-troubling-ideas-about-climate-change-just-found-new-evidence-in-its-favor/"
+                                    },
+                                    "media": {
+                                        "url": "https://www.washingtonpost.com/news/energy-environment/wp-content/uploads/sites/43/2015/03/Earth_jet_stream-full.jpg",
+                                        "width": 480,
+                                        "height": 320,
+                                        "aspect_ratio": 1.5,
+                                        "caption_content": "none",
+                                        "caption_size": "normal",
+                                        "media_type": "featured",
+                                        "art_position": "left",
+                                        "art_width": 4
+                                    },
+                                    "source": "The Washington Post",
+                                    "blurb": "Scientists continue to publish research hinting that the changes could be altering the jet stream, and therefore, causing extreme weather to get stuck in place.",
+                                    "signature": {
+                                        "by_line": "By Chris Mooney"
+                                    },
+                                    "headline": {
+                                        "size": "x-small",
+                                        "text": "One of the most troubling ideas about climate change just found new evidence in its favor",
+                                        "font_style": "normal-style",
+                                        "alignment": "left"
+                                    },
+                                    "commercial_node": "business",
+                                    "sub_item_type": "primary"
+                                }
+                            ]
+                        },
+                        {
+                            "border_bottom_style": "hairline",
+                            "border_bottom_width": "100-pct",
+                            "item_type": "homepage/story",
+                            "text_alignment": "left",
+                            "items": [
+                                {
+                                    "link": {
+                                        "type": "article",
+                                        "last_modified": "2017-03-27T19:00:51.000Z",
+                                        "url": "https://www.washingtonpost.com/local/public-safety/parents-alert-authorities-that-their-daughter-planned-violence-at-a-md-high-school/2017/03/27/dcc6d5a0-1303-11e7-9e4f-09aa75d3ec57_story.html"
+                                    },
+                                    "media": {
+                                        "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2016/10/10/Interactivity/Images/iStock_000073667915_XXXLarge1449850090.jpg",
+                                        "width": 480,
+                                        "height": 320,
+                                        "aspect_ratio": 1.5,
+                                        "caption_content": "none",
+                                        "caption_size": "normal",
+                                        "media_type": "featured",
+                                        "art_position": "left",
+                                        "art_width": 4
+                                    },
+                                    "source": "The Washington Post",
+                                    "blurb": "The 18-year-old had a shotgun, bombmaking materials and detailed plans, the Frederick County Sheriffâ€™s Office said.",
+                                    "signature": {
+                                        "by_line": "By Dana Hedgpeth",
+                                        "timestamp": "2017-03-27T16:38:00.000Z"
+                                    },
+                                    "headline": {
+                                        "size": "x-small",
+                                        "text": "Parents alert authorities that their daughter planned violence at a Md. high school",
+                                        "font_style": "normal-style",
+                                        "alignment": "left"
+                                    },
+                                    "commercial_node": "local",
+                                    "sub_item_type": "primary"
+                                }
+                            ]
+                        },
+                        {
+                            "border_bottom_style": "hairline",
+                            "border_bottom_width": "100-pct",
+                            "item_type": "homepage/story",
+                            "text_alignment": "left",
+                            "items": [
+                                {
+                                    "link": {
+                                        "type": "blog",
+                                        "last_modified": "2017-03-27T19:01:36.000Z",
+                                        "url": "https://www.washingtonpost.com/news/sports/wp/2017/03/27/nfl-approves-raiders-move-to-las-vegas/"
+                                    },
+                                    "media": {
+                                        "url": "https://www.washingtonpost.com/r/2010-2019/Wires/Images/2017-03-27/AP/Raiders_Stadium_Football_76286-4d975.jpg",
+                                        "width": 480,
+                                        "height": 320,
+                                        "aspect_ratio": 1.5,
+                                        "caption_content": "none",
+                                        "caption_size": "normal",
+                                        "media_type": "featured",
+                                        "art_position": "left",
+                                        "art_width": 4
+                                    },
+                                    "source": "The Washington Post",
+                                    "blurb": "Team owners voted to allow the football team to relocate from Oakland, Calif., to a $1.9 billion stadium currently under construction south of the Strip.",
+                                    "signature": {
+                                        "by_line": "By Mark Maske",
+                                        "timestamp": "2017-03-27T19:01:35.000Z"
+                                    },
+                                    "headline": {
+                                        "size": "x-small",
+                                        "text": "NFL approves Raidersâ€™ move to Las Vegas, once unthinkable due to its opposition to sports gambling",
+                                        "font_style": "normal-style",
+                                        "alignment": "left"
+                                    },
+                                    "commercial_node": "sports",
+                                    "sub_item_type": "primary"
+                                }
+                            ]
+                        },
+                        {
+                            "border_bottom_style": "hairline",
+                            "border_bottom_width": "100-pct",
+                            "item_type": "homepage/story",
+                            "text_alignment": "left",
+                            "items": [
+                                {
+                                    "link": {
+                                        "type": "blog",
+                                        "last_modified": "2017-03-27T16:25:09.000Z",
+                                        "url": "https://www.washingtonpost.com/news/dr-gridlock/wp/2017/03/27/united-airlines-your-leggings-are-welcome-as-long-as-youre-paying-for-your-flight/"
+                                    },
+                                    "media": {
+                                        "url": "https://img.washingtonpost.com/rf/image_960w/2010-2019/Wires/Images/2017-03-27/AP/Leggings_United_Airlines_98319-f7b0a.jpg",
+                                        "width": 480,
+                                        "height": 320,
+                                        "aspect_ratio": 1.5,
+                                        "caption_content": "none",
+                                        "caption_size": "normal",
+                                        "media_type": "featured",
+                                        "art_position": "left",
+                                        "art_width": 4
+                                    },
+                                    "source": "The Washington Post",
+                                    "blurb": "The airline defended a gate agent\u0027s decision Sunday to bar two teenagers from a flight for wearing leggings because they were flying on a company travel pass. But some travelers say the policy unfairly targets attire worn mostly by women.",
+                                    "signature": {
+                                        "by_line": "By Luz Lazo"
+                                    },
+                                    "headline": {
+                                        "size": "x-small",
+                                        "text": "United Airlines: â€˜Your leggings are welcomeâ€™ â€” as long as youâ€™re paying for your flight",
+                                        "font_style": "normal-style",
+                                        "alignment": "left"
+                                    },
+                                    "commercial_node": "local",
+                                    "sub_item_type": "primary"
+                                }
+                            ]
+                        }
+                    ],
+                    "chain_name": "tab-more-top-stories-2"
+                },
+                {
+                    "border_bottom_style": "none",
+                    "border_bottom_width": "100-pct",
+                    "feature_name": "politics-table-label",
+                    "item_type": "homepage/story",
+                    "text_alignment": "left",
+                    "label": {
+                        "text": "Politics",
+                        "label_style": "label label-highlight",
+                        "label_alignment": "left"
+                    },
+                    "items": [
+                        {
+                            "sub_item_type": "primary"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "checksum": "48fd00b4d048be1452320b45a6e9a1ff",
+    "lmt": "Mon, 27 Mar 2017 19:21:15 UTC",
+    "last_modified": "2017-03-27T19:21:15.000Z"
+}

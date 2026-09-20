@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_message_height">100dp</dimen>
+    <dimen name="dialog_message_text">18sp</dimen>
+    <dimen name="dialog_message_button_text">15sp</dimen>
+    <dimen name="dialog_message_button_width">120dp</dimen>
+</resources>

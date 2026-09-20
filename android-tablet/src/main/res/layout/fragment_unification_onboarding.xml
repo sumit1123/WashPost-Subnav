@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/unification_onboarding_dark">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/ll_cta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:orientation="vertical"
+            android:paddingVertical="120dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/rounded_corner_wp_logo"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/washington_post_logo"
+                    app:srcCompat="@drawable/ic_wp_mark_white" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvWelcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:lineSpacingExtra="2.8sp"
+                android:text="@string/welcome"
+                android:textColor="@color/unification_onboarding_light_primary"
+                android:textSize="28sp"
+                app:fontFamily="@font/postoniwide_bold" />
+
+
+            <TextView
+                android:id="@+id/tvMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="36dp"
+                android:fontFamily="@font/franklin_std_light"
+                android:lineHeight="17.5sp"
+                android:lineSpacingExtra="3.5sp"
+                android:textAlignment="textStart"
+                android:textColor="@color/unification_onboarding_light_secondary"
+                android:textSize="14sp"
+                tools:text="You are logged in as \n abcdefghijklmnop@qrstuvwxyz.com" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:contentDescription="@string/saved_stories"
+                    app:srcCompat="@drawable/ic_glyph" />
+
+                <TextView
+                    android:id="@+id/tvFeature1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/franklinitcstd_light"
+                    android:lineSpacingExtra="2.5sp"
+                    android:paddingHorizontal="12dp"
+                    android:text="@string/check_saved_stories"
+                    android:textColor="@color/unification_onboarding_light_primary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:contentDescription="@string/alerts_icon"
+                    app:srcCompat="@drawable/ic_alert_outline" />
+
+                <TextView
+                    android:id="@+id/tvFeature2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/franklinitcstd_light"
+                    android:lineSpacingExtra="2.5sp"
+                    android:paddingHorizontal="12dp"
+                    android:text="@string/customize_alerts"
+                    android:textColor="@color/unification_onboarding_light_primary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:contentDescription="@string/sparkle_icon"
+                    app:srcCompat="@drawable/ic_sparkle" />
+
+                <TextView
+                    android:id="@+id/tvFeature3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/franklinitcstd_light"
+                    android:lineSpacingExtra="2.5sp"
+                    android:paddingHorizontal="12dp"
+                    android:text="@string/discover_top_stories"
+                    android:textColor="@color/unification_onboarding_light_primary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_cta"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/btn_get_started"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/unification_rounded_corner_button"
+            android:gravity="center"
+            android:minWidth="300dp"
+            android:minHeight="42dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/get_started"
+                android:textColor="@color/unification_onboarding_dark"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/franklin_std_bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_sign_in"
+            style="@style/paywall_sheet_sub_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:text="@string/sign_in_as_someone_else"
+            android:textColor="@color/unification_onboarding_text"
+            android:textColorLink="@color/unification_onboarding_text"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

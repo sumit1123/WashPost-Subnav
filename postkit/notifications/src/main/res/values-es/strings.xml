@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alerts_48">Alertas de las últimas 48 horas</string>
+    <string name="alerts_24">Alertas de las últimas 24 horas</string>
+    <string name="no_alerts">No tienes nuevas alertas</string>
+
+    <string name="notification_sent_at">Enviado</string>
+    <string name="notification_sent_yesterday">Enviado ayer a las</string>
+    <string name="notification_sent">Expedido</string>
+    <string name="edit_your_settings">Toca en <u>Personalizar</u> para recibir más alertas</string>
+
+</resources>

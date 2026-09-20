@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.WearWapo.NoActionBar" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorOnPrimary">#F2F2F2</item>
+        <item name="colorSecondary">#166CF9</item>
+        <item name="colorOnBackground">#C0C0C0</item>
+        <item name="colorSurface">#33FFFFFF</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+        <item name="android:colorBackground">@color/black</item>
+    </style>
+
+    <!-- Text theming -->
+    <style name="TextAppearance.WearWapo.Header" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/wp_roboto_font_family</item>
+        <item name="android:fontFamily">@font/wp_roboto_font_family</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="TextAppearance.WearWapo.Headline" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/wp_postoni_standard_font_family</item>
+        <item name="maxLines">4</item>
+        <item name="android:fontFamily">@font/wp_postoni_standard_font_family</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="TextAppearance.WearWapo.ByLine" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="TextAppearance.WearWapo.Text" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/wp_georgia_font_family</item>
+        <item name="android:fontFamily">@font/wp_georgia_font_family</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="TextAppearance.WearWapo.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/wp_roboto_font_family</item>
+        <item name="android:fontFamily">@font/wp_roboto_font_family</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="TextAppearance.WearWapo.Body2" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/wp_roboto_font_family</item>
+        <item name="android:fontFamily">@font/wp_roboto_font_family</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="TextAppearance.WearWapo.EpisodeTitle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/wp_roboto_font_family</item>
+        <item name="android:fontFamily">@font/wp_roboto_font_family</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="singleLine">true</item>
+        <item name="maxLines">1</item>
+    </style>
+
+    <!-- Contained Button -->
+    <style name="Widget.WearWapo.Button" parent="Widget.MaterialComponents.Button">
+        <item name="fontFamily">@font/wp_roboto_font_family</item>
+        <item name="android:fontFamily">@font/wp_roboto_font_family</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="backgroundTint">#33F2F2F2</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- Contained Button with Icon -->
+    <style name="Widget.WearWapo.Button.Icon">
+        <item name="iconSize">20dp</item>
+    </style>
+
+    <!-- Custom styles -->
+    <style name="ShapeAppearance.WearWapo.PillComponent" parent="ShapeAppearance.MaterialComponents">
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>

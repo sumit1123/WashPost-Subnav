@@ -1,0 +1,15 @@
+{
+  "ads": {
+    "bannersConfig": {
+      "nimbus": {
+        "enabled": true,
+        "loadConfig": [
+          {
+            "bidSources": ["aps", "admob", "nimbus"],
+            "loader": "nimbus"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Bottom Sheet Paywall -->
+    <dimen name="subscribe_button_width">289dp</dimen>
+
+    <!-- AccountHold -->
+    <!-- <dimen name="accounthold_text_size_header">24sp</dimen>
+    <dimen name="accounthold_text_size_h2">16sp</dimen>
+    <dimen name="accounthold_button_min_width">150dp</dimen>
+    <dimen name="accounthold_vertical_margin">12dp</dimen>
+    <dimen name="accounthold_vertical_margin_x2_large">24dp</dimen>
+    <dimen name="contact_us_text_size">20sp</dimen>
+    <dimen name="accounthold_core_text_size">24sp</dimen>
+
+    <dimen name="accounthold_vertical_margin_top">93dp</dimen>
+    <dimen name="accounthold_vertical_margin_bottom">100dp</dimen> -->
+    <dimen name="accounthold_logo_vertical_margin">24dp</dimen>
+    <dimen name="accounthold_logo_width">150dp</dimen>
+    <dimen name="accounthold_logo_height">22dp</dimen>
+    <dimen name="accounthold_close">16dp</dimen>
+    <dimen name="accounthold_text_size_header">24sp</dimen>
+    <dimen name="accounthold_text_size_h2">14sp</dimen>
+    <dimen name="accounthold_button_min_width">150dp</dimen>
+    <dimen name="accounthold_vertical_margin">12dp</dimen>
+    <dimen name="accounthold_vertical_margin_x2_large">24dp</dimen>
+    <dimen name="contact_us_text_size">12sp</dimen>
+    <dimen name="accounthold_core_text_size">18sp</dimen>
+
+    <dimen name="accounthold_vertical_margin_top">91dp</dimen>
+    <dimen name="accounthold_vertical_margin_bottom">76dp</dimen>
+    <dimen name="account_update_payment_button_width">222dp</dimen>
+    <dimen name="account_update_payment_button_height">40dp</dimen>
+    <dimen name="account_hold_corner_radius">20dp</dimen>
+    <dimen name="accounthold_button_text_size">16sp</dimen>
+    <dimen name="accounthold_contactus_margin">80dp</dimen>
+</resources>

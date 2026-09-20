@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/summary_rounded_dialog_bg"
+        android:paddingTop="@dimen/summary_dimen_x_small_1"
+        android:paddingBottom="@dimen/summary_dimen_large">
+
+        <View
+            android:id="@+id/top_bar"
+            android:layout_width="@dimen/summary_dialog_top_bar_width"
+            android:layout_height="@dimen/summary_dialog_top_bar_height"
+            android:layout_marginBottom="@dimen/summary_dimen_medium_1"
+            android:background="@drawable/summary_dialog_top_bar"
+            app:layout_constraintBottom_toTopOf="@+id/title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/feedback_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/summary_dimen_xxx_large"
+            android:layout_marginBottom="@dimen/summary_dimen_x_small"
+            android:gravity="center"
+            android:text="@string/feedback_title"
+            app:layout_constraintBottom_toTopOf="@+id/description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/feedback_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/summary_dimen_xxx_large"
+            android:layout_marginBottom="@dimen/summary_dimen_medium"
+            android:gravity="center"
+            android:text="@string/feedback_conversation"
+            app:layout_constraintBottom_toTopOf="@+id/radio_group"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/summary_dimen_xxx_large"
+            android:layout_marginBottom="@dimen/summary_dimen_medium"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/details_container"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_goneMarginBottom="0dp">
+
+            <RadioButton
+                android:id="@+id/yes"
+                style="@style/feedback_face"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/radio_button_background_selector"
+                android:button="@null"
+                android:drawableTop="@drawable/ic_thumbs_up_unfilled_32"
+                android:drawableTint="@color/feedback_icon_tint_color_selection"
+                android:rotation="180"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="12dp" />
+
+            <RadioButton
+                android:id="@+id/no"
+                style="@style/feedback_face"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/radio_button_background_selector"
+                android:button="@null"
+                android:drawableTop="@drawable/ic_thumbs_up_unfilled_32"
+                android:drawableTint="@color/feedback_icon_tint_color_selection"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="12dp"/>
+        </RadioGroup>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/details_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginHorizontal="@dimen/summary_dimen_large_2"
+                android:layout_marginBottom="@dimen/summary_dimen_medium"
+                android:background="@color/feedback_divider"
+                app:layout_constraintBottom_toTopOf="@+id/details_title" />
+
+            <TextView
+                android:id="@+id/details_title"
+                style="@style/feedback_details_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/summary_dimen_xxx_large"
+                android:layout_marginBottom="@dimen/summary_dimen_x_small"
+                android:gravity="center"
+                android:text="@string/feedback_details_title"
+                app:layout_constraintBottom_toTopOf="@+id/details_description"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/details_description"
+                style="@style/feedback_details_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/summary_dimen_xxx_large"
+                android:layout_marginBottom="@dimen/summary_dimen_medium"
+                android:gravity="center"
+                app:layout_constraintBottom_toTopOf="@+id/input_feedback"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/input_feedback"
+                style="@style/feedback_input_box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/summary_dimen_xxx_large"
+                android:layout_marginBottom="@dimen/summary_dimen_medium"
+                android:gravity="start"
+                android:hint="@string/feedback_details_hint"
+                android:padding="@dimen/summary_dimen_small"
+                app:layout_constraintBottom_toTopOf="@+id/submit_button"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <Button
+                android:id="@+id/submit_button"
+                style="@style/feedback_details_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingHorizontal="@dimen/summary_dimen_large"
+                android:text="@string/button_submit"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateOnly="true"
+            android:progressBackgroundTint="@color/post_wp_blue_bright"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

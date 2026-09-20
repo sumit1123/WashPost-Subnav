@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/section_front_background">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/anchor"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true" />
+
+            <LinearLayout
+                android:id="@+id/statusContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/anchor"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/statusView"
+                    style="@style/sf_gathering_news_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:gravity="center"
+                    android:linksClickable="true"
+                    android:text="@string/articles_unable_to_load_a_content_msg"
+                    android:textAppearance="@android:style/TextAppearance.Large" />
+
+                <Button
+                    android:id="@+id/retry"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/try_again"
+                    android:textColor="@color/retry_text" />
+
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/section_front_background" />
+
+            <ImageView
+                android:id="@+id/loadingImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/async_shine"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</FrameLayout>

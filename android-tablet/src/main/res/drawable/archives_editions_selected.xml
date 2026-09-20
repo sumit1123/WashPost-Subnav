@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" android:padding="5dp">
+    <!-- you can use any color you want I used here gray color-->
+    <solid android:color="@color/print_edition_background"/>
+    <corners
+        android:bottomRightRadius="1dp"
+        android:bottomLeftRadius="1dp"
+        android:topLeftRadius="1dp"
+        android:topRightRadius="1dp"/>
+    <stroke android:width="1dp" android:color="@color/print_edition_label"/>
+</shape>

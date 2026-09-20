@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/live_image_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="1dp"
+        android:paddingEnd="1dp"
+        android:orientation="vertical">
+
+        <ViewStub
+            android:id="@+id/live_image_tabs"
+            android:layout="@layout/live_image_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"/>
+
+        <com.wapo.flagship.features.grid.views.LiveImageViewPager
+            android:id="@+id/live_imager_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ViewStub
+            android:id="@+id/live_image_segmented_buttons"
+            android:layout="@layout/live_image_segmented_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/live_image_cta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/LiveImageCTA"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <ViewStub
+        android:id="@+id/live_image_carousel"
+        android:layout="@layout/live_image_carousel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/live_image_box"
+        android:visibility="gone">
+    </ViewStub>
+
+</RelativeLayout>

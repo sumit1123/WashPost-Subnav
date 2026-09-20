@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generic -->
+    <color name="primary_menu_text">#111111</color>
+    <color name="primary_menu_bg">#FFFFFF</color>
+    <color name="primary_menu_outline">#D5D5D5</color>
+
+    <color name="app_bg">#FFFFFF</color>
+    <color name="text_selection">#8FCBC5</color>
+    <color name="horizontal_slider_bottom_border_night_mode">#304ffe</color>
+    <color name="menu_text_white">#aaaaaa</color>
+    <color name="sliding_text_color_dark">#2a2a2a</color>
+    <color name="sliding_text_color_light">#DDDDDD</color>
+    <color name="light_blue">#7F4b99ff</color>
+    <color name="post_blue">#1955a5</color>
+    <color name="tab_bottom_color">#E9E9E9</color>
+    <color name="phone_tabs_accent">#2a2a2a</color>
+    <color name="phone_tabs_text_secondary">#2A2A2A</color>
+    <color name="phone_tabs_text_primary">#111111</color>
+
+    <color name="link_color">#1955A5</color>
+    <color name="link_color_night_mode">#4987DB</color>
+    <color name="image_bg_shane_start_color">#ff111111</color>
+    <color name="image_bg_shane_end_color">#00111111</color>
+    <color name="image_background">#00F2F2F2</color>
+
+    <color name="streamm_headline">#424242</color>
+    <color name="streamm_headline_white">#fff4f4f4</color>
+    <color name="streamm_blurb">#686868</color>
+    <color name="streamm_blurb_white">#ffe6e6e6</color>
+    <color name="streamm_section">#1955a5</color>
+    <color name="streamm_byline">#969696</color>
+    <color name="streamm_byline_white">#ffc6c6c6</color>
+    <color name="streamm_label">#046b9f</color>
+    <color name="streamm_label_white">#ff0482bb</color>
+    <color name="streamm_time">#686868</color>
+    <color name="streamm_time_white">#ffdedede</color>
+    <color name="stream_separator">#686868</color>
+    <color name="wapo_views_gray">#c3c3c3</color>
+    <drawable name="color_transparent">#00000000</drawable>
+    <color name="dark_gray">#424242</color>
+    <color name="article_correction_title_dark_gray">#666666</color>
+    <color name="article_correction_text_dark_gray">#333333</color>
+    <color name="olympics_background">#f0f0f0</color>
+
+    <color name="show_more_photos_btn_background">#7d939f</color>
+    <color name="show_more_photos_text_hide">#7d939f</color>
+    <color name="show_more_photos_text_show">#ffffff</color>
+    <color name="white">#ffffff</color>
+
+    <color name="related_links_clickable_color_light">#51ffffff</color>
+    <color name="related_links_clickable_color_dark">#29ffffff</color>
+
+    <!-- Ripple -->
+    <color name="ripple_background_alpha16_light">#52ffffff</color>
+    <color name="ripple_background_alpha26_light">#52ffffff</color>
+    <color name="ripple_background_alpha16_dark">#52FFFFFF</color>
+
+    <color name="action_bar_bg">#ffffff</color>
+    <color name="menu_category_item_bg">#F7F7F7</color>
+
+    <color name="tooltip_overlay">#00000000</color>
+    <color name="tooltip_background">#166DFC</color>
+    <color name="tooltip_text">#FFFFFF</color>
+    <color name="tooltip_shadow">#CCCCCC</color>
+
+    <!-- Sections Menu -->
+    <color name="sections_menu_bg">@color/app_bg</color>
+
+    <color name="secondary_action_button">#f4f4f4</color>
+    <color name="secondary_action_text">@color/black</color>
+    <color name="secondary_text">#8E8E8E</color>
+
+    <color name="menu_inactive_title">#666666</color>
+    <color name="menu_chip_border">#666666</color>
+    <color name="menu_horizontal_ruler">#D5D5D5</color>
+    <color name="menu_active_text">#2A2A2A</color>
+    <color name="menu_navigation_icon">#4D000000</color>
+    <color name="article_correction_title">#666666</color>
+    <color name="article_correction_text">#333333</color>
+    <color name="blue_notification_badge">#166dfc</color>
+
+    <color name="headline_text_color">#111</color>
+    <color name="label_text_color">#111</color>
+    <color name="secondary_text_color">#666</color>
+    <color name="secondary_text_highlight_color">#111</color>
+    <color name="secondary_text_underline_color">#AAA</color>
+    <color name="helper_text_color">#333</color>
+    <color name="article_list_divider">#D5D5D5</color>
+
+    <color name="olympics_row_bg_1">#F7F7F7</color>
+    <color name="olympics_row_bg_2">@android:color/transparent</color>
+    <color name="olympics_title">#2A2A2A</color>
+    <color name="olympics_header">#666666</color>
+    <color name="olympics_table_text">#666666</color>
+    <color name="olympics_table_text_time">#111111</color>
+    <color name="olympics_table_text_bold">#2A2A2A</color>
+    <color name="olympics_icon_bg">@android:color/transparent</color>
+    <color name="page_dot_normal">#aaaaaa</color>
+    <color name="live_blog_bullet_color">#CF000E</color>
+    <color name="page_dot_selected">#2a2a2a</color>
+    <color name="table_row_header_bg">#FFF</color>
+    <color name="table_column_header_bg">#F7F7F7</color>
+    <color name="table_cell_bg">#F7F7F7</color>
+    <color name="cell_text">#2A2A2A</color>
+    <color name="row_header_text">#666666</color>
+
+    <color name="tile_border">#d4d4d4</color>
+    <color name="tile_card_background">#FFFFFF</color>
+
+    <!-- Card/MaterialCard views -->
+    <color name="card_view_bg">#FFFFFF</color>
+    <color name="card_view_stroke_bg">#F4F4F4</color>
+    <!-- active_inactive_card_view_bg.xml and active_inactive_card_view_stroke_bg.xml are using the
+         bellow colors based on the states -->
+    <color name="active_card_view_bg">#333333</color>
+    <color name="active_card_view_stroke_bg">#2A2A2A</color>
+    <color name="inactive_card_view_bg">#FFFFFF</color>
+    <color name="inactive_card_view_stroke_bg">#F4F4F4</color>
+    <color name="recipe_bookmark">#595959</color>
+
+    <color name="slideshow_overlay_bg">#000000</color>
+    <color name="slideshow_overlay_text">#FFFFFF</color>
+    <color name="slide_show_caption_text">#666666</color>
+
+    <color name="live_image_layout_background">#FFFFFF</color>
+    <color name="live_image_container_border">#E9E9E9</color>
+    <color name="live_image_selected_tab_indicator">#2A2A2A</color>
+    <color name="live_image_segmented_tab_text">#111111</color>
+    <color name="live_image_segmented_tab_selected">#FFFFFF</color>
+    <color name="live_image_segmented_tab_unselected">#E9E9E9</color>
+    
+    <color name="pref_button_bg">#F0F0F0</color>
+    <color name="pref_button_fade_start">#00FFFFFF</color>
+    <color name="pref_button_fade_end">#FFFFFF</color>
+    <color name="pref_mixer">#166DFC</color>
+
+
+    <!-- Settings -->
+    <color name="settings_category_bg">#f7f7f7</color>
+    <color name="settings_category_text">#666666</color>
+
+    <color name="ask_the_post_purple">#b3836dff</color>
+
+</resources>

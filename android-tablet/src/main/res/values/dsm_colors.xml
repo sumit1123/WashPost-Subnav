@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- https://washpost.invisionapp.com/dsm/washpost/wp-design-system/folder/colors/5bad1c6c972243001151f3e1 -->
+
+    <color name="post_wp_blue_bright">#3D73D5</color>
+
+    <color name="post_subscriber_blue_normal">#2C85FC</color>
+    <color name="post_subscriber_blue_dark">#175BB7</color>
+    <color name="post_subscriber_blue_bright">#9EBEE9</color>
+</resources>

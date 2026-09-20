@@ -1,0 +1,1778 @@
+{
+  "layout": "homepage",
+  "output_type": "jsonapp",
+  "regions": [
+    {
+      "location": "content",
+      "items": [
+        {
+          "item_type": "grid",
+          "item_type_impl": "top-table",
+          "layout": "Full Span",
+          "items": [
+            {
+              "table_name": "allcontent",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/business/economy",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/04/16/coronavirus-cares-stimulus-check/",
+                    "type": "article",
+                    "last_modified": "2020-04-16T23:02:48.277Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "Glitches prevent $1,200 stimulus checks from reaching millions of Americans",
+                    "size": "huge",
+                    "font_style": "bold",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain-top-table",
+          "size": "small",
+          "line": false
+        },
+        {
+          "item_type": "grid",
+          "item_type_impl": "top-table",
+          "layout": "Tiling",
+          "items": [
+            {
+              "table_name": "allcontent",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "vertical": [
+                    {
+                      "col": 10,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "large": {
+                  "vertical": [
+                    {
+                      "col": 8,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "medium": {
+                  "vertical": [
+                    {
+                      "col": 6,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "small": {
+                  "vertical": [
+                    {
+                      "col": 5,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/us-policy/economic-policy",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/us-policy/2020/04/19/trump-coronavirus-democrats-small-business/",
+                    "type": "article",
+                    "last_modified": "2020-04-20T03:55:27.460Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "Trump administration, congressional leaders near deal on virus aid that includes major boost for small businesses ",
+                    "size": "large",
+                    "font_style": "bold",
+                    "alignment": "center"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Our fearless leader speaks:",
+                        "type": "normal"
+                      },
+                      {
+                        "text": "“I think we are getting close to a deal.”",
+                        "type": "bullet"
+                      },
+                      {
+                        "text": "“We have some very good negotiations going on right now.”",
+                        "type": "bullet"
+                      },
+                      {
+                        "text": "“I think you could have a nice answer tomorrow.\"",
+                        "type": "bullet"
+                      }
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/04/16/osha-coronavirus-complaints/",
+                    "type": "article",
+                    "last_modified": "2020-04-16T22:46:19.841Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "Thousands of OSHA complaints filed against companies for virus workplace safety concerns, records show",
+                    "size": "large",
+                    "font_style": "bold",
+                    "alignment": "center"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "No masks.",
+                        "type": "bullet"
+                      },
+                      {
+                        "text": "No sanitizer.",
+                        "type": "bullet"
+                      },
+                      {
+                        "text": "No mustaches.",
+                        "type": "bullet"
+                      },
+                      {
+                        "text": "No hazard pay.",
+                        "type": "bullet"
+                      }
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 10,
+                      "colspan": 10
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 8,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain-top-table",
+          "size": "large",
+          "line": true
+        },
+        {
+          "item_type": "grid",
+          "item_type_impl": "top-table",
+          "layout": "Two Even Columns",
+          "dividers": {
+            "xlarge": {
+              "vertical": [
+                {
+                  "col": 8,
+                  "row": 0,
+                  "rowspan": 1
+                },
+                {
+                  "col": 16,
+                  "row": 0,
+                  "rowspan": 1
+                }
+              ]
+            },
+            "large": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 16
+                }
+              ],
+              "vertical": [
+                {
+                  "col": 8,
+                  "row": 0,
+                  "rowspan": 1
+                }
+              ]
+            },
+            "medium": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 12
+                }
+              ]
+            },
+            "small": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 10
+                }
+              ]
+            },
+            "xsmall": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 1
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 1
+                }
+              ]
+            }
+          },
+          "items": [
+            {
+              "table_name": "table1",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 8
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 8
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 8
+                    }
+                  ]
+                },
+                "large": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 8
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/health/coronavirus",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/world/2020/04/02/coronavirus-latest-news/",
+                    "type": "article",
+                    "last_modified": "2020-04-03T09:11:38.239Z"
+                  },
+                  "source": "the-washington-post",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "icon": "none",
+                    "label": {
+                      "text": "LIVE UPDATES"
+                    }
+                  },
+                  "headline": {
+                    "text": "Coronavirus stimulus payments begin April 9, but some won’t receive checks until September",
+                    "size": "medium",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/world/2020/04/02/coronavirus-latest-news/",
+                    "num_to_show": 5
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "label": {
+                    "type": "section-large-with-explainer",
+                    "position": "default",
+                    "alignment": "inherit",
+                    "show_arrow": false,
+                    "icon": "none",
+                    "label": {
+                      "text": "The Beatles"
+                    },
+                    "label_secondary": {
+                      "text": "The story continues with Ringo’s drumming for the White Album"
+                    }
+                  },
+                  "blurbs": {
+                    "items": []
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/business/personal-finance",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/personal-finance/if-you-cant-pay-your-mortgage-heres-what-you-need-to-know/2020/04/07/81a0706c-7905-11ea-b6ff-597f170df8f8_story.html",
+                    "type": "article",
+                    "last_modified": "2020-04-09T01:31:04.773Z"
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "text": "If you can’t pay your mortgage, here’s what you need to know",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The Cares Act was supposed to help homeowners who can’t pay their mortgages — but they could still be on the hook for big lump sum payments. Some lenders haven’t put the newer, more generous terms in place yet.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Michelle Singletary"
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "White House prepares to slash regulations",
+                        "url": "https://www.washingtonpost.com/business/2020/04/21/white-house-coronavirus-regulations/"
+                      },
+                      {
+                        "text": "Wyoming spared",
+                        "url": "https://www.washingtonpost.com/national/coronavirus-wyoming-protests-restrictions/2020/04/20/d9855638-831b-11ea-ae26-989cfce1c7c7_story.html"
+                      },
+                      {
+                        "text": "More small-business money",
+                        "url": "https://www.washingtonpost.com/us-policy/2020/04/20/trump-coronavirus-democrats-small-business-testing/"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "normal"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/lifestyle/on-parenting",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/lifestyle/on-parenting/this-is-not-the-time-for-a-broken-arm-how-the-pandemic-is-affecting-parents-perception-of-risk/2020/04/02/fe37d304-742d-11ea-87da-77a8136c1a6d_story.html",
+                    "type": "article",
+                    "last_modified": "2020-04-07T14:34:11.447Z"
+                  },
+                  "source": "The Washington Post",
+                  "media": {
+                    "art_position": "art-above-head",
+                    "art_width": "TODO in Image ticket",
+                    "aspect_ratio": 0.5625,
+                    "caption_content": "Zach Purser Brown/The Washington Post",
+                    "height": "TODO in Image ticket",
+                    "media_type": "wp-video",
+                    "overlay": {
+                      "text": "",
+                      "style": "default",
+                      "secondary_text": "1:44",
+                      "secondary_style": "secondary",
+                      "prefix_icon": "play"
+                    },
+                    "video": {
+                      "is_live": false,
+                      "tracking": {
+                        "content_id": "4e9803a0-8756-42e2-9bf2-dcaf5de4ffe8",
+                        "page_name": "wp-homepage",
+                        "video_category": "segments",
+                        "video_section": "Politics",
+                        "video_name": "Politics:video - dcaf5de4ffe8 - 20200423 - Trump's mixed messages to governors",
+                        "video_source": "The Washington Post"
+                      },
+                      "streams": [
+                        {
+                          "bitrate": 160,
+                          "filesize": 4922028,
+                          "height": 180,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20200423/5ea201ca4cedfd00017b9836/5ea2023746e0fb00099ec777/mobile.m3u8",
+                          "width": 320
+                        },
+                        {
+                          "bitrate": 300,
+                          "filesize": 6878168,
+                          "height": 360,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20200423/5ea201ca4cedfd00017b9836/5ea2023746e0fb00099ec777/mobile.m3u8",
+                          "width": 640
+                        },
+                        {
+                          "bitrate": 600,
+                          "filesize": 10826920,
+                          "height": 360,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20200423/5ea201ca4cedfd00017b9836/5ea2023746e0fb00099ec777/mobile.m3u8",
+                          "width": 640
+                        },
+                        {
+                          "bitrate": 1200,
+                          "filesize": 18862980,
+                          "height": 480,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20200423/5ea201ca4cedfd00017b9836/5ea2023746e0fb00099ec777/master.m3u8",
+                          "width": 854
+                        },
+                        {
+                          "bitrate": 4500,
+                          "filesize": 63469176,
+                          "height": 1080,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20200423/5ea201ca4cedfd00017b9836/5ea2023746e0fb00099ec777/hd.m3u8",
+                          "width": 1920
+                        },
+                        {
+                          "bitrate": 5400,
+                          "filesize": 73292176,
+                          "height": 1080,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20200423/5ea201ca4cedfd00017b9836/5ea2023746e0fb00099ec777/hlsv4_master.m3u8",
+                          "width": 1920
+                        },
+                        {
+                          "bitrate": 160,
+                          "filesize": 3863201,
+                          "height": 180,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20200423/5ea201ca4cedfd00017b9836/5ea2023746e0fb00099ec777/file_320x180-160-v3.mp4",
+                          "width": 320
+                        },
+                        {
+                          "bitrate": 600,
+                          "filesize": 9639951,
+                          "height": 360,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20200423/5ea201ca4cedfd00017b9836/5ea2023746e0fb00099ec777/file_640x360-600-v3.mp4",
+                          "width": 640
+                        },
+                        {
+                          "bitrate": 1200,
+                          "filesize": 17529145,
+                          "height": 480,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20200423/5ea201ca4cedfd00017b9836/5ea2023746e0fb00099ec777/file_854x480-1200-v3_1.mp4",
+                          "width": 854
+                        },
+                        {
+                          "bitrate": 2000,
+                          "filesize": 28064846,
+                          "height": 720,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20200423/5ea201ca4cedfd00017b9836/5ea2023746e0fb00099ec777/file_1280x720-2000-v3_1.mp4",
+                          "width": 1280
+                        },
+                        {
+                          "bitrate": 5400,
+                          "filesize": 72841687,
+                          "height": 1080,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20200423/5ea201ca4cedfd00017b9836/5ea2023746e0fb00099ec777/file_1920x1080-5400-v4.mp4",
+                          "width": 1920
+                        }
+                      ]
+                    }
+                  },
+                  "headline": {
+                    "text": "‘This is not the time for a broken arm’: How the pandemic is affecting parents’ perception of risk",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Scrapes and falls are part of childhood. But the stakes feel higher when hospitals are overburdened with potentially contagious coronavirus patients.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Sindya N. Bhanoo"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 3,
+                      "rowspan": 2,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 3,
+                      "rowspan": 2,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 3,
+                      "rowspan": 2,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 3,
+                      "rowspan": 2,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table2",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 8,
+                  "colspan": 8
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 8,
+                  "colspan": 8
+                },
+                "medium": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 8
+                    }
+                  ]
+                },
+                "large": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 8
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/bytheway",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/travel/2020/03/02/airlines-are-offering-flexible-travel-options-adapt-spread-coronavirus-heres-what-we-know-so-far/",
+                    "type": "article",
+                    "last_modified": "2020-04-08T17:35:20.237Z"
+                  },
+                  "source": "the-washington-post",
+                  "label": {
+                    "type": "kicker",
+                    "position": "default",
+                    "alignment": "inherit",
+                    "icon": "none",
+                    "label": {
+                      "text": "By The Way"
+                    },
+                    "label_secondary": {
+                      "text": "Travel while it's cheap (not!)"
+                    }
+                  },
+                  "headline": {
+                    "text": "The latest flexible policies at major airlines in the wake of coronavirus",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "What American, Delta, Spirit Airlines and others are allowing for flights that didn't fly or are in question amid the pandemic.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Drew Jones"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/politics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/long-lines-form-in-milwaukee-as-wisconsin-proceeds-with-elections-under-court-order/2020/04/07/93727b34-78c7-11ea-b6ff-597f170df8f8_story.html",
+                    "type": "article",
+                    "last_modified": "2020-04-08T03:38:20.259Z"
+                  },
+                  "source": "The Washington Post",
+                  "label": {
+                    "type": "kicker",
+                    "position": "default",
+                    "alignment": "inherit",
+                    "icon": "none",
+                    "label": {
+                      "text": "Bad idea"
+                    }
+                  },
+                  "headline": {
+                    "text": "Long lines, anger and fear of infection: Wisconsin proceeds with elections under court order",
+                    "size": "large",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The scene underscored the challenges facing election officials one day after Democratic Gov. Tony Evers sought to suspend in-person voting, an order that was quickly reversed by the Wisconsin Supreme Court.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Elise Viebeck, Amy Gardner, Dan Simmons and Jan M. Larson"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/sports/nfl",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/sports/2020/04/06/read-between-lines-tom-bradys-players-tribune-essay-hes-unhappy-with-bill-belichick/",
+                    "type": "article",
+                    "last_modified": "2020-04-07T16:45:40Z"
+                  },
+                  "source": "the-washington-post",
+                  "label": {
+                    "type": "mini-all-caps",
+                    "position": "default",
+                    "alignment": "inherit",
+                    "icon": "none",
+                    "label": {
+                      "text": "JOHN, PAUL, GEORGE, RINGO"
+                    },
+                    "label_secondary": {
+                      "text": "AND TOM"
+                    }
+                  },
+                  "headline": {
+                    "text": "Read between the lines of Tom Brady’s Players’ Tribune essay: He’s unhappy with Bill Belichick",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "While delving into his thinking behind leaving the Patriots for the Buccaneers, Brady only mentions in an offhand, less-than-complimentary way the coach who helped him win six Super Bowls in New England.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/lifestyle/style",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/lifestyle/style/how-to-listen-alone-in-a-lockdown/2020/04/07/487391b8-75bb-11ea-87da-77a8136c1a6d_story.html",
+                    "type": "article",
+                    "last_modified": "2020-04-21T13:31:55.748Z"
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "text": "How to listen alone in a lockdown",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Our nightlife has gone dark, but our relationship to music can still grow in isolation.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Chris Richards"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table3",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 16,
+                  "colspan": 4
+                },
+                "large": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 4
+                    }
+                  ]
+                },
+                "large": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 16
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/bytheway",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/travel/2020/04/11/anonymous-neighbors-rooftop-views-three-photographers-dispatches-isolation/",
+                    "type": "article",
+                    "last_modified": "2020-04-10T20:59:32.946Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "Anonymous neighbors and rooftop views: Three photographers’ dispatches from isolation ",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Three of our City Guide photographers show us what life is like for them during the coronavirus quarantine.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Haley Hamblin"
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Full fields, empty fridges",
+                        "url": "https://www.washingtonpost.com/business/2020/04/23/fixing-food-dumping-food-banks/"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "normal"
+                    },
+                    "label": {
+                      "type": "mini-all-caps",
+                      "alignment": "inherit",
+                      "label": {
+                        "text": "FROM THE BAD NEWS FILES"
+                      }
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/politics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/reopening-us-economy-by-may-1-may-be-unrealistic-say-experts-including-some-within-trump-administration/2020/04/12/15c922e4-7cde-11ea-9040-68981f488eed_story.html",
+                    "type": "article",
+                    "last_modified": "2020-04-14T22:19:06.208Z"
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "text": "Reopening U.S. economy by May 1 may be unrealistic, say experts, including some within Trump administration",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The debate came as most U.S. Christians celebrated Easter away from church and a Trump friend succumbed to covid-19, the disease caused by the novel coronavirus.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Felicia Sonmez, Taylor Telford and Elise Viebeck"
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Factory makes lots o' mask material",
+                        "url": "https://www.washingtonpost.com/nation/2020/04/23/factory-masks-coronavirus-ppe/"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "normal"
+                    },
+                    "label": {
+                      "type": "section-small",
+                      "alignment": "inherit",
+                      "label": {
+                        "text": "From the Good News Files"
+                      }
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/national/morning-mix",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/03/24/coronavirus-second-homes/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T23:53:22.816Z"
+                  },
+                  "source": "the-washington-post",
+                  "label": {
+                    "type": "section-small",
+                    "position": "default",
+                    "alignment": "center",
+                    "icon": "none",
+                    "label": {
+                      "text": "Is it"
+                    },
+                    "label_secondary": {
+                      "text": "Wysocki?"
+                    }
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Police in Block Island, R.I. said they’d received credible tips.",
+                        "type": "normal"
+                      },
+                      {
+                        "text": "Residents threaten to destroy the island’s power transformers to discourage visitors",
+                        "type": "bullet"
+                      },
+                      {
+                        "text": "North Haven, in Maine, voted to ban its own part-time residents.",
+                        "type": "bullet"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Antonia Noori Farzan"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/world/national-security",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/world/national-security/americans-at-world-health-organization-transmitted-real-time-information-about-coronavirus-to-trump-administration/2020/04/19/951c77fa-818c-11ea-9040-68981f488eed_story.html",
+                    "type": "article",
+                    "last_modified": "2020-04-19T23:06:42.077Z"
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "text": "Americans at World Health Organization transmitted real-time information about coronavirus to Trump administration",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The presence of U.S. scientists in Geneva undercuts president’s argument that the WHO failed to communicate with Washington.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "A question at many hospitals: Where have the patients gone?",
+                        "url": "https://www.washingtonpost.com/health/patients-with-heart-attacks-strokes-and-even-appendicitis-vanish-from-hospitals/2020/04/19/9ca3ef24-7eb4-11ea-9040-68981f488eed_story.html"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "normal"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain-top-table",
+          "size": "small",
+          "line": false
+        }
+      ]
+    }
+  ],
+  "checksum": -404842667
+}

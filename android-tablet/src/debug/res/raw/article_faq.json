@@ -1,0 +1,812 @@
+{
+  "id": "8d29626125842f2a0ab563627fe60d8b",
+  "type": "blog",
+  "renderer": "native",
+  "arcId": "AB53R6ZLBBHLNALKO5EHYC3O3U",
+  "title": "What we\u2019ve learned from the leaked Pentagon documents",
+  "blurb": "The sensitive subject matter and relative recency are major worries for U.S. officials.",
+  "contenturl": "https://www.washingtonpost.com/world/2023/04/10/faq-leaked-pentagon-documents/",
+  "shareurl": "https://www.washingtonpost.com/world/2023/04/10/faq-leaked-pentagon-documents/",
+  "source": "the-washington-post",
+  "section": "World",
+  "sourcesection": "world",
+  "sourcesubsection": "world",
+  "sourcecategory": "World",
+  "lmt": 1681475848330,
+  "published": 1681475848330,
+  "first_published": 1681155588320,
+  "display_date": 1681396863706,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GR3X6YCERZJZJDRINYJJFSOCPY.jpg",
+  "sourceslug": "faq-pentagonleaks",
+  "commercialnode": "/world",
+  "omniture": {
+    "title": "What we\u2019ve learned from the leaked Pentagon documents - The Washington Post",
+    "pageName": "faq-leaked-pentagon-documents",
+    "channel": "world",
+    "contentId": "nullAB53R6ZLBBHLNALKO5EHYC3O3U",
+    "contentType": "blog",
+    "contentSource": "the-washington-post",
+    "contentTopics": "World;National Security;Americas",
+    "newsroomDesk": "foreign",
+    "newsroomSubdesk": "foreign - breaking news",
+    "contentAuthor": "adam taylor",
+    "authorId": "tayloraj",
+    "authorType": "staff writer",
+    "subSection": "world",
+    "arcId": "AB53R6ZLBBHLNALKO5EHYC3O3U",
+    "trackingTags": "story-has-edit-branch;created from template id mfrtzxm5wbhfhh6wbociwkqgam;newsdurable;methode-draft;discord-leaks;explanatory;audio-article"
+  },
+  "tags": "story-has-edit-branch,created from template id mfrtzxm5wbhfhh6wbociwkqgam,newsdurable,methode-draft,discord-leaks,explanatory,audio-article",
+  "items": [
+    {
+      "content": "World",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "The Discord Leaks",
+      "path": "/discord-leaks"
+    },
+    {
+      "content": "What we\u2019ve learned from the leaked Pentagon documents",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/AB53R6ZLBBHLNALKO5EHYC3O3U/20230413-155651.514/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/AB53R6ZLBBHLNALKO5EHYC3O3U/20230413-155651.514/current.mp3?awCollectionId=/world&awEpisodeId=AB53R6ZLBBHLNALKO5EHYC3O3U&tags=newsdurable%7Cdiscord-leaks%7Caudio-article",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/AB53R6ZLBBHLNALKO5EHYC3O3U/20230413-155651.514/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GR3X6YCERZJZJDRINYJJFSOCPY.jpg",
+        "imageWidth": 7360,
+        "imageHeight": 4912,
+        "fullcaption": "(Oleg Petrasyuk/EPA-EFE/Shutterstock)"
+      },
+      "title": {
+        "content": "What we\u2019ve learned from the leaked Pentagon documents",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "World",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "The Discord Leaks",
+        "path": "/discord-leaks"
+      },
+      "date": {
+        "content": 1681396863706,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      }
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GR3X6YCERZJZJDRINYJJFSOCPY.jpg",
+      "imageWidth": 7360,
+      "imageHeight": 4912,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Ukrainian servicemen in the 57th Otaman Kost Hordiienko Separate Motorized Infantry Brigade fire 2s1 \u201cGvozdika\u201d self-propelled howitzers at an undisclosed position near the outskirts of Bakhmut on Friday. (Oleg Petrasyuk/EPA-EFE/Shutterstock)",
+      "blurb": "Ukrainian servicemen in the 57th Otaman Kost Hordiienko Separate Motorized Infantry Brigade fire 2s1 \u201cGvozdika\u201d self-propelled howitzers at an undisclosed position near the outskirts of Bakhmut on Friday."
+    },
+    {
+      "content": "By Adam Taylor",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "tayloraj",
+          "url": "https://www.washingtonpost.com/people/adam-taylor/",
+          "name": "Adam Taylor",
+          "bio": "Adam Taylor writes about foreign affairs for The Washington Post. Originally from London, he studied at the University of Manchester and Columbia University.",
+          "expertise": "Foreign reporter who writes about a variety of subjects",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/5ca9816b-ff47-49a9-a99d-778fc202b6fe.png"
+        }
+      ]
+    },
+    {
+      "content": 1681396863706,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The <a href=\"https://www.washingtonpost.com/national-security/2023/04/08/intelligence-leak-documents-ukraine-pentagon/\">leak of a trove of classified U.S. military documents</a>, some of which began to spread on chat platforms in recent weeks and more of which have emerged since, has spooked officials around the world \u2014 particularly in Washington, as the defense and intelligence establishment scrambles to assess the damage and the <a href=\"https://www.washingtonpost.com/national-security/2023/04/07/pentagon-leak-ukraine-documents/\">Justice Department looks for answers</a>."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The documents offer an unvarnished look at <a href=\"https://www.washingtonpost.com/national-security/2023/04/08/leak-documents-ukraine-air-defense/\">high-level U.S. assessments of the war in Ukraine</a>, including tactical information about Ukrainian forces ahead of an expected spring offensive. But the impact will be felt beyond the battlefield, with some documents detailing apparent U.S. intelligence-gathering targeting allies, including South Korea and Israel."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Much about the leak remains unclear. The highly sensitive documents appear to have been shared with a group of acquaintances searching for companionship on Discord, a chat app popular with gamers. The initial poster, whom some call \u201cOG,\u201d said he spent hours transcribing classified documents from his job on a \u201cmilitary base\u201d to share with the group, <a href=\"https://www.washingtonpost.com/world/2023/04/12/pentagon-leak-spying-allies-peril/\">a Discord group member told The Washington Post</a>. OG later began to post photos of documents."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The Post has so far reviewed approximately 300 photos of classified documents.<b> </b>While the scale of the breach appears smaller than some other recent leaks of classified U.S. material, the sensitive subject matter and relative recency are major worries for U.S. officials."
+    },
+    {
+        "type": "divider"
+    },
+    {
+        "type": "sanitized_html",
+        "subtype": "subhead",
+        "mime": "text/plain",
+        "content": "WHAT TO KNOW"
+    },
+    {
+        "type": "list",
+        "subtype": "unordered",
+        "mime": "text/html",
+        "content": [
+            "<a href=\"https://www.washingtonpost.com/world/2023/04/10/faq-leaked-pentagon-documents/#UC5I6ODJI5HENAZGYZGWISLZAQ-0\">What are the leaked documents?</a>",
+            "<a href=\"https://www.washingtonpost.com/world/2023/04/10/faq-leaked-pentagon-documents/#O47DR7OJSFGTTDAPJDXIIHQFJI-1\">What information do the documents reveal?</a>",
+            "<a href=\"https://www.washingtonpost.com/world/2023/04/10/faq-leaked-pentagon-documents/#3C4MKC3HJZGRFPJ24YJPAR5TL4-2\">How did the leak happen?</a>",
+            "<a href=\"https://www.washingtonpost.com/world/2023/04/10/faq-leaked-pentagon-documents/#F54Y5ITOZZDWTACLARW2NXVBRI-3\">What has the reaction been?</a>"
+        ]
+    },
+    {
+        "type": "divider"
+    },
+    {
+        "type": "sanitized_html",
+        "subtype": "paragraph",
+        "mime": "text/html",
+        "content": "The <a href=\"https://www.washingtonpost.com/national-security/2023/04/08/intelligence-leak-documents-ukraine-pentagon/\">leak of a trove of classified U.S. military documents</a>, some of which began to spread on chat platforms in recent weeks and more of which have emerged since, has spooked officials around the world \u2014 particularly in Washington, as the defense and intelligence establishment scrambles to assess the damage and the <a href=\"https://www.washingtonpost.com/national-security/2023/04/07/pentagon-leak-ukraine-documents/\">Justice Department looks for answers</a>."
+      },
+    {
+        "type": "link",
+        "subtype": "anchor",
+        "id": "UC5I6ODJI5HENAZGYZGWISLZAQ-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "What are the leaked documents?",
+      "subhead_level": 3
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The leak contains at least several dozen images of paper documents. The documents appear to have been printed and folded before being photographed. Some objects in the background of the photos, such as a hunting scope, suggest they were photographed in the same location."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Many of the documents appear to be briefings prepared for senior Pentagon leadership, including Gen. Mark A. Milley, chairman of the Joint Chiefs of Staff. They include assessments from the National Security Agency, the CIA, the Defense Intelligence Agency, law enforcement agencies and the National Reconnaissance Office."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Most have classified markings. Some are labeled \u201cNOFORN,\u201d meaning they cannot be released to foreign nationals. Others state they are meant to be shared with close U.S. allies, including the Five Eyes alliance of the United States, Britain, Canada, Australia and New Zealand. Some are marked \u201ctop secret,\u201d a designation at the highest level of U.S. security classifications."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Most of the information in the documents was gathered over the winter and published in late February and early March, so it does not necessarily represent a current view. The documents are largely focused on the fighting in Ukraine, but they detail other fraught geopolitical situations, including assessments of China and Iran."
+    },
+    {
+        "type": "link",
+        "subtype": "anchor",
+        "id": "O47DR7OJSFGTTDAPJDXIIHQFJI-1"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "What information do the documents reveal?",
+      "subhead_level": 3
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Given the large number of documents that have leaked, the full extent of their revelations has probably not been shown. But already, a number of details stand out."
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/html",
+      "content": [
+        "The documents give a blunt assessment of Ukraine\u2019s military strength after a year of heavy fighting, pointing to weak spots <a href=\"https://www.washingtonpost.com/national-security/2023/04/08/leak-documents-ukraine-air-defense/\">in Ukrainian air defenses</a> and likely problems with ammunition supplies. One from early February labeled \u201ctop secret\u201d offers a bleak assessment of <a href=\"https://www.washingtonpost.com/national-security/2023/04/10/leaked-documents-ukraine-counteroffensive/\">Ukraine\u2019s planned spring counteroffensive</a>, warning it would likely result in \u201cmodest territorial gains\u201d that are \u201cwell short\u201d of Kyiv\u2019s original goals.",
+        "One document describes how a Russian fighter jet nearly shot down a British surveillance plane on Sept. 29 off the coast of Crimea \u2014 an incident that could have been far more dangerous than was <a href=\"https://www.washingtonpost.com/national-security/2023/04/09/leaked-documents-surveillance-plane-rivet-joint/\">publicly acknowledged at the time</a>.",
+        "The leak suggests the <a href=\"https://www.washingtonpost.com/national-security/2023/04/08/intelligence-leak-documents-ukraine-pentagon/\">U.S. intelligence community has infiltrated</a> the Russian military and is able to warn Ukraine of upcoming attacks. There are also discussions of internal planning by the GRU, Russia\u2019s military intelligence agency, and the Wagner Group, the private military contractor crucial to Russia\u2019s war effort.",
+        "Documents appear to contain details about new surveillance technology in use by the United States to aid Ukraine, including an advanced satellite imagery system known as \u201cLAPIS time-series video.\u201d Some U.S. officials <a href=\"https://www.washingtonpost.com/national-security/2023/04/08/intelligence-leak-documents-ukraine-pentagon/\">fear that Russia could use the information to disrupt this technology</a>.",
+        "One report suggests that Turkey, a NATO ally, was approached by Wagner to help procure supplies. That <a href=\"https://www.washingtonpost.com/national-security/2023/04/08/intelligence-leak-documents-ukraine-pentagon/\">document states</a> that Wagner\u2019s representatives \u201cmet with Turkish contacts to purchase weapons and equipment from Turkey for Vagner\u2019s efforts in Mali and Ukraine,\u201d using a variation on the spelling of the group\u2019s name. It is unclear how much Turkey might have known about the efforts.",
+        "One document <a href=\"https://www.washingtonpost.com/national-security/2023/04/10/egypt-weapons-russia/\">dated Feb. 17 summarizes purported conversations</a> between Egyptian President Abdel Fatah El-Sisi and senior military officials that referenced plans to supply Russia with artillery rounds and gunpowder. In the document, Sisi instructs the officials to keep the production and shipment of the rockets secret \u201cto avoid problems with the West.\u201d It is not clear whether the production and shipment ever took place.",
+        "A document reports that South Korea\u2019s National Security Council in early March \u201cgrappled\u201d with a U.S. request that the country send artillery ammunition to Ukraine. Seoul was concerned that the request could anger Moscow and violate <a href=\"https://www.washingtonpost.com/world/2023/04/13/south-korea-ukraine-weapons-export/\">its own laws about supplying countries at war</a>, the report said, citing signals intelligence.",
+        "One report says that in February, <a href=\"https://www.washingtonpost.com/national-security/2023/04/08/leaked-documents-israel-mossad-judicial-reform/\">senior leaders of Israel\u2019s Mossad spy service</a> \u201cadvocated for Mossad officials and Israeli citizens to protest the new Israeli Government\u2019s proposed judicial reforms, including several explicit calls to action that decried the Israeli Government, according to signals intelligence.\u201d",
+        "One document, a \u201cCIA Operations Center Intelligence Update,\u201d details <a href=\"https://www.washingtonpost.com/world/2023/04/12/hungary-bank-sanctions-orban/\">a Feb. 22 political strategy session</a> in which Hungarian Prime Minister Viktor Orban describes the United States as one of his party\u2019s \u201ctop three adversaries.\u201d The update characterizes Orban\u2019s comment as \u201can escalation of the level of anti-American rhetoric in his discourse.\u201d"
+      ]
+    },
+    {
+      "type": "podcast",
+      "dataServiceAdaptor": "Podcast",
+      "mediaID": "6437191846e0fb0008bbf4b6",
+      "seriesSlug": "post-reports",
+      "episodeSlug": "the-topsecret-document-leak-panicking-us-officials",
+      "seriesName": "Post Reports",
+      "episodeName": "The top-secret document leak panicking U.S. officials",
+      "completeUrl": "https://chrt.fm/track/7429E/podtrac.com/pts/redirect.mp3/podcast.washpostpodcasts.com/washpost-production/5bda0d64e4b02752889d6aaf/20230412/6437191846e0fb0008bbf4b6/t_1681332580635_name_t_1681332454430_name_Post_Reports_23_04_12_V2_output.mp3?awCollectionId=5bda0d64e4b02752889d6aaf&awEpisodeId=6437191846e0fb0008bbf4b6",
+      "seriesImageURL": "https://podcast.posttv.com/series/20220919/t_1663629148312_name_postreports_mainart.jpg",
+      "seriesSocialImageURL": "https://podcast.posttv.com/series/20220919/t_1663629185827_name_postreports_social_logo__1_.jpg",
+      "socialImageURL": "https://podcast.posttv.com/series/20230412/t_1681328742379_name_QRZWUZMIFJEAHEYOL57QK3IUWQ.jpg",
+      "duration": 1286,
+      "subscriptionLinks": {
+        "alexa": "https://www.amazon.com/dp/B07KXYCXXG/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1543422484&sr=1-1&keywords=post+reports",
+        "amazonMusic": "https://music.amazon.com/podcasts/fb9f0220-b5be-4b69-9c4f-123714944b55/Post-Reports",
+        "applePodcasts": "https://itunes.apple.com/us/podcast/id1444873564?mt=2&at=1001lvyS&ct=pr_wp_showpage",
+        "googlePlay": "https://www.google.com/podcasts?feed=aHR0cHM6Ly9wb2RjYXN0LnBvc3R0di5jb20vaXR1bmVzL3Bvc3QtcmVwb3J0cy54bWw%3D",
+        "spotify": "https://open.spotify.com/show/4c2PEjWLJ5vGUu2kjRR808?si=yGELfgMkRVSPJK6zq8ATYw",
+        "tuneIn": "https://tunein.com/podcasts/News--Politics-Podcasts/Post-Reports-p1179350/",
+        "radioPublic": "https://radiopublic.com/post-reports-WkPXYY",
+        "rss": "https://podcast.posttv.com/itunes/post-reports.xml",
+        "iheartRadio": "https://www.iheart.com/podcast/363-post-reports-30251369/"
+      }
+    },
+    {
+        "type":"link",
+        "subtype": "anchor",
+        "id": "3C4MKC3HJZGRFPJ24YJPAR5TL4-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "How did the leak happen?",
+      "subhead_level": 3
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The leak first gained widespread attention in early April, after the New York Times reported that the Pentagon <a href=\"https://www.nytimes.com/2023/04/07/us/politics/classified-documents-leak.html\">was investigating the matter</a>."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Journalists and other investigators were soon tracing back along the timeline of posts shared online. They found images of leaked documents on social networks such as Twitter and Telegram, and earlier still on 4chan, a notoriously misanthropic online message board. The trail eventually led to Discord."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Friends of the man who appears to be the initial leaker have spoken to The Post, describing him as a young man in a small group largely made up of teenagers. They said OG had at first produced what appeared to be near-verbatim transcripts of classified intelligence documents that he indicated he had taken home from his job on a \u201cmilitary base.\u201d OG later began uploading photographs of the documents to the Discord server<a href=\"https://www.washingtonpost.com/national-security/2023/04/12/discord-leaked-documents/\"> known as Thug Shaker Central</a>."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "OG was not driven primarily by ideology, according to these accounts, but was described as skeptical of government and right-leaning politically. The images were shared initially with a small, closed group, <a href=\"https://www.washingtonpost.com/national-security/2023/04/12/discord-leaked-documents/\">but on Feb. 28, some of the images</a> were reshared by another teenage user to a Discord server affiliated with the YouTuber \u201cwow_mao.\u201d From there, they quickly spread."
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.washingtonpost.com/world/2023/04/12/discord-leaked-us-intelligence-documents/",
+      "content": "Where did leaked U.S. secrets appear? On a chat app popular with gamers."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The Justice Department has opened an investigation into the leak, and Discord has said it is cooperating with authorities. In the past, Americans who were convicted of mishandling classified information have faced long prison terms. However, finding the source of a leak is not easy: It is believed that hundreds, if not thousands, of people may have had access to the documents before they leaked."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Russia has used third parties to leak sensitive information acquired from the United States through hacking in the past, <a href=\"https://www.washingtonpost.com/world/national-security/us-government-officially-accuses-russia-of-hacking-campaign-to-influence-elections/2016/10/07/4e0b9654-8cbf-11e6-875e-2c1bfe943b66_story.html\">U.S. investigations</a> found. Some versions of the leaked documents that spread on Twitter last week appeared to have been crudely manipulated to make things look better for Moscow\u2019s war efforts by reducing confidential U.S. estimates of Russian war dead."
+    },
+    {
+      "type": "context_box",
+      "headline": "The Discord Leaks",
+      "content_pages": [
+        {
+          "type": "element_group",
+          "subtype": "context_box_element",
+          "content_elements": [
+            {
+              "type": "sanitized_html",
+              "subtype": "paragraph",
+              "mime": "text/html",
+              "content": "Dozens of highly classified documents have been leaked online, revealing sensitive information intended for senior military and intelligence leaders. In an exclusive investigation, <a href=\"https://www.washingtonpost.com/discord-leaks/\">The Post also reviewed scores of additional secret documents</a>, most of which have not been made public.",
+              "style": "context_box"
+            }
+          ],
+          "alignment": null
+        },
+        {
+          "type": "element_group",
+          "subtype": "context_box_element",
+          "content_elements": [
+            {
+              "type": "sanitized_html",
+              "subtype": "paragraph",
+              "mime": "text/html",
+              "content": "<b>Who leaked the documents? </b><a href=\"https://www.washingtonpost.com/nation/2023/04/13/document-leak-jack-teixeira-og/\">Jack Teixeira</a>, a young member of the Massachusetts Air National Guard, <a href=\"https://www.washingtonpost.com/national-security/2023/04/14/jack-teixeira-military-leaks-court-appearance/\">was charged in the investigation</a> into leaks of hundreds of pages of classified military intelligence. <a href=\"https://www.washingtonpost.com/national-security/2023/04/12/discord-leaked-documents/\">The Post reported</a> that the individual who leaked the information shared documents with a small circle of online friends on the Discord chat platform.",
+              "style": "context_box"
+            }
+          ],
+          "alignment": null
+        },
+        {
+          "type": "element_group",
+          "subtype": "context_box_element",
+          "content_elements": [
+            {
+              "type": "sanitized_html",
+              "subtype": "paragraph",
+              "mime": "text/html",
+              "content": "<b>What do the leaked documents reveal about Ukraine? </b>The documents reveal <a href=\"https://www.washingtonpost.com/national-security/2023/04/12/leaked-documents-ukraine-war/\">profound concerns about the war\u2019s trajectory</a> and <a href=\"https://www.washingtonpost.com/national-security/2023/04/08/leak-documents-ukraine-air-defense/\">Kyiv\u2019s capacity to wage a successful offensive</a> against Russian forces. According to a Defense Intelligence Agency assessment among the leaked documents, \u201cNegotiations to end the conflict are unlikely during 2023.\u201d",
+              "style": "context_box"
+            }
+          ],
+          "alignment": null
+        },
+        {
+          "type": "element_group",
+          "subtype": "context_box_element",
+          "content_elements": [
+            {
+              "type": "sanitized_html",
+              "subtype": "paragraph",
+              "mime": "text/html",
+              "content": "<b>What else do they show? </b>The files include summaries of human intelligence on high-level conversations between world leaders, as well as information about advanced satellite technology the United States uses to spy. They also include <a href=\"https://www.washingtonpost.com/national-security/2023/04/08/intelligence-leak-documents-ukraine-pentagon/\">intelligence on both allies and adversaries</a>, including Iran and North Korea, as well as Britain, Canada, South Korea and <a href=\"https://www.washingtonpost.com/national-security/2023/04/08/leaked-documents-israel-mossad-judicial-reform/\">Israel</a>.",
+              "style": "context_box"
+            }
+          ],
+          "alignment": null
+        },
+        {
+          "type": "element_group",
+          "subtype": "context_box_element",
+          "content_elements": [
+            {
+              "type": "sanitized_html",
+              "subtype": "paragraph",
+              "mime": "text/html",
+              "content": "<b>What happens now? </b>The leak has far-reaching implications for the United States and its allies. In addition to the <a href=\"https://www.washingtonpost.com/national-security/2023/04/07/pentagon-leak-ukraine-documents/\">Justice Department investigation</a>, officials in several countries said they were assessing the damage from the leaks.",
+              "style": "context_box"
+            }
+          ],
+          "alignment": null
+        }
+      ]
+    },
+    {
+        "type": "link",
+        "subtype": "anchor",
+        "id": "F54Y5ITOZZDWTACLARW2NXVBRI-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "What has the reaction been?",
+      "subhead_level": 3
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The leak has caused a significant reaction in Washington. In addition to the Justice Department investigation, U.S. officials have said that Pentagon leadership is restricting the flow of intelligence in response to the revelations."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "\u201cAn interagency effort has been stood up, focused on assessing the impact these photographed documents could have on U.S. national security and on our Allies and partners,\u201d Pentagon deputy<b> </b>spokeswoman Sabrina Singh said in a statement Sunday."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "In Ukraine, some officials have responded with frustration, as the leak appeared to include important information ahead of <a href=\"https://t.me/M_Podolyak/131\">an expected spring offensive</a> and could hinder information-sharing between Kyiv and Washington. Some Ukrainian officials have also questioned the accuracy of the contents. Presidential adviser Mykhailo Podolyak wrote on Telegram that the leaked documents contained largely \u201cfictitious information\u201d and had \u201cnothing to do with Ukraine\u2019s real plans.\u201d"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Russia has begun analyzing the documents, Kremlin spokesman Dmitry Peskov said Monday, adding that they appeared to be \u201cquite interesting.\u201d Some pro-Russian military bloggers have warned against reading too much into the leak, arguing without evidence that it could be a U.S. disinformation campaign."
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The leak is already causing complications for Washington\u2019s relationship with some allies. The Israeli government over the weekend released a statement on behalf of the Mossad spy agency describing the report that mentions it as \u201cmendacious and without any foundation whatsoever.\u201d"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "In other cases, U.S. officials have chosen to act on newly public revelations from the documents. The U.S. ambassador to Hungary, David Pressman, announced in a Wednesday news conference his concern with \u201cthe continued eagerness of Hungarian leaders to expand and deepen ties with the Russian Federation despite Russia\u2019s ongoing brutal aggression against Ukraine and threat to transatlantic security.\u201d The statement coincided with the U.S. Treasury <a href=\"https://home.treasury.gov/news/press-releases/jy1402\">levying sanctions</a> against the Hungary-based International Investment Bank, which the Treasury accused of \u201c[serving] as a mechanism for corruption and illicit finance, including sanctions violations.\u201d"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "However, one ally mentioned in the leaks appears to have taken the disclosures in stride: In a statement, <a href=\"https://www.washingtonpost.com/world/2023/04/11/south-korea-leaked-document-ukraine/\">South Korea\u2019s presidential office</a> said: \u201cThe allegations of an eavesdropping breach are completely untrue.\u201d"
+    },
+    {
+      "type": "link",
+      "subtype": "comments"
+    },
+    {
+      "type": "author_info",
+      "id": "tayloraj",
+      "name": "Adam Taylor",
+      "bio": "Adam Taylor writes about foreign affairs for The Washington Post. Originally from London, he studied at the University of Manchester and Columbia University.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/5ca9816b-ff47-49a9-a99d-778fc202b6fe.png",
+      "role": "Reporter"
+    },
+    {
+      "type": "element_group",
+      "subtype": "link_box",
+      "content_elements": [
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "In exclusive interviews with a member of the Discord group where U.S. intelligence documents were shared, The Washington Post learned details of <a href=\"https://www.washingtonpost.com/national-security/2023/04/12/discord-leaked-documents/\">the alleged leaker, \u201cOG.\u201d</a> The Post also obtained a number of previously unreported documents from a trove of images of classified files posted on a private server on the <a href=\"https://www.washingtonpost.com/world/2023/04/12/discord-leaked-us-intelligence-documents/?itid=lk_inline_manual_4\">chat app Discord</a>."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<b>How the leak happened: </b><a href=\"https://www.washingtonpost.com/national-security/2023/04/12/discord-leaked-documents/\">The Washington Post reported</a> that the individual who leaked the information shared documents with a small circle of online friends on the Discord chat platform. This is a <a href=\"https://www.washingtonpost.com/national-security/2023/04/14/timeline-leaked-documents-discord/\">timeline of how the documents leaked</a>."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<b>The suspected document leaker: </b><a href=\"https://www.washingtonpost.com/national-security/2023/06/15/jack-teixeira-indicted-discord-leaks/\">Jack Teixeira, a young member of the Massachusetts Air National Guard, was indicted on six charges</a> in the investigation into leaks of <a href=\"https://www.washingtonpost.com/national-security/2023/04/14/jack-teixeira-military-leaks-court-appearance/\">hundreds of pages of classified military intelligence</a>. The Post reported that the individual who leaked the information shared documents with a small circle of online friends on <a href=\"https://www.washingtonpost.com/national-security/2023/04/12/discord-leaked-documents/\">the Discord chat platform</a>. Here\u2019s what we <a href=\"https://www.washingtonpost.com/nation/2023/04/13/document-leak-jack-teixeira-og/\">learned about the alleged document leaker.</a>"
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<b>What we learned from the leaked documents:</b> The massive document leak has exposed a range of U.S. government secrets, including spying on allies, the grim <a href=\"https://www.washingtonpost.com/national-security/2023/04/12/leaked-documents-ukraine-war/?itid=lk_inline_manual_1\">prospects for Ukraine\u2019s war with Russia</a> and the <a href=\"https://www.washingtonpost.com/national-security/2023/04/15/taiwan-china-invasion-leaked-documents/\">precariousness of Taiwan\u2019s air defenses</a>. It also has ignited diplomatic fires for the White House. Here\u2019s <a href=\"https://www.washingtonpost.com/national-security/2023/04/13/document-leaks-discord-biggest-findings/\">what we\u2019ve learned from the documents</a>."
+        }
+      ],
+      "additional_properties": {
+        "link_box_title": "The Discord Leaks",
+        "link_box_byline": null,
+        "link_box_display_date": 1686865851733,
+        "link_box_subheadline": null
+      }
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "blogname": "World",
+  "editorpicks": [
+    {
+      "type": "recirculation-link",
+      "mime": "text/plain",
+      "content": "Where did leaked U.S. secrets appear? On a chat app popular with gamers.",
+      "url": "https://www.washingtonpost.com/world/2023/04/12/discord-leaked-us-intelligence-documents/"
+    }
+  ],
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/AB53R6ZLBBHLNALKO5EHYC3O3U/20230413-155651.514/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/AB53R6ZLBBHLNALKO5EHYC3O3U/20230413-155651.514/current.mp3?awCollectionId=/world&awEpisodeId=AB53R6ZLBBHLNALKO5EHYC3O3U&tags=newsdurable%7Cdiscord-leaks%7Caudio-article",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/AB53R6ZLBBHLNALKO5EHYC3O3U/20230413-155651.514/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GR3X6YCERZJZJDRINYJJFSOCPY.jpg",
+      "imageWidth": 7360,
+      "imageHeight": 4912,
+      "fullcaption": "(Oleg Petrasyuk/EPA-EFE/Shutterstock)"
+    },
+    "title": {
+      "content": "What we\u2019ve learned from the leaked Pentagon documents",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "World",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "The Discord Leaks",
+      "path": "/discord-leaks"
+    },
+    "date": {
+      "content": 1681396863706,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    }
+  },
+  "first_display_date": 1681155587274,
+  "targeting": {
+    "adcall": [
+      {
+        "key": "wapoTopics",
+        "values": [
+          "x2ec",
+          "miqg",
+          "waug"
+        ]
+      },
+      {
+        "key": "se",
+        "values": []
+      },
+      {
+        "key": "ca",
+        "values": [
+          "rcisc",
+          "r1zb8",
+          "rjqr5",
+          "rnfyo",
+          "rddr6",
+          "r71he",
+          "rqlce",
+          "r63ky",
+          "rq0bc",
+          "r8kl5",
+          "rohqn",
+          "r1djc",
+          "rj98c",
+          "rrcyg",
+          "r2ztd",
+          "rp6mz",
+          "ralq3",
+          "rh5hz",
+          "rsvk8",
+          "r2lez",
+          "r0yv2",
+          "rvt6h",
+          "rcvrb",
+          "rpkxx",
+          "rohf5",
+          "reest",
+          "r8paa",
+          "rqltv",
+          "r6ovq",
+          "ra4e3",
+          "ru0hj",
+          "rk4hi",
+          "riure",
+          "r2x7m",
+          "rihsc",
+          "rh065",
+          "r4qca",
+          "rmmp3",
+          "ren01",
+          "rpnzx",
+          "rq6iz",
+          "r8pmm",
+          "rbxhu",
+          "rw76f",
+          "r6iq7",
+          "rgdkb",
+          "rh22v",
+          "rhwg4",
+          "r82mu",
+          "r35cx",
+          "r4t03",
+          "rpz02",
+          "rl43b",
+          "rt96h",
+          "r6jbe",
+          "ryx8n",
+          "rkgjf",
+          "raw34",
+          "r44nx",
+          "r6g4r",
+          "rxd3z",
+          "rk8et",
+          "rf299",
+          "rvqcm",
+          "rzhau",
+          "r3vky",
+          "rzd33",
+          "rxa9g",
+          "rtiv4",
+          "rtdlb",
+          "rjuyh",
+          "rzfmu",
+          "r35ap",
+          "r23bw",
+          "rloxr",
+          "rz25l",
+          "r3hdp",
+          "rynal",
+          "rrytf",
+          "r7d9r",
+          "rl7yb",
+          "rsmxd",
+          "ritv9",
+          "rt5dp",
+          "r7tmu",
+          "rzqdp",
+          "r3t9e",
+          "rva7x",
+          "r4avn",
+          "rfbg4",
+          "rwsk4",
+          "r526e",
+          "rfhup",
+          "ryiv4",
+          "r2u3w",
+          "rj2cv",
+          "r3ykj",
+          "rhfzk",
+          "rqs5o",
+          "r4t4y",
+          "r35lh",
+          "rr25v",
+          "rfpua",
+          "rj2ns",
+          "rfz4c",
+          "rj67t",
+          "r8hz2",
+          "rd7v3",
+          "rgepe",
+          "r2qxu",
+          "rk7m0",
+          "rh5xk",
+          "rtv19",
+          "r1fne",
+          "rayex",
+          "ratb5",
+          "r5hej",
+          "rhll0",
+          "rtbcp",
+          "rnfuc",
+          "r8x1i",
+          "rx8m9",
+          "r4vlh",
+          "rlo0w",
+          "rl3n6",
+          "rs7c2",
+          "rbtz1",
+          "rk0qi",
+          "ridxr",
+          "rd18m",
+          "rjbi9",
+          "rwaiy",
+          "r1jfj",
+          "rx4px",
+          "r69iu",
+          "rf3q1",
+          "rsesv",
+          "rxeck",
+          "rsl4v",
+          "rlz8o",
+          "rwlm1",
+          "rle1y",
+          "rjvyd",
+          "rzofg",
+          "c"
+        ]
+      }
+    ],
+    "permutive": [
+      {
+        "key": "article.wapoTopics",
+        "values": [
+          "[1:x2ec] /politics",
+          "[2:miqg] /politics/military_and_defense",
+          "[1:waug] /war_and_unrest"
+        ]
+      },
+      {
+        "key": "article.customTopics",
+        "values": [
+          "[rohqn] B2_National Security_legacyaux_oe1",
+          "[rq6iz] Content About Unbanked Households",
+          "[r4t03] World National Local Content",
+          "[rxd3z] B2_Cyber Security & Intelligence Community_legacyaux_E8X",
+          "[rk8et] B2_Defense and National Security 2.12.15_legacyaux_o1b",
+          "[rtiv4] Qualcomm Custom KW - 5G",
+          "[r23bw] B2_Government & Policy_legacyaux_mza",
+          "[r526e] B2_Tech_legacyaux_54y",
+          "[ryiv4] B2_Transportation, Logistics, and Industry_legacyaux_kre",
+          "[r2u3w] B2_Winter Weather, Sports and Attractions 11-18-14_legacyaux_jqm",
+          "[rj2cv] B2_Young Professional / International Businessman_legacyaux_r5x"
+        ]
+      }
+    ],
+    "permutive_dict": {
+      "canonicalUrl": "/world/2023/04/10/faq-leaked-pentagon-documents/",
+      "section": "world",
+      "subsection": "world",
+      "commercialNode": "/world",
+      "article": {
+        "publishDate": "2023-04-10T12:16:19.364Z",
+        "lastUpdateDate": "2023-04-10T12:16:19.364Z",
+        "authorName": [
+          "adam taylor"
+        ],
+        "authorType": [
+          "author"
+        ],
+        "newsroomDesk": [
+          "foreign"
+        ],
+        "newsroomSubdesk": [
+          "foreign - breaking news"
+        ],
+        "contentType": "story - faq",
+        "language": "en",
+        "wordCount": 1610,
+        "wapoTopics": [
+          "[1:x2ec] /politics",
+          "[2:miqg] /politics/military_and_defense",
+          "[1:waug] /war_and_unrest"
+        ],
+        "customTopics": [
+          "[rohqn] B2_National Security_legacyaux_oe1",
+          "[rq6iz] Content About Unbanked Households",
+          "[r4t03] World National Local Content",
+          "[rxd3z] B2_Cyber Security & Intelligence Community_legacyaux_E8X",
+          "[rk8et] B2_Defense and National Security 2.12.15_legacyaux_o1b",
+          "[rtiv4] Qualcomm Custom KW - 5G",
+          "[r23bw] B2_Government & Policy_legacyaux_mza",
+          "[r526e] B2_Tech_legacyaux_54y",
+          "[ryiv4] B2_Transportation, Logistics, and Industry_legacyaux_kre",
+          "[r2u3w] B2_Winter Weather, Sports and Attractions 11-18-14_legacyaux_jqm",
+          "[rj2cv] B2_Young Professional / International Businessman_legacyaux_r5x"
+        ]
+      }
+    }
+  },
+  "tableOfContents": {
+    "liveText": "What to Know",
+    "children": [
+      {
+        "title": "What are the leaked documents?",
+        "arcId": "UC5I6ODJI5HENAZGYZGWISLZAQ",
+        "anchor": "UC5I6ODJI5HENAZGYZGWISLZAQ-0"
+      },
+      {
+        "title": "What information do the documents reveal?",
+        "arcId": "O47DR7OJSFGTTDAPJDXIIHQFJI",
+        "anchor": "O47DR7OJSFGTTDAPJDXIIHQFJI-1"
+      },
+      {
+        "title": "How did the leak happen?",
+        "arcId": "3C4MKC3HJZGRFPJ24YJPAR5TL4",
+        "anchor": "3C4MKC3HJZGRFPJ24YJPAR5TL4-2"
+      },
+      {
+        "title": "What has the reaction been?",
+        "arcId": "F54Y5ITOZZDWTACLARW2NXVBRI",
+        "anchor": "F54Y5ITOZZDWTACLARW2NXVBRI-3"
+      }
+    ]
+  }
+}

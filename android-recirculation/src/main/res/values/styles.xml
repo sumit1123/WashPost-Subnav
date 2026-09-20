@@ -1,0 +1,156 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+      ~ Copyright (c) 2018. The Washington Post
+      ~ Created by adkinsj on 7/03/18
+      -->
+
+    <style name="carousel_top_label_style">
+        <item name="android:text">@string/explore_more_in</item>
+        <item name="android:layout_marginBottom">@dimen/carousel_explore_more_padding_bottom</item>
+    </style>
+    <style name="carousel_section_name_label_style">
+        <item name="android:textSize">@dimen/carousel_section_name_text_size</item>
+    </style>
+
+    <style name="carousel_item_headline_style">
+        <item name="android:lineSpacingExtra">@dimen/carousel_headline_line_spacing</item>
+    </style>
+    <style name="carousel_item_headline_prefix_style">
+        <item name="android:textColor">@color/byline_opinion</item>
+    </style>
+    <style name="newsprint_carousel_item_headline_prefix_style">
+        <item name="android:textColor">@color/byline_opinion_newsprint</item>
+    </style>
+
+    <style name="for_you_headline_prefix_separator_style">
+        <item name="android:textColor">#777777</item>
+    </style>
+
+    <style name="carousel_recycler_style"/>
+    <style name="carousel_divider_style" />
+
+    <style name="MyPost.Action.Chip" parent="Widget.MaterialComponents.Chip.Action"/>
+    <style name="MyPost.Action.Chip.Light"/>
+    <style name="MyPost.Action.Chip.Light.Text"/>
+
+    <!--Immersion Carousel -->
+    <style name="immersion_carousel_item_byline">
+        <item name="android:fontFamily">@font/franklinitcstd_light</item>
+        <item name="fontFamily">@font/franklinitcstd_light</item>
+        <item name="android:textColor">@color/carousel_by_line</item>
+        <item name="android:textSize">@dimen/carousel_byline_font_size</item>
+        <item name="lineHeight">20sp</item>
+    </style>
+    <style name="immersion_carousel_item_kicker">
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:textColor">@color/carousel_section_name_text_color</item>
+        <item name="android:textSize">@dimen/carousel_section_name_text_size</item>
+    </style>
+
+    <style name="immersion_carousel_card" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/transparent</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="cardElevation">@dimen/carousel_immersion_card_elevation</item>
+        <item name="cardCornerRadius">@dimen/carousel_immersion_card_radius</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <!-- External carousel -->
+    <style name="external_carousel_item_byline">
+        <item name="android:fontFamily">@font/franklinitcstd_light</item>
+        <item name="fontFamily">@font/franklinitcstd_light</item>
+        <item name="android:textColor">@color/carousel_by_line</item>
+        <item name="android:textSize">@dimen/carousel_byline_font_size</item>
+        <item name="lineHeight">20sp</item>
+    </style>
+    <style name="external_carousel_item_kicker">
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:textColor">@color/carousel_section_name_text_color</item>
+        <item name="android:textSize">@dimen/carousel_section_name_text_size</item>
+    </style>
+    <style name="external_carousel_card" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/transparent</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="cardElevation">@dimen/carousel_immersion_card_elevation</item>
+        <item name="cardCornerRadius">@dimen/carousel_immersion_card_radius</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <!-- Audio Carousel -->
+    <style name="audio_carousel_item_headline">
+        <item name="android:fontFamily">@font/postoniwide_bold</item>
+        <item name="fontFamily">@font/postoniwide_bold</item>
+        <item name="android:textColor">@color/headline_text_color</item>
+        <item name="android:textSize">20sp</item>
+        <item name="lineHeight">20sp</item>
+    </style>
+
+    <style name="audio_carousel_overlay_text">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="lineHeight">14sp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="audio_carousel_player_status_text">
+        <item name="android:fontFamily">@font/franklin_itc_pro_bold</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:textColor">@color/headline_text_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="audio_carousel_player_status_duration">
+        <item name="android:fontFamily">@font/franklin_itc_pro_light</item>
+        <item name="fontFamily">@font/franklinitcstd_light</item>
+        <item name="android:textColor">@color/headline_text_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="carousel_end_card_cta">
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:textColor">@color/headline_text_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">15sp</item>
+    </style>
+
+    <style name="bright_carousel_excerpt_text">
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">20sp</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:fontFamily">@font/wp_georgia_font_family</item>
+        <item name="fontFamily">@font/georgia_regular</item>
+        <item name="android:textColor">@color/carousel_excerpt_text</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- ArticleStyle Carousel -->
+    <style name="article_style_carousel_item_kicker">
+        <item name="android:fontFamily">@font/franklinitcstd_bold</item>
+        <item name="fontFamily">@font/franklinitcstd_bold</item>
+        <item name="android:textColor">@color/carousel_section_name_text_color</item>
+        <item name="android:textSize">@dimen/carousel_section_name_text_size</item>
+    </style>
+    <style name="article_style_carousel_item_title">
+        <item name="android:fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/carousel_title_text_color</item>
+        <item name="android:textSize">@dimen/carousel_headline_font_size</item>
+    </style>
+    <style name="article_style_carousel_item_byline">
+        <item name="android:fontFamily">@font/franklinitcstd_light</item>
+        <item name="fontFamily">@font/franklinitcstd_light</item>
+        <item name="android:textColor">@color/carousel_by_line</item>
+        <item name="android:textSize">@dimen/carousel_byline_font_size</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2019. The Washington Post. All rights reserved. -->
+<resources>
+    <dimen name="article_embedded_title_text_size">30sp</dimen>
+    <dimen name="article_embedded_byline_text_size">16sp</dimen>
+    <dimen name="article_embedded_deck_text_size">26sp</dimen>
+    <dimen name="live_blog_title_text_size">26sp</dimen>
+    <dimen name="live_blog_headline_text_size">48sp</dimen>
+    <dimen name="live_blog_deck_text_size">26sp</dimen>
+    <dimen name="live_blog_more_updates_text_size">26sp</dimen>
+    <dimen name="live_blog_list_item_time_text_size">26sp</dimen>
+    <dimen name="live_blog_list_item_headline_text_size">26sp</dimen>
+</resources>

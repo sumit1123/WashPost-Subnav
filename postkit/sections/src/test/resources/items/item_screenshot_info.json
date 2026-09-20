@@ -1,0 +1,32 @@
+{
+  "link": {
+    "type": "web",
+    "url": "https://www.washingtonpost.com/2016-election-results/us-presidential-race/"
+  },
+  "screenshot_info": {
+    "screenshot_type": "screenshot-only",
+    "screenshots": [
+      {
+        "image_urls": [
+          "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-head-to-head-president@sm.png",
+          "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-president-states/00@sm.png"
+        ],
+        "text": "President"
+      },
+      {
+        "image_urls": [
+          "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-head-to-head-senate@sm.png",
+          "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-senate-states/00@sm.png"
+        ],
+        "text": "Senate"
+      },
+      {
+        "image_urls": [
+          "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-head-to-head-house@sm.png",
+          "https://dohdeick6sqa6.cloudfront.net/screenshots/staging/live-house-districts/00@sm.png"
+        ],
+        "text": "House"
+      }
+    ]
+  }
+}

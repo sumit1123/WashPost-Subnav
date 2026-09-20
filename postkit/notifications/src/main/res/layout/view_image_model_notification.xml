@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent">
+
+    <com.wapo.view.ProportionalLayout
+        a:id="@+id/image_frame"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_alignTop="@+id/headline"
+        a:layout_marginBottom="@dimen/sf_module_stream_image_bottom_margin"
+        a:layout_marginLeft="@dimen/sf_module_stream_notification_image_left_margin"
+        a:layout_marginRight="@dimen/sf_module_stream_notification_image_right_margin"
+        app:aspectRatio="1.2">
+
+        <com.wapo.view.ImageViewWithAnimatedIndicator
+            a:id="@+id/image"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content" />
+
+    </com.wapo.view.ProportionalLayout>
+
+    <TextView
+        style="@style/notification_kicker"
+        a:id="@+id/kicker"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_marginBottom="@dimen/sf_module_stream_headline_top_margin"
+        a:textColor="@color/sf_module_byline"
+        a:textSize="@dimen/sf_module_stream_kicker_font_size"
+        a:visibility="gone" />
+
+    <TextView
+        style="@style/notification_headline"
+        a:id="@+id/headline"
+        a:layout_toLeftOf="@+id/image_frame"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_marginBottom="@dimen/sf_module_stream_headline_bottom_margin"
+        a:textColor="@color/sf_module_headline"
+        a:textSize="@dimen/sf_module_stream_headline_font_size"
+        a:visibility="gone"/>
+
+    <TextView
+        style="@style/notification_byline"
+        a:id="@+id/byline"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_marginBottom="1dp"
+        a:layout_marginTop="@dimen/sf_module_stream_headline_top_margin"
+        a:textColor="@color/sf_module_byline"
+        a:textSize="@dimen/sf_module_stream_byline_font_size"
+        a:visibility="visible" />
+
+    <TextView
+        style="@style/notification_blurb"
+        a:id="@+id/time_and_blurb"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:textColor="@color/sf_module_headline"
+        a:textSize="@dimen/sf_module_stream_blurb_font_size"
+        a:visibility="visible" />
+
+    <TextView
+        a:id="@+id/spareTextView"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:visibility="gone" />
+
+</merge>

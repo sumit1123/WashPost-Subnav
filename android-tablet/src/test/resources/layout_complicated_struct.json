@@ -1,0 +1,865 @@
+{
+    "name": "",
+    "layout": "homepage",
+    "tracking": {
+    },
+    "regions": {
+        "top-content": {
+            "location": "top-content",
+            "items": [
+                {
+                  "feature_name": "el-schilling845p",
+                  "item_type": "homepage/story",
+                  "items": [
+                    {
+                      "link": {
+                        "type": "blog",
+                        "url": "https://www.washingtonpost.com/news/post-politics/wp/2016/07/08/obama-calls-dallas-shootings-a-vicious-calculated-and-despicable-attack/"
+                      },
+                      "media": {
+                        "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/Wires/Images/2016-07-08/Reuters/2016-07-08T103717Z_01_JME975_RTRIDSP_3_NATO-SUMMIT-OBAMA.jpg",
+                        "width": 1248,
+                        "height": 832,
+                        "aspect_ratio": 1.5,
+                        "caption": "U.S. President Barack Obama listens to remarks by European Council President Donald Tusk and European Commission President Jean-Claude Juncker to reporters after their meeting at the NATO Summit in Warsaw, Poland July 8, 2016. REUTERS/Jonathan Ernst",
+                        "caption_size": "normal",
+                        "media_type": "featured"
+                      },
+                      "source": "The Washington Post",
+                      "blurb": "Obama\u0027s remarks about the Dallas shootings came after an earlier speech in response to the killings of black men by police in Falcon Heights, Minn., and Baton Rouge.",
+                      "signature": {},
+                      "headline": {
+                        "size": "normal",
+                        "text": "Obama calls Dallas shootings ‘a vicious, calculated and despicable attack’",
+                        "font_style": "normal-style",
+                        "alignment": "inherit"
+                      },
+                      "commercial_node": "politics",
+                      "sub_item_type": "primary"
+                    }
+                  ]
+                },
+                {
+                    "item_type": "chain",
+                    "chain_type": "top-table-3-wide",
+                    "chain_name": "extra-wide-left",
+                    "label": {
+                        "text": "Antonin Scalia",
+                        "label_secondary": "1936\u0026ndash;2016",
+                        "label_style": "label label-normal"
+                    },
+                    "items": [
+                        {
+                            "item_type": "column",
+                            "widths": {
+                                "x-large": 8,
+                                "large": 8,
+                                "medium": 7,
+                                "small": 8,
+                                "x-small": 12
+                            },
+                            "items": [
+                                {
+                                    "feature_name": "el-schilling845p",
+                                    "item_type": "homepage/story",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "blog",
+                                                "url": "https://www.washingtonpost.com/news/post-politics/wp/2016/07/08/obama-calls-dallas-shootings-a-vicious-calculated-and-despicable-attack/"
+                                            },
+                                            "media": {
+                                                "url": "http://img.washingtonpost.com/rf/image_960w/2010-2019/Wires/Images/2016-07-08/Reuters/2016-07-08T103717Z_01_JME975_RTRIDSP_3_NATO-SUMMIT-OBAMA.jpg",
+                                                "width": 1248,
+                                                "height": 832,
+                                                "aspect_ratio": 1.5,
+                                                "caption": "U.S. President Barack Obama listens to remarks by European Council President Donald Tusk and European Commission President Jean-Claude Juncker to reporters after their meeting at the NATO Summit in Warsaw, Poland July 8, 2016. REUTERS/Jonathan Ernst",
+                                                "caption_size": "normal",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "Obama\u0027s remarks about the Dallas shootings came after an earlier speech in response to the killings of black men by police in Falcon Heights, Minn., and Baton Rouge.",
+                                            "signature": {},
+                                            "headline": {
+                                                "size": "normal",
+                                                "text": "Obama calls Dallas shootings ‘a vicious, calculated and despicable attack’",
+                                                "font_style": "normal-style",
+                                                "alignment": "inherit"
+                                            },
+                                            "commercial_node": "politics",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "feature_name": "kennicott735p",
+                                    "item_type": "homepage/story",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "blog",
+                                                "url": "https://www.washingtonpost.com/news/arts-and-entertainment/wp/2016/04/20/harriet-tubman-is-perfect-for-the-20-bill-but-which-tubman/"
+                                            },
+                                            "media": {
+                                                "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2016/04/20/Interactivity/Images/crop_90HarrietTubman_photograph.jpg",
+                                                "width": 1248,
+                                                "height": 832,
+                                                "aspect_ratio": 1.5,
+                                                "caption_size": "small",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "Images of the African American abolitionist generally fall into two categories: the best-known grandmotherly depictions and the less-publicized images that can be shockingly confrontational.",
+                                            "signature": {
+                                                "by_line": "By Philip Kennicott"
+                                            },
+                                            "headline": {
+                                                "size": "xx-small",
+                                                "text": "Harriet Tubman is perfect for the $20 bill, but which Tubman?",
+                                                "font_style": "normal-style",
+                                                "alignment": "inherit"
+                                            },
+                                            "commercial_node": "lifestyle",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ],
+                                    "widths": {
+                                        "x-large": 6,
+                                        "large": 6,
+                                        "medium": 6,
+                                        "small": 6,
+                                        "x-small": 12
+                                    }
+                                },
+                                {
+                                    "feature_name": "video-test",
+                                    "item_type": "homepage/story",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "video",
+                                                "url": "https://www.washingtonpost.com/video/entertainment/who-said-this-game-of-thrones-characters-or-presidential-candidates/2016/04/23/16f3bb58-08e7-11e6-bfed-ef65dff5970d_video.html"
+                                            },
+                                            "media": {
+                                                "media_type": "featured",
+                                                "width": 295,
+                                                "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/04/23/Style/Videos/Images/GOTcompositeimage_167_x_296.jpg",
+                                                "height": 167
+                                            },
+                                            "source": "The Washington Post",
+                                            "signature": {},
+                                            "headline": {
+                                                "size": "x-small",
+                                                "text": "Who said this: \u0027Game of Thrones\u0027 characters or presidential candidates?",
+                                                "font_style": "normal-style",
+                                                "alignment": "inherit"
+                                            },
+                                            "commercial_node": "entertainment",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ],
+                                    "widths": {
+                                        "x-large": 6,
+                                        "large": 6,
+                                        "medium": 6,
+                                        "small": 6,
+                                        "x-small": 12
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "item_type": "column",
+                            "widths": {
+                                "x-large": 4,
+                                "large": 4,
+                                "medium": 5,
+                                "small": 4,
+                                "x-small": 12
+                            },
+                            "items": [
+                                {
+                                    "feature_name": "ee-climate-911pm",
+                                    "item_type": "homepage/story",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "blog",
+                                                "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/04/20/as-nations-gather-to-sign-climate-accord-planet-reaches-new-warming-heights/"
+                                            },
+                                            "media": {
+                                                "url": "http://img.washingtonpost.com/rf/image_908w/2010-2019/WashingtonPost/2014/05/13/Health-Environment-Science/Images/Was8595729-1387.jpg",
+                                                "width": 1248,
+                                                "height": 832,
+                                                "aspect_ratio": 1.5,
+                                                "caption_size": "normal",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "As leaders from more than 150 countries gather this week to sign the historic pact, a drumbeat of bleak scientific findings has shown that current global pledges to combat climate change — including the Paris accord — aren\u0027t aggressive enough to stave off the worst consequences.",
+                                            "signature": {
+                                                "by_line": "By Chris Mooney and Brady Dennis",
+                                                "section": "Energy and Environment"
+                                            },
+                                            "headline": {
+                                                "size": "x-small",
+                                                "text": "How Earth itself has dramatically upped the stakes for the Paris climate accord",
+                                                "font_style": "normal-style",
+                                                "alignment": "inherit"
+                                            },
+                                            "commercial_node": "business",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "feature_name": "endgame-120pm",
+                                    "item_type": "homepage/story",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "article",
+                                                "url": "https://www.washingtonpost.com/politics/after-new-york-comes-the-question-what-does-bernie-want/2016/04/20/f50b161c-06a2-11e6-b283-e79d81c63c1b_story.html"
+                                            },
+                                            "media": {
+                                                "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/04/20/National-Politics/Images/sanders111461110710.jpg",
+                                                "width": 1248,
+                                                "height": 832,
+                                                "aspect_ratio": 1.5,
+                                                "caption": "(Ricky Carioti/The Post)",
+                                                "caption_size": "normal",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "Facing daunting odds of becoming the nominee, the Democratic socialist must soon decide his next steps as the leader of progressives.",
+                                            "signature": {
+                                                "rating": 2,
+                                                "ratingCharacter": "fa-star",
+                                                "by_line": "By John Wagner and Dan Balz"
+                                            },
+                                            "headline": {
+                                                "size": "xx-small",
+                                                "text": "After New York comes the question: What does Bernie want?",
+                                                "font_style": "normal-style",
+                                                "alignment": "inherit"
+                                            },
+                                            "commercial_node": "politics",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "feature_name": "trump-140pm",
+                                    "item_type": "homepage/story",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "blog",
+                                                "url": "https://www.washingtonpost.com/news/post-politics/wp/2016/04/20/internal-campaign-memo-projects-trump-will-win-1400-delegates-at-gop-convention/"
+                                            },
+                                            "media": {
+                                                "url": "http://img.washingtonpost.com/rf/image_908w/2010-2019/WashingtonPost/2016/04/20/National-Politics/Images/BotsfordTRUMP160419NY49481461118211.jpg",
+                                                "width": 1248,
+                                                "height": 1248,
+                                                "aspect_ratio": 1.0,
+                                                "caption_size": "small",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "The mogul’s advisers say he’ll have the delegates to secure the GOP nomination on the first round of balloting at the convention.",
+                                            "signature": {
+                                                "by_line": "By Philip Rucker"
+                                            },
+                                            "headline": {
+                                                "size": "xx-small",
+                                                "text": "Internal campaign memo projects Trump will win 1,400 delegates at GOP convention",
+                                                "font_style": "normal-style",
+                                                "alignment": "inherit"
+                                            },
+                                            "commercial_node": "politics",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "main-content": {
+            "location": "main-content",
+            "items": [
+                {
+                    "item_type": "chain",
+                    "chain_type": "top-table-3-wide",
+                    "label": {
+                        "label_style": "none",
+                        "label_secondary_style": "none",
+                        "label": "\u003cspan style\u003d\"margin-top:4px; margin-right:0.5rem;\"\u003eCampaign \u003cimg src\u003d\"//www.washingtonpost.com/wp-dre/content/elections/live-results/img/star-md.png\" style\u003d\"height:24px; margin-top:-4px\"\u003e 2016\u003c/span\u003e",
+                        "label_alignment": "center"
+                    },
+                    "items": [
+                        {
+                            "item_type": "column",
+                            "widths": {
+                                "x-large": 4,
+                                "large": 4,
+                                "medium": 5,
+                                "small": 4,
+                                "x-small": 12
+                            },
+                            "items": [
+                                {
+                                    "item_type": "homepage/story",
+                                    "feature_name": "ee-climate-911pm1",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "blog",
+                                                "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/04/20/as-nations-gather-to-sign-climate-accord-planet-reaches-new-warming-heights/"
+                                            },
+                                            "media": {
+                                                "url": "http://img.washingtonpost.com/rf/image_908w/2010-2019/WashingtonPost/2014/05/13/Health-Environment-Science/Images/Was8595729-1387.jpg",
+                                                "width": 1248,
+                                                "height": 832,
+                                                "aspect_ratio": 1.5,
+                                                "caption_size": "normal",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "As leaders from more than 150 countries gather this week to sign the historic pact, a drumbeat of bleak scientific findings has shown that current global pledges to combat climate change — including the Paris accord — aren\u0027t aggressive enough to stave off the worst consequences.",
+                                            "signature": {
+                                                "by_line": "By Chris Mooney and Brady Dennis"
+                                            },
+                                            "headline": {
+                                                "size": "small",
+                                                "text": "How Earth itself has dramatically upped the stakes for the Paris climate accord",
+                                                "font_style": "normal-style",
+                                                "alignment": "inherit"
+                                            },
+                                            "commercial_node": "business",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "item_type": "homepage/story",
+                                    "feature_name": "endgame-120pm1",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "article",
+                                                "url": "https://www.washingtonpost.com/politics/after-new-york-comes-the-question-what-does-bernie-want/2016/04/20/f50b161c-06a2-11e6-b283-e79d81c63c1b_story.html"
+                                            },
+                                            "media": {
+                                                "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/04/20/National-Politics/Images/sanders111461110710.jpg",
+                                                "width": 1248,
+                                                "height": 832,
+                                                "aspect_ratio": 1.5,
+                                                "caption": "(Ricky Carioti/The Post)",
+                                                "caption_size": "normal",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "Facing daunting odds of becoming the nominee, the Democratic socialist must soon decide his next steps as the leader of progressives.",
+                                            "signature": {
+                                                "by_line": "By John Wagner and Dan Balz"
+                                            },
+                                            "headline": {
+                                                "size": "xx-small",
+                                                "text": "After New York comes the question: What does Bernie want?",
+                                                "font_style": "normal-style",
+                                                "alignment": "inherit"
+                                            },
+                                            "commercial_node": "politics",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "item_type": "homepage/story",
+                                    "feature_name": "trump-140pm1",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "blog",
+                                                "url": "https://www.washingtonpost.com/news/post-politics/wp/2016/04/20/internal-campaign-memo-projects-trump-will-win-1400-delegates-at-gop-convention/"
+                                            },
+                                            "media": {
+                                                "url": "http://img.washingtonpost.com/rf/image_908w/2010-2019/WashingtonPost/2016/04/20/National-Politics/Images/BotsfordTRUMP160419NY49481461118211.jpg",
+                                                "width": 1248,
+                                                "height": 1248,
+                                                "aspect_ratio": 1.0,
+                                                "caption_size": "small",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "The mogul’s advisers say he’ll have the delegates to secure the GOP nomination on the first round of balloting at the convention.",
+                                            "signature": {
+                                                "by_line": "By Philip Rucker"
+                                            },
+                                            "headline": {
+                                                "size": "xx-small",
+                                                "text": "Internal campaign memo projects Trump will win 1,400 delegates at GOP convention",
+                                                "font_style": "normal-style",
+                                                "alignment": "inherit"
+                                            },
+                                            "commercial_node": "politics",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "item_type": "column",
+                            "widths": {
+                                "x-large": 8,
+                                "large": 8,
+                                "medium": 7,
+                                "small": 8,
+                                "x-small": 12
+                            },
+                            "items": [
+                                {
+                                    "item_type": "homepage/story",
+                                    "feature_name": "prince-apprec",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "article",
+                                                "url": "https://www.washingtonpost.com/lifestyle/weve-lost-prince-our-single-greatest-pop-star/2016/04/21/cd281e12-07f9-11e6-bdcb-0133da18418d_story.html"
+                                            },
+                                            "media": {
+                                                "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/04/21/Style/Images/Prince.jpg",
+                                                "width": 1248,
+                                                "height": 832,
+                                                "aspect_ratio": 1.5,
+                                                "caption": "(Platon/trunkarchive.com)",
+                                                "caption_size": "normal",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "He was a visionary songwriter, a top-shelf guitarist, a main-architect of rhythm, a breath-stealing vocalist and an unparalleled tornado of a live performer.",
+                                            "signature": {
+                                                "by_line": "By Chris Richards"
+                                            },
+                                            "headline": {
+                                                "size": "normal",
+                                                "text": "We’ve lost Prince, our single greatest pop star",
+                                                "font_style": "thin-style",
+                                                "alignment": "inherit"
+                                            },
+                                            "commercial_node": "lifestyle",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "chain_name": "extra-wide-right"
+                },
+                {
+                    "item_type": "chain",
+                    "chain_type": "top-table-3-wide",
+                    "label": {
+                        "label_style": "none",
+                        "label_secondary_style": "none",
+                        "label": "\u003cspan style\u003d\"margin-top:4px; margin-right:0.5rem;\"\u003eCampaign \u003cimg src\u003d\"//www.washingtonpost.com/wp-dre/content/elections/live-results/img/star-md.png\" style\u003d\"height:24px; margin-top:-4px\"\u003e 2016\u003c/span\u003e",
+                        "label_alignment": "center"
+                    },
+                    "items": [
+                        {
+                            "item_type": "column",
+                            "widths": {
+                                "x-large": 4,
+                                "large": 4,
+                                "medium": 5,
+                                "small": 4,
+                                "x-small": 12
+                            },
+                            "items": [
+                                {
+                                    "item_type": "homepage/story",
+                                    "feature_name": "ee-climate-911pm1",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "blog",
+                                                "url": "https://www.washingtonpost.com/news/energy-environment/wp/2016/04/20/as-nations-gather-to-sign-climate-accord-planet-reaches-new-warming-heights/"
+                                            },
+                                            "media": {
+                                                "url": "http://img.washingtonpost.com/rf/image_908w/2010-2019/WashingtonPost/2014/05/13/Health-Environment-Science/Images/Was8595729-1387.jpg",
+                                                "width": 1248,
+                                                "height": 832,
+                                                "aspect_ratio": 1.5,
+                                                "caption_size": "normal",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "As leaders from more than 150 countries gather this week to sign the historic pact, a drumbeat of bleak scientific findings has shown that current global pledges to combat climate change — including the Paris accord — aren\u0027t aggressive enough to stave off the worst consequences.",
+                                            "signature": {
+                                                "by_line": "By Chris Mooney and Brady Dennis"
+                                            },
+                                            "headline": {
+                                                "size": "small",
+                                                "text": "How Earth itself has dramatically upped the stakes for the Paris climate accord",
+                                                "font_style": "normal-style",
+                                                "alignment": "inherit"
+                                            },
+                                            "commercial_node": "business",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "item_type": "homepage/story",
+                                    "feature_name": "endgame-120pm1",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "article",
+                                                "url": "https://www.washingtonpost.com/politics/after-new-york-comes-the-question-what-does-bernie-want/2016/04/20/f50b161c-06a2-11e6-b283-e79d81c63c1b_story.html"
+                                            },
+                                            "media": {
+                                                "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/04/20/National-Politics/Images/sanders111461110710.jpg",
+                                                "width": 1248,
+                                                "height": 832,
+                                                "aspect_ratio": 1.5,
+                                                "caption": "(Ricky Carioti/The Post)",
+                                                "caption_size": "normal",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "Facing daunting odds of becoming the nominee, the Democratic socialist must soon decide his next steps as the leader of progressives.",
+                                            "signature": {
+                                                "by_line": "By John Wagner and Dan Balz"
+                                            },
+                                            "headline": {
+                                                "size": "xx-small",
+                                                "text": "After New York comes the question: What does Bernie want?",
+                                                "font_style": "normal-style",
+                                                "alignment": "inherit"
+                                            },
+                                            "commercial_node": "politics",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "item_type": "homepage/story",
+                                    "feature_name": "trump-140pm1",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "blog",
+                                                "url": "https://www.washingtonpost.com/news/post-politics/wp/2016/04/20/internal-campaign-memo-projects-trump-will-win-1400-delegates-at-gop-convention/"
+                                            },
+                                            "media": {
+                                                "url": "http://img.washingtonpost.com/rf/image_908w/2010-2019/WashingtonPost/2016/04/20/National-Politics/Images/BotsfordTRUMP160419NY49481461118211.jpg",
+                                                "width": 1248,
+                                                "height": 1248,
+                                                "aspect_ratio": 1.0,
+                                                "caption_size": "small",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "The mogul’s advisers say he’ll have the delegates to secure the GOP nomination on the first round of balloting at the convention.",
+                                            "signature": {
+                                                "by_line": "By Philip Rucker"
+                                            },
+                                            "headline": {
+                                                "size": "xx-small",
+                                                "text": "Internal campaign memo projects Trump will win 1,400 delegates at GOP convention",
+                                                "font_style": "normal-style",
+                                                "alignment": "inherit"
+                                            },
+                                            "commercial_node": "politics",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "item_type": "column",
+                            "widths": {
+                                "x-large": 8,
+                                "large": 8,
+                                "medium": 7,
+                                "small": 8,
+                                "x-small": 12
+                            },
+                            "items": [
+                                {
+                                    "item_type": "homepage/story",
+                                    "feature_name": "prince-apprec",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "article",
+                                                "url": "https://www.washingtonpost.com/lifestyle/weve-lost-prince-our-single-greatest-pop-star/2016/04/21/cd281e12-07f9-11e6-bdcb-0133da18418d_story.html"
+                                            },
+                                            "media": {
+                                                "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/04/21/Style/Images/Prince.jpg",
+                                                "width": 1248,
+                                                "height": 832,
+                                                "aspect_ratio": 1.5,
+                                                "caption": "(Platon/trunkarchive.com)",
+                                                "caption_size": "normal",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "He was a visionary songwriter, a top-shelf guitarist, a main-architect of rhythm, a breath-stealing vocalist and an unparalleled tornado of a live performer.",
+                                            "signature": {
+                                                "by_line": "By Chris Richards"
+                                            },
+                                            "headline": {
+                                                "size": "normal",
+                                                "text": "We’ve lost Prince, our single greatest pop star",
+                                                "font_style": "thin-style",
+                                                "alignment": "inherit"
+                                            },
+                                            "commercial_node": "lifestyle",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "chain_name": "extra-wide-right"
+                }
+            ]
+        },
+        "right-rail": {
+            "location": "right-rail",
+            "items": [
+                {
+                    "item_type": "chain",
+                    "chain_type": "top-table-x-wide",
+                    "items": [
+                        {
+                            "item_type": "column",
+                            "widths": {
+                                "x-large": 5,
+                                "large": 5,
+                                "medium": 6,
+                                "small": 5,
+                                "x-small": 12
+                            },
+                            "items": [
+                                {
+                                    "item_type": "homepage/story",
+                                    "feature_name": "tyh-cdc-136pm",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "blog",
+                                                "url": "https://www.washingtonpost.com/news/to-your-health/wp/2016/02/26/after-zika-diagnosis-at-least-two-u-s-women-chose-to-have-abortions-cdc-says/"
+                                            },
+                                            "media": {
+                                                "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2016/02/03/Editorial-Opinion/Images/Antibiotic_Overuse-06223.jpg",
+                                                "width": 1248,
+                                                "height": 832,
+                                                "aspect_ratio": 1.5,
+                                                "caption": "(AP)",
+                                                "caption_size": "normal",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "Health officials have tracked at least nine pregnant women in the United States affected with the Zika virus. In addition to the women who had abortions, two others suffered miscarriages.",
+                                            "signature": {
+                                                "by_line": "By Brady Dennis and Ariana Eunjung Cha"
+                                            },
+                                            "headline": {
+                                                "size": "small",
+                                                "text": "U.S. details 9 Zika pregnancies: 2 abortions, 2 miscarriages, 1 baby with ‘severe microcephaly’",
+                                                "font_style": "normal-style"
+                                            },
+                                            "commercial_node": "national",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "item_type": "homepage/story",
+                                    "feature_name": "kansas2",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "blog",
+                                                "url": "https://www.washingtonpost.com/news/post-nation/wp/2016/02/26/kansas-gunman-served-protection-from-abuse-order-shortly-before-shootings-sheriff-says/"
+                                            },
+                                            "media": {
+                                                "url": "https://www.washingtonpost.com/r/2010-2019/Wires/Images/2016-02-25/AP/Shooting-Kansas_Business-0db3e.jpg",
+                                                "width": 1248,
+                                                "height": 832,
+                                                "aspect_ratio": 1.5,
+                                                "caption": "(Fernando Salazar/The Associated Press)",
+                                                "caption_size": "small",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "The news offered the first suggestion of a possible motive for the bloodshed in a small community where the lone shooter fired indiscriminately on a highway and then gunned down people inside a factory where he had worked.",
+                                            "signature": {
+                                                "by_line": "By Christopher Haxel and Mark Berman"
+                                            },
+                                            "headline": {
+                                                "size": "xx-small",
+                                                "text": "Kansas gunman served with restraining order just before shooting spree, police say",
+                                                "font_style": "normal-style"
+                                            },
+                                            "commercial_node": "national",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "item_type": "homepage/story",
+                                    "feature_name": "debithomas2-830a",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "article",
+                                                "url": "https://www.washingtonpost.com/local/social-issues/the-mystery-of-why-the-best-african-american-figure-skater-in-history-went-bankrupt-and-lives-in-a-trailer/2016/02/25/a191972c-ce99-11e5-abc9-ea152f0b9561_story.html"
+                                            },
+                                            "media": {
+                                                "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2016/01/27/Others/Images/2016-01-27/Thomas041453916532.jpg",
+                                                "width": 1248,
+                                                "height": 832,
+                                                "aspect_ratio": 1.5,
+                                                "caption_size": "small",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "Debi Thomas won a medal at the Olympics. She graduated from Stanford. She became a surgeon. She wanted it all. And for a time, she had it.",
+                                            "signature": {
+                                                "by_line": "By Terrence McCoy"
+                                            },
+                                            "headline": {
+                                                "size": "xx-small",
+                                                "text": "The best African American figure skater in history is now bankrupt and living in a trailer",
+                                                "font_style": "normal-style"
+                                            },
+                                            "commercial_node": "local",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "chain_name": "standard-with-extra-story"
+                }
+            ]
+        },
+        "bottom-content": {
+            "location": "bottom-content",
+            "items": [
+                {
+                    "item_type": "chain",
+                    "chain_type": "top-table-x-wide",
+                    "items": [
+                        {
+                            "item_type": "column",
+                            "widths": {
+                                "x-large": 5,
+                                "large": 5,
+                                "medium": 6,
+                                "small": 5,
+                                "x-small": 12
+                            },
+                            "items": [
+                                {
+                                    "item_type": "column",
+                                    "widths": {
+                                        "x-large": 5,
+                                        "large": 5,
+                                        "medium": 6,
+                                        "small": 5,
+                                        "x-small": 12
+                                    },
+                                    "items": [
+                                        {
+                                            "item_type": "homepage/story",
+                                            "feature_name": "tyh-cdc-136pm",
+                                            "items": [
+                                                {
+                                                    "link": {
+                                                        "type": "blog",
+                                                        "url": "https://www.washingtonpost.com/news/to-your-health/wp/2016/02/26/after-zika-diagnosis-at-least-two-u-s-women-chose-to-have-abortions-cdc-says/"
+                                                    },
+                                                    "media": {
+                                                        "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2016/02/03/Editorial-Opinion/Images/Antibiotic_Overuse-06223.jpg",
+                                                        "width": 1248,
+                                                        "height": 832,
+                                                        "aspect_ratio": 1.5,
+                                                        "caption": "(AP)",
+                                                        "caption_size": "normal",
+                                                        "media_type": "featured"
+                                                    },
+                                                    "source": "The Washington Post",
+                                                    "blurb": "Health officials have tracked at least nine pregnant women in the United States affected with the Zika virus. In addition to the women who had abortions, two others suffered miscarriages.",
+                                                    "signature": {
+                                                        "by_line": "By Brady Dennis and Ariana Eunjung Cha"
+                                                    },
+                                                    "headline": {
+                                                        "size": "small",
+                                                        "text": "U.S. details 9 Zika pregnancies: 2 abortions, 2 miscarriages, 1 baby with ‘severe microcephaly’",
+                                                        "font_style": "normal-style"
+                                                    },
+                                                    "commercial_node": "national",
+                                                    "sub_item_type": "primary"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "item_type": "homepage/story",
+                                    "feature_name": "tyh-cdc-136pm",
+                                    "items": [
+                                        {
+                                            "link": {
+                                                "type": "blog",
+                                                "url": "https://www.washingtonpost.com/news/to-your-health/wp/2016/02/26/after-zika-diagnosis-at-least-two-u-s-women-chose-to-have-abortions-cdc-says/"
+                                            },
+                                            "media": {
+                                                "url": "https://www.washingtonpost.com/r/2010-2019/WashingtonPost/2016/02/03/Editorial-Opinion/Images/Antibiotic_Overuse-06223.jpg",
+                                                "width": 1248,
+                                                "height": 832,
+                                                "aspect_ratio": 1.5,
+                                                "caption": "(AP)",
+                                                "caption_size": "normal",
+                                                "media_type": "featured"
+                                            },
+                                            "source": "The Washington Post",
+                                            "blurb": "Health officials have tracked at least nine pregnant women in the United States affected with the Zika virus. In addition to the women who had abortions, two others suffered miscarriages.",
+                                            "signature": {
+                                                "by_line": "By Brady Dennis and Ariana Eunjung Cha"
+                                            },
+                                            "headline": {
+                                                "size": "small",
+                                                "text": "U.S. details 9 Zika pregnancies: 2 abortions, 2 miscarriages, 1 baby with ‘severe microcephaly’",
+                                                "font_style": "normal-style"
+                                            },
+                                            "commercial_node": "national",
+                                            "sub_item_type": "primary"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "chain_name": "standard-with-extra-story"
+                }
+            ]
+        }
+    },
+    "checksum": "e02ef2935627d9871bd840472f725e83",
+    "lmt": "Tue, 9 Aug 2016 22:55:09 UTC",
+    "last_modified": "2016-08-09T22:55:09.000Z"
+}

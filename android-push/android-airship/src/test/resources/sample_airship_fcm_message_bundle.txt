@@ -1,0 +1,134 @@
+// MMP
+Bundle
+[
+  {
+    google.delivered_priority=normal,
+    google.sent_time=1596115727372,
+    google.ttl=2419200,
+    google.original_priority=normal,
+    from=790760606928,
+    google.message_id=0:1596115727375060%1000b3bef9fd7ecd,
+    google.c.sender.id=790760606928,
+    default=
+    {
+      "headline":"Test1: Detroit is holding in-person summer school — a potential test case for other districts",
+      "linkType":"NATIVE",
+      "type":"news-alert",
+      "url":"https://www.washingtonpost.com/education/in-detroit-summer-school-temperature-checks-and-health-questions-before-math-and-reading/2020/07/29/31f56622-cdd2-11ea-b0e3-d55bda07d66a_story.html",
+      "targetTopic":"breaking-news",
+      "message":"Test1: Detroit is holding in-person summer school — a potential test case for other districts",
+      "category":"INTERACTIVE",
+      "title":"",
+      "pushID":"breaking-news_1596115726613",
+      "sequence":1,
+      "action":"ADD",
+      "interactionType":"DEFAULT",
+      "datetime":1596115727,
+      "analyticsTopic":"Breaking News:GCM"
+    }
+  }
+]
+
+// Airship GUI
+Bundle
+[
+  {
+    com.urbanairship.push.ALERT=Test Message1,
+    google.delivered_priority=normal,
+    com.urbanairship.metadata=eyJ2ZXJzaW9uX2lkIjoxLCJ0aW1lIjoxNTk2MTUyMDk1ODk1LCJwdXNoX2lkIjoiNDkxNDA4ZmEtMjEzNC00NWE2LTk2MTgtNTY3ZGQ2ZTMwYzg3IiwiY2FtcGFpZ25zIjp7ImNhdGVnb3JpZXMiOltdfX0=,
+    google.sent_time=1596152095904,
+    google.ttl=2419200,
+    com.urbanairship.actions=
+    {
+      "^u": "https://www.washingtonpost.com/nation/2020/07/30/coronavirus-covid-live-updates-us/"
+    },
+    google.original_priority=normal,
+    com.urbanairship.push.PUSH_ID=46568a70-d2bd-11ea-b3bc-0242796366fb,
+    from=790760606928,
+    google.message_id=0:1596152095913172%1000b3bef9fd7ecd,
+    com.urbanairship.style=
+    {
+      "type": "big_picture",
+      "big_picture": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/3UUG4JSEFMI6VGOHDX6UEQNC7Y.jpg"
+    },
+    com.urbanairship.push.APID=6e2e2e9c-4710-474c-b217-2dd7831e6d6a,
+    google.c.sender.id=790760606928,
+    com.urbanairship.push.CANONICAL_PUSH_ID=491408fa-2134-45a6-9618-567dd6e30c87
+  }
+]
+
+// Revere - Initial format
+Bundle
+[
+  {
+    com.urbanairship.push.ALERT=Boston Dynamics’‘terrifying’robotic dogs have been put to work by atleast one police agency,
+    targetTopic=breaking-news,
+    google.delivered_priority=normal,
+    com.urbanairship.metadata=eyJ2ZXJzaW9uX2lkIjoxLCJ0aW1lIjoxNTk3MTgxODA0NjM1LCJwdXNoX2lkIjoiNDFmOTIzMGItNmE2MS00ZTQyLWFjODMtN2E4MjA3N2FhYjhkIiwiY2FtcGFpZ25zIjp7ImNhdGVnb3JpZXMiOltdfX0=,
+    google.sent_time=1597181804641,
+    google.ttl=2419200,
+    com.urbanairship.actions=
+    {
+      "^u": "https://www.washingtonpost.com/technology/2019/11/26/boston-dynamics-terrifying-robotic-dogs-have-been-put-work-by-least-one-police-agency/?noredirect=1"
+    },
+    google.original_priority=normal,
+    com.urbanairship.push.PUSH_ID=c09322b0-dc1a-11ea-9918-02423045aa93,
+    imageURL=https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QTJE3HXAUAI6TPT7JTEFAF6DN4.jpg&w=1440,
+    from=790760606928,
+    text=Boston Dynamics began began leasing their robotic dogs to the public this year. One of their first customers: The Massachusetts State Police.,
+    contentURL=https://www.washingtonpost.com/technology/2019/11/26/boston-dynamics-terrifying-robotic-dogs-have-been-put-work-by-least-one-police-agency/?noredirect=1,
+    google.message_id=0:1597181804651816%1000b3bef9fd7ecd,
+    com.urbanairship.push.APID=524337ba-13a4-437c-b99b-28cf82d1af14,
+    google.c.sender.id=790760606928,
+    analyticsTopic=breaking-news,
+    com.urbanairship.push.CANONICAL_PUSH_ID=41f9230b-6a61-4e42-ac83-7a82077aab8d
+  }
+]
+
+// Revere - Current format
+Bundle[
+{
+    com.urbanairship.push.ALERT=The future of autonomous delivery may be unfolding in an unlikely place: Suburban Houston,
+    google.delivered_priority=normal,
+    com.urbanairship.metadata=eyJ2ZXJzaW9uX2lkIjoxLCJ0aW1lIjoxNTk4Mzk1ODkwNDE4LCJwdXNoX2lkIjoiMTRiYjY1ZGEtNTljMy00MWM3LTllYzEtNzgxODhkZDEzY2Q2IiwiY2FtcGFpZ25zIjp7ImNhdGVnb3JpZXMiOltdfX0=,
+    google.sent_time=1598395890452,
+    google.ttl=2419200,
+    google.original_priority=normal,
+    custom={
+        "text": "For months now, Nuro\u2019s robotically piloted vehicles have been quietly delivering groceries around Houston, laying the groundwork for a new era of autonomy.",
+        "pushID": "5f4595f2331818300000000a",
+        "datetime": "2020-08-25T22:51:30.178Z",
+        "contentURL": "https://dev.washpost.arcpublishing.com/pb/technology/2020/08/25/future-autonomous-delivery-may-be-unfolding-an-unlikely-place-suburban-houston/",
+        "imageURL": "https://www.washingtonpost.com/technology/2019/11/07/future-autonomous-delivery-may-be-unfolding-an-unlikely-place-suburban-houston/",
+        "targetTopic": "breaking-news",
+        "analyticsTopic": "classic:android:breaking-news",
+        "title": "",
+        "interactionType": "BREAKING_NEWS"
+        },
+    com.urbanairship.push.PUSH_ID=8417cd20-e725-11ea-93b1-024222b49fa0,
+    from=790760606928,
+    google.message_id=0:1598395890475768%1000b3bef9fd7ecd,
+    google.c.sender.id=790760606928,
+    com.urbanairship.push.CANONICAL_PUSH_ID=14bb65da-59c3-41c7-9ec1-78188dd13cd6,
+    com.urbanairship.summary=For months now, Nuro’s robotically piloted vehicles have been quietly delivering groceries around Houston, laying the groundwork for a new era of autonomy.
+}]
+
+// PushMessage content in UAirshipNotificationProvider.kt
+{
+    com.urbanairship.summary=For months now, Nuro’s robotically piloted vehicles have been quietly delivering groceries around Houston, laying the groundwork for a new era of autonomy.,
+    com.urbanairship.metadata=eyJ2ZXJzaW9uX2lkIjoxLCJ0aW1lIjoxNTk4Mzk1ODkwNDE4LCJwdXNoX2lkIjoiMTRiYjY1ZGEtNTljMy00MWM3LTllYzEtNzgxODhkZDEzY2Q2IiwiY2FtcGFpZ25zIjp7ImNhdGVnb3JpZXMiOltdfX0=,
+    com.urbanairship.push.CANONICAL_PUSH_ID=14bb65da-59c3-41c7-9ec1-78188dd13cd6,
+    custom={
+        "text": "For months now, Nuro\u2019s robotically piloted vehicles have been quietly delivering groceries around Houston, laying the groundwork for a new era of autonomy.",
+        "pushID": "5f4595f2331818300000000a",
+        "datetime": "2020-08-25T22:51:30.178Z",
+        "contentURL": "https://dev.washpost.arcpublishing.com/pb/technology/2020/08/25/future-autonomous-delivery-may-be-unfolding-an-unlikely-place-suburban-houston/",
+        "imageURL": "https://www.washingtonpost.com/technology/2019/11/07/future-autonomous-delivery-may-be-unfolding-an-unlikely-place-suburban-houston/",
+        "targetTopic": "breaking-news",
+        "analyticsTopic": "classic:android:breaking-news",
+        "title": "",
+        "interactionType": "BREAKING_NEWS"
+        },
+    com.urbanairship.push.PUSH_ID=8417cd20-e725-11ea-93b1-024222b49fa0,
+    com.urbanairship.push.ALERT=The future of autonomous delivery may be unfolding in an unlikely place: Suburban Houston
+}

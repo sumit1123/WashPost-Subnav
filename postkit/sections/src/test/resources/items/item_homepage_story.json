@@ -1,0 +1,39 @@
+{
+  "art_position": "high",
+  "border_bottom_style": "hairline-top-table",
+  "border_bottom_width": "100-pct",
+  "feature_name": "video-test",
+  "item_type": "homepage/story",
+  "text_alignment": "left",
+  "items": [
+    {
+      "link": {
+        "type": "video",
+        "url": "https://www.washingtonpost.com/video/entertainment/who-said-this-game-of-thrones-characters-or-presidential-candidates/2016/04/23/16f3bb58-08e7-11e6-bfed-ef65dff5970d_video.html"
+      },
+      "media": {
+        "media_type": "featured",
+        "width": 295,
+        "url": "https://img.washingtonpost.com/rw/2010-2019/WashingtonPost/2016/04/23/Style/Videos/Images/GOTcompositeimage_167_x_296.jpg",
+        "height": 167
+      },
+      "source": "The Washington Post",
+      "signature": {},
+      "headline": {
+        "size": "x-small",
+        "text": "Who said this: \u0027Game of Thrones\u0027 characters or presidential candidates?",
+        "font_style": "normal-style",
+        "alignment": "inherit"
+      },
+      "commercial_node": "entertainment",
+      "sub_item_type": "primary"
+    }
+  ],
+  "widths": {
+    "x-large": 12,
+    "large": 12,
+    "medium": 12,
+    "small": 12,
+    "x-small": 12
+  }
+}

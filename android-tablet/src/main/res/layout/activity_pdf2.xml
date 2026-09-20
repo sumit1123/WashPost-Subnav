@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/print_edition_background"
+    android:id="@+id/pdf_reader_main_layout"
+    android:animateLayoutChanges="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="?attr/app_bar_day_night_style">
+        <RelativeLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingEnd="12dp">
+             <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/page_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.ActionBar.TabText"
+                android:textAllCaps="true"
+                android:layout_alignParentEnd="true"
+                android:drawablePadding="8dp"
+                android:clickable="true" />
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/pdf_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/thumbView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:adjustViewBounds="true"
+            android:layout_centerInParent="true"
+            android:scaleType="matrix"
+            android:contentDescription="@null" />
+
+        <!-- android:layout_alignParentBottom="true" -->
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLargeInverse"
+            android:id="@+id/pdf_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/print_download_bar_height">
+            <ProgressBar android:id="@+id/download_progress"
+                android:layout_gravity="center"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:max="100"
+                android:indeterminate="false"
+                android:layout_marginTop="@dimen/print_download_bar_margin"
+                android:visibility="invisible"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/pdf_thumbnails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:background="@color/print_edition_thumbnails_background"
+        android:orientation="horizontal"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recipe_item_card"
+    style="@style/immersion_carousel_card"
+    android:layout_width="@dimen/carousel_card_default_width"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/recipe_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/recipe_item_art"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/recipe_item_art"
+            android:scaleType="centerCrop"
+            app:layout_constraintDimensionRatio="3:2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/recipe_details_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recipe_item_art">
+
+            <TextView
+                android:id="@+id/recipe_headline_title"
+                style="@style/audio_carousel_item_headline"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/subtitle"
+                style="@style/immersion_carousel_item_byline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/recipe_headline_title" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/recipe_bookmark_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/recipe_bookmark_art"
+            android:paddingStart="15dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_bookmark_unsaved"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recipe_details_container"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:progressBackgroundTint="#F4DD0B"
+            android:src="@drawable/ic_star_rating"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/recipe_details_container"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/rating_num"
+            style="@style/immersion_carousel_item_byline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/rating"
+            app:layout_constraintStart_toEndOf="@+id/rating"
+            app:layout_constraintTop_toBottomOf="@id/recipe_details_container"
+            app:layout_constraintTop_toTopOf="@id/rating"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

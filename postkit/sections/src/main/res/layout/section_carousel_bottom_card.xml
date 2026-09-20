@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view"
+        android:tag="material_card_view"
+        style="@style/grid_bottom_card"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/carousel_card_single_column_margin"
+        android:layout_marginEnd="@dimen/carousel_card_single_column_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:id="@+id/ll_carousel_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/card_grid_item_padding"
+        android:paddingBottom="@dimen/grid_cell_card_homepagestory_horizontal_padding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.wapo.flagship.features.grid.views.CompoundLabelView
+            android:id="@+id/compoundLabel"
+            style="?attr/homepage_story_compound_label_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/grid_cell_card_homepagestory_horizontal_padding"
+            android:paddingEnd="@dimen/grid_cell_card_homepagestory_horizontal_padding"
+            android:paddingBottom="@dimen/cell_homepagesotry_vert_spacing"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/error_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <com.washingtonpost.android.recirculation.carousel.views.CarouselView
+            android:id="@+id/carousel_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.wapo.flagship.features.grid.views.CompoundLabelView
+            android:id="@+id/cta_view"
+            style="?attr/homepage_story_compound_label_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

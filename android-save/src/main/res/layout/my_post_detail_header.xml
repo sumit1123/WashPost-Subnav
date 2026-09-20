@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_post_detail_card_bg"
+    android:orientation="vertical"
+    android:paddingBottom="12dp">
+
+    <View
+        android:id="@+id/view_top_margin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_post_card_divider_height"
+        android:background="@color/my_post_container_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/my_post_card_content_left_margin"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="@dimen/my_post_card_content_left_margin"
+        android:text="For You"
+        android:textColor="@color/my_post_label"
+        android:textSize="@dimen/my_post_preview_label_text_size"
+        android:textStyle="bold"
+        app:fontFamily="@font/wp_franklinitcstd_font_family"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_top_margin"
+        app:layout_constraintWidth_default="wrap" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/my_post_card_content_left_margin"
+        android:layout_marginEnd="@dimen/my_post_card_content_left_margin"
+        android:text="Recommended Stories"
+        android:textColor="@color/my_post_desc"
+        android:textSize="@dimen/my_post_preview_desc_text_size"
+        android:textStyle="italic"
+        app:fontFamily="@font/wp_georgia_font_family"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_label"
+        app:layout_constraintWidth_default="wrap" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

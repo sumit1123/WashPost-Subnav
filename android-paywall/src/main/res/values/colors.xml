@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pw_red">#FF0000</color>
+	<color name="pw_title_color">#2E6D9D</color>
+	<color name="pw_webview_title_color">#20252a</color>
+    <color name="pw_button_bg_color">#222222</color>
+    <color name="pw_button_bg_pressed_color">#000000</color>
+    <color name="pw_button_bg_disabled_color">#ffa7a7a7</color>
+    <color name="pw_native_bg">#20252a</color>
+    <color name="gray">#c3c3c3</color>
+    <color name="blue_success">#316CA0</color>
+    <color name="black">#000000</color>
+    <color name="semitransparent">#CD000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bright_blue">#304ffe</color>
+    <color name="post_blue">#1955a5</color>
+    <color name="light_grey">#A2A2A2</color>
+    <color name="subscription_blue">#166DFC</color>
+
+    <!-- Bottom Sheet Paywall -->
+    <color name="top_label_text">#000000</color>
+    <color name="bottom_sheet_title1_night">#FFFFFF</color>
+    <color name="subscribe_banner_text">#ffffff</color>
+    <color name="post_subscriber_blue_normal">#2C85FC</color>
+    <color name="sheet_border_line">#E9E9E9</color>
+    <color name="sheet_color_night">#2A2A2A</color>
+    <color name="sign_in_text">#2A2A2A</color>
+    <color name="subscribe_subtitle_text">#666666</color>
+    <color name="contact_us_subtitle_text">#666666</color>
+    <color name="sign_in_link_text">#166DFC</color>
+    <color name="sub_text">#666666</color>
+    <color name="offer_page_background">#EFF5FF</color>
+    <color name="offer_page_border">#D5D5D5</color>
+    <color name="check_text_included_color">#333333</color>
+    <color name="check_text_excluded_color">#AAAAAA</color>
+    <color name="unselected_border">#E9E9E9</color>
+    <color name="billing_period_label">#3D73D5</color>
+    <color name="product_title">#2A2A2A</color>
+    <color name="paywall_sheet_background">#FFFFFF</color>
+    <color name="billing_box">#FFFFFF</color>
+    <color name="offer_text">#000000</color>
+    <color name="savings_pill">#2A2A2A</color>
+    <color name="savings_pill_text">#FFFFFF</color>
+    <color name="product_separator">#D5D5D5</color>
+    <color name="toggle_group_color">#F0F0F0</color>
+    <color name="billing_period_selected">#2A2A2A</color>
+    <color name="billing_period_normal">#666666</color>
+    <color name="toggle_selected">#FFFFFF</color>
+    <color name="billing_italic_selected">#61A125</color>
+    <color name="billing_italic_normal">#666666</color>
+    <color name="subscription_text">#FFFFFF</color>
+    <color name="paywall_subtitle_text">#2A2A2A</color>
+
+    <!-- Bottom CTA -->
+    <color name="gift_cta_background">#2A2A2A</color>
+    <color name="gift_cta_text">#FFFFFF</color>
+
+</resources>

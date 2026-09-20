@@ -1,0 +1,11 @@
+name: KMMBridge-Debug
+on:
+  workflow_dispatch:
+
+jobs:
+  call-publish:
+    uses: ./.github/workflows/Base-Publish.yml
+    with:
+      build-debug: true
+#      delete publish-tasks to publish both Android and iOS artifacts. Currently, only the iOS framework is publised for debug builds
+      publish-tasks: ":KMPShared:kmmBridgePublish"

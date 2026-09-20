@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- InAppModal - Start -->
+    <!-- Main Layout, contains the content, buttons, and footer-->
+    <style name="UrbanAirship.InAppModal.Layout">
+        <item name="android:elevation" tools:ignore="NewApi">24dp</item>
+        <item name="urbanAirshipMaxWidth">400dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:layout_marginTop">48dp</item>
+        <item name="android:layout_marginBottom">48dp</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <!-- InAppModal - End -->
+
+
+    <!-- InAppFullscreen - Start -->
+    <!-- InAppFullscreen - End -->
+
+
+    <!-- InAppBanner - Start -->
+    <!-- InAppBanner - End -->
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wapo.flagship.features.grid.views.CompoundLabelView xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/compound_label"
+    style="?attr/homepage_story_compound_label_style"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content"
+    a:paddingStart="@dimen/grid_cell_homepagestory_horizontal_padding"
+    a:paddingEnd="@dimen/grid_cell_homepagestory_horizontal_padding">
+
+</com.wapo.flagship.features.grid.views.CompoundLabelView>

@@ -1,0 +1,43 @@
+{
+    "name": "preview",
+    "title": "Preview Title",
+    "pages": [
+        {
+            "template": "tablet_dolphin",
+            "modules": [
+                {
+                    "name": "dolphin_hero",
+                    "h": 1,
+                    "w": 3,
+                    "article": {
+                        "panelImagePath": "/2010-2019/WashingtonPost/2013/08/08/Interactivity/Images/picks_Dolphin_0811.png?uuid=_K4U4gB9EeOaPpFt6AX2XQ",
+                        "urlPath": "/__ipad2/business/technology/amazons-jeff-bezos-will-bring-a-demanding-management-style-to-the-post/2013/08/07/b5ce5ee8-ff96-11e2-9711-3708310f6f4d_story.html",
+                        "id": "b5ce5ee8-ff96-11e2-9711-3708310f6f4d",
+                        "type": "article_story",
+                        "kicker2": "",
+                        "headline": "For Jeff Bezos, a demanding style behind patience",
+                        "blurbPreface": "Craig Timberg and Jia Lynn Yang",
+                        "photo": {
+                            "path": "/2010-2019/WashingtonPost/2013/08/06/National-Economy/Images/03814153.jpg",
+                            "aspectRatio": 1.4739454094292803,
+                            "caption": ""
+                        },
+                        "blurb": "In the relentlessly efficient world of Jeffrey P. Bezos, Amazon employees quickly learn when they have overtaxed the attention of their chief executive. He quietly pulls out his smartphone and starts replying to e-mails. In extreme cases, Bezos will walk out.This demanding style is as much a"
+                    }
+                }
+            ]
+        }
+    ],
+    "tracking_info": {
+        "pageName": "front - preview",
+        "channel": "ipad - preview",
+        "contentSubsection": "",
+        "contentType": "front",
+        "contentAuthor": "",
+        "searchKeywords": "",
+        "pageFormat": "",
+        "DBPath": "",
+        "blogName": "",
+        "contentSource": ""
+    }
+}

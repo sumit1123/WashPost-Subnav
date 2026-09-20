@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_settings"
+    app:startDestination="@id/settingsFragment">
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.wapo.flagship.features.settings.SettingsFragment"
+        android:label="settings_fragment">
+        <action
+            android:id="@+id/settings_account"
+            app:destination="@id/settingsAccountFragment" />
+        <action
+            android:id="@+id/settings_alerts"
+            app:destination="@id/settingsAlertsFragment" />
+        <action
+            android:id="@+id/settings_content_packs"
+            app:destination="@id/settingsContentPacksFragment" />
+        <action
+            android:id="@+id/settings_custom_nav"
+            app:destination="@id/customNavFragment" />
+        <action
+            android:id="@+id/settings_audio"
+            app:destination="@id/settingsAudioFragment" />
+        <action
+            android:id="@+id/settings_storage"
+            app:destination="@id/settingsStorageFragment" />
+        <action
+            android:id="@+id/settings_test_options"
+            app:destination="@id/settingsTestOptionsFragment" />
+        <action
+            android:id="@+id/settings_privacy"
+            app:destination="@id/settingsPrivacyFragment" />
+        <action
+            android:id="@+id/nav_action_zendesk_help_center"
+            app:destination="@id/settingsZendeskFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_contactUsActivity"
+            app:destination="@id/contactUsActivity" />
+        <action
+            android:id="@+id/nav_action_zendesk_form"
+            app:destination="@id/contactUsActivity" />
+        <action
+            android:id="@+id/action_settingsFragment_to_manageSubscriptionFragment"
+            app:destination="@id/manageSubscriptionFragment" />
+        <deepLink
+            app:action="android.intent.action.VIEW"
+            app:uri="@string/uri_settings_main" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/manageSubscriptionFragment"
+        android:name="com.wapo.flagship.features.settings.ManageSubscriptionFragment"
+        android:label="manage_subscription_fragment" />
+
+    <fragment
+        android:id="@+id/settingsAccountFragment"
+        android:name="com.wapo.flagship.features.settings.SettingsAccountFragment"
+        android:label="settings_account_fragment" >
+        <action
+            android:id="@id/nav_action_zendesk_form"
+            app:destination="@id/contactUsActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsAlertsFragment"
+        android:name="com.wapo.flagship.features.settings.SettingsAlertsFragment"
+        android:label="settings_alerts_fragment">
+        <argument
+            android:name="enable"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsContentPacksFragment"
+        android:name="com.wapo.flagship.features.settings.SettingsContentPacksFragment"
+        android:label="settings_content_packs_fragment" />
+
+    <fragment
+        android:id="@+id/customNavFragment"
+        android:name="com.washingtonpost.customnav.ui.CustomNavFragment"
+        android:label="custom_nav_fragment" />
+
+    <fragment
+        android:id="@+id/settingsAudioFragment"
+        android:name="com.wapo.flagship.features.settings.SettingsAudioFragment"
+        android:label="settings_audio_fragment" />
+
+    <fragment
+        android:id="@+id/settingsStorageFragment"
+        android:name="com.wapo.flagship.features.settings.SettingsStorageFragment"
+        android:label="settings_storage_fragment">
+        <action
+            android:id="@+id/settings_print"
+            app:destination="@id/printSettingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsTestOptionsFragment"
+        android:name="com.wapo.flagship.features.settings.SettingsTestOptionsFragment"
+        android:label="settings_test_options_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/printSettingsFragment"
+        android:name="com.wapo.flagship.features.print.PrintSettingsFragment"
+        android:label="print_settings_fragment" />
+
+    <fragment
+        android:id="@+id/settingsPrivacyFragment"
+        android:name="com.wapo.flagship.features.settings.SettingsPrivacyFragment"
+        android:label="settings_privacy_fragment">
+        <action
+            android:id="@+id/settings_privacy_ccpa"
+            app:destination="@id/settingsPrivacyCCPAFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsPrivacyCCPAFragment"
+        android:name="com.wapo.flagship.features.settings.SettingsPrivacyCCPAFragment"
+        android:label="settings_privacy_ccpa">
+        <argument
+            android:name="config"
+            android:defaultValue="@null"
+            app:argType="com.washingtonpost.android.config.domain.models.config.PrivacyConsentConfig"
+            app:nullable="true" />
+        <argument
+            android:name="isSignedIn"
+            android:defaultValue="false"
+            app:argType="boolean" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsZendeskFragment"
+        android:name="com.wapo.zendesk.fragments.ZendeskHelpCenterFragment"
+        android:label="settings_zendesk" >
+        <action
+            android:id="@+id/action_settingsZendeskFragment_to_contactUsActivity"
+            app:destination="@id/contactUsActivity" />
+    </fragment>
+
+    <activity
+        android:id="@+id/contactUsActivity"
+        android:name="com.wapo.flagship.features.settings.contactus.ContactUsActivity"
+        android:label="ContactUsActivity" />
+
+</navigation>

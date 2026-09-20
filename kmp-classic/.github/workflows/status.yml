@@ -1,0 +1,69 @@
+# PR Status Check Workflow
+#
+# Original version is located at:
+# https://github.com/WPMedia/ios-classic-app/blob/develop/.github/workflows/status.yml
+#
+
+name: "Status"
+
+on:
+  pull_request:
+    types: [opened, edited, assigned, unassigned, labeled, unlabeled, synchronize]
+
+jobs:
+  Run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Status Check
+      if: github.event_name == 'pull_request'
+      env:
+        PR_URL: ${{ github.event.pull_request['html_url'] }}
+        PR_ASSIGNMENTS: ${{ join(github.event.pull_request.assignees.*.login, ' ') }}
+        PR_UNOWNED: ${{ !contains(join(github.event.pull_request.assignees.*.login), github.event.pull_request.user.login) }}
+        PR_WIP: ${{ contains(join(github.event.pull_request.labels.*.name), 'WIP') }}
+        PR_HOLD: ${{ contains(join(github.event.pull_request.labels.*.name), 'On Hold') }}
+        PR_TITLE: ${{ github.event.pull_request.title }}
+        PR_BODY: ${{ github.event.pull_request.body }}
+        STATUS_URL: ${{ github.event.pull_request.statuses_url }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        function SetPRStatus() {
+            curl -s -H "Authorization: token $GITHUB_TOKEN" -H "Content-Type: application/json" -d "{\"state\":\"$1\",\"target_url\":\"${PR_URL}\",\"description\":\"$2\",\"context\":\"Status\"}" $STATUS_URL
+            exit 0
+        }
+
+        if [ $PR_UNOWNED = "true" ]
+        then
+          SetPRStatus error "Please assign PR to its owner."
+        fi
+
+        if [ $PR_WIP = "true" ]
+        then
+          SetPRStatus pending "This PR is a work in progress and cannot be merged in yet."
+        fi
+
+        if [ $PR_HOLD = "true" ]
+        then
+          SetPRStatus pending "This PR is on hold and cannot be merged in yet."
+        fi
+
+        PR_TITLE_CHECK=$(echo $PR_TITLE | sed -nE '/^([A-Z]+-[0-9]+)((, |\/)[A-Z]+-[0-9]+)*: /p')
+        if [ -z "${PR_TITLE_CHECK}" ]
+        then
+          SetPRStatus error "Please include ticket number in the PR title."
+        fi
+
+        PR_BODY_CHECK=$(echo $PR_BODY | sed -nE '/Describe the purpose of this pull request./p')
+        if [ -n "${PR_BODY_CHECK}" ]
+        then
+          SetPRStatus error "Please fill in purpose of the PR in the description."
+        fi
+
+        PR_ASSIGNMENTS_COUNT=$(echo $PR_ASSIGNMENTS | wc -w)
+        if [ $PR_ASSIGNMENTS_COUNT -lt 2 ]
+        then
+          SetPRStatus pending "Please assign this PR to at least one more person for review."
+        fi
+        
+        SetPRStatus success "Everything is fine."

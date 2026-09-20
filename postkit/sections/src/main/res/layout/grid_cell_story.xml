@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/parent"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content"
+    a:orientation="vertical">
+
+    <include
+        a:id="@+id/label"
+        layout="@layout/grid_cell_label"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content" />
+
+    <com.wapo.flagship.features.pagebuilder.HomepageStoryView
+        a:id="@+id/story_view"
+        style="?attr/homepage_story_cell_style"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent" />
+
+</LinearLayout>

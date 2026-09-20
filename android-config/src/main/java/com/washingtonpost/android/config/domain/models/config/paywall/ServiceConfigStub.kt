@@ -1,0 +1,40 @@
+package com.washingtonpost.android.config.domain.models.config.paywall
+
+data class ServiceConfigStub(
+    val tetroSyncFrequency: Int,
+    val pwTurnedOn: Boolean,
+    val tetroTurnedOn: Boolean,
+    val tetroBaseUrl: String,
+    val meteringProxyBaseUrl: String,
+    val useMeteringProxy: Boolean,
+    val tetroWeightArticleTTL: Long,
+    val limit: Int,
+    val ftcDialogVisibility: Boolean,
+    val thresholdSec: Int,
+    val validSkuList: Set<String>,
+    val validSixMonthsSkuList: Set<String>,
+    val adFreeSKUs: Set<String>,
+    val baseSubscriptionProducts: List<String>,
+    val sku: String,
+    val playLicense: String,
+    val editEmailPasswordUrl: String,
+    val editNamePhotoUrl: String,
+    val manageSubUrl: String,
+    val manageSubResumeUrl: String,
+    val paywallBaseURL: String,
+    val subsBaseUrl: String,
+    val newsLettersBaseUrl: String,
+    val subBenefitsUrl: String,
+    val aboutMeUrl: String,
+    val oAuthConfigStub: OAuthConfigStub,
+    val reminderScreenConfig: ReminderScreenConfig,
+    val bottomCtaModel: BottomCtaModel,
+    val onboardingReminder: OnboardingReminderModel,
+    val acquisitionReminder: AcquisitionReminderModel,
+    val paywallSheets: PaywallSheetModels,
+    val cookieConfig: CookieConfig,
+    val globalBannerConfig: GlobalBannerConfig,
+) {
+    val validProductIdList = validSkuList
+    val productId = sku
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="18dp"
+    android:paddingVertical="10dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/wp_weekly_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/wp_franklin_itc_pro_font_family"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Add Washington Post Weekly for just $4/week" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/wp_weekly_subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/wp_franklin_itc_pro_font_family"
+        android:textColor="@color/onBackground_subtle"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wp_weekly_title"
+        tools:text="A weekly publication featuring The Post’s best stories, analysis and perspectives — delivered right to your doorstep." />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/wp_weekly_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/settings_pill_action_background"
+        android:fontFamily="@font/wp_franklinitcstd_font_family"
+        android:minWidth="162dp"
+        android:textAllCaps="false"
+        android:textColor="@color/settings_weekly_button_text"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wp_weekly_subtitle"
+        tools:text="Add for $4/week" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

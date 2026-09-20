@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wapo.flagship.features.grid.views.CountView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/count_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.wapo.flagship.features.grid.views.UnderlinedTextView
+        android:id="@+id/countText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/postoniwide_bold"
+        android:gravity="start"
+        android:textAlignment="viewStart"
+        android:textColor="@color/count_text_color"
+        android:textSize="26sp"
+        app:fontFamily="@font/postoniwide_bold"
+        app:stroke_width="1dp" />
+
+</com.wapo.flagship.features.grid.views.CountView>

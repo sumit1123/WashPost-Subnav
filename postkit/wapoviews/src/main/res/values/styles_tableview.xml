@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="tableview_cell_normal_style" format="reference" />
+    <attr name="tableview_cell_row_header_style" format="reference" />
+    <attr name="tableview_cell_column_header_style" format="reference" />
+
+    <style name="TableView_TextNormal">
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/cell_text</item>
+        <item name="android:background">@color/table_cell_bg</item>
+        <item name="android:textSize">@dimen/table_column_header</item>
+    </style>
+
+    <style name="TableView_TextRowHeader">
+        <item name="android:padding">4dp</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/table_row_header</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/row_header_text</item>
+        <item name="android:background">@color/table_row_header_bg</item>
+    </style>
+
+    <style name="TableView_TextColumnHeader">
+        <item name="android:padding">4dp</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/table_column_header_bg</item>
+        <item name="android:textSize">@dimen/table_column_header</item>
+    </style>
+
+</resources>

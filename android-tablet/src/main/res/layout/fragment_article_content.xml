@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/article_cardview_bg"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/error_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/articles_unable_to_load_a_content_msg"
+                android:textAppearance="@android:style/TextAppearance.Large" />
+
+            <Button
+                android:id="@+id/retry"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/try_again"
+                android:textColor="@color/retry_text" />
+
+        </LinearLayout>
+
+        <androidx.compose.ui.platform.ComposeView
+            android:id="@+id/native_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include
+            android:id="@+id/web_item"
+            layout="@layout/article_web_content_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+    </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/stickyNav"
+        android:contentDescription="Expand Live Updates table of contents"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/luf_bar_height"
+        android:background="@color/luf_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:elevation="2dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/luf_text_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/stickyNavTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/franklinitcstd_light"
+                android:textColor="@color/sticky_nav_time"
+                android:textSize="12sp"
+                tools:text="9:00 a.m." />
+
+            <TextView
+                android:id="@+id/stickyNavText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/franklinitcstd_light"
+                android:singleLine="true"
+                android:textColor="@color/sticky_nav_text"
+                android:textSize="14sp"
+                tools:text="As troops depart, top U.S. military commander in Afghanistan warns country could slide into civil war" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="32dp"
+            android:layout_gravity="end|center_vertical"
+            android:background="@drawable/luf_gradient"
+            android:contentDescription="@string/cd_expand_live_updates"
+            android:padding="11dp"
+            app:srcCompat="@drawable/ic_sticky_nav_down" />
+
+    </FrameLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/gallery_collapse_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="Hide Photos"
+        android:visibility="gone"
+        app:backgroundTint="#80000000"
+        android:textColor="@color/white"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/card_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

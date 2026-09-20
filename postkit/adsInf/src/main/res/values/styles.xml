@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Ad_Label">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/advertisement_label</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="AdProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="colorAccent">#FFF</item>
+    </style>
+</resources>

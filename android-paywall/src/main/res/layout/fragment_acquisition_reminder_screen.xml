@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2019. The Washington Post
+  -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:clickable="true"
+    android:focusable="true">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/background"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:src="@drawable/acquisition_bg_unification"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fade_top_down"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:paddingTop="@dimen/reminder_vertical_margin_x2_large"
+        android:paddingBottom="@dimen/reminder_vertical_margin_x2_large"
+        android:paddingLeft="@dimen/reminder_vertical_margin_x_large"
+        android:paddingRight="@dimen/reminder_vertical_margin_x_large"
+        android:src="@drawable/wp_messaging_logo" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_gravity="bottom"
+        android:background="@drawable/fade_bottom_up"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="118dp">
+
+        <TextView
+            android:id="@+id/header"
+            style="@style/acquisition_screen_header_style_variant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/reminder_text_views_horizontal_margin"
+            android:layout_marginRight="@dimen/reminder_text_views_horizontal_margin"
+            android:text="All our journalism, free for 30 days" />
+
+        <TextView
+            android:id="@+id/message"
+            style="@style/acquisition_screen_description_style_variant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/reminder_text_views_horizontal_margin"
+            android:layout_marginRight="@dimen/reminder_text_views_horizontal_margin"
+            android:text="Plus, you will be able to save stories to read later, and read offline."/>
+
+
+        <Button
+            android:id="@+id/subscribe"
+            style="@style/reminder_screen_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/acquisition_vertical_margin_large"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/reminder_button_background"
+            android:foreground="?attr/selectableItemBackground"
+            android:minWidth="@dimen/reminder_buttons_min_width"
+            android:padding="5dp"
+            android:text="Try 1 month free"/>
+
+
+        <LinearLayout
+            android:id="@+id/sign_in_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:gravity="center">
+        <TextView
+            style="@style/reminder_screen_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Already a subscriber? "/>
+            <TextView
+                android:id="@+id/sign_in"
+                style="@style/reminder_screen_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="?attr/selectableItemBackground"
+                android:text="@string/sign_in_text"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/maybe_later"
+            style="@style/reminder_screen_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/gray"
+            android:layout_marginTop="@dimen/reminder_vertical_margin_medium"
+            android:layout_marginBottom="@dimen/reminder_vertical_margin_medium"
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp"
+            android:text="Maybe Later"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/fineprint_text"
+            android:gravity="center_horizontal"
+            android:text="@string/policy_text"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center|top"
+            android:paddingBottom="24dp">
+            <TextView
+                android:id="@+id/terms_of_service_fine_print"
+                style="@style/fineprint_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:text="@string/terms_of_service_text" />
+            <TextView
+                style="@style/fineprint_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:text="and" />
+            <TextView
+                android:id="@+id/privacy_policy_fine_print"
+                style="@style/fineprint_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:text="@string/privacy_policy_text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:wp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="@dimen/inline_container_padding_outer_top_bottom"
+    android:paddingBottom="@dimen/inline_container_padding_outer_top_bottom"
+    android:paddingLeft="@dimen/tweet_container_padding_outer_Left_Right"
+    android:paddingRight="@dimen/tweet_container_padding_outer_Left_Right">
+
+    <RelativeLayout
+        android:id="@+id/tweet_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="@dimen/tweet_container_padding_inner">
+
+        <com.washingtonpost.android.volley.toolbox.NetworkAnimatedImageView android:id="@+id/image"
+            wp:errorDrawable="?attr/article_error_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="@dimen/tweet_profile_margin"
+            android:layout_marginBottom="@dimen/tweet_top_image_margin_bottom"
+            android:layout_marginLeft="@dimen/tweet_container_margin"
+            android:layout_marginRight="@dimen/tweet_container_margin" />
+
+        <com.washingtonpost.android.volley.toolbox.NetworkAnimatedImageView android:id="@+id/profile_photo"
+            wp:errorDrawable="?attr/article_error_image"
+            android:layout_width="@dimen/tweet_photo_dimen"
+            android:layout_height="@dimen/tweet_photo_dimen"
+            android:layout_marginLeft="@dimen/tweet_container_margin"
+            android:layout_below="@id/image"
+            android:layout_marginTop="@dimen/tweet_profile_margin"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView android:id="@+id/real_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/profile_photo"
+            android:layout_below="@id/image"
+            android:singleLine="true"
+            android:paddingTop="@dimen/tweet_name_padding"
+            android:paddingLeft="@dimen/tweet_name_padding"
+            android:textColor="@color/tweet_grey"
+            tools:text="Screen Name"
+            style="@style/inline_user_name_style"
+            />
+
+        <ImageView android:id="@+id/follow_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_follow"
+            android:layout_marginRight="@dimen/tweet_container_margin"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/profile_photo" />
+
+        <TextView android:id="@+id/screen_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/profile_photo"
+            android:singleLine="true"
+            android:paddingBottom="@dimen/tweet_name_padding"
+            android:paddingLeft="@dimen/tweet_name_padding"
+            android:textColor="@color/tweet_grey"
+            android:textSize="@dimen/tweet_real_name_size"
+            tools:text="\@realName"
+            android:layout_alignLeft="@id/screen_name"
+            android:layout_below="@id/real_name" />
+
+        <TextView android:id="@+id/text"
+            android:layout_marginLeft="@dimen/tweet_container_margin"
+            android:layout_marginRight="@dimen/tweet_container_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_photo"
+            android:layout_marginTop="@dimen/tweet_text_margin"
+            android:layout_marginBottom="@dimen/tweet_text_margin"
+            android:textSize="@dimen/tweet_message_size"
+            android:textColor="@color/tweet_grey"
+            android:typeface="serif"
+            android:autoLink="web" />
+
+        <TextView android:id="@+id/dateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text"
+            android:textColor="@color/tweet_grey"
+            android:layout_marginLeft="@dimen/tweet_container_margin"
+            android:textSize="@dimen/tweet_datetime_textsize"
+            android:maxLines="1" />
+
+        <View android:id="@+id/divider"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/tweet_container_margin"
+            android:layout_below="@id/dateTime"
+            android:background="@android:color/darker_gray" />
+
+        <TextView android:id="@+id/tweets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider"
+            android:layout_marginLeft="@dimen/tweet_container_margin"
+            android:maxLines="1"
+            android:text="TWEETS"
+            android:textColor="@color/tweet_grey"
+            android:textSize="@dimen/tweet_favs_textsize"
+            android:layout_marginBottom="@dimen/tweet_container_margin" />
+
+        <ImageView android:id="@+id/reply_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tweets"
+            android:src="@drawable/ic_tweet_reply"
+            android:layout_marginBottom="@dimen/tweet_container_margin"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/tweet_container_margin" />
+
+        <ImageView android:id="@+id/retweet_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tweets"
+            android:src="@drawable/ic_retweet"
+            android:layout_toRightOf="@id/reply_button"
+            android:layout_marginBottom="@dimen/tweet_container_margin"
+            android:layout_marginLeft="@dimen/tweet_container_margin" />
+
+        <ImageView android:id="@+id/fav_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tweets"
+            android:src="@drawable/ic_tweet_fav"
+            android:layout_marginBottom="@dimen/tweet_container_margin"
+            android:layout_toRightOf="@id/retweet_button"
+            android:layout_marginLeft="@dimen/tweet_container_margin"/>
+    </RelativeLayout>
+</LinearLayout>

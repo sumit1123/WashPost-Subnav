@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_settings"
+    app:startDestination="@id/notificationsFragment">
+
+    <fragment
+        android:id="@+id/settingsAlertsFragment"
+        android:name="com.wapo.flagship.features.settings.SettingsAlertsFragment"
+        android:label="settings_alerts" />
+
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.wapo.flagship.features.notification.NotificationsFragment"
+        android:label="notifications" />
+
+</navigation>

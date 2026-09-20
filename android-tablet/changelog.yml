@@ -1,0 +1,1396 @@
+# Define upcoming version Names, Codes and release notes here.
+# All develop builds will be run with provided names and codes unless values are entered in Jenkins with Build with Parameters.
+# Add combined releases notes (for example, changes_6_40_0_4_24_0 for '6.40.0' and '4.24.0' names) or
+# a separate notes for each versions (for example, changes_6_40_0 for '6.40.0' and changes_4_24_0 for '4.24.0' names).
+# Note:
+# 1. Add change log for every version after changes_header. So the latest one will be at top for easy maintenance.
+# 2. Version names should have dots(.) and changes_* keys should have underscores in place of dots.
+playstore_version_name: '7.15.0'
+playstore_version_code: '2260'
+amazon_version_name: '7.15.0'
+amazon_version_code: '2260'
+changes_header:
+  "Release Notes:":
+    - "• Please remember that this is a beta release, and your input is invaluable in helping us refine the app. If you have any questions or need assistance, don't hesitate to reach out to our support team on slack at #mobile-apps-beta-support."
+changes_7_15_0_7_15_0:
+  "What's New:":
+    - "• Acast flags implementation"
+  "Improvements:":
+    - "• R8 - AGP"
+    - "• Podcast lionfish skip"
+    - "• Removed SOE"
+    - "• Removed pwapi_token generation"
+    - "• Update block quote view"
+  "Bug Fixes:":
+    - "• UI fixes"
+    - "• Accessibility fixes"
+changes_7_14_1_7_14_1:
+  "Changes":
+    - "• Reverted Ripple's BylineView.kt changes"
+changes_7_14_0_7_14_0:
+  "What's New:":
+    - "• Partial subtype in web embeds"
+    - "• Ripple Native"
+  "Improvements:":
+    - "• Ask The Post Tab Redesign"
+    - "• Config changes"
+    - "• Content URL with Nimbus request "
+    - "• KMP Config changes"
+    - "• Update block quote view"
+    - "• Update Age api"
+    - "• Tooltip comments videos"
+    - "• Introduce KMP Logger"
+  "Bug Fixes:":
+    - "• Guideline and Reactions interaction fix for automation"
+    - "• Audio playback speed fix"
+    - "• Scroll position fix "
+changes_7_13_2_7_13_2:
+  "Bug Fixes:":
+    - "• Upgrade: Recheck guardrails for banners after digital purchase"
+changes_7_13_1_7_13_1:
+  "Bug Fixes:":
+    - "• Iterable Guardrail fixes for Upgrade"
+    - "• Fix Start and End Impressions and Banner Displayed event for article placement"
+changes_7_13_0_7_13_0:
+  "Improvements:":
+    - "• Upgrade Subscription Feature"
+    - "• GSB Tracking Updates"
+    - "• Add Iterable Id and Bypass Paywall on office wifi to Debug Panel"
+    - "• Article page: Match styles to mobile web"
+  "Bug Fixes:":
+    - "• Pick Up Where You Left in History fix"
+    - "• Crashlytics fix for PlayerInfo$Builder.build"
+    - "• Crashlytics fix for ImaAdsPlayer.resumeContent"
+    - "• Use verify featureJwt and fallback to profile featureJwt"
+changes_7_12_1_7_12_1:
+  "Improvements:":
+    - "• Support for promo codes in regwall"
+changes_7_12_0_7_12_0:
+  "What's New:":
+    - "• External and Authorization support in tiles"
+  "Improvements:":
+    - "• Article Progress Bar"
+    - "• 7 Live Carousel timestamps"
+    - "• UTM Parameters"
+  "Bug Fixes:":
+    - "• Crashlytics fix for parcel create exception"
+    - "• Personalized Podcast Playback Issue, Expired JwtToken, page engagement time for print section"
+changes_7_11_4_7_11_4:
+  "Bug Fixes:":
+    - "• AgeRestrictions Amazon filter min OS"
+changes_7_11_3_7_11_3:
+  "Bug Fixes:":
+    - "• Amazon check for age restrictions"
+changes_7_11_2_7_11_2:
+  "Improvements:":
+    - "• Handle Age Restriction Errors"
+changes_7_11_1_7_11_1:
+  "Bug Fixes:":
+    - "• OneTrust fix with one time Sync"
+    - "• Article2Activity Crash fix"
+changes_7_11_0_7_11_0:
+  "What's New:":
+    - "• Support for Iterable deep links"
+    - "• Enabled 30-second ad refresh for Nimbus"
+    - "• Added TTS fallback for audio error cases"
+    - "• Updated Play Billing Library from 7.0 to 8.0"
+    - "• Support for reading summaries from feeds"
+  "Improvements:":
+    - "• Added comment count to the Watch tab"
+    - "• Handled web fallback when initial comment loads fail"
+    - "• UI updates for the Section Inline Offer"
+    - "• Updates to gift analytics"
+    - "• Added logging for missing article audio"
+    - "• Migrated to the Subscriptions Array"
+    - "• Stored user history events based on consent status"
+  "Bug Fixes:":
+    - "• Fixed TalkBack and memory issues"
+    - "• Element group fix in articles"
+changes_7_10_1_7_10_1:
+  "Improvements:":
+    - "• Handle AgeRestriction flags per platform"
+  "Bug Fixes:":
+    - "• Crash on AgeRestrictionError Reflection"
+    - "• Fix on Pull to Refresh"
+    - "• Fix on Video Carousel"
+changes_7_10_0_7_10_0:
+  "What's New:":
+    - "• The 7 Live Badge"
+    - "• Homepage Sign-In Prompt"
+  "Improvements:":
+    - "• Alert Settings improvements"
+    - "• Update default tall ad"
+changes_7_9_1_7_9_1:
+  "What's New:":
+    - "• Age Restriction Impl"
+  "Improvements:":
+    - "• Clearing default map when closing ArticlesActivity"
+changes_7_9_0_7_9_0:
+  "What's New:":
+    - "• Switch to ARC powered Site Attendant"
+    - "• Comments watch tab"
+    - "• Seven Live Carousel"
+    - "• Setup Developer Section in Account Fragment"
+  "Improvements:":
+    - "• Create Debug UI similar to iOS & Cleanup Debug Panel"
+  "Bug Fixes:":
+    - "• Looping video fixes"
+    - "• Update kicker for LUFs"
+changes_7_8_1_7_8_1:
+  "What's New:":
+    - "• WP Weekly feature"
+  "Improvements:":
+    - "• Comments Deeplinking"
+    - "• ATP CTA Banner updates"
+    - "• Pre-fetching from Homepage"
+  "Bug Fixes:":
+    - "• Crash and Bug fixes"
+    - "• Validating redirect_urls"
+changes_7_8_0_7_8_0:
+  "Improvements:":
+    - "• Comments Deeplinking"
+    - "• ATP CTA Banner updates"
+    - "• Pre-fetching from Homepage"
+  "Bug Fixes:":
+    - "• Crash and Bug fixes"
+    - "• Validating redirect_urls"
+changes_7_7_5_7_7_5:
+  "What's New:":
+    - "• Support for embed social media/PDF"
+  "Improvements:":
+    - "• Articles compose refactor"
+    - "• Ads Render Metrics"
+    - "• Added jucID for the global Splunk"
+  "Bug Fixes:":
+    - "• Fix mic event on Ask TAB"
+    - "• Ad-Free Sub"
+    - "• Loading indicator for verify subscription calls"
+changes_7_7_4_7_7_4:
+  "What's New:":
+    - "• Support for embed social media/PDF"
+  "Improvements:":
+    - "• Articles compose refactor"
+    - "• Ads Render Metrics"
+    - "• Added jucID for the global Splunk"
+  "Bug Fixes:":
+    - "• Fix mic event on Ask TAB"
+    - "• Ad-Free Sub"
+changes_7_7_3_7_7_3:
+  "What's New:":
+    - "• Support for embed social media/PDF"
+  "Improvements:":
+    - "• Articles compose refactor"
+    - "• Ads Render Metrics"
+    - "• Added jucID for the global Splunk"
+  "Bug Fixes:":
+    - "• Fix mic event on Ask TAB"
+    - "• Ad-Free Sub"
+changes_7_7_2_7_7_2:
+  "What's New:":
+    - "• Ad-Free Sub"
+    - "• Skip Ads"
+    - "• CToken for Comments"
+  "Improvements:":
+    - "• Fix to refresh ads"
+    - "• Level access"
+    - "• Removed unused credentials and code"
+changes_7_7_1_7_7_1:
+  "What's New:":
+    - "• Ad-Free Sub"
+    - "• Skip Ads"
+    - "• CToken for Comments"
+  "Improvements:":
+    - "• Fix to refresh ads"
+    - "• Level access"
+changes_7_7_0_7_7_0:
+  "What's New:":
+    - "• Ad-Free Sub"
+    - "• Skip Ads"
+    - "• CToken for Comments"
+  "Improvements:":
+    - "• Fix to refresh ads"
+    - "• Level access"
+changes_7_6_0_7_6_0:
+  "What's New:":
+    - "• Native Comments"
+    - "• ATP CTA Iterable"
+    - "• KMP Android Implementation"
+    - "• ATP Styling (Markdown)"
+changes_7_5_0_7_5_0:
+  "What's New:":
+    - "• Native Flex Access"
+    - "• Newsletter sign up"
+  "Improvements:":
+    - "• Ripple styling changes"
+    - "• ATP styling"
+    - "• RTE Splunk - removing network error logs"
+changes_7_4_3_7_4_3:
+  "What's New:":
+    - "• Share Personalized Podcast"
+    - "• My Post Iterable UI Updates"
+    - "• Optimized mweb purchase flow"
+    - "• What’s New Deeplink"
+  "Improvements:":
+    - "• Media Player Refactor"
+    - "• MainActivity Modernization ViewModels"
+    - "• Gradle property attribute cleanup"
+changes_7_4_2_7_4_2:
+  "Bug Fixes:":
+    - "• Fix crash on articles including tables"
+changes_7_4_1_7_4_1:
+  "What's New:":
+    - "• VAST Ads Support"
+  "Improvements:":
+    - "• Auto refresh of display ads"
+    - "• MainActivity Modernization ViewModels"
+  "Bug Fixes:":
+    - "• Removed Iterable's updateSubscriptions call"
+changes_7_4_0_7_4_0:
+  "What's New:":
+    - "• VAST Ads Support"
+  "Improvements:":
+    - "• Auto refresh of display ads"
+    - "• MainActivity Modernization ViewModels"
+changes_7_3_0_7_3_0:
+  "What's New:":
+    - "• My Post Subscription Benefits"
+  "Improvements:":
+    - "• MainActivity refactor"
+    - "• Update Nimbus SDK"
+    - "• Update OneTrust SDK"
+  "Bug Fixes:":
+    - "• Video analytics fix"
+    - "• ATP fixes"
+    - "• Top and bottom bar visibility fix"
+changes_7_2_2_7_2_2:
+  "What's New:":
+    - "• Personalized Podcasts in Auto"
+    - "• ATP Citations (Multiturn)"
+  "Improvements:":
+    - "• Add a field that contains the page URL to cust_params and Ad changes"
+    - "• Generate new GAM value aligning to hour of day"
+    - "• Replaced Dagger with Hilt Dependency Injection"
+    - "• APK 16KB devices support"
+  "Bug Fixes:":
+    - "• Article auto play videos crash"
+    - "• Media Player info icon overlay issue"
+    - "• Video Analytics fix"
+    - "• Bottom tabs and Print Edition crashes"
+    - "• Comments linking to wrong story"
+    - "• Crashlytics issues"
+changes_7_2_1_7_2_1:
+  "What's New:":
+    - "• Personalized Podcasts in Auto"
+    - "• ATP Citations (Multiturn)"
+  "Improvements:":
+    - "• Add a field that contains the page URL to cust_params and Ad changes"
+    - "• Generate new GAM value aligning to hour of day"
+    - "• Replaced Dagger with Hilt Dependency Injection"
+    - "• APK 16KB devices support"
+  "Bug Fixes:":
+    - "• Article auto play videos crash"
+    - "• Media Player info icon overlay issue"
+    - "• Video Analytics fix"
+    - "• Bottom tabs and Print Edition crashes"
+    - "• Comments linking to wrong story"
+    - "• Crashlytics issues"
+changes_7_2_0_7_2_0:
+  "What's New:":
+    - "• Personalized Podcasts in Auto"
+    - "• ATP Citations (Multiturn)"
+  "Improvements:":
+    - "• Add a field that contains the page URL to cust_params and Ad changes"
+    - "• Generate new GAM value aligning to hour of day"
+    - "• Replaced Dagger with Hilt Dependency Injection"
+    - "• APK 16KB devices support"
+  "Bug Fixes:":
+    - "• Article auto play videos crash"
+    - "• Media Player info icon overlay issue"
+    - "• Video Analytics fix"
+    - "• Bottom tabs and Print Edition crashes"
+    - "• Comments linking to wrong story"
+changes_7_1_3_7_1_3:
+  "What's New:":
+    - "• Personalized Podcasts Transcript and Sources"
+    - "• Personalized Podcasts in Auto"
+    - "• Default For You - Prod"
+  "Improvements:":
+    - "• Fix UITimedOut rendering and avoid WebView fallback"
+  "Bug Fixes:":
+    - "• Video analytics fix"
+    - "• Audio Interaction Analytics fix"
+    - "• Sections and Articles PVs fix"
+changes_7_1_2_7_1_2:
+  "What's New:":
+    - "• Personalized Podcasts Transcript and Sources"
+    - "• Personalized Podcasts in Auto"
+    - "• Default For You - Prod"
+  "Improvements:":
+    - "• Fix UITimedOut rendering and avoid WebView fallback"
+  "Bug Fixes:":
+    - "• Video analytics fix"
+    - "• Audio Interaction Analytics fix"
+changes_7_1_1_7_1_1:
+  "What's New:":
+    - "• Personalized Podcasts Transcript and Sources"
+    - "• Personalized Podcasts in Auto"
+    - "• Default For You - Prod"
+  "Improvements:":
+    - "• Fix UITimedOut rendering and avoid WebView fallback"
+  "Bug Fixes:":
+    - "• Video analytics fix"
+    - "• Audio Interaction Analytics fix"
+changes_7_1_0_7_1_0:
+  "What's New:":
+    - "• Personalized Podcasts Transcript and Sources"
+    - "• Personalized Podcasts in Auto"
+    - "• Default For You - Prod"
+  "Improvements:":
+    - "• Fix UITimedOut rendering and avoid WebView fallback"
+  "Bug Fixes:":
+    - "• Video analytics fix"
+    - "• Audio Interaction Analytics fix"
+changes_7_0_0_7_0_0:
+  "What's New:":
+    - "• ATP Share"
+    - "• Iterable dismissible GSB"
+    - "• A/B Test for Sign in CTA in App Bar"
+  "Improvements:":
+    - "• Android 16 Platform Updates"
+    - "• Native Audio in Webview"
+    - "• Search Tab Updates"
+    - "• Subscription Product support GSB"
+    - "• Ask Sam timeout handling"
+    - "• Video Bitrate Changes"
+    - "• Sign out CTA update in Settings"
+    - "• Ads breakpoint support for tablet"
+  "Bug Fixes:":
+    - "• Search scroll crash fix"
+    - "• Personalized Podcast title click fix"
+    - "• Ask tab Keyboard fix"
+    - "• Latest Podcast Episode unresponsive play button fix"
+    - "• Ad crashes fix"
+changes_6_99_4_4_83_4:
+  "What's New:":
+    - "• Ask Sam voice options"
+    - "• Ask Sam dynamic thinking text"
+    - "• Iterable dismissible GSB"
+  "Improvements:":
+    - "• Remove Ripple AB Text and roll out variant"
+    - "• Reduce Preferences API call frequency"
+    - "• Native feedback form for Personalized Podcasts"
+    - "• Age verification support"
+  "Bug Fixes:":
+    - "• Ad crashes fix"
+changes_6_99_3_4_83_3:
+  "What's New:":
+    - "• Ask Sam voice options"
+    - "• Ask Sam dynamic thinking text"
+    - "• Iterable dismissible GSB"
+  "Improvements:":
+    - "• Remove Ripple AB Text and roll out variant"
+    - "• Reduce Preferences API call frequency"
+    - "• Native feedback form for Personalized Podcasts"
+    - "• Age verification support"
+  "Bug Fixes:":
+    - "• Ad crashes fix"
+changes_6_99_2_4_83_2:
+  "What's New:":
+    - "• Ask Sam voice options"
+    - "• Ask Sam dynamic thinking text"
+    - "• Iterable dismissible GSB"
+  "Improvements:":
+    - "• Remove Ripple AB Text and roll out variant"
+    - "• Reduce Preferences API call frequency"
+    - "• Native feedback form for Personalized Podcasts"
+    - "• Age verification support"
+  "Bug Fixes:":
+    - "• Ad crashes fix"
+changes_6_99_0_4_83_1:
+  "What's New:":
+    - "• Ask Sam in Personalized Podcast"
+    - "• Nimbus"
+    - "• Talk to the Post V3 (Captions Added)"
+    - "• External Purchase Flow"
+  "Improvements:":
+    - "• RTE for Videos"
+  "Bug Fixes:":
+    - "• Memory leak for Games Fix"
+    - "• Personalized Podcast Analytics Cleanup"
+    - "• Unable to add articles to playlist Fix"
+    - "• Splunk Audit Fix"
+    - "• Crash fix for Ads sdk on older Android versions"
+changes_6_99_0_4_83_0:
+  "What's New:":
+    - "• Ask Sam in Personalized Podcast"
+    - "• Nimbus"
+    - "• Talk to the Post V3 (Captions Added)"
+    - "• External Purchase Flow"
+  "Improvements:":
+    - "• RTE for Videos"
+  "Bug Fixes:":
+    - "• Memory leak for Games Fix"
+    - "• Personalized Podcast Analytics Cleanup"
+    - "• Unable to add articles to playlist Fix"
+    - "• Splunk Audit Fix"
+changes_6_98_0_4_82_0:
+  "What's New:":
+    - "• Related stories in Vertical Videos"
+    - "• ATP Citations"
+  "Improvements:":
+    - "• Secure API changes"
+  "Bug Fixes:":
+    - "• Crash fix for AuthHelper"
+    - "• Premium + No Ads Subscriptions (Only EU)"
+    - "• Sign-in third-party issue"
+changes_6_97_0_4_81_0:
+  "What's New:":
+    - "• Video tab pagination support"
+  "Improvements:":
+    - "• Personalized Podcast V2"
+    - "• Blocker names to GA, Iterable logging"
+  "Bug Fixes:":
+    - "• Topics Section fix"
+    - "• Vertical Video separate task fix"
+    - "• Persistent player fix"
+    - "• Memory leak fix"
+    - "• Tiny Tiles fixes"
+    - "• Page view analytics fix"
+    - "• Sign-in article fix"
+    - "• For You summary submit feedback fix"
+    - "• Pref API - expired token fix"
+changes_6_96_2_4_80_2:
+  "What's New:":
+    - "• Next Video Support"
+    - "• LUF audio in Android Auto"
+  "Improvements:":
+    - "• Ask Sam Transcription"
+    - "• Added Saved Stories option to For You"
+    - "• Added Gift Option to Webviews"
+    - "• Iterable Push Notification support"
+  "Bug Fixes:":
+    - "• Analytics fixes"
+    - "• ForYouRecirculationViewHolder unbind fix"
+    - "• Section Front Ads Disappearing After Scrolling fix"
+changes_6_96_1_4_80_1:
+  "What's New:":
+    - "• Next Video Support"
+    - "• LUF audio in Android Auto"
+  "Improvements:":
+    - "• Ask Sam Transcription"
+    - "• Added Saved Stories option to For You"
+    - "• Added Gift Option to Webviews"
+    - "• Iterable Push Notification support"
+  "Bug Fixes:":
+    - "• Analytics fixes"
+    - "• ForYouRecirculationViewHolder unbind fix"
+changes_6_96_0_4_80_0:
+  "What's New:":
+    - "• Next Video Support"
+    - "• LUF audio in Android Auto"
+  "Improvements:":
+    - "• Ask Sam Transcription"
+    - "• Added Saved Stories option to For You"
+    - "• Added Gift Option to Webviews"
+    - "• Iterable Push Notification support"
+  "Bug Fixes:":
+    - "• Analytics fixes"
+changes_6_95_0_4_79_0:
+  "What's New:":
+    - "• LUF audio"
+  "Improvements:":
+    - "• Update sign in module in My Post"
+    - "• RTE video tracking"
+    - "• For You Widget (address feedback)"
+  "Bug Fixes:":
+    - "• Crashlytics fixes"
+changes_6_94_0_4_78_0:
+  "What's New:":
+    - "• Ask Sam"
+    - "• Video tab updates"
+    - "• VAST Audio Ads"
+    - "• Added carousel to purchased articles"
+  "Improvements:":
+    - "• Insert test ads using the in app settings in Search"
+changes_6_93_1_4_77_1:
+  "Bug Fixes:":
+    - "• Comic missing in comics"
+changes_6_93_0_4_77_0:
+  "What's New:":
+    - "• Vertical Video Pre-roll Ads"
+    - "• Iterable In-App Messaging"
+    - "• Pick Up Where You Left Off in Reading History"
+    - "• Ads in Comics section"
+  "Improvements:":
+    - "• App session and section engagement metrics"
+    - "• Video progress analytics"
+  "Bug Fixes:":
+    - "• Fix For You Video autoplay issue"
+    - "• Crashlytics fixes"
+changes_6_92_1_4_76_1:
+  "What's New:":
+    - "• For You widget (Beta only)"
+    - "• Iterable MVP"
+  "Improvements:":
+    - "• Multi-turn updates"
+    - "• Support videos in For You section"
+    - "• Additional video analytics"
+    - "• Reading History API support"
+  "Bug Fixes:":
+    - "• Add subscription term to global banner"
+    - "• Anonymous users should get feature wall for bookmarked articles"
+changes_6_92_0_4_76_0:
+  "What's New:":
+    - "• For You widget (Beta only)"
+    - "• Iterable MVP"
+  "Improvements:":
+    - "• Multi-turn updates"
+    - "• Support videos in For You section"
+    - "• Additional video analytics"
+    - "• Reading History API support"
+  "Bug Fixes:":
+    - "• Add subscription term to global banner"
+    - "• Anonymous users should get feature wall for bookmarked articles"
+changes_6_91_1_4_75_1:
+  "What's New:":
+    - "• My Post purchased articles"
+    - "• FTS Video"
+    - "• Multi-turn ATP"
+    - "• Ripple"
+  "Improvements:":
+    - "• Ad logic changes for auto"
+  "Bug Fixes:":
+    - "• Crashlytics fixes"
+    - "• Remote config update fix"
+changes_6_91_0_4_75_0:
+  "What's New:":
+    - "• My Post purchased articles"
+    - "• FTS Video"
+    - "• Multi-turn ATP"
+    - "• Ripple"
+  "Improvements:":
+    - "• Ad logic changes for auto"
+  "Bug Fixes:":
+    - "• Crashlytics fixes"
+changes_6_90_0_4_74_0:
+  "What's New:":
+    - "• Talk to the Post Beta"
+    - "• Support New Discover Image Aspect Ratio"
+  "Improvements:":
+    - "• Update environment switching in dev builds"
+    - "• Migrate webview articles to single activity"
+  "Bug Fixes:":
+    - "• Handle malformed json exception"
+changes_6_89_0_4_73_0:
+  "What's New:":
+    - "• Watch Video Section"
+    - "• Making onboarding screen configurable"
+    - "• Ads in Search"
+    - "• Partner Offering Messaging"
+    - "• Add fwd/rwd capabilities to Android Auto"
+  "Bug Fixes:":
+    - "• Anonymous subscribed user is not getting reg wall for bookmark article"
+    - "• Memory leaks"
+    - "• Cleanup & performance improvements"
+changes_6_88_2_4_72_2:
+ "Bug Fixes:":
+    - "• Fixing RTE Push Clicked Event"
+changes_6_88_1_4_72_1:
+  "Improvements:":
+    - "• Tetro metering update for arc id"
+    - "• Share button color"
+    - "• Default For You analytics"
+  "Bug Fixes:":
+    - "• Count view crash fix"
+    - "• Analytics fix for Ask tab page view"
+    - "• For You pagination fix"
+    - "• Search microphone fix"
+changes_6_88_0_4_72_0:
+  "What's New:":
+    - "• For You Updates"
+    - "• Default For You Beta"
+    - "• Ask The Post Tab"
+    - "• Analytics for reminders"
+    - "• Splunk log additions for Ask The Post"
+    - "• FTC changes"
+  "Improvements:":
+    - "• Offers updates"
+    - "• Analytics fix for Ask tab page"
+    - "• RTE Push notifications fix"
+    - "• Amazon Global Subscribe Banner fix"
+changes_6_87_0_4_71_0:
+  "What's New:":
+    - "• Cancel Prominent"
+  "Improvements:":
+    - "• Fixed The 7 margins"
+    - "• Handled fallback for invalid offers"
+changes_6_86_0_4_70_0:
+  "What's New:":
+    - "• From the Source"
+  "Improvements:":
+    - "• Remove listen button from ellipsis menu"
+    - "• Updated status bar color"
+    - "• Ask the Post analytics"
+changes_6_85_0_4_69_0:
+  "What's New:":
+    - "• Android Auto support"
+    - "• Comment action on sections"
+    - "• Article Carousel, Ads, Context Box UI updates"
+    - "• Ad Unit rewrite"
+  "Bug Fixes:":
+    - "• Fixed RTE push events"
+    - "• Fixed duplicate Ask tab pageview"
+changes_6_84_3_4_68_3:
+  "What's New:":
+    - "• Ask The Post in Article"
+  "Bug Fixes:":
+    - "• Fixed blank Topics page and My Post login crash"
+    - "• Fixed Android 16 Widget endless loading"
+changes_6_84_2_4_68_2:
+  "What's New:":
+    - "• Move MyPost to top bar"
+    - "• Multi-offer wall"
+  "Improvements:":
+    - "• Media3 Updates"
+    - "• Appsflyer tracking improvements"
+    - "• Remove PB Classic"
+    - "• For you updates (beta)"
+    - "• Audio ads log and ad timer remote config"
+  "Bug Fixes:":
+    - "• Comics section fix"
+    - "• Email redirect fix"
+    - "• Double confirmation dialog fix"
+    - "• Global subscribe banner text fix"
+    - "• Missing divider in ellipsis menu"
+    - "• Recipes refresh bug fix"
+changes_6_84_1_4_68_1:
+  "What's New:":
+    - "• Move MyPost to top bar"
+    - "• Multi-offer wall"
+  "Improvements:":
+    - "• Media3 Updates"
+    - "• Appsflyer tracking improvements"
+    - "• Remove PB Classic"
+    - "• For you updates (beta)"
+    - "• Audio ads log and ad timer remote config"
+  "Bug Fixes:":
+    - "• Comics section fix"
+    - "• Email redirect fix"
+    - "• Double confirmation dialog fix"
+    - "• Global subscribe banner text fix"
+    - "• Missing divider in ellipsis menu"
+    - "• Recipes refresh bug fix"
+changes_6_84_0_4_68_0:
+  "What's New:":
+    - "• Move MyPost to top bar"
+    - "• Multi-offer wall"
+  "Improvements:":
+    - "• Media3 Updates"
+    - "• Appsflyer tracking improvements"
+    - "• Remove PB Classic"
+    - "• For you updates (beta)"
+    - "• Audio ads log and ad timer remote config"
+  "Bug Fixes:":
+    - "• Email redirect fix"
+    - "• Double confirmation dialog fix"
+    - "• Global subscribe banner text fix"
+    - "• Missing divider in ellipsis menu"
+    - "• Recipes refresh bug fix"
+changes_6_83_1_4_67_1:
+  "Improvements:":
+    - "• Android Platform Updates"
+changes_6_83_0_4_67_0:
+  "What's New:":
+    - "• Added comments and AI summary actions to For You section"
+    - "• Added Pricing Test support"
+  "Improvements:":
+    - "• Analytics Logging Improvements"
+    - "• Added push notification event to RTE"
+  "Bug Fixes:":
+    - "• Fixed view playlist button "
+    - "• Fixed recipe bookmark crash"
+    - "• Fixed missing divider in ellipsis menu"
+changes_6_82_2_4_66_2:
+  "Improvements:":
+    - "• Clean Habit Tile A/B Test Value"
+    - "• Move RCT test values to new param"
+    - "• Adding brand suitability key value to app section fronts"
+changes_6_82_1_4_66_1:
+  "Bug Fixes:":
+    - "• One time Push preference sync fix"
+changes_6_82_0_4_66_0:
+  "What's New:":
+    - "• Show comment count in article top menu"
+  "Improvements:":
+    - "• Third-party login/ MagicLink from article returns user to article"
+    - "• Conversations UI updates with headlines & blurb"
+    - "• Update alerts settings screen hierarchy and remove emojis"
+    - "• Global Subscription CTA expansion"
+changes_6_81_1_4_65_1:
+  "Bug Fixes:":
+    - "• Push Pref Sync cadence fix"
+changes_6_81_0_4_65_0:
+  "What's New:":
+    - "• Conversations"
+    - "• Realtime Summaries Keypoints"
+    - "• All-Access name updates"
+    - "• Extra Accounts"
+  "Improvements:":
+    - "• Saved Article Event Tracking Updates"
+changes_6_80_1_4_64_1:
+  "Improvements:":
+    - "• Personalized Push Notifications changes for named user id"
+changes_6_80_0_4_64_0:
+  "Improvements:":
+    - "• Ask The Post UI enhancements"
+    - "• RTE error improvements"
+  "Bug Fixes:":
+    - "• MAP parsing fix"
+changes_6_79_1_4_63_1:
+  "Bug Fixes:":
+    - "• Fixed Videos video model DI in Search module"
+    - "• Fixed recommendations list empty case in FY module"
+changes_6_79_0_4_63_0:
+  "Improvements:":
+    - "• Contextual Targeting support for Pre-roll Ads"
+    - "• Added Subscription status to GAM Banner Ad requests"
+    - "• Layout optimization for homepage breakpoint sizes"
+    - "• Ads Slot Sizes Updates"
+  "Bug Fixes:":
+    - "• Fix Video caption size for Samsung devices."
+    - "• Fix Low data mode dismiss issue"
+changes_6_78_2_4_62_1:
+  "Bug Fixes:":
+    - "• Fixing the daily read A/B test value by retrieving it from shared preferences and adding it to the known abParameters map"
+changes_6_78_0_4_62_0:
+  "What's New:":
+    - "• Personalized Push Notifications"
+    - "• MAP Menu"
+    - "• Update App Loading Screen"
+  "Improvements:":
+    - "• Updated Zendesk SDK"
+    - "• Summaries v2 Updates"
+    - "• Added settings icon to Print Edition"
+  "Bug Fixes:":
+    - "• Fixed On Page Tap Analytics"
+    - "• Fixed missing dividers on tablet homepage"
+    - "• Fixed comment/comment id url deep links"
+changes_6_77_0_4_61_0:
+  "What's New:":
+    - "• Article summaries now fall back to AI generated version when key takeaways are unavailable"
+changes_6_76_2_4_60_2:
+  "Improvements:":
+    - "• Update Manage Subscription to Manage or Cancel Subscription in Settings"
+changes_6_76_1_4_60_1:
+  "Improvements:":
+    - "• Personalized push notification UUID changes"
+  "Bug Fixes:":
+    - "• Apple Sign In"
+    - "• Webview gifting fix"
+    - "• Push Analytics fixes"
+    - "• SOE wall offer fix"
+changes_6_76_0_4_60_0:
+  "Improvements:":
+    - "• Subscribe Banner Remote Config Changes"
+    - "• Audio Player UI Improvements (Button updates and Auto Scroll Text)"
+    - "• Updated habit tiles with 'Continue reading' and refreshed the LUF UI tile"
+    - "• Beta separation module update + logo"
+  "Bug Fixes:":
+    - "• Analytics fixes for page views"
+changes_6_75_1_4_59_1:
+  "Improvements:":
+    - "• Removed recipe toggle in Ask the Post"
+    - "• Land on the first half of the question in Search view"
+    - "• Increase cadence to Realtime endpoint"
+    - "• Pass primary section id to ads"
+    - "• Separate beta app"
+  "Bug Fixes:":
+    - "• Fixed incorrect article published date"
+    - "• Fixed preference calls made without auth header"
+    - "• Fixed webview crash"
+    - "• Fixed most read count crash"
+    - "• Fixed missing kicker in carousel crash"
+changes_6_75_0_4_59_0:
+  "Improvements:":
+    - "• Removed recipe toggle in Ask the Post"
+    - "• Land on the first half of the question in Search view"
+    - "• Increase cadence to Realtime endpoint"
+    - "• Pass primary section id to ads"
+    - "• Separate beta app"
+  "Bug Fixes:":
+    - "• Fixed incorrect article published date"
+    - "• Fixed preference calls made without auth header"
+    - "• Fixed webview crash"
+changes_6_74_0_4_58_0:
+  "What's New:":
+    - "• Ask the Post"
+    - "• Android 15 support"
+    - "• App Modernization v2"
+    - "• MAP"
+  "Improvements:":
+    - "• Ktlint code formatter"
+    - "• Remove Google Tag Manager"
+    - "• Remove app side softwall logic"
+    - "• Removed follow author button and hide feature for anonymous users"
+  "Bug Fixes:":
+    - "• Fixed CountView crash"
+    - "• Fixed For You loading"
+changes_6_73_0_4_57_0:
+  "Improvements:":
+    - "• Audio player & Playlist kicker styling"
+    - "• AI summary A/B test #2"
+    - "• Display save story touchpoints to all users"
+    - "• Support breakpoints for ads in tablet"
+    - "• Track version from remote config"
+    - "• Deprecate Targeting Clickstream"
+  "Bug Fixes:":
+    - "• Secondary label color adjustment"
+    - "• Habit tile game tile not disappearing after playing"
+    - "• Removed ability to let users follow topics while not signed in"
+changes_6_72_6_4_56_6:
+  "What's New:":
+    - "• Android Lite"
+    - "• Opinions Rebranding"
+    - "• App Modernization v2"
+    - "• MAP"
+  "Bug Fixes":
+    - "• Newsprint Bug Fixes"
+    - "• Added MAP variant to AB Test"
+    - "• Fix for No Habit Tiles on non xsmall breakpoints"
+    - "• Sections Ribbon is not showing in Featured Sections fix"
+    - "• Unable to share game results fix"
+    - "• SectionsPagerView Android Lite fix"
+    - "• Placeholder aspect ratio Android Lite fix"
+    - "• Date format Locale Android Lite fix"
+changes_6_72_5_4_56_5:
+  "What's New:":
+    - "• Android Lite"
+    - "• Opinions Rebranding"
+    - "• App Modernization v2"
+    - "• MAP"
+  "Bug Fixes":
+    - "• Fix for No Habit Tiles on non xsmall breakpoints"
+    - "• Sections Ribbon is not showing in Featured Sections fix"
+    - "• Unable to share game results fix"
+    - "• SectionsPagerView Android Lite fix"
+    - "• Placeholder aspect ratio Android Lite fix"
+    - "• Date format Locale Android Lite fix"
+changes_6_72_4_4_56_4:
+  "What's New:":
+    - "• Android Lite"
+    - "• Opinions Rebranding"
+    - "• App Modernization v2"
+    - "• MAP"
+  "Bug Fixes":
+    - "• Fix for No Habit Tiles on non xsmall breakpoints"
+    - "• Sections Ribbon is not showing in Featured Sections fix"
+    - "• Unable to share game results fix"
+    - "• SectionsPagerView Android Lite fix"
+changes_6_72_3_4_56_3:
+  "What's New:":
+    - "• Android Lite"
+    - "• Opinions Rebranding"
+    - "• App Modernization v2"
+    - "• MAP"
+  "Bug Fixes":
+    - "• Fix for No Habit Tiles on non xsmall breakpoints"
+    - "• Sections Ribbon is not showing in Featured Sections fix"
+    - "• Unable to share game results fix"
+changes_6_72_2_4_56_2:
+  "What's New:":
+    - "• SOE v2"
+changes_6_72_1_4_56_1:
+  "Bug Fixes:":
+    - "• Sections Ribbon is not visible in Featured Sections"
+changes_6_72_0_4_56_0:
+  "What's New:":
+    - "• Article Comments"
+  "Improvements:":
+    - "• Newsprint updates"
+    - "• Debug panel in beta builds"
+    - "• Mobile modernization"
+changes_6_71_4_4_55_4:
+  "Improvements:":
+    - "• Debug panel beta support"
+  "Bug Fixes:":
+    - "• Newsprint fixes"
+changes_6_71_3_4_55_3:
+  "Bug Fixes:":
+    - "• Fixing Web view redirect and Simple web-view changes"
+    - "• Closed caption support for undetermined text"
+    - "• Handle all deeplink entry points for fail over mode"
+changes_6_71_2_4_55_2:
+  "Bug Fixes:":
+    - "• Fixing Web view redirect and Simple web-view changes"
+    - "• Closed caption support for undetermined text"
+    - "• Handle all deeplink entry points for fail over mode"
+changes_6_71_1_4_55_1:
+  "Bug Fixes:":
+    - "• Homepage not refreshing when returning to app"
+changes_6_71_0_4_55_0:
+  "Improvements:":
+    - "• Web embed analytics"
+  "Bug Fixes:":
+    - "• Fix content refresh"
+    - "• Fix duplicate headlines"
+    - "• Fix PDF linking behavior"
+    - "• Fix missing video captions"
+    - "• Fix web embed errors"
+changes_6_70_1_4_54_1:
+  "Bug Fixes:":
+    - "• Fix SUB NAV crash"
+changes_6_70_0_4_54_0:
+  "What's New:":
+    - "• App Modernization redesign"
+    - "• Post Answers"
+    - "• Newsprint 2024"
+    - "• Post pulse logo"
+  "Improvements:":
+    - "• Configurable cache bypass for all articles"
+    - "• Finalize Audio Ads A/B test"
+    - "• Audio contextual ads targeting"
+    - "• App failover behavior improvement"
+    - "• One trust sdk update"
+  "Bug Fixes:":
+    - "• Request id, recipe id, test id missing in for you events"
+    - "• Device goes to sleep while watching video"
+    - "• Homepage story deck not respecting text alignment"
+changes_6_69_0_4_53_0:
+  "What's New:":
+    - "• Election Sub Navigation"
+  "Improvements:":
+    - "• Add `/front` to all banners ad unit ids in sections fronts"
+  "Bug Fixes:":
+    - "• Update latest LUF post text to now"
+    - "• Switching tabs does not pause section front video fix"
+    - "• Warm Start returns to Top Stories if app was launched from an intent"
+changes_6_68_1_4_52_1:
+  "Bug Fixes:":
+    - "• Fixed Unable to Load Content error in sections on fire devices"
+changes_6_68_0_4_52_0:
+  "Improvements:":
+    - "• Add client app header to all config calls"
+    - "• Pass content type to Tetro calls to ensure LUFs are not paywalled"
+  "Bug Fixes:":
+    - "• Modernize nav crashlytics fixes"
+    - "• Section deeplink does not go to section in cold start"
+    - "• First section label in featured sections is not labeled Top Stories"
+    - "• Persistent player items misaligned"
+    - "• App section failover not getting triggered when active"
+changes_6_67_1_4_51_1:
+  "Bug Fixes:":
+    - "• Fix crash in audio player"
+changes_6_67_0_4_51_0:
+  "What's New:":
+    - "• Post LLM | Internal Beta feature"
+    - "• Habit Tiles"
+    - "• Election webview embed support"
+  "Improvements:":
+    - "• Play Billing Library update"
+    - "• Modernize nav with Compose"
+    - "• Amazon ads sdk update"
+  "Bug Fixes:":
+    - "• System permission prompt not appearing when toggling push alerts"
+    - "• When user removes followed author, it is not updated in MyPost Section Preview screen"
+    - "• Video does not autoplay on section front before user scrolls"
+    - "• Story carousel text sometimes cut off"
+changes_6_65_0_4_49_0:
+  "What's New:":
+    - "• Habit Tiles | Internal beta feature"
+    - "    • New personalized tiles at the top of home screen"
+    - "    • Feedback form (Try it out and help us refine the experience!)"
+    - "• What's New alert"
+  "Improvements:":
+    - "• Performance | Comics Load Render logs"
+    - "• Duration placement in videos adjusted when headline is excluded"
+    - "• Support for additional ad sizes on section fronts and articles"
+    - "• Add pageview event for luf outcome post"
+  "Bug Fixes:":
+    - "• Crashlytics fixes - SelectableText is within bounds"
+changes_6_64_1_4_48_0:
+  "Bug Fixes:":
+    - "• Removed wear compatibility to fix Google Play policy violation"
+changes_6_64_0_4_48_0:
+  "What's New:":
+    - "• Climate Tile in Find Tab"
+  "Improvements:":
+    - "• FY Metrics | content_listen"
+  "Bug Fixes:":
+    - "• Removed Search AB test"
+    - "• Crashlytics fixes"
+    - "• Removed Head API requests from ConfigProcessor"
+changes_6_63_1_4_47_1:
+  "Bug Fixes:":
+    - "• Fix LUF Android 5 compatibility crash"
+changes_6_63_0_4_47_0:
+  "What's New:":
+    - "• Expanded Bylines in Articles"
+    - "• LUF outcome post in Articles"
+  "Improvements:":
+    - "• Make My Post ordering dynamic"
+  "Bug Fixes:":
+    - "• Fix Push enrollment on Preferences"
+    - "• Crashlytics fixes"
+changes_6_62_2_4_46_2:
+  "Improvements:":
+    - "• Record user's Find A/B test group"
+changes_6_62_1_4_46_1:
+  "Bug Fixes:":
+    - "• stopForYouViewTimer index out of bounds fix"
+changes_6_62_0_4_46_0:
+  "What's New:":
+    - "• Dark theme for find recipe UI"
+    - "• Updated Airship library to latest version"
+    - "• Added climate bot in app settings"
+    - "• Fox recirc summaries"
+    - "• User History Service: new scroll_depth and fy_viewed metrics"
+  "Improvements:":
+    - "• Stopped fetching article image on push"
+    - "• Decached for you recirc module"
+  "Bug Fixes:":
+    - "• Layout animation fix"
+    - "• Fixed a fragment state issue"
+    - "• MusicService as foreground service fix"
+    - "• Fixed issue where the text size panel was not reacting when text size was adjusted in settings"
+    - "• Fixed issue where followed authors were not showing up in My Post on a fresh install"
+changes_6_61_0_4_45_0:
+  "What's New:":
+    - "• Added Standalone Audio Analytics"
+    - "• A/B Testing Audio Ads"
+  "Improvements:":
+    - "• Updated text sizes and spacing in article summaries"
+  "Bug Fixes:":
+    - "• Switch post-login Onboarding to use activity context"
+    - "• Delegate Comment Thread redirects to webview"
+    - "• Prevent AuthHelper crash when authorization request is null"
+changes_6_60_0_4_44_0:
+  "What's New:":
+    - "• Added birthday front page to My Post"
+    - "• Added article summaries to article toolbar"
+  "Improvements:":
+    - "• Updated article cache policy for inline links and deep links"
+    - "• Support RCT ABC test"
+    - "• Updated beta summaries ui"
+changes_6_59_0_4_43_0:
+  "What's New:":
+    - "• Standalone audio playback support in articles"
+    - "• Live LUF | Display the number of updates in the button"
+  "Improvements:":
+    - "• Added month-day-year format support in section fronts byline signature"
+    - "• Removed automatic screen_iew reporting in Firebase Analytics"
+    - "• For You API request updates"
+changes_6_58_1_4_42_1:
+  "Bug Fixes:":
+    - "• Number format localization fix for analytics"
+changes_6_58_0_4_42_0:
+  "What's New:":
+    - "• Chat Bot added to the Experiments in Settings"
+    - "• Find Tab"
+    - "• Live LUF Button"
+    - "• Fluid Ads"
+  "Improvements:":
+    - "• Akamai Image Resizer"
+    - "• Android 14"
+  "Bug Fixes:":
+    - "• Webview fixes"
+    - "• Topic Follow interested fix"
+changes_6_57_2_4_41_2:
+  "Bug Fixes:":
+    - "• Handle edge case for paywall initialization upon app relaunch"
+changes_6_57_1_4_41_1:
+  "Bug Fixes:":
+    - "• Fix dynamic text for App Download Test"
+changes_6_57_0_4_41_0:
+  "What's New:":
+    - "• Smart Offer Ecosystem"
+  "Improvements:":
+    - "• Topic Follow improvements to cardified LUF and image loading"
+    - "• Personalization Framework tracking expansion"
+    - "• GA4 Support"
+    - "• Update Zendesk SDK"
+  "Bug Fixes:":
+    - "• Push Open analytics Fix"
+    - "• Fix for Bottom Nav deep links on cold start"
+changes_6_56_2_4_40_2:
+  "Bug Fixes:":
+    - "One link fix for deep links opened when app is not installed"
+changes_6_56_1_4_40_1:
+  "Bug Fixes:":
+    - "One link fix for deep links without auth token"
+changes_6_56_0_4_40_0:
+  "What's New:":
+    - "• In-story carousels"
+    - "• Topic Follow in My Post"
+    - "• Beta Feedback in Zendesk (Beta-Only)"
+    - "• Aggregator Link in Settings (Beta-Only)"
+  "Improvements:":
+    - "• Update Firebase SDK"
+  "Bug Fixes:":
+    - "• Crashlytics Fix"
+    - "• Push Open analytics Fix"
+changes_6_55_1_4_39_1:
+  "Bug Fixes:":
+    - "Start up section transaction crash fix"
+changes_6_55_0_4_39_0:
+  "What's New:":
+    - "• Apps Download Test"
+    - ""
+  "Improvements:":
+    - "• Update Ad Impression and Error logging for ad refreshes"
+    - "• Follow button in sheet toggles newsletters and notifications on"
+    - ""
+  "Bug Fixes:":
+    - "• Fixes app resume failing to resume last activity"
+    - "• Fixes Android 5 broken sign in"
+    - "• Fixes comics crashlytics issue"
+changes_6_54_2_4_38_2:
+  "Bug Fixes:":
+    - "• LUF image quality"
+changes_6_54_1_4_38_1:
+  "Bug Fixes:":
+    - "• Topic Follow sync preferences on sign in"
+    - "• Android 5 crash"
+changes_6_54_0_4_38_0:
+  "What's New:":
+    - "• Topic Follow"
+    - "• LUF Delegate Tracker Integration"
+changes_6_53_0_4_37_0:
+  "What's New:":
+    - "• LUF Articles Cardification"
+    - "• A/B Testing Search"
+    - "• Support election live images within Immersion Carousel"
+    - "• LUF label chevron Update"
+  "Improvements:":
+    - "• Updated Standard App Launch conditions"
+changes_6_52_0_4_36_0:
+  "What's New:":
+    - ""
+  "Improvements:":
+    - "• Analytics updates"
+    - "• Library cleanup & performance improvements"
+    - "• Removed legacy article zoom pref"
+    - ""
+changes_6_51_0_4_35_0:
+  "What's New:":
+    - "A/B Testing Games Tab"
+    - "Alerts button location moved by search button"
+    - ""
+  "Improvements:":
+    - "• Removed old article/my post/ search code"
+    - "• Refactored Utils"
+    - "• Refactored Splash"
+    - "• Memory leak fixes"
+    - "• Update WP icon"
+    - ""
+  "Bug Fixes:":
+    - "• Disabled Wear App Prompt"
+    - "• Fixed native sign-in social provider"
+changes_6_50_1_4_34_1:
+  "What's New:":
+    - "• Native sign in presentation"
+    - ""
+  "Improvements:":
+    - "• Support for block ads on all breakpoints"
+    - ""
+  "Bug Fixes:":
+    - "• Crashlytics fixes"
+    - "• Removed extra space in articles when there is an unknown item"
+    - "• Fixed white background in Webview Twitter embed in dark mode"
+changes_6_50_0_4_34_0:
+  "What's New:":
+    - "• Native sign in presentation"
+    - ""
+  "Improvements:":
+    - "• Support for block ads on all breakpoints"
+    - ""
+  "Bug Fixes:":
+    - "• Crashlytics fixes"
+    - "• Removed extra space in articles when there is an unknown item"
+    - "• Fixed white background in Webview Twitter embed in dark mode"
+changes_6_49_0_4_33_0:
+  "What's New:":
+    - "• WebView Twitter embeds in articles"
+    - "• Support for Ads and Alert Toggle Items from Feeds"
+    - ""
+  "Improvements:":
+    - "• Volley library threads and performance logs updates"
+    - ""
+  "Bug Fixes:":
+    - "• Search filters (Date and Relevance) fixes"
+    - "• Crashlytics fixes"
+changes_6_48_0_4_32_0:
+  "What's New:":
+    - "• Ads and Alert Toggle Injection migration to Feeds"
+    - "• Next Audio - Play Recommended audio articles once current audio ends"
+    - "• Added Audio Regwall on Inline Player (non-Carousel)"
+    - ""
+  "Improvements:":
+    - "• Improved long app start time behavior"
+    - ""
+  "Bug Fixes:":
+    - "• Fixed Listen to the Post Layout on Tablet"
+changes_6_47_1_4_31_1:
+  "What's New:":
+    - "• Inline galleries in articles"
+    - "• Show number of reviews in recipes"
+    - "• Support for unified recipe landing page (display context)"
+    - ""
+  "Bug Fixes:":
+    - "• Fixed For-you tab error message"
+    - "• Updates to Table-Of-Content UI"
+    - "• Removed audio voice preferences and play first voice from manifest/voices by default"
+changes_6_47_0_4_31_0:
+  "What's New:":
+    - "• Inline galleries in articles"
+    - "• Show number of reviews in recipes"
+    - "• Support for unified recipe landing page (display context)"
+    - ""
+  "Bug Fixes:":
+    - "• Fixed For-you tab error message"
+    - "• Updates to Table-Of-Content UI"
+changes_6_46_3_4_30_3:
+  "What's New:":
+    - "• App-side changes for upcoming Newsprint feature"
+    - "• Smart prefetching for sections (personalization framework)"
+    - "• Support for podcasts in audio carousel"
+    - "• Support for share button in webviews"
+    - "• Added sign up link to paywall"
+    - ""
+  "Bug Fixes:":
+    - "• Fixed audio remove from playlist bug"
+    - "• OT Upgrade to TCF 2.2"
+    - "• Topic Notification Improvements"
+    - "• Handled empty voices NPE case"
+changes_6_46_2_4_30_2:
+  "What's New:":
+    - "• App-side changes for upcoming Newsprint feature"
+    - "• Smart prefetching for sections (personalization framework)"
+    - "• Support for podcasts in audio carousel"
+    - "• Support for share button in webviews"
+    - "• Added sign up link to paywall"
+    - ""
+  "Bug Fixes:":
+    - "• Fixed audio remove from playlist bug"
+    - "• OT Upgrade to TCF 2.2"
+    - "• Topic Notification Improvements"
+    - ""
+changes_6_46_1_4_30_1:
+  "What's New:":
+    - "• App-side changes for upcoming Newsprint feature"
+    - "• Smart prefetching for sections (personalization framework)"
+    - "• Support for podcasts in audio carousel"
+    - "• Support for share button in webviews"
+    - "• Added sign up link to paywall"
+    - ""
+  "Bug Fixes:":
+    - "• Fixed slideshows sometimes showing incorrect overlay"
+    - "• Fixed slideshow container sizing issue"
+    - "• Fixed issue with For You section swiping"
+    - "• Fixed issue with off-center labels"
+    - "• Fixed broken webview login redirect"
+    - "• Fixed ebook webview redirect issue"
+    - ""
+changes_6_46_0_4_30_0:
+  "What's New:":
+    - "• App-side changes for upcoming Newsprint feature"
+    - "• Smart prefetching for sections (personalization framework)"
+    - "• Support for podcasts in audio carousel"
+    - "• Support for share button in webviews"
+    - "• Added sign up link to paywall"
+    - ""
+  "Bug Fixes:":
+    - "• Fixed slideshows sometimes showing incorrect overlay"
+    - "• Fixed slideshow container sizing issue"
+    - "• Fixed issue with For You section swiping"
+    - "• Fixed issue with off-center labels"
+    - "• Fixed broken webview login redirect"
+    - "• Fixed ebook webview redirect issue"
+    - ""
+changes_6_45_2_4_29_2:
+  "What's New:":
+    - "• Paywall Text Tokens Updates and Text Token Support in IAMs"
+    - ""
+  "Bug Fixes:":
+    - "• Recipe ITID analytics, Carousel mapping fixes"
+    - "• Memory fixes"
+    - ""
+changes_6_45_1_4_29_1:
+  "What's New:":
+    - "• Support for Recipe Finder"
+    - ""
+  "Improvements:":
+    - "• Upload user selected alert topics to Preferences API"
+    - ""
+changes_6_45_0_4_29_0:
+  "What's New:":
+    - "• Support for Recipe Finder"
+    - ""
+  "Improvements:":
+    - "• Upload user selected alert topics to Preferences API"
+    - ""
+changes_6_44_0_4_28_0:
+  "Improvements:":
+    - "• Removing Audio from queue"
+    - ""
+  "Bug Fixes:":
+    - "• Homepage crash when chain/table has only unsupported items"
+    - "• Memory fixes"
+    - ""
+changes_6_43_0_4_27_0:
+  "What's New:":
+    - "• Support for full-bleed ads in articles"
+    - "• Removed For You tooltip"
+    - ""
+  "Improvements:":
+    - "• Update style of video overlay UI in articles"
+    - "• Autoplay videos resume from where they were on tap after ad plays"
+    - "• Video share tracking improvements"
+    - ""
+changes_6_42_1_4_26_1:
+  "What's New:":
+    - "• Homepage: New layout with multiple columns in T9"
+    - "• Support Style headline fonts in Assembler fronts"
+    - "• Vertical Video Ads | Additional Impression Tracking"
+    - ""
+  "Improvements:":
+    - "• For You Flex Headers - validate privacy requirements"
+    - ""
+  "Bug Fixes:":
+    - "• Fixed issue where Section Fronts were forgetting user's scroll location when returning from an article"
+    - "• Fixed issue where swiping in carousels was too jerky"
+    - ""
+changes_6_42_0_4_26_0:
+  "What's New:":
+    - "• Homepage: New layout with multiple columns in T9"
+    - "• Support Style headline fonts in Assembler fronts"
+    - "• Vertical Video Ads | Additional Impression Tracking"
+    - ""
+  "Improvements:":
+    - "• For You Flex Headers - validate privacy requirements"
+    - ""
+  "Bug Fixes:":
+    - "• Fixed issue where Section Fronts were forgetting user's scroll location when returning from an article"
+    - "• Fixed issue where swiping in carousels was too jerky"
+    - ""
+changes_6_41_0_4_25_0:
+  "What's New:":
+    - "• Autoplay videos in articles"
+    - "• Navigate to section front from article labels"
+    - "• Support Style headline font in articles"
+    - "• Immersion Carousel End Card"
+    - ""
+  "Improvements:":
+    - "• Make Permutive contextual targeting data more dynamic"
+    - "• Firebase Sandbox Project integration for pre-release builds"
+    - "• Start logging purchase flow failures at error level"
+    - "• Update For You Flex headers"
+    - "• Web sections support in search"
+    - "• Fixing the broken section link coming with a trailing slash"
+    - ""
+  "Bug Fixes:":
+    - "• Context Box - Image Alignment Bug"
+    - ""
+changes_6_40_0_4_24_0:
+  "What's New:":
+    - "• Added user playlists to help users quickly mark audio articles & podcasts of interest and listen to them later"
+    - ""

@@ -1,0 +1,47 @@
+name: Record Stage Deployment
+
+on:
+  push:
+    branches:
+      - develop
+      - 'hotfix/**'
+
+permissions:
+  contents: read
+
+jobs:
+  record-deployment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout deployed commit
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+
+      - name: Get version from changelog
+        id: changelog
+        run: |
+          version=$(sed -nE "s/^playstore_version_name:[[:space:]]*['\"]?([^'\"[:space:]]+)['\"]?[[:space:]]*$/\1/p" android-tablet/changelog.yml | head -n 1)
+
+          if [ -z "$version" ]; then
+            echo "Unable to read playstore_version_name from android-tablet/changelog.yml" >&2
+            exit 1
+          fi
+
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Report deployment to Datadog
+        env:
+          DD_API_KEY: ${{ secrets.DD_API_KEY }}
+          DD_SITE: datadoghq.com
+        run: |
+          npx --yes @datadog/datadog-ci dora deployment \
+            --service "android-classic" \
+            --env "stage" \
+            --team "native-apps" \
+            --version "${{ steps.changelog.outputs.version }}" \
+            --started-at "$(date --date="${{ github.event.head_commit.timestamp }}" +%s)" \
+            --finished-at "$(date +%s)" \
+            --git-commit-sha "${{ github.sha }}" \
+            --git-repository-url "${{ github.server_url }}/${{ github.repository }}"

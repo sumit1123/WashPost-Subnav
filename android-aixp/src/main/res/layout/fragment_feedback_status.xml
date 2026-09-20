@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/summary_rounded_dialog_bg"
+        android:paddingHorizontal="@dimen/summary_dimen_large"
+        android:paddingTop="@dimen/summary_dimen_x_small_1"
+        android:paddingBottom="@dimen/summary_dimen_large">
+
+        <View
+            android:id="@+id/top_bar"
+            android:layout_width="@dimen/summary_dialog_top_bar_width"
+            android:layout_height="@dimen/summary_dialog_top_bar_height"
+            android:layout_marginBottom="@dimen/summary_dimen_medium_1"
+            android:background="@drawable/summary_dialog_top_bar"
+            app:layout_constraintBottom_toTopOf="@+id/check"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/summary_dimen_small_1"
+            android:background="@drawable/rounded_button_inverted_shape"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:padding="@dimen/summary_dimen_small_1"
+            android:src="@drawable/check"
+            app:layout_constraintBottom_toTopOf="@+id/title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/feedback_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/summary_dimen_x_small"
+            android:gravity="center"
+            android:text="@string/feedback_tq_title"
+            app:layout_constraintBottom_toTopOf="@+id/description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/feedback_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/feedback_tq_description"
+            android:textColor="@color/feedback_tq_description"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

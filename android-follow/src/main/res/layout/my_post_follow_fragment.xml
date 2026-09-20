@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/my_post_card_top_marin"
+    android:animateLayoutChanges="true"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_post_follow_card_bg"
+            android:paddingLeft="@dimen/my_post_card_content_left_margin"
+            android:paddingTop="32dp"
+            android:paddingRight="@dimen/my_post_card_content_left_margin"
+            android:text="Authors"
+            android:textColor="@color/my_post_follow_title"
+            android:textSize="@dimen/my_post_preview_label_text_size"
+            android:textStyle="bold"
+            app:fontFamily="@font/wp_franklinitcstd_font_family"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_post_follow_card_bg"
+            android:paddingLeft="@dimen/my_post_card_content_left_margin"
+            android:paddingRight="@dimen/my_post_card_content_left_margin"
+            android:text="@string/my_post_follow_description"
+            android:textColor="@color/my_post_follow_title_secondary"
+            android:textSize="@dimen/my_post_preview_desc_text_size"
+            android:textStyle="italic"
+            app:fontFamily="@font/wp_georgia_font_family"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_label" />
+
+        <FrameLayout
+            android:id="@+id/author_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_post_follow_card_bg"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/my_post_card_content_left_margin"
+            android:paddingTop="10dp"
+            android:paddingEnd="@dimen/my_post_card_content_left_margin"
+            app:layout_constraintTop_toBottomOf="@id/tv_description" />
+
+        <FrameLayout
+            android:id="@+id/article_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/my_post_follow_card_bg"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/my_post_card_content_left_margin"
+
+            android:paddingRight="@dimen/my_post_card_content_left_margin"
+            app:layout_constraintTop_toBottomOf="@id/author_list" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_post_follow_card_bg"
+            app:layout_constraintTop_toBottomOf="@id/tv_description">
+
+            <include
+                android:id="@+id/empty_state"
+                layout="@layout/my_post_follow_empty_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

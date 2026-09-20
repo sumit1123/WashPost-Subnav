@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="for_you_card_size">358dp</dimen>
+    <dimen name="for_you_card_separator">6dp</dimen>
+    <dimen name="for_you_card_separator_grid">1dp</dimen>
+</resources>

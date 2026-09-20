@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/filter_container_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:background="@color/search_card_bg">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/label"
+        style="@style/filter_header"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/expandable_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/see_more_arrow"
+        android:layout_gravity="end" />
+
+</FrameLayout>

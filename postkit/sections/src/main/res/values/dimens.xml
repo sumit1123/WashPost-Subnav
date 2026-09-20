@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cell_label_bar_kicker">40dp</dimen>
+    <dimen name="cell_label_bar_highlight">-1px</dimen>
+    <dimen name="cell_label_bar_normal">0px</dimen>
+    <dimen name="cell_label_bar_height">3dp</dimen>
+
+    <dimen name="cell_border_size_none">0dp</dimen>
+    <dimen name="cell_border_size_thick">2dp</dimen>
+    <dimen name="cell_border_size_hairline">1dp</dimen>
+    <dimen name="cell_border_size_hairline_top_table">1dp</dimen>
+    <dimen name="cell_border_size_vertical">1dp</dimen>
+
+    <dimen name="homepagestory_label_corner_radius">4dp</dimen>
+    <dimen name="homepagestory_label_hor_padding">10dp</dimen>
+    <dimen name="homepagestory_label_vert_padding">2dp</dimen>
+
+    <dimen name="homepagestory_caption_size">12sp</dimen>
+    <dimen name="cell_homepagestory_caption_padding_top">8dp</dimen>
+    <dimen name="cell_homepagestory_caption_padding_left">7dp</dimen>
+
+    <dimen name="cell_border_padding">0dp</dimen>
+
+    <dimen name="cell_padding">0dp</dimen>
+    <dimen name="cell_spacing">8dp</dimen>
+
+    <dimen name="cell_padding_top">@dimen/cell_padding</dimen>
+    <dimen name="cell_padding_bottom">@dimen/cell_padding</dimen>
+    <dimen name="cell_padding_left">@dimen/cell_padding</dimen>
+    <dimen name="cell_padding_right">@dimen/cell_padding</dimen>
+    <dimen name="cell_homepagesotry_vert_spacing">10dp</dimen>
+    <dimen name="cell_homepagesotry_hor_spacing">8dp</dimen>
+    <dimen name="cell_homepagestory_padding">16dp</dimen>
+    <dimen name="grid_cell_homepagestory_vertical_padding">0dp</dimen>
+    <dimen name="grid_cell_homepagestory_horizontal_padding">0dp</dimen>
+    <dimen name="grid_cell_card_homepagestory_vertical_padding">16dp</dimen>
+    <dimen name="grid_cell_card_homepagestory_horizontal_padding">16dp</dimen>
+    <dimen name="grid_cell_card_homepagestory_horizontal_caption_padding">4dp</dimen>
+    <dimen name="grid_cell_top_card_homepagestory_vertical_padding">0dp</dimen>
+    <dimen name="grid_cell_bottom_card_homepagestory_vertical_padding">0dp</dimen>
+    <dimen name="card_horizontal_margin">0dp</dimen>
+    <dimen name="article_breaking_news_headline">14sp</dimen>
+
+    <dimen name="cell_label_padding">16dp</dimen>
+    <item name="cell_label_line_spacing" type="dimen" format="float">1.25</item>
+    <dimen name="cell_label_drawable_padding">8dp</dimen>
+    <dimen name="label_text_top_margin">20dp</dimen>
+    <dimen name="label_text_left_margin">10dp</dimen>
+    <dimen name="text_headline_text_size">18sp</dimen>
+    <dimen name="sf_module_stream_label_font_size">@dimen/sf_module_label_font_size</dimen>
+    <dimen name="sf_module_stream_byline_font_size">@dimen/sf_module_byline_font_size</dimen>
+    <dimen name="sf_module_stream_kicker_font_size">@dimen/sf_module_kicker_font_size</dimen>
+    <dimen name="sf_module_stream_headline_font_size">@dimen/text_headline_text_size</dimen>
+    <dimen name="sf_module_stream_time_font_size">@dimen/sf_module_time_font_size</dimen>
+    <dimen name="sf_module_stream_blurb_font_size">@dimen/sf_module_blurb_font_size</dimen>
+    <dimen name="sf_module_stream_headline_top_margin">10dp</dimen>
+    <dimen name="sf_module_stream_headline_bottom_margin">10dp</dimen>
+    <dimen name="sf_module_shark_vertical_padding">15dp</dimen>
+    <dimen name="sf_module_label_font_size">12sp</dimen>
+    <dimen name="sf_module_byline_font_size">12sp</dimen>
+    <dimen name="sf_module_kicker_font_size">12sp</dimen>
+    <dimen name="sf_module_time_font_size">14sp</dimen>
+    <dimen name="sf_module_headline_font_size">20sp</dimen>
+    <dimen name="sf_module_blurb_font_size">16sp</dimen>
+    <dimen name="sf_module_large_label_font_size">@dimen/sf_module_label_font_size</dimen>
+    <dimen name="sf_module_large_byline_font_size">@dimen/sf_module_byline_font_size</dimen>
+    <dimen name="sf_module_large_kicker_font_size">@dimen/sf_module_kicker_font_size</dimen>
+    <dimen name="sf_module_large_headline_font_size">@dimen/sf_module_headline_font_size</dimen>
+    <dimen name="sf_module_large_caption_font_size">12sp</dimen>
+    <dimen name="sf_module_large_time_font_size">@dimen/sf_module_time_font_size</dimen>
+    <dimen name="sf_module_large_blurb_font_size">@dimen/sf_module_blurb_font_size</dimen>
+    <dimen name="sf_module_large_headline_top_margin">10dp</dimen>
+    <dimen name="sf_module_large_headline_bottom_margin">20dp</dimen>
+    <dimen name="sf_module_large_caption_top_margin">10dp</dimen>
+    <dimen name="sf_module_large_blurb_top_margin">20dp</dimen>
+    <dimen name="sf_module_stream_image_right_margin">0dp</dimen>
+    <dimen name="sf_module_stream_image_bottom_margin">5dp</dimen>
+    <dimen name="sf_module_stream_notification_image_left_margin">10dp</dimen>
+    <dimen name="sf_module_stream_notification_image_right_margin">0dp</dimen>
+    <dimen name="sf_module_single_label_font_size">@dimen/sf_module_label_font_size</dimen>
+    <dimen name="sf_module_single_byline_font_size">@dimen/sf_module_byline_font_size</dimen>
+    <dimen name="sf_module_single_kicker_font_size">@dimen/sf_module_kicker_font_size</dimen>
+    <dimen name="sf_module_single_headline_font_size">19sp</dimen>
+    <dimen name="sf_module_single_time_font_size">@dimen/sf_module_time_font_size</dimen>
+    <dimen name="sf_module_single_blurb_font_size">@dimen/sf_module_blurb_font_size</dimen>
+    <dimen name="sf_module_single_headline_top_margin">12dp</dimen>
+    <dimen name="sf_module_single_headline_bottom_margin">14dp</dimen>
+    <dimen name="sf_module_stream_image_left_margin">10dp</dimen>
+
+    <dimen name="dialog_message_button_text">15sp</dimen>
+
+    <dimen name="section_pager_margin_between_pages">1dp</dimen>
+
+    <dimen name="new_article_label_padding_hor">@dimen/cell_spacing</dimen>
+    <dimen name="new_article_label_padding_vert">5dp</dimen>
+    <dimen name="new_article_label_padding_bottom">@dimen/new_article_label_padding_vert</dimen>
+    <dimen name="new_article_label_padding_top">@dimen/new_article_label_padding_vert</dimen>
+    <dimen name="new_article_label_padding_left">@dimen/new_article_label_padding_hor</dimen>
+    <dimen name="new_article_label_padding_right">@dimen/new_article_label_padding_hor</dimen>
+
+    <dimen name="sf_live_blog_label">16dp</dimen>
+    <dimen name="sf_live_blog_list_item">16sp</dimen>
+
+    <dimen name="subscribe_button_font_size">14sp</dimen>
+    <dimen name="subscribe_button_view_min_height">30dp</dimen>
+    <dimen name="subscribe_button_vertical_padding">15dp</dimen>
+    <dimen name="subscribe_button_horizontal_padding">10dp</dimen>
+    <dimen name="live_blog_padding">8dp</dimen>
+    <dimen name="homepage_story_mini_size">64dp</dimen>
+    <dimen name="homepage_story_thumbnail_size">100dp</dimen>
+    <dimen name="compound_drawable_padding">6dp</dimen>
+    <dimen name="compound_label_bottom_spacing_none">0dp</dimen>
+    <dimen name="compound_label_bottom_spacing_regular">4dp</dimen>
+    <dimen name="compound_label_bottom_spacing_large">8dp</dimen>
+    <dimen name="compound_label_bottom_spacing_extra_large">12dp</dimen>
+    <dimen name="compound_label_top_spacing_large">8dp</dimen>
+    <dimen name="compound_label_horizontal_margin">8dp</dimen>
+    <dimen name="art_overlay_left_padding">12dp</dimen>
+    <dimen name="art_overlay_bottom_padding">16dp</dimen>
+    <dimen name="art_overlay_icon_padding">8dp</dimen>
+
+    <dimen name="voter_guide_max_width">305dp</dimen>
+    <dimen name="voter_guide_side_margin">30dp</dimen>
+    <dimen name="voter_guide_side_border_width">1dp</dimen>
+    <dimen name="voter_guide_bottom_border_width">2dp</dimen>
+    <dimen name="exclusive_pill_corner_radius">12dp</dimen>
+    <dimen name="exclusive_pill_drawable_padding">6dp</dimen>
+    <dimen name="exclusive_pill_horizontal_padding">10dp</dimen>
+    <dimen name="pill_height">24dp</dimen>
+    <dimen name="circular_button_height">32dp</dimen>
+    <dimen name="exclusive_pill_verticle_padding">4dp</dimen>
+    <dimen name="featuring_pill_corner_radius">4dp</dimen>
+    <dimen name="featuring_pill_horizontal_padding">10dp</dimen>
+    <dimen name="featuring_pill_vertical_padding">4dp</dimen>
+    <item format="float" name="blurb_line_spacing" type="dimen">1</item>
+    <dimen name="carousel_bright_card_width">300dp</dimen>
+    <dimen name="carousel_bright_card_padding">4dp</dimen>
+    <dimen name="slide_show_overlay_vertical_padding">8dp</dimen>
+    <dimen name="slide_show_overlay_horizontal_padding">13dp</dimen>
+    <dimen name="slide_show_caption_vertical_margin">8dp</dimen>
+    <dimen name="slide_show_overlay_prefix_icon_padding">4dp</dimen>
+
+    <dimen name="subscribe_banner_padding_vertical">12dp</dimen>
+    <dimen name="subscribe_banner_padding_horizontal">16dp</dimen>
+    <dimen name="subscribe_banner_margin">5dp</dimen>
+    <dimen name="carousel_video_card_width">258dp</dimen>
+    <dimen name="carousel_video_card_padding">6dp</dimen>
+    <dimen name="carousel_immersion_card_padding">6dp</dimen>
+    <dimen name="carousel_external_card_padding">16dp</dimen>
+    <dimen name="carousel_story_card_padding">15dp</dimen>
+    <dimen name="carousel_label_top_spacing">12dp</dimen>
+    <dimen name="carousel_cta_bottom_spacing">32dp</dimen>
+    <dimen name="vertical_videos_error_icon_margin_top">15dp</dimen>
+    <dimen name="vertical_videos_error_icon_margin_start">9dp</dimen>
+    <dimen name="vertical_videos_error_text_vertical_margin">12dp</dimen>
+    <dimen name="vertical_videos_error_text_margin_start">32dp</dimen>
+    <dimen name="vertical_videos_error_text_margin_end">8dp</dimen>
+
+    <dimen name="carousel_audio_card_width">237dp</dimen>
+
+    <dimen name="carousel_arrow_padding">15dp</dimen>
+    <integer name="sections_cardified_ad_container_min_height">375</integer>
+    <integer name="sections_ad_container_min_height">300</integer>
+    <dimen name="count_view_width">32dp</dimen>
+</resources>

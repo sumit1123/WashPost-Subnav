@@ -1,0 +1,2763 @@
+{
+  "layout": "homepage",
+  "output_type": "jsonapp",
+  "tracking": {
+    "page_name": "front - undefined",
+    "channel": "front - undefined"
+  },
+  "regions": [
+    {
+      "location": "content",
+      "items": [
+        {
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "layout_name": "full-span",
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "allcontent",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 20
+                    }
+                  ]
+                },
+                "large": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 16
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "audio"
+                        ],
+                        "width": "large"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.washingtonpost.com/podcasts/daily-202-big-idea/georgia-elections-official-pleads-with-trump-to-stop-fearmongering/",
+                    "type": "audio",
+                    "last_modified": "2020-12-02T13:35:00.545Z"
+                  },
+                  "source": "washpost",
+                  "audio": {
+                    "media_id": "5fc7959846e0fb000837c59a",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201202/5fc7959846e0fb000837c59a/t_1606915646595_name_t_1606915455310_name_2020_12_02_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5fc7959846e0fb000837c59a",
+                    "duration": 847,
+                    "show_scrubber": false,
+                    "show_subscribe": false,
+                    "position": "above-art"
+                  },
+                  "headline": {
+                    "text": "Georgia elections official pleads with Trump to stop fearmongering.",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By James Hohmann"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "blurbs",
+                          "signature",
+                          "live_ticker",
+                          "related_links"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/health/coronavirus",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "type": "article",
+                    "last_modified": "2020-12-08T10:10:54.568Z"
+                  },
+                  "source": "washpost",
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "LIVE UPDATES - LABEL LINKS TO ITEM"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/#link-MR5X2IVWWZCMPOA425NGPQL3CA",
+                      "type": "unknown"
+                    }
+                  },
+                  "headline": {
+                    "text": "Christmas could lead to more coronavirus spread than Thanksgiving, Fauci says",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Health officials are scrambling to apply the lessons from a Thanksgiving holiday weekend in which millions defied pleas not to travel.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Lateshia Beachum, Reis Thebault, Teo Armus, Erin Cunningham, Brittany Shammas, Marisa Iati, Siobhán O'Grady and Hamza Shaban"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "num_to_show": 5,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Link to a liveblog item",
+                        "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/#link-EP6FPRSJPJEX3H2BAVQVV6U2YQ"
+                      },
+                      {
+                        "text": "Link to another live blog item\n",
+                        "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/#link-2VVH4XQVP5HEBDIR4QGKTL7JCQ"
+                      }
+                    ],
+                    "info": {
+                      "position": "bottom",
+                      "arrangement": "side-by-side"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "signature",
+                          "live_ticker"
+                        ]
+                      },
+                      "bottom": {
+                        "items": [
+                          "related_links"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/health/coronavirus",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "type": "article",
+                    "last_modified": "2020-12-08T10:10:54.568Z"
+                  },
+                  "source": "washpost",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ICNKQUBYHYI6XKWZRFMSE4UAYQ.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "LIVE UPDATES - LABEL LINKS TO ITEM"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/#link-MR5X2IVWWZCMPOA425NGPQL3CA",
+                      "type": "unknown"
+                    }
+                  },
+                  "headline": {
+                    "text": "Christmas could lead to more coronavirus spread than Thanksgiving, Fauci says",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Lateshia Beachum, Reis Thebault, Teo Armus, Erin Cunningham, Brittany Shammas, Marisa Iati, Siobhán O'Grady and Hamza Shaban"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "num_to_show": 5,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Link to a liveblog item",
+                        "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/#link-EP6FPRSJPJEX3H2BAVQVV6U2YQ"
+                      },
+                      {
+                        "text": "Link to another live blog item\n",
+                        "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/#link-2VVH4XQVP5HEBDIR4QGKTL7JCQ"
+                      }
+                    ],
+                    "info": {
+                      "position": "bottom",
+                      "arrangement": "side-by-side"
+                    }
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "small",
+          "line": true,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        },
+        {
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "layout_name": "full-span",
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "allcontent",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 20
+                    }
+                  ]
+                },
+                "large": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 16
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      },
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "large"
+                      },
+                      "right": {
+                        "items": [
+                          "blurbs",
+                          "signature",
+                          "audio",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/health/coronavirus",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "type": "article",
+                    "last_modified": "2020-12-08T10:10:54.568Z"
+                  },
+                  "source": "washpost",
+                  "headline": {
+                    "text": "Christmas could lead to more coronavirus spread than Thanksgiving, Fauci says",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/REPMBJQYUAI6XC62QFGKK3QTRM.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.78,
+                    "caption": "This is quite the caption (Mark Kauzlarich/Bloomberg)",
+                    "media_type": "image",
+                    "art_position": "art-left-of-blurb",
+                    "art_width": "large"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Health officials are scrambling to apply the lessons from a Thanksgiving holiday weekend in which millions defied pleas not to travel.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Lateshia Beachum, Reis Thebault, Teo Armus, Erin Cunningham, Brittany Shammas, Marisa Iati, Siobhán O'Grady and Hamza Shaban"
+                  },
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "below-sigline"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "num_to_show": 5,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature",
+                          "audio",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/health/coronavirus",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "type": "article",
+                    "last_modified": "2020-12-08T10:10:54.568Z"
+                  },
+                  "source": "washpost",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/REPMBJQYUAI6XC62QFGKK3QTRM.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "RightChristmas could lead to more coronavirus spread than Thanksgiving, Fauci says",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Lateshia Beachum, Reis Thebault, Teo Armus, Erin Cunningham, Brittany Shammas, Marisa Iati, Siobhán O'Grady and Hamza Shaban"
+                  },
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "below-sigline"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "num_to_show": 5,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      },
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "large"
+                      },
+                      "right": {
+                        "items": [
+                          "blurbs",
+                          "signature",
+                          "audio",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/health/coronavirus",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "type": "article",
+                    "last_modified": "2020-12-08T10:10:54.568Z"
+                  },
+                  "source": "washpost",
+                  "headline": {
+                    "text": "Christmas could lead to more coronavirus spread than Thanksgiving, Fauci says",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/REPMBJQYUAI6XC62QFGKK3QTRM.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.78,
+                    "media_type": "image",
+                    "art_position": "art-left-of-blurb",
+                    "art_width": "large"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Health officials are scrambling to apply the lessons from a Thanksgiving holiday weekend in which millions defied pleas not to travel.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Lateshia Beachum, Reis Thebault, Teo Armus, Erin Cunningham, Brittany Shammas, Marisa Iati, Siobhán O'Grady and Hamza Shaban"
+                  },
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "below-sigline"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "num_to_show": 5,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature",
+                          "audio",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/health/coronavirus",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "type": "article",
+                    "last_modified": "2020-12-08T10:10:54.568Z"
+                  },
+                  "source": "washpost",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/REPMBJQYUAI6XC62QFGKK3QTRM.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "Christmas could lead to more coronavirus spread than Thanksgiving, Fauci says",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Lateshia Beachum, Reis Thebault, Teo Armus, Erin Cunningham, Brittany Shammas, Marisa Iati, Siobhán O'Grady and Hamza Shaban"
+                  },
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "below-sigline"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "num_to_show": 5,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      },
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "large"
+                      },
+                      "right": {
+                        "items": [
+                          "blurbs",
+                          "signature",
+                          "audio",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/health/coronavirus",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "type": "article",
+                    "last_modified": "2020-12-08T10:10:54.568Z"
+                  },
+                  "source": "washpost",
+                  "headline": {
+                    "text": "Christmas could lead to more coronavirus spread than Thanksgiving, Fauci says",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/REPMBJQYUAI6XC62QFGKK3QTRM.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.78,
+                    "media_type": "image",
+                    "art_position": "art-left-of-blurb",
+                    "art_width": "large"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Health officials are scrambling to apply the lessons from a Thanksgiving holiday weekend in which millions defied pleas not to travel.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Lateshia Beachum, Reis Thebault, Teo Armus, Erin Cunningham, Brittany Shammas, Marisa Iati, Siobhán O'Grady and Hamza Shaban"
+                  },
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "below-sigline"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "num_to_show": 5,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature",
+                          "audio",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/health/coronavirus",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "type": "article",
+                    "last_modified": "2020-12-08T10:10:54.568Z"
+                  },
+                  "source": "washpost",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/REPMBJQYUAI6XC62QFGKK3QTRM.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "Christmas could lead to more coronavirus spread than Thanksgiving, Fauci says",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Lateshia Beachum, Reis Thebault, Teo Armus, Erin Cunningham, Brittany Shammas, Marisa Iati, Siobhán O'Grady and Hamza Shaban"
+                  },
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "below-sigline"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "num_to_show": 5,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        },
+        {
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "layout_name": "full-span",
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "allcontent",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 20
+                    }
+                  ]
+                },
+                "large": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 16
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      },
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "large"
+                      },
+                      "left": {
+                        "items": [
+                          "blurbs",
+                          "signature",
+                          "audio",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/health/coronavirus",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "type": "article",
+                    "last_modified": "2020-12-08T10:10:54.568Z"
+                  },
+                  "source": "washpost",
+                  "headline": {
+                    "text": "Wrap Text False: Christmas could lead to more coronavirus spread than Thanksgiving, Fauci says",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/REPMBJQYUAI6XC62QFGKK3QTRM.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.78,
+                    "media_type": "image",
+                    "art_position": "art-right-of-blurb",
+                    "art_width": "large"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Health officials are scrambling to apply the lessons from a Thanksgiving holiday weekend in which millions defied pleas not to travel.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Lateshia Beachum, Reis Thebault, Teo Armus, Erin Cunningham, Brittany Shammas, Marisa Iati, Siobhán O'Grady and Hamza Shaban"
+                  },
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "below-sigline"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "num_to_show": 5,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature",
+                          "audio",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/health/coronavirus",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "type": "article",
+                    "last_modified": "2020-12-08T10:10:54.568Z"
+                  },
+                  "source": "washpost",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/REPMBJQYUAI6XC62QFGKK3QTRM.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "Wrap Text False: Christmas could lead to more coronavirus spread than Thanksgiving, Fauci says",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Lateshia Beachum, Reis Thebault, Teo Armus, Erin Cunningham, Brittany Shammas, Marisa Iati, Siobhán O'Grady and Hamza Shaban"
+                  },
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "below-sigline"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "num_to_show": 5,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      },
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "large"
+                      },
+                      "left": {
+                        "items": [
+                          "blurbs",
+                          "signature",
+                          "audio",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/health/coronavirus",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "type": "article",
+                    "last_modified": "2020-12-08T10:10:54.568Z"
+                  },
+                  "source": "washpost",
+                  "headline": {
+                    "text": "Wrap Text True: RightChristmas could lead to more coronavirus spread than Thanksgiving, Fauci says",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/REPMBJQYUAI6XC62QFGKK3QTRM.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.78,
+                    "media_type": "image",
+                    "art_position": "art-right-of-blurb",
+                    "art_width": "large"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Health officials are scrambling to apply the lessons from a Thanksgiving holiday weekend in which millions defied pleas not to travel.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Lateshia Beachum, Reis Thebault, Teo Armus, Erin Cunningham, Brittany Shammas, Marisa Iati, Siobhán O'Grady and Hamza Shaban"
+                  },
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "below-sigline"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "num_to_show": 5,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature",
+                          "audio",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/health/coronavirus",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "type": "article",
+                    "last_modified": "2020-12-08T10:10:54.568Z"
+                  },
+                  "source": "washpost",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/REPMBJQYUAI6XC62QFGKK3QTRM.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "Wrap Text True: Christmas could lead to more coronavirus spread than Thanksgiving, Fauci says",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Lateshia Beachum, Reis Thebault, Teo Armus, Erin Cunningham, Brittany Shammas, Marisa Iati, Siobhán O'Grady and Hamza Shaban"
+                  },
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "below-sigline"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "num_to_show": 5,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "center",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "audio",
+                          "media"
+                        ],
+                        "width": "large"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "blurbs",
+                          "signature",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/health/coronavirus",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "type": "article",
+                    "last_modified": "2020-12-08T10:10:54.568Z"
+                  },
+                  "source": "washpost",
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "above-art"
+                  },
+                  "media": {
+                    "art_position": "art-right-of-head",
+                    "art_width": "large",
+                    "aspect_ratio": 1.78,
+                    "caption": "The Post's Ashley Parker explains why some Republicans have followed President Trump's lead in denying the reality of the election and the danger they're posing. (Monica Akhtar/The Washington Post)",
+                    "media_type": "wp-video",
+                    "overlay": {
+                      "text": "Play Video",
+                      "secondary_text": "3:45",
+                      "secondary_style": "secondary",
+                      "prefix_icon": "play"
+                    },
+                    "url": "https://d1i4t8bqe7zgj6.cloudfront.net/11-12-2020/t_d129ab33d4d04106a273e65d1c0a415c_name_20201112_TrumpGOP.jpg",
+                    "video": {
+                      "adconfig": {
+                        "commercial_ad_node": "/politics",
+                        "play_video_ads": true,
+                        "allow_preroll_on_domain": false,
+                        "enable_auto_preview": true,
+                        "play_ads": true,
+                        "auto_play_preroll": false,
+                        "enable_ad_insertion": false,
+                        "video_ad_zone": "wpni.video.politics/elections",
+                        "ad_set_url": ""
+                      },
+                      "tracking": {
+                        "content_id": "5b2c19c0-b2fb-4e1c-83ee-b2616651e830",
+                        "page_name": "front - undefined",
+                        "video_category": "analysis",
+                        "video_section": "Politics",
+                        "video_name": "Politics:video - b2616651e830 - 20201113 - Republicans know Trump lost, but they're indulging him anyway. Here’s why.",
+                        "video_source": "The Washington Post"
+                      },
+                      "is_live": false,
+                      "streams": [
+                        {
+                          "bitrate": 160,
+                          "filesize": 10597748,
+                          "height": 180,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/mobile.m3u8",
+                          "width": 320
+                        },
+                        {
+                          "bitrate": 300,
+                          "filesize": 14761384,
+                          "height": 360,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/mobile.m3u8",
+                          "width": 640
+                        },
+                        {
+                          "bitrate": 600,
+                          "filesize": 23283048,
+                          "height": 360,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/mobile.m3u8",
+                          "width": 640
+                        },
+                        {
+                          "bitrate": 1200,
+                          "filesize": 40619280,
+                          "height": 480,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/master.m3u8",
+                          "width": 854
+                        },
+                        {
+                          "bitrate": 4500,
+                          "filesize": 136052592,
+                          "height": 1080,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/hd.m3u8",
+                          "width": 1920
+                        },
+                        {
+                          "bitrate": 5400,
+                          "filesize": 157476508,
+                          "height": 1080,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/hlsv4_master.m3u8",
+                          "width": 1920
+                        },
+                        {
+                          "bitrate": 160,
+                          "filesize": 8317744,
+                          "height": 180,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/file_320x180-160-v3.mp4",
+                          "width": 320
+                        },
+                        {
+                          "bitrate": 600,
+                          "filesize": 20744144,
+                          "height": 360,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/file_640x360-600-v3.mp4",
+                          "width": 640
+                        },
+                        {
+                          "bitrate": 1200,
+                          "filesize": 37679947,
+                          "height": 480,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/file_854x480-1200-v3_1.mp4",
+                          "width": 854
+                        },
+                        {
+                          "bitrate": 2000,
+                          "filesize": 60253482,
+                          "height": 720,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/file_1280x720-2000-v3_1.mp4",
+                          "width": 1280
+                        },
+                        {
+                          "bitrate": 5400,
+                          "filesize": 156307293,
+                          "height": 1080,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/file_1920x1080-5400-v4.mp4",
+                          "width": 1920
+                        }
+                      ]
+                    }
+                  },
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "LIVE UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Low"
+                    }
+                  },
+                  "headline": {
+                    "text": "Christmas could lead to more coronavirus spread than Thanksgiving, Fauci says",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "center"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Health officials are scrambling to apply the lessons from a Thanksgiving holiday weekend in which millions defied pleas not to travel.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Lateshia Beachum, Reis Thebault, Teo Armus, Erin Cunningham, Brittany Shammas, Marisa Iati, Siobhán O'Grady and Hamza Shaban"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "num_to_show": 5,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "audio",
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "signature",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/health/coronavirus",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "type": "article",
+                    "last_modified": "2020-12-08T10:10:54.568Z"
+                  },
+                  "source": "washpost",
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "above-art"
+                  },
+                  "media": {
+                    "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https%3A%2F%2Farc-anglerfish-washpost-prod-washpost%252Es3%252Eamazonaws%252Ecom%2Fpublic%2FICNKQUBYHYI6XKWZRFMSE4UAYQ%252Ejpg&w=960",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "LIVE UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Low"
+                    }
+                  },
+                  "headline": {
+                    "text": "Christmas could lead to more coronavirus spread than Thanksgiving, Fauci says",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Lateshia Beachum, Reis Thebault, Teo Armus, Erin Cunningham, Brittany Shammas, Marisa Iati, Siobhán O'Grady and Hamza Shaban"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/nation/2020/12/07/coronavirus-covid-live-updates-us/",
+                    "num_to_show": 5,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        },
+        {
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "layout_name": "full-span",
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "allcontent",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 20
+                    }
+                  ]
+                },
+                "large": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 16
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      },
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "large"
+                      },
+                      "left": {
+                        "items": [
+                          "blurbs",
+                          "signature",
+                          "related_links",
+                          "audio"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/national/morning-mix",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/11/06/twitter-bannon-beheaded-fauci-wray/",
+                    "type": "article",
+                    "last_modified": "2020-11-06T13:53:32.081Z"
+                  },
+                  "source": "washpost",
+                  "headline": {
+                    "text": "Twitter bans Steve Bannon for video suggesting violence against Fauci, FBI Director Wray",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/REPMBJQYUAI6XC62QFGKK3QTRM.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.78,
+                    "caption": "(Mark Kauzlarich/Bloomberg)",
+                    "media_type": "image",
+                    "art_position": "art-right-of-blurb",
+                    "art_width": "large"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Twitter permanently suspended Bannon’s account on Thursday, making him one of the most high-profile political figures banned from the platform. ",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Jaclyn Peiser"
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Related link #1"
+                      },
+                      {
+                        "text": "Related link #2"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "side-by-side"
+                    }
+                  },
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "below-sigline"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature",
+                          "related_links",
+                          "audio"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/national/morning-mix",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/11/06/twitter-bannon-beheaded-fauci-wray/",
+                    "type": "article",
+                    "last_modified": "2020-11-06T13:53:32.081Z"
+                  },
+                  "source": "washpost",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/REPMBJQYUAI6XC62QFGKK3QTRM.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "Twitter bans Steve Bannon for video suggesting violence against Fauci, FBI Director Wray",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Jaclyn Peiser"
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Related link #1"
+                      },
+                      {
+                        "text": "Related link #2"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "side-by-side"
+                    }
+                  },
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "below-sigline"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      },
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "large"
+                      },
+                      "left": {
+                        "items": [
+                          "blurbs",
+                          "signature",
+                          "audio"
+                        ]
+                      },
+                      "bottom": {
+                        "items": [
+                          "related_links"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/national/morning-mix",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/11/06/twitter-bannon-beheaded-fauci-wray/",
+                    "type": "article",
+                    "last_modified": "2020-11-06T13:53:32.081Z"
+                  },
+                  "source": "washpost",
+                  "headline": {
+                    "text": "Twitter bans Steve Bannon for video suggesting violence against Fauci, FBI Director Wray",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/REPMBJQYUAI6XC62QFGKK3QTRM.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.78,
+                    "caption": "(Mark Kauzlarich/Bloomberg)",
+                    "media_type": "image",
+                    "art_position": "art-right-of-blurb",
+                    "art_width": "large"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Twitter permanently suspended Bannon’s account on Thursday, making him one of the most high-profile political figures banned from the platform. ",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Jaclyn Peiser"
+                  },
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "below-sigline"
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Related link #1"
+                      },
+                      {
+                        "text": "Related link #2"
+                      }
+                    ],
+                    "info": {
+                      "position": "bottom",
+                      "arrangement": "side-by-side"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature",
+                          "audio"
+                        ]
+                      },
+                      "bottom": {
+                        "items": [
+                          "related_links"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/national/morning-mix",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/nation/2020/11/06/twitter-bannon-beheaded-fauci-wray/",
+                    "type": "article",
+                    "last_modified": "2020-11-06T13:53:32.081Z"
+                  },
+                  "source": "washpost",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/REPMBJQYUAI6XC62QFGKK3QTRM.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "Twitter bans Steve Bannon for video suggesting violence against Fauci, FBI Director Wray",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Jaclyn Peiser"
+                  },
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "below-sigline"
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Related link #1"
+                      },
+                      {
+                        "text": "Related link #2"
+                      }
+                    ],
+                    "info": {
+                      "position": "bottom",
+                      "arrangement": "side-by-side"
+                    }
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "center",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "audio",
+                          "media"
+                        ],
+                        "width": "large"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "blurbs",
+                          "signature"
+                        ]
+                      },
+                      "bottom": {
+                        "items": [
+                          "related_links"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/local",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/local/winter-grants-business-coronavirus/2020/11/06/11fbadac-204f-11eb-ba21-f2f001f0554b_story.html",
+                    "type": "article",
+                    "last_modified": "2020-11-07T01:48:16.721Z"
+                  },
+                  "source": "The Washington Post",
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "above-art"
+                  },
+                  "media": {
+                    "art_position": "art-right-of-head",
+                    "art_width": "large",
+                    "aspect_ratio": 1.78,
+                    "caption": "The Post's Ashley Parker explains why some Republicans have followed President Trump's lead in denying the reality of the election and the danger they're posing. (Monica Akhtar/The Washington Post)",
+                    "media_type": "wp-video",
+                    "overlay": {
+                      "text": "Play Video",
+                      "secondary_text": "3:45",
+                      "secondary_style": "secondary",
+                      "prefix_icon": "play"
+                    },
+                    "url": "https://d1i4t8bqe7zgj6.cloudfront.net/11-12-2020/t_d129ab33d4d04106a273e65d1c0a415c_name_20201112_TrumpGOP.jpg",
+                    "video": {
+                      "adconfig": {
+                        "commercial_ad_node": "/politics",
+                        "play_video_ads": true,
+                        "allow_preroll_on_domain": false,
+                        "enable_auto_preview": true,
+                        "play_ads": true,
+                        "auto_play_preroll": false,
+                        "enable_ad_insertion": false,
+                        "video_ad_zone": "wpni.video.politics/elections",
+                        "ad_set_url": ""
+                      },
+                      "tracking": {
+                        "content_id": "5b2c19c0-b2fb-4e1c-83ee-b2616651e830",
+                        "page_name": "front - undefined",
+                        "video_category": "analysis",
+                        "video_section": "Politics",
+                        "video_name": "Politics:video - b2616651e830 - 20201113 - Republicans know Trump lost, but they're indulging him anyway. Here’s why.",
+                        "video_source": "The Washington Post"
+                      },
+                      "is_live": false,
+                      "streams": [
+                        {
+                          "bitrate": 160,
+                          "filesize": 10597748,
+                          "height": 180,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/mobile.m3u8",
+                          "width": 320
+                        },
+                        {
+                          "bitrate": 300,
+                          "filesize": 14761384,
+                          "height": 360,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/mobile.m3u8",
+                          "width": 640
+                        },
+                        {
+                          "bitrate": 600,
+                          "filesize": 23283048,
+                          "height": 360,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/mobile.m3u8",
+                          "width": 640
+                        },
+                        {
+                          "bitrate": 1200,
+                          "filesize": 40619280,
+                          "height": 480,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/master.m3u8",
+                          "width": 854
+                        },
+                        {
+                          "bitrate": 4500,
+                          "filesize": 136052592,
+                          "height": 1080,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/hd.m3u8",
+                          "width": 1920
+                        },
+                        {
+                          "bitrate": 5400,
+                          "filesize": 157476508,
+                          "height": 1080,
+                          "provider": "mediaconvert",
+                          "stream_type": "ts",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/hlsv4_master.m3u8",
+                          "width": 1920
+                        },
+                        {
+                          "bitrate": 160,
+                          "filesize": 8317744,
+                          "height": 180,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/file_320x180-160-v3.mp4",
+                          "width": 320
+                        },
+                        {
+                          "bitrate": 600,
+                          "filesize": 20744144,
+                          "height": 360,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/file_640x360-600-v3.mp4",
+                          "width": 640
+                        },
+                        {
+                          "bitrate": 1200,
+                          "filesize": 37679947,
+                          "height": 480,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/file_854x480-1200-v3_1.mp4",
+                          "width": 854
+                        },
+                        {
+                          "bitrate": 2000,
+                          "filesize": 60253482,
+                          "height": 720,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/file_1280x720-2000-v3_1.mp4",
+                          "width": 1280
+                        },
+                        {
+                          "bitrate": 5400,
+                          "filesize": 156307293,
+                          "height": 1080,
+                          "provider": "mediaconvert",
+                          "stream_type": "mp4",
+                          "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20201112/5fada6f34cedfd0001c6269d/5faea2dac9e77c0007223a71/file_1920x1080-5400-v4.mp4",
+                          "width": 1920
+                        }
+                      ]
+                    }
+                  },
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "LIVE UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Low"
+                    }
+                  },
+                  "headline": {
+                    "text": "D.C. has doled out $2.5 million in grants to get small businesses ‘winter ready’",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "center"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Restaurants have plans for fire pits, tents and heaters to help them survive cold weather amid the pandemic, but the city grants still may not be enough to keep them afloat. ",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Emily Davies"
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Related link #1"
+                      },
+                      {
+                        "text": "Related link #2"
+                      }
+                    ],
+                    "info": {
+                      "position": "bottom",
+                      "arrangement": "stacked"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "audio",
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "signature"
+                        ]
+                      },
+                      "bottom": {
+                        "items": [
+                          "related_links"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/local",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/local/winter-grants-business-coronavirus/2020/11/06/11fbadac-204f-11eb-ba21-f2f001f0554b_story.html",
+                    "type": "article",
+                    "last_modified": "2020-11-07T01:48:16.721Z"
+                  },
+                  "source": "The Washington Post",
+                  "audio": {
+                    "media_id": "5faa8ffe46e0fb0007651d6b",
+                    "stream_url": "https://podcast.washpostpodcasts.com/washpost-production/5959a751e4b00dd62ac82bb5/20201110/5faa8ffe46e0fb0007651d6b/t_1605013611683_name_t_1605013348520_name_2020_11_10_d202.mp3?awCollectionId=5959a751e4b00dd62ac82bb5&awEpisodeId=5faa8ffe46e0fb0007651d6b",
+                    "duration": 864,
+                    "show_scrubber": true,
+                    "show_subscribe": true,
+                    "position": "above-art"
+                  },
+                  "media": {
+                    "url": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https%3A%2F%2Farc-anglerfish-washpost-prod-washpost%252Es3%252Eamazonaws%252Ecom%2Fpublic%2F2JGIMMRAOUI6XLKTJQP5USMQPU%252Ejpg&w=960",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "label": {
+                      "text": "LIVE UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Low"
+                    }
+                  },
+                  "headline": {
+                    "text": "D.C. has doled out $2.5 million in grants to get small businesses ‘winter ready’",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Emily Davies"
+                  },
+                  "related_links": {
+                    "items": [
+                      {
+                        "text": "Related link #1"
+                      },
+                      {
+                        "text": "Related link #2"
+                      }
+                    ],
+                    "info": {
+                      "position": "bottom",
+                      "arrangement": "stacked"
+                    }
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        }
+      ]
+    }
+  ],
+  "checksum": "l1291201gor0pr7ukc6tt7b74"
+}

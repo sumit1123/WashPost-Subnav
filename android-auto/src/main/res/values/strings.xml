@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_auto_now_playing">Now Playing</string>
+    <string name="android_auto_queue">Queue</string>
+    <string name="android_auto_queue_empty">There is nothing in the queue.</string>
+    <string name="android_auto_queue_now_playing">Now playing</string>
+    <string name="ask_the_post_car_loading">Loading</string>
+    <string name="ask_the_post_car_ready">Ask the Post is ready when you are.</string>
+    <string name="ask_the_post_car_listening">Listening</string>
+    <string name="ask_the_post_car_thinking">Thinking</string>
+    <string name="ask_the_post_car_answering">Answering</string>
+    <string name="ask_the_post_car_paused">Paused</string>
+    <string name="ask_the_post_car_error">Ask the Post is unavailable. Try again.</string>
+    <string name="ask_the_post_car_permission">Microphone access is required. Grant permission on your phone while parked.</string>
+    <string name="ask_the_post_car_grant_permission">Grant permission</string>
+    <string name="ask_the_post_car_start">Ask your own question</string>
+    <string name="ask_the_post_car_retry">Retry</string>
+    <string name="ask_the_post_car_no_audio">No audio is available right now.</string>
+    <string name="ask_the_post_car_pause">Pause</string>
+    <string name="ask_the_post_car_resume">Resume</string>
+    <string name="ask_the_post_car_end">End</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_post2_birthday_front_page"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_post_card_bg"
+    android:orientation="vertical"
+    android:paddingTop="12dp">
+
+    <ImageView
+        android:id="@+id/my_post2_birthday_front_page_image"
+        android:layout_width="71.22dp"
+        android:layout_height="62.17dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="30dp"
+        android:clickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/birthday_newspaper" />
+
+    <TextView
+        android:id="@+id/my_post2_birthday_front_page_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="@dimen/my_post_card_content_left_margin"
+        android:text="@string/birthday_front_page"
+        android:textColor="@color/my_post_label"
+        android:textSize="@dimen/my_post_preview_label_text_size"
+        android:textStyle="bold"
+        android:lineHeight="25dp"
+        android:fontFamily="@font/wp_franklinitcstd_font_family"
+        android:clickable="false"
+        app:layout_constraintBottom_toTopOf="@id/my_post2_birthday_front_page_subtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/my_post2_birthday_front_page_subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/see_headlines_from_the_day_you_were_born"
+        android:textColor="@color/my_post_desc"
+        android:textSize="@dimen/my_post_banner_text_size"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="@dimen/my_post_card_content_left_margin"
+        android:lineHeight="21dp"
+        android:fontFamily="@font/wp_georgia_font_family"
+        android:textStyle="italic"
+        android:paddingEnd="10dp"
+        android:clickable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/my_post2_birthday_front_page_image"
+        app:layout_constraintTop_toBottomOf="@id/my_post2_birthday_front_page_title" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier_view_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="my_post2_birthday_front_page_subtitle, my_post2_birthday_front_page_image" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/button_view_more"
+        style="@style/MyPost.Action.Chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="@dimen/my_post_card_content_left_margin"
+        android:text="@string/view_my_front_page"
+        android:textAppearance="@style/MyPost.Action.Chip.Text"
+        android:textColor="@color/action_chip_text"
+        app:chipMinTouchTargetSize="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/barrier_view_more" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

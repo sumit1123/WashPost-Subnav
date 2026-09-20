@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_summary"
+        android:icon="?attr/app_bar_summary_icon"
+        android:orderInCategory="100"
+        android:title="@string/article_action_summary"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_comment"
+        android:icon="@drawable/ic_comment"
+        android:orderInCategory="110"
+        android:title="@string/article_action_comment"
+        android:visible="true"
+        app:actionLayout="@layout/articles_native_comments"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/icon_share"
+        android:orderInCategory="150"
+        android:title="@string/article_action_share"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_ellipsis"
+        android:icon="@drawable/ic_ellipsis_playlist"
+        android:orderInCategory="160"
+        android:title="@string/article_action_ellipse"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>

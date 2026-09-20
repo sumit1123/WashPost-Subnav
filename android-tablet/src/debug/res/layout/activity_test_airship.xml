@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent">
+
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_gravity="center"
+        a:orientation="vertical">
+
+        <Button
+            a:id="@+id/send_push_pushservice"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:gravity="center"
+            a:onClick="onClick"
+            a:text="Send Push (PushService)" />
+
+        <Button
+            a:id="@+id/send_segmented_push_pushservice"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:gravity="center"
+            a:onClick="onClick"
+            a:text="Send Segmented Push (PushService)" />
+
+        <View
+            a:layout_width="match_parent"
+            a:layout_height="1dp"
+            a:layout_margin="16dp"
+            a:background="@color/light_blue" />
+
+        <Button
+            a:id="@+id/send_mmp_push_pushservice"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:gravity="center"
+            a:onClick="onClick"
+            a:text="Send MMP Push (PushService)" />
+
+        <Button
+            a:id="@+id/send_mmp_push_airshipfcm"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:gravity="center"
+            a:onClick="onClick"
+            a:text="Send MMP Push (Airship FCM)" />
+
+        <View
+            a:layout_width="match_parent"
+            a:layout_height="1dp"
+            a:layout_margin="16dp"
+            a:background="@color/light_blue" />
+
+        <Button
+            a:id="@+id/send_airship_push_airshipfcm"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:gravity="center"
+            a:onClick="onClick"
+            a:text="Send Airship Push (Airship FCM)" />
+
+        <Button
+            a:id="@+id/send_revere_push_airshipfcm"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:gravity="center"
+            a:onClick="onClick"
+            a:text="Send Revere Push (Airship FCM)" />
+
+        <Button
+            a:id="@+id/send_revere_segmented_push_airshipfcm"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:gravity="center"
+            a:onClick="onClick"
+            a:text="Send Revere Segmented Push (Airship FCM)" />
+
+        <View
+            a:layout_width="match_parent"
+            a:layout_height="1dp"
+            a:layout_margin="16dp"
+            a:background="@color/light_blue" />
+
+        <Button
+            a:id="@+id/send_airship_push_airshipadm"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:gravity="center"
+            a:onClick="onClick"
+            a:text="Send Airship Push (Airship ADM)" />
+
+        <Button
+            a:id="@+id/send_revere_push_airshipadm"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:gravity="center"
+            a:onClick="onClick"
+            a:text="Send Revere Push (Airship ADM)" />
+
+        <Button
+            a:id="@+id/send_revere_segmented_push_airshipadm"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center"
+            a:gravity="center"
+            a:onClick="onClick"
+            a:text="Send Revere Segmented Push (Airship ADM)" />
+    </LinearLayout>
+
+</ScrollView>

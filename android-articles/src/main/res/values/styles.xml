@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2019. The Washington Post. All rights reserved. -->
+<resources>
+    <style name="article_text_span"/>
+    <style name="article_text_span.tagline.night"/>
+    <style name="article_text_span.tagline">
+    </style>
+
+    <style name="backstory_label">
+        <item name="android:textSize">@dimen/backstory_label_size</item>
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textColor">@color/backstory_label_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_style_franklin">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="fontFileItalic">FranklinITCStd-LightItalic.otf</item>
+        <item name="fontFileBoldItalic">FranklinITCStd-BoldItalic.otf</item>
+    </style>
+
+    <style name="article_embedded_text_headline_span" parent="text_style_franklin">
+        <item name="android:textColor">@color/base_text_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/article_embedded_title_text_size</item>
+    </style>
+
+    <style name="article_embedded_text_byline_span">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/article_embedded_byline_text_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFile">Georgia-Regular.otf</item>
+        <item name="fontFileBold">Georgia-Bold.otf</item>
+        <item name="fontFileItalic">Georgia-Italic.otf</item>
+        <item name="fontFileBoldItalic">Georgia-BoldItalic.otf</item>
+    </style>
+
+    <style name="article_embedded_text_deck_span" parent="text_style_franklin">
+        <item name="android:textColor">@color/base_text_color</item>
+        <item name="android:textSize">@dimen/article_embedded_deck_text_size</item>
+    </style>
+
+    <style name="article_embedded_open_button" parent="text_style_franklin">
+        <item name="android:textSize">@dimen/native_article_embedded_open_button_text_size</item>
+        <item name="android:textColor">@color/embedded_read_btn</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="article_live_blog_title">
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textSize">@dimen/live_blog_title_text_size</item>
+    </style>
+
+    <style name="article_live_blog_headline">
+        <item name="fontFile">Postoni-Bold.otf</item>
+        <item name="android:textSize">@dimen/live_blog_headline_text_size</item>
+    </style>
+
+    <style name="article_live_blog_deck">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="android:textSize">@dimen/live_blog_deck_text_size</item>
+    </style>
+
+    <style name="article_live_blog_more_updates">
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textSize">@dimen/live_blog_more_updates_text_size</item>
+        <item name="android:textColor">@color/live_blog_more_updates_text_color</item>
+    </style>
+
+    <style name="article_live_blog_item_title_style">
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textSize">@dimen/live_blog_list_item_headline_text_size</item>
+    </style>
+
+    <style name="article_live_blog_item_date_style">
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textSize">@dimen/live_blog_list_item_time_text_size</item>
+        <item name="android:textColor">@color/live_blog_item_date_text_color</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,56 @@
+[
+    {
+        "conditions":["clear", "mostly_sunny"],
+        "image": "clear_day.png",
+        "color": "#ff0000",
+        "opacity": [0.4, 0.2, 0.1]
+    },
+    {
+        "conditions":["clear_night"],
+        "image": "clear_night.png",
+        "color": "#00ff00",
+        "opacity": [0.7, 0.5, 0.4]
+    },
+    {
+        "conditions":["cloudy", "mostly_cloudy_day", "mostly_cloudy_night", "partly_cloudy_night"],
+        "image": "cloudy_day.png",
+        "color": "#0000ff",
+        "opacity": [0.5, 0.4, 0.3]
+    },
+    {
+        "conditions":["fog", "haze", "haze_night"],
+        "image": "fog.png",
+        "color": "#0ff000",
+        "opacity": [0.4, 0.3, 0.2]
+    },
+    {
+        "conditions":["chance_rain_shower_day", "drizzle", "light_rain", "rain"],
+        "image": "rain_day.png",
+        "color": "#000ff0",
+        "opacity": [0.55, 0.45, 0.35]
+    },
+    {
+        "conditions":["chance_rain_shower_night"],
+        "image": "rain_night.png",
+        "color": "#000fff",
+        "opacity": [0.6, 0.5, 0.45]
+    },
+    {
+        "conditions":["chance_rain_snow_shower_day", "chance_rain_snow_shower_night", "freezing_rain", "rain_snow_shower"],
+        "image": "rain_snow.png",
+        "color": "#fff000",
+        "opacity": [0.4, 0.2, 0.1]
+    },
+    {
+        "conditions":["chance_snow_shower_day", "chance_snow_shower_night", "snow", "blowing_snow"],
+        "image": "snow_day.png",
+        "color": "#f0f0f0",
+        "opacity": [0.65, 0.5, 0.4]
+    },
+    {
+        "conditions":["chance_thunderstorms_day", "chance_thunderstorms_night", "sleet", "thunderstorms"],
+        "image": "storm_night.png",
+        "color": "#0f0f0f",
+        "opacity": [0.4, 0.2, 0.1]
+    }
+]

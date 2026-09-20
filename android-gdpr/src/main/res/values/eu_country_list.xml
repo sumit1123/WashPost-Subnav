@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2018. The Washington Post
+  ~ Created by adkinsj on 5/14/18.
+  -->
+
+<resources>
+    <string-array name="eu_country_locale_codes">
+        <item>AT</item>     <!-- Austria -->
+        <item>BE</item>     <!-- Belgium -->
+        <item>BG</item>     <!-- Bulgaria -->
+        <item>HR</item>     <!-- Croatia -->
+        <item>CY</item>     <!-- Cyprus -->
+        <item>CZ</item>     <!-- Czech Republic -->
+        <item>DK</item>     <!-- Denmark -->
+        <item>EE</item>     <!-- Estonia -->
+        <item>FI</item>     <!-- Finland -->
+        <item>FR</item>     <!-- France -->
+        <item>DE</item>     <!-- Germany -->
+        <item>GR</item>     <!-- Greece -->
+        <item>HU</item>     <!-- Hungary -->
+        <item>IS</item>     <!-- Iceland -->
+        <item>IE</item>     <!-- Ireland -->
+        <item>IT</item>     <!-- Italy -->
+        <item>LV</item>     <!-- Latvia -->
+        <item>LI</item>     <!-- Liechtenstein -->
+        <item>LT</item>     <!-- Lithuania -->
+        <item>LU</item>     <!-- Luxembourg -->
+        <item>MT</item>     <!-- Malta -->
+        <item>NL</item>     <!-- Netherlands -->
+        <item>NO</item>     <!-- Norway -->
+        <item>PL</item>     <!-- Poland -->
+        <item>PT</item>     <!-- Portugal -->
+        <item>RO</item>     <!-- Romania -->
+        <item>SK</item>     <!-- Slovakia -->
+        <item>SI</item>     <!-- Slovenia -->
+        <item>ES</item>     <!-- Spain -->
+        <item>SE</item>     <!-- Sweden -->
+        <item>CH</item>     <!-- Switzerland -->
+        <item>GB</item>     <!-- United Kingdom -->
+    </string-array>
+</resources>

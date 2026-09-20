@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normal_height">68px</dimen>
+    <dimen name="expanded_height">136px</dimen>
+    <dimen name="logo_section_margin_bottom">4dp</dimen>
+</resources>

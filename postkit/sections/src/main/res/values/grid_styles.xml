@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="grid_label_full_span">
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textColor">@color/cell_homepagestory_label</item>
+        <item name="android:textSize">18sp</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="grid_label_primary_package">
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textColor">@color/cell_homepagestory_label</item>
+        <item name="android:textSize">@dimen/package_label_font_size</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="grid_label_primary_package_nested">
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textColor">@color/cell_homepagestory_label</item>
+        <item name="android:textSize">@dimen/package_nested_label_font_size</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="grid_label_primary_package_cardified">
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textColor">@color/cell_homepagestory_label_cardified</item>
+        <item name="android:textSize">@dimen/package_label_font_size_cardified</item>
+        <item name="textAllCaps">false</item>
+        <item name="lineHeight">@dimen/package_label_line_height_cardified</item>
+    </style>
+
+    <style name="grid_label_primary_pill">
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="grid_label_primary_button">
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textColor">@color/newsletter_button_text</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="grid_label_primary_kicker">
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textColor">@color/cell_homepagestory_label</item>
+        <item name="android:textSize">14sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="grid_label_primary_comment">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="android:textColor">@color/cell_homepagestory_comment</item>
+        <item name="android:textSize">14sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="grid_label_primary_newsletter">
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textColor">@color/cell_homepagestory_label</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineHeight">13.2dp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="grid_label_primary_mini">
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/cell_homepagestory_label</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="grid_label_primary_featuring">
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/featuring_default_text_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="grid_label_secondary_explainer">
+        <item name="fontFile">Georgia-Italic.otf</item>
+        <item name="android:textColor">@color/cell_homepagestory_label</item>
+        <item name="android:textSize">@dimen/secondary_label_explainer_font_size</item>
+    </style>
+
+    <style name="grid_label_secondary_content_type">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="android:textColor">@color/cell_homepagestory_label</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="grid_label_secondary_content_type_newsletter">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="android:textColor">@color/cell_homepagestory_label</item>
+        <item name="android:lineHeight">13.2dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="grid_label_live_updates_primary">
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textColor">@color/live_update_text_color</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="grid_label_exclusive_primary" parent="">
+        <item name="android:textColor">@color/exclusive_text_color</item>
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="grid_label_primary_cta">
+        <item name="fontFile">FranklinITCStd-light.otf</item>
+        <item name="android:textColor">@color/cell_homepagestory_label</item>
+        <item name="android:textSize">14sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="grid_base_card" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="android:background">@color/grid_card_color</item>
+        <item name="cardBackgroundColor">@color/grid_card_color</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/card_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/card_horizontal_margin</item>
+    </style>
+
+    <style name="grid_full_card" parent="grid_base_card">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="cardCornerRadius">0dp</item>
+        <item name="contentPaddingTop">20dp</item>
+        <item name="contentPaddingBottom">24dp</item>
+    </style>
+
+    <style name="grid_top_card" parent="grid_base_card">
+        <item name="contentPaddingTop">20dp</item>
+        <item name="contentPaddingBottom">12dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_top_card</item>
+    </style>
+
+    <style name="grid_top_card_label" parent="grid_top_card">
+        <item name="contentPaddingBottom">4dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay_top_card" parent="">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="grid_bottom_card" parent="grid_base_card">
+        <item name="contentPaddingTop">12dp</item>
+        <item name="contentPaddingBottom">24dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_bottom_card</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay_bottom_card" parent="">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="grid_middle_card" parent="grid_base_card">
+        <item name="contentPaddingTop">12dp</item>
+        <item name="contentPaddingBottom">12dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="cardCornerRadius">0dp</item>
+    </style>
+
+</resources>

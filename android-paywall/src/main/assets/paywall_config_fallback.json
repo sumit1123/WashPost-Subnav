@@ -1,0 +1,152 @@
+{
+  "paywallConf": {
+    "blockers": [
+      {
+        "name": "main",
+        "components": [
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "promo",
+            "text": "SPECIAL OFFER",
+            "none-content": "SPECIAL OFFER",
+            "ended-content": "SPECIAL OFFER"
+          },
+          {
+            "type": "spacer",
+            "space": 8
+          },
+          {
+            "type": "title",
+            "none-content": "Subscribe to get the full experience.",
+            "ended-content": "Resubscribe to get the full experience.",
+            "gift-expired": "Sorry, this gift article link has expired.",
+            "gift-invalid": "Sorry, this gift article link is invalid."
+          },
+          {
+            "type": "spacer",
+            "space": 8
+          },
+          {
+            "type": "subtitle",
+            "gift-expired": "You can read this article and more with a Washington Post subscription.",
+            "gift-invalid": "You can read this article and more with a Washington Post subscription."
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          },
+          {
+            "type": "choice",
+            "split": "intervals",
+            "default": 0
+          },
+          {
+            "type": "spacer",
+            "compact": 20,
+            "regular": 32
+          },
+          {
+            "type": "offer",
+            "components": [
+              {
+                "type": "name"
+              },
+              {
+                "type": "spacer",
+                "space": 12
+              },
+              {
+                "type": "text"
+              },
+              {
+                "type": "spacer",
+                "space": 12
+              },
+              {
+                "type": "button"
+              }
+            ],
+            "productSeparator": [
+              {
+                "type": "spacer",
+                "space": 20
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "spacer",
+                "space": 20
+              }
+            ]
+          },
+          {
+            "type": "spacer",
+            "compact": 20,
+            "regular": 32
+          },
+          {
+            "type": "terms"
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "spacer",
+            "space": 12
+          },
+          {
+            "type": "restore"
+          },
+          {
+            "type": "spacer",
+            "space": 20
+          }
+        ],
+        "products": [
+          {
+            "id": "wp.classic.basic",
+            "name": "Core",
+            "text": [
+              "Unlimited access on the web and in our apps"
+            ]
+          },
+          {
+            "id": "wp.classic.basic.annual",
+            "name": "Core",
+            "text": [
+              "Unlimited access on the web and in our apps"
+            ]
+          },
+          {
+            "id": "monthly_all_access",
+            "name": "Premium",
+            "text": [
+              "Unlimited access on the web and in our apps",
+              "A <b>bonus subscription</b> to share",
+              "Monthly <b>30-day digital passes</b> to share",
+              "Unlimited <b>eBooks</b> written by our journalists"
+            ]
+          },
+          {
+            "id": "wp.classic.premium.annual",
+            "name": "Premium",
+            "text": [
+              "Unlimited access on the web and in our apps",
+              "A <b>bonus subscription</b> to share",
+              "Monthly <b>30-day digital passes</b> to share",
+              "Unlimited <b>eBooks</b> written by our journalists"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

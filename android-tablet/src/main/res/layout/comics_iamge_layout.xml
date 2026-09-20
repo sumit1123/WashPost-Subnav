@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android" a:layout_width="match_parent"
+                a:layout_height="match_parent">
+
+    <com.wapo.view.TouchImageView
+        a:id="@+id/comic_image" a:layout_width="match_parent" a:layout_height="match_parent"
+            a:visibility="invisible"/>
+
+    <ProgressBar a:id="@+id/image_progress" a:layout_width="wrap_content" a:layout_height="wrap_content"
+                 a:layout_centerHorizontal="true" a:layout_centerVertical="true" a:indeterminate="true"
+                 a:indeterminateBehavior="cycle" a:visibility="visible" />
+
+    <include a:id="@+id/comic_error"
+        a:layout_height="wrap_content"
+        a:layout_width="wrap_content"
+        a:layout_centerInParent="true"
+        layout="@layout/loading_failed_curtain_dark" />
+</RelativeLayout>

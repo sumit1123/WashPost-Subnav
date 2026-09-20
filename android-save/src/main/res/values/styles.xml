@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="rounded_corner_button">
+        <item name="android:background">@drawable/rounded_button_style</item>
+        <item name="android:textColor">@color/rounder_corner_button_text</item>
+        <item name="android:fontFamily">@font/franklin_std_bold</item>
+        <item name="fontFamily">@font/franklin_std_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="my_post_msg_title">
+        <item name="android:fontFamily">@font/wp_postoniwide_font_family</item>
+        <item name="fontFamily">@font/wp_postoniwide_font_family</item>
+        <item name="android:textColor">@color/my_post_label</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="my_post_msg_desc">
+        <item name="android:fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:textColor">@color/my_post_label</item>
+    </style>
+
+    <style name="MyPost.Choice.Chip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/choice_chip_background_color</item>
+        <item name="chipStrokeColor">@color/choice_chip_stroke_color</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipMinHeight">@dimen/my_post_chip_min_height</item>
+        <item name="android:textColor">@color/choice_chip_text_color</item>
+    </style>
+
+    <style name="MyPost.Choice.Chip.Text" parent="TextAppearance.MaterialComponents.Chip">
+        <item name="android:fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/choice_chip_text_color</item>
+        <item name="android:textSize">@dimen/my_post_chip_text_size</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="MyPost.Action.Chip" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="chipBackgroundColor">@color/action_chip_bg</item>
+        <item name="chipStartPadding">8dp</item>
+        <item name="chipEndPadding">8dp</item>
+    </style>
+
+    <style name="MyPost.Action.Chip.Text" parent="TextAppearance.MaterialComponents.Chip">
+        <item name="android:fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/action_chip_text</item>
+        <item name="android:textSize">@dimen/my_post_chip_text_size</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="MyPost.Action.Chip.Light" parent="MyPost.Action.Chip">
+        <item name="chipBackgroundColor">@color/action_chip_light_bg</item>
+        <item name="chipMinHeight">40dp</item>
+        <item name="chipStrokeColor">@color/my_post_dialog_chip_stroke_light_bg</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:minWidth">120dp</item>
+        <item name="android:textColor">@color/action_chip_light_text</item>
+        <item name="chipStartPadding">16dp</item>
+        <item name="chipEndPadding">16dp</item>
+    </style>
+
+    <style name="MyPost.Action.Chip.Light.Text" parent="MyPost.Action.Chip.Text">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="MyPost.Action.Chip.Dark" parent="MyPost.Action.Chip.Light">
+        <item name="chipBackgroundColor">@color/action_chip_dark_bg</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/action_chip_dark_text</item>
+        <item name="chipStrokeColor">@color/my_post_dialog_chip_stroke_light_bg</item>
+    </style>
+
+    <style name="MyPost.Action.Chip.Dark.Text" parent="MyPost.Action.Chip.Light.Text">
+    </style>
+
+    <style name="MyPost.Utility.Menu.Item" parent="">
+        <item name="android:fontFamily">@font/wp_franklinitcstd_font_family</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/my_post_label</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:background">@drawable/my_post_utility_menu_item_bg</item>
+    </style>
+    <style name="primary_button"/>
+</resources>

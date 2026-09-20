@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    a:background="@color/section_front_background">
+
+    <androidx.compose.ui.platform.ComposeView
+        a:id="@+id/sections_ribbon"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.wapo.flagship.features.sections.SectionsPagerView
+        a:id="@+id/section_fronts_sections"
+        a:layout_width="match_parent"
+        a:layout_height="0dp"
+        a:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/sections_ribbon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        a:background="@color/section_fronts_border" />
+
+    <View
+        a:id="@+id/anchor"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        a:layout_width="0dp"
+        a:layout_height="0dp"
+        a:visibility="gone"/>
+
+    <TextView
+        a:id="@+id/section_fronts_sync_message"
+        a:layout_width="wrap_content" a:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        a:layout_gravity="center"
+        a:layout_centerVertical="true"
+        a:layout_above="@id/anchor"
+        a:gravity="center"
+        a:textAppearance="@android:style/TextAppearance.Large"
+        a:linksClickable="true" a:autoLink="web"
+        a:visibility="gone"
+        style="@style/sf_gathering_news_message" />
+
+    <ProgressBar
+        a:id="@+id/section_fronts_loading_progress"
+        a:layout_alignParentTop="true"
+        style="@style/front_progress_bar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sections_ribbon"
+        a:visibility="gone" a:progressDrawable="@drawable/progress_bar" />
+
+    <com.wapo.view.ProgressBarCircularIndeterminate
+        a:layout_width="55dp"
+        a:layout_height="55dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        a:id="@+id/section_fronts_loading_curtain"
+        a:background="@color/sf_loading_spinner" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

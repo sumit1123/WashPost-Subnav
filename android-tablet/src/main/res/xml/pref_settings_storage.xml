@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="Storage Settings">
+
+    <androidx.preference.PreferenceCategory
+        android:layout="@layout/preference_category_layout"
+        android:title="Cellular Data Use"
+        app:iconSpaceReserved="false">
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_storage_updates_on_wifi_key"
+            android:persistent="true"
+            android:selectable="true"
+            android:summary="Only get background updates on Wi-Fi"
+            android:title="Get updates on Wi-Fi only"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="@string/pref_storage_low_data_mode"
+            android:persistent="true"
+            android:selectable="true"
+            android:summary="Save data on unreliable connections"
+            android:title="Low-data mode"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory
+        android:layout="@layout/preference_category_layout"
+        android:title="Print Edition"
+        app:allowDividerAbove="true"
+        app:iconSpaceReserved="false">
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="@string/pref_storage_download_print_daily_key"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="Automatically download daily paper"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_storage_customize_print_sections_key"
+            android:persistent="false"
+            android:selectable="true"
+            android:title="Select print sections to download automatically"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:iconSpaceReserved="false"
+            android:key="@string/pref_storage_delete_print_key"
+            android:persistent="false"
+            android:selectable="true"
+            android:title="Delete downloaded print editions"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory
+        android:layout="@layout/preference_category_layout"
+        android:title="Background Sync"
+        app:allowDividerAbove="true"
+        app:iconSpaceReserved="false">
+
+        <androidx.preference.ListPreference
+            android:defaultValue="@string/pref_background_sync_default"
+            android:dialogTitle="@string/pref_background_sync_title"
+            android:entries="@array/pref_background_sync_entries"
+            android:entryValues="@array/pref_background_sync_values"
+            android:key="@string/pref_storage_background_sync_key"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="@string/pref_background_sync"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory
+        android:layout="@layout/preference_category_layout"
+        android:title="Video"
+        app:allowDividerAbove="true"
+        app:iconSpaceReserved="false">
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_storage_autoplay_videos_key"
+            android:persistent="true"
+            android:selectable="true"
+            android:title="Allow autoplay for videos"
+            app:allowDividerAbove="true"
+            app:iconSpaceReserved="false" />
+
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,3348 @@
+{
+  "layout": "homepage",
+  "output_type": "jsonapp",
+  "tracking": {
+    "page_name": "front - politics - joe-biden-46th-president",
+    "section": "politics",
+    "channel": "front - politics - joe-biden-46th-president",
+    "subsection": "politics - joe-biden-46th-president"
+  },
+  "regions": [
+    {
+      "location": "content",
+      "items": [
+        {
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "transfer-of-power-top-table",
+          "layout_name": "wide-center-2-col-table-at-left",
+          "dividers": {
+            "xlarge": {
+              "vertical": [
+                {
+                  "col": 12,
+                  "row": 0,
+                  "rowspan": 1
+                },
+                {
+                  "col": 16,
+                  "row": 0,
+                  "rowspan": 1
+                }
+              ]
+            },
+            "large": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 16
+                }
+              ],
+              "vertical": [
+                {
+                  "col": 12,
+                  "row": 0,
+                  "rowspan": 1
+                }
+              ]
+            },
+            "medium": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 12
+                }
+              ]
+            },
+            "small": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 10
+                }
+              ]
+            },
+            "xsmall": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 1
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 1
+                }
+              ]
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "table1",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 6
+                    }
+                  ]
+                },
+                "large": {
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 6
+                    }
+                  ]
+                },
+                "medium": {
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 6
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "feed-display",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media",
+                          "headline",
+                          "blurbs",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/politics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/2021/01/03/where-senate-republicans-stand-certifying-electoral-college-vote/",
+                    "type": "graphic",
+                    "last_modified": "2021-01-05T21:04:36.093Z"
+                  },
+                  "source": "washpost",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MGTOYWAPAII6XNAERUPGOXWHAE.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "headline": {
+                    "text": "Where Senate Republicans stand on counting the electoral college vote",
+                    "size": "large",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "While a challenge to the electoral college result from some Republicans is not expected to prevail — Democrats control the House and almost every Senate Republican would need to join the effort for their chamber to approve it — it will force a debate, drawing out a process that is usually a formality and forcing lawmakers to choose between honoring the choice of voters or standing with Trump.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "signature": {
+                    "by_line": "By Kevin Uhrmacher and John Muyskens"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 6,
+                      "col": 4,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 6,
+                      "col": 4,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 6,
+                      "col": 4,
+                      "colspan": 8
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/local",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/dc-md-va/2021/01/06/dc-protests-trump-rally-live-updates/",
+                    "type": "article",
+                    "last_modified": "2021-01-06T15:30:16.259Z"
+                  },
+                  "source": "washpost",
+                  "label": {
+                    "type": "pill",
+                    "label": {
+                      "text": "LIVE UPDATES"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/dc-md-va/2021/01/06/dc-protests-trump-rally-live-updates/",
+                      "type": "unknown"
+                    }
+                  },
+                  "headline": {
+                    "text": " Thousands of Trump’s supporters gather in D.C. to protest election results",
+                    "size": "medium",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/dc-md-va/2021/01/06/dc-protests-trump-rally-live-updates/",
+                    "num_to_show": 5,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 6,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 6,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 6,
+                      "col": 0,
+                      "colspan": 4
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      },
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "live_ticker"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/local",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/dc-md-va/2021/01/06/dc-protests-trump-rally-live-updates/",
+                    "type": "article",
+                    "last_modified": "2021-01-06T15:30:16.259Z"
+                  },
+                  "source": "washpost",
+                  "label": {
+                    "type": "pill",
+                    "label": {
+                      "text": "LIVE UPDATES"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/dc-md-va/2021/01/06/dc-protests-trump-rally-live-updates/",
+                      "type": "unknown"
+                    }
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NIOMSGCQFUI6XIPV7WXSRT6KSA.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": " Thousands of Trump’s supporters gather in D.C. to protest election results",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "live_ticker": {
+                    "url": "https://www.washingtonpost.com/dc-md-va/2021/01/06/dc-protests-trump-rally-live-updates/",
+                    "num_to_show": 5,
+                    "subtypes": [
+                      "live-race-call",
+                      "live-update"
+                    ]
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table2",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 12,
+                  "colspan": 4
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 12,
+                  "colspan": 4
+                },
+                "medium": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 4
+                    }
+                  ]
+                },
+                "large": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 4
+                    }
+                  ]
+                },
+                "medium": {
+                  "vertical": [
+                    {
+                      "col": 6,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "label": {
+                "type": "section-small",
+                "show_arrow": true,
+                "label": {
+                  "text": "14 days until the Presidential Inauguration"
+                },
+                "label_secondary": {
+                  "text": "View key deadlines and dates"
+                },
+                "link": {
+                  "url": "https://www.washingtonpost.com/elections/2020/11/12/vote-certification-deadlines-ga-mi-wi-nv-az-pa/",
+                  "type": "unknown"
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "2pm-nov2-early-voting",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media",
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/politics/the-fix",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/2021/01/04/congress-presidential-election-january-6/",
+                    "type": "article",
+                    "last_modified": "2021-01-06T16:04:17.695Z"
+                  },
+                  "source": "washpost",
+                  "media": {
+                    "url": "https://d1i4t8bqe7zgj6.cloudfront.net/12-31-2020/t_dcd76afff280400c81b77b805235fcaf_name_f5c10af6_47a4_11eb_ac2a_3ac0f2b8ceeb_scaled.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "headline": {
+                    "text": "What to expect when Congress meets to confirm Joe Biden’s win",
+                    "size": "medium",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "By Amber Phillips"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "x-small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://subscribe.washingtonpost.com/newsletters/#/bundle/thefix?method=SURL&location=FNT&initiative=TRANSFERHUB",
+                    "type": "web"
+                  },
+                  "media": {
+                    "url": "https://www.washingtonpost.com/wp-stat/elections/2020/transfer/7320adc4-2d12-11eb-9dd6-2d0179981719.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "x-small"
+                  },
+                  "headline": {
+                    "text": "Sign up for The 5-Minute Fix newsletter",
+                    "size": "x-small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Track the transition with a 5-minute breakdown delivered straight to your inbox every weekday afternoon.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://subscribe.washingtonpost.com/newsletters/#/bundle/thefix?method=SURL&location=FNT&initiative=TRANSFERHUB",
+                    "type": "web"
+                  },
+                  "media": {
+                    "url": "https://www.washingtonpost.com/wp-stat/elections/2020/transfer/7320adc4-2d12-11eb-9dd6-2d0179981719.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "Sign up for The 5-Minute Fix newsletter",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table9",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 16,
+                  "colspan": 4
+                },
+                "large": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 4
+                    }
+                  ]
+                },
+                "large": {
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 8,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 12,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    {
+                      "row": 1,
+                      "col": 6,
+                      "colspan": 6
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 6,
+                      "row": 0,
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    {
+                      "row": 1,
+                      "col": 5,
+                      "colspan": 5
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 5,
+                      "row": 0,
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "label": {
+                "type": "section-large",
+                "label": {
+                  "text": "Opinions"
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "",
+                  "is_from_feed": true,
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "x-small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/opinions/global-opinions",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/opinions/2021/01/05/meet-bidens-new-foreign-policy-team-same-obamas-old-foreign-policy-team/",
+                    "type": "article",
+                    "last_modified": "2021-01-06T00:27:06.275Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OZ3H7RCPPYI6XIPV7WXSRT6KSA.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1,
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "x-small"
+                  },
+                  "headline": {
+                    "text": "Meet Biden’s new foreign policy team — same as Obama’s old foreign policy team",
+                    "size": "x-small",
+                    "font_style": "regular",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "Opinion by Josh Rogin"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": true,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "",
+                  "mobile_preset": "– Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/opinions/global-opinions",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/opinions/2021/01/05/meet-bidens-new-foreign-policy-team-same-obamas-old-foreign-policy-team/",
+                    "type": "article",
+                    "last_modified": "2021-01-06T00:27:06.275Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OZ3H7RCPPYI6XIPV7WXSRT6KSA.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1,
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "Meet Biden’s new foreign policy team — same as Obama’s old foreign policy team",
+                    "size": "x-small",
+                    "font_style": "regular",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "Opinion by Josh Rogin"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "",
+                  "is_from_feed": true,
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "x-small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/opinions",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/opinions/wednesdays-protests-could-get-ugly-but-officials-should-be-able-to-handle-it--without-the-armed-forces/2021/01/05/69022a48-4fa4-11eb-83e3-322644d82356_story.html",
+                    "type": "article",
+                    "last_modified": "2021-01-06T02:43:53.494Z"
+                  },
+                  "source": "The Washington Post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QE25JQCPRMI6XIPV7WXSRT6KSA.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1,
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "x-small"
+                  },
+                  "headline": {
+                    "text": "Wednesday’s protests could get ugly. But officials should be able to handle it — without the armed forces.",
+                    "size": "x-small",
+                    "font_style": "regular",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "Opinion by David Ignatius"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 4,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": true,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "",
+                  "mobile_preset": "– Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/opinions",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/opinions/wednesdays-protests-could-get-ugly-but-officials-should-be-able-to-handle-it--without-the-armed-forces/2021/01/05/69022a48-4fa4-11eb-83e3-322644d82356_story.html",
+                    "type": "article",
+                    "last_modified": "2021-01-06T02:43:53.494Z"
+                  },
+                  "source": "The Washington Post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QE25JQCPRMI6XIPV7WXSRT6KSA.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1,
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "Wednesday’s protests could get ugly. But officials should be able to handle it — without the armed forces.",
+                    "size": "x-small",
+                    "font_style": "regular",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "Opinion by David Ignatius"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "",
+                  "is_from_feed": true,
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "x-small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/opinions",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/opinions/2021/01/05/trump-spin-machine-is-spinning-itself/",
+                    "type": "article",
+                    "last_modified": "2021-01-06T14:30:36.099Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WKHX3XCPAQI6XIPV7WXSRT6KSA.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1,
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "x-small"
+                  },
+                  "headline": {
+                    "text": "The Trump spin machine is spinning in on itself",
+                    "size": "x-small",
+                    "font_style": "regular",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "Opinion by Molly Roberts"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 8,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": true,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "",
+                  "mobile_preset": "– Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/opinions",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/opinions/2021/01/05/trump-spin-machine-is-spinning-itself/",
+                    "type": "article",
+                    "last_modified": "2021-01-06T14:30:36.099Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WKHX3XCPAQI6XIPV7WXSRT6KSA.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1,
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "The Trump spin machine is spinning in on itself",
+                    "size": "x-small",
+                    "font_style": "regular",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "Opinion by Molly Roberts"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "",
+                  "is_from_feed": true,
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "x-small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/opinions",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/opinions/chip-roy-congress-electoral-vote-challenge/2021/01/05/8989466a-4f4b-11eb-83e3-322644d82356_story.html",
+                    "type": "article",
+                    "last_modified": "2021-01-06T02:06:16.522Z"
+                  },
+                  "source": "The Washington Post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LOPHZSSPTMI6XPNEMFNK57IFKU.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1,
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "x-small"
+                  },
+                  "headline": {
+                    "text": "A GOP congressman is putting a spotlight on the hypocrisy of his fellow Republicans",
+                    "size": "x-small",
+                    "font_style": "regular",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "Opinion by Karen Tumulty"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 12,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": true,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "",
+                  "mobile_preset": "– Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "signature"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/opinions",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/opinions/chip-roy-congress-electoral-vote-challenge/2021/01/05/8989466a-4f4b-11eb-83e3-322644d82356_story.html",
+                    "type": "article",
+                    "last_modified": "2021-01-06T02:06:16.522Z"
+                  },
+                  "source": "The Washington Post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LOPHZSSPTMI6XPNEMFNK57IFKU.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1,
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "A GOP congressman is putting a spotlight on the hypocrisy of his fellow Republicans",
+                    "size": "x-small",
+                    "font_style": "regular",
+                    "alignment": "left"
+                  },
+                  "signature": {
+                    "by_line": "Opinion by Karen Tumulty"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "small",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        },
+        {
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "biden-agenda",
+          "layout_name": "full-span",
+          "label": {
+            "type": "package",
+            "alignment": "center",
+            "show_arrow": false,
+            "label": {
+              "text": "The Biden Agenda"
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "allcontent",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "biden-agenda-topics",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + image above",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media"
+                        ]
+                      }
+                    }
+                  },
+                  "media": {
+                    "overlay": {
+                      "text": "More from this series",
+                      "prefix_icon": "arrow"
+                    },
+                    "url": "https://www.washingtonpost.com/resizer/7jmVUfi1vNwXuQLRsTHXcwXQN7s=/1450x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DIBU7DUAYUI6VBGCA6JNQWIZCE.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        },
+        {
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "your-election-guide",
+          "layout_name": "tiling",
+          "label": {
+            "type": "section-large-with-explainer",
+            "alignment": "left",
+            "show_arrow": true,
+            "icon": "election-star",
+            "label": {
+              "text": "Analyzing the results"
+            },
+            "label_secondary": {
+              "text": "View full election results"
+            },
+            "link": {
+              "url": "https://www.washingtonpost.com/elections/",
+              "type": "unknown"
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "allcontent",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "vertical": [
+                    {
+                      "col": 5,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 10,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 15,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "large": {
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 8,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 12,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 6
+                    },
+                    {
+                      "row": 1,
+                      "col": 6,
+                      "colspan": 6
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 6,
+                      "row": 0,
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    {
+                      "row": 1,
+                      "col": 5,
+                      "colspan": 5
+                    }
+                  ],
+                  "vertical": [
+                    {
+                      "col": 5,
+                      "row": 0,
+                      "rowspan": 2
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 3,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + image above",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media",
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/elections",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/elections/2020/11/11/how-independents-latino-voters-catholics-shifted-2016-swung-states-biden-trump/",
+                    "type": "article",
+                    "last_modified": "2020-11-13T17:06:55.730Z"
+                  },
+                  "source": "washpost",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/PA6IP7W6I5F5JOPIEJKALSDTYU.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "headline": {
+                    "text": "The biggest demographic shifts in the 2020 election",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + image above",
+                  "mobile_preset": "+ Image: Display (image above + caption/credit)",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media",
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/elections",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/elections/2020/11/11/how-independents-latino-voters-catholics-shifted-2016-swung-states-biden-trump/",
+                    "type": "article",
+                    "last_modified": "2020-11-13T17:06:55.730Z"
+                  },
+                  "source": "washpost",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/PA6IP7W6I5F5JOPIEJKALSDTYU.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "headline": {
+                    "text": "The biggest demographic shifts in the 2020 election",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + image above",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media",
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/elections",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/elections/2020/11/06/electorate-changes-2016-election-vs-2020/",
+                    "type": "article",
+                    "last_modified": "2020-12-15T19:49:50.823Z"
+                  },
+                  "source": "washpost",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/R6DQLFPM2JDIVCQWKEZQK4IIPU.png",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "headline": {
+                    "text": "The political winds in the U.S. are swirling",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 4,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + image above",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/elections",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/elections/2020/11/06/electorate-changes-2016-election-vs-2020/",
+                    "type": "article",
+                    "last_modified": "2020-12-15T19:49:50.823Z"
+                  },
+                  "source": "washpost",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/R6DQLFPM2JDIVCQWKEZQK4IIPU.png",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "The political winds in the U.S. are swirling",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + image above",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media",
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.washingtonpost.com/elections/election-results/president-2020/",
+                    "type": "web"
+                  },
+                  "media": {
+                    "url": "https://www.washingtonpost.com/wp-stat/graphics/2020-election/election-promos/swings-promo.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "headline": {
+                    "text": "How the presidential vote margin shifted over the past three elections",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 10,
+                      "colspan": 5
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 8,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + image above",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.washingtonpost.com/elections/election-results/president-2020/",
+                    "type": "web"
+                  },
+                  "media": {
+                    "url": "https://www.washingtonpost.com/wp-stat/graphics/2020-election/election-promos/swings-promo.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "How the presidential vote margin shifted over the past three elections",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media",
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/elections",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/2020/11/04/2020-turnout-is-pace-break-century-old-records/",
+                    "type": "article",
+                    "last_modified": "2020-12-10T18:39:59.120Z"
+                  },
+                  "source": "washpost",
+                  "media": {
+                    "url": "https://www.washingtonpost.com/wp-stat/elections/2020/graphics/hub/turnout-share.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "headline": {
+                    "text": "2020 turnout is the highest in over a century",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 15,
+                      "colspan": 5
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 12,
+                      "colspan": 4
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "+ Image right",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/elections",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/2020/11/04/2020-turnout-is-pace-break-century-old-records/",
+                    "type": "article",
+                    "last_modified": "2020-12-10T18:39:59.120Z"
+                  },
+                  "source": "washpost",
+                  "media": {
+                    "url": "https://www.washingtonpost.com/wp-stat/elections/2020/graphics/hub/turnout-share.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "2020 turnout is the highest in over a century",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "xsmall": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "small",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        },
+        {
+          "item_type": "ad/flex-app",
+          "ad_type": "bigbox",
+          "advertisement": {
+            "commercial_node": "politics/transfer-of-power"
+          },
+          "media_full_bleed": true
+        },
+        {
+          "item_type": "ad/flex-app",
+          "ad_type": "bigbox_2",
+          "advertisement": {
+            "commercial_node": "politics/transfer-of-power"
+          },
+          "media_full_bleed": true
+        },
+        {
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "more-election-news",
+          "layout_name": "even-split",
+          "dividers": {
+            "xlarge": {
+              "vertical": [
+                {
+                  "col": 8,
+                  "row": 0,
+                  "rowspan": 1
+                },
+                {
+                  "col": 16,
+                  "row": 0,
+                  "rowspan": 1
+                }
+              ]
+            },
+            "large": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 16
+                }
+              ],
+              "vertical": [
+                {
+                  "col": 8,
+                  "row": 0,
+                  "rowspan": 1
+                }
+              ]
+            },
+            "medium": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 12
+                }
+              ]
+            },
+            "small": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 10
+                }
+              ]
+            },
+            "xsmall": {
+              "horizontal": [
+                {
+                  "row": 1,
+                  "col": 0,
+                  "colspan": 1
+                },
+                {
+                  "row": 2,
+                  "col": 0,
+                  "colspan": 1
+                }
+              ]
+            }
+          },
+          "label": {
+            "type": "section-large",
+            "alignment": "left",
+            "icon": "none",
+            "label": {
+              "text": "More transfer of power news"
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "table1",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 8
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 8
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "election-news-feed",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Display -- feature",
+                  "is_from_feed": true,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media",
+                          "headline",
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/us-policy/economic-policy",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/us-policy/2021/01/06/georgia-election-2000-stimulus-checks/",
+                    "type": "article",
+                    "last_modified": "2021-01-06T15:32:15.293Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7QDDSICPOYI6XIPV7WXSRT6KSA.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "caption": "Democratic U.S. Senate challenger Jon Ossoff speaks to the media at Dunbar Neighborhood Center during Georgia's Senate runoff elections, Tuesday, Jan. 5, 2021, in Acworth, Ga. (AP Photo/Branden Camp)",
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "headline": {
+                    "text": "$2,000 stimulus checks could become a reality as Democrats lead Georgia elections",
+                    "size": "large",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "As Democrats lead in key Georgia races that will determine Senate control, big new opportunities on the horizon for the party and new president",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": true,
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "election-news-feed",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Display -- feature",
+                  "mobile_preset": "+ Image: Display (image above + caption/credit)",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media",
+                          "headline",
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/us-policy/economic-policy",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/us-policy/2021/01/06/georgia-election-2000-stimulus-checks/",
+                    "type": "article",
+                    "last_modified": "2021-01-06T15:32:15.293Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7QDDSICPOYI6XIPV7WXSRT6KSA.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "caption": "Democratic U.S. Senate challenger Jon Ossoff speaks to the media at Dunbar Neighborhood Center during Georgia's Senate runoff elections, Tuesday, Jan. 5, 2021, in Acworth, Ga. (AP Photo/Branden Camp)",
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "headline": {
+                    "text": "$2,000 stimulus checks could become a reality as Democrats lead Georgia elections",
+                    "size": "large",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "As Democrats lead in key Georgia races that will determine Senate control, big new opportunities on the horizon for the party and new president",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table2",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 8,
+                  "colspan": 8
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 8,
+                  "colspan": 8
+                },
+                "medium": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 8
+                    }
+                  ]
+                },
+                "large": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 8
+                    }
+                  ]
+                },
+                "medium": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + image above",
+                  "is_from_feed": true,
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "medium"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/politics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/graphics/2021/politics/congress-electoral-college-count-tracker/",
+                    "type": "web",
+                    "last_modified": "2021-01-05T21:04:36.093Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MGTOYWAPAII6XNAERUPGOXWHAE.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "medium"
+                  },
+                  "headline": {
+                    "text": "Where Senate Republicans stand on counting the electoral college vote",
+                    "size": "medium",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "While a challenge to the electoral college result from some Republicans is not expected to prevail — Democrats control the House and almost every Senate Republican would need to join the effort for their chamber to approve it — it will force a debate, drawing out a process that is usually a formality and forcing lawmakers to choose between honoring the choice of voters or standing with Trump.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": true,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + image above",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/politics",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/graphics/2021/politics/congress-electoral-college-count-tracker/",
+                    "type": "web",
+                    "last_modified": "2021-01-05T21:04:36.093Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MGTOYWAPAII6XNAERUPGOXWHAE.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "Where Senate Republicans stand on counting the electoral college vote",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + image above",
+                  "is_from_feed": true,
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "medium"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "politics/elections",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/2021/01/04/joe-biden-trump-transition-live-updates/",
+                    "type": "article",
+                    "last_modified": "2021-01-05T03:45:21.897Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TRXQ5SCO7II6XIPV7WXSRT6KSA.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "medium"
+                  },
+                  "headline": {
+                    "text": "Biden tells Georgia voters they have the power to decide Senate control; Trump pressures Pence at evening rally",
+                    "size": "medium",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The president and president-elect both plan high-profile trips to a state where two Senate contests on Tuesday will determine which party controls the chamber in Washington.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": true,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + image above",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "politics/elections",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/politics/2021/01/04/joe-biden-trump-transition-live-updates/",
+                    "type": "article",
+                    "last_modified": "2021-01-05T03:45:21.897Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TRXQ5SCO7II6XIPV7WXSRT6KSA.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "Biden tells Georgia voters they have the power to decide Senate control; Trump pressures Pence at evening rally",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + image above",
+                  "is_from_feed": true,
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "medium"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/us-policy/economic-policy",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/us-policy/2021/01/04/stimulus-checks-congress-democrats/",
+                    "type": "article",
+                    "last_modified": "2021-01-04T21:52:16.603Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QIIKL3COWMI6XIPV7WXSRT6KSA.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "medium"
+                  },
+                  "headline": {
+                    "text": "House Democrats vow new effort on economic aid as 117th Congress begins",
+                    "size": "medium",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Congress is back in session and House Democrats vow that their first order of business is stimulus, including $2,000 checks to individuals.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "medium": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": true,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Head + image above",
+                  "mobile_preset": "+ Image right – Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/us-policy/economic-policy",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/us-policy/2021/01/04/stimulus-checks-congress-democrats/",
+                    "type": "article",
+                    "last_modified": "2021-01-04T21:52:16.603Z"
+                  },
+                  "source": "the-washington-post",
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QIIKL3COWMI6XIPV7WXSRT6KSA.jpg",
+                    "alt_text": "",
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "headline": {
+                    "text": "House Democrats vow new effort on economic aid as 117th Congress begins",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "table_name": "table9",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 16,
+                  "colspan": 4
+                },
+                "large": {
+                  "row": 1,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 2,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "dividers": {
+                "xlarge": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 4
+                    }
+                  ]
+                },
+                "large": {
+                  "vertical": [
+                    {
+                      "col": 5,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 10,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "medium": {
+                  "vertical": [
+                    {
+                      "col": 4,
+                      "row": 0,
+                      "rowspan": 1
+                    },
+                    {
+                      "col": 8,
+                      "row": 0,
+                      "rowspan": 1
+                    }
+                  ]
+                },
+                "small": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 10
+                    }
+                  ]
+                },
+                "xsmall": {
+                  "horizontal": [
+                    {
+                      "row": 1,
+                      "col": 0,
+                      "colspan": 1
+                    },
+                    {
+                      "row": 2,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  ]
+                }
+              },
+              "items": [
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "is_from_feed": true,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/business/economy",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2021/01/02/blackrock-biden/",
+                    "type": "article",
+                    "last_modified": "2021-01-02T23:59:20.333Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "Two Biden aides will recuse on BlackRock issues as past ties pose questions",
+                    "size": "medium",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": true,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "– Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/business/economy",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2021/01/02/blackrock-biden/",
+                    "type": "article",
+                    "last_modified": "2021-01-02T23:59:20.333Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "Two Biden aides will recuse on BlackRock issues as past ties pose questions",
+                    "size": "medium",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "is_from_feed": true,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/history/retropolis",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/history/2021/01/02/nixon-gore-pence-trump-january-6/",
+                    "type": "article",
+                    "last_modified": "2021-01-03T16:25:00.342Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "‘Grace and humor’: The vice presidents who certified their own election losses",
+                    "size": "medium",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 4,
+                      "colspan": 4
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": true,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "– Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/history/retropolis",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/history/2021/01/02/nixon-gore-pence-trump-january-6/",
+                    "type": "article",
+                    "last_modified": "2021-01-03T16:25:00.342Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "text": "‘Grace and humor’: The vice presidents who certified their own election losses",
+                    "size": "medium",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "is_from_feed": true,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/powerpost",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/powerpost/congress-pelosi-speaker/2021/01/01/87171e76-4c52-11eb-a9f4-0e668b9772ba_story.html",
+                    "type": "article",
+                    "last_modified": "2021-01-02T15:45:06.394Z"
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "text": "Pelosi’s likely final term as speaker is set to begin with a scramble for votes",
+                    "size": "medium",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 4
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 10,
+                      "colspan": 5
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 8,
+                      "colspan": 4
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": true,
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "mobile_preset": "– Hide blurb",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "commercial_node": "/powerpost",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/powerpost/congress-pelosi-speaker/2021/01/01/87171e76-4c52-11eb-a9f4-0e668b9772ba_story.html",
+                    "type": "article",
+                    "last_modified": "2021-01-02T15:45:06.394Z"
+                  },
+                  "source": "The Washington Post",
+                  "headline": {
+                    "text": "Pelosi’s likely final term as speaker is set to begin with a scramble for votes",
+                    "size": "medium",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "small",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        }
+      ]
+    }
+  ],
+  "checksum": "lI9i47ti474n4l7444ci9r0m9m"
+}

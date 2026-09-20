@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">android-save</string>
+    <string name="my_post">My Post</string>
+    <string name="saved">Reading List</string>
+    <string name="history">History</string>
+    <string name="title_saved">SAVED</string>
+    <string name="title_history">HISTORY</string>
+    <string name="how_to_add_saved">Add articles to your Reading List by tapping the + icon.</string>
+    <string name="no_saved_articles_message">No Saved Articles</string>
+    <string name="how_add_history">Your most recently read articles will be shown here.</string>
+    <string name="no_reading_history">No Reading History</string>
+    <string name="undo">UNDO</string>
+    <string name="archive_link">https://www.washingtonpost.com/my-post/saved-stories/?section=archive&amp;no_nav=true</string>
+    <string name="my_archive">See all saved stories</string>
+    <string name="for_you_title">FOR YOU</string>
+    <string name="for_you_empty_title">Check back later for personalized recommendations</string>
+    <string name="for_you_empty_title_signed_out">Sign in for personalized recommendations</string>
+    <string name="for_you_empty_description">Once you\'ve read a few more articles, stories based on your interests and reading history will appear here.</string>
+    <string name="for_you_empty_description_signed_out">Here you\'ll get stories just for you based on your interests and reading history</string>
+    <string name="for_you_empty_sign_in"><u>Sign in or Create an account</u></string>
+    <string name="for_you_no_consent_title">Update your settings for personalized recommendations</string>
+    <string name="for_you_no_consent_desc">Per your request, we\'re not currently recommending any stories for you, based on your interests and reading history.</string>
+    <string name="for_you_no_consent_message">Visit settings to re-enable this feature</string>
+    <string name="update_settings">Update Settings</string>
+    <string name="washington_post_base_url">https://www.washingtonpost.com</string>
+
+    <!-- My Post -->
+    <string name="my_post_saved_stories_label" translatable="false">Saved stories</string>
+    <string name="my_post_interests_label" translatable="false">Topics</string>
+    <string name="my_post_following_label" translatable="false">Authors</string>
+    <string name="my_post_reading_history_label" translatable="false">History</string>
+    <string name="my_post_purchased_articles_label" translatable="false">Purchased Articles</string>
+
+    <string name="my_post_saved_stories_desc" translatable="false">Pick up where you left off&#160;</string>
+    <string name="my_post_following_desc" translatable="false">Latest posts from your followed authors</string>
+    <string name="my_post_reading_history_desc" translatable="false">Your previously visited articles</string>
+    <string name="my_post_purchased_articles_desc" translatable="false">Purchased articles expire one year from date of purchase</string>
+    <string name="my_post_purchased_articles_date" translatable="false">Purchased on %1$s</string>
+
+    <string name="my_post_remove_confirmation_saved_stories" translatable="false">Remove from saved stories?</string>
+    <string name="my_post_remove_confirmation_reading_history" translatable="false">Remove from reading history?</string>
+
+    <string name="my_post_es_saved_stories_sign_in_title" translatable="false">Sign in to save to your list</string>
+    <string name="my_post_es_saved_stories_sign_in_desc" translatable="false">Tap the bookmark [inactive icon] on any story to save it.</string>
+    <string name="my_post_es_saved_stories_sign_in_button" translatable="false">Sign in or create an account</string>
+    <string name="my_post_es_saved_stories_signed_in_title" translatable="false">No recently saved stories</string>
+    <string name="my_post_es_saved_stories_signed_in_desc" translatable="false">Tap the bookmark [inactive icon] on any story to save it. If it was saved 30+ days ago, try your Archive.</string>
+    <string name="my_post_es_saved_stories_signed_in_button" translatable="false">Go to Archive</string>
+
+    <string name="my_post_es_following_sign_in_title" translatable="false">Sign in and keep up with authors</string>
+    <string name="my_post_es_following_sign_in_desc" translatable="false">Tap an author’s name on any story and choose Follow. You’ll find their latest here.</string>
+    <string name="my_post_es_following_sign_in_button" translatable="false">Sign in or create an account</string>
+    <string name="my_post_es_following_signed_in_title" translatable="false">Keep up with your favorites</string>
+    <string name="my_post_es_following_signed_in_desc" translatable="false">Tap an author’s name on any story and choose Follow. You’ll find their latest here.</string>
+
+    <string name="my_post_es_reading_history_sign_in_title" translatable="false">Stories you\'ve viewed will appear here</string>
+    <string name="my_post_es_reading_history_sign_in_desc" translatable="false">Once you start reading or listening, you can easily return to any article.</string>
+    <string name="my_post_es_reading_history_sign_in_button" translatable="false">Sign in or create account</string>
+    <string name="my_post_es_reading_history_signed_in_title" translatable="false">Stories you\'ve viewed will appear here</string>
+    <string name="my_post_es_reading_history_signed_in_desc" translatable="false">Once you start reading or listening, you can easily return to any article.</string>
+    <string name="my_post_es_reading_history_consent_missing_title" translatable="false">Update settings to see stories \n you\'ve viewed</string>
+    <string name="my_post_es_reading_history_consent_missing_desc" translatable="false">Select \"Allow all cookies\" in your settings.</string>
+    <string name="my_post_es_reading_history_consent_missing_button" translatable="false">Update settings</string>
+
+    <string name="my_post_footer_title" translatable="false">You’re all caught up</string>
+    <string name="my_post_footer_desc" translatable="false">Looking for more than headlines?&#160;</string>
+    <string name="my_post_topics_preview_label" translatable="false">Topics</string>
+    <string name="my_post_topics_preview_desc_following" translatable="false">Your followed topics</string>
+    <string name="my_post_topics_preview_desc_not_following" translatable="false">What topics do you want to follow?</string>
+    <string name="birthday_front_page">Birthday front page</string>
+    <string name="see_headlines_from_the_day_you_were_born">See headlines from the day you were born.</string>
+    <string name="view_my_front_page">View my front page</string>
+
+    <string name="pick_up_where_you_left_off_percentage_completed">%d%% Completed</string>
+
+
+</resources>

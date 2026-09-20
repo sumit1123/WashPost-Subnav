@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wapo.view.AsyncCell xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/async_cell_view"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content"
+    a:background="@color/transparent" />

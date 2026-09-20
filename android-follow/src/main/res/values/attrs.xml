@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="app_bar_day_night_style" format="reference" />
+
+    <style name="my_post_msg_title" />
+
+    <style name="my_post_msg_desc" />
+
+    <style name="MyPost.Action.Chip" parent="Widget.MaterialComponents.Chip.Action" />
+
+    <style name="MyPost.Action.Chip.Light" />
+
+    <style name="MyPost.Action.Chip.Light.Text" />
+</resources>

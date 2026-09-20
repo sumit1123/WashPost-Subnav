@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:orientation="vertical"
+    a:id="@+id/video_layout_container">
+
+    <RelativeLayout
+        a:id="@+id/video_top_panel"
+        style="@style/TopBar"
+        a:layout_alignParentTop="true">
+
+        <fragment
+            a:name="com.wapo.flagship.features.shared.fragments.TopBarFragment"
+            a:id="@+id/top_bar_frag"
+            a:layout_width="wrap_content"
+            a:layout_height="match_parent"
+            a:layout_alignParentLeft="true" />
+
+        <ImageButton
+            a:layout_margin="10dp"
+            a:id="@+id/video_share"
+            style="@style/GalleryButtons"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentRight="true"
+            a:layout_centerVertical="true"
+            a:background="@null"
+            a:scaleType="centerInside"
+            a:contentDescription="@string/share_link"
+            a:src="?attr/ic_menu_share" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        a:id="@+id/video_container"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:adjustViewBounds="true"
+        a:layout_below="@+id/video_top_panel"
+        a:layout_gravity="center_horizontal"
+        a:layout_marginBottom="5dp"
+        a:layout_marginTop="10dp"
+        a:clickable="false">
+
+    </FrameLayout>
+
+    <!-- WARNING: right, central & left column proportions are hardcoded in the activity's code!!! -->
+    <LinearLayout
+        a:id="@+id/video_description_panel"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_below="@+id/video_container"
+        a:baselineAligned="false"
+        a:orientation="horizontal"
+        a:visibility="invisible">
+        <!-- left cooumn -->
+        <View
+            a:layout_width="0dp"
+            a:layout_height="match_parent"
+            a:layout_weight="0.10" />
+        <!-- central column -->
+        <LinearLayout
+            a:layout_width="0dp"
+            a:layout_height="wrap_content"
+            a:layout_weight="0.80"
+            a:orientation="vertical"
+            a:visibility="visible">
+
+            <TextView
+                a:id="@+id/video_title"
+                style="@android:style/TextAppearance.Medium"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:textStyle="bold" />
+
+            <TextView
+                a:id="@+id/video_description"
+                style="@android:style/TextAppearance.Small"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:scrollbars="vertical" />
+        </LinearLayout>
+
+        <!-- right column -->
+        <View
+            a:layout_width="0dp"
+            a:layout_height="match_parent"
+            a:layout_weight="0.10" />
+    </LinearLayout>
+
+    <RelativeLayout
+        a:id="@+id/video_curtain"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent">
+
+        <ProgressBar
+            a:id="@+id/video_loading_progress"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_centerHorizontal="true"
+            a:layout_centerVertical="true"
+            a:indeterminate="true"
+            a:indeterminateBehavior="cycle"
+            a:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        a:id="@+id/video_error_curtain"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:padding="40dp"
+        a:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_contact_us"
+    app:startDestination="@id/settingsZendeskFragmentForm">
+
+    <fragment
+        android:id="@+id/settingsZendeskFragmentForm"
+        android:name="com.wapo.zendesk.fragments.ZendeskFormFragment"
+        android:label="zendesk_form_fragment" >
+        <action
+            android:id="@+id/settings_zendesk_success"
+            app:destination="@id/zendeskSuccessFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/zendeskSuccessFragment"
+        android:name="com.wapo.zendesk.fragments.ZendeskSuccessFragment"
+        android:label="settings_zendesk_success" >
+        <action
+            android:id="@+id/settings_zendesk_another_request"
+            app:destination="@id/settingsZendeskFragmentForm"/>
+    </fragment>
+</navigation>

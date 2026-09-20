@@ -1,0 +1,1485 @@
+{
+    "sections": [
+        {
+            "name": "top-stories",
+            "manifest": {
+                "lmt": 1437405721455,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/top-stories-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437405721455,
+                "size": 1447308,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/top-stories.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "business",
+            "manifest": {
+                "lmt": 1437405122361,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/business-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437405122361,
+                "size": 356654,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/business.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "national",
+            "manifest": {
+                "lmt": 1437405721434,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/national-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437405721434,
+                "size": 777554,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/national.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "technology",
+            "manifest": {
+                "lmt": 1437405181311,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/technology-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437405181311,
+                "size": 380749,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/technology.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "sports",
+            "manifest": {
+                "lmt": 1437405781788,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/sports-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437405781788,
+                "size": 545800,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/sports.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "local",
+            "manifest": {
+                "lmt": 1437404702631,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/local-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404702631,
+                "size": 1939417,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/local.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "politics",
+            "manifest": {
+                "lmt": 1437405661916,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/politics-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437405661916,
+                "size": 999332,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/politics.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "wizards-nba",
+            "manifest": {
+                "lmt": 1437403561908,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/wizards-nba-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437403561908,
+                "size": 392819,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/wizards-nba.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "opinions",
+            "manifest": {
+                "lmt": 1437405062165,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/opinions-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437405062165,
+                "size": 510661,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/opinions.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "world",
+            "manifest": {
+                "lmt": 1437405661959,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/world-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437405661959,
+                "size": 394520,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/world.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+
+        {
+            "name": "capitals-nhl",
+            "manifest": {
+                "lmt": 1437266762060,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/capitals-nhl-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437266762060,
+                "size": 389813,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/capitals-nhl.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "lifestyle",
+            "manifest": {
+                "lmt": 1437402962394,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/lifestyle-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437402962394,
+                "size": 429840,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/lifestyle.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "redskins-nfl",
+            "manifest": {
+                "lmt": 1435934762078,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/redskins-nfl-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1435934762078,
+                "size": 322373,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/redskins-nfl.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "plum-line",
+            "manifest": {
+                "lmt": 1437400022034,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/plum-line-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437400022034,
+                "size": 63386,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/plum-line.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "crime",
+            "manifest": {
+                "lmt": 1437403622255,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/crime-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437403622255,
+                "size": 117424,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/crime.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "wonkblog",
+            "manifest": {
+                "lmt": 1437404522805,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/wonkblog-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404522805,
+                "size": 619361,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/wonkblog.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "post-politics",
+            "manifest": {
+                "lmt": 1437404522751,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/post-politics-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404522751,
+                "size": 320661,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/post-politics.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "health-science",
+            "manifest": {
+                "lmt": 1437403621920,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/health-science-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437403621920,
+                "size": 621055,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/health-science.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "right-turn",
+            "manifest": {
+                "lmt": 1437403622352,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/right-turn-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437403622352,
+                "size": 285783,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/right-turn.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "the-fix",
+            "manifest": {
+                "lmt": 1437404522841,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/the-fix-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404522841,
+                "size": 852259,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/the-fix.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+
+        {
+            "name": "on-leadership",
+            "manifest": {
+                "lmt": 1434056522794,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/on-leadership-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1434056522794,
+                "size": 88113,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/on-leadership.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "local-politics",
+            "manifest": {
+                "lmt": 1437404522759,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/local-politics-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404522759,
+                "size": 415975,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/local-politics.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "education",
+            "manifest": {
+                "lmt": 1437396422519,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/education-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437396422519,
+                "size": 428033,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/education.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "innovations",
+            "manifest": {
+                "lmt": 1437403622010,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/innovations-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437403622010,
+                "size": 695061,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/innovations.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "worldviews",
+            "manifest": {
+                "lmt": 1437400081904,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/worldviews-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437400081904,
+                "size": 415329,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/worldviews.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "the-switch",
+            "manifest": {
+                "lmt": 1437404582894,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/the-switch-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404582894,
+                "size": 295760,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/the-switch.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "reliable-source",
+            "manifest": {
+                "lmt": 1437400082018,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/reliable-source-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437400082018,
+                "size": 378677,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/reliable-source.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "dc-united",
+            "manifest": {
+                "lmt": 1437356882937,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/dc-united-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437356882937,
+                "size": 457336,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/dc-united.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "carolyn-hax",
+            "manifest": {
+                "lmt": 1437364982841,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/carolyn-hax-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437364982841,
+                "size": 426538,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/carolyn-hax.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "going-out-guide",
+            "manifest": {
+                "lmt": 1437403682246,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/going-out-guide-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437403682246,
+                "size": 360071,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/going-out-guide.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+
+        {
+            "name": "allmetsports",
+            "manifest": {
+                "lmt": 1437187682089,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/allmetsports-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437187682089,
+                "size": 443274,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/allmetsports.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "comic-riffs",
+            "manifest": {
+                "lmt": 1437353282140,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/comic-riffs-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437353282140,
+                "size": 900386,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/comic-riffs.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "style",
+            "manifest": {
+                "lmt": 1437367682629,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/style-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437367682629,
+                "size": 519751,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/style.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "nationals-mlb",
+            "manifest": {
+                "lmt": 1437404583067,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/nationals-mlb-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404583067,
+                "size": 457017,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/nationals-mlb.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "magazine",
+            "manifest": {
+                "lmt": 1437288482767,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/magazine-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437288482767,
+                "size": 346556,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/magazine.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "on-small-business",
+            "manifest": {
+                "lmt": 1434055741880,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/on-small-business-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1434055741880,
+                "size": 72624,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/on-small-business.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "morning-mix",
+            "manifest": {
+                "lmt": 1437403742749,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/morning-mix-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437403742749,
+                "size": 415278,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/morning-mix.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "govbeat",
+            "manifest": {
+                "lmt": 1437169741821,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/govbeat-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437169741821,
+                "size": 1359051,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/govbeat.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "erik-wemple",
+            "manifest": {
+                "lmt": 1437403742675,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/erik-wemple-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437403742675,
+                "size": 157482,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/erik-wemple.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "compost",
+            "manifest": {
+                "lmt": 1437084242143,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/compost-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437084242143,
+                "size": 294570,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/compost.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+
+        {
+            "name": "capital-weather-gang",
+            "manifest": {
+                "lmt": 1437403742698,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/capital-weather-gang-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437403742698,
+                "size": 2400325,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/capital-weather-gang.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "capital-business",
+            "manifest": {
+                "lmt": 1437385742756,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/capital-business-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437385742756,
+                "size": 228868,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/capital-business.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "dr-gridlock",
+            "manifest": {
+                "lmt": 1437404642127,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/dr-gridlock-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404642127,
+                "size": 249522,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/dr-gridlock.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "post-nation",
+            "manifest": {
+                "lmt": 1437401042032,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/post-nation-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437401042032,
+                "size": 363048,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/post-nation.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "storyline",
+            "manifest": {
+                "lmt": 1434055741974,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/storyline-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1434055741974,
+                "size": 521827,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/storyline.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "achenblog",
+            "manifest": {
+                "lmt": 1437404642093,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/achenblog-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404642093,
+                "size": 313115,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/achenblog.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "she-the-people",
+            "manifest": {
+                "lmt": 1434056641825,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/she-the-people-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1434056641825,
+                "size": 496675,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/she-the-people.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "district-of-debonis",
+            "manifest": {
+                "lmt": 1434055742029,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/district-of-debonis-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1434055742029,
+                "size": 477231,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/district-of-debonis.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "fact-checker",
+            "manifest": {
+                "lmt": 1436957342523,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/fact-checker-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1436957342523,
+                "size": 472072,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/fact-checker.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "capitals-insider",
+            "manifest": {
+                "lmt": 1437148201709,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/capitals-insider-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437148201709,
+                "size": 339274,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/capitals-insider.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+
+        {
+            "name": "style-blog",
+            "manifest": {
+                "lmt": 1437403802596,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/style-blog-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437403802596,
+                "size": 420118,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/style-blog.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "the-insider",
+            "manifest": {
+                "lmt": 1437400202565,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/the-insider-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437400202565,
+                "size": 1260501,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/the-insider.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "wizards-insider",
+            "manifest": {
+                "lmt": 1437400202542,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/wizards-insider-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437400202542,
+                "size": 339730,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/wizards-insider.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "food",
+            "manifest": {
+                "lmt": 1437404702628,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/food-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404702628,
+                "size": 275997,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/food.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "books",
+            "manifest": {
+                "lmt": 1437403802657,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/books-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437403802657,
+                "size": 563879,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/books.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "photo-galleries",
+            "manifest": {
+                "lmt": 0,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/photo-galleries-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 0,
+                "size": 720509,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/photo-galleries.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "movies",
+            "manifest": {
+                "lmt": 1437400202536,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/movies-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437400202536,
+                "size": 541635,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/movies.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "kidspost",
+            "manifest": {
+                "lmt": 1437000602194,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/kidspost-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437000602194,
+                "size": 621461,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/kidspost.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "entertainment",
+            "manifest": {
+                "lmt": 1437405362254,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/entertainment-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437405362254,
+                "size": 342290,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/entertainment.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "maryland-politics",
+            "manifest": {
+                "lmt": 0,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/maryland-politics-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 0,
+                "size": 306694,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/maryland-politics.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+
+        {
+            "name": "to-your-health",
+            "manifest": {
+                "lmt": 1437397562634,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/to-your-health-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437397562634,
+                "size": 442774,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/to-your-health.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "volokh-conspiracy",
+            "manifest": {
+                "lmt": 1437177062135,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/volokh-conspiracy-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437177062135,
+                "size": 191442,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/volokh-conspiracy.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "dc-politics",
+            "manifest": {
+                "lmt": 1437404762255,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/dc-politics-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404762255,
+                "size": 274778,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/dc-politics.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "the-watch",
+            "manifest": {
+                "lmt": 1437144662102,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/the-watch-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437144662102,
+                "size": 272578,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/the-watch.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "in-the-loop",
+            "manifest": {
+                "lmt": 1434056761849,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/in-the-loop-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1434056761849,
+                "size": 325025,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/in-the-loop.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "virginia-politics",
+            "manifest": {
+                "lmt": 1437357062820,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/virginia-politics-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437357062820,
+                "size": 175952,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/virginia-politics.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "federal-eye",
+            "manifest": {
+                "lmt": 1437403862601,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/federal-eye-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437403862601,
+                "size": 414478,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/federal-eye.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "act-four",
+            "manifest": {
+                "lmt": 1437151862082,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/act-four-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437151862082,
+                "size": 439170,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/act-four.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "federal-diary",
+            "manifest": {
+                "lmt": 1437360662972,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/federal-diary-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437360662972,
+                "size": 276417,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/federal-diary.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "rampage",
+            "manifest": {
+                "lmt": 1436886362052,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/rampage-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1436886362052,
+                "size": 1963492,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/rampage.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+
+        {
+            "name": "terrapins-insider",
+            "manifest": {
+                "lmt": 1436896322196,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/terrapins-insider-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1436896322196,
+                "size": 163846,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/terrapins-insider.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "nationals-journal",
+            "manifest": {
+                "lmt": 1437404821654,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/nationals-journal-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404821654,
+                "size": 403899,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/nationals-journal.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "soccer-insider",
+            "manifest": {
+                "lmt": 1437357122553,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/soccer-insider-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437357122553,
+                "size": 623195,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/soccer-insider.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "the-intersect",
+            "manifest": {
+                "lmt": 1437404821577,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/the-intersect-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404821577,
+                "size": 680439,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/the-intersect.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "dc-sports-bog",
+            "manifest": {
+                "lmt": 1437403922288,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/dc-sports-bog-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437403922288,
+                "size": 320594,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/dc-sports-bog.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "weddings",
+            "manifest": {
+                "lmt": 1437324722678,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/weddings-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437324722678,
+                "size": 575620,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/weddings.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "travel",
+            "manifest": {
+                "lmt": 1437321122424,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/travel-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437321122424,
+                "size": 557575,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/travel.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "op-eds",
+            "manifest": {
+                "lmt": 1437404881742,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/op-eds-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404881742,
+                "size": 217049,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/op-eds.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "outlook",
+            "manifest": {
+                "lmt": 1437349981513,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/outlook-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437349981513,
+                "size": 170625,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/outlook.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "obituaries",
+            "manifest": {
+                "lmt": 1437346381760,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/obituaries-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437346381760,
+                "size": 302758,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/obituaries.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+
+        {
+            "name": "answer-sheet",
+            "manifest": {
+                "lmt": 1437331981770,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/answer-sheet-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437331981770,
+                "size": 439843,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/answer-sheet.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "digger",
+            "manifest": {
+                "lmt": 1437383282437,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/digger-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437383282437,
+                "size": 394765,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/digger.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "editorials",
+            "manifest": {
+                "lmt": 1437360782337,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/editorials-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437360782337,
+                "size": 505650,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/editorials.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "drawing-dc-together",
+            "manifest": {
+                "lmt": 1434055982008,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/drawing-dc-together-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1434055982008,
+                "size": 582753,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/drawing-dc-together.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "posteverything",
+            "manifest": {
+                "lmt": 1437404041703,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/posteverything-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404041703,
+                "size": 409178,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/posteverything.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "local-opinions",
+            "manifest": {
+                "lmt": 1437263642407,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/local-opinions-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437263642407,
+                "size": 398036,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/local-opinions.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "fancy-stats",
+            "manifest": {
+                "lmt": 1437404041710,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/fancy-stats-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404041710,
+                "size": 399956,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/fancy-stats.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "recruiting-insider",
+            "manifest": {
+                "lmt": 1437401342218,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/recruiting-insider-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437401342218,
+                "size": 222475,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/recruiting-insider.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "cavaliers",
+            "manifest": {
+                "lmt": 1436907241604,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/cavaliers-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1436907241604,
+                "size": 558930,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/cavaliers.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "hokies",
+            "manifest": {
+                "lmt": 1435179242196,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/hokies-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1435179242196,
+                "size": 509179,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/hokies.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+
+        {
+            "name": "postpartisan",
+            "manifest": {
+                "lmt": 1437403622251,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/postpartisan-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437403622251,
+                "size": 253203,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/postpartisan.zip",
+                "contentType": "application/octet-stream"
+            }
+        },
+        {
+            "name": "early-lead",
+            "manifest": {
+                "lmt": 1437404821632,
+                "size": 0,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/early-lead-manifest.json",
+                "contentType": "application/json",
+                "filePath": "/manifest.json"
+            },
+            "bundle": {
+                "lmt": 1437404821632,
+                "size": 309497,
+                "url": "https://rainbowdatanet-a.akamaihd.net/flagship_prod/ios_phone/thumb_300x300/early-lead.zip",
+                "contentType": "application/octet-stream"
+            }
+        }
+    ]
+}

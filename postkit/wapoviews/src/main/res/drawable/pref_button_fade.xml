@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:startColor="@color/pref_button_fade_start"
+        android:centerColor="@color/pref_button_fade_end"
+        android:endColor="@color/pref_button_fade_end"
+        />
+    <size
+        android:width="27dp"
+        android:height="20dp" />
+
+</shape>

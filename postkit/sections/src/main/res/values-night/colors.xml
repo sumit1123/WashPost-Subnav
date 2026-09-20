@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cell_border">#666666</color>
+    <color name="how_to_vote_headline_border_color">#ffffff</color>
+    <color name="section_front_background">#141414</color>
+    <color name="cardified_section_front_background">#252525</color>
+    <color name="sf_loading_anim_tint">#222222</color>
+    <color name="blog_front_status_curtain_text">#E6E6E6</color>
+    <color name="sf_loading_spinner">#2C2C2C</color>
+    <color name="cell_homepagestory_headline">#F7F7F7</color>
+    <color name="subscribe_button_textColorLink">#2C85FC</color>
+    <color name="appbar_bottom_border">#666666</color>
+    <color name="cell_how_to_vote">#f0f0f0</color>
+    <color name="how_to_vote_guide_text_color">#f0f0f0</color>
+    <color name="how_to_vote_button_text_color">#111111</color>
+    <color name="cell_homepagestory_deck">#f0f0f0</color>
+    <color name="cell_homepagestory_live_image_cta">#F7F7F7</color>
+    <color name="carousel_dot_color">#666666</color>
+    <color name="carousel_dot_selected_color">#F7F7F7</color>
+    <color name="exclusive_bg_color">#FFFFFF</color>
+    <color name="exclusive_text_color">#000000</color>
+    <color name="featuring_default_bg_color">#FFFFFF</color>
+    <color name="featuring_default_text_color">#000000</color>
+    <color name="compound_label_icon_tint">#fff</color>
+    <color name="compound_label_comment_icon_tint">#a1a1a1</color>
+    <color name="cell_homepagestory_comment">#a1a1a1</color>
+    <color name="cell_homepagestory_label">#F7F7F7</color>
+    <color name="cell_homepagestory_label_cardified">#FFFFFF</color>
+    <color name="stackview_border_color">#666666</color>
+    <color name="slideshow_background">#2A2A2A</color>
+
+    <color name="subscribe_banner_bg">@color/blue100</color>
+    <color name="subscribe_banner_text">@color/onPrimary_white</color>
+    <color name="subscribe_button_outline">#80ffffff</color>
+    <color name="payment_error_banner_bg">#111111</color>
+    <color name="payment_error_text">#f27b81</color>
+    <color name="payment_error_separator">#666666</color>
+    <color name="pause_banner_bg">#111111</color>
+    <color name="pause_banner_text">#f2f2f2</color>
+    <color name="pause_button_bg">#593b27</color>
+    <color name="pause_button_outline">#894208</color>
+    <color name="grid_card_color">#141414</color>
+    <color name="grid_card_shadow">#000000</color>
+    <color name="live_image_tab_text_color">#FFFFFF</color>
+    <color name="live_image_layout_background">#1A1A1A</color>
+    <color name="carousel_excerpt_text">#F2F2F2</color>
+    <color name="action_button">#A9A9A9</color>
+
+    <color name="newsletter_border">#FFFFFF</color>
+    <color name="newsletter_button">#FFFFFF</color>
+    <color name="newsletter_button_text">#111111</color>
+    <color name="count_text_color">@color/cell_homepagestory_headline</color>
+
+</resources>

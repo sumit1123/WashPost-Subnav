@@ -1,0 +1,1094 @@
+[
+  {
+    "displayName": "Top Stories",
+    "type": "section",
+    "adCodeSingle": "/701/iphone.wp.topstory",
+    "adCodeFront": "/701/iphone.wp.topstory/front",
+    "databaseId": "2589f2b6-8670-11e1-8284-17eaa17dd790",
+    "bundleName": "mobile-homepage",
+    "sectionInfo": [
+    ]
+  },
+  {
+    "displayName": "Politics",
+    "type": "section",
+    "adCodeSingle": "/701/iphone.wp.politics",
+    "adCodeFront": "/701/iphone.wp.politics/front",
+    "databaseId": "3a7abc1e-8670-11e1-9675-2b26bd3faa8d",
+    "bundleName": "politics",
+    "sectionInfo": [
+      {
+        "displayName": "The Daily 202",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.politics/powerpost",
+        "adCodeFront": "/701/iphone.wp.politics/powerpost/front",
+        "databaseId": "57fae18b-e1da-4bb1-9797-a6e1ede29b36",
+        "bundleName": "news/powerpost/wp/category/the-daily-202"
+      },
+      {
+        "displayName": "PowerPost",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.politics/powerpost",
+        "adCodeFront": "/701/iphone.wp.politics/powerpost/front",
+        "databaseId": "c495dc06-a2ac-4803-a1b3-c28720bcd89f",
+        "bundleName": "news/powerpost"
+      },
+      {
+        "displayName": "The Fix",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.politics/the_fix",
+        "adCodeFront": "/701/iphone.wp.politics/the_fix/front",
+        "databaseId": "9677a0e9-3f3c-43d1-9240-ed43d47abcbd",
+        "bundleName": "news/the-fix"
+      },
+      {
+        "displayName": "Wonkblog",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.business/wonkblog",
+        "adCodeFront": "/701/iphone.wp.business/wonkblog/front",
+        "databaseId": "f9e60ab4-72e2-490f-86f2-68926ab8b67b",
+        "bundleName": "news/wonk"
+      },
+      {
+        "displayName": "Post Politics",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.politics/post_politics",
+        "adCodeFront": "/701/iphone.wp.politics/post_politics/front",
+        "databaseId": "196b61c5-2403-4a84-8b4f-22ad6f340c61",
+        "bundleName": "news/post-politics"
+      },
+      {
+        "displayName": "Fact Checker",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.politics/fact_checker",
+        "adCodeFront": "/701/iphone.wp.politics/fact_checker/front",
+        "databaseId": "8cb56bb5-b9f3-43e9-abf9-a793f3f33b3a-2",
+        "bundleName": "news/fact-checker"
+      },
+      {
+        "displayName": "Monkey Cage",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.politics/monkey_cage",
+        "adCodeFront": "/701/iphone.wp.politics/monkey_cage/front",
+        "databaseId": "a2889a50-72cb-11e1-9b86-a32877e74e7f",
+        "bundleName": "news/monkey-cage"
+      }
+    ]
+  },
+  {
+    "displayName": "Opinions",
+    "type": "section",
+    "adCodeSingle": "/701/iphone.wp.opinions",
+    "adCodeFront": "/701/iphone.wp.opinions/front",
+    "databaseId": "3d5d3dc6-8670-11e1-a9e8-8bfcda95ff3b",
+    "bundleName": "opinions",
+    "sectionInfo": [
+      {
+        "displayName": "The Post's View",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions/editorials",
+        "adCodeFront": "/701/iphone.wp.opinions/editorials/front",
+        "databaseId": "237b87c0-8669-11e1-a3e4-13d0bab9f079",
+        "bundleName": "opinions/the-posts-view"
+      },
+      {
+        "displayName": "Tom Toles Cartoons",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions/tom_toles",
+        "adCodeFront": "/701/iphone.wp.opinions/tom_toles/front",
+        "databaseId": "29b0d84d-cc7b-4dad-9432-de632ae8cb11",
+        "bundleName": "people/tom-toles"
+      },
+      {
+        "displayName": "Ann Telnaes Cartoons",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions/ann_telnaes",
+        "adCodeFront": "/701/iphone.wp.opinions/ann_telnaes/front",
+        "databaseId": "d493e34c-6109-4a49-b201-f3704250c53e",
+        "bundleName": "people/ann-telnaes"
+      },
+      {
+        "displayName": "Local Opinions",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions/Local_Opinions",
+        "adCodeFront": "/701/iphone.wp.opinions/Local_Opinions/front",
+        "databaseId": "2b7fcb52-8669-11e1-a6db-3ff6ef0c7221",
+        "bundleName": "opinions/local-opinions"
+      },
+      {
+        "displayName": "PostEverything",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions/blog/posteverything",
+        "adCodeFront": "/701/iphone.wp.opinions/blog/posteverything/front",
+        "databaseId": "2b7fcb52-8669-11e1-a6db-3ff6ef0c1222",
+        "bundleName": "posteverything"
+      },
+      {
+        "displayName": "Global Opinions",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions/global_opinions",
+        "adCodeFront": "/701/iphone.wp.opinions/global_opinions/front",
+        "databaseId": "7618dec3-0a61-453f-b811-566efb25d615",
+        "bundleName": "global-opinions"
+      },
+      {
+        "displayName": "Act Four",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions/act_four",
+        "adCodeFront": "/701/iphone.wp.opinions/act_four/front",
+        "databaseId": "34f1d3ce-8669-11e1-818a-6f8a66718191",
+        "bundleName": "news/act-four"
+      },
+      {
+        "displayName": "All Opinions Are Local",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions/all_opinions_are_local",
+        "adCodeFront": "/701/iphone.wp.opinions/all_opinions_are_local/front",
+        "databaseId": "0a6fdba0-0767-49d9-bfab-e85f2f7ee2d0",
+        "bundleName": "blogs/all-opinions-are-local"
+      },
+      {
+        "displayName": "ComPost",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions/compost",
+        "adCodeFront": "/701/iphone.wp.opinions/compost/front",
+        "databaseId": "34f1d3ce-8669-11e1-818a-6f8a66718292",
+        "bundleName": "blogs/compost"
+      },
+      {
+        "displayName": "Erik Wemple",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions/erik_wemple",
+        "adCodeFront": "/701/iphone.wp.opinions/erik_wemple/front",
+        "databaseId": "324d982e-8669-11e1-a399-c7426e9375d0",
+        "bundleName": "blogs/erik-wemple"
+      },
+      {
+        "displayName": "In Theory",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions/in_theory",
+        "adCodeFront": "/701/iphone.wp.opinions/in_theory/front",
+        "databaseId": "ebdca6ae-2509-42f7-95e4-e8083190a660",
+        "bundleName": "news/in-theory"
+      },
+      {
+        "displayName": "Rampage",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions/rampage",
+        "adCodeFront": "/701/iphone.wp.opinions/rampage/front",
+        "databaseId": "34f1d3ce-8669-11e1-818a-6f8a66718393",
+        "bundleName": "news/rampage"
+      },
+      {
+        "displayName": "The Plum Line",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions/plum_line",
+        "adCodeFront": "/701/iphone.wp.opinions/plum_line/front",
+        "databaseId": "302ab45a-8669-11e1-8fa1-976c9c84ffb6",
+        "bundleName": "blogs/plum-line"
+      },
+      {
+        "displayName": "Right Turn",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions/right_turn",
+        "adCodeFront": "/701/iphone.wp.opinions/right_turn/front",
+        "databaseId": "2e43b5c4-8669-11e1-93c3-a35e61837ac4",
+        "bundleName": "blogs/right-turn"
+      },
+      {
+        "displayName": "PostPartisan",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions/post_partisan",
+        "adCodeFront": "/701/iphone.wp.opinions/post_partisan/front",
+        "databaseId": "2993e486-8669-11e1-9938-b7fdbe0df708",
+        "bundleName": "blogs/post-partisan"
+      },
+      {
+        "displayName": "Volokh Conspiracy",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.national/volokh_conspiracy",
+        "adCodeFront": "/701/iphone.wp.national/volokh_conspiracy/front",
+        "databaseId": "43de877e-5432-4f77-8971-cc7d58b6cdcf",
+        "bundleName": "news/volokh-conspiracy"
+      },
+      {
+        "displayName": "The Watch",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions/the_watch",
+        "adCodeFront": "/701/iphone.wp.opinions/the_watch/front",
+        "databaseId": "34f1d3ce-8669-11e1-818a-6f8a66718494",
+        "bundleName": "news/the-watch"
+      },
+      {
+        "displayName": "Danielle Allen",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "unknown",
+        "bundleName": "people/danielle-allen"
+      },
+      {
+        "displayName": "Anne Applebaum",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "4e0d836e-2a85-4749-9bd4-0a096aaf39f1",
+        "bundleName": "people/anne-applebaum"
+      },
+      {
+        "displayName": "Jonathan Capehart",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "649cbfd1-08b8-419e-b0e7-305acd77ced4",
+        "bundleName": "people/jonathan-capehart"
+      },
+      {
+        "displayName": "Richard Cohen",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "cc864c97-3b73-4ac7-a9a9-094541d07bd5",
+        "bundleName": "people/richard-cohen"
+      },
+      {
+        "displayName": "Jackson Diehl",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "ae08f6d9-a17f-4a23-a3da-3eb382ff5643",
+        "bundleName": "people/jackson-diehl"
+      },
+      {
+        "displayName": "E.J. Dionne",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "aa06700f-0ea4-4950-a370-bc6e440da6fd",
+        "bundleName": "people/ej-dionne-jr"
+      },
+      {
+        "displayName": "James Downie",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "unknown",
+        "bundleName": "people/james-downie"
+      },
+      {
+        "displayName": "Michael Gerson",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "7e37d853-1817-4dc7-8fab-bbd3451d5d70",
+        "bundleName": "people/michael-gerson"
+      },
+      {
+        "displayName": "Fred Hiatt",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "af19738b-f272-494b-95d0-9bc0a5426e89",
+        "bundleName": "people/fred-hiatt"
+      },
+      {
+        "displayName": "David Ignatius",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "dd31b23c-90de-41e7-9960-9556b1ee988a",
+        "bundleName": "people/david-ignatius"
+      },
+      {
+        "displayName": "Robert Kagan",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "dc03433b-6f8c-4f5d-8084-b3246fba11e6",
+        "bundleName": "people/robert-kagan"
+      },
+      {
+        "displayName": "Colbert King",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "317294a5-6089-4ed0-b2a1-28509c17b4a2",
+        "bundleName": "people/colbert-i-king"
+      },
+      {
+        "displayName": "Michael Kinsley",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "unknown",
+        "bundleName": "people/michael-kinsley"
+      },
+      {
+        "displayName": "Charles Krauthammer",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "b83928b3-6179-4c66-925c-5929443e0149",
+        "bundleName": "people/charles-krauthammer"
+      },
+      {
+        "displayName": "Charles Lane",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "415995b0-8838-494a-9a06-737a0bb7c0e3",
+        "bundleName": "people/charles-lane"
+      },
+      {
+        "displayName": "Ruth Marcus",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "6f8ae7b1-787d-47e8-a62f-06f1a4a96813",
+        "bundleName": "people/ruth-marcus"
+      },
+      {
+        "displayName": "Dana Milbank",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "12df68e7-bd96-4787-b6e2-4e3a8477b0b8",
+        "bundleName": "people/dana-milbank"
+      },
+      {
+        "displayName": "Kathleen Parker",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "0e80bf5f-d018-45e4-8632-13ea3d0cf274",
+        "bundleName": "people/kathleen-parker"
+      },
+      {
+        "displayName": "Alexandra Petri",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "00cf3e47-c6b5-492b-87bb-4ca91bdae683",
+        "bundleName": "people/alexandra-petri"
+      },
+      {
+        "displayName": "Catherine Rampell",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "541993b5-d381-4bcf-ab76-f59b082aac8f",
+        "bundleName": "people/catherine-rampell"
+      },
+      {
+        "displayName": "Eugene Robinson",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "51be3163-903c-4c37-a6eb-e3722d0ebadb",
+        "bundleName": "people/eugene-robinson"
+      },
+      {
+        "displayName": "Josh Rogin",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "unknown",
+        "bundleName": "people/josh-rogin"
+      },
+      {
+        "displayName": "Robert Samuelson",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "41e410c2-278e-4504-83a4-23a9578702e1",
+        "bundleName": "people/robert-j-samuelson"
+      },
+      {
+        "displayName": "Stephen Stromberg",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "unknown",
+        "bundleName": "people/stephen-stromberg"
+      },
+      {
+        "displayName": "Barton Swaim",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "unknown",
+        "bundleName": "people/barton-swaim"
+      },
+      {
+        "displayName": "Marc Thiessen",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "276b853f-e930-411c-800a-176877ca1447",
+        "bundleName": "people/marc-a-thiessen"
+      },
+      {
+        "displayName": "Katrina vanden Heuvel",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "1aa334bd-cfda-49b4-baf7-16db4b8b7028",
+        "bundleName": "people/katrina-vanden-heuvel"
+      },
+      {
+        "displayName": "George Will",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "9cf592ee-cca7-4863-b50f-6ab62ccd7a2c",
+        "bundleName": "people/george-f-will"
+      },
+      {
+        "displayName": "Fareed Zakaria",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.opinions",
+        "adCodeFront": "/701/iphone.wp.opinions",
+        "databaseId": "129688cf-408c-4d2f-b321-be89870f3014",
+        "bundleName": "people/fareed-zakaria"
+      }
+    ]
+  },
+  {
+    "displayName": "Sports",
+    "type": "section",
+    "adCodeSingle": "/701/iphone.wp.sports",
+    "adCodeFront": "/701/iphone.wp.sports/front",
+    "databaseId": "41add6a6-8670-11e1-b686-3ff3f89a1571",
+    "bundleName": "mobile-sports",
+    "sectionInfo": [
+      {
+        "displayName": "Redskins/NFL",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.sports/redskins",
+        "adCodeFront": "/701/iphone.wp.sports/redskins/front",
+        "databaseId": "3bb4b546-8669-11e1-bd24-a7c4e139e565",
+        "bundleName": "sports/redskins"
+      },
+      {
+        "displayName": "Nationals/MLB",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.sports/nationals",
+        "adCodeFront": "/701/iphone.wp.sports/nationals/front",
+        "databaseId": "42491f50-8669-11e1-a978-cfa20ae8d446",
+        "bundleName": "sports/nationals"
+      },
+      {
+        "displayName": "Capitals/NHL",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.sports/capitals",
+        "adCodeFront": "/701/iphone.wp.sports/capitals/front",
+        "databaseId": "3ec08922-8669-11e1-a2e8-031687969e76",
+        "bundleName": "sports/capitals"
+      },
+      {
+        "displayName": "Wizards/NBA",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.sports/wizards",
+        "adCodeFront": "/701/iphone.wp.sports/wizards/front",
+        "databaseId": "4055de40-8669-11e1-b86c-fbd11edbac78",
+        "bundleName": "sports/wizards"
+      },
+      {
+        "displayName": "DC United",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.sports/dcunited",
+        "adCodeFront": "/701/iphone.wp.sports/dcunited/front",
+        "databaseId": "468b1726-8669-11e1-901b-bf456664f8e2",
+        "bundleName": "news/soccer-insider/wp/category/d-c-united"
+      },
+      {
+        "displayName": "Terrapins Insider",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.sports/terrapins_insider",
+        "adCodeFront": "/701/iphone.wp.sports/terrapins_insider/front",
+        "databaseId": "586a02ae-8669-11e1-afa1-d359e4d70dc2",
+        "bundleName": "news/terrapins-insider"
+      },
+      {
+        "displayName": "AllMetSports",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.sports/AllMetSports",
+        "adCodeFront": "/701/iphone.wp.sports/AllMetSports/front",
+        "databaseId": "44681386-8669-11e1-8010-230575b13a00",
+        "bundleName": "allmetsports/2017-fall"
+      },
+      {
+        "displayName": "DC Sports Bog",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.sports/DC_sports_bog",
+        "adCodeFront": "/701/iphone.wp.sports/DC_sports_bog/front",
+        "databaseId": "4ff82c0e-8669-11e1-9892-4f2443bcdc91",
+        "bundleName": "news/dc-sports-bog"
+      },
+      {
+        "displayName": "Early Lead",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.sports/early_lead",
+        "adCodeFront": "/701/iphone.wp.sports/early_lead/front",
+        "databaseId": "568f3508-8669-11e1-9b04-6f1c07cd2622",
+        "bundleName": "news/early-lead"
+      },
+      {
+        "displayName": "Fancy Stats",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.sports/fancy_stats",
+        "adCodeFront": "/701/iphone.wp.sports/fancy_stats/front",
+        "databaseId": "dd378b56-1035-4da1-a1aa-e7fc5e8405dc",
+        "bundleName": "news/fancy-stats"
+      },
+      {
+        "displayName": "College Football",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.sports/college_football",
+        "adCodeFront": "/701/iphone.wp.sports/college_football/front",
+        "databaseId": "bb8a0ef6-d9c6-4d86-b2ca-49e5f8f6d68d",
+        "bundleName": "sports/colleges/football"
+      },
+      {
+        "displayName": "College Basketball",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.sports/college_basketball",
+        "adCodeFront": "/701/iphone.wp.sports/college_basketball/front",
+        "databaseId": "24f246e4-c3a0-41a2-90d3-44e75fe95d84",
+        "bundleName": "sports/colleges/basketball"
+      },
+      {
+        "displayName": "Soccer",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.sports/soccer",
+        "adCodeFront": "/701/iphone.wp.sports/soccer/front",
+        "databaseId": "528f0280-8669-11e1-81ce-bf051c81d4e2",
+        "bundleName": "sports/soccer"
+      },
+      {
+        "displayName": "Boxing/MMA",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.sports/boxing_mma",
+        "adCodeFront": "/701/iphone.wp.sports/boxing_mma/front",
+        "databaseId": "651b83e4-248d-4f02-9f83-6bcc0d993298",
+        "bundleName": "sports/boxing-mma"
+      },
+      {
+        "displayName": "Fantasy Sports",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.sports/fantasy_sports",
+        "adCodeFront": "/701/iphone.wp.sports/fantasy_sports/front",
+        "databaseId": "e94d207e-d8b9-4d7b-8ab5-6b8882e0c537",
+        "bundleName": "sports/fantasy-sports"
+      }
+    ]
+  },
+  {
+    "displayName": "Local",
+    "type": "section",
+    "adCodeSingle": "/701/iphone.wp.local",
+    "adCodeFront": "/701/iphone.wp.local/front",
+    "databaseId": "4466d5a0-8670-11e1-b7a4-7f7ca029bc0e",
+    "bundleName": "local",
+    "sectionInfo": [
+      {
+        "displayName": "D.C.",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.local/dc",
+        "adCodeFront": "/701/iphone.wp.local/dc/front",
+        "databaseId": "741657dc-8669-11e1-8f48-bff7e2df5454",
+        "bundleName": "local/dc"
+      },
+      {
+        "displayName": "Maryland",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.local/maryland",
+        "adCodeFront": "/701/iphone.wplocal/maryland/front",
+        "databaseId": "757ac266-8669-11e1-b9a9-f7dee960d8ea",
+        "bundleName": "local/maryland"
+      },
+      {
+        "displayName": "Virginia",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.local/virginia",
+        "adCodeFront": "/701/iphone.wp.local/virginia/front",
+        "databaseId": "773974c6-8669-11e1-99b7-6fcc79448613",
+        "bundleName": "local/virginia"
+      },
+      {
+        "displayName": "Public Safety",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.local/public_safety",
+        "adCodeFront": "/701/iphone.wp.local/public_safety/front",
+        "databaseId": "5f0a8c5a-8669-11e1-8904-1f9fa553d8aa",
+        "bundleName": "local/public-safety"
+      },
+      {
+        "displayName": "Capital Weather Gang",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.local/capital_weather_gang",
+        "adCodeFront": "/701/iphone.wp.local/capital_weather_gang/front",
+        "databaseId": "65ed1dc6-8669-11e1-876b-b321bdcb96a2",
+        "bundleName": "news/capital-weather-gang"
+      },
+      {
+        "displayName": "Dr. Gridlock",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.local/dr_gridlock",
+        "adCodeFront": "/701/iphone.wp.local/dr_gridlock/front",
+        "databaseId": "69302082-8669-11e1-bb6e-7ba6ed4db8c5",
+        "bundleName": "news/dr-gridlock"
+      },
+      {
+        "displayName": "Education",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.local/education",
+        "adCodeFront": "/701/iphone.wp.local/education/front",
+        "databaseId": "62f3865a-8669-11e1-a58b-aba31b75eec7",
+        "bundleName": "local/education"
+      },
+      {
+        "displayName": "Local Obituaries",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.local/obituaries",
+        "adCodeFront": "/701/iphone.wp.local/obituaries/front",
+        "databaseId": "78af02b2-8669-11e1-89d6-cb0c99426fbd",
+        "bundleName": "local/obituaries"
+      }
+    ]
+  },
+  {
+    "displayName": "Lifestyle",
+    "type": "section",
+    "adCodeSingle": "/701/iphone.wp.lifestyle",
+    "adCodeFront": "/701/iphone.wp.lifestyle/front",
+    "databaseId": "489c25e4-8670-11e1-a9de-4785e033a899",
+    "bundleName": "lifestyle",
+    "sectionInfo": [
+      {
+        "displayName": "Carolyn Hax",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.lifestyle/style/carolyn_hax",
+        "adCodeFront": "/701/iphone.wp.lifestyle/style/carolyn_hax/front",
+        "databaseId": "85f37854-8669-11e1-851b-fbda4625b6fa",
+        "bundleName": "people/carolyn-hax"
+      },
+      {
+        "displayName": "Arts and Entertainment",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.lifestyle/arts_entertainment",
+        "adCodeFront": "/701/iphone.wp.lifestyle/arts_entertainment/front",
+        "databaseId": "afcbbf25-927e-49cf-b52b-6e2c97491c19",
+        "bundleName": "news/arts-and-entertainment"
+      },
+      {
+        "displayName": "The Intersect",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.lifestyle/theintersect",
+        "adCodeFront": "/701/iphone.wp.lifestyle/theintersect/front",
+        "databaseId": "5ae72009-b8c1-47ee-95e6-ce6287d56d52",
+        "bundleName": "news/the-intersect"
+      },
+      {
+        "displayName": "On Parenting",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.lifestyle/on_parenting",
+        "adCodeFront": "/701/iphone.wp.lifestyle/on_parenting/front",
+        "databaseId": "5afa9861-3d4d-4a24-98a2-6364fa5bd4ab",
+        "bundleName": "lifestyle/on-parenting"
+      },
+      {
+        "displayName": "Reliable Source",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.lifestyle/reliable_source",
+        "adCodeFront": "/701/iphone.wp.lifestyle/reliable_source/front",
+        "databaseId": "b5f3556a-8669-11e1-b84d-73ed6160dc32",
+        "bundleName": "news/reliable-source"
+      },
+      {
+        "displayName": "Solo-ish",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.lifestyle/solo_ish",
+        "adCodeFront": "/701/iphone.wp.lifestyle/solo_ish/front",
+        "databaseId": "e3b9272e-e0b2-41d5-b831-58eaf39d8424",
+        "bundleName": "news/soloish"
+      },
+      {
+        "displayName": "Food",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.lifestyle/food",
+        "adCodeFront": "/701/iphone.wp.lifestyle/food/front",
+        "databaseId": "93d22f82-3b9e-4f8b-bc5b-c5105b1bebc1",
+        "bundleName": "food"
+      },
+      {
+        "displayName": "Home and Garden",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.lifestyle/home_garden",
+        "adCodeFront": "/701/iphone.wp.lifestyle/home_garden/front",
+        "databaseId": "12bd4cd5-6b5b-4cbe-a0fb-88638f0f9e97",
+        "bundleName": "lifestyle/home-garden"
+      },
+      {
+        "displayName": "Travel",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.lifestyle/travel",
+        "adCodeFront": "/701/iphone.wp.lifestyle/travel/front",
+        "databaseId": "891a3fe0-8669-11e1-9653-f37e628c3bd0",
+        "bundleName": "lifestyle/travel"
+      },
+      {
+        "displayName": "Magazine",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.lifestyle/magazine",
+        "adCodeFront": "/701/iphone.wp.lifestyle/magazine/front",
+        "databaseId": "829e53cc-8669-11e1-bc1e-7f7f86020eb9",
+        "bundleName": "lifestyle/magazine"
+      },
+      {
+        "displayName": "Fashion",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.lifestyle/fashion",
+        "adCodeFront": "/701/iphone.wp.lifestyle/fashion/front",
+        "databaseId": "0183692e-7904-4f54-ae3d-65cb0ca5eca2",
+        "bundleName": "lifestyle/fashion"
+      }
+    ]
+  },
+  {
+    "displayName": "National",
+    "type": "section",
+    "adCodeSingle": "/701/iphone.wp.national",
+    "adCodeFront": "/701/iphone.wp.national/front",
+    "databaseId": "4bf09a36-8670-11e1-a3b7-c32031080e5d",
+    "bundleName": "national",
+    "sectionInfo": [
+      {
+        "displayName": "Morning Mix",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.national/morning_mix",
+        "adCodeFront": "/701/iphone.wp.national/morning_mix/front",
+        "databaseId": "de8c650e-a438-4c35-8efd-f61f46f5a686",
+        "bundleName": "news/morning-mix"
+      },
+      {
+        "displayName": "Post Nation",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.national/post_nation",
+        "adCodeFront": "/701/iphone.wp.national/post_nation/front",
+        "databaseId": "4a2e11c7-ae1f-4354-92a0-10f8497e93e2",
+        "bundleName": "news/post-nation"
+      },
+      {
+        "displayName": "To Your Health",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.national/health-science/to_your_health",
+        "adCodeFront": "/701/iphone.wp.national/health-science/to_your_health/front",
+        "databaseId": "bf98be54-242a-4624-be44-995b8efd74d1",
+        "bundleName": "news/to-your-health"
+      },
+      {
+        "displayName": "Speaking of Science",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.national/speaking_of_science",
+        "adCodeFront": "/701/iphone.wp.national/speaking_of_science/front",
+        "databaseId": "2dbfbea7-73d2-464e-b645-d4666800c51f",
+        "bundleName": "news/speaking-of-science"
+      },
+      {
+        "displayName": "Animalia",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.nation/health-science/animalia",
+        "adCodeFront": "/701/iphone.wp.nation/health-science/animalia/front",
+        "databaseId": "63597ba0-4f58-4bc1-9d81-28fb0fde3c3f",
+        "bundleName": "news/animalia"
+      },
+      {
+        "displayName": "Checkpoint",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.world/checkpoint",
+        "adCodeFront": "/701/iphone.wp.world/checkpoint/front",
+        "databaseId": "29263123-48db-434a-b6ae-aea6af3517ee",
+        "bundleName": "news/checkpoint"
+      },
+      {
+        "displayName": "Acts of Faith",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.nation/acts_of_faith",
+        "adCodeFront": "/701/iphone.wp.world/acts_of_faith/front",
+        "databaseId": "0f5af9da-8a13-4f2e-9f5e-04a5617a20eb",
+        "bundleName": "news/acts-of-faith"
+      },
+      {
+        "displayName": "Inspired Life",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.lifestyle/inspired_life",
+        "adCodeFront": "/701/iphone.wp.lifestyle/inspired_life/front",
+        "databaseId": "183557af-975c-49a0-a7a3-5405979bfb87",
+        "bundleName": "news/inspired-life"
+      },
+      {
+        "displayName": "Answer Sheet",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.local/answer_sheet",
+        "adCodeFront": "/701/iphone.wp.local/answer_sheet/front",
+        "databaseId": "a98a2372-7af8-490a-a725-9b934971ec12",
+        "bundleName": "news/answer-sheet"
+      },
+      {
+        "displayName": "Grade Point",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.local/education/grade_point",
+        "adCodeFront": "/701/iphone.wp.local/education/grade_point/front",
+        "databaseId": "ff0c0f97-55e1-47db-aaad-af9a7e12d866",
+        "bundleName": "news/grade-point"
+      },
+      {
+        "displayName": "Achenblog",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.national/achenblog",
+        "adCodeFront": "/701/iphone.wp.national/achenblog/front",
+        "databaseId": "04df0dd9-2a0e-45cb-8922-1e05bfecbec4",
+        "bundleName": "news/achenblog"
+      },
+      {
+        "displayName": "True Crime",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.national/true_crime",
+        "adCodeFront": "/701/iphone.wp.national/true_crime/front",
+        "databaseId": "testDatabaseId",
+        "bundleName": "news/true-crime"
+      }
+    ]
+  },
+  {
+    "displayName": "World",
+    "type": "section",
+    "adCodeSingle": "/701/iphone.wp.world",
+    "adCodeFront": "/701/iphone.wp.world/front",
+    "databaseId": "4e3f59b2-8670-11e1-840e-870f070148d2",
+    "bundleName": "world",
+    "sectionInfo": [
+      {
+        "displayName": "WorldViews",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.world/blog/worldviews",
+        "adCodeFront": "/701/iphone.wp.world/blog/worldviews/front",
+        "databaseId": "90bb5680-8669-11e1-80d0-e33c1b42df9e",
+        "bundleName": "news/worldviews"
+      }
+    ]
+  },
+  {
+    "displayName": "Business",
+    "type": "section",
+    "adCodeSingle": "/701/iphone.wp.business",
+    "adCodeFront": "/701/iphone.wp.business/front",
+    "databaseId": "50734234-8670-11e1-9d16-03db2256e5b2",
+    "bundleName": "business",
+    "sectionInfo": [
+      {
+        "displayName": "Wonkblog",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.business/wonkblog",
+        "adCodeFront": "/701/iphone.wp.business/wonkblog/front",
+        "databaseId": "a23137c2-8669-11e1-b1fe-ffbdfc693d3d",
+        "bundleName": "news/wonk"
+      },
+      {
+        "displayName": "Energy and Environment",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.business/energy_environment",
+        "adCodeFront": "/701/iphone.wp.business/energy_environment/front",
+        "databaseId": "a8903f52-ab3c-42fe-9c02-35a718190b46",
+        "bundleName": "news/energy-environment"
+      },
+      {
+        "displayName": "Get There",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.business/get_there",
+        "adCodeFront": "/701/iphone.wp.business/get_there/front",
+        "databaseId": "5383207b-74ce-4fc1-9eb5-5b1e4a152665",
+        "bundleName": "news/get-there"
+      },
+      {
+        "displayName": "Capital Business",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.business/capitalbusiness",
+        "adCodeFront": "/701/iphone.wp.business/capitalbusiness/front",
+        "databaseId": "a23137c2-8669-11e1-b1fe-ffbdfc693e3e",
+        "bundleName": "business/capital-business"
+      },
+      {
+        "displayName": "Real Estate",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.realestate",
+        "adCodeFront": "/701/iphone.wp.realestate/front",
+        "databaseId": "3d593c1e-b8e3-4f3e-b3e8-10778ac726d0",
+        "bundleName": "realestate"
+      },
+      {
+        "displayName": "Digger",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.local/digger",
+        "adCodeFront": "/701/iphone.wp.local/digger/front",
+        "databaseId": "557a47b7-ae1f-4e77-904d-5803e937c706",
+        "bundleName": "news/digger"
+      },
+      {
+        "displayName": "On Small Business",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.business/on-small-business",
+        "adCodeFront": "/701/iphone.wp.business/on-small-business/front",
+        "databaseId": "a23137c2-8669-11e1-b1fe-ffbdfc693f3f",
+        "bundleName": "business/on-small-business"
+      }
+    ]
+  },
+  {
+    "displayName": "Technology",
+    "type": "section",
+    "adCodeSingle": "/701/iphone.wp.technology",
+    "adCodeFront": "/701/iphone.wp.technology/front",
+    "databaseId": "56bd3fa0-8670-11e1-ba74-637d3e66054a",
+    "bundleName": "business/technology",
+    "sectionInfo": [
+      {
+        "displayName": "The Switch",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.business/the_switch",
+        "adCodeFront": "/701/iphone.wp.business/the_switch/front",
+        "databaseId": "8cb56bb5-b9f3-43e9-abf9-a793f3f33b3a-3",
+        "bundleName": "news/the-switch"
+      },
+      {
+        "displayName": "Innovations",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.national/innovations",
+        "adCodeFront": "/701/iphone.wp.national/innovations/front",
+        "databaseId": "9517e086-8669-11e1-b304-ffed34e85a54",
+        "bundleName": "news/innovations"
+      }
+    ]
+  },
+  {
+    "displayName": "Entertainment",
+    "type": "section",
+    "adCodeSingle": "/701/iphone.wp.entertainment",
+    "adCodeFront": "/701/iphone.wp.entertainment/front",
+    "databaseId": "590ad1b4-8670-11e1-8ae1-5fac5699c66a",
+    "bundleName": "entertainment",
+    "sectionInfo": [
+      {
+        "displayName": "TV",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.entertainment/tv",
+        "adCodeFront": "/701/iphone.wp.entertainment/tv/front",
+        "databaseId": "d4cf1f9e-74f0-45a9-b401-db528b69cb24",
+        "bundleName": "entertainment/tv"
+      },
+      {
+        "displayName": "Movies",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.entertainment/movies",
+        "adCodeFront": "/701/iphone.wp.entertainment/movies/front",
+        "databaseId": "c793f2d4-8669-11e1-8888-77c32c3f49af",
+        "bundleName": "goingoutguide/movies"
+      },
+      {
+        "displayName": "Books",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.entertainment/books",
+        "adCodeFront": "/701/iphone.wp.entertainment/books/front",
+        "databaseId": "c5c7c048-8669-11e1-b65d-5b7e33041aeb",
+        "bundleName": "entertainment/books"
+      },
+      {
+        "displayName": "Comic Riffs",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.entertainment/comic_riffs",
+        "adCodeFront": "/701/iphone.wp.entertainment/comic_riffs/front",
+        "databaseId": "bf187e0e-8669-11e1-aab4-036621c1b2dc",
+        "bundleName": "news/comic-riffs"
+      },
+      {
+        "displayName": "Music",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.entertainment/music",
+        "adCodeFront": "/701/iphone.wp.entertainment/music/front",
+        "databaseId": "f075cdd8-a8ef-40fc-bc47-c652b3f834f8",
+        "bundleName": "goingoutguide/music"
+      },
+      {
+        "displayName": "Going Out Guide",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.entertainment/going_out_guide",
+        "adCodeFront": "/701/iphone.wp.entertainment/going_out_guide/front",
+        "databaseId": "bb889210-8669-11e1-a58b-4725d7cd39f9",
+        "bundleName": "goingoutguide"
+      },
+      {
+        "displayName": "Museums",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.entertainment/museums",
+        "adCodeFront": "/701/iphone.wp.entertainment/museums/front",
+        "databaseId": "65c6f424-55d4-49f9-a673-09fd80579cd0",
+        "bundleName": "goingoutguide/museums"
+      },
+      {
+        "displayName": "Theatre and Dance",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.entertainment/theater_dance",
+        "adCodeFront": "/701/iphone.wp.entertainment/theater_dance/front",
+        "databaseId": "3eb71728-e76b-43d6-8794-aa4f2b16a335",
+        "bundleName": "goingoutguide/theater-dance"
+      }
+    ]
+  },
+  {
+    "displayName": "Augmented Reality",
+    "type": "section",
+    "adCodeSingle": "/701/iphone.wp.ar-stories",
+    "adCodeFront": "/701/iphone.wp.ar-stories/front",
+    "databaseId": "83b15dc6-efba-49bb-ae15-b0fdbdc2f2d9",
+    "bundleName": "ar-stories",
+    "sectionInfo": [
+    ]
+  },
+  {
+    "displayName": "Visual Stories",
+    "type": "section",
+    "adCodeSingle": "/701/iphone.wp.photos",
+    "adCodeFront": "/701/iphone.wp.photos",
+    "databaseId": "db97c3fe-869c-11e1-ab3e-0bbab7650a6c",
+    "bundleName": "photography",
+    "sectionInfo": [
+      {
+        "displayName": "In Sight",
+        "type": "blog",
+        "adCodeSingle": "/701/iphone.wp.photography/in_sight",
+        "adCodeFront": "/701/iphone.wp.photography/in_sight/front",
+        "databaseId": "705ec80e-6cd2-4c27-8fc8-8abcf95d007e",
+        "bundleName": "news/in-sight"
+      }
+    ]
+  },
+  {
+    "displayName": "Preview",
+    "type": "section",
+    "adCodeSingle": "/701/iphone.wp.photos",
+    "adCodeFront": "/701/iphone.wp.photos",
+    "databaseId": "bbbd1c55-382a-4d12-98bb-6bc72578ccf7",
+    "bundleName": "test-sandbox",
+    "sectionInfo": [
+      {
+        "displayName": "Test Sandbox",
+        "type": "section",
+        "adCodeSingle": "/701/iphone.wp.photos",
+        "adCodeFront": "/701/iphone.wp.photos",
+        "databaseId": "bbbd1c55-382a-4d12-98bb-6bc72578ccf7",
+        "bundleName": "test-sandbox"
+      }
+    ]
+  }
+]

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_empty_state_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_post_card_bg"
+    android:paddingBottom="48dp">
+
+    <View
+        android:id="@+id/view_top_margin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_post_card_divider_height"
+        android:background="@color/my_post_container_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/my_post_card_content_left_margin"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="@dimen/my_post_card_content_left_margin"
+        android:text="For You"
+        android:textColor="@color/my_post_label"
+        android:textSize="@dimen/my_post_preview_label_text_size"
+        android:textStyle="bold"
+        app:fontFamily="@font/wp_franklinitcstd_font_family"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_top_margin"
+        app:layout_constraintWidth_default="wrap" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/my_post_card_content_left_margin"
+        android:layout_marginEnd="@dimen/my_post_card_content_left_margin"
+        android:text="Recommended Stories"
+        android:textColor="@color/my_post_desc"
+        android:textSize="@dimen/my_post_preview_desc_text_size"
+        android:textStyle="italic"
+        app:fontFamily="@font/wp_georgia_font_family"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_label"
+        app:layout_constraintWidth_default="wrap" />
+
+    <View
+        android:id="@+id/divider_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="@dimen/my_post_card_content_left_margin"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="@dimen/my_post_card_content_left_margin"
+        android:background="#E9E9E9"
+        app:layout_constraintTop_toBottomOf="@id/tv_description" />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divider_1" />
+
+    <TextView
+        android:id="@+id/tv_msg_title"
+        style="@style/my_post_msg_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="48dp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.1"
+        android:text="Sign in to get personalized recommendations"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_image" />
+
+    <TextView
+        android:id="@+id/tv_msg_desc"
+        style="@style/my_post_msg_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="48dp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.4"
+        android:text="Discover stories just for you based on your interests and reading history."
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_msg_title" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/button_open"
+        style="@style/MyPost.Action.Chip.Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/my_post_card_content_left_margin"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="@dimen/my_post_card_content_left_margin"
+        android:text="Sign in or create account"
+        android:textAppearance="@style/MyPost.Action.Chip.Light.Text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_msg_desc" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

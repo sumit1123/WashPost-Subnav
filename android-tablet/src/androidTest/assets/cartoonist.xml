@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Mike du Jour</title>
+        <link>http://www.wpmediaservices.com/comics/MikeDuJour.htm</link>
+        <description>by Mike Lester</description>
+        <language>en</language>
+        <image>
+            <title>Mike du Jour</title>
+            <url>http://www.cartoonistgroup.com/properties/mikedujour/site_images/MdJ_web_title_pigeon_660.jpg</url>
+            <link>http://www.wpmediaservices.com/comics/MikeDuJour.htm</link>
+            <width>144</width>
+        </image>
+        <atom:link href="http://cartoonistgroup.com/templates/rsswpwg.php?id=171" rel="self"
+                   type="application/rss+xml"/>
+        <item>
+            <title>Cartoon from 2013-10-21</title>
+            <link>http://cartoonistgroup.com/templates/rsswpwg.php?id=171</link>
+            <description>
+                <![CDATA[<img src="http://www.cartoonistgroup.com/properties/mikedujour/art_images/cg5258bce7ec3a4.jpg"/>]]></description>
+            <pubDate>Mon, 21 Oct 2013 00:00:00 EDT</pubDate>
+            <guid isPermaLink="false">
+                http://www.cartoonistgroup.com/properties/mikedujour/art_images/cg5258bce7ec3a4.jpg
+            </guid>
+            <media:content url="http://www.cartoonistgroup.com/properties/mikedujour/art_images/cg5258bce7ec3a4.jpg"
+                           height="242" width="725" type="image/jpeg" medium="image" isDefault="true">
+                <media:title>Mike du Jour Cartoon from 2013-10-21</media:title>
+                <media:description>Mike du Jour Cartoon from 2013-10-21</media:description>
+                <media:thumbnail
+                        url="http://www.cartoonistgroup.com/properties/mikedujour/art_images/tn_cg5258bce7ec3a4.jpg"/>
+            </media:content>
+        </item>
+        <!-- empty url & pubDate -->
+        <item>
+            <title>Cartoon from 2013-10-20</title>
+            <link></link>
+            <description>
+                <![CDATA[<img src="http://www.cartoonistgroup.com/properties/mikedujour/art_images/cg524dc78b33159.jpg"/>]]></description>
+            <pubDate></pubDate>
+            <guid isPermaLink="false">
+                http://www.cartoonistgroup.com/properties/mikedujour/art_images/cg524dc78b33159.jpg
+            </guid>
+            <media:content url=""
+                           height="343" width="725" type="image/jpeg" medium="image" isDefault="true">
+                <media:title>Mike du Jour Cartoon from 2013-10-20</media:title>
+                <media:description>Mike du Jour Cartoon from 2013-10-20</media:description>
+                <media:thumbnail
+                        url="http://www.cartoonistgroup.com/properties/mikedujour/art_images/tn_cg524dc78b33159.jpg"/>
+            </media:content>
+        </item>
+        <!-- missing link & pud date -->
+        <item>
+            <title>Cartoon from 2013-10-19</title>
+            <description>
+                <![CDATA[<img src="http://www.cartoonistgroup.com/properties/mikedujour/art_images/cg52521168bcad9.jpg"/>]]></description>
+            <guid isPermaLink="false">
+                http://www.cartoonistgroup.com/properties/mikedujour/art_images/cg52521168bcad9.jpg
+            </guid>
+        </item>
+        <!-- emoty item -->
+        <item></item>
+        <!-- missing link attribute -->
+        <item>
+            <title>Cartoon from 2013-10-17</title>
+            <link>http://cartoonistgroup.com/templates/rsswpwg.php?id=171</link>
+            <description>
+                <![CDATA[<img src="http://www.cartoonistgroup.com/properties/mikedujour/art_images/cg525211689bdaa.jpg"/>]]></description>
+            <pubDate>Thu, 17 Oct 2013 00:00:00 EDT</pubDate>
+            <guid isPermaLink="false">
+                http://www.cartoonistgroup.com/properties/mikedujour/art_images/cg525211689bdaa.jpg
+            </guid>
+            <media:content
+                           height="241" width="725" type="image/jpeg" medium="image" isDefault="true">
+                <media:title>Mike du Jour Cartoon from 2013-10-17</media:title>
+                <media:description>Mike du Jour Cartoon from 2013-10-17</media:description>
+                <media:thumbnail
+                        url="http://www.cartoonistgroup.com/properties/mikedujour/art_images/tn_cg525211689bdaa.jpg"/>
+            </media:content>
+        </item>
+        <item>
+            <title>Cartoon from 2013-10-16</title>
+            <link>http://cartoonistgroup.com/templates/rsswpwg.php?id=171</link>
+            <description>
+                <![CDATA[<img src="http://www.cartoonistgroup.com/properties/mikedujour/art_images/cg525211688d30c.jpg"/>]]></description>
+            <pubDate>Wed, 16 Oct 2013 00:00:00 EDT</pubDate>
+            <guid isPermaLink="false">
+                http://www.cartoonistgroup.com/properties/mikedujour/art_images/cg525211688d30c.jpg
+            </guid>
+            <media:content url="http://www.cartoonistgroup.com/properties/mikedujour/art_images/cg525211688d30c.jpg"
+                           height="241" width="725" type="image/jpeg" medium="image" isDefault="true">
+                <media:title>Mike du Jour Cartoon from 2013-10-16</media:title>
+                <media:description>Mike du Jour Cartoon from 2013-10-16</media:description>
+                <media:thumbnail
+                        url="http://www.cartoonistgroup.com/properties/mikedujour/art_images/tn_cg525211688d30c.jpg"/>
+            </media:content>
+        </item>
+        <item>
+            <title>Cartoon from 2013-10-15</title>
+            <link>http://cartoonistgroup.com/templates/rsswpwg.php?id=171</link>
+            <description>
+                <![CDATA[<img src="http://www.cartoonistgroup.com/properties/mikedujour/art_images/cg525211687e0c5.jpg"/>]]></description>
+            <pubDate>Tue, 15 Oct 2013 00:00:00 EDT</pubDate>
+            <guid isPermaLink="false">
+                http://www.cartoonistgroup.com/properties/mikedujour/art_images/cg525211687e0c5.jpg
+            </guid>
+            <media:content url="http://www.cartoonistgroup.com/properties/mikedujour/art_images/cg525211687e0c5.jpg"
+                           height="241" width="725" type="image/jpeg" medium="image" isDefault="true">
+                <media:title>Mike du Jour Cartoon from 2013-10-15</media:title>
+                <media:description>Mike du Jour Cartoon from 2013-10-15</media:description>
+                <media:thumbnail
+                        url="http://www.cartoonistgroup.com/properties/mikedujour/art_images/tn_cg525211687e0c5.jpg"/>
+            </media:content>
+        </item>
+    </channel>
+</rss>

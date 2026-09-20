@@ -1,0 +1,19 @@
+{
+  "pushConfig": {
+    "availableSubscriptionTopics": [
+      {
+        "id": "breaking-news",
+        "displayName": "Breaking News",
+        "key": "breaking-news",
+        "isOptional": false,
+        "alias": "bn"
+      },
+      {
+        "id": "opinions",
+        "displayName": "Opinions",
+        "key": "opinions",
+        "alias": "op"
+      }
+    ]
+  }
+}

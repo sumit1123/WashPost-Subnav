@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wapo.flagship.features.pagebuilder.RelatedLinksView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/related_links"
+    style="?attr/homepage_story_related_links_style"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" />

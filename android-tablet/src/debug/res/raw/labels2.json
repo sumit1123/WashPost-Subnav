@@ -1,0 +1,2156 @@
+{
+  "layout": "homepage",
+  "output_type": "jsonapp",
+  "tracking": {
+    "page_name": "front - undefined",
+    "page_title": "",
+    "page_path": "",
+    "channel": "front - undefined"
+  },
+  "regions": [
+    {
+      "location": "content",
+      "items": [
+        {
+          "id": "0fR6w2acIrr",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "layout_name": "full-span",
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "allcontent",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "0fY5w2acIrr",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "section-large",
+                    "position": "default",
+                    "alignment": "center",
+                    "icon": "camera",
+                    "show_arrow": true,
+                    "label": {
+                      "text": "FULL-SPAN CENTERED DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "Full-Span 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0ff4O2fpTrT",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "package",
+                    "position": "default",
+                    "alignment": "center",
+                    "icon": "chart",
+                    "show_arrow": true,
+                    "label": {
+                      "text": "PACKAGE CENTERED DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "Package 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0fYD6OepTrW",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "package-nested",
+                    "position": "default",
+                    "alignment": "center",
+                    "icon": "chart",
+                    "show_arrow": true,
+                    "label": {
+                      "text": "PACKAGE NESTED CENTERED DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "Package Nested 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0fuMMofpTr1",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "section-small",
+                    "position": "default",
+                    "alignment": "center",
+                    "icon": "headphones",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Section Small Centered Default pos"
+                    },
+                    "label_secondary": {
+                      "text": "Section Small 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0fLrdKfpTr5",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "center",
+                    "icon": "camera",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "PILL CENTERED DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "Pill 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "f0fhjBaAxejsaP",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "exclusive-pill",
+                    "position": "default",
+                    "alignment": "center",
+                    "icon": "camera",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "EXCLUSIVE PILL CENTERED DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "Exclusive Pill 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0ft0VqgpTrI",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "kicker",
+                    "position": "default",
+                    "alignment": "center",
+                    "icon": "chart",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Kicker Centered Default pos"
+                    },
+                    "label_secondary": {
+                      "text": "Kicker 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0fAAev5ITrx",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "mini-all-caps",
+                    "position": "default",
+                    "alignment": "center",
+                    "icon": "chart",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MINI ALL-CAPS CENTERED DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "Kicker 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 7,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 7,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 7,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 7,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 7,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "f0fNie2yeXzu2W",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "live-updates",
+                    "position": "default",
+                    "alignment": "center",
+                    "icon": "chart",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "LIVE UPDATES CENTERED DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "Live Updates 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 8,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 8,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 8,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 8,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 8,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        },
+        {
+          "id": "0fT9Nh8ITrb",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "layout_name": "full-span",
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "allcontent",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "0fy9Nh8ITrj",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "section-large",
+                    "position": "default",
+                    "alignment": "inherit",
+                    "icon": "none",
+                    "show_arrow": true,
+                    "label": {
+                      "text": "FULL-SPAN DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "Full-Span 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0fu9Nh8ITrf",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "package",
+                    "position": "default",
+                    "alignment": "inherit",
+                    "icon": "none",
+                    "show_arrow": true,
+                    "label": {
+                      "text": "PACKAGE DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "Package 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0fX9Nh8ITrz",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "package-nested",
+                    "position": "default",
+                    "alignment": "inherit",
+                    "icon": "none",
+                    "show_arrow": true,
+                    "label": {
+                      "text": "PACKAGE NESTED DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "Package Nested 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0fP9Nh8ITry",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "section-small",
+                    "position": "default",
+                    "alignment": "inherit",
+                    "icon": "none",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Section Small Default pos"
+                    },
+                    "label_secondary": {
+                      "text": "Section Small 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0ff9Nh8ITrm",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "inherit",
+                    "icon": "none",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "PILL DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "Pill 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "f0fIlBgZlIrxHN",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "exclusive-pill",
+                    "position": "default",
+                    "alignment": "inherit",
+                    "icon": "none",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "EXCLUSIVE PILL DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "Exclusive Pill 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0fC9Nh8ITrC",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "kicker",
+                    "position": "default",
+                    "alignment": "inherit",
+                    "icon": "none",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Kicker Default pos"
+                    },
+                    "label_secondary": {
+                      "text": "Kicker 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0fI9Nh8ITrH",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "mini-all-caps",
+                    "position": "default",
+                    "alignment": "inherit",
+                    "icon": "none",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MINI ALL-CAPS DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "Mini ALL-CAPS 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 7,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 7,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 7,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 7,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 7,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "f0fsjsobL3ulyb",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "live-updates",
+                    "position": "default",
+                    "alignment": "inherit",
+                    "icon": "none",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "LIVE UPDATES DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "Live Updates 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 8,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 8,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 8,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 8,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 8,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        },
+        {
+          "id": "0fqlqfaITrv",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "layout_name": "full-span",
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "table_name": "allcontent",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "0fBlqfaITrC",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "section-large",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "icon": "election-star",
+                    "show_arrow": true,
+                    "label": {
+                      "text": "FULL-SPAN ABOVE HED POS"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0fslqfaITrK",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "package",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "icon": "election-star",
+                    "show_arrow": true,
+                    "label": {
+                      "text": "PACKAGE ABOVE HED POS"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0f3lqfaITrL",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "package-nested",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "icon": "election-star",
+                    "show_arrow": true,
+                    "label": {
+                      "text": "PACKAGE NESTED ABOVE HED POS"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 2,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0fVlqfaITrx",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "section-small",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "icon": "election-star",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Section Small Above Hed pos"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 3,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0fdlqfaITrs",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "icon": "election-star",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "PILL ABOVE HED POS"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 4,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "f0fJew6EcW0BoA",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "exclusive-pill",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "icon": "election-star",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "EXCLUSIVE PILL ABOVE HED POS"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 5,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0f6lqfaITrP",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "kicker",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "icon": "election-star",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Kicker Above Hed pos"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 6,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0fPlqfaITr5",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "mini-all-caps",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "icon": "election-star",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MINI ALL-CAPS ABOVE HED POS"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 7,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 7,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 7,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 7,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 7,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "f0fRL9oTwtTBMT",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "live-updates",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "icon": "election-star",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "LIVE UPDATES ABOVE HED POS"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 8,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 8,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 8,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 8,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 8,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0fPlqfaITr5",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "mini-all-caps",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "icon": "olympics",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Olympics label test"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 9,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 9,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 9,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 9,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 9,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0fPlqfaITr5",
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": false,
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "mini-all-caps",
+                    "position": "above-headline",
+                    "alignment": "inherit",
+                    "icon": "world-cup",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "World Cup 2022 test"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 10,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 10,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 10,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 10,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 10,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "0ac9e7b8-6734-48ab-bf73-3f15c495a219",
+                  "item_type": "fronts/flex-feature",
+                  "item_type_impl": "fronts/newsletter-module",
+                  "display_name": "nl-voraciously",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      },
+                      "right": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "left": {
+                        "items": [
+                          "headline",
+                          "blurbs",
+                          "cta"
+                        ]
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.washingtonpost.com/newsletters/eat-voraciously/",
+                    "type": "web"
+                  },
+                  "label": {
+                    "type": "newsletter",
+                    "position": "default",
+                    "alignment": "left",
+                    "label": {
+                      "text": "NEWSLETTER"
+                    },
+                    "label_secondary": {
+                      "text": "4X A WEEK"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/newsletters/eat-voraciously/",
+                      "type": "unknown"
+                    }
+                  },
+                  "media": {
+                    "art_width": "small",
+                    "aspect_ratio": 1.78,
+                    "url": "https://palomaimages.washingtonpost.com/prod/512x288_EatVoraciously_tstmp_1623881472.jpg",
+                    "media_type": "image",
+                    "image_type": null,
+                    "art_position": "art-right-of-head"
+                  },
+                  "headline": {
+                    "text": "Eat Voraciously",
+                    "size": "small",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Never ask what’s for dinner again. Get one quick, adaptable and creative recipe in your inbox.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "cta": {
+                    "type": "button",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Sign up"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/newsletters/eat-voraciously/",
+                      "type": "unknown"
+                    }
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 11,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 11,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 11,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 11,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 11,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": true,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        }
+      ]
+    }
+  ],
+  "checksum": "llglgoV22lpmtaus202n2612R"
+}

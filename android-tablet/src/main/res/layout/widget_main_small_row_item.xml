@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/widget_small_container"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content">
+
+    <RelativeLayout
+        a:id="@+id/widget_small_navigator"
+        a:layout_width="wrap_content"
+        a:layout_height="match_parent"
+        a:layout_alignParentRight="true">
+
+        <ImageButton
+            a:id="@+id/widget_small_navigator_up"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentTop="true"
+            a:background="?android:attr/selectableItemBackground"
+            a:padding="@dimen/widget_navigator_padding" />
+
+        <ImageButton
+            a:id="@+id/widget_small_navigator_down"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentBottom="true"
+            a:background="?android:attr/selectableItemBackground"
+            a:padding="@dimen/widget_navigator_padding" />
+    </RelativeLayout>
+
+    <ImageView
+        a:id="@+id/widget_small_dark_divider_horizontal"
+        a:layout_width="1dp"
+        a:layout_height="match_parent"
+        a:layout_toLeftOf="@id/widget_small_navigator"
+        a:background="#FFE6E6E6" />
+
+    <ImageView
+        a:id="@+id/widget_small_light_divider_horizontal"
+        a:layout_width="1dp"
+        a:layout_height="match_parent"
+        a:layout_toLeftOf="@id/widget_small_dark_divider_horizontal"
+        a:background="#FFFFFFFF" />
+
+    <LinearLayout
+        a:id="@+id/widget_small_header_container"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_alignParentTop="true"
+        a:layout_toLeftOf="@+id/widget_small_light_divider_horizontal"
+        a:gravity="left|center_vertical"
+        a:orientation="horizontal"
+        a:paddingLeft="@dimen/widget_header_horizontal_padding"
+        a:paddingTop="@dimen/widget_header_vertical_padding"
+        a:paddingRight="@dimen/widget_header_horizontal_padding"
+        a:paddingBottom="@dimen/widget_header_vertical_padding">
+
+        <ImageView
+            a:id="@+id/widget_small_header_logo"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center_vertical"
+            a:background="?android:attr/selectableItemBackground" />
+
+        <ImageView
+            a:id="@+id/widget_small_header_logo_divider"
+            a:layout_width="1dp"
+            a:layout_height="match_parent"
+            a:layout_marginLeft="@dimen/widget_header_horizontal_padding"
+            a:background="#FFE6E6E6" />
+
+        <FrameLayout
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_marginLeft="@dimen/widget_header_horizontal_padding"
+            a:layout_weight="1"
+            a:gravity="left|center_vertical">
+
+            <TextView
+                a:id="@+id/widget_small_header_section_text"
+                style="@style/widgetTitle"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:background="?android:attr/selectableItemBackground" />
+        </FrameLayout>
+
+        <ImageButton
+            a:id="@+id/widget_small_header_refresh"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center_vertical"
+            a:layout_marginLeft="@dimen/widget_header_horizontal_padding"
+            a:background="?android:attr/selectableItemBackground"
+            a:padding="2dp" />
+
+        <TextView
+            a:id="@+id/widget_small_header_article_xOfx_text"
+            style="@style/widgetCounter"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_gravity="center_vertical"
+            a:layout_marginLeft="@dimen/widget_header_horizontal_padding"
+            a:gravity="center"
+            a:minEms="3"
+            a:text="1 of 9" />
+    </LinearLayout>
+
+    <ImageView
+        a:id="@+id/widget_small_dark_divider_vertical"
+        a:layout_width="match_parent"
+        a:layout_height="1dp"
+        a:layout_below="@id/widget_small_header_container"
+        a:layout_toLeftOf="@+id/widget_small_light_divider_horizontal"
+        a:background="#FFE6E6E6" />
+
+    <ImageView
+        a:id="@+id/widget_small_light_divider_vertical"
+        a:layout_width="match_parent"
+        a:layout_height="1dp"
+        a:layout_below="@id/widget_small_dark_divider_vertical"
+        a:layout_toLeftOf="@+id/widget_small_light_divider_horizontal"
+        a:background="#FFFFFFFF" />
+
+    <TextView
+        a:id="@+id/widget_small_article_body_item_text"
+        style="@style/widgetHeadlineText"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:layout_below="@id/widget_small_light_divider_vertical"
+        a:layout_toLeftOf="@+id/widget_small_light_divider_horizontal"
+        a:background="?android:attr/selectableItemBackground"
+        a:gravity="left|center_vertical"
+        a:paddingLeft="@dimen/widget_content_horizontal_padding"
+        a:paddingTop="@dimen/widget_content_vertical_padding"
+        a:paddingRight="@dimen/widget_content_horizontal_padding"
+        a:paddingBottom="@dimen/widget_content_vertical_padding" />
+</RelativeLayout>

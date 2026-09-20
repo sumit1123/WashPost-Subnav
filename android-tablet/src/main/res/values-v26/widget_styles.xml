@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="tabletWidgetText">
+        <item name="android:textColor">#2a2a2a</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="tabletWidgetTitle" parent="tabletWidgetText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/wp_franklin_itc_pro_font_family</item>
+    </style>
+
+    <style name="tabletWidgetLabel" parent="tabletWidgetText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/wp_franklinitcstd_font_family</item>
+    </style>
+
+    <style name="tabletWidgetHeadline" parent="tabletWidgetText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/wp_postoniwide_font_family</item>
+    </style>
+
+    <style name="widgetTitle" parent="tabletWidgetText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/wp_franklin_itc_pro_font_family</item>
+    </style>
+
+    <style name="widgetCounter" parent="tabletWidgetText">
+        <item name="android:textSize">10sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:fontFamily">@font/wp_franklinitcstd_font_family</item>
+    </style>
+
+    <style name="widgetHeadline" parent="tabletWidgetText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:fontFamily">@font/wp_postoniwide_font_family</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

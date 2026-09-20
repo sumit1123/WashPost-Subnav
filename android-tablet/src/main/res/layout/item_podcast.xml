@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_native_audio_article_view_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/podcast_article_view_background_color"
+    android:layout_marginTop="@dimen/podcast_article_view_outer_margin"
+    android:layout_marginBottom="@dimen/podcast_article_view_outer_margin"
+    android:paddingLeft="@dimen/podcast_article_view_outer_padding_horizontal"
+    android:paddingTop="@dimen/podcast_article_view_outer_padding_vertical"
+    android:paddingRight="@dimen/podcast_article_view_outer_padding_horizontal"
+    android:paddingBottom="@dimen/podcast_article_view_outer_padding_vertical">
+
+    <TextView
+        android:id="@+id/series_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/podcast_article_view_title_bottom_margin"
+        android:includeFontPadding="false"
+        android:textColor="@color/podcast_article_view_text_color"
+        android:textSize="@dimen/podcast_article_view_text_size" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/podcast_article_view_image_size"
+        android:layout_height="@dimen/podcast_article_view_image_size"
+        android:layout_below="@id/series_title"
+        android:layout_alignParentBottom="false"
+        android:visibility="gone"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/episode_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/series_title"
+        android:layout_marginStart="@dimen/podcast_article_view_center_margin"
+        android:layout_marginLeft="@dimen/podcast_article_view_center_margin"
+        android:layout_toEndOf="@id/image"
+        android:layout_toRightOf="@id/image"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="3"
+        android:textColor="@color/podcast_article_view_text_color"
+        android:textSize="@dimen/podcast_article_view_episode_title_text_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/podcast_article_view_control_size"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/episode_title"
+        android:layout_toEndOf="@id/image"
+        android:layout_toRightOf="@id/image">
+
+        <FrameLayout
+            android:id="@+id/controls"
+            android:layout_width="@dimen/podcast_article_view_control_size"
+            android:layout_height="@dimen/podcast_article_view_control_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/podcast_article_view_center_margin"
+            android:layout_marginLeft="@dimen/podcast_article_view_center_margin">
+
+            <ImageView
+                android:id="@id/exo_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="#0000"
+                android:src="@drawable/podcast_btn_play" />
+
+            <ImageView
+                android:id="@id/exo_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="#0000"
+                android:visibility="gone"
+                android:src="@drawable/podcast_btn_pause" />
+
+            <ProgressBar
+                android:id="@+id/loadingSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/transparent"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/podcast_article_view_center_margin"
+            android:layout_marginLeft="@dimen/podcast_article_view_center_margin"
+            android:textColor="@color/podcast_article_view_text_color"
+            android:textSize="@dimen/podcast_article_view_text_size" />
+    </LinearLayout>
+</RelativeLayout>

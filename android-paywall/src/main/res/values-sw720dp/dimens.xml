@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2019. The Washington Post
+  -->
+<resources>
+    <!-- Reminder Screen -->
+    <dimen name="reminder_close_icon_margin_top">16dp</dimen>
+    <dimen name="reminder_close_icon_margin_right">16dp</dimen>
+    <dimen name="reminder_text_views_horizontal_margin">60dp</dimen>
+    <dimen name="reminder_buttons_min_width">480dp</dimen>
+    <dimen name="reminder_buttons_min_height">60dp</dimen>
+
+    <dimen name="reminder_screen_text_h1_font_size">40sp</dimen>
+    <dimen name="reminder_screen_text_h21_font_size">20sp</dimen>
+    <dimen name="reminder_screen_text_h22_font_size">24sp</dimen>
+    <dimen name="reminder_screen_text_h3_font_size">20sp</dimen>
+    <dimen name="reminder_screen_button_font_size">20sp</dimen>
+
+</resources>

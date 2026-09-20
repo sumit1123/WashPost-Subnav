@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="city_search_box_offset_top">4dip</dimen>
+    <dimen name="city_search_box_offset_bottom">4dip</dimen>
+    <dimen name="city_search_box_offset_left">8dip</dimen>
+    <dimen name="city_search_box_offset_right">8dip</dimen>
+</resources>

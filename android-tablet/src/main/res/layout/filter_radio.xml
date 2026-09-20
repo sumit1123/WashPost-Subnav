@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/filter_container_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/search_card_bg">
+
+    <com.google.android.material.radiobutton.MaterialRadioButton
+        android:id="@+id/radio"
+        style="@style/filter_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/radio_color"
+        android:text="temp" />
+
+</FrameLayout>

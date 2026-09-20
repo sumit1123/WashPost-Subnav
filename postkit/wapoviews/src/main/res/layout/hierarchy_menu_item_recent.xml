@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content"
+    a:orientation="vertical">
+
+    <LinearLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:orientation="vertical"
+        a:paddingLeft="@dimen/menu_item_left_margin"
+        a:paddingTop="16dp">
+
+        <TextView
+            style="@style/Menu.Label.Text"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:text="RECENTLY VISITED" />
+
+        <com.wapo.view.menu.RecentHorizontalScrollView
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:clipToPadding="false"
+            a:paddingTop="11dp"
+            a:paddingEnd="8dp"
+            a:scrollbars="none">
+
+            <com.google.android.material.chip.ChipGroup
+                a:id="@+id/recent_cg"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                app:chipSpacing="8dp"
+                app:singleLine="true" />
+        </com.wapo.view.menu.RecentHorizontalScrollView>
+    </LinearLayout>
+
+</LinearLayout>

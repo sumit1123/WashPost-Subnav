@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/paywall_container"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_background"
+    android:paddingBottom="@dimen/paywall_margin"
+    android:paddingTop="@dimen/paywall_margin"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/paywall_sheet_side_margin"
+        android:paddingRight="@dimen/paywall_sheet_side_margin"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+    <com.washingtonpost.android.paywall.bottomsheet.ui.component.old.TopLabelView
+        android:id="@+id/top_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/offer_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_marginBottom="@dimen/acquisition_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@id/top_label"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/subscribe_button"
+        android:layout_width="@dimen/subscribe_button_width"
+        android:layout_height="@dimen/subscribe_button_height"
+        android:maxWidth="@dimen/subscribe_button_width"
+        android:text="Subscribe"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:textSize="@dimen/acquisition_button_text_size"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@drawable/button_background"
+        />
+
+    <com.washingtonpost.android.paywall.bottomsheet.ui.component.old.SubTextView
+        android:id="@+id/sub_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

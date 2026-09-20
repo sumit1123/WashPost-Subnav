@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="faint">#1a1a1a</color>
+    <color name="gray0">#ffffff</color>
+    <color name="gray20">#f2f2f2</color>
+    <color name="gray60">#b1b1b1</color>
+    <color name="gray80">#a1a1a1</color>
+    <color name="gray100">#f7f7f7</color>
+    <color name="gray200">#494949</color>
+    <color name="gray300">#333333</color>
+    <color name="gray400">#252525</color>
+    <color name="gray500">#202020</color>
+    <color name="gray600">#1a1a1a</color>
+    <color name="gray700">#141414</color>
+
+    <color name="alpha500">#0cffffff</color>
+
+    <color name="audio_pill">#737373</color>
+    <color name="live_bullet_color">#CF000E</color>
+    <color name="onPrimary">#020202</color>
+    <color name="primary">#f2f2f2</color>
+    <color name="secondary">#020202</color>
+    <color name="subtle">#2b2b2b</color>
+    <color name="advertisement_label">#a1a1a1</color>
+
+    <color name="onSurface">@color/gray0</color>
+    <color name="onSurface_subtle">@color/gray60</color>
+    <color name="surface">@color/gray500</color>
+    <color name="background_for_surfaces">@color/gray700</color>
+    <color name="surface_highest">@color/gray300</color>
+
+    <color name="outline_subtle">@color/alpha500</color>
+    <color name="onBackground_subtle">@color/gray80</color>
+
+    <color name="live_update_text_color">#F27B81</color>
+
+</resources>

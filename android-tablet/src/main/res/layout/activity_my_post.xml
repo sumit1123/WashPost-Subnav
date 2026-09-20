@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="?attr/app_bar_day_night_style"
+        app:contentInsetStartWithNavigation="0dp"
+        app:navigationIcon="?attr/app_bar_nav_arrow_icon">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fontFamily="@font/wp_franklinitcstd_font_family"
+            android:text="@string/my_post"
+            android:textColor="@color/navigation_icon_tint"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/settings"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="end"
+            android:padding="12dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/action_settings"
+            android:src="@drawable/ic_settings" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/nav_host_fragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/surface"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/navigation_my_post" />
+
+        <FrameLayout
+            android:id="@+id/persistent_player_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:visibility="visible"
+            android:background="@color/tile_card_background"
+            app:layout_behavior="com.wapo.flagship.views.MoveUpForSnackbarBehavior" />
+
+        <androidx.compose.ui.platform.ComposeView
+            android:id="@+id/regwall_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

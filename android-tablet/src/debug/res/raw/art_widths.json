@@ -1,0 +1,501 @@
+{
+  "layout": "homepage",
+  "output_type": "jsonapp",
+  "name": "labels",
+  "regions": [
+    {
+      "location": "top-content",
+
+      "items": [
+        {
+          "table_name": "top table",
+          "item_type": "grid",
+          "items": [
+            {
+              "chain_name": "table 1",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": { "colspan": 16, "row": 0, "col": 0},
+                "large": { "colspan": 16, "row": 0, "col": 0},
+                "medium": { "colspan": 12, "row": 0, "col": 0},
+                "small": { "colspan": 10, "row": 0, "col": 0},
+                "xsmall": { "colspan": 1, "row": 0, "col": 0}
+              },
+              "items": [
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 0, "col": 0},
+                    "large": { "colspan": 16, "row": 0, "col": 0},
+                    "medium": { "colspan": 12, "row": 0, "col": 0},
+                    "small": { "colspan": 10, "row": 0, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 0, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "size": "medium",
+                    "text": "16 large.",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-headline",
+                    "art_width": "large"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 1, "col": 0},
+                    "large": { "colspan": 16, "row": 1, "col": 0},
+                    "medium": { "colspan": 12, "row": 1, "col": 0},
+                    "small": { "colspan": 10, "row": 1, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 1, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "size": "medium",
+                    "text": "16 medium.",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-headline",
+                    "art_width": "medium"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 2, "col": 0},
+                    "large": { "colspan": 16, "row": 2, "col": 0},
+                    "medium": { "colspan": 12, "row": 2, "col": 0},
+                    "small": { "colspan": 10, "row": 2, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 2, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "size": "medium",
+                    "text": "16 small.",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-headline",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 3, "col": 0},
+                    "large": { "colspan": 16, "row": 3, "col": 0},
+                    "medium": { "colspan": 12, "row": 3, "col": 0},
+                    "small": { "colspan": 10, "row": 3, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 3, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "size": "medium",
+                    "text": "16 x-small.",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-headline",
+                    "art_width": "x-small"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "size": "large",
+          "line": true
+        },
+        {
+          "table_name": "chain 2",
+          "item_type": "grid",
+          "items": [
+            {
+              "chain_name": "table 1",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": { "colspan": 8, "row": 0, "col": 0},
+                "large": { "colspan": 8, "row": 0, "col": 0},
+                "medium": { "colspan": 8, "row": 0, "col": 0},
+                "small": { "colspan": 8, "row": 0, "col": 0},
+                "xsmall": { "colspan": 1, "row": 0, "col": 0}
+              },
+              "items": [
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 8, "row": 0, "col": 0},
+                    "large": { "colspan": 8, "row": 0, "col": 0},
+                    "medium": { "colspan": 8, "row": 0, "col": 0},
+                    "small": { "colspan": 8, "row": 0, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 0, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "size": "medium",
+                    "text": "8 large.",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-headline",
+                    "art_width": "large"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 8, "row": 1, "col": 0},
+                    "large": { "colspan": 8, "row": 1, "col": 0},
+                    "medium": { "colspan": 8, "row": 1, "col": 0},
+                    "small": { "colspan": 8, "row": 1, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 1, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "size": "medium",
+                    "text": "8 medium.",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-headline",
+                    "art_width": "medium"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 8, "row": 2, "col": 0},
+                    "large": { "colspan": 8, "row": 2, "col": 0},
+                    "medium": { "colspan": 8, "row": 2, "col": 0},
+                    "small": { "colspan": 8, "row": 2, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 2, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "size": "medium",
+                    "text": "8 small.",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-headline",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 8, "row": 3, "col": 0},
+                    "large": { "colspan": 8, "row": 3, "col": 0},
+                    "medium": { "colspan": 8, "row": 3, "col": 0},
+                    "small": { "colspan": 8, "row": 3, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 3, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "size": "medium",
+                    "text": "8 x-small.",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-headline",
+                    "art_width": "x-small"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "size": "large",
+          "line": true
+        },
+        {
+          "table_name": "top table",
+          "item_type": "grid",
+          "items": [
+            {
+              "chain_name": "table 1",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": { "colspan": 4, "row": 0, "col": 0},
+                "large": { "colspan": 4, "row": 0, "col": 0},
+                "medium": { "colspan": 4, "row": 0, "col": 0},
+                "small": { "colspan": 4, "row": 0, "col": 0},
+                "xsmall": { "colspan": 1, "row": 0, "col": 0}
+              },
+              "items": [
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 4, "row": 0, "col": 0},
+                    "large": { "colspan": 4, "row": 0, "col": 0},
+                    "medium": { "colspan": 4, "row": 0, "col": 0},
+                    "small": { "colspan": 4, "row": 0, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 0, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "size": "medium",
+                    "text": "4 large.",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-headline",
+                    "art_width": "large"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 4, "row": 1, "col": 0},
+                    "large": { "colspan": 4, "row": 1, "col": 0},
+                    "medium": { "colspan": 4, "row": 1, "col": 0},
+                    "small": { "colspan": 4, "row": 1, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 1, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "size": "medium",
+                    "text": "4 medium.",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-headline",
+                    "art_width": "medium"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 4, "row": 2, "col": 0},
+                    "large": { "colspan": 4, "row": 2, "col": 0},
+                    "medium": { "colspan": 4, "row": 2, "col": 0},
+                    "small": { "colspan": 4, "row": 2, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 2, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "size": "medium",
+                    "text": "4 small.",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-headline",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 4, "row": 3, "col": 0},
+                    "large": { "colspan": 4, "row": 3, "col": 0},
+                    "medium": { "colspan": 4, "row": 3, "col": 0},
+                    "small": { "colspan": 4, "row": 3, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 3, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "headline": {
+                    "size": "medium",
+                    "text": "4 x-small.",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-headline",
+                    "art_width": "x-small"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checksum": -456905666
+}

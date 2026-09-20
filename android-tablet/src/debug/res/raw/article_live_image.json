@@ -1,0 +1,348 @@
+{
+  "id": "1da5d5f5739ca8ac9daf86a128d4c8ce",
+  "type": "article",
+  "renderer": "native",
+  "arcId": "VF5TUQOPVVF25KK5EYLO7P6EEA",
+  "title": "Live Elex Components",
+  "blurb": "This is a test LUF to implement live components in child posts, starting with Elex Components",
+  "contenturl": "https://www.washingtonpost.com/elections/2024/02/08/live-elex-components/",
+  "shareurl": "https://www.washingtonpost.com/elections/2024/02/08/live-elex-components/",
+  "source": "the-washington-post",
+  "section": "Elections",
+  "sourcesection": null,
+  "sourcesubsection": null,
+  "sourcecategory": "Elections",
+  "lmt": 1708109485708,
+  "published": 1708109485708,
+  "first_published": 1707408728174,
+  "display_date": 1708106658941,
+  "socialImage": "https://arc-anglerfish-washpost-sandbox-sandbox-washpost.s3.amazonaws.com/public/SOZOMRSCN4I6HMBI32JC26R7I4",
+  "sourceslug": "live-elex-components",
+  "commercialnode": null,
+  "omniture": {
+    "title": "Live Elex Components - The Washington Post",
+    "pageName": null,
+    "channel": null,
+    "contentId": "1da5d5f5739ca8ac9daf86a128d4c8ce",
+    "contentType": "story - live-all",
+    "contentSource": "the-washington-post",
+    "contentTopics": null,
+    "newsroomDesk": null,
+    "newsroomSubdesk": null,
+    "contentAuthor": null,
+    "authorId": null,
+    "authorType": null,
+    "subSection": null,
+    "arcId": "VF5TUQOPVVF25KK5EYLO7P6EEA",
+    "trackingTags": "created from template id btcwm34fqrdzvksvbgothibt3i;story-has-edit-branch;coverage-active;elections-primary-general;nomethode;latest-exclude"
+  },
+  "version": 1,
+  "tags": "created from template id btcwm34fqrdzvksvbgothibt3i,story-has-edit-branch,coverage-active,elections-primary-general,nomethode,latest-exclude",
+  "items": [
+    {
+      "content": "Elections",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": true,
+      "displayLabel": "Live",
+      "path": "/elections",
+      "group": "card-0"
+    },
+    {
+      "content": "Live Elex Components",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1",
+      "group": "card-0"
+    },
+    {
+      "type": "image",
+      "mime": "application/octet-stream",
+      "imageURL": "https://arc-anglerfish-washpost-sandbox-sandbox-washpost.s3.amazonaws.com/public/SOZOMRSCN4I6HMBI32JC26R7I4",
+      "imageWidth": 6016,
+      "imageHeight": 4016,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "UNDATED HANDOUT IMAGE: A southern grasshopper mouse (Onychomys torridus) as it approaches and sniffs the Arizona bark scorpion(Centruroides sculpturatus) that it has just killed.- Hungry desert-dwelling wild mice have evolved the ability to shrug off the pain of a scorpion sting in order to gobble them up for a meal, scientists said October 24, 2013. (Photo by Matthew P. Rowe) **UNDATED HANDOUT IMAGE, MANDATORY CREDIT, NO TRADE, NO SALE** (Matthew P. Rowe)",
+      "blurb": "UNDATED HANDOUT IMAGE: A southern grasshopper mouse (Onychomys torridus) as it approaches and sniffs the Arizona bark scorpion(Centruroides sculpturatus) that it has just killed.- Hungry desert-dwelling wild mice have evolved the ability to shrug off the pain of a scorpion sting in order to gobble them up for a meal, scientists said October 24, 2013. (Photo by Matthew P. Rowe) **UNDATED HANDOUT IMAGE, MANDATORY CREDIT, NO TRADE, NO SALE**",
+      "group": "card-0"
+    },
+    {
+      "content": "By Patrick",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "name": "Patrick"
+        }
+      ],
+      "group": "card-0"
+    },
+    {
+      "content": 1708106658941,
+      "mime": "text/plain",
+      "type": "date",
+      "group": "card-0"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "breakpoints": [
+        "large"
+      ],
+      "group": "card-1"
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-GCL6ITEKO5H6NA5JOKPCUN42LA",
+      "group": "card-1"
+    },
+    {
+      "type": "pin",
+      "content": "Pinned",
+      "group": "card-1"
+    },
+    {
+      "type": "image",
+      "imageURL": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-01-15-election-race-us-president-2024-race-feed_ResultsMap/364.png",
+      "darkModeImageURL": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-01-15-election-race-us-president-2024-race-feed_ResultsMap/364-dark.png",
+      "imageHeight": 262,
+      "imageWidth": 364,
+      "isLive": true,
+      "widthFactor": "default",
+      "group": "card-1"
+    },
+    {
+      "type": "ad",
+      "style": "luf",
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "breakpoints": [
+        "small",
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-IVRTZOFT7BAYVIUOWQBJ37NHLQ",
+      "group": "card-2"
+    },
+    {
+      "type": "pin",
+      "content": "Pinned",
+      "group": "card-2"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Live Component Demo",
+      "group": "card-2"
+    },
+    {
+      "type": "image",
+      "imageURL": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-02-06-election-nv-us-president-2024-republican-primary-feed_ResultsMap/364.png",
+      "darkModeImageURL": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-02-06-election-nv-us-president-2024-republican-primary-feed_ResultsMap/364-dark.png",
+      "imageHeight": 590,
+      "imageWidth": 364,
+      "isLive": true,
+      "widthFactor": "default",
+      "group": "card-2"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "breakpoints": [
+        "large"
+      ],
+      "group": "card-3"
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-CVMO5B7ZAVASJLKWFQC6SSDXDU",
+      "group": "card-3"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1708032248778,
+      "group": "card-3"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "One more test for the road",
+      "group": "card-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Yee heckin’ haw?",
+      "group": "card-3"
+    },
+    {
+      "type": "image",
+      "imageURL": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-02-24-election-sc-us-president-2024-republican-primary-feed_ResultsTable/364.png",
+      "darkModeImageURL": null,
+      "imageHeight": 126,
+      "imageWidth": 364,
+      "isLive": true,
+      "widthFactor": "default",
+      "group": "card-3"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "breakpoints": [
+        "large"
+      ],
+      "group": "card-4"
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-EEMOINU3ONCQFASXZQGWGMOADE",
+      "group": "card-4"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1708031700019,
+      "group": "card-4"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "This is an update with a component",
+      "group": "card-4"
+    },
+    {
+      "type": "image",
+      "imageURL": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-02-24-election-sc-us-president-2024-republican-primary-feed_ResultsTable/364.png",
+      "darkModeImageURL": null,
+      "imageHeight": 126,
+      "imageWidth": 364,
+      "isLive": true,
+      "widthFactor": "default",
+      "group": "card-4"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "How does this render?",
+      "group": "card-4"
+    },
+    {
+      "type": "ad",
+      "style": "luf",
+      "kind": "block",
+      "size": "medium",
+      "adPath": null,
+      "breakpoints": [
+        "small",
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-EIA7MNTVCJEKLEPVQNZWNLDJRA",
+      "group": "card-5"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1708031574802,
+      "group": "card-5"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "This is an updated post thing",
+      "group": "card-5"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "breakpoints": [
+        "large"
+      ],
+      "group": "card-6"
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-KY5SHSJSQRDT3C2SEOSUTJOMHQ",
+      "group": "card-6"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1707406117635,
+      "group": "card-6"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "This is a test update",
+      "group": "card-6"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "content_restriction_code": "default",
+  "tableOfContents": {
+    "children": [
+      {
+        "title": "Quick Post: ",
+        "arcId": "GCL6ITEKO5H6NA5JOKPCUN42LA",
+        "anchor": "link-GCL6ITEKO5H6NA5JOKPCUN42LA",
+        "displayDate": 1707404736036
+      },
+      {
+        "title": "Live Component Demo",
+        "arcId": "IVRTZOFT7BAYVIUOWQBJ37NHLQ",
+        "anchor": "link-IVRTZOFT7BAYVIUOWQBJ37NHLQ",
+        "displayDate": 1708106658941
+      },
+      {
+        "title": "One more test for the road",
+        "arcId": "CVMO5B7ZAVASJLKWFQC6SSDXDU",
+        "anchor": "link-CVMO5B7ZAVASJLKWFQC6SSDXDU",
+        "displayDate": 1708032248778
+      },
+      {
+        "title": "This is an update with a component",
+        "arcId": "EEMOINU3ONCQFASXZQGWGMOADE",
+        "anchor": "link-EEMOINU3ONCQFASXZQGWGMOADE",
+        "displayDate": 1708031700019
+      },
+      {
+        "title": "This is an updated post thing",
+        "arcId": "EIA7MNTVCJEKLEPVQNZWNLDJRA",
+        "anchor": "link-EIA7MNTVCJEKLEPVQNZWNLDJRA",
+        "displayDate": 1708031574802
+      },
+      {
+        "title": "This is a test update",
+        "arcId": "KY5SHSJSQRDT3C2SEOSUTJOMHQ",
+        "anchor": "link-KY5SHSJSQRDT3C2SEOSUTJOMHQ",
+        "displayDate": 1707406117635
+      }
+    ]
+  },
+  "first_display_date": 1707408727499
+}

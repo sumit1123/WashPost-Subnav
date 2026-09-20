@@ -1,0 +1,348 @@
+{
+  "id": "784cc9d80c12f130a928ea2f6e5ba1c2",
+  "type": "blog",
+  "subtype": "default",
+  "renderer": "native",
+  "arcId": "ECZQ4JCYANEXLAEQNSJM6UQ6UQ",
+  "title": "Two days in a row, UK reaches its highest national May temperature on record",
+  "blurb": "Test page the 7 live",
+  "contenturl": "https://www.washingtonpost.com/utils/2026/06/05/two-days-row-uk-reaches-its-highest-national-may-temperature-record/",
+  "content_type": "article",
+  "shareurl": "https://www.washingtonpost.com/utils/2026/06/05/two-days-row-uk-reaches-its-highest-national-may-temperature-record/",
+  "source": null,
+  "section": "Utils",
+  "sourcesection": "tracking section ben",
+  "sourcesubsection": "trackingsubsection - ben",
+  "sourcecategory": "Utils",
+  "lmt": 1782251677744,
+  "published": 1782251677744,
+  "first_published": 1780684798456,
+  "display_date": 1780684798456,
+  "socialImage": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/ZH24GSYEFCHOAXWVN3RC27LZ7U.JPG",
+  "sourceslug": "the-7-live-test",
+  "commercialnode": "/utils",
+  "omniture": {
+    "title": "Two days in a row, UK reaches its highest national May temperature on record - The Washington Post",
+    "pageName": "two-days-row-uk-reaches-its-highest-national-may-temperature-record",
+    "channel": "tracking section ben",
+    "contentId": "nullECZQ4JCYANEXLAEQNSJM6UQ6UQ",
+    "contentType": "story - default",
+    "contentSource": null,
+    "contentTopics": "Utils and testing",
+    "newsroomDesk": "climate",
+    "newsroomSubdesk": "futures - climate & weather",
+    "contentAuthor": "ben noll",
+    "authorId": "nollb",
+    "authorType": "staff writer",
+    "subSection": "trackingsubsection - ben",
+    "arcId": "ECZQ4JCYANEXLAEQNSJM6UQ6UQ",
+    "trackingTags": "template-the-seven-live;the-7-live;pinned-collections-the-7-live"
+  },
+  "version": 2,
+  "tags": "template-the-seven-live,the-7-live,pinned-collections-the-7-live",
+  "items": [
+    {
+      "content": "The Seven",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "The 7",
+      "style": "the-7-live"
+    },
+    {
+      "content": "Two days in a row, UK reaches its highest national May temperature on record",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "Test page the 7 live",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "content": 1780684798456,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/ECZQ4JCYANEXLAEQNSJM6UQ6UQ/20260605-184032.166/manifest.json",
+      "adsUrl": "https://wp.mc.tritondigital.com/WASHPOST_ARTICLES/media/washpost-audio-articles/ECZQ4JCYANEXLAEQNSJM6UQ6UQ/20260605-184032.166/eleven-labs_en-US_Rebecca_standard_audio.mp3?awCollectionId=/topics/the-seven-live&awEpisodeId=ECZQ4JCYANEXLAEQNSJM6UQ6UQ&tags=template-the-seven-live%7Cthe-7-live%7Cpinned-collections-the-7-live",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/ECZQ4JCYANEXLAEQNSJM6UQ6UQ/20260605-184032.166/eleven-labs_en-US_Rebecca_standard_audio.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/ZH24GSYEFCHOAXWVN3RC27LZ7U.JPG",
+        "imageWidth": 8256,
+        "imageHeight": 5504,
+        "fullcaption": "(Craig Hudson/For the Washington Post)"
+      },
+      "title": {
+        "content": "Two days in a row, UK reaches its highest national May temperature on record",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "The Seven",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "The 7",
+        "style": "the-7-live"
+      },
+      "date": {
+        "content": 1780684798456,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      },
+      "adconfig": {
+        "adSetUrl": "https://cmod-world.live.streamtheworld.com/ondemand/ars?type=[break-type]&maxAds=[max-ads]&delivery-method=progressive&ttag=[triton-ttag]&us_privacy=[us-privacy]&gdpr=[gdpr]&gdpr_consent=[gdpr-consent]&feed-type=txt2speech&content-language=en&site-url=https%3A%2F%2Fwww.washingtonpost.com&bundle-id=[bundle-id]&store-id=[store-id]&store-url=[store-url]&break-number=[break-number]&ext_stid=wp-1407653",
+        "primarySectionID": "/utils"
+      },
+      "duration": 64000
+    },
+    {
+      "content": "By Ben Noll",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "nollb",
+          "url": "https://www.washingtonpost.com/people/ben-noll/",
+          "name": "Ben Noll",
+          "bio": "Ben Noll is a meteorologist passionate about explaining the why behind the weather, extreme events and climate trends. He has expertise in data analysis, supercomputer-driven graphics and forecasting weather worldwide.",
+          "expertise": "Weather, climate and meteorological data visualization",
+          "image": "https://author-service-images-prod-us-east-1.publishing.aws.arc.pub/washpost/bade7001-1a1a-4ffb-98c4-070a8d8fa6d4.png"
+        }
+      ]
+    },
+    {
+      "arcId": "CCTWUHVXBJCAZCMIR25ZGMRNGM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "arcId": "3CZSAFAW3REA5LMCSEQIMG72LE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZH24GSYEFCHOAXWVN3RC27LZ7U_size-normalized.JPG",
+      "imageWidth": 8256,
+      "imageHeight": 5504,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "WASHINGTON, DC- APRIL  02: Clark, a bald eagle, is seen with his handler Daniel Cone at the Darcy hotel in Washington, D.C., on April 02, 2024. (Craig Hudson for The Washington Post)",
+      "blurb": "WASHINGTON, DC- APRIL  02: Clark, a bald eagle, is seen with his handler Daniel Cone at the Darcy hotel in Washington, D.C., on April 02, 2024. (Photo by Craig Hudson for The Washington Post)"
+    },
+    {
+      "type": "link",
+      "subtype": "comments"
+    },
+    {
+      "type": "autorecirc_carousel",
+      "subtype": "the-7-live",
+      "carouselId": 0
+    },
+    {
+      "type": "author_info",
+      "id": "nollb",
+      "name": "Ben Noll",
+      "bio": "Ben Noll is a meteorologist passionate about explaining the why behind the weather, extreme events and climate trends. He has expertise in data analysis, supercomputer-driven graphics and forecasting weather worldwide.",
+      "image": "https://author-service-images-prod-us-east-1.publishing.aws.arc.pub/washpost/bade7001-1a1a-4ffb-98c4-070a8d8fa6d4.png",
+      "role": "Global weather writer/meteorologist"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "show_summary": false,
+  "blogname": "Utils",
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/ECZQ4JCYANEXLAEQNSJM6UQ6UQ/20260605-184032.166/manifest.json",
+    "adsUrl": "https://wp.mc.tritondigital.com/WASHPOST_ARTICLES/media/washpost-audio-articles/ECZQ4JCYANEXLAEQNSJM6UQ6UQ/20260605-184032.166/eleven-labs_en-US_Rebecca_standard_audio.mp3?awCollectionId=/topics/the-seven-live&awEpisodeId=ECZQ4JCYANEXLAEQNSJM6UQ6UQ&tags=template-the-seven-live%7Cthe-7-live%7Cpinned-collections-the-7-live",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/ECZQ4JCYANEXLAEQNSJM6UQ6UQ/20260605-184032.166/eleven-labs_en-US_Rebecca_standard_audio.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/ZH24GSYEFCHOAXWVN3RC27LZ7U.JPG",
+      "imageWidth": 8256,
+      "imageHeight": 5504,
+      "fullcaption": "(Craig Hudson/For the Washington Post)"
+    },
+    "title": {
+      "content": "Two days in a row, UK reaches its highest national May temperature on record",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "The Seven",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "The 7",
+      "style": "the-7-live"
+    },
+    "date": {
+      "content": 1780684798456,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    },
+    "adconfig": {
+      "adSetUrl": "https://cmod-world.live.streamtheworld.com/ondemand/ars?type=[break-type]&maxAds=[max-ads]&delivery-method=progressive&ttag=[triton-ttag]&us_privacy=[us-privacy]&gdpr=[gdpr]&gdpr_consent=[gdpr-consent]&feed-type=txt2speech&content-language=en&site-url=https%3A%2F%2Fwww.washingtonpost.com&bundle-id=[bundle-id]&store-id=[store-id]&store-url=[store-url]&break-number=[break-number]&ext_stid=wp-1407653",
+      "primarySectionID": "/utils"
+    },
+    "duration": 64000
+  },
+  "targeting": {
+    "adcall": [
+      {
+        "key": "ca",
+        "values": [
+          "rsolo",
+          "romxp",
+          "rhsqk",
+          "rfpdz",
+          "rwnn0",
+          "re1w0",
+          "r8463",
+          "rh8kh",
+          "rehh9",
+          "rqpy3",
+          "r4bh6",
+          "rmikf",
+          "rysqo",
+          "r02mg",
+          "rktca",
+          "rhjj5",
+          "r03o4",
+          "ryq7t",
+          "ry4ek",
+          "r785o",
+          "r1yqm",
+          "rg06l",
+          "rzxhh",
+          "r0227",
+          "rmk71",
+          "rihix",
+          "r0kbr",
+          "rqyhw",
+          "rer82",
+          "rrqij",
+          "rvzgt",
+          "r4ozi",
+          "rgpk6",
+          "rll0u",
+          "r0new",
+          "rnp2g",
+          "rwlh3",
+          "rybe7",
+          "r6g7f",
+          "rvn0g",
+          "r0hej",
+          "r6f4o",
+          "rdu47",
+          "rh5p3",
+          "r9p7i",
+          "rnknt",
+          "rwhl0",
+          "r9hok",
+          "rg5cq",
+          "ra7ai",
+          "ruk1b",
+          "rlc5f",
+          "r50pl",
+          "r9mfh",
+          "rtc0b",
+          "rwmfa",
+          "r7e5f",
+          "r6eks",
+          "rd1zm",
+          "ro9sc",
+          "rtppi",
+          "r1tay",
+          "rmjrh",
+          "r05in",
+          "rd9wl",
+          "r4hly",
+          "r1r06",
+          "rcplj",
+          "rpmmu",
+          "rtdzb",
+          "rmxov",
+          "r6su5",
+          "r44uv",
+          "rz5hb",
+          "r9piq",
+          "ry017",
+          "rh26e"
+        ]
+      },
+      {
+        "key": "se",
+        "values": [
+          "xkuy"
+        ]
+      },
+      {
+        "key": "bs",
+        "values": [
+          "garm_safe",
+          "bgrt41",
+          "wapo_rsk_low"
+        ]
+      }
+    ],
+    "iab": {
+      "sectioncat": [
+        "IAB12"
+      ],
+      "pagecat": [
+        "IAB12-2"
+      ]
+    },
+    "permutive_dict": {
+      "article": {
+        "customTopics": [
+          "[rqpy3] B2_Election 2016_legacyaux_WC9"
+        ],
+        "sentiment": [
+          "[xkuy] mixed"
+        ],
+        "publishDate": "2026-06-05T18:36:56.611Z",
+        "lastUpdateDate": "2026-06-23T21:54:37.832Z",
+        "authorName": [
+          "ben noll"
+        ],
+        "authorType": [
+          "author"
+        ],
+        "newsroomDesk": [
+          "climate"
+        ],
+        "contentType": "story - default",
+        "language": "en",
+        "wordCount": 119
+      },
+      "canonicalUrl": "/the-seven-live/2026/06/05/two-days-row-uk-reaches-its-highest-national-may-temperature-record/"
+    }
+  },
+  "comments": "https://www.washingtonpost.com/utils/2026/06/05/two-days-row-uk-reaches-its-highest-national-may-temperature-record/?outputType=comment"
+}

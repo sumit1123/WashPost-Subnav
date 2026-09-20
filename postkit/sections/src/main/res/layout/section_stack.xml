@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_carousel_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.wapo.view.stack.FlexibleStackView
+        android:id="@+id/stackView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="6dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+    <!-- We need an additional framelayout
+    because FlexibleStackView uses clipChildren for better
+    animation but TabLayout doesn't render well because of this
+      -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="224dp"
+            android:layout_height="8dp"
+            android:layout_gravity="center"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="0dp"
+            app:tabMaxWidth="16dp"
+            app:tabMinWidth="16dp"
+            app:tabMode="scrollable" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

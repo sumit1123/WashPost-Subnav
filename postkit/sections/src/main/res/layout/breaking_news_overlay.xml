@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/breaking_news_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popup_background_breaking"
+    android:clickable="true"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:src="@drawable/close_icon"
+        android:id="@+id/close"
+        android:contentDescription="@string/close"
+        android:layout_alignParentRight="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_marginRight="60dp"
+        android:fontFamily="@font/wp_franklin_itc_pro_font_family"
+        android:textStyle="bold"
+        android:id="@+id/breaking_news_text"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:textSize="@dimen/article_breaking_news_headline" />
+</RelativeLayout>

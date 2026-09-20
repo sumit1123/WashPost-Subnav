@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="Account Settings">
+    <androidx.preference.PreferenceCategory
+        android:key="@string/pref_account_category"
+        android:layout="@layout/preference_category_layout"
+        android:selectable="false"
+        android:title="Account"
+        app:allowDividerAbove="true"
+        app:iconSpaceReserved="false">
+
+    <Preference
+        android:iconSpaceReserved="false"
+        android:key="@string/pref_settings_sign_in"
+        android:persistent="false"
+        android:title="Sign in or create account"
+        android:widgetLayout="@layout/preference_widget_layout"
+        app:iconSpaceReserved="false" />
+
+    <Preference
+        android:iconSpaceReserved="false"
+        android:key="@string/pref_edit_email"
+        android:persistent="false"
+        android:summary="someone@gmail.com"
+        android:title="Edit email and password"
+        android:widgetLayout="@layout/preference_widget_layout"
+        app:iconSpaceReserved="false" />
+
+    <Preference
+        android:iconSpaceReserved="false"
+        android:key="@string/pref_edit_name"
+        android:persistent="false"
+        android:title="Edit name and photo"
+        android:widgetLayout="@layout/preference_widget_layout"
+        app:iconSpaceReserved="false" />
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory
+        android:key="@string/pref_sub_terms_category"
+        android:layout="@layout/preference_category_layout"
+        android:selectable="false"
+        android:title="Subscription Terms"
+        app:allowDividerAbove="true"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:defaultValue="true"
+            android:key="@string/pref_app_store_terms"
+            android:persistent="false"
+            android:selectable="true"
+            android:title="Play Store Terms"
+            android:widgetLayout="@layout/preference_widget_layout"
+            app:iconSpaceReserved="false" />
+
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory
+        android:key="@string/pref_developer_category"
+        android:title="Developer"
+        android:layout="@layout/preference_category_layout"
+        app:iconSpaceReserved="false">
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory
+        android:key="@string/pref_user_category"
+        android:title="User"
+        android:layout="@layout/preference_category_layout"
+        app:iconSpaceReserved="false">
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory
+        android:key="@string/pref_subscription_category"
+        android:title="Subscription"
+        android:layout="@layout/preference_category_layout"
+        app:iconSpaceReserved="false">
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory
+        android:key="@string/pref_add_on_category"
+        android:title="Add-On Subscriptions"
+        android:layout="@layout/preference_category_layout"
+        app:iconSpaceReserved="false">
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory
+        android:key="@string/pref_networking_category"
+        android:title="Networking"
+        android:layout="@layout/preference_category_layout"
+        app:iconSpaceReserved="false">
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

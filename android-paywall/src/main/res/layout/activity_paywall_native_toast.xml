@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pw_native_bg"
+    tools:context="com.washingtonpost.android.paywall.billing.PaywallNativeToastActivity">
+    <RelativeLayout
+        android:id="@+id/pw_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pw_webview_title_color">
+
+        <Button
+            android:id="@+id/close_toast_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_close" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/logo" />
+    </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/toast_title_message"
+            android:textSize="24sp"
+            android:layout_marginTop="@dimen/pw_top_margin_toast"
+            style="@style/pw_native_toast_message"
+            android:text="@string/pw_purchase_success"/>
+        <TextView
+            android:textSize="20sp"
+            android:text="@string/pw_prime_message"
+            style="@style/pw_native_toast_message"
+            android:id="@+id/toast_content_message"/>
+        <TextView
+            style="@style/pw_native_toast_message"
+            android:text="@string/pw_contact_us"
+            android:id="@+id/toast_subtext"/>
+        <Button
+            android:gravity="center"
+            android:text="Start Reading"
+            style="@style/pw_start_reading_button"
+            android:background="@color/bright_blue"
+            android:id="@+id/continue_btn"/>
+
+
+
+</LinearLayout>

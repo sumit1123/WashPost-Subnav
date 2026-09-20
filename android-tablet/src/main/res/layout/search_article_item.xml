@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/search_card_bg"
+    style="@style/search_container_style"
+    android:elevation="3dp"
+    android:outlineSpotShadowColor="@color/search_shadow">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/headline"
+        style="@style/search_article_headline_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="U.S. national cyber strategy to stress Biden push on regulation. U.S. national cyber strategy to stress Biden push on regulation. U.S. national cyber strategy to stress Biden push on regulation"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/byline"
+        style="@style/search_article_byline_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="By Author Name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/image"
+        app:layout_constraintTop_toBottomOf="@id/headline" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image"
+        android:layout_width="106dp"
+        android:layout_height="90dp"
+        android:background="@color/search_shadow"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/rounded_square"
+        app:srcCompat="@drawable/carousel_placeholder" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

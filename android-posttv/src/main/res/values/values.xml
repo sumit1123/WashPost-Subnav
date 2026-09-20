@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="exo_styled_controls_play">@drawable/exo_legacy_controls_play</drawable>
+    <drawable name="exo_styled_controls_pause">@drawable/exo_legacy_controls_pause</drawable>
+    <dimen name="exo_icon_padding">14dp</dimen>
+</resources>

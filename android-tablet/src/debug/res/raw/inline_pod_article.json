@@ -1,0 +1,353 @@
+{
+  "id": "727a644fa4d8a979c20430f0a692f012",
+  "type": "article",
+  "renderer": "native",
+  "arcId": "Y6ZPQOIY4RFRBFR5JI6UAFX3BM",
+  "title": "Funday briefing: Queen Elizabeth under medical supervision; Memphis shooting; ALS drug; Thursday Night Football; and more",
+  "blurb": "Idk",
+  "contenturl": "https://www.washingtonpost.com/the-seven/2021/08/31/monday-briefing-catch-up-minutes-with-these-7-stories-2-3-2-2/",
+  "shareurl": "https://www.washingtonpost.com/the-seven/2021/08/31/monday-briefing-catch-up-minutes-with-these-7-stories-2-3-2-2/",
+  "source": "The Washington Post",
+  "section": "Topics",
+  "sourcesection": null,
+  "sourcesubsection": null,
+  "sourcecategory": "Topics",
+  "lmt": 1667260867372,
+  "published": 1667260867372,
+  "first_published": 1666806191414,
+  "display_date": 1666806188811,
+  "socialImage": null,
+  "sourceslug": "eschow-test-the-7-brief-sandbox",
+  "commercialnode": null,
+  "omniture": {
+    "title": "The 7 things you need to know for Thursday, Sept. 8 - The Washington Post",
+    "pageName": null,
+    "channel": null,
+    "contentId": "727a644fa4d8a979c20430f0a692f012",
+    "contentType": "article",
+    "contentSource": "The Washington Post",
+    "contentTopics": null,
+    "newsroomDesk": null,
+    "newsroomSubdesk": null,
+    "contentAuthor": null,
+    "authorId": null,
+    "authorType": null,
+    "subSection": null,
+    "arcId": "Y6ZPQOIY4RFRBFR5JI6UAFX3BM",
+    "trackingTags": "story-has-edit-branch;the template that was used to create this story;audio-article"
+  },
+  "tags": "story-has-edit-branch,the template that was used to create this story,audio-article",
+  "items": [
+    {
+      "content": "The Seven",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "The 7"
+    },
+    {
+      "content": "Funday briefing: Queen Elizabeth under medical supervision; Memphis shooting; ALS drug; Thursday Night Football; and more",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "content": "Inflation. Internet bills. Child tax credits. Britney Spears. Texas Democrats. Voting rights. South Africa.",
+      "mime": "text/plain",
+      "type": "deck"
+    },
+    {
+      "type": "podcast",
+      "subtype": "inline",
+      "dataServiceAdaptor": "Podcast",
+      "mediaID": "635971dc46e0fb00087125be",
+      "duration": 729,
+      "episodeName": "Wednesday, October 26, 2022",
+      "seriesName": "The 7",
+      "podtracURL": "https://www.podtrac.com/pts/redirect.mp3/d2i9ke5o9i0vh8.cloudfront.net/testaccount/audio-article/20221026/635971b046e0fb00087125af/635971b3b0429009af1ed128_1351620000001-300040_t_1666806200418_44100_128_2.mp3",
+      "seriesSlug": "the-seven",
+      "episodeSlug": "wednesday-october-26-2022",
+      "subscriptionLinks": {
+        "rss": "https://podcast.posttv.com/itunes/the-seven.xml"
+      }
+    },
+    {
+      "content": "By Emily Chow",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "chowes",
+          "url": "https://www.washingtonpost.com/people/emily-chow/",
+          "name": "Emily Chow",
+          "bio": "Emily Chow left the Washington Post in 2017. She was a designer, developer and editor on the graphics and news design teams \u2014\u00a0using the intersection of journalism and technology to tell powerful visually-rich stories."
+        }
+      ]
+    },
+    {
+      "content": 1666806188811,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "1. Yes, your groceries (and most everything else) are more expensive than ever.",
+      "subhead_level": 2
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/html",
+      "content": [
+        "<b>Bad news first: Inflation is rising. </b>Prices <a href=\"https://www.washingtonpost.com/business/2021/07/13/inflation-cpi-june-prices-fed/?itid=lk_inline_manual_4\">jumped 5.4 percent</a> in June compared to last year. That\u2019s the largest spike since 2008.",
+        "<b>How big of a deal is this? </b>Experts are divided over whether the increases are here to stay or are a temporary part of recovery from the pandemic."
+      ]
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "2. Millions of parents will get $300 from the IRS deposited in their bank accounts starting tomorrow.",
+      "subhead_level": 2
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/html",
+      "content": [
+        "<b>What are these payments? </b>The <a href=\"https://www.washingtonpost.com/business/2021/07/13/child-tax-credit-payments-irs/?itid=lk_inline_manual_8\">child tax credit</a> was expanded under the latest coronavirus relief bill and will be distributed monthly for the rest of 2021.",
+        "<b>Who qualifies?</b> Parents of children 5 and under can receive up to $300 a month. Parents of children ages 6-17 can get up to $250 a month.",
+        "<b>How do I sign up?</b> It should be automatic. The IRS is pulling information from tax returns, like it did for the stimulus checks."
+      ]
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "3. President Biden called GOP-led voting restrictions the biggest threat to democracy since the Civil War.",
+      "subhead_level": 2
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/html",
+      "content": [
+        "<b>His speech yesterday </b>was an attempt to give new momentum to passing a <a href=\"https://www.washingtonpost.com/politics/biden-voting-speech/2021/07/13/afd91f7a-e3d9-11eb-8aa5-5662858b696e_story.html?itid=lk_inline_manual_14\">law that protects voting rights</a>.",
+        "<b>What Biden did not do: </b>Call for the Senate to change the filibuster, which advocates say is the only way to get a bill on voting rights passed."
+      ]
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "4. Dozens of Democratic lawmakers from Texas who left the state to block restrictive voting legislation are in D.C. pleading with Congress to act.",
+      "subhead_level": 3
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/html",
+      "content": [
+        "<b>This is the second time this year</b> they have <a href=\"https://www.washingtonpost.com/politics/biden-voting-speech/2021/07/13/afd91f7a-e3d9-11eb-8aa5-5662858b696e_story.html?itid=lk_inline_manual_19\">staged a walkout</a> to avoid a vote on this issue.",
+        "<b>GOP lawmakers in the Texas House </b>directed state troopers to arrest the missing lawmakers when they return to Texas, a move backed by the governor."
+      ]
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "5. Britney\u2019s back in court today in the high-profile fight over her conservatorship.",
+      "subhead_level": 3
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/html",
+      "content": [
+        "<a href=\"https://www.washingtonpost.com/arts-entertainment/2021/07/14/britney-spears-conservatorship-court-case/?itid=lk_inline_manual_23\"><b>What\u2019s happening?</b></a><b> </b>Spears herself is not expected to speak, but there could be updates as to what happens next in her battle for independence.",
+        "<b>What is a conservatorship again?</b> It\u2019s a legal arrangement that places a vulnerable adult under the supervision of another adult. In this case, her father."
+      ]
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "6. South Africa is in the grips of the most violent protests since the end of apartheid rule, with 72 people dead so far.",
+      "subhead_level": 3
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/html",
+      "content": [
+        "<b>The </b><a href=\"https://www.washingtonpost.com/world/2021/07/13/south-africa-zuma-protests-violence/?itid=lk_inline_manual_27\"><b>protests began</b></a><b> when </b>Jacob Zuma, the country\u2019s first Zulu president, was arrested July 7.",
+        "<b>Lootings have gutted businesses</b> and blockaded major supply routes, leading to fuel and food shortages."
+      ]
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "7. Internet providers jack up your bill using their lock on neighborhoods \u2014 and a lack of rules.",
+      "subhead_level": 3
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/html",
+      "content": [
+        "<b>Part of the problem is a lack of competition: </b>About <a href=\"https://www.washingtonpost.com/technology/2021/07/13/internet-cable-bills/?itid=lk_inline_manual_32\">200 million people</a> live in places with only one or two options for reliable, fast Internet.",
+        "<b>Biden has asked the FCC</b> to address pricing issues by requiring a \u201cnutrition label\u201d for broadband service, like you get with packaged food."
+      ]
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i>Want to catch up quickly with \u201cThe 7\u201d every morning? </i><a href=\"https://wapo.onelink.me/e76N/782c66a8\"><i>Download The Post\u2019s app</i></a><i> and turn on alert notifications for The 7.</i>"
+    },
+    {
+      "type": "author_info",
+      "id": "chowes",
+      "name": "Emily Chow",
+      "bio": "Emily Chow left the Washington Post in 2017. She was a designer, developer and editor on the graphics and news design teams \u2014\u00a0using the intersection of journalism and technology to tell powerful visually-rich stories.",
+      "role": "Product Manager Lead"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "taxonomy": {
+    "topics": [
+      {
+        "_id": "sandboxwashpos-20000225-computingandi-qkb0supof8",
+        "name": "iptc-media/economy_business_and_finance/economic_sector/computing_and_information_technology",
+        "score": 0,
+        "uid": "ar4r3"
+      },
+      {
+        "_id": "sandboxwashpos-01000000-artsculture-6n4xrdeihn",
+        "name": "iptc-media/arts_culture_entertainment_and_media",
+        "score": 0,
+        "uid": "aragq"
+      },
+      {
+        "_id": "sandboxwashpos-20000002-artsandentert-w6r88pv6n1",
+        "name": "iptc-media/arts_culture_entertainment_and_media/arts_and_entertainment",
+        "score": 0,
+        "uid": "ar291"
+      },
+      {
+        "_id": "sandboxwashpos-20000231-software-h2t1udh4c3",
+        "name": "iptc-media/economy_business_and_finance/economic_sector/computing_and_information_technology/software",
+        "score": 0,
+        "uid": "aax5r"
+      },
+      {
+        "_id": "sandboxwashpos-20000756-technologyand-4pqrmasgnb",
+        "name": "iptc-media/science_and_technology/technology_and_engineering",
+        "score": 0,
+        "uid": "aj9hj"
+      },
+      {
+        "_id": "sandboxwashpos-13000000-scienceandtec-xw0chfyt7z",
+        "name": "iptc-media/science_and_technology",
+        "score": 0,
+        "uid": "ac7c7"
+      },
+      {
+        "_id": "sandboxwashpos-04000000-economybusine-sltapsdy35",
+        "name": "iptc-media/economy_business_and_finance",
+        "score": 0,
+        "uid": "are0w"
+      },
+      {
+        "_id": "sandboxwashpos-20000032-architecture-amhqwlqzqg",
+        "name": "iptc-media/arts_culture_entertainment_and_media/arts_and_entertainment/visual_arts/architecture",
+        "score": 0,
+        "uid": "aa1is"
+      },
+      {
+        "_id": "sandboxwashpos-20000031-visualarts-zvmjr36wud",
+        "name": "iptc-media/arts_culture_entertainment_and_media/arts_and_entertainment/visual_arts",
+        "score": 0,
+        "uid": "ady5j"
+      },
+      {
+        "_id": "sandboxwashpos-20000304-media-4ykhx9vjtg",
+        "name": "iptc-media/economy_business_and_finance/economic_sector/media",
+        "score": 0,
+        "uid": "atyeo"
+      }
+    ],
+    "auxiliaries": [
+      {
+        "_id": "sandboxwashpos-20000225-computingandi-qkb0supof8",
+        "name": "iptc-media/economy_business_and_finance/economic_sector/computing_and_information_technology",
+        "uid": "ar4r3"
+      },
+      {
+        "_id": "sandboxwashpos-01000000-artsculture-6n4xrdeihn",
+        "name": "iptc-media/arts_culture_entertainment_and_media",
+        "uid": "aragq"
+      },
+      {
+        "_id": "sandboxwashpos-20000002-artsandentert-w6r88pv6n1",
+        "name": "iptc-media/arts_culture_entertainment_and_media/arts_and_entertainment",
+        "uid": "ar291"
+      },
+      {
+        "_id": "sandboxwashpos-20000231-software-h2t1udh4c3",
+        "name": "iptc-media/economy_business_and_finance/economic_sector/computing_and_information_technology/software",
+        "uid": "aax5r"
+      },
+      {
+        "_id": "sandboxwashpos-20000756-technologyand-4pqrmasgnb",
+        "name": "iptc-media/science_and_technology/technology_and_engineering",
+        "uid": "aj9hj"
+      },
+      {
+        "_id": "sandboxwashpos-13000000-scienceandtec-xw0chfyt7z",
+        "name": "iptc-media/science_and_technology",
+        "uid": "ac7c7"
+      },
+      {
+        "_id": "sandboxwashpos-04000000-economybusine-sltapsdy35",
+        "name": "iptc-media/economy_business_and_finance",
+        "uid": "are0w"
+      },
+      {
+        "_id": "sandboxwashpos-20000032-architecture-amhqwlqzqg",
+        "name": "iptc-media/arts_culture_entertainment_and_media/arts_and_entertainment/visual_arts/architecture",
+        "uid": "aa1is"
+      },
+      {
+        "_id": "sandboxwashpos-20000031-visualarts-zvmjr36wud",
+        "name": "iptc-media/arts_culture_entertainment_and_media/arts_and_entertainment/visual_arts",
+        "uid": "ady5j"
+      },
+      {
+        "_id": "sandboxwashpos-20000304-media-4ykhx9vjtg",
+        "name": "iptc-media/economy_business_and_finance/economic_sector/media",
+        "uid": "atyeo"
+      }
+    ]
+  },
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "podcast",
+    "subtype": "inline",
+    "dataServiceAdaptor": "Podcast",
+    "mediaID": "635971dc46e0fb00087125be",
+    "duration": 729,
+    "episodeName": "Wednesday, October 26, 2022",
+    "seriesName": "The 7",
+    "podtracURL": "https://www.podtrac.com/pts/redirect.mp3/d2i9ke5o9i0vh8.cloudfront.net/testaccount/audio-article/20221026/635971b046e0fb00087125af/635971b3b0429009af1ed128_1351620000001-300040_t_1666806200418_44100_128_2.mp3",
+    "seriesSlug": "the-seven",
+    "episodeSlug": "wednesday-october-26-2022",
+    "subscriptionLinks": {
+      "rss": "https://podcast.posttv.com/itunes/the-seven.xml"
+    }
+  },
+  "first_display_date": 1666806188811
+}

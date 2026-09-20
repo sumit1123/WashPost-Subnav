@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/immersion_item_card"
+    style="@style/immersion_carousel_card"
+    android:layout_width="@dimen/carousel_immersion_card_width"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/immersion_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/item_immersion_art"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/carousel_immersion_card_image_height"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/label_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/item_immersion_art"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/immersion_kicker"
+            style="@style/immersion_carousel_item_kicker"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Kicker" />
+
+        <TextView
+            android:id="@+id/secondary_label"
+            style="@style/immersion_carousel_item_byline"
+            android:layout_marginStart="8dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="secondary label" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/immersion_headline_title"
+            style="@style/audio_carousel_item_headline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:maxLines="4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/label_container" />
+
+        <TextView
+            android:id="@+id/byline"
+            style="@style/immersion_carousel_item_byline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="Perspective"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/immersion_headline_title"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

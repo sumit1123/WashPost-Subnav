@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="logo_twp_main" type="drawable">@drawable/twp_logo</item>
+    <item name="ic_follow" type="drawable">@drawable/ic_follow_large</item>
+    <item name="ic_play_btn" type="drawable">@drawable/icon_play_btn</item>
+</resources>

@@ -1,0 +1,860 @@
+{
+  "layout": "homepage",
+  "output_type": "jsonapp",
+  "tracking": {
+    "page_name": "homepage",
+    "page_title": "The Washington Post - Breaking news and latest headlines, U.S. news, world news, and video",
+    "page_path": "/",
+    "section": "homepage",
+    "channel": "homepage"
+  },
+  "regions": [
+    {
+      "location": "content",
+      "items": [
+        {
+          "id": "2b6a3137-e6bf-4708-aeb8-2cedb4fc5161",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "no-name",
+          "link_group": "no-name",
+          "layout_name": "full-span",
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "id": "allcontent-2b6a3137-e6bf-4708-aeb8-2cedb4fc5161",
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "no-name",
+              "content_tracking": {
+                "module_position": 1,
+                "surface": "hp_1"
+              },
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "953f0701-4e7c-494a-9cee-f2b5149bf8ee",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "WP Intelligence",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  },
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "blurbs"
+                        ]
+                      },
+                      "right": {
+                        "items": [
+                          "cta"
+                        ],
+                        "width": "small"
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://wpintelligence.washingtonpost.com/",
+                    "type": "web"
+                  },
+                  "label": {
+                    "show": true,
+                    "type": "brand-promo",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "style": "wp-intelligence",
+                    "link": {
+                      "url": "https://wpintelligence.washingtonpost.com/",
+                      "type": "web"
+                    }
+                  },
+                  "headline": {
+                    "text": "Intelligence",
+                    "size": "medium",
+                    "font_style": "bold",
+                    "alignment": "left",
+                    "icon": "logo"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "A trusted briefing service designed to help decision-makers translate insight into meaningful action and operates independently of The Washington Post newsroom."
+                      }
+                    ]
+                  },
+                  "cta": {
+                    "show": true,
+                    "type": "icon-button",
+                    "position": "above-headline",
+                    "alignment": "right",
+                    "icon": "external-link",
+                    "show_arrow": false,
+                    "link": {
+                      "url": "https://wpintelligence.washingtonpost.com/",
+                      "type": "web"
+                    }
+                  },
+                  "content_tracking": {
+                    "position_in_module": {
+                      "xlarge": 0,
+                      "large": 0,
+                      "medium": 0,
+                      "small": 0
+                    }
+                  }
+                },
+                {
+                  "id": "953f0701-4e7c-494a-9cee-f2b5149bf8ee-carousel",
+                  "item_type": "carousel/external",
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "APJ4BJKZUZGXZFD5EYQQ6LGZKA",
+                      "item_type": "external",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "Lambasting Pope Leo, Trump risks alienating conservative Catholics"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/world/2026/04/13/pope-leo-president-trump-feud/",
+                        "type": "article",
+                        "last_modified": "2026-04-13T18:16:52.636Z",
+                        "display_date": "2026-04-13T18:10:42.329Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-13T18:10:42.329Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label": {
+                          "text": "Europe"
+                        }
+                      },
+                      "media": {
+                        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/5GM4WXO2MC6XBS4L3HYZD43QO4.JPG",
+                        "media_type": "image",
+                        "aspect_ratio": 1,
+                        "art_width": "full-width"
+                      }
+                    },
+                    {
+                      "id": "3W3CVOALXVCKNEEBWUVYZBQRCM",
+                      "item_type": "external",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "Trump post appearing to depict him as Jesus removed amid backlash"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/politics/2026/04/13/trump-jesus-religious-conservatives/",
+                        "type": "article",
+                        "last_modified": "2026-04-13T17:45:02.826Z",
+                        "display_date": "2026-04-13T17:44:51.587Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-13T17:44:51.587Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label": {
+                          "text": "White House"
+                        }
+                      },
+                      "media": {
+                        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SUHFI5WHQXS2ELN7NXKVXLUSOA.jpg",
+                        "media_type": "image",
+                        "aspect_ratio": 1,
+                        "art_width": "full-width"
+                      }
+                    },
+                    {
+                      "id": "MYYDHFUKJFGPZEYDO7R3KEAS2E",
+                      "item_type": "external",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "Judge dismisses Trump’s lawsuit against Wall Street Journal over Epstein drawing"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/business/2026/04/13/epstein-trump-birthday-letter-lawsuit/",
+                        "type": "article",
+                        "last_modified": "2026-04-13T15:59:03.851Z",
+                        "display_date": "2026-04-13T15:56:00.309Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-13T15:56:00.309Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label": {
+                          "text": "Media"
+                        }
+                      },
+                      "media": {
+                        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/OSXUR4GWLRAEKEHYKCP47ZASVY.JPG",
+                        "media_type": "image",
+                        "aspect_ratio": 1,
+                        "art_width": "full-width"
+                      }
+                    },
+                    {
+                      "id": "RELDRR3PLJDCHIEJ5XD2LUJ6C4",
+                      "item_type": "external",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "White House says it’s boosting affordability through physician reforms"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/politics/2026/04/13/trump-administration-healthcare-changes/",
+                        "type": "article",
+                        "last_modified": "2026-04-13T15:50:01.635Z",
+                        "display_date": "2026-04-13T15:50:00.000Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-13T15:50:00.000Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label": {
+                          "text": "White House"
+                        }
+                      },
+                      "media": {
+                        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/LGJ7TUQPMII6ZOWKQ2YUJ7EKFU.jpg",
+                        "media_type": "image",
+                        "aspect_ratio": 1,
+                        "art_width": "full-width"
+                      }
+                    },
+                    {
+                      "id": "KVV7UW5IK5GWXPCF3KOXBPNUHA",
+                      "item_type": "external",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "Pope responds to president’s insults: ‘I have no fear of the Trump administration’"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/politics/2026/04/12/trump-criticizes-pope-leo/",
+                        "type": "article",
+                        "last_modified": "2026-04-13T15:42:55.026Z",
+                        "display_date": "2026-04-13T12:31:31.324Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-13T12:31:31.324Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label": {
+                          "text": "White House"
+                        }
+                      },
+                      "media": {
+                        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/wapo/WUDYAXWA3L26JGWGMIFW724DUY.JPG",
+                        "media_type": "image",
+                        "aspect_ratio": 1,
+                        "art_width": "full-width"
+                      }
+                    }
+                  ],
+                  "content_tracking": {
+                    "position_in_module": {
+                      "xlarge": 1,
+                      "large": 1,
+                      "medium": 1,
+                      "small": 1,
+                      "xsmall": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        },
+        {
+          "id": "b3accaf5-b841-43d9-bcb8-2648412b8ed8",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "ripple/wpi",
+          "link_group": "ripple/wpi",
+          "layout_name": "tiling",
+          "layout_attributes": {
+            "xlarge": {
+
+            },
+            "large": {
+
+            },
+            "medium": {
+
+            },
+            "small": {
+
+            },
+            "xsmall": {
+
+            }
+          },
+          "items": [
+            {
+              "id": "allcontent-b3accaf5-b841-43d9-bcb8-2648412b8ed8",
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "ripple/wpi",
+              "content_tracking": {
+                "module_category": "ripple/wpi",
+                "module_position": 601,
+                "surface": "hp_601"
+              },
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "65fac94b-ceb3-46e1-9ea3-8d80b78cad3f",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "Ripple",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  },
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "label",
+                          "headline",
+                          "blurbs"
+                        ]
+                      },
+                      "right": {
+                        "items": [
+                          "cta"
+                        ],
+                        "width": "small"
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://www.washingtonpost.com/ripple",
+                    "type": "web"
+                  },
+                  "label": {
+                    "show": true,
+                    "type": "kicker",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "icon": "none",
+                    "style": "default",
+                    "label": {
+                      "text": "Opinion writing from our partners"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/ripple",
+                      "type": "web"
+                    }
+                  },
+                  "headline": {
+                    "text": "",
+                    "size": "medium",
+                    "font_style": "bold",
+                    "alignment": "left",
+                    "icon": "ripple"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "Ripple brings together diverse perspectives from other publications and operates independently of The Washington Post newsroom."
+                      }
+                    ]
+                  },
+                  "cta": {
+                    "show": true,
+                    "type": "icon-button",
+                    "position": "above-headline",
+                    "alignment": "right",
+                    "icon": "external-link",
+                    "show_arrow": false,
+                    "link": {
+                      "url": "https://www.washingtonpost.com/ripple",
+                      "type": "web"
+                    }
+                  },
+                  "content_tracking": {
+                    "position_in_module": {
+                      "xlarge": 0,
+                      "large": 0,
+                      "medium": 0,
+                      "small": 0
+                    }
+                  }
+                },
+                {
+                  "id": "65fac94b-ceb3-46e1-9ea3-8d80b78cad3f-carousel",
+                  "item_type": "carousel/external",
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "OUHYWSSADAI7DO2G5VLENCGZKM",
+                      "item_type": "external",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "What’s wrong with a little microlooting?"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/ripple/2026/04/24/progressives-microlooting-hasan-piker-jia-tolentino-podcast/",
+                        "type": "article",
+                        "last_modified": "2026-04-30T16:08:14.697Z",
+                        "display_date": "2026-04-30T16:08:14.217Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-30T16:08:14.217Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label_secondary": {
+                          "text": "from City Journal"
+                        }
+                      },
+                      "media": {
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SPMNLXSFNKPFAHDKVKPHGCAFXM.jpg",
+                        "media_type": "image",
+                        "aspect_ratio": 1,
+                        "art_width": "full-width"
+                      }
+                    },
+                    {
+                      "id": "EX6MZBCCHEI7DMM5GJBRARVVWQ",
+                      "item_type": "external",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "Republicans are sinking, but Democrats aren’t rising"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/ripple/2026/04/27/trump-midterm-gambit-backfires/",
+                        "type": "article",
+                        "last_modified": "2026-04-30T11:23:02.817Z",
+                        "display_date": "2026-04-30T11:23:02.287Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-30T11:23:02.287Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label_secondary": {
+                          "text": "from The Hill"
+                        }
+                      },
+                      "media": {
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WTTKIFJHRULGDNNREMER242UKI.JPG",
+                        "media_type": "image",
+                        "aspect_ratio": 1,
+                        "art_width": "full-width"
+                      }
+                    },
+                    {
+                      "id": "YLN7HQSD2MI7DMM5GJBRARVVWQ",
+                      "item_type": "external",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "Thousands of employed Colorado workers need SNAP benefits to make ends meet"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/ripple/2026/04/29/thousands-of-employed-colorado-workers-need-snap-benefits-to-make-ends-meet/",
+                        "type": "article",
+                        "last_modified": "2026-04-30T03:00:50.279Z",
+                        "display_date": "2026-04-30T03:00:49.742Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-30T03:00:49.742Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label_secondary": {
+                          "text": "from The Conversation"
+                        }
+                      },
+                      "media": {
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FPRXF7AW5AI6VAGW2DFHABZHH4.jpg",
+                        "media_type": "image",
+                        "aspect_ratio": 1,
+                        "art_width": "full-width"
+                      }
+                    },
+                    {
+                      "id": "YAGTRTCCQQI7DMM5GJBRARVVWQ",
+                      "item_type": "external",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "America’s low birth rate will force a fiscal reckoning"
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/ripple/2026/04/27/us-birth-rates-fertility-economy-taxes/",
+                        "type": "article",
+                        "last_modified": "2026-04-30T02:45:18.101Z",
+                        "display_date": "2026-04-30T02:45:17.615Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-30T02:45:17.615Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label_secondary": {
+                          "text": "from City Journal"
+                        }
+                      },
+                      "media": {
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/L6YGIVDWYYI6TJ57ZCSDXBHOGE.jpg",
+                        "media_type": "image",
+                        "aspect_ratio": 1,
+                        "art_width": "full-width"
+                      }
+                    },
+                    {
+                      "id": "YILCPOCDDMI7DMM5GJBRARVVWQ",
+                      "item_type": "external",
+                      "item_type_impl": "spectrum/jsonapp",
+                      "headline": {
+                        "text": "CVS wrote the rules. Tennessee is rewriting them."
+                      },
+                      "link": {
+                        "url": "https://www.washingtonpost.com/ripple/2026/04/28/cvs-wrote-rules-tennessee-rewriting-them/",
+                        "type": "article",
+                        "last_modified": "2026-04-30T02:19:44.456Z",
+                        "display_date": "2026-04-30T02:19:43.959Z"
+                      },
+                      "signature": {
+                        "timestamp": "2026-04-30T02:19:43.959Z",
+                        "date_format": "month-day-year"
+                      },
+                      "label": {
+                        "type": "kicker",
+                        "position": "above-headline",
+                        "alignment": "left",
+                        "icon": "none",
+                        "show_arrow": false,
+                        "label_secondary": {
+                          "text": "from Tennessee Lookout"
+                        }
+                      },
+                      "media": {
+                        "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VDDPARBNOYI63PGGBB2LE2XCSY.jpg",
+                        "media_type": "image",
+                        "aspect_ratio": 1,
+                        "art_width": "full-width"
+                      }
+                    }
+                  ],
+                  "content_tracking": {
+                    "position_in_module": {
+                      "xlarge": 1,
+                      "large": 1,
+                      "medium": 1,
+                      "small": 1,
+                      "xsmall": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        }
+      ]
+    }
+  ],
+  "cards": {
+    "xsmall": {
+      "tables": [
+        [
+          "allcontent-2b6a3137-e6bf-4708-aeb8-2cedb4fc5161"
+        ],
+        [
+          "allcontent-b3accaf5-b841-43d9-bcb8-2648412b8ed8"
+        ]
+      ]
+    }
+  },
+  "health": {
+    "chains": {
+      "overall": {
+        "success": 2,
+        "total": 2,
+        "rate": 100
+      },
+      "top_3": {
+        "display_names": [
+          null,
+          null
+        ],
+        "success": 2,
+        "total": 2,
+        "rate": 100
+      }
+    }
+  },
+  "checksum": "eaed1dfddfd184163a307ec856ae7fbb",
+  "doc_checksum": "350638fea0d130c5693bff6fcd1be818"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:focusableInTouchMode="true"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    app:alignItems="center"
+    app:flexWrap="nowrap">
+
+    <TextView
+        android:id="@+id/olympics_date"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="none"
+        android:gravity="start"
+        android:singleLine="true"
+        android:text="@string/olympics_date"
+        android:textColor="@color/olympics_header"
+        android:textSize="12sp"
+        app:layout_flexGrow="1"
+        app:layout_flexShrink="0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="none"
+        android:gravity="start"
+        android:singleLine="true"
+        android:text="@string/olympics_event"
+        android:textColor="@color/olympics_header"
+        android:textSize="12sp"
+        app:layout_flexGrow="1" />
+
+
+    <TextView
+        android:id="@+id/olympics_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="none"
+        android:gravity="end"
+        android:minWidth="70dp"
+        android:singleLine="true"
+        android:text="@string/olympics_time"
+        android:textColor="@color/olympics_header"
+        android:textSize="12sp"
+        app:layout_flexShrink="0" />
+
+</com.google.android.flexbox.FlexboxLayout>

@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "id": "first_install_onboarding",
+  "screens": [
+    {
+      "onlyForMigratedUser": true,
+      "onlyForNonSubscriber": true,
+      "title": "Get the full experience.",
+      "description": "Unlimited access, save stories to read later, and use your subscription on any device.",
+      "command1": {
+        "text": "Subscribe",
+        "action": "SUBSCRIBE"
+      },
+      "command2": {
+        "text": "Already a subscriber? <b><u>Sign in</u></b>",
+        "loggedInText" : "<b><u>Sign in as someone else</u></b>",
+        "action": "LOGIN",
+        "style": "TEXT",
+        "color": "WHITE"
+      },
+      "command3": {
+        "text": "Maybe later",
+        "action": "SKIP",
+        "style": "TEXT",
+        "color": "WHITE"
+      },
+      "resubscribe": {
+        "text": "Resubscribe",
+        "action": "SUBSCRIBE"
+      },
+      "backgroundImage": "acquisition_bg_unification"
+    }
+  ]
+}

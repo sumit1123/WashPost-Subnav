@@ -1,0 +1,94 @@
+{
+    "urlPath": "/__tablet/blogs/the-switch/wp/2014/02/05/how-googles-antitrust-deal-in-the-e-u-will-affect-you/",
+    "id": "/blogs/the-switch/wp/2014/02/05/how-googles-antitrust-deal-in-the-e-u-will-affect-you/",
+    "type": "BlogStory",
+    "kicker1": "THE SWITCH",
+    "headline": "How Google’s antitrust deal in the E.U. will affect you",
+    "blurbPreface": "By Timothy B. Lee",
+    "blurb": "The European Union has announced a tentative deal with Google to settle charges of anticompetitive conduct by the search giant. Google's competitors have charged the company with abusing its dominant position in the general-purpose search market to give other Google products, like restaurant",
+    "lmt": "20140205164613",
+    "content": {
+        "type": "wordpress_story",
+        "id": 15577,
+        "uri": "/blogs/the-switch/wp/2014/02/05/how-googles-antitrust-deal-in-the-e-u-will-affect-you/",
+        "title": "How Google's antitrust deal in the E.U. will affect you",
+        "authors": [
+            {
+                "name": "Timothy B. Lee",
+                "email": "timothy.lee@washpost.com"
+            }
+        ],
+        "published": "2014-02-05T11:46:13-0500",
+        "lmt": "2014-02-05T11:46:13-0500",
+        "lead_image": "http://www.washingtonpost.com/blogs/the-switch/files/2014/02/before.png",
+        "shareurl": "http://wapo.st/1e3Bwt3",
+        "contenturl": "http://www.washingtonpost.com/blogs/the-switch/wp/2014/02/05/how-googles-antitrust-deal-in-the-e-u-will-affect-you/",
+        "adkey": "business/technology/blog/the_switch",
+        "omniture": {
+            "pageName": "business/technology:blog:the-switch - 15577 - 20140205 - how-googles-antitrust-deal-in-the-e-u-will-affect-you",
+            "channel": "wp - business/technology",
+            "contentSubsection": "business/technology",
+            "contentType": "blog",
+            "contentAuthor": "Timothy B. Lee",
+            "searchKeywords": null,
+            "pageFormat": null,
+            "DBPath": null,
+            "blogName": "business/technology",
+            "contentSource": "the washington post"
+        },
+        "items": [
+            {
+                "type": "sanitized_html",
+                "content": "The European Union has <a href=\"http://europa.eu/rapid/press-release_MEMO-14-87_en.htm\">announced a tentative deal</a> with Google to settle charges of anticompetitive conduct by the search giant. Google's competitors have charged the company with abusing its dominant position in the general-purpose search market to give other Google products, like restaurant reviews and flight scheduling, an unfair advantage over rivals. Under a new proposal unveiled  Wednesday, Google would commit to displaying competitors' results in a way that gives them roughly equal billing to Google's own offerings."
+            },
+            {
+                "type": "sanitized_html",
+                "content": "Here's an example, taken from the E.U.'s <a href=\"http://europa.eu/rapid/press-release_MEMO-14-87_en.htm\">announcement</a> of the deal. Right now, Google search results look something like this:"
+            },
+            {
+                "type": "image",
+                "caption": "(European Union)",
+                "src": "http://www.washingtonpost.com/blogs/the-switch/files/2014/02/before.png",
+                "width": 838,
+                "height": 496,
+                "mime": "image/png"
+            },
+            {
+                "type": "sanitized_html",
+                "content": "Under the terms of the proposed settlement, the search results page would look like this instead:"
+            },
+            {
+                "type": "image",
+                "caption": "(European Union)",
+                "src": "http://www.washingtonpost.com/blogs/the-switch/files/2014/02/after.png",
+                "width": 854,
+                "height": 504,
+                "mime": "image/png"
+            },
+            {
+                "type": "sanitized_html",
+                "content": "Instead of showing six Google-selected ads for gas grills, the results would show three gas grills from Google's product search engine and another three ads from competitors. Google will be allowed to charge these competitors for including these ads at regulated rates comparable to those Google charges for inclusion in its own product search engine. Similar changes will be required in other cases where Google includes results from a specialized search engine in its general search results."
+            },
+            {
+                "type": "sanitized_html",
+                "content": "The settlement has a few other requirements as well. Google will be required to modify the terms of its contracts to make it easier for advertisers to run ads simultaneously on Google's ad platform and those of competitors. And Google will be required to give third-party sites more control over whether their content is listed in search results."
+            },
+            {
+                "type": "sanitized_html",
+                "content": "Sites could always opt out of Google results entirely by putting something called a <a href=\"https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0CDsQFjAC&url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRobots_exclusion_standard&ei=AGLyUtv7HKKgsQTUtIGgBw&usg=AFQjCNGmHEOY2VLYhVWcuOmTm8Tf67Tw9Q&sig2=HZ97VaZw8lA72nwJ9fGolg\">robots.txt</a> file on their site. But when sites do that, Google removes their content from all Google products. Under the settlement, sites will have more control. For example, they'd be able to opt out of Google News while still participating in Google search—an option European newspapers have long coveted."
+            },
+            {
+                "type": "sanitized_html",
+                "content": "[]"
+            },
+            {
+                "type": "sanitized_html",
+                "content": "That last commitment would be significant if it were new. But a <a href=\"http://www.ftc.gov/sites/default/files/attachments/press-releases/google-agrees-change-its-business-practices-resolve-ftc-competition-concerns-markets-devices-smart/130103googleletterchairmanleibowitz.pdf\">2012 deal with the Federal Trade Commission</a> has already committed Google to similar terms. The terms of the E.U. deal may prove stronger than those of the FTC commitment, but this is still an incremental change."
+            },
+            {
+                "type": "sanitized_html",
+                "content": "In exchange for these relatively modest changes to its business practices, Google avoids what could have been a long, expensive, and distracting legal battle with European regulators."
+            }
+        ]
+    }
+}

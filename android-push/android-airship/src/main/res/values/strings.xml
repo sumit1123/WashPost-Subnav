@@ -1,0 +1,7 @@
+<resources>
+    <string name="notification_channel_id"></string>
+    <string name="airship_development_app_key"></string>
+    <string name="airship_development_app_secret"></string>
+    <string name="airship_production_app_key"></string>
+    <string name="airship_production_app_secret"></string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/vertical_video_player_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.media3.ui.PlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:controller_layout_id="@layout/vertical_video_player_controller_view"
+        app:show_timeout="2000">
+
+        <FrameLayout
+            android:id="@+id/ad_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.media3.ui.PlayerView>
+</FrameLayout>

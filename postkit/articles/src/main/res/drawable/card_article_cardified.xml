@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/article_cardification_card_bg" />
+    <stroke
+        android:width="@dimen/card_article_stroke_width"
+        android:color="@color/card_article_border" />
+    <corners android:radius="10dp" />
+    <padding
+        android:bottom="@dimen/card_article_vertical_padding"
+        android:top="@dimen/card_article_vertical_padding" />
+</shape>

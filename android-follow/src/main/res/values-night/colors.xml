@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <color name="my_post_background">#111111</color>
+    <color name="author_divider_color">#666666</color>
+    <color name="author_list_name">#F0F0F0</color>
+    <color name="author_list_name_selected">#659FFF</color>
+    <color name="author_list_selected">#659FFF</color>
+    <color name="author_empty_background">#666666</color>
+    <color name="author_empty_state_text">#F0F0F0</color>
+    <color name="author_article_border_color">#666666</color>
+    <color name="author_article_name">#FFFFFF</color>
+    <color name="bottom_sheet_background">#333333</color>
+    <color name="bottom_sheet_author_name">#659FFF</color>
+    <color name="bottom_sheet_author_bio">#F7F7F7</color>
+    <color name="follow_button_selected">#AAAAAA</color>
+    <color name="follow_button_unselected">#3D73D5</color>
+    <color name="author_article_name_clickable">#659FFF</color>
+    <color name="follow_button_text">#FFFFFF</color>
+    <color name="follow_button_text_selected">#F7F7F7</color>
+    <color name="follow_button_check">#E9E9E9</color>
+    <color name="author_article_name_opinion">#D39E4C</color>
+    <color name="alert_dialog_background">#333333</color>
+    <color name="alert_dialog_button">#659FFF</color>
+
+    <color name="my_post_author_card_bg">#2A2A2A</color>
+    <color name="my_post_author_card_bg_selected">#F0F0F0</color>
+    <color name="my_post_author_card_stroke_bg">#333</color>
+    <color name="my_post_author_name_selected">#111111</color>
+    <color name="my_post_author_name">#f7f7f7</color>
+    <color name="my_post_follow_bg">#111111</color>
+    <color name="my_post_follow_content_bg">#2a2a2a</color>
+    <color name="my_post_follow_title">#f7f7f7</color>
+    <color name="my_post_follow_title_secondary">#d5d5d5</color>
+    <color name="my_post_headline">#f0f0f0</color>
+    <color name="my_post_signature">#d5d5d5</color>
+
+    <color name="author_archive_name">#FFFFFF</color>
+    <color name="author_archive_bg">#111111</color>
+</resources>

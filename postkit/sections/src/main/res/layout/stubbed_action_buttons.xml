@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wapo.flagship.features.grid.views.SignatureActionsView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_buttons_container_view"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+

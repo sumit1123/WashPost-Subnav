@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wapo.flagship.views.coordinator.Coordinator xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent">
+
+    <Button
+        a:id="@+id/topbar"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:tag="topbar"
+        a:text="-==TOP BAR==-" />
+
+    <FrameLayout
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:background="#348909"
+        a:tag="content">
+
+       <androidx.recyclerview.widget.RecyclerView
+           a:id="@+id/recycler_view"
+           a:layout_width="match_parent"
+           a:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        a:tag="bottombar"
+        a:layout_gravity="bottom"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content">
+
+        <Button
+            a:text="Tab 1"
+            a:layout_weight="1"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content" />
+
+        <Button
+            a:text="Tab 2"
+            a:layout_weight="1"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content" />
+
+        <Button
+            a:text="Tab 3"
+            a:layout_weight="1"
+            a:layout_width="0dp"
+            a:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</com.wapo.flagship.views.coordinator.Coordinator>

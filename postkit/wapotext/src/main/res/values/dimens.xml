@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="seek_bar_hor_line_width">2dp</dimen>
+    <dimen name="seek_bar_ver_line_width">1dp</dimen>
+    <dimen name="seek_bar_ver_line_height">10dp</dimen>
+    <dimen name="font_size_dialog_text_size">14sp</dimen>
+</resources>

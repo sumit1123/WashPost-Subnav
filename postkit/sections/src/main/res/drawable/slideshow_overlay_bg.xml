@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    android:alpha="0.75">
+    <solid android:color="@color/slideshow_overlay_bg" />
+    <corners android:radius="25dp" />
+</shape>

@@ -1,0 +1,2148 @@
+{
+  "name": "Wide Right Local News",
+  "tracking": {
+    "page_name": "front - top-stories"
+  },
+  "regions": [
+    {
+      "location": "top-content",
+      "items": [
+        {
+          "table_name": "top table",
+          "item_type": "grid",
+          "items": [
+            {
+              "grid_name": "table 1",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": {
+                  "colspan": 16,
+                  "row": 0,
+                  "col": 0
+                },
+                "large": {
+                  "colspan": 16,
+                  "row": 0,
+                  "col": 0
+                },
+                "medium": {
+                  "colspan": 12,
+                  "row": 0,
+                  "col": 0
+                },
+                "small": {
+                  "colspan": 10,
+                  "row": 0,
+                  "col": 0
+                },
+                "xsmall": {
+                  "colspan": 1,
+                  "row": 0,
+                  "col": 0
+                }
+              },
+              "items": [
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 0,
+                      "col": 0
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 0,
+                      "col": 0
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 0,
+                      "col": 0
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 0,
+                      "col": 0
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 0,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Art Above Headline",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 0,
+                      "col": 8
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 0,
+                      "col": 8
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 0,
+                      "col": 6
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 0,
+                      "col": 5
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 1,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Art Above Headline",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 1,
+                      "col": 0
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 1,
+                      "col": 0
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 1,
+                      "col": 0
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 1,
+                      "col": 0
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 2,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Art Above Headline - Label Above Headline",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 1,
+                      "col": 8
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 1,
+                      "col": 8
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 1,
+                      "col": 6
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 1,
+                      "col": 5
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 3,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "alignment": "center",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Art Above Headline - Label Above Headline",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 2,
+                      "col": 0
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 2,
+                      "col": 0
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 2,
+                      "col": 0
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 2,
+                      "col": 0
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 4,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-below-head",
+                    "art_width": "full-width"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Below Headline",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 2,
+                      "col": 8
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 2,
+                      "col": 8
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 2,
+                      "col": 6
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 2,
+                      "col": 5
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 5,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 1248,
+                    "height": 832,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-below-head",
+                    "art_width": "full-width"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Below Headline",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 3,
+                      "col": 0
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 3,
+                      "col": 0
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 3,
+                      "col": 0
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 3,
+                      "col": 0
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 6,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Left",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 3,
+                      "col": 8
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 3,
+                      "col": 8
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 3,
+                      "col": 6
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 3,
+                      "col": 5
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 7,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Left",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 4,
+                      "col": 0
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 4,
+                      "col": 0
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 4,
+                      "col": 0
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 4,
+                      "col": 0
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 8,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-head",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Left Of Headline",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 4,
+                      "col": 8
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 4,
+                      "col": 8
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 4,
+                      "col": 6
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 4,
+                      "col": 5
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 9,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-head",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Left Of Headline",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 5,
+                      "col": 0
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 5,
+                      "col": 0
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 5,
+                      "col": 0
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 5,
+                      "col": 0
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 10,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-head",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Left Of Headline - Label Above Headline",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 5,
+                      "col": 8
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 5,
+                      "col": 8
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 5,
+                      "col": 6
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 5,
+                      "col": 5
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 11,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "alignment": "center",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-head",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Left Of Headline - Label Above Headline",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 6,
+                      "col": 0
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 6,
+                      "col": 0
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 6,
+                      "col": 0
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 6,
+                      "col": 0
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 12,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-blurb",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Left Of Blurb",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 6,
+                      "col": 8
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 6,
+                      "col": 8
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 6,
+                      "col": 6
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 6,
+                      "col": 5
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 13,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-blurb",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Left Of Blurb",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 7,
+                      "col": 0
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 7,
+                      "col": 0
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 7,
+                      "col": 0
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 7,
+                      "col": 0
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 14,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Right",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 7,
+                      "col": 8
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 7,
+                      "col": 8
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 7,
+                      "col": 6
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 7,
+                      "col": 5
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 15,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-right",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Right",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 8,
+                      "col": 0
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 8,
+                      "col": 0
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 8,
+                      "col": 0
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 8,
+                      "col": 0
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 16,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Right Of Headline",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 8,
+                      "col": 8
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 8,
+                      "col": 8
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 8,
+                      "col": 6
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 8,
+                      "col": 5
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 17,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Right Of Headline",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 9,
+                      "col": 0
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 9,
+                      "col": 0
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 9,
+                      "col": 0
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 9,
+                      "col": 0
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 18,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Right Of Headline - Label Above Headline",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 9,
+                      "col": 8
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 9,
+                      "col": 8
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 9,
+                      "col": 6
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 9,
+                      "col": 5
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 19,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "above-headline",
+                    "alignment": "center",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-right-of-head",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Right Of Headline - Label Above Headline",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 10,
+                      "col": 0
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 10,
+                      "col": 0
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 10,
+                      "col": 0
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 10,
+                      "col": 0
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 20,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "media_type": "image",
+                    "art_position": "art-right-of-blurb",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Right Of Blurb with Text Wrap enabled",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 10,
+                      "col": 8
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 10,
+                      "col": 8
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 10,
+                      "col": 6
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 10,
+                      "col": 5
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 21,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption": "Bruce Mewborne III comforts his mother, Ann Mewborn, during a funeral for his father that was attended by immediate family only. (Courtesy of Michael Mewborne)",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-right-of-blurb",
+                    "art_width": "small"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "Right Of Blurb",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 11,
+                      "col": 0
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 11,
+                      "col": 0
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 11,
+                      "col": 0
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 11,
+                      "col": 0
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 22,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "None",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 11,
+                      "col": 8
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 11,
+                      "col": 8
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 11,
+                      "col": 6
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 11,
+                      "col": 5
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 23,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "source": "The Washington Post",
+                  "signature": {
+                    "by_line": "By Justin George"
+                  },
+                  "headline": {
+                    "size": "x-small",
+                    "text": "None",
+                    "font_style": "normal-style",
+                    "alignment": "left"
+                  },
+                  "commercial_node": "local",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The proposed spending plan would raise peak-hour fares, offer later service hours and a $2 flat weekend fare.",
+                        "type": "normal"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 12,
+                      "col": 0
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 12,
+                      "col": 0
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 12,
+                      "col": 0
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 12,
+                      "col": 0
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 24,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "source": "The Washington Post",
+                  "commercial_node": "local"
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": {
+                      "colspan": 8,
+                      "row": 12,
+                      "col": 8
+                    },
+                    "large": {
+                      "colspan": 8,
+                      "row": 12,
+                      "col": 8
+                    },
+                    "medium": {
+                      "colspan": 6,
+                      "row": 12,
+                      "col": 6
+                    },
+                    "small": {
+                      "colspan": 5,
+                      "row": 12,
+                      "col": 5
+                    },
+                    "xsmall": {
+                      "colspan": 1,
+                      "row": 25,
+                      "col": 0
+                    }
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "text_alignment": "left",
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "MARKETS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "link": {
+                    "type": "article",
+                    "last_modified": "2019-11-04T12:10:25.000Z",
+                    "url": "https://www.washingtonpost.com/local/trafficandcommuting/metro-gm-wiedefelds-proposed-budget-includes-a-fare-increase--and-later-hours/2019/11/03/21365bb0-fcbe-11e9-8906-ab6b60de9124_story.html"
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-above-head",
+                    "art_width": "full-width"
+                  },
+                  "source": "The Washington Post",
+                  "commercial_node": "local"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- My Post Spacing -->
+    <dimen name="my_post_tablet_detail_gutter_width">36dp</dimen>
+    <dimen name="my_post_tablet_fixed_width_column">440dp</dimen>
+
+    <!-- My Post Sizes -->
+    <dimen name="my_post_detail_transparency_signature_text_size">14sp</dimen>
+    <dimen name="my_post_detail_headline_text_size">24sp</dimen>
+</resources>

@@ -1,0 +1,799 @@
+
+{
+  "id": "f88425851f4193b73f137fa198884a93",
+  "type": "blog",
+  "renderer": "native",
+  "arcId": "B4IBZP2WUZBU5EB357H3VU2PMM",
+  "title": "In election 2022, the party of Trump pays for being the party of Trump",
+  "blurb": "Republicans went into the week looking to take control of the U.S. House and possibly the Senate. Instead, they are left more with questions than favorable results.",
+  "contenturl": "https://www.washingtonpost.com/politics/2022/11/12/trump-cost-election-sundaytake/",
+  "shareurl": "https://www.washingtonpost.com/politics/2022/11/12/trump-cost-election-sundaytake/",
+  "source": "the-washington-post",
+  "section": "Politics",
+  "sourcesection": "politics",
+  "sourcesubsection": "politics",
+  "sourcecategory": "Politics",
+  "lmt": 1668445693987,
+  "published": 1668445693987,
+  "first_published": 1668271439946,
+  "display_date": 1668309019410,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4NW3V2RXGNF3ZUFN3K6HEITOBE.jpg",
+  "sourceslug": "sundaytake1113",
+  "commercialnode": "/politics",
+  "omniture": {
+    "title": "In election 2022, the GOP pays for being the party of Trump - The Washington Post",
+    "pageName": "trump-cost-election-sundaytake",
+    "channel": "politics",
+    "contentId": "nullB4IBZP2WUZBU5EB357H3VU2PMM",
+    "contentType": "story - default",
+    "contentSource": "the-washington-post",
+    "contentTopics": "Politics",
+    "newsroomDesk": "national",
+    "newsroomSubdesk": "national",
+    "contentAuthor": "dan balz",
+    "authorId": "balzdj",
+    "authorType": "staff",
+    "subSection": "politics",
+    "arcId": "B4IBZP2WUZBU5EB357H3VU2PMM",
+    "trackingTags": "story-has-edit-branch;methode-draft;created from template id fure6yyyxzfc3czoccf52dm3w4;audio-article;has-bright"
+  },
+  "version": 1,
+  "tags": "story-has-edit-branch,methode-draft,created from template id fure6yyyxzfc3czoccf52dm3w4,audio-article,has-bright",
+  "items": [
+    {
+      "type": "sub_nav",
+      "siteMap": "https://s3.amazonaws.com/wpmobileprodipad2.0/classic_test/site-mock/site-secondary-list.json",
+      "parent": "/elections/election-2024",
+      "item": {
+        "type": "web_embed",
+        "subtype": "elex",
+        "widthFactor": "full-bleed",
+        "url": "https://elex-render-dev.elex.preview.now.washingtonpost.com/components/2024-11-05-election-us-nation-aggregate-feed/balanceofpower/",
+        "sizes": [
+          {
+            "width": 232,
+            "height": 436
+          },
+          {
+            "width": 364,
+            "height": 436
+          }
+        ]
+      }
+    },
+    {
+      "content": "Politics",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Politics",
+      "displayTransparency": "Analysis",
+      "path": "/politics",
+      "storyType": "Analysis"
+    },
+    {
+      "content": "In election 2022, the party of Trump pays for being the party of Trump",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/B4IBZP2WUZBU5EB357H3VU2PMM/20221114-120810.104/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/B4IBZP2WUZBU5EB357H3VU2PMM/20221114-120810.104/current.mp3?awCollectionId=/politics&awEpisodeId=B4IBZP2WUZBU5EB357H3VU2PMM",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/B4IBZP2WUZBU5EB357H3VU2PMM/20221114-120810.104/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4NW3V2RXGNF3ZUFN3K6HEITOBE.jpg",
+        "imageWidth": 3500,
+        "imageHeight": 2333,
+        "fullcaption": "(Sarah L. Voisin/The Washington Post)"
+      },
+      "title": {
+        "content": "In election 2022, the party of Trump pays for being the party of Trump",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "Politics",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "Politics",
+        "displayTransparency": "Analysis",
+        "path": "/politics",
+        "storyType": "Analysis"
+      },
+      "date": {
+        "content": 1668309019410,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      }
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4NW3V2RXGNF3ZUFN3K6HEITOBE.jpg",
+      "imageWidth": 3500,
+      "imageHeight": 2333,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Former president Donald Trump speaks during a “Save America” rally on Nov. 7 in Vandalia, Ohio. (Sarah L. Voisin/The Washington Post)",
+      "blurb": "Former president Donald Trump speaks during a “Save America” rally on Nov. 7 in Vandalia, Ohio."
+    },
+    {
+      "content": "By Dan Balz",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "balzdj",
+          "url": "https://www.washingtonpost.com/people/dan-balz/",
+          "name": "Dan Balz",
+          "bio": "Dan Balz is chief correspondent at The Washington Post. He has served as the paper’s deputy national editor, political editor, White House correspondent and Southwest correspondent.",
+          "expertise": "Chief correspondent covering national politics, the presidency and Congress",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/a0bd4956-a3b9-4655-a6ab-cf2d0914486b.png"
+        }
+      ]
+    },
+    {
+      "content": 1668309019410,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "position" : { "small" : "incontent_3", "large": "incontent_2" },
+      "kind": "float",
+      "size": "tall",
+      "adPath": "/politics"
+    },
+    {
+      "arcId": "DHUAFN2LAZADLDNAQEBCIZP5EE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Election Day has come and gone, and the counting continues without a definitive answer to the question of what the balance of power will look like in the coming two years. But a clear message has come through from the voters: a desire for stability at a time of unrest, a call for seriousness at a time it is needed."
+    },
+    {
+      "arcId": "SONU35UROZE3BOQ532EQDGMXUY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Whatever the final numbers show, 2022 will be remembered as an <a href=\"https://www.washingtonpost.com/elections/\">election</a> that produced an incremental earthquake, an election of small shifts that added up to big surprises, an election in which the party that hopes to recapture the House emerges disappointed and more divided. Election 2022 was a dual referendum: on President Biden and the Democrats but also on former president <a href=\"https://www.washingtonpost.com/politics/2022/11/11/trump-criticism-midterms-republicans/\">Donald Trump</a> and the Republicans."
+    },
+    {
+      "arcId": "QSBGTDKNSFFTZLZ7KMIB7U74TI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Trump has changed politics in many ways, and <a href=\"https://www.washingtonpost.com/politics/2022/11/11/senate-republicans-mcconnell-midterms/\">Republicans paid a price</a> for it Tuesday. His presence has created an energized electorate. Since he was elected, huge voter turnouts have become the norm: a midterm record in 2018, a presidential-year record in 2020 and a near-record again this year. Midterm elections usually mean complacency among voters whose party just won the White House. In the age of Trump, every election is consequential, and both sides come highly motivated."
+    },
+    {
+      "type": "toggle",
+      "subtype": "topic-follow",
+      "key": "CP-2"
+    },
+    {
+      "arcId": "UERPDHNI6NAHZKNKT4I37GDZRI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "For all the shouting and anger that has marked politics in recent years, voters were not in a “throw the bums out” mood. So far, only a handful of House members have lost their elections. The shifts have come more in open seats than in incumbent-held seats. No sitting senator has yet to be defeated, but the race in Georgia is headed for a runoff. Nevada Gov. Steve Sisolak (D), who conceded to Republican <a href=\"https://www.washingtonpost.com/politics/2022/11/11/nevada-governor-lombardo-sisolak/\">Joe Lombardo</a> on Friday, is an exception to this pattern."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "position" : { "small" : "incontent_3", "large": "incontent_2" },
+      "kind": "block",
+      "size": "tall",
+      "adPath": "/politics"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "position" : { "small" : "incontent_3", "large": "incontent_2" },
+      "kind": "float",
+      "size": "medium",
+      "adPath": "/politics"
+    },
+    {
+      "arcId": "H5KU3GDE4FFPBCXKF3PD3AJXQQ",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Republicans campaigned against what they described as a radical left-wing agenda by Biden and congressional Democrats. They counted on high inflation, concerns about disorder and Biden’s weak approval ratings to give them a sweeping victory and the chance to dramatically change the course of policy. The message from voters was hardly a mandate for a major course change. Fears of a Trumpian party in charge in Washington caused many voters to stand in the way and say go slow."
+    },
+    {
+      "arcId": "4EJYHWFLYJFKHH5IM2KNJXKY6A",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "For years, Republicans stressed the importance of the Supreme Court as a way to mobilize their base. On Tuesday, the Supreme Court became a liability for Republican candidates, an institution seen by many Democratic voters as able to take away rights for women and a symbol of Republican-controlled government. <a href=\"https://www.washingtonpost.com/abortion/\">Abortion</a> rights supporters — women and young voters in particular — turned out in droves."
+    },
+    {
+      "arcId": "QZRESQKDXNG4LL3NV4RER4BXSA",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "In August, red-state Kansas delivered the first warning to Republicans of the backlash against the <i>Dobbs</i> decision, with voters by overwhelming numbers saying they wanted to protect abortion rights in the state constitution. This month, Democratic Gov. Laura Kelly, seen as the party’s most vulnerable governor, won reelection by about 17,000 votes."
+    },
+    {
+      "arcId": "5OXPDMZ4PZAQZGVX52PW3YQLBM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Republicans failed to make significant gains in part because they failed to attract the voters who often make the biggest difference in midterm elections. Every time there has been a party shift in the House in recent midterm elections, independent voters played a decisive role in helping the winning side. This year independent voters split their voters almost evenly, 49 percent for Democratic House candidates and 47 percent for Republicans, according to exit polls from Edison Research."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "position" : { "small" : "incontent_3", "large": "incontent_2" },
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/politics"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "position" : { "small" : "incontent_3", "large": "incontent_2" },
+      "kind": "float",
+      "size": "medium",
+      "adPath": "/politics"
+    },
+    {
+      "arcId": "CO6MGAQR5ZBUXKGBMLAYSQLQPI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The Republicans’ failure to convert more of those independent voters to their side is a flashing yellow light that the voters who can make the difference between winning and losing aren’t calling for major change. Perhaps they worried about choosing a party in which a majority say they do not think Biden was legitimately elected."
+    },
+    {
+      "arcId": "LS7F5UJ6LFGRXFMCYTYX6GSH7I",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Trump saddled the party with weak candidates. With better candidates in Pennsylvania, Georgia and Arizona, Republicans might have won control of the Senate. Instead, Democrats gained a seat in Pennsylvania and held both Arizona and Nevada. The victory in Nevada, where Sen. Catherine Cortez Masto was projected as the winner on Saturday night, gives Democrats the 50 seats needed to maintain control (with Vice President Harris’s tiebreaking vote); a victory in the Georgia runoff next month would give them 51 seats."
+    },
+    {
+      "arcId": "UERPDHNI6NAHZKNKT4I37GDZRI",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The lack of an anti-incumbent mood brought split results in some states. One example is Wisconsin, which has weathered some of the sharpest partisan warfare in the country for the past decade. On Tuesday, voters reelected Democratic Gov. Tony Evers, one of the least charismatic politicians in the country, and Republican Sen. Ron Johnson, one of the most controversial. In New Hampshire, voters reelected Republican Gov. Chris Sununu by 15 points and Democratic Sen. Maggie Hassan by almost 10."
+    },
+    {
+      "id": "94747779-da5f-447c-a34a-7d6cc90f7ea4",
+      "published": 1668217205000,
+      "isLive": false,
+      "lmt": 1668217205000,
+      "blurb": "National political reporter Isaac Arnsdorf explains what the midterm election results mean for Donald Trump, Ron DeSantis and 2024.",
+      "vertical": true,
+      "embedCode": "636eb25f998f8b40869e8a49",
+      "shareurl": "https://wapo.st/3E0QTrV",
+      "type": "video",
+      "host": "posttv",
+      "url": "false",
+      "placement": "center",
+      "widthFactor": "default",
+      "contenturl": "https://www.washingtonpost.com/video/politics/what-the-midterms-mean-for-trump-desantis-and-2024/2022/11/11/94747779-da5f-447c-a34a-7d6cc90f7ea4_video.html",
+      "credits": "Casey Silvestri/The Washington Post",
+      "fullcaption": "National political reporter Isaac Arnsdorf explains what the midterm election results mean for Donald Trump, Ron DeSantis and 2024. (Casey Silvestri/The Washington Post)",
+      "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/11-11-2022/t_f7dbeaa9f35d4289ab8b94ab2efb9c93_name_20221110_TrumpDeSantis_tn_site.jpg",
+      "imageHeight": 1920,
+      "imageWidth": 1080,
+      "omniture": {
+        "source": "The Washington Post",
+        "contentType": "video",
+        "contentId": "94747779-da5f-447c-a34a-7d6cc90f7ea4",
+        "channel": "politics",
+        "contentSubsection": "politics",
+        "pageName": "politics:video - 7d6cc90f7ea4 - 20221112 - what-the-midterms-mean-for-trump-desantis-and-2024"
+      },
+      "adconfig": {
+        "adSetUrls": {
+          "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.politics_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+        },
+        "allowPrerollOnDomain": false,
+        "autoPlayPreroll": false,
+        "commercialAdNode": "/politics",
+        "enableAdInsertion": false,
+        "enableAutoPreview": false,
+        "enableServerSideFallback": false,
+        "forceAd": false,
+        "playAds": true,
+        "playVideoAds": false,
+        "videoAdZone": "wpni.video.politics",
+        "adSetConfig": {
+          "adSetZone": "wpni.video.politics",
+          "adSetUrls": {
+            "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.politics_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+          }
+        }
+      },
+      "mediaURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20221111/636eb25f998f8b40869e8a49/636eb26b00e1586bfbaff660/file_360x640-600.mp4",
+      "streamURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20221111/636eb25f998f8b40869e8a49/636eb26b00e1586bfbaff660/mobile.m3u8",
+      "subtitlesURL": "https://closedcaptions.posttv.com/2022/11/11/94747779-da5f-447c-a34a-7d6cc90f7ea4/3_1668201367037/94747779-da5f-447c-a34a-7d6cc90f7ea4_636ea7eb998f8b40869e8759.vtt",
+      "streams": {
+        "ts": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20221111/636eb25f998f8b40869e8a49/636eb26b00e1586bfbaff660/mobile.m3u8",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20221111/636eb25f998f8b40869e8a49/636eb26b00e1586bfbaff660/master.m3u8",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20221111/636eb25f998f8b40869e8a49/636eb26b00e1586bfbaff660/hd.m3u8",
+            "bitrate": 4500
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20221111/636eb25f998f8b40869e8a49/636eb26b00e1586bfbaff660/hlsv4_master.m3u8",
+            "bitrate": 5400
+          }
+        ],
+        "mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20221111/636eb25f998f8b40869e8a49/636eb26b00e1586bfbaff660/file_180x320-160.mp4",
+            "bitrate": 160
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20221111/636eb25f998f8b40869e8a49/636eb26b00e1586bfbaff660/file_360x640-600.mp4",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20221111/636eb25f998f8b40869e8a49/636eb26b00e1586bfbaff660/file_480x854-1200.mp4",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20221111/636eb25f998f8b40869e8a49/636eb26b00e1586bfbaff660/file_720x1280-2000.mp4",
+            "bitrate": 2000
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20221111/636eb25f998f8b40869e8a49/636eb26b00e1586bfbaff660/file_1080x1920-5400.mp4",
+            "bitrate": 5400
+          }
+        ]
+      },
+      "isLooping": false,
+      "autoplay": false,
+      "fallback": null,
+      "title": "What the midterms mean for Trump, DeSantis and 2024",
+      "duration": 73962
+    },
+    {
+      "arcId": "D4UGXADQFBCQTAYNO3AMDXR7XM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Everyone has remarked on the huge reelection victory by <a href=\"https://www.washingtonpost.com/politics/2022/11/09/desantis-florida-republicans-2024-election/\">Florida Gov. Ron DeSantis </a>(R): a 19-point margin over former governor Charlie Crist. That eye-popping number put him in the spotlight as the strongest potential challenger to Trump for the 2024 GOP presidential nomination — if both end up running. But Sen. Marco Rubio (R-Fla.), who lost to Trump in the 2016 nomination battle, was also reelected by more than 16 points. The Florida Republican who had a bad night was Trump."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "position" : { "small" : "incontent_3", "large": "incontent_2" },
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/politics"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "position" : { "small" : "incontent_3", "large": "incontent_2" },
+      "kind": "float",
+      "size": "medium",
+      "adPath": "/politics"
+    },
+    {
+      "arcId": "4NTETBIZRFGDNNXFD4FVNCHE6U",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "DeSantis wasn’t the only incumbent governor who ran up the score. Ohio Gov. Mike DeWine (R) won by almost 26 points and probably helped to pull J.D. Vance, the party’s nominee for Senate, across the finish line in his race against Tim Ryan. In Michigan, Democratic Gov. <a href=\"https://www.washingtonpost.com/politics/2022/07/09/gretchen-whitmer-profile/\">Gretchen Whitmer</a>, once seen by some Republicans as vulnerable, demolished her challenger by 11 points. Now she is a national figure. In Colorado, Democratic Gov. Jared Polis won reelection by 17 points."
+    },
+    {
+      "arcId": "EHBN2RZ65FGCDKDWPWSP7PKUUM",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Democrats also did well in state legislative races where it mattered most, holding all their legislative majorities while winning control of Republican chambers in a number of states. This too ran counter to midterm patterns. Democrats lost hundreds of legislative seats during the midterm elections of 2010 and 2014. This year, in Michigan, which conducted its legislative elections under fairer maps than the maps produced after the 2010 redistricting, Democrats captured both chambers. The same happened in Minnesota. In both states, Democrats now have full control of the government."
+    },
+    {
+      "arcId": "LDGDIEU6RVATJL2MRJTFPZGUSU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "In 2020, as voters were sending Biden to the White House and Trump to exile in Florida, Republicans made gains in the U.S. House of Representatives — an unusual pattern in a presidential election year. That left Democrats under the leadership of House Speaker Nancy Pelosi (D-Calif.) with a slender majority. If Republicans end up in control of the House, they could have a margin as slim as the Democrats have had the past two years. Good luck to Minority Leader Kevin McCarthy (R-Calif.) — if he manages to win the speakership — in controlling his conference as skillfully as Pelosi has managed hers."
+    },
+    {
+      "arcId": "C6DTNMX6CFFK7O6VIS3DNIVLYU",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The Senate was always up for grabs but some bullish Republicans were talking about the possibility of taking the majority with 52 or 53 seats. Now they are left to wonder how in a year like this Democrats might actually increase their numbers. On this as with much else, they will point to Trump."
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small"
+      ],
+      "position" : { "small" : "incontent_3", "large": "incontent_2" },
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/politics"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "large"
+      ],
+      "position" : { "small" : "incontent_3", "large": "incontent_2" },
+      "kind": "float",
+      "size": "medium",
+      "adPath": "/politics"
+    },
+    {
+      "arcId": "WHW6LDIV4VEKDK7UTSFRG4NTRE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The House results remain the biggest surprise of the election, and they have caused much anguish inside the Republican Party. Even after Trump lost the White House in 2020, most GOP leaders concluded that they couldn’t win elections without his voters. That gave Trump power to meddle in elections, while drawing attention to himself as he falsely claimed the 2020 election was stolen. The Democrats branded Republicans as the MAGA (Make America Great Again) party. Republicans went along with Trump for the sheer sake of winning power. Now they may conclude they cannot win decisively as long as he is a dominant influence. The calls to move on are growing louder."
+    },
+    {
+      "arcId": "QVP2UZBWBNCFTLL5OHAJ2PCIQE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "In today’s divided country, all presidents are polarizing, but Biden may not be all that frightening to voters. He certainly doesn’t engender the reactions that Trump did. At a time when nearly 3 in 4 voters said they were angry or dissatisfied with the way things are going, Biden’s party managed to deny Republicans overwhelming gains in the House and retain its Senate majority."
+    },
+    {
+      "arcId": "IIZXDEFPZFFBTF5KR5TRWK6TSY",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "One number in exit polls that has drawn considerable attention is that the 10 percent of voters who said they “somewhat disapprove” of Biden’s job performance still narrowly backed Democratic House candidates. In 2018, the cohort of voters who said they somewhat disapproved of Trump backed Democratic candidates by 29 points, a much stronger rebuke of the president’s party."
+    },
+    {
+      "arcId": "WBCINX6R6JC5HIFOSQBSRWXSXE",
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The final chapters from the 2022 election are yet to be written. A Republican-controlled House, if that is the way it ends up, will mean significantly different priorities, investigations of the Biden administration and a changed governing climate in the capital. Legislatively, there could be gridlock along with some bipartisan agreements. Still, the big story of this election is the damage Trump has done and the price Republicans have paid for not standing up to him sooner."
+    },
+    {
+      "type": "link",
+      "subtype": "comments"
+    },
+    {
+      "type": "author_info",
+      "id": "balzdj",
+      "name": "Dan Balz",
+      "bio": "Dan Balz is chief correspondent at The Washington Post. He has served as the paper’s deputy national editor, political editor, White House correspondent and Southwest correspondent.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/a0bd4956-a3b9-4655-a6ab-cf2d0914486b.png",
+      "role": "Chief correspondent"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "blogname": "Politics",
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/B4IBZP2WUZBU5EB357H3VU2PMM/20221114-120810.104/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/B4IBZP2WUZBU5EB357H3VU2PMM/20221114-120810.104/current.mp3?awCollectionId=/politics&awEpisodeId=B4IBZP2WUZBU5EB357H3VU2PMM",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/B4IBZP2WUZBU5EB357H3VU2PMM/20221114-120810.104/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4NW3V2RXGNF3ZUFN3K6HEITOBE.jpg",
+      "imageWidth": 3500,
+      "imageHeight": 2333,
+      "fullcaption": "(Sarah L. Voisin/The Washington Post)"
+    },
+    "title": {
+      "content": "In election 2022, the party of Trump pays for being the party of Trump",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "Politics",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Politics",
+      "displayTransparency": "Analysis",
+      "path": "/politics",
+      "storyType": "Analysis"
+    },
+    "date": {
+      "content": 1668309019410,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    }
+  },
+  "first_display_date": 1668271439258,
+  "targeting": {
+    "adcall": [
+      {
+        "key": "ca",
+        "values": [
+          "rcisc",
+          "r1zb8",
+          "r66hu",
+          "r5zn0",
+          "r71iv",
+          "rnfyo",
+          "rddr6",
+          "r71he",
+          "rqlce",
+          "r63ky",
+          "r8kl5",
+          "r1djc",
+          "rj98c",
+          "r0yv2",
+          "r2ztd",
+          "ralq3",
+          "r6x7c",
+          "r2ob4",
+          "rh5hz",
+          "rvt6h",
+          "rtrxk",
+          "rxvfu",
+          "rpkxx",
+          "rohf5",
+          "reest",
+          "r8paa",
+          "rqltv",
+          "r6ovq",
+          "ru0hj",
+          "rk4hi",
+          "r2x7m",
+          "rjls7",
+          "rnryg",
+          "rihsc",
+          "r4qca",
+          "ren01",
+          "r8pmm",
+          "r6iq7",
+          "r4fvv",
+          "r30iy",
+          "rw76f",
+          "rh22v",
+          "rhwg4",
+          "r82mu",
+          "r35cx",
+          "rsqg7",
+          "rl43b",
+          "rt96h",
+          "r6jbe",
+          "ryx8n",
+          "rkgjf",
+          "r1yqm",
+          "raw34",
+          "r6g4r",
+          "rf299",
+          "rzhau",
+          "r3vky",
+          "rzd33",
+          "rtdlb",
+          "rjuyh",
+          "rzfmu",
+          "r35ap",
+          "r3hdp",
+          "rynal",
+          "reerp",
+          "rayu0",
+          "r7d9r",
+          "rl7yb",
+          "rsmxd",
+          "rt5dp",
+          "r7tmu",
+          "rzqdp",
+          "r3t9e",
+          "r4avn",
+          "rva7x",
+          "r3bxp",
+          "rwsk4",
+          "rfhup",
+          "rlugb",
+          "r3ykj",
+          "rhfzk",
+          "rqs5o",
+          "r4t4y",
+          "rfpua",
+          "r35lh",
+          "r2x21",
+          "rz457",
+          "rj2ns",
+          "rfz4c",
+          "rk7m0",
+          "rh5xk",
+          "rtv19",
+          "rq574",
+          "rj67t",
+          "rd7v3",
+          "rgepe",
+          "r2qxu",
+          "r1fne",
+          "rayex",
+          "r5hej",
+          "ratb5",
+          "rhll0",
+          "rw7py",
+          "rtbcp",
+          "rgpk6",
+          "rnfuc",
+          "rd270",
+          "ry25b",
+          "rx8m9",
+          "rd18m",
+          "rsesv",
+          "rjbi9",
+          "r1ysy",
+          "r1jfj",
+          "rx4px",
+          "r69iu",
+          "r2qu2",
+          "rbgqk",
+          "rs7c2",
+          "rsoqi",
+          "rjvyd",
+          "rxeck",
+          "rcase",
+          "rlz8o",
+          "r135d",
+          "rdfqf",
+          "rwlm1",
+          "r46n5",
+          "rlw2t",
+          "r5lck",
+          "rvhux",
+          "rvywr",
+          "rdlnx",
+          "rkxir",
+          "rg1ny",
+          "rc6uk",
+          "riklp",
+          "r301t",
+          "rf0ll",
+          "rbjys",
+          "rh52g",
+          "rapws",
+          "rlv7a",
+          "rh5p3",
+          "r9hok",
+          "rvn0g",
+          "r54xz",
+          "romxp",
+          "rlc5f",
+          "rczmm",
+          "rwkq4",
+          "rdxtu",
+          "rehh9",
+          "rloc3",
+          "rmk71",
+          "r3mmv",
+          "r0kbr",
+          "rqyhw",
+          "rqnkl",
+          "rloxr",
+          "r3mmr",
+          "r78zx",
+          "rg5cq",
+          "rkqfd",
+          "rht4j",
+          "rem29_l",
+          "rgywb",
+          "rkkqd",
+          "r0hej",
+          "r44lb",
+          "rdrh1",
+          "r6f4o",
+          "r1nqd",
+          "r0too"
+        ]
+      },
+      {
+        "key": "wapoTopics",
+        "values": [
+          "hrcb",
+          "crvm",
+          "vor6",
+          "xqc3",
+          "xgp0",
+          "sucf",
+          "xa58",
+          "x2ec",
+          "eleu",
+          "votn",
+          "x33j",
+          "legs"
+        ]
+      },
+      {
+        "key": "bs",
+        "values": [
+          "wapo_rsk_low",
+          "garm_low",
+          "garm_safe"
+        ]
+      }
+    ],
+    "permutive_dict": {
+      "article": {
+        "customTopics": [
+          "[rwkq4] 2024 Elections - House Elections",
+          "[rdxtu] 2024 Elections - General Elections",
+          "[rht4j] American History"
+        ],
+        "wapoTopics": [
+          "[1:hrcb] /human_rights",
+          "[2:crvm] /human_rights/civil_rights",
+          "[3:vor6] /human_rights/civil_rights/voting_rights",
+          "[1:xqc3] /law_and_order",
+          "[2:xgp0] /law_and_order/legal_proceedings",
+          "[3:sucf] /law_and_order/legal_proceedings/courts",
+          "[3:xa58] /law_and_order/legal_proceedings/courts",
+          "[1:x2ec] /politics",
+          "[2:eleu] /politics/elections",
+          "[3:votn] /politics/elections/voting",
+          "[2:x33j] /politics/judiciary",
+          "[2:legs] /politics/legislature"
+        ],
+        "publishDate": "2022-11-11T22:09:46.609Z",
+        "lastUpdateDate": "2022-11-14T17:08:13.939Z",
+        "authorName": [
+          "dan balz"
+        ],
+        "authorType": [
+          "author"
+        ],
+        "newsroomDesk": [
+          "national"
+        ],
+        "newsroomSubdesk": [
+          "national - america"
+        ],
+        "contentType": "story - default",
+        "language": "en",
+        "wordCount": 1494
+      },
+      "canonicalUrl": "/politics/2022/11/12/trump-cost-election-sundaytake/",
+      "section": "politics",
+      "subsection": "politics",
+      "commercialNode": "/politics"
+    }
+  }
+}

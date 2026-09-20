@@ -1,0 +1,164 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_subscriptions_header">Subscriptions</string>
+    <string name="pref_subscriptions_type_header">Subscription Type</string>
+    <string name="pref_about_header">About the App</string>
+    <string name="pref_about_header_key">prefAboutHeader</string>
+    <string name="pref_widget_header">Customize Widget</string>
+    <string name="pref_wear_header">Connect to Android Wear</string>
+    <string name="pref_wear_download">Download wear app</string>
+    <string name="pref_night_mode">App Settings</string>
+    <string name="pref_app_version_header">Version number</string>
+    <string name="pref_section_server_notifications_title">Server Notifications</string>
+    <string name="pref_privacy_policy_title">Privacy Policy</string>
+    <string name="pref_newsletters_and_email_alerts_title">Newsletters &amp; Email Alerts</string>
+    <string name="pref_terms_of_service_title">Terms of Service</string>
+    <string name="pref_synchronization_header">Synchronization</string>
+    <string name="pref_sync_over_cellular_title">Get updates over cellular</string>
+    <string name="pref_sync_over_cellular_summary">(uses large amounts of data)</string>
+    <string name="pref_leave_feedback">Leave feedback</string>
+    <string name="pref_review_in_amazon_title">Review in Appstore</string>
+    <string name="pref_login_or_create_account">Log in or Create Account</string>
+    <string name="pref_buy_subscription">Buy Subscription</string>
+    <string name="pref_home_delivery_subscribers">Home Delivery Subscribers</string>
+    <string name="pref_amazon">Amazon</string>
+    <string name="pref_print_edition">Print Edition Settings</string>
+    <string name="pref_print_download_sections_over_cellular_title">Download sections on WiFi only</string>
+    <string name="pref_print_daily_download">Download daily paper automatically</string>
+    <string name="pref_print_edition_sections">Customize downloaded sections</string>
+    <string name="pref_print_setting_sections">Sections</string>
+    <string name="pref_show_tutorial">Show Tutorial in Print Edition</string>
+    <string name="pref_select_font_size">Font Size</string>
+    <string name="pref_delete_pdf_title">Delete saved print editions</string>
+    <string name="pref_delete_pdf_summary">Size : </string>
+    <string name="pref_reset_pinned">Reset pinned sections</string>
+    <string name="pref_notification_settings">Customize alerts</string>
+    <string name="pref_notice_of_collection">CA Notice of Collection</string>
+    <string name="pref_privacy_settings">Do Not Sell My Personal Information</string>
+
+    <string name="pref_A_section">A Section</string>
+    <string name="pref_metro">Metro</string>
+    <string name="pref_sports">Sports</string>
+    <string name="pref_style">Style</string>
+    <string name="pref_business">Business</string>
+    <string name="pref_magazine">Magazine</string>
+    <string name="pref_food">Food</string>
+    <string name="pref_health">Health</string>
+    <string name="pref_local_living">Local Living</string>
+    <string name="pref_comics">Comics</string>
+    <string name="pref_outlook">Outlook</string>
+    <string name="pref_travel">Travel</string>
+    <string name="pref_arts">Arts</string>
+    <string name="pref_weekend">Weekend</string>
+    <string name="pref_real_estate">Real Estate</string>
+    <string name="pref_special_advertising">Special Advertising</string>
+
+
+    <!-- Settings -->
+
+    <!-- SettingsFragment-->
+    <string name="pref_primary_profile_sub" translatable="false">prefPrimaryProfileSub</string>
+    <string name="pref_secondary_profile_sub" translatable="false">prefSecondaryProfileSub</string>
+    <string name="pref_upgrade_banner" translatable="false">prefUpgradeBanner</string>
+    <string name="pref_settings_sign_in" translatable="false">prefSignIn</string>
+    <string name="pref_settings_wp_weekly" translatable="false">prefWpWeekly</string>
+    <string name="pref_settings_sign_out" translatable="false">prefSignOut</string>
+    <string name="pref_sub_link_error" translatable="false">prefSubLinkError</string>
+    <string name="pref_sub_pause_banner" translatable="false">prefSubPauseBanner</string>
+    <string name="pref_mobile_free_trial_banner" translatable="false">prefMobileFreeTrialBanner</string>
+    <string name="pref_subscription_benefits" translatable="false">prefSubscriptionBenefits</string>
+    <string name="pref_settings_theme_key" translatable="false">prefTheme</string>
+    <string name="pref_settings_text_size_key" translatable="false">prefTextSize</string>
+    <string name="pref_settings_match_default_font_size_key" translatable="false">prefDefaultFontSize</string>
+    <string name="pref_settings_open_links_key" translatable="false">prefEnableOpenWebInApp</string>
+    <string name="pref_settings_print_tutorial_key" translatable="false">prefPrintTutorialEnabled</string>
+    <string name="pref_settings_alerts_key" translatable="false">prefAlerts</string>
+    <string name="pref_settings_newsletters_and_email_alerts_key" translatable="false">prefNewslettersAndEmailAlerts</string>
+    <string name="pref_settings_about_me_key" translatable="false">prefAboutMe</string>
+    <string name="pref_settings_custom_nav_key" translatable="false">prefCustomNav</string>
+    <string name="pref_settings_audio_key" translatable="false">prefAudio</string>
+    <string name="pref_settings_storage_key" translatable="false">prefStorage</string>
+    <string name="pref_settings_test_options_key" translatable="false">prefTestOptions</string>
+    <string name="pref_developer_mode" translatable="false">prefDeveloperMode</string>
+    <string name="pref_open_debug_panel" translatable="false">prefOpenDebugPanel</string>
+    <string name="pref_debug_panel" translatable="false">prefDebugPanel</string>
+    <string name="pref_debug_panel_category" translatable="false">prefDebugPanelCategory</string>
+    <string name="pref_settings_help_key" translatable="false">prefHelp</string>
+    <string name="pref_settings_contact_us_key" translatable="false">prefContactUs</string>
+    <string name="pref_settings_privacy_key" translatable="false">prefPrivacy</string>
+    <string name="pref_settings_feedback_key" translatable="false">prefFeedback</string>
+    <string name="pref_settings_terms_key" translatable="false">prefTerms</string>
+    <string name="pref_settings_footer_key" translatable="false">prefFooter</string>
+    <string name="pref_settings_beta" translatable="false">prefBeta</string>
+    <string name="pref_settings_beta_aggregator" translatable="false">prefBetaAggregator</string>
+    <string name="pref_settings_beta_ask_the_post_ai" translatable="false">prefBetaAskThePostAIBot</string>
+    <string name="pref_settings_beta_climate_bot" translatable="false">prefBetaClimateBot</string>
+    <string name="pref_settings_beta_post_llm" translatable="false">prefBetaPostLLM</string>
+    <string name="subscription_link_error_head" translatable="false">Unable to link your account</string>
+
+    
+    <string name="primary_no_sub" translatable="false">Subscribe to The Post</string>
+    <string name="primary_sub_no_account" translatable="false">Sign in to get the most out of your plan</string>
+    <string name="primary_grace_period" translatable="false">We were unable to process your last payment.</string>
+    <string name="primary_on_hold" translatable="false">Your subscription is no longer active</string>
+    <string name="primary_sub_expired" translatable="false">Resubscribe to The Post</string>
+
+    <string name="secondary_no_sub" translatable="false">View subscription options</string>
+    <string name="secondary_sub_no_account" translatable="false">or create an account</string>
+    <string name="secondary_grace_period" translatable="false">Update payment details to keep your access</string>
+    <string name="secondary_on_hold" translatable="false">Update payment details to restore your access</string>
+    <string name="secondary_sub_expired" translatable="false">View subscription options</string>
+
+    <string name="pref_settings_text_size_maginfier_text" translatable="false">This is a sample of your article text size.</string>
+
+    <!-- Account -->
+    <string name="pref_edit_email" translatable="false">prefEditEmail</string>
+    <string name="pref_edit_name" translatable="false">prefEditName</string>
+    <string name="pref_sub_type" translatable="false">prefSubscriptionType</string>
+    <string name="pref_manage_sub" translatable="false">prefManagerSubscription</string>
+    <string name="pref_app_store_terms" translatable="false">prefAppStoreTerms</string>
+    <string name="pref_sub_category" translatable="false">prefSubCategory</string>
+    <string name="pref_sub_terms_category" translatable="false">prefSubTermsCategory</string>
+    <string name="pref_sub_payment_error" translatable="false">prefPaymentError</string>
+    <string name="pref_account_category" translatable="false">prefAccountCategory</string>
+    <string name="pref_user_category" translatable="false">prefUserCategory</string>
+    <string name="pref_developer_category" translatable="false">prefDeveloperCategory</string>
+    <string name="pref_subscription_category" translatable="false">prefSubscriptionCategory</string>
+    <string name="pref_add_on_category" translatable="false">prefAddOnCategory</string>
+    <string name="pref_networking_category" translatable="false">prefNetworkingCategory</string>
+
+    <string name="playstore_terms_url">https://play.google.com/intl/en-US_us/about/play-terms/index.html</string>
+    <string name="amazon_terms_url">https://www.amazon.com/gp/help/customer/display.html?nodeId=201485660</string>
+
+
+    <!-- Alerts -->
+    <string name="pref_alerts_category_key" translatable="false">prefCategorizeAlerts</string>
+
+
+    <!-- Storage -->
+    <string name="pref_storage_updates_on_wifi_key" translatable="false">prefUpdatesOnWifi</string>
+    <string name="pref_storage_low_data_mode" translatable="false">prefLowDataMode</string>
+    <string name="pref_storage_low_data_mode_from_settings" translatable="false">prefLowDataModeFromSettings</string>
+    <string name="pref_storage_background_sync_key" translatable="false">backgroundSync</string>
+    <string name="pref_storage_download_print_daily_key" translatable="false">prefPrintDailyDownload</string>
+    <string name="pref_storage_customize_print_sections_key" translatable="false">prefCustomizeDownloadSections</string>
+    <string name="pref_storage_delete_print_key" translatable="false">prefDeletePrint</string>
+    <string name="pref_storage_autoplay_videos_key" translatable="false">autoplayVideos</string>
+
+    <!-- Test Options -->
+    <string name="pref_test_ads_key" translatable="false">prefTestAds</string>
+    <string name="pref_test_ads_value_key" translatable="false">prefTestAdsValue</string>
+
+    <!-- Storage - Print Preferences -->
+
+    <!-- Privacy -->
+    <string name="pref_privacy_ad_info_key" translatable="false">prefAdInfo</string>
+    <string name="pref_privacy_notice_of_collection_key" translatable="false">prefNoticeOfCollection</string>
+    <string name="pref_privacy_do_not_sell_info_key" translatable="false">prefDoNotSell</string>
+    <string name="pref_privacy_privacy_policy_key" translatable="false">prefPrivacyPolicy</string>
+    <string name="pref_ca_settlement_shown" translatable="false">prefCASettlementShown</string>
+    <string name="pref_privacy_onetrust_preference_center_key" translatable="false">prefOneTrust</string>
+    <string name="settings_add_ons_ad_free">Add-ons:</string>
+    <string name="settings_ad_free_default_title">Ad-free</string>
+    <string name="pref_ad_free_add_on" translatable="false">prefAdFreeAddOn</string>
+</resources>

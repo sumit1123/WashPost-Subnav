@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="favorite_topics_header" translatable="false">Favorite Topics</string>
+    <string name="favorite_topics_subtitle" translatable="false">Add and reorder topics to customize the menu on your Top Stories page.</string>
+    <string name="recommended_header" translatable="false">Recommended</string>
+
+    <string name="reset_topics" translatable="false">Reset topics</string>
+    <string name="reset_confirmation" translatable="false">Are you sure you want to reset to the original topics?</string>
+    <string name="reset_confirm" translatable="false">RESET</string>
+    <string name="reset_cancel" translatable="false">CANCEL</string>
+
+    <!-- Accessibility -->
+    <string name="add_remove_topic" translatable="false">Add or Remove Topic</string>
+    <string name="drag_to_reorder_topic" translatable="false">Drag to Reorder Topic</string>
+</resources>

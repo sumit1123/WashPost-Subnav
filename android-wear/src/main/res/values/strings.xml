@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="project_number">790760606928</string>
+
+    <string name="app_name">Wash Post</string>
+
+    <string name="initial_articles_title">Please select a section in the settings menu</string>
+    <string name="error_message">Oops! Something went wrong. Please make sure you are connected to the network</string>
+    <string name="content_unavailable">Content unavailable.</string>
+
+    <string name="download_phone_app_message">Download The Washington Post phone app to use this feature.</string>
+
+    <string name="section_alerts">Alerts</string>
+    <string name="section_top_stories">Top Stories</string>
+    <string name="section_settings">Settings</string>
+    <string name="section_extra">Extra Section</string>
+    <string name="connected_to_phone">Connected to Washington Post phone app!</string>
+    <string name="disconnected_to_phone_app">Disconnected to Washington Post phone app!</string>
+    <string name="connect_to_network">Please connect to a network</string>
+    <string name="content_error">Content error</string>
+    <string name="saved_article_confirmation">Saved Article</string>
+    <string name="open_mobile_app_confirmation">Open Mobile App</string>
+    <string name="read_more_on_phone">Read More on Phone</string>
+    <string name="save_article">Save Article</string>
+    <string name="please_select_a_section">Please select a section</string>
+
+    <!-- Airship -->
+    <string name="notification_channel_id" translatable="false">news_alerts</string>
+    <string name="airship_development_app_key" translatable="false">9E8981A629966E35E412F09A6FC2D3764F7DC2FC491CB56E842E9B53D984B0A0</string>
+    <string name="airship_development_app_secret" translatable="false">9B6794F189326743B3D863808F61AA078E41EDE9EC0F0807A42B03F92EAE2451</string>
+    <string name="airship_production_app_key" translatable="false">A2CF05F9244CF79A3E1C3ACFC6A79A14110CD59EF011306A7B79238A934D9145</string>
+    <string name="airship_production_app_secret" translatable="false">8075CFB2274821D138B92CDB23559430D8F588A28AC34B235220629C820B3E1E</string>
+
+    <!-- New Wear App -->
+    <string name="welcome_message">Welcome to The Washington Post Wear app!</string>
+    <string name="missing_message">You are missing the required phone app, please click on the button below to install it on your phone.</string>
+    <string name="installed_message">Your watch is now connected to The Washington Post mobile app!</string>
+    <string name="playstore_app_uri">market://details?id=com.washingtonpost.android</string>
+    <string name="error_loading_section">Error loading section</string>
+    <string name="the_7">The 7</string>
+    <string name="top_stories">Top Stories</string>
+    <string name="politics">Politics</string>
+    <string name="opinions">Opinions</string>
+    <string name="preview_podcasts">Preview Podcasts</string>
+    <string name="save_for_later">Save for later</string>
+    <string name="listen">Listen</string>
+    <string name="next">Next</string>
+    <string name="prompt_to_connect_to_headset">To play audio, connect Bluetooth headphones to your watch.</string>
+    <string name="learn_more_text_description">This audio feature uses a computer-generated voice.</string>
+    <string name="prompt_to_connect_and_subscribe">Connect to mobile app and subscribe to listen to full content.</string>
+    <string name="prompt_to_subscribe">Subscribe on mobile app to listen to full content.</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="podcast_placeholder_image_width">500dp</dimen>
+    <dimen name="podcast_placeholder_image_height">500dp</dimen>
+    <integer name="top_view_weight">40</integer>
+    <integer name="bottom_view_weight">60</integer>
+</resources>

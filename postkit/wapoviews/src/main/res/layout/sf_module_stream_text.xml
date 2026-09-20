@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content"
+    a:background="@drawable/section_selector">
+
+    <com.wapo.view.TextPanel
+        a:id="@+id/sf_module_text_panel"
+        style="@style/sf_module_stream"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:padding="@dimen/sf_module_padding"
+        app:layout="@layout/view_textpanel_stream" />
+
+    <View
+        a:theme="@style/saved_article_divider"
+        a:layout_width="match_parent"
+        a:layout_height="@dimen/sf_module_stream_separator_height"
+        a:layout_below="@id/sf_module_text_panel"/>
+
+    <LinearLayout
+        a:id="@+id/undo_layout"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:visibility="gone"
+        a:weightSum="3">
+
+        <LinearLayout
+            a:layout_width="0dp"
+            a:layout_height="match_parent"
+            a:layout_weight="1"
+            a:gravity="end">
+
+            <Button
+                a:id="@+id/undo_buttn"
+                a:layout_width="40dp"
+                a:layout_height="40dp"
+                a:background="@drawable/ic_delete_forever_black_24dp"
+                />
+        </LinearLayout>
+
+        <View
+            a:layout_width="0dp"
+            a:layout_height="match_parent"
+            a:layout_weight="1" />
+
+        <LinearLayout
+            a:layout_width="0dp"
+            a:layout_height="match_parent"
+            a:layout_weight="1"
+            a:gravity="start">
+
+            <Button
+                a:id="@+id/restore"
+                a:layout_width="40dp"
+                a:layout_height="40dp"
+                a:layout_gravity="start|center_vertical"
+                a:background="@drawable/ic_keyboard_arrow_right_black_24dp"
+               />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

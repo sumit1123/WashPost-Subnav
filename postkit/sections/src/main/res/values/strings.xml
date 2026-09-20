@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="homepage_byline_dot">•</string>
+    <string name="network_is_disabled_message_live_blog">An internet connection is required for this feature</string>
+    <string name="live_video_header">WATCH LIVE:</string>
+    <string name="articles_unable_to_load_a_content_msg">Unable to load content.</string>
+    <string name="we_are_gathering_your_news_msg">We\'re gathering your news.</string>
+    <string name="new_stories">New Stories Available</string>
+    <string name="section_unable_to_load_a_content_msg">Unable to load this content.</string>
+    <string-array name="page_open_in_browser_msg">
+        <item>Just a second...</item>
+        <item>We\'re taking you to our website.</item>
+        <item> Click here</item>
+        <item> to retry</item>
+    </string-array>
+    <string name="new_stories_many">%1$d New Articles</string>
+    <string name="new_stories_one">New Article</string>
+    <string name="subscriber_only"></string>
+    <string name="video_not_available">Video not available; please refresh and try again</string>
+    <string name="team_logo">Team Logo</string>
+    <string name="current_score">%1$s - %2$s</string>
+    <string name="pre_game"><![CDATA[%1$s (%2$s) vs.\n%3$s (%4$s)]]></string>
+    <string name="score_update_failed">Score update failed</string>
+    <string name="connection_error">Connection error</string>
+    <string name="refresh_icon">Refresh Icon</string>
+    <string name="error_icon">Error Icon</string>
+    <string name="game_details">Game Details</string>
+    <string name="get_updates">Get Updates</string>
+    <string name="scoreboard_tab_pre_game">Pre Game</string>
+    <string name="scoreboard_tab_live">Live</string>
+    <string name="scoreboard_tab_recap">Recap</string>
+    <string name="scoreboard_tab_summary">Summary</string>
+    <string name="scoreboard_tab_box">Box</string>
+    <string name="close">Close</string>
+    <string name="did_not_play">DNP</string>
+    <string name="mlb">MLB</string>
+    <string name="mls">MLS</string>
+    <string name="game_updates">Game Updates</string>
+    <string name="goals">Goals</string>
+    <string name="hr">HR</string>
+    <string name="rbi">RBI</string>
+    <string name="error_game_details">Error getting game details</string>
+    <string name="scoreboard_detail_pregame_message">Game has not yet started</string>
+    <string name="default_timer_text">00</string>
+    <string name="listen">Listen</string>
+    <string name="page_updated_tap_to_refresh">Page updated. Tap to refresh.</string>
+    <string name="content_refresh_dismiss">Dismiss</string>
+    <string name="try_again">Try Again</string>
+    <string name="retry">Retry</string>
+    <string name="how_to_vote">How to vote</string>
+    <string name="vote_default_text1">Find out all the rules around voting by mail or in person, on Election Day or before, in your state.</string>
+    <string name="vote_default_text2">Lots of rules have changed in 2020</string>
+    <string name="vote_default_text3">Many states have expanded the use of mail-in, or absentee, ballots.</string>
+    <string name="more_about_absentee_voting">More about absentee voting</string>
+    <string name="request_a_ballot_online">Request a ballot online</string>
+    <string name="more_about_voting_in_state">More about voting in %1$s</string>
+    <string name="related_links_content_description">Related link</string>
+
+    <!-- Subscribe Banner text values -->
+    <string name="no_sub_primary_text">Go beyond the headlines.</string>
+    <string name="no_sub_secondary_text">Don\'t miss another minute.</string>
+    <string name="sign_in_link_text">Sign in</string>
+    <string name="already_signed_in_link_text">Sign into a different account</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="resubscribe">Resubscribe</string>
+    <string name="go">Go</string>
+
+    <string name="grace_period_primary_text">Payment error.</string>
+    <string name="grace_period_secondary_text">To keep your access, update payment details.</string>
+    <string name="grace_period_link_text">update payment details</string>
+
+    <string name="on_hold_primary_text">Your subscription is no longer active.</string>
+    <string name="on_hold_secondary_text">To restore your access, update payment details.</string>
+    <string name="on_hold_link_text">update payment details</string>
+
+    <string name="paused_primary_text">Your subscription is paused</string>
+    <string name="paused_secondary_text">Resumes on {date}. Ready now?</string>
+    <string name="paused_secondary_fallback_text">It will resume soon. Ready now?</string>
+    <string name="paused_button_text">Resume</string>
+
+    <string name="scheduled_pause_primary_text">Subscription pauses {date}</string>
+    <string name="scheduled_pause_primary_fallback_text">Subscription pauses soon</string>
+    <string name="scheduled_pause_secondary_text">Undo scheduled pause to read uninterrupted.</string>
+    <string name="scheduled_pause_button_text">Undo</string>
+
+    <string name="mobile_free_trial_intro_primary_text">You\'re in! Enjoy your 2 free weeks of unlimited access to every story in the app.</string>
+    <string name="mobile_free_trial_primary_text">You’re previewing The Post.</string>
+    <string name="mobile_free_trial_secondary_text">We hope you\'re enjoying your free access for a limited time.</string>
+    <string name="mobile_free_trial_end_primary_text">Your free preview ends soon — don\'t lose your unlimited access.</string>
+    <string name="mobile_free_trial_end_primary_text_settings">Your free preview ends soon.</string>
+    <string name="mobile_free_trial_end_secondary_text">Subscribe and never miss a story.</string>
+
+    <!-- Vertical Videos -->
+    <string name="vertical_video_error_offline" translatable="false">It appears you’re offline and we’re unable to play this video. Please check your connection and try again.</string>
+    <string name="vertical_video_error_other" translatable="false">We’re unable to play this video. Please try again soon.</string>
+    <string name="menu_description">Menu</string>
+
+
+    <!-- Action Buttons -->
+    <string name="action_audio_description">Plays article audio</string>
+    <string name="action_share_description">Share article</string>
+    <string name="action_save_description">Add to saved stories</string>
+    <string name="action_menu_description">Displays additional actions for article</string>
+
+    <!-- Low Data Modal -->
+    <string name="low_data_mode_title">Low-data mode is on</string>
+    <string name="low_data_mode_button">TURN OFF</string>
+    <string name="low_data_mode_icon_description">Low Data Mode Icon</string>
+
+    <!-- Low Data Mode Dialog -->
+    <string name="low_data_mode_dialog_title" translatable="false">Do you want to receive notifications about low-data mode?</string>
+    <string name="low_data_mode_dialog_dont_allow" translatable="false">Don\'t Allow</string>
+    <string name="low_data_mode_dialog_allow" translatable="false">Allow</string>
+    <string name="low_data_mode_dialog_snooze" translatable="false">Snooze for 24 hours</string>
+    <string name="hp_tile_homepage">hp_tile_homepage</string>
+    <string name="audio_carousel">audio_carousel</string>
+    <string name="perso_podcast_generate">perso_podcast_generate</string>
+    <string name="content_description_advertisement">Advertisement</string>
+</resources>

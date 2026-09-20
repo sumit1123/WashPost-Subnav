@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/print_thumbnail_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
+    android:padding="10dp">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pageName"
+        android:layout_alignParentBottom="true"
+        style="@style/PrintEdition.Label"
+        android:textColor="@drawable/pdf_thumbnail_text_selector"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"/>
+    <com.wapo.view.ProportionalLayout
+        android:id="@+id/image_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pdf_thumbnail_background_selector"
+        android:layout_above="@id/pageName"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        app:aspectRatio=".565827969"
+        android:padding="2dp">
+        <ImageView android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_gravity="center"
+            android:background="@drawable/print_edition_paper_border"
+            android:id="@+id/pdfThumbnail"
+            android:src="@drawable/archives_placeholder"/>
+    </com.wapo.view.ProportionalLayout>
+</RelativeLayout>

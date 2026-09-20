@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="privacy_settings_header">Your Privacy Choices—California, Colorado, Connecticut, Utah &amp; Virginia Residents Only\n\nOpt Out of Sale of Personal Information or Sharing or Processing of Personal Information for Targeted Ads</string>
+    <string name="privacy_settings_body">
+        If you are a California, Colorado, Connecticut, Utah or Virginia resident, you may opt out
+        of certain processing of your personal information, including for targeted advertising, under applicable law.
+        Targeted advertising is when we or our partners display ads to you based on your personal information
+        that is collected across &lt;i>different&lt;/i> businesses. &lt;br>&lt;br>
+
+        As explained in our &lt;a href="https://www.washingtonpost.com/privacy-policy/2011/11/18/gIQASIiaiN_story.html?utm_term=.eeae6de28694">Privacy Policy&lt;/a>,
+        the Washington Post and our advertising partners collect certain information from our visitors,
+        such as device identifiers, cookies, advertising IDs, IP addresses and usage activity. We and our
+        partners share this information with third parties or combine it with information from other
+        businesses to deliver more relevant (targeted) ads to you and for related advertising activities.
+        We may also share or use hashed contact information for this purpose. This activity is known
+        as "sharing" or processing your personal information for targeted ads and may be considered
+        "selling" your personal information under applicable law. &lt;br>&lt;br>
+
+        You can opt out of this activity for cookies and other identifiers by turning the toggle off
+        (grey); to opt out for your contact information you must also log in below.  Even if you opt out,
+        you will still see advertising, it just may be less relevant to you, or it may be personalized
+        for you based only on the data that the Washington Post has collected about you.
+    </string>
+    <string name="privacy_settings_account">
+        Unless you sign in, you must opt out on each device and each browser where you want your choice
+        to apply. Your preference may be lost if you clear or your browser is set to clear cookies. To
+        save your preference everywhere you get The Washington Post, please sign in to your account.
+    </string>
+    <string name="privacy_settings_account_span">sign in to your account</string>
+    <string name="privacy_settings_switch_text_enabled">
+        Yes.  Allow the processing or sale of my personal information to target ads to me\n\n
+        Ads may be more targeted to my interests.
+    </string>
+    <string name="privacy_settings_switch_text_disabled">
+        No. Do not allow the processing or sale of my personal information to target ads to me\n\n
+        I will still see ads, but they may be less relevant to me or based only on first-party data.
+    </string>
+    <string name="privacy_settings_bottom_text">
+        We also use LiveIntent to deliver personalized ads in some of our email newsletters.  To manage
+        the data that LiveIntent may use to display email ads to you, please visit LiveIntent
+        &lt;a href="https://privacy.liveintent.com/email">here&lt;/a>. You can also visit
+        &lt;a href="https://liveintent.com/ad-choices/">LiveIntent\'s Ad Choices&lt;/a> page. You must exercise
+        your preferences through LiveIntent because we do not store LiveIntent preferences in your
+        Washington Post account.&lt;br>&lt;br>
+
+        If you have enabled a legally recognized browser-based opt out preference signal (such as Global
+        Privacy Control) on your browser, we recognize such preference in accordance and to the extent
+        required by applicable law. You will need to turn this on for each browser you use.&lt;br>&lt;br>
+
+        To learn more about the GPC, visit the &lt;a href="https://globalprivacycontrol.org/">Global Privacy Control website&lt;/a>. &lt;br>&lt;br>
+
+        &lt;i>IMPORTANT NOTES:&lt;/i>&lt;br>&lt;br>
+        \u25CF  Even if you opt out through a method above, we can still deliver ads to you, including
+        contextual ads or ads based on our first-party data about you; conduct cross-device tracking
+        to serve you first-party ads directly, or use information for non-targeted ad purposes.&lt;br>&lt;br>
+        \u25CF  These rights only apply to California, Colorado, Connecticut, Utah and Virginia residents, if we reasonably determine
+        you are not a resident of one of these states, your selection may be reset.&lt;br>&lt;br>
+        \u25CF  We may still disclose personal information as permitted by law, including with our service
+        providers to help us perform certain functions such as analytics, providing and securing ads,
+        and/or reducing ad fraud.&lt;br>&lt;br>
+        \u25CF  The above choices will not opt you out of the use of previously shared information or,
+        unless you use a browser-based opt out, targeted ads conducted on other sites. To learn more
+        about interest-based advertising across sites and additional opt-out choices, visit
+        &lt;a href="https://optout.aboutads.info/#/">DAA WebChoices Browser Check&lt;/a>,
+        &lt;a href="https://optout.networkadvertising.org/">NAI’s Opt-Out of Internet-Based Advertising&lt;/a>,
+        and the &lt;a href="https://www.aboutads.info/appchoices">AppChoices app&lt;/a>.&lt;br>&lt;br>
+
+        If you have any other questions or requests, please &lt;a href="https://helpcenter.washingtonpost.com/hc/en-us/requests/new?ticket_form_id=360000603931">contact us&lt;/a>.
+    </string>
+</resources>

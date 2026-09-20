@@ -1,0 +1,3097 @@
+{
+  "id": "0dcb869440ca8abdb822068c8d8de0d7",
+  "type": "blog",
+  "renderer": "native",
+  "arcId": "DSNMVHJWPFAX5NMFROM5XEYA3E",
+  "title": "Israel releases images from al-Shifa Hospital after raid",
+  "blurb": "Israel and the United States have asserted that Hamas is operating out of al-Shifa, while doctors and aid workers have denied that militants are using them for cover.",
+  "contenturl": "https://www.washingtonpost.com/world/2023/11/14/israel-war-hamas-gaza-al-shifa-news/",
+  "shareurl": "https://www.washingtonpost.com/world/2023/11/14/israel-war-hamas-gaza-al-shifa-news/",
+  "source": "the-washington-post",
+  "section": "World",
+  "sourcesection": "world",
+  "sourcesubsection": "world - middle-east",
+  "sourcecategory": "World",
+  "lmt": 1700113357890,
+  "published": 1700113357890,
+  "first_published": 1700018620441,
+  "display_date": 1700111293293,
+  "socialImage": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VYN3ZZ2EZVDY7F6N674HYQKY2A.JPG",
+  "sourceslug": "live-israelgaza1115",
+  "commercialnode": "/world/middle_east",
+  "omniture": {
+    "title": "Israel releases images from al-Shifa Hospital after raid - The Washington Post",
+    "pageName": "israel-war-hamas-gaza-al-shifa-news",
+    "channel": "world",
+    "contentId": "nullDSNMVHJWPFAX5NMFROM5XEYA3E",
+    "contentType": "story - live-all",
+    "contentSource": "the-washington-post",
+    "contentTopics": "Middle East;World",
+    "newsroomDesk": "foreign;foreign;foreign;foreign;foreign;foreign;foreign;live news (ga, morning mix, hubs);foreign",
+    "newsroomSubdesk": "foreign - breaking news;foreign - seoul hub;foreign - london hub;foreign - seoul hub;foreign - seoul hub;foreign - london hub;foreign - london hub;(not set);foreign - breaking news",
+    "contentAuthor": "miriam berger;kelsey ables;victoria bisset;niha masih;andrew jeong;adela suliman;leo sands;dan rosenzweig-ziff;sammy westfall",
+    "authorId": "bergerm;ablesk;bissetv2022;masihn;jeongh;sulimana;sandsl;rosenzweigziffd2020;westfalls",
+    "authorType": "staff writer;(not set);staff writer;staff writer;(not set);staff writer;staff writer;staff writer;staff writer",
+    "subSection": "world - middle-east",
+    "arcId": "DSNMVHJWPFAX5NMFROM5XEYA3E",
+    "trackingTags": "story-has-edit-branch;israel-hamas;collections-israel-hamas;methode-draft;created from template id wlqf6zscfbbfzdl5gh2vnsmzem;audio-article"
+  },
+  "version": 1,
+  "tags": "story-has-edit-branch,israel-hamas,collections-israel-hamas,methode-draft,created from template id wlqf6zscfbbfzdl5gh2vnsmzem,audio-article",
+  "items": [
+    {
+      "content": "Middle East",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Israel-Gaza War",
+      "path": "/israel-hamas-war",
+      "group": "card-0"
+    },
+    {
+      "content": "Israel releases images from al-Shifa Hospital after raid",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1",
+      "group": "card-0"
+    },
+    {
+      "type": "audio",
+      "subtype": "audio-article",
+      "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/DSNMVHJWPFAX5NMFROM5XEYA3E/20231116-140814.142/manifest.json",
+      "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/DSNMVHJWPFAX5NMFROM5XEYA3E/20231116-140814.142/current.mp3?awCollectionId=/world/middle-east&awEpisodeId=DSNMVHJWPFAX5NMFROM5XEYA3E&tags=israel-hamas%7Ccollections-israel-hamas%7Caudio-article",
+      "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/DSNMVHJWPFAX5NMFROM5XEYA3E/20231116-140814.142/current.mp3",
+      "image": {
+        "type": "image",
+        "mime": "image/jpeg",
+        "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VYN3ZZ2EZVDY7F6N674HYQKY2A.JPG",
+        "imageWidth": 3498,
+        "imageHeight": 2332,
+        "fullcaption": "(Maxar Technologies/Reuters)"
+      },
+      "title": {
+        "content": "Israel releases images from al-Shifa Hospital after raid",
+        "mime": "text/plain",
+        "type": "title",
+        "subtype": "h1"
+      },
+      "label": {
+        "content": "Middle East",
+        "mime": "text/plain",
+        "type": "kicker",
+        "coverageActive": false,
+        "displayLabel": "Israel-Gaza War",
+        "path": "/israel-hamas-war"
+      },
+      "date": {
+        "content": 1700111293293,
+        "mime": "text/plain",
+        "type": "date"
+      },
+      "inlinePlayer": {
+        "listen": "Listen to article"
+      },
+      "group": "card-0"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VYN3ZZ2EZVDY7F6N674HYQKY2A.JPG",
+      "imageWidth": 3498,
+      "imageHeight": 2332,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "A satellite image shows al-Shifa Hospital in Gaza on Saturday. (Maxar Technologies/Reuters)",
+      "blurb": "A satellite image shows al-Shifa Hospital in Gaza on Saturday.",
+      "group": "card-0"
+    },
+    {
+      "content": "By Miriam Berger, Kelsey Ables, Victoria Bisset, Niha Masih, Andrew Jeong, Adela Suliman, Leo Sands, Dan Rosenzweig-Ziff and Sammy Westfall",
+      "mime": "text/plain",
+      "type": "byline",
+      "authors": [
+        {
+          "id": "Bergerm",
+          "url": "https://www.washingtonpost.com/people/miriam-berger/",
+          "name": "Miriam Berger",
+          "bio": "Miriam Berger is a staff writer reporting on foreign news for The Washington Post from Washington, D.C. Before joining The Post in 2019 she was based in Jerusalem and Cairo and freelance reported around the Middle East, as well as parts of Africa and Central Asia. ",
+          "expertise": "Reporter covering Middle East, Foreign Affairs ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/2153eece-9a66-4bf1-8870-06e53a7b025b.jpg"
+        },
+        {
+          "id": "ablesk",
+          "url": "https://www.washingtonpost.com/people/kelsey-ables/",
+          "name": "Kelsey Ables",
+          "bio": "Kelsey Ables is a reporter at The Washington Post's Seoul hub, where she covers breaking news in the United States and across the world. She was previously on the Features desk, where she wrote about art, architecture and pop culture. ",
+          "expertise": "Reporter in the Seoul hub ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/3e0cf8a0-74a7-4e50-9adc-98234af48b81.png"
+        },
+        {
+          "id": "bissetv2022",
+          "url": "https://www.washingtonpost.com/people/victoria-bisset/",
+          "name": "Victoria Bisset",
+          "bio": "Victoria Bisset is a breaking-news reporter for The Washington Post's London Hub, covering the most urgent and consequential stories as they unfold on the European day.",
+          "expertise": "Breaking news, international news",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/a6a64eb4-4c41-48b1-9850-3aacd907c71b.jpg"
+        },
+        {
+          "id": "masihn",
+          "url": "https://www.washingtonpost.com/people/niha-masih/",
+          "name": "Niha Masih",
+          "bio": "Niha Masih is a reporter at The Washington Post's Seoul hub, where she covers breaking news in the United States and across the world. Previously, she was The Post's correspondent in India, where she covered the rise of majoritarian nationalism, conflict in Kashmir, the covid crisis and digital surveillance of citizens.",
+          "expertise": "Breaking news reporter focusing on U.S. and global events\n",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/60f4d1d3-4469-4c89-8589-caaf46cc71a3.png"
+        },
+        {
+          "id": "jeongh",
+          "url": "https://www.washingtonpost.com/people/andrew-jeong/",
+          "name": "Andrew Jeong",
+          "bio": "Andrew Jeong is a reporter for The Washington Post in its Seoul hub. ",
+          "expertise": "Reporter at the Seoul hub",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/9e1f03e6-ad2e-469c-b8d6-1adbcd87e37e.jpg"
+        },
+        {
+          "id": "sulimana",
+          "url": "https://www.washingtonpost.com/people/adela-suliman/",
+          "name": "Adela Suliman",
+          "bio": "Adela Suliman is a breaking-news reporter in The Washington Post's London hub. ",
+          "expertise": "Reporter focusing on breaking U.S. and world news. ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/56038b95-cadc-42d9-84aa-c43f7f2c401c.png"
+        },
+        {
+          "id": "sandsl",
+          "url": "https://www.washingtonpost.com/people/leo-sands/",
+          "name": "Leo Sands",
+          "bio": "Leo Sands is a breaking-news reporter and editor in The Washington Post’s London Hub, covering news as it unfolds around the world. ",
+          "expertise": "Breaking News Reporter/Editor",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/4db27371-7252-4400-80de-653b36156364.png"
+        },
+        {
+          "id": "rosenzweigziffd2020",
+          "url": "https://www.washingtonpost.com/people/dan-rosenzweig-ziff/",
+          "name": "Dan Rosenzweig-Ziff",
+          "bio": "Dan Rosenzweig-Ziff is a reporter on The Washington Post's General Assignment desk, where he covers breaking news and writes of-the-moment features. He has reported for The Post from Europe and covered crime and criminal justice on the Metro desk. He previously worked for the Texas Tribune and was a Fulbright scholar in Germany.",
+          "expertise": "Reporter covering national breaking news",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/3730e296-ff2a-46d1-a07b-fc9723bd3f56.png"
+        },
+        {
+          "id": "Westfalls",
+          "url": "https://www.washingtonpost.com/people/sammy-westfall/",
+          "name": "Sammy Westfall",
+          "bio": "Sammy Westfall is an assistant editor on The Washington Post's Foreign desk.",
+          "expertise": "Assistant Editor on the Foreign desk ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/df6719a2-a5f4-4b21-b622-2b301dc9734d.png"
+        }
+      ],
+      "group": "card-0"
+    },
+    {
+      "content": 1700111293293,
+      "mime": "text/plain",
+      "type": "date",
+      "group": "card-0"
+    },
+    {
+      "type": "toggle",
+      "subtype": "topic-follow",
+      "key": "CP-8",
+      "group": "card-0"
+    },
+    {
+      "type": "toggle",
+      "subtype": "topic-follow",
+      "key": "CP-8",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i>These live updates have closed.</i>",
+      "group": "card-0",
+      "truncate": {
+        "truncatedLabel": "Show more",
+        "expandedLabel": "Show less",
+        "itemsCount": 3
+      }
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "JERUSALEM — Israeli troops raided <a href=\"https://www.washingtonpost.com/world/2023/11/15/israel-shifa-hospital-gaza-hamas/?itid=lk_inline_manual_2\">Gaza’s largest hospital, al-Shifa,</a> in<b> </b>what the Israel Defense Forces called a <a href=\"https://www.washingtonpost.com/world/2023/11/14/israel-gaza-hospitals-hamas-civilians/?itid=lk_inline_manual_2\">“precise and targeted operation against Hamas”</a> early Wednesday. Israel and the United States have asserted that <a href=\"https://www.washingtonpost.com/world/2023/10/09/hamas-israel-war-explainer/\">Hamas</a> is using hospitals — including Shifa — and the tunnels underneath them for its military operations. Hamas has denied that. Details of <a href=\"https://www.washingtonpost.com/world/2023/11/15/israel-gaza-al-shifa-hospital-hamas-map/\">the raid</a>, which the IDF said began around 2 a.m. local time, remain murky because of ongoing communications outages, Israeli bombardments and ground fighting.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Videos and photos released by the IDF later in the day showed an alleged haul of 11 guns, three military vests — one with a Hamas logo — and nine grenades that the IDF said were pulled from the hospital’s radiology unit. The Washington Post was unable to independently verify who the weapons belonged to or how they came to be inside the radiology unit.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "At a news conference late Wednesday, President Biden said he has been “deeply involved” in the negotiations to release the roughly 240 foreign and Israeli hostages held by Hamas in Gaza. “I have gotten great cooperation from the Qataris,” Biden said, adding that he was “mildly hopeful” a deal would get done.",
+      "group": "card-0"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "subhead",
+      "mime": "text/plain",
+      "content": "Here’s what to know",
+      "subhead_level": 2,
+      "group": "card-0"
+    },
+    {
+      "type": "list",
+      "subtype": "unordered",
+      "mime": "text/html",
+      "content": [
+        "Hamas has agreed in principle and Israel is now considering a proposal for the release of at least 50 women and children among about 240 foreign and Israeli hostages being held by Hamas in Gaza, an Arab diplomat familiar with the negotiations <a href=\"https://www.washingtonpost.com/national-security/2023/11/15/hamas-israel-gaza-hostage-deal/\">told </a>The Post. In exchange, Israel would agree to a three-to-five-day pause “in place” in the fighting, increased humanitarian aid to Gaza, and the release of an unspecified number of women and children held in Israeli prisons.",
+        "Some 700 patients were present at al-Shifa Hospital during the raid, along with more than 400 health workers and about 3,000 displaced people who had sought refuge there, according to the latest U.N. figures.",
+        "A fuel tanker entered Gaza via the Rafah border crossing Wednesday for the first time since the war began. A Gaza-based U.N. official said Israel has restricted the use of the fuel to transporting aid from the Egyptian border, so it could not be used for Gaza’s water systems or hospitals. The fuel shipment was “only 9 percent of what we need daily to sustain lifesaving activities,” said the official, Thomas White.",
+        "National Security Council spokesman John Kirby said Tuesday that the United States has information that Hamas has used hospitals in the Gaza Strip, including Shifa, and tunnels underneath them for its military operations and to hold hostages, although he added that “hospitals and patients must be protected.” The Post could not independently verify the situation on the ground or Kirby’s claim.",
+        "The Gaza Health Ministry said Friday that about 11,100 Palestinians had been killed in Gaza since Oct. 7. The ministry says that the toll is now far higher but that it is no longer able to provide official numbers, citing communications blackouts and fighting around hospitals."
+      ],
+      "group": "card-0"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-1",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-NCXAKSN2X5DTHI5XTD76PLQFDQ",
+      "group": "card-1"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700105837695,
+      "group": "card-1"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Today’s key developments in the Israel-Gaza war",
+      "group": "card-1"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Sammy Westfall",
+      "authors": [
+        {
+          "id": "Westfalls",
+          "url": "https://www.washingtonpost.com/people/sammy-westfall/",
+          "name": "Sammy Westfall",
+          "bio": "Sammy Westfall is an assistant editor on The Washington Post's Foreign desk.",
+          "expertise": "Assistant Editor on the Foreign desk ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/df6719a2-a5f4-4b21-b622-2b301dc9734d.png"
+        }
+      ],
+      "group": "card-1"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Here are the biggest news items from the Israel-Gaza war on Nov. 15.",
+      "group": "card-1"
+    },
+    {
+      "type": "toggle",
+      "subtype": "topic-follow",
+      "key": "CP-8",
+      "group": "card-1"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-1"
+    },
+    {
+      "type": "toggle",
+      "subtype": "topic-follow",
+      "key": "CP-8",
+      "group": "card-1"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<b>By Wednesday night local time, Israeli forces were still inside al-Shifa Hospital, Gaza’s largest, </b>in pursuit of Hamas fighters they allege operate from tunnels under the facility,<b> </b>Israeli military and Gaza health officials said. Munir al-Bursh, director general of the Gaza Health Ministry, told The Washington Post by phone around 7 p.m. that Israeli “tanks retreated to around the hospital but that soldiers remained.” The hospital is a refuge for thousands of terrified patients, overworked doctors and displaced civilians.",
+      "group": "card-1"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<b>The Israeli military released two videos and some photos from its raid on al-Shifa Hospital showing what it said were Hamas weapons and other gear recovered from the complex.</b> The Post was unable to independently verify to whom the weapons belonged or how they came to be inside the hospital’s radiology unit.",
+      "group": "card-1"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<b>The late-night operation at Shifa was the culmination of weeks of messaging from Israeli officials about alleged Hamas infiltration of hospitals in Gaza, </b>The Post’s Louisa Loveluck and Meg Kelly <a href=\"https://www.washingtonpost.com/world/2023/11/15/israel-gaza-al-shifa-hospital-raid-case/\">report</a>. Israeli officials have been asserting for weeks, while offering little public evidence, that the <a href=\"https://www.washingtonpost.com/world/2023/10/09/hamas-israel-war-explainer/?itid=lk_inline_manual_3\">Hamas</a> militant group has a command center below the hospital, making it a legitimate military target. U.S. officials have backed the claim.",
+      "group": "card-1"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<b>Hamas has agreed in principle and Israel is now considering a proposal for the release of at least 50 women and children among about 240 foreign and Israeli hostages being held by Hamas, </b><a href=\"https://www.washingtonpost.com/national-security/2023/11/15/hamas-israel-gaza-hostage-deal/\">according to</a> an Arab diplomat familiar with the negotiations. In exchange for the hostages, Israel would agree to a three- to five-day pause “in place” in the fighting, increased humanitarian aid to Gaza, and the release of an unspecified number of women and children held in Israeli prisons.",
+      "group": "card-1"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<b>At a news conference following his meeting with Chinese leader Xi Jinping, President Biden said he doesn’t think the conflict in Gaza will end until there is a two-state solution. </b>Biden also said he has been “deeply involved” in the hostage release negotiations, and that he was “mildly hopeful” a deal would get done. “I don’t want to get ahead of myself here because I don’t know what’s happened in the last four hours, but I have gotten great cooperation from the Qataris,” Biden said.",
+      "group": "card-1"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<b>The U.N. Security Council passed its first unified statement on the conflict nearly six weeks after it began.</b> The resolution demanded “immediate extended humanitarian pauses” in the fighting in Gaza, the unhindered supply of humanitarian assistance to civilians there and the unconditional release of all hostages.",
+      "group": "card-1"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-2",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-CRLYYHGDGZGPRAZVZ4UXE6CCGA",
+      "group": "card-2"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700105550488,
+      "group": "card-2"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Proof of Hamas command center at al-Shifa Hospital remains elusive",
+      "group": "card-2"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By John Hudson",
+      "authors": [
+        {
+          "id": "hudsonj",
+          "url": "https://www.washingtonpost.com/people/john-hudson/",
+          "name": "John Hudson",
+          "bio": "John Hudson is a reporter at The Washington Post covering the State Department and national security. He was part of the team that was a finalist for the Pulitzer Prize for Public Service for coverage of the murder of journalist Jamal Khashoggi. He has reported from dozens of countries, including Ukraine, China, Afghanistan, India and Belarus.",
+          "expertise": "National security reporter focusing on the State Department and diplomacy. ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/83aa0208-1c65-4d93-9d0a-736859c0f91d.png"
+        }
+      ],
+      "group": "card-2"
+    },
+    {
+      "type": "toggle",
+      "subtype": "topic-follow",
+      "key": "CP-8",
+      "group": "card-2"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IP676MV5N6XXQZFKL3OGNQDENU.jpg",
+      "imageWidth": 8640,
+      "imageHeight": 5760,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "President Biden speaks during a news conference after his meeting with Chinese leader Xi Jinping in Woodside, Calif., on Wednesday. (Doug Mills/AP)",
+      "blurb": "President Biden speaks during a news conference after his meeting with Chinese leader Xi Jinping in Woodside, Calif., on Wednesday.",
+      "group": "card-2"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "SAN FRANCISCO — President Biden on Wednesday blamed Hamas for committing the “first war crime” in the bloody standoff over Gaza’s al-Shifa Hospital by having its military headquarters “hidden under” the large hospital complex.",
+      "group": "card-2"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The Israel Defense Forces released images and video from the hospital Wednesday showing small arms and military uniforms around hospital equipment such as MRI machines. Israeli officials pointed to radio equipment and discs as evidence of a Hamas command center.",
+      "group": "card-2"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-2"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The footage did not include proof of an underground tunnel network or substantiate Israel’s allegations that an underground Hamas complex sat beneath Shifa. Israeli officials said they were still in the process of infiltrating the facility, Gaza’s largest hospital.",
+      "group": "card-2"
+    },
+    {
+      "type": "interstitial_link",
+      "url": "https://www.washingtonpost.com/world/2023/11/15/israel-gaza-al-shifa-hospital-raid-case/",
+      "content": "How Israel built its case to raid Gaza’s al-Shifa Hospital",
+      "group": "card-2"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Israel has faced widespread criticism for the enormous civilian death toll of its offensive against Hamas. Israeli officials blame Hamas for embedding inside civilian infrastructure in Gaza, one of the most densely populated places on earth.",
+      "group": "card-2"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "White House spokesman John Kirby, when asked whether the images fell short of corroborating Israeli claims of a major Hamas command center, said the United States remains “comfortable” with a declassified intelligence assessment that Hamas has used and is using Shifa as a “command and control node.”",
+      "group": "card-2"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Hamas denies using the hospital for military purposes, which would amount to a war crime. The militant group has invited international groups to visit and observe Gaza hospitals but the fighting has not allowed for it.",
+      "group": "card-2"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-3",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-EMO2KSGNHJAN3DZZ2BAAAFFLOQ",
+      "group": "card-3"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700100685555,
+      "group": "card-3"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Biden says he has been ‘deeply involved’ in hostage negotiations",
+      "group": "card-3"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Dan Rosenzweig-Ziff",
+      "authors": [
+        {
+          "id": "rosenzweigziffd2020",
+          "url": "https://www.washingtonpost.com/people/dan-rosenzweig-ziff/",
+          "name": "Dan Rosenzweig-Ziff",
+          "bio": "Dan Rosenzweig-Ziff is a reporter on The Washington Post's General Assignment desk, where he covers breaking news and writes of-the-moment features. He has reported for The Post from Europe and covered crime and criminal justice on the Metro desk. He previously worked for the Texas Tribune and was a Fulbright scholar in Germany.",
+          "expertise": "Reporter covering national breaking news",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/3730e296-ff2a-46d1-a07b-fc9723bd3f56.png"
+        }
+      ],
+      "group": "card-3"
+    },
+    {
+      "id": "1db3cf61-e2f9-4faf-aad3-bf4acb4c464e",
+      "published": 1700118017000,
+      "isLive": false,
+      "lmt": 1700119870000,
+      "blurb": "President Biden said during a news conference on Nov. 15 he expects the Israel-Gaza war to continue until \"Hamas no longer maintains the capacity to murder.\"",
+      "title": "Biden: Israel-Gaza war will end after Hamas dismantled",
+      "vertical": false,
+      "embedCode": "655570957036cb7b1bf49507",
+      "shareurl": "https://wapo.st/3FZ1MvI",
+      "type": "video",
+      "host": "posttv",
+      "url": "false",
+      "placement": null,
+      "widthFactor": "full-bleed",
+      "contenturl": "https://www.washingtonpost.com/video/politics/biden-israel-gaza-war-will-end-after-hamas-dismantled/2023/11/15/1db3cf61-e2f9-4faf-aad3-bf4acb4c464e_video.html",
+      "credits": "The Washington Post",
+      "fullcaption": "President Biden said during a news conference on Nov. 15 he expects the Israel-Gaza war to continue until \"Hamas no longer maintains the capacity to murder.\" (The Washington Post)",
+      "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/11-16-2023/t_2efd2aacbd124dde86031ec47f15a61d_name_biden_2.png",
+      "imageHeight": 1080,
+      "imageWidth": 1920,
+      "omniture": {
+        "source": "The Washington Post",
+        "contentType": "video",
+        "contentId": "1db3cf61-e2f9-4faf-aad3-bf4acb4c464e",
+        "channel": "politics",
+        "contentSubsection": "politics",
+        "pageName": "politics:video - bf4acb4c464e - 20231116 - biden-israelgaza-war-will-end-after-hamas-dismantled"
+      },
+      "adconfig": {
+        "adSetUrls": {
+          "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.politics_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+        },
+        "allowPrerollOnDomain": false,
+        "autoPlayPreroll": false,
+        "commercialAdNode": "/politics",
+        "enableAdInsertion": false,
+        "enableAutoPreview": true,
+        "enableServerSideFallback": false,
+        "forceAd": false,
+        "playAds": true,
+        "playVideoAds": true,
+        "videoAdZone": "wpni.video.politics",
+        "adSetConfig": {
+          "adSetZone": "wpni.video.politics",
+          "adSetUrls": {
+            "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.politics_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.politics_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+          }
+        }
+      },
+      "mediaURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20231116/655570957036cb7b1bf49507/6555772dd9dfd01cdcfad003/file_640x360-600-v3.mp4",
+      "streamURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20231116/655570957036cb7b1bf49507/6555772dd9dfd01cdcfad003/mobile.m3u8",
+      "subtitlesURL": "https://closedcaptions.posttv.com/2023/11/16/1db3cf61-e2f9-4faf-aad3-bf4acb4c464e/3_1700107348623/1db3cf61-e2f9-4faf-aad3-bf4acb4c464e_655576c87036cb7b1bf496a0.vtt",
+      "streams": {
+        "ts": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20231116/655570957036cb7b1bf49507/6555772dd9dfd01cdcfad003/mobile.m3u8",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20231116/655570957036cb7b1bf49507/6555772dd9dfd01cdcfad003/master.m3u8",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20231116/655570957036cb7b1bf49507/6555772dd9dfd01cdcfad003/hd.m3u8",
+            "bitrate": 4500
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20231116/655570957036cb7b1bf49507/6555772dd9dfd01cdcfad003/hlsv4_master.m3u8",
+            "bitrate": 5400
+          }
+        ],
+        "mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20231116/655570957036cb7b1bf49507/6555772dd9dfd01cdcfad003/file_320x180-160-v3.mp4",
+            "bitrate": 160
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20231116/655570957036cb7b1bf49507/6555772dd9dfd01cdcfad003/file_640x360-600-v3.mp4",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20231116/655570957036cb7b1bf49507/6555772dd9dfd01cdcfad003/file_854x480-1200-v3_1.mp4",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20231116/655570957036cb7b1bf49507/6555772dd9dfd01cdcfad003/file_1280x720-2000-v3_1.mp4",
+            "bitrate": 2000
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20231116/655570957036cb7b1bf49507/6555772dd9dfd01cdcfad003/file_1920x1080-5400-v4.mp4",
+            "bitrate": 5400
+          }
+        ]
+      },
+      "isLooping": false,
+      "autoplay": false,
+      "fallback": null,
+      "duration": 108245,
+      "group": "card-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "President Biden said Wednesday night he doesn’t think the conflict in Gaza will end until there is a two-state solution.",
+      "group": "card-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Speaking at a news conference following a meeting with Chinese leader Xi Jinping, Biden also told reporters that he has been “deeply involved” in the negotiations to release the roughly 240 foreign and Israeli hostages being held by Hamas in Gaza.",
+      "group": "card-3"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“I don’t want to get ahead of myself here because I don’t know what’s happened in the last four hours, but I have gotten great cooperation from the Qataris,” Biden said, adding that he was “mildly hopeful” a deal would get done.",
+      "group": "card-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Biden also said that he thought the war would end when Hamas no longer has the ability to do “horrific things” to Israelis, adding that he warned Israel that trying to occupy the Gaza Strip would be a “big mistake.”",
+      "group": "card-3"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i>“</i>I think the only ultimate answer here is a two-state solution,” Biden said.",
+      "group": "card-3"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-4",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-E2X6HZCEQNAZPAPJY6R3YXOFDI",
+      "group": "card-4"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700099299748,
+      "group": "card-4"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "How Israel built its case to raid Gaza’s al-Shifa Hospital",
+      "group": "card-4"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Louisa Loveluck and Meg Kelly",
+      "authors": [
+        {
+          "id": "loveluckl0-v",
+          "url": "https://www.washingtonpost.com/people/louisa-loveluck/",
+          "name": "Louisa Loveluck",
+          "bio": "Louisa Loveluck is the Baghdad bureau chief. She was previously based in Beirut for the Post and worked as the Cairo correspondent for the Daily Telegraph.",
+          "expertise": "Baghdad Bureau Chief",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/e31e6f1f-54d4-4184-a9c4-35a5540d1159.png"
+        },
+        {
+          "id": "kellym",
+          "url": "https://www.washingtonpost.com/people/meg-kelly/",
+          "name": "Meg Kelly",
+          "bio": "Meg Kelly is a video reporter for The Washington Post's Visual Forensics team. ",
+          "expertise": "Video reporter, Visual Forensics",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1dc46563-04af-40d0-8e31-f31960b74a11.png"
+        }
+      ],
+      "group": "card-4"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VUU2I6AGDU667OZSSMLUO4VOXA.jpg",
+      "imageWidth": 9519,
+      "imageHeight": 6351,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "A satellite image shows al-Shifa Hospital and its surroundings in Gaza City on Nov. 7. (AP)",
+      "blurb": "A satellite image shows al-Shifa Hospital and its surroundings in Gaza City on Nov. 7.",
+      "group": "card-4"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "JERUSALEM — Rarely has a military operation against a major hospital been telegraphed so clearly.",
+      "group": "card-4"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Israeli officials have been asserting for weeks, while offering little public evidence, that the Hamas militant group has a command center below Gaza’s al-Shifa Hospital — a refuge for thousands of terrified patients, overworked doctors and displaced civilians — making it a legitimate military target.",
+      "group": "card-4"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "metatext",
+      "mime": "text/html",
+      "content": "<i>This is an excerpt from a <a href=\"https://www.washingtonpost.com/world/2023/11/15/israel-gaza-al-shifa-hospital-raid-case/\">full story</a>.</i>",
+      "group": "card-4"
+    },
+    {
+      "type": "link",
+      "subtype": "button",
+      "label": "Continue reading",
+      "url": "https://www.washingtonpost.com/world/2023/11/15/israel-gaza-al-shifa-hospital-raid-case/",
+      "showArrow": true,
+      "group": "card-4"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-5",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-RBEKSKEFUVFPTEVPZRGZW2CSMM",
+      "group": "card-5"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700097845040,
+      "group": "card-5"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Visual evidence appears to show graves at al-Shifa Hospital",
+      "group": "card-5"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Jarrett Ley and Meg Kelly",
+      "authors": [
+        {
+          "name": "Jarrett Ley"
+        },
+        {
+          "id": "kellym",
+          "url": "https://www.washingtonpost.com/people/meg-kelly/",
+          "name": "Meg Kelly",
+          "bio": "Meg Kelly is a video reporter for The Washington Post's Visual Forensics team. ",
+          "expertise": "Video reporter, Visual Forensics",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1dc46563-04af-40d0-8e31-f31960b74a11.png"
+        }
+      ],
+      "group": "card-5"
+    },
+    {
+      "type": "image",
+      "mime": "image/png",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MNYJIT3ZYJF7ZL64SFGFD4XSC4.png",
+      "imageWidth": 648,
+      "imageHeight": 557,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Satellite imagery appears to show that tents were moved to reveal a thin patch of earth at al-Shifa Hospital complex on Nov. 14. (Maxar/Planet)",
+      "blurb": "Satellite imagery appears to show that tents were moved to reveal a thin patch of earth at al-Shifa Hospital complex on Nov. 14.",
+      "group": "card-5"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "An <a href=\"https://x.com/SophiaArmen/status/1724551469503000662?s=20\">image posted to X</a> on Tuesday and geolocated by The Washington Post shows several people, including one in medical scrubs, digging at least two trenches into the soil at al-Shifa Hospital, providing powerful visual evidence to back up reports of ad hoc graves being established for dying patients.",
+      "group": "card-5"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-5"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The most visible of the two trenches, which was still in progress at the time the photograph was taken, is rectilinear and measures about three feet deep and six feet at its widest, according to The Post’s analysis.",
+      "group": "card-5"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Satellite imagery taken Tuesday and provided to The Post by Planet Labs appears to show that tents were moved and reveals a thin patch of earth in the same place as the photograph, according to a comparison of satellite imagery. The location had been covered as recently as Sunday, comparison of satellite imagery showed.",
+      "group": "card-5"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Gaza Health Ministry director Medhat Abbas warned that bodies have been piling up for days. He <a href=\"https://www.washingtonpost.com/world/2023/11/14/israel-war-hamas-gaza-al-shifa-news/#link-SHW4VUKSOFGG3D2ZURUFISFZ2Q\">estimated</a> on Tuesday that at least 100 bodies were decomposing around the hospital, including 50 inside. As Israeli forces drew closer to the hospital, it was too dangerous to evacuate the dead, leaving hospital staff with little choice but to prepare a mass grave for 180, the U.N. Office for the Coordination of Humanitarian Affairs <a href=\"https://www.washingtonpost.com/world/2023/11/14/israel-war-hamas-gaza-al-shifa-news/#link-TZZP77Q2JZETBML7YHFYNFXIHE\">wrote in a news release</a>.",
+      "group": "card-5"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The grave probably was dug sometime Tuesday, when the image of it first surfaced. Just before Israeli forces entered the hospital complex early Wednesday, Munir al-Bursh, director general of the Gaza Health Ministry, described the grave in <a href=\"https://t.me/Bader12000/149967\">an audio recording</a> posted to social media<b> </b>in which he appears to be speaking with an Israeli officer.",
+      "group": "card-5"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“When you come in you’re going to see 100 bodies on one side, and a mass grave full of 80 people on another,” he said. “These are patients that have all died.”",
+      "group": "card-5"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The Post could not independently verify the recording, and the identity of the Israeli officer al-Bursh spoke to was not immediately clear.",
+      "group": "card-5"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-6",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-VAMVVQDDJRFD5PPDOE73PJF3W4",
+      "group": "card-6"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700093269431,
+      "group": "card-6"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Watch: Biden likely to face questions about Israel-Gaza war at 7 p.m. Eastern",
+      "group": "card-6"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Washington Post staff",
+      "authors": [
+        {
+          "id": "wapostaff",
+          "name": "Washington Post staff",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/256e702d-7557-4a12-a78f-a66f571c2e16.png"
+        }
+      ],
+      "group": "card-6"
+    },
+    {
+      "contenturl": "http://www.youtube.com/watch?v=lIw1zeasvh4&app=desktop",
+      "mediaURL": "http://www.youtube.com/watch?v=lIw1zeasvh4&app=desktop",
+      "host": "youtube",
+      "type": "video",
+      "blurb": "Biden speaks about tensions with China, latest in Israel-Gaza war - 11/15 (FULL LIVE STREAM)",
+      "imageWidth": 1280,
+      "imageHeight": 720,
+      "imageURL": "https://i.ytimg.com/vi/lIw1zeasvh4/maxresdefault.jpg",
+      "content": {
+        "title": "Biden speaks about tensions with China, latest in Israel-Gaza war - 11/15 (FULL LIVE STREAM)",
+        "author_name": "Washington Post",
+        "author_url": "https://www.youtube.com/@WashingtonPost",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/lIw1zeasvh4/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/lIw1zeasvh4?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen title=\"Biden speaks about tensions with China, latest in Israel-Gaza war - 11/15 (FULL LIVE STREAM)\"></iframe>"
+      },
+      "group": "card-6"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Join Post reporters as President Biden addresses relations between the United States and China after meeting with Chinese President Xi Jinping for the first time in a year. The face-to-face meeting came after both leaders traveled to San Francisco for the Asia-Pacific Economic Cooperation conference.",
+      "group": "card-6"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-6"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Biden probably will face questions related to the Israel-Gaza war during the news conference, which comes amid growing international concern about the humanitarian crisis in the Gaza Strip and as more than 200 people kidnapped by Hamas remain in captivity.",
+      "group": "card-6"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-7",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-7RJC5J3RURCXLKMMQEP2QJPMEA",
+      "group": "card-7"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700092992068,
+      "group": "card-7"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Israeli military releases videos, photos after raid on al-Shifa Hospital",
+      "group": "card-7"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Louisa Loveluck and Meg Kelly",
+      "authors": [
+        {
+          "id": "loveluckl0-v",
+          "url": "https://www.washingtonpost.com/people/louisa-loveluck/",
+          "name": "Louisa Loveluck",
+          "bio": "Louisa Loveluck is the Baghdad bureau chief. She was previously based in Beirut for the Post and worked as the Cairo correspondent for the Daily Telegraph.",
+          "expertise": "Baghdad Bureau Chief",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/e31e6f1f-54d4-4184-a9c4-35a5540d1159.png"
+        },
+        {
+          "id": "kellym",
+          "url": "https://www.washingtonpost.com/people/meg-kelly/",
+          "name": "Meg Kelly",
+          "bio": "Meg Kelly is a video reporter for The Washington Post's Visual Forensics team. ",
+          "expertise": "Video reporter, Visual Forensics",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1dc46563-04af-40d0-8e31-f31960b74a11.png"
+        }
+      ],
+      "group": "card-7"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The Israeli military released two videos and some photos Wednesday from the al-Shifa Hospital showing what it said were Hamas weapons and other gear recovered from the complex.",
+      "group": "card-7"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-7"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The majority of both videos appears to have been filmed inside the hospital’s radiology unit, called the Prince Nayef Center, located next to the emergency room in the heart of the al-Shifa complex. In the longer video, Israel Defense Forces (IDF) spokesman Jonathan Conricus gives a single-shot tour of the building, pausing periodically to show where he said Hamas had hidden “go bags.”",
+      "group": "card-7"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "He ducks behind an MRI machine to show viewers a backpack with an AK-style rifle and ammunition visible. He then moves down the hall, pausing at a closet where he said four AK-style self-loading rifles with folding stocks were found.",
+      "group": "card-7"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Photographs released later by the IDF appeared to show the full alleged haul, laid out neatly: military uniforms, 11 guns, three military vests, one with a Hamas logo, nine grenades, two Qurans, a string of prayer beads, a box of dates.",
+      "group": "card-7"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The Washington Post was unable to independently verify who the weapons belonged to or how they came to be inside the radiology unit.",
+      "group": "card-7"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“These arms by themselves hardly seem to justify the military fixation on al-Shifa, even setting the law aside,” said Brian Finucane, a senior adviser at the International Crisis Group and former legal adviser at the State Department.",
+      "group": "card-7"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Pressed in an interview Wednesday on CNN, another IDF spokesman, Richard Hecht, was cautious in his comments about what the raid had revealed. “We found certain things,” he said. “That’s all I can say at this stage.”",
+      "group": "card-7"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "IDF forces found no sign of hostages at the site, Israel’s Army Radio reported.",
+      "group": "card-7"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-8",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-5L5VUE2BRFBRRCFXU2MMYNEDNQ",
+      "group": "card-8"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1700091227811,
+      "recency_threshold": 720,
+      "group": "card-8"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Sammy Westfall",
+      "authors": [
+        {
+          "id": "Westfalls",
+          "url": "https://www.washingtonpost.com/people/sammy-westfall/",
+          "name": "Sammy Westfall",
+          "bio": "Sammy Westfall is an assistant editor on The Washington Post's Foreign desk.",
+          "expertise": "Assistant Editor on the Foreign desk ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/df6719a2-a5f4-4b21-b622-2b301dc9734d.png"
+        }
+      ],
+      "group": "card-8"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Continuing a <a href=\"https://www.washingtonpost.com/world/2023/11/14/israel-war-hamas-gaza-al-shifa-news/#link-IYZN6S3IIZGJTEJSPBJFYQWITQ\">public spat</a> Wednesday between Turkish President Recep Tayyip Erdogan and Prime Minister Benjamin Netanyahu, Turkey doubled down.",
+      "group": "card-8"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "“Israeli officials, who have entered the dark pages of history with the oppression and massacres committed against the Palestinian people, have no right to talk about the law,” Turkey’s Foreign Affairs Ministry <a href=\"https://www.mfa.gov.tr/no_-295_-israil-basbakani-ve-israil-disisleri-bakaninin-iftiralari-hk.en.mfa\">said </a>in a statement.",
+      "group": "card-8"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-9",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-JHG5INC6KNDYFHKSLMONFLNQDM",
+      "group": "card-9"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700089667549,
+      "group": "card-9"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Analysis: Why Israel aid isn’t much more popular than Ukraine aid",
+      "group": "card-9"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Aaron Blake",
+      "authors": [
+        {
+          "id": "blakeaa",
+          "url": "https://www.washingtonpost.com/people/aaron-blake/",
+          "name": "Aaron Blake",
+          "bio": "Aaron Blake is senior political reporter, writing for The Fix. A Minnesota native, he has also written about politics for the Minneapolis Star Tribune and The Hill newspaper.",
+          "expertise": "Senior political reporter, writing for The Fix",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/4d503e96-1ff7-4962-8fca-10f741753ad0.png"
+        }
+      ],
+      "group": "card-9"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/3AOJ6RMNUF4OMI5NXUZBILIPFE.jpg",
+      "imageWidth": 6060,
+      "imageHeight": 4128,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "A vendor at her souvenir shop selling Israeli flags along with items featuring the Ukrainian coat of arms in Kyiv last month. (Sergei Supinsky/AFP/Getty Images)",
+      "blurb": "A vendor at her souvenir shop selling Israeli flags along with items featuring the Ukrainian coat of arms in Kyiv last month. (Sergei Supinsky/AFP/Getty Images)",
+      "group": "card-9"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "In 2014, both Israel and Ukraine featured in conflicts that would set the stage for what we see today. But there was no comparison when it came to whom Americans sympathized with more. While a Gallup poll showed <a href=\"https://news.gallup.com/poll/168110/record-view-russia-unfriendly-enemy.aspx\">17 percent</a> considered Ukraine an ally, nearly half — <a href=\"https://news.gallup.com/poll/1639/middle-east.aspx\">44 percent</a> — said the same of Israel.",
+      "group": "card-9"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "This was, of course, broadly reflective of the United States’ <a href=\"https://www.vox.com/world-politics/23916266/us-israel-support-ally-gaza-war-aid\">long-standing foreign policy toward Israel</a>, as well as its more complicated and less consequential relationship with Ukraine.",
+      "group": "card-9"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "metatext",
+      "mime": "text/html",
+      "content": "<i>This is an excerpt from a <a href=\"https://www.washingtonpost.com/politics/2023/11/15/israel-palestinians-gaza-aid/\">full story</a>.</i>",
+      "group": "card-9"
+    },
+    {
+      "type": "link",
+      "subtype": "button",
+      "label": "Continue reading",
+      "url": "https://www.washingtonpost.com/politics/2023/11/15/israel-palestinians-gaza-aid/",
+      "showArrow": true,
+      "group": "card-9"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-10",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-IWERM2FQBVECNBOMQUQLV7TZ4I",
+      "group": "card-10"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700086329707,
+      "group": "card-10"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Hamas agrees to tentative deal to free dozens of hostages, pending Israel’s approval",
+      "group": "card-10"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Karen DeYoung",
+      "authors": [
+        {
+          "id": "deyoungkj",
+          "url": "https://www.washingtonpost.com/people/karen-deyoung/",
+          "name": "Karen DeYoung",
+          "bio": "Karen DeYoung is associate editor and senior national security correspondent for The Post. In more than three decades at the paper, she has served as bureau chief in Latin America and in London and as correspondent covering the White House, U.S. foreign policy and the intelligence community. ",
+          "expertise": "Associate editor and senior national security correspondent",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/ce79ccb8-4e51-4d45-92a0-c773fd22023e.png"
+        }
+      ],
+      "group": "card-10"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/I4VKO53BPEXLCQXYCKI3L4O2WY.jpg",
+      "imageWidth": 4100,
+      "imageHeight": 2733,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Family members, relatives and supporters of Israeli citizens taken hostage by Hamas hold posters in Beit Hashmonai, Israel, on Wednesday as they take part in a multiday march from Tel Aviv to Jerusalem. (Amir Levy/Getty Images)",
+      "blurb": "Family members, relatives and supporters of Israeli citizens taken hostage by Hamas hold posters in Beit Hashmonai, Israel, on Wednesday as they take part in a multiday march from Tel Aviv to Jerusalem.",
+      "group": "card-10"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<a href=\"https://www.washingtonpost.com/world/2023/10/09/hamas-israel-war-explainer/?itid=lk_inline_manual_2\">Hamas</a> has agreed in principle and Israel is now considering a proposal for the release of at least 50 women and children among about 240 foreign and Israeli hostages being held by Hamas in Gaza, according to an Arab diplomat familiar with the negotiations.",
+      "group": "card-10"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "In exchange for the hostages, Israel would agree to a three- to five-day pause “in place” in the fighting, increased humanitarian aid to Gaza, and the release of an unspecified number of women and children held in Israeli prisons.",
+      "group": "card-10"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "metatext",
+      "mime": "text/html",
+      "content": "<i>This is an excerpt from a <a href=\"https://www.washingtonpost.com/national-security/2023/11/15/hamas-israel-gaza-hostage-deal/\">full story</a>.</i>",
+      "group": "card-10"
+    },
+    {
+      "type": "link",
+      "subtype": "button",
+      "label": "Continue reading",
+      "url": "https://www.washingtonpost.com/national-security/2023/11/15/hamas-israel-gaza-hostage-deal/",
+      "showArrow": true,
+      "group": "card-10"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-11",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-5ZRM3ISHKVE5LJCQZDI2ZLZXVY",
+      "group": "card-11"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700083507596,
+      "group": "card-11"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "U.N. passes resolution demanding immediate humanitarian pauses",
+      "group": "card-11"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Karen DeYoung",
+      "authors": [
+        {
+          "id": "deyoungkj",
+          "url": "https://www.washingtonpost.com/people/karen-deyoung/",
+          "name": "Karen DeYoung",
+          "bio": "Karen DeYoung is associate editor and senior national security correspondent for The Post. In more than three decades at the paper, she has served as bureau chief in Latin America and in London and as correspondent covering the White House, U.S. foreign policy and the intelligence community. ",
+          "expertise": "Associate editor and senior national security correspondent",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/ce79ccb8-4e51-4d45-92a0-c773fd22023e.png"
+        }
+      ],
+      "group": "card-11"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TLES7WUKDHSDQKK6TA655XYIYA.jpg",
+      "imageWidth": 2738,
+      "imageHeight": 1826,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "The U.N. flag at the United Nations' headquarters in New York is lowered to half-staff on Monday to honor the U.N. workers killed in Gaza. (Sarah Yenesel/EPA-EFE/Shutterstock)",
+      "blurb": "The U.N. flag at the United Nations' headquarters in New York is lowered to half-staff on Monday to honor the U.N. workers killed in Gaza. (Sarah Yenesel/EPA-EFE/Shutterstock)",
+      "group": "card-11"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The U.N. Security Council passed a resolution on Wednesday demanding “immediate extended humanitarian pauses” in the fighting in Gaza, the unhindered supply of humanitarian assistance to civilians there and the unconditional release of all hostages, in its first unified statement on the conflict.",
+      "group": "card-11"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-11"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Russia and the United States, along with Britain, abstained from the vote, objecting to the fact that the resolution did not contain key items they sought, but acknowledging international dismay over Security Council paralysis in the face of the ongoing loss of life.",
+      "group": "card-11"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Four previous resolutions had failed, with U.S. vetoes over the absence of a condemnation of Hamas and Israel’s right to respond, and Russia vetoing a U.S.-drafted resolution that did not call for a full cease-fire. Neither measure was in Wednesday’s resolution, which was drafted and introduced by Malta and approved by it and the other 11 members.",
+      "group": "card-11"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-12",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-XABV6GPNBBFDFEJKEMJEDM55HQ",
+      "group": "card-12"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700081173652,
+      "group": "card-12"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "How the U.S. is trying to bring home American hostages held in Gaza",
+      "group": "card-12"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Joanna Slater",
+      "authors": [
+        {
+          "id": "slaterj",
+          "url": "https://www.washingtonpost.com/people/joanna-slater/",
+          "name": "Joanna Slater",
+          "bio": "Joanna Slater is a national correspondent for The Washington Post focusing on the Northeast. Previously she served as the India bureau chief based in New Delhi. Prior to joining The Post, she was a foreign correspondent for the Globe & Mail and a reporter at the Wall Street Journal. Her postings include assignments in Mumbai, Hong Kong and Berlin. ",
+          "expertise": "National correspondent",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/1f22b7db-c57b-474e-a33b-c65852a4d5b8.png"
+        }
+      ],
+      "group": "card-12"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WF5S6BGOEZGC7WFJYLKZGYREMI_size-normalized.JPG",
+      "imageWidth": 7697,
+      "imageHeight": 5134,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "A student looks at photographs of people taken hostage by Hamas as part of a display on the University of Maryland campus in College Park on Nov. 3. (Julia Nikhinson/For The Washington Post)",
+      "blurb": "A student looks at photographs of people taken hostage by Hamas as part of a display on the University of Maryland campus in College Park on Nov. 3.",
+      "group": "card-12"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Earlier this year, U.S. and Qatari officials met in Doha to simulate a hostage situation. The exercise was fast-moving and hazardous: Islamic State militants in Somalia had seized four aid workers, two Americans and two Qataris. One of the Americans was gravely injured, and the group had to decide whether to attempt a rescue.",
+      "group": "card-12"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "No one in the room knew that within months, they would be grappling with a far larger crisis in real life.",
+      "group": "card-12"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "metatext",
+      "mime": "text/html",
+      "content": "<i>This is an excerpt from a <a href=\"https://www.washingtonpost.com/world/2023/11/15/us-hostages-israel-gaza-war/\">full story</a>.</i>",
+      "group": "card-12"
+    },
+    {
+      "type": "link",
+      "subtype": "button",
+      "label": "Continue reading",
+      "url": "https://www.washingtonpost.com/world/2023/11/15/us-hostages-israel-gaza-war/",
+      "showArrow": true,
+      "group": "card-12"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-13",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-ECFSWJ6I3NGFHP4A4N3IPDXDAE",
+      "group": "card-13"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1700078563595,
+      "recency_threshold": 720,
+      "group": "card-13"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Mikhail Klimentov",
+      "authors": [
+        {
+          "id": "klimentovm",
+          "url": "https://www.washingtonpost.com/people/mikhail-klimentov/",
+          "name": "Mikhail Klimentov",
+          "bio": "Mikhail Klimentov is an assistant editor on the Foreign desk’s breaking news team, handling coverage during afternoon/evening hours in Washington.",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/8053687b-5a09-4f22-87c5-3912c6191023.png"
+        }
+      ],
+      "group": "card-13"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The German Foreign Ministry announced <a href=\"https://twitter.com/AuswaertigesAmt/status/1724856995465892282\">on social media</a> Wednesday that more than 320 Germans and their family members have left the Gaza Strip since Oct. 7.",
+      "group": "card-13"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-14",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-RTJ3GZ6L6REFXA2JHXVMAGMECA",
+      "group": "card-14"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700077201736,
+      "group": "card-14"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Israeli forces remain inside al-Shifa hospital",
+      "group": "card-14"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Miriam Berger and Hazem Balousha",
+      "authors": [
+        {
+          "id": "Bergerm",
+          "url": "https://www.washingtonpost.com/people/miriam-berger/",
+          "name": "Miriam Berger",
+          "bio": "Miriam Berger is a staff writer reporting on foreign news for The Washington Post from Washington, D.C. Before joining The Post in 2019 she was based in Jerusalem and Cairo and freelance reported around the Middle East, as well as parts of Africa and Central Asia. ",
+          "expertise": "Reporter covering Middle East, Foreign Affairs ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/2153eece-9a66-4bf1-8870-06e53a7b025b.jpg"
+        },
+        {
+          "name": "Hazem Balousha"
+        }
+      ],
+      "group": "card-14"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "JERUSALEM — Israeli forces are still inside al-Shifa Hospital, the Israeli military said in a statement. Munir al-Bursh, the director general of hospitals in Gaza, confirmed the news to The Washington Post by phone from inside the besieged compound.",
+      "group": "card-14"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“The IDF is continuing to operate in the hospital complex,” the military said in a statement issued around 8:20 p.m. local time, about 18 hours after Israeli forces said they would raid Gaza’s largest hospital.",
+      "group": "card-14"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-14"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Bursh told The Post by phone around 7 p.m. that Israeli “tanks retreated to around the hospital but that soldiers remained in the hospital” and were stationed in four buildings. In a second call, about an hour later, he confirmed that Israeli forces still were present.",
+      "group": "card-14"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The details of Israel’s raid and conditions inside the hospital remain unclear because communication outages, ground fighting and Israeli bombardments make access difficult.",
+      "group": "card-14"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i>Balousha reported from Amman, Jordan.</i>",
+      "group": "card-14"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-15",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-QXUIX4RKZZHIDJXUYUQGHZK4GM",
+      "group": "card-15"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700074740945,
+      "group": "card-15"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "U.S. warship shoots down drone in Red Sea",
+      "group": "card-15"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Alex Horton",
+      "authors": [
+        {
+          "id": "hortona",
+          "url": "https://www.washingtonpost.com/people/alex-horton/?utm_term=.c77831808f32",
+          "name": "Alex Horton",
+          "bio": "Alex Horton is a national security reporter for The Washington Post focused on the U.S. military. He served in Iraq as an Army infantryman.",
+          "expertise": "National security reporter focused on the U.S. military",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/72f3d4da-482a-43b3-a5d7-2a8a93819de7.png"
+        }
+      ],
+      "group": "card-15"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JCFYAKGSZ3WCOXSUGMGTIWPVQA.jpg",
+      "imageWidth": 4000,
+      "imageHeight": 2667,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "The Arleigh Burke-class destroyer USS Carney responds to missiles and UAVs launched by Iranian-backed Houthi rebels in Yemen in the Red Sea on Oct. 19. (Aaron Lau/U.S. Navy/AFP/Getty Images)",
+      "blurb": "The Arleigh Burke-class destroyer USS Carney responds to missiles and UAVs launched by Iranian-backed Houthi rebels in Yemen in the Red Sea on Oct. 19. (Aaron Lau/U.S. Navy/AFP/Getty Images)",
+      "group": "card-15"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "A U.S. Navy destroyer shot down a drone in the Red Sea that came from Yemen, U.S. defense officials said Wednesday, marking at least the second known time since the Israel-Gaza war began last month that American warships have brought down aerial threats.",
+      "group": "card-15"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "“The USS Thomas Hudner engaged a drone that originated from Yemen, and was heading in the direction of the ship. The drone was destroyed and there were no U.S. casualties,” said Lt. Cmdr. Emily Pumphrey, a spokesperson<b> </b>for U.S. Central Command.",
+      "group": "card-15"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-15"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The destroyer was transiting international waters in the Red Sea when the incident occurred, a U.S. defense official said, speaking on the condition of anonymity because of the sensitivity of ongoing operations.",
+      "group": "card-15"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "It was not immediately clear who launched the drone or whether the ship was the target, but U.S. officials have blamed Houthi rebels, an Iranian-backed militant group that controls large swaths of Yemen, for two other recent incidents in the Red Sea.",
+      "group": "card-15"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The Houthis <a href=\"https://www.washingtonpost.com/national-security/2023/11/08/us-strikes-iranian-facility-syria/\">shot down a $30 million U.S. Reaper drone</a> off the coast of Yemen on Nov. 8, the Pentagon has said. Last month, <a href=\"https://www.washingtonpost.com/national-security/2023/10/19/us-troops-gaza-israel/\">another U.S. ship, the USS Carney, shot down missiles</a> fired toward Israel from Yemen.",
+      "group": "card-15"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-16",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-IYZN6S3IIZGJTEJSPBJFYQWITQ",
+      "group": "card-16"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1700073644941,
+      "recency_threshold": 720,
+      "group": "card-16"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Bryan Pietsch",
+      "authors": [
+        {
+          "id": "pietschb",
+          "url": "https://www.washingtonpost.com/people/bryan-pietsch/",
+          "name": "Bryan Pietsch",
+          "bio": "Bryan Pietsch is a reporter covering foreign affairs on the International desk, based in D.C. He was previously based in Seoul, where he was the inaugural reporter in The Post's news hub there.",
+          "expertise": "Reporter on the International desk covering foreign affairs",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/7cf4408b-3c66-4a75-b71e-ad41b3511442.png"
+        }
+      ],
+      "group": "card-16"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Turkish President Recep Tayyip Erdogan, in remarks to parliament Wednesday, called Israel a “terror state” that he alleged was “literally employing state terrorism,” according to Reuters.",
+      "group": "card-16"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Israeli Prime Minister Benjamin Netanyahu <a href=\"https://x.com/netanyahu/status/1724856506800132121?s=20\">said </a>on X that he “will not accept moral preaching from Erdogan,” alongside a video in which Netanyahu said, “we’re not going to get any lectures from” Turkey.",
+      "group": "card-16"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-17",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-JKKADE3RZRDOBDA6XEKMCSJVYU",
+      "group": "card-17"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700073375674,
+      "group": "card-17"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "U.N. releases 10-point plan to stop ‘carnage’ in Gaza",
+      "group": "card-17"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Bryan Pietsch",
+      "authors": [
+        {
+          "id": "pietschb",
+          "url": "https://www.washingtonpost.com/people/bryan-pietsch/",
+          "name": "Bryan Pietsch",
+          "bio": "Bryan Pietsch is a reporter covering foreign affairs on the International desk, based in D.C. He was previously based in Seoul, where he was the inaugural reporter in The Post's news hub there.",
+          "expertise": "Reporter on the International desk covering foreign affairs",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/7cf4408b-3c66-4a75-b71e-ad41b3511442.png"
+        }
+      ],
+      "group": "card-17"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QUIDG7O4FZNLTIHOWALF752O6M.JPG",
+      "imageWidth": 2800,
+      "imageHeight": 1866,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Martin Griffiths, head of the United Nations humanitarian agency, OCHA, speaks during a U.N. Security Council meeting at U.N. headquarters in New York on Feb. 6, 2023. (Eduardo Munoz/Reuters)",
+      "blurb": "Martin Griffiths, head of the United Nations humanitarian agency, OCHA, speaks during a U.N. Security Council meeting at U.N. headquarters in New York on Feb. 6, 2023. (Eduardo Munoz/Reuters)",
+      "group": "card-17"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Martin Griffiths, head of the United Nations humanitarian agency, OCHA, released a 10-point plan to “rein in the carnage” in the Gaza Strip, which he said is reaching “new levels of horror every day.”",
+      "group": "card-17"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-17"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "Among the points in the <a href=\"https://reliefweb.int/report/occupied-palestinian-territory/carnage-gaza-cannot-be-allowed-continue-here-are-steps-rein-it\">plan</a> was a call to open additional border crossings for aid to enter Gaza. Specifically, he said, the crossing at Kerem Shalom, a kibbutz in southern Israel near the Egyptian and Gazan borders, should be opened. During the conflict, only the Rafah crossing between Egypt and Gaza has been opened periodically.",
+      "group": "card-17"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "He also said the United Nations and other organizations should be allowed to access fuel to deliver aid and “provide basic services.” U.N. humanitarian workers received fuel Wednesday, but were only allowed to use it to transport aid from the Rafah crossing, and not for other purposes the United Nations says are necessary, such as powering generators at medical facilities. Israel has restricted the use of fuel being brought into Gaza, citing concerns that Hamas could divert it for military use.",
+      "group": "card-17"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The plan also calls for the implementation of a “humanitarian ceasefire,” which Griffiths said would allow basic services to resume. “Such a ceasefire is also vital to facilitate the delivery of aid, allow the release of hostages, and provide respite to civilians,” he said.",
+      "group": "card-17"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-18",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-6N6JIBRYYVBB7IFQMCK76FTXBE",
+      "group": "card-18"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1700072033016,
+      "recency_threshold": 720,
+      "group": "card-18"
+    },
+    {
+      "type": "title",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "REPORTING FROM JERUSALEM",
+      "group": "card-18"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Miriam Berger",
+      "authors": [
+        {
+          "id": "Bergerm",
+          "url": "https://www.washingtonpost.com/people/miriam-berger/",
+          "name": "Miriam Berger",
+          "bio": "Miriam Berger is a staff writer reporting on foreign news for The Washington Post from Washington, D.C. Before joining The Post in 2019 she was based in Jerusalem and Cairo and freelance reported around the Middle East, as well as parts of Africa and Central Asia. ",
+          "expertise": "Reporter covering Middle East, Foreign Affairs ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/2153eece-9a66-4bf1-8870-06e53a7b025b.jpg"
+        }
+      ],
+      "group": "card-18"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“I don’t think it’s very safe to evacuate [al-Shifa] Hospital right now,” said Alyona Synenko, a spokeswoman for the International Committee of the Red Cross.",
+      "group": "card-18"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "She said people at the hospital “say if they open the door, they risk being shot, as the fighting has been relentless.”",
+      "group": "card-18"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Synenko called for people to be able to evacuate safely, but added, “even those who do not evacuate are still protected by international humanitarian law. They are still civilians.”",
+      "group": "card-18"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-19",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-ZRIOA5SWW5CTDPZDM2PFEOCA6Q",
+      "group": "card-19"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700070885784,
+      "group": "card-19"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Video: Gaza’s last working flour mill is running out of fuel",
+      "group": "card-19"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Naomi Schanen",
+      "authors": [
+        {
+          "id": "schanenn",
+          "url": "https://www.washingtonpost.com/people/naomi-schanen/",
+          "name": "Naomi Schanen",
+          "bio": "Naomi Schanen is The Washington Post's breaking news reporter and video producer in London. She previously managed the live video desk at the Associated Press.",
+          "expertise": "Breaking news reporter + video producer at the London hub",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/ca00109e-78f0-4cec-9d74-5512ce9eb134.png"
+        }
+      ],
+      "group": "card-19"
+    },
+    {
+      "id": "c7f38a40-0f21-456e-8675-1a11e3e206c6",
+      "published": 1699979589000,
+      "isLive": false,
+      "lmt": 1700159610000,
+      "blurb": "Gaza’s last functioning flour mill was hit by a strike on Nov. 15, leaving the strip’s more than 2 million people with no local source for flour.",
+      "title": "Gaza's last working flour mill hit by strike",
+      "vertical": false,
+      "embedCode": "65535a5566775d3866fda696",
+      "shareurl": "https://wapo.st/3QFG1Gm",
+      "type": "video",
+      "host": "posttv",
+      "url": "false",
+      "placement": null,
+      "widthFactor": "full-bleed",
+      "contenturl": "https://www.washingtonpost.com/video/world/gazas-last-working-flour-mill-hit-by-strike/2023/11/14/c7f38a40-0f21-456e-8675-1a11e3e206c6_video.html",
+      "credits": "Obtained by Reuters",
+      "fullcaption": "Gaza’s last functioning flour mill was hit by a strike on Nov. 15, leaving the strip’s more than 2 million people with no local source for flour. (Obtained by Reuters)",
+      "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/11-14-2023/t_231d9a19365a48bc84e5cd086383ca53_name_TMBZINA4H2DBEDMCEUQFYLHV54.jpg",
+      "imageHeight": 1080,
+      "imageWidth": 1920,
+      "omniture": {
+        "source": "Obtained by Reuters",
+        "contentType": "video",
+        "contentId": "c7f38a40-0f21-456e-8675-1a11e3e206c6",
+        "channel": "world",
+        "contentSubsection": "world",
+        "pageName": "world:video - 1a11e3e206c6 - 20231114 - gazas-last-working-flour-mill-hit-by-strike"
+      },
+      "adconfig": {
+        "adSetUrls": {
+          "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.world_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.world;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.world_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.world_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+        },
+        "allowPrerollOnDomain": false,
+        "autoPlayPreroll": false,
+        "commercialAdNode": "/world",
+        "enableAdInsertion": false,
+        "enableAutoPreview": false,
+        "enableServerSideFallback": false,
+        "forceAd": false,
+        "playAds": false,
+        "playVideoAds": false,
+        "videoAdZone": "wpni.video.world",
+        "adSetConfig": {
+          "adSetZone": "wpni.video.world",
+          "adSetUrls": {
+            "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.world_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.world;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.world_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.world_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+          }
+        }
+      },
+      "mediaURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Reuters/20231114/65535a5566775d3866fda696/65535a5eb711eb5ff5a0d082/file_640x360-600-v3.mp4",
+      "streamURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Reuters/20231114/65535a5566775d3866fda696/65535a5eb711eb5ff5a0d082/mobile.m3u8",
+      "subtitlesURL": "https://closedcaptions.posttv.com/2023/11/14/c7f38a40-0f21-456e-8675-1a11e3e206c6/3_1699967004992/c7f38a40-0f21-456e-8675-1a11e3e206c6_6553580366775d3866fda43c.vtt",
+      "streams": {
+        "ts": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Reuters/20231114/65535a5566775d3866fda696/65535a5eb711eb5ff5a0d082/mobile.m3u8",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Reuters/20231114/65535a5566775d3866fda696/65535a5eb711eb5ff5a0d082/master.m3u8",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Reuters/20231114/65535a5566775d3866fda696/65535a5eb711eb5ff5a0d082/hd.m3u8",
+            "bitrate": 4500
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Reuters/20231114/65535a5566775d3866fda696/65535a5eb711eb5ff5a0d082/hlsv4_master.m3u8",
+            "bitrate": 5400
+          }
+        ],
+        "mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Reuters/20231114/65535a5566775d3866fda696/65535a5eb711eb5ff5a0d082/file_320x180-160-v3.mp4",
+            "bitrate": 160
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Reuters/20231114/65535a5566775d3866fda696/65535a5eb711eb5ff5a0d082/file_640x360-600-v3.mp4",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Reuters/20231114/65535a5566775d3866fda696/65535a5eb711eb5ff5a0d082/file_854x480-1200-v3_1.mp4",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Reuters/20231114/65535a5566775d3866fda696/65535a5eb711eb5ff5a0d082/file_1280x720-2000-v3_1.mp4",
+            "bitrate": 2000
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Reuters/20231114/65535a5566775d3866fda696/65535a5eb711eb5ff5a0d082/file_1920x1080-5400-v4.mp4",
+            "bitrate": 5400
+          }
+        ],
+        "gif-mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Obtained_by_Reuters/20231114/65535a5566775d3866fda696/65535a5bd9dfd01cdcfacdb1/file_1280x720-2000-v3_1.mp4",
+            "bitrate": 2000
+          }
+        ]
+      },
+      "isLooping": false,
+      "autoplay": false,
+      "fallback": null,
+      "duration": 79146,
+      "promo": {
+        "isLooping": true,
+        "url": "https://videos.posttv.com/washpost-production/Obtained_by_Reuters/20231114/65535a5566775d3866fda696/65535a5bd9dfd01cdcfacdb1/file_1280x720-2000-v3_1.mp4"
+      },
+      "group": "card-19"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-20",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-K4YUMFK6OJD7ZBYUYFQICKW7XE",
+      "group": "card-20"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700069115357,
+      "group": "card-20"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Video released by West Bank hospital shows people running from gas in Tulkarm",
+      "group": "card-20"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Jackson Barton",
+      "authors": [
+        {
+          "id": "bartonj",
+          "url": "https://www.washingtonpost.com/people/jackson-barton/",
+          "name": "Jackson Barton",
+          "bio": "Jackson Barton is the morning breaking news video editor for The Washington Post. He produces original videos and manages live streams in coordination with The Post’s homepage team. Jackson joined The Post in 2022 as a summer intern before rising to a permanent position on the video team.",
+          "expertise": "Breaking News Video Editor",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/fa1507ee-754f-41d6-99a9-d472b3b46d28.png"
+        }
+      ],
+      "group": "card-20"
+    },
+    {
+      "id": "015d0860-e0b0-4ba4-823b-6d589a245e0b",
+      "published": 1699992514000,
+      "isLive": false,
+      "lmt": 1699992514000,
+      "blurb": "Video released by the Thabet Thabet Hospital shows people running from gas on Nov. 14 in Tulkarm, West Bank.",
+      "title": "Video shows people running from gas at West Bank hospital",
+      "vertical": false,
+      "embedCode": "65538cf4cbe8fb53a8ad14f2",
+      "shareurl": "https://wapo.st/3MJTVWB",
+      "type": "video",
+      "host": "posttv",
+      "url": "false",
+      "placement": null,
+      "widthFactor": "full-bleed",
+      "contenturl": "https://www.washingtonpost.com/video/world/video-shows-people-running-from-gas-at-west-bank-hospital/2023/11/14/015d0860-e0b0-4ba4-823b-6d589a245e0b_video.html",
+      "credits": "Storyful",
+      "fullcaption": "Video released by the Thabet Thabet Hospital shows people running from gas on Nov. 14 in Tulkarm, West Bank. (Storyful)",
+      "imageURL": "https://d1i4t8bqe7zgj6.cloudfront.net/11-14-2023/t_bc01eaf0cd5241ac9282564747eee051_name_20231114_WB_TearGas_00_01_00_26_Still015.jpg",
+      "imageHeight": 1080,
+      "imageWidth": 1920,
+      "omniture": {
+        "source": "Storyful",
+        "contentType": "video",
+        "contentId": "015d0860-e0b0-4ba4-823b-6d589a245e0b",
+        "channel": "world",
+        "contentSubsection": "world",
+        "pageName": "world:video - 6d589a245e0b - 20231114 - video-shows-people-running-from-gas-at-west-bank-hospital"
+      },
+      "adconfig": {
+        "adSetUrls": {
+          "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.world_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.world;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.world_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+          "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.world_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+        },
+        "allowPrerollOnDomain": false,
+        "autoPlayPreroll": false,
+        "commercialAdNode": "/world",
+        "enableAdInsertion": false,
+        "enableAutoPreview": false,
+        "enableServerSideFallback": false,
+        "forceAd": false,
+        "playAds": false,
+        "playVideoAds": false,
+        "videoAdZone": "wpni.video.world",
+        "adSetConfig": {
+          "adSetZone": "wpni.video.world",
+          "adSetUrls": {
+            "tablet": "http://ad.doubleclick.net/N701/pfadx/wpni.video.world_tablet;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "desktop": "http://ad.doubleclick.net/N701/pfadx/wpni.video.world;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "mweb": "http://ad.doubleclick.net/N701/pfadx/wpni.video.world_mweb;frmt=2;frmt=1;frmt=0;vid=15;vid=30;sz=640x480;ord=[TIMESTAMP]",
+            "apps": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/701/wpni.video.world_apps&ciu_szs=300x250&cust_params=vid%3D15%2C30&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]"
+          }
+        }
+      },
+      "mediaURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Storyful/20231114/65538cf4cbe8fb53a8ad14f2/65538cfcb711eb5ff5a0d09e/file_640x360-600-v3.mp4",
+      "streamURL": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Storyful/20231114/65538cf4cbe8fb53a8ad14f2/65538cfcb711eb5ff5a0d09e/mobile.m3u8",
+      "subtitlesURL": "https://closedcaptions.posttv.com/2023/11/14/015d0860-e0b0-4ba4-823b-6d589a245e0b/3_1699976877368/015d0860-e0b0-4ba4-823b-6d589a245e0b_65538936cbe8fb53a8ad1492.vtt",
+      "streams": {
+        "ts": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Storyful/20231114/65538cf4cbe8fb53a8ad14f2/65538cfcb711eb5ff5a0d09e/mobile.m3u8",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Storyful/20231114/65538cf4cbe8fb53a8ad14f2/65538cfcb711eb5ff5a0d09e/master.m3u8",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Storyful/20231114/65538cf4cbe8fb53a8ad14f2/65538cfcb711eb5ff5a0d09e/hd.m3u8",
+            "bitrate": 4500
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Storyful/20231114/65538cf4cbe8fb53a8ad14f2/65538cfcb711eb5ff5a0d09e/hlsv4_master.m3u8",
+            "bitrate": 5400
+          }
+        ],
+        "mp4": [
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Storyful/20231114/65538cf4cbe8fb53a8ad14f2/65538cfcb711eb5ff5a0d09e/file_320x180-160-v3.mp4",
+            "bitrate": 160
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Storyful/20231114/65538cf4cbe8fb53a8ad14f2/65538cfcb711eb5ff5a0d09e/file_640x360-600-v3.mp4",
+            "bitrate": 600
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Storyful/20231114/65538cf4cbe8fb53a8ad14f2/65538cfcb711eb5ff5a0d09e/file_854x480-1200-v3_1.mp4",
+            "bitrate": 1200
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Storyful/20231114/65538cf4cbe8fb53a8ad14f2/65538cfcb711eb5ff5a0d09e/file_1280x720-2000-v3_1.mp4",
+            "bitrate": 2000
+          },
+          {
+            "url": "https://d21rhj7n383afu.cloudfront.net/washpost-production/Storyful/20231114/65538cf4cbe8fb53a8ad14f2/65538cfcb711eb5ff5a0d09e/file_1920x1080-5400-v4.mp4",
+            "bitrate": 5400
+          }
+        ]
+      },
+      "isLooping": false,
+      "autoplay": false,
+      "fallback": null,
+      "duration": 39957,
+      "group": "card-20"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-21",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-3TUASTGA3VBJZDTJLJGEUDJNXA",
+      "group": "card-21"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700067707536,
+      "group": "card-21"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "The heavy burdens of war for Gaza’s women and girls",
+      "group": "card-21"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Miriam Berger and  Hajar Harb",
+      "authors": [
+        {
+          "id": "Bergerm",
+          "url": "https://www.washingtonpost.com/people/miriam-berger/",
+          "name": "Miriam Berger",
+          "bio": "Miriam Berger is a staff writer reporting on foreign news for The Washington Post from Washington, D.C. Before joining The Post in 2019 she was based in Jerusalem and Cairo and freelance reported around the Middle East, as well as parts of Africa and Central Asia. ",
+          "expertise": "Reporter covering Middle East, Foreign Affairs ",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/2153eece-9a66-4bf1-8870-06e53a7b025b.jpg"
+        },
+        {
+          "name": " Hajar Harb"
+        }
+      ],
+      "group": "card-21"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HHG5EQLOPUQMTT6MYIKCQSAG7U_size-normalized.jpg",
+      "imageWidth": 5472,
+      "imageHeight": 3648,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "A displaced Palestinian family lives in a tent set up by the U.N. refugee agency in Khan Younis, Gaza. (Loay Ayyoub for The Washington Post)",
+      "blurb": "A displaced Palestinian family lives in a tent set up by the U.N. refugee agency in Khan Younis, Gaza.",
+      "group": "card-21"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "JERUSALEM — Salma Tarabin is eight months pregnant, praying the war ends before her third child is born into a “poisoned” world. The 30-year-old is exhausted, hungry and sick from drinking dirty water. For a month now, she has been sleeping on a sheet on a hard classroom floor with more than 80 other women and children, she told The Washington Post by phone. The men and older boys sleep outside in the courtyard of what was formerly a school run by UNRWA, the U.N. agency for Palestinian refugees, in the southern Gazan city of Rafah.",
+      "group": "card-21"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "metatext",
+      "mime": "text/html",
+      "content": "<i>This is an excerpt from a <a href=\"https://www.washingtonpost.com/world/2023/11/15/gaza-women-pregnancy-israel-war/\">full story</a>.</i>",
+      "group": "card-21"
+    },
+    {
+      "type": "link",
+      "subtype": "button",
+      "label": "Continue reading",
+      "url": "https://www.washingtonpost.com/world/2023/11/15/gaza-women-pregnancy-israel-war/",
+      "showArrow": true,
+      "group": "card-21"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-22",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-N47B23LIF5DTNOL3436KAXWJ2U",
+      "group": "card-22"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700067079070,
+      "group": "card-22"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "U.S. says it is not involved in approving Israeli military operations",
+      "group": "card-22"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Bryan Pietsch, Yasmeen Abutaleb and Karen DeYoung",
+      "authors": [
+        {
+          "id": "pietschb",
+          "url": "https://www.washingtonpost.com/people/bryan-pietsch/",
+          "name": "Bryan Pietsch",
+          "bio": "Bryan Pietsch is a reporter covering foreign affairs on the International desk, based in D.C. He was previously based in Seoul, where he was the inaugural reporter in The Post's news hub there.",
+          "expertise": "Reporter on the International desk covering foreign affairs",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/7cf4408b-3c66-4a75-b71e-ad41b3511442.png"
+        },
+        {
+          "id": "abutaleby",
+          "url": "https://www.washingtonpost.com/people/yasmeen-abutaleb/",
+          "name": "Yasmeen Abutaleb",
+          "bio": "Yasmeen Abutaleb is a White House reporter for The Washington Post. She joined The Post in 2019 as a national health policy reporter. Yasmeen co-authored the New York Times No. 1 best seller, \"Nightmare Scenario: Inside the Trump Administration Response to the Pandemic that Changed History.\"",
+          "expertise": "White House Reporter",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/4d7e3bca-873a-4365-b5f6-2b21ceee19a5.png"
+        },
+        {
+          "id": "deyoungkj",
+          "url": "https://www.washingtonpost.com/people/karen-deyoung/",
+          "name": "Karen DeYoung",
+          "bio": "Karen DeYoung is associate editor and senior national security correspondent for The Post. In more than three decades at the paper, she has served as bureau chief in Latin America and in London and as correspondent covering the White House, U.S. foreign policy and the intelligence community. ",
+          "expertise": "Associate editor and senior national security correspondent",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/ce79ccb8-4e51-4d45-92a0-c773fd22023e.png"
+        }
+      ],
+      "group": "card-22"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "John Kirby, the National Security Council spokesman, said at a briefing Wednesday that the United States “did not give an okay” to Israel’s raid of al-Shifa Hospital, as it does not give prior approval to Israel’s tactical operations. “The United States is not involved in those procedures,” he said.",
+      "group": "card-22"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Kirby reaffirmed the White House’s recent position on the place of hospitals in the conflict.",
+      "group": "card-22"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-22"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "“We don’t want to see innocent civilians, patients, medical staff become victims of crossfire,” Kirby said. “We believe hospitals should be protected.”",
+      "group": "card-22"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Israel’s raid on the hospital has drawn international scrutiny amid an already staggering Palestinian civilian death toll. Israel says it is conducting a narrow operation at the hospital to root out Hamas militants it says are operating there. Hamas denies the assertion.",
+      "group": "card-22"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "<i>Correction: A previous version of this post mischaracterized remarks made by John Kirby, the National Security Council spokesman. He said that the U.S. does not give prior approval to Israel’s tactical operations, not that the U.S. did not approve of Israel’s operation in Shifa. The post has been corrected.</i>",
+      "group": "card-22"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "style": "luf"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-23",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-DZ6K2D7KNNHJJDNXAGMD7QEE7U",
+      "group": "card-23"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700066757284,
+      "group": "card-23"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "Satellite imagery shows Israeli positions 12 hours before raid on al-Shifa Hospital",
+      "group": "card-23"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Samuel Granados and Evan Hill",
+      "authors": [
+        {
+          "id": "LOPEZS4",
+          "url": "https://www.washingtonpost.com/people/samuel-granados/",
+          "name": "Samuel Granados",
+          "bio": "Samuel Granados works as a graphics assignment editor at The Washington Post. Previously, he worked as a senior graphics editor at Reuters covering Europe, the Middle East and Africa, and as the head of graphics at La Nación in Argentina.",
+          "expertise": "Graphics Assignment Editor",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/d009ac4f-68ea-4ef7-9b08-858fe0be7ea9.png"
+        },
+        {
+          "id": "hille",
+          "url": "https://www.washingtonpost.com/people/evan-hill/",
+          "name": "Evan Hill",
+          "bio": "Evan Hill is an investigative reporter at The Washington Post focused on open-source and visual forensic techniques. He joined The Post from the New York Times in 2023 and was previously a reporter on the Times's Visual Investigations team, where he shared in three Pulitzer Prizes.   ",
+          "expertise": "Investigative reporter",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/678e638a-3bac-4b3f-80fb-9fbe9364c158.png"
+        }
+      ],
+      "group": "card-23"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "An image captured by Planet Labs on Tuesday at 1:45 p.m. local time showed Israeli troops gathered at several locations near al-Shifa Hospital not long before their raid on the hospital began. The Israeli military said its “<a href=\"https://www.washingtonpost.com/world/2023/11/14/israel-gaza-hospitals-hamas-civilians/?itid=lk_inline_manual_2\">precise and targeted operation against Hamas</a>” began around 2 a.m. local time Wednesday.",
+      "group": "card-23"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZUSHJ2DE55H45MLNWXRVNGTZDU.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 1734,
+      "image_type": "graphic",
+      "widthFactor": "default",
+      "fullcaption": "(Samuel Granados and Evan Hill/Planet Labs)",
+      "group": "card-23"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-reporter-insight",
+      "group": "card-24",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-XNYCC725IFBUJFZDOVLOASDKQ4",
+      "group": "card-24"
+    },
+    {
+      "type": "date",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": 1700065147677,
+      "recency_threshold": 720,
+      "group": "card-24"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-reporter-insight",
+      "mime": "text/plain",
+      "content": "By Bryan Pietsch and Sarah Dadouch",
+      "authors": [
+        {
+          "id": "pietschb",
+          "url": "https://www.washingtonpost.com/people/bryan-pietsch/",
+          "name": "Bryan Pietsch",
+          "bio": "Bryan Pietsch is a reporter covering foreign affairs on the International desk, based in D.C. He was previously based in Seoul, where he was the inaugural reporter in The Post's news hub there.",
+          "expertise": "Reporter on the International desk covering foreign affairs",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/7cf4408b-3c66-4a75-b71e-ad41b3511442.png"
+        },
+        {
+          "id": "dadouchs",
+          "url": "https://www.washingtonpost.com/people/sarah-dadouch/",
+          "name": "Sarah Dadouch",
+          "bio": "Sarah Dadouch is a Beirut-based Middle East correspondent for The Washington Post. She was previously a Reuters correspondent in Beirut, Riyadh and Istanbul.",
+          "expertise": "Correspondent covering the Middle East",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/63bd783c-e557-4f49-bb6f-5a8dbab3620e.png"
+        }
+      ],
+      "group": "card-24"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The Gaza Health Ministry said Wednesday that Israeli forces “targeted the coronary artery care sector” of al-Shifa Hospital, hitting patient rooms. It added that “Israeli bombardment led to damages in the specialty operation section” of the hospital complex. The Washington Post could not independently confirm conditions on the ground.",
+      "group": "card-24"
+    },
+    {
+      "type": "divider",
+      "subtype": "live-update",
+      "group": "card-25",
+      "breakpoints": [
+        "large"
+      ]
+    },
+    {
+      "type": "link",
+      "subtype": "anchor",
+      "id": "link-DG2MYTL2MREUBE3T5CLD73GWEA",
+      "group": "card-25"
+    },
+    {
+      "type": "date",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": 1700065077848,
+      "group": "card-25"
+    },
+    {
+      "type": "title",
+      "subtype": "h2",
+      "mime": "text/plain",
+      "content": "More Americans say Israel has gone too far in response to Hamas, poll finds",
+      "group": "card-25"
+    },
+    {
+      "type": "byline",
+      "subtype": "live-update",
+      "mime": "text/plain",
+      "content": "By Bryan Pietsch",
+      "authors": [
+        {
+          "id": "pietschb",
+          "url": "https://www.washingtonpost.com/people/bryan-pietsch/",
+          "name": "Bryan Pietsch",
+          "bio": "Bryan Pietsch is a reporter covering foreign affairs on the International desk, based in D.C. He was previously based in Seoul, where he was the inaugural reporter in The Post's news hub there.",
+          "expertise": "Reporter on the International desk covering foreign affairs",
+          "image": "https://s3.amazonaws.com/arc-authors/washpost/7cf4408b-3c66-4a75-b71e-ad41b3511442.png"
+        }
+      ],
+      "group": "card-25"
+    },
+    {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QF4435C3Z7NAP2HJHD5LADIFNI.jpg",
+      "imageWidth": 6720,
+      "imageHeight": 4480,
+      "image_type": "photograph",
+      "widthFactor": "full-bleed",
+      "fullcaption": "Funeral prayers are said over the bodies of Palestinians killed in Israeli raids Wednesday in Khan Younis, southern Gaza. (Ahmad Hasaballah/Getty Images)",
+      "blurb": "Funeral prayers are said over the bodies of Palestinians killed in Israeli raids Wednesday in Khan Younis, southern Gaza.",
+      "group": "card-25"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "A growing number of Americans say Israel has gone too far in its response to the Oct. 7 attack by Hamas, according to a poll this month by Marist, NPR and PBS NewsHour.",
+      "group": "card-25"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "According to the poll, conducted Nov. 6-9, 38 percent of Americans say that Israel’s response to the attack — which killed about 1,200 Israelis — has been “too much.” That is up from 26 percent who gave the same response last month.",
+      "group": "card-25"
+    },
+    {
+      "type": "expand_card",
+      "truncatedLabel": "Show more",
+      "expandedLabel": "Show less",
+      "group": "card-25"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "Another 38 percent of Americans said this month that Israel’s response has been “about right.” Last month, 44 percent said Israel’s response was “about right.”",
+      "group": "card-25"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The number of Americans who think Israel’s response is insufficient has shrunk, from 27 percent last month to 17 percent this month.",
+      "group": "card-25"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The figures suggest growing discontent among Americans with Israel’s response.",
+      "group": "card-25"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/plain",
+      "content": "The skyrocketing number of civilian deaths in Israel’s war in Gaza has sparked growing international outcry. The Gaza Health Ministry has been unable to provide an official death toll in recent days because of the combat situation, but it said that as of Friday, about 11,100 Palestinians had been killed since the start of the war.",
+      "group": "card-25"
+    },
+    {
+      "type": "sanitized_html",
+      "subtype": "paragraph",
+      "mime": "text/html",
+      "content": "The NPR/PBS/Marist <a href=\"https://maristpoll.marist.edu/polls/the-looming-government-shutdown/\">survey this month</a> of 1,429 adults had a margin of sampling error of plus or minus 3.4 percentage points; <a href=\"https://maristpoll.marist.edu/polls/the-war-between-israel-and-hamas/\">last month’s survey</a> of 1,313 adults had a sampling error margin of plus or minus 3.8 percentage points.",
+      "group": "card-25"
+    },
+    {
+      "type": "ad",
+      "breakpoints": [
+        "small",
+        "large"
+      ],
+      "kind": "block",
+      "size": "medium",
+      "adPath": "/world",
+      "style": "luf"
+    },
+    {
+      "type": "author_info",
+      "id": "Bergerm",
+      "name": "Miriam Berger",
+      "bio": "Miriam Berger is a staff writer reporting on foreign news for The Washington Post from Washington, D.C. Before joining The Post in 2019 she was based in Jerusalem and Cairo and freelance reported around the Middle East, as well as parts of Africa and Central Asia.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/2153eece-9a66-4bf1-8870-06e53a7b025b.jpg",
+      "role": "Staff writer",
+      "group": "card-26"
+    },
+    {
+      "type": "author_info",
+      "id": "ablesk",
+      "name": "Kelsey Ables",
+      "bio": "Kelsey Ables is a reporter at The Washington Post's Seoul hub, where she covers breaking news in the United States and across the world. She was previously on the Features desk, where she wrote about art, architecture and pop culture.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/3e0cf8a0-74a7-4e50-9adc-98234af48b81.png",
+      "role": "Reporter",
+      "group": "card-26"
+    },
+    {
+      "type": "author_info",
+      "id": "bissetv2022",
+      "name": "Victoria Bisset",
+      "bio": "Victoria Bisset is a breaking-news reporter for The Washington Post's London Hub, covering the most urgent and consequential stories as they unfold on the European day.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/a6a64eb4-4c41-48b1-9850-3aacd907c71b.jpg",
+      "role": "Breaking-news reporter",
+      "group": "card-26"
+    },
+    {
+      "type": "author_info",
+      "id": "masihn",
+      "name": "Niha Masih",
+      "bio": "Niha Masih is a reporter at The Washington Post's Seoul hub, where she covers breaking news in the United States and across the world. Previously, she was The Post's correspondent in India, where she covered the rise of majoritarian nationalism, conflict in Kashmir, the covid crisis and digital surveillance of citizens.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/60f4d1d3-4469-4c89-8589-caaf46cc71a3.png",
+      "role": "Breaking news reporter",
+      "group": "card-26"
+    },
+    {
+      "type": "author_info",
+      "id": "jeongh",
+      "name": "Andrew Jeong",
+      "bio": "Andrew Jeong is a reporter for The Washington Post in its Seoul hub.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/9e1f03e6-ad2e-469c-b8d6-1adbcd87e37e.jpg",
+      "role": "Staff writer",
+      "group": "card-26"
+    },
+    {
+      "type": "author_info",
+      "id": "sulimana",
+      "name": "Adela Suliman",
+      "bio": "Adela Suliman is a breaking-news reporter in The Washington Post's London hub.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/56038b95-cadc-42d9-84aa-c43f7f2c401c.png",
+      "role": "Staff writer",
+      "group": "card-26"
+    },
+    {
+      "type": "author_info",
+      "id": "sandsl",
+      "name": "Leo Sands",
+      "bio": "Leo Sands is a breaking-news reporter and editor in The Washington Post’s London Hub, covering news as it unfolds around the world.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/4db27371-7252-4400-80de-653b36156364.png",
+      "role": "Breaking News Reporter/Editor",
+      "group": "card-26"
+    },
+    {
+      "type": "author_info",
+      "id": "rosenzweigziffd2020",
+      "name": "Dan Rosenzweig-Ziff",
+      "bio": "Dan Rosenzweig-Ziff is a reporter on The Washington Post's General Assignment desk, where he covers breaking news and writes of-the-moment features. He has reported for The Post from Europe and covered crime and criminal justice on the Metro desk. He previously worked for the Texas Tribune and was a Fulbright scholar in Germany.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/3730e296-ff2a-46d1-a07b-fc9723bd3f56.png",
+      "role": "Staff writer, General Assignment desk",
+      "group": "card-26"
+    },
+    {
+      "type": "author_info",
+      "id": "Westfalls",
+      "name": "Sammy Westfall",
+      "bio": "Sammy Westfall is an assistant editor on The Washington Post's Foreign desk.",
+      "image": "https://s3.amazonaws.com/arc-authors/washpost/df6719a2-a5f4-4b21-b622-2b301dc9734d.png",
+      "role": "Assistant editor",
+      "group": "card-26"
+    },
+    {
+      "type": "element_group",
+      "subtype": "link_box",
+      "content_elements": [
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "Secretary of State Antony Blinken said the <a href=\"https://www.washingtonpost.com/world/2024/01/30/israel-hamas-war-news-gaza-palestine/\">Middle East is experiencing an “incredibly volatile time,”</a> telling reporters that “we’ve not seen a situation as dangerous as the one we’re facing now across the region since at least 1973.”"
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<a href=\"https://www.washingtonpost.com/world/2024/01/29/israel-hamas-war-news-gaza-palestine/\">President Biden promised to respond</a> to a militant drone attack that <a href=\"https://www.washingtonpost.com/national-security/2024/01/29/jordan-drone-attack-us-confusion/\">killed three U.S. service members</a> and injured at least 34 in Jordan on Sunday, blaming the assault on  Iranian-backed groups. Tehran denied involvement."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "Frustration is <a href=\"https://www.washingtonpost.com/world/2024/01/24/israel-hostages-gaza-hamas-families/\">turning to fury for Israel’s hostage families</a> as calls for <a href=\"https://www.washingtonpost.com/world/2023/11/07/israel-palestine-two-state-solution-explained/\">a two-state solution</a> also intensify."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<b>Oct. 7 attack: </b>Hamas spent <a href=\"https://www.washingtonpost.com/world/2023/12/06/israel-knew-hamas-attack-oct-7/\">more than a year planning</a> its assault on Israel.<b> </b>A Washington Post <a href=\"https://www.washingtonpost.com/investigations/2023/11/17/how-hamas-breached-israel-iron-wall/\">video analysis</a> shows how Hamas exploited vulnerabilities created by Israel’s reliance on technology at the “Iron Wall,” the security barrier bordering the Gaza Strip, to carry out the deadliest attack in Israel’s history."
+        },
+        {
+          "type": "sanitized_html",
+          "subtype": "paragraph",
+          "mime": "text/html",
+          "content": "<b>Israeli-Palestinian conflict:</b> The Hamas-controlled Gaza Strip has a complicated history. Understand <a href=\"https://www.washingtonpost.com/world/2023/10/17/israel-hamas-war-reason-explained-gaza/\">what’s behind the Israel-Gaza war</a> and read about the <a href=\"https://www.washingtonpost.com/world/2023/israel-palestine-conflict-timeline-history-explained/\">history of the Israeli-Palestinian conflict</a>."
+        }
+      ],
+      "additional_properties": {
+        "link_box_title": "Israel-Gaza war",
+        "link_box_byline": null,
+        "link_box_display_date": 1706622313077,
+        "link_box_subheadline": null
+      },
+      "group": "card-26"
+    }
+  ],
+  "dataServiceAdaptor": "Arc",
+  "blogname": "Middle East",
+  "content_restriction_code": "default",
+  "audio": {
+    "type": "audio",
+    "subtype": "audio-article",
+    "manifestUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/DSNMVHJWPFAX5NMFROM5XEYA3E/20231116-140814.142/manifest.json",
+    "adsUrl": "https://podcast.washpostpodcasts.com/washpost-audio-articles/DSNMVHJWPFAX5NMFROM5XEYA3E/20231116-140814.142/current.mp3?awCollectionId=/world/middle-east&awEpisodeId=DSNMVHJWPFAX5NMFROM5XEYA3E&tags=israel-hamas%7Ccollections-israel-hamas%7Caudio-article",
+    "rawUrl": "https://audio-articles.lionfish.media.aws.wapo.pub/DSNMVHJWPFAX5NMFROM5XEYA3E/20231116-140814.142/current.mp3",
+    "image": {
+      "type": "image",
+      "mime": "image/jpeg",
+      "imageURL": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VYN3ZZ2EZVDY7F6N674HYQKY2A.JPG",
+      "imageWidth": 3498,
+      "imageHeight": 2332,
+      "fullcaption": "(Maxar Technologies/Reuters)"
+    },
+    "title": {
+      "content": "Israel releases images from al-Shifa Hospital after raid",
+      "mime": "text/plain",
+      "type": "title",
+      "subtype": "h1"
+    },
+    "label": {
+      "content": "Middle East",
+      "mime": "text/plain",
+      "type": "kicker",
+      "coverageActive": false,
+      "displayLabel": "Israel-Gaza War",
+      "path": "/israel-hamas-war"
+    },
+    "date": {
+      "content": 1700111293293,
+      "mime": "text/plain",
+      "type": "date"
+    },
+    "inlinePlayer": {
+      "listen": "Listen to article"
+    }
+  },
+  "tableOfContents": {
+    "children": [
+      {
+        "title": "Today’s key developments in the Israel-Gaza war ",
+        "arcId": "NCXAKSN2X5DTHI5XTD76PLQFDQ",
+        "anchor": "link-NCXAKSN2X5DTHI5XTD76PLQFDQ",
+        "displayDate": 1700105837695
+      },
+      {
+        "title": "Proof of Hamas command center at al-Shifa Hospital remains elusive",
+        "arcId": "CRLYYHGDGZGPRAZVZ4UXE6CCGA",
+        "anchor": "link-CRLYYHGDGZGPRAZVZ4UXE6CCGA",
+        "displayDate": 1700105550488
+      },
+      {
+        "title": "Biden says he has been ‘deeply involved’ in hostage negotiations",
+        "arcId": "EMO2KSGNHJAN3DZZ2BAAAFFLOQ",
+        "anchor": "link-EMO2KSGNHJAN3DZZ2BAAAFFLOQ",
+        "displayDate": 1700100685555
+      },
+      {
+        "title": "How Israel built its case to raid Gaza’s al-Shifa Hospital",
+        "arcId": "E2X6HZCEQNAZPAPJY6R3YXOFDI",
+        "anchor": "link-E2X6HZCEQNAZPAPJY6R3YXOFDI",
+        "displayDate": 1700099299748
+      },
+      {
+        "title": "Visual evidence appears to show graves at al-Shifa Hospital",
+        "arcId": "RBEKSKEFUVFPTEVPZRGZW2CSMM",
+        "anchor": "link-RBEKSKEFUVFPTEVPZRGZW2CSMM",
+        "displayDate": 1700097845040
+      },
+      {
+        "title": "Watch: Biden likely to face questions about Israel-Gaza war at 7 p.m. Eastern",
+        "arcId": "VAMVVQDDJRFD5PPDOE73PJF3W4",
+        "anchor": "link-VAMVVQDDJRFD5PPDOE73PJF3W4",
+        "displayDate": 1700093269431
+      },
+      {
+        "title": "Israeli military releases videos, photos after raid on al-Shifa Hospital",
+        "arcId": "7RJC5J3RURCXLKMMQEP2QJPMEA",
+        "anchor": "link-7RJC5J3RURCXLKMMQEP2QJPMEA",
+        "displayDate": 1700092992068
+      },
+      {
+        "title": "Continuing a public spat Wednesday between Turkish President Recep Tayyip Erdogan and Prime Minister Benjamin Netanyahu,...",
+        "arcId": "5L5VUE2BRFBRRCFXU2MMYNEDNQ",
+        "anchor": "link-5L5VUE2BRFBRRCFXU2MMYNEDNQ",
+        "displayDate": 1700091227811
+      },
+      {
+        "title": "Analysis: Why Israel aid isn’t much more popular than Ukraine aid ",
+        "arcId": "JHG5INC6KNDYFHKSLMONFLNQDM",
+        "anchor": "link-JHG5INC6KNDYFHKSLMONFLNQDM",
+        "displayDate": 1700089667549
+      },
+      {
+        "title": "Hamas agrees to tentative deal to free dozens of hostages, pending Israel’s approval",
+        "arcId": "IWERM2FQBVECNBOMQUQLV7TZ4I",
+        "anchor": "link-IWERM2FQBVECNBOMQUQLV7TZ4I",
+        "displayDate": 1700086329707
+      },
+      {
+        "title": "U.N. passes resolution demanding immediate humanitarian pauses",
+        "arcId": "5ZRM3ISHKVE5LJCQZDI2ZLZXVY",
+        "anchor": "link-5ZRM3ISHKVE5LJCQZDI2ZLZXVY",
+        "displayDate": 1700083507596
+      },
+      {
+        "title": "How the U.S. is trying to bring home American hostages held in Gaza",
+        "arcId": "XABV6GPNBBFDFEJKEMJEDM55HQ",
+        "anchor": "link-XABV6GPNBBFDFEJKEMJEDM55HQ",
+        "displayDate": 1700081173652
+      },
+      {
+        "title": "The German Foreign Ministry announced on social media Wednesday that more than 320 Germans and their...",
+        "arcId": "ECFSWJ6I3NGFHP4A4N3IPDXDAE",
+        "anchor": "link-ECFSWJ6I3NGFHP4A4N3IPDXDAE",
+        "displayDate": 1700078563595
+      },
+      {
+        "title": "Israeli forces remain inside al-Shifa hospital",
+        "arcId": "RTJ3GZ6L6REFXA2JHXVMAGMECA",
+        "anchor": "link-RTJ3GZ6L6REFXA2JHXVMAGMECA",
+        "displayDate": 1700077201736
+      },
+      {
+        "title": "U.S. warship shoots down drone in Red Sea",
+        "arcId": "QXUIX4RKZZHIDJXUYUQGHZK4GM",
+        "anchor": "link-QXUIX4RKZZHIDJXUYUQGHZK4GM",
+        "displayDate": 1700074740945
+      },
+      {
+        "title": "Turkish President Recep Tayyip Erdogan, in remarks to parliament Wednesday, called Israel a “terror state” that...",
+        "arcId": "IYZN6S3IIZGJTEJSPBJFYQWITQ",
+        "anchor": "link-IYZN6S3IIZGJTEJSPBJFYQWITQ",
+        "displayDate": 1700073644941
+      },
+      {
+        "title": "U.N. releases 10-point plan to stop ‘carnage’ in Gaza",
+        "arcId": "JKKADE3RZRDOBDA6XEKMCSJVYU",
+        "anchor": "link-JKKADE3RZRDOBDA6XEKMCSJVYU",
+        "displayDate": 1700073375674
+      },
+      {
+        "title": "“I don’t think it’s very safe to evacuate [al-Shifa] Hospital right now,” said Alyona Synenko, a...",
+        "arcId": "6N6JIBRYYVBB7IFQMCK76FTXBE",
+        "anchor": "link-6N6JIBRYYVBB7IFQMCK76FTXBE",
+        "displayDate": 1700072033016
+      },
+      {
+        "title": "Video: Gaza’s last working flour mill is running out of fuel ",
+        "arcId": "ZRIOA5SWW5CTDPZDM2PFEOCA6Q",
+        "anchor": "link-ZRIOA5SWW5CTDPZDM2PFEOCA6Q",
+        "displayDate": 1700070885784
+      },
+      {
+        "title": "Video released by West Bank hospital shows people running from gas in Tulkarm ",
+        "arcId": "K4YUMFK6OJD7ZBYUYFQICKW7XE",
+        "anchor": "link-K4YUMFK6OJD7ZBYUYFQICKW7XE",
+        "displayDate": 1700069115357
+      },
+      {
+        "title": "The heavy burdens of war for Gaza’s women and girls",
+        "arcId": "3TUASTGA3VBJZDTJLJGEUDJNXA",
+        "anchor": "link-3TUASTGA3VBJZDTJLJGEUDJNXA",
+        "displayDate": 1700067707536
+      },
+      {
+        "title": "U.S. says it is not involved in approving Israeli military operations",
+        "arcId": "N47B23LIF5DTNOL3436KAXWJ2U",
+        "anchor": "link-N47B23LIF5DTNOL3436KAXWJ2U",
+        "displayDate": 1700067079070
+      },
+      {
+        "title": "Satellite imagery shows Israeli positions 12 hours before raid on al-Shifa Hospital",
+        "arcId": "DZ6K2D7KNNHJJDNXAGMD7QEE7U",
+        "anchor": "link-DZ6K2D7KNNHJJDNXAGMD7QEE7U",
+        "displayDate": 1700066757284
+      },
+      {
+        "title": "The Gaza Health Ministry said Wednesday that Israeli forces “targeted the coronary artery care sector” of...",
+        "arcId": "XNYCC725IFBUJFZDOVLOASDKQ4",
+        "anchor": "link-XNYCC725IFBUJFZDOVLOASDKQ4",
+        "displayDate": 1700065147677
+      },
+      {
+        "title": "More Americans say Israel has gone too far in response to Hamas, poll finds",
+        "arcId": "DG2MYTL2MREUBE3T5CLD73GWEA",
+        "anchor": "link-DG2MYTL2MREUBE3T5CLD73GWEA",
+        "displayDate": 1700065077848
+      }
+    ]
+  },
+  "first_display_date": 1700018619472
+}

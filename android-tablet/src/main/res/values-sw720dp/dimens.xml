@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="adview_height">90dp</dimen>
+
+
+    <dimen name="sf_module_label_font_size">15sp</dimen>
+    <dimen name="sf_module_byline_font_size">15sp</dimen>
+    <dimen name="sf_module_kicker_font_size">15sp</dimen>
+    <dimen name="sf_module_time_font_size">19sp</dimen>
+    <dimen name="sf_module_blurb_font_size">19sp</dimen>
+    <dimen name="sf_module_headline_font_size">53sp</dimen>
+
+    <!-- stream module -->
+    <dimen name="sf_module_stream_label_font_size">@dimen/sf_module_label_font_size</dimen>
+    <dimen name="sf_module_stream_byline_font_size">@dimen/sf_module_byline_font_size</dimen>
+    <dimen name="sf_module_stream_kicker_font_size">@dimen/sf_module_kicker_font_size</dimen>
+    <dimen name="sf_module_stream_headline_font_size">30sp</dimen>
+    <dimen name="sf_module_stream_time_font_size">@dimen/sf_module_time_font_size</dimen>
+    <dimen name="sf_module_stream_blurb_font_size">@dimen/sf_module_blurb_font_size</dimen>
+    <dimen name="sf_module_stream_headline_bottom_margin">10dp</dimen>
+    <dimen name="sf_module_stream_image_left_margin">0dp</dimen>
+    <dimen name="sf_module_stream_image_right_margin">20dp</dimen>
+    <dimen name="sf_module_stream_image_bottom_margin">8dp</dimen>
+
+    <!-- single module -->
+    <dimen name="sf_module_single_label_font_size">@dimen/sf_module_label_font_size</dimen>
+    <dimen name="sf_module_single_byline_font_size">@dimen/sf_module_byline_font_size</dimen>
+    <dimen name="sf_module_single_kicker_font_size">@dimen/sf_module_kicker_font_size</dimen>
+    <dimen name="sf_module_single_headline_font_size">@dimen/sf_module_headline_font_size</dimen>
+    <dimen name="sf_module_single_time_font_size">@dimen/sf_module_time_font_size</dimen>
+    <dimen name="sf_module_single_blurb_font_size">@dimen/sf_module_blurb_font_size</dimen>
+    <dimen name="sf_module_single_headline_top_margin">12dp</dimen>
+    <dimen name="sf_module_single_headline_bottom_margin">14dp</dimen>
+    <dimen name="sf_module_large_padding">20dp</dimen>
+    <dimen name="sf_module_large_textcontent_padding">0dp</dimen>
+
+    <!-- panel module -->
+    <dimen name="sf_module_large_label_font_size">@dimen/sf_module_label_font_size</dimen>
+    <dimen name="sf_module_large_byline_font_size">@dimen/sf_module_byline_font_size</dimen>
+    <dimen name="sf_module_large_kicker_font_size">@dimen/sf_module_kicker_font_size</dimen>
+    <dimen name="sf_module_large_headline_font_size">@dimen/sf_module_headline_font_size</dimen>
+    <dimen name="sf_module_large_caption_font_size">15sp</dimen>
+    <dimen name="sf_module_large_time_font_size">@dimen/sf_module_time_font_size</dimen>
+    <dimen name="sf_module_large_blurb_font_size">@dimen/sf_module_blurb_font_size</dimen>
+    <dimen name="sf_module_large_headline_top_margin">20dp</dimen>
+    <dimen name="sf_module_large_headline_bottom_margin">25dp</dimen>
+    <dimen name="sf_module_large_caption_top_margin">10dp</dimen>
+    <dimen name="sf_module_large_blurb_top_margin">20dp</dimen>
+
+    <dimen name="comics_pager_width">300dp</dimen>
+    <dimen name="comics_pager_height">5dp</dimen>
+
+    <!--native paywall blocker text sizes-->
+    <dimen name="native_paywall_primary_label">24sp</dimen>
+    <dimen name="native_paywall_secondary_label">16sp</dimen>
+    <dimen name="native_paywall_product_name">30sp</dimen>
+    <dimen name="native_paywall_fine_print">18sp</dimen>
+    <dimen name="native_paywall_blocker_text_size_large">32sp</dimen>
+    <dimen name="native_paywall_product_button_text_size">20sp</dimen>
+
+    <!--native paywall blocker component sizes-->
+    <dimen name="native_paywall_product_offer_height">256dp</dimen>
+    <dimen name="native_paywall_button_width">448dp</dimen>
+    <dimen name="native_paywall_button_height">50dp</dimen>
+
+    <!--native paywall blocker margins-->
+    <dimen name="native_paywall_blocker_margin_medium">30dp</dimen>
+
+    <!-- My Post Spacing -->
+    <dimen name="my_post_toolbar_label_left_margin">50dp</dimen>
+    <dimen name="my_post_card_left_margin">30dp</dimen>
+    <dimen name="my_post_card_content_left_margin">50dp</dimen>
+    <dimen name="my_post_card_hero_content_left_margin">36dp</dimen>
+
+    <!-- My Post Sizes-->
+    <dimen name="my_post_preview_headline_text_size">28sp</dimen>
+
+    <!-- Unification Onboarding -->
+    <dimen name="amazon_uni_side_margin">140dp</dimen>
+    <dimen name="amazon_uni_spacing">16dp</dimen>
+    <dimen name="amazon_uni_button_spacing">24dp</dimen>
+    <dimen name="amazon_uni_bottom_margin">80dp</dimen>
+    <dimen name="amazon_uni_main_title">54sp</dimen>
+    <dimen name="amazon_uni_secondary_text">24sp</dimen>
+    <dimen name="amazon_uni_line_height">26sp</dimen>
+    <dimen name="amazon_uni_button_width">400dp</dimen>
+    <dimen name="amazon_uni_icon_size">40dp</dimen>
+    <dimen name="amazon_uni_button_text">24sp</dimen>
+    <dimen name="amazon_uni_button_vert_padding">64dp</dimen>
+    <dimen name="amazon_uni_button_border_radius">32dp</dimen>
+
+    <!-- Content Packs -->
+    <dimen name="content_pack_title_text">16sp</dimen>
+    <dimen name="content_pack_title_text_large">24sp</dimen>
+    <dimen name="content_pack_description_text">14sp</dimen>
+    <dimen name="content_pack_description_text_large">16sp</dimen>
+    <dimen name="large_content_pack_image_width">107dp</dimen>
+    <dimen name="large_content_pack_image_height">125dp</dimen>
+    <dimen name="large_content_pack_image_margin">24dp</dimen>
+    <dimen name="large_content_pack_text_left_margin">24dp</dimen>
+</resources>

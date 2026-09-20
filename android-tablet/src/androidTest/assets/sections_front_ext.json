@@ -1,0 +1,2147 @@
+{
+    "name": "top-stories.json",
+    "title": "Top Stories",
+    "pages": [
+        {
+            "template": "tablet_shark",
+            "modules": [
+                {
+                    "name": "shark_hero",
+                    "h": 2,
+                    "w": 3,
+                    "related": [
+                        {
+                            "urlPath": "/__tablet/national/eight-things-you-should-know-about-the-keystone-xl-pipeline/2013/03/28/eb791936-97ac-11e2-b68f-dc5c4b47e519_gallery.html",
+                            "id": "eb791936-97ac-11e2-b68f-dc5c4b47e519",
+                            "type": "gallery_story",
+                            "kicker1": "RELATED",
+                            "headline": "Photos | Along the Keystone XL pipeline",
+                            "lmt": "20140131201621",
+                            "content": {
+                                "id": "eb791936-97ac-11e2-b68f-dc5c4b47e519",
+                                "title": "Eight things you should know about the Keystone XL pipeline",
+                                "shareurl": "http://wapo.st/YGJ6X4",
+                                "contenturl": "http://www.washingtonpost.com/national/eight-things-you-should-know-about-the-keystone-xl-pipeline/2013/03/28/eb791936-97ac-11e2-b68f-dc5c4b47e519_gallery.html",
+                                "published": "2013-03-28T18:00:54-0400",
+                                "lmt": "2014-01-31T20:16:21-0500",
+                                "type": "gallery_story",
+                                "images": [
+                                    {
+                                        "type": "image",
+                                        "subtitle": "1. The oil sands deposit is massive — and so is the pipeline ",
+                                        "caption": "The Keystone XL will tap into the second biggest petroleum reserves on Earth. If approved, it will run from Hardisty, Alberta, to Port Arthur, Texas. The $7 billion, 830,000-barrel a day project would go from Canada, through the Great Plains, crossing six states and ending in Texas. At left, an open pit mine in Fort McMurray, Alberta.",
+                                        "uri": "/2010-2019/WashingtonPost/2012/06/28/Others/Images/2012-06-28/Oil12_1340900040.jpg?uuid=YidUvsE8EeGY43SyWu_FRw",
+                                        "credit": "The Washington Post",
+                                        "photographercredit": "Michael S. Williamson",
+                                        "width": 2200,
+                                        "height": 1435,
+                                        "mime": "image/jpeg"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "subtitle": "2. How it's done",
+                                        "caption": "First the trees, such as these jack pines in northern Alberta, are cut. Then the peat and surface soil is stripped away to expose the oil sands. The sands are crushed, mixed with warm water and separated at a plant. The bitumen remaining is mixed with lighter oil so that it isn’t too thick to flow through a pipeline. Left behind: a denuded landscape and toxic tailing ponds. The companies keep topsoil in piles for use in efforts to restore the land later, but restoring wetlands is difficult. Increasingly companies are using another extraction technique – pumping steam underground to melt the sands and suck up bitumen. But that still requires large facilities and rail and electric lines that cut through the forest.",
+                                        "uri": "/2010-2019/WashingtonPost/2013/03/28/Style/Images/Pipe071357692012.jpg?uuid=5SJMqpetEeK2j9xcS0flGQ",
+                                        "credit": "The Washington Post",
+                                        "photographercredit": "Michael S. Williamson",
+                                        "width": 2400,
+                                        "height": 1723,
+                                        "mime": "image/jpeg"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "subtitle": "3. Jobs, jobs ... jobs?",
+                                        "caption": "Estimates differ on the number of jobs the pipeline would produce. TransCanada, the company behind much of the pipeline, says the numbers would be modest. But the project is popular among Americans polled. Work from the first stage of the project gave a small, short-lived boost to the town of Steele City, Neb.",
+                                        "uri": "/2010-2019/WashingtonPost/2012/07/27/Others/Images/2012-07-27/Nebraska12_1343393400_1343429280.jpg?uuid=QWjATNg9EeGeeLh_Bg2Kwg",
+                                        "credit": "The Washington Post",
+                                        "photographercredit": "Michael S. Williamson",
+                                        "width": 2200,
+                                        "height": 1603,
+                                        "mime": "image/jpeg"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "subtitle": "4. Leaks in the pipeline",
+                                        "caption": "TransCanada has reported 14 leaks along its earlier Keystone pipeline since it started. Enbridge, another major pipeline company, had a line break that contaminated a long stretch of the Kalamazoo River in Michigan. As a result, fears persist that leaks might get into the rivers and the Ogallala aquifer that provide much of the water for drinking and irrigation across the Great Plains. That fear, voiced by rancher John Harter (pictured), was one reason the route through Nebraska was changed.",
+                                        "uri": "/2010-2019/WashingtonPost/2013/03/28/Style/Images/Pipe341357692133.jpg?uuid=EAQO7pevEeK2j9xcS0flGQ",
+                                        "credit": "The Washington Post",
+                                        "photographercredit": "Michael S. Williamson",
+                                        "width": 2200,
+                                        "height": 1598,
+                                        "mime": "image/jpeg"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "subtitle": "5. Strategic need",
+                                        "caption": "There is no question that Keystone XL would change the export equation. Less dependence on Saudi or Venezuelan crude oil, more from our stable neighbor Canada, which buys 85 cents worth of goods from the United States from every dollar it gets. The Alberta oil sands produce 1.7 million barrels a day now and could double output. The Keystone XL pipeline alone would carry around 10 percent of the oil the United States imports now. At left, a crude scarecrow is used to thwart birds from landing in the water of the recycling ponds at an oil processing plant in Alberta.",
+                                        "uri": "/2010-2019/WashingtonPost/2013/03/28/National-Enterprise/Images/Pipe121357692015.jpg?uuid=JM_9ipetEeK2j9xcS0flGQ",
+                                        "credit": "The Washington Post",
+                                        "photographercredit": "Michael S. Williamson",
+                                        "width": 2200,
+                                        "height": 1527,
+                                        "mime": "image/jpeg"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "subtitle": "6. How much will it cost?",
+                                        "caption": "At least $7 billion if finished. At least $2.5 billion had been spent by late last year. More has been spent in recent months to try to finish the southern leg of the pipeline, from Cushing, Okla. to Texas. At left, the Valero refinery works in Port Arthur, Tex., the end of the Keystone XL line.",
+                                        "uri": "/2010-2019/WashingtonPost/2013/03/28/Style/Images/Pipe591357692254.jpg?uuid=mLA46JewEeK2j9xcS0flGQ",
+                                        "credit": "The Washington Post",
+                                        "photographercredit": "Michael S. Williamson",
+                                        "width": 2200,
+                                        "height": 1429,
+                                        "mime": "image/jpeg"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "subtitle": "7. The next step",
+                                        "caption": "The State Department will decide after a public comment period. In a blow to environmentalists, U.S. officials have said that the pipeline wouldn't alter climate change — the crude could be shipped by railway if a pipeline isn’t built. Protests have occurred outside the White House, with many arrests in 2011 and scores more this February, including, arrests of civil rights leader Julian Bond, Sierra Club executive director Michael Brune and author and environmentalist Bill McKibben.",
+                                        "uri": "/2010-2019/WashingtonPost/2013/03/28/Style/Images/Keystone021360789211.jpg?uuid=lT9n8JexEeK2j9xcS0flGQ",
+                                        "credit": "The Washington Post",
+                                        "photographercredit": "Michael S. Williamson",
+                                        "width": 2400,
+                                        "height": 1739,
+                                        "mime": "image/jpeg"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "subtitle": "8. The hope",
+                                        "caption": "Some energy experts say Keystone XL will bolster American energy security and provide needed oil supplies. Environmentalists ask at what cost; they say the greenhouse gases produced in the process of extracting oil from the thick sands would tip the scales toward dire climate change. For Luther Fields, gazing at the Valero oil refinery in Port Arthur, more activity means a better chance at a job. But he's aware any opportunity may be temporary. \"The oil flows in,'' he says, ''and the money flows out.''",
+                                        "uri": "/2010-2019/WashingtonPost/2013/03/28/Style/Images/Pipe621357692256.jpg?uuid=Jf8PapezEeK2j9xcS0flGQ",
+                                        "credit": "The Washington Post",
+                                        "photographercredit": "Michael S. Williamson",
+                                        "width": 2600,
+                                        "height": 2033,
+                                        "mime": "image/jpeg"
+                                    },
+                                    {
+                                        "type": "image",
+                                        "subtitle": "Down The Line",
+                                        "caption": "The Post's Steven Mufson and Pultizer-winning photographer Michael Williamson traveled the length of the proposed pipeline for this e-book, published by TED Books.",
+                                        "uri": "/2010-2019/WashingtonPost/2013/03/28/Interactivity/Images/DowntheLineCover.jpg?uuid=04mQgJf3EeKBSwY2I9gKYA",
+                                        "credit": "THE WASHINGTON POST",
+                                        "width": 499,
+                                        "height": 773,
+                                        "mime": "image/jpeg"
+                                    }
+                                ],
+                                "items": [
+                                    {
+                                        "type": "sanitized_html",
+                                        "subtype": "paragraph",
+                                        "content": "A big issue before President Obama is a proposal to approve a pipeline carrying fuel from Canada’s oil sands through America’s heartland to Texas. What’s at stake? Here’s a quick overview from <a href=\"http://www.ted.com/pages/tedbooks_library#StevenMufson\">“Down the Line: A Journey Along the Controversial Pipeline and Into America’s Energy Frontier.’’</a>",
+                                        "mime": "text/html"
+                                    },
+                                    {
+                                        "type": "sanitized_html",
+                                        "subtype": "related-links",
+                                        "content": "<a href=\"http://www.ted.com/pages/tedbooks_library#StevenMufson\">MORE: ‘Down the Line,’ a journey along the Keystone XL route</a>   <a href=\"http://www.washingtonpost.com/blogs/keystone-down-the-line/2012/06/28/extracting-oil-sands-from-the-keystone-xl-pipeline/\">VIDEO: Extracting oil sands for the pipeline</a>",
+                                        "mime": "text/html"
+                                    }
+                                ],
+                                "adkey": "business/gallery",
+                                "omniture": {
+                                    "pageName": "business:gallery - eb791936-97ac-11e2-b68f-dc5c4b47e519 - 20140131 - eight-things-you-should-know-about-the-keystone-xl-pipeline",
+                                    "channel": "business",
+                                    "contentSubsection": "business",
+                                    "contentType": "gallery",
+                                    "contentSource": "The Washington Post",
+                                    "dbpath": "/2010-2019/WashingtonPost/2013/03/28/National-Enterprise/Galleries/8_things_know_Keystone_XL_pipeline_gallery_130328.gallery.xml"
+                                }
+                            }
+                        }
+                    ],
+                    "article": {
+                        "urlPath": "/__tablet/business/economy/state-to-release-keystones-final-environmental-impact-statement-friday/2014/01/31/3a9bb25c-8a83-11e3-a5bd-844629433ba3_story.html",
+                        "id": "3a9bb25c-8a83-11e3-a5bd-844629433ba3",
+                        "type": "article_story",
+                        "headline": "Report: No big environmental impact from Keystone pipeline",
+                        "blurbPreface": "By Juliet Eilperin and Steven Mufson",
+                        "photo": {
+                            "path": "/2010-2019/WashingtonPost/2014/01/31/National-Economy/Images/KEYSTONE_PIPELINE-09f3a.jpg",
+                            "aspectRatio": 1.5583524027459954,
+                            "source": "Sarah A. Miller / AP",
+                            "caption": "Crews work on construction of the TransCanada Keystone XL Pipeline near Winona, Texas in 2012."
+                        },
+                        "blurb": "The State Department concluded in its final environmental assessment issued Friday that the proposed Keystone XL pipeline would not significantly alter global greenhouse gas emissions, but officials cautioned that they were still weighing whether or not the project would meet the test of the",
+                        "lmt": "20140131231625",
+                        "content": {
+                            "id": "3a9bb25c-8a83-11e3-a5bd-844629433ba3",
+                            "title": "State Department releases Keystone XL final environmental impact statement",
+                            "shareurl": "http://wapo.st/1hXAP8Z",
+                            "contenturl": "http://www.washingtonpost.com/business/economy/state-to-release-keystones-final-environmental-impact-statement-friday/2014/01/31/3a9bb25c-8a83-11e3-a5bd-844629433ba3_story.html",
+                            "authors": [
+                                {
+                                    "name": "Juliet Eilperin",
+                                    "email": "juliet.eilperin@washpost.com"
+                                },
+                                {
+                                    "name": "Steven Mufson",
+                                    "email": "steven.mufson@washpost.com"
+                                }
+                            ],
+                            "published": "2014-01-31T15:18:00-0500",
+                            "lmt": "2014-01-31T23:16:25-0500",
+                            "type": "article_story",
+                            "images": [
+                                {
+                                    "type": "image",
+                                    "caption": "Eight things you should know about the Keystone XL pipeline: A big issue before President Obama is a proposal to approve a pipeline carrying fuel from Canada’s oil sands through America’s heartland to Texas. What’s at stake? Here’s a quick overview from “Down the Line: A Journey Along the Controversial Pipeline and Into America’s Energy Frontier.’’",
+                                    "uri": "/2010-2019/WashingtonPost/2012/07/27/Others/Images/2012-07-27/Nebraska23_1343401440.jpg?uuid=QGU13NgAEeGeeLh_Bg2Kwg",
+                                    "slot": "primary",
+                                    "width": 2200,
+                                    "height": 1464,
+                                    "mime": "image/jpeg",
+                                    "target": {
+                                        "id": "eb791936-97ac-11e2-b68f-dc5c4b47e519",
+                                        "uri": "http://www.washingtonpost.com/national/eight-things-you-should-know-about-the-keystone-xl-pipeline/2013/03/28/eb791936-97ac-11e2-b68f-dc5c4b47e519_gallery.html",
+                                        "type": "gallery_story"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "caption": "Map of the Keystone XL pipeline.",
+                                    "uri": "/2010-2019/WashingtonPost/2014/01/21/National-Economy/Graphics/keystone-xl-map_promo.jpg?uuid=4UufvILXEeOic2_9nPn0ug",
+                                    "slot": "secondary",
+                                    "width": 296,
+                                    "height": 195,
+                                    "mime": "image/jpeg",
+                                    "target": {
+                                        "id": "9fa4b230-82da-11e3-9dd4-e7278db80d86",
+                                        "uri": "http://www.washingtonpost.com/wp-srv/special/nation/keystone-xl-map/",
+                                        "type": "graphic_story"
+                                    }
+                                }
+                            ],
+                            "items": [
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The State Department concluded in its final environmental assessment issued Friday that the <a href=\"http://www.washingtonpost.com/business/economy/oil-to-begin-flowing-in-southern-leg-of-keystone-pipeline/2014/01/21/ffe35abc-82bb-11e3-bbe5-6a2a3141e3a9_story.html\">proposed Keystone XL pipeline</a> would not significantly alter global greenhouse gas emissions, but officials cautioned that they were still weighing whether or not the project would meet the test of the president’s broader climate strategy. <b> </b>",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "<b></b> <a href=\"http://apps.washingtonpost.com/g/page/politics/keystone-xl-pipeline-environmental-impact-statement/789/\">The report </a>“is not a decision document,” said Kerri-Ann Jones, assistant secretary of state for oceans and international environmental and scientific affairs. “This document is only one factor that will be coming into the review process for this permit” sought by TransCanada, the Calgary-based energy giant.",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The $5.4 billion pipeline, which would transport heavy crude from Canadian oil sands in Alberta into the heart of the U.S. pipeline network, has become the focus of intense controversy. Foes say it will contribute to climate change and supporters say it will secure U.S. oil supplies from a friendly neighbor and create U.S. construction jobs.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The release of the long-awaited Final Environmental Impact Statement is certain to trigger an avalanche of lobbying efforts aimed at Secretary of State John Kerry, who has made climate change a central focus of his career and will now begin preparing a decision.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "President Obama said in June that he would only sign off on the proposal if it “does not significantly exacerbate the climate problem.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "<b></b>The decision remains politically fraught for Democrats. Environmental activists fiercely oppose it, arguing it could leak, accelerate development of the greenhouse gas-intensive oil sands in Alberta, and increase America’s dependence on fossil fuels.",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Wendy Abrams, founder of the Chicago-based non-profit <a href=\"http://www.coolglobes.org/36963/\">Cool Globes</a> and a major Democratic campaign contributor, said she felt a “gut-wrenching pain for my kids” when reading the report. She said it made her question her past support for Obama and Kerry. “If they can’t get it done, what am I hoping for?”",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The State Department’s report includes 11 volumes of analysis on how the proposed pipeline would affect heavy crude extraction in Canada’s oil sands, and reaches the same conclusion as its draft report did in March: no single infrastructure project will alter the course of oil development in Alberta.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The report said that “the proposed Project is unlikely to significantly affect the rate of extraction in oil sands areas (based on expected oil prices, oil-sands supply costs, transport costs, and supply-demand scenarios).”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Last week, TransCanada began shipping oil through the southern leg of the Keystone pipeline, which runs from Cushing, Okla. to Port Arthur, Tex., but is still waiting for a State Department permit for <a href=\"http://www.washingtonpost.com/wp-srv/special/nation/keystone-xl-map/images/keystone-xl-map.jpg\">the 1,179-mile northern leg</a> that would carry heavy crude from Canada’s oil sands, cross the border in Montana and run to the small town of Steele City, Neb.",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“We’re very pleased with the release and about being able to move to this next stage of the process,” said Russ Girling, chief executive of TransCanada. “The case for the Keystone XL in our view is as strong as ever.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "He said it would take about two years to construct the northern leg, but he cautioned that summer is best for construction and a long permit process could further delay the project.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Jones, the State Department official, said that the report does not answer the question about how this pipeline decision fits into the “broader national and international efforts to address climate change, or other questions of foreign policy or energy security.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "She added that the study relied on assumptions about pipeline capacity, oil prices and transportation and development costs that were “uncertain and changeable.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Oil industry officials welcomed the fact that the agency had affirmed the idea the pipeline decision did not have a major climate impact.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“Time and time again, State reaches the same conclusion despite the unprecedented and thorough environmental review,” said Cindy Schild, the American Petroleum Institute’s senior manager for oil sands policy, adding “it is hard to figure out how they could conclude that it is not in the national interest.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The report estimated that the project would generate about 1,950 annual construction jobs in Montana, South Dakota, Nebraska, and Kansas over a two-year period and contribute approximately $3.4 billion to the U.S. gross domestic product (GDP). It would generate about 50 jobs once in operation.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "In an interview this week, AFL-CIO president Richard Trumka said his members back the project. “We think that anything that’s going to create jobs, help the country and do it in an environmentally sound way ought to be done,” he said.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The high-profile decision now enters a new phase, in which Kerry and his deputies will field both public comments and internal feedback from eight agencies including the Environmental Protection Agency and Defense and Energy Departments. The State Department will open a 30-day comment period on Feb. 5, and the agencies will have 90 days to weigh in. After a decision is issued other agencies have 15 days to object, and if one does, the president must decide whether or not to issue the permit.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“It is hard to imagine how the President could justify rejection without turning the United States into a poster child for what the energy industry terms “above ground” risk,” said Robert McNally, president of the Rapidan Group consulting firm. “I don’t see how logically the President can reject it if he applies the criteria he laid out at Georgetown last year, i.e. whether or not the pipeline would severely exacerbate climate change.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The EPA has questioned whether the State Department has given sufficient weight to the project’s negative environmental impact. The final environmental impact statement notes that bitumen, the substance that is extracted in Canada and diluted in order to be transported to U.S. refineries, is more difficult to clean up than lighter crude when it spills.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The report also concludes that crude extracted from the oil sands results in 17 percent more greenhouse gas emissions than the average barrel of crude used in the United States, but only 2 percent to 10 percent more than the heavy crude it would likely replace at gulf coast refineries.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "But the report also said that a variety of rail transportation options would result in 28 percent to 42 percent more emissions than the pipeline. State has cited rail as a reason why blocking the pipeline would not slow oil sands development, though a spate of oil train derailments — including a derailment Friday in southeast Mississippi — have highlighted the dangers of that alternative.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "When asked Friday whether the president will directly weigh in on the decision, White House press secretary Jay Carney said, “At this point, the process is now at the State Department and we’re going to let that run its course.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The administration has some flexibility on timing; the State Department could issue a decision either before the end of the 105-day agency comment period, or long afterwards.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“Secretary Kerry is just really beginning his involvement in this process,” Jones said. “There is no timeline for his deliberations.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "On Tuesday environmental groups are organizing a “Day of Action” where they plan to flood Kerry's office with phone calls and e-mails.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“To some extent Secretary Kerry has gotten a pass to date,” said <a>Tiernan Sittenfeld</a>, the League of Conservation Voters’ senior vice president for government affairs. “Now that changes. This is a really a pivot point, and this is a real opportunity for him to live up to the climate record he has established through his very accomplished career.”",
+                                    "mime": "text/html"
+                                }
+                            ],
+                            "adkey": "politics/article",
+                            "omniture": {
+                                "pageName": "politics:article - 3a9bb25c-8a83-11e3-a5bd-844629433ba3 - 20140131 - state-department-releases-keystone-xl-final-environmental-impact-statement",
+                                "channel": "politics",
+                                "contentSubsection": "politics",
+                                "contentAuthor": "Juliet Eilperin,Steven Mufson",
+                                "contentType": "article",
+                                "contentSource": "The Washington Post",
+                                "dbpath": "/2010-2019/WashingtonPost/2014/01/31/National-Economy/Stories/keystone0201.xml"
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "mermaid_tablet_story_slot_1",
+                    "h": 1,
+                    "w": 1,
+                    "article": {
+                        "urlPath": "/__tablet/blogs/post-politics/wp/2014/01/31/ex-port-authority-official-says-evidence-exists-that-christie-knew-about-bridge-closures/",
+                        "id": "/blogs/post-politics/wp/2014/01/31/ex-port-authority-official-says-evidence-exists-that-christie-knew-about-bridge-closures/",
+                        "type": "BlogStory",
+                        "headline": "Official: ‘Evidence exists’ that Christie knew about N.J. bridge closures",
+                        "blurbPreface": "By Jaime Fuller",
+                        "blurb": "Updated, 6:10 p.m. A former political ally of New Jersey Gov. Chris Christie (R) charged Friday that Christie gave an incorrect account of what he knew about the infamous traffic backup on the George Washington Bridge &mdash; and the ally said he knows of evidence that would prove it. The Christie",
+                        "lmt": "20140131181016",
+                        "content": {
+                            "type": "wordpress_story",
+                            "id": 71500,
+                            "uri": "/blogs/post-politics/wp/2014/01/31/ex-port-authority-official-says-evidence-exists-that-christie-knew-about-bridge-closures/",
+                            "title": "Ex-Port Authority official says 'evidence exists' that Christie knew about bridge closures",
+                            "authors": [
+                                {
+                                    "name": "Jaime Fuller",
+                                    "email": "jaime.fuller@washpost.com"
+                                }
+                            ],
+                            "published": "2014-01-31T18:10:16-0500",
+                            "lmt": "2014-01-31T18:10:49-0500",
+                            "lead_image": "http://www.washingtonpost.com/rf/image_606w/2010-2019/WashingtonPost/2014/01/27/National-Politics/Images/2014-01-23T234632Z_01_MM18_RTRIDSP_3_USA-POLITICS-CHRISTIE-4689.jpg",
+                            "shareurl": "http://wapo.st/1fuoVUq",
+                            "contenturl": "http://www.washingtonpost.com/blogs/post-politics/wp/2014/01/31/ex-port-authority-official-says-evidence-exists-that-christie-knew-about-bridge-closures/",
+                            "adkey": "politics/blog/post_politics",
+                            "omniture": {
+                                "pageName": "politics:blog:post-politics - 71500 - 20140131 - ex-port-authority-official-says-evidence-exists-that-christie-knew-about-bridge-closures",
+                                "channel": "wp - politics",
+                                "contentSubsection": "politics",
+                                "contentType": "blog",
+                                "contentAuthor": "Jaime Fuller",
+                                "searchKeywords": null,
+                                "pageFormat": null,
+                                "DBPath": null,
+                                "blogName": "politics",
+                                "contentSource": "the washington post"
+                            },
+                            "items": [
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "<em>Updated, 6:10 p.m.</em>"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "A former political ally of New Jersey Gov. Chris Christie (R) charged Friday that Christie gave an incorrect account of what he knew about the<a href=\"http://www.washingtonpost.com/politics/for-christie-perhaps-a-bridge-too-far/2014/01/09/2928e054-797a-11e3-af7f-13bf0e9965f6_graphic.html\"> infamous traffic backup</a> on the George Washington Bridge — and the ally said he knows of evidence that would prove it."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "The Christie administration denied the accusations, again saying that the governor had \"absolutely no prior knowledge of the lane closures before they happened.\""
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "According to a <a href=\"http://www.nytimes.com/2014/02/01/nyregion/christie-bridge.html\">letter first published by the New York Times</a>, ex-Port Authority official David Wildstein — who was one of the fall guys in the scandal that has led to numerous subpoenas and investigations — asserts that “evidence exists ... tying Mr. Christie to having knowledge of the lane closures, during the period when the lanes were closed, contrary to what the governor stated publicly in a two-hour press conference.\""
+                                },
+                                {
+                                    "type": "video",
+                                    "url": "www.washingtonpost.com/posttv/static/js/posttv/ooyala/posttv-video-embed.js%22%3E%3C/script%3E%3C/div%3E[/script",
+                                    "host": "posttv",
+                                    "id": null,
+                                    "error": "Unknown posttv embed"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "<em>An excerpt from Gov. Christie's news conference on Jan. 14.</em>"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "The letter, written to the Port Authority general counsel by Wildstein's lawyer, Alan Zegas, <a href=\"http://online.wsj.com/news/articles/SB10001424052702303519404579355100568967172?mod=WSJ_hp_RightTopStories\">disputes</a> the agency's decision not to pay Wildstein's legal fees during the <a href=\"http://www.washingtonpost.com/blogs/the-fix/wp/2014/01/22/everything-you-need-to-know-about-the-chris-christie-investigations/\">state and federal investigations</a> into the scandal. In an article published in the Wall Street Journal Thursday, Zegas is <a href=\"http://online.wsj.com/news/articles/SB10001424052702303973704579353031394888694?mod=WSJ_NY_MIDDLETopStories\">called</a> \"a prominent New Jersey criminal defender who sparred with Mr. Christie's office during the governor's tenure as a federal prosecutor, and who legal experts say is known for a willingness to cut deals that turn his clients to cooperating witnesses.\""
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "In a statement released late Friday, the Christie administration said:"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "blockquote",
+                                    "content": "“Mr. Wildstein's lawyer confirms what the Governor has said all along - he had absolutely no prior knowledge of the lane closures before they happened and whatever Mr. Wildstein's motivations were for closing them to begin with. As the Governor said in a December 13th press conference, he only first learned lanes were closed when it was reported by the press and as he said in his January 9th press conference, had no indication that this was anything other than a traffic study until he read otherwise the morning of January 8th. The Governor denies Mr. Wildstein's lawyer's other assertions.”"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "Suspicions about Christie's involvement with the lane closures began when the Wall Street Journal and the Bergen Record released e-mails between Christie's recently fired deputy chief of staff, Bridget Anne Kelly, and Wildstein, one from Kelly which said, “Time for some <a href=\"http://www.northjersey.com/news/christie_kelly_bridge_lane_closures_emails.html\">traffic problems</a> in Fort Lee.\""
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "In a news conference Jan. 9, Christie denied knowledge of his staffers' involvement in the lane closures, <a href=\"http://www.washingtonpost.com/politics/transcript-chris-christies-news-conference-on-george-washington-bridge-scandal/2014/01/09/d0f4711c-7944-11e3-8963-b4b654bcc9b2_story.html\">adding</a>, \"I am embarrassed and humiliated by the conduct of some of the people on my team.\" At a previous news conference in December, <a href=\"http://online.wsj.com/news/articles/SB10001424052702303819704579317051554074882\">Christie said</a>, \"The first I ever heard of the issue was when it was reported in the press.\" Bergen Record reporter John Reitmeyer reiterated Christie's adamant denials today:"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "blockquote",
+                                    "content": "I asked Christie during a Dec. news conference specifically if he knew about the closures as they were occurring. \"Never. No,\" he replied."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "blockquote",
+                                    "content": "— John Reitmeyer (@johnreitmeyer) January 31, 2014"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "Christie also challenged claims that he was friends with Wildstein at the January news conference, saying: \"It is true that I met David in 1977 in high school. He's a year older than me. David and I were not friends in high school. We were not even acquaintances in high school.\""
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "An article in the Bergen Record from March 2012 <a href=\"http://www.northjersey.com/news/ny_metro/030312_Ex-blogger_is_Governor_Christies_man_inside_the_Port_Authority.html?page=all#sthash.iInCaPhw.dpuf\">states</a> that \"several executives said Wildstein has played a role in placing some of those recommended by the Christie administration in jobs and that he seems to serve as the administration’s eyes and ears within the byzantine agency.\" On the third day of traffic problems in Fort Lee, Christie was <a href=\"http://blogs.wsj.com/metropolis/2014/01/14/christie-official-who-arranged-bridge-closures-together-during-fiasco/\">seen talking at a World Trade Center anniversary event</a> with Wildstein."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "In a poll released by USA Today and the Pew Research Center last week, <a href=\"http://www.usatoday.com/story/news/politics/2014/01/20/chris-christie-pew-poll/4658643/\">58 percent</a> of Americans aware of the bridge scandal say they do not believe Christie's denials."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "mermaid_tablet_story_slot_2",
+                    "h": 1,
+                    "w": 1,
+                    "hideLandscape": true,
+                    "article": {
+                        "urlPath": "/__tablet/posttv/sports/3-winning-super-bowl-ads-play-by-play/2014/01/30/b236beb2-89eb-11e3-833c-33098f9e5267_video.html",
+                        "id": "b236beb2-89eb-11e3-833c-33098f9e5267",
+                        "type": "video_story",
+                        "kicker1": "VIDEO",
+                        "headline": "What makes a winning ad",
+                        "blurbPreface": "By /",
+                        "photo": {
+                            "path": "/2010-2019/WashingtonPost/2014/01/30/Sports/Images/SUPERBOWL_ADS_013014.jpg",
+                            "aspectRatio": 1.7777777777777777
+                        },
+                        "blurb": "What goes into a successful Super Bowl commercial? We talked to Timothy Calkins, clinical professor of marketing at Northwestern University's Kellogg School of Management, about the key advertising plays that score big during the Super Bowl.",
+                        "lmt": "20140131171246",
+                        "content": {
+                            "id": "b236beb2-89eb-11e3-833c-33098f9e5267",
+                            "title": "3 winning Super Bowl ads, play-by-play",
+                            "shareurl": "http://wapo.st/1louc52",
+                            "contenturl": "http://www.washingtonpost.com/posttv/sports/3-winning-super-bowl-ads-play-by-play/2014/01/30/b236beb2-89eb-11e3-833c-33098f9e5267_video.html",
+                            "embedcode": "liaXBnazpXnNJn1dAb2mccHLQ4dHvh3i",
+                            "published": "2014-01-30T20:42:20-0500",
+                            "lmt": "2014-01-31T17:12:46-0500",
+                            "type": "video_story",
+                            "items": [
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "What goes into a successful Super Bowl commercial? We talked to Timothy Calkins, clinical professor of marketing at Northwestern University's Kellogg School of Management, about the key advertising plays that score big during the Super Bowl.",
+                                    "mime": "text/plain"
+                                }
+                            ],
+                            "adkey": "sports/video",
+                            "omniture": {
+                                "pageName": "sports:video - b236beb2-89eb-11e3-833c-33098f9e5267 - 20140131 - 3-winning-super-bowl-ads-playbyplay",
+                                "channel": "sports",
+                                "contentSubsection": "sports",
+                                "contentType": "video",
+                                "contentSource": "The Washington Post",
+                                "dbpath": "/2010-2019/WashingtonPost/2014/01/30/Sports/Videos/vi-SUPERBOWL_ADS_final_720P_013014.xml"
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "nemo",
+                    "h": 1,
+                    "w": 1,
+                    "article": {
+                        "urlPath": "/__tablet/blogs/post-politics/wp/2014/01/31/obama-suggests-hes-open-to-immigration-deal-without-path-to-citizenship/",
+                        "id": "/blogs/post-politics/wp/2014/01/31/obama-suggests-hes-open-to-immigration-deal-without-path-to-citizenship/",
+                        "type": "BlogStory",
+                        "headline": "Obama is warming to middle-ground immigration deal",
+                        "blurbPreface": "By Aaron Blake",
+                        "blurb": "President Obama said in an interview that aired Friday morning that he's open to a middle-ground approach with Republicans on immigration reform that might not include a new pathway to citizenship for illegal immigrants. House Speaker John Boehner (R-Ohio) and GOP leaders on Thursday released a set",
+                        "lmt": "20140131094001",
+                        "content": {
+                            "type": "wordpress_story",
+                            "id": 71396,
+                            "uri": "/blogs/post-politics/wp/2014/01/31/obama-suggests-hes-open-to-immigration-deal-without-path-to-citizenship/",
+                            "title": "Obama suggests he's open to immigration deal without path to citizenship",
+                            "authors": [
+                                {
+                                    "name": "Aaron Blake",
+                                    "email": "aaron.blake@washpost.com"
+                                }
+                            ],
+                            "published": "2014-01-31T09:40:01-0500",
+                            "lmt": "2014-01-31T14:28:42-0500",
+                            "lead_image": "https://cnnpoliticalticker.files.wordpress.com/2010/12/t1larg-obama-cnn1.jpg%3Fw%3D640",
+                            "shareurl": "http://wapo.st/1fhx8sQ",
+                            "contenturl": "http://www.washingtonpost.com/blogs/post-politics/wp/2014/01/31/obama-suggests-hes-open-to-immigration-deal-without-path-to-citizenship/",
+                            "adkey": "politics/blog/post_politics",
+                            "omniture": {
+                                "pageName": "politics:blog:post-politics - 71396 - 20140131 - obama-suggests-hes-open-to-immigration-deal-without-path-to-citizenship",
+                                "channel": "wp - politics",
+                                "contentSubsection": "politics",
+                                "contentType": "blog",
+                                "contentAuthor": "Aaron Blake",
+                                "searchKeywords": null,
+                                "pageFormat": null,
+                                "DBPath": null,
+                                "blogName": "politics",
+                                "contentSource": "the washington post"
+                            },
+                            "items": [
+                                {
+                                    "type": "unsupported",
+                                    "content": "This embedded element is not supported in mobile applications. Sorry."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "President Obama said in an interview that aired Friday morning that he's open to a middle-ground approach with Republicans on immigration reform that might not include a new pathway to citizenship for illegal immigrants."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "House Speaker John Boehner (R-Ohio) and GOP leaders on Thursday <a href=\"http://www.washingtonpost.com/politics/house-gop-leaders-embrace-immigration-fix-that-includes-legal-status-for-undocumented/2014/01/30/c49ab006-89f3-11e3-833c-33098f9e5267_story.html\">released a set of \"principles\"</a> that included a path to legal status -- but not citizenship -- for the more than 10 million illegal immigrants currently in the United States. Immigration reform advocates expressed optimism about the move, and Obama's words Friday seem to further improve chances for a deal."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "\"If the speaker proposes something that says, right away, folks aren't being deported, families aren't being separated, we're able to attract top young students to provide the skills or start businesses here and then there's a regular process of citizenship, I'm not sure how wide the divide ends up being,\" Obama said in an interview with CNN's Jake Tapper."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "Obama echoed immigrant advocacy groups that gave the GOP's so-called \"principles\" a vote of confidence. These groups in recent days have expressed more <a href=\"http://www.washingtonpost.com/blogs/post-politics/wp/2014/01/30/immigration-reform-advocates-praise-house-gop-principles/\">openness to something that stops shy of a path to citizenship</a>."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "\"I am encouraged by what Speaker Boehner has said,\" Obama said. \"Obviously, I was encouraged by the bipartisan bill that passed out of the Senate.  I genuinely believe that Speaker Boehner and a number of House Republicans, folks like Paul Ryan, really do want to get a serious immigration reform bill done.\""
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "The Senate last year passed a comprehensive bipartisan bill that included a path to citizenship, but the House has not voted on it and has instead opted for a more piecemeal approach, hoping to pass several bills instead. Obama has repeatedly expressed an openness to that approach."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "There remain major questions about the GOP's approach -- specifically, whether actual legislation will meet the demands of immigration reform advocates, and whether conservatives will embrace the legalization of those who entered the United States illegally."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "Obama sought to clarify his remarks later in the day Friday, saying during a Google Hangout from the White House that he continues to believe that immigration reform shouldn't create \"two categories\" of people in the United States -- a suggestion that mere legal status doesn't meet his goals."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "“I believe in any scenario we should also make sure that, at the end of the day, people are able to become citizens,\" Obama said. \"We don’t want a situation in which we’ve got two categories of people in this country – folks who are full-fledged citizens and folks who are not.”"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "Obama added: “There are still some differences. Obviously, the the devil is in the details, but it is my firm belief that we can get immigration reform done this year.”"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "In the CNN interview, Obama also said he believes it is safe for Americans to travel to Sochi, Russia, next week for the Winter Olympics."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "\"I'd tell [my friends] that I believe that Sochi is safe and that there are always some risks in these large international gatherings,\" Obama said. \"I'm always going to feel even better ... inside the United States, because then we have full control over what happens.\""
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "Obama also responded to GOP criticism of his move to use more executive orders. Obama discussed the decision in his State of the Union address on Tuesday."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "Asked about Sen. Ted Cruz's (R-Tex.) allegations of an <a href=\"http://online.wsj.com/news/articles/SB10001424052702304632204579338793559838308\">\"imperial\" presidency</a>, Obama dismissed such comments."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "\"Well, I don't think that's very serious,\" Obama said. \"I mean, the truth of the matter is, is that every president engages in executive actions. In fact, we've been very disciplined and sparing in terms of the executive actions that we have taken.  We make sure that we're doing it within the authority that we have under statute. But I am not going to make an apology for saying that if I can help middle class families and folks who are working hard to try to get in the middle class do a little bit better, then I'm going to do it.\""
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "<em>Updated at 2:28 p.m.</em>"
+                                },
+                                {
+                                    "type": "unsupported",
+                                    "content": "This embedded element is not supported in mobile applications. Sorry."
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "template": "tablet_shark",
+            "modules": [
+                {
+                    "name": "shark_hero",
+                    "h": 2,
+                    "w": 3,
+                    "related": [],
+                    "article": {
+                        "panelImagePath": "/2010-2019/WashingtonPost/2014/01/31/Interactivity/Images/Izidor_Shark_0131-workingtemp.jpg?uuid=6jQjzoobEeODPDMJj55SZw",
+                        "urlPath": "http://www.washingtonpost.com/sf/style/2014/01/30/a-lost-boy-finds-his-calling/",
+                        "type": "article_story",
+                        "headline": "A lost boy finds his calling",
+                        "blurbPreface": "By Tara Bahrampour",
+                        "blurb": "Someone dims the lights, and an old video clip begins to roll. In a dank room, dozens of children with shaved heads crouch naked in puddles of urine, fight over a bucket of gruel, lie tethered to radiators. One little girl&rsquo;s leg juts up at a grotesque angle; she uses her hands to scoot across",
+                        "lmt": "20140131195039"
+                    }
+                },
+                {
+                    "name": "mermaid_tablet_story_slot_1",
+                    "h": 1,
+                    "w": 1,
+                    "article": {
+                        "urlPath": "/__tablet/politics/unemployment-benefits-dominate-the-agenda/2014/01/31/3a63a70a-8659-11e3-b85b-b305db87fb90_story.html",
+                        "id": "3a63a70a-8659-11e3-b85b-b305db87fb90",
+                        "type": "article_story",
+                        "headline": "Jobless Americans becoming reluctant players in political fight on Capitol Hill",
+                        "blurbPreface": "By Ed O’Keefe",
+                        "blurb": "Stephanie Ransom is 30, single and the mother of a 3-year-old girl. She has thousands of dollars in credit-card debt and suffers from a rare thoracic disorder that causes severe pain in her neck and shoulders. In July, Ransom lost the job she&rsquo;d had for nine years at a parts manufacturer in",
+                        "lmt": "20140131231651",
+                        "content": {
+                            "id": "3a63a70a-8659-11e3-b85b-b305db87fb90",
+                            "title": "Unemployment benefits dominate the agenda",
+                            "shareurl": "http://wapo.st/1hYPcKn",
+                            "contenturl": "http://www.washingtonpost.com/politics/unemployment-benefits-dominate-the-agenda/2014/01/31/3a63a70a-8659-11e3-b85b-b305db87fb90_story.html",
+                            "authors": [
+                                {
+                                    "name": "Ed O’Keefe",
+                                    "email": "ed.okeefe@washpost.com"
+                                }
+                            ],
+                            "published": "2014-01-31T19:21:37-0500",
+                            "lmt": "2014-01-31T23:16:51-0500",
+                            "type": "article_story",
+                            "images": [
+                                {
+                                    "type": "image",
+                                    "caption": "The General Motors plant in Janesville, Wis., Jan. 23, 2014 that was idled in December 2008 leaving a big gap of unemployment in south central Wisconsin. GM employed about 1,200 when it stopped production.",
+                                    "uri": "/2010-2019/WashingtonPost/2014/01/24/National-Economy/Images/20140123_Unemployment_191390528268.jpg?uuid=__7JZoSZEeOic2_9nPn0ug",
+                                    "credit": "Andy Manis",
+                                    "photographercredit": "Andy Manis",
+                                    "slot": "primary",
+                                    "width": 3000,
+                                    "height": 2000,
+                                    "mime": "image/jpeg"
+                                },
+                                {
+                                    "type": "image",
+                                    "caption": "Stephanie Ransom, whose unemployment benefits have run out, poses at the Rock County Job Center Jan. 23, 2014, in Janesville, Wis. (Photo @ Andy Manis)",
+                                    "uri": "/2010-2019/WashingtonPost/2014/01/24/Others/Images/2014-01-23/20140123_Unemployment_121390528267.jpg?uuid=DlkTBISaEeOic2_9nPn0ug",
+                                    "credit": "Andy Manis",
+                                    "photographercredit": "Andy Manis",
+                                    "slot": "primary",
+                                    "width": 3000,
+                                    "height": 2055,
+                                    "mime": "image/jpeg"
+                                },
+                                {
+                                    "type": "image",
+                                    "caption": "Rhonda Suda, left, a Wisconsin Workforce Operations manager, talks with Stephanie Ransom about Ransom's issues dealing with her unemployment benefits at the Rock County Job Center Jan. 23, 2014, in Janesville, Wis. (Photo @ Andy Manis)",
+                                    "uri": "/2010-2019/WashingtonPost/2014/01/24/Others/Images/2014-01-23/20140123_Unemployment_081390528267.jpg?uuid=ClAs_ISaEeOic2_9nPn0ug",
+                                    "credit": "Andy Manis",
+                                    "photographercredit": "Andy Manis",
+                                    "slot": "primary",
+                                    "width": 3000,
+                                    "height": 1724,
+                                    "mime": "image/jpeg"
+                                },
+                                {
+                                    "type": "image",
+                                    "caption": "Who are the long-term unemployed?",
+                                    "uri": "/2010-2019/WashingtonPost/2014/01/22/National-Economy/Images/unemployment.jpg?uuid=zAGZEoOCEeOic2_9nPn0ug",
+                                    "slot": "secondary",
+                                    "width": 296,
+                                    "height": 195,
+                                    "mime": "image/jpeg",
+                                    "target": {
+                                        "id": "7737bede-8382-11e3-bbe5-6a2a3141e3a9",
+                                        "uri": "http://www.washingtonpost.com/wp-srv/special/national/meet-the-unemployed/",
+                                        "type": "graphic_story"
+                                    }
+                                }
+                            ],
+                            "items": [
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "<dateline>  JANESVILLE, Wis. — </dateline> Stephanie Ransom is 30, single and the mother of a 3-year-old girl. She has thousands of dollars in credit-card debt and suffers from a rare thoracic disorder that causes severe pain in her neck and shoulders.",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "In July, Ransom lost the job she’d had for nine years at a parts manufacturer in Walworth, Wis., and has not been able to find another one. That prolonged joblessness has become the defining feature of her life.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“For the people who are struggling, who can’t get a job out there because they don’t have the qualifications or who have to explain that they don’t have certain qualifications — it’s hard,” she said.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "This puts Ransom center stage in the political drama about whether Congress should extend unemployment benefits that <a href=\"http://www.washingtonpost.com/blogs/wonkblog/wp/2013/12/20/unemployment-benefits-for-1-3-million-workers-expire-next-week-heres-what-you-should-know/\">began expiring just after Christmas</a> for millions of people. Democrats favor an extension, while Republicans are reluctant to pass one without a plan to pay for it.",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The issue has dominated the political agenda in recent weeks, and President Obama called on Congress on Friday to extend the benefits as he announced that <a href=\"http://www.washingtonpost.com/blogs/post-politics/wp/2014/01/31/obama-to-host-white-house-summit-on-long-term-unemployed-firday/\">hundreds of businesses have agreed to not discriminate</a> against people who have been unemployed for long periods of time.",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“Giving up on the unemployed creates a drag on the economy we cannot tolerate,” Obama said.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Democratic and Republican senators have begun working on a new proposal to extend the benefits after not advancing a similar plan a few weeks ago. In a key concession, Democrats are now proposing to pay for the $6&nbsp;billion extension with “pension smoothing,” which would temporarily increase tax collections from employers by allowing them to pay less now into employee pension funds.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "A handful of GOP senators are open to the idea but also want to be able to offer other amendments to the plan. If an agreement is reached, votes could be held as soon as next week, said aides familiar with the talks.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "As the talks continue, people such as Ransom who have been out of work longer than six months are caught in the middle.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“Congress has to act. We’re the only barrier right now to making sure that people get these benefits,” Rep. Mark Pocan (D-Wis.) said after meeting with Ransom and other unemployed people last week at Blackhawk Technical College.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The federal government and states historically have provided out-of-work Americans with up to 26 weeks of unemployment insurance that is paid for with payroll taxes. But Congress has voted several times to extend the federal benefits, at times for up to 99 weeks, since the economic downturn in 2008. The latest federal extension expired just after Christmas and aid has now ended for more than 1.6&nbsp;million long-term unemployed workers who had been receiving payments for more than 26&nbsp;weeks.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "States use different rules to calculate benefits, but generally determine payments based on a person’s earnings in the months before they lost a job, meaning benefits can range from as little as $50 to more than $1,000 weekly.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Pocan thinks that showcasing the people who would suffer may encourage his GOP colleagues to approve an extension.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“We need to put the human face on this,” he said. “It’s one thing to say that 1,600 a week in Wisconsin — 72,000 people a week across the country — are going to lose benefits, but it’s another thing to talk about real stories from real people.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "That’s where people like Ransom come in; her problems are real. In the weeks since her benefits expired, her car was destroyed by a hit-and-run driver. And after years of surgery had brought her pain under control, it flared up again a few weeks ago when she slipped and fell on ice.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“I’m going to keep trying my hardest and complete my schooling and hopefully better my education,” she said. “I hope that unemployment [benefits] will extend for a couple of more months so that it will help me get up on my feet, and get a vehicle and help me get transportation to find the job that I need.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“All I can do is keep my head up,” she added later.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "But beneficiaries nationwide understand that they are caught in the crossfire of a huge political fight, and that powerful arguments are being made against extending their benefits.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“I’m assuming it’s just because there’s too much money being paid out,” said Danielle MacDonald, 25, of Monona, Wis. “There are a lot of people who abuse unemployment — people who don’t want to go out and get a job. It can be a burden on taxpayers.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "She lost her job with a medical device company in October. Unless she finds another job or Congress extends the benefits, the $300 check she receives each week will stop coming in May. Her first child is due in March.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "MacDonald recently appeared at another event held by Pocan to push for an extension. She doesn’t think she’s being an unreasonable burden. “I’m paying taxes out of my unemployment,” she said. “And unemployment is money that I put in.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Then there’s Denise Kanyer, 50, who lost her trucking job in North Dakota last summer. A string of rejections from potential employers forced her to leave her home in Charlotte, N.C., and move to a motel room near her sister in Myrtle Beach, S.C. Her unemployment benefits ended on Dec. 28.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“I’ve never seen Congress turn their backs on Americans like this. Never,” Kanyer said. “They’re not doing what they said they were going to do when they were elected into office.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "In Edgewater, Md., Shamus Baxter, 33, has started keeping closer tabs on Congress in recent weeks since his benefits expired. He lost his job at an industrial hygiene plant in June, and said his insurance payments ended in December.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“They passed their $1.1&nbsp;trillion so they can keep working while they make about $170,000 a year,” he said. “None of them could live off my $40,000 a year salary. . . . I think it’s hilarious that they take another recess while I sit here struggling, hoping that if they get back next week and do something that my unemployment will kick back. They made sure they’d be working for the next year, but they don’t care about people who are struggling.”",
+                                    "mime": "text/html"
+                                }
+                            ],
+                            "adkey": "politics/article",
+                            "omniture": {
+                                "pageName": "politics:article - 3a63a70a-8659-11e3-b85b-b305db87fb90 - 20140131 - unemployment-benefits-dominate-the-agenda",
+                                "channel": "politics",
+                                "contentSubsection": "politics",
+                                "contentAuthor": "Ed O’Keefe",
+                                "contentType": "article",
+                                "contentSource": "The Washington Post",
+                                "dbpath": "/2010-2019/WashingtonPost/2014/01/26/National-Politics/Stories/unemployment0201.xml"
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "mermaid_tablet_story_slot_2",
+                    "h": 1,
+                    "w": 1,
+                    "hideLandscape": true,
+                    "article": {
+                        "urlPath": "/__tablet/national/gunmans-doctor-before-rampage-no-problem-there/2014/01/31/70d79abe-8a53-11e3-a760-a86415d0944d_story.html",
+                        "id": "70d79abe-8a53-11e3-a760-a86415d0944d",
+                        "type": "article_story",
+                        "headline": "Gunman’s doctor before rampage: ‘No problem there’",
+                        "blurbPreface": "By Associated Press",
+                        "blurb": "WASHINGTON &mdash; The gunman who killed 12 people in last year&rsquo;s rampage at Washington&rsquo;s Navy Yard convinced Veterans Affairs doctors before the shootings that he had no mental health issues despite disturbing problems and encounters with police during the same period, according to a",
+                        "lmt": "20140131191210",
+                        "content": {
+                            "id": "70d79abe-8a53-11e3-a760-a86415d0944d",
+                            "title": "Gunman’s doctor before rampage: ‘No problem there’",
+                            "shareurl": "http://wapo.st/1lp93YA",
+                            "contenturl": "http://www.washingtonpost.com/national/gunmans-doctor-before-rampage-no-problem-there/2014/01/31/70d79abe-8a53-11e3-a760-a86415d0944d_story.html",
+                            "authors": [
+                                {
+                                    "name": "Associated Press"
+                                }
+                            ],
+                            "published": "2014-01-31T08:41:00-0500",
+                            "lmt": "2014-01-31T19:12:10-0500",
+                            "type": "article_story",
+                            "images": [
+                                {
+                                    "type": "image",
+                                    "caption": "Rampage at Navy Yard: Aaron Alexis killed 12 people after opening fire at the Washington Navy Yard on Sept. 16, 2013.",
+                                    "uri": "/2010-2019/WashingtonPost/2013/09/16/Local/Images/SHOOTER0061379350985.jpg?uuid=6aHauB7xEeOa0JYkQQDmRw",
+                                    "slot": "primary",
+                                    "width": 1384,
+                                    "height": 936,
+                                    "mime": "image/jpeg",
+                                    "target": {
+                                        "id": "4733fdca-1ed7-11e3-94a2-6c66b668ea55",
+                                        "uri": "http://www.washingtonpost.com/local/three-shot-at-navy-yard/2013/09/16/4733fdca-1ed7-11e3-94a2-6c66b668ea55_gallery.html",
+                                        "type": "gallery_story"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "caption": "Aaron Alexis lied so convincingly to doctors before he killed 12 people at Navy Yard that they concluded he had no mental health issues.",
+                                    "uri": "/2010-2019/WashingtonPost/2014/01/31/Local/Images/aaronalexis.jpg?uuid=IRb1eoqJEeODPDMJj55SZw",
+                                    "credit": "Associated Press",
+                                    "slot": "secondary",
+                                    "width": 1920,
+                                    "height": 1076,
+                                    "mime": "image/jpeg",
+                                    "target": {
+                                        "id": "962bb379-6b51-439a-af94-7e827e68ab1e",
+                                        "uri": "http://www.washingtonpost.com/posttv/national/health-science/navy-yard-shooter-fell-through-the-cracks/2014/01/31/962bb379-6b51-439a-af94-7e827e68ab1e_video.html",
+                                        "type": "video_story"
+                                    }
+                                }
+                            ],
+                            "items": [
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "WASHINGTON — The gunman who killed 12 people in last year’s rampage at Washington’s Navy Yard convinced Veterans Affairs doctors before the shootings that he had no mental health issues despite disturbing problems and encounters with police during the same period, according to a review by The Associated Press of his confidential medical files.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Just weeks before the shootings, a doctor searching for the source of the gunman’s insomnia noted that the patient worked for the Defense Department but wrote hauntingly “no problem there.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The AP obtained more than 100 pages of treatment and disability claims evaluation records for Aaron Alexis, spanning more than two years. They show Alexis complaining of minor physical ailments, including foot and knee injuries, slight hearing loss and later insomnia, but resolutely denying any mental health issues. He directly denied suffering from stress or depression or having suicidal or homicidal thoughts when the VA’s medical team asked him about it just three weeks before the shootings, even though he privately wrote during the same period that he was being afflicted by ultra-low frequency radio waves for months.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The dichotomy between Alexis’ apparently even-keeled interactions with his doctors and the torment he was experiencing outside the hospitals is the center of debate about whether the Veterans Affairs Department could have better recognized the need to intervene in his life with mental health care before the shootings.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Congress and the Pentagon are investigating the shootings, including whether faulty security clearance procedures allowed him to get and maintain his job. Some lawmakers have said Alexis fell through the cracks at the VA and should have been treated by mental health professionals, but they have stopped short of specifying what government doctors should have done differently.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "In a bizarre incident in Newport, R.I., Alexis told police on Aug. 7 that disembodied voices were harassing him at his hotel using a microwave machine to prevent him from sleeping. After police reported the incident to the Navy, his employer, a defense contracting company, pulled his access to classified material for two days after his mental health problems became evident but restored it quickly and never told Navy officials it had done so.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Just 16 days later, after Alexis told a VA emergency room doctor in Providence that he couldn’t sleep, the doctor wrote that his speech and thoughts seemed “clear and focused” and noted that he “denies flashbacks, denies recent stress.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The medical records said Alexis, 34, was found sleeping in the VA waiting room in Providence on Aug. 23 while waiting to see a doctor. During that visit he was prescribed 50 milligrams of trazodone, an antidepressant and anti-anxiety medication that in such low doses can be used to treat insomnia.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“Denies any pain except discomfort rt (right) temple,” a nurse wrote the same day. “Pt (patient) taking no medications including any otc (over-the-counter) medications.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "An attending doctor provided additional details, saying Alexis suffered from fatigue after sleeping only two or three hours every night over the past three weeks.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“Speech and thoughts clear and focused. Denies flashbacks. Denies recent stress. Denies drugs, cocaine, heroin, caffeine product, depression, anxiety, chest pain, sob (shortness of breath), nightmares. He denies taking nap during the day. Denies SI (suicidal ideation) or HI (homicidal ideation),” the doctor wrote.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“He works in the Defense Department, no problem there,” the doctor added.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Sidney Matthew, a lawyer representing the family of one of the shooting victims, told the AP it’s possible that Alexis was evasive with his doctors but expressed skepticism that physicians adequately questioned Alexis about why he wasn’t sleeping.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“There doesn’t appear to be very much curiosity about what the etiology of the insomnia is,” said Matthew, who represents the family of Mary Frances DeLorenzo Knight in a federal lawsuit. The lawsuit claims the VA failed to treat Alexis’ mental illness.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Matthew noted that Alexis aggressively confronted a family at Norfolk (Va.) International Airport on Aug. 4, just days before his encounter with police on Aug. 7 that was so bizarre that police contacted the Navy about their concerns. Alexis’ family also had concerns about his mental health during the period. He said he doesn’t believe Alexis could have masked his mental health problems.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "If doctors were perplexed about the cause of a patient’s problem, there are limits as to how far they can investigate. The executive director of the National Center for Veteran Studies, Dr. Craig Bryan, said conducting an online search of a patient’s life history would be time-consuming and unlikely to help. That’s particularly the case for a doctor working in an emergency room setting treating a condition as common as insomnia, he said. With few exceptions, it would be illegal to contact others, such as family, friends or an employer to search for clues, Bryan said.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Other experts agreed. “In an emergency setting, a patient with insomnia who does not report stressors or substance use, who denies suicidal or homicidal thoughts and who otherwise does not have urgent psychiatric or medical issues would typically be referred for further, full evaluation of the insomnia in a nonemergency setting,” said Dr. William E. Narrow, acting director of quality improvement for the American Psychiatric Association.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The medical records showed that Alexis answered “no” when asked, “Do you have anything that could be considered a weapon?” The VA told the AP that was a standard question it asks veterans whom it treats in a triage setting.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Five days later, on Aug. 28, Alexis visited a VA medical facility in Washington, again complaining of sleeplessness: “Patient presents to ER with c/o (case of) awakening each morning about 4 a.m. like clockwork and he cannot figure out why this is happening.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "He answered “no” when asked whether he was having feelings of hopelessness for the present and the future. Another doctor that night described the examination as “unremarkable.” The VA gave him 10 more tablets of trazodone and sent him home just before 9 p.m.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Alexis, a defense contractor and former Navy reservist, went on a deadly shooting rampage at the Navy Yard on Sept. 16, spraying bullets in a hallway and firing on workers from a balcony. He died in a gunbattle with police.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "He had purchased the shotgun he used from a gun shop in Virginia two days before the shooting. Alexis had been involved in at least two earlier shooting-related incidents, in 2004 when he was arrested in Seattle and charged with malicious mischief for shooting the tires on a construction worker’s vehicle and in 2010 when he was arrested in Fort Worth, Texas, for firing a rifle into a neighbor’s apartment.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "No charges were filed in those two cases, but it was not immediately clear whether Alexis was answering honestly on Aug. 23 when he was asked whether he still had any weapons. The FBI told the AP it found no weapons when it searched the hotel where Alexis had been staying before the Navy Yard shootings.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Before the Navy Yard shootings, Alexis left behind a note that FBI agents recovered saying he had been targeted by ultra-low frequency radio waves for the previous three months — the period that covered his visits to the VA medical facilities when he denied he was experiencing any stress or violent thoughts.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The AP obtained 114 pages of Alexis’ medical records under the Freedom of Information Act after requesting them a few weeks after the shootings. It is unusual for the government to disclose anyone’s medical files, but the Veterans Affairs Department agreed that the public interest in the mass killing outweighed Alexis’ privacy rights in keeping his treatment records secret after his death. In the records the AP obtained, the government withheld the names of all the doctors and others who treated Alexis to protect their privacy.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The medical records also describe Alexis’ efforts to qualify for disability payments because of ringing in his ears and orthopedic problems. In February 2011, almost immediately after Alexis received an honorable discharge from the Navy Reserves, he complained about tinnitus, which he said was “annoying and can be distracting.” He said it began in 2009 when he was still serving in the Navy. An audiologist in Dallas determined that his hearing in both ears was “within normal limits” and said any hearing loss or tinnitus probably didn’t occur when he was serving in the military.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "In October 2011, Alexis filed another disability claim for what he said was a broken right foot he suffered when he fell down stairs in 2009, causing him mild to moderate pain daily. The Navy alleged in a nonjudicial punishment in July 2009 that Alexis was drunk when he leaped off stairs and suffered a broken ankle, but Alexis appealed the disciplinary action and it was removed from his record six months later because there was insufficient evidence he had been intoxicated. Alexis also complained to the VA about a spine problem and conditions with his knee and shoulder. An examiner concluded that Alexis had a degenerative disc in his back and less movement than normal in his shoulder and knee.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The government granted him a 20 percent disability rating for orthopedic issues in December 2011. He was awarded an additional 10 percent for tinnitus and received $395 in monthly benefits retroactive to his leaving the Navy.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "___",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Associated Press writer Eric Tucker contributed to this report.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "___",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Gunman’s medical records: http://www.documentcloud.org/documents/1010448-alexis-medical-records.html",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Copyright 2014 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.",
+                                    "mime": "text/plain"
+                                }
+                            ],
+                            "adkey": "national/article",
+                            "omniture": {
+                                "pageName": "national:article - 70d79abe-8a53-11e3-a760-a86415d0944d - 20140131 - gunmans-doctor-before-rampage-no-problem-there",
+                                "channel": "national",
+                                "contentSubsection": "national",
+                                "contentAuthor": "Associated Press",
+                                "contentType": "article",
+                                "contentSource": "AP",
+                                "dbpath": "/2010-2019/Wires/Online/2014-01-31/AP/Stories/USNavyYardShooting.xml"
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "nemo",
+                    "h": 1,
+                    "w": 1,
+                    "article": {
+                        "urlPath": "/__tablet/local/marion-barry-urges-redskins-to-drop-name-in-flurry-of-tweets-about-racism/2014/01/31/d5544d6a-8aa9-11e3-916e-e01534b1e132_story.html",
+                        "id": "d5544d6a-8aa9-11e3-916e-e01534b1e132",
+                        "type": "article_story",
+                        "headline": "In series of tweets, Marion Barry urges Redskins to change team mascot name",
+                        "blurbPreface": "By Theresa Vargas",
+                        "blurb": "Marion Barry waded into the controversial waters of the Redskins name Friday, sending a flurry of tweets that touched on race and challenged team owner Daniel Snyder to pick a name that would make everyone proud. &ldquo;It&rsquo;s Super Bowl time. 4 Washington, we should reflect not on the loss of",
+                        "lmt": "20140131231502",
+                        "content": {
+                            "id": "d5544d6a-8aa9-11e3-916e-e01534b1e132",
+                            "title": "Marion Barry urges Redskins to drop name in flurry of tweets about racism",
+                            "shareurl": "http://wapo.st/1hYXnpO",
+                            "contenturl": "http://www.washingtonpost.com/local/marion-barry-urges-redskins-to-drop-name-in-flurry-of-tweets-about-racism/2014/01/31/d5544d6a-8aa9-11e3-916e-e01534b1e132_story.html",
+                            "authors": [
+                                {
+                                    "name": "Theresa Vargas",
+                                    "email": "theresa.vargas@washpost.com"
+                                }
+                            ],
+                            "published": "2014-01-31T19:52:22-0500",
+                            "lmt": "2014-01-31T23:15:02-0500",
+                            "type": "article_story",
+                            "images": [
+                                {
+                                    "type": "image",
+                                    "caption": "Council member Marion Barry throws up his hands after making remarks at a 2012 event in Washington.",
+                                    "uri": "/2010-2019/WashingtonPost/2012/03/03/Local/Images/BARRYCON009_1330802040.jpg?uuid=ERtLEmVlEeGMqOnAN5ldeQ",
+                                    "credit": "The Washington Post",
+                                    "photographercredit": "Bill O'Leary",
+                                    "slot": "primary",
+                                    "width": 2300,
+                                    "height": 2189,
+                                    "mime": "image/jpeg"
+                                }
+                            ],
+                            "items": [
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Marion Barry waded into the controversial waters of the Redskins name Friday, sending a <a href=\"https://twitter.com/marionbarryjr\">flurry of tweets</a> that touched on race and challenged team owner Daniel Snyder to pick a name that would make everyone proud.",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“It’s Super Bowl time. 4 Washington, we should reflect not on the loss of games, but our loss of honor. Dan, YOU CAN redeem it. Do what’s right,” the D.C. Council member and former mayor tweeted Friday morning, followed by, “C’mon Dan. Let’s elevate this conversation. Do you want to be remembered as stubborn or loved for standing up against a racist past?”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "By mid-afternoon, the Ward 8 Democrat who was recently released from the hospital had sent more than a dozen tweets on the topic, linking several times to a <a href=\"http://www.washingtonpost.com/posttv/sports/ncais-new-anti-r-word-ad/2014/01/31/25f06514-8a92-11e3-833c-33098f9e5267_video.html\">two-minute ad</a> released recently by the National Congress of American Indians. The ad, entitled “Proud to be,” goes through the many names Native Americans call themselves, and the one they don’t.",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "At least two of Barry’s tweets implied the team’s name is backed by non-minorities who can’t understand what it means to be the target of racism.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“I do note that most of the people who dont want to change the name haven’t been the subject of slurs. Walk in our shoes to know how it feels,” read one tweet. Another: “Why do these Whiteskins on twitter get so angry when someone challenges them on their cont. use of Redskins slur? Doesn’t sound nice does it?”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Barry, who is <a href=\"http://www.washingtonpost.com/local/marion-barry-commits-new-gaffe-while-apologizing-to-asians/2012/05/24/gJQASY7nnU_story.html\">no stranger to racial controversy</a>, is the latest high-profile figure to come out against the team’s name, which has been described by its opponents as a slur against Native Americans. <a href=\"http://www.washingtonpost.com/local/president-obama-says-id-think-about-changing-name-of-washington-redskins/2013/10/05/e170b914-2b70-11e3-8ade-a1f23cda135e_story.html\">President Obama</a> has said that if he were the team’s owner, he would think about changing the name. Sportswriters, <a href=\"http://www.washingtonpost.com/local/faith-leaders-urge-redskins-owner-dan-snyder-and-nfl-to-change-teams-name/2013/12/05/e1dad2be-5dd3-11e3-be07-006c776266ed_story.html\">clergy leaders</a>, <a href=\"http://www.washingtonpost.com/local/civil-rights-groups-coalition-calls-for-washington-redskins-to-change-name/2013/12/12/14ee6248-635a-11e3-aa81-e1dab1360323_story.html\">civil rights groups</a> and Native American leaders have also been vocal about the need for a change.",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Snyder has said that he will never change the team’s name, and in a <a href=\"http://www.washingtonpost.com/local/letter-from-washington-redskins-owner-dan-snyder-to-fans/2013/10/09/e7670ba0-30fe-11e3-8627-c5d7de0a046b_story.html\">letter to fans</a> last year, he called it a “badge of honor.” Team executives have consistently pointed to a decade-old poll that show the majority of Native Americans do not find the name offensive.",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "On Friday, during his<a href=\"http://www.washingtonpost.com/blogs/football-insider/wp/2014/01/31/nfl-is-listening-to-those-who-oppose-redskins-name-roger-goodell-says/\"> state-of-the-NFL address</a> in New York, National Football League Commissioner Roger Goodell defended the name when asked whether he would feel comfortable addressing an American Indian as “Redskin” to his face.",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“I’ve been spending the last year talking to many of the leaders in the Native American communities,” Goodell said. “We are listening. We are trying to make sure we understand the issues. Let me remind you: This is the name of a football team, a football team that’s had that name for 80 years and has presented the name in a way that it has honored Native Americans.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The <a href=\"http://www.washingtonpost.com/local/oneida-indian-nation-is-the-tiny-tribe-taking-on-the-nfl-and-dan-snyder-over-redskins-name/2013/11/16/10ef9290-4c88-11e3-be6b-d3d28122e6d4_story.html\">Oneida Indian Nation</a> of New York, which has been one of the most vocal opponents of the team’s name, issued a news release afterward, calling Goodell’s comments “deeply troubling.”",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“Commissioner Goodell represents a $9-billion brand with global reach, yet insists that it is somehow no big deal that his league uses those vast resources to promote this slur,” Oneida representative Ray Halbritter said in the release.",
+                                    "mime": "text/plain"
+                                }
+                            ],
+                            "adkey": "local/article",
+                            "omniture": {
+                                "pageName": "local:article - d5544d6a-8aa9-11e3-916e-e01534b1e132 - 20140131 - marion-barry-urges-redskins-to-drop-name-in-flurry-of-tweets-about-racism",
+                                "channel": "local",
+                                "contentSubsection": "local",
+                                "contentAuthor": "Theresa Vargas",
+                                "contentType": "article",
+                                "contentSource": "The Washington Post",
+                                "dbpath": "/2010-2019/WashingtonPost/2014/01/31/Local-Enterprise/Stories/redskinsname.xml"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "template": "tablet_squid",
+            "modules": [
+                {
+                    "name": "squid_hero",
+                    "h": 2,
+                    "w": 2,
+                    "article": {
+                        "urlPath": "/__tablet/blogs/capital-weather-gang/wp/2014/01/31/three-storms-next-week-but-snow-prospects-really-cloudy/",
+                        "id": "/blogs/capital-weather-gang/wp/2014/01/31/three-storms-next-week-but-snow-prospects-really-cloudy/",
+                        "type": "BlogStory",
+                        "kicker1": "WEATHER GANG",
+                        "headline": "Three D.C-area storms next week?",
+                        "blurbPreface": "By Wes Junker",
+                        "photo": {
+                            "path": "/WashingtonPost/Content/Blogs/capital-weather-gang/Images/APW1016992.jpg",
+                            "aspectRatio": 1.4904153354632588,
+                            "source": "Karen Bleier / AFP/Getty Images",
+                            "caption": "U.S. Park service employee uses a snow brush in Lafayette Park across from the White House last week."
+                        },
+                        "blurb": "Three storms are on tap over the next 10 days and none of them are going to be easy forecasts. Snow lovers should definitely manage expectations, as there is some chance there&rsquo;s not a lot at the end of the day. All three storms have precipitation type forecasting challenges due to relatively",
+                        "lmt": "20140131150626",
+                        "content": {
+                            "type": "wordpress_story",
+                            "id": 29047,
+                            "uri": "/blogs/capital-weather-gang/wp/2014/01/31/three-storms-next-week-but-snow-prospects-really-cloudy/",
+                            "title": "Three storms next week, but snow prospects really cloudy",
+                            "authors": [
+                                {
+                                    "name": "Wes Junker",
+                                    "email": "nwjweather@gmail.com"
+                                }
+                            ],
+                            "published": "2014-01-31T15:06:26-0500",
+                            "lmt": "2014-01-31T15:17:20-0500",
+                            "lead_image": "http://www.washingtonpost.com/blogs/capital-weather-gang/files/2014/01/nam-euro.gif",
+                            "shareurl": "http://wapo.st/1fik8mH",
+                            "contenturl": "http://www.washingtonpost.com/blogs/capital-weather-gang/wp/2014/01/31/three-storms-next-week-but-snow-prospects-really-cloudy/",
+                            "adkey": "local/blog/capital_weather_gang",
+                            "omniture": {
+                                "pageName": "local:blog:capital-weather-gang - 29047 - 20140131 - three-storms-next-week-but-snow-prospects-really-cloudy",
+                                "channel": "wp - local",
+                                "contentSubsection": "local",
+                                "contentType": "blog",
+                                "contentAuthor": "Wes Junker",
+                                "searchKeywords": null,
+                                "pageFormat": null,
+                                "DBPath": null,
+                                "blogName": "local",
+                                "contentSource": "the washington post"
+                            },
+                            "items": [
+                                {
+                                    "type": "image",
+                                    "caption": null,
+                                    "src": "http://www.washingtonpost.com/blogs/capital-weather-gang/files/2013/11/cwg_Junker.jpg",
+                                    "width": 141,
+                                    "height": 96,
+                                    "mime": "image/jpeg"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "Three storms are on tap over the next 10 days and none of them are going to be easy forecasts.  Snow lovers should definitely manage expectations, as there is some chance there's not a lot at the end of the day."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "All three storms have precipitation type forecasting challenges due to relatively mild air streaming in from the southwest at high altitudes.   Strong storms in such flow almost always track to our north putting us on the warm side of the storm - with a mix of precipitation changing to rain.  That's the most likely scenario next Tuesday night into Wednesday and Friday into next weekend (Feb. 8 and 9). Weaker storms, however, can sometimes lead to snow when a cold front slides to our south providing a boundary for warm, moist air to overrun the cold air in the low layers.  Such a scenario *might* unfold Monday, but it's a terribly complex forecast."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "(For the record, let's squash the rumor of a huge snowstorm/blizzard next weekend.  We don't think it's going to happen.)"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "Monday’s *possible* snow threat"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "The set up early Monday, with a cold front pressing south while warm, moist air comes over top of it, could produce snow. But, if the push of cold air is not strong enough, we'll have rain rather than snow.  If the front pushes too far south, we'll just get light, nuisance precipitation (if any) - as the storm largely misses us."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "<em>The models</em>"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "A slower southward push of cold air coupled with a slightly stronger upper level system would probably lead to the storm developing farther north giving us more precipitation (the European model solutions).  The last three European model runs illustrate how small changes in the strength of the approaching upper level impulse and the timing of the front might have on our chances of seeing snow versus rain.  Last night’s European model (top left below) spread plenty of precipitation across us but never allowed the cold air to push far enough south to support accumulating snow.  Yesterday’s European model (top right below) kept the low farther south and produced a fairly significant snowstorm over us.   Today's run is between last night's and yesterday's."
+                                },
+                                {
+                                    "type": "image",
+                                    "caption": "(WeatherBell.com, adapted by CWG)",
+                                    "src": "http://www.washingtonpost.com/blogs/capital-weather-gang/files/2014/01/nam-euro.gif",
+                                    "width": 554,
+                                    "height": 538,
+                                    "mime": "image/gif"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "The NAM model (latest run shown above, bottom left) has been waffling between a complete whiff (latest run above) and a significant storm (last night)."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "The GFS (latest run shown above, bottom right) has generally been vacillating between a complete miss and a nuisance storm (latest run).  Today’s run keeps the front and storm  well to our south but the model does spit out around 0.08” of liquid equivalent - essentially a dusting.  Today’s Canadian model is in between yesterday’s European model and today’s.  Lots of precipitation but with marginal temperatures for snow."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "The NAM and GFS forecast above are only for 3-hourly periods rather than 6-hour periods like in the two European model forecasts above it.  However, they do illustrate the differences in the northward extent of the precipitation with a front that is farther to the south than either European model.  By 1 p.m. the GFS did spread light precipitation into the area, but temperatures are rising above freezing."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "Today’s 09Z SREF plume diagram illustrates the ranges of precipitation forecasts of 21 model runs with slightly different initial conditions.  Where the green (rain) and blue (lines) increase in height on the diagram, that's indicative of falling precipitation in those particular simulations.  The steeper and higher the lines rise, the heavier the precipitation and more amounts are climbing. While there are a few heavier members similar to the European runs, most members predicted markedly less precipitation with a number flat lining and keeping it dry on Monday.  While the average of all members is .22” (around 2 inches of snow), the median is only 0.06” in the same ball park as this morning GFS."
+                                },
+                                {
+                                    "type": "image",
+                                    "caption": null,
+                                    "src": "http://www.washingtonpost.com/blogs/capital-weather-gang/files/2014/01/sref-mon.gif",
+                                    "width": 545,
+                                    "height": 422,
+                                    "mime": "image/gif"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": ""
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "<em> Conclusions</em>"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "While all solutions are still in play, the track of the weak upper level center suggests the wetter models may be on to something.  Still, the weather god’s decided to throw us one of those complicated situations where all you can say right now is there is a chance of rain or snow, both, or a miss.  Even if the wetter models are right, the warm temperatures expected Saturday and Sunday would complicate the snow accumulation forecast - especially in the city.  Events in which rain transitions to snow are very tricky and often disappoint snow lovers."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "Our low confidence best bet right now - highly subject to change: for our colder suburbs to the north and west: a 60 percent chance of rain, likely changing to a period of snow north and west of the city early Monday morning, with light accumulations possible;  around the city and south and east: a 60 percent chance of rain, possibly changing to snow before ending mid-to-late morning with little or no accumulation."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "Tuesday night to Wednesday storm"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "The models are now in strong agreement that the low slated to impact us on Wednesday will track well to our north and west keeping us on the warm side of the storm.  Because of the similarities between the various models I’ve only posted the latest GFS forecast (below) to illustrate the track and how the low level temperatures warm.  The freezing line early Wednesday morning (4 a.m.) dips into the western sections of our area but then rapidly shifts north.  Low level cold air is sometimes tenacious and holds on longer than forecast so there still is a chance of the precipitation starting as sleet and freezing rain over the western and northern suburbs so the system still needs to be watched but most of the precipitation is expected to fall as rain."
+                                },
+                                {
+                                    "type": "image",
+                                    "caption": null,
+                                    "src": "http://www.washingtonpost.com/blogs/capital-weather-gang/files/2014/01/gfs-mon.gif",
+                                    "width": 527,
+                                    "height": 277,
+                                    "mime": "image/gif"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": ""
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": " Friday into Saturday’s storm"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "The storm for Friday is looking less and less like a snow storm as the basic pattern of having a trough (dip in the jet stream) in the West and a ridge (bump in the jet stream) in the East holds.  Such a configuration generally forces the jet stream to our north resulting in storm tracking to our north rather than south.  While there are some difference in the location of the green lines representing jet stream simulations (below), all have a dip in the west and a hump or ridge in the east.  With such a configuration any major storm is likely be a big precipitation maker but will end up with the primary low passing to our north."
+                                },
+                                {
+                                    "type": "image",
+                                    "caption": null,
+                                    "src": "http://www.washingtonpost.com/blogs/capital-weather-gang/files/2014/01/sat-spag.gif",
+                                    "width": 385,
+                                    "height": 388,
+                                    "mime": "image/gif"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": ""
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "The vast majority of ensemble members (model simulations) now take the storm to our north..  A few, however, do track a weak low to our south like last night’s European model.  These solutions would offer the best chances for snow."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "With its southern track, last night’s European model held onto low level cold air while the deep southwesterly flow warmed the temperatures at 5000 to 7000 feet above freezing offering more of freezing rain and sleet than snow threat. The huge 1040 mb high pressure system that moves across the Northeast prior to the storm does offer freezing rain possibilities if the precipitation comes in quickly enough before the high gets off the coast and starts pumping marine air into the region.   A northern track doesn’t completely rule out some snow at the onset of precipitation nor does it rule out the potential for freezing rain.  Even with a northern track. that’s a real threat."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "The bottom line is the storm is looking less and less like a significant snow threat.  Rain or a mixed precipitation event are more likely possibilities than an all snow event.   However, at such a long lead time, it’s foolish to completely rule out any possibility concerning a storm towards next weekend."
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "squid_single_1",
+                    "h": 1,
+                    "w": 1,
+                    "article": {
+                        "urlPath": "/__tablet/local/dc-politics/district-reports-another-major-budget-surplus/2014/01/31/18f52200-8a88-11e3-a5bd-844629433ba3_story.html",
+                        "id": "18f52200-8a88-11e3-a5bd-844629433ba3",
+                        "type": "article_story",
+                        "headline": "District reports another major budget surplus",
+                        "blurbPreface": "By Aaron C. Davis",
+                        "blurb": "The District ended its fiscal year with its third consecutive budget surplus since the economic downturn, reporting$168 million in unforeseen revenue and its highest-ever year-end fund balance of $1.75 billion. City agencies also could barely keep pace with growing budgets. They left $153 million in",
+                        "lmt": "20140131204114",
+                        "content": {
+                            "id": "18f52200-8a88-11e3-a5bd-844629433ba3",
+                            "title": "District reports another major budget surplus",
+                            "shareurl": "http://wapo.st/1hXASl5",
+                            "contenturl": "http://www.washingtonpost.com/local/dc-politics/district-reports-another-major-budget-surplus/2014/01/31/18f52200-8a88-11e3-a5bd-844629433ba3_story.html",
+                            "authors": [
+                                {
+                                    "name": "Aaron C. Davis",
+                                    "email": "aaron.davis@washpost.com"
+                                }
+                            ],
+                            "published": "2014-01-31T15:18:00-0500",
+                            "lmt": "2014-01-31T20:41:14-0500",
+                            "type": "article_story",
+                            "items": [
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The District ended its fiscal year with its third consecutive budget surplus since the economic downturn, reporting$168 million in unforeseen revenue and its highest-ever year-end fund balance of $1.75 billion.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "City agencies also could barely keep pace with growing budgets. They left $153 million in unspent funds on the table, for a total 2013 budget surplus of $321 million.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“I keep reading it, and saying ‘Wow, this is nice,’ ” said newly installed Chief Financial Officer Jeffrey S. DeWitt, who previously held the top budget job in Phoenix, which was harder hit by the housing bust.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "As a building boom and influx of newcomers has continued in the District, DeWitt said that half the District’s unanticipated revenue came from higher-than-estimated property tax revenue. An additional $62 million came from individual income tax receipts.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Under new government accounting rules, DeWitt said, nearly $79 million had to be set aside to comply with best practices, including how the city counts short-term internal loans.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The remainder of the money is also spoken for, said Mayor Vincent C. Gray (D).",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“It does not mean we can go on a spending spree,” Gray said of the surplus.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "To cover payments on the city’s growing debt load after building more than a dozen new schools and revitalizing dozens of parks in recent years, the District must set aside almost $100 million in escrow to cover debt payments, Gray said.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Legislation and budget measures passed previously by the D.C. Council also direct millions to projects including cleaning up the Anacostia River.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Gray said $96 million would be carried into the budget cycle beginning this fall and $10 million would go toward a long-term plan to keep enough cash on hand to eventually require no short-term borrowing from Wall Street.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The city has been working toward a goal of keep 60 days worth of operating expenses on hand. The additional $10 million, however, won’t get the city much further. With overall growth in the city’s budget over the last 12 months, the increase will keep the city about even, with roughly 45 days’ cash-on-hand.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Gray took credit for the half of the surplus dealing with underspending by city agencies. He said tighter controls instituted by his administration reversed a trend of agencies routinely exceeding their budgets previously.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "He also announced an effort with council Chairman Phil Mendelson (D) and council member Kenyan McDuffie (D-Ward 5) to convince the council to set aside half of all future surpluses for affordable housing.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The District’s current budget is $12.1 billion. Gray is required to submit his next budget April 3, two days after the city’s Democratic primary.",
+                                    "mime": "text/plain"
+                                }
+                            ],
+                            "adkey": "local/article",
+                            "omniture": {
+                                "pageName": "local:article - 18f52200-8a88-11e3-a5bd-844629433ba3 - 20140131 - district-reports-another-major-budget-surplus",
+                                "channel": "local",
+                                "contentSubsection": "local",
+                                "contentAuthor": "Aaron C. Davis",
+                                "contentType": "article",
+                                "contentSource": "The Washington Post",
+                                "dbpath": "/2010-2019/WashingtonPost/2014/01/31/Local-Politics/Stories/dcsurplus.xml"
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "mermaid_tablet_story_slot_1",
+                    "h": 1,
+                    "w": 1,
+                    "article": {
+                        "urlPath": "/__tablet/blogs/post-politics/wp/2014/01/31/democrats-go-after-mcmorris-rodgers/",
+                        "id": "/blogs/post-politics/wp/2014/01/31/democrats-go-after-mcmorris-rodgers/",
+                        "type": "BlogStory",
+                        "headline": "Democrats go after McMorris Rodgers",
+                        "blurbPreface": "By Aaron Blake",
+                        "blurb": "Rep. Cathy McMorris Rodgers (R-Wash.), who earned plaudits for her delivery of the official GOP response to President Obama's State of the Union address this week, is finding herself targeted by Democrats now. On Friday, the Democratic Congressional Campaign Committee called on McMorris Rodgers to",
+                        "lmt": "20140131132932",
+                        "content": {
+                            "type": "wordpress_story",
+                            "id": 71446,
+                            "uri": "/blogs/post-politics/wp/2014/01/31/democrats-go-after-mcmorris-rodgers/",
+                            "title": "Democrats go after McMorris Rodgers",
+                            "authors": [
+                                {
+                                    "name": "Aaron Blake",
+                                    "email": "aaron.blake@washpost.com"
+                                }
+                            ],
+                            "published": "2014-01-31T13:29:32-0500",
+                            "lmt": "2014-01-31T13:29:32-0500",
+                            "lead_image": "http://www.washingtonpost.com/rf/image_606w/2010-2019/WashingtonPost/2012/08/29/Production/Daily/Style/Images/150882766--452x285.jpg",
+                            "shareurl": "http://wapo.st/1fi5ZWI",
+                            "contenturl": "http://www.washingtonpost.com/blogs/post-politics/wp/2014/01/31/democrats-go-after-mcmorris-rodgers/",
+                            "adkey": "politics/blog/post_politics",
+                            "omniture": {
+                                "pageName": "politics:blog:post-politics - 71446 - 20140131 - democrats-go-after-mcmorris-rodgers",
+                                "channel": "wp - politics",
+                                "contentSubsection": "politics",
+                                "contentType": "blog",
+                                "contentAuthor": "Aaron Blake",
+                                "searchKeywords": null,
+                                "pageFormat": null,
+                                "DBPath": null,
+                                "blogName": "politics",
+                                "contentSource": "the washington post"
+                            },
+                            "items": [
+                                {
+                                    "type": "image",
+                                    "caption": "Rep. Cathy McMorris Rodgers at the Republican convention in August. (Mark Wilson / Getty Images)",
+                                    "src": "http://www.washingtonpost.com/rf/image_606w/2010-2019/WashingtonPost/2012/08/29/Production/Daily/Style/Images/150882766--452x285.jpg",
+                                    "width": 606,
+                                    "height": 380,
+                                    "mime": "image/jpeg"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "Rep. Cathy McMorris Rodgers (R-Wash.), who <a href=\"http://www.washingtonpost.com/politics/mcmorris-rodgers-comes-through-for-gop-in-response-to-state-of-the-union/2014/01/29/3e8f3dd0-88b1-11e3-833c-33098f9e5267_story.html\">earned plaudits for her delivery of the official GOP response</a> to President Obama's State of the Union address this week, is finding herself targeted by Democrats now."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "On Friday, the Democratic Congressional Campaign Committee called on McMorris Rodgers to apologize for a claim in her speech that it says doesn't hold water."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "During her address, the House Republican Conference chairwoman cited someone she called \"Bette from Spokane,\" who she said is now paying an additional $700 in monthly health-care premiums since her old plan was canceled because of the new requirements under Obamacare. The local <a href=\"http://www.spokesman.com/stories/2014/jan/30/bette-in-spokane-cited-in-mcmorris-rodgers-speech/\">Spokesman-Review reported</a> Thursday that the woman, Bette Grenier, actually had a cheaper insurance option available to her and that she hadn't spoken with McMorris Rodgers's office about her claim, which she initially made in a letter."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "\"Congresswoman McMorris Rodgers owes the nation an apology for lying in her Republican response to the State of the Union this week, and spreading more misinformation to Americans about their health-care options,” DCCC spokeswoman Emily Bittner said in a statement."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "In her speech, McMorris Rodgers said that Grenier \"found out ... that her premiums were going up nearly $700 a month\" -- a claim Democrats say is misleading because of the cheaper alternative."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "According to the Spokesman-Review's reporting, though, that cheaper alternative -- similar to Grenier's previous bare-bones catastrophic coverage plan -- would have still cost Grenier $550 more than that previous plan."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "content": "In a response to the DCCC's release, McMorris took to Twitter to accuse the committee of targeting Grenier."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "blockquote",
+                                    "content": "It's sad partisan politicians are attacking Bette, whose premiums would've skyrocketed. Bette and millions more are being hurt by this law."
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "blockquote",
+                                    "content": "— CathyMcMorrisRodgers (@cathymcmorris) January 31, 2014"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "mermaid_tablet_story_slot_2",
+                    "h": 1,
+                    "w": 1,
+                    "hideLandscape": true,
+                    "article": {
+                        "urlPath": "/__tablet/posttv/business/technology/yahoo-email-account-passwords-stolen/2014/01/31/c380dacf-60b5-4b44-9476-b47091a7dcc6_video.html",
+                        "id": "c380dacf-60b5-4b44-9476-b47091a7dcc6",
+                        "type": "video_story",
+                        "kicker1": "VIDEO",
+                        "headline": "Yahoo email account passwords stolen",
+                        "blurbPreface": "By Associated Press",
+                        "photo": {
+                            "path": "/2010-2019/WashingtonPost/2014/01/31/Production/WashingtonPost/Images/148470920.jpg",
+                            "aspectRatio": 1.503006012024048
+                        },
+                        "blurb": "Usernames and passwords of some of Yahoo's email customers have been stolen and used to gather personal information about people those Yahoo mail users have recently corresponded with, the company said.",
+                        "lmt": "20140131200715",
+                        "content": {
+                            "id": "c380dacf-60b5-4b44-9476-b47091a7dcc6",
+                            "title": "Yahoo email account passwords stolen",
+                            "shareurl": "http://wapo.st/1hZ1wtS",
+                            "contenturl": "http://www.washingtonpost.com/posttv/business/technology/yahoo-email-account-passwords-stolen/2014/01/31/c380dacf-60b5-4b44-9476-b47091a7dcc6_video.html",
+                            "embedcode": "g5ZDloazpRG-jVqg960u5L9WyC4bSrTo",
+                            "published": "2014-01-31T20:05:47-0500",
+                            "lmt": "2014-01-31T20:07:15-0500",
+                            "type": "video_story",
+                            "items": [
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Usernames and passwords of some of Yahoo's email customers have been stolen and used to gather personal information about people those Yahoo mail users have recently corresponded with, the company said.",
+                                    "mime": "text/plain"
+                                }
+                            ],
+                            "adkey": "business/video",
+                            "omniture": {
+                                "pageName": "business:video - c380dacf-60b5-4b44-9476-b47091a7dcc6 - 20140131 - yahoo-email-account-passwords-stolen",
+                                "channel": "business",
+                                "contentSubsection": "business",
+                                "contentType": "video",
+                                "contentSource": "AP",
+                                "dbpath": "/2010-2019/Wires/Videos/2014-01-31/AP/0131dv_yahoo.xml"
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "squid_single_2",
+                    "h": 1,
+                    "w": 1,
+                    "article": {
+                        "urlPath": "/__tablet/local/snowy-owl-doing-well-at-rehab-facility-was-apparently-hit-by-a-bus-thursday-morning/2014/01/31/1568f60e-8a81-11e3-833c-33098f9e5267_story.html",
+                        "id": "1568f60e-8a81-11e3-833c-33098f9e5267",
+                        "type": "article_story",
+                        "headline": "Snowy owl doing well at rehab facility",
+                        "blurbPreface": "By Michael E. Ruane and Peter Hermann",
+                        "blurb": "The snowy owl that was struck by a Metro bus in downtown Washington on Thursday was reported to be in stable condition Friday. &ldquo;The snowy owl is doing well this morning,&rdquo; Alicia DeMay, clinic director of City Wildlife, the D.C. rehabilitation facility that is caring for the owl, said in",
+                        "lmt": "20140131215725",
+                        "content": {
+                            "id": "1568f60e-8a81-11e3-833c-33098f9e5267",
+                            "title": "Snowy owl doing well at rehab facility: Was hit by a bus Thursday morning",
+                            "shareurl": "http://wapo.st/1lpzCg1",
+                            "contenturl": "http://www.washingtonpost.com/local/snowy-owl-doing-well-at-rehab-facility-was-apparently-hit-by-a-bus-thursday-morning/2014/01/31/1568f60e-8a81-11e3-833c-33098f9e5267_story.html",
+                            "authors": [
+                                {
+                                    "name": "Michael E. Ruane",
+                                    "email": "Michael.Ruane@washpost.com"
+                                },
+                                {
+                                    "name": "Peter Hermann"
+                                }
+                            ],
+                            "published": "2014-01-31T14:40:00-0500",
+                            "lmt": "2014-01-31T21:57:25-0500",
+                            "type": "article_story",
+                            "images": [
+                                {
+                                    "type": "image",
+                                    "caption": "The snowy owl that has been spotted recently in Washington, D.C., was brought to the Smithsonian’s National Zoo for care early Thursday morning after reportedly being hit by a bus near 15th and I streets NW. The owl, believed to be a female, was transferred by police and immediately cared for at the zoo’s hospital.",
+                                    "uri": "/2010-2019/WashingtonPost/2014/01/30/Local/Images/owlzoo.jpg?uuid=XFfdMInPEeODPDMJj55SZw",
+                                    "slot": "primary",
+                                    "width": 300,
+                                    "height": 169,
+                                    "mime": "image/jpeg",
+                                    "target": {
+                                        "id": "5a3f83f4-89cf-11e3-833c-33098f9e5267",
+                                        "uri": "http://www.washingtonpost.com/posttv/local/hit-by-bus-dcs-snowy-owl-treated-at-national-zoo/2014/01/30/5a3f83f4-89cf-11e3-833c-33098f9e5267_video.html",
+                                        "type": "video_story"
+                                    }
+                                },
+                                {
+                                    "type": "image",
+                                    "caption": "Snowy owl hit by bus in downtown D.C.: The majestic snowy owl that has captivated Washington in recent days was apparently hit by a bus early Thursday.",
+                                    "uri": "/2010-2019/WashingtonPost/2014/01/24/Web-Resampled/2014-01-24/IMG_0776a1390589594-kcfG--296x197@wp.com.jpg?uuid=p1fdjoVNEeOAmZGBRx96rw",
+                                    "slot": "secondary",
+                                    "width": 296,
+                                    "height": 197,
+                                    "mime": "image/jpeg",
+                                    "target": {
+                                        "id": "1ed27b0a-854c-11e3-8099-9181471f7aaf",
+                                        "uri": "http://www.washingtonpost.com/local/snowy-owl-sightings/2014/01/24/1ed27b0a-854c-11e3-8099-9181471f7aaf_gallery.html",
+                                        "type": "gallery_story"
+                                    }
+                                }
+                            ],
+                            "items": [
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The snowy owl that was <a href=\"http://www.washingtonpost.com/local/snowy-owl-hit-by-bus-in-downtown-dc/2014/01/30/05945616-89c2-11e3-833c-33098f9e5267_story.html\">struck by a Metro bus</a> in downtown Washington on Thursday was reported to be in stable condition Friday.",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“The snowy owl is doing well this morning,” Alicia DeMay, clinic director of City Wildlife, the D.C. rehabilitation facility that is caring for the owl, said in an e-mail.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“Today we will be doing the very important X-rays needed to see how extensive the break is in the toe,” she said. In addition, she said, “the blood work should be back today which will tell how well the internal organs are functioning and the sex of our famous bird.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The owl was hit by the bus early Thursday near 15th and I streets NW, according to D.C. police spokesman Araz Alali.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "It was brought by police to the National Zoo, where it was treated and examined, and was then turned over to the rehabilitation facility Thursday.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "It suffered a broken toe on its left foot, and may have suffered internal and head injuries as well. The rehab facility will care for it until it is well enough to be released back into the wild.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "<a href=\"http://www.washingtonpost.com/posttv/local/dcs-snowy-owl-is-a-hoot/2014/01/24/5ec96dee-852a-11e3-8099-9181471f7aaf_video.html\" title=\"www.washingtonpost.com\">The owl captivated Washingtonians</a> in recent frigid days when it made several appearances near McPherson Square and outside The Washington Post. It has striking white feathers and yellow eyes. Snowy owls are native to the Arctic, but can venture south in search of food.",
+                                    "mime": "text/html"
+                                }
+                            ],
+                            "adkey": "local/article",
+                            "omniture": {
+                                "pageName": "local:article - 1568f60e-8a81-11e3-833c-33098f9e5267 - 20140131 - snowy-owl-doing-well-at-rehab-facility-was-hit-by-a-bus-thursday-morning",
+                                "channel": "local",
+                                "contentSubsection": "local",
+                                "contentAuthor": "Michael E. Ruane,Peter Hermann",
+                                "contentType": "article",
+                                "contentSource": "The Washington Post",
+                                "dbpath": "/2010-2019/WashingtonPost/2014/01/31/Local/Stories/owl0201.xml"
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "squid_single_3",
+                    "h": 1,
+                    "w": 1,
+                    "article": {
+                        "urlPath": "/__tablet/local/was-senate-staffer-ryan-loskarn-a-victim-of-child-abuse-an-abuser-or-both/2014/01/30/16616830-89ef-11e3-a5bd-844629433ba3_story.html",
+                        "id": "16616830-89ef-11e3-a5bd-844629433ba3",
+                        "type": "article_story",
+                        "kicker1": "DVORAK",
+                        "headline": "A victim of abuse, an abuser or both?",
+                        "blurbPreface": "By Petula Dvorak",
+                        "blurb": "We have to face the ugliness and deal with it. Jesse Ryan Loskarn couldn&rsquo;t, and because of that, one tragedy became another and another. And yes, the Senate staffer is a victim &mdash; and an abuser, too. Loskarn, 35, spoke from the grave this week in a sad, searing letter he apparently wrote",
+                        "lmt": "20140131204328",
+                        "content": {
+                            "id": "16616830-89ef-11e3-a5bd-844629433ba3",
+                            "title": "Jesse Ryan Loskarn’s death shows danger of silence about abuse",
+                            "shareurl": "http://wapo.st/1hU6KHe",
+                            "contenturl": "http://www.washingtonpost.com/local/was-senate-staffer-ryan-loskarn-a-victim-of-child-abuse-an-abuser-or-both/2014/01/30/16616830-89ef-11e3-a5bd-844629433ba3_story.html",
+                            "authors": [
+                                {
+                                    "name": "Petula Dvorak",
+                                    "email": "petula.dvorak@washpost.com"
+                                }
+                            ],
+                            "published": "2014-01-31T00:36:01-0500",
+                            "lmt": "2014-01-31T20:43:28-0500",
+                            "type": "article_story",
+                            "images": [
+                                {
+                                    "type": "image",
+                                    "caption": "A former aide to U.S. Sen. Lamar Alexander was found dead in Maryland, just weeks after the former staffer's arrest on child pornography charges, sheriff's officials said Friday. Thumbnail image provided by WJLA (Channel 7).",
+                                    "uri": "/2010-2019/WashingtonPost/2014/01/24/Local/Images/Senator_Staffer_Investigation-0f143.jpg?uuid=2KDv9oUrEeOAmZGBRx96rw",
+                                    "credit": "Associated Press",
+                                    "slot": "primary",
+                                    "width": 1665,
+                                    "height": 937,
+                                    "mime": "image/jpeg",
+                                    "target": {
+                                        "id": "7bb23ae7-c437-49e1-96d7-471c4e291e44",
+                                        "uri": "http://www.washingtonpost.com/posttv/national/former-sen-alexander-aide-dead-in-suicide/2014/01/24/7bb23ae7-c437-49e1-96d7-471c4e291e44_video.html",
+                                        "type": "video_story"
+                                    }
+                                }
+                            ],
+                            "items": [
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "We have to face the ugliness and deal with it.<a href=\"http://www.washingtonpost.com/lifestyle/style/in-apparent-suicide-note-ryan-loskarn-says-he-was-a-sexually-abused/2014/01/28/22ee4a6e-8837-11e3-a5bd-844629433ba3_story.html\"> </a>",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "<a href=\"http://www.washingtonpost.com/lifestyle/style/in-apparent-suicide-note-ryan-loskarn-says-he-was-a-sexually-abused/2014/01/28/22ee4a6e-8837-11e3-a5bd-844629433ba3_story.html\">Jesse Ryan Loskarn</a> couldn’t, and because of that, one tragedy became another and another. And yes, the Senate staffer is a victim — and an abuser, too.",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Loskarn, 35, spoke from the grave this week in a <a href=\"http://www.jesseryanloskarnslastmessage.com/333880300\">sad, searing letter</a> he apparently wrote before hanging himself in his parents’ basement.",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The chief of staff for Sen. Lamar Alexander (R-Tenn.) was arrested last month after a child pornography investigation led to his Capitol Hill home, where he tried to hide a computer hard drive that contained seriously horrid films of children being raped.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Loskarn had these films for a couple of years. After going to committee meetings, campaign fundraisers and Hill happy hours, he came home and watched, according to<a href=\"http://legaltimes.typepad.com/files/loskarn.pdf\"> court charging documents</a>, a video of a young girl being raped in the woods. And hundreds of others like that. While watching them, he wrote in his letter, he “felt a connection.”",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "He spent 30 years feeling alone. And then he found others like him.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“He found out that he wasn’t alone through the child porn,” said Curtis St. John, a sexual abuse survivor who tries to help others through a network called MaleSurvivor. “He found the same scenarios that he was put through.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Loskarn didn’t find a sense of belonging through support groups or Politico <a href=\"http://www.politico.com/playbook/0812/playbook1884.html\">Playbook</a> microfame or in the bottom of happy-hour glasses. He found companionship in child porn.",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“I found myself drawn to videos that matched my own childhood abuse,” he wrote. “It’s painful and humiliating to admit to myself, let alone the whole world, but I pictured myself as a child in the image or video. The more an image mirrored some element of my memories and took me back, the more I felt a connection.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "I know. Ugly. Really ugly. And that’s the problem.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Loskarn used that letter, which his mother posted online this week, to divulge that he had been sexually abused when he was ages 5 and 9, somewhere in the Maryland suburb of Carroll County.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "We don’t know who abused him. It could have been anyone. Statistics say it was someone he knew and trusted — about three-quarters of abusers are a friend, teacher, coach or family member.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "We don’t know if Loskarn’s parents knew about his abuse. Sounds like they didn’t because Loskarn said he hadn’t told anyone until he was on suicide watch at the D.C. jail after his Dec. 11 arrest, and one perceptive counselor drew it out of him.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Before that, he felt alone, even though he never was.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“If you know more than six men, then you know someone who has been abused,” said St. John, who kept silent until his abuser, middle-school teacher <a href=\"http://usatoday30.usatoday.com/news/nation/2006-06-22-cannibal-ward_x.htm\">Albert Fentress</a>, went on to abuse, kill and cannibalize a teenage boy in his home town of Poughkeepsie, N.Y.",
+                                    "mime": "text/html"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Then, when St. John showed up to testify at a parole hearing, he ran into his best friend, who had been abused, too. They were both in their own private hells, keeping quiet, being stoic, sparing everyone from the ugliness.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Loskarn did that, too.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“As a child I didn’t understand what had happened at the time of the abuse,” he wrote. “I did know that I must not tell anyone, ever. In my mind I instigated and enjoyed the abuse — even as a five and nine year old — no matter the age difference. Discussing what had happened would have meant shame and blame.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "The cycle of abuse continued when Loskarn bought and watched child porn.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Certainly, most victims do not go on to become abusers. And all abusers weren’t once victims, said Scott Berkowitz, president and founder of RAINN, the Rape, Abuse and Incest National Network, based in Northwest Washington.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "But the culture of silence is the most dangerous incubator of abuse.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "Loskarn was not innocent and made it clear that he knew what he was doing was wrong. His history as a victim is an explanation but not an excuse.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "He’s guilty, but so are we. Because we are a society so reluctant to confront sexual abuse, to go beyond oversimplified “good touch/bad touch” explanations, to call police, we are perpetuating the cycle, too. Being a victim of sexual abuse is so taboo in our society, Loskarn made it a badge of honor in his mind.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "“I told myself that I was superior to other people because I had dealt with this thing on my own,” he wrote. “In retrospect, the qualities that helped me succeed on Capitol Hill were probably developed partly as a result of the abuse and how it shaped me.”",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "He did not, in the end, succeed in dealing with repercussions on his own. Instead, he became an abuser himself, trafficking in other children’s misery and then taking his own life amid the guilt and shame.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "paragraph",
+                                    "content": "If only it had been okay for him — and for us — to talk about the ugliness. Maybe Loskarn would still be alive.",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "attribution",
+                                    "content": "Twitter: @petulad",
+                                    "mime": "text/plain"
+                                },
+                                {
+                                    "type": "sanitized_html",
+                                    "subtype": "trailer",
+                                    "content": "<p> For previous columns, go to <a href=\"http://www.washingtonpost.com/pb/petula_dvorak\" title=\"www.washingtonpost.com\">washingtonpost.com/dvorak</a>.</p>",
+                                    "mime": "text/html"
+                                }
+                            ],
+                            "adkey": "local/article",
+                            "omniture": {
+                                "pageName": "local:article - 16616830-89ef-11e3-a5bd-844629433ba3 - 20140131 - jesse-ryan-loskarns-death-shows-danger-of-silence-about-abuse",
+                                "channel": "local",
+                                "contentSubsection": "local",
+                                "contentAuthor": "Petula Dvorak",
+                                "contentType": "article",
+                                "contentSource": "The Washington Post",
+                                "dbpath": "/2010-2019/WashingtonPost/2014/01/30/Local-Enterprise/Stories/dvorak0131.xml"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "tracking_info": {
+        "pageName": "front - top-stories",
+        "channel": "atab - top-stories",
+        "contentSubsection": "",
+        "contentType": "front",
+        "contentAuthor": "",
+        "searchKeywords": "",
+        "pageFormat": "",
+        "DBPath": "",
+        "blogName": "",
+        "contentSource": ""
+    },
+    "adKey": "androidtab.wp.homepage/front"
+}

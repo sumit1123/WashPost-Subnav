@@ -1,0 +1,19 @@
+{
+  "feature_name": "mhp-breaking-news",
+  "item_type": "page/breaking-news-bar",
+  "label": {
+    "text": "BREAKING:"
+  },
+  "items": [
+    {
+      "link": {
+        "type": "blog",
+        "url": "https://www.washingtonpost.com/news/worldviews/wp/2017/07/05/trumps-visit-to-poland-seen-as-a-snub-to-the-e-u-and-germany/?utm_term\u003d.42a4cadea4f2"
+      },
+      "headline": {
+        "text": "bar goes here test bar goes here and here and here"
+      },
+      "timestamp": "2017-07-06T00:01:12.203Z"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/badge"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        app:cardElevation="3dp"
+        android:outlineProvider="none"
+        app:cardCornerRadius="7.5dp"
+        app:cardBackgroundColor="@color/badge_color"
+        app:layout_constraintEnd_toEndOf="@id/product_button"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintStart_toEndOf="@+id/guideline">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/badge_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            style="@style/badge_style"
+            android:gravity="center"
+            android:paddingHorizontal="6dp"
+            android:textColor="@color/badge_text_color"
+            tools:text="Best value" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/product_button"
+        style="@style/subscribe_button_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:layout_marginTop="7.5dp"
+        android:lineSpacingExtra="@dimen/subscribe_button_line_space_height"
+        android:maxWidth="@dimen/paywall_container_width"
+        android:minWidth="@dimen/paywall_container_min_width"
+        android:paddingTop="@dimen/paywall_margin_small"
+        android:paddingBottom="@dimen/paywall_margin_small"
+        android:paddingLeft="@dimen/paywall_margin_large"
+        android:paddingRight="@dimen/paywall_margin_large"
+        android:textAllCaps="false"
+        android:textSize="@dimen/acquisition_button_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/badge"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnusedAttribute"
+        tools:text="Try 1 month free\nthen $9.99/month" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="15dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

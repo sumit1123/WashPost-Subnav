@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="native_article_body_text_size">20sp</dimen>
+    <dimen name="article_media_padding">30dp</dimen>
+    <dimen name="tweet_container_padding_outer_Left_Right">40dp</dimen>
+    <dimen name="tweet_top_image_margin_bottom">3dp</dimen>
+    <dimen name="tweet_photo_dimen">75dp</dimen>
+    <dimen name="tweet_datetime_textsize">16sp</dimen>
+    <dimen name="tweet_favs_textsize">15sp</dimen>
+    <dimen name="carousel_side_padding">48dp</dimen>
+    <dimen name="native_article_bottom_padding">120dp</dimen>
+    <dimen name="article_text_headline_text_size">35sp</dimen>
+    <dimen name="article_link_box_headline_text_size">32sp</dimen>
+    <dimen name="article_text_headline_h1_text_size">35sp</dimen>
+    <dimen name="article_text_headline_style_text_size">48sp</dimen>
+    <dimen name="article_text_headline_h2_text_size">32sp</dimen>
+    <dimen name="article_text_headline_h1_line_spacing_extra">39sp</dimen>
+    <dimen name="article_text_headline_h2_line_spacing_extra">36sp</dimen>
+    <dimen name="native_article_dateline_bottom_padding">16sp</dimen>
+    <dimen name="native_article_date_text_size">16sp</dimen>
+    <dimen name="article_link_box_subheadline_text_size">20sp</dimen>
+    <dimen name="article_context_box_text_size">18sp</dimen>
+    <dimen name="article_context_box_text_line_height">6sp</dimen>
+    <dimen name="articles_brief_medium_margin">2dp</dimen>
+    <dimen name="articles_brief_large_margin">46dp</dimen>
+</resources>

@@ -1,0 +1,740 @@
+{
+  "layout": "homepage",
+  "output_type": "jsonapp",
+  "tracking": {
+    "page_name": "homepage",
+    "page_title": "The Washington Post - Breaking news and latest headlines, U.S. news, world news, and video - The Washington Post",
+    "page_path": "/",
+    "section": "homepage",
+    "channel": "homepage"
+  },
+  "regions": [
+    {
+      "location": "content",
+      "items": [
+        {
+          "id": "17644a1b-a03d-437e-b6bd-486fe3eae6ca",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "no-name",
+          "link_group": "no-name",
+          "layout_name": "full-span",
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "id": "allcontent-17644a1b-a03d-437e-b6bd-486fe3eae6ca",
+              "table_name": "allcontent",
+              "item_type": "table",
+              "link_group": "no-name",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 20
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "7543ff40-48da-48f5-b767-ac29fd76d358",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "Flex Feature",
+                  "wrap_text": true,
+                  "text_alignment": "left",
+                  "last_picked_preset": "⟲ Head + byline (Clear all Custom Fields)",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label",
+                          "headline"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "package",
+                    "position": "above-headline",
+                    "alignment": "center",
+                    "icon": "election-star",
+                    "label": {
+                      "text": "MIDTERM ELECTIONS 2022"
+                    }
+                  },
+                  "headline": {
+                    "text": "This is a very large headline",
+                    "deck": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
+                    "size": "massive",
+                    "font_style": "bold",
+                    "alignment": "center"
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 20
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 16
+                    },
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 12
+                    },
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 10
+                    },
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        },
+        {
+          "id": "5b445f5a-ad2e-4ec3-8df0-043e17148d4b",
+          "item_type": "grid",
+          "item_type_impl": "chain/top-table",
+          "display_name": "no-name",
+          "link_group": "no-name",
+          "layout_name": "stacked-strips-with-far-right-table-4-tables",
+          "gridgaps": {
+            "xlarge": {
+              "vertical": "large"
+            },
+            "large": {
+              "vertical": "large"
+            },
+            "medium": {
+              "vertical": "large"
+            },
+            "small": {
+              "vertical": "large"
+            },
+            "xsmall": {
+              "vertical": "large"
+            }
+          },
+          "dividers": {
+            "xlarge": {
+              "vertical": [
+                {
+                  "col": 16,
+                  "row": 0,
+                  "rowspan": 1
+                }
+              ]
+            }
+          },
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "id": "table2-5b445f5a-ad2e-4ec3-8df0-043e17148d4b",
+              "table_name": "table2",
+              "item_type": "table",
+              "link_group": "no-name",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "large": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 16
+                },
+                "medium": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 12
+                },
+                "small": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 10
+                },
+                "xsmall": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 0,
+                  "colspan": 1
+                }
+              },
+              "items": [
+                {
+                  "is_from_feed": false,
+                  "id": "d2284e5e-0d6b-494c-a465-e855c08f6246",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "gfx-miss-gop-gov",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Art only",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media"
+                        ]
+                      }
+                    }
+                  },
+                  "media": {
+                    "media_type": "live-image",
+                    "link": {
+                      "url": "https://www.washingtonpost.com/election-results/2023/kentucky-governor/",
+                      "type": "unknown"
+                    },
+                    "art_position": "art-above-head",
+                    "art_width": "full-width",
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://d28695kzbtos76.cloudfront.net/elections/screenshots/2023/kentucky/496.png",
+                              "alt_text": "Tap for results in the Kentucky governor election.",
+                              "aspect_ratio": 3.968,
+                              "dark_mode_url": "https://d28695kzbtos76.cloudfront.net/elections/screenshots/2023/kentucky/496.png"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "tab",
+                      "units_picked": 8
+                    },
+                    "url": "https://d28695kzbtos76.cloudfront.net/elections/screenshots/2023/kentucky/496.png?ts=1704296400000",
+                    "aspect_ratio": 3.968,
+                    "alt_text": "Tap for results in the Kentucky governor election."
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 8,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 8,
+                      "colspan": 8
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "d2284e5e-0d6b-494c-a465-e855c08f6246",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "gfx-miss-gop-gov",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Art only",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media"
+                        ]
+                      }
+                    }
+                  },
+                  "media": {
+                    "media_type": "live-image",
+                    "link": {
+                      "url": "https://www.washingtonpost.com/election-results/2023/kentucky-governor/",
+                      "type": "unknown"
+                    },
+                    "art_position": "art-above-head",
+                    "art_width": "full-width",
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://d28695kzbtos76.cloudfront.net/elections/screenshots/2023/kentucky/364.png",
+                              "alt_text": "Tap for results in the Kentucky governor election.",
+                              "aspect_ratio": 5.2,
+                              "dark_mode_url": "https://d28695kzbtos76.cloudfront.net/elections/screenshots/2023/kentucky/364.png"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "tab",
+                      "units_picked": 6
+                    },
+                    "url": "https://d28695kzbtos76.cloudfront.net/elections/screenshots/2023/kentucky/364.png?ts=1704296400000",
+                    "aspect_ratio": 5.2,
+                    "alt_text": "Tap for results in the Kentucky governor election."
+                  },
+                  "layout_attributes": {
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 6,
+                      "colspan": 6
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "d2284e5e-0d6b-494c-a465-e855c08f6246",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "gfx-miss-gop-gov",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Art only",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media"
+                        ]
+                      }
+                    }
+                  },
+                  "media": {
+                    "media_type": "live-image",
+                    "link": {
+                      "url": "https://www.washingtonpost.com/election-results/2023/kentucky-governor/",
+                      "type": "unknown"
+                    },
+                    "art_position": "art-above-head",
+                    "art_width": "full-width",
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://d28695kzbtos76.cloudfront.net/elections/screenshots/2023/kentucky/298.png",
+                              "alt_text": "Tap for results in the Kentucky governor election.",
+                              "aspect_ratio": 4.257,
+                              "dark_mode_url": "https://d28695kzbtos76.cloudfront.net/elections/screenshots/2023/kentucky/298.png"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "tab",
+                      "units_picked": 5
+                    },
+                    "url": "https://d28695kzbtos76.cloudfront.net/elections/screenshots/2023/kentucky/298.png?ts=1704296400000",
+                    "aspect_ratio": 4.257,
+                    "alt_text": "Tap for results in the Kentucky governor election."
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 5,
+                      "colspan": 5
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "d2284e5e-0d6b-494c-a465-e855c08f6246",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "gfx-miss-gop-gov",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Art only",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media"
+                        ]
+                      }
+                    }
+                  },
+                  "media": {
+                    "media_type": "live-image",
+                    "link": {
+                      "url": "https://www.washingtonpost.com/election-results/2023/kentucky-governor/",
+                      "type": "unknown"
+                    },
+                    "art_position": "art-above-head",
+                    "art_width": "full-width",
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://d28695kzbtos76.cloudfront.net/elections/screenshots/2023/kentucky/364.png",
+                              "alt_text": "Tap for results in the Kentucky governor election.",
+                              "aspect_ratio": 5.2,
+                              "dark_mode_url": "https://d28695kzbtos76.cloudfront.net/elections/screenshots/2023/kentucky/364.png"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "tab",
+                      "units_picked": 1
+                    },
+                    "url": "https://d28695kzbtos76.cloudfront.net/elections/screenshots/2023/kentucky/364.png?ts=1704296400000",
+                    "aspect_ratio": 5.2,
+                    "alt_text": "Tap for results in the Kentucky governor election."
+                  },
+                  "layout_attributes": {
+                    "xsmall": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "98539772-27ea-454e-9fb0-b5ccba30ca70",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "gfx-miss-gop-gov",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Art only",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media"
+                        ]
+                      }
+                    }
+                  },
+                  "media": {
+                    "media_type": "live-image",
+                    "link": {
+                      "url": "https://www.washingtonpost.com/elections/results/2024/01/15/iowa-presidential-caucus/",
+                      "type": "unknown"
+                    },
+                    "art_position": "art-above-head",
+                    "art_width": "full-width",
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-01-15-election-race-us-president-2024-race-feed_HomepageCompactResultsTable/496.png",
+                              "alt_text": "Tap for results in the Iowa GOP Caucuses.",
+                              "aspect_ratio": 1,
+                              "dark_mode_url": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-01-15-election-race-us-president-2024-race-feed_HomepageCompactResultsTable/496-dark.png"
+                            },
+                            {
+                              "url": "https://dohdeick6sqa6.cloudfront.net/screenshots/production/table-governor/51@xs.png",
+                              "aspect_ratio": 9.04,
+                              "alt_text": "Virginia gubernatorial results"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "tab",
+                      "units_picked": 8
+                    },
+                    "url": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-01-15-election-race-us-president-2024-race-feed_HomepageCompactResultsTable/496.png?ts=1704296400000",
+                    "aspect_ratio": 1,
+                    "alt_text": "Tap for results in the Iowa GOP Caucuses."
+                  },
+                  "layout_attributes": {
+                    "xlarge": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    },
+                    "large": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 8
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "98539772-27ea-454e-9fb0-b5ccba30ca70",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "gfx-miss-gop-gov",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Art only",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media"
+                        ]
+                      }
+                    }
+                  },
+                  "media": {
+                    "media_type": "live-image",
+                    "link": {
+                      "url": "https://www.washingtonpost.com/elections/results/2024/01/15/iowa-presidential-caucus/",
+                      "type": "unknown"
+                    },
+                    "art_position": "art-above-head",
+                    "art_width": "full-width",
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-01-15-election-race-us-president-2024-race-feed_HomepageCompactResultsTable/364.png",
+                              "alt_text": "Tap for results in the Iowa GOP Caucuses.",
+                              "aspect_ratio": 1,
+                              "dark_mode_url": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-01-15-election-race-us-president-2024-race-feed_HomepageCompactResultsTable/364-dark.png"
+                            },
+                            {
+                              "url": "https://dohdeick6sqa6.cloudfront.net/screenshots/production/table-governor/51@xs.png",
+                              "aspect_ratio": 9.04,
+                              "alt_text": "Virginia gubernatorial results"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "tab",
+                      "units_picked": 6
+                    },
+                    "url": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-01-15-election-race-us-president-2024-race-feed_HomepageCompactResultsTable/364.png?ts=1704296400000",
+                    "aspect_ratio": 1,
+                    "alt_text": "Tap for results in the Iowa GOP Caucuses."
+                  },
+                  "layout_attributes": {
+                    "medium": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 6
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "98539772-27ea-454e-9fb0-b5ccba30ca70",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "gfx-miss-gop-gov",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Art only",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media"
+                        ]
+                      }
+                    }
+                  },
+                  "media": {
+                    "media_type": "live-image",
+                    "link": {
+                      "url": "https://www.washingtonpost.com/elections/results/2024/01/15/iowa-presidential-caucus/",
+                      "type": "unknown"
+                    },
+                    "art_position": "art-above-head",
+                    "art_width": "full-width",
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-01-15-election-race-us-president-2024-race-feed_HomepageCompactResultsTable/298.png",
+                              "alt_text": "Tap for results in the Iowa GOP Caucuses.",
+                              "aspect_ratio": 1,
+                              "dark_mode_url": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-01-15-election-race-us-president-2024-race-feed_HomepageCompactResultsTable/298-dark.png"
+                            },
+                            {
+                              "url": "https://dohdeick6sqa6.cloudfront.net/screenshots/production/table-governor/51@xs.png",
+                              "aspect_ratio": 9.04,
+                              "alt_text": "Virginia gubernatorial results"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "tab",
+                      "units_picked": 5
+                    },
+                    "url": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-01-15-election-race-us-president-2024-race-feed_HomepageCompactResultsTable/298.png?ts=1704296400000",
+                    "aspect_ratio": 1,
+                    "alt_text": "Tap for results in the Iowa GOP Caucuses."
+                  },
+                  "layout_attributes": {
+                    "small": {
+                      "row": 0,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 5
+                    }
+                  }
+                },
+                {
+                  "is_from_feed": false,
+                  "id": "98539772-27ea-454e-9fb0-b5ccba30ca70",
+                  "item_type": "fronts/flex-feature",
+                  "display_name": "gfx-miss-gop-gov",
+                  "wrap_text": false,
+                  "text_alignment": "left",
+                  "last_picked_preset": "Art only",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "media"
+                        ]
+                      }
+                    }
+                  },
+                  "media": {
+                    "media_type": "live-image",
+                    "link": {
+                      "url": "https://www.washingtonpost.com/elections/results/2024/01/15/iowa-presidential-caucus/",
+                      "type": "unknown"
+                    },
+                    "art_position": "art-above-head",
+                    "art_width": "full-width",
+                    "live_image": {
+                      "tabs": [
+                        {
+                          "images": [
+                            {
+                              "url": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-01-15-election-race-us-president-2024-race-feed_HomepageCompactResultsTable/364.png",
+                              "alt_text": "Tap for results in the Iowa GOP Caucuses.",
+                              "aspect_ratio": 1,
+                              "dark_mode_url": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-01-15-election-race-us-president-2024-race-feed_HomepageCompactResultsTable/364-dark.png"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "tab",
+                      "units_picked": 1
+                    },
+                    "url": "https://d3j562a6fou82u.cloudfront.net/elections/election-results/components/2024/2024-01-15-election-race-us-president-2024-race-feed_HomepageCompactResultsTable/364.png?ts=1704296400000",
+                    "aspect_ratio": 3.162,
+                    "alt_text": "Tap for results in the Iowa GOP Caucuses.1111"
+                  },
+                  "layout_attributes": {
+                    "xsmall": {
+                      "row": 1,
+                      "rowspan": 1,
+                      "col": 0,
+                      "colspan": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "table9-5b445f5a-ad2e-4ec3-8df0-043e17148d4b",
+              "table_name": "table9",
+              "item_type": "table",
+              "link_group": "no-name",
+              "layout_attributes": {
+                "xlarge": {
+                  "row": 0,
+                  "rowspan": 1,
+                  "col": 16,
+                  "colspan": 4
+                }
+              },
+              "items": []
+            }
+          ]
+        },
+        {
+          "item_type": "separator",
+          "item_type_impl": "chain/top-table",
+          "size": "large",
+          "line": false,
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          }
+        }
+      ]
+    }
+  ],
+  "cards": {
+    "xsmall": {
+      "tables": [
+        [
+          "allcontent-17644a1b-a03d-437e-b6bd-486fe3eae6ca"
+        ],
+        [
+          "table2-5b445f5a-ad2e-4ec3-8df0-043e17148d4b"
+        ]
+      ]
+    }
+  },
+  "checksum": "lg81r2hrt551p9a81179p195s"
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2018. The Washington Post
+  ~ Created by adkinsj on 11/27/19.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_privacy_settings_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="@color/privacy_settings_background_color">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/privacy_settings_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/privacy_settings_toolbar_color"
+        android:layout_gravity="center_vertical"
+        android:minHeight="@dimen/privacy_settings_toolbar_height"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_privacy_settings_toolbar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:gravity="start"
+            android:textSize="20sp"
+            android:layout_gravity="start"
+            android:paddingLeft="8dp"
+            android:text="@string/privacy_settings_toolbar_text"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/privacy_settings_root_layout">
+
+            <TextView
+                android:id="@+id/tv_privacy_settings_header"
+                style="@style/privacy_settings_wall_header_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_settings_header"/>
+
+            <TextView
+                android:id="@+id/tv_privacy_settings_body"
+                style="@style/privacy_settings_body_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_settings_body"/>
+
+            <TextView
+                android:id="@+id/tv_privacy_settings_account"
+                style="@style/privacy_settings_account_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/privacy_policy_account_background"
+                android:elevation="2dp"
+                android:padding="@dimen/privacy_settings_account_padding"
+                android:text="@string/privacy_settings_account"
+                android:textColor="@color/privacy_settings_account_text_color" />
+
+            <LinearLayout
+                android:id="@+id/ll_privacy_settings_switch_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/privacy_settings_margin_large">
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/sw_privacy_settings_switch"
+                    style="@style/privacy_settings_switch_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:switchMinWidth="0dp"
+                    android:textOff=""
+                    android:textOn=""/>
+
+                <TextView
+                    android:id="@+id/tv_privacy_settings_switch_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_settings_switch_text_enabled"
+                    style="@style/privacy_settings_switch_text_style"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_privacy_settings_bottom_text"
+                style="@style/privacy_settings_body_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_settings_bottom_text"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

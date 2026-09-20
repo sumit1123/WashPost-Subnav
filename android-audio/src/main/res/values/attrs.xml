@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="sf_gathering_news_font" format="string"/>
+    <attr name="sf_gathering_news_font_bold" format="string"/>
+    <attr name="sf_gathering_news_font_italic" format="string"/>
+    <attr name="sf_gathering_news_font_bold_italic" format="string"/>
+</resources>

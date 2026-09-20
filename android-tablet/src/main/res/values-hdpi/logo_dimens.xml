@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="logo_section_padding_top" format="float" type="string">0.29</item>
+    <item name="logo_section_padding_bottom" format="float" type="string">0.16</item>
+</resources>

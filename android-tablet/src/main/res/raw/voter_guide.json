@@ -1,0 +1,983 @@
+{
+  "NO_STATE": {
+    "voterRegistration": {
+      "readMore": "https://www.washingtonpost.com/elections/2020/how-to-vote/",
+      "overrideDeadline": "<p class=\"pb-xs\">Find out what restrictions your state is enforcing or any new requirements for 2020.</p><p class=\"pb-xs bold\">Main-in ballots state-by-state</p><p>Add national statistic about mail in or absentee ballots right here.</p>"
+    },
+    "stateName": "Select your state",
+    "instructions": "Find out what restrictions your state is enforcing or any new requirements for 2020.<br><b>Main-in ballots state-by-state</b><br>Add national statistic about mail in or absentee ballots right here."
+  },
+  "AK": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-24",
+      "requestBallotUrl": "https://absenteeballotapplication.alaska.gov/",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "2020-10-04",
+      "readMore": "https://elections.alaska.gov/",
+      "sameDay": false
+    },
+    "idNeeded": "NONPHOTO",
+    "stateName": "Alaska",
+    "stateAbbrev": "Alaska",
+    "instructions": "The deadline to register is in <b>11 days, Oct. 4th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your non-photo ID</b>."
+  },
+  "AL": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-29",
+      "requestBallotUrl": "https://www.sos.alabama.gov/alabama-votes/absentee-ballot-applications",
+      "returnDeadline": "2020-11-02",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "2020-10-19",
+      "readMore": "https://www.sos.alabama.gov/alabama-votes",
+      "sameDay": false
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "Alabama",
+    "stateAbbrev": "Ala.",
+    "instructions": "The deadline to register is in <b>26 days, Oct. 19th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "AR": {
+    "absenteeVoting": {
+      "appDeadline": "NOTE",
+      "requestBallotUrl": "https://www.sos.arkansas.gov/uploads/elections/Absentee_Ballot_Application_1.pdf",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": false,
+      "deadline": "2020-10-05",
+      "readMore": "https://www.sos.arkansas.gov/elections",
+      "sameDay": false
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "Arkansas",
+    "stateAbbrev": "Ark.",
+    "instructions": "The deadline to register is in <b>12 days, Oct. 5th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "AZ": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-23",
+      "requestBallotUrl": "https://my.arizona.vote/Early/ApplicationLogin.aspx",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "application"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "2020-10-05",
+      "readMore": "https://azsos.gov/elections",
+      "sameDay": false
+    },
+    "idNeeded": "TWO_NONPHOTO",
+    "stateName": "Arizona",
+    "stateAbbrev": "Ariz.",
+    "instructions": "The deadline to register is in <b>12 days, Oct. 5th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID or 2 forms of non-photo ID</b>."
+  },
+  "CA": {
+    "absenteeVoting": {
+      "appDeadline": "AUTO",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "ballot"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "2020-10-19",
+      "readMore": "https://www.sos.ca.gov/elections/election-2020/",
+      "sameDay": true
+    },
+    "idNeeded": "FALSE",
+    "stateName": "California",
+    "stateAbbrev": "Calif.",
+    "instructions": "The deadline to register is in <b>26 days, Oct. 19th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "CO": {
+    "absenteeVoting": {
+      "appDeadline": "AUTO",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "ballot"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "2020-10-26",
+      "readMore": "https://www.sos.state.co.us/pubs/elections/main.html",
+      "sameDay": true
+    },
+    "idNeeded": "NONPHOTO",
+    "stateName": "Colorado",
+    "stateAbbrev": "Colo.",
+    "instructions": "The deadline to register is in <b>33 days, Oct. 26th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your non-photo ID</b>."
+  },
+  "CT": {
+    "absenteeVoting": {
+      "appDeadline": "2020-11-02",
+      "requestBallotUrl": "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Absentee-Voting",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "application"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "2020-10-27",
+      "readMore": "https://portal.ct.gov/SOTS",
+      "sameDay": true
+    },
+    "idNeeded": "NONPHOTO",
+    "stateName": "Connecticut",
+    "stateAbbrev": "Conn.",
+    "instructions": "The deadline to register is in <b>34 days, Oct. 27th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your non-photo ID</b>."
+  },
+  "DC": {
+    "absenteeVoting": {
+      "appDeadline": "AUTO",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "ballot"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": false,
+      "deadline": "2020-10-13",
+      "readMore": "https://www.dcboe.org/",
+      "sameDay": true
+    },
+    "idNeeded": "FALSE",
+    "stateName": "District of Columbia",
+    "stateAbbrev": "D.C.",
+    "instructions": "The deadline to register is in <b>20 days, Oct. 13th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "DE": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-30",
+      "requestBallotUrl": "https://ivote.de.gov/VoterView",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "application"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "2020-10-10",
+      "readMore": "https://elections.delaware.gov/index.shtml",
+      "sameDay": false
+    },
+    "idNeeded": "NONPHOTO",
+    "stateName": "Delaware",
+    "stateAbbrev": "Del.",
+    "instructions": "The deadline to register is in <b>17 days, Oct. 10th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your non-photo ID</b>."
+  },
+  "FL": {
+    "absenteeVoting": {
+      "appDeadline": "NOTE",
+      "requestBallotUrl": "https://dos.myflorida.com/elections/for-voters/voting/vote-by-mail/",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "2020-10-05",
+      "readMore": "https://dos.myflorida.com/elections/for-voters/",
+      "sameDay": false
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "Florida",
+    "stateAbbrev": "Fla.",
+    "instructions": "The deadline to register is in <b>12 days, Oct. 5th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "GA": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-30",
+      "requestBallotUrl": "https://ballotrequest.sos.ga.gov/",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "2020-10-05",
+      "readMore": "https://securevotega.com/",
+      "sameDay": false
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "Georgia",
+    "stateAbbrev": "Ga.",
+    "instructions": "The deadline to register is in <b>12 days, Oct. 5th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "HI": {
+    "absenteeVoting": {
+      "appDeadline": "AUTO",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "ballot"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "2020-10-05",
+      "readMore": "https://elections.hawaii.gov/voters/voting-in-hawaii-guide/",
+      "sameDay": true
+    },
+    "idNeeded": "FALSE",
+    "stateName": "Hawaii",
+    "stateAbbrev": "Hawaii",
+    "instructions": "The deadline to register is in <b>12 days, Oct. 5th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "IA": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-24",
+      "requestBallotUrl": "https://sos.iowa.gov/elections/pdf/absenteeballotapp.pdf",
+      "returnDeadline": "2020-11-02",
+      "covidAsExcuse": "application"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "2020-10-24",
+      "readMore": "https://sos.iowa.gov/elections/voterinformation/index.html",
+      "sameDay": true
+    },
+    "idNeeded": "NONPHOTO",
+    "stateName": "Iowa",
+    "stateAbbrev": "Iowa",
+    "instructions": "The deadline to register is in <b>31 days, Oct. 24th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your non-photo ID</b>."
+  },
+  "ID": {
+    "absenteeVoting": {
+      "appDeadline": "NOTE",
+      "requestBallotUrl": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/BeginAbsenteeRequest.aspx",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "2020-10-09",
+      "readMore": "https://idahovotes.gov/",
+      "sameDay": true
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "Idaho",
+    "stateAbbrev": "Idaho",
+    "instructions": "The deadline to register is in <b>16 days, Oct. 9th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "IL": {
+    "absenteeVoting": {
+      "appDeadline": "NOTE",
+      "requestBallotUrl": "https://elections.il.gov/ElectionOperations/VotingByMailAgreement.aspx",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "application"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "NOTE",
+      "readMore": "https://www.elections.il.gov/",
+      "sameDay": true,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct. 6</span> by mail, <span class=\"bold bg-text-highlight\">Oct. 18</span> online and <span class=\"bold bg-text-highlight\">Election Day, Nov. 3</span>, in person"
+    },
+    "idNeeded": "FALSE",
+    "stateName": "Illinois",
+    "stateAbbrev": "Ill.",
+    "instructions": "<b>Oct. 6</b> by mail, <b>Oct. 18</b> online and <b>Election Day, Nov. 3</b>, in person.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "IN": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-22",
+      "requestBallotUrl": "https://indianavoters.in.gov/MVPHome/PrintDocuments",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "excuse-req"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "2020-10-05",
+      "readMore": "https://www.in.gov/sos/elections/2398.htm",
+      "sameDay": false
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "Indiana",
+    "stateAbbrev": "Ind.",
+    "instructions": "The deadline to register is in <b>12 days, Oct. 5th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "KS": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-27",
+      "requestBallotUrl": "https://www.kssos.org/forms/elections/AV1.pdf",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "2020-10-13",
+      "readMore": "https://sos.ks.gov/elections/elections.html",
+      "sameDay": false
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "Kansas",
+    "stateAbbrev": "Kan.",
+    "instructions": "The deadline to register is in <b>20 days, Oct. 13th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "KY": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-09",
+      "requestBallotUrl": "https://vrsws.sos.ky.gov/abrweb/",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "2020-10-05",
+      "readMore": "https://vrsws.sos.ky.gov/ovrweb/govoteky",
+      "sameDay": false
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "Kentucky",
+    "stateAbbrev": "Ky.",
+    "instructions": "The deadline to register is in <b>12 days, Oct. 5th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "LA": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-30",
+      "requestBallotUrl": "https://www.sos.la.gov/ElectionsAndVoting/Vote/VoteByMail/Pages/default.aspx",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "excuse-req"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "NOTE",
+      "readMore": "https://www.sos.la.gov/ElectionsAndVoting/Pages/default.aspx",
+      "sameDay": false,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct. 5</span> postmarked by mail or in person and <span class=\"bold bg-text-highlight\">Oct. 13</span> online"
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "Louisiana",
+    "stateAbbrev": "La.",
+    "instructions": "<b>Oct. 5</b> postmarked by mail or in person and <b>Oct. 13</b> online.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "MA": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-28",
+      "requestBallotUrl": "https://www.sec.state.ma.us/ele/elepdf/2020-Vote-by-Mail-Application.pdf",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "application"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "2020-10-24",
+      "readMore": "https://www.sec.state.ma.us/Ele/",
+      "sameDay": false
+    },
+    "idNeeded": "FALSE",
+    "stateName": "Massachusetts",
+    "stateAbbrev": "Mass.",
+    "instructions": "The deadline to register is in <b>31 days, Oct. 24th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "MD": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-20",
+      "requestBallotUrl": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "application"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "2020-10-13",
+      "readMore": "https://elections.maryland.gov/index.html",
+      "sameDay": true
+    },
+    "idNeeded": "FALSE",
+    "stateName": "Maryland",
+    "stateAbbrev": "Md.",
+    "instructions": "The deadline to register is in <b>20 days, Oct. 13th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "ME": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-29",
+      "requestBallotUrl": "https://www.maine.gov/cgi-bin/online/AbsenteeBallot/index.pl",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": false,
+      "deadline": "NOTE",
+      "readMore": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
+      "sameDay": true,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct. 19</span> by mail and <span class=\"bold bg-text-highlight\">Election Day, Nov. 3</span>, in person"
+    },
+    "idNeeded": "FALSE",
+    "stateName": "Maine",
+    "stateAbbrev": "Maine",
+    "instructions": "<b>Oct. 19</b> by mail and <b>Election Day, Nov. 3</b>, in person.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "MI": {
+    "absenteeVoting": {
+      "appDeadline": "NOTE",
+      "requestBallotUrl": "https://mvic.sos.state.mi.us/avapplication",
+      "returnDeadline": "2020-11-02",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "NOTE",
+      "readMore": "https://www.michigan.gov/sos/0,4670,7-127-1633---,00.html",
+      "sameDay": true,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct. 19</span> online or postmarked by mail and <span class=\"bold bg-text-highlight\">Election Day, Nov. 3</span>, in person"
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "Michigan",
+    "stateAbbrev": "Mich.",
+    "instructions": "<b>Oct. 19</b> online or postmarked by mail and <b>Election Day, Nov. 3</b>, in person.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "MN": {
+    "absenteeVoting": {
+      "appDeadline": "2020-11-02",
+      "requestBallotUrl": "https://mnvotes.sos.state.mn.us/ABRegistration/ABRegistrationStep1.aspx",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "2020-10-13",
+      "readMore": "https://www.sos.state.mn.us/elections-voting/",
+      "sameDay": true
+    },
+    "idNeeded": "FALSE",
+    "stateName": "Minnesota",
+    "stateAbbrev": "Minn.",
+    "instructions": "The deadline to register is in <b>20 days, Oct. 13th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "MO": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-21",
+      "requestBallotUrl": "https://www.sos.mo.gov/CMSImages/ElectionGoVoteMissouri/2020FillableBallotApplication-GeneralElection.pdf",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "2020-10-07",
+      "readMore": "https://www.sos.mo.gov/elections",
+      "sameDay": false
+    },
+    "idNeeded": "NONPHOTO",
+    "stateName": "Missouri",
+    "stateAbbrev": "Mo.",
+    "instructions": "The deadline to register is in <b>14 days, Oct. 7th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your non-photo ID</b>."
+  },
+  "MS": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-31",
+      "requestBallotUrl": "county circuit clerk",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "excuse-req"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": false,
+      "deadline": "NOTE",
+      "readMore": "https://www.sos.ms.gov/elections-voting/pages/default.aspx",
+      "sameDay": false,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct. 5</span>. Mail applications must be postmarked by that date"
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "Mississippi",
+    "stateAbbrev": "Miss.",
+    "instructions": "<b>Oct. 5</b>. Mail applications must be postmarked by that date.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "MT": {
+    "absenteeVoting": {
+      "appDeadline": "2020-11-02",
+      "requestBallotUrl": "https://sosmt.gov/Portals/142/Elections/Forms/Application-for-Absentee-Ballot.pdf",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": false,
+      "deadline": "NOTE",
+      "readMore": "https://sosmt.gov/elections/",
+      "sameDay": true,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct. 26</span> for regular registration. Late registration is possible at a county election office or another designated location through <span class=\"bold bg-text-highlight\">Election Day, Nov. 3</span>"
+    },
+    "idNeeded": "NONPHOTO",
+    "stateName": "Montana",
+    "stateAbbrev": "Mont.",
+    "instructions": "<b>Oct. 26</b> for regular registration. Late registration is possible at a county election office or another designated location through <b>Election Day, Nov. 3</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your non-photo ID</b>."
+  },
+  "NC": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-27",
+      "requestBallotUrl": "https://votebymail.ncsbe.gov/app/home",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "NOTE",
+      "readMore": "https://www.ncsbe.gov/",
+      "sameDay": false,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct. 9</span> postmarked by mail, online or in person. After that, you can register at an early voting site between <span class=\"bold bg-text-highlight\">Oct. 15 and Oct. 31</span>"
+    },
+    "idNeeded": "FALSE",
+    "stateName": "North Carolina",
+    "stateAbbrev": "N.C.",
+    "instructions": "<b>Oct. 9</b> postmarked by mail, online or in person. After that, you can register at an early voting site between <b>Oct. 15 and Oct. 31</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "ND": {
+    "absenteeVoting": {
+      "appDeadline": "2020-11-02",
+      "requestBallotUrl": "https://vip.sos.nd.gov/absentee",
+      "returnDeadline": "2020-11-02",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "readMore": "https://vip.sos.nd.gov/PortalList.aspx",
+      "overrideDeadline": "N.D. does not have voter registration."
+    },
+    "idNeeded": "NONPHOTO",
+    "stateName": "North Dakota",
+    "stateAbbrev": "N.D.",
+    "instructions": "North Dakota does not have voter registration.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your non-photo ID</b>."
+  },
+  "NE": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-23",
+      "requestBallotUrl": "https://sos.nebraska.gov/sites/sos.nebraska.gov/files/doc/elections/earlyvote_app_fill.pdf",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "application"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "NOTE",
+      "readMore": "https://www.nebraska.gov/featured/elections-voting/",
+      "sameDay": false,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct. 16</span> online or by mail and <span class=\"bold bg-text-highlight\">Oct. 23</span> in person"
+    },
+    "idNeeded": "FALSE",
+    "stateName": "Nebraska",
+    "stateAbbrev": "Neb.",
+    "instructions": "<b>Oct. 16</b> online or by mail and <b>Oct. 23</b> in person.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "NH": {
+    "absenteeVoting": {
+      "appDeadline": "2020-11-02",
+      "requestBallotUrl": "https://sos.nh.gov/elections/voters/absentee-ballots/request-an-absentee-ballot/",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": false,
+      "deadline": "NOTE",
+      "readMore": "https://sos.nh.gov/",
+      "sameDay": true,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct. 21 through Oct. 28</span> depending on your municipality. You can also register at your polling place on <span class=\"bold bg-text-highlight\">Election Day, Nov. 3</span>"
+    },
+    "idNeeded": "NONPHOTO",
+    "stateName": "New Hampshire",
+    "stateAbbrev": "N.H.",
+    "instructions": "<b>Oct. 21 through Oct. 28</b> depending on your municipality. You can also register at your polling place on <b>Election Day, Nov. 3</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your non-photo ID</b>."
+  },
+  "NJ": {
+    "absenteeVoting": {
+      "appDeadline": "AUTO",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "ballot"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "2020-10-13",
+      "readMore": "https://nj.gov/state/elections/index.shtml",
+      "sameDay": false
+    },
+    "idNeeded": "FALSE",
+    "stateName": "New Jersey",
+    "stateAbbrev": "N.J.",
+    "instructions": "The deadline to register is in <b>20 days, Oct. 13th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "NM": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-20",
+      "requestBallotUrl": "https://portal.sos.state.nm.us/OVR/WebPages/AbsenteeApplication.aspx",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "NOTE",
+      "readMore": "https://www.sos.state.nm.us/voting-and-elections/voter-information-portal/",
+      "sameDay": false,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct. 6</span> postmarked by mail or online. After that, you can register in person through <span class=\"bold bg-text-highlight\"> Oct. 31</span> at your county clerk’s office"
+    },
+    "idNeeded": "FALSE",
+    "stateName": "New Mexico",
+    "stateAbbrev": "N.M.",
+    "instructions": "<b>Oct. 6</b> postmarked by mail or online. After that, you can register in person through <b> Oct. 31</b> at your county clerk’s office.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "NV": {
+    "absenteeVoting": {
+      "appDeadline": "AUTO",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "ballot"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "NOTE",
+      "readMore": "https://www.nvsos.gov/sos/elections",
+      "sameDay": true,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct. 6</span> by mail or in person and <span class=\"bold bg-text-highlight\">Oct. 29</span> online"
+    },
+    "idNeeded": "FALSE",
+    "stateName": "Nevada",
+    "stateAbbrev": "Nev.",
+    "instructions": "<b>Oct. 6</b> by mail or in person and <b>Oct. 29</b> online.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "NY": {
+    "absenteeVoting": {
+      "appDeadline": "NOTE",
+      "requestBallotUrl": "https://www.elections.ny.gov/NYSBOE/download/voting/AbsenteeBallot-English.pdf",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "NOTE",
+      "readMore": "https://www.elections.ny.gov/INDEX.html",
+      "sameDay": false,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct. 9</span> in person or postmarked by mail. Mailed forms must be received by <span class=\"bold bg-text-highlight\">Oct. 14</span>"
+    },
+    "idNeeded": "FALSE",
+    "stateName": "New York",
+    "stateAbbrev": "N.Y.",
+    "instructions": "<b>Oct. 9</b> in person or postmarked by mail. Mailed forms must be received by <b>Oct. 14</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "OH": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-31",
+      "requestBallotUrl": "https://www.ohiosos.gov/globalassets/elections/forms/11-a_english.pdf",
+      "returnDeadline": "2020-11-02",
+      "covidAsExcuse": "application"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "2020-10-05",
+      "readMore": "https://www.ohiosos.gov/elections/voters/",
+      "sameDay": false
+    },
+    "idNeeded": "NONPHOTO",
+    "stateName": "Ohio",
+    "stateAbbrev": "Ohio",
+    "instructions": "The deadline to register is in <b>12 days, Oct. 5th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your non-photo ID</b>."
+  },
+  "OK": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-27",
+      "requestBallotUrl": "https://www.ok.gov/elections/OVP.html",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": false,
+      "deadline": "NOTE",
+      "readMore": "https://www.ok.gov/elections/",
+      "sameDay": false,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct. 9</span> postmarked by mail or in person"
+    },
+    "idNeeded": "NONPHOTO",
+    "stateName": "Oklahoma",
+    "stateAbbrev": "Okla.",
+    "instructions": "<b>Oct. 9</b> postmarked by mail or in person.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your non-photo ID</b>."
+  },
+  "OR": {
+    "absenteeVoting": {
+      "appDeadline": "AUTO",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "ballot"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "2020-10-13",
+      "readMore": "https://sos.oregon.gov/voting-elections/Pages/default.aspx",
+      "sameDay": false
+    },
+    "idNeeded": "FALSE",
+    "stateName": "Oregon",
+    "stateAbbrev": "Ore.",
+    "instructions": "The deadline to register is in <b>20 days, Oct. 13th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "PA": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-27",
+      "requestBallotUrl": "https://www.pavoterservices.pa.gov/OnlineAbsenteeApplication/#/OnlineAbsenteeBegin",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "2020-10-19",
+      "readMore": "https://www.pa.gov/guides/voting-and-elections/",
+      "sameDay": false
+    },
+    "idNeeded": "FALSE",
+    "stateName": "Pennsylvania",
+    "stateAbbrev": "Pa.",
+    "instructions": "The deadline to register is in <b>26 days, Oct. 19th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "RI": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-13",
+      "requestBallotUrl": "https://elections.ri.gov/publications/Election_Publications/Election_Info/General%20Mail%20Ballot%20Application%2011-3-2020.pdf",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "application"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "2020-10-04",
+      "readMore": "https://vote.sos.ri.gov/",
+      "sameDay": false
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "Rhode Island",
+    "stateAbbrev": "R.I.",
+    "instructions": "The deadline to register is in <b>11 days, Oct. 4th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "SC": {
+    "absenteeVoting": {
+      "appDeadline": "NOTE",
+      "requestBallotUrl": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx?PageMode=AbsenteeRequest",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "NOTE",
+      "readMore": "https://www.scvotes.gov/",
+      "sameDay": false,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct. 2</span> in person, <span class=\"bold bg-text-highlight\">Oct. 4</span> by email, fax or online and <span class=\"bold bg-text-highlight\">Oct. 5</span> postmarked by mail"
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "South Carolina",
+    "stateAbbrev": "S.C.",
+    "instructions": "<b>Oct. 2</b> in person, <b>Oct. 4</b> by email, fax or online and <b>Oct. 5</b> postmarked by mail.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "SD": {
+    "absenteeVoting": {
+      "appDeadline": "2020-11-02",
+      "requestBallotUrl": "https://sdsos.gov/elections-voting/assets/AbsenteeBallotApplicationFillable.pdf",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": false,
+      "deadline": "2020-10-19",
+      "readMore": "https://sdsos.gov/elections-voting/voting/default.aspx",
+      "sameDay": false
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "South Dakota",
+    "stateAbbrev": "S.D.",
+    "instructions": "The deadline to register is in <b>26 days, Oct. 19th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "TN": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-27",
+      "requestBallotUrl": "https://sos-tn-gov-files.tnsosfiles.com/Absentee%20Ballot%20Request%20Form.pdf",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "excuse-req"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "NOTE",
+      "readMore": "https://sos.tn.gov/elections",
+      "sameDay": false,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct. 5</span> for online, postmarked by mail and in person."
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "Tennessee",
+    "stateAbbrev": "Tenn.",
+    "instructions": "<b>Oct. 5</b> for online, postmarked by mail and in person..<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "TX": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-23",
+      "requestBallotUrl": "https://webservices.sos.state.tx.us/forms/5-15f.pdf",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "excuse-req"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": false,
+      "deadline": "2020-10-05",
+      "readMore": "https://www.votetexas.gov/",
+      "sameDay": false
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "Texas",
+    "stateAbbrev": "Tex.",
+    "instructions": "The deadline to register is in <b>12 days, Oct. 5th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "UT": {
+    "absenteeVoting": {
+      "appDeadline": "AUTO",
+      "returnDeadline": "2020-11-02",
+      "covidAsExcuse": "ballot"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "2020-10-23",
+      "readMore": "https://vote.utah.gov/",
+      "sameDay": true
+    },
+    "idNeeded": "TWO_NONPHOTO",
+    "stateName": "Utah",
+    "stateAbbrev": "Utah",
+    "instructions": "The deadline to register is in <b>30 days, Oct. 23rd</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID or 2 forms of non-photo ID</b>."
+  },
+  "VA": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-23",
+      "requestBallotUrl": "https://vote.elections.virginia.gov/VoterInformation/Lookup/absentee",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "2020-10-13",
+      "readMore": "https://www.elections.virginia.gov/index.html",
+      "sameDay": false
+    },
+    "idNeeded": "NONPHOTO",
+    "stateName": "Virginia",
+    "stateAbbrev": "Va.",
+    "instructions": "The deadline to register is in <b>20 days, Oct. 13th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your non-photo ID</b>."
+  },
+  "VT": {
+    "absenteeVoting": {
+      "appDeadline": "AUTO",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "ballot"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "NOTE",
+      "readMore": "https://sos.vermont.gov/elections/",
+      "sameDay": true,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct. 30</span> online, and through <span class=\"bold bg-text-highlight\">Election Day, Nov. 3</span>, in person"
+    },
+    "idNeeded": "FALSE",
+    "stateName": "Vermont",
+    "stateAbbrev": "Vt.",
+    "instructions": "<b>Oct. 30</b> online, and through <b>Election Day, Nov. 3</b>, in person.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  },
+  "WA": {
+    "absenteeVoting": {
+      "appDeadline": "AUTO",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "ballot"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "2020-10-26",
+      "readMore": "https://www.sos.wa.gov/elections/",
+      "sameDay": true
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "Washington",
+    "stateAbbrev": "Wash.",
+    "instructions": "The deadline to register is in <b>33 days, Oct. 26th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "WI": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-29",
+      "requestBallotUrl": "https://myvote.wi.gov/en-us/VoteAbsentee",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "application"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": true,
+      "deadline": "NOTE",
+      "readMore": "https://myvote.wi.gov/en-us/",
+      "sameDay": true,
+      "overrideDeadline": "<span class=\"bold bg-text-highlight\">Oct.14</span> by mail or online and <span class=\"bold bg-text-highlight\">Oct. 30</span> in person. You can also register on <span class=\"bold bg-text-highlight\">Election Day, Nov. 3</span>, in person at your polling place"
+    },
+    "idNeeded": "PHOTO",
+    "stateName": "Wisconsin",
+    "stateAbbrev": "Wis.",
+    "instructions": "<b>Oct.14</b> by mail or online and <b>Oct. 30</b> in person. You can also register on <b>Election Day, Nov. 3</b>, in person at your polling place.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your photo ID</b>."
+  },
+  "WV": {
+    "absenteeVoting": {
+      "appDeadline": "2020-10-28",
+      "requestBallotUrl": "https://sites.omniballot.us/54/absentee/app/home",
+      "returnDeadline": "2020-11-03",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": true,
+      "online": true,
+      "deadline": "2020-10-13",
+      "readMore": "https://sos.wv.gov/elections/Pages/default.aspx",
+      "sameDay": false
+    },
+    "idNeeded": "NONPHOTO",
+    "stateName": "West Virginia",
+    "stateAbbrev": "W. Va.",
+    "instructions": "The deadline to register is in <b>20 days, Oct. 13th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8.<br><b>When you vote, bring your non-photo ID</b>."
+  },
+  "WY": {
+    "absenteeVoting": {
+      "appDeadline": "2020-11-02",
+      "requestBallotUrl": "https://sos.wyo.gov/Forms/Elections/General/AbsenteeRequestForm-Standard.pdf",
+      "returnDeadline": "FALSE",
+      "covidAsExcuse": "no-excuse"
+    },
+    "voterRegistration": {
+      "automatic": false,
+      "online": false,
+      "deadline": "2020-10-19",
+      "readMore": "https://sos.wyo.gov/Elections/Default.aspx",
+      "sameDay": true
+    },
+    "idNeeded": "FALSE",
+    "stateName": "Wyoming",
+    "stateAbbrev": "Wyo.",
+    "instructions": "The deadline to register is in <b>26 days, Oct. 19th</b>.<br>You can vote <b>by mail</b> or on <b>election day<b>, Nov. 8."
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="portrait_shark_panel">470</integer>
+    <integer name="portrait_squid_panel">500</integer>
+    <integer name="portrait_dolphin_panel">350</integer>
+    <integer name="portrait_default_panel">400</integer>
+</resources>

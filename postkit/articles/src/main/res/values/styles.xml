@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="article_pager_view_style" format="reference"/>
+    <attr name="article_main_text_color" format="color" />
+    <attr name="article_main_headline_text_color" format="color" />
+    <attr name="article_story_type_text_color" format="color"/>
+    <attr name="article_error_image" format="reference"/>
+
+    <declare-styleable name="ArticlesRecyclerView">
+        <attr name="article_items_style" format="reference"/>
+        <attr name="curtain_layout" format="reference"/>
+        <attr name="error_layout" format="reference"/>
+        <attr name="web_view_layout" format="reference"/>
+        <attr name="tag_line_layout" format="reference" />
+        <attr name="angle_threshold" format="float" />
+        <attr name="distance_threshold" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ArticleItems">
+        <attr name="article_text_style" format="reference"/>
+        <attr name="article_text_briefs_style" format="reference"/>
+        <attr name="article_text_list_item_briefs_style" format="reference"/>
+        <attr name="article_text_briefs_number_style" format="reference"/>
+        <attr name="article_text_briefs_exclusive_label_style" format="reference"/>
+        <attr name="article_text_subhead_style" format="reference"/>
+        <attr name="article_text_footer_style" format="reference"/>
+        <attr name="article_text_intro_style" format="reference"/>
+        <attr name="article_text_letter_style" format="reference"/>
+        <attr name="article_text_metatext_style" format="reference"/>
+        <attr name="article_legacy_text_link_style" format="reference"/>
+        <attr name="article_inline_header_style" format="reference"/>
+        <attr name="article_pull_quote_style" format="reference"/>
+        <attr name="article_pull_quote_caption_style" format="reference"/>
+        <attr name="article_image_caption_style" format="reference"/>
+        <attr name="article_image_caption_prepend_style" format="reference"/>
+        <attr name="article_image_credit_style" format="reference"/>
+        <attr name="article_byline_style" format="reference"/>
+        <attr name="article_elevated_byline_style" format="reference"/>
+        <attr name="article_byline_live_update_style" format="reference"/>
+        <attr name="article_byline_subtext_live_update_style" format="reference"/>
+        <attr name="article_correction_title_style" format="reference"/>
+        <attr name="article_correction_body_style" format="reference"/>
+        <attr name="article_dateline_style" format="reference"/>
+        <attr name="article_dateline_live_update_style" format="reference"/>
+        <attr name="article_headline_style" format="reference"/>
+        <attr name="article_headline_style_text" format="reference"/>
+        <attr name="article_headline_h1_style" format="reference"/>
+        <attr name="article_headline_h2_style" format="reference"/>
+        <attr name="article_headline_prefix_style" format="reference"/>
+        <attr name="article_kicker_pill_live_style" format="reference"/>
+        <attr name="article_kicker_pill_exclusive_style" format="reference"/>
+        <attr name="article_kicker_style" format="reference"/>
+        <attr name="article_kicker_elevated_style" format="reference"/>
+        <attr name="article_kicker_style_briefs" format="reference"/>
+        <attr name="article_kicker_display_transparency_style" format="reference"/>
+        <attr name="article_story_type_style" format="reference"/>
+        <attr name="article_deck_style" format="reference"/>
+        <attr name="article_gallery_title_style" format="reference"/>
+        <attr name="article_blockquote_color" format="color"/>
+        <attr name="article_blockquote_margin" format="dimension"/>
+        <attr name="article_blockquote_width" format="dimension"/>
+        <attr name="article_line_spacing_extra" format="dimension" />
+        <attr name="article_line_spacing_mult" format="float" />
+        <attr name="article_video_caption_style" format="reference" />
+        <attr name="article_block_quote_style" format="reference" />
+        <attr name="article_rating_bar_title_style" format="reference"/>
+        <attr name="article_rating_bar_text_style" format="reference"/>
+        <attr name="article_element_group_style" format="reference"/>
+        <attr name="article_link_box_main_text_color" format="color" />
+        <attr name="article_link_box_dateline_text_color" format="reference"/>
+        <attr name="article_link_box_gradient_start_color" format="reference"/>
+        <attr name="article_link_box_gradient_end_color" format="reference"/>
+        <attr name="article_link_box_kicker_style" format="reference"/>
+        <attr name="article_link_box_headline_style" format="reference"/>
+        <attr name="article_link_box_subheadline_style" format="reference"/>
+        <attr name="article_link_box_dateline_style" format="reference"/>
+        <attr name="article_link_box_text_subhead_style" format="reference"/>
+        <attr name="article_link_box_text_style" format="reference"/>
+        <attr name="article_divider_style" format="reference"/>
+        <attr name="article_divider_color" format="reference"/>
+
+        <attr name="article_table_cell_style_normal" format="reference" />
+        <attr name="article_table_cell_style_row_header" format="reference" />
+        <attr name="article_table_cell_style_column_header" format="reference" />
+        <attr name ="article_headline_live" format="reference" />
+        <attr name="article_context_box_text_style" format="reference"/>
+        <attr name="article_context_box_header_style" format="reference"/>
+        <attr name="article_truncate_text_style" format="reference"/>
+    </declare-styleable>
+
+    <style name="ArticlesStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="article_pager_view_style">@style/ArticlesPagerViewStyle</item>
+        <item name="article_main_text_color">@color/articles_main_text_color</item>
+        <item name="article_main_headline_text_color">@color/articles_headline_text_color</item>
+        <item name="article_error_image">@drawable/curtain_image</item>
+        <item name="article_rating_bar_style">@style/ArticleRatingBar</item>
+        <item name="article_rating_bar_cell_style">@style/ArticleRatingBarCell</item>
+        <item name="article_rating_bar_title_style">@style/ArticleRatingBarTitle</item>
+        <item name="article_rating_bar_text_style">@style/ArticleRatingBarText</item>
+        <item name="article_link_box_main_text_color">@color/articles_link_box_main_text_color</item>
+        <item name="article_link_box_dateline_text_color">@color/articles_link_box_dateline_text_color</item>
+        <item name="article_link_box_gradient_start_color">@color/articles_link_box_gradient_start_color</item>
+        <item name="article_link_box_gradient_end_color">@color/articles_link_box_gradient_end_color</item>
+        <item name="article_element_group_style">@style/ArticleElementGroupCell</item>
+        <item name="article_legacy_text_link_style">@style/ArticleLegacyTextLink</item>
+        <item name="article_divider_style">@style/ArticleDivider</item>
+        <item name="article_divider_color">@color/divider_color</item>
+
+        <item name="tableview_cell_normal_style">@style/TableView_TextNormal</item>
+        <item name="tableview_cell_row_header_style">@style/TableView_TextRowHeader</item>
+        <item name="tableview_cell_column_header_style">@style/TableView_TextColumnHeader</item>
+
+    </style>
+
+    <style name="ArticlesPagerViewStyle">
+        <item name="article_items_style">@style/ArticleItemsStyle</item>
+        <item name="curtain_layout">@layout/item_article_curtain</item>
+        <item name="error_layout">@layout/item_article_error</item>
+    </style>
+
+    <style name="ArticleItemsStyle">
+        <item name="article_text_style">@style/ArticleText</item>
+        <item name="article_text_subhead_style">@style/ArticleText.Subhead</item>
+        <item name="article_text_briefs_style">@style/ArticleText.Briefs</item>
+        <item name="article_text_list_item_briefs_style">@style/ArticleText.Briefs.List</item>
+        <item name="article_text_briefs_number_style">@style/ArticleText.Briefs.Number</item>
+        <item name="article_text_briefs_exclusive_label_style">@style/ArticleText.Briefs.ExclusiveLabel</item>
+        <item name="article_text_footer_style">@style/ArticleText.Footer</item>
+        <item name="article_text_intro_style">@style/ArticleText.Intro</item>
+        <item name="article_text_letter_style">@style/ArticleText.Letter</item>
+        <item name="article_text_metatext_style">@style/ArticleText.MetaText</item>
+        <item name="article_inline_header_style">@style/ArticleText.InlineHeader</item>
+        <item name="article_pull_quote_style">@style/ArticleText.PullQuote</item>
+        <item name="article_pull_quote_caption_style">@style/ArticleText.PullQuote.Caption</item>
+        <item name="article_image_caption_style">@style/ArticleText.ImageCaption</item>
+        <item name="article_image_caption_prepend_style">@style/ArticleText.ImageCaption.Prepend</item>
+        <item name="article_image_credit_style">@style/ArticleText.ImageCredit</item>
+        <item name="article_byline_style">@style/ArticleText.Byline</item>
+        <item name="article_byline_live_update_style">@style/ArticleText.Byline.LiveUpdate</item>
+        <item name="article_byline_subtext_live_update_style">@style/ArticleText.Byline.LiveUpdate.Subtext</item>
+        <item name="article_correction_title_style">@style/ArticleText.Correction.Title</item>
+        <item name="article_correction_body_style">@style/ArticleText.Correction.Body</item>
+        <item name="article_kicker_pill_live_style">@style/ArticleText.Kicker.Pill.Live</item>
+        <item name="article_kicker_pill_exclusive_style">@style/ArticleText.Kicker.Pill.Exclusive</item>
+        <item name="article_kicker_style">@style/ArticleText.Kicker</item>
+        <item name="article_kicker_style_briefs">@style/ArticleText.Kicker.Briefs</item>
+        <item name="article_kicker_display_transparency_style">@style/ArticleText.Kicker.DisplayTransparencyStyle</item>
+        <item name="article_story_type_style">@style/ArticleText.Kicker.StoryType</item>
+        <item name="article_deck_style">@style/ArticleText.Deck</item>
+        <item name="article_gallery_title_style">@style/ArticleText.GalleryTitle</item>
+        <item name="article_dateline_style">@style/ArticleText.Dateline</item>
+        <item name="article_dateline_live_update_style">@style/ArticleText.Dateline.LiveUpdate</item>
+        <item name="article_headline_style">@style/ArticleText.Headline</item>
+        <item name="article_headline_style_text">@style/ArticleText.Headline.StyleText</item>
+        <item name="article_headline_h1_style">@style/ArticleText.Headline.H1</item>
+        <item name="article_headline_h2_style">@style/ArticleText.Headline.H2</item>
+        <item name="article_headline_live">@style/ArticleText.LiveHeadline</item>
+        <item name="article_blockquote_color">@color/article_text_blockquote_margin_color</item>
+        <item name="article_blockquote_margin">@dimen/article_text_blockquote_margin_color_size</item>
+        <item name="article_blockquote_width">@dimen/article_text_blockquote_margin_gap_size</item>
+        <item name="article_video_caption_style">@style/ArticleVideoCaption</item>
+        <item name="article_block_quote_style">@style/ArticleText.BlockQuote</item>
+        <item name="article_legacy_text_link_style">@style/ArticleLegacyTextLink</item>
+        <item name="article_element_group_style">@style/ArticleElementGroupCell</item>
+        <item name="article_link_box_kicker_style">@style/ArticleLinkBoxText.Kicker</item>
+        <item name="article_link_box_headline_style">@style/ArticleText.Headline.LinkBox</item>
+        <item name="article_link_box_subheadline_style">@style/ArticleLinkBoxText.SubHeadline</item>
+        <item name="article_link_box_dateline_style">@style/ArticleLinkBoxText.Dateline</item>
+        <item name="article_link_box_text_subhead_style">@style/ArticleLinkBoxText.Subhead</item>
+        <item name="article_link_box_text_style">@style/ArticleLinkBoxText</item>
+
+        <item name="article_table_cell_style_normal">@style/ArticleTableNormalTextStyle</item>
+        <item name="article_table_cell_style_row_header">@style/ArticleTableNormalTextStyle</item>
+        <item name="article_table_cell_style_column_header">@style/ArticleTableNormalTextStyle</item>
+        <item name="article_context_box_text_style">@style/ContextBoxText</item>
+        <item name="article_context_box_header_style">@style/ContextBoxHeader</item>
+        <item name="article_truncate_text_style">@style/TruncateText</item>
+    </style>
+
+    <declare-styleable name="CenterDrawableNetworkAnimatedImageView">
+        <attr name="centerDrawableSrc" format="reference"/>
+        <attr name="showCenterDrawable" format="boolean"/>
+    </declare-styleable>
+
+    <style name="AuthorBio">
+        <item name="android:lineSpacingMultiplier">@dimen/article_text_byline_bio_span_text_line_spacing_mult</item>
+    </style>
+
+    <style name="inline_user_name_style">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="ArticleText">
+        <item name="android:textSize">@dimen/native_article_body_text_size</item>
+        <item name="android:textColor">?attr/article_main_text_color</item>
+        <item name="fontFile">Georgia-Regular.otf</item>
+        <item name="fontFileBold">Georgia-Bold.otf</item>
+        <item name="fontFileItalic">Georgia-Italic.otf</item>
+        <item name="fontFileBoldItalic">Georgia-Bold.otf</item>
+        <item name="article_line_spacing_extra">0dp</item>
+        <item name="article_line_spacing_mult">1.40</item>
+    </style>
+
+    <style name="ArticleText.Byline" parent="">
+        <item name="android:textSize">@dimen/native_article_byline_text_size</item>
+        <item name="android:textColor">@color/article_by_line</item>
+        <item name="fontFile">Franklin-ITC-Pro-Light.otf</item>
+        <item name="fontFileBold">Franklin-ITC-Pro-Bold.otf</item>
+        <item name="android:lineSpacingExtra">@dimen/native_article_byline_line_spacing_extra</item>
+    </style>
+
+    <style name="ArticleText.Elevated.Byline" parent="">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/article_by_line</item>
+        <item name="fontFile">PostoniWide-Regular.otf</item>
+        <item name="fontFileBold">PostoniWide-Bold.otf</item>
+        <item name="android:lineSpacingExtra">@dimen/native_article_byline_line_spacing_extra</item>
+    </style>
+
+    <style name="ArticleText.Byline.Author" parent="">
+        <item name="android:textSize">@dimen/native_article_byline_text_size</item>
+        <item name="android:textColor">@color/article_by_line</item>
+        <item name="fontFile">Franklin-ITC-Pro-Light.otf</item>
+        <item name="fontFileBold">Franklin-ITC-Pro-Bold.otf</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">@dimen/native_article_byline_line_spacing_extra</item>
+    </style>
+
+    <style name="ArticleText.Byline.LiveUpdate" parent="">
+        <item name="android:textSize">@dimen/native_article_byline_live_update_text_size</item>
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="android:lineSpacingExtra">@dimen/native_article_byline_live_update_line_spacing_extra</item>
+    </style>
+
+    <style name="expanded_byline_style">
+        <item name="android:fontFamily">Franklin-ITC-Pro-Light.otf</item>
+        <item name="fontFamily">FranklinITCStd-Light.otf</item>
+        <item name="android:textColor">@color/expanded_byline_text</item>
+        <item name="android:textSize">@dimen/expanded_byline_text</item>
+    </style>
+
+    <style name="ArticleText.Byline.LiveUpdate.Subtext" parent="ArticleText.Byline.LiveUpdate">
+        <item name="android:textSize">@dimen/native_article_byline_subtext_live_update_text_size</item>
+    </style>
+
+    <style name="ArticleText.Correction" parent="">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">Franklin-ITC-Pro-Bold.otf</item>
+    </style>
+    <style name="ArticleText.Correction.Title" parent="ArticleText.Correction">
+        <item name="android:textColor">@color/article_correction_title</item>
+        <item name="android:textSize">@dimen/native_article_correction_title_text_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/native_article_correction_title_bottom_margin</item>
+    </style>
+    <style name="ArticleText.Correction.Body" parent="ArticleText.Correction">
+        <item name="android:textColor">@color/article_correction_text</item>
+        <item name="android:textSize">@dimen/native_article_correction_body_text_size</item>
+        <item name="colorAccent">@color/light_blue</item>
+        <item name="android:lineSpacingExtra">@dimen/native_article_correction_body_text_line_spacing_extra</item>
+    </style>
+    <style name="ArticleText.Correction.Background">
+        <item name="android:background">@drawable/article_correction_bg</item>
+        <item name="android:paddingTop">@dimen/native_article_correction_top_padding</item>
+        <item name="android:paddingLeft">@dimen/native_article_correction_left_padding</item>
+        <item name="android:paddingBottom">@dimen/native_article_correction_bottom_padding</item>
+        <item name="android:paddingRight">@dimen/native_article_correction_right_padding</item>
+    </style>
+    <style name="ArticleText.Correction.Container">
+        <item name="android:paddingTop">@dimen/native_article_correction_container_top_padding</item>
+        <item name="android:paddingBottom">@dimen/native_article_correction_container_bottom_padding</item>
+    </style>
+    <style name="ArticleText.Dateline" parent="">
+        <item name="android:textSize">@dimen/native_article_date_text_size</item>
+        <item name="android:textColor">@color/article_date_text_color</item>
+        <item name="fontFile">Franklin-ITC-Pro-Light.otf</item>
+        <item name="fontFileBold">Franklin-ITC-Pro-Bold.otf</item>
+        <item name="android:lineSpacingExtra">@dimen/native_article_date_text_line_spacing_extra</item>
+    </style>
+
+    <style name="ArticleText.Dateline.LiveUpdate">
+        <item name="android:textSize">@dimen/native_article_date_live_update_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="android:lineSpacingExtra">@dimen/native_article_date_live_update_text_line_spacing_extra</item>
+    </style>
+
+    <style name="ArticleText.Headline" parent="">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/article_main_text_color</item>
+        <item name="android:textSize">@dimen/article_text_headline_text_size</item>
+        <item name="fontFile">PostoniWide-Regular.otf</item>
+        <item name="fontFileBold">PostoniWide-Bold.otf</item>
+        <item name="android:lineSpacingExtra">@dimen/article_text_headline_line_spacing_extra</item>
+        <item name="android:lineSpacingMultiplier">@dimen/article_text_headline_line_spacing_multiplier</item>
+    </style>
+
+    <style name="ArticleText.LiveHeadline" parent="">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/article_main_text_color</item>
+        <item name="android:textSize">@dimen/native_article_live_headline_text_size</item>
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+    </style>
+
+    <style name="ArticleText.Headline.StyleText">
+        <item name="android:textColor">?attr/article_main_headline_text_color</item>
+        <item name="android:textSize">@dimen/article_text_headline_style_text_size</item>
+        <item name="fontFile">PostoniDisplayMag-Ultra.otf</item>
+        <item name="fontFileBold">PostoniDisplayMag-Ultra.otf</item>
+        <item name="android:fontFamily">@font/wp_postoni_display_mag_ultra_family</item>
+        <item name="android:lineSpacingExtra">@dimen/article_text_headline_h1_line_spacing_extra</item>
+        <item name="android:lineSpacingMultiplier">@dimen/article_text_headline_h1_line_spacing_multiplier</item>
+    </style>
+
+    <style name="ArticleText.Headline.H1">
+        <item name="android:textColor">?attr/article_main_headline_text_color</item>
+        <item name="android:textSize">@dimen/article_text_headline_h1_text_size</item>
+        <item name="android:lineSpacingExtra">@dimen/article_text_headline_h1_line_spacing_extra</item>
+        <item name="android:lineSpacingMultiplier">@dimen/article_text_headline_h1_line_spacing_multiplier</item>
+    </style>
+
+    <style name="ArticleText.Headline.H2">
+        <item name="android:textColor">?attr/article_main_headline_text_color</item>
+        <item name="android:textSize">@dimen/article_text_headline_h2_text_size</item>
+        <item name="android:lineSpacingExtra">@dimen/article_text_headline_h2_line_spacing_extra</item>
+        <item name="android:lineSpacingMultiplier">@dimen/article_text_headline_h2_line_spacing_multiplier</item>
+    </style>
+
+    <style name="ArticleText.Headline.Prefix">
+        <item name="android:textColor">@color/byline_opinion</item>
+    </style>
+
+    <style name="ArticleText.Kicker" parent="">
+        <item name="android:textColor">@color/kicker</item>
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ArticleText.Elevated.Kicker" parent="">
+        <item name="android:textColor">@color/kicker</item>
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ArticleText.Kicker.Briefs" parent="">
+        <item name="android:textColor">@color/kicker</item>
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ArticleText.Kicker.Pill.Live" parent="">
+        <item name="android:textColor">@color/kicker_pill_live</item>
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ArticleText.Kicker.Pill.Exclusive" parent="">
+        <item name="android:textColor">@color/kicker_pill_exclusive</item>
+        <item name="fontFile">FranklinITCStd-Bold.otf</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ArticleText.Kicker.DisplayTransparencyStyle">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="android:textColor">@color/kicker_display_transparency</item>
+    </style>
+
+    <style name="ArticleText.Kicker.StoryType">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="android:textColor">@color/kicker_story_type</item>
+    </style>
+
+    <style name="ArticleText.Deck" parent="">
+        <item name="android:textColor">@color/deck_text</item>
+        <item name="fontFile">FranklinITCStd-Bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ArticleText.GalleryTitle" parent="ArticleText.PullQuote.Caption">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ArticleText.PullQuote" parent="">
+        <item name="android:textSize">@dimen/native_article_pullquote_text_size</item>
+        <item name="android:textColor">?attr/article_main_text_color</item>
+        <item name="fontFile">Franklin-ITC-Pro-Light.otf</item>
+    </style>
+
+    <style name="ArticleText.PullQuote.Caption" parent="">
+        <item name="android:textSize">@dimen/native_article_pullquote_caption_text_size</item>
+        <item name="android:textColor">@color/article_pull_quote_caption_text_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFile">Franklin-ITC-Pro-Bold.otf</item>
+    </style>
+
+    <style name="ArticleText.BlockQuote" parent="">
+        <item name="android:textSize">@dimen/native_article_blockquote_text_size</item>
+        <item name="android:textColor">?attr/article_main_text_color</item>
+        <item name="fontFile">Franklin-ITC-Pro-Light.otf</item>
+    </style>
+
+    <style name="ArticleText.ImageCaption" parent="">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/article_image_caption_color</item>
+        <item name="fontFile">Franklin-ITC-Pro-Light.otf</item>
+        <item name="fontFileBold">Franklin-ITC-Pro-Bold.otf</item>
+    </style>
+
+    <style name="ArticleText.ImageCredit" parent="">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#6e6e6e</item>
+        <item name="android:textSize">15sp</item>
+        <item name="fontFile">Franklin-ITC-Pro-Light.otf</item>
+        <item name="fontFileBold">Franklin-ITC-Pro-Bold.otf</item>
+    </style>
+    <style name="ArticleText.Subhead">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ArticleText.Briefs">
+        <item name="android:textSize">20sp</item>
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="fontFileItalic">FranklinITCStd-LightItalic.otf</item>
+        <item name="fontFileBoldItalic">FranklinITCStd-BoldItalic.otf</item>
+    </style>
+
+    <style name="ArticleText.Briefs.List">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ArticleText.Briefs.Number">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/article_briefs_single_number</item>
+        <item name="fontFile">Franklin-ITC-Pro-Bold.otf</item>
+    </style>
+
+    <style name="ArticleText.Briefs.ExclusiveLabel">
+        <item name="android:textSize">@dimen/article_text_h3_briefs</item>
+        <item name="android:textColor">@color/briefs_exclusive_text_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+    </style>
+
+    <style name="ArticleText.Footer">
+
+    </style>
+    <style name="ArticleText.Intro">
+        <item name="fontFile">HelveticaNeue-Italic.otf</item>
+        <item name="fontFileBold">HelveticaNeue-BoldItalic.otf</item>
+        <item name="fontFileItalic">HelveticaNeue-Italic.otf</item>
+        <item name="fontFileBoldItalic">HelveticaNeue-BoldItalic.otf</item>
+    </style>
+
+    <style name="ArticleText.Letter" parent="">
+        <item name="android:textSize">@dimen/native_article_body_text_size</item>
+        <item name="android:textStyle">italic</item>
+        <item name="fontFile">HelveticaNeue.otf</item>
+        <item name="fontFileBold">HelveticaNeue-Bold.otf</item>
+        <item name="fontFileItalic">HelveticaNeue-Italic.otf</item>
+        <item name="fontFileBoldItalic">HelveticaNeue-BoldItalic.otf</item>
+    </style>
+
+    <style name="ArticleText.MetaText" parent="">
+        <item name="android:textSize">@dimen/native_article_body_text_size</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/meta_text_color</item>
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="fontFileItalic">FranklinITCStd-LightItalic.otf</item>
+        <item name="fontFileBoldItalic">FranklinITCStd-BoldItalic.otf</item>
+    </style>
+
+    <style name="ArticleText.ImageCaption.Prepend">
+    </style>
+
+    <style name="ArticleText.InlineHeader">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ArticleText.Link" parent="">
+    </style>
+
+    <style name="ArticleBigBox">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ArticleVideoCaption">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/articles_main_text_color</item>
+        <item name="fontFile">Franklin-ITC-Pro-Light.otf</item>
+        <item name="fontFileBold">Franklin-ITC-Pro-Bold.otf</item>
+    </style>
+
+
+    <attr name="ic_selection_menu_select_all" format="reference" />
+    <attr name="ic_selection_menu_copy" format="reference" />
+    <attr name="ic_selection_menu_share" format="reference" />
+
+    <style name="error_message" parent="@android:style/TextAppearance.Large" >
+        <item name="fontFile">HelveticaNeue.otf</item>
+        <item name="fontFileBold">HelveticaNeue-Bold.otf</item>
+        <item name="fontFileItalic">HelveticaNeue-Italic.otf</item>
+        <item name="fontFileBoldItalic">HelveticaNeue-BoldItalic.otf</item>
+        <item name="android:color">#666</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="SavedArticles.Toolbar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@color/action_bar_background_color</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="SavedArticles.Toolbar.Title" parent="">
+        <item name="android:textColor">@color/toolbar_title_textColor</item>
+        <item name="android:textSize">@dimen/tabs_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ArticleContentView">
+        <item name="android:scrollbarStyle">outsideInset</item>
+    </style>
+
+    <style name="ArticleRatingBarCell" parent="">
+        <item name="android:background">@color/article_rating_bar_bg</item>
+        <item name="android:layout_marginBottom">@dimen/article_rating_bar_vert_padding</item>
+        <item name="android:layout_marginLeft">@dimen/article_rating_bar_horizontal_padding</item>
+        <item name="android:layout_marginRight">@dimen/article_rating_bar_horizontal_padding</item>
+        <item name="android:layout_marginTop">@dimen/article_rating_bar_vert_padding</item>
+        <item name="android:paddingBottom">@dimen/article_rating_bar_inner_padding</item>
+        <item name="android:paddingTop">@dimen/article_rating_bar_inner_padding</item>
+    </style>
+
+    <style name="ArticleRatingBar" parent="Widget.AppCompat.RatingBar.Indicator">
+        <item name="colorControlNormal">@color/article_rating_bar_inactive</item>
+        <item name="colorControlActivated">@color/article_rating_bar_active</item>
+    </style>
+
+    <style name="ArticleRatingBarTitle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/article_rating_bar_title</item>
+    </style>
+
+    <style name="ArticleRatingBarText">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/article_rating_bar_title</item>
+    </style>
+
+    <style name="ArticleElementGroupCell" parent="">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <style name="ArticleLegacyTextLink">
+        <!-- Note: WpTextAppearanceSpan will change TextView's textColor as defined here with AdapterHelper.makeLinkClickable call -->
+        <item name="android:textColor">@color/articles_legacy_text_link_color</item>
+    </style>
+
+    <style name="MaterialTextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/post_dsm_blue_bright</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Button</item>
+    </style>
+
+    <!-- Article LinkBox Styles -->
+    <style name="ArticleLinkBoxText.Kicker"></style>
+
+    <style name="ArticleText.Headline.LinkBox">
+        <item name="android:textColor">?attr/article_link_box_main_text_color</item>
+        <item name="android:textSize">@dimen/article_link_box_headline_text_size</item>
+    </style>
+
+    <style name="ArticleLinkBoxText.Dateline">
+        <item name="android:textColor">?attr/article_link_box_dateline_text_color</item>
+        <item name="android:textSize">@dimen/native_article_link_box_date_text_size</item>
+    </style>
+
+    <style name="ArticleLinkBoxText.Subhead">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ArticleLinkBoxText.SubHeadline">
+        <item name="android:textSize">@dimen/article_link_box_subheadline_text_size</item>
+        <item name="android:textColor">@color/article_link_box_subheadline_text_color</item>
+    </style>
+
+    <style name="ArticleLinkBoxText" parent="ArticleText">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="fontFileItalic">FranklinITCStd-LightItalic.otf</item>
+        <item name="fontFileBoldItalic">FranklinITCStd-BoldItalic.otf</item>
+        <item name="android:textColor">?attr/article_link_box_main_text_color</item>
+        <item name="android:textSize">@dimen/native_article_link_box_body_text_size</item>
+    </style>
+
+    <style name="ContextBoxText">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="fontFileItalic">FranklinITCStd-LightItalic.otf</item>
+        <item name="fontFileBoldItalic">FranklinITCStd-BoldItalic.otf</item>
+        <item name="android:textColor">@color/context_box_body_text</item>
+        <item name="android:textSize">@dimen/article_context_box_text_size</item>
+        <item name="android:lineSpacingExtra">@dimen/article_context_box_text_line_height</item>
+    </style>
+
+    <style name="ContextBoxHeader">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="fontFileItalic">FranklinITCStd-LightItalic.otf</item>
+        <item name="fontFileBoldItalic">FranklinITCStd-BoldItalic.otf</item>
+        <item name="android:textColor">?attr/article_link_box_main_text_color</item>
+        <item name="android:textSize">@dimen/article_context_box_headline_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TruncateText">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="fontFileItalic">FranklinITCStd-LightItalic.otf</item>
+        <item name="fontFileBoldItalic">FranklinITCStd-BoldItalic.otf</item>
+        <item name="android:textColor">?attr/article_link_box_main_text_color</item>
+        <item name="android:textSize">@dimen/native_article_body_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ArticleDivider">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">?attr/article_divider_color</item>
+        <item name="android:layout_marginTop">@dimen/divider_vertical_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/divider_vertical_bottom_margin</item>
+    </style>
+
+    <style name="CircularImage">
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+    <!--    Rounded corner button-->
+    <style name="rounded_corner_button">
+        <item name="android:background">@drawable/rounded_button_style_1</item>
+        <item name="android:textColor">@color/rounder_corner_button_text</item>
+        <item name="android:fontFamily">@font/franklin_std_bold</item>
+        <item name="fontFamily">@font/franklin_std_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="rounded_corner_button_inverted">
+        <item name="android:background">@drawable/rounded_button_inverted_style</item>
+        <item name="android:fontFamily">@font/franklin_std_bold</item>
+        <item name="fontFamily">@font/franklin_std_bold</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/rounded_corner_button_inverted_text</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="expand_collapse_card">
+        <item name="android:fontFamily">@font/franklin_std_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/franklin_std_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/rounded_button_style_1</item>
+        <item name="android:textColor">@color/rounder_corner_button_text</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ArticleTableNormalTextStyle">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="fontFileItalic">FranklinITCStd-LightItalic.otf</item>
+        <item name="fontFileBoldItalic">FranklinITCStd-BoldItalic.otf</item>
+        <item name="android:textColor">@color/cell_text</item>
+    </style>
+
+    <style name="ArticleTableRowHeaderTextStyle">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="fontFileItalic">FranklinITCStd-LightItalic.otf</item>
+        <item name="fontFileBoldItalic">FranklinITCStd-BoldItalic.otf</item>
+        <item name="android:textColor">@color/row_header_text</item>
+    </style>
+
+    <style name="ArticleTableColumnHeaderTextStyle">
+        <item name="fontFile">FranklinITCStd-Light.otf</item>
+        <item name="fontFileBold">FranklinITCStd-Bold.otf</item>
+        <item name="fontFileItalic">FranklinITCStd-LightItalic.otf</item>
+        <item name="fontFileBoldItalic">FranklinITCStd-BoldItalic.otf</item>
+    </style>
+</resources>

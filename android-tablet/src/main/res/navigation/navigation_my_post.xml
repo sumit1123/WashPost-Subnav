@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_my_post"
+    app:startDestination="@id/myPost2Fragment">
+
+    <fragment
+        android:id="@+id/myPost2Fragment"
+        android:name="com.wapo.flagship.features.mypost.fragments.MyPost2Fragment"
+        android:label="MyPost2Fragment"/>
+
+</navigation>

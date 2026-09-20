@@ -1,0 +1,158 @@
+{
+  "project_info": {
+    "project_number": "160741610855",
+    "project_id": "wapo-apps-sandbox",
+    "storage_bucket": "wapo-apps-sandbox.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160741610855:android:2e216fcf6d0d44a36c8bc2",
+        "android_client_info": {
+          "package_name": "com.washingtonpost.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160741610855-13thl0g2d32o2ksp7fs4fu1jbdvq7reu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcd0zpbrYdsdsFfUyZl6r_asBoiM5nFMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160741610855-13thl0g2d32o2ksp7fs4fu1jbdvq7reu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "160741610855-0mtghifif8nsveab7rp4s9cr3spf3v7v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pointabout.washingtonpost",
+                "app_store_id": "352509417"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160741610855:android:528d9c3b125d38156c8bc2",
+        "android_client_info": {
+          "package_name": "com.washingtonpost.android.beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160741610855-13thl0g2d32o2ksp7fs4fu1jbdvq7reu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcd0zpbrYdsdsFfUyZl6r_asBoiM5nFMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160741610855-13thl0g2d32o2ksp7fs4fu1jbdvq7reu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "160741610855-0mtghifif8nsveab7rp4s9cr3spf3v7v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pointabout.washingtonpost",
+                "app_store_id": "352509417"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160741610855:android:173f44cee53467116c8bc2",
+        "android_client_info": {
+          "package_name": "com.washingtonpost.rainbow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160741610855-13thl0g2d32o2ksp7fs4fu1jbdvq7reu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcd0zpbrYdsdsFfUyZl6r_asBoiM5nFMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160741610855-13thl0g2d32o2ksp7fs4fu1jbdvq7reu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "160741610855-0mtghifif8nsveab7rp4s9cr3spf3v7v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pointabout.washingtonpost",
+                "app_store_id": "352509417"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160741610855:android:40b8e9263906dec86c8bc2",
+        "android_client_info": {
+          "package_name": "com.washingtonpost.rainbow.beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160741610855-13thl0g2d32o2ksp7fs4fu1jbdvq7reu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcd0zpbrYdsdsFfUyZl6r_asBoiM5nFMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160741610855-13thl0g2d32o2ksp7fs4fu1jbdvq7reu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "160741610855-0mtghifif8nsveab7rp4s9cr3spf3v7v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pointabout.washingtonpost",
+                "app_store_id": "352509417"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

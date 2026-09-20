@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2018. The Washington Post
+  ~ Created by adkinsj on 6/21/18
+  -->
+
+<resources>
+    <dimen name="max_card_width">350dp</dimen>
+    <dimen name="max_card_height">355dp</dimen>
+    <dimen name="max_card_height_low_data_mode">150dp</dimen>
+    <dimen name="restor_card_height_low_data_mode_offset">30dp</dimen>
+    <dimen name="card_width_phone_landscape">240dp</dimen>
+    <dimen name="card_height_phone_landscape">288dp</dimen>
+    <dimen name="carousel_card_corner_radius">4dp</dimen>
+    <dimen name="carousel_divider_height">1dp</dimen>
+
+    <!-- <text sizes> -->
+    <dimen name="carousel_explore_more_text_size">18sp</dimen>
+    <dimen name="carousel_section_name_text_size">14sp</dimen>
+    <dimen name="carousel_kicker_font_size">12sp</dimen>
+    <dimen name="carousel_title_font_size">20sp</dimen>
+    <dimen name="carousel_headline_font_size">16sp</dimen>
+    <dimen name="carousel_byline_font_size">14sp</dimen>
+    <dimen name="carousel_because_you_read">14sp</dimen>
+    <!-- </text sizes> -->
+
+    <!-- <line spacing> -->
+    <dimen name="carousel_headline_line_spacing">20sp</dimen>
+    <!-- </line spacing> -->
+
+    <!-- <spacings> -->
+    <dimen name="carousel_margin_top">8dp</dimen>
+    <dimen name="carousel_margin_bottom">32dp</dimen>
+    <dimen name="section_name_padding_left">18dp</dimen>
+    <dimen name="section_name_padding_right">18dp</dimen>
+    <dimen name="carousel_explore_more_padding_left">18dp</dimen>
+    <dimen name="carousel_explore_more_padding_right">18dp</dimen>
+    <dimen name="carousel_explore_more_padding_bottom">6dp</dimen>
+    <dimen name="carousel_rv_top_margin">20dp</dimen>
+    <dimen name="carousel_rv_bottom_margin">10dp</dimen>
+    <dimen name="carousel_item_padding">8dp</dimen>
+    <dimen name="rv_carousel_item_margin_padding_full">18dp</dimen>
+    <dimen name="rv_carousel_item_margin_padding">9dp</dimen>
+    <dimen name="carousel_card_text_margin">20dp</dimen>
+    <dimen name="carousel_card_text_margin_small">8dp</dimen>
+    <dimen name="carousel_card_text_margin_medium">12dp</dimen>
+    <dimen name="carousel_card_text_margin_large">16dp</dimen>
+    <dimen name="carousel_recycler_horizontal_padding">0dp</dimen>
+    <dimen name="carousel_recycler_top_padding">0dp</dimen>
+    <dimen name="carousel_recycler_bottom_padding">0dp</dimen>
+    <dimen name="carousel_rv_arrows_width">28dp</dimen>
+
+
+    <dimen name="carousel_recycler_horizontal_right_padding">0dp</dimen>
+    <dimen name="carousel_card_width_calculation_container_margin">0dp</dimen>
+    <dimen name="carousel_card_width_calculation_article_margin">0dp</dimen>
+    <dimen name="my_post_carousel_item_left_margin">12dp</dimen>
+    <dimen name="my_post_clickable_icons_padding">12dp</dimen>
+    <!-- </spacings> -->
+
+    <!-- <card scaling> -->
+    <item name="carousel_card_width_multiplier" format="float" type="dimen">0.865</item>
+    <item name="carousel_card_margin_multiplier" format="float" type="dimen">0.03</item>
+    <!-- </card scaling> -->
+
+    <dimen name="carousel_card_default_width">237dp</dimen>
+
+    <dimen name="carousel_article_title_padding_bottom">10dp</dimen>
+
+    <dimen name="carousel_video_card_width">258dp</dimen>
+    <dimen name="carousel_immersion_card_width">256dp</dimen>
+    <dimen name="carousel_external_card_width">300dp</dimen>
+    <dimen name="carousel_video_focused_card_extra_height">32dp</dimen>
+    <item name="async_shine_image_alpha" format="float" type="dimen">1.0</item>
+    <dimen name="carousel_audio_card_image_height">164dp</dimen>
+    <dimen name="carousel_audio_card_width">@dimen/carousel_card_default_width</dimen>
+    <dimen name="carousel_audio_card_vertical_margin">8dp</dimen>
+    <dimen name="carousel_immersion_card_top_margin">0dp</dimen>
+    <dimen name="carousel_immersion_card_elevation">0dp</dimen>
+    <dimen name="carousel_immersion_card_radius">0dp</dimen>
+    <dimen name="carousel_immersion_card_image_height">170dp</dimen>
+    <dimen name="carousel_external_card_image_size">100dp</dimen>
+    <dimen name="carousel_article_style_card_width">266dp</dimen>
+    <dimen name="carousel_title_left_margin">8dp</dimen>
+    <dimen name="carousel_image_top_margin">12dp</dimen>
+    <dimen name="carousel_image_height">100dp</dimen>
+    <dimen name="carousel_card_divider_width">1dp</dimen>
+    <dimen name="carousel_article_style_horizontal_space">4dp</dimen>
+</resources>

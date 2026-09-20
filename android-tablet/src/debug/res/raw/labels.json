@@ -1,0 +1,1282 @@
+{
+  "layout": "homepage",
+  "output_type": "jsonapp",
+  "name": "labels",
+  "regions": [
+    {
+      "location": "top-content",
+
+      "items": [
+        {
+          "table_name": "top table",
+          "item_type": "grid",
+          "layout_attributes": {
+            "xlarge": {},
+            "large": {},
+            "medium": {},
+            "small": {},
+            "xsmall": {}
+          },
+          "items": [
+            {
+              "grid_name": "table 1",
+              "item_type": "table",
+              "layout_attributes": {
+                "xlarge": { "colspan": 16, "row": 0, "col": 0},
+                "large": { "colspan": 16, "row": 0, "col": 0},
+                "medium": { "colspan": 12, "row": 0, "col": 0},
+                "small": { "colspan": 10, "row": 0, "col": 0},
+                "xsmall": { "colspan": 1, "row": 0, "col": 0}
+              },
+              "items": [
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 0, "col": 0},
+                    "large": { "colspan": 16, "row": 0, "col": 0},
+                    "medium": { "colspan": 12, "row": 0, "col": 0},
+                    "small": { "colspan": 10, "row": 0, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 0, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      },
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "blurbs",
+                          "related_links"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "full-span",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": true,
+                    "icon": "camera",
+                    "label": {
+                      "text": "Section Large Centered Default pos"
+                    },
+                    "label_secondary": {
+                      "text": "Section 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The Dow plunges 3,000 points, then pares some losses as a brutal coronavirus-fueled sell-off intensifies.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "related_links": {
+                    "label": {
+                      "type": "mini-all-caps",
+                      "alignment": "left",
+                      "label": {
+                        "text": "MORE-OR-LESS COVERAGE"
+                      }
+                    },
+                    "items": [
+                      {
+                        "text": "Related Link #1",
+                        "url": "#1"
+                      },
+                      {
+                        "text": "Related Link #2",
+                        "url": "#rl2"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "normal"
+                    }
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-head",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 2, "col": 0},
+                    "large": { "colspan": 16, "row": 2, "col": 0},
+                    "medium": { "colspan": 12, "row": 2, "col": 0},
+                    "small": { "colspan": 10, "row": 2, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 2, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      },
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "package",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": true,
+                    "icon": "chart",
+                    "label": {
+                      "text": "Package Centered Default pos"
+                    },
+                    "label_secondary": {
+                      "text": "Package 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The Dow plunges 3,000 points, then pares some losses as a brutal coronavirus-fueled sell-off intensifies.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-head",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 3, "col": 0},
+                    "large": { "colspan": 16, "row": 3, "col": 0},
+                    "medium": { "colspan": 12, "row": 3, "col": 0},
+                    "small": { "colspan": 10, "row": 3, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 3, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      },
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "package-nested",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": true,
+                    "icon": "headphones",
+                    "label": {
+                      "text": "Package Nested Centered Default pos"
+                    },
+                    "label_secondary": {
+                      "text": "Section Small 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The central bank slashed interest rates to zero in its most extreme move since the financial crisis",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-head",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 4, "col": 0},
+                    "large": { "colspan": 16, "row": 4, "col": 0},
+                    "medium": { "colspan": 12, "row": 4, "col": 0},
+                    "small": { "colspan": 10, "row": 4, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 4, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      },
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": true,
+                    "icon": "camera",
+                    "label": {
+                      "text": "PILL CENTERED DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "Pill 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The Dow plunges 3,000 points, then pares some losses as a brutal coronavirus-fueled sell-off intensifies.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-head",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 5, "col": 0},
+                    "large": { "colspan": 16, "row": 5, "col": 0},
+                    "medium": { "colspan": 12, "row": 5, "col": 0},
+                    "small": { "colspan": 10, "row": 5, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 5, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      },
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "kicker",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": true,
+                    "icon": "chart",
+                    "label": {
+                      "text": "Kicker Centered Default pos"
+                    },
+                    "label_secondary": {
+                      "text": "Kicker 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The Dow plunges 3,000 points, then pares some losses as a brutal coronavirus-fueled sell-off intensifies.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-head",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 6, "col": 0},
+                    "large": { "colspan": 16, "row": 6, "col": 0},
+                    "medium": { "colspan": 12, "row": 6, "col": 0},
+                    "small": { "colspan": 10, "row": 6, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 6, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      },
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "mini-all-caps",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": true,
+                    "icon": "chart",
+                    "label": {
+                      "text": "MINI ALL-CAPS CENTERED DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "KICKER 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The Dow plunges 3,000 points, then pares some losses as a brutal coronavirus-fueled sell-off intensifies.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-head",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 7, "col": 0},
+                    "large": { "colspan": 16, "row": 7, "col": 0},
+                    "medium": { "colspan": 12, "row": 7, "col": 0},
+                    "small": { "colspan": 10, "row": 7, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 7, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "label",
+                          "blurbs",
+                          "related_links"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "full-span",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "icon": "none",
+                    "label": {
+                      "text": "Section Large Default pos"
+                    },
+                    "label_secondary": {
+                      "text": "Section 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The Dow plunges 3,000 points, then pares some losses as a brutal coronavirus-fueled sell-off intensifies.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "related_links": {
+                    "label": {
+                      "type": "mini-all-caps",
+                      "alignment": "left",
+                      "label": {
+                        "text": "MORE-OR-LESS COVERAGE"
+                      }
+                    },
+                    "items": [
+                      {
+                        "text": "Related Link #1",
+                        "url": "#1"
+                      },
+                      {
+                        "text": "Related Link #2",
+                        "url": "#rl2"
+                      }
+                    ],
+                    "info": {
+                      "position": "below-sigline",
+                      "arrangement": "normal"
+                    }
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 9, "col": 0},
+                    "large": { "colspan": 16, "row": 9, "col": 0},
+                    "medium": { "colspan": 12, "row": 9, "col": 0},
+                    "small": { "colspan": 10, "row": 9, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 9, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "label",
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "package",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "icon": "none",
+                    "label": {
+                      "text": "Package Default pos"
+                    },
+                    "label_secondary": {
+                      "text": "Package 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The Dow plunges 3,000 points, then pares some losses as a brutal coronavirus-fueled sell-off intensifies.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 10, "col": 0},
+                    "large": { "colspan": 16, "row": 10, "col": 0},
+                    "medium": { "colspan": 12, "row": 10, "col": 0},
+                    "small": { "colspan": 10, "row": 10, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 10, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "label",
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "package-nested",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": true,
+                    "icon": "none",
+                    "label": {
+                      "text": "Package Nested Default pos"
+                    },
+                    "label_secondary": {
+                      "text": "Section Small 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The central bank slashed interest rates to zero in its most extreme move since the financial crisis",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 11, "col": 0},
+                    "large": { "colspan": 16, "row": 11, "col": 0},
+                    "medium": { "colspan": 12, "row": 11, "col": 0},
+                    "small": { "colspan": 10, "row": 11, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 11, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "label",
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "pill",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "icon": "none",
+                    "label": {
+                      "text": "PILL DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "Pill 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The Dow plunges 3,000 points, then pares some losses as a brutal coronavirus-fueled sell-off intensifies.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 12, "col": 0},
+                    "large": { "colspan": 16, "row": 12, "col": 0},
+                    "medium": { "colspan": 12, "row": 12, "col": 0},
+                    "small": { "colspan": 10, "row": 12, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 12, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "label",
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "exclusive-pill",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "icon": "none",
+                    "label": {
+                      "text": "EXCLUSIVE"
+                    },
+                    "label_secondary": {
+                      "text": "default"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The Dow plunges 3,000 points, then pares some losses as a brutal coronavirus-fueled sell-off intensifies.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 13, "col": 0},
+                    "large": { "colspan": 16, "row": 13, "col": 0},
+                    "medium": { "colspan": 12, "row": 13, "col": 0},
+                    "small": { "colspan": 10, "row": 13, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 13, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "label",
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "live-updates",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "icon": "none",
+                    "label": {
+                      "text": "LIVE CORONAVIRUS UPDATES"
+                    },
+                    "label_secondary": {
+                      "text": "Access to these updates is free"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The Dow plunges 3,000 points, then pares some losses as a brutal coronavirus-fueled sell-off intensifies.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 14, "col": 0},
+                    "large": { "colspan": 16, "row": 14, "col": 0},
+                    "medium": { "colspan": 12, "row": 14, "col": 0},
+                    "small": { "colspan": 10, "row": 14, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 14, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "label",
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "kicker",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "icon": "none",
+                    "label": {
+                      "text": "Kicker Default pos"
+                    },
+                    "label_secondary": {
+                      "text": "Kicker 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The Dow plunges 3,000 points, then pares some losses as a brutal coronavirus-fueled sell-off intensifies.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 15, "col": 0},
+                    "large": { "colspan": 16, "row": 15, "col": 0},
+                    "medium": { "colspan": 12, "row": 15, "col": 0},
+                    "small": { "colspan": 10, "row": 15, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 15, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "label",
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "mini-all-caps",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": false,
+                    "icon": "none",
+                    "label": {
+                      "text": "MINI ALL-CAPS DEFAULT POS"
+                    },
+                    "label_secondary": {
+                      "text": "KICKER 2°"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The Dow plunges 3,000 points, then pares some losses as a brutal coronavirus-fueled sell-off intensifies.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 22, "col": 0},
+                    "large": { "colspan": 8, "row": 22, "col": 0},
+                    "medium": { "colspan": 12, "row": 22, "col": 0},
+                    "small": { "colspan": 10, "row": 22, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 22, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label"
+                        ]
+                      },
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "kicker",
+                    "position": "default",
+                    "alignment": "center",
+                    "show_arrow": true,
+                    "label": {
+                      "text": "Reporter Insights"
+                    },
+                    "label_secondary": {
+                      "text": "Analysis"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The Dow plunges 3,000 points, then pares some losses as a brutal coronavirus-fueled sell-off intensifies.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left-of-head",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 23, "col": 0},
+                    "large": { "colspan": 16, "row": 23, "col": 0},
+                    "medium": { "colspan": 12, "row": 23, "col": 0},
+                    "small": { "colspan": 10, "row": 23, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 23, "col": 0}
+                  },
+                  "item_type": "fronts/flex-feature",
+                  "arrangements": {
+                    "default": {
+                      "left": {
+                        "items": [
+                          "media"
+                        ],
+                        "width": "small"
+                      },
+                      "right": {
+                        "items": [
+                          "label",
+                          "blurbs"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "kicker",
+                    "position": "above-headline",
+                    "alignment": "center",
+                    "show_arrow": false,
+                    "label": {
+                      "text": "Centered Label Attachment"
+                    },
+                    "link": {
+                      "url": "https://www.washingtonpost.com/coronavirus/",
+                      "type": "unknown"
+                    }
+                  },
+                  "commercial_node": "/business",
+                  "link": {
+                    "url": "https://www.washingtonpost.com/business/2020/03/16/stocks-markets-live-updates-coronavirus/",
+                    "type": "article",
+                    "last_modified": "2020-03-24T03:26:35.768Z"
+                  },
+                  "source": "the-washington-post",
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "The Dow plunges 3,000 points, then pares some losses as a brutal coronavirus-fueled sell-off intensifies.",
+                        "type": "normal"
+                      }
+                    ]
+                  },
+                  "media": {
+                    "url": "https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DY2LUQHIS4I6BCQFYEHMCB64MY.jpg",
+                    "width": 480,
+                    "height": 320,
+                    "aspect_ratio": 1.5,
+                    "caption_content": "normal",
+                    "caption_size": "normal",
+                    "media_type": "image",
+                    "art_position": "art-left",
+                    "art_width": "small"
+                  }
+                },
+                {
+                  "layout_attributes": {
+                    "xlarge": { "colspan": 16, "row": 24, "col": 0},
+                    "large": { "colspan": 16, "row": 24, "col": 0},
+                    "medium": { "colspan": 12, "row": 24, "col": 0},
+                    "small": { "colspan": 10, "row": 24, "col": 0},
+                    "xsmall": { "colspan": 1, "row": 24, "col": 0}
+                  },
+                  "item_type": "fronts/promo",
+                  "arrangements": {
+                    "default": {
+                      "top": {
+                        "items": [
+                          "label", "headline", "blurbs", "cta", "footnote"
+                        ]
+                      }
+                    }
+                  },
+                  "label": {
+                    "type": "promo",
+                    "position": "default",
+                    "alignment": "left",
+                    "icon": "the-7",
+                    "label": {
+                      "text": "THE 7"
+                    }
+                  },
+                  "headline": {
+                    "text": "Thursday briefing",
+                    "size": "large",
+                    "font_style": "bold",
+                    "alignment": "left"
+                  },
+                  "blurbs": {
+                    "items": [
+                      {
+                        "text": "<b>What you need to know:</b> NYC flooding. Afghan refugees. Wildfires. Labor Day travel. School closures. Holiday shopping. Fish saved.",
+                        "type": "normal",
+                        "mime": "text/html"
+                      }
+                    ]
+                  },
+                  "cta": {
+                    "type": "cta",
+                    "position": "default",
+                    "alignment": "left",
+                    "show_arrow": true,
+                    "icon": "none",
+                    "label": {
+                      "text": "Read or listen"
+                    },
+                    "label_secondary": {
+                      "text": "3 min."
+                    }
+                  },
+                  "footnote": {
+                    "alignment": "right",
+                    "text": "Presented by <b>American Express Business</b>",
+                    "mime": "text/html",
+                    "link": {
+                      "url": "https://www.washingtonpost.com/investigations/2021/08/10/afghanistan-papers-book-dick-cheney-attack/",
+                      "type": "article",
+                      "last_modified": "2021-07-05T16:50:34.000Z"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checksum": -456905666
+}

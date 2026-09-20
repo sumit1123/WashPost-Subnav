@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HomepageStoryView">
+        <attr name="vertical_spacing" format="dimension" />
+        <attr name="horizontal_spacing" format="dimension" />
+        <attr name="min_horizontal_spacing" format="dimension" />
+        <attr name="blurb_font_style" format="reference"/>
+        <attr name="deck_font_style" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CellLiveBlogView">
+        <attr name="headline_highlight_font_style" format="reference"/>
+        <attr name="headline_normal_font_style" format="reference"/>
+        <attr name="headline_thin_font_style" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="UnderlinedTextView">
+        <attr name="underline_color" format="reference|color" />
+        <attr name="stroke_width" format="dimension" />
+    </declare-styleable>
+
+    <attr name="headline_font_normal" format="string"/>
+    <attr name="headline_font_highlight" format="string"/>
+    <attr name="headline_font_thin" format="string"/>
+    <attr name="headline_font_regular" format="string"/>
+    <attr name="headline_font_bold" format="string"/>
+    <attr name="headline_font_italic" format="string"/>
+    <attr name="headline_font_light" format="string"/>
+    <attr name="headline_font_ultra" format="string"/>
+    <attr name="headline_font_ultra_italic" format="string" />
+    <attr name="headline_font_franklin_normal" format="string"/>
+    <attr name="headline_font_franklin_highlight" format="string"/>
+    <attr name="headline_font_franklin_thin" format="string"/>
+    <attr name="headline_font_franklin_regular" format="string"/>
+    <attr name="headline_font_franklin_bold" format="string"/>
+    <attr name="headline_font_franklin_italic" format="string"/>
+    <attr name="headline_font_franklin_light" format="string"/>
+    <attr name="headline_font_franklin_ultra" format="string"/>
+    <attr name="headline_font_franklin_ultra_italic" format="string" />
+    <attr name="byline_font" format="string"/>
+    <attr name="byline_section_font" format="string"/>
+    <attr name="label_font" format="string"/>
+    <attr name="label_font_light" format="string" />
+    <attr name="label_secondary_font" format="string"/>
+    <attr name="label_secondary_font_light" format="string"/>
+    <attr name="overlay_media_caption_font" format="string"/>
+    <attr name="overlay_secondary_default_font" format="string"/>
+    <attr name="homepagestory_media_caption_font" format="string"/>
+    <attr name="homepagestory_blurb_font" format="string"/>
+    <attr name="homepagestory_blurb_font_bold" format="string"/>
+    <attr name="homepagestory_blurb_font_like_article_body" format="string"/>
+    <attr name="homepagestory_related_links_font" format="string"/>
+    <attr name="homepagestory_related_links_font_grid" format="string"/>
+    <attr name="sf_card_header_font" format="string"/>
+    <attr name="sf_card_entry_font" format="string"/>
+    <attr name="sf_gathering_news_font" format="string"/>
+    <attr name="sf_gathering_news_font_bold" format="string"/>
+    <attr name="sf_gathering_news_font_italic" format="string"/>
+    <attr name="sf_gathering_news_font_bold_italic" format="string"/>
+    <attr name="liveblog_time_font" format="string"/>
+    <attr name="liveblog_headline_font" format="string"/>
+    <attr name="live_image_tab_font" format="string"/>
+    <attr name="live_election_label_font" format="string"/>
+    <attr name="live_election_headline_font" format="string"/>
+    <attr name="live_election_results_font" format="string"/>
+    <attr name="live_election_common_font" format="string"/>
+    <attr name="live_election_countdown_font" format="string"/>
+
+    <!-- CONTENT REFRESH -->
+    <attr name="sections_content_refresh_style" format="reference"/>
+    <attr name="sections_content_refresh_dismiss_style" format="reference"/>
+    <attr name="sections_content_refresh_label_style" format="reference"/>
+
+
+</resources>
