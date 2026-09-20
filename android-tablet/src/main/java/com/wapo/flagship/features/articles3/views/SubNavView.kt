@@ -18,7 +18,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.produceState
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
@@ -40,6 +40,7 @@ import com.wapo.flagship.features.articles3.models.ui.SubNavTabUiModel
 import com.wapo.flagship.features.articles3.models.ui.SubNavUiModel
 import com.wapo.flagship.features.articles3.models.ui.WebEmbedUiModel
 import com.wapo.flagship.util.tracking.Measurement
+import kotlinx.coroutines.flow.flowOf
 import com.wpds.theme.AndroidClassicTheme
 import com.wpds.theme.FranklinItcStandardFontFamily
 import com.wpds.theme.wpdsColors
@@ -78,18 +79,14 @@ fun SubNavView(
 ) {
     val context = LocalContext.current
 
-    // Two phases, mirroring the old ConfigManager path: paint from the last good download (or
-    // the bundled copy if there isn't one) straight away, then upgrade from the network. A
-    // failed or empty fetch leaves the first-phase chips on screen rather than blanking them.
-    val strip by produceState(initialValue = SubNavStrip.EMPTY, key1 = uiModel.tabsUrl) {
-        value = SubNavTabsLoader.loadCachedOrBundled(context, uiModel.tabsUrl)
-
-        val url = uiModel.tabsUrl
-        if (!url.isNullOrBlank()) {
-            val remote = SubNavTabsLoader.loadRemote(context, url)
-            if (!remote.isEmpty) value = remote
-        }
-    }
+    // ConfigManager emits the local copy immediately and the remote one when it downloads, so a
+    // single collect covers both phases. The subscription is released when this leaves
+    // composition.
+    val tabsUrl = uiModel.tabsUrl
+    val strip by remember(tabsUrl) {
+        if (tabsUrl.isNullOrBlank()) flowOf(SubNavStrip.EMPTY)
+        else SubNavTabsLoader.strips(context, tabsUrl)
+    }.collectAsState(initial = SubNavStrip.EMPTY)
 
     // Tracked by id, not index: the chip list is replaced when the remote strip arrives, and an
     // index would then silently point at a different chip. null means "nothing picked yet" ->

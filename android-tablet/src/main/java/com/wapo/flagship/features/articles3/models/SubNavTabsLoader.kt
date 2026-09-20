@@ -1,179 +1,120 @@
 package com.wapo.flagship.features.articles3.models
 
 import android.content.Context
-import com.wapo.android.commons.config.ConfigHelper
+import com.wapo.android.commons.config.ConfigManager
 import com.wapo.android.commons.config.Constants
 import com.wapo.android.commons.util.Logger
+import com.wapo.flagship.config.Section
+import com.wapo.flagship.config.SiteServiceConfig
+import com.wapo.flagship.content.WapoConfigManager
 import com.wapo.flagship.features.articles3.models.ui.SubNavTabUiModel
-import com.washingtonpost.android.R
 import dagger.hilt.EntryPoint
 import dagger.hilt.InstallIn
 import dagger.hilt.android.EntryPointAccessors
 import dagger.hilt.components.SingletonComponent
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
-import okhttp3.OkHttpClient
-import okhttp3.Request
-import org.json.JSONObject
-import java.io.File
+import kotlinx.coroutines.channels.awaitClose
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.callbackFlow
+import kotlinx.coroutines.flow.catch
 
 /**
- * Supplies the chips for a `sub_nav` element, in the same three tiers the old
- * `ConfigManager` path used:
+ * Supplies the chips for a `sub_nav` element through the app's own config stack.
  *
- * 1. **Disk** — the last payload that downloaded successfully, so a returning reader gets the
- *    real chips instantly and offline.
- * 2. **Bundled** — `R.raw.section_election_config`, for a first run or after an app upgrade.
- * 3. **Remote** — the `siteMap` endpoint, which refreshes both of the above.
+ * [WapoConfigManager.loadElectionConfig] registers `R.raw.section_election_config` as the bundled
+ * fallback alongside the element's `siteMap` url, loads whichever local copy exists (the last good
+ * download, else the bundled resource, with the file cleared when the app version code changes),
+ * then schedules a throttled remote refresh. Every stage lands on the same `BehaviorSubject`, so a
+ * collector sees the local copy immediately and the remote one when it arrives.
  *
- * The payload is a site-service tree whose first child is the section and whose grandchildren
- * are the chips:
- * ```
- * { "children": [ { "name": "Elections 2026",
- *                   "children": [ { "name": "House", "path": "…" }, … ] } ] }
- * ```
+ * Disk cache, version invalidation, request headers and TLS are therefore the app's tested
+ * implementations rather than a second set living here.
  *
- * Parsed with [JSONObject] rather than a generated adapter on purpose: the contract is still in
- * flux, and only `name` + `path` are load-bearing. Unknown fields are ignored and a malformed
- * payload yields an empty strip instead of throwing, so a bad response costs the chips rather
- * than the whole article.
+ * Two limits are inherited from that stack and worth knowing:
+ *  - `ConfigManager.configModelMap` is keyed by [Constants.ConfigType] alone, so two `sub_nav`
+ *    elements with different `siteMap` urls share one slot and the later registration wins.
+ *  - The remote refresh is throttled by a single timestamp in `ContentManager`, not per url.
  */
 object SubNavTabsLoader {
 
     private const val TAG = "SubNavTabsLoader"
     private val CONFIG_TYPE = Constants.ConfigType.ELECTION_SUB_NAV_CONFIG
 
-    /** Hilt does not inject into objects, so reach the app's configured client the way the
-     *  widget factories do. Building a bare OkHttpClient here would skip
-     *  [com.wapo.android.commons.retrofit.DefaultHeadersInterceptor] (CLIENT-APP, User-Agent),
-     *  the app's TLS setup, timeouts, and debug logging/mocking. */
+    /** Hilt does not inject into objects, so reach the singleton the way the widget factories do. */
     @EntryPoint
     @InstallIn(SingletonComponent::class)
-    interface NetworkEntryPoint {
-        fun okHttpClient(): OkHttpClient
+    interface ConfigEntryPoint {
+        fun wapoConfigManager(): WapoConfigManager
     }
 
-    private fun client(context: Context): OkHttpClient =
-        EntryPointAccessors
-            .fromApplication(context.applicationContext, NetworkEntryPoint::class.java)
-            .okHttpClient()
-
-    /** Survives scrolling the element in and out; the disk copy survives process death. */
-    private val memory = mutableMapOf<String, SubNavStrip>()
-
     /**
-     * Best strip available without touching the network. Delegates to
-     * [ConfigHelper.updateAndLoadConfig], which is the same call the old `loadLocalConfig` path
-     * used: it returns the last good download from `filesDir`, falls back to the bundled raw
-     * resource when there is no file, and clears the file when the app version code has changed
-     * so an upgrade picks up that build's bundled copy.
+     * Emits the strip whenever the underlying config changes — local copy first, then the remote
+     * one once it downloads. Emits [SubNavStrip.EMPTY] and completes if the config subject is
+     * unavailable.
+     *
+     * The RxJava 1 subscription is tied to the flow's lifetime via [awaitClose], so leaving the
+     * article unsubscribes. The old `SubNavViewHolder` subscribed in `bind()` and never
+     * unsubscribed, leaking a subscriber per rebind.
      */
-    suspend fun loadCachedOrBundled(context: Context, url: String?): SubNavStrip =
-        withContext(Dispatchers.IO) {
-            if (url != null) memory[url]?.let { return@withContext it }
+    fun strips(context: Context, siteMapUrl: String): Flow<SubNavStrip> = callbackFlow {
+        val configManager = EntryPointAccessors
+            .fromApplication(context.applicationContext, ConfigEntryPoint::class.java)
+            .wapoConfigManager()
 
-            try {
-                val json = ConfigHelper.updateAndLoadConfig(
-                    context,
-                    R.raw.section_election_config,
-                    CONFIG_TYPE,
-                ) ?: return@withContext SubNavStrip.EMPTY
+        // Registers the config model, loads the local copy and schedules the remote refresh.
+        // Must run before getConfigSubjectOfType, which returns null for an unregistered type.
+        configManager.loadElectionConfig(context, CONFIG_TYPE, siteMapUrl)
 
-                parse(json.toString()).also { strip ->
-                    if (url != null && !strip.isEmpty) memory[url] = strip
-                }
-            } catch (t: Throwable) {
-                Logger.e(TAG, "SubNav local config load error", t)
-                SubNavStrip.EMPTY
-            }
+        val subject = ConfigManager.instance()?.getConfigSubjectOfType(CONFIG_TYPE)
+        if (subject == null) {
+            Logger.d(TAG, "SubNav config subject missing for $CONFIG_TYPE")
+            trySend(SubNavStrip.EMPTY)
+            close()
+            return@callbackFlow
         }
 
-    /**
-     * Fetches the strip from [url] and, on success, writes it to disk for the next launch.
-     * Returns [SubNavStrip.EMPTY] on any failure so the caller can keep showing tier 1 or 2.
-     */
-    suspend fun loadRemote(context: Context, url: String): SubNavStrip = withContext(Dispatchers.IO) {
-        try {
-            val request = Request.Builder().url(url).build()
-            client(context).newCall(request).execute().use { response ->
-                if (!response.isSuccessful) {
-                    Logger.d(TAG, "SubNav tabs fetch failed, code=${response.code}, url=$url")
-                    return@use SubNavStrip.EMPTY
-                }
-                val body = response.body.string()
-                val strip = parse(body)
-                if (!strip.isEmpty) {
-                    memory[url] = strip
-                    writeToDisk(context, body)
-                }
-                strip
-            }
-        } catch (t: Throwable) {
-            Logger.e(TAG, "SubNav tabs fetch error for $url", t)
-            SubNavStrip.EMPTY
-        }
+        val subscription = subject.subscribe(
+            { config -> trySend(map(config as? SiteServiceConfig)) },
+            { error -> Logger.e(TAG, "SubNav config stream error", Exception(error)) },
+        )
+
+        awaitClose { subscription.unsubscribe() }
+    }.catch { t ->
+        // A failure here costs the chips, never the article.
+        Logger.e(TAG, "SubNav config flow error", Exception(t))
+        emit(SubNavStrip.EMPTY)
     }
 
-    // ------------------------------------------------------------------------
-    // DISK CACHE
-    // ------------------------------------------------------------------------
-
     /**
-     * Writes the downloaded payload to the same file [ConfigHelper] reads from, so the next
-     * launch picks it up as tier 1. Reading, version invalidation and the raw-resource fallback
-     * all stay in ConfigHelper rather than being reimplemented here.
+     * Flattens the site-service tree into the strip: the first child is the section, its own
+     * children are the chips.
      */
-    private fun writeToDisk(context: Context, json: String) {
-        try {
-            File(context.filesDir, ConfigHelper.getFileName(CONFIG_TYPE)).writeText(json)
-        } catch (t: Throwable) {
-            Logger.e(TAG, "SubNav local config write error", t)
-        }
+    private fun map(config: SiteServiceConfig?): SubNavStrip {
+        val section = config?.sections?.firstOrNull() ?: return SubNavStrip.EMPTY
+
+        // "Election\n2024" in the feed — the newline is a web-layout artifact.
+        val label = section.sectionName.replace('\n', ' ').trim()
+        val tabs = section.sections.orEmpty().mapNotNull { it.toTab() }
+
+        return SubNavStrip(
+            sectionLabel = label.takeIf { it.isNotEmpty() },
+            sectionIconName = section.icon,
+            tabs = tabs,
+        )
     }
 
-    // ------------------------------------------------------------------------
-    // PARSING
-    // ------------------------------------------------------------------------
-
-    internal fun parse(json: String): SubNavStrip {
-        if (json.isBlank()) return SubNavStrip.EMPTY
-        return try {
-            val section = JSONObject(json)
-                .optJSONArray("children")
-                ?.optJSONObject(0)
-                ?: return SubNavStrip.EMPTY
-
-            // "Election\n2024" in the feed — the newline is a web-layout artifact.
-            val sectionName = section.optString("name").replace('\n', ' ').trim()
-            val children = section.optJSONArray("children")
-
-            val tabs = buildList {
-                for (i in 0 until (children?.length() ?: 0)) {
-                    val child = children?.optJSONObject(i) ?: continue
-                    val label = child.optString("name").replace('\n', ' ').trim()
-                    if (label.isEmpty()) continue
-                    val path = child.optString("path").takeIf { it.isNotBlank() }
-                    add(
-                        SubNavTabUiModel(
-                            id = child.optString("id").takeIf { it.isNotBlank() } ?: label,
-                            label = label,
-                            contentUrl = path,
-                            subtype = child.optString("subtype").takeIf { it.isNotBlank() },
-                            behavior = child.optString("behavior").takeIf { it.isNotBlank() },
-                            iconName = child.optString("icon").takeIf { it.isNotBlank() },
-                        )
-                    )
-                }
-            }
-            SubNavStrip(
-                sectionLabel = sectionName.takeIf { it.isNotEmpty() },
-                sectionIconName = section.optString("icon").takeIf { it.isNotBlank() },
-                tabs = tabs,
-            )
-        } catch (t: Throwable) {
-            Logger.e(TAG, "SubNav tabs parse error", t)
-            SubNavStrip.EMPTY
-        }
+    private fun Section.toTab(): SubNavTabUiModel? {
+        val label = sectionName.replace('\n', ' ').trim()
+        if (label.isEmpty()) return null
+        return SubNavTabUiModel(
+            id = sectionId.takeIf { it.isNotBlank() } ?: label,
+            label = label,
+            // Link children carry `path`; `path_fusion` is only set on real sections.
+            contentUrl = sectionPath?.takeIf { it.isNotBlank() }
+                ?: fusionPath?.takeIf { it.isNotBlank() },
+            subtype = sectionSubType,
+            behavior = behavior,
+            iconName = icon,
+        )
     }
 }
 
