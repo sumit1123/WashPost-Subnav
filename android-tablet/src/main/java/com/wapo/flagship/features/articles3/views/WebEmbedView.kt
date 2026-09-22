@@ -184,39 +184,51 @@ fun ProvideWebViewPool(content: @Composable () -> Unit) {
 // MAIN COMPOSABLE
 // ============================================================================
 
+/**
+ * [fixedHeight] turns the embed into a fixed viewport: the WebView is given exactly that height and
+ * the page scrolls inside it, horizontally as well as vertically, instead of being stretched to its
+ * own content height. Callers that pass it own the height (the sub-nav panel takes it from the
+ * element's `item.sizes`); without it the embed keeps growing to fit its content.
+ */
 @Composable
 fun WebEmbedView(
     index: Int,
     uiModel: WebEmbedUiModel,
     onArticleInteractionEvent: (ArticleInteractionEvent) -> Unit,
     webEmbedSettings: WebEmbedSettings,
+    fixedHeight: Dp? = null,
 ) {
     val context = LocalContext.current
     val pool = LocalWebViewPool.current
     val density = LocalDensity.current
 
+    val scrollsInternally = fixedHeight != null
+
     val embedKey = rememberEmbedKey(index, uiModel)
     val (embedHeightPx, setEmbedHeightPx) = rememberHeightState(embedKey, pool)
 
     // Convert pixels to dp for layout
-    val embedHeight: Dp? = remember(embedHeightPx, density) {
+    val measuredHeight: Dp? = remember(embedHeightPx, density) {
         if (embedHeightPx > 0) with(density) { embedHeightPx.toDp() } else null
     }
 
-    // Register height callback
-    RegisterHeightCallback(embedKey, pool, setEmbedHeightPx)
+    // Register height callback -- only the growing embeds have a height to report.
+    if (!scrollsInternally) {
+        RegisterHeightCallback(embedKey, pool, setEmbedHeightPx)
+    }
 
     // Create or retrieve WebView
-    val webView = rememberWebView(embedKey, uiModel, context, pool, webEmbedSettings)
+    val webView = rememberWebView(embedKey, uiModel, context, pool, webEmbedSettings, scrollsInternally)
 
     // Handle loading and height polling
-    HeightPollingEffect(embedKey, webView, uiModel, context, pool)
+    EmbedLoadEffect(embedKey, webView, uiModel, context, pool, measureHeight = !scrollsInternally)
 
     // Render the embed
     EmbedContainer(
-        embedHeight = embedHeight,
+        embedHeight = fixedHeight ?: measuredHeight,
         webView = webView,
         uiModel = uiModel,
+        scrollsInternally = scrollsInternally,
         onArticleInteractionEvent = onArticleInteractionEvent
     )
 }
@@ -262,21 +274,23 @@ private fun rememberWebView(
     context: Context,
     pool: WebViewPool,
     webEmbedSettings: WebEmbedSettings,
+    scrollsInternally: Boolean,
 ): WebView {
     return remember(embedKey) {
         pool.getOrCreate(embedKey, context) {
-            configureWebView(this, uiModel, embedKey, context, pool, webEmbedSettings)
+            configureWebView(this, uiModel, embedKey, context, pool, webEmbedSettings, scrollsInternally)
         }
     }
 }
 
 @Composable
-private fun HeightPollingEffect(
+private fun EmbedLoadEffect(
     embedKey: String,
     webView: WebView,
     uiModel: WebEmbedUiModel,
     context: Context,
-    pool: WebViewPool
+    pool: WebViewPool,
+    measureHeight: Boolean
 ) {
     LaunchedEffect(embedKey) {
         // Load content if not already loaded
@@ -284,6 +298,9 @@ private fun HeightPollingEffect(
             loadEmbed(webView, uiModel, context)
             pool.markLoaded(embedKey, uiModel.subtype)
         }
+
+        // A caller-supplied height is the layout, so there is nothing to measure or poll for.
+        if (!measureHeight) return@LaunchedEffect
 
         // Initial measurement after view attaches
         kotlinx.coroutines.delay(100)
@@ -302,6 +319,7 @@ private fun EmbedContainer(
     embedHeight: Dp?,
     webView: WebView,
     uiModel: WebEmbedUiModel,
+    scrollsInternally: Boolean,
     onArticleInteractionEvent: (ArticleInteractionEvent) -> Unit
 ) {
     val modifier = Modifier
@@ -311,8 +329,8 @@ private fun EmbedContainer(
     Box(modifier = modifier) {
         AndroidView(
             modifier = Modifier.fillMaxSize(),
-            factory = { ctx -> createEmbedContainer(ctx, webView, uiModel) },
-            update = { container -> updateEmbedContainer(container, webView, uiModel) }
+            factory = { ctx -> createEmbedContainer(ctx, webView, uiModel, scrollsInternally) },
+            update = { container -> updateEmbedContainer(container, webView, uiModel, scrollsInternally) }
         )
 
         // Reddit overlay for tap interception
@@ -351,27 +369,41 @@ private fun configureWebView(
     context: Context,
     pool: WebViewPool,
     webEmbedSettings: WebEmbedSettings,
+    scrollsInternally: Boolean,
 ) {
     val subtype = uiModel.subtype
 
-    // Height tracking via layout changes
-    webView.addOnLayoutChangeListener { v, _, _, _, _, _, _, _, _ ->
-        val wv = v as WebView
-        val contentHeightPx = wv.contentHeight
-        if (contentHeightPx > 0) {
-            val density = context.resources.displayMetrics.density
-            val heightInPx = (contentHeightPx * density).toInt()
-            pool.updateHeight(embedKey, heightInPx, subtype)
+    // Height tracking via layout changes -- a fixed viewport has no height to report.
+    if (!scrollsInternally) {
+        webView.addOnLayoutChangeListener { v, _, _, _, _, _, _, _, _ ->
+            val wv = v as WebView
+            val contentHeightPx = wv.contentHeight
+            if (contentHeightPx > 0) {
+                val density = context.resources.displayMetrics.density
+                val heightInPx = (contentHeightPx * density).toInt()
+                pool.updateHeight(embedKey, heightInPx, subtype)
+            }
         }
     }
 
     // Subtype-specific settings
-    if (subtype == "datawrapper") {
-        webView.isHorizontalScrollBarEnabled = true
-        webView.settings.useWideViewPort = true
-        webView.settings.loadWithOverviewMode = true
-    } else {
-        webView.isScrollContainer = false
+    when {
+        // The WebView fills its fixed box and scrolls its own content in both directions.
+        // loadWithOverviewMode stays off on purpose: shrinking the page to fit would leave
+        // nothing to scroll horizontally, which is the point of a wide component here.
+        scrollsInternally -> {
+            webView.isScrollContainer = true
+            webView.isVerticalScrollBarEnabled = true
+            webView.isHorizontalScrollBarEnabled = true
+            webView.settings.useWideViewPort = true
+            webView.settings.loadWithOverviewMode = false
+        }
+        subtype == "datawrapper" -> {
+            webView.isHorizontalScrollBarEnabled = true
+            webView.settings.useWideViewPort = true
+            webView.settings.loadWithOverviewMode = true
+        }
+        else -> webView.isScrollContainer = false
     }
 
     // JavaScript interfaces
@@ -385,7 +417,7 @@ private fun configureWebView(
             super.onPageFinished(view, url)
             view?.post {
                 injectLinkInterceptor(view)
-                injectHeightReporter(view, subtype)
+                if (!scrollsInternally) injectHeightReporter(view, subtype)
             }
         }
     }
@@ -433,28 +465,32 @@ private class HeightReporterInterface(
 private fun createEmbedContainer(
     ctx: Context,
     webView: WebView,
-    uiModel: WebEmbedUiModel
+    uiModel: WebEmbedUiModel,
+    scrollsInternally: Boolean
 ): FrameLayout {
-    val container = if (uiModel.subtype == "datawrapper") {
-        DatawrapperTouchContainer(ctx)
-    } else {
-        FrameLayout(ctx)
+    val container = when {
+        scrollsInternally -> ScrollingEmbedContainer(ctx)
+        uiModel.subtype == "datawrapper" -> DatawrapperTouchContainer(ctx)
+        else -> FrameLayout(ctx)
     }
 
     (webView.parent as? FrameLayout)?.removeView(webView)
-    container.addView(webView, wrapContentLayoutParams())
+    container.addView(webView, embedLayoutParams(scrollsInternally))
     return container
 }
 
 private fun updateEmbedContainer(
     container: FrameLayout,
     webView: WebView,
-    uiModel: WebEmbedUiModel
+    uiModel: WebEmbedUiModel,
+    scrollsInternally: Boolean
 ) {
     if (webView.parent !== container) {
         (webView.parent as? FrameLayout)?.removeView(webView)
-        container.addView(webView, wrapContentLayoutParams())
+        container.addView(webView, embedLayoutParams(scrollsInternally))
     }
+
+    if (scrollsInternally) return
 
     // Force height measurement when view becomes visible
     webView.post {
@@ -463,9 +499,17 @@ private fun updateEmbedContainer(
     }
 }
 
-private fun wrapContentLayoutParams() = FrameLayout.LayoutParams(
+/**
+ * A fixed-viewport embed matches its box so the page scrolls inside it; every other embed wraps
+ * its content, which is what the measured height then sizes.
+ */
+private fun embedLayoutParams(scrollsInternally: Boolean) = FrameLayout.LayoutParams(
     FrameLayout.LayoutParams.MATCH_PARENT,
-    FrameLayout.LayoutParams.WRAP_CONTENT
+    if (scrollsInternally) {
+        FrameLayout.LayoutParams.MATCH_PARENT
+    } else {
+        FrameLayout.LayoutParams.WRAP_CONTENT
+    }
 )
 
 /**
@@ -491,6 +535,54 @@ private class DatawrapperTouchContainer(context: Context) : FrameLayout(context)
                     if (dx > 8 || dy > 8) {
                         directionLocked = true
                         parent?.requestDisallowInterceptTouchEvent(dx > dy)
+                    }
+                }
+            }
+            android.view.MotionEvent.ACTION_UP,
+            android.view.MotionEvent.ACTION_CANCEL -> {
+                directionLocked = false
+                parent?.requestDisallowInterceptTouchEvent(false)
+            }
+        }
+        return false
+    }
+}
+
+/**
+ * Holds an embed that scrolls inside a fixed box. The article is a LazyColumn, so a drag that
+ * starts here would otherwise scroll the article past the panel instead of the embed. The gesture
+ * is handed to the WebView only while it can still scroll the way the finger is moving -- once the
+ * embed is at its edge the article takes over, so the panel never becomes a dead zone.
+ */
+private class ScrollingEmbedContainer(context: Context) : FrameLayout(context) {
+    private val touchSlop = android.view.ViewConfiguration.get(context).scaledTouchSlop
+    private var startX = 0f
+    private var startY = 0f
+    private var directionLocked = false
+
+    override fun onInterceptTouchEvent(ev: android.view.MotionEvent): Boolean {
+        when (ev.actionMasked) {
+            android.view.MotionEvent.ACTION_DOWN -> {
+                startX = ev.x
+                startY = ev.y
+                directionLocked = false
+                parent?.requestDisallowInterceptTouchEvent(true)
+            }
+            android.view.MotionEvent.ACTION_MOVE -> {
+                val embed = getChildAt(0)
+                if (!directionLocked && embed != null) {
+                    val dx = ev.x - startX
+                    val dy = ev.y - startY
+                    if (kotlin.math.abs(dx) > touchSlop || kotlin.math.abs(dy) > touchSlop) {
+                        directionLocked = true
+                        // canScroll* takes the direction the content moves, which is the
+                        // opposite of the finger: dragging down (dy > 0) scrolls up.
+                        val consumes = if (kotlin.math.abs(dx) > kotlin.math.abs(dy)) {
+                            embed.canScrollHorizontally(if (dx > 0) -1 else 1)
+                        } else {
+                            embed.canScrollVertically(if (dy > 0) -1 else 1)
+                        }
+                        parent?.requestDisallowInterceptTouchEvent(consumes)
                     }
                 }
             }

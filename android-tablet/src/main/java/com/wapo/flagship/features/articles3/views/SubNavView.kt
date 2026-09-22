@@ -37,12 +37,14 @@ import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.wapo.flagship.features.articles2.interfaces.ArticleInteractionEvent
@@ -51,6 +53,8 @@ import com.wapo.flagship.features.articles3.models.SubNavTabsLoader
 import com.wapo.flagship.features.articles3.models.ui.SubNavTabUiModel
 import com.wapo.flagship.features.articles3.models.ui.SubNavUiModel
 import com.wapo.flagship.features.articles3.models.ui.WebEmbedUiModel
+import com.wapo.flagship.features.grid.ComponentSize
+import com.wapo.flagship.features.pagebuilder.getSize
 import com.wapo.flagship.util.tracking.Measurement
 import kotlinx.coroutines.flow.flowOf
 import com.wpds.theme.FranklinItcStandardFontFamily
@@ -78,6 +82,10 @@ fun SubNavView(
         if (tabsUrl.isNullOrBlank()) flowOf(SubNavStrip.EMPTY)
         else SubNavTabsLoader.strips(context, tabsUrl)
     }.collectAsState(initial = SubNavStrip.EMPTY)
+
+    // The feed's render sizes for the panel. Without them the panel grows to whatever the tab's
+    // page measures, which for a full page (live updates) is the whole document.
+    val panelHeight = rememberPanelHeight(uiModel.panelSizes)
 
     // Tracked by id, not index: the chip list is replaced when the remote strip arrives, and an
     // index would then silently point at a different chip. null means "nothing picked yet".
@@ -132,8 +140,30 @@ fun SubNavView(
                 ),
                 onArticleInteractionEvent = onArticleInteractionEvent,
                 webEmbedSettings = webEmbedSettings,
+                fixedHeight = panelHeight,
             )
         }
+    }
+}
+
+/**
+ * The height the feed asks for at this screen size, in dp.
+ *
+ * The size is picked with the same nearest-match the section fronts use for their web components,
+ * so a feed that lists one size per device class lands on the same entry here. Reading the
+ * configuration makes the pick again after a rotation or a resize. null -- no sizes, or a size
+ * without a usable height -- leaves the panel measuring its own content.
+ */
+@Composable
+private fun rememberPanelHeight(sizes: List<ComponentSize>): Dp? {
+    val context = LocalContext.current
+    val configuration = LocalConfiguration.current
+    return remember(sizes, configuration) {
+        sizes.takeIf { it.isNotEmpty() }
+            ?.getSize(context)
+            ?.height
+            ?.takeIf { it > 0 }
+            ?.dp
     }
 }
 

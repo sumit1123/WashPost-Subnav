@@ -43,6 +43,7 @@ import com.wapo.flagship.features.articles3.views.TitleUiStyle
 import com.wapo.flagship.features.articles3.views.VideoUiStyle
 import com.wapo.flagship.features.articles3.views.WebEmbedUiStyle
 import com.wapo.flagship.features.comments.model.SourceAnnotation
+import com.wapo.flagship.features.grid.ComponentSize
 import com.wapo.flagship.features.articles2.models.ArticleInlineMessage
 import com.wapo.flagship.features.articles2.models.DisclaimerInfo
 import com.wapo.flagship.features.articles2.models.deserialized.KickerImage
@@ -339,9 +340,14 @@ data class SubNavTabUiModel(
  * and its chips are fetched from there at render time, so the newsroom can change them without
  * an app release. Each chip carries its own content url, which the panel below the strip loads;
  * until a chip is selected the panel stays empty.
+ *
+ * [panelSizes] are the element's `item.sizes`: the render sizes the feed suggests for the panel,
+ * one per screen width. The nearest one gives the panel a fixed height; with none the panel falls
+ * back to growing to its content.
  */
 data class SubNavUiModel(
     val tabsUrl: String?,
+    val panelSizes: List<ComponentSize> = emptyList(),
     override val uiStyle: SubNavUiStyle = SubNavUiStyle.DEFAULT
 ) : ArticleItemUiModel(uiStyle)
 

@@ -32,6 +32,7 @@ import com.wapo.flagship.features.articles2.models.LiveOutcome
 import com.wapo.flagship.features.articles2.models.Question
 import com.wapo.flagship.features.articles2.models.QuestionSet
 import com.wapo.flagship.features.articles2.models.Renderer
+import com.wapo.flagship.features.articles2.models.SubItem
 import com.wapo.flagship.features.articles2.models.SubNav
 import com.wapo.flagship.features.articles2.models.deserialized.*
 import com.wapo.flagship.features.articles2.models.deserialized.ByLine.SubType
@@ -71,6 +72,7 @@ import com.wapo.flagship.features.audio.config2.NowPlayingAudioItem
 import com.wapo.flagship.features.audio.models.AudioPlaybackState as PlayerAudioPlaybackState
 import com.wapo.flagship.features.audio.utils.AudioViewUtils
 import com.wapo.flagship.features.comments.model.SourceAnnotation
+import com.wapo.flagship.features.grid.ComponentSize
 import com.wapo.flagship.features.search2.events.UserEvent
 import com.wapo.flagship.features.video.PostTvWarmUp
 import com.wapo.flagship.model.ArticleMeta
@@ -1537,7 +1539,11 @@ class Articles2ViewModel @Inject constructor(
                 }
                 is SubNav -> {
                     it.url?.takeIf { url -> url.isNotBlank() }?.let { url ->
-                        SubNavUiModel(tabsUrl = url, uiStyle = SubNavUiStyle.DEFAULT)
+                        SubNavUiModel(
+                            tabsUrl = url,
+                            panelSizes = mapPanelSizes(it.subItem),
+                            uiStyle = SubNavUiStyle.DEFAULT
+                        )
                     }
                 }
                 is Pdf -> {
@@ -2023,6 +2029,18 @@ class Articles2ViewModel @Inject constructor(
     private fun parseWidthFactor(widthFactor: String?): WidthFactor? {
         return WidthFactor.entries.firstOrNull { it.value == widthFactor }
     }
+
+    /**
+     * The sub-nav's `item.sizes`, as the same [ComponentSize] pairs the section fronts pick a web
+     * component's render size from. Entries missing either dimension are dropped: they would read
+     * as 0 in that pick and pull it towards themselves.
+     */
+    private fun mapPanelSizes(subItem: SubItem?): List<ComponentSize> =
+        subItem?.sizes.orEmpty().mapNotNull { size ->
+            val width = size.width ?: return@mapNotNull null
+            val height = size.height ?: return@mapNotNull null
+            ComponentSize(width, height)
+        }
 
         private fun startUiTimeoutTimer() {
             uiTimeOutTimer =
