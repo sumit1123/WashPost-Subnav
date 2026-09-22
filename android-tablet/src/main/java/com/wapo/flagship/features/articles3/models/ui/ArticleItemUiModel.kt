@@ -326,12 +326,7 @@ data class SubNavTabUiModel(
     val contentUrl: String?,
     val subtype: String? = null,
     val behavior: String? = null,
-    /** Feed icon name, e.g. "election-default". Resolved against drawables by IconUtils. */
     val iconName: String? = null,
-    /**
-     * Nested entries from the feed. A chip that has them renders as a dropdown — the design's
-     * "Results by State ⌄" — and selecting one of these swaps the panel instead of the parent.
-     */
     val children: List<SubNavTabUiModel> = emptyList(),
 ) {
     val isDropdown: Boolean get() = children.isNotEmpty()
@@ -340,16 +335,13 @@ data class SubNavTabUiModel(
 /**
  * Horizontally scrolling nav strip with a content panel beneath it.
  *
- * The article element supplies only [tabsUrl] and [defaultContentUrl]; the chips themselves
- * are fetched at render time from [tabsUrl], so the newsroom can change them without an app
- * release. Until a chip is selected the panel shows [defaultContentUrl] (the element's own
- * embed).
+ * The article element supplies only [tabsUrl] (`{ "type": "sub_nav", "url": "…" }`); the strip
+ * and its chips are fetched from there at render time, so the newsroom can change them without
+ * an app release. Each chip carries its own content url, which the panel below the strip loads;
+ * until a chip is selected the panel stays empty.
  */
 data class SubNavUiModel(
     val tabsUrl: String?,
-    val defaultContentUrl: String?,
-    val subtype: String?,
-    val widthFactor: WidthFactor?,
     override val uiStyle: SubNavUiStyle = SubNavUiStyle.DEFAULT
 ) : ArticleItemUiModel(uiStyle)
 

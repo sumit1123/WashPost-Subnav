@@ -1,18 +1,20 @@
 package com.wapo.flagship.features.articles3.views
 
+import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.selection.selectable
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.Icon
@@ -24,18 +26,23 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.remember
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.draw.rotate
+import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.wapo.flagship.features.articles2.interfaces.ArticleInteractionEvent
@@ -46,7 +53,6 @@ import com.wapo.flagship.features.articles3.models.ui.SubNavUiModel
 import com.wapo.flagship.features.articles3.models.ui.WebEmbedUiModel
 import com.wapo.flagship.util.tracking.Measurement
 import kotlinx.coroutines.flow.flowOf
-import com.wpds.theme.AndroidClassicTheme
 import com.wpds.theme.FranklinItcStandardFontFamily
 import com.wpds.theme.wpdsColors
 import com.wpds.utils.IconUtils
@@ -54,7 +60,6 @@ import com.wpds.utils.IconUtils
 enum class SubNavUiStyle {
     DEFAULT
 }
-
 
 @Composable
 fun SubNavView(
@@ -75,28 +80,30 @@ fun SubNavView(
     }.collectAsState(initial = SubNavStrip.EMPTY)
 
     // Tracked by id, not index: the chip list is replaced when the remote strip arrives, and an
-    // index would then silently point at a different chip. null means "nothing picked yet" ->
-    // show the element's own embed. A selection that the remote strip drops falls back to that
-    // same default rather than to an unrelated chip.
-    var selectedTabId by rememberSaveable(uiModel.tabsUrl) { mutableStateOf<String?>(null) }
+    // index would then silently point at a different chip. null means "nothing picked yet".
+    var selectedTabId by rememberSaveable(tabsUrl) { mutableStateOf<String?>(null) }
 
     // Search dropdown children too: picking "Arizona" stores that child's id, which is not in
-    // strip.tabs, so a top-level-only lookup would miss it and fall back to the default embed.
+    // strip.tabs, so a top-level-only lookup would miss it and leave the panel empty.
     val selectedTab = strip.tabs.firstNotNullOfOrNull { tab ->
         tab.takeIf { it.id == selectedTabId }
             ?: tab.children.firstOrNull { it.id == selectedTabId }
     }
-    val contentUrl = selectedTab?.contentUrl ?: uiModel.defaultContentUrl
+    val contentUrl = selectedTab?.contentUrl
 
     Column(modifier = Modifier.fillMaxWidth()) {
-
         if (!strip.isEmpty) {
             SubNavStripRow(
                 strip = strip,
                 selectedTabId = selectedTabId,
                 onTabSelected = { tab ->
-                    selectedTabId = if (selectedTabId == tab.id) null else tab.id
-                    tab.behavior?.let { Measurement.trackSubNavItemClick(it) }
+                    val isDeselect = selectedTabId == tab.id
+                    selectedTabId = if (isDeselect) null else tab.id
+                    // Tapping the active chip clears the selection; that is not a selection
+                    // event, so only the selecting tap is reported.
+                    if (!isDeselect) {
+                        tab.behavior?.let { Measurement.trackSubNavItemClick(it) }
+                    }
                 },
             )
 
@@ -117,8 +124,10 @@ fun SubNavView(
                 uiModel = WebEmbedUiModel(
                     url = contentUrl,
                     oembed = null,
-                    subtype = loadableSubtype(selectedTab?.subtype ?: uiModel.subtype),
-                    widthFactor = uiModel.widthFactor,
+                    subtype = loadableSubtype(selectedTab?.subtype),
+                    // WebEmbedView does not read widthFactor; the strip's panel is always
+                    // full width, so there is nothing for the element to supply.
+                    widthFactor = null,
                     uiStyle = WebEmbedUiStyle.DEFAULT,
                 ),
                 onArticleInteractionEvent = onArticleInteractionEvent,
@@ -128,6 +137,21 @@ fun SubNavView(
     }
 }
 
+/**
+ * Maps a feed subtype onto one [WebEmbedView] will actually load.
+ *
+ * `loadEmbed` only calls `loadUrl` for the "datawrapper" and "partial" subtypes — every other
+ * subtype without an `oembed` payload silently loads nothing and collapses to an empty box. Sub-nav
+ * panels are always plain urls (e.g. the "elex" components), so they map to "partial", which is the
+ * generic load-this-url path. "datawrapper" is preserved because it carries its own scroll and
+ * navigation handling in [EmbedWebViewClient].
+ *
+ * Doing this here rather than adding an `else` branch to `loadEmbed` keeps the change off every
+ * other embed in the article.
+ */
+private fun loadableSubtype(feedSubtype: String?): String =
+    if (feedSubtype == "datawrapper") "datawrapper" else "partial"
+
 @Composable
 private fun SubNavStripRow(
     strip: SubNavStrip,
@@ -136,7 +160,10 @@ private fun SubNavStripRow(
 ) {
     LazyRow(
         modifier = Modifier.fillMaxWidth(),
-        contentPadding = PaddingValues(horizontal = 16.dp, vertical = 16.dp),
+        contentPadding = PaddingValues(
+            horizontal = 16.dp,
+            vertical = SubNavTokens.STRIP_VERTICAL_PADDING,
+        ),
         horizontalArrangement = Arrangement.spacedBy(24.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
@@ -176,13 +203,22 @@ private fun SubNavChip(
     tab: SubNavTabUiModel,
     isSelected: Boolean,
     onClick: () -> Unit,
+    role: Role = Role.Tab,
     trailing: @Composable () -> Unit = {},
 ) {
     Row(
         verticalAlignment = Alignment.CenterVertically,
         modifier = Modifier
-            .clickable(enabled = tab.contentUrl != null || tab.isDropdown) { onClick() }
-            .padding(vertical = 4.dp),
+            // selectable reports the selected state to TalkBack, which the bold + underline
+            // alone does not. The strip's visible height comes from the LazyRow's padding, so
+            // the minimum buys a 48dp touch target without making the strip taller.
+            .selectable(
+                selected = isSelected,
+                enabled = tab.contentUrl != null || tab.isDropdown,
+                role = role,
+                onClick = onClick,
+            )
+            .heightIn(min = SubNavTokens.CHIP_MIN_HEIGHT),
     ) {
         SubNavIcon(iconName = tab.iconName)
         Text(
@@ -196,8 +232,8 @@ private fun SubNavChip(
 
 /**
  * A chip whose feed entry has nested children — the design's "Results by State ⌄". Tapping opens
- * a menu of the children; picking one swaps the panel to that child, so the parent itself is
- * never the selection.
+ * a menu of the children; picking one moves the selection to that child, so the parent itself
+ * is never the selection.
  */
 @Composable
 private fun SubNavDropdownChip(
@@ -205,8 +241,10 @@ private fun SubNavDropdownChip(
     selectedTabId: String?,
     onTabSelected: (SubNavTabUiModel) -> Unit,
 ) {
-    var expanded by remember { mutableStateOf(false) }
-    // The parent reads as selected while any of its children is the current panel.
+    var expanded by rememberSaveable { mutableStateOf(false) }
+    // Hoisted out of DropdownMenu so the scrollbar can read the same scroll position.
+    val menuScrollState = rememberScrollState()
+    // The parent reads as selected while any of its children is the selected chip.
     val isSelected = tab.children.any { it.id == selectedTabId }
 
     Box {
@@ -214,6 +252,7 @@ private fun SubNavDropdownChip(
             tab = tab,
             isSelected = isSelected,
             onClick = { expanded = true },
+            role = Role.DropdownList,
             trailing = {
                 // ArrowDropUp lives in material-icons-extended, which this module does not
                 // pull in; rotating the down caret avoids adding the dependency for one glyph.
@@ -231,9 +270,11 @@ private fun SubNavDropdownChip(
         DropdownMenu(
             expanded = expanded,
             onDismissRequest = { expanded = false },
-            // Material3 tints its menu surface from the theme's primary, which reads as lavender
-            // here. Painting the modifier background overrides that without touching the theme.
-            modifier = Modifier.background(SUB_NAV_MENU_BACKGROUND),
+            scrollState = menuScrollState,
+            modifier = Modifier
+                .background(SubNavTokens.MENU_BACKGROUND)
+                .heightIn(max = SubNavTokens.MENU_MAX_HEIGHT)
+                .verticalScrollbar(menuScrollState),
         ) {
             tab.children.forEach { child ->
                 DropdownMenuItem(
@@ -241,7 +282,7 @@ private fun SubNavDropdownChip(
                         Text(
                             text = child.label,
                             style = tabStyle(child.id == selectedTabId),
-                            color = SUB_NAV_MENU_TEXT,
+                            color = SubNavTokens.MENU_TEXT,
                         )
                     },
                     onClick = {
@@ -254,20 +295,26 @@ private fun SubNavDropdownChip(
     }
 }
 
-/**
- * Maps a feed subtype onto one [WebEmbedView] will actually load.
- *
- * `loadEmbed` only calls `loadUrl` for the "datawrapper" and "partial" subtypes — every other
- * subtype without an `oembed` payload silently loads nothing and collapses to an empty box. Sub-nav
- * panels are always plain urls (e.g. the "elex" components), so they map to "partial", which is the
- * generic load-this-url path. "datawrapper" is preserved because it carries its own scroll and
- * navigation handling in [EmbedWebViewClient].
- *
- * Doing this here rather than adding an `else` branch to `loadEmbed` keeps the change off every
- * other embed in the article.
- */
-private fun loadableSubtype(feedSubtype: String?): String =
-    if (feedSubtype == "datawrapper") "datawrapper" else "partial"
+/** Material3's [DropdownMenu] gives no scroll affordance, so a thumb is drawn over the menu. */
+private fun Modifier.verticalScrollbar(state: ScrollState): Modifier = drawWithContent {
+    drawContent()
+
+    val max = state.maxValue
+    if (max == 0 || max == Int.MAX_VALUE) return@drawWithContent
+
+    val viewportHeight = size.height
+    val contentHeight = viewportHeight + max
+    val thumbHeight = (viewportHeight / contentHeight) * viewportHeight
+    val thumbOffsetY = (state.value.toFloat() / max) * (viewportHeight - thumbHeight)
+    val thumbWidth = SubNavTokens.SCROLLBAR_WIDTH.toPx()
+
+    drawRoundRect(
+        color = SubNavTokens.SCROLLBAR,
+        topLeft = Offset(size.width - thumbWidth, thumbOffsetY),
+        size = Size(thumbWidth, thumbHeight),
+        cornerRadius = CornerRadius(thumbWidth / 2f),
+    )
+}
 
 /**
  * Feed-driven icon (e.g. the elections flag). Renders nothing when the feed names no icon or the
@@ -289,49 +336,31 @@ private fun SubNavIcon(iconName: String?) {
     )
 }
 
-/** Shared by the section label and the chips; they differed by 0.1sp only because the old
- *  item_sub_nav.xml did, which was not a deliberate distinction. */
-private val SUB_NAV_TEXT_SIZE = 16.sp
+/** Design tokens for the strip, kept together so the whole look can be read in one place. */
+private object SubNavTokens {
 
-/** Deliberately fixed rather than theme-derived: the menu is meant to read as a light surface
- *  in both themes. Swap for wpdsColors.surface / onSurface if it should follow dark mode. */
-private val SUB_NAV_MENU_BACKGROUND = Color(0xFFF7F7F7)
-private val SUB_NAV_MENU_TEXT = Color(0xFF1A1A1A)
+    val TEXT_SIZE = 16.sp
+    val MENU_BACKGROUND = Color(0xFFF7F7F7)
+    val MENU_TEXT = Color(0xFF1A1A1A)
+    val MENU_MAX_HEIGHT = 280.dp
+    val CHIP_MIN_HEIGHT = 48.dp
+    val STRIP_VERTICAL_PADDING = 6.dp
+    val SCROLLBAR = Color(0x66000000)
+    val SCROLLBAR_WIDTH = 3.dp
+}
 
 @Composable
 private fun sectionLabelStyle(): TextStyle = TextStyle(
     fontFamily = FranklinItcStandardFontFamily,
     fontWeight = FontWeight.Bold,
-    fontSize = SUB_NAV_TEXT_SIZE,
+    fontSize = SubNavTokens.TEXT_SIZE,
 )
 
 @Composable
 private fun tabStyle(isSelected: Boolean): TextStyle = TextStyle(
     fontFamily = FranklinItcStandardFontFamily,
     fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal,
-    fontSize = SUB_NAV_TEXT_SIZE,
+    fontSize = SubNavTokens.TEXT_SIZE,
     textDecoration = if (isSelected) TextDecoration.Underline else TextDecoration.None,
 )
 
-// ============================================================================
-// PREVIEW
-// ============================================================================
-
-@Preview(showBackground = true)
-@Composable
-private fun SubNavStripRowPreview() {
-    AndroidClassicTheme {
-        SubNavStripRow(
-            strip = SubNavStrip(
-                sectionLabel = "Election 2024",
-                tabs = listOf(
-                    SubNavTabUiModel("1", "Find results", "https://example.com/a", "search"),
-                    SubNavTabUiModel("2", "Live updates", "https://example.com/b", "luf"),
-                    SubNavTabUiModel("3", "Balance of power", "https://example.com/c"),
-                ),
-            ),
-            selectedTabId = "2",
-            onTabSelected = { },
-        )
-    }
-}

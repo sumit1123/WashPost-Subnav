@@ -7,11 +7,7 @@ import com.squareup.moshi.JsonClass
 data class SubNav(
     @Json(name = "type")
     override val type: String?,
-    @Json(name = "siteMap")
-    val siteMap: String?,
-    @Json(name = "parent")
-    val parent: String?,
-    @Json(name = "item")
-    val subItem: SubItem?,
+    @Json(name = "url")
+    val url: String? = null,
 ) : Item(type = type),
     ElementGroupItem

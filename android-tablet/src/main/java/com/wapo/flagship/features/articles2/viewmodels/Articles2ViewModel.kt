@@ -1536,16 +1536,8 @@ class Articles2ViewModel @Inject constructor(
                     )
                 }
                 is SubNav -> {
-                    if (it.siteMap.isNullOrBlank() && it.subItem?.url.isNullOrBlank()) {
-                        null
-                    } else {
-                        SubNavUiModel(
-                            tabsUrl = it.siteMap,
-                            defaultContentUrl = it.subItem?.url,
-                            subtype = it.subItem?.subtype,
-                            widthFactor = parseWidthFactor(it.subItem?.widthFactor),
-                            uiStyle = SubNavUiStyle.DEFAULT
-                        )
+                    it.url?.takeIf { url -> url.isNotBlank() }?.let { url ->
+                        SubNavUiModel(tabsUrl = url, uiStyle = SubNavUiStyle.DEFAULT)
                     }
                 }
                 is Pdf -> {
@@ -1902,9 +1894,11 @@ class Articles2ViewModel @Inject constructor(
                         }
                     }
                     is SubNav -> {
+                        // Only reachable for a sub_nav nested in an element group, where the
+                        // strip itself cannot render; fall back to a plain link to its endpoint.
                         InterstitialLinkUiModel(
-                            content = item.parent ?: "Related",
-                            url = item.subItem?.url ?: item.siteMap ?: return@mapNotNull null,
+                            content = "Related",
+                            url = item.url ?: return@mapNotNull null,
                             uiStyle = InterstitialLinkUiStyle.DEFAULT
                         )
                     }

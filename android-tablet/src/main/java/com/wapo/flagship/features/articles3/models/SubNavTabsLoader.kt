@@ -5,8 +5,6 @@ import com.wapo.android.commons.config.ConfigHelper
 import com.wapo.android.commons.config.ConfigManager
 import com.wapo.android.commons.config.Constants
 import com.wapo.android.commons.util.Logger
-import com.wapo.flagship.config.Section
-import com.wapo.flagship.config.SiteServiceConfig
 import com.wapo.flagship.content.WapoConfigManager
 import com.wapo.flagship.features.articles3.models.ui.SubNavTabUiModel
 import com.washingtonpost.android.R
@@ -24,14 +22,6 @@ object SubNavTabsLoader {
     private const val TAG = "SubNavTabsLoader"
     private val CONFIG_TYPE = Constants.ConfigType.ELECTION_SUB_NAV_CONFIG
 
-    /**
-     * Testing switch. When true the remote `siteMap` is ignored and the strip always renders
-     * `R.raw.section_election_config`, so edits to that file show up without a server serving
-     * the matching tree. Also clears any previously downloaded copy, which would otherwise win
-     * as tier 1.
-     *
-     * Leave false in anything that ships.
-     */
     private const val USE_BUNDLED_CONFIG_ONLY = true
 
     /** Hilt does not inject into objects, so reach the singleton the way the widget factories do. */
@@ -54,7 +44,7 @@ object SubNavTabsLoader {
                 addConfigModel(
                     CONFIG_TYPE,
                     ConfigManager.ConfigModel(
-                        SiteServiceConfig::class.java,
+                        SubNavConfig::class.java,
                         R.raw.section_election_config,
                         null,
                     ),
@@ -74,7 +64,7 @@ object SubNavTabsLoader {
         }
 
         val subscription = subject.subscribe(
-            { config -> trySend(map(config as? SiteServiceConfig)) },
+            { config -> trySend(map(config as? SubNavConfig)) },
             { error -> Logger.e(TAG, "SubNav config stream error", Exception(error)) },
         )
 
@@ -86,36 +76,40 @@ object SubNavTabsLoader {
     }
 
     /**
-     * Flattens the site-service tree into the strip: the first child is the section, its own
-     * children are the chips.
+     * Splits the flat item list into the leading title (the entry marked `style: "bold"`) and
+     * the chips. Falls back to treating the first entry as the title when nothing is marked,
+     * which is how the bundled file is ordered.
      */
-    private fun map(config: SiteServiceConfig?): SubNavStrip {
-        val section = config?.sections?.firstOrNull() ?: return SubNavStrip.EMPTY
-        val label = section.sectionName.replace('\n', ' ').trim()
-        val tabs = section.sections.orEmpty().mapNotNull { it.toTab() }
+    private fun map(config: SubNavConfig?): SubNavStrip {
+        val items = config?.items.orEmpty().filter { !it.name.isNullOrBlank() }
+        if (items.isEmpty()) return SubNavStrip.EMPTY
+
+        val titleIndex = items.indexOfFirst { it.style.equals("bold", ignoreCase = true) }
+            .takeIf { it >= 0 } ?: 0
+        val title = items[titleIndex]
 
         return SubNavStrip(
-            sectionLabel = label.takeIf { it.isNotEmpty() },
-            sectionIconName = section.icon,
-            tabs = tabs,
+            sectionLabel = title.name?.replace('\n', ' ')?.trim(),
+            sectionIconName = title.icon,
+            // Ids fall back to the label when an entry carries no url, so a config with a
+            // repeated url or label would hand LazyRow duplicate keys and crash the article.
+            tabs = items.filterIndexed { i, _ -> i != titleIndex }
+                .mapNotNull { it.toTab() }
+                .distinctBy { it.id },
         )
     }
 
-    private fun Section.toTab(): SubNavTabUiModel? {
-        val label = sectionName.replace('\n', ' ').trim()
+    private fun SubNavConfigItem.toTab(): SubNavTabUiModel? {
+        val label = name?.replace('\n', ' ')?.trim().orEmpty()
         if (label.isEmpty()) return null
         return SubNavTabUiModel(
-            id = sectionId.takeIf { it.isNotBlank() } ?: label,
+            id = url?.takeIf { it.isNotBlank() } ?: label,
             label = label,
-            // Link children carry `path`; `path_fusion` is only set on real sections.
-            contentUrl = sectionPath?.takeIf { it.isNotBlank() }
-                ?: fusionPath?.takeIf { it.isNotBlank() },
-            subtype = sectionSubType,
+            contentUrl = url?.takeIf { it.isNotBlank() },
+            subtype = subtype,
             behavior = behavior,
             iconName = icon,
-            // A chip with its own children is a dropdown; the tree already nests this way, so
-            // no new contract field is needed to mark one.
-            children = sections.orEmpty().mapNotNull { it.toTab() },
+            children = children.orEmpty().mapNotNull { it.toTab() }.distinctBy { it.id },
         )
     }
 }

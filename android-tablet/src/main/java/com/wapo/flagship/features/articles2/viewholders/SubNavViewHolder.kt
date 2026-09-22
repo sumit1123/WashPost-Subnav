@@ -6,7 +6,6 @@ import android.text.SpannableStringBuilder
 import android.text.Spanned
 import android.text.style.ForegroundColorSpan
 import android.view.View
-import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.findViewTreeLifecycleOwner
 import androidx.lifecycle.lifecycleScope
@@ -24,10 +23,15 @@ import com.wapo.flagship.features.articles2.models.SubNav
 import com.wapo.flagship.features.deeplinks.DeepLinksProcessor
 import com.wapo.flagship.features.search2.ui.Search2Activity
 import com.wapo.flagship.util.tracking.Measurement
-import com.washingtonpost.android.R
 import com.washingtonpost.android.databinding.ItemSubNavBinding
 import com.wpds.utils.IconUtils
 
+/**
+ * Dead since article body rendering moved to articles3 -- the adapter that creates this is never
+ * constructed (ArticleContentNativeViewHolder, its only construction site, is entirely commented
+ * out). Kept only because Articles2ItemsRecyclerViewAdapter and MarginItemDecoration still
+ * reference the type. The live implementation is articles3/views/SubNavView.
+ */
 class SubNavViewHolder(
     private val binding: ItemSubNavBinding,
     private val onNavigationBehaviorChanged: ((String?) -> Unit)? = null,
@@ -38,30 +42,10 @@ class SubNavViewHolder(
         item: SubNav,
         position: Int,
     ) {
-        val marginParams = binding.webComponentParent.layoutParams as ViewGroup.MarginLayoutParams
-        if (item.subItem?.widthFactor == "default") {
-            marginParams.setMargins(
-                binding.webComponent.context.resources.getDimensionPixelSize(
-                    R.dimen.native_article_image_graphic_margin,
-                ),
-                0,
-                binding.webComponent.context.resources.getDimensionPixelSize(
-                    R.dimen.native_article_image_graphic_margin,
-                ),
-                0,
-            )
-        }
-        binding.webComponentParent.layoutParams = marginParams
-        binding.webComponent.init(binding.progressbar)
-        item.subItem?.url?.let {
-            val loadedSuccessfully = binding.webComponent.loadComponent(it)
-            if (loadedSuccessfully) {
-                binding.border2.visibility = View.VISIBLE
-            }
-        }
-
-        item.siteMap?.let { siteMap ->
-            binding.root.findActivityOfType<Articles2Activity>()?.fetchElectionChildren(siteMap)
+        // The element carries only the sitemap endpoint, so there is no embed to load here:
+        // fetching the endpoint is what fills the strip.
+        item.url?.let { siteMapUrl ->
+            binding.root.findActivityOfType<Articles2Activity>()?.fetchElectionChildren(siteMapUrl)
         }
 
         updateSubNavElectionConfig()
@@ -75,7 +59,9 @@ class SubNavViewHolder(
             .getConfigSubjectOfType(
                 Constants.ConfigType.ELECTION_SUB_NAV_CONFIG,
             ).subscribe {
-                val children = (it as SiteServiceConfig).sections
+                // The strip is fed by SubNavConfig now; this holder still speaks the old
+                // site-service shape, so it simply renders nothing rather than crashing.
+                val children = (it as? SiteServiceConfig)?.sections.orEmpty()
                 children.firstOrNull()?.let { it1 -> configureSectionText(it1) }
                 children.firstOrNull()?.let { it1 -> configureSearchText(it1) }
                 children.firstOrNull()?.let { it1 -> configureLiveUpdatesText(it1) }

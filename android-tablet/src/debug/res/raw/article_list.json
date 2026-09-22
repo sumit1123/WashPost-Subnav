@@ -42,7 +42,7 @@
   "items": [
     {
       "type": "sub_nav",
-      "siteMap": "https://s3.amazonaws.com/wpmobileprodipad2.0/classic_test/site-mock/site-secondary-list.json",
+      "url": "https://arcmobile.arcpublishing.com/sitemap/v2/prod/washpost/washpost/ElectionsSubnav2026.json",
       "parent": "/elections/election-2024",
       "item": {
         "type": "web_embed",

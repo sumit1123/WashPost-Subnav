@@ -1,93 +1,81 @@
 {
-  "id": "/",
-  "children": [
+  "items": [
     {
-      "id": "/elections/election-2026",
-      "type": "section",
-      "path": "/elections/election-2026",
-      "path_fusion": "/elections/election-2026/",
       "name": "Elections 2026",
-      "nav_name": "Elections 2026",
-      "aliases": [
-        "/elections/election-2026",
-        "/election-2026"
-      ],
       "icon": "election-default",
-      "behavior": "sn_elections_lo",
+      "url": "https://www.washingtonpost.com/elections/election-2026/",
+      "style": "bold",
+      "behavior": "sn_elections_landing"
+    },
+    {
+      "name": "Live Updates",
+      "url": "https://www.washingtonpost.com/elections/2026/live-updates/",
+      "behavior": "sn_elections_live_updates"
+    },
+    {
+      "name": "House",
+      "url": "https://www.washingtonpost.com/elections/2026/house/",
+      "behavior": "sn_elections_house"
+    },
+    {
+      "name": "Senate",
+      "url": "https://www.washingtonpost.com/elections/2026/senate/",
+      "behavior": "sn_elections_senate"
+    },
+    {
+      "name": "Results by State",
+      "url": "https://www.washingtonpost.com/elections/2026/results/",
+      "behavior": "sn_elections_results_by_state",
       "children": [
         {
-          "id": "link-elections-2026-live-updates",
-          "type": "link",
-          "subtype": "luf",
-          "name": "Live Updates",
-          "path": "https://www.washingtonpost.com/elections/2026/11/03/election-updates/",
-          "behavior": "sn_elections_luf"
+          "name": "Arizona",
+          "url": "https://www.washingtonpost.com/elections/2026/arizona/",
+          "behavior": "sn_elections_state_arizona"
         },
         {
-          "id": "link-elections-2026-house",
-          "type": "link",
-          "subtype": "results",
-          "name": "House",
-          "path": "https://www.washingtonpost.com/elections/results/2026/11/03/house/",
-          "behavior": "sn_elections_house"
+          "name": "Georgia",
+          "url": "https://www.washingtonpost.com/elections/2026/georgia/",
+          "behavior": "sn_elections_state_georgia"
         },
         {
-          "id": "link-elections-2026-senate",
-          "type": "link",
-          "subtype": "results",
-          "name": "Senate",
-          "path": "https://www.washingtonpost.com/elections/results/2026/11/03/senate/",
-          "behavior": "sn_elections_senate"
+          "name": "Michigan",
+          "url": "https://www.washingtonpost.com/elections/2026/michigan/",
+          "behavior": "sn_elections_state_michigan"
         },
         {
-          "id": "link-elections-2026-state-control",
-          "type": "link",
-          "subtype": "results",
-          "name": "State Control",
-          "path": "https://www.washingtonpost.com/elections/results/2026/11/03/state-control/",
-          "behavior": "sn_elections_state_control"
+          "name": "Nevada",
+          "url": "https://www.washingtonpost.com/elections/2026/nevada/",
+          "behavior": "sn_elections_state_nevada"
         },
         {
-          "id": "link-elections-2026-results-by-state",
-          "type": "link",
-          "subtype": "results",
-          "name": "Results by State",
-          "path": "https://www.washingtonpost.com/elections/results/2026/11/03/",
-          "behavior": "sn_elections_results_by_state",
-          "children": [
-            {
-              "id": "link-elections-2026-arizona",
-              "type": "link",
-              "subtype": "results",
-              "name": "Arizona",
-              "path": "https://www.washingtonpost.com/elections/results/2026/11/03/arizona/",
-              "behavior": "sn_elections_state_arizona"
-            },
-            {
-              "id": "link-elections-2026-georgia",
-              "type": "link",
-              "subtype": "results",
-              "name": "Georgia",
-              "path": "https://www.washingtonpost.com/elections/results/2026/11/03/georgia/",
-              "behavior": "sn_elections_state_georgia"
-            },
-            {
-              "id": "link-elections-2026-michigan",
-              "type": "link",
-              "subtype": "results",
-              "name": "Michigan",
-              "path": "https://www.washingtonpost.com/elections/results/2026/11/03/michigan/",
-              "behavior": "sn_elections_state_michigan"
-            },
-            {
-              "id": "link-elections-2026-pennsylvania",
-              "type": "link",
-              "subtype": "results",
-              "name": "Pennsylvania",
-              "path": "https://www.washingtonpost.com/elections/results/2026/11/03/pennsylvania/",
-              "behavior": "sn_elections_state_pennsylvania"
-            }
-          ]
+          "name": "North Carolina",
+          "url": "https://www.washingtonpost.com/elections/2026/north-carolina/",
+          "behavior": "sn_elections_state_north_carolina"
+        },
+        {
+          "name": "Ohio",
+          "url": "https://www.washingtonpost.com/elections/2026/ohio/",
+          "behavior": "sn_elections_state_ohio"
+        },
+        {
+          "name": "Pennsylvania",
+          "url": "https://www.washingtonpost.com/elections/2026/pennsylvania/",
+          "behavior": "sn_elections_state_pennsylvania"
+        },
+        {
+          "name": "Texas",
+          "url": "https://www.washingtonpost.com/elections/2026/texas/",
+          "behavior": "sn_elections_state_texas"
+        },
+        {
+          "name": "Virginia",
+          "url": "https://www.washingtonpost.com/elections/2026/virginia/",
+          "behavior": "sn_elections_state_virginia"
+        },
+        {
+          "name": "Wisconsin",
+          "url": "https://www.washingtonpost.com/elections/2026/wisconsin/",
+          "behavior": "sn_elections_state_wisconsin"
         }
       ]
     }
